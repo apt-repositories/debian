@@ -11,6 +11,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
 
+      - name: Track changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+             !apt/**
+
+      - name: Check changed files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "Detected changes outside of /apt/ directory!"
+          exit 1
+
       - name: Select NodeJS version
         uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
         with:
