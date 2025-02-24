@@ -29,5 +29,7 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: Validate
+        env:
+          VALIDATE_ONLY: 1
         run: |
-          npx --package @apt-repositories/generator --command validate ./apt
+          npx @apt-repositories/generator
