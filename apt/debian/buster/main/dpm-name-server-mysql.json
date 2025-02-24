@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpm-name-server-mysql",
+	"source": "lcgdm (1.10.0-2)",
+	"version": "1.10.0-2+b3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libdpm1 (= 1.10.0-2+b3)",
+		"adduser",
+		"libc6 (>= 2.15)",
+		"liblcgdm1",
+		"libmariadb3 (>= 3.0.0)",
+		"libstdc++6 (>= 4.1.1)",
+		"libuuid1 (>= 2.16)",
+		"finger",
+		"default-mysql-client | virtual-mysql-client"
+	],
+	"replaces": [
+		"dpm-mysql-nameserver (<< 1.8.1.2-2~)"
+	],
+	"conflicts": [
+		"dpm-mysql-nameserver (<< 1.8.1.2-2~)"
+	],
+	"installedSize": 344,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "DPM nameserver server with MySQL database backend",
+	"homepage": "http://glite.web.cern.ch/glite/",
+	"filename": "pool/main/l/lcgdm/dpm-name-server-mysql_1.10.0-2+b3_amd64.deb",
+	"size": 116792,
+	"md5": "6242e91a0b1c25c11d2e97347a44290e",
+	"sha256": "c5e703aed958f5a493fa966fd7c2c2eb15835d244ea8e21266faf9892982e4de",
+	"descriptionMd5": "32cef0d9841cb6520d1c46ba025d1248"
+}

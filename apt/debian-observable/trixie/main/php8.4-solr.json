@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php8.4-solr",
+	"source": "php-solr",
+	"version": "2.7.0-6",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"php8.4-common",
+		"php8.4-xml",
+		"php8.4-curl",
+		"phpapi-20240924",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"preDepends": [
+		"php-common (>= 2:69~)"
+	],
+	"replaces": [
+		"php-solr (<< 2.7.0-6~)"
+	],
+	"breaks": [
+		"php-solr (<< 2.7.0-6~)"
+	],
+	"installedSize": 360,
+	"maintainer": "Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>",
+	"description": "PHP extension for communicating with Apache Solr server",
+	"homepage": "http://pecl.php.net/package/solr",
+	"filename": "pool/main/p/php-solr/php8.4-solr_2.7.0-6_amd64.deb",
+	"size": 85976,
+	"md5": "182ec5c1f9d060fb447ee80530199803",
+	"sha256": "d1b95f4f83f1a48e0e8016410a414825e60a4e859efe30d4dc2b93bd1edf43fb",
+	"descriptionMd5": "d404cb885f81e4bef1b57c8bb1c01e9b"
+}]

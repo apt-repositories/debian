@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clblas-client",
+	"source": "clblas",
+	"version": "2.12-6",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblas3 | libblas.so.3",
+		"libboost-program-options1.83.0 (>= 1.83.0)",
+		"libc6 (>= 2.34)",
+		"libclblas2t64 (= 2.12-6)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 14)",
+		"ocl-icd-libopencl1 | libopencl1"
+	],
+	"replaces": [
+		"libclblas-bin (<< 2.10-4)"
+	],
+	"breaks": [
+		"libclblas-bin (<< 2.10-4)"
+	],
+	"installedSize": 666,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "client program for clBLAS",
+	"homepage": "https://github.com/clMathLibraries/clBLAS",
+	"filename": "pool/main/c/clblas/clblas-client_2.12-6_amd64.deb",
+	"size": 132992,
+	"md5": "f5335cb65ffe2828cd4b864a488339e6",
+	"sha256": "64b426f0a3eca99862dafbe78623aa207ed6ebff6c94c39fe5d983d868e965e0",
+	"descriptionMd5": "be1486d102cd9469a45a7115eef5a830"
+}

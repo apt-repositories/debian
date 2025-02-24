@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvolk1-bin",
+	"source": "volk (1.4-3)",
+	"version": "1.4-3+b1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvolk1.4 (= 1.4-3+b1)",
+		"python:any",
+		"libboost-filesystem1.67.0",
+		"libboost-system1.67.0",
+		"libc6 (>= 2.14)",
+		"libgcc1 (>= 1:3.0)",
+		"liborc-0.4-0 (>= 1:0.4.25)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"replaces": [
+		"gnuradio (<= 3.7.2.1)",
+		"libvolk-bin",
+		"libvolk1.0-bin"
+	],
+	"breaks": [
+		"gnuradio (<= 3.7.2.1)",
+		"libvolk-bin",
+		"libvolk1.0-bin"
+	],
+	"installedSize": 260,
+	"maintainer": "A. Maitland Bottoms <bottoms@debian.org>",
+	"description": "vector optimized runtime tools",
+	"homepage": "http://libvolk.org",
+	"filename": "pool/main/v/volk/libvolk1-bin_1.4-3+b1_amd64.deb",
+	"size": 71128,
+	"md5": "c3b5f69cfc381eb241d3c1cb56acc167",
+	"sha256": "da99be1363add8a7ed1fa37d1dfe0cc09bdfdb619ab7258e05f1af79819be95c",
+	"descriptionMd5": "a6a5ca0bf4f690aecdc95ef78b661532"
+}

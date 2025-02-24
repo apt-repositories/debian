@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-ipmi-plugins",
+	"source": "slurm-wlm",
+	"version": "24.11.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libfreeipmi17 (>= 1.4.4)",
+		"libipmimonitoring6 (>= 1.1.5)",
+		"slurm-wlm-basic-plugins (= 24.11.0-2)"
+	],
+	"replaces": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"breaks": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"installedSize": 132,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Slurm IPMI plugins",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/main/s/slurm-wlm/slurm-wlm-ipmi-plugins_24.11.0-2_amd64.deb",
+	"size": 34532,
+	"md5": "809a429a0159ab517892540de306da3b",
+	"sha256": "44bbc1399a8d30e045be54dd4b316f39df82ea0945dc50d29b6a1052cd916ec4",
+	"descriptionMd5": "7de77f0497421507e54ec7a07828bdb5"
+}]

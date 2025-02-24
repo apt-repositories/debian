@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cyrus-imapd",
+	"version": "3.2.6-2+deb11u4",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cyrus-common (= 3.2.6-2+deb11u4)",
+		"libc6 (>= 2.17)",
+		"libcom-err2 (>= 1.43.9)",
+		"libsasl2-2 (>= 2.1.27+dfsg)",
+		"libssl1.1 (>= 1.1.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"rsync"
+	],
+	"replaces": [
+		"cyrus-common (<< 3.2.3~)"
+	],
+	"breaks": [
+		"cyrus-common (<< 3.2.3~)"
+	],
+	"conflicts": [
+		"imap-server"
+	],
+	"installedSize": 484,
+	"maintainer": "Debian Cyrus Team <team+cyrus@tracker.debian.org>",
+	"description": "Cyrus mail system - IMAP support",
+	"homepage": "https://www.cyrusimap.org/",
+	"filename": "pool/updates/main/c/cyrus-imapd/cyrus-imapd_3.2.6-2+deb11u4_amd64.deb",
+	"size": 216508,
+	"sha256": "95bbd70ada317905392732e6e36c224ff7d9bba3d5dd80ad2cfc5c778cd0726d",
+	"descriptionMd5": "2013b72b2b05fdd34a3b3dd1c1ba084e"
+}

@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "logcheck",
+	"version": "1.3.23",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"default-mta | mail-transport-agent",
+		"cron | cron-daemon",
+		"rsyslog | system-log-daemon",
+		"mime-construct",
+		"logtail (>= 1.2.59)",
+		"lockfile-progs"
+	],
+	"recommends": [
+		"logcheck-database (>= 1.3.23)"
+	],
+	"suggests": [
+		"syslog-summary"
+	],
+	"installedSize": 102,
+	"maintainer": "Debian logcheck Team <logcheck@packages.debian.org>",
+	"description": "mails anomalies in the system logfiles to the administrator",
+	"filename": "pool/main/l/logcheck/logcheck_1.3.23_all.deb",
+	"size": 23668,
+	"md5": "6250b17d3f6f28b5853603252c314c5b",
+	"sha256": "b42d4e69dbc802a1655311a4c470ed7b82135ccf9593fdc4e610c70fdf7b06e0",
+	"descriptionMd5": "204144e4246b58634f497c2685d94433"
+}

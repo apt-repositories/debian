@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pacemaker-remote",
+	"source": "pacemaker",
+	"version": "2.1.8-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"pacemaker-common",
+		"pacemaker-resource-agents",
+		"libc6 (>= 2.38)",
+		"libcib27t64 (>= 2.1.4)",
+		"libcrmcommon34t64 (>= 2.1.8~rc1)",
+		"libcrmservice28t64 (>= 2.1.2)",
+		"libglib2.0-0t64 (>= 2.40.0)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"liblrmd28t64 (>= 2.1.1)",
+		"libqb100 (>= 2.0.3)",
+		"libstonithd26t64 (>= 2.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"pacemaker-cli-utils"
+	],
+	"conflicts": [
+		"pacemaker"
+	],
+	"installedSize": 234,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "cluster resource manager proxy daemon for remote nodes",
+	"homepage": "https://www.clusterlabs.org/",
+	"filename": "pool/main/p/pacemaker/pacemaker-remote_2.1.8-1_amd64.deb",
+	"size": 135096,
+	"md5": "98260c2a7e807f1fed193c624067fb79",
+	"sha256": "7a58d8abe4325c07678fc2a53a51ea978771b49bca26f091e709ae0e91af8929",
+	"descriptionMd5": "7435d0ad3daf9d3c185461492d734fd0"
+}

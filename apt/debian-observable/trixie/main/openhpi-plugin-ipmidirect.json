@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openhpi-plugin-ipmidirect",
+	"source": "openhpi",
+	"version": "3.8.0-2.2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libopenhpi3 (= 3.8.0-2.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 5)"
+	],
+	"replaces": [
+		"libopenhpi",
+		"libopenhpi2",
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"breaks": [
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"conflicts": [
+		"libopenhpi",
+		"libopenhpi2"
+	],
+	"installedSize": 392,
+	"maintainer": "Mohan Devarajulu <mohan.devarajulu@hpe.com>",
+	"description": "OpenHPI plugin module for direct IPMI over LAN (RMCP) or SMI",
+	"homepage": "http://openhpi.org",
+	"filename": "pool/main/o/openhpi/openhpi-plugin-ipmidirect_3.8.0-2.2_amd64.deb",
+	"size": 138688,
+	"md5": "46d729d6bb761d9ab831e819a504513b",
+	"sha256": "e08c5c9d021bec2752df2b90feacb0eb616effdddf38f82dea74132702921387",
+	"descriptionMd5": "248b92312ff6938052d3cdbf248d8039"
+}]

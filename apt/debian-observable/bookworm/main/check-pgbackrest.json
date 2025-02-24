@@ -1,0 +1,32 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "check-pgbackrest",
+	"version": "2.3-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libdata-dump-perl",
+		"libjson-perl",
+		"perl"
+	],
+	"enhances": [
+		"pgbackrest"
+	],
+	"breaks": [
+		"pgbackrest (<< 2.28)"
+	],
+	"installedSize": 67,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "pgBackRest backup check plugin for Nagios",
+	"homepage": "https://github.com/pgstef/check_pgbackrest",
+	"filename": "pool/main/c/check-pgbackrest/check-pgbackrest_2.3-1_all.deb",
+	"size": 19660,
+	"md5": "72996723e466b575d4ef67a595248e4c",
+	"sha256": "7a09a21cc8f01d51f05b0a1e121e6faf0b08bdc2f5f4915967464b944d10cc0a",
+	"descriptionMd5": "1236f5d62196200ff665fee37d8152b5"
+}]

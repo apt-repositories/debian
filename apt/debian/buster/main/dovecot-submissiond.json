@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-submissiond",
+	"source": "dovecot",
+	"version": "1:2.3.4.1-5+deb10u6",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-core (= 1:2.3.4.1-5+deb10u6)",
+		"ucf (>= 2.0020)",
+		"libc6 (>= 2.4)"
+	],
+	"replaces": [
+		"dovecot-submission (<< 1:2.3.1-2~)"
+	],
+	"breaks": [
+		"dovecot-submission (<< 1:2.3.1-2~)"
+	],
+	"installedSize": 1138,
+	"maintainer": "Dovecot Maintainers <dovecot@packages.debian.org>",
+	"description": "secure POP3/IMAP server - mail submission agent",
+	"homepage": "http://dovecot.org/",
+	"filename": "pool/main/d/dovecot/dovecot-submissiond_2.3.4.1-5+deb10u6_amd64.deb",
+	"size": 1056764,
+	"md5": "de601faa9e34c84c708ae3c415203a3a",
+	"sha256": "5310d952939ba24325a68e18099425d23fc80aacf742a5bbf096993d0378d9ea",
+	"descriptionMd5": "b7dc853a1d902701365098db008dcd75"
+}

@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-450-vdpau-driver",
+	"source": "nvidia-graphics-drivers-tesla-450",
+	"version": "450.248.02-9",
+	"section": "non-free/video",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvdpau1 (>= 0.9)",
+		"nvidia-tesla-450-alternative (= 450.248.02-9)",
+		"libc6 (>= 2.34)",
+		"libx11-6",
+		"libxext6"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-tesla-450-kernel-dkms (= 450.248.02-9) | nvidia-tesla-450-kernel-450.248.02"
+	],
+	"suggests": [
+		"nvidia-tesla-450-kernel-dkms (>= 450.248.02) | nvidia-tesla-450-kernel-source (>= 450.248.02)"
+	],
+	"installedSize": 975,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "Video Decode and Presentation API for Unix - NVIDIA driver (Tesla 450)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-450/nvidia-tesla-450-vdpau-driver_450.248.02-9_amd64.deb",
+	"size": 593904,
+	"md5": "3a04d892c711c6a75f242e4258c47342",
+	"sha256": "9f0664bc957e5bf64a5599edb15182a83ce3389923304c58482e55d1f389d92c",
+	"descriptionMd5": "1f09b4421e70faf69a38c424b0b5c702"
+}

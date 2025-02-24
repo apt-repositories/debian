@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zutils",
+	"version": "1.14-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"suggests": [
+		"bzip2",
+		"lzip",
+		"xz-utils",
+		"zstd"
+	],
+	"enhances": [
+		"bzip2",
+		"gzip",
+		"lzip",
+		"xz-utils",
+		"zstd"
+	],
+	"breaks": [
+		"gzip (<< 1.12-1.1~)"
+	],
+	"installedSize": 394,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "utilities for dealing with compressed files transparently",
+	"homepage": "http://www.nongnu.org/zutils/zutils.html",
+	"filename": "pool/main/z/zutils/zutils_1.14-1_amd64.deb",
+	"size": 93308,
+	"md5": "506077795c7ff003ad8fd12d116bd610",
+	"sha256": "63b192c03fe9f4dae9a524500476f263048734f10baabdbe20c1a463f148b89d",
+	"descriptionMd5": "c6ce4ae2fffa27ea307125f952ef6d82"
+}

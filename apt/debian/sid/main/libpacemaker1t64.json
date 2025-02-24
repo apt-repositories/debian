@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpacemaker1t64",
+	"source": "pacemaker",
+	"version": "2.1.8-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcib27t64 (>= 2.1.5)",
+		"libcrmcommon34t64 (>= 2.1.8)",
+		"libglib2.0-0t64 (>= 2.28.0)",
+		"liblrmd28t64 (>= 2.1.2)",
+		"libpe-status28t64 (>= 2.1.7)",
+		"libqb100 (>= 2.0.3)",
+		"libstonithd26t64 (>= 2.1.4)",
+		"libxml2 (>= 2.7.4)",
+		"libxslt1.1 (>= 1.1.25)"
+	],
+	"replaces": [
+		"libpacemaker1"
+	],
+	"breaks": [
+		"libpacemaker1 (<< 2.1.8-1)"
+	],
+	"installedSize": 650,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "cluster resource manager utility library",
+	"homepage": "https://www.clusterlabs.org/",
+	"filename": "pool/main/p/pacemaker/libpacemaker1t64_2.1.8-1_amd64.deb",
+	"size": 292732,
+	"md5": "1a77c7ebe197a7703b9df7ea68e17d9c",
+	"sha256": "c3e72e00b59949250c595062d06531f0579ac51f4c115852281ead40d0e70d5d",
+	"descriptionMd5": "f4ab2bb5095d9a8564086b72da88318c"
+}

@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nbdkit",
+	"version": "1.24.1-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.22)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcurl3-gnutls (>= 7.16.2)",
+		"libext2fs2 (>= 1.37)",
+		"libgcc-s1 (>= 3.0)",
+		"libgnutls30 (>= 3.7.0)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libnbd0 (>= 1.4.0)",
+		"libselinux1 (>= 3.1~)",
+		"libssh-4 (>= 0.8.0)",
+		"libstdc++6 (>= 5.2)",
+		"libtorrent-rasterbar10 (>= 1.2.9)",
+		"libzstd1 (>= 1.4.0)",
+		"zlib1g (>= 1:1.2.6)"
+	],
+	"suggests": [
+		"nbdkit-plugin-guestfs",
+		"nbdkit-plugin-libvirt",
+		"nbdkit-plugin-perl",
+		"nbdkit-plugin-python"
+	],
+	"replaces": [
+		"nbdkit-plugin-perl (<< 1.22)"
+	],
+	"breaks": [
+		"nbdkit-plugin-perl (<< 1.22)"
+	],
+	"installedSize": 1946,
+	"maintainer": "Hilko Bengen <bengen@debian.org>",
+	"description": "toolkit for creating NBD servers",
+	"homepage": "https://github.com/libguestfs/nbdkit",
+	"filename": "pool/main/n/nbdkit/nbdkit_1.24.1-2_amd64.deb",
+	"size": 583528,
+	"md5": "8097ac17f60712f2e4c3db9e68912c2e",
+	"sha256": "9c584ac15014884e635f88c0409e08d344480e275b735bc8ae287992de0d5217",
+	"descriptionMd5": "c7a861cc6e7a0f4d763c7d5feb686a79"
+}]

@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-resolved",
+	"source": "systemd",
+	"version": "252.29-1~deb12u1~bpo11+1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libssl1.1 (>= 1.1.1)",
+		"libsystemd-shared (= 252.29-1~deb12u1~bpo11+1)",
+		"systemd (= 252.29-1~deb12u1~bpo11+1)",
+		"default-dbus-system-bus | dbus-system-bus"
+	],
+	"recommends": [
+		"libnss-myhostname",
+		"libnss-resolve"
+	],
+	"suggests": [
+		"polkitd | policykit-1"
+	],
+	"replaces": [
+		"resolvconf",
+		"systemd (<< 251.3-2~)"
+	],
+	"breaks": [
+		"systemd (<< 251.3-2~)"
+	],
+	"conflicts": [
+		"resolvconf"
+	],
+	"installedSize": 810,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "systemd DNS resolver",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd-resolved_252.29-1~deb12u1~bpo11+1_amd64.deb",
+	"size": 304316,
+	"sha256": "48c4b831b55993d09c977656dec3ec7cf270382cbe2e9bb0067fcbc1ab4dafe1",
+	"descriptionMd5": "846dc3eb3129c6a17b29965b209c161e"
+}

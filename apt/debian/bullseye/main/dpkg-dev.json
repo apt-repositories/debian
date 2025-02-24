@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpkg-dev",
+	"source": "dpkg",
+	"version": "1.20.13",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libdpkg-perl (= 1.20.13)",
+		"tar (>= 1.28-1)",
+		"bzip2",
+		"xz-utils",
+		"patch (>= 2.7)",
+		"make",
+		"binutils"
+	],
+	"recommends": [
+		"build-essential",
+		"gcc | c-compiler",
+		"fakeroot",
+		"gnupg",
+		"gpgv",
+		"libalgorithm-merge-perl"
+	],
+	"suggests": [
+		"debian-keyring"
+	],
+	"breaks": [
+		"debhelper (<< 10.10.1~)"
+	],
+	"installedSize": 2617,
+	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
+	"description": "Debian package development tools",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/main/d/dpkg/dpkg-dev_1.20.13_all.deb",
+	"size": 2313796,
+	"md5": "de34e93ea2fa09dc0f6a2c00383e7231",
+	"sha256": "9dd070d482251d91b365703e120d66b75bea067fd5e0f82ec578ec376ee9c986",
+	"descriptionMd5": "2eaf4b4a1cef9584869950f3a52106fc"
+}

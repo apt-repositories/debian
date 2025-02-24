@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclc-13",
+	"source": "llvm-toolchain-13",
+	"version": "1:13.0.1-6~deb11u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libclc-13-dev (= 1:13.0.1-6~deb11u1)",
+		"libclang-common-13-dev"
+	],
+	"replaces": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600",
+		"libclc-x.y"
+	],
+	"breaks": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600"
+	],
+	"conflicts": [
+		"libclc-x.y"
+	],
+	"installedSize": 78254,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "OpenCL C language implementation - platform support",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-13/libclc-13_13.0.1-6~deb11u1_all.deb",
+	"size": 10174392,
+	"md5": "7e07138dc8d74207b01ceccb09a6af64",
+	"sha256": "254fb600d4dfceb5d74b7c6955152d46a9a33347a9287e3428f958e925c4a6b8",
+	"descriptionMd5": "73bf1c1e61845108c59b363de4fd901a"
+}

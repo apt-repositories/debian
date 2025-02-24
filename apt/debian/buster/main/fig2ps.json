@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fig2ps",
+	"version": "1.5-1",
+	"section": "tex",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl-base (>= 5.10.1-9)",
+		"transfig",
+		"texlive-latex-base | tetex-bin (>= 2.0.2-11)",
+		"texlive-latex-recommended | tetex-extra",
+		"texlive-fonts-recommended | tetex-extra",
+		"perl-modules",
+		"texlive-latex-extra | tetex-extra",
+		"texlive-extra-utils | tetex-extra",
+		"ghostscript"
+	],
+	"recommends": [
+		"gv"
+	],
+	"suggests": [
+		"cm-super | lmodern",
+		"xfig"
+	],
+	"replaces": [
+		"texmacs (<= 1.0.3-6)"
+	],
+	"enhances": [
+		"transfig"
+	],
+	"installedSize": 64,
+	"maintainer": "Vincent Fourmond <fourmond@debian.org>",
+	"description": "Converts xfig files into ps, eps or pdf files using LaTeX for processing text",
+	"homepage": "http://sourceforge.net/projects/fig2ps",
+	"filename": "pool/main/f/fig2ps/fig2ps_1.5-1_all.deb",
+	"size": 18804,
+	"md5": "42817d5dfde4da6c43699a43c6297c63",
+	"sha256": "7834ec647d876f42c4ad249f7da1e0e6b3f20fac35f3f8239ed2174544930be4",
+	"descriptionMd5": "9303ae2027d7bfc01717b7f483bc5e5e"
+}

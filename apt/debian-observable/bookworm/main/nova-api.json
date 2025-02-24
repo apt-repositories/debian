@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-api",
+	"source": "nova",
+	"version": "2:26.2.2-1~deb12u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dbconfig-common",
+		"debconf",
+		"iptables",
+		"nova-common (= 2:26.2.2-1~deb12u3)",
+		"python3-pastescript",
+		"uwsgi-plugin-python3",
+		"debconf (>= 0.5) | debconf-2.0",
+		"lsb-base (>= 3.0.6)",
+		"python3:any"
+	],
+	"recommends": [
+		"python3-keystone"
+	],
+	"installedSize": 171,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - compute API frontend",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/updates/main/n/nova/nova-api_26.2.2-1~deb12u3_all.deb",
+	"size": 29576,
+	"sha256": "ec4d0203ca5c587ba355fe95d1a719fdb3fd918a0e456d2a9937ca775574e4a1",
+	"descriptionMd5": "a5840f1bccfc62e9cc93d4bbba487510"
+}]

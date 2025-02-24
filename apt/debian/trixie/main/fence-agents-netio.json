@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fence-agents-netio",
+	"source": "fence-agents",
+	"version": "4.16.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"fence-agents-common (>= 4.16.0-2)",
+		"openssh-client",
+		"python3-pexpect",
+		"telnet"
+	],
+	"replaces": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"breaks": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"installedSize": 21,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "Fence Agents for Red Hat Cluster - Koukaam NETIO-230B agent",
+	"homepage": "https://github.com/ClusterLabs/fence-agents",
+	"filename": "pool/main/f/fence-agents/fence-agents-netio_4.16.0-2_all.deb",
+	"size": 8560,
+	"md5": "9f1eb8721285454c91810c97c15c0bbf",
+	"sha256": "7ca7b84712f8fb135df4e08c94ac171c30ee5d61b7f3f0bf9180b08a2a4d817b",
+	"descriptionMd5": "ce9f33e5baf3114ce1235ad0f71405c2"
+}

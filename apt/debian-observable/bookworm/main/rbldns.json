@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rbldns",
+	"source": "djbdns (1:1.05-15)",
+	"version": "1:1.05-15+b2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.51)",
+		"runit-helper (>= 2.14.0~)",
+		"sysuser-helper (<< 2.0)",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"daemon",
+		"runit"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-46~)"
+	],
+	"installedSize": 116,
+	"maintainer": "Peter Pentchev <roam@debian.org>",
+	"description": "real time blackhole list server",
+	"homepage": "http://cr.yp.to/djbdns.html",
+	"filename": "pool/main/d/djbdns/rbldns_1.05-15+b2_amd64.deb",
+	"size": 30568,
+	"md5": "2a55f18f5dbf2cbedb1f770994fa4f07",
+	"sha256": "8d9ccf6355734e40b34ace5c6d9705503781ad089c03d7dc434de9e1b4ee5674",
+	"descriptionMd5": "55827767e09db5e149bfbcb4ee997932"
+}]

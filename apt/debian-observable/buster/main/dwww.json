@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dwww",
+	"version": "1.13.4+nmu3",
+	"section": "doc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"apache2 | httpd-cgi",
+		"debianutils (>= 2.5)",
+		"doc-base (>= 0.8.12)",
+		"file",
+		"libfile-ncopy-perl",
+		"libmime-types-perl (>= 1.15)",
+		"man-db (>> 2.5.2)",
+		"mime-support",
+		"ucf (>= 3.12)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl",
+		"libc6 (>= 2.14)"
+	],
+	"recommends": [
+		"apt",
+		"dlocate (>= 0.5-0.1)",
+		"info2www",
+		"swish++",
+		"apache2 (>= 2.4.6-4~) | httpd"
+	],
+	"suggests": [
+		"doc-debian",
+		"dpkg-www",
+		"links | www-browser"
+	],
+	"breaks": [
+		"apache2 (<< 2.4.4-6~)"
+	],
+	"installedSize": 426,
+	"maintainer": "Robert Luberda <robert@debian.org>",
+	"description": "Read all on-line documentation with a WWW browser",
+	"filename": "pool/main/d/dwww/dwww_1.13.4+nmu3_amd64.deb",
+	"size": 126044,
+	"md5": "a0d05bdc2aacac41e71296fbe2ed4524",
+	"sha256": "f109925842140e376e37e7739b260e67f4a2f41495ec59a1189d7c7812554f15",
+	"descriptionMd5": "3803e0ba06877c17a22ae6d69bdc4ad9"
+}]

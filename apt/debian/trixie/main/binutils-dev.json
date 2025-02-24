@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-dev",
+	"source": "binutils",
+	"version": "2.44-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils (= 2.44-2)",
+		"libbinutils (= 2.44-2)",
+		"libctf0 (= 2.44-2)",
+		"libctf-nobfd0 (= 2.44-2)",
+		"libsframe1 (= 2.44-2)",
+		"libgprofng0 (= 2.44-2)"
+	],
+	"replaces": [
+		"binutils (<< 2.43.50.20240819)",
+		"libbfd-dev",
+		"libc5-dev"
+	],
+	"conflicts": [
+		"binutils (<< 2.43.50.20240819)",
+		"libbfd-dev"
+	],
+	"installedSize": 72873,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities (BFD development files)",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-dev_2.44-2_amd64.deb",
+	"size": 10789976,
+	"md5": "740a3c4e180ddc175dbe2a67037289f7",
+	"sha256": "fddc06dfe9a6995d13d430ee6f98346b693a8cd8ebf51a56f7bae0af7eca906e",
+	"descriptionMd5": "ddc22c04156534b000b4f021b88a6023"
+}

@@ -1,0 +1,32 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6-dev-sh4-cross",
+	"source": "cross-toolchain-base-ports (70)",
+	"version": "2.40-4cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libc6-sh4-cross (= 2.40-4cross1)",
+		"linux-libc-dev-sh4-cross"
+	],
+	"replaces": [
+		"libc6-sh4-cross (<= 2.32-1)"
+	],
+	"conflicts": [
+		"libc0.3-dev-sh4-cross",
+		"libc6.1-dev-sh4-cross"
+	],
+	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
+	"description": "GNU C Library: Development Libraries and Header Files (for cross-compiling)",
+	"builtUsing": "binutils (= 2.43.50.20241230-1), linux (= 6.12.6-1), gcc-14 (= 14.2.0-12), glibc (= 2.40-4)",
+	"filename": "pool/main/c/cross-toolchain-base-ports/libc6-dev-sh4-cross_2.40-4cross1_all.deb",
+	"size": 1390224,
+	"md5": "e787438cca8c6c8ad55ffb241b8a3f7b",
+	"sha256": "6e98ddc2a673b8d02037e2e8734a6e617e14433b239a01a94f3be6c2ffcd16f5",
+	"descriptionMd5": "fc7d1124da33f2f1ca4b4e0833019db4"
+}

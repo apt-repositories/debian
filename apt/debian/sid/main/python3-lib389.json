@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-lib389",
+	"source": "389-ds-base",
+	"version": "3.1.1+dfsg1-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-argcomplete",
+		"python3-argparse-manpage",
+		"python3-cryptography",
+		"python3-dateutil",
+		"python3-distro",
+		"python3-ldap",
+		"python3-pkg-resources",
+		"python3-pyasn1",
+		"python3-pyasn1-modules",
+		"python3:any",
+		"libnss3-tools",
+		"openssl",
+		"python3-packaging",
+		"python3-pytest"
+	],
+	"replaces": [
+		"389-ds-base (<< 1.4.0.18-1~)",
+		"python-lib389 (<< 1.3.7.8)"
+	],
+	"conflicts": [
+		"389-ds-base (<< 1.4.0.18-1~)",
+		"python-lib389 (<< 1.3.7.8)"
+	],
+	"installedSize": 2394,
+	"maintainer": "Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>",
+	"description": "Python3 module for accessing and configuring the 389 Directory Server",
+	"homepage": "https://directory.fedoraproject.org",
+	"filename": "pool/main/3/389-ds-base/python3-lib389_3.1.1+dfsg1-3_all.deb",
+	"size": 405208,
+	"md5": "fcf772fdc711d3fa7a742238b285fe12",
+	"sha256": "5a5db04f6543dc68fc5d157222fb4f5d77fc35e395287769a7007e254fa2ebd2",
+	"descriptionMd5": "312a10ddcf41c03aed17c8e2759b4410"
+}

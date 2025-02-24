@@ -1,0 +1,59 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "network-manager",
+	"version": "1.42.4-1~bpo11+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaudit1 (>= 1:2.2.1)",
+		"libbluetooth3 (>= 4.91)",
+		"libc6 (>= 2.26)",
+		"libcurl3-gnutls (>= 7.24.0)",
+		"libglib2.0-0 (>= 2.57.2)",
+		"libgnutls30 (>= 3.7.0)",
+		"libjansson4 (>= 2.7)",
+		"libmm-glib0 (>= 1.4.0)",
+		"libndp0 (>= 1.2)",
+		"libnewt0.52 (>= 0.52.21)",
+		"libnm0 (= 1.42.4-1~bpo11+1)",
+		"libpsl5 (>= 0.13.0)",
+		"libreadline8 (>= 6.0)",
+		"libselinux1 (>= 3.1~)",
+		"libsystemd0 (>= 209)",
+		"libteamdctl0 (>= 1.9)",
+		"libudev1 (>= 183)",
+		"default-dbus-system-bus | dbus-system-bus",
+		"udev",
+		"adduser",
+		"polkitd | policykit-1"
+	],
+	"recommends": [
+		"ppp",
+		"dnsmasq-base",
+		"modemmanager",
+		"wireless-regdb",
+		"wpasupplicant",
+		"libpam-systemd"
+	],
+	"suggests": [
+		"libteam-utils",
+		"iptables"
+	],
+	"breaks": [
+		"ppp (>= 2.4.9-2~)",
+		"ppp (<< 2.4.9-1+~)"
+	],
+	"installedSize": 15205,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
+	"description": "network management framework (daemon and userspace tools)",
+	"homepage": "https://wiki.gnome.org/Projects/NetworkManager",
+	"filename": "pool/main/n/network-manager/network-manager_1.42.4-1~bpo11+1_amd64.deb",
+	"size": 3175460,
+	"sha256": "d7f9d3773faa12ba5ebcde7c5058eb1c6b4e5b1e522be547da2c3a4566b461ea",
+	"descriptionMd5": "2432aabb3349a7eaf785a0c8e978adcd"
+}

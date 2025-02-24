@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openmpi-bin",
+	"source": "openmpi",
+	"version": "3.1.3-11",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.8)",
+		"libevent-2.1-6 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-6 (>= 2.1.8-stable)",
+		"libhwloc5 (>= 1.11.12)",
+		"libopenmpi3",
+		"zlib1g (>= 1:1.1.4)",
+		"openmpi-common (>= 3.1.3-11)",
+		"openssh-client | ssh-client"
+	],
+	"recommends": [
+		"libopenmpi-dev"
+	],
+	"suggests": [
+		"gfortran | fortran-compiler"
+	],
+	"replaces": [
+		"libopenmpi-dev (<< 3.0.1~rc2-2)"
+	],
+	"breaks": [
+		"lam4-dev (<< 7.1.4-4)",
+		"libmpich-dev (<< 3.3~b1-5)",
+		"libopenmpi-dev (<< 3.0.1~rc2-2)",
+		"mpich (<< 3.3~b1-5)"
+	],
+	"conflicts": [
+		"openmpi-bin"
+	],
+	"installedSize": 469,
+	"maintainer": "Alastair McKinstry <mckinstry@debian.org>",
+	"description": "high performance message passing library -- binaries",
+	"homepage": "https://www.open-mpi.org/",
+	"filename": "pool/main/o/openmpi/openmpi-bin_3.1.3-11_amd64.deb",
+	"size": 200004,
+	"md5": "90cf247aead7492dead02cf99c139c7c",
+	"sha256": "6c75633235d21d84cff1d6292ae78696ce22d699317699317009f1bc503afe30",
+	"descriptionMd5": "1a00d4dd7be41a0a9fd2a922b4135736"
+}

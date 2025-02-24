@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "coq",
+	"source": "coq (8.12.0-3)",
+	"version": "8.12.0-3+b3",
+	"section": "math",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"coq-theories (= 8.12.0-3+b3)",
+		"libcoq-ocaml-xs455",
+		"libnum-ocaml-80ki3",
+		"ocaml-base-nox-4.11.1",
+		"python3:any",
+		"libc6 (>= 2.29)",
+		"ocaml-nox",
+		"ocaml-findlib"
+	],
+	"suggests": [
+		"coqide | proofgeneral",
+		"ledit | readline-editor",
+		"libcoq-ocaml-dev",
+		"why (>= 2.19)",
+		"coq-doc"
+	],
+	"replaces": [
+		"coq-libs (<< 8.2.pl1)"
+	],
+	"breaks": [
+		"coq-libs (<< 8.2.pl1)"
+	],
+	"installedSize": 358108,
+	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
+	"description": "proof assistant for higher-order logic (toplevel and compiler)",
+	"homepage": "http://coq.inria.fr/",
+	"filename": "pool/main/c/coq/coq_8.12.0-3+b3_amd64.deb",
+	"size": 90453192,
+	"md5": "8b10600f23b7adb63085ed1c9d3a2c15",
+	"sha256": "32024a598cea19f754f6fec49f8b78c09dbfa44244d604b59ef8ba845e11f267",
+	"descriptionMd5": "2c4259e8b83c839ff539d48b854ee31a"
+}]

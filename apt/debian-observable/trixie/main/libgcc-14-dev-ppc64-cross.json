@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-14-dev-ppc64-cross",
+	"source": "gcc-14-cross-ports (9)",
+	"version": "14.2.0-12cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-14-cross-base-ports (= 14.2.0-12cross1)",
+		"libgcc-s1-ppc64-cross (>= 14.2.0-12cross1)",
+		"libgomp1-ppc64-cross (>= 14.2.0-12cross1)",
+		"libitm1-ppc64-cross (>= 14.2.0-12cross1)",
+		"libatomic1-ppc64-cross (>= 14.2.0-12cross1)",
+		"libasan8-ppc64-cross (>= 14.2.0-12cross1)",
+		"liblsan0-ppc64-cross (>= 14.2.0-12cross1)",
+		"libtsan2-ppc64-cross (>= 14.2.0-12cross1)",
+		"libubsan1-ppc64-cross (>= 14.2.0-12cross1)"
+	],
+	"recommends": [
+		"libc6-dev-ppc64-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-ppc64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-ppc64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 13081,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-14 (= 14.2.0-12)",
+	"filename": "pool/main/g/gcc-14-cross-ports/libgcc-14-dev-ppc64-cross_14.2.0-12cross1_all.deb",
+	"size": 1234584,
+	"md5": "4c539f086fbc9e2e5a7b2aa7a0cdf4c8",
+	"sha256": "42494a7eea02316ee891bdfe39f19b664e078eb88c79f81784c49133bf9f4808",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

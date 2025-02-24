@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libwagon-ssh-java",
+	"source": "wagon",
+	"version": "3.5.3-1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libjsch-agent-proxy-java",
+		"libjsch-java",
+		"libplexus-interactivity-api-java",
+		"libslf4j-java",
+		"libwagon-provider-api-java (>= 3.5.3-1)"
+	],
+	"replaces": [
+		"libwagon-java (<< 3.0.0-2~)"
+	],
+	"breaks": [
+		"libwagon-java (<< 3.0.0-2~)"
+	],
+	"installedSize": 107,
+	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
+	"description": "Artifact transport abstraction used in Maven (SSH providers)",
+	"homepage": "http://maven.apache.org/wagon/",
+	"filename": "pool/main/w/wagon/libwagon-ssh-java_3.5.3-1_all.deb",
+	"size": 52288,
+	"md5": "52d19faaa93f6c6be80701950f35762e",
+	"sha256": "f7c441021efc052cfcec83898d32b6d5683e800cdc9bcf18fbacb1e55c09b06a",
+	"descriptionMd5": "b613e06c8387cc42ecf11c7012ecc0d3"
+}

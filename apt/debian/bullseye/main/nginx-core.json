@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-core",
+	"source": "nginx",
+	"version": "1.18.0-6.1+deb11u3",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnginx-mod-http-geoip (= 1.18.0-6.1+deb11u3)",
+		"libnginx-mod-http-image-filter (= 1.18.0-6.1+deb11u3)",
+		"libnginx-mod-http-xslt-filter (= 1.18.0-6.1+deb11u3)",
+		"libnginx-mod-mail (= 1.18.0-6.1+deb11u3)",
+		"libnginx-mod-stream (= 1.18.0-6.1+deb11u3)",
+		"libnginx-mod-stream-geoip (= 1.18.0-6.1+deb11u3)",
+		"nginx-common (= 1.18.0-6.1+deb11u3)",
+		"iproute2",
+		"libc6 (>= 2.28)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpcre3",
+		"libssl1.1 (>= 1.1.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"nginx-doc (= 1.18.0-6.1+deb11u3)"
+	],
+	"replaces": [
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"breaks": [
+		"nginx (<< 1.4.5-1)",
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"conflicts": [
+		"nginx-extras",
+		"nginx-light"
+	],
+	"installedSize": 1274,
+	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
+	"description": "nginx web/proxy server (standard version)",
+	"homepage": "https://nginx.net",
+	"filename": "pool/main/n/nginx/nginx-core_1.18.0-6.1+deb11u3_amd64.deb",
+	"size": 515340,
+	"md5": "27699e06d1ef3296a3b7c22fe74a96d7",
+	"sha256": "3d36d36ee74a62037159aeae87c51d2535bf7195a0fb325bde90a325034fc152",
+	"descriptionMd5": "833f582e79cd25877205297e9c608e5b"
+}

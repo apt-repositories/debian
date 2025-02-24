@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xapp-sn-watcher",
+	"source": "xapp",
+	"version": "2.4.2-3",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"default-dbus-session-bus | dbus-session-bus",
+		"xapps-common (>= 2.4.2-3)",
+		"libc6 (>= 2.34)",
+		"libcairo2 (>= 1.2.4)",
+		"libdbusmenu-gtk3-4 (>= 0.4.2)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0 (>= 2.57.2)",
+		"libgtk-3-0 (>= 3.9.10)",
+		"libxapp1 (>= 2.4.0)"
+	],
+	"suggests": [
+		"mate-xapp-status-applet"
+	],
+	"replaces": [
+		"libxapp1 (<< 2.2.6-1~)",
+		"xapp (<< 2.4.2-1~)",
+		"xapps-common (<< 2.4.2-1~)"
+	],
+	"breaks": [
+		"libxapp1 (<< 2.2.6-1~)",
+		"xapp (<< 2.4.2-1~)",
+		"xapps-common (<< 2.4.2-1~)"
+	],
+	"installedSize": 131,
+	"maintainer": "Debian Cinnamon Team <debian-cinnamon@lists.debian.org>",
+	"description": "D-Bus session bus service to support the XApp library",
+	"homepage": "http://cinnamon.linuxmint.com/",
+	"filename": "pool/main/x/xapp/xapp-sn-watcher_2.4.2-3_amd64.deb",
+	"size": 32040,
+	"md5": "5b94d3e492d6a64f3a059852cc0b6676",
+	"sha256": "089d47c369c39bc13950debd2d747e7ddf582e0a3694b5d13c7fcb914934b4b3",
+	"descriptionMd5": "8013ad701e46f82eb1d1572f47eb32c6"
+}]

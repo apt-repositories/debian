@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nsca-ng-client",
+	"source": "nsca-ng",
+	"version": "1.6-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libev4 (>= 1:4.04)",
+		"libssl1.1 (>= 1.1.0)"
+	],
+	"replaces": [
+		"nsca (<< 2.9.1-1)"
+	],
+	"breaks": [
+		"nsca (<< 2.9.1-1)"
+	],
+	"conflicts": [
+		"nsca-client"
+	],
+	"installedSize": 113,
+	"maintainer": "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>",
+	"description": "Send monitoring commands to NSCA-ng server",
+	"homepage": "https://github.com/weiss/nsca-ng",
+	"filename": "pool/main/n/nsca-ng/nsca-ng-client_1.6-4_amd64.deb",
+	"size": 41592,
+	"md5": "76fc1ff1cb1c4f9600628129b2d70010",
+	"sha256": "68af4c51f059f2959ac835fcc25cafdeffedb6494263729eb68698fb3b5a7bda",
+	"descriptionMd5": "892b8ee5ba536cf257e83dc0dc1955e1"
+}

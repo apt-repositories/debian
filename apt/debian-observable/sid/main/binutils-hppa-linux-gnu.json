@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-hppa-linux-gnu",
+	"source": "binutils",
+	"version": "2.44-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.44-2)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.44-2)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 5783,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities, for hppa-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-hppa-linux-gnu_2.44-2_amd64.deb",
+	"size": 1295900,
+	"md5": "162216bf25f53c145332c8ceb0be1ccf",
+	"sha256": "eb8bdf5d66b90b6e7804f6a674f4505e52e1b7209acc9b3bb7cc3cc9d9c1b615",
+	"descriptionMd5": "f5fe4ad0c7c0676b4edfb3c4e6e98c0b"
+}]

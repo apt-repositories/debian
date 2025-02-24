@@ -1,0 +1,30 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-persistenced",
+	"version": "535.230.02-1",
+	"section": "contrib/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-cfg1 | libnvidia-tesla-535-cfg1 | libnvidia-cfg.so.1 | libnvidia-cfg1-any",
+		"adduser",
+		"libc6 (>= 2.34)",
+		"libtirpc3t64 (>= 1.0.2)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 91,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "daemon to maintain persistent software state in the NVIDIA driver",
+	"homepage": "https://github.com/NVIDIA/nvidia-persistenced",
+	"filename": "pool/contrib/n/nvidia-persistenced/nvidia-persistenced_535.230.02-1_amd64.deb",
+	"size": 27400,
+	"md5": "22f51f5c99a7b32eba182225c13ba992",
+	"sha256": "a70b43da4379c141d6ecbe0888619c5740000fc322b8581272ccc5053645c42b",
+	"descriptionMd5": "14c6e143827155e1cde8662563f7ee85"
+}]

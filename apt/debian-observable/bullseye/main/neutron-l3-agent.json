@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "neutron-l3-agent",
+	"source": "neutron",
+	"version": "2:17.2.1-0+deb11u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"debconf",
+		"haproxy",
+		"iputils-arping",
+		"keepalived",
+		"neutron-common (= 2:17.2.1-0+deb11u1)",
+		"radvd",
+		"sudo",
+		"lsb-base (>= 3.0.6)"
+	],
+	"recommends": [
+		"openvswitch-switch"
+	],
+	"conflicts": [
+		"neutron-vpn-agent"
+	],
+	"installedSize": 39,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack virtual network service - l3 agent",
+	"homepage": "http://neutron.openstack.org/",
+	"filename": "pool/updates/main/n/neutron/neutron-l3-agent_17.2.1-0+deb11u1_all.deb",
+	"size": 17224,
+	"sha256": "50a17b5ddbbe2dd801e291391134a2398bc809ae4231923895d90879454880de",
+	"descriptionMd5": "d05a7678d49ef9a85809ada9d821ab32"
+}]

@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-common",
+	"version": "225+deb11u1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"debconf (>= 0.5.00) | debconf-2.0",
+		"lsb-base (>= 3.0-3)",
+		"perl (>= 5.14)",
+		"postgresql-client-common (= 225+deb11u1)",
+		"ssl-cert (>= 1.0.11)",
+		"ucf"
+	],
+	"recommends": [
+		"e2fsprogs",
+		"logrotate"
+	],
+	"suggests": [
+		"libjson-perl"
+	],
+	"replaces": [
+		"postgresql-server-dev-all (<< 204)"
+	],
+	"breaks": [
+		"postgresql-9.1 (<< 9.1.1-3~)",
+		"postgresql-server-dev-all (<< 204)",
+		"systemd (<< 204)"
+	],
+	"installedSize": 635,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "PostgreSQL database-cluster manager",
+	"filename": "pool/main/p/postgresql-common/postgresql-common_225+deb11u1_all.deb",
+	"size": 237648,
+	"md5": "655bd52ec47e381d81d1242817160b55",
+	"sha256": "817ca20eda189249eba4648d64ca8f82b0d0a7e506197282bb4e3f92ad51f47e",
+	"descriptionMd5": "1baa00ede83212202318224f2d18d771"
+}

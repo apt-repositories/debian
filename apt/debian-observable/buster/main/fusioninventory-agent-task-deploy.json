@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fusioninventory-agent-task-deploy",
+	"source": "fusioninventory-agent",
+	"version": "1:2.4.2-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"fusioninventory-agent (>= 1:2.4.2-1)",
+		"libjson-pp-perl",
+		"liburi-perl",
+		"libfile-copy-recursive-perl",
+		"libdigest-sha-perl",
+		"libparallel-forkmanager-perl"
+	],
+	"replaces": [
+		"libfusioninventory-agent-task-deploy-perl (<< 1:2.3.0-1)"
+	],
+	"breaks": [
+		"libfusioninventory-agent-task-deploy-perl (<< 1:2.3.0-1)"
+	],
+	"installedSize": 182,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "software deployment support for FusionInventory",
+	"homepage": "http://fusioninventory.org/",
+	"filename": "pool/main/f/fusioninventory-agent/fusioninventory-agent-task-deploy_2.4.2-1_all.deb",
+	"size": 68272,
+	"md5": "3b92eb2d11c22f4c39264eaebf27fa27",
+	"sha256": "abab98614e57ae5f547d78a117a6b78b4f6a6b94ffbb4cba0ea1136533883ab7",
+	"descriptionMd5": "900457bf0e6d3824bbc7836b38181127"
+}]

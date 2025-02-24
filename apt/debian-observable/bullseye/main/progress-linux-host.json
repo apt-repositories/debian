@@ -1,0 +1,54 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "progress-linux-host",
+	"source": "progress-linux-metapackages",
+	"version": "20210101-2",
+	"section": "metapackages",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"progress-linux-base-system",
+		"cryptsetup-bin",
+		"keyutils",
+		"plymouth",
+		"firmware-linux-free",
+		"spectre-meltdown-checker",
+		"dmidecode",
+		"ethtool",
+		"gpm",
+		"hdparm",
+		"ntp",
+		"nvme-cli",
+		"parted",
+		"rng-tools | rng-tools5",
+		"smartmontools"
+	],
+	"suggests": [
+		"fonts-powerline-extra",
+		"firmware-linux-nonfree",
+		"firmware-misc-nonfree",
+		"iucode-tool",
+		"amd64-microcode",
+		"intel-microcode",
+		"firmware-ast",
+		"intel-isdct",
+		"supermicro-ipmicfg"
+	],
+	"enhances": [
+		"progress-linux",
+		"progress-linux-base-system"
+	],
+	"installedSize": 12,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "Progress Linux - Host Metapackage",
+	"homepage": "https://progress-linux.org",
+	"filename": "pool/main/p/progress-linux-metapackages/progress-linux-host_20210101-2_amd64.deb",
+	"size": 4532,
+	"md5": "8e09f2bb5cc859cd574de3b77150cb2a",
+	"sha256": "0fe8c8f2d59739711960466e352985139964d2ffab38ce438b88197a99559ea9",
+	"descriptionMd5": "bf71449c233aa5a1db011923fad738f6"
+}]

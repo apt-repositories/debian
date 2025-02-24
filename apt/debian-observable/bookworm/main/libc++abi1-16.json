@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++abi1-16",
+	"source": "llvm-toolchain-16",
+	"version": "1:16.0.6-15~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libunwind-16 (>= 1:16.0.6)"
+	],
+	"replaces": [
+		"libc++abi-x.y"
+	],
+	"breaks": [
+		"libc++abi1 (<< 44)"
+	],
+	"conflicts": [
+		"libc++abi-x.y"
+	],
+	"installedSize": 277,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM low level support for a standard C++ library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-16/libc++abi1-16_16.0.6-15~deb12u1_amd64.deb",
+	"size": 92808,
+	"md5": "d53fcbde7b30967945ac320e96d156a1",
+	"sha256": "7589c729be5287adfd6802dbc86f60942a2ef9212400d36db1d65fb4ae8f1413",
+	"descriptionMd5": "6a197f8a8ae8385e801b369ea97886ce"
+}]

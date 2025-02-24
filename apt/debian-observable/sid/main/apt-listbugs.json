@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apt-listbugs",
+	"version": "0.1.45",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ruby:any",
+		"ruby-debian",
+		"apt",
+		"ruby-gettext",
+		"ruby-xmlparser",
+		"ruby-soap4r",
+		"ruby-unicode",
+		"distro-info"
+	],
+	"recommends": [
+		"ruby-httpclient",
+		"ruby-sys-proctable"
+	],
+	"suggests": [
+		"reportbug",
+		"w3m | www-browser",
+		"sensible-utils",
+		"xdg-utils"
+	],
+	"breaks": [
+		"libapt-pkg4.12 (<< 0.9.11)",
+		"libruby (<< 1:3.1)"
+	],
+	"installedSize": 514,
+	"maintainer": "Francesco Poli (wintermute) <invernomuto@paranoici.org>",
+	"description": "tool which lists critical bugs before each APT installation",
+	"homepage": "https://salsa.debian.org/frx-guest/apt-listbugs",
+	"filename": "pool/main/a/apt-listbugs/apt-listbugs_0.1.45_all.deb",
+	"size": 88652,
+	"md5": "151ad7c0f7437ce6a703063e54be976e",
+	"sha256": "8c6a0ad97072ee83a83ddb1187b6d2f7af4bc3b88a45b6286519ef70a7a0c4bf",
+	"descriptionMd5": "9599644a3b04285b977f7788c5a3058e"
+}]

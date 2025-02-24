@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "netdata-core",
+	"source": "netdata",
+	"version": "1.37.1-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libcap2-bin",
+		"lsb-base",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libjson-c5 (>= 0.15)",
+		"liblz4-1 (>= 1.8.2)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnetfilter-acct1 (>= 1.0.3)",
+		"libssl3 (>= 3.0.0)",
+		"libuuid1 (>= 2.16)",
+		"libuv1 (>= 1.4.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"curl"
+	],
+	"suggests": [
+		"apcupsd",
+		"iproute2",
+		"iw",
+		"lm-sensors",
+		"nc"
+	],
+	"replaces": [
+		"netdata-core-no-sse",
+		"netdata-plugins-bash (<< 1.19.0-2~)",
+		"netdata-plugins-python (<< 1.17.0-1~)"
+	],
+	"breaks": [
+		"netdata-plugins-bash (<< 1.19.0-2~)",
+		"netdata-plugins-python (<< 1.17.0-1~)"
+	],
+	"conflicts": [
+		"netdata-core-no-sse"
+	],
+	"installedSize": 6921,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "real-time performance monitoring (core)",
+	"homepage": "https://github.com/netdata/netdata",
+	"filename": "pool/main/n/netdata/netdata-core_1.37.1-2_amd64.deb",
+	"size": 1553212,
+	"md5": "0ed0dd5665d668b4c2fbffabb20e4b30",
+	"sha256": "a793439cd93d0bcd0d9f0d2819c5d9eed4634e47344338c044f186a65d5b5026",
+	"descriptionMd5": "87b39f1a30af62cc8cd399fb0a356478"
+}

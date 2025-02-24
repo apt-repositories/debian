@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-nonglvnd-vulkan-icd",
+	"source": "nvidia-graphics-drivers",
+	"version": "418.226.00-3",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-nonglvnd-vulkan-common",
+		"libvulkan1 (>= 1.0.42)",
+		"libgl1-nvidia-glx (= 418.226.00-3)",
+		"libnvidia-glvkspirv (= 418.226.00-3)"
+	],
+	"recommends": [
+		"libnvidia-cbl (= 418.226.00-3)",
+		"libnvidia-rtcore (= 418.226.00-3)"
+	],
+	"suggests": [
+		"vulkan-utils"
+	],
+	"enhances": [
+		"libvulkan1"
+	],
+	"conflicts": [
+		"nvidia-vulkan-icd"
+	],
+	"installedSize": 222,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA Vulkan ICD (non-GLVND variant)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-nonglvnd-vulkan-icd_418.226.00-3_amd64.deb",
+	"size": 209168,
+	"md5": "4f06c8197540a25a91428ad6abedcc72",
+	"sha256": "4d6bfe7d25e1b748624e56eb3dd4e8139c7870a2c190020847d070af728fbcc3",
+	"descriptionMd5": "7bc36e5ac81cabd7f3686624c4753edb"
+}]

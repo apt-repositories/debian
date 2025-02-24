@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute",
+	"source": "nova",
+	"version": "2:22.4.0-1~deb11u5",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"conntrack",
+		"cgroup-tools",
+		"curl",
+		"dosfstools",
+		"ebtables",
+		"fdisk | util-linux (<< 2.29.2-3~)",
+		"gawk",
+		"iptables",
+		"kpartx",
+		"nova-common (= 2:22.4.0-1~deb11u5)",
+		"nova-compute-kvm | nova-compute-hypervisor",
+		"open-iscsi",
+		"ovmf",
+		"parted",
+		"qemu-utils",
+		"rsync",
+		"vlan",
+		"lsb-base (>= 3.0.6)",
+		"python3:any"
+	],
+	"recommends": [
+		"dmidecode"
+	],
+	"installedSize": 65,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - compute node",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/updates/main/n/nova/nova-compute_22.4.0-1~deb11u5_all.deb",
+	"size": 30912,
+	"sha256": "32290aca3f034f4d57a076b21669b43e2f8f6affa36bf734a320a221a2ed141f",
+	"descriptionMd5": "abef552695fcdbc4d11dcd8d9a15c1b6"
+}

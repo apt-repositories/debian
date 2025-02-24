@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "relion-cuda",
+	"version": "3.1.0-2",
+	"section": "contrib/science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openmpi-gcc | openmpi-bin",
+		"libc6 (>= 2.29)",
+		"libcufft10",
+		"libfftw3-double3 (>= 3.3.5)",
+		"libfftw3-single3 (>= 3.3.5)",
+		"libgcc-s1 (>= 3.0)",
+		"libgomp1 (>= 4.9)",
+		"libopenmpi3 (>= 4.0.5)",
+		"libstdc++6 (>= 9)",
+		"libtiff5 (>= 4.0.3)"
+	],
+	"replaces": [
+		"relion-bin",
+		"relion-bin+gui",
+		"relion-bin+mpi",
+		"relion-bin+mpi+gui"
+	],
+	"breaks": [
+		"relion-bin",
+		"relion-bin+gui",
+		"relion-bin+mpi",
+		"relion-bin+mpi+gui"
+	],
+	"conflicts": [
+		"relion"
+	],
+	"installedSize": 125367,
+	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
+	"description": "parallel toolkit for 3D reconstructions in cryo-electron microscopy",
+	"homepage": "https://www2.mrc-lmb.cam.ac.uk/relion/index.php/Main_Page",
+	"filename": "pool/contrib/r/relion-cuda/relion-cuda_3.1.0-2_amd64.deb",
+	"size": 20611300,
+	"md5": "36bb3afd68afed4753129e8c7924e582",
+	"sha256": "3cc8d568c3af712acad6cbb8f20cfd9c5129b288f6c92a5b035251350631ce97",
+	"descriptionMd5": "926faa0581731ada5e31e85456293fdb"
+}

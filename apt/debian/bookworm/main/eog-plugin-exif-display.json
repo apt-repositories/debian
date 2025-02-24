@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "eog-plugin-exif-display",
+	"source": "eog-plugins",
+	"version": "42.3-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libcairo2 (>= 1.2.4)",
+		"libexif12 (>= 0.6.21-1~)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0 (>= 2.38.0)",
+		"libgtk-3-0 (>= 3.14.0)",
+		"libpeas-1.0-0 (>= 1.0.0)",
+		"dconf-gsettings-backend | gsettings-backend",
+		"eog (>= 3.20.3-1~)",
+		"eog-plugins-common (>= 42.3-1)"
+	],
+	"replaces": [
+		"eog-plugins (<< 3.16.6-2~)"
+	],
+	"enhances": [
+		"eog"
+	],
+	"breaks": [
+		"eog-plugins (<< 3.16.6-2~)"
+	],
+	"installedSize": 75,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "Exif Display plugin for GNOME Image Viewer",
+	"homepage": "https://wiki.gnome.org/Apps/EyeOfGnome/Plugins",
+	"filename": "pool/main/e/eog-plugins/eog-plugin-exif-display_42.3-1_amd64.deb",
+	"size": 18768,
+	"md5": "7faa5eca0451871cb9214a7537f8fc83",
+	"sha256": "bc6b3e4a4452d58f0e9a059d5a9c3143e089756ee6a4f9f42423701dbd905fe8",
+	"descriptionMd5": "115f7997fdff2b587695e1b6d75b2e01"
+}

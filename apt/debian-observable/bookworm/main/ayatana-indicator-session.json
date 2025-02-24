@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ayatana-indicator-session",
+	"version": "22.9.1-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ayatana-indicator-common (>= 0.8.0)",
+		"gsettings-desktop-schemas",
+		"systemd",
+		"dconf-gsettings-backend | gsettings-backend",
+		"init-system-helpers (>= 1.52)",
+		"libayatana-common0 (>= 0.9.5)",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0 (>= 2.70.0)"
+	],
+	"recommends": [
+		"yelp"
+	],
+	"suggests": [
+		"apport",
+		"gnome-screensaver | mate-screensaver",
+		"mate-indicator-applet | xfce4-indicator-plugin | indicator-renderer",
+		"unity-control-center | gnome-control-center | mate-control-center | lomiri-system-settings",
+		"unity-control-center-signon | gnome-control-center-signon | mate-control-center | lomiri-system-settings",
+		"lightdm",
+		"zenity"
+	],
+	"replaces": [
+		"indicator-session"
+	],
+	"breaks": [
+		"indicator-session"
+	],
+	"installedSize": 1307,
+	"maintainer": "Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>",
+	"description": "Ayatana Indicator showing session management, status and user switching",
+	"homepage": "https://github.com/AyatanaIndicators/ayatana-indicator-session",
+	"filename": "pool/main/a/ayatana-indicator-session/ayatana-indicator-session_22.9.1-1_amd64.deb",
+	"size": 186160,
+	"md5": "e4235200e1a108227e4aa9a11a08f305",
+	"sha256": "e858e0d20a562cfc76a249eba3468ba547f9dba6cc93b168f3d0dba3cbf50beb",
+	"descriptionMd5": "da7da35c28f0cd49ca996d2036c95a64"
+}]

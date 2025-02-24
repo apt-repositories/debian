@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-starlette",
+	"source": "starlette",
+	"version": "0.41.3-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-anyio",
+		"python3-typing-extensions | python3-supported-min (>= 3.10)",
+		"python3:any"
+	],
+	"recommends": [
+		"python3-uvicorn | python3-daphne",
+		"python3-aiofiles",
+		"python3-h11",
+		"python3-itsdangerous",
+		"python3-jinja2",
+		"python3-multipart (<< 0.1) | python3-python-multipart",
+		"python3-yaml"
+	],
+	"suggests": [
+		"python3-databases"
+	],
+	"breaks": [
+		"python3-fastapi (<< 0.91.0-1~)"
+	],
+	"installedSize": 291,
+	"maintainer": "Piotr Ożarowski <piotr@debian.org>",
+	"description": "ASGI library ideal for building high performance asyncio services",
+	"homepage": "https://www.starlette.io/",
+	"filename": "pool/main/s/starlette/python3-starlette_0.41.3-2_all.deb",
+	"size": 51212,
+	"md5": "3afd2fd13057ad86845aecb478f89c3e",
+	"sha256": "569f37935c25858431e8ff99ae5360ff27dcc291e9a9462b5bf766526ef58661",
+	"descriptionMd5": "97e426dcd54d67f5b2f64d7d9535faef"
+}]

@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libdpkg-perl",
+	"source": "dpkg",
+	"version": "1.20.10",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"dpkg (>= 1.18.11)"
+	],
+	"recommends": [
+		"libfile-fcntllock-perl",
+		"liblocale-gettext-perl",
+		"bzip2",
+		"xz-utils"
+	],
+	"suggests": [
+		"debian-keyring",
+		"gnupg",
+		"gpgv",
+		"gcc | c-compiler",
+		"binutils",
+		"patch",
+		"sensible-utils",
+		"git",
+		"bzr"
+	],
+	"breaks": [
+		"dgit (<< 3.13~)",
+		"pkg-kde-tools (<< 0.15.28~)"
+	],
+	"installedSize": 2583,
+	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
+	"description": "Dpkg perl modules",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/updates/main/d/dpkg/libdpkg-perl_1.20.10_all.deb",
+	"size": 1545040,
+	"sha256": "c3eff1bc40b28bde5b9e87940a8c2576c13bd5d26997dcafd480da102f806a3b",
+	"descriptionMd5": "fc07f0c7c95a4c2e478014327b0bc0a1"
+}

@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "prometheus-node-exporter-collectors",
+	"version": "0+git20210115.7d89f19-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"daemon | systemd-sysv",
+		"moreutils",
+		"prometheus-node-exporter"
+	],
+	"recommends": [
+		"dbus",
+		"python3",
+		"smartmontools"
+	],
+	"replaces": [
+		"prometheus-node-exporter (<< 0.18.1+ds-2~)"
+	],
+	"breaks": [
+		"prometheus-node-exporter (<< 0.18.1+ds-2~)"
+	],
+	"installedSize": 126,
+	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
+	"description": "Supplemental textfile collector scripts for Prometheus node_exporter",
+	"homepage": "https://github.com/prometheus-community/node-exporter-textfile-collector-scripts",
+	"filename": "pool/main/p/prometheus-node-exporter-collectors/prometheus-node-exporter-collectors_0+git20210115.7d89f19-1_all.deb",
+	"size": 26116,
+	"md5": "aec99bd2919bb986bc9dc8469e768fb4",
+	"sha256": "7be1adc638fe225273e605b721076c18dc2af8be96c498860bec6c14286d20a8",
+	"descriptionMd5": "a0e33c65384acc786c0e717e0ee65c4e"
+}]

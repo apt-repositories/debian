@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.9.10+bpo-amd64",
+	"source": "linux-signed-amd64 (6.9.10+1~bpo12+1)",
+	"version": "6.9.10-1~bpo12+1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.9",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.9.10+bpo-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.9.10+bpo-amd64-unsigned"
+	],
+	"installedSize": 100568,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.9 for 64-bit PCs (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.9.10-1~bpo12+1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.9.10+bpo-amd64_6.9.10-1~bpo12+1_amd64.deb",
+	"size": 100230576,
+	"sha256": "89ed9763503d9a2926d9f6e766e476c3b1da66176f86ae33ef43ca2a7234bc5e",
+	"descriptionMd5": "5b555c83df2ea1a57759701349014acf"
+}

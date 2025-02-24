@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-live",
+	"source": "dracut",
+	"version": "106-5",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dmsetup",
+		"dracut-core"
+	],
+	"recommends": [
+		"dracut-network"
+	],
+	"suggests": [
+		"isomd5sum"
+	],
+	"replaces": [
+		"dracut-core (<< 050-1)",
+		"dracut-network (<< 050-1)"
+	],
+	"breaks": [
+		"dracut-core (<< 050-1)",
+		"dracut-network (<< 050-1)"
+	],
+	"installedSize": 80,
+	"maintainer": "Thomas Lange <lange@debian.org>",
+	"description": "dracut is an event driven initramfs infrastructure (live image modules)",
+	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
+	"filename": "pool/main/d/dracut/dracut-live_106-5_all.deb",
+	"size": 19472,
+	"md5": "017a4dfc67dd8e90683c3d2af82e73b1",
+	"sha256": "6a275f81ccd0624a668b098d85f65ad3827e95411a1e8e5d99b9f726c912d4b7",
+	"descriptionMd5": "82eda9955b37992c0f2f77558a84b7d8"
+}]

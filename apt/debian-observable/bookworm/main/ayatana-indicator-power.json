@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ayatana-indicator-power",
+	"version": "22.9.5-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libayatana-common0 (>= 0.9.5)",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0 (>= 2.39.4)",
+		"libnotify4 (>= 0.7.0)",
+		"dconf-gsettings-backend | gsettings-backend",
+		"init-system-helpers (>= 1.52)",
+		"ayatana-indicator-common (>= 0.8.0)",
+		"upower | repowerd"
+	],
+	"recommends": [
+		"mate-indicator-applet | xfce4-indicator-plugin | lomiri",
+		"zenity"
+	],
+	"suggests": [
+		"lomiri-system-compositor",
+		"mate-control-center | xfce4-settings | unity-control-center | gnome-control-center | lomiri-system-settings",
+		"mate-power-manager | xfce4-power-manager | switchboard-plug-power | gnome-power-statistics | lomiri-system-settings"
+	],
+	"replaces": [
+		"indicator-power"
+	],
+	"breaks": [
+		"indicator-power"
+	],
+	"installedSize": 760,
+	"maintainer": "Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>",
+	"description": "Ayatana Indicator showing power state",
+	"homepage": "https://github.com/AyatanaIndicators/ayatana-indicator-power",
+	"filename": "pool/main/a/ayatana-indicator-power/ayatana-indicator-power_22.9.5-1_amd64.deb",
+	"size": 91004,
+	"md5": "5081c464fd323f31d98c93728f20ffd9",
+	"sha256": "e5d803ed4826df91553220c865441669ecfd579f64d87f42400b07b67bbb7840",
+	"descriptionMd5": "13ec3b44e2e34db44d2c25d21d937658"
+}]

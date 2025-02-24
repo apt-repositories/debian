@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-lxc",
+	"source": "libvirt",
+	"version": "11.0.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.0.0-2)",
+		"libvirt-daemon (= 11.0.0-2)",
+		"libvirt-daemon-driver-network (= 11.0.0-2)",
+		"libvirt0 (= 11.0.0-2)",
+		"logrotate",
+		"systemd-container | sysvinit-core",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libfuse3-3 (>= 3.2.3)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libtirpc3t64 (>= 1.0.2)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 435,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "Virtualization daemon LXC connection driver",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-lxc_11.0.0-2_amd64.deb",
+	"size": 122892,
+	"md5": "d3de8f212624cd06bbdd7869b4034a54",
+	"sha256": "0a0317462ced7ee5d9b2f5eae42a5f50927dec7a7ea6ffa5aabf241b792fced8",
+	"descriptionMd5": "2cc07557cd5de83a9972e42c6de8aaa2"
+}

@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "open-infrastructure-system-config",
+	"source": "open-infrastructure-system-tools",
+	"version": "20190301-lts1-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"systemd"
+	],
+	"recommends": [
+		"dbus",
+		"iproute2 | iproute",
+		"keyboard-configuration",
+		"locales | locales-all",
+		"sudo",
+		"user-setup"
+	],
+	"suggests": [
+		"pciutils",
+		"wget"
+	],
+	"replaces": [
+		"live-config",
+		"live-config-doc",
+		"live-config-systemd",
+		"live-config-sysvinit"
+	],
+	"conflicts": [
+		"live-config",
+		"live-config-doc",
+		"live-config-systemd",
+		"live-config-sysvinit"
+	],
+	"installedSize": 153,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "Configure Debian-based system images",
+	"homepage": "https://open-infrastructure.net/software/system-tools",
+	"filename": "pool/main/o/open-infrastructure-system-tools/open-infrastructure-system-config_20190301-lts1-2_all.deb",
+	"size": 44388,
+	"md5": "559913c76a332f1c4f6055440f8f92d4",
+	"sha256": "ed9b030d6c06082180c38ae0d55d89981a1928b83311b936717d9955b54773f4",
+	"descriptionMd5": "b0e6fc1d1ad5a20734c39375f7fd00fa"
+}

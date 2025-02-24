@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "iipimage-server",
+	"source": "iipimage",
+	"version": "1.0-3",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libapache2-mod-fcgid | lighttpd",
+		"libc6 (>= 2.14)",
+		"libfcgi0ldbl",
+		"libgcc1 (>= 1:3.0)",
+		"libgomp1 (>= 4.9)",
+		"libjpeg62-turbo (>= 1.3.1)",
+		"libmemcached11",
+		"libstdc++6 (>= 5.2)",
+		"libtiff5 (>= 4.0.3)"
+	],
+	"recommends": [
+		"imagemagick (>= 6.4.7~)",
+		"libvips-tools"
+	],
+	"suggests": [
+		"iipimage-doc",
+		"memcached"
+	],
+	"installedSize": 350,
+	"maintainer": "Mathieu Malaterre <malat@debian.org>",
+	"description": "Web-based streamed viewing and zooming of ultra high-resolution images",
+	"homepage": "http://iipimage.sourceforge.net/",
+	"filename": "pool/main/i/iipimage/iipimage-server_1.0-3_amd64.deb",
+	"size": 138712,
+	"md5": "60a202f48c14fc5dbac72e9be43086d2",
+	"sha256": "ee0d8463b130c6db180162deb50bc05c3ee60416ed03987a048015a5137efd66",
+	"descriptionMd5": "6cfbb1b2ac0ede0f37af3b0af3cd5504"
+}]

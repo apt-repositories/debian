@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libextractor3",
+	"source": "libextractor",
+	"version": "1:1.13-8",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libapparmor1 (>= 2.6~devel)",
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libltdl7 (>= 2.4.7)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libextractor-plugins-misc | libextractor-plugins"
+	],
+	"suggests": [
+		"libextractor-java",
+		"libextractor-plugins-all",
+		"python3-extractor"
+	],
+	"replaces": [
+		"libextractor-plugin-av"
+	],
+	"breaks": [
+		"libextractor-plugin-av"
+	],
+	"installedSize": 593,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "extracts meta-data from files of arbitrary type (library)",
+	"homepage": "https://www.gnu.org/software/libextractor/",
+	"filename": "pool/main/libe/libextractor/libextractor3_1.13-8_amd64.deb",
+	"size": 116876,
+	"md5": "7c792f1394f853595abcc00612c89359",
+	"sha256": "8d388a5caa126afbeee0223dab4a066f81a62019f0e6517baac797585e0e556b",
+	"descriptionMd5": "d1d17dbcec68888bc0c385256f22bb15"
+}]

@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fwknop-server",
+	"source": "fwknop",
+	"version": "2.6.10-16",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iptables",
+		"libfko3 (= 2.6.10-16)",
+		"lsb-base (>= 3.0-6)",
+		"libc6 (>= 2.34)",
+		"libpcap0.8 (>= 0.9.8)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"fwknop-apparmor-profile"
+	],
+	"installedSize": 253,
+	"maintainer": "Francois Marier <francois@debian.org>",
+	"description": "FireWall KNock OPerator server side - C version",
+	"homepage": "https://www.cipherdyne.com/fwknop/",
+	"filename": "pool/main/f/fwknop/fwknop-server_2.6.10-16_amd64.deb",
+	"size": 102868,
+	"md5": "515bbe05b0bec90c22459598df081886",
+	"sha256": "dc20f2a10c78b68e2af7ff305e12affbb1a54946da66b997852d93125462fb2e",
+	"descriptionMd5": "c694b7b8c77e0124be3c4eafe1bebec8"
+}

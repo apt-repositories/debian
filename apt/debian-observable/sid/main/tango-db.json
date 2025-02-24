@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tango-db",
+	"source": "tango",
+	"version": "10.0.2+dfsg1-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dbconfig-mysql | dbconfig-no-thanks",
+		"libtango-tools",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libmariadb3 (>= 3.0.0)",
+		"libomniorb4-3t64 (>= 4.3.2+ds1)",
+		"libomnithread4 (>= 4.3.2+ds1)",
+		"libstdc++6 (>= 13.1)",
+		"libtango10 (>= 10.0.2+dfsg1)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"default-mysql-client"
+	],
+	"installedSize": 1239,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "TANGO distributed control system - database server",
+	"homepage": "https://www.tango-controls.org",
+	"filename": "pool/main/t/tango/tango-db_10.0.2+dfsg1-1_amd64.deb",
+	"size": 211164,
+	"md5": "306212662bc27927ee5713b6da1f092a",
+	"sha256": "3a4d30183e56babc2f9e1cd21ec05afc33faca2bf0e83f2c5687ff13d80483de",
+	"descriptionMd5": "61ba4846bb4d6244151ee89c4256100e"
+}]

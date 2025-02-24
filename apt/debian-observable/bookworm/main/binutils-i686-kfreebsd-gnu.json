@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-i686-kfreebsd-gnu",
+	"source": "binutils",
+	"version": "2.40-2",
+	"section": "devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.40-2)",
+		"libbinutils (>= 2.39.50)",
+		"libc6 (>= 2.36)",
+		"libgcc-s1 (>= 4.2)",
+		"libjansson4 (>= 2.14)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.40-2)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 13485,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities, for i686-kfreebsd-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-i686-kfreebsd-gnu_2.40-2_amd64.deb",
+	"size": 2562936,
+	"md5": "d2a40f056168d1013c633e8b9349a97c",
+	"sha256": "ee4002ce0692dca87e322140efc6a31138521479b4e512e269f7e54d2ff37ebb",
+	"descriptionMd5": "b101ac7fc9931a1a7099bf540f2d31fc"
+}]

@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sqwebmail",
+	"source": "courier (1.0.6-1)",
+	"version": "6.0.0+1.0.6-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"apache2 | httpd-cgi",
+		"courier-base (= 1.0.6-1)",
+		"cron",
+		"debconf (>= 0.5) | debconf-2.0",
+		"default-mta | mail-transport-agent",
+		"expect",
+		"iamerican | ispell-dictionary",
+		"ispell",
+		"maildrop",
+		"sysvinit-utils (>= 2.88dsf-50) | init-d-script",
+		"courier-authlib (>= 0.66.4-5~)",
+		"libc6 (>= 2.15)",
+		"libcourier-unicode4 (>= 1.4)",
+		"libfam0",
+		"libgdbm6 (>= 1.16)",
+		"libidn11 (>= 1.13)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libpcre3"
+	],
+	"recommends": [
+		"courier-pcp"
+	],
+	"suggests": [
+		"courier-doc",
+		"gnupg"
+	],
+	"installedSize": 1318,
+	"maintainer": "Markus Wanner <markus@bluegap.ch>",
+	"description": "Courier mail server - webmail server",
+	"homepage": "http://www.courier-mta.org/",
+	"filename": "pool/main/c/courier/sqwebmail_6.0.0+1.0.6-1_amd64.deb",
+	"size": 464968,
+	"md5": "ed4f9ccc2f043d887c920009e04deb5c",
+	"sha256": "156e437e32b188818f3ebe9a68b8473c25a241099663456eca043997169fc54a",
+	"descriptionMd5": "ba58b55a2bbe8efe6abfe55d02dd61cc"
+}

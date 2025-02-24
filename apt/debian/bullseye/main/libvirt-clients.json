@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-clients",
+	"source": "libvirt",
+	"version": "7.0.0-3+deb11u3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt0 (= 7.0.0-3+deb11u3)",
+		"sensible-utils",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0 (>= 2.28.0)",
+		"libreadline8 (>= 6.0)",
+		"libxml2 (>= 2.9.2+really2.9.1+dfsg1-0.2)"
+	],
+	"suggests": [
+		"libvirt-daemon (= 7.0.0-3+deb11u3)",
+		"libvirt-login-shell (= 7.0.0-3+deb11u3)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-qemu (<< 6.9.0-2~)"
+	],
+	"installedSize": 1131,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "Programs for the libvirt library",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-clients_7.0.0-3+deb11u3_amd64.deb",
+	"size": 453056,
+	"md5": "35b0301c3de09599a560ce2f12498a06",
+	"sha256": "7635fbfaa314a9dd1c1e55b63f4f250daec179e9a68472c4ec5e21d5a12e964d",
+	"descriptionMd5": "fef902cf44d3e9aa677b809e73dc3cc9"
+}

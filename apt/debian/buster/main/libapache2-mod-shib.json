@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libapache2-mod-shib",
+	"source": "shibboleth-sp",
+	"version": "3.0.4+dfsg1-1+deb10u2",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libshibsp-plugins (= 3.0.4+dfsg1-1+deb10u2)",
+		"shibboleth-sp-utils (= 3.0.4+dfsg1-1+deb10u2)",
+		"apache2-api-20120211",
+		"apache2-bin (>= 2.4.16)",
+		"libc6 (>= 2.14)",
+		"libgcc1 (>= 1:3.0)",
+		"libgssapi-krb5-2 (>= 1.6.dfsg.2)",
+		"libshibsp8 (>= 3.0.4+dfsg1)",
+		"libstdc++6 (>= 5.2)",
+		"libxerces-c3.2",
+		"libxmltooling8"
+	],
+	"recommends": [
+		"apache2 (>= 2.4.6-4~) | httpd"
+	],
+	"replaces": [
+		"libapache2-mod-shib2 (<< 3~)"
+	],
+	"breaks": [
+		"libapache2-mod-shib2 (<< 3~)"
+	],
+	"installedSize": 242,
+	"maintainer": "Debian Shib Team <pkg-shibboleth-devel@lists.alioth.debian.org>",
+	"description": "Federated web single sign-on system (Apache module)",
+	"homepage": "http://shibboleth.net/",
+	"filename": "pool/main/s/shibboleth-sp/libapache2-mod-shib_3.0.4+dfsg1-1+deb10u2_amd64.deb",
+	"size": 81048,
+	"md5": "0e41805ad3690996428a7cb96b6aceb9",
+	"sha256": "4276d0aab2d89df6d2cabe3539a5c270123116ef9e9ace9e6a66a0768740088f",
+	"descriptionMd5": "77446271d8362079ad5a7a6a90b712bc"
+}

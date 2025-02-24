@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-riscv64-linux-gnu",
+	"source": "binutils",
+	"version": "2.40-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.40-2)",
+		"libbinutils (>= 2.39.50)",
+		"libc6 (>= 2.34)",
+		"libjansson4 (>= 2.14)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.40-2)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 8902,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities, for riscv64-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-riscv64-linux-gnu_2.40-2_amd64.deb",
+	"size": 1292940,
+	"md5": "3c3b56547df79c9f08627bacd044d1d1",
+	"sha256": "b17d62dc462573702aa3f72919ea24d2b976c843a22a25b881fba8bfbbc92825",
+	"descriptionMd5": "59fff13b596b2ef3111f365a3641f639"
+}

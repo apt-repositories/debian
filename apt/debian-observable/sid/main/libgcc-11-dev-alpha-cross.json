@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-alpha-cross",
+	"source": "gcc-11-cross-ports (19)",
+	"version": "11.5.0-2cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base-ports (= 11.5.0-2cross1)",
+		"libgcc-s1-alpha-cross (>= 11.5.0-2cross1)",
+		"libgomp1-alpha-cross (>= 11.5.0-2cross1)",
+		"libitm1-alpha-cross (>= 11.5.0-2cross1)",
+		"libatomic1-alpha-cross (>= 11.5.0-2cross1)"
+	],
+	"recommends": [
+		"libc6.1-dev-alpha-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan0-alpha-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-alpha-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 1701,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-2)",
+	"filename": "pool/main/g/gcc-11-cross-ports/libgcc-11-dev-alpha-cross_11.5.0-2cross1_all.deb",
+	"size": 280996,
+	"md5": "8dbbdc45fa6886903ff7d97bd0b10759",
+	"sha256": "18b5d48fc5a91a82d90b233d68752c6e6e78237e1cf23690f8f8a5a11985e48a",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "globus-gram-job-manager-lsf",
+	"version": "3.0-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl",
+		"globus-gram-job-manager (>= 13)",
+		"globus-gram-job-manager-scripts (>= 4)",
+		"globus-gass-cache-program (>= 5)",
+		"globus-gatekeeper (>= 9)"
+	],
+	"recommends": [
+		"globus-gram-job-manager-lsf-setup-poll | globus-gram-job-manager-lsf-setup-seg"
+	],
+	"replaces": [
+		"globus-gram-job-manager-setup-lsf (<< 2.6)",
+		"globus-gram-job-manager-setup-lsf-doc (<< 2.6)"
+	],
+	"conflicts": [
+		"globus-gram-job-manager-setup-lsf (<< 2.6)",
+		"globus-gram-job-manager-setup-lsf-doc (<< 2.6)"
+	],
+	"installedSize": 43,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "Grid Community Toolkit - LSF Job Manager Support",
+	"homepage": "https://github.com/gridcf/gct/",
+	"filename": "pool/main/g/globus-gram-job-manager-lsf/globus-gram-job-manager-lsf_3.0-1_all.deb",
+	"size": 8536,
+	"md5": "63bb650da283ba6c419bc0c1b6cb0b38",
+	"sha256": "6a658f0216ccfa371ddabd33708def497dede9016a6a071b7f188f90d2e8d59c",
+	"descriptionMd5": "9630efa3187169f4e06d05b7d45f51fc"
+}

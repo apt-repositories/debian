@@ -1,0 +1,68 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "squid",
+	"version": "4.6-1+deb10u7",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.27)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libdb5.3",
+		"libecap3 (>= 1.0.1)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc1 (>= 1:3.0)",
+		"libgnutls30 (>= 3.6.6)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.10+dfsg~)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libltdl7 (>= 2.4.6)",
+		"libnetfilter-conntrack3",
+		"libnettle6",
+		"libpam0g (>= 0.99.7.1)",
+		"libsasl2-2 (>= 2.1.27+dfsg)",
+		"libstdc++6 (>= 5.2)",
+		"libxml2 (>= 2.7.4)",
+		"netbase",
+		"logrotate (>= 3.5.4-1)",
+		"squid-common (>= 4.6-1+deb10u7)",
+		"lsb-base",
+		"libdbi-perl"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"recommends": [
+		"libcap2-bin",
+		"ca-certificates"
+	],
+	"suggests": [
+		"squidclient",
+		"squid-cgi",
+		"squid-purge",
+		"resolvconf (>= 0.40)",
+		"smbclient",
+		"ufw",
+		"winbind"
+	],
+	"replaces": [
+		"squid3"
+	],
+	"conflicts": [
+		"squid3 (<< 4.6-1+deb10u7)"
+	],
+	"installedSize": 8388,
+	"maintainer": "Luigi Gangitano <luigi@debian.org>",
+	"description": "Full featured Web Proxy cache (HTTP proxy)",
+	"homepage": "http://www.squid-cache.org",
+	"filename": "pool/main/s/squid/squid_4.6-1+deb10u7_amd64.deb",
+	"size": 2647420,
+	"md5": "72ef3abda2c8ace3ea9d296b841b88e8",
+	"sha256": "87539f0647759bd1dbccf512590b88d055a0457f03355d1a5763729bbb42fcf8",
+	"descriptionMd5": "e16fd83d5a06b2907b1758817744f070"
+}]

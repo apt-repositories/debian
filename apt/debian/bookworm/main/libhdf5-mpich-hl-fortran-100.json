@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libhdf5-mpich-hl-fortran-100",
+	"source": "hdf5",
+	"version": "1.10.8+repack1-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgfortran5 (>= 8)",
+		"libhdf5-mpich-fortran-102 (>= 1.10.2)",
+		"libhdf5-mpich-hl-100 (>= 1.8.13)"
+	],
+	"replaces": [
+		"libhdf5-mpich-100",
+		"libhdf5-mpich-101",
+		"libhdf5-mpich-102",
+		"libhdf5-mpich-103 (<< 1.10.5)"
+	],
+	"conflicts": [
+		"libhdf5-mpich-100",
+		"libhdf5-mpich-101",
+		"libhdf5-mpich-102",
+		"libhdf5-mpich-103 (<< 1.10.5)"
+	],
+	"installedSize": 226,
+	"maintainer": "Gilles Filippini <pini@debian.org>",
+	"description": "HDF5 High Level Fortran runtime files - MPICH2 version",
+	"homepage": "http://hdfgroup.org/HDF5/",
+	"filename": "pool/main/h/hdf5/libhdf5-mpich-hl-fortran-100_1.10.8+repack1-1_amd64.deb",
+	"size": 44576,
+	"md5": "99232ed12b2592e08b6743e5d1292fe9",
+	"sha256": "c35b81556743c431dfe50bb2db6e82aa3a6b8131cae05aa83f0a93990c963b54",
+	"descriptionMd5": "363e82069cc95487ea9ae7c16576ac3f"
+}

@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-sysv",
+	"source": "systemd",
+	"version": "257.3-1",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"systemd (= 257.3-1)"
+	],
+	"preDepends": [
+		"systemd"
+	],
+	"recommends": [
+		"libpam-systemd",
+		"libnss-systemd"
+	],
+	"replaces": [
+		"sysvinit-core"
+	],
+	"conflicts": [
+		"bfh-container (<< 20211009-22~)",
+		"file-rc",
+		"initscripts",
+		"insserv",
+		"molly-guard (<< 0.8.2~)",
+		"orphan-sysvinit-scripts",
+		"progress-linux-container (<< 20221002-11~)",
+		"startpar",
+		"systemd-shim",
+		"sysv-rc",
+		"sysvinit-core"
+	],
+	"installedSize": 90,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "system and service manager - SysV compatibility symlinks",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-sysv_257.3-1_amd64.deb",
+	"size": 61420,
+	"md5": "f42f7486735a211233912babd98f3208",
+	"sha256": "3210e945a631381edefb61dc5ba29b3d900cbb0b5fbea9ab4f295b9c68cc3134",
+	"descriptionMd5": "d704d23b3cdeb076982e788442f6eee1"
+}

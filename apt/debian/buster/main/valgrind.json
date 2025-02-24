@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "valgrind",
+	"version": "1:3.14.0-3",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libc6-dbg"
+	],
+	"recommends": [
+		"valgrind-dbg",
+		"gdb"
+	],
+	"suggests": [
+		"valgrind-mpi",
+		"kcachegrind",
+		"alleyoop",
+		"valkyrie (>> 1.3.0)"
+	],
+	"replaces": [
+		"valgrind-dev"
+	],
+	"breaks": [
+		"valgrind-dev"
+	],
+	"installedSize": 80468,
+	"maintainer": "Alessandro Ghedini <ghedo@debian.org>",
+	"description": "instrumentation framework for building dynamic analysis tools",
+	"homepage": "http://www.valgrind.org/",
+	"filename": "pool/main/v/valgrind/valgrind_3.14.0-3_amd64.deb",
+	"size": 15700872,
+	"md5": "2d85921810cc00297c1a0d25b6f95147",
+	"sha256": "6b3a0c5b05c32b6f2d47586aefd529040069d53a30b53250085314b465c674de",
+	"descriptionMd5": "0cb016d4f438ed8069cda723e3bb7786"
+}

@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-libnvme",
+	"source": "libnvme",
+	"version": "1.11.1-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvme1t64 (= 1.11.1-2)",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libc6 (>= 2.14)"
+	],
+	"replaces": [
+		"python3-nvme"
+	],
+	"breaks": [
+		"python3-nvme (<< 1.4~)"
+	],
+	"installedSize": 366,
+	"maintainer": "Daniel Baumann <daniel@debian.org>",
+	"description": "NVMe management library (Python)",
+	"homepage": "https://github.com/linux-nvme/libnvme",
+	"filename": "pool/main/libn/libnvme/python3-libnvme_1.11.1-2_amd64.deb",
+	"size": 68332,
+	"md5": "378d4b9a43164ef6a1ac7adcf392223f",
+	"sha256": "2fb033078e7d4e417b7fdae96c63f1513c6a43318f1f59b41594457e01443d96",
+	"descriptionMd5": "0bdf36219a8ddfa4b378a3b1f438af39"
+}

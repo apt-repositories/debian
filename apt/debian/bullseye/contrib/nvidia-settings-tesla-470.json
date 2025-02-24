@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-settings-tesla-470",
+	"version": "470.141.03-1~deb11u1",
+	"section": "contrib/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-tesla-470-alternative",
+		"libc6 (>= 2.29)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0 (>= 2.16.0)",
+		"libgtk-3-0 (>= 3.0.0)",
+		"libjansson4 (>= 2.3)",
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libx11-6 (>= 2:1.4.99.1)",
+		"libxext6",
+		"libxxf86vm1"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"libgl1-nvidia-tesla-470-glvnd-glx",
+		"nvidia-tesla-470-vdpau-driver",
+		"libnvidia-tesla-470-ml1"
+	],
+	"conflicts": [
+		"nvidia-settings-gtk-470.141.03"
+	],
+	"installedSize": 1696,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "tool for configuring the NVIDIA graphics driver (Tesla 470 version)",
+	"homepage": "https://download.nvidia.com/XFree86/nvidia-settings/",
+	"filename": "pool/contrib/n/nvidia-settings-tesla-470/nvidia-settings-tesla-470_470.141.03-1~deb11u1_amd64.deb",
+	"size": 790728,
+	"md5": "53359718ab13fe0e9d27411f54a8cb44",
+	"sha256": "640f152f6f07a1fced15e78919943e2ffd393842ae6353f65d84288c9b5c2acf",
+	"descriptionMd5": "fcd1b705759eb8fbe320ae9f51a3caf4"
+}

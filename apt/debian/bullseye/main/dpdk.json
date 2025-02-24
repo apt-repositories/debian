@@ -1,0 +1,69 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpdk",
+	"version": "20.11.10-1~deb11u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.2-14)",
+		"pci.ids | hwdata",
+		"pciutils",
+		"procps",
+		"python3:any"
+	],
+	"recommends": [
+		"librte-mempool21",
+		"librte-mempool-ring21",
+		"librte-net-af-packet21",
+		"librte-net-bond21",
+		"librte-net-e1000-21",
+		"librte-net-fm10k21",
+		"librte-net-i40e21",
+		"librte-net-ixgbe21",
+		"librte-net-kni21",
+		"librte-net-mlx4-21",
+		"librte-net-mlx5-21",
+		"librte-net-netvsc21",
+		"librte-net-pcap21",
+		"librte-net-tap21",
+		"librte-net-thunderx21",
+		"librte-net-vdev-netvsc21",
+		"librte-net-vhost21",
+		"librte-net-virtio21",
+		"librte-net-vmxnet3-21",
+		"python3-pyelftools"
+	],
+	"suggests": [
+		"dpdk-doc",
+		"dpdk-kmods-dkms",
+		"librte-meta-baseband",
+		"librte-meta-bus",
+		"librte-meta-compress",
+		"librte-meta-crypto",
+		"librte-meta-event",
+		"librte-meta-mempool",
+		"librte-meta-net",
+		"librte-meta-raw",
+		"librte-meta-allpmds"
+	],
+	"replaces": [
+		"dpdk-dev (<< 18.11)"
+	],
+	"breaks": [
+		"dpdk-dev (<< 18.11-4~)"
+	],
+	"installedSize": 126,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (runtime)",
+	"homepage": "https://www.dpdk.org",
+	"filename": "pool/main/d/dpdk/dpdk_20.11.10-1~deb11u1_amd64.deb",
+	"size": 45668,
+	"md5": "b1a330c1b964e13c074e7caf5243b255",
+	"sha256": "870dd1dab94239d0898edfe3447c889c14b5c03cdf8f72e312a68cc286685649",
+	"descriptionMd5": "cb8a15fa900de86d21d3a722f3b66d95"
+}

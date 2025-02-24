@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-imap",
+	"source": "courier (1.0.6-1)",
+	"version": "5.0.6+1.0.6-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"courier-base (= 1.0.6-1)",
+		"debconf | debconf-2.0",
+		"default-mta | mail-transport-agent",
+		"sysvinit-utils (>= 2.88dsf-50) | init-d-script",
+		"courier-authlib (>= 0.66.4-5~)",
+		"libc6 (>= 2.15)",
+		"libcourier-unicode4 (>= 1.4)",
+		"libfam0",
+		"libgdbm6 (>= 1.16)",
+		"libidn11 (>= 1.13)"
+	],
+	"suggests": [
+		"courier-doc",
+		"imap-client"
+	],
+	"replaces": [
+		"courier-imap-ssl (<< 4.16.2+0.75.0-1~)",
+		"imap-server"
+	],
+	"breaks": [
+		"courier-imap-ssl (<< 4.16.2+0.75.0-1~)"
+	],
+	"conflicts": [
+		"imap-server"
+	],
+	"installedSize": 564,
+	"maintainer": "Markus Wanner <markus@bluegap.ch>",
+	"description": "Courier mail server - IMAP server",
+	"homepage": "http://www.courier-mta.org/",
+	"filename": "pool/main/c/courier/courier-imap_5.0.6+1.0.6-1_amd64.deb",
+	"size": 249676,
+	"md5": "5b1ac3113b4c0450f37885988db3f0c9",
+	"sha256": "f86b98ad25157460ffa03975ff0bed5eab817b82a5d390679e4e4d45684fc44a",
+	"descriptionMd5": "aedad44242f18297b70663ef077f0e63"
+}

@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libfabric1",
+	"source": "libfabric",
+	"version": "1.17.0-3.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ibverbs-providers (>= 43)",
+		"libatomic1 (>= 4.8)",
+		"libc6 (>= 2.38)",
+		"libibverbs1 (>= 35)",
+		"libpsm-infinipath1 (>= 3.3+7.gec1d6d2)",
+		"libpsm2-2 (>= 11.2.68)",
+		"librdmacm1t64 (>= 23)"
+	],
+	"replaces": [
+		"libfabric-dev (<< 1.6.1-4)"
+	],
+	"breaks": [
+		"libfabric-dev (<< 1.6.1-4)"
+	],
+	"installedSize": 1762,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "libfabric communication library",
+	"homepage": "https://ofiwg.github.io/libfabric/",
+	"filename": "pool/main/libf/libfabric/libfabric1_1.17.0-3.1_amd64.deb",
+	"size": 630620,
+	"md5": "1f0b67f131951fef18e267362a9a8b1a",
+	"sha256": "8e7ad3e370062a3f88f0202bbe77ccf3dc6170807de9039a45f25b0cf6bbd93e",
+	"descriptionMd5": "23efe94450e753061e8395ccfd5a60a0"
+}

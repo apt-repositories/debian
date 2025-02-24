@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openstack-proxy-node",
+	"source": "openstack-meta-packages",
+	"version": "0.34",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"aodh-api",
+		"aodh-evaluator",
+		"aodh-notifier",
+		"ceilometer-agent-central",
+		"glance",
+		"heat-api",
+		"heat-api-cfn",
+		"heat-engine",
+		"neutron-dhcp-agent",
+		"neutron-l3-agent",
+		"neutron-metadata-agent",
+		"neutron-plugin-openvswitch",
+		"neutron-plugin-openvswitch-agent | neutron-openvswitch-agent",
+		"neutron-server",
+		"nova-api",
+		"nova-conductor",
+		"nova-consoleproxy",
+		"nova-scheduler",
+		"openstack-dashboard-apache",
+		"openstack-pkg-tools",
+		"placement-api"
+	],
+	"preDepends": [
+		"openstack-cloud-identity"
+	],
+	"installedSize": 8,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "Metapackage to install an Openstack proxy node",
+	"homepage": "https://salsa.debian.org/openstack-team/debian/openstack-meta-packages",
+	"filename": "pool/main/o/openstack-meta-packages/openstack-proxy-node_0.34_all.deb",
+	"size": 2772,
+	"md5": "2dd30d019bdf68a6014cdb1ced57fade",
+	"sha256": "b6d28c7a305ddaa88a2247af6ace10d32e8b5d142e0dca85b62f393b24f9e6d9",
+	"descriptionMd5": "42360502818b3b39df3946feb027011b"
+}

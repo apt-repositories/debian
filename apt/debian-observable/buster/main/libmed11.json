@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmed11",
+	"source": "med-fichier",
+	"version": "4.0.0+repack-7",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgcc1 (>= 1:3.0)",
+		"libgfortran5 (>= 8)",
+		"libhdf5-openmpi-103 (>= 1.10.3)",
+		"libopenmpi3",
+		"libquadmath0 (>= 4.6)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"suggests": [
+		"libmed-doc",
+		"libmed-tools"
+	],
+	"replaces": [
+		"libmed1",
+		"libmed1v5 (= 4.0.0+repack-1)"
+	],
+	"breaks": [
+		"libmed1",
+		"libmed1v5 (= 4.0.0+repack-1)"
+	],
+	"installedSize": 1476,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Library to exchange meshed data (Fortran version)",
+	"homepage": "http://www.salome-platform.org/user-section/about/med",
+	"filename": "pool/main/m/med-fichier/libmed11_4.0.0+repack-7_amd64.deb",
+	"size": 440684,
+	"md5": "af9f2f9b9892d60fd1b9c3878731f9c4",
+	"sha256": "3ceaa32a015e36de1082bb4022e7dd2111d6108b472c5f981292dddb9be7be7b",
+	"descriptionMd5": "2f0d6f36c3259dd9231f7dde9469055f"
+}]

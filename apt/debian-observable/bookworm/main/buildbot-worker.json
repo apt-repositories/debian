@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "buildbot-worker",
+	"source": "buildbot",
+	"version": "3.7.0-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-autobahn (>= 0.16.0)",
+		"python3-future",
+		"python3-msgpack",
+		"python3-twisted (>= 17.9.0)",
+		"python3:any",
+		"passwd",
+		"lsb-base"
+	],
+	"recommends": [
+		"bzr | subversion | cvs | mercurial | darcs | git"
+	],
+	"replaces": [
+		"buildbot-slave (<< 1.0)",
+		"python3-buildbot-worker (<< 1.7.0)"
+	],
+	"breaks": [
+		"buildbot-slave (<< 1.0)",
+		"python3-buildbot-worker (<< 1.7.0)"
+	],
+	"installedSize": 323,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
+	"description": "System to automate the compile/test cycle (worker agent)",
+	"homepage": "https://buildbot.net",
+	"filename": "pool/main/b/buildbot/buildbot-worker_3.7.0-2_all.deb",
+	"size": 64300,
+	"md5": "3371db5690ce75eb8ac02275cbff3e62",
+	"sha256": "1175f1fa62f6125b8cf93acb564a2ce2abf18f8497ddfc3bab210f5dd39398f3",
+	"descriptionMd5": "b6738df3137c94f3611025766ef92ec5"
+}]

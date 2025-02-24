@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "kactivitymanagerd",
+	"version": "5.27.5-2",
+	"section": "kde",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libqt5sql5-sqlite",
+		"kio",
+		"libc6 (>= 2.34)",
+		"libkf5configcore5 (>= 5.102.0~)",
+		"libkf5coreaddons5 (>= 5.102.0~)",
+		"libkf5crash5 (>= 5.102.0~)",
+		"libkf5globalaccel-bin",
+		"libkf5globalaccel5 (>= 5.102.0~)",
+		"libkf5i18n5 (>= 5.102.0~)",
+		"libkf5kiocore5 (>= 5.102.0~)",
+		"libkf5service-bin",
+		"libkf5service5 (>= 5.69.0)",
+		"libkf5windowsystem5 (>= 5.102.0~)",
+		"libkf5xmlgui5 (>= 5.102.0~)",
+		"libqt5core5a (>= 5.15.2~)",
+		"libqt5dbus5 (>= 5.15.2~)",
+		"libqt5gui5 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~)",
+		"libqt5sql5 (>= 5.15.2~)",
+		"libqt5widgets5 (>= 5.15.2~)",
+		"libstdc++6 (>= 5)"
+	],
+	"replaces": [
+		"kactivities (<< 5.20~)",
+		"libkactivities-bin"
+	],
+	"breaks": [
+		"kactivities (<< 5.20~)",
+		"libkactivities-bin",
+		"plasma-desktop (<< 4:5.14)",
+		"plasma-workspace (<< 4:5.14)"
+	],
+	"installedSize": 1002,
+	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
+	"description": "System service to manage user's activities",
+	"homepage": "https://invent.kde.org/plasma/kactivitymanagerd",
+	"filename": "pool/main/k/kactivitymanagerd/kactivitymanagerd_5.27.5-2_amd64.deb",
+	"size": 181744,
+	"md5": "90dc867c5c5092a5f480c4731bb42931",
+	"sha256": "a17f83cc237f08dafcc48a31d9065cbb3db56fa59855e4e2828554c16fbb9e3c",
+	"descriptionMd5": "a9bed58e742e6b5388dfcd0771bd567d"
+}

@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "selinux-policy-default",
+	"source": "refpolicy",
+	"version": "2:2.20250115-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libselinux1 (>= 3.7)",
+		"libsemanage2 (>= 3.7)",
+		"libsepol2 (>= 3.7)",
+		"policycoreutils (>= 3.7-2)",
+		"selinux-utils (>= 3.7)"
+	],
+	"recommends": [
+		"checkpolicy",
+		"setools"
+	],
+	"suggests": [
+		"logcheck",
+		"syslog-summary"
+	],
+	"breaks": [
+		"selinux-basics (<< 0.5.2~)"
+	],
+	"conflicts": [
+		"mcstrans"
+	],
+	"installedSize": 4484,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "Strict and Targeted variants of the SELinux policy",
+	"homepage": "https://github.com/SELinuxProject/refpolicy/releases",
+	"filename": "pool/main/r/refpolicy/selinux-policy-default_2.20250115-1_all.deb",
+	"size": 3175660,
+	"md5": "c60831f3b3d8bcaf36c4dce0d1f94072",
+	"sha256": "4bb1cdd4e5e32c3f5f69161de3af8ba5a9024f6256cf6be9e7fb79bad7058e56",
+	"descriptionMd5": "325e1ecabb3986761a584eae753fa7e7"
+}]

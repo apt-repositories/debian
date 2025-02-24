@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsemanage1",
+	"source": "libsemanage (3.1-1)",
+	"version": "3.1-1+b2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libsemanage-common (= 3.1-1)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libbz2-1.0",
+		"libc6 (>= 2.14)",
+		"libselinux1 (>= 3.1)",
+		"libsepol1 (>= 3.1)"
+	],
+	"breaks": [
+		"policycoreutils (<< 3.0)",
+		"selinux-policy-default (<< 2:2.20140421-10~)",
+		"selinux-policy-mls (<< 2:2.20140421-10~)"
+	],
+	"installedSize": 307,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "SELinux policy management library",
+	"homepage": "http://userspace.selinuxproject.org/",
+	"filename": "pool/main/libs/libsemanage/libsemanage1_3.1-1+b2_amd64.deb",
+	"size": 99332,
+	"md5": "0f58f0fc5ce04fa7af22888780f8ca9a",
+	"sha256": "d8f2835b22df58ba45d52eb3aab224190f193576caf05e3f80deb2e4f927fad6",
+	"descriptionMd5": "8998b538051f37f69c5f1bf9a005fa56"
+}

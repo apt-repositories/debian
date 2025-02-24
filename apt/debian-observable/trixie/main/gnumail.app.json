@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnumail.app",
+	"source": "gnumail",
+	"version": "1.4.0-3",
+	"section": "gnustep",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"addressmanager.app",
+		"gnumail.app-common (= 1.4.0-3)",
+		"gnustep-back-common (>= 0.31.0-3)",
+		"gnustep-layout-multiarch",
+		"gnustep-back0.31",
+		"gnustep-base-runtime (>= 1.30.0)",
+		"gnustep-gui-runtime (>= 0.31.1)",
+		"libaddresses0 (>= 0.4.8)",
+		"libaddressview0 (>= 0.4.8)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libgnustep-base1.30 (>= 1.30.0)",
+		"libgnustep-gui0.31 (>= 0.31.1)",
+		"libobjc4 (>= 4.6)",
+		"libpantomime1.4 (>= 1.4.0+dfsg)"
+	],
+	"suggests": [
+		"gnupg",
+		"steptalk"
+	],
+	"replaces": [
+		"gnumail.app-common (<< 1.4.0-3)"
+	],
+	"breaks": [
+		"gnumail.app-common (<< 1.4.0-3)"
+	],
+	"installedSize": 2882,
+	"maintainer": "Debian GNUstep maintainers <pkg-gnustep-maintainers@lists.alioth.debian.org>",
+	"description": "Mail client for GNUstep",
+	"homepage": "http://www.nongnu.org/gnustep-nonfsf/gnumail/",
+	"filename": "pool/main/g/gnumail/gnumail.app_1.4.0-3_amd64.deb",
+	"size": 537864,
+	"md5": "f90308460ee1d3ec4eea278f63142fa5",
+	"sha256": "6b2156ea213df8131635acce4456cfbf35ae312c89110dc8207eeb4b33af5e19",
+	"descriptionMd5": "b02b0fa90b84bd5f9108283971f9716c"
+}]

@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-cracklib",
+	"source": "pam",
+	"version": "1.3.1-5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libcrack2 (>= 2.8.12)",
+		"libpam0g (>= 1.1.1)",
+		"libpam-runtime (>= 1.0.1-6)",
+		"cracklib-runtime",
+		"wamerican | wordlist"
+	],
+	"replaces": [
+		"libpam-modules (<< 1.1.0-3)",
+		"libpam0g-cracklib"
+	],
+	"installedSize": 116,
+	"maintainer": "Steve Langasek <vorlon@debian.org>",
+	"description": "PAM module to enable cracklib support",
+	"homepage": "http://www.linux-pam.org/",
+	"filename": "pool/main/p/pam/libpam-cracklib_1.3.1-5_amd64.deb",
+	"size": 88204,
+	"md5": "2e11e596200c0cd0971a11338ea58047",
+	"sha256": "3faca6ffe99bc9320334e2666ebd0b6230cdbe6818c59ca202b810b39e50ff3c",
+	"descriptionMd5": "0f6f2fd98962cbee59aa831979aad971"
+}]

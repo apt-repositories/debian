@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6-dev-hppa-cross",
+	"source": "cross-toolchain-base-ports (62)",
+	"version": "2.36-8cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libc6-hppa-cross (= 2.36-8cross1)",
+		"linux-libc-dev-hppa-cross"
+	],
+	"replaces": [
+		"libc6-hppa-cross (<= 2.32-1)"
+	],
+	"conflicts": [
+		"libc0.1-dev-hppa-cross",
+		"libc0.3-dev-hppa-cross",
+		"libc6.1-dev-hppa-cross"
+	],
+	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
+	"description": "GNU C Library: Development Libraries and Header Files (for cross-compiling)",
+	"builtUsing": "binutils (= 2.40-2), linux (= 6.1.4-1), gcc-12 (= 12.2.0-14), glibc (= 2.36-8)",
+	"filename": "pool/main/c/cross-toolchain-base-ports/libc6-dev-hppa-cross_2.36-8cross1_all.deb",
+	"size": 1341240,
+	"md5": "0c1a05469a785242d5195de2244436f6",
+	"sha256": "4226d1a635f546018268c534c31be8928ab7f6044e5ef235afa999cb64a8e838",
+	"descriptionMd5": "fc7d1124da33f2f1ca4b4e0833019db4"
+}

@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clang-13",
+	"source": "llvm-toolchain-13",
+	"version": "1:13.0.1-6~deb10u4",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libclang-cpp13 (>= 1:13.0.1)",
+		"libgcc1 (>= 1:3.0)",
+		"libllvm13",
+		"libstdc++6 (>= 5.2)",
+		"libstdc++-8-dev",
+		"libgcc-8-dev",
+		"libobjc-8-dev",
+		"libclang-common-13-dev (= 1:13.0.1-6~deb10u4)",
+		"llvm-13-linker-tools (= 1:13.0.1-6~deb10u4)",
+		"libclang1-13 (= 1:13.0.1-6~deb10u4)",
+		"libc6-dev",
+		"binutils"
+	],
+	"recommends": [
+		"llvm-13-dev",
+		"python3"
+	],
+	"suggests": [
+		"clang-13-doc"
+	],
+	"replaces": [
+		"llvm-13-dev (<< 1:13~++20210129063721)"
+	],
+	"breaks": [
+		"llvm-13-dev (<< 1:13~++20210129063721)"
+	],
+	"installedSize": 361,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "C, C++ and Objective-C compiler",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-13/clang-13_13.0.1-6~deb10u4_amd64.deb",
+	"size": 123304,
+	"md5": "9943ef02e9521d6e599124e462ee64cb",
+	"sha256": "ddea07b23a945b51276c39ded9f849338c5060160c1d07adfbab073caeebd0a7",
+	"descriptionMd5": "c364160e44345420df0f2e97b3082b69"
+}

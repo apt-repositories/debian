@@ -1,0 +1,273 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
+	"version": "252.29-1~deb12u1~bpo11+1",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libblkid1 (>= 2.24.2)",
+		"libcryptsetup12 (>= 2:2.3)",
+		"libfdisk1 (>= 2.33)",
+		"libkmod2 (>= 5~)",
+		"libseccomp2 (>= 2.3.1)",
+		"libsystemd-shared (= 252.29-1~deb12u1~bpo11+1)",
+		"libsystemd0 (= 252.29-1~deb12u1~bpo11+1)",
+		"mount"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.30)",
+		"libgcrypt20 (>= 1.8.0)",
+		"liblz4-1 (>= 0.0~r122)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libmount1 (>= 2.30)",
+		"libselinux1 (>= 3.1~)",
+		"libssl1.1 (>= 1.1.0)",
+		"libzstd1 (>= 1.4.0)"
+	],
+	"recommends": [
+		"default-dbus-system-bus | dbus-system-bus",
+		"systemd-timesyncd | time-daemon"
+	],
+	"suggests": [
+		"systemd-container",
+		"systemd-homed",
+		"systemd-userdbd",
+		"systemd-boot",
+		"systemd-resolved",
+		"libfido2-1",
+		"libp11-kit0",
+		"libqrencode4",
+		"libtss2-esys-3.0.2-0",
+		"libtss2-mu0",
+		"libtss2-rc0",
+		"polkitd | policykit-1"
+	],
+	"breaks": [
+		"resolvconf (<< 1.83~)",
+		"sicherboot (<< 0.1.6)",
+		"udev (<< 247~)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector",
+		"systemd-shim"
+	],
+	"installedSize": 9568,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "system and service manager",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd_252.29-1~deb12u1~bpo11+1_amd64.deb",
+	"size": 3005196,
+	"sha256": "3771e36b9130ed853589e9346bdedf024f4ca19c135d5dc3928729edbf91cb66",
+	"descriptionMd5": "2728f00e9cb47f195aa39097a3afbc42"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
+	"version": "247.3-7+deb11u4",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.13)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libcap2 (>= 1:2.24-9~)",
+		"libcrypt1 (>= 1:4.4.0)",
+		"libcryptsetup12 (>= 2:2.3)",
+		"libgnutls30 (>= 3.7.0)",
+		"libgpg-error0 (>= 1.14)",
+		"libip4tc2 (>= 1.8.3)",
+		"libkmod2 (>= 5~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmount1 (>= 2.30)",
+		"libpam0g (>= 0.99.7.1)",
+		"libseccomp2 (>= 2.4.1)",
+		"libsystemd0 (= 247.3-7+deb11u4)",
+		"util-linux (>= 2.27.1)",
+		"mount (>= 2.26)",
+		"adduser"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.30)",
+		"libgcrypt20 (>= 1.8.0)",
+		"liblz4-1 (>= 0.0~r122)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.4.0)"
+	],
+	"recommends": [
+		"dbus",
+		"systemd-timesyncd | time-daemon"
+	],
+	"suggests": [
+		"systemd-container",
+		"policykit-1"
+	],
+	"breaks": [
+		"python-dbusmock (<< 0.18)",
+		"python3-dbusmock (<< 0.18)",
+		"resolvconf (<< 1.83~)",
+		"systemd-shim (<< 10-4~)",
+		"udev (<< 247~)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector"
+	],
+	"installedSize": 16028,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "system and service manager",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd_247.3-7+deb11u4_amd64.deb",
+	"size": 4501976,
+	"sha256": "a55f90e5fc83cf8dec83d93615ed7fc4654b92a359ef578095d36fcd621130c3",
+	"descriptionMd5": "19399579cbc0c47a303288bf15eadcd4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
+	"version": "247.3-7+deb11u5",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.13)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libcap2 (>= 1:2.24-9~)",
+		"libcrypt1 (>= 1:4.4.0)",
+		"libcryptsetup12 (>= 2:2.3)",
+		"libgnutls30 (>= 3.7.0)",
+		"libgpg-error0 (>= 1.14)",
+		"libip4tc2 (>= 1.8.3)",
+		"libkmod2 (>= 5~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmount1 (>= 2.30)",
+		"libpam0g (>= 0.99.7.1)",
+		"libseccomp2 (>= 2.4.1)",
+		"libsystemd0 (= 247.3-7+deb11u5)",
+		"util-linux (>= 2.27.1)",
+		"mount (>= 2.26)",
+		"adduser"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.30)",
+		"libgcrypt20 (>= 1.8.0)",
+		"liblz4-1 (>= 0.0~r122)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.4.0)"
+	],
+	"recommends": [
+		"dbus",
+		"systemd-timesyncd | time-daemon"
+	],
+	"suggests": [
+		"systemd-container",
+		"policykit-1"
+	],
+	"breaks": [
+		"python-dbusmock (<< 0.18)",
+		"python3-dbusmock (<< 0.18)",
+		"resolvconf (<< 1.83~)",
+		"systemd-shim (<< 10-4~)",
+		"udev (<< 247~)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector"
+	],
+	"installedSize": 16028,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "system and service manager",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd_247.3-7+deb11u5_amd64.deb",
+	"size": 4501860,
+	"md5": "f8d35ae89d82226ab55bb40d56561863",
+	"sha256": "fc04e069a39bcdab529a75f48a6575fe7172cf02dcd5b697866312b7ba728a6c",
+	"descriptionMd5": "19399579cbc0c47a303288bf15eadcd4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
+	"version": "247.3-7+deb11u6",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.13)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libcap2 (>= 1:2.24-9~)",
+		"libcrypt1 (>= 1:4.4.0)",
+		"libcryptsetup12 (>= 2:2.3)",
+		"libgnutls30 (>= 3.7.0)",
+		"libgpg-error0 (>= 1.14)",
+		"libip4tc2 (>= 1.8.3)",
+		"libkmod2 (>= 5~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmount1 (>= 2.30)",
+		"libpam0g (>= 0.99.7.1)",
+		"libseccomp2 (>= 2.4.1)",
+		"libsystemd0 (= 247.3-7+deb11u6)",
+		"util-linux (>= 2.27.1)",
+		"mount (>= 2.26)",
+		"adduser"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.30)",
+		"libgcrypt20 (>= 1.8.0)",
+		"liblz4-1 (>= 0.0~r122)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.4.0)"
+	],
+	"recommends": [
+		"dbus",
+		"systemd-timesyncd | time-daemon"
+	],
+	"suggests": [
+		"systemd-container",
+		"policykit-1"
+	],
+	"breaks": [
+		"python-dbusmock (<< 0.18)",
+		"python3-dbusmock (<< 0.18)",
+		"resolvconf (<< 1.83~)",
+		"systemd-shim (<< 10-4~)",
+		"udev (<< 247~)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector"
+	],
+	"installedSize": 16028,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "system and service manager",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/updates/main/s/systemd/systemd_247.3-7+deb11u6_amd64.deb",
+	"size": 4501296,
+	"sha256": "071421f2ce5083fb1fa405fe13d848e9c460a50db8a53285dc8cb9c79721af16",
+	"descriptionMd5": "19399579cbc0c47a303288bf15eadcd4"
+}]

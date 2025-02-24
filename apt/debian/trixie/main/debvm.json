@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debvm",
+	"version": "0.3.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dpkg-dev",
+		"e2fsprogs",
+		"mmdebstrap (>= 1.3.0)",
+		"passwd",
+		"qemu-kvm (>> 1:8.0) | qemu-system-any",
+		"ipxe-qemu"
+	],
+	"recommends": [
+		"arch-test",
+		"file",
+		"systemd | binfmt-support",
+		"openssh-client",
+		"qemu-system",
+		"qemu-user-static",
+		"seabios",
+		"uidmap"
+	],
+	"suggests": [
+		"qemu-system-gui"
+	],
+	"installedSize": 80,
+	"maintainer": "Helmut Grohne <helmut@subdivi.de>",
+	"description": "create and run virtual machines for various Debian releases and architectures",
+	"homepage": "https://salsa.debian.org/helmutg/debvm/",
+	"filename": "pool/main/d/debvm/debvm_0.3.1_all.deb",
+	"size": 28296,
+	"md5": "7299336f92510a5781a3b1cec5c3d187",
+	"sha256": "1ce82c246f44f429208f7091a23441fdf62dc706680717ff2c998d73ad31d779",
+	"descriptionMd5": "69eb9e07cd67454187b7bcecdcfc7511"
+}

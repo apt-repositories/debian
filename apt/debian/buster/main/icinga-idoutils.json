@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "icinga-idoutils",
+	"source": "icinga (1.14.2+ds-3)",
+	"version": "1.14.2+ds-3+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dbconfig-common",
+		"icinga-common (= 1.14.2+ds-3)",
+		"libdbd-mysql | libdbd-pgsql",
+		"lsb-base",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.15)",
+		"libdbi1 (>= 0.8.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"default-mysql-client | mysql-client | postgresql-client"
+	],
+	"suggests": [
+		"default-mysql-server | mysql-server | postgresql-server"
+	],
+	"installedSize": 1543,
+	"maintainer": "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>",
+	"description": "host and network monitoring system - icinga-dataobjects support",
+	"homepage": "https://www.icinga.com/",
+	"filename": "pool/main/i/icinga/icinga-idoutils_1.14.2+ds-3+b1_amd64.deb",
+	"size": 212768,
+	"md5": "5aae1fe946ca70fe13f8c79c34a6ea5d",
+	"sha256": "10fda28d359e660d7bae96c2d21daf8ada22570c593fe79fd8a521df62c91c55",
+	"descriptionMd5": "fe4b3c54805187510661f265f96d5cbf"
+}

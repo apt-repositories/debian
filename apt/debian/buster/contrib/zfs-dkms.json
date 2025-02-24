@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zfs-dkms",
+	"source": "zfs-linux",
+	"version": "0.7.12-2+deb10u2",
+	"section": "contrib/kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dkms (>> 2.1.1.2-5)",
+		"lsb-release",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any"
+	],
+	"preDepends": [
+		"spl-dkms (<< 0.7.12.)",
+		"spl-dkms (>= 0.7.12-2+deb10u1)"
+	],
+	"recommends": [
+		"zfs-zed",
+		"zfsutils-linux (>= 0.7.12-2+deb10u2)",
+		"linux-libc-dev (<< 4.20~)"
+	],
+	"installedSize": 10577,
+	"maintainer": "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@alioth-lists.debian.net>",
+	"description": "OpenZFS filesystem kernel modules for Linux",
+	"homepage": "http://www.zfsonlinux.org/",
+	"filename": "pool/contrib/z/zfs-linux/zfs-dkms_0.7.12-2+deb10u2_all.deb",
+	"size": 1399428,
+	"md5": "929b6f7563ce9a08953a44acbc443aa8",
+	"sha256": "933bdb0383745b4571b10f07256df5f988a1d353d21297fd9ee36a21da02b283",
+	"descriptionMd5": "c1e6760fc57260785aae3a4a3780013b"
+}

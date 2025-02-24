@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "389-ds-base",
+	"version": "1.4.4.11-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"389-ds-base-libs (= 1.4.4.11-2)",
+		"adduser",
+		"acl",
+		"ldap-utils",
+		"libmozilla-ldap-perl",
+		"libnetaddr-ip-perl",
+		"libsocket-getaddrinfo-perl",
+		"libsasl2-modules-gssapi-mit",
+		"perl",
+		"python3-lib389",
+		"python3-selinux",
+		"python3-semanage",
+		"python3-sepolicy",
+		"systemd",
+		"libc6 (>= 2.27)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libdb5.3",
+		"libicu67 (>= 67.1-1~)",
+		"libldap-2.4-2 (>= 2.4.39)",
+		"libnspr4 (>= 2:4.10.9)",
+		"libnss3 (>= 2:3.14)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsasl2-2 (>= 2.1.27+dfsg)",
+		"libsnmp40 (>= 5.9+dfsg)",
+		"libsystemd0",
+		"python3:any"
+	],
+	"preDepends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"replaces": [
+		"389-ds-base-legacy-tools"
+	],
+	"installedSize": 5000,
+	"maintainer": "Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>",
+	"description": "389 Directory Server suite - server",
+	"homepage": "https://directory.fedoraproject.org",
+	"filename": "pool/main/3/389-ds-base/389-ds-base_1.4.4.11-2_amd64.deb",
+	"size": 1309900,
+	"md5": "d1772149685a4ad41b438753e27fcb10",
+	"sha256": "d7957e2f77e2e95cb47cf4ac8a9ef468f0d0400d2189a8aac27ac7436e2e175b",
+	"descriptionMd5": "9c56eb26e44476f95f66b09921fcbf22"
+}

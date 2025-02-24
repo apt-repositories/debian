@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dicod",
+	"source": "dico",
+	"version": "2.7-2",
+	"section": "text",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"m4",
+		"libc6 (>= 2.15)",
+		"libdico2 (>= 2.7)",
+		"libgsasl7 (>= 1.1)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libltdl7 (>= 2.4.6)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpcre3",
+		"zlib1g (>= 1:1.1.4)",
+		"lsb-base (>= 3.0-6)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"suggests": [
+		"dico-doc"
+	],
+	"replaces": [
+		"dico-module-dictorg",
+		"dico-module-outline",
+		"dictd"
+	],
+	"conflicts": [
+		"dico-module-dictorg",
+		"dico-module-outline",
+		"dictd"
+	],
+	"installedSize": 703,
+	"maintainer": "Ritesh Raj Sarraf <rrs@debian.org>",
+	"description": "RFC 2229 compliant modular dictionary server",
+	"homepage": "http://puszcza.gnu.org.ua/software/dico/",
+	"filename": "pool/main/d/dico/dicod_2.7-2_amd64.deb",
+	"size": 232740,
+	"md5": "f9c3dd1a0e634fa6c14c49369cad81c5",
+	"sha256": "1c827236be553783e71789a92b32e83a511cedcf91cd5166e173ad573a961335",
+	"descriptionMd5": "ec9ad191eacf23c9cb9849b4c27dc108"
+}]

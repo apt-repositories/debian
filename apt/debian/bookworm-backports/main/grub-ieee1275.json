@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-ieee1275",
+	"source": "grub2",
+	"version": "2.12-1~bpo12+1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-common (= 2.12-1~bpo12+1)",
+		"grub2-common (= 2.12-1~bpo12+1)",
+		"grub-ieee1275-bin (= 2.12-1~bpo12+1)",
+		"ucf"
+	],
+	"replaces": [
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-legacy",
+		"grub-pc",
+		"grub2 (<< 2.12-1~bpo12+1)"
+	],
+	"conflicts": [
+		"grub (<< 0.97-54)",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-legacy",
+		"grub-pc",
+		"grub-xen"
+	],
+	"installedSize": 184,
+	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
+	"description": "GRand Unified Bootloader, version 2 (Open Firmware version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-ieee1275_2.12-1~bpo12+1_amd64.deb",
+	"size": 45880,
+	"sha256": "a5fc722e7dec4ad5eff7866139a4d66df18361419d627fd8aa762b726ac68926",
+	"descriptionMd5": "4182e3a83ecc589a21da82d455a9182d"
+}

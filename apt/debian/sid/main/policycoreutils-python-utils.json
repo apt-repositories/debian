@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "policycoreutils-python-utils",
+	"source": "selinux-python",
+	"version": "3.8-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"policycoreutils (>= 3.8)",
+		"python3-audit",
+		"python3-selinux (>= 3.8)",
+		"python3-semanage (>= 3.8)",
+		"python3-sepolgen (= 3.8-1)",
+		"python3-sepolicy (= 3.8-1)",
+		"python3-setools (>= 4.4.2)",
+		"selinux-utils",
+		"python3:any"
+	],
+	"replaces": [
+		"policycoreutils (<< 2.4)"
+	],
+	"breaks": [
+		"policycoreutils (<< 2.4)"
+	],
+	"installedSize": 236,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "SELinux core policy utilities (Python utilities)",
+	"homepage": "https://selinuxproject.org",
+	"filename": "pool/main/s/selinux-python/policycoreutils-python-utils_3.8-1_all.deb",
+	"size": 48544,
+	"md5": "43ddbb903601f9fb9f13293589592c8d",
+	"sha256": "81f15daf7956ca59bfbf342f68909f1a27c7e9a8870f3cb976957319de073232",
+	"descriptionMd5": "e9a150d3a64bbbc19e568203a8d13151"
+}

@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mono-runtime-common",
+	"source": "mono",
+	"version": "6.8.0.105+dfsg-3.3",
+	"section": "cli-mono",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.36)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"zlib1g (>= 1:1.1.4)",
+		"binutils"
+	],
+	"suggests": [
+		"xdg-utils | libgnome2-0 | konqueror"
+	],
+	"replaces": [
+		"libmono0 (<< 2.4)",
+		"mono-common (<< 2.4)",
+		"mono-jit (<< 2.4)",
+		"mono-runtime (<< 3.2.1)"
+	],
+	"conflicts": [
+		"mono-1.0-runtime (<< 2.4)",
+		"mono-2.0-runtime (<< 2.4)",
+		"mono-common (<< 2.4)",
+		"mono-jit (<< 2.4)",
+		"mono-runtime (<< 3.2.1)"
+	],
+	"installedSize": 3605,
+	"maintainer": "Debian Mono Group <pkg-mono-group@lists.alioth.debian.org>",
+	"description": "Mono runtime - common files",
+	"homepage": "http://www.mono-project.com/",
+	"filename": "pool/main/m/mono/mono-runtime-common_6.8.0.105+dfsg-3.3_amd64.deb",
+	"size": 1171460,
+	"md5": "4d6cb6245c937e1989c2c26812f3936e",
+	"sha256": "aad06571f2cc8a52acd6d82014da03ca22ec504c466a2082babcca314f9f1006",
+	"descriptionMd5": "0048a533f5c0a7f5ad413ee658ccd4d4"
+}

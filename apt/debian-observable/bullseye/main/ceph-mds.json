@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-mds",
+	"source": "ceph",
+	"version": "14.2.21-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph",
+		"libc6 (>= 2.30)",
+		"libgcc-s1 (>= 3.0)",
+		"libgoogle-perftools4",
+		"librados2 (>= 12.0.3)",
+		"libstdc++6 (>= 9)"
+	],
+	"recommends": [
+		"ceph-common",
+		"ceph-fuse",
+		"libcephfs2"
+	],
+	"replaces": [
+		"ceph (<< 0.67.3-1)"
+	],
+	"breaks": [
+		"ceph (<< 0.67.3-1)"
+	],
+	"installedSize": 5873,
+	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
+	"description": "metadata server for the ceph distributed file system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-mds_14.2.21-1_amd64.deb",
+	"size": 1831536,
+	"md5": "e04cecfd5b7e7ef3140d6d272a9c01ea",
+	"sha256": "48b0569d6e68aa8ebcd548a7b70ac4737482c92f749a6f65ce1d94f2a3637288",
+	"descriptionMd5": "d37d51a4735a093f21799c80f707168f"
+}]

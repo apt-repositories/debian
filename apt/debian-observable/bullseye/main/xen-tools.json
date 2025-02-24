@@ -1,0 +1,54 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xen-tools",
+	"version": "4.9-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debootstrap | cdebootstrap",
+		"libconfig-inifiles-perl",
+		"libdata-validate-domain-perl",
+		"libdata-validate-ip-perl",
+		"libdata-validate-uri-perl",
+		"libfile-slurp-perl",
+		"libfile-which-perl",
+		"libsort-versions-perl",
+		"libterm-ui-perl | perl (<< 5.17.0)",
+		"libtext-template-perl",
+		"openssh-client",
+		"perl",
+		"perl:any"
+	],
+	"recommends": [
+		"debian-archive-keyring",
+		"debootstrap (>= 1.0.117~)",
+		"e2fsprogs",
+		"libexpect-perl",
+		"lvm2",
+		"rinse (>= 1.9.1-1)",
+		"ubuntu-keyring | ubuntu-archive-keyring",
+		"xen-hypervisor",
+		"xen-utils"
+	],
+	"suggests": [
+		"btrfs-progs | btrfs-tools",
+		"cfengine2",
+		"grub-xen-host",
+		"reiserfsprogs",
+		"xfsprogs"
+	],
+	"installedSize": 727,
+	"maintainer": "Axel Beckert <abe@debian.org>",
+	"description": "Tools to manage Xen virtual servers",
+	"homepage": "https://xen-tools.org/software/xen-tools",
+	"filename": "pool/main/x/xen-tools/xen-tools_4.9-1_all.deb",
+	"size": 144600,
+	"md5": "a976a35db1dc2dc62cb49e9c42945416",
+	"sha256": "3f2769997afcca6c254c882bcd6dbc62d024ac54140dae562584b1f11afc962d",
+	"descriptionMd5": "f4e7e8d623c0b09df025e5bc2ac992e9"
+}]

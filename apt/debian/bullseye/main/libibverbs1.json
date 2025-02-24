@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libibverbs1",
+	"source": "rdma-core",
+	"version": "33.2-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.15)",
+		"libnl-3-200 (>= 3.2.7)",
+		"libnl-route-3-200 (>= 3.2.7)"
+	],
+	"recommends": [
+		"ibverbs-providers"
+	],
+	"breaks": [
+		"ibverbs-providers (<< 33~)"
+	],
+	"installedSize": 179,
+	"maintainer": "Benjamin Drung <benjamin.drung@ionos.com>",
+	"description": "Library for direct userspace use of RDMA (InfiniBand/iWARP)",
+	"homepage": "https://github.com/linux-rdma/rdma-core",
+	"filename": "pool/main/r/rdma-core/libibverbs1_33.2-1_amd64.deb",
+	"size": 59352,
+	"md5": "346888239a1f42057de8847fe62f03d1",
+	"sha256": "47ae2856a6ef00897888e4853f405758309627930ec040482c4c97d9c77536ee",
+	"descriptionMd5": "8cdb9c883867c94335417ed5085d7667"
+}

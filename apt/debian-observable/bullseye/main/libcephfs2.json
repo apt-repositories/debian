@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcephfs2",
+	"source": "ceph",
+	"version": "14.2.21-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.30)",
+		"libgcc-s1 (>= 3.0)",
+		"librados2 (>= 12.0.3)",
+		"libstdc++6 (>= 9)"
+	],
+	"replaces": [
+		"libceph",
+		"libceph1",
+		"libcephfs"
+	],
+	"conflicts": [
+		"libceph",
+		"libceph1",
+		"libcephfs"
+	],
+	"installedSize": 1408,
+	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
+	"description": "Ceph distributed file system client library",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/libcephfs2_14.2.21-1_amd64.deb",
+	"size": 479604,
+	"md5": "76c2ae6cf26146a37c4b1f0d974e46b1",
+	"sha256": "5908db2c6c604376b3894e0957c7792bc01248197d4d9a9a429a45e045bc2212",
+	"descriptionMd5": "02d5e7983127037e5b5e5e07dea2a6e4"
+}]

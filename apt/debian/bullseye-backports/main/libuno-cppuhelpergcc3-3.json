@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libuno-cppuhelpergcc3-3",
+	"source": "libreoffice",
+	"version": "4:7.4.7-1+deb12u2~bpo11+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"uno-libs-private (= 4:7.4.7-1+deb12u2~bpo11+1)",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 5)",
+		"libuno-cppu3 (>= 4.4.0~alpha)",
+		"libuno-sal3 (>= 5.1.0~alpha)",
+		"libuno-salhelpergcc3-3 (>= 1.4.0)"
+	],
+	"replaces": [
+		"uno-libs3",
+		"ure (<< 5.0.0~rc2-1)"
+	],
+	"breaks": [
+		"libreoffice-core (<< 1:4.3.0~)",
+		"uno-libs3"
+	],
+	"installedSize": 1305,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "LibreOffice UNO runtime environment -- CPPU helper library",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/libuno-cppuhelpergcc3-3_7.4.7-1+deb12u2~bpo11+1_amd64.deb",
+	"size": 504488,
+	"sha256": "73461a9192ded1db17fea10b20ce9518d8c624323e147bcca00d4d3358c6df10",
+	"descriptionMd5": "d7128bdb2e6050f1c9dde4fdafb9f411"
+}

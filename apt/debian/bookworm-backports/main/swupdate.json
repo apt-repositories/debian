@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "swupdate",
+	"version": "2024.12.1+dfsg-1~bpo12+1",
+	"section": "embedded",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libarchive13 (>= 3.0.4)",
+		"libblkid1 (>= 2.17.2)",
+		"libbtrfsutil1 (>= 5.6)",
+		"libc6 (>= 2.34)",
+		"libconfig9",
+		"libcurl3-gnutls (>= 7.56.1)",
+		"libext2fs2 (>= 1.43)",
+		"libfdisk1 (>= 2.31.1)",
+		"libgpiod2 (>= 1.1)",
+		"libjson-c5 (>= 0.15)",
+		"liblua5.4-0 (>= 5.4.4)",
+		"librsync2 (>= 1.0.0)",
+		"libswupdate0.1 (>= 2023.12)",
+		"libsystemd0",
+		"libubootenv0.1 (>= 0.3.5)",
+		"liburiparser1 (>= 0.6.0)",
+		"libuuid1 (>= 2.16)",
+		"libwebsockets17 (>= 2.4.1)",
+		"libwolfssl35 (>= 5.2.0)",
+		"libzck1 (>= 1.2.0+ds1)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.1.4)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libebgenv0"
+	],
+	"installedSize": 1314,
+	"maintainer": "Bastian Germann <bage@debian.org>",
+	"description": "Software update framework for embedded systems",
+	"homepage": "https://sbabic.github.io/swupdate",
+	"builtUsing": "mtd-utils (= 1:2.1.5-1)",
+	"filename": "pool/main/s/swupdate/swupdate_2024.12.1+dfsg-1~bpo12+1_amd64.deb",
+	"size": 418680,
+	"sha256": "776de198e87879e1b4609af54169bc4476fc5189bb6f2812c29f72ae817001f7",
+	"descriptionMd5": "0e333f079171328229549df4556353f8"
+}

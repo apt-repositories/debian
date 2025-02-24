@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "netatalk-tools",
+	"source": "netatalk",
+	"version": "4.1.2~ds-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dbus",
+		"libatalk (= 4.1.2~ds-1)",
+		"libio-socket-ip-perl",
+		"libnet-dbus-perl",
+		"lsof",
+		"perl",
+		"procps",
+		"perl:any",
+		"libc6 (>= 2.38)",
+		"libcrack2 (>= 2.8.12)",
+		"libdb5.3t64",
+		"libgcrypt20 (>= 1.11.0)"
+	],
+	"replaces": [
+		"netatalk (<< 4.0.0~ds-1)"
+	],
+	"enhances": [
+		"netatalk (>= 4.0.0~ds-1)"
+	],
+	"breaks": [
+		"netatalk (<< 4.0.0~ds-1)"
+	],
+	"installedSize": 279,
+	"maintainer": "Debian Netatalk team <pkg-netatalk-devel@lists.alioth.debian.org>",
+	"description": "Apple Filing Protocol service (administrative tools)",
+	"homepage": "https://github.com/Netatalk/netatalk",
+	"filename": "pool/main/n/netatalk/netatalk-tools_4.1.2~ds-1_amd64.deb",
+	"size": 81996,
+	"md5": "a9849445222a9513fcd5e87d37bd44cf",
+	"sha256": "f03e5c339987264dbf88303f48041bf7e942d64fa32c3a5063f0b22d504facac",
+	"descriptionMd5": "69df5559970535cedcc72768870dff32"
+}

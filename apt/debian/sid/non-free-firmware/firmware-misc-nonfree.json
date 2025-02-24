@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "firmware-misc-nonfree",
+	"source": "firmware-nonfree",
+	"version": "20241210-1",
+	"section": "non-free-firmware/kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"recommends": [
+		"firmware-nvidia-graphics",
+		"firmware-intel-graphics",
+		"firmware-intel-misc",
+		"firmware-mediatek"
+	],
+	"suggests": [
+		"initramfs-tools"
+	],
+	"conflicts": [
+		"firmware-ti-connectivity (<< 20230625-3~)"
+	],
+	"installedSize": 12074,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Binary firmware for various drivers in the Linux kernel",
+	"homepage": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git",
+	"filename": "pool/non-free-firmware/f/firmware-nonfree/firmware-misc-nonfree_20241210-1_all.deb",
+	"size": 4253016,
+	"md5": "6f912cd9ef07c9a4fe63a53ab3e73b1f",
+	"sha256": "043776ea4ee7a4b81865cc734863ea6dee4ae2ffadce2dffeb9165a71f33cd4d",
+	"descriptionMd5": "b964079cf40daa8d88fb173c6bdb18eb"
+}

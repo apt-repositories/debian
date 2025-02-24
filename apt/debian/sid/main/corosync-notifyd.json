@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "corosync-notifyd",
+	"source": "corosync (3.1.8-3)",
+	"version": "3.1.8-3+b2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcfg7 (>= 2.99.5)",
+		"libcmap4 (>= 2.99.3)",
+		"libcorosync-common4 (>= 1.99.9)",
+		"libdbus-1-3 (>= 1.10)",
+		"libqb100 (>= 2.0.3)",
+		"libquorum5 (>= 1.99.9)",
+		"libsnmp40t64 (>= 5.9.4+dfsg)",
+		"libsystemd0",
+		"corosync"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"dbus"
+	],
+	"installedSize": 324,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>",
+	"description": "cluster engine notification daemon",
+	"homepage": "https://corosync.github.io/corosync/",
+	"filename": "pool/main/c/corosync/corosync-notifyd_3.1.8-3+b2_amd64.deb",
+	"size": 269360,
+	"md5": "255e65bbf73e63d3dd8028c316088636",
+	"sha256": "cbdc4252fdb16222f8a0710c6751976f07880e53b5157eab5aa3da7610f0a9e5",
+	"descriptionMd5": "54aa992a2d99b457f3265c5f199abc77"
+}

@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-cron",
+	"version": "1.5.14-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"systemd-sysv (>= 229)",
+		"python3:any",
+		"libc6 (>= 2.4)"
+	],
+	"recommends": [
+		"default-mta | exim4 | mail-transport-agent"
+	],
+	"replaces": [
+		"anacron",
+		"cron"
+	],
+	"conflicts": [
+		"anacron",
+		"cron-daemon"
+	],
+	"installedSize": 139,
+	"maintainer": "Debian Systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "systemd units to provide cron daemon & anacron functionality",
+	"homepage": "https://github.com/systemd-cron/systemd-cron",
+	"filename": "pool/main/s/systemd-cron/systemd-cron_1.5.14-2_amd64.deb",
+	"size": 34668,
+	"md5": "8460531376b376380eabb023bddb07a2",
+	"sha256": "27ed336b29a3852c10a607fb4627bd28dd2c09fc6edfd6e0404bb51499e09444",
+	"descriptionMd5": "9166fe2131f8908f5e74ff0ca4fbe742"
+}

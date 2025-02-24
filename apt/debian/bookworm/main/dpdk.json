@@ -1,0 +1,70 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpdk",
+	"version": "22.11.7-1~deb12u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.2-14)",
+		"pci.ids | hwdata",
+		"pciutils",
+		"procps",
+		"python3:any"
+	],
+	"recommends": [
+		"librte-mempool23",
+		"librte-mempool-ring23",
+		"librte-net-af-packet23",
+		"librte-net-bond23",
+		"librte-net-e1000-23",
+		"librte-net-fm10k23",
+		"librte-net-i40e23",
+		"librte-net-ixgbe23",
+		"librte-net-mlx4-23",
+		"librte-net-mlx5-23",
+		"librte-net-netvsc23",
+		"librte-net-pcap23",
+		"librte-net-tap23",
+		"librte-net-thunderx23",
+		"librte-net-vdev-netvsc23",
+		"librte-net-vhost23",
+		"librte-net-virtio23",
+		"librte-net-vmxnet3-23",
+		"python3-pyelftools"
+	],
+	"suggests": [
+		"dpdk-doc",
+		"dpdk-kmods-dkms",
+		"librte-meta-baseband",
+		"librte-meta-bus",
+		"librte-meta-common",
+		"librte-meta-compress",
+		"librte-meta-crypto",
+		"librte-meta-dma",
+		"librte-meta-event",
+		"librte-meta-mempool",
+		"librte-meta-net",
+		"librte-meta-raw",
+		"librte-meta-allpmds"
+	],
+	"replaces": [
+		"dpdk-dev (<< 18.11)"
+	],
+	"breaks": [
+		"dpdk-dev (<< 18.11-4~)"
+	],
+	"installedSize": 105,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (runtime)",
+	"homepage": "https://www.dpdk.org",
+	"filename": "pool/main/d/dpdk/dpdk_22.11.7-1~deb12u1_amd64.deb",
+	"size": 29748,
+	"md5": "c3004dbcc4ee7cdcc1ac115b23008e47",
+	"sha256": "a7a05b31a5684e48d8d81b7599af48da5a498f812c8130d69c634e8472469579",
+	"descriptionMd5": "cb8a15fa900de86d21d3a722f3b66d95"
+}

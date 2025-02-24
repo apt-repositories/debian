@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "squid-openssl",
+	"source": "squid",
+	"version": "6.13-1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libecap3 (>= 1.0.1)",
+		"libgcc-s1 (>= 3.4)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libltdl7 (>= 2.5.4)",
+		"libnetfilter-conntrack3 (>= 1.0.1)",
+		"libnettle8t64",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libsystemd0",
+		"netbase",
+		"ca-certificates"
+	],
+	"preDepends": [
+		"squid (>= 6.13-1)"
+	],
+	"installedSize": 8353,
+	"maintainer": "Luigi Gangitano <luigi@debian.org>",
+	"description": "Full featured Web Proxy cache (HTTP proxy OpenSSL flavour)",
+	"homepage": "http://www.squid-cache.org",
+	"filename": "pool/main/s/squid/squid-openssl_6.13-1_amd64.deb",
+	"size": 2678684,
+	"md5": "13ee8e795c254bc67152f0489b7a6436",
+	"sha256": "ca82537b837cde8bac5037c5a690aade942ec2478af682c1b94b5df119322a71",
+	"descriptionMd5": "4d5516908e5830c771a55d72f4546fef"
+}

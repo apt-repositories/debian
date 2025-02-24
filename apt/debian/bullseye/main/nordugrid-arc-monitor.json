@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nordugrid-arc-monitor",
+	"source": "nordugrid-arc",
+	"version": "6.10.2-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-ldap",
+		"php-gd"
+	],
+	"replaces": [
+		"nordugrid-arc-ldap-monitor (<< 6.0.0~)",
+		"nordugrid-arc-ws-monitor (<< 6.0.0~)"
+	],
+	"conflicts": [
+		"nordugrid-arc-ldap-monitor (<< 6.0.0~)",
+		"nordugrid-arc-ws-monitor (<< 6.0.0~)"
+	],
+	"installedSize": 930,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "ARC LDAP monitor web application",
+	"homepage": "http://www.nordugrid.org",
+	"filename": "pool/main/n/nordugrid-arc/nordugrid-arc-monitor_6.10.2-1_all.deb",
+	"size": 127608,
+	"md5": "edc5142ca0677563b8c2cc89894b64e3",
+	"sha256": "7fecf949bffa1239e6b6bd4bfeb2aaa1a2acfb3ac698db199b67fa075ad09c23",
+	"descriptionMd5": "a95e641894a337c66eee66de73b0668f"
+}

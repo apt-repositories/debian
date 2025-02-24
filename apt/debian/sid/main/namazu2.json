@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "namazu2",
+	"version": "2.0.21-25",
+	"section": "text",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"perl:any",
+		"libc6 (>= 2.34)",
+		"libnmz7 (>= 2.0.21)",
+		"namazu2-common (= 2.0.21-25)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"www-browser",
+		"apache2",
+		"namazu2-index-tools",
+		"emacsen-common",
+		"tk"
+	],
+	"replaces": [
+		"namazu (<< 2.0)",
+		"namazu2-index-tools (<< 2.0.21-16)"
+	],
+	"breaks": [
+		"namazu2-index-tools (<< 2.0.21-16)"
+	],
+	"conflicts": [
+		"namazu (<< 2.0)",
+		"namazu-el",
+		"tknamazu"
+	],
+	"installedSize": 490,
+	"maintainer": "NOKUBI Takatsugu <knok@daionet.gr.jp>",
+	"description": "full text search engine - binary and CGI script",
+	"homepage": "http://www.namazu.org/",
+	"filename": "pool/main/n/namazu2/namazu2_2.0.21-25_amd64.deb",
+	"size": 98728,
+	"md5": "68bd910d0b763b239c7546bb7a8cea99",
+	"sha256": "92eae62ee95c556258402a3371cb53f97981cd432ca00543cf8f2968191ab0dc",
+	"descriptionMd5": "80eff83b4a168bb67efb50f9a3c994e4"
+}

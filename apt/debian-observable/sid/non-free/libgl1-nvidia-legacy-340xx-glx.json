@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgl1-nvidia-legacy-340xx-glx",
+	"source": "nvidia-graphics-drivers-legacy-340xx",
+	"version": "340.108-24",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-legacy-340xx-alternative (= 340.108-24)",
+		"libnvidia-legacy-340xx-glcore (= 340.108-24)",
+		"nvidia-support",
+		"libc6 (>= 2.2.5)",
+		"libx11-6",
+		"libxext6"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-legacy-340xx-kernel-dkms (= 340.108-24) | nvidia-legacy-340xx-kernel-340.108"
+	],
+	"suggests": [
+		"nvidia-legacy-340xx-kernel-dkms (>= 340.108) | nvidia-legacy-340xx-kernel-source (>= 340.108)"
+	],
+	"installedSize": 1560,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary OpenGL/GLX library (340xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-340xx/libgl1-nvidia-legacy-340xx-glx_340.108-24_amd64.deb",
+	"size": 459764,
+	"md5": "bd66fb3047eab7b090b7ffaab4dc45b6",
+	"sha256": "27d59b9b4d94b0c4a58da24c68c8eac89a9aee96efc041e2cc8f988633b186de",
+	"descriptionMd5": "16960e5e9ca29ff3706d2a475dae32d7"
+}]

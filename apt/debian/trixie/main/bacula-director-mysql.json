@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-director-mysql",
+	"source": "bacula",
+	"version": "13.0.4-4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"bacula-common-mysql (<< 13.0.4-4.1~)",
+		"bacula-common-mysql (>= 13.0.4-4)",
+		"dbconfig-mysql | dbconfig-no-thanks",
+		"default-mysql-client | virtual-mysql-client",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"suggests": [
+		"gawk"
+	],
+	"replaces": [
+		"bacula-director-database"
+	],
+	"conflicts": [
+		"bacula-director-database"
+	],
+	"installedSize": 267,
+	"maintainer": "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>",
+	"description": "network backup service - MySQL storage for Director",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-director-mysql_13.0.4-4_all.deb",
+	"size": 139164,
+	"md5": "d50ca16f72173cf1d8a45a211d924abb",
+	"sha256": "af17a87814935506ede2604a905e63e37c5ee4df027ff209972919207bfdc5fb",
+	"descriptionMd5": "248fa558b5e2e2b84005e44333d46718"
+}

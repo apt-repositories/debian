@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fai-server",
+	"source": "fai",
+	"version": "5.10.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"fai-client",
+		"e2fsprogs",
+		"debootstrap",
+		"xz-utils"
+	],
+	"recommends": [
+		"nfs-kernel-server",
+		"isc-dhcp-server",
+		"tftpd-hpa | atftpd",
+		"openssh-server",
+		"openssh-client",
+		"openbsd-inetd | inet-superserver",
+		"libproc-daemon-perl",
+		"dosfstools",
+		"mtools"
+	],
+	"suggests": [
+		"debmirror",
+		"reprepro",
+		"xorriso",
+		"squashfs-tools",
+		"binutils",
+		"grub2",
+		"perl-tk",
+		"qemu-utils",
+		"fai-setup-storage"
+	],
+	"installedSize": 207,
+	"maintainer": "Thomas Lange <lange@debian.org>",
+	"description": "Fully Automatic Installation server package",
+	"homepage": "https://fai-project.org",
+	"filename": "pool/main/f/fai/fai-server_5.10.3_all.deb",
+	"size": 73232,
+	"md5": "e650f6e6f7b9f4bf7c1df09a277dfec8",
+	"sha256": "b60cc7d90f928f54d954b735fbf5edc2e19395c1c319ac62a0f68f847a878638",
+	"descriptionMd5": "1e27025d1b394387d7508aa0ea17448b"
+}

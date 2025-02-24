@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvdpau1",
+	"source": "libvdpau",
+	"version": "1.1.1-10",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libx11-6 (>= 2:1.4.99.1)",
+		"libxext6"
+	],
+	"recommends": [
+		"vdpau-driver-all | vdpau-driver"
+	],
+	"replaces": [
+		"lib32vdpau1"
+	],
+	"conflicts": [
+		"lib32vdpau1"
+	],
+	"installedSize": 114,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "Video Decode and Presentation API for Unix (libraries)",
+	"homepage": "https://cgit.freedesktop.org/~aplattner/libvdpau",
+	"filename": "pool/main/libv/libvdpau/libvdpau1_1.1.1-10_amd64.deb",
+	"size": 41972,
+	"md5": "4eeabbf0f64b599740e38cc577dba164",
+	"sha256": "405f005d362c260bd044dbe2780212bd94e6a9225220fe29126edcf3ff5a345d",
+	"descriptionMd5": "4db054f80a1c742472d24fb11ef7f221"
+}]

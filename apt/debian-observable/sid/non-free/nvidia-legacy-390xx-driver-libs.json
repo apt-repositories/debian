@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-legacy-390xx-driver-libs",
+	"source": "nvidia-graphics-drivers-legacy-390xx",
+	"version": "390.157-11",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libgl1-nvidia-legacy-390xx-glvnd-glx (= 390.157-11)",
+		"nvidia-legacy-390xx-egl-icd (= 390.157-11)"
+	],
+	"recommends": [
+		"nvidia-legacy-390xx-driver-libs-i386 (= 390.157-11)",
+		"libopengl0 | libopengl0-glvnd-nvidia",
+		"libglx-nvidia-legacy-390xx0 (= 390.157-11)",
+		"libgles-nvidia-legacy-390xx1 (= 390.157-11)",
+		"libgles-nvidia-legacy-390xx2 (= 390.157-11)",
+		"libnvidia-legacy-390xx-cfg1 (= 390.157-11)",
+		"libnvidia-legacy-390xx-encode1 (= 390.157-11)",
+		"nvidia-legacy-390xx-vulkan-icd (= 390.157-11)"
+	],
+	"breaks": [
+		"libegl1-nvidia-legacy-390xx",
+		"libgl1-nvidia-legacy-390xx-glx",
+		"nvidia-legacy-390xx-driver-libs-nonglvnd",
+		"nvidia-legacy-390xx-nonglvnd-vulkan-icd"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgldispatch0-nvidia",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia"
+	],
+	"installedSize": 111,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (OpenGL/GLX/EGL/GLES libraries) (390xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-390xx/nvidia-legacy-390xx-driver-libs_390.157-11_amd64.deb",
+	"size": 93160,
+	"md5": "25be2ecf523c523f8d2ac5994f78183a",
+	"sha256": "6841cb9d1106759f7c40db89278d614f8cba6d694b17a32b477e27d73844e515",
+	"descriptionMd5": "bffc248c9dcc39fc9ab0772c9b880247"
+}]

@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "kwin-wayland",
+	"source": "kwin",
+	"version": "4:5.14.5-1",
+	"section": "kde",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kwayland-integration (>= 5.14)",
+		"kwin-common (= 4:5.14.5-1)",
+		"kwin-wayland-backend-drm (= 4:5.14.5-1) | kwin-wayland-backend-fbdev (= 4:5.14.5-1) | kwin-wayland-backend-x11 (= 4:5.14.5-1) | kwin-wayland-backend-virtual (= 4:5.14.5-1) | kwin-wayland-backend-wayland (= 4:5.14.5-1)",
+		"libcap2-bin",
+		"xwayland",
+		"libc6 (>= 2.14)",
+		"libcap2 (>= 1:2.10)",
+		"libepoxy0 (>= 1.0)",
+		"libfontconfig1 (>= 2.12.6)",
+		"libfreetype6 (>= 2.6)",
+		"libkf5coreaddons5 (>= 5.2.0)",
+		"libkf5i18n5 (>= 4.97.0)",
+		"libkf5idletime5 (>= 5.13.0)",
+		"libkf5quickaddons5 (>= 5.42.0~)",
+		"libkf5waylandclient5 (>= 4:5.5.0)",
+		"libkf5waylandserver5 (>= 4:5.1.1+git20141128.0009)",
+		"libkf5windowsystem5 (>= 5.7.0+git20150224.0052+15.04)",
+		"libkwineffects11 (>= 4:5.1.95+git20150122)",
+		"libqt5core5a (>= 5.11.0~rc1)",
+		"libqt5dbus5 (>= 5.11.0~)",
+		"libqt5gui5 (>= 5.11.1)",
+		"libqt5widgets5 (>= 5.11.0~)",
+		"libstdc++6 (>= 5)",
+		"libwayland-egl1 (>= 1.15.0)",
+		"libxcb1",
+		"qtbase-abi-5-11-3"
+	],
+	"breaks": [
+		"plasma-workspace-wayland (<< 4:5.14)"
+	],
+	"installedSize": 626,
+	"maintainer": "Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
+	"description": "KDE window manager, wayland version, PREVIEW release",
+	"homepage": "https://projects.kde.org/projects/kde/workspace/kwin",
+	"filename": "pool/main/k/kwin/kwin-wayland_5.14.5-1_amd64.deb",
+	"size": 170520,
+	"md5": "1fe2d66306fc2716e333f5794ac1e4eb",
+	"sha256": "bbaafd3bc0055adbdfd8d035e23e8ed835e5bca424b8cbdb66b0135d90cec425",
+	"descriptionMd5": "1f46402d0fc101878e7f6228ce76c610"
+}

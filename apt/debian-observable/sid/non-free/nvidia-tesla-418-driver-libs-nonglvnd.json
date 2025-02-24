@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-418-driver-libs-nonglvnd",
+	"source": "nvidia-graphics-drivers-tesla-418",
+	"version": "418.226.00-17",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libgl1-nvidia-tesla-418-glx (= 418.226.00-17)",
+		"libegl1-nvidia-tesla-418 (= 418.226.00-17)"
+	],
+	"recommends": [
+		"nvidia-tesla-418-driver-libs-nonglvnd:i386 (= 418.226.00-17)",
+		"libglx-nvidia-tesla-418-0 (= 418.226.00-17)",
+		"libgles-nvidia-tesla-418-1 (= 418.226.00-17)",
+		"libgles-nvidia-tesla-418-2 (= 418.226.00-17)",
+		"libnvidia-tesla-418-cfg1 (= 418.226.00-17)",
+		"nvidia-tesla-418-nonglvnd-vulkan-icd (= 418.226.00-17)"
+	],
+	"breaks": [
+		"libgl1-nvidia-tesla-418-glvnd-glx",
+		"nvidia-tesla-418-driver-libs",
+		"nvidia-tesla-418-vulkan-icd"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia"
+	],
+	"installedSize": 117,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (non-GLVND OpenGL/GLX/EGL/GLES libraries) (Tesla 418)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-418/nvidia-tesla-418-driver-libs-nonglvnd_418.226.00-17_amd64.deb",
+	"size": 98356,
+	"md5": "907f71b71337746b85f54f67cfe5b5af",
+	"sha256": "6de1cfa4e027e31b90d4b9b5f24557df1f4460e7241aaed97a9e9faea83bb49d",
+	"descriptionMd5": "9eb0237b6338d5902b7c4ea7b6c2807c"
+}]

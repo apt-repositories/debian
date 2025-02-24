@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libkadm5srv-mit12",
+	"source": "krb5",
+	"version": "1.21.3-4",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcom-err2 (>= 1.43.9)",
+		"libgssapi-krb5-2 (>= 1.6.dfsg.2)",
+		"libgssrpc4t64 (>= 1.6.dfsg.2)",
+		"libk5crypto3 (>= 1.6.dfsg.2)",
+		"libkdb5-10t64 (>= 1.21.3)",
+		"libkrb5-3 (>= 1.15~beta1)",
+		"libkrb5support0 (= 1.21.3-4)"
+	],
+	"suggests": [
+		"krb5-doc",
+		"krb5-user"
+	],
+	"breaks": [
+		"krb5-admin-server (<< 1.21)",
+		"krb5-kdc (<< 1.21)"
+	],
+	"conflicts": [
+		"libkdb5-8"
+	],
+	"installedSize": 201,
+	"maintainer": "Sam Hartman <hartmans@debian.org>",
+	"description": "MIT Kerberos runtime libraries - KDC and Admin Server",
+	"homepage": "https://web.mit.edu/kerberos/",
+	"filename": "pool/main/k/krb5/libkadm5srv-mit12_1.21.3-4_amd64.deb",
+	"size": 54188,
+	"md5": "da2950553243423b82b6aa4c6b341678",
+	"sha256": "99022c216657127c73302cd1c830542188e35233ea98bb5457623e8b3b9dab73",
+	"descriptionMd5": "34bc9a3bc5f24d8493ce16a753dc317d"
+}]

@@ -1,0 +1,143 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba",
+	"version": "2:4.17.12+dfsg-0+deb12u1~bpo11+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"passwd",
+		"libpam-modules",
+		"libpam-runtime (>= 1.0.1-11)",
+		"procps",
+		"python3",
+		"python3-dnspython",
+		"python3-samba (= 2:4.17.12+dfsg-0+deb12u1~bpo11+1)",
+		"samba-common (= 2:4.17.12+dfsg-0+deb12u1~bpo11+1)",
+		"samba-common-bin (= 2:4.17.12+dfsg-0+deb12u1~bpo11+1)",
+		"tdb-tools",
+		"python3:any",
+		"libbsd0 (>= 0.6.0)",
+		"libc6 (>= 2.25)",
+		"libcups2 (>= 1.7.0)",
+		"libgnutls30 (>= 3.7.0)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libldb2 (>= 2:2.6.1)",
+		"libpopt0 (>= 1.14)",
+		"libtalloc2 (>= 2.3.4~)",
+		"libtasn1-6 (>= 4.14)",
+		"libtdb1 (>= 1.4.7~)",
+		"libtevent0 (>= 0.13.0~)",
+		"samba-libs (= 2:4.17.12+dfsg-0+deb12u1~bpo11+1)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"attr",
+		"logrotate",
+		"python3-markdown",
+		"samba-dsdb-modules",
+		"samba-vfs-modules",
+		"samba-ad-provision"
+	],
+	"suggests": [
+		"bind9 (>= 1:9.5.1)",
+		"bind9utils",
+		"ctdb",
+		"ldb-tools",
+		"ntp | chrony (>= 3.0-1)",
+		"ufw",
+		"winbind"
+	],
+	"enhances": [
+		"bind9",
+		"ntp"
+	],
+	"breaks": [
+		"samba-ad-provision (<< 2:4.17.12+dfsg)"
+	],
+	"installedSize": 4046,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "SMB/CIFS file, print, and login server for Unix",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba_4.17.12+dfsg-0+deb12u1~bpo11+1_amd64.deb",
+	"size": 1045040,
+	"sha256": "3a7c13ed17f913964754c3808dee24a4eb54b91d59ef594c3a2c0e41dd51d060",
+	"descriptionMd5": "c9d307ae5cf3b46be12b53a9f95862f0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba",
+	"version": "2:4.13.13+dfsg-1~deb11u6",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libpam-modules",
+		"libpam-runtime (>= 1.0.1-11)",
+		"lsb-base (>= 4.1+Debian)",
+		"procps",
+		"python3 (<< 3.10)",
+		"python3-dnspython",
+		"python3-samba",
+		"samba-common (= 2:4.13.13+dfsg-1~deb11u6)",
+		"samba-common-bin (= 2:4.13.13+dfsg-1~deb11u6)",
+		"tdb-tools",
+		"python3 (>= 3.9~)",
+		"python3:any",
+		"libbsd0 (>= 0.6.0)",
+		"libc6 (>= 2.14)",
+		"libgnutls30 (>= 3.7.0)",
+		"libldb2 (>= 2:2.2.3-2~deb11u2~)",
+		"libpopt0 (>= 1.14)",
+		"libpython3.9 (>= 3.9.1)",
+		"libtalloc2 (>= 2.3.1~)",
+		"libtasn1-6 (>= 4.14)",
+		"libtdb1 (>= 1.4.3~)",
+		"libtevent0 (>= 0.10.2~)",
+		"libwbclient0 (= 2:4.13.13+dfsg-1~deb11u6)",
+		"samba-libs (= 2:4.13.13+dfsg-1~deb11u6)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6~)",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"attr",
+		"logrotate",
+		"python3-markdown",
+		"samba-dsdb-modules",
+		"samba-vfs-modules"
+	],
+	"suggests": [
+		"bind9 (>= 1:9.5.1)",
+		"bind9utils",
+		"ctdb",
+		"ldb-tools",
+		"ntp | chrony (>= 3.0-1)",
+		"smbldap-tools",
+		"ufw",
+		"winbind"
+	],
+	"enhances": [
+		"bind9",
+		"ntp"
+	],
+	"installedSize": 16636,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "SMB/CIFS file, print, and login server for Unix",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/updates/main/s/samba/samba_4.13.13+dfsg-1~deb11u6_amd64.deb",
+	"size": 1181892,
+	"sha256": "4c668558411238aaaaaf49cb6e6570398043dca13f7f884c6b23eb735920c60d",
+	"descriptionMd5": "3dcec89b7baaa655b2536933cdaeab54"
+}]

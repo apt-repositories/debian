@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-settings",
+	"version": "418.74-1",
+	"section": "contrib/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-alternative",
+		"libxnvctrl0 (= 418.74-1)",
+		"libgtk-3-0 (>= 3.0.0) | libgtk2.0-0 (>= 2.24.32)",
+		"libc6 (>= 2.14)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf2.0-0 (>= 2.22.0)",
+		"libglib2.0-0 (>= 2.16.0)",
+		"libjansson4 (>= 2.3)",
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libx11-6",
+		"libxxf86vm1"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"libgl1-nvidia-glvnd-glx | libgl1-nvidia-glx",
+		"nvidia-vdpau-driver",
+		"libnvidia-ml1"
+	],
+	"conflicts": [
+		"nvidia-settings-gtk-418.74"
+	],
+	"installedSize": 3215,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "tool for configuring the NVIDIA graphics driver",
+	"homepage": "https://download.nvidia.com/XFree86/nvidia-settings/",
+	"filename": "pool/contrib/n/nvidia-settings/nvidia-settings_418.74-1_amd64.deb",
+	"size": 975648,
+	"md5": "dd44fcd8993f1790e3605f8fd8816825",
+	"sha256": "15a2b609b2104b2d0f60af1ab47ef7482ec38ebca43e1e4cfc9cf5f78ec93a88",
+	"descriptionMd5": "3ffa050620c90555dbf58d2a6bebfd10"
+}

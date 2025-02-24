@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-base-drivers",
+	"source": "libreoffice",
+	"version": "1:6.1.5-3+deb10u7",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core (= 1:6.1.5-3+deb10u7)",
+		"libc6 (>= 2.14)",
+		"libgcc1 (>= 1:3.0)",
+		"libstdc++6 (>= 5)",
+		"uno-libs3 (>= 5.3.0~alpha)",
+		"ure"
+	],
+	"recommends": [
+		"libreoffice-sdbc-hsqldb",
+		"libreoffice-sdbc-firebird"
+	],
+	"suggests": [
+		"libjtds-java",
+		"libreoffice-mysql-connector | libmyodbc | libmariadb-java",
+		"libreoffice-sdbc-postgresql | odbc-postgresql | libpg-java",
+		"libsqliteodbc | tdsodbc | mdbtools"
+	],
+	"replaces": [
+		"libreoffice-base (<< 1:4.3.0-3)"
+	],
+	"breaks": [
+		"libreoffice-base (<< 1:4.3.0-3)"
+	],
+	"installedSize": 2453,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "Database connectivity drivers for LibreOffice",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/libreoffice-base-drivers_6.1.5-3+deb10u7_amd64.deb",
+	"size": 513196,
+	"md5": "cfd9b1a5725289d99d9966db9a3cdc6b",
+	"sha256": "6491af1cb0f90f6a30c4a6fcf9ce93cf4264258876df357033ae0e1815ca3887",
+	"descriptionMd5": "7cb59efbe49573eb6b41e4a2c463e31d"
+}]

@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-numpy",
+	"source": "numpy",
+	"version": "1:1.19.5-1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-pkg-resources",
+		"python3 (<< 3.10)",
+		"python3 (>= 3.9~)",
+		"python3.9:any",
+		"python3:any",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.29)",
+		"liblapack3 | liblapack.so.3"
+	],
+	"suggests": [
+		"gcc (>= 4:4.6.1-5)",
+		"gfortran",
+		"python-numpy-doc",
+		"python3-dev",
+		"python3-numpy-dbg",
+		"python3-pytest"
+	],
+	"breaks": [
+		"python3-aplpy (<< 2.0~rc2-1)",
+		"python3-astropy (<< 3.1-1)",
+		"python3-ccdproc (<< 1.3.0-5)",
+		"python3-dask (<< 1.0.0+dfsg-2)",
+		"python3-skimage (<< 0.14.1-3)",
+		"python3-tables (<< 3.4.4-2)",
+		"python3-theano (<< 1.0.3+dfsg-1)"
+	],
+	"installedSize": 14375,
+	"maintainer": "Sandro Tosi <morph@debian.org>",
+	"description": "Fast array facility to the Python 3 language",
+	"homepage": "http://www.numpy.org/",
+	"filename": "pool/main/n/numpy/python3-numpy_1.19.5-1_amd64.deb",
+	"size": 2693312,
+	"md5": "d66c17aa7fc90aa5eed2890e80bab327",
+	"sha256": "fe8c8955be71be9f744729b73c73cc6bc01184daf253604f1d3ee16a8d64d30d",
+	"descriptionMd5": "4fef6b207fcddcc7678c9cb4c3a66bd2"
+}

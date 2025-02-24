@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ettercap-graphical",
+	"source": "ettercap",
+	"version": "1:0.8.3.1-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ettercap-common (= 1:0.8.3.1-3)",
+		"policykit-1",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.14)",
+		"libgdk-pixbuf2.0-0 (>= 2.22.0)",
+		"libglib2.0-0 (>= 2.31.18)",
+		"libgtk-3-0 (>= 3.21.5)",
+		"libncurses6 (>= 6)",
+		"libpcre3",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"ettercap",
+		"ettercap-common (<< 1:0.8.3-1~)",
+		"ettercap-gtk"
+	],
+	"breaks": [
+		"ettercap-common (<< 1:0.8.3-1~)"
+	],
+	"conflicts": [
+		"ettercap",
+		"ettercap-gtk"
+	],
+	"installedSize": 605,
+	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
+	"description": "Ettercap GUI-enabled executable",
+	"homepage": "https://ettercap.github.io/ettercap/",
+	"filename": "pool/main/e/ettercap/ettercap-graphical_0.8.3.1-3_amd64.deb",
+	"size": 229652,
+	"md5": "3aaef3acab4778ee6dc8861cfc185029",
+	"sha256": "c5d8fad25f4a3c2b569f4d0bcdd39c53ec14517ecb69821f0b1099c1eba69682",
+	"descriptionMd5": "7159d7c312a06889578b22a84809a38d"
+}]

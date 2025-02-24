@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libomp5-14t64",
+	"source": "llvm-toolchain-14",
+	"version": "1:14.0.6-20",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)"
+	],
+	"replaces": [
+		"libomp-x.y",
+		"libomp5-14"
+	],
+	"breaks": [
+		"libomp5 (<< 44)",
+		"libomp5-14 (<< 1:14.0.6-20)"
+	],
+	"conflicts": [
+		"libomp-x.y"
+	],
+	"installedSize": 2357,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM OpenMP runtime",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-14/libomp5-14t64_14.0.6-20_amd64.deb",
+	"size": 384980,
+	"md5": "9888d2536a48c7570a986e8b3c7f2a08",
+	"sha256": "9670d57503db8cd3b365616008cc4ba9e23e27d36e24b452764af722b46ba448",
+	"descriptionMd5": "e28f50eb4beb8e316b69da2c1c0194c3"
+}

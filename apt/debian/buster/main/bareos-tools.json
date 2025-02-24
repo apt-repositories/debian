@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bareos-tools",
+	"source": "bareos",
+	"version": "16.2.6-5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bareos-common (= 16.2.6-5)",
+		"libacl1 (>= 2.2.51-8)",
+		"libc6 (>= 2.14)",
+		"libcap2 (>= 1:2.10)",
+		"libgcc1 (>= 1:3.0)",
+		"libgnutls30 (>= 3.6.5)",
+		"libjansson4 (>= 2.0.1)",
+		"liblzo2-2",
+		"libstdc++6 (>= 4.1.1)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"debconf (>= 1.4.30) | debconf-2.0"
+	],
+	"conflicts": [
+		"bacula-sd",
+		"bacula-sd-mysql",
+		"bacula-sd-pgsql",
+		"bacula-sd-sqlite3"
+	],
+	"installedSize": 216,
+	"maintainer": "Bareos Packaging Team <team+bareos@tracker.debian.org>",
+	"description": "Backup Archiving Recovery Open Sourced - common tools",
+	"homepage": "http://www.bareos.org/",
+	"filename": "pool/main/b/bareos/bareos-tools_16.2.6-5_amd64.deb",
+	"size": 50120,
+	"md5": "89fe25e5960b807b57f074f97bbe423f",
+	"sha256": "ce887009bbd4214fb3e82b6c16981dc5c294018f135f037855908b2b6b1f7ea8",
+	"descriptionMd5": "9b2606c5c1d569c4269071e3f03c6f90"
+}

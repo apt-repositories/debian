@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclang1-14t64",
+	"source": "llvm-toolchain-14",
+	"version": "1:14.0.6-20",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm14t64",
+		"libstdc++6 (>= 11)"
+	],
+	"replaces": [
+		"libclang1-14"
+	],
+	"breaks": [
+		"libclang1-14 (<< 1:14.0.6-20)"
+	],
+	"installedSize": 30136,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "C interface to the Clang library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-14/libclang1-14t64_14.0.6-20_amd64.deb",
+	"size": 6172672,
+	"md5": "de6d1d6c60d1a559f75c6946183fd8b0",
+	"sha256": "ceb936bdb70757548708a87e498860c9f4ac5ee9199223d2720684c369e72bdc",
+	"descriptionMd5": "6fbabc5fd121a4ff6b254de59627b6de"
+}]

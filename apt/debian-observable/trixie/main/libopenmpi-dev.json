@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libopenmpi-dev",
+	"source": "openmpi",
+	"version": "5.0.7-1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gfortran-14 | gfortran-mod-15",
+		"libopenmpi40 (= 5.0.7-1)",
+		"openmpi-common (>= 5.0.7-1)",
+		"libibverbs-dev (>= 1.1.7)",
+		"libhwloc-dev",
+		"libevent-dev",
+		"libpmix-dev",
+		"libjs-jquery",
+		"libjs-jquery-ui",
+		"zlib1g-dev",
+		"openmpi-bin (>= 3.0.0-1)"
+	],
+	"recommends": [
+		"libcoarrays-openmpi-dev"
+	],
+	"suggests": [
+		"openmpi-doc"
+	],
+	"breaks": [
+		"lam4-dev (<< 7.1.4-4)",
+		"openmpi-doc (<< 4.1.2~rc1-4)"
+	],
+	"conflicts": [
+		"libopenmpi-dev"
+	],
+	"installedSize": 5266,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "high performance message passing library -- header files",
+	"homepage": "https://www.open-mpi.org/",
+	"filename": "pool/main/o/openmpi/libopenmpi-dev_5.0.7-1_amd64.deb",
+	"size": 1088548,
+	"md5": "9bc48aa17b2af00d7da8207c15134a5a",
+	"sha256": "e301a429da4839d0bfed81cee3ed104c2975cbdd46370831039b8636bf5966ca",
+	"descriptionMd5": "b378507a7bc7ecccf3855f2ea92d5e20"
+}]

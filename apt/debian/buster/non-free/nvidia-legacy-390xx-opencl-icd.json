@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-legacy-390xx-opencl-icd",
+	"source": "nvidia-graphics-drivers-legacy-390xx",
+	"version": "390.154-1~deb10u1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-opencl-common",
+		"ocl-icd-libopencl1 | nvidia-libopencl1 | libopencl1",
+		"nvidia-legacy-390xx-alternative (= 390.154-1~deb10u1)",
+		"libnvidia-legacy-390xx-cuda1 (= 390.154-1~deb10u1)",
+		"libnvidia-legacy-390xx-compiler (= 390.154-1~deb10u1)",
+		"libc6 (>= 2.2.5)",
+		"libnvidia-legacy-390xx-fatbinaryloader (>= 367.44)"
+	],
+	"enhances": [
+		"libopencl1"
+	],
+	"installedSize": 15722,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA OpenCL installable client driver (ICD) (390xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-390xx/nvidia-legacy-390xx-opencl-icd_390.154-1~deb10u1_amd64.deb",
+	"size": 1932616,
+	"md5": "f67f408952d440a7e13670d80bc61669",
+	"sha256": "b3a1b18936605b03b54a6bc5bb7f155ec6fb79865c4c8c356ce1ea35f7dbc9ad",
+	"descriptionMd5": "9abda5c94b1112eef98dad8e7adbfa70"
+}

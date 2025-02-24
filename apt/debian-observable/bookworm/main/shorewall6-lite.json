@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "shorewall6-lite",
+	"source": "shorewall",
+	"version": "5.2.8-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"iproute2",
+		"iptables",
+		"shorewall-core (= 5.2.8-2)",
+		"init-system-helpers (>= 1.51)"
+	],
+	"recommends": [
+		"wget"
+	],
+	"suggests": [
+		"make",
+		"shorewall-doc"
+	],
+	"conflicts": [
+		"ferm",
+		"filtergen",
+		"guidedog",
+		"uif"
+	],
+	"installedSize": 71,
+	"maintainer": "Debian Shorewall Team <team+shorewall@tracker.debian.org>",
+	"description": "Shorewall (lite version with IPv6 support)",
+	"homepage": "https://www.shorewall.org/",
+	"filename": "pool/main/s/shorewall/shorewall6-lite_5.2.8-2_all.deb",
+	"size": 18728,
+	"md5": "ad6b2412003681e987caf7acebf61747",
+	"sha256": "45a5da8aee2b8086db87ce5f68d6ee985c6356a470d59b74fcecafdc005504d5",
+	"descriptionMd5": "0bfffbe58f12dfa8f9d6842d47fc37f3"
+}]

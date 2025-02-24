@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opensmtpd-extras",
+	"source": "opensmtpd-extras (6.7.1-2)",
+	"version": "6.7.1-2+b1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"libmariadb3 (>= 3.0.0)",
+		"libpq5",
+		"libsqlite3-0 (>= 3.5.9)",
+		"opensmtpd (>= 6.6.1p1)"
+	],
+	"replaces": [
+		"opensmtpd (<< 5.7.3p1)"
+	],
+	"enhances": [
+		"opensmtpd"
+	],
+	"breaks": [
+		"opensmtpd (<< 5.7.3p1)"
+	],
+	"installedSize": 385,
+	"maintainer": "Ryan Kavanagh <rak@debian.org>",
+	"description": "addons for the OpenSMTPD SMTP server",
+	"homepage": "https://opensmtpd.org/",
+	"filename": "pool/main/o/opensmtpd-extras/opensmtpd-extras_6.7.1-2+b1_amd64.deb",
+	"size": 63756,
+	"md5": "c91e20993332a903b978d3f3fd11f24e",
+	"sha256": "d31c0aa91e7ca682bfcdd120832e261bd2f56ceef01c3864948a47b2f2524ddc",
+	"descriptionMd5": "530a8eae9cfabd19d898e3f388bdcb98"
+}

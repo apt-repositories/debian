@@ -1,0 +1,35 @@
+name: Validate
+
+on:
+  pull_request:
+  merge_group:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Track changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+            !apt/**
+
+      - name: Check changed files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "Detected changes outside of /apt/ directory!"
+          echo ${{ steps.changed-files.outputs.all_changed_files }}
+          exit 1
+
+      - name: Select NodeJS version
+        uses: actions/setup-node@v4
+
+      - name: Validate
+        env:
+          VALIDATE_ONLY: 1
+        run: |
+          npx @apt-repositories/generator

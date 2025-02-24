@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-messenger",
+	"source": "symfony",
+	"version": "5.4.23+dfsg-1+deb12u4",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-psr-log",
+		"php-symfony-amqp-messenger",
+		"php-symfony-deprecation-contracts",
+		"php-symfony-doctrine-messenger",
+		"php-symfony-redis-messenger"
+	],
+	"suggests": [
+		"php-enqueue-messenger-adapter"
+	],
+	"breaks": [
+		"php-symfony-event-dispatcher (<< 4.4~~)",
+		"php-symfony-framework-bundle (<< 4.4~~)",
+		"php-symfony-http-kernel (<< 4.4~~)",
+		"php-symfony-serializer (<< 5.0~~)"
+	],
+	"installedSize": 416,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "send and receive messages",
+	"homepage": "https://symfony.com/doc/5.4/components/messenger.html",
+	"filename": "pool/updates/main/s/symfony/php-symfony-messenger_5.4.23+dfsg-1+deb12u4_all.deb",
+	"size": 63884,
+	"sha256": "f8c3fbf49c42d7a50fad3cbe6ff97b4af568e9f60250bcb28724754434522cfc",
+	"descriptionMd5": "7278cb93ab652fbcd91802004a71ae83"
+}]

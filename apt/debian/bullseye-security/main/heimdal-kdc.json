@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "heimdal-kdc",
+	"source": "heimdal",
+	"version": "7.7.0+dfsg-2+deb11u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5.00) | debconf-2.0",
+		"heimdal-clients",
+		"krb5-config",
+		"lsb-base",
+		"openbsd-inetd | inet-superserver",
+		"libasn1-8-heimdal (>= 1.4.0+git20110226)",
+		"libc6 (>= 2.15)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libgssapi3-heimdal (>= 1.4.0+git20110226)",
+		"libhcrypto4-heimdal (>= 1.4.0+git20110226)",
+		"libhdb9-heimdal (>= 1.6~git20131117)",
+		"libheimbase1-heimdal (>= 1.4.0+git20110226)",
+		"libheimntlm0-heimdal (>= 1.4.0+git20110226)",
+		"libkadm5srv8-heimdal (>= 1.7~git20160418)",
+		"libkdc2-heimdal (>= 1.4.0+git20110226)",
+		"libkrb5-26-heimdal (>= 1.7~git20160418)",
+		"libroken18-heimdal (>= 1.7~git20150920)",
+		"libsl0-heimdal (>= 1.4.0+git20110226)"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"suggests": [
+		"heimdal-docs"
+	],
+	"conflicts": [
+		"heimdal-clients (<< 0.4e-3)",
+		"heimdal-servers (<< 0.6.3-3)",
+		"kerberos4kth-kdc",
+		"krb5-admin-server",
+		"krb5-kdc"
+	],
+	"installedSize": 441,
+	"maintainer": "Brian May <bam@debian.org>",
+	"description": "Heimdal Kerberos - key distribution center (KDC)",
+	"homepage": "http://www.h5l.org/",
+	"filename": "pool/updates/main/h/heimdal/heimdal-kdc_7.7.0+dfsg-2+deb11u3_amd64.deb",
+	"size": 131356,
+	"sha256": "22cf25d9105e1236794acf7f63c7edf16fc31981f4a41ecc9e8193b5a662f19c",
+	"descriptionMd5": "341da9732edd5d975ab7c6361f80ddfe"
+}

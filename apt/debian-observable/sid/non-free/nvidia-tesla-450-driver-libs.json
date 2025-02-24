@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-450-driver-libs",
+	"source": "nvidia-graphics-drivers-tesla-450",
+	"version": "450.248.02-9",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-tesla-470-driver-libs"
+	],
+	"breaks": [
+		"libegl1-nvidia-tesla-450",
+		"libgl1-nvidia-tesla-450-glx",
+		"nvidia-tesla-450-driver-libs-nonglvnd",
+		"nvidia-tesla-450-nonglvnd-vulkan-icd"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgl1-nvidia-tesla-450-glx-i386",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia"
+	],
+	"installedSize": 131,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (OpenGL/GLX/EGL/GLES libraries) (Tesla 450 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-450/nvidia-tesla-450-driver-libs_450.248.02-9_amd64.deb",
+	"size": 112060,
+	"md5": "8350754dc1717ced809fbc69bc4fd520",
+	"sha256": "d2f7bd0559ce7d76b57ad5466bb89ca64b7a8aff94e61432ff8470d4c9b368fd",
+	"descriptionMd5": "134503173a20d3ddbf95751e141f1b1d"
+}]

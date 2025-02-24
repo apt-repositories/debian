@@ -1,0 +1,81 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wine",
+	"version": "7.0~repack-10~bpo11+1",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"wine64 (>= 7.0~repack-10~bpo11+1) | wine32 (>= 7.0~repack-10~bpo11+1)",
+		"wine64 (<< 7.0~repack-10~bpo11+1.1~) | wine32 (<< 7.0~repack-10~bpo11+1.1~)"
+	],
+	"suggests": [
+		"q4wine",
+		"winbind",
+		"winetricks",
+		"playonlinux",
+		"wine-binfmt",
+		"dosbox (>= 0.74-4.2~)",
+		"exe-thumbnailer | kio-extras"
+	],
+	"replaces": [
+		"libwine (<< 5.5-6)",
+		"wine-stable (<< 3.0.1ubuntu1~)"
+	],
+	"breaks": [
+		"libwine (<< 5.5-6)",
+		"wine-stable (<< 3.0.1ubuntu1~)"
+	],
+	"installedSize": 203,
+	"maintainer": "Debian Wine Party <debian-wine@lists.debian.org>",
+	"description": "Windows API implementation - standard suite",
+	"homepage": "https://www.winehq.org",
+	"filename": "pool/main/w/wine/wine_7.0~repack-10~bpo11+1_all.deb",
+	"size": 143404,
+	"sha256": "ffb681bbc0b464a0d010fbe113fb38a7bf7e6e677dbb7729efc4b29eb25840d5",
+	"descriptionMd5": "aaa17f910b7198338e5e3d08ce256208"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wine",
+	"version": "5.0.3-3",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"wine64 (>= 5.0.3-3) | wine32 (>= 5.0.3-3)",
+		"wine64 (<< 5.0.3-3.1~) | wine32 (<< 5.0.3-3.1~)"
+	],
+	"suggests": [
+		"q4wine",
+		"winbind",
+		"winetricks",
+		"playonlinux",
+		"wine-binfmt",
+		"dosbox (>= 0.74-4.2~)",
+		"exe-thumbnailer | kio-extras"
+	],
+	"replaces": [
+		"wine-stable (<< 3.0.1ubuntu1~)"
+	],
+	"breaks": [
+		"wine-stable (<< 3.0.1ubuntu1~)"
+	],
+	"installedSize": 191,
+	"maintainer": "Debian Wine Party <debian-wine@lists.debian.org>",
+	"description": "Windows API implementation - standard suite",
+	"homepage": "https://www.winehq.org",
+	"builtUsing": "khronos-api (= 4.6+git20180514-2), unicode-data (= 13.0.0-2)",
+	"filename": "pool/main/w/wine/wine_5.0.3-3_all.deb",
+	"size": 135864,
+	"md5": "e34693c740f2c1e42ac2eff47ae54198",
+	"sha256": "e1cba8a9bbeef8a1bc41a350d70ed9222f1d1ed8d2c02a5e79c2692ab138ca4c",
+	"descriptionMd5": "4ebadaf7bd4b6c9116b711ef450d53cd"
+}]

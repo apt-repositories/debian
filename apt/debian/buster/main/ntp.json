@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ntp",
+	"version": "1:4.2.8p12+dfsg-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"lsb-base (>= 3.2-13)",
+		"netbase",
+		"tzdata",
+		"libc6 (>= 2.17)",
+		"libcap2 (>= 1:2.10)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libopts25 (>= 1:5.18.12)",
+		"libssl1.1 (>= 1.1.0)"
+	],
+	"recommends": [
+		"sntp",
+		"perl:any"
+	],
+	"suggests": [
+		"ntp-doc"
+	],
+	"replaces": [
+		"apparmor-profiles-extra (<< 1.8)"
+	],
+	"breaks": [
+		"apparmor-profiles-extra (<< 1.8)"
+	],
+	"installedSize": 2014,
+	"maintainer": "Debian NTP Team <ntp@packages.debian.org>",
+	"description": "Network Time Protocol daemon and utility programs",
+	"homepage": "http://support.ntp.org/",
+	"filename": "pool/main/n/ntp/ntp_4.2.8p12+dfsg-4_amd64.deb",
+	"size": 760716,
+	"md5": "a30ec403edf66c9feefb937095e309e7",
+	"sha256": "cccb2627abb6881a46b4ac2634dfa59126c07bacc8cb175e5568dfa2ee54bdd8",
+	"descriptionMd5": "220487bd9eceed70fec6b929cb922fd3"
+}

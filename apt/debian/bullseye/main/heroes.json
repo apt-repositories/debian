@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "heroes",
+	"version": "0.21-18",
+	"section": "games",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"heroes-data",
+		"libc6 (>= 2.15)",
+		"libsdl-mixer1.2",
+		"libsdl1.2debian (>= 1.2.11)"
+	],
+	"recommends": [
+		"heroes-sound-effects",
+		"heroes-sound-tracks"
+	],
+	"replaces": [
+		"heroes-common",
+		"heroes-sdl"
+	],
+	"breaks": [
+		"heroes-common (<< 0.21-11~)",
+		"heroes-sdl (<< 0.21-11~)"
+	],
+	"installedSize": 637,
+	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
+	"description": "Collect powerups and avoid your opponents' trails",
+	"homepage": "http://heroes.sourceforge.net",
+	"filename": "pool/main/h/heroes/heroes_0.21-18_amd64.deb",
+	"size": 233980,
+	"md5": "ef25d3e80c40b71e746f7ac9371c97a6",
+	"sha256": "f020981d69feed7b7345d9f0da04fa38d4ecc884eac86de3b0c14721f34c9c98",
+	"descriptionMd5": "6acee3293d99f22cc69084aab068c7b2"
+}

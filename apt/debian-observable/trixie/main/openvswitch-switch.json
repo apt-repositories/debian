@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvswitch-switch",
+	"source": "openvswitch",
+	"version": "3.5.0-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod | module-init-tools",
+		"netbase",
+		"openvswitch-common (= 3.5.0-1)",
+		"procps",
+		"uuid-runtime",
+		"libbpf1 (>= 1:0.7.0)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libnuma1 (>= 2.0.11)",
+		"libssl3t64 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)",
+		"libxdp1 (>= 1.4.3~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"python3-netifaces",
+		"python3-openvswitch (>= 3.5.0-1)",
+		"python3:any (>= 3.10~)"
+	],
+	"replaces": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"breaks": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"installedSize": 8574,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "Open vSwitch switch implementations",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/main/o/openvswitch/openvswitch-switch_3.5.0-1_amd64.deb",
+	"size": 1752404,
+	"md5": "46236f8040094cba2298789e41e9da20",
+	"sha256": "4dab141ec742e8dbf921d81578d54b11301fa31c87274d014c0e5eefada0fccf",
+	"descriptionMd5": "ff569939b14d8f902d88039019fdf3ae"
+}]

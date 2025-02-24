@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "oar-server",
+	"source": "oar",
+	"version": "2.5.10-2",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"perl:any",
+		"openssh-client",
+		"cron",
+		"libsort-versions-perl",
+		"libdbi-perl",
+		"oar-common (= 2.5.10-2)",
+		"oar-server-pgsql (= 2.5.10-2) | oar-server-mysql (= 2.5.10-2)",
+		"perl (<< 5.17) | libterm-ui-perl"
+	],
+	"recommends": [
+		"libxml-dumper-perl",
+		"libyaml-perl",
+		"libyaml-syck-perl"
+	],
+	"suggests": [
+		"taktuk",
+		"phpmyadmin",
+		"oar-node",
+		"oar-doc",
+		"openssh-server"
+	],
+	"breaks": [
+		"oar-admin"
+	],
+	"installedSize": 1016,
+	"maintainer": "Pierre Neyron <pierre.neyron@free.fr>",
+	"description": "OAR batch scheduler server package",
+	"homepage": "http://oar.imag.fr/",
+	"filename": "pool/main/o/oar/oar-server_2.5.10-2_amd64.deb",
+	"size": 148828,
+	"md5": "a0ed23420f48daf05d668d93115cadbc",
+	"sha256": "8ad1e2dc0bb680579a08637508606d7ac8846b5ed0432a0aea6c72b96b7ab808",
+	"descriptionMd5": "5575b7bbd1e7d4eee4987123585f17ad"
+}]

@@ -1,0 +1,56 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-11-sh4-linux-gnu",
+	"source": "gcc-11-cross-ports (19)",
+	"version": "11.5.0-2cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-sh4-linux-gnu-base (= 11.5.0-2cross1)",
+		"gcc-11-sh4-linux-gnu (>= 11)",
+		"libgnat-11-sh4-cross (>= 11.5.0-2cross1)",
+		"libc6-dev-sh4-cross (>= 2.23-1~)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-11-doc",
+		"ada-reference-manual-2012",
+		"gnat-11-sjlj"
+	],
+	"replaces": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"breaks": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"conflicts": [
+		"gnat-10-sh4-linux-gnu",
+		"gnat-4.9",
+		"gnat-5-sh4-linux-gnu",
+		"gnat-6-sh4-linux-gnu",
+		"gnat-7-sh4-linux-gnu",
+		"gnat-8-sh4-linux-gnu",
+		"gnat-9-sh4-linux-gnu"
+	],
+	"installedSize": 78399,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Ada compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-2)",
+	"filename": "pool/main/g/gcc-11-cross-ports/gnat-11-sh4-linux-gnu_11.5.0-2cross1_amd64.deb",
+	"size": 16108500,
+	"md5": "d0cc1534f2e5c8aba5b80b8899345e98",
+	"sha256": "f879a55de68aae621c7b0028e47f022bd1c40e74c8cc89252b4e2a288fc78060",
+	"descriptionMd5": "8cebde0cd6b861927a7a457cacc8851f"
+}]

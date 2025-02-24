@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-efi-amd64",
+	"source": "grub2",
+	"version": "2.06-3~deb11u6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-common (= 2.06-3~deb11u6)",
+		"grub2-common (= 2.06-3~deb11u6)",
+		"grub-efi-amd64-bin (= 2.06-3~deb11u6)",
+		"ucf"
+	],
+	"replaces": [
+		"grub",
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-coreboot",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-pc",
+		"grub2 (<< 2.06-3~deb11u6)"
+	],
+	"conflicts": [
+		"elilo",
+		"grub",
+		"grub-coreboot",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-pc",
+		"grub-xen"
+	],
+	"installedSize": 159,
+	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
+	"description": "GRand Unified Bootloader, version 2 (EFI-AMD64 version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-efi-amd64_2.06-3~deb11u6_amd64.deb",
+	"size": 40248,
+	"md5": "17d3a3ca63e607ec5a3a4c6c72103ac2",
+	"sha256": "c5719d31376314a016ac2b34dabb5b20d82b20e360e85d5a82747f9f2d03a6cf",
+	"descriptionMd5": "1718e7ac8c2b19e7fc9fd6edaaa9c56e"
+}

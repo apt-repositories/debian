@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-tesla-470-cuda1",
+	"source": "nvidia-graphics-drivers-tesla-470",
+	"version": "470.256.02-5~bpo12+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-support",
+		"nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1)",
+		"libnvidia-tesla-470-ptxjitcompiler1 (= 470.256.02-5~bpo12+1)",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"nvidia-tesla-470-kernel-dkms (= 470.256.02-5~bpo12+1) | nvidia-tesla-470-kernel-470.256.02",
+		"nvidia-tesla-470-smi",
+		"libnvidia-tesla-470-cfg1 (= 470.256.02-5~bpo12+1)",
+		"nvidia-persistenced",
+		"libnvidia-tesla-470-cuda1:i386 (= 470.256.02-5~bpo12+1)"
+	],
+	"suggests": [
+		"nvidia-cuda-mps",
+		"nvidia-tesla-470-kernel-dkms (>= 470.256.02) | nvidia-tesla-470-kernel-source (>= 470.256.02)"
+	],
+	"installedSize": 21708,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA CUDA Driver Library (Tesla 470 version)",
+	"homepage": "https://www.nvidia.com/CUDA",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-470/libnvidia-tesla-470-cuda1_470.256.02-5~bpo12+1_amd64.deb",
+	"size": 2637952,
+	"sha256": "5abec4cc88d5e7d15655812a1181b04aa951e7d56a68d567dbcd0e4882b06195",
+	"descriptionMd5": "a653506a1e695cffa72a7ff26b9e3263"
+}

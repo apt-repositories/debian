@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-apt",
+	"source": "python-apt",
+	"version": "2.6.0",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3 (<< 3.12)",
+		"python3 (>= 3.11~)",
+		"python3:any",
+		"libapt-pkg6.0 (>= 1.9.11~)",
+		"libc6 (>= 2.33)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 11)",
+		"python-apt-common",
+		"distro-info-data"
+	],
+	"recommends": [
+		"lsb-release",
+		"iso-codes"
+	],
+	"suggests": [
+		"python-apt-doc",
+		"apt"
+	],
+	"replaces": [
+		"python-apt (<< 0.7.98+nmu1)"
+	],
+	"breaks": [
+		"apt-xapian-index (<< 0.51~)",
+		"kthresher (<= 1.4.0-1)",
+		"python-apt (<< 0.7.98+nmu1)"
+	],
+	"installedSize": 685,
+	"maintainer": "APT Development Team <deity@lists.debian.org>",
+	"description": "Python 3 interface to libapt-pkg",
+	"filename": "pool/main/p/python-apt/python3-apt_2.6.0_amd64.deb",
+	"size": 158528,
+	"md5": "0102e8d2c234e40114682e75f1c735f1",
+	"sha256": "21faa053e5f9a01f89ec7b4e1f77652658f74328ec01f24550d3714e6c13ad20",
+	"descriptionMd5": "4e7bf010b1b89e36309ea2f4b7005936"
+}]

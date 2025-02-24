@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev",
+	"source": "gcc-11",
+	"version": "11.5.0-2",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-base (= 11.5.0-2)",
+		"libgcc-s1 (>= 11.5.0-2)",
+		"libgomp1 (>= 11.5.0-2)",
+		"libitm1 (>= 11.5.0-2)",
+		"libatomic1 (>= 11.5.0-2)",
+		"libasan6 (>= 11.5.0-2)",
+		"liblsan0 (>= 11.5.0-2)",
+		"libtsan0 (>= 11.5.0-2)",
+		"libubsan1 (>= 11.5.0-2)",
+		"libquadmath0 (>= 11.5.0-2)"
+	],
+	"recommends": [
+		"libc6-dev (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan0 (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0 (<< 11.2.0-11)"
+	],
+	"installedSize": 13718,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-11/libgcc-11-dev_11.5.0-2_amd64.deb",
+	"size": 2364312,
+	"md5": "aa28507816a1a18eb1503bb48adf18ad",
+	"sha256": "cae8d0f068ac06b585243cf06f075afd138fe7919b176741a5d311212df07b91",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

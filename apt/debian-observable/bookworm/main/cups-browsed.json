@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cups-browsed",
+	"source": "cups-filters",
+	"version": "1.28.17-3+deb12u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cups-daemon",
+		"lsb-base",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libavahi-glib1 (>= 0.6.16)",
+		"libc6 (>= 2.34)",
+		"libcups2 (>= 2.2.2)",
+		"libcupsfilters1 (>= 1.27.0)",
+		"libglib2.0-0 (>= 2.37.3)",
+		"libldap-2.5-0 (>= 2.5.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"avahi-daemon"
+	],
+	"replaces": [
+		"cups-filters (<< 1.4.0~)"
+	],
+	"enhances": [
+		"cups"
+	],
+	"breaks": [
+		"cups-filters (<< 1.4.0~)"
+	],
+	"installedSize": 376,
+	"maintainer": "Debian Printing Team <debian-printing@lists.debian.org>",
+	"description": "OpenPrinting CUPS Filters - cups-browsed",
+	"homepage": "http://www.openprinting.org/",
+	"filename": "pool/updates/main/c/cups-filters/cups-browsed_1.28.17-3+deb12u1_amd64.deb",
+	"size": 139900,
+	"sha256": "e4243f14f19d26a547f6bdbfc0c35a96bc39a8e210e5acbbcc321621b81f5bce",
+	"descriptionMd5": "6841b0cfd74741276406b0948b8f9867"
+}]

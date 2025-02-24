@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php8.2-redis",
+	"source": "php-redis",
+	"version": "5.3.7+4.3.0-3",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"php8.2-common",
+		"php8.2-igbinary",
+		"phpapi-20220829",
+		"libc6 (>= 2.14)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libzstd1 (>= 1.5.2)"
+	],
+	"preDepends": [
+		"php-common (>= 2:69~)"
+	],
+	"suggests": [
+		"redis-server"
+	],
+	"replaces": [
+		"php-redis (<< 5.3.7+4.3.0-3~)"
+	],
+	"breaks": [
+		"php-redis (<< 5.3.7+4.3.0-3~)"
+	],
+	"installedSize": 672,
+	"maintainer": "Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>",
+	"description": "PHP extension for interfacing with Redis",
+	"homepage": "https://pecl.php.net/package/redis",
+	"filename": "pool/main/p/php-redis/php8.2-redis_5.3.7+4.3.0-3_amd64.deb",
+	"size": 155280,
+	"md5": "51e8105c676893b06524bce96e285b93",
+	"sha256": "bd4ac2f8b34286e44af5641c9d99dbc626cc4e76654f0f0774986dfea054736f",
+	"descriptionMd5": "b8a3de89cf7f4311899f1f5751dbc60a"
+}

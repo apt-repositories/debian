@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-legacy-340xx-driver",
+	"source": "nvidia-graphics-drivers-legacy-340xx",
+	"version": "340.108-24",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-legacy-340xx-driver-libs (= 340.108-24)",
+		"nvidia-legacy-340xx-driver-bin (= 340.108-24)",
+		"xserver-xorg-video-nvidia-legacy-340xx (= 340.108-24)",
+		"nvidia-legacy-340xx-vdpau-driver (= 340.108-24)",
+		"nvidia-legacy-340xx-alternative (= 340.108-24)",
+		"nvidia-legacy-340xx-kernel-dkms (= 340.108-24) | nvidia-legacy-340xx-kernel-340.108",
+		"nvidia-support"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-settings-legacy-340xx (>= 340)",
+		"nvidia-persistenced"
+	],
+	"suggests": [
+		"nvidia-legacy-340xx-kernel-dkms (>= 340.108) | nvidia-legacy-340xx-kernel-source (>= 340.108)"
+	],
+	"installedSize": 1000,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (340xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-340xx/nvidia-legacy-340xx-driver_340.108-24_amd64.deb",
+	"size": 357464,
+	"md5": "73f39651f78227b8ea246f006fa4a692",
+	"sha256": "a3eeef4eadc2e5fa2ba71c186cc4fc86d75227fb2d5316f9ee26088068d69ee1",
+	"descriptionMd5": "23e48b16f7826aea467820e44eecf9d1"
+}

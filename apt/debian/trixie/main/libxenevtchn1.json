@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxenevtchn1",
+	"source": "xen (4.19.1-1)",
+	"version": "4.19.1-1+b2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.7)",
+		"libxentoolcore1 (>= 4.19.1)",
+		"libxentoollog1 (>= 4.19.1)"
+	],
+	"replaces": [
+		"libxenevtchn1t64"
+	],
+	"breaks": [
+		"libxenevtchn1t64 (<< 4.19.1-1)"
+	],
+	"installedSize": 84,
+	"maintainer": "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>",
+	"description": "Xen runtime libraries - libxenevtchn",
+	"homepage": "https://xenproject.org/",
+	"filename": "pool/main/x/xen/libxenevtchn1_4.19.1-1+b2_amd64.deb",
+	"size": 34224,
+	"md5": "d9d4baef105662abe5e9df85879638e9",
+	"sha256": "546f28c304c234ef82bff5a38c42f9fb796e57f5abeee801d13e71bc235bdbab",
+	"descriptionMd5": "10cc34c727d27fc4482c211091e25f1c"
+}

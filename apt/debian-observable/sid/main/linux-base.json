@@ -1,0 +1,30 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-base",
+	"version": "4.11",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"replaces": [
+		"kernel-common (<= 13.018+nmu1)"
+	],
+	"breaks": [
+		"kernel-common (<= 13.018+nmu1)",
+		"linux-perf (<< 5.16.2-1~exp1)"
+	],
+	"installedSize": 78,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux image base package",
+	"filename": "pool/main/l/linux-base/linux-base_4.11_all.deb",
+	"size": 31240,
+	"md5": "8b0d91185d06f96323f9eaa64f6735d5",
+	"sha256": "b74452838f8460f2c8812430208eeb40788eb782e0c87cf8bb91f3367625bcce",
+	"descriptionMd5": "441643227abc8006d7ae05aa2312ff51"
+}]

@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libopenjpip-server",
+	"source": "openjpeg2",
+	"version": "2.5.0-2+deb12u1",
+	"section": "graphics",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libwww-perl",
+		"spawn-fcgi (>= 1.6.1)",
+		"libc6 (>= 2.34)",
+		"libcurl3-gnutls (>= 7.16.2)",
+		"libfcgi0ldbl (>= 2.4.2)"
+	],
+	"recommends": [
+		"apache2 (>= 2.4.6-4~) | httpd"
+	],
+	"conflicts": [
+		"openjpip-server"
+	],
+	"installedSize": 164,
+	"maintainer": "Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>",
+	"description": "JPIP server for JPEG 2000 files",
+	"homepage": "https://www.openjpeg.org",
+	"filename": "pool/updates/main/o/openjpeg2/libopenjpip-server_2.5.0-2+deb12u1_amd64.deb",
+	"size": 63636,
+	"sha256": "6948086f44da490fea9d35697c8f3b73fef4caaa18a5d6b2772f970600ad3d38",
+	"descriptionMd5": "a1ff98fe57f04dbd0d10223568f211fe"
+}

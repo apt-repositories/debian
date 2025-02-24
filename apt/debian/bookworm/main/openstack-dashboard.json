@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openstack-dashboard",
+	"source": "horizon",
+	"version": "3:23.0.0-5+deb12u1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"libjs-jquery",
+		"libjs-jquery-cookie",
+		"python3-django-horizon (= 3:23.0.0-5+deb12u1)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any"
+	],
+	"suggests": [
+		"memcached",
+		"openstack-dashboard-apache"
+	],
+	"breaks": [
+		"python3-cloudkitty-dashboard (<< 12.0.0-3~)",
+		"python3-designate-dashboard (<< 12.0.0-2~)",
+		"python3-freezer-web-ui (<< 10.0.0-2~)",
+		"python3-heat-dashboard (<< 5.0.0-2~)",
+		"python3-ironic-ui (<< 4.3.0-2~)",
+		"python3-magnum-ui (<< 8.0.0-2~)",
+		"python3-manila-ui (<< 5.0.0-1~)",
+		"python3-masakari-dashboard (<< 4.0.0-2~)",
+		"python3-neutron-vpnaas-dashboard (<< 4.0.0-2~)",
+		"python3-octavia-dashboard (<< 7.0.0-2~)",
+		"python3-sahara-dashboard (<< 14.0.0-1~)",
+		"python3-senlin-dashboard (<< 3.0.0-1~)",
+		"python3-trove-dashboard (<< 16.0.0-2~)",
+		"python3-vitrage-dashboard (<< 3.3.0-2~)",
+		"python3-watcher-dashboard (<< 5.0.0-2~)",
+		"python3-zaqar-ui (<< 10.0.0-2~)"
+	],
+	"installedSize": 906,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "web application to control an OpenStack cloud",
+	"homepage": "https://horizon.openstack.org",
+	"filename": "pool/main/h/horizon/openstack-dashboard_23.0.0-5+deb12u1_all.deb",
+	"size": 85420,
+	"md5": "030d5f6d9b79e690caa549ea3265adf1",
+	"sha256": "7133204c3f00891971e111fbf1696a529f27bade2c2ccf292b4f9403ebb35994",
+	"descriptionMd5": "c215664f915a2766f0484a870aa6c6be"
+}

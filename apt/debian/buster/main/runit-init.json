@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "runit-init",
+	"source": "runit",
+	"version": "2.1.2-25",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"runit (>= 2.1.2-20~)",
+		"runit-helper (>= 2.8.1~)",
+		"sysuser-helper (<< 1.4)",
+		"libc6 (>= 2.4)",
+		"getty-run",
+		"sysv-rc",
+		"initscripts"
+	],
+	"replaces": [
+		"runit (<< 2.1.2-10~)",
+		"systemd-sysv",
+		"sysvinit-core"
+	],
+	"conflicts": [
+		"systemd-sysv",
+		"sysvinit-core"
+	],
+	"installedSize": 128,
+	"maintainer": "Dmitry Bogatov <KAction@debian.org>",
+	"description": "system-wide service supervision (as init system)",
+	"homepage": "http://smarden.org/runit/",
+	"filename": "pool/main/r/runit/runit-init_2.1.2-25_amd64.deb",
+	"size": 40304,
+	"md5": "cd184a3c7127b058f20cab239417f3a2",
+	"sha256": "abda7beaf5b820f93c55e1bc65f2bf112d4c2e42480c21d79fb341bcc026521d",
+	"descriptionMd5": "9473c9e5e3769c881d32f880b215f74e"
+}

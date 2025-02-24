@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "steam-installer",
+	"version": "1:1.0.0.75+ds-6",
+	"section": "contrib/games",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"steam-libs (= 1:1.0.0.75+ds-6)",
+		"steam-libs-i386 (>= 1:1.0.0.75+ds-6)",
+		"zenity | yad",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"debconf"
+	],
+	"replaces": [
+		"steam (<< 1:1.0.0.75+ds~)",
+		"steam-launcher"
+	],
+	"breaks": [
+		"steam (<< 1:1.0.0.75+ds~)"
+	],
+	"conflicts": [
+		"steam-launcher"
+	],
+	"installedSize": 118,
+	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
+	"description": "Valve's Steam digital software delivery system",
+	"homepage": "https://steamcommunity.com/linux",
+	"filename": "pool/contrib/s/steam-installer/steam-installer_1.0.0.75+ds-6_amd64.deb",
+	"size": 57564,
+	"md5": "7c0666e29c30d25bdaab7fce5dc334ea",
+	"sha256": "ede35ce0e2a10e476631451b52b4052f2e9fc9aaf286d8127ccfdc3487edcfb2",
+	"descriptionMd5": "1628561328c024db73bb48ba285fc9ad"
+}]

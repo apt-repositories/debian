@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpg-agent",
+	"source": "gnupg2",
+	"version": "2.2.40-1.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gpgconf (= 2.2.40-1.1)",
+		"pinentry-curses | pinentry",
+		"init-system-helpers (>= 1.52)",
+		"libassuan0 (>= 2.5.1)",
+		"libc6 (>= 2.34)",
+		"libgcrypt20 (>= 1.10.0)",
+		"libgpg-error0 (>= 1.42)",
+		"libnpth0 (>= 0.90)"
+	],
+	"recommends": [
+		"gnupg (= 2.2.40-1.1)"
+	],
+	"suggests": [
+		"dbus-user-session",
+		"libpam-systemd",
+		"pinentry-gnome3",
+		"scdaemon"
+	],
+	"replaces": [
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"breaks": [
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"installedSize": 1348,
+	"maintainer": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
+	"description": "GNU privacy guard - cryptographic agent",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/gpg-agent_2.2.40-1.1_amd64.deb",
+	"size": 694524,
+	"md5": "d82bf9b1814bbdc37bf92e15e523db51",
+	"sha256": "ac48d6bfac9298843355561a14047673a9361ecff7f24cfe1da119dbf1a037e9",
+	"descriptionMd5": "6c5c3942a5ec2e08c337466bd44b6cde"
+}

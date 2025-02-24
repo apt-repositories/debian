@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-legacy-390xx-driver",
+	"source": "nvidia-graphics-drivers-legacy-390xx",
+	"version": "390.154-1~deb10u1",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-legacy-390xx-driver-libs (= 390.154-1~deb10u1) | nvidia-legacy-390xx-driver-libs-nonglvnd (= 390.154-1~deb10u1)",
+		"nvidia-legacy-390xx-driver-bin (= 390.154-1~deb10u1)",
+		"xserver-xorg-video-nvidia-legacy-390xx (= 390.154-1~deb10u1)",
+		"nvidia-legacy-390xx-vdpau-driver (= 390.154-1~deb10u1)",
+		"nvidia-legacy-390xx-alternative (= 390.154-1~deb10u1)",
+		"nvidia-legacy-390xx-kernel-dkms (= 390.154-1~deb10u1) | nvidia-legacy-390xx-kernel-390.154",
+		"nvidia-support"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-settings-legacy-390xx",
+		"libnvidia-legacy-390xx-cfg1 (= 390.154-1~deb10u1)",
+		"nvidia-persistenced"
+	],
+	"suggests": [
+		"nvidia-legacy-390xx-kernel-dkms (>= 390.154) | nvidia-legacy-390xx-kernel-source (>= 390.154)"
+	],
+	"installedSize": 1190,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (390xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-390xx/nvidia-legacy-390xx-driver_390.154-1~deb10u1_amd64.deb",
+	"size": 500060,
+	"md5": "eec5e162e4773f2c3b70b7180b458605",
+	"sha256": "1c9481f7ce212aa8089d5089e2ee1d14ae848bfbd477f48c2a91a7a9ceec27d2",
+	"descriptionMd5": "eaaf83ba93000b5276264e0052dad2fc"
+}

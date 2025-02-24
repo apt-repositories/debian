@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "swift-account",
+	"source": "swift",
+	"version": "2.34.0-5",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"openstack-pkg-tools",
+		"python3-pastescript",
+		"python3-swift (= 2.34.0-5)",
+		"rsync",
+		"swift (= 2.34.0-5)",
+		"uwsgi-plugin-python3",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"swift-drive-audit"
+	],
+	"installedSize": 187,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "distributed virtual object store - account server",
+	"homepage": "https://github.com/openstack/swift",
+	"filename": "pool/main/s/swift/swift-account_2.34.0-5_all.deb",
+	"size": 95700,
+	"md5": "1a30a22a751603cd2979262fb77d5234",
+	"sha256": "237f329b7a88153b2ea04ca61baf3f44ff3c26ccfbba055176e507fc69066469",
+	"descriptionMd5": "3036744e8c7a33630c66000de276bc4d"
+}

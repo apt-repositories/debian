@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rustc",
+	"version": "1.63.0+dfsg1-2",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libstd-rust-dev (= 1.63.0+dfsg1-2)",
+		"gcc",
+		"libc-dev",
+		"binutils (>= 2.26)"
+	],
+	"recommends": [
+		"cargo (>= 0.64.0~~)",
+		"cargo (<< 0.65.0~~)",
+		"llvm-14"
+	],
+	"suggests": [
+		"lld-14",
+		"clang-14"
+	],
+	"replaces": [
+		"libstd-rust-dev (<< 1.25.0+dfsg1-2~~)"
+	],
+	"breaks": [
+		"libstd-rust-dev (<< 1.25.0+dfsg1-2~~)"
+	],
+	"installedSize": 7753,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Rust systems programming language",
+	"homepage": "http://www.rust-lang.org/",
+	"filename": "pool/main/r/rustc/rustc_1.63.0+dfsg1-2_amd64.deb",
+	"size": 2612712,
+	"md5": "5eaa6969388c512a206377bf813ab531",
+	"sha256": "26dd439266153e38d3e6fbe0fe2dbbb41f20994afa688faa71f38427348589ed",
+	"descriptionMd5": "67ca6080eea53dc7f3cdf73bc6b8521e"
+}]

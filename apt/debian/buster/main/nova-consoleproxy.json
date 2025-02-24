@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-consoleproxy",
+	"source": "nova",
+	"version": "2:18.1.0-6",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf",
+		"nova-common (= 2:18.1.0-6)",
+		"novnc",
+		"python3-websockify (>= 0.8.0)",
+		"spice-html5",
+		"debconf (>= 0.5) | debconf-2.0",
+		"lsb-base (>= 3.0.6)",
+		"python3:any"
+	],
+	"replaces": [
+		"nova-novncproxy",
+		"nova-spicehtml5proxy",
+		"nova-xvpvncproxy"
+	],
+	"conflicts": [
+		"nova-novncproxy",
+		"nova-spicehtml5proxy",
+		"nova-xvpvncproxy"
+	],
+	"installedSize": 92,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - NoVNC proxy",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/main/n/nova/nova-consoleproxy_18.1.0-6_all.deb",
+	"size": 31480,
+	"md5": "b2b6d6ce75d9893bc161916658757d49",
+	"sha256": "a06640bf6ab08a52b568fde98e6fb043764e7f23c75ac2c9e2cd58fee9ec6cb9",
+	"descriptionMd5": "2b5897cd672b756cada22f0e4642db6d"
+}

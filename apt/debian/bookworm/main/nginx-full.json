@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-full",
+	"source": "nginx",
+	"version": "1.22.1-9",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libnginx-mod-http-auth-pam (>= 1:1.5.3-3~)",
+		"libnginx-mod-http-dav-ext (>= 1:3.0.0-3~)",
+		"libnginx-mod-http-echo (>= 1:0.63-4~)",
+		"libnginx-mod-http-geoip2 (>= 1:3.4-3~)",
+		"libnginx-mod-http-subs-filter (>= 1:0.6.4-4~)",
+		"libnginx-mod-http-upstream-fair (>= 1:0.0~git20120408.a18b409-3~)",
+		"libnginx-mod-stream-geoip2 (>= 1:3.4-3~)",
+		"nginx (>= 1.22.1-9)",
+		"nginx (<< 1.22.1-9.1~)"
+	],
+	"installedSize": 91,
+	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
+	"description": "nginx web/proxy server (standard version with 3rd parties)",
+	"homepage": "https://nginx.org",
+	"filename": "pool/main/n/nginx/nginx-full_1.22.1-9_all.deb",
+	"size": 79712,
+	"md5": "7504d0a14474c3f3db28bc716e9fabfe",
+	"sha256": "1c04fcdf644711ae5fa734468a09de2d93e8fc6b2551b400350eb9c15a7ec8a5",
+	"descriptionMd5": "38101909ef24536167f0acdee4f45ef9"
+}

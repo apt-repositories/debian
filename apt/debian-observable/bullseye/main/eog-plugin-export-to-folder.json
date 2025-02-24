@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "eog-plugin-export-to-folder",
+	"source": "eog-plugins",
+	"version": "3.26.5-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dconf-gsettings-backend | gsettings-backend",
+		"python3:any",
+		"eog (>= 3.20.3-1~)",
+		"eog-plugins-common (>= 3.26.5-1)",
+		"gir1.2-glib-2.0",
+		"gir1.2-gtk-3.0",
+		"gir1.2-peas-1.0",
+		"python3-gi"
+	],
+	"replaces": [
+		"eog-plugins (<< 3.16.6-2~)"
+	],
+	"enhances": [
+		"eog"
+	],
+	"breaks": [
+		"eog-plugins (<< 3.16.6-2~)"
+	],
+	"installedSize": 88,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "Export to Folderplugin for GNOME Image Viewer",
+	"homepage": "https://wiki.gnome.org/Apps/EyeOfGnome/Plugins",
+	"filename": "pool/main/e/eog-plugins/eog-plugin-export-to-folder_3.26.5-1_amd64.deb",
+	"size": 55140,
+	"md5": "84e7c78c364de947e44a115438af8616",
+	"sha256": "6ca4b8980656296085fed39ff58779bde427d7c90487ed3e72cb9ce1c354a5b6",
+	"descriptionMd5": "f33b52a6ca4b089dfaedf8c8a9189ca2"
+}]

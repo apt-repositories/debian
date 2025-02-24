@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "system-config-printer-common",
+	"source": "system-config-printer",
+	"version": "1.5.14-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gir1.2-gdkpixbuf-2.0",
+		"gir1.2-glib-2.0",
+		"gir1.2-gtk-3.0",
+		"gir1.2-notify-0.7",
+		"gir1.2-pango-1.0",
+		"python3-cairo",
+		"python3-cups (>= 1.9.60)",
+		"python3-cupshelpers (= 1.5.14-1)",
+		"python3-dbus",
+		"python3-gi",
+		"python3-requests",
+		"python3:any"
+	],
+	"recommends": [
+		"cups-pk-helper",
+		"gir1.2-secret-1",
+		"python3-smbc",
+		"system-config-printer-udev"
+	],
+	"suggests": [
+		"gnome-software (>= 3.16.5-2)"
+	],
+	"replaces": [
+		"system-config-printer (<< 1.5.7-2~)"
+	],
+	"breaks": [
+		"system-config-printer (<< 1.5.7-2~)"
+	],
+	"installedSize": 4755,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "backend and the translation files for system-config-printer",
+	"homepage": "https://github.com/OpenPrinting/system-config-printer",
+	"filename": "pool/main/s/system-config-printer/system-config-printer-common_1.5.14-1_all.deb",
+	"size": 775692,
+	"md5": "11f159cb663a0ea8711f419b2dd937b0",
+	"sha256": "4dc632f5cd9fde4b482a835ac220815862dad4c58b4cc7512315d589aad4ec30",
+	"descriptionMd5": "f14c19347a1ad86a98ac36f6876c92a5"
+}

@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sysvinit-core",
+	"source": "sysvinit",
+	"version": "2.93-8",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debianutils (>= 4)",
+		"initscripts (>= 2.88dsf-13.3)",
+		"sysv-rc | file-rc | openrc",
+		"sysvinit-utils (>= 2.86.ds1-66)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.15)",
+		"libselinux1 (>= 1.32)",
+		"libsepol1 (>= 2.4)"
+	],
+	"suggests": [
+		"bootlogd"
+	],
+	"replaces": [
+		"systemd-sysv",
+		"sysvinit (<< 2.88dsf-44~)",
+		"upstart"
+	],
+	"conflicts": [
+		"systemd-sysv",
+		"upstart"
+	],
+	"installedSize": 263,
+	"maintainer": "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>",
+	"description": "System-V-like init utilities",
+	"homepage": "http://savannah.nongnu.org/projects/sysvinit",
+	"filename": "pool/main/s/sysvinit/sysvinit-core_2.93-8_amd64.deb",
+	"size": 147460,
+	"md5": "6c864f64ae38c8f83b0e5d548645a2e4",
+	"sha256": "80ecc36db913c8f702f85cad39c55dd6863464a27794b10bf0b494bbe5134130",
+	"descriptionMd5": "33be387f0c3f6dc398cbbfb9bd97351d"
+}

@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnet-dns-perl",
+	"version": "1.29-1",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libdigest-hmac-perl",
+		"libdigest-sha-perl",
+		"libencode-perl",
+		"libio-socket-ip-perl (>= 0.38)",
+		"libnet-ip-perl",
+		"libscalar-list-utils-perl",
+		"libtest-simple-perl"
+	],
+	"recommends": [
+		"libdigest-bubblebabble-perl",
+		"libnet-dns-sec-perl",
+		"libnet-libidn-perl",
+		"libperl4-corelibs-perl"
+	],
+	"replaces": [
+		"libnet-dns-sec-perl (<< 1.01)"
+	],
+	"breaks": [
+		"libnet-dns-sec-perl (<< 1.01)"
+	],
+	"installedSize": 1040,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "Perform DNS queries from a Perl script",
+	"homepage": "https://www.net-dns.org/",
+	"filename": "pool/main/libn/libnet-dns-perl/libnet-dns-perl_1.29-1_all.deb",
+	"size": 379820,
+	"md5": "b630267950a826b5186cc6929d5f8e0d",
+	"sha256": "07490b7d1b6b01ff577bac43183753bb0976ffacd10dfe799b85d876ffcd3039",
+	"descriptionMd5": "844c18f2647e1389fce352e0e6fb5455"
+}]

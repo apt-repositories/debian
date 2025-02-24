@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-13-dev",
+	"source": "gcc-13",
+	"version": "13.3.0-12",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-base (= 13.3.0-12)",
+		"libgcc-s1 (>= 13.3.0-12)",
+		"libgomp1 (>= 13.3.0-12)",
+		"libitm1 (>= 13.3.0-12)",
+		"libatomic1 (>= 13.3.0-12)",
+		"libasan8 (>= 13.3.0-12)",
+		"liblsan0 (>= 13.3.0-12)",
+		"libtsan2 (>= 13.3.0-12)",
+		"libubsan1 (>= 13.3.0-12)",
+		"libhwasan0 (>= 13.3.0-12)",
+		"libquadmath0 (>= 13.3.0-12)"
+	],
+	"recommends": [
+		"libc6-dev (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2 (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2 (<< 12-20211113-2~)"
+	],
+	"installedSize": 15891,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-13/libgcc-13-dev_13.3.0-12_amd64.deb",
+	"size": 2540656,
+	"md5": "33a710f9ded1311adabbb7b5ad2053a5",
+	"sha256": "5c7c8c533bbf97759af55779933b9f1b89eefab8611b6ee94e5b864f07a68c1c",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

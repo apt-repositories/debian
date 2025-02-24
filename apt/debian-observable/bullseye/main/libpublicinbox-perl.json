@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpublicinbox-perl",
+	"source": "public-inbox",
+	"version": "1.9.0-1~bpo11+1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"git",
+		"libdbd-sqlite3-perl",
+		"libemail-address-xs-perl",
+		"libemail-mime-perl",
+		"libinline-c-perl",
+		"libmail-imapclient-perl",
+		"libnet-server-perl",
+		"libparse-recdescent-perl",
+		"libplack-perl",
+		"libsearch-xapian-perl",
+		"libsocket-msghdr-perl",
+		"liburi-perl",
+		"xapian-tools"
+	],
+	"replaces": [
+		"public-inbox (<< 1.7.0-1~)"
+	],
+	"breaks": [
+		"public-inbox (<< 1.7.0-1~)"
+	],
+	"installedSize": 1427,
+	"maintainer": "Uwe Kleine-König <ukleinek@debian.org>",
+	"description": "Perl libraries for public-inbox",
+	"homepage": "https://public-inbox.org/",
+	"filename": "pool/main/p/public-inbox/libpublicinbox-perl_1.9.0-1~bpo11+1_all.deb",
+	"size": 356748,
+	"sha256": "f9da1aeb6ac26cb64cb57e7ae2cca977aca50c9b3d6990ea638786f833ef0c47",
+	"descriptionMd5": "55df14d2a691b9850fe3bbcf2d7501d1"
+}]

@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debbugs-web",
+	"source": "debbugs",
+	"version": "2.6.3",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libdebbugs-perl",
+		"apache2 | httpd"
+	],
+	"suggests": [
+		"libapache2-mod-perl2"
+	],
+	"replaces": [
+		"debbugs (<< 2.4.2)"
+	],
+	"breaks": [
+		"debbugs (<< 2.4.2)"
+	],
+	"installedSize": 221,
+	"maintainer": "Debbugs developers <debian-debbugs@lists.debian.org>",
+	"description": "web scripts for the active Debian BTS",
+	"homepage": "https://salsa.debian.org/debbugs-team",
+	"filename": "pool/main/d/debbugs/debbugs-web_2.6.3_all.deb",
+	"size": 49308,
+	"md5": "a430a977912ed8105818c826ca6b5aba",
+	"sha256": "db58bdf3c46c9a8cbe650a3d884e53b70cb7021553a8df33dc144744af4c83ba",
+	"descriptionMd5": "d8b5fc50cac8441948e1a103bc9b11e6"
+}

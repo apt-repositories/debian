@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slony1-2-bin",
+	"source": "slony1-2",
+	"version": "2.2.11-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.0-6)",
+		"logrotate",
+		"postgresql-common",
+		"perl:any",
+		"libc6 (>= 2.34)",
+		"libpq5"
+	],
+	"recommends": [
+		"libdbd-pg-perl",
+		"ntp | time-daemon",
+		"postgresql-15-slony1-2"
+	],
+	"suggests": [
+		"libpg-perl",
+		"slony1-2-doc"
+	],
+	"conflicts": [
+		"slony1-bin"
+	],
+	"installedSize": 832,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "replication system for PostgreSQL: daemon and administration tools",
+	"homepage": "http://slony.info/",
+	"filename": "pool/main/s/slony1-2/slony1-2-bin_2.2.11-1_amd64.deb",
+	"size": 216448,
+	"md5": "940819c77ce0c6c811578b4e4963efae",
+	"sha256": "1ac7d678a210cd72f6210060f62d6ccb346a64dbebbc9c2639ac584d752559c5",
+	"descriptionMd5": "8c1e911069818f6f365047cde52730be"
+}]

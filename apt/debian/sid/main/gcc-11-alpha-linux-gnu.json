@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-11-alpha-linux-gnu",
+	"source": "gcc-11-cross-ports (19)",
+	"version": "11.5.0-2cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-11-alpha-linux-gnu (= 11.5.0-2cross1)",
+		"gcc-11-alpha-linux-gnu-base (= 11.5.0-2cross1)",
+		"libcc1-0 (>= 11)",
+		"binutils-alpha-linux-gnu (>= 2.43.50.20241230)",
+		"libgcc-11-dev-alpha-cross (>= 11.5.0-2cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6.1-dev-alpha-cross (>= 2.23-1~)"
+	],
+	"suggests": [
+		"gcc-11-doc (>= 11)",
+		"gcc-11-locales (>= 11)"
+	],
+	"replaces": [
+		"cpp-11-alpha-linux-gnu (<< 7.1.1-8)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 39719,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler (cross compiler for alpha architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-2)",
+	"filename": "pool/main/g/gcc-11-cross-ports/gcc-11-alpha-linux-gnu_11.5.0-2cross1_amd64.deb",
+	"size": 13181580,
+	"md5": "d494f5f9c87cd0a2747ea5223d30c579",
+	"sha256": "ca82c40c304cedefe4acbcc7e55e9dbab26319a385a8c00dd242460dbaf4c5b9",
+	"descriptionMd5": "88aca54a1627a3fd7711d3f9d7ac5f33"
+}

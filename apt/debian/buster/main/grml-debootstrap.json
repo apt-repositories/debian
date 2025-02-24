@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grml-debootstrap",
+	"version": "0.89",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debian-archive-keyring",
+		"debootstrap (>= 0.3.3.3) | cdebootstrap (>= 0.3.16)",
+		"e2fsprogs",
+		"fdisk | util-linux (<< 2.29.2-3~)",
+		"gawk",
+		"kmod"
+	],
+	"recommends": [
+		"dialog",
+		"kpartx",
+		"parted",
+		"qemu-utils"
+	],
+	"installedSize": 316,
+	"maintainer": "Grml Team <team@grml.org>",
+	"description": "wrapper around debootstrap for installing pure Debian",
+	"homepage": "https://grml.org/grml-debootstrap/",
+	"filename": "pool/main/g/grml-debootstrap/grml-debootstrap_0.89_all.deb",
+	"size": 165216,
+	"md5": "f171ad08a80ca5c6cf3f42260a624df7",
+	"sha256": "bb1b4180c41fa13e5fb598defa0d4c7841578a43ced6a090b20c91b7e6a407fe",
+	"descriptionMd5": "637b80e290fb0ee3d778af7f1a53dfd7"
+}

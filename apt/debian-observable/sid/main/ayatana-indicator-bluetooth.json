@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ayatana-indicator-bluetooth",
+	"version": "24.5.0-2",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dconf-gsettings-backend | gsettings-backend",
+		"init-system-helpers (>= 1.52)",
+		"libayatana-common0 (>= 0.9.4)",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0t64 (>= 2.80.0)",
+		"bluez (>= 5)",
+		"ayatana-indicator-common"
+	],
+	"suggests": [
+		"unity-control-center | mate-control-center | gnome-control-center | lomiri-system-settings",
+		"blueman | blueman-manager | lomiri-system-settings | gnome-bluetooth"
+	],
+	"replaces": [
+		"gnome-bluetooth (<< 3.6.1-0ubuntu2)",
+		"indicator-bluetooth"
+	],
+	"breaks": [
+		"gnome-bluetooth (<< 3.6.1-0ubuntu2)",
+		"indicator-bluetooth"
+	],
+	"installedSize": 573,
+	"maintainer": "Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>",
+	"description": "Ayatana Indicator for managing Bluetooth devices",
+	"homepage": "https://github.com/AyatanaIndicators/ayatana-indicator-bluetooth",
+	"filename": "pool/main/a/ayatana-indicator-bluetooth/ayatana-indicator-bluetooth_24.5.0-2_amd64.deb",
+	"size": 53292,
+	"md5": "a1289cadcd3eb5d169d3e7535e782317",
+	"sha256": "53860a575b65773fe9f5001b3a2add737eea538a757683dc5fc4526d7831d32b",
+	"descriptionMd5": "7b0253c64074182fd96d32aef0f91224"
+}]

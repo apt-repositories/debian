@@ -1,0 +1,63 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ltsp-server",
+	"source": "ltsp",
+	"version": "5.18.12-3",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"debconf-utils",
+		"debootstrap (>= 1.0.30)",
+		"gettext-base",
+		"iproute2 | iproute | freebsd-net-tools",
+		"lsb-release",
+		"openssh-client",
+		"tcpd"
+	],
+	"recommends": [
+		"gnupg",
+		"nbd-server (>= 1:2.9.25-2)",
+		"openbsd-inetd | inet-superserver",
+		"openssh-server",
+		"squashfs-tools",
+		"dnsmasq (>= 2.41) | tftpd-hpa | atftpd"
+	],
+	"suggests": [
+		"audiooss",
+		"mate-desktop-environment | gnome-session | x-session-manager | x-window-manager",
+		"dnsmasq | isc-dhcp-server | dhcp3-server",
+		"ldm-server",
+		"libasound2-plugins",
+		"ltspfs",
+		"pulseaudio",
+		"qemu-user-static",
+		"sdm",
+		"x11-utils",
+		"xauth"
+	],
+	"replaces": [
+		"ltsp-docs",
+		"ltsp-utils"
+	],
+	"breaks": [
+		"ltsp-docs"
+	],
+	"conflicts": [
+		"ltsp-utils"
+	],
+	"installedSize": 937,
+	"maintainer": "Debian LTSP Maintainers <team+ltsp@tracker.debian.org>",
+	"description": "basic LTSP server environment",
+	"homepage": "http://ltsp.org",
+	"filename": "pool/main/l/ltsp/ltsp-server_5.18.12-3_all.deb",
+	"size": 201520,
+	"md5": "1aaf4eb587405abf47d88a8d054ea682",
+	"sha256": "e0cbc38941b7079c3e21553baf13f17723a98aea6b382816f6137768cb63ab8d",
+	"descriptionMd5": "8aa681f078049435e41b11312b34ff78"
+}

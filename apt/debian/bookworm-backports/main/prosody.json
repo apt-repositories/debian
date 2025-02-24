@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "prosody",
+	"version": "0.12.5-1~bpo12+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"lua-expat (>= 1.2.0)",
+		"lua-filesystem (>= 1.4.2-3~)",
+		"lua5.4",
+		"lua5.4-bitop",
+		"lua5.4-expat",
+		"lua5.4-filesystem",
+		"lua5.4-sec",
+		"lua5.4-socket",
+		"ssl-cert",
+		"libc6 (>= 2.34)",
+		"libicu72 (>= 72.1~rc-1~)",
+		"libssl3 (>= 3.0.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"lua5.4-event",
+		"lua5.4-readline",
+		"lua5.4-unbound"
+	],
+	"suggests": [
+		"lua-dbi-mysql",
+		"lua-dbi-postgresql",
+		"lua-dbi-sqlite3",
+		"lua-zlib"
+	],
+	"conflicts": [
+		"prosody-modules (<< 0.0~hg20220330.b45c23ce24ba+dfsg-1)"
+	],
+	"installedSize": 2110,
+	"maintainer": "Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>",
+	"description": "Lightweight Jabber/XMPP server",
+	"homepage": "http://www.prosody.im/",
+	"filename": "pool/main/p/prosody/prosody_0.12.5-1~bpo12+1_amd64.deb",
+	"size": 397008,
+	"sha256": "d332d4a561f1fc1d0084f3e3f8ce3675d257bf335b65d4bca11226e09056e4fb",
+	"descriptionMd5": "12d4cb414b879c7a9ec6762a4708b10c"
+}

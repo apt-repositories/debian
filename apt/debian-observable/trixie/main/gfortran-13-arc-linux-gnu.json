@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gfortran-13-arc-linux-gnu",
+	"source": "gcc-13-cross-ports (20)",
+	"version": "13.3.0-12cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-arc-linux-gnu-base (= 13.3.0-12cross1)",
+		"gcc-13-arc-linux-gnu (= 13.3.0-12cross1)",
+		"libgfortran-13-dev-arc-cross (>= 13)",
+		"libc6-dev-arc-cross (>= 2.23-1~)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gfortran-13-doc",
+		"libcoarrays-dev"
+	],
+	"replaces": [
+		"gfortran-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gfortran-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 24165,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Fortran compiler for the arc-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-12)",
+	"filename": "pool/main/g/gcc-13-cross-ports/gfortran-13-arc-linux-gnu_13.3.0-12cross1_amd64.deb",
+	"size": 8586828,
+	"md5": "75efecce78719fe82e76dab678acdf69",
+	"sha256": "8dcef606ba4238436bc741bd98f1e2f94679eb1af12f132bbb207e957485712b",
+	"descriptionMd5": "b2cf41c0a32b43b42670e9aede5e67d9"
+}]

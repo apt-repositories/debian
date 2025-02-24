@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lfc-server-postgres",
+	"source": "lcgdm (1.10.0-2)",
+	"version": "1.10.0-2+b3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liblfc1 (= 1.10.0-2+b3)",
+		"adduser",
+		"libc6 (>= 2.15)",
+		"liblcgdm1",
+		"libpq5",
+		"libstdc++6 (>= 4.1.1)",
+		"libuuid1 (>= 2.16)",
+		"finger",
+		"postgresql-client"
+	],
+	"replaces": [
+		"lfc-postgres (<< 1.8.1.2-2~)"
+	],
+	"conflicts": [
+		"lfc-postgres (<< 1.8.1.2-2~)"
+	],
+	"installedSize": 343,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "LCG File Catalog (LFC) server with postgres database backend",
+	"homepage": "http://glite.web.cern.ch/glite/",
+	"filename": "pool/main/l/lcgdm/lfc-server-postgres_1.10.0-2+b3_amd64.deb",
+	"size": 116456,
+	"md5": "00ebb6b34cfff836c695896f4087aa7c",
+	"sha256": "c827cd48cc5f8b3cbdc5b7a5aad65364a41fb48630075ed939473d1f6f0773a1",
+	"descriptionMd5": "84c80f5497cf307a91e682ddb08ec663"
+}]

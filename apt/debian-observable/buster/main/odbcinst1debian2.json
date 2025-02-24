@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "odbcinst1debian2",
+	"source": "unixodbc",
+	"version": "2.3.6-0.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libltdl7 (>= 2.4.6)",
+		"odbcinst"
+	],
+	"replaces": [
+		"unixodbc (<< 2.1.1-2)"
+	],
+	"breaks": [
+		"libmyodbc (<< 5.1.6-2)",
+		"odbc-postgresql (<< 1:09.00.0310-1.1)",
+		"tdsodbc (<< 0.82-8)"
+	],
+	"conflicts": [
+		"odbcinst1",
+		"odbcinst1debian1"
+	],
+	"installedSize": 231,
+	"maintainer": "Steve Langasek <vorlon@debian.org>",
+	"description": "Support library for accessing odbc ini files",
+	"homepage": "http://www.unixodbc.org/",
+	"filename": "pool/main/u/unixodbc/odbcinst1debian2_2.3.6-0.1_amd64.deb",
+	"size": 78148,
+	"md5": "653a58d3bdcc60b719f420c073bbec21",
+	"sha256": "9faa42382d24940361117a44ad7e95c5cc556a79e1a3623aeba4e9dfc1057fd1",
+	"descriptionMd5": "503993e01962d322d82bcd3da978c73b"
+}]

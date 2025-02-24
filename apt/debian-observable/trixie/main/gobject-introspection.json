@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gobject-introspection",
+	"version": "1.82.0-4",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-x86-64-linux-gnu:any",
+		"gcc-x86-64-linux-gnu",
+		"gobject-introspection-bin (= 1.82.0-4)",
+		"gobject-introspection-bin-linux (= 1.82.0-4)",
+		"libgirepository-1.0-1 (= 1.82.0-4)",
+		"libglib2.0-dev (>= 2.82.0)",
+		"pkgconf",
+		"native-architecture | cross-exe-wrapper",
+		"python3:any",
+		"libc6 (>= 2.34)",
+		"libffi8 (>= 3.4)",
+		"libgirepository-1.0-1-with-libffi8 (>= 1.62.0-4~)",
+		"libglib2.0-0t64 (>= 2.82.0)"
+	],
+	"replaces": [
+		"libgirepository-1.0-dev (<< 1.78.1-9~)",
+		"libgirepository1.0-dev (<< 1.78.1-7~)"
+	],
+	"breaks": [
+		"libgirepository-1.0-dev (<< 1.78.1-9~)",
+		"libgirepository1.0-dev (<< 1.78.1-7~)"
+	],
+	"installedSize": 387,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "Generate interface introspection data for GObject libraries",
+	"homepage": "https://wiki.gnome.org/GObjectIntrospection",
+	"filename": "pool/main/g/gobject-introspection/gobject-introspection_1.82.0-4_amd64.deb",
+	"size": 125376,
+	"md5": "99f6e355e18ee1eb6338273a40c87ec1",
+	"sha256": "62f0e04c3c0edda5ef62a135346169aac71ebcd9ebdb5bf2a8b2b309cc943667",
+	"descriptionMd5": "02a11408e2ad3a46df9fd952f463a1e9"
+}]

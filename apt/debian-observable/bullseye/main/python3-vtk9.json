@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-vtk9",
+	"source": "vtk9",
+	"version": "9.0.1+dfsg1-8",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvtk9 (= 9.0.1+dfsg1-8)",
+		"python3-mpi4py",
+		"python3 (<< 3.10)",
+		"python3 (>= 3.9~)",
+		"python3:any",
+		"libc6 (>= 2.29)",
+		"libgcc-s1 (>= 3.0)",
+		"libopenmpi3 (>= 4.1.0)",
+		"libpython3.9 (>= 3.9.0~b4)",
+		"libstdc++6 (>= 5.2)",
+		"libvtk9-qt (>= 9.0.1+dfsg1)"
+	],
+	"suggests": [
+		"mayavi2",
+		"vtk9-doc",
+		"vtk9-examples"
+	],
+	"replaces": [
+		"python3-paraview (<< 5.9.0~rc1-1~)",
+		"python3-vtk6",
+		"python3-vtk7"
+	],
+	"breaks": [
+		"python3-paraview (<< 5.9.0~rc1-1~)",
+		"python3-vtk6",
+		"python3-vtk7"
+	],
+	"installedSize": 47041,
+	"maintainer": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Python bindings for VTK",
+	"homepage": "https://www.vtk.org/",
+	"filename": "pool/main/v/vtk9/python3-vtk9_9.0.1+dfsg1-8_amd64.deb",
+	"size": 6268864,
+	"md5": "2f5f66189316e4ccc396b0d011eefcd4",
+	"sha256": "ccdf7e9d1b25ed9dd2c1ce6dfece2d07607052f8bf430232d6aa2b4f384eff23",
+	"descriptionMd5": "607f6e2cea47851cd2f36d2226862577"
+}]

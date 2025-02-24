@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openstack-cluster-installer-common",
+	"source": "openstack-cluster-installer",
+	"version": "40.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"curl",
+		"dmidecode",
+		"ipmitool",
+		"iproute2",
+		"jq",
+		"libxml-xpath-perl",
+		"lldpd",
+		"lsb-base",
+		"lshw",
+		"lsscsi",
+		"netcat-traditional",
+		"nmap"
+	],
+	"replaces": [
+		"openstack-cluster-installer (<< 27~)",
+		"openstack-cluster-installer-agent (<< 27~)",
+		"openstack-cluster-installer-utils (<< 27~)"
+	],
+	"breaks": [
+		"openstack-cluster-installer (<< 27~)",
+		"openstack-cluster-installer-agent (<< 27~)",
+		"openstack-cluster-installer-utils (<< 27~)"
+	],
+	"installedSize": 46,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "automatic PXE and puppet-master installer for OpenStack - agent",
+	"homepage": "https://salsa.debian.org/openstack-team/debian/openstack-cluster-installer",
+	"filename": "pool/main/o/openstack-cluster-installer/openstack-cluster-installer-common_40.1_all.deb",
+	"size": 21412,
+	"md5": "6de773abcd2359fa90a419dbc6923138",
+	"sha256": "1b359ffb6ec452aab4760ae5d0ab90b1ca2fb12b6978bb54c86e1024914ff4c0",
+	"descriptionMd5": "1ba59e1a79534b7740d53333dcbc4f13"
+}

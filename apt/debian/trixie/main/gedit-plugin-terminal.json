@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gedit-plugin-terminal",
+	"source": "gedit-plugins",
+	"version": "48.1-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gedit (<< 49~)",
+		"gedit (>= 48~)",
+		"gedit-plugins-common (>= 48.1-1)",
+		"gir1.2-glib-2.0",
+		"gir1.2-gtk-3.0",
+		"gir1.2-pango-1.0",
+		"gir1.2-peas-1.0",
+		"gir1.2-tepl-6",
+		"gir1.2-vte-2.91",
+		"python3-gi",
+		"dconf-gsettings-backend | gsettings-backend",
+		"python3:any"
+	],
+	"replaces": [
+		"gedit-plugins (<< 3.22.0-2~)"
+	],
+	"enhances": [
+		"gedit"
+	],
+	"breaks": [
+		"gedit-plugins (<< 3.22.0-2~)"
+	],
+	"installedSize": 212,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "Terminal plugin for gedit",
+	"homepage": "https://gedit-text-editor.org/",
+	"filename": "pool/main/g/gedit-plugins/gedit-plugin-terminal_48.1-1_amd64.deb",
+	"size": 20320,
+	"md5": "6ac473ffa83f3ee26b3b54ff78149a40",
+	"sha256": "5892b03714e597b3197c92d273ef25e265eb3031e0a56d0a56b9de1b85e01781",
+	"descriptionMd5": "fefef9bc0b37c5b23de5f4bdd8d59ce1"
+}

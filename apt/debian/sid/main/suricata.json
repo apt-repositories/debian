@@ -1,0 +1,76 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "suricata",
+	"source": "suricata (1:7.0.8-1)",
+	"version": "1:7.0.8-1+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3:any",
+		"libbpf1 (>= 1:0.7.0)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.39)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libgcc-s1 (>= 4.2)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"libhtp2 (>= 1:0.5.49-1)",
+		"libhyperscan5 (>= 5.4.2)",
+		"libjansson4 (>= 2.14)",
+		"libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty)",
+		"liblz4-1 (>= 0.0~r127)",
+		"libmagic1t64 (>= 5.12)",
+		"libmaxminddb0 (>= 1.0.2)",
+		"libnet1 (>= 1.1.5)",
+		"libnetfilter-log1 (>= 0.0.13)",
+		"libnetfilter-queue1 (>= 1.0.2)",
+		"libnfnetlink0 (>= 1.0.2)",
+		"libnuma1 (>= 2.0.11)",
+		"libpcap0.8t64 (>= 1.0.0)",
+		"libpcre2-8-0 (>= 10.22)",
+		"librte-eal25 (>= 23.11)",
+		"librte-ethdev25 (>= 23.11)",
+		"librte-log25 (>= 23.11)",
+		"librte-mbuf25 (>= 23.11)",
+		"librte-mempool25 (>= 23.11)",
+		"librte-net-bond25 (>= 24.11~rc2)",
+		"libsystemd0",
+		"libxdp1 (>= 1.2.0)",
+		"libyaml-0-2",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.7.2)",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"python3",
+		"snort-rules-default",
+		"suricata-update"
+	],
+	"suggests": [
+		"libtcmalloc-minimal4"
+	],
+	"replaces": [
+		"suricata-hyperscan"
+	],
+	"conflicts": [
+		"libhtp1",
+		"suricata-hyperscan"
+	],
+	"installedSize": 9669,
+	"maintainer": "Pierre Chifflier <pollux@debian.org>",
+	"description": "Next Generation Intrusion Detection and Prevention Tool",
+	"homepage": "https://suricata.io",
+	"filename": "pool/main/s/suricata/suricata_7.0.8-1+b1_amd64.deb",
+	"size": 2958216,
+	"md5": "bb0b9510ff6bed469490222cc56f90ef",
+	"sha256": "2ee9fd7df381e2b18e1892f3966289a5f84814e1c1817efbf9af2ae6774fc1e7",
+	"descriptionMd5": "d75d723de9cd9ee5828c14e079cfc931"
+}

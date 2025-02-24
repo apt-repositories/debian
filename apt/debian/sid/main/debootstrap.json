@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debootstrap",
+	"version": "1.0.140",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"wget",
+		"distro-info"
+	],
+	"recommends": [
+		"sopv | sqv | gpgv",
+		"mount",
+		"debian-archive-keyring",
+		"arch-test (>= 0.11~)"
+	],
+	"suggests": [
+		"squid-deb-proxy-client",
+		"ubuntu-archive-keyring",
+		"binutils",
+		"xz-utils",
+		"zstd"
+	],
+	"installedSize": 324,
+	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
+	"description": "Bootstrap a basic Debian system",
+	"filename": "pool/main/d/debootstrap/debootstrap_1.0.140_all.deb",
+	"size": 50052,
+	"md5": "900f77f3e0d1dd2ab21509db2cbfba61",
+	"sha256": "b70a5fdafa77d291cad8186325984b16a37c3fdcb85b4619b869bcc5aa833c2c",
+	"descriptionMd5": "883a8efb3ed16248b0d2091d9c0b60c9"
+}

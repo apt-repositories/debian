@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-arc-linux-gnu",
+	"source": "binutils",
+	"version": "2.40-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.40-2)",
+		"libbinutils (>= 2.39.50)",
+		"libc6 (>= 2.34)",
+		"libjansson4 (>= 2.14)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.40-2)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 6435,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities, for arc-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-arc-linux-gnu_2.40-2_amd64.deb",
+	"size": 1261424,
+	"md5": "719433a14ebb68726cf88fb9a8bde519",
+	"sha256": "19524aecfb8371771961d8ce9fd1b23fa01ba581d19c592a091dcbd545595b8d",
+	"descriptionMd5": "158f22c323b0f45e024b08f901820eb8"
+}

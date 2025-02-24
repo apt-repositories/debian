@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libeccodes-tools",
+	"source": "eccodes",
+	"version": "2.12.0-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaec0",
+		"libc6 (>= 2.7)",
+		"libeccodes0",
+		"libgomp1 (>= 4.2.1)",
+		"libhdf5-103",
+		"libnetcdf13 (>= 4.0.1)",
+		"libopenjp2-7 (>= 2.0.0)",
+		"libpng16-16 (>= 1.6.2-1)",
+		"libsz2",
+		"zlib1g (>= 1:1.1.4)",
+		"mksh | pdksh | zsh | ksh"
+	],
+	"breaks": [
+		"libemos-bin (<< 2:4.4.5-2)"
+	],
+	"conflicts": [
+		"libgrib-api-tools"
+	],
+	"installedSize": 13699,
+	"maintainer": "Alastair McKinstry <mckinstry@debian.org>",
+	"description": "GRIB decoding/encoding software (utilities)",
+	"homepage": "https://software.ecmwf.int/wiki/display/ECC/ecCodes+Home",
+	"filename": "pool/main/e/eccodes/libeccodes-tools_2.12.0-1_amd64.deb",
+	"size": 205868,
+	"md5": "ff375ffc66a3fa75a29107b2696fa54f",
+	"sha256": "a40bb5071b2af69d71c9e76cc5d7c265d295ded9194e15314770c78179171db2",
+	"descriptionMd5": "02762b26118e4cbfdffe178d74a22ef7"
+}

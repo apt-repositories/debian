@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-qemu",
+	"source": "nova",
+	"version": "2:30.0.0-6",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dpkg-dev",
+		"libvirt-daemon-system",
+		"nova-common",
+		"nova-compute",
+		"python3-libvirt",
+		"qemu-system",
+		"qemu-block-extra",
+		"swtpm"
+	],
+	"conflicts": [
+		"nova-compute-ironic",
+		"nova-compute-kvm",
+		"nova-compute-lxc",
+		"nova-compute-xen"
+	],
+	"installedSize": 23,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - compute node (QEmu)",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/main/n/nova/nova-compute-qemu_30.0.0-6_all.deb",
+	"size": 9960,
+	"md5": "1de32b59f6d9e3e0eae3fe3ddf4dd0e0",
+	"sha256": "e32b01370fa5a231fc8103f38587ff888286d19e95a3261a0a9fe2802315ca51",
+	"descriptionMd5": "879d02d10e798a84f10ec46ba7161a9d"
+}

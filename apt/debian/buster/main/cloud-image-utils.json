@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cloud-image-utils",
+	"source": "cloud-utils",
+	"version": "0.29-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ca-certificates",
+		"e2fsprogs (>= 1.4)",
+		"file",
+		"genisoimage",
+		"qemu-utils",
+		"wget",
+		"python3:any"
+	],
+	"recommends": [
+		"distro-info"
+	],
+	"suggests": [
+		"cloud-utils-euca"
+	],
+	"replaces": [
+		"cloud-utils (<< 0.28~bzr281)"
+	],
+	"breaks": [
+		"cloud-utils (<< 0.28~bzr281)"
+	],
+	"installedSize": 61,
+	"maintainer": "Tiago Ilieve <tiago.myhro@gmail.com>",
+	"description": "cloud image management utilities",
+	"homepage": "https://launchpad.net/cloud-utils",
+	"filename": "pool/main/c/cloud-utils/cloud-image-utils_0.29-1_all.deb",
+	"size": 23680,
+	"md5": "9dd724a53e89b85cea58462ae43252cd",
+	"sha256": "46f28e461527d9ba435ce094b6515dc9723d2d313ed3ec38401cd3a8d90efd67",
+	"descriptionMd5": "e191186aacb945b1693d28e6c28420bc"
+}

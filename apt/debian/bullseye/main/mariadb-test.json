@@ -1,0 +1,65 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-test",
+	"source": "mariadb-10.5",
+	"version": "1:10.5.23-0+deb11u1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-client-10.5 (= 1:10.5.23-0+deb11u1)",
+		"mariadb-server-10.5 (= 1:10.5.23-0+deb11u1)",
+		"mariadb-test-data (= 1:10.5.23-0+deb11u1)",
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.30)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libpcre2-posix2 (>= 10.34)",
+		"libsnappy1v5 (>= 1.1.8)",
+		"libssl1.1 (>= 1.1.1)",
+		"libstdc++6 (>= 9)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"suggests": [
+		"patch"
+	],
+	"replaces": [
+		"mariadb-test-10.0",
+		"mariadb-test-10.1",
+		"mariadb-test-5.5",
+		"mysql-server-5.7",
+		"mysql-server-core-8.0",
+		"mysql-testsuite",
+		"mysql-testsuite-5.5",
+		"mysql-testsuite-5.6",
+		"mysql-testsuite-5.7",
+		"mysql-testsuite-8.0",
+		"virtual-mysql-testsuite"
+	],
+	"breaks": [
+		"mariadb-test-10.0",
+		"mariadb-test-10.1",
+		"mariadb-test-5.5",
+		"mysql-server-5.7",
+		"mysql-server-core-8.0",
+		"mysql-testsuite",
+		"mysql-testsuite-5.5",
+		"mysql-testsuite-5.6",
+		"mysql-testsuite-5.7",
+		"mysql-testsuite-8.0"
+	],
+	"installedSize": 53860,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "MariaDB database regression test suite",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/main/m/mariadb-10.5/mariadb-test_10.5.23-0+deb11u1_amd64.deb",
+	"size": 11743284,
+	"md5": "559f4ea54eefcf2ab165726f4017b97c",
+	"sha256": "c42022cb11334c69378f462b3a9030d31cd93c2393db57ec658bc521155d7e46",
+	"descriptionMd5": "88232ad1a9463948e9a1f1d33923b547"
+}

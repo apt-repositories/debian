@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apt",
+	"version": "1.8.2.3",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"gpgv | gpgv2 | gpgv1",
+		"debian-archive-keyring",
+		"libapt-pkg5.0 (>= 1.7.0~alpha3~)",
+		"libc6 (>= 2.15)",
+		"libgcc1 (>= 1:3.0)",
+		"libgnutls30 (>= 3.6.6)",
+		"libseccomp2 (>= 1.0.1)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"suggests": [
+		"apt-doc",
+		"aptitude | synaptic | wajig",
+		"dpkg-dev (>= 1.17.2)",
+		"gnupg | gnupg2 | gnupg1",
+		"powermgmt-base"
+	],
+	"replaces": [
+		"apt-transport-https (<< 1.5~alpha4~)",
+		"apt-utils (<< 1.3~exp2~)"
+	],
+	"breaks": [
+		"apt-transport-https (<< 1.5~alpha4~)",
+		"apt-utils (<< 1.3~exp2~)",
+		"aptitude (<< 0.8.10)"
+	],
+	"installedSize": 4064,
+	"maintainer": "APT Development Team <deity@lists.debian.org>",
+	"description": "commandline package manager",
+	"filename": "pool/main/a/apt/apt_1.8.2.3_amd64.deb",
+	"size": 1418424,
+	"md5": "8c60f53ebfbc28756c9e0dd3eb124f84",
+	"sha256": "0bee9be69a65a5b0a1dd28322620779a2fc2e8b3420e4cbe292d4bfc4ba9268f",
+	"descriptionMd5": "9fb97a88cb7383934ef963352b53b4a7"
+}]

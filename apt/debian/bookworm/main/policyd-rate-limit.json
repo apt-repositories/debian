@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "policyd-rate-limit",
+	"version": "1.0.1.1-2.1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-yaml",
+		"python3:any",
+		"adduser"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"python3-mysqldb",
+		"python3-psycopg2"
+	],
+	"enhances": [
+		"postfix"
+	],
+	"installedSize": 131,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
+	"description": "postfix policy daemon limiting the number of mails a user can send",
+	"homepage": "https://pypi.python.org/pypi/policyd-rate-limit",
+	"filename": "pool/main/p/policyd-rate-limit/policyd-rate-limit_1.0.1.1-2.1_all.deb",
+	"size": 28072,
+	"md5": "f8ee38558a891c50c36126e486a184ec",
+	"sha256": "2ff8be55f4a574e9c192666b96614840c692d2d77088c5e8b83b277f60cbf167",
+	"descriptionMd5": "edaace419c4f777b1e95c28a134021dd"
+}

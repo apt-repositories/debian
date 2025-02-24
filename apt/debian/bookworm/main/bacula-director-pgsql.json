@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-director-pgsql",
+	"source": "bacula",
+	"version": "9.6.7-7",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"bacula-common-pgsql (<< 9.6.7-7.1~)",
+		"bacula-common-pgsql (>= 9.6.7-7)",
+		"dbconfig-pgsql | dbconfig-no-thanks",
+		"postgresql-client",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"postgresql"
+	],
+	"suggests": [
+		"gawk"
+	],
+	"replaces": [
+		"bacula-director-database"
+	],
+	"conflicts": [
+		"bacula-director-database"
+	],
+	"installedSize": 228,
+	"maintainer": "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>",
+	"description": "network backup service - PostgreSQL storage for Director",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-director-pgsql_9.6.7-7_all.deb",
+	"size": 113576,
+	"md5": "815931e83dec854bfc5581583c4ef313",
+	"sha256": "0ac2027ca5f282869c174859162a11c6fc7955fccd05746e93b69480ec293b52",
+	"descriptionMd5": "9663dd70c2b7b8af49840e9b15672027"
+}

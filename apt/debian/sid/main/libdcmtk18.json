@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libdcmtk18",
+	"source": "dcmtk",
+	"version": "3.6.8-7",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dcmtk-data (= 3.6.8-7)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libpng16-16t64 (>= 1.6.2)",
+		"libssl3t64 (>= 3.4.0)",
+		"libstdc++6 (>= 14)",
+		"libtiff6 (>= 4.0.3)",
+		"libwrap0 (>= 7.6-4~)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libdcmtk16 (= 3.6.7-1)"
+	],
+	"breaks": [
+		"libdcmtk16 (= 3.6.7-1)"
+	],
+	"installedSize": 29926,
+	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
+	"description": "OFFIS DICOM toolkit runtime libraries",
+	"homepage": "https://dicom.offis.de/dcmtk",
+	"filename": "pool/main/d/dcmtk/libdcmtk18_3.6.8-7_amd64.deb",
+	"size": 5616724,
+	"md5": "592e29698711abed5c149730d3d27749",
+	"sha256": "fd2c85317bebc4b95338f94e4fdb46e0dec96b03b9faabb23bb4f5fac8b96ae8",
+	"descriptionMd5": "9d56449377a2c35a2b0e8bd566fdec0e"
+}

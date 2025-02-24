@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rsyslog",
+	"version": "8.1901.0-1+deb10u2",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.27)",
+		"libestr0 (>= 0.1.4)",
+		"libfastjson4 (>= 0.99.7)",
+		"liblognorm5 (>= 2.0.3)",
+		"libsystemd0 (>= 209)",
+		"libuuid1 (>= 2.16)",
+		"zlib1g (>= 1:1.1.4)",
+		"lsb-base (>= 3.2-14)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"suggests": [
+		"rsyslog-mysql | rsyslog-pgsql",
+		"rsyslog-mongodb",
+		"rsyslog-doc",
+		"rsyslog-gnutls",
+		"rsyslog-gssapi",
+		"rsyslog-relp"
+	],
+	"conflicts": [
+		"linux-kernel-log-daemon",
+		"system-log-daemon"
+	],
+	"installedSize": 1809,
+	"maintainer": "Michael Biebl <biebl@debian.org>",
+	"description": "reliable system and kernel logging daemon",
+	"homepage": "http://www.rsyslog.com/",
+	"filename": "pool/main/r/rsyslog/rsyslog_8.1901.0-1+deb10u2_amd64.deb",
+	"size": 658040,
+	"md5": "f2df6a84615692b9e6c70906d4edb9e5",
+	"sha256": "69e66065e85ea3197c6cf8b536251b6624194ef5ad623b007d28240b20fe35d9",
+	"descriptionMd5": "c25fbd9bcc88ab95bcc33eea4228fd42"
+}]

@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gitweb",
+	"source": "git",
+	"version": "1:2.30.2-1+deb11u4",
+	"section": "vcs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"git (>> 1:2.30.2)",
+		"git (<< 1:2.30.2-.)",
+		"perl",
+		"libcgi-pm-perl"
+	],
+	"recommends": [
+		"apache2 (>= 2.4.6-4~) | lynx | httpd",
+		"libhttp-date-perl | libtime-parsedate-perl"
+	],
+	"suggests": [
+		"httpd-cgi | libcgi-fast-perl",
+		"git-doc"
+	],
+	"breaks": [
+		"apache2.2-common (<< 2.3~)"
+	],
+	"installedSize": 921,
+	"maintainer": "Jonathan Nieder <jrnieder@gmail.com>",
+	"description": "fast, scalable, distributed revision control system (web interface)",
+	"homepage": "https://git-scm.com/",
+	"filename": "pool/updates/main/g/git/gitweb_2.30.2-1+deb11u4_all.deb",
+	"size": 908328,
+	"sha256": "a7ef67af016b8f7bc4773e59b08a71f5fa2407af6bae96248b60eea9270af90d",
+	"descriptionMd5": "2140d89702ec1cd621b41c71a95a910a"
+}

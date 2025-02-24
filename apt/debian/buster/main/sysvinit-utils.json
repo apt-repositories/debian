@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sysvinit-utils",
+	"source": "sysvinit",
+	"version": "2.93-8",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.25~)",
+		"util-linux (>> 2.28-2~)",
+		"libc6 (>= 2.14)"
+	],
+	"replaces": [
+		"initscripts (<< 2.88dsf-59.5)"
+	],
+	"breaks": [
+		"systemd (<< 215)"
+	],
+	"installedSize": 131,
+	"maintainer": "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>",
+	"description": "System-V-like utilities",
+	"homepage": "http://savannah.nongnu.org/projects/sysvinit",
+	"filename": "pool/main/s/sysvinit/sysvinit-utils_2.93-8_amd64.deb",
+	"size": 78404,
+	"md5": "94e45118019f1d4ac98bcfe6ce646c96",
+	"sha256": "800cb3bbbae83d095cc7b8f3acb416726a76cde474931f6698b90ff2f7258540",
+	"descriptionMd5": "bb5793e0170c92deb135060f77ebc485"
+}

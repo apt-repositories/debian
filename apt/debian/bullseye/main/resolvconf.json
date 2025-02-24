@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "resolvconf",
+	"version": "1.87",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"lsb-base (>= 4.1+Debian3)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"enhances": [
+		"dhcpcd",
+		"dnsmasq",
+		"ifupdown",
+		"isc-dhcp-client",
+		"libc6",
+		"network-manager",
+		"nscd",
+		"pdnsd",
+		"ppp",
+		"pump",
+		"udhcpc"
+	],
+	"breaks": [
+		"dhcp3-client (<< 4.1.1-P1-15+squeeze1)",
+		"dnscache-run",
+		"sysv-rc (<< 2.88dsf-42)"
+	],
+	"installedSize": 199,
+	"maintainer": "resolvconf team <team+resolvconf@tracker.debian.org>",
+	"description": "name server information handler",
+	"homepage": "http://alioth.debian.org/projects/resolvconf/",
+	"filename": "pool/main/r/resolvconf/resolvconf_1.87_all.deb",
+	"size": 72656,
+	"md5": "514b10d486461ebdccb83b846d096d4a",
+	"sha256": "9cae0a936f97c4ef93d42b7f2a03f6c05cc2158c71bfaf7c95be312498724748",
+	"descriptionMd5": "e009e7114cd0b15ac6dbe0d813ec9472"
+}

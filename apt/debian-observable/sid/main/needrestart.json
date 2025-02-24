@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "needrestart",
+	"version": "3.8-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"dpkg (>= 1.16.0)",
+		"gettext-base",
+		"libintl-perl",
+		"libproc-processtable-perl",
+		"libsort-naturally-perl",
+		"libterm-readkey-perl",
+		"libmodule-find-perl",
+		"xz-utils"
+	],
+	"recommends": [
+		"libpam-systemd | sysvinit-core",
+		"systemd | libimvirt-perl"
+	],
+	"suggests": [
+		"needrestart-session | libnotify-bin",
+		"iucode-tool"
+	],
+	"enhances": [
+		"intel-microcode"
+	],
+	"installedSize": 315,
+	"maintainer": "Patrick Matthäi <pmatthaei@debian.org>",
+	"description": "check which daemons need to be restarted after library upgrades",
+	"homepage": "https://github.com/liske/needrestart",
+	"filename": "pool/main/n/needrestart/needrestart_3.8-2_all.deb",
+	"size": 65156,
+	"md5": "10c4c571d089444fb1b9bd6201b5d48d",
+	"sha256": "c9a9334bc84c5748e185016d2d85c1c42f317caf9ad2255e63731ba2f674674e",
+	"descriptionMd5": "a26ee5dd9ec37fe484bee4f1ce585d87"
+}]

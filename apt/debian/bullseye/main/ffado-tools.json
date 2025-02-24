@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ffado-tools",
+	"source": "libffado",
+	"version": "2.4.4-1",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dbus (>= 1.0.0)",
+		"libffado2 (= 2.4.4-1)",
+		"python3:any",
+		"libc6 (>= 2.29)",
+		"libconfig++9v5 (>= 1.5-0.4~)",
+		"libgcc-s1 (>= 3.0)",
+		"libglibmm-2.4-1v5 (>= 2.64.2)",
+		"libiec61883-0 (>= 1.2.0)",
+		"libraw1394-11 (>= 2.1.2)",
+		"libstdc++6 (>= 5.2)",
+		"libxml++2.6-2v5 (>= 2.40.0)"
+	],
+	"replaces": [
+		"ffado-mixer-qt4 (<< 2.0.1+svn1856-2~)",
+		"libffado2 (<< 2.4.1~)"
+	],
+	"breaks": [
+		"ffado-mixer-qt4 (<< 2.0.1+svn1856-2~)",
+		"jackd1-firewire (<< 1:0.121.3+20120418git75e3e20b-1)",
+		"jackd2-firewire (<< 1.9.8~dfsg.3+20120418gitf82ec715-1)",
+		"libffado2 (<< 2.4.1~)"
+	],
+	"installedSize": 2710,
+	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
+	"description": "FFADO debugging and firmware tools",
+	"homepage": "http://www.ffado.org/",
+	"filename": "pool/main/libf/libffado/ffado-tools_2.4.4-1_amd64.deb",
+	"size": 712112,
+	"md5": "b7bd878ccd48bf7110d9d116157af100",
+	"sha256": "0a094d42b022d7f0627b5386f4d3344980c0bb27db59dc427be579b83b3d9f3e",
+	"descriptionMd5": "ec6e443b88eac8af1b723cc745035716"
+}

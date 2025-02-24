@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ettercap-text-only",
+	"source": "ettercap",
+	"version": "1:0.8.3.1-11",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ettercap-common (= 1:0.8.3.1-11)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.34)",
+		"libncurses6 (>= 6)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"ettercap",
+		"ettercap-common (<< 1:0.8.3-1~)",
+		"ettercap-gtk"
+	],
+	"breaks": [
+		"ettercap-common (<< 1:0.8.3-1~)"
+	],
+	"conflicts": [
+		"ettercap",
+		"ettercap-gtk"
+	],
+	"installedSize": 304,
+	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
+	"description": "Ettercap console-mode executable",
+	"homepage": "https://ettercap.github.io/ettercap/",
+	"filename": "pool/main/e/ettercap/ettercap-text-only_0.8.3.1-11_amd64.deb",
+	"size": 91156,
+	"md5": "583b0a6f0fd31d05dcd9aa21bd187645",
+	"sha256": "0c166d98cec7ed745192b72c72b5d06f5f98a268254cfa68b28c4d03343c6738",
+	"descriptionMd5": "13f098001b1382bd3f06297dee73a36f"
+}

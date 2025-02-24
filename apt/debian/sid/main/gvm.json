@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gvm",
+	"version": "24.11.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gsad (>= 24.0.0)",
+		"gvmd (>= 24.0.0)",
+		"notus-scanner (>= 22.6.0)",
+		"openvas-scanner (>= 23.13.1)",
+		"ospd-openvas (>= 22.7.0)",
+		"xsltproc",
+		"psmisc",
+		"rsync"
+	],
+	"recommends": [
+		"greenbone-security-assistant (>= 22.8.0)",
+		"gvm-tools (>= 23.4.0)"
+	],
+	"replaces": [
+		"openvas (<< 9.0.4)"
+	],
+	"breaks": [
+		"greenbone-security-assistant (<< 9.0.0)",
+		"openvas (<< 9.0.4)",
+		"openvas-cli"
+	],
+	"installedSize": 47,
+	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
+	"description": "remote network security auditor - metapackage and useful scripts",
+	"homepage": "https://www.greenbone.net/",
+	"filename": "pool/main/g/gvm/gvm_24.11.1_all.deb",
+	"size": 11784,
+	"md5": "9fac8c76023320cc284fa2ff8379767b",
+	"sha256": "a9a565846ff627b9fef0f0a9c95ce79e0e49074baaee502d9797b362f0a20a9d",
+	"descriptionMd5": "41cd0d79cdaa9ef0f2fc423820d6e7a6"
+}

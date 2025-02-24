@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "boinc-client",
+	"source": "boinc",
+	"version": "7.16.16+dfsg-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"ca-certificates",
+		"lsb-base (>= 3.0-6)",
+		"libboinc7 (= 7.16.16+dfsg-1)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any",
+		"libc6 (>= 2.29)",
+		"libcurl4 (>= 7.16.2)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libstdc++6 (>= 5.2)",
+		"libx11-6",
+		"libxss1",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"boinc-manager",
+		"x11-xserver-utils",
+		"boinc-client-opencl",
+		"boinc-client-nvidia-cuda"
+	],
+	"installedSize": 1486,
+	"maintainer": "Debian BOINC Maintainers <pkg-boinc-devel@lists.alioth.debian.org>",
+	"description": "core client for the BOINC distributed computing infrastructure",
+	"homepage": "https://boinc.berkeley.edu/",
+	"filename": "pool/main/b/boinc/boinc-client_7.16.16+dfsg-1_amd64.deb",
+	"size": 514328,
+	"md5": "4665c324323b921a9076c90e8dc6babf",
+	"sha256": "35694ea4befa4bc985bcf37ff0bfc3199e53009ee7a36f7e6a608ef3d765d3ca",
+	"descriptionMd5": "9bd4f63a5f0f805b9edce1e36fefff24"
+}

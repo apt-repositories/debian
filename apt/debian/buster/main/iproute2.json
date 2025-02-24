@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "iproute2",
+	"version": "4.20.0-2+deb10u1",
+	"section": "net",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.27)",
+		"libcap2 (>= 1:2.10)",
+		"libdb5.3",
+		"libelf1 (>= 0.131)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libselinux1 (>= 2.0.15)",
+		"libxtables12 (>= 1.6.0+snapshot20161117)",
+		"libcap2-bin"
+	],
+	"recommends": [
+		"libatm1 (>= 2.4.1-17~)"
+	],
+	"suggests": [
+		"iproute2-doc"
+	],
+	"replaces": [
+		"iproute"
+	],
+	"conflicts": [
+		"arpd",
+		"iproute (<< 20130000-1)"
+	],
+	"installedSize": 2589,
+	"maintainer": "Alexander Wirt <formorer@debian.org>",
+	"description": "networking and traffic control tools",
+	"homepage": "https://wiki.linuxfoundation.org/networking/iproute2",
+	"filename": "pool/main/i/iproute2/iproute2_4.20.0-2+deb10u1_amd64.deb",
+	"size": 826268,
+	"md5": "228024401a269c2e1e39d64673f1f0d1",
+	"sha256": "bcba12719b4938f0e7f615ac470f5d1e3a9453c50c5be4395fc16e0f337a5144",
+	"descriptionMd5": "d10cc46ca4a9e5489b7d2c879fcfba17"
+}

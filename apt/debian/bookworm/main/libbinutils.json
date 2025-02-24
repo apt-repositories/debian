@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libbinutils",
+	"source": "binutils",
+	"version": "2.40-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.2.0)",
+		"binutils-common (= 2.40-2)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)"
+	],
+	"installedSize": 2469,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities (private shared library)",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/libbinutils_2.40-2_amd64.deb",
+	"size": 572104,
+	"md5": "2f1821e05bfa6a85d5132706b622b088",
+	"sha256": "fcf55b99e5f8a78f3c8ce9b6957f1024f394cf20c196b100d308a57e43547710",
+	"descriptionMd5": "4b87c5b499514b3b039e5d7ef54f2682"
+}

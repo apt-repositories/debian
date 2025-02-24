@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ypbind-mt",
+	"source": "ypbind-mt (2.7.2-3)",
+	"version": "2.7.2-3+b2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libnsl2 (>= 1.0.2)",
+		"libsystemd0",
+		"libtirpc3t64 (>= 1.0.2)",
+		"rpcbind | portmap",
+		"hostname (>= 2.98)"
+	],
+	"recommends": [
+		"nscd | unscd",
+		"yp-tools",
+		"libnss-nis"
+	],
+	"replaces": [
+		"nis (<< 3.18)"
+	],
+	"conflicts": [
+		"nis (<< 3.18)"
+	],
+	"installedSize": 127,
+	"maintainer": "Francesco Paolo Lovergine <frankie@debian.org>",
+	"description": "Client daemon for working with Network Information System (NIS)",
+	"homepage": "http://www.linux-nis.org/",
+	"filename": "pool/main/y/ypbind-mt/ypbind-mt_2.7.2-3+b2_amd64.deb",
+	"size": 40564,
+	"md5": "ae1ecbeb27987cb7f14764df5805cd8a",
+	"sha256": "c883d027130f635e85b03edd4a37c1259e8720c1164ecc21f4f8b40c7b06c37c",
+	"descriptionMd5": "fbf01d5d35d122f033c9914ea81298a9"
+}

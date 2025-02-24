@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pipewire-media-session",
+	"version": "0.4.2-3",
+	"section": "video",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"pipewire (>= 0.3.44)",
+		"init-system-helpers (>= 1.52)",
+		"libasound2 (>= 1.0.24.1)",
+		"libc6 (>= 2.34)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libpipewire-0.3-0 (>= 0.3.44)",
+		"libsystemd0"
+	],
+	"replaces": [
+		"pipewire-bin (<< 0.3.27-2)",
+		"pipewire-pulse (<< 0.3.39-1)"
+	],
+	"breaks": [
+		"pipewire-bin (<< 0.3.27-2)",
+		"pipewire-pulse (<< 0.3.39-1)"
+	],
+	"conflicts": [
+		"wireplumber"
+	],
+	"installedSize": 947,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>",
+	"description": "example session manager for PipeWire",
+	"homepage": "https://gitlab.freedesktop.org/pipewire/media-session/",
+	"filename": "pool/main/p/pipewire-media-session/pipewire-media-session_0.4.2-3_amd64.deb",
+	"size": 163868,
+	"md5": "0f92159c233650809585c12899dd9c70",
+	"sha256": "2e508206187bec7870a166f328f8717e10548e24c54b7ddbbc0a546259ca8e2c",
+	"descriptionMd5": "4892324f93314bf1b14c919095476341"
+}

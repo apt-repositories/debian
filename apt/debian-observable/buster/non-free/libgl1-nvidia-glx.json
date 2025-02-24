@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgl1-nvidia-glx",
+	"source": "nvidia-graphics-drivers",
+	"version": "418.226.00-3",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-alternative (= 418.226.00-3)",
+		"nvidia-support",
+		"libc6 (>= 2.2.5)",
+		"libnvidia-glcore (= 418.226.00-3)",
+		"libx11-6",
+		"libxext6"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup",
+		"nvidia-legacy-check (>= 396)"
+	],
+	"recommends": [
+		"nvidia-driver-libs-nonglvnd (= 418.226.00-3)",
+		"nvidia-kernel-dkms (= 418.226.00-3) | nvidia-kernel-418.226.00"
+	],
+	"suggests": [
+		"nvidia-kernel-dkms (>= 418.226.00) | nvidia-kernel-source (>= 418.226.00)"
+	],
+	"conflicts": [
+		"libgl1-nvidia-glvnd-glx"
+	],
+	"installedSize": 1724,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary OpenGL/GLX library (non-GLVND variant)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-glx_418.226.00-3_amd64.deb",
+	"size": 624548,
+	"md5": "5b5078bae2fd2689cc83f2d068cc6f48",
+	"sha256": "f674f8303c25bf49eede1f562d923fcdb542473833414fd3fb1f4e3328361007",
+	"descriptionMd5": "10d36b3dd7022f972877c347bf13bcbf"
+}]

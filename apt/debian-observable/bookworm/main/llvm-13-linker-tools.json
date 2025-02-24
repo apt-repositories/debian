@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "llvm-13-linker-tools",
+	"source": "llvm-toolchain-13 (1:13.0.1-11)",
+	"version": "1:13.0.1-11+b2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm13",
+		"libstdc++6 (>= 11)"
+	],
+	"replaces": [
+		"clang-13 (<< 1:13~++20210129063721)",
+		"llvm-13-dev (<< 1:13~++20210129063721)"
+	],
+	"breaks": [
+		"clang-13 (<< 1:13~++20210129063721)",
+		"llvm-13-dev (<< 1:13~++20210129063721)"
+	],
+	"installedSize": 4193,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Modular compiler and toolchain technologies - Plugins",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-13/llvm-13-linker-tools_13.0.1-11+b2_amd64.deb",
+	"size": 1227196,
+	"md5": "0641bc4eb7171e46cceb4d005a2ca98a",
+	"sha256": "a0416010bae25b61d6fd6e572708ad07414926f9913ce2dcf301c0f7f1946577",
+	"descriptionMd5": "34d6480db2d150315f7bca6065772d03"
+}]

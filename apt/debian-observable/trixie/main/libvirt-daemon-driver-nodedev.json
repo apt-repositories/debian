@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-nodedev",
+	"source": "libvirt",
+	"version": "11.0.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.0.0-2)",
+		"libvirt-daemon (= 11.0.0-2)",
+		"libvirt0 (= 11.0.0-2)",
+		"mdevctl",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libpciaccess0",
+		"libudev1 (>= 183)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 109,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "Virtualization daemon nodedev driver",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-nodedev_11.0.0-2_amd64.deb",
+	"size": 34132,
+	"md5": "445994686d2d01994903d1ad9902ef90",
+	"sha256": "5740c895de57968be965ab7ecd12e348ba1c26022fa40f6856ae361e375a2c16",
+	"descriptionMd5": "a2e46bc889337a31554c41a8a47b4808"
+}]

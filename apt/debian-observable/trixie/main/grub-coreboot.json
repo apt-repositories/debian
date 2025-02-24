@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-coreboot",
+	"source": "grub2",
+	"version": "2.12-5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-common (= 2.12-5)",
+		"grub2-common (= 2.12-5)",
+		"grub-coreboot-bin (= 2.12-5)",
+		"ucf"
+	],
+	"replaces": [
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-linuxbios",
+		"grub-pc",
+		"grub2 (<< 2.12-5)"
+	],
+	"conflicts": [
+		"grub (<< 0.97-54)",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-linuxbios (<< 2.12-5)",
+		"grub-pc",
+		"grub-xen"
+	],
+	"installedSize": 184,
+	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
+	"description": "GRand Unified Bootloader, version 2 (Coreboot version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-coreboot_2.12-5_amd64.deb",
+	"size": 45864,
+	"md5": "f11c745082b73ed5cdbc0721a07bc8ce",
+	"sha256": "20992280b4eeddcb781c95dd0d9f223be72e56c817b3d9c59f04d6eea20c6f5f",
+	"descriptionMd5": "24bd58f91c5eb109ee5e6d95810f1702"
+}]

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnome-bluetooth-sendto",
+	"source": "gnome-bluetooth3",
+	"version": "42.5-3",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bluez (>= 5.5)",
+		"bluez-obexd",
+		"udev (>= 154)",
+		"libadwaita-1-0 (>= 1.1~)",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0 (>= 2.44)",
+		"libgnome-bluetooth-3.0-13 (>= 42~beta)",
+		"libgtk-4-1 (>= 4.4)"
+	],
+	"recommends": [
+		"gnome-control-center | budgie-control-center | unity-control-center | ayatana-indicator-bluetooth",
+		"gvfs-backends"
+	],
+	"replaces": [
+		"gnome-bluetooth (<< 42~)"
+	],
+	"breaks": [
+		"gnome-bluetooth (<< 42~)"
+	],
+	"installedSize": 56,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "GNOME Bluetooth Send To app",
+	"homepage": "https://wiki.gnome.org/Projects/GnomeBluetooth",
+	"filename": "pool/main/g/gnome-bluetooth3/gnome-bluetooth-sendto_42.5-3_amd64.deb",
+	"size": 17180,
+	"md5": "88f15c4541b63f7912d3bf7821909a21",
+	"sha256": "ddcb7a149004a3f9b28065fe2b7d4c1c2b479357c4a8cca12d7d9a4044432c37",
+	"descriptionMd5": "c575d745b5df439eb87101ec0aae9777"
+}

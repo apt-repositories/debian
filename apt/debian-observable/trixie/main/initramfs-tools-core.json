@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "initramfs-tools-core",
+	"source": "initramfs-tools",
+	"version": "0.145",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"coreutils (>= 8.24)",
+		"cpio (>= 2.12)",
+		"dracut-install",
+		"klibc-utils (>= 2.0.4-8~)",
+		"kmod",
+		"logsave | e2fsprogs (<< 1.45.3-1~)",
+		"udev"
+	],
+	"recommends": [
+		"zstd",
+		"busybox | busybox-static"
+	],
+	"suggests": [
+		"bash-completion"
+	],
+	"installedSize": 166,
+	"maintainer": "Debian kernel team <debian-kernel@lists.debian.org>",
+	"description": "generic modular initramfs generator (core tools)",
+	"filename": "pool/main/i/initramfs-tools/initramfs-tools-core_0.145_all.deb",
+	"size": 49232,
+	"md5": "1b0f77f957c2fa4cc8ffeb542d5aa149",
+	"sha256": "19f6789f200a9b1ccae87c54a0c74f3a53faedee5030030c9d5e434b40998eac",
+	"descriptionMd5": "8d2ce4976ab4fb33b898ed3006a086fa"
+}]

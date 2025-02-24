@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-grib",
+	"source": "pygrib",
+	"version": "2.0.4-1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libeccodes0",
+		"libeccodes-data",
+		"python3-numpy (>= 1:1.16.0~rc1)",
+		"python3-numpy-abi9",
+		"python3 (<< 3.8)",
+		"python3 (>= 3.7~)",
+		"python3:any",
+		"python3-pyproj",
+		"libeccodes-dev",
+		"libgrib2c-dev"
+	],
+	"recommends": [
+		"python-grib-doc"
+	],
+	"replaces": [
+		"python-grib (<< 2.0.0-1)",
+		"python-grib-doc (<< 2.0.0-2)"
+	],
+	"breaks": [
+		"python-grib (<< 2.0.0-1)",
+		"python-grib-doc (<< 2.0.0-2)"
+	],
+	"installedSize": 1053,
+	"maintainer": "Alastair McKinstry <mckinstry@debian.org>",
+	"description": "Python 3 module for reading and writing GRIB files",
+	"homepage": "https://github.com/jswhit/pygrib",
+	"filename": "pool/main/p/pygrib/python3-grib_2.0.4-1_amd64.deb",
+	"size": 272876,
+	"md5": "6bf79aa034f815ec46d3e37d7a748e69",
+	"sha256": "862bf649fe0e1b9074e1cc3364f951f143a74cfbc29736763590b6e2e208b2d9",
+	"descriptionMd5": "914b7563eb5a65791173632367a72e64"
+}]

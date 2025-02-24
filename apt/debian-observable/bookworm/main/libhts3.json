@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libhts3",
+	"source": "htslib",
+	"version": "1.16+ds-3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.34)",
+		"libcurl3-gnutls (>= 7.18.0)",
+		"libdeflate0 (>= 1.0)",
+		"libhtscodecs2 (>= 1.3.0)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libssl3 (>= 3.0.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libhts-dev (<< 1.13~)"
+	],
+	"breaks": [
+		"ivar (<< 1.3.1~)",
+		"libhts-dev (<< 1.13~)",
+		"libtabixpp (<< 1.0.0-5~)",
+		"samtools (<< 1.13~)"
+	],
+	"installedSize": 1044,
+	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
+	"description": "C library for high-throughput sequencing data formats",
+	"homepage": "https://github.com/samtools/htslib",
+	"filename": "pool/main/h/htslib/libhts3_1.16+ds-3_amd64.deb",
+	"size": 429536,
+	"md5": "f3d6642be6bf9f92f27fd1117aeb44ff",
+	"sha256": "022276ea286c391b8308e09a64cae1402b87b560aff413914f277bb75c37e037",
+	"descriptionMd5": "6bcc3eaaf96941c9a7a6476850863056"
+}]

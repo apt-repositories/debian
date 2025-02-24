@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openhpi-plugin-ipmi",
+	"source": "openhpi",
+	"version": "3.8.0-2.2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libopenhpi3 (= 3.8.0-2.2)",
+		"libopenipmi0t64 (>= 2.0.33)",
+		"openipmi (>= 2.0.7)"
+	],
+	"replaces": [
+		"libopenhpi",
+		"libopenhpi2",
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"breaks": [
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"conflicts": [
+		"libopenhpi",
+		"libopenhpi2"
+	],
+	"installedSize": 275,
+	"maintainer": "Mohan Devarajulu <mohan.devarajulu@hpe.com>",
+	"description": "OpenHPI plugin module for OpenIPMI",
+	"homepage": "http://openhpi.org",
+	"filename": "pool/main/o/openhpi/openhpi-plugin-ipmi_3.8.0-2.2_amd64.deb",
+	"size": 110496,
+	"md5": "22a436a8c09c6bfa9c804295c2272878",
+	"sha256": "f3d4ef570382292a7fb31b5d2e28776c77445c27706182e66da4ea3170b8338a",
+	"descriptionMd5": "3919845529b0a339678c0b2561f298d7"
+}

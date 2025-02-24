@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gmt",
+	"version": "5.4.5+dfsg-2",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gmt-common (= 5.4.5+dfsg-2)",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.14)",
+		"libcurl3-gnutls (>= 7.16.2)",
+		"libfftw3-single3 (>= 3.3.5)",
+		"libgdal20 (>= 1.8.0)",
+		"libgmt5 (>= 5.4.4)",
+		"libhdf5-103",
+		"liblapack3 | liblapack.so.3",
+		"libnetcdf13 (>= 3.6.1)",
+		"libpcre3",
+		"libsz2",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"gmt-gshhg-data | gmt-gshhg-low",
+		"gmt-dcw",
+		"gmt-doc"
+	],
+	"suggests": [
+		"gmt-examples"
+	],
+	"replaces": [
+		"libgenome-perl (<< 0.06-3~)",
+		"libgmt-dev (<< 5.3.2+dfsg-1~exp2)"
+	],
+	"breaks": [
+		"libgenome-perl (<< 0.06-3~)",
+		"libgmt-dev (<< 5.3.2+dfsg-1~exp2)"
+	],
+	"installedSize": 1381,
+	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
+	"description": "Generic Mapping Tools",
+	"homepage": "http://gmt.soest.hawaii.edu/",
+	"filename": "pool/main/g/gmt/gmt_5.4.5+dfsg-2_amd64.deb",
+	"size": 501176,
+	"md5": "1eb3e487f24cf8a368902a708ecebe7f",
+	"sha256": "958a4db935579f748f8f9777f99e0d847aab47ee37da4193ba8437d7895a8574",
+	"descriptionMd5": "8ac67adc3c58bce0682536c089d9c7ce"
+}]

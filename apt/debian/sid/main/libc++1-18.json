@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++1-18",
+	"source": "llvm-toolchain-18",
+	"version": "1:18.1.8-16",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++abi1-18 (>= 1:18.1.8)",
+		"libc6 (>= 2.38)",
+		"libunwind-18 (>= 1:18.1.8)"
+	],
+	"suggests": [
+		"clang"
+	],
+	"replaces": [
+		"libc++-x.y"
+	],
+	"conflicts": [
+		"libc++-x.y"
+	],
+	"installedSize": 1078,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM C++ Standard library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-18/libc++1-18_18.1.8-16_amd64.deb",
+	"size": 299820,
+	"md5": "5fce48478ed678f4f98bc223ba7d3852",
+	"sha256": "0a7045d2d8f028d63b635bdfff063404350895b261acafda1925b78388d2254f",
+	"descriptionMd5": "3e11b80d657dd5ed05ee027e3cba65ca"
+}

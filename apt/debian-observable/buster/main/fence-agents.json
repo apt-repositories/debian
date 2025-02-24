@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fence-agents",
+	"version": "4.3.3-2+deb10u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3:any",
+		"libc6 (>= 2.15)",
+		"python3-boto3",
+		"python3-googleapi",
+		"python3-pycurl",
+		"python3-pexpect",
+		"python3-requests",
+		"python3-suds"
+	],
+	"recommends": [
+		"libnet-telnet-perl",
+		"openssh-client",
+		"sg3-utils",
+		"snmp"
+	],
+	"suggests": [
+		"python3-adal",
+		"python3-azure",
+		"python3-keystoneauth1",
+		"python3-keystoneclient",
+		"python3-novaclient"
+	],
+	"replaces": [
+		"cman (<= 3.0.12-2ubuntu4)"
+	],
+	"breaks": [
+		"cman (<= 3.0.12-2ubuntu4)"
+	],
+	"installedSize": 760,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>",
+	"description": "Fence Agents for Red Hat Cluster",
+	"homepage": "https://github.com/ClusterLabs/fence-agents",
+	"filename": "pool/main/f/fence-agents/fence-agents_4.3.3-2+deb10u1_amd64.deb",
+	"size": 222552,
+	"md5": "318122700dcb774c96ab12ec65c9a0dd",
+	"sha256": "f8e8dfcf9578ccdb113ba84ce3554c67b8e834c924d058702bf8051086ab69f3",
+	"descriptionMd5": "2d71643ad824deb1cc8aa6428b7b45d2"
+}]

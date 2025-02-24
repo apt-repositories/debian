@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6-dev-riscv64-cross",
+	"source": "cross-toolchain-base-ports (62)",
+	"version": "2.36-8cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libc6-riscv64-cross (= 2.36-8cross1)",
+		"linux-libc-dev-riscv64-cross"
+	],
+	"replaces": [
+		"libc6-riscv64-cross (<= 2.32-1)"
+	],
+	"conflicts": [
+		"libc0.1-dev-riscv64-cross",
+		"libc0.3-dev-riscv64-cross",
+		"libc6.1-dev-riscv64-cross"
+	],
+	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
+	"description": "GNU C Library: Development Libraries and Header Files (for cross-compiling)",
+	"builtUsing": "binutils (= 2.40-2), linux (= 6.1.4-1), gcc-12 (= 12.2.0-14), glibc (= 2.36-8)",
+	"filename": "pool/main/c/cross-toolchain-base-ports/libc6-dev-riscv64-cross_2.36-8cross1_all.deb",
+	"size": 2770812,
+	"md5": "2ab77f770ce12a03d604ac9c634ba67c",
+	"sha256": "0c1db013abf431ecff01ec900aa2842a3e1cf5bee62ed91b6b047c43110f3157",
+	"descriptionMd5": "fc7d1124da33f2f1ca4b4e0833019db4"
+}]

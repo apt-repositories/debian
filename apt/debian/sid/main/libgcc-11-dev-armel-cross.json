@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-armel-cross",
+	"source": "gcc-11-cross (22)",
+	"version": "11.5.0-2cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base (>= 11.5.0-2)",
+		"libgcc-s1-armel-cross (>= 11.5.0-2cross1)",
+		"libgomp1-armel-cross (>= 11.5.0-2cross1)",
+		"libatomic1-armel-cross (>= 11.5.0-2cross1)",
+		"libasan6-armel-cross (>= 11.5.0-2cross1)",
+		"libubsan1-armel-cross (>= 11.5.0-2cross1)"
+	],
+	"recommends": [
+		"libc6-dev-armel-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan0-armel-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-armel-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 7454,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-2)",
+	"filename": "pool/main/g/gcc-11-cross/libgcc-11-dev-armel-cross_11.5.0-2cross1_all.deb",
+	"size": 703772,
+	"md5": "78e5db19e7a8791cf511561209bdb6d8",
+	"sha256": "83f83071f0ba7c93e77719e8ddc4c734615c96677454740cc3b74f2fc968c79c",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

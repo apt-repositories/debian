@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ruby",
+	"source": "ruby-defaults",
+	"version": "1:3.1",
+	"section": "ruby",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ruby3.1",
+		"libruby (= 1:3.1)",
+		"ruby-rubygems"
+	],
+	"suggests": [
+		"ri",
+		"ruby-dev"
+	],
+	"replaces": [
+		"irb",
+		"rdoc",
+		"rubygems"
+	],
+	"breaks": [
+		"ruby-bootsnap (<< 1.4.6-1)",
+		"ruby-switch (<= 0.1.0)"
+	],
+	"conflicts": [
+		"ruby-activesupport-2.3",
+		"ruby-activesupport-3.2"
+	],
+	"installedSize": 29,
+	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "Interpreter of object-oriented scripting language Ruby (default version)",
+	"homepage": "https://www.ruby-lang.org/",
+	"filename": "pool/main/r/ruby-defaults/ruby_3.1_amd64.deb",
+	"size": 5868,
+	"md5": "743a298d9e01d1de07357a1aff40176e",
+	"sha256": "4617d5eb715441bdc92e710d127f28654bbf05e888fbb492a14538d4189f3eef",
+	"descriptionMd5": "4a8f64f82049fcedc6a9e45cb74e85f4"
+}]

@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-ykman",
+	"source": "yubikey-manager",
+	"version": "4.0.9-1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-click (>= 7.0)",
+		"python3-cryptography (<< 39)",
+		"python3-cryptography (>= 3.0.0)",
+		"python3-fido2 (>= 0.9)",
+		"python3-pyscard",
+		"python3:any",
+		"python3-fido2 (<< 2.0)"
+	],
+	"recommends": [
+		"pcscd"
+	],
+	"replaces": [
+		"python3-yubikey-manager (<= 3.1.1-1)"
+	],
+	"breaks": [
+		"python3-yubikey-manager (<= 3.1.1-1)",
+		"yubioath-desktop (<< 5.0.4+post1)"
+	],
+	"installedSize": 322,
+	"maintainer": "Debian Authentication Maintainers <pkg-auth-maintainers@lists.alioth.debian.org>",
+	"description": "Python 3 library for configuring a YubiKey",
+	"homepage": "https://developers.yubico.com/yubikey-manager/",
+	"filename": "pool/main/y/yubikey-manager/python3-ykman_4.0.9-1_all.deb",
+	"size": 59728,
+	"md5": "821fa7b5ce57b1c749d72fd99797a17e",
+	"sha256": "9f4c4c875c4a8ca3f141b1a9e8fa52375a592653bb79aff79754c011214ff2bc",
+	"descriptionMd5": "1d76704d852c542c832b9333ef73296a"
+}]

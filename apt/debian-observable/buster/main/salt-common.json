@@ -1,0 +1,51 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "salt-common",
+	"source": "salt",
+	"version": "2018.3.4+dfsg1-6+deb10u3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-apt",
+		"python3-dateutil",
+		"python3-jinja2",
+		"python3-msgpack",
+		"python3-pkg-resources",
+		"python3-psutil",
+		"python3-requests (>= 1.0.0)",
+		"python3-tornado4 (>= 4.2) | python3-tornado (<< 5)",
+		"python3-tornado4 (>= 4.2) | python3-tornado (>= 4.2)",
+		"python3-yaml",
+		"python3:any"
+	],
+	"recommends": [
+		"lsb-release",
+		"python3-croniter"
+	],
+	"suggests": [
+		"python3-mako",
+		"salt-doc (= 2018.3.4+dfsg1-6+deb10u3)"
+	],
+	"breaks": [
+		"python3-mako (<< 0.7.0)",
+		"salt-formula-ceilometer (<= 2016.12.1-1)",
+		"salt-formula-cinder (<= 2016.12.1-1)",
+		"salt-formula-glance (<= 2016.12.1-1)",
+		"salt-formula-keystone (<= 2016.12.1-1)",
+		"salt-formula-kubernetes (<= 2016.12.1-1)"
+	],
+	"installedSize": 23710,
+	"maintainer": "Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>",
+	"description": "shared libraries that salt requires for all packages",
+	"homepage": "http://saltstack.org/",
+	"filename": "pool/main/s/salt/salt-common_2018.3.4+dfsg1-6+deb10u3_all.deb",
+	"size": 3264040,
+	"md5": "ae976d2b815d92f0b27e3e1b31deebf7",
+	"sha256": "b8a5f0baa2346f435a6464607bdaeff9ee0d8898c4cd9e2030c6b15e5c14c168",
+	"descriptionMd5": "aaa76a7bda4c75e02b81764c1dc6e91a"
+}]

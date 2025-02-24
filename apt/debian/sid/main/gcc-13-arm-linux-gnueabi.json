@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-13-arm-linux-gnueabi",
+	"source": "gcc-13-cross-ports (20)",
+	"version": "13.3.0-12cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-13-arm-linux-gnueabi (= 13.3.0-12cross1)",
+		"gcc-13-arm-linux-gnueabi-base (= 13.3.0-12cross1)",
+		"libcc1-0 (>= 13)",
+		"binutils-arm-linux-gnueabi (>= 2.39)",
+		"libgcc-13-dev-armel-cross (>= 13.3.0-12cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-armel-cross (>= 2.23-1~)"
+	],
+	"suggests": [
+		"gcc-13-doc (>= 13)",
+		"gcc-13-locales (>= 13)"
+	],
+	"replaces": [
+		"cpp-13-arm-linux-gnueabi (<< 7.1.1-8)",
+		"gcc-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gcc-13 (<< 13.2.0-11)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 58476,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler for the arm-linux-gnueabi architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-12)",
+	"filename": "pool/main/g/gcc-13-cross-ports/gcc-13-arm-linux-gnueabi_13.3.0-12cross1_amd64.deb",
+	"size": 17781020,
+	"md5": "9cd10f67f8d4ab87970262788d3afa06",
+	"sha256": "29bef6899adfce0392a0f0566981b2a24414685a53bfe3f4bbc76e0d020a38a9",
+	"descriptionMd5": "bb9a0ce1a0e3a01fc2e2267e2d9ed2ea"
+}

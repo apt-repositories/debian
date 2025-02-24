@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ovn-common",
+	"source": "ovn",
+	"version": "24.09.0-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3:any",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libssl3t64 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)"
+	],
+	"replaces": [
+		"ovn-ic-db (<< 22.03~)"
+	],
+	"breaks": [
+		"ovn-ic-db (<< 22.03~)"
+	],
+	"installedSize": 16359,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OVN common components",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/main/o/ovn/ovn-common_24.09.0-1_amd64.deb",
+	"size": 2438488,
+	"md5": "7133146c8c8921d2b38bcd111977ff18",
+	"sha256": "4cc43aa6938451892715a1fdeac6fff008cfd5242e13aa6d83e5a864ad2ffc5c",
+	"descriptionMd5": "84b8e78bdbcd7c9e230195cff8664ecf"
+}]

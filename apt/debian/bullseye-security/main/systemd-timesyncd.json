@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-timesyncd",
+	"source": "systemd",
+	"version": "247.3-7+deb11u6",
+	"section": "admin",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"systemd (= 247.3-7+deb11u6)",
+		"adduser"
+	],
+	"replaces": [
+		"systemd (<< 245.4-2~)",
+		"time-daemon"
+	],
+	"breaks": [
+		"systemd (<< 245.4-2~)"
+	],
+	"conflicts": [
+		"time-daemon"
+	],
+	"installedSize": 207,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "minimalistic service to synchronize local time with NTP servers",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/updates/main/s/systemd/systemd-timesyncd_247.3-7+deb11u6_amd64.deb",
+	"size": 130936,
+	"sha256": "a432786876d78574b0a5438a4263c947af81725df8722c3e82ffd2ddc18e3113",
+	"descriptionMd5": "cc67d85c248836d96a6310e58a659de0"
+}

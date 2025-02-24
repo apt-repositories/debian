@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsbuild-perl",
+	"source": "sbuild",
+	"version": "0.88.4",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apt",
+		"apt-utils",
+		"dpkg-dev",
+		"gnupg (>= 2.1)",
+		"libdpkg-perl (>= 1.21.14)",
+		"libexception-class-perl",
+		"libfilesys-df-perl",
+		"libmime-lite-perl",
+		"perl:any"
+	],
+	"recommends": [
+		"autopkgtest (>= 4.0.4)",
+		"schroot (>= 1.6.0)"
+	],
+	"suggests": [
+		"default-mta | mail-transport-agent",
+		"libwww-perl"
+	],
+	"replaces": [
+		"sbuild (<= 0.58.4-1)"
+	],
+	"installedSize": 470,
+	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
+	"description": "Library for building Debian binary packages from Debian sources",
+	"filename": "pool/main/s/sbuild/libsbuild-perl_0.88.4_all.deb",
+	"size": 96796,
+	"md5": "038c85328fa732d24d8d58f2a652776a",
+	"sha256": "18a0681fecf7ad0b3a439403f0f492ea57ac515d2bd54f24db915663128b35a5",
+	"descriptionMd5": "d52c681207ccd9d9a8f4571221ebca1f"
+}

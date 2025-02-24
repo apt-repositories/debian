@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsundials-dev",
+	"source": "sundials",
+	"version": "4.1.0+dfsg-4",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libsundials-arkode3 (= 4.1.0+dfsg-4)",
+		"libsundials-cvode4 (= 4.1.0+dfsg-4)",
+		"libsundials-cvodes4 (= 4.1.0+dfsg-4)",
+		"libsundials-ida4 (= 4.1.0+dfsg-4)",
+		"libsundials-idas3 (= 4.1.0+dfsg-4)",
+		"libsundials-kinsol4 (= 4.1.0+dfsg-4)",
+		"libsundials-nvecserial4 (= 4.1.0+dfsg-4)",
+		"libsundials-nvecparallel-mpi4 (= 4.1.0+dfsg-4)",
+		"libsundials-nvecparallel-pthread4 (= 4.1.0+dfsg-4)",
+		"libsundials-nvecparallel-openmp4 (= 4.1.0+dfsg-4)",
+		"libsundials-nvecparallel-hypre4 (= 4.1.0+dfsg-4)",
+		"libsundials-nvecparallel-petsc4 (= 4.1.0+dfsg-4)",
+		"libsundials-sunlinsol2 (= 4.1.0+dfsg-4)",
+		"libsundials-sunmatrix2 (= 4.1.0+dfsg-4)",
+		"cmake",
+		"mpi-default-dev",
+		"libhypre-dev",
+		"petsc-dev",
+		"gfortran",
+		"pkg-config"
+	],
+	"replaces": [
+		"libsundials-serial-dev"
+	],
+	"breaks": [
+		"libsundials-serial-dev"
+	],
+	"installedSize": 10810,
+	"maintainer": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Package providing everything for SUNDIALS dev work",
+	"homepage": "http://www.llnl.gov/CASC/sundials/",
+	"filename": "pool/main/s/sundials/libsundials-dev_4.1.0+dfsg-4_amd64.deb",
+	"size": 631520,
+	"md5": "4be751e8538f4866695798ef65b9dfb6",
+	"sha256": "81577dbc00b2a02972ee26b1d96ad271113245ef631b109086b53016c3f81a38",
+	"descriptionMd5": "9c4aec18b9b5cc8e8b4cfd8105655be6"
+}

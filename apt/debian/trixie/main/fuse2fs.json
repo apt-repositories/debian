@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fuse2fs",
+	"source": "e2fsprogs",
+	"version": "1.47.2-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.34)",
+		"libcom-err2 (>= 1.43.9)",
+		"libext2fs2t64 (= 1.47.2-1)",
+		"libfuse3-3 (>= 3.2.3)",
+		"libuuid1 (>= 2.16)"
+	],
+	"replaces": [
+		"fuseext2 (<< 1.47.1-2~)"
+	],
+	"breaks": [
+		"fuseext2 (<< 1.47.1-2~)"
+	],
+	"installedSize": 132,
+	"maintainer": "Theodore Y. Ts'o <tytso@mit.edu>",
+	"description": "ext2 / ext3 / ext4 file system driver for FUSE",
+	"homepage": "http://e2fsprogs.sourceforge.net",
+	"filename": "pool/main/e/e2fsprogs/fuse2fs_1.47.2-1_amd64.deb",
+	"size": 49580,
+	"md5": "e62461cfa2d111dc648d83f6061c2b67",
+	"sha256": "89ceddf9bafa0a297a666bcf84479180e1fbed27abff101a6816391c1e622fc6",
+	"descriptionMd5": "f46223c6f3fa81ecb1aab45af7c4f382"
+}

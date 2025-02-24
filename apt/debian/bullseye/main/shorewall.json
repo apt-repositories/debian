@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "shorewall",
+	"version": "5.2.3.4-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"shorewall-core (>= 5.2.3~)",
+		"shorewall-core (<< 5.2.4~)",
+		"iptables (>= 1.3.8)",
+		"iproute2 | iproute",
+		"debconf (>= 1.4.69) | cdebconf (>= 0.39)",
+		"perl",
+		"bc",
+		"lsb-base (>= 3.0-6)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"libnetfilter-cthelper0"
+	],
+	"suggests": [
+		"shorewall-doc",
+		"make"
+	],
+	"replaces": [
+		"shorewall-common",
+		"shorewall-perl",
+		"shorewall-shell"
+	],
+	"installedSize": 2458,
+	"maintainer": "Roberto C. Sanchez <roberto@connexer.com>",
+	"description": "Shoreline Firewall, netfilter configurator",
+	"homepage": "http://www.shorewall.net",
+	"filename": "pool/main/s/shorewall/shorewall_5.2.3.4-1_all.deb",
+	"size": 766276,
+	"md5": "65f1381855b907fb64a7cff66b5581f9",
+	"sha256": "3b349ee258e8e2091b13e549f88f0368944b4e7d579bdcda27bc9c61866f6cd6",
+	"descriptionMd5": "8a35206537054a60152c0c407d9b9c10"
+}

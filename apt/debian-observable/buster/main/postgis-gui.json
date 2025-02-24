@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgis-gui",
+	"source": "postgis",
+	"version": "2.5.1+dfsg-1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libglib2.0-0 (>= 2.12.0)",
+		"libgtk2.0-0 (>= 2.14.0)",
+		"liblwgeom-2.5-0 (>= 2.0.0)",
+		"libpq5"
+	],
+	"recommends": [
+		"postgresql-11-postgis-2.5",
+		"postgis-doc"
+	],
+	"suggests": [
+		"postgis"
+	],
+	"replaces": [
+		"postgis (<< 2.2.2+dfsg-2~)"
+	],
+	"breaks": [
+		"postgis (<< 2.2.2+dfsg-2~)"
+	],
+	"installedSize": 767,
+	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
+	"description": "Geographic objects support for PostgreSQL -- GUI programs",
+	"homepage": "http://postgis.net/",
+	"filename": "pool/main/p/postgis/postgis-gui_2.5.1+dfsg-1_amd64.deb",
+	"size": 608780,
+	"md5": "335ea71fceb53f17794a4977f2fd2e4f",
+	"sha256": "0b93867c0b57ac4bc2e6d0cb1cc2c6b207bbc997a81f57a433c25a271fe95dd0",
+	"descriptionMd5": "beb77df33e50684b942e84fc8907c3ff"
+}]

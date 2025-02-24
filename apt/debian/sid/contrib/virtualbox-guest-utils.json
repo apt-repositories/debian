@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "virtualbox-guest-utils",
+	"source": "virtualbox",
+	"version": "7.0.20-dfsg-1.2",
+	"section": "contrib/misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"pciutils",
+		"libc6 (>= 2.38)",
+		"libpam0g (>= 0.99.7.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"virtualbox-guest-x11 (= 7.0.20-dfsg-1.2)"
+	],
+	"replaces": [
+		"virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)"
+	],
+	"breaks": [
+		"virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)"
+	],
+	"installedSize": 1878,
+	"maintainer": "Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>",
+	"description": "x86 virtualization solution - non-X11 guest utilities",
+	"homepage": "https://www.virtualbox.org",
+	"filename": "pool/contrib/v/virtualbox/virtualbox-guest-utils_7.0.20-dfsg-1.2_amd64.deb",
+	"size": 405936,
+	"md5": "d4759f5f603b30faac744329d2479238",
+	"sha256": "d6068277f913e65f24acefd62c82a77fe66652a8f4019b5ce1145844b74d9850",
+	"descriptionMd5": "0c420aa026ad03a572b15c6e38dbebf7"
+}

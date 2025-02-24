@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tinydns",
+	"source": "djbdns (1:1.05-15)",
+	"version": "1:1.05-15+b2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.51)",
+		"runit-helper (>= 2.14.0~)",
+		"sysuser-helper (<< 2.0)",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"daemon",
+		"runit"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-46~)"
+	],
+	"installedSize": 209,
+	"maintainer": "Peter Pentchev <roam@debian.org>",
+	"description": "DNS server - tool for publishing addresses of Internet hosts",
+	"homepage": "http://cr.yp.to/djbdns.html",
+	"filename": "pool/main/d/djbdns/tinydns_1.05-15+b2_amd64.deb",
+	"size": 51648,
+	"md5": "58fd7aabe8c25199ba6cd328817041cd",
+	"sha256": "79c3a5cc01da1b9afe37a42b1eb2c723a3d128f9afaf9e2c5ea27ef843e1aa61",
+	"descriptionMd5": "f23eb3c5dd8b7d88bef20e32803e966c"
+}]

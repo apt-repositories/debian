@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "puredata-core",
+	"source": "puredata",
+	"version": "0.49.0-3",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libasound2 (>= 1.0.18)",
+		"libc6 (>= 2.22)",
+		"libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125",
+		"libportaudio2 (>= 19+svn20101113)"
+	],
+	"recommends": [
+		"puredata-gui"
+	],
+	"replaces": [
+		"puredata (<< 0.43)",
+		"puredata-doc (<< 0.43.0-5)"
+	],
+	"breaks": [
+		"puredata (<< 0.43)",
+		"puredata-doc (<< 0.43.0-5)",
+		"puredata-gui (>> 0.49.0+1~)",
+		"puredata-gui (<< 0.49.0)"
+	],
+	"installedSize": 3817,
+	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
+	"description": "realtime computer music and graphics system - core components",
+	"homepage": "https://puredata.info",
+	"filename": "pool/main/p/puredata/puredata-core_0.49.0-3_amd64.deb",
+	"size": 749020,
+	"md5": "e519a0229dd91ced44ed637b75c8a101",
+	"sha256": "30617036e60f4e548c8f20286a43409b1bd9c0c60d7fd18545d267b51e0d20ac",
+	"descriptionMd5": "6f0f06b4a8b77ce55ac2f2a16a3bf4c2"
+}

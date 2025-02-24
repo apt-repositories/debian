@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "glx-alternative-mesa",
+	"source": "glx-alternatives",
+	"version": "1.2.2",
+	"section": "contrib/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"update-glx (= 1.2.2)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.21)"
+	],
+	"recommends": [
+		"glx-diversions"
+	],
+	"suggests": [
+		"libgl1-mesa-glx | libgl1"
+	],
+	"breaks": [
+		"nvidia-alternative (<< 390.67-3~)"
+	],
+	"installedSize": 32,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "allows the selection of MESA as GLX provider",
+	"filename": "pool/contrib/g/glx-alternatives/glx-alternative-mesa_1.2.2_amd64.deb",
+	"size": 4760,
+	"md5": "da352f3d1c91f29ee31d8c203613954c",
+	"sha256": "a72c331f3bd6b2acb4fa75428af4a7ce37e23a0f333e5bf34c05da77fbc1a5e1",
+	"descriptionMd5": "1daacf66b51fd438667e93a67d9e2770"
+}]

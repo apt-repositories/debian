@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libopenmpi3",
+	"source": "openmpi",
+	"version": "4.1.0-10",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libevent-core-2.1-7 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7 (>= 2.1.8-stable)",
+		"libfabric1 (>= 1.11.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libhwloc15 (>= 2.4.1+dfsg)",
+		"libibverbs1 (>= 1.1.7)",
+		"libnl-3-200 (>= 3.2.7)",
+		"libpmix2 (>= 4.0.0)",
+		"libpsm-infinipath1 (>= 3.3+7.gec1d6d2)",
+		"libpsm2-2 (>= 10.3-37)",
+		"libstdc++6 (>= 5)",
+		"libucx0 (>= 1.10.1~rc1+really.1.10.0)",
+		"zlib1g (>= 1:1.2.0)",
+		"libhwloc-plugins"
+	],
+	"replaces": [
+		"libpmix2 (<< 3.0.0-2)"
+	],
+	"breaks": [
+		"gromacs-openmpi (<< 2020~beta2-2)",
+		"libeztrace0 (<< 1.1-8-5+b1)",
+		"libpmix2 (<< 3.0.0-2)",
+		"openmpi-bin (<< 4.0.2-4+b1)",
+		"starpu-contrib-examples (<< 1.3.2+dfsg-2+b1)",
+		"starpu-examples (<< 1.3.2+dfsg-4+b1)"
+	],
+	"installedSize": 9646,
+	"maintainer": "Alastair McKinstry <mckinstry@debian.org>",
+	"description": "high performance message passing library -- shared library",
+	"homepage": "https://www.open-mpi.org/",
+	"filename": "pool/main/o/openmpi/libopenmpi3_4.1.0-10_amd64.deb",
+	"size": 2369724,
+	"md5": "b863ea86fa6d16af0b3ee60a4b88cdd2",
+	"sha256": "d483f4e85ab37e3e77df5cf3df06da9f3acbf19488da86e19ee45a6133e45c38",
+	"descriptionMd5": "72141e1823cc63cbe9896c2f4fefec5f"
+}

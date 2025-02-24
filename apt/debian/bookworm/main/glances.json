@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "glances",
+	"version": "3.3.1.1+dfsg-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)",
+		"python3-pkg-resources",
+		"python3-defusedxml",
+		"python3-packaging",
+		"python3-psutil (>= 2.0.0)",
+		"python3-ujson | python3 (<< 3.7)",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"lm-sensors",
+		"python3-bottle",
+		"python3-docker",
+		"python3-influxdb",
+		"python3-matplotlib",
+		"python3-netifaces",
+		"python3-pysnmp4",
+		"python3-pystache"
+	],
+	"suggests": [
+		"glances-doc",
+		"python3-pynvml"
+	],
+	"installedSize": 1739,
+	"maintainer": "Daniel Echeverri <epsilon@debian.org>",
+	"description": "Curses-based monitoring tool",
+	"homepage": "https://github.com/nicolargo/glances",
+	"filename": "pool/main/g/glances/glances_3.3.1.1+dfsg-1_all.deb",
+	"size": 312220,
+	"md5": "760490b4e2fdd4d92b5d283a5f198f5a",
+	"sha256": "3e76d0c25fa0ae7ed49ae51db2211221c8143b6f947278f24e2d02b8f09bb3f2",
+	"descriptionMd5": "b985e0253103aa5027d5b25058344340"
+}

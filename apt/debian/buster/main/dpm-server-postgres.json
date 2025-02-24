@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpm-server-postgres",
+	"source": "lcgdm (1.10.0-2)",
+	"version": "1.10.0-2+b3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libdpm1 (= 1.10.0-2+b3)",
+		"adduser",
+		"libc6 (>= 2.15)",
+		"liblcgdm1",
+		"libpq5",
+		"libuuid1 (>= 2.16)",
+		"finger",
+		"postgresql-client"
+	],
+	"replaces": [
+		"dpm-postgres (<< 1.8.1.2-2~)"
+	],
+	"conflicts": [
+		"dpm-postgres (<< 1.8.1.2-2~)"
+	],
+	"installedSize": 340,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "Disk Pool Manager (DPM) server with postgres database backend",
+	"homepage": "http://glite.web.cern.ch/glite/",
+	"filename": "pool/main/l/lcgdm/dpm-server-postgres_1.10.0-2+b3_amd64.deb",
+	"size": 115364,
+	"md5": "41dccea567de98dbc71fc14c32116b96",
+	"sha256": "2de68808a39f38826ad7a7785faa718a6bde74d1c40bfc150afcd20f42e274ff",
+	"descriptionMd5": "2232c4a3925b79ccf48173b6ab47875a"
+}

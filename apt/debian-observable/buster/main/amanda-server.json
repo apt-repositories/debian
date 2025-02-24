@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amanda-server",
+	"source": "amanda (1:3.5.1-2)",
+	"version": "1:3.5.1-2+b2",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"amanda-common (= 1:3.5.1-2+b2)",
+		"bsd-mailx | mailx",
+		"libjson-perl",
+		"perl:any",
+		"libc6 (>= 2.15)",
+		"libcurl4 (>= 7.16.2)",
+		"libglib2.0-0 (>= 2.31.8)",
+		"libssl1.1 (>= 1.1.0)"
+	],
+	"suggests": [
+		"amanda-client (= 1:3.5.1-2+b2)",
+		"cpio | mt-st",
+		"gnuplot"
+	],
+	"conflicts": [
+		"amanda"
+	],
+	"installedSize": 1089,
+	"maintainer": "Jose M Calhariz <calhariz@debian.org>",
+	"description": "Advanced Maryland Automatic Network Disk Archiver (Server)",
+	"homepage": "http://www.amanda.org/",
+	"filename": "pool/main/a/amanda/amanda-server_3.5.1-2+b2_amd64.deb",
+	"size": 461872,
+	"md5": "b37007922b18beaa596d752c273b3d5c",
+	"sha256": "69354d6ba33fa9790958183f2116ae7683176b910abb168de21e9c1dfcc390de",
+	"descriptionMd5": "7a44af7cb005595215636c1ed7a211fa"
+}]

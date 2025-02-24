@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-torque",
+	"source": "slurm-wlm",
+	"version": "24.11.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libslurm-perl (>= 24.11.0-2)",
+		"libslurmdb-perl (>= 24.11.0-2)",
+		"perl:any",
+		"libswitch-perl",
+		"slurm-client (>= 24.11.0-2)"
+	],
+	"conflicts": [
+		"gridengine-client",
+		"torque-client",
+		"torque-client-x11"
+	],
+	"installedSize": 178,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Torque compatibility wrappers for Slurm",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/main/s/slurm-wlm/slurm-wlm-torque_24.11.0-2_all.deb",
+	"size": 48020,
+	"md5": "2ad87b5efa3d563ba721cf0ca7ff0eac",
+	"sha256": "9bf0512447201555bdb6604168e19bf43b2336be8c6cc82cdc17e7983ef5fe03",
+	"descriptionMd5": "a2c9009e8d15f1e6e248602bb43281a2"
+}]

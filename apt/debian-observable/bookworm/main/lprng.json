@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lprng",
+	"version": "3.8.B-6",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 2.0)",
+		"libc6 (>= 2.33)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.6.dfsg.2)",
+		"libkrb5-3 (>= 1.16)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"debconf | debconf-2.0"
+	],
+	"suggests": [
+		"magicfilter",
+		"lprng-doc"
+	],
+	"replaces": [
+		"lpr"
+	],
+	"conflicts": [
+		"apsfilter (<< 4.9.1-10)",
+		"cupsys-bsd",
+		"lpr",
+		"suidmanager (<< 0.50)"
+	],
+	"installedSize": 3060,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "lpr/lpd printer spooling system",
+	"homepage": "http://lprng.sourceforge.net/",
+	"filename": "pool/main/l/lprng/lprng_3.8.B-6_amd64.deb",
+	"size": 545216,
+	"md5": "fe3c0af6864bcdb362865cafe6b46258",
+	"sha256": "a8a1c980fb5e8476dc57d530ce03edad42719d119fd0e587f07b7fae54b858ef",
+	"descriptionMd5": "47d742863c1b0d7c17930026e04f3553"
+}]

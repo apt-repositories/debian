@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ltspfsd",
+	"source": "ltspfs",
+	"version": "1.5-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3",
+		"ltspfsd-core"
+	],
+	"recommends": [
+		"ldm"
+	],
+	"replaces": [
+		"ldm (<= 2:0.1~bzr20071217-1)"
+	],
+	"breaks": [
+		"ldm (<= 2:0.1~bzr20071217-1)",
+		"ltsp-client (<< 5.3)"
+	],
+	"installedSize": 36,
+	"maintainer": "Debian LTSP Maintainers <team+ltsp@tracker.debian.org>",
+	"description": "Fuse based remote filesystem hooks for LTSP thin clients",
+	"filename": "pool/main/l/ltspfs/ltspfsd_1.5-2_all.deb",
+	"size": 11252,
+	"md5": "809bf7d4589dfe69d309fd35c2e92146",
+	"sha256": "7928b308986273f14c2683a5af29a478ef72259bdbb656f20af6d4b2e4a9cffc",
+	"descriptionMd5": "576700e58a1376fcc5f55306e06f103b"
+}]

@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "uif",
+	"version": "1.1.9-5",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libdata-validate-ip-perl",
+		"libnetaddr-ip-perl (>= 3.0)",
+		"libsocket-perl",
+		"iptables",
+		"bsdutils (>= 2.11u)",
+		"lsb-base",
+		"mailutils | mailx"
+	],
+	"recommends": [
+		"libnet-ldap-perl"
+	],
+	"suggests": [
+		"fwlogwatch"
+	],
+	"conflicts": [
+		"fiaif",
+		"firewall-easy",
+		"knetfilter",
+		"shorewall"
+	],
+	"installedSize": 178,
+	"maintainer": "Mike Gabriel <sunweaver@debian.org>",
+	"description": "Advanced iptables-firewall script",
+	"homepage": "https://github.com/cajus/uif",
+	"filename": "pool/main/u/uif/uif_1.1.9-5_all.deb",
+	"size": 56392,
+	"md5": "d6d4fb9d2528afbebb19878842c35caa",
+	"sha256": "4bc3e7c7b6a1d8618bfbde90a2a72eeea692423c304c985a694c9dafc2cb0a05",
+	"descriptionMd5": "ef0e7a2e4f0b7809c0ae3a8e35b0d9c3"
+}

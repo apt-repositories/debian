@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libjack0",
+	"source": "jack-audio-connection-kit",
+	"version": "1:0.125.0-3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libdb5.3"
+	],
+	"suggests": [
+		"jackd1 (= 1:0.125.0-3)"
+	],
+	"replaces": [
+		"jackd1 (<< 1:0.125.0-3)",
+		"libjack-0.116",
+		"libjack-0.125"
+	],
+	"breaks": [
+		"jackd1 (<< 1:0.125.0-3)"
+	],
+	"conflicts": [
+		"jackd1 (>> 1:0.125.0-3)",
+		"jackd1 (<< 1:0.125.0-3)",
+		"libjack-0.116",
+		"libjack-0.125"
+	],
+	"installedSize": 337,
+	"maintainer": "Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>",
+	"description": "JACK Audio Connection Kit (libraries)",
+	"homepage": "http://jackaudio.org/",
+	"filename": "pool/main/j/jack-audio-connection-kit/libjack0_0.125.0-3_amd64.deb",
+	"size": 108724,
+	"md5": "5043794d3c71b383b8dac30cae52eee1",
+	"sha256": "59645c64650a34f6a0c297678e36293c1932b92166a03c87041454b2b074efc6",
+	"descriptionMd5": "f4743a9e2f04ed05673483cd1fe0eb38"
+}]

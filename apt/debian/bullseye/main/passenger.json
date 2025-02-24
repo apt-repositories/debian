@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "passenger",
+	"version": "5.0.30-1.2+deb11u1",
+	"section": "ruby",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ruby (>= 1:2.7~0)",
+		"ruby-rack",
+		"libc6 (>= 2.17)",
+		"libcurl4 (>= 7.16.2)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 9)",
+		"libuv1 (>= 1.4.2)",
+		"zlib1g (>= 1:1.1.4)",
+		"libruby2.7 (>= 2.7.0)",
+		"ruby (<< 1:2.8~)"
+	],
+	"suggests": [
+		"nodejs",
+		"passenger-doc",
+		"python3",
+		"rails"
+	],
+	"replaces": [
+		"libapache2-mod-passenger (<< 3.0.11debian)",
+		"ruby-passenger (<< 4.0.53-2~)"
+	],
+	"breaks": [
+		"libapache2-mod-passenger (<< 3.0.11debian)",
+		"ruby-passenger (<< 4.0.53-2~)"
+	],
+	"installedSize": 4854,
+	"maintainer": "Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "Rails and Rack support",
+	"homepage": "https://www.phusionpassenger.com/",
+	"filename": "pool/main/p/passenger/passenger_5.0.30-1.2+deb11u1_amd64.deb",
+	"size": 1286732,
+	"md5": "e0a3f779b99327c3d18a95ca6cf3d8aa",
+	"sha256": "5d4e1a0815af78dc32f0a8117d50d128811669e48b6852cac2192f789a56c689",
+	"descriptionMd5": "c4a13beb899287700f5e0b97e0d84998"
+}

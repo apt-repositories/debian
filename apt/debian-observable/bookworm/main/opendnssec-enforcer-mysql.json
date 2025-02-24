@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opendnssec-enforcer-mysql",
+	"source": "opendnssec",
+	"version": "1:2.1.12-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"default-mysql-client",
+		"libdbd-mysql-perl",
+		"opendnssec-common (= 1:2.1.12-2)",
+		"libc6 (>= 2.36)",
+		"libldns3 (>= 1.7.1)",
+		"libmariadb3 (>= 3.0.0)",
+		"libreadline8 (>= 6.0)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"recommends": [
+		"opendnssec (= 1:2.1.12-2)",
+		"softhsm2"
+	],
+	"replaces": [
+		"opendnssec-enforcer-backend"
+	],
+	"conflicts": [
+		"opendnssec-enforcer-backend"
+	],
+	"installedSize": 914,
+	"maintainer": "Mathieu Mirmont <mat@parad0x.org>",
+	"description": "tool to prepare DNSSEC keys (MySQL backend)",
+	"homepage": "https://www.opendnssec.org/",
+	"filename": "pool/main/o/opendnssec/opendnssec-enforcer-mysql_2.1.12-2_amd64.deb",
+	"size": 233196,
+	"md5": "60df164bbd8011c208501da3fe2f8736",
+	"sha256": "71b2e2c6af5dc32edd8682116c24568e12213b382a93cd9c70585aab916a09e5",
+	"descriptionMd5": "3c9753017a0db1aa09b764fca47ce8d8"
+}]

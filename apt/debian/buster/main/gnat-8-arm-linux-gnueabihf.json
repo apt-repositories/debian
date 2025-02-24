@@ -1,0 +1,72 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-8-arm-linux-gnueabihf",
+	"source": "gcc-8-cross (26)",
+	"version": "8.3.0-2cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-8-arm-linux-gnueabihf-base (= 8.3.0-2cross1)",
+		"gcc-8-arm-linux-gnueabihf (>= 8)",
+		"libgnat-8-armhf-cross (>= 8.3.0-2cross1)",
+		"libc6-dev-armhf-cross (>= 2.13-5)",
+		"libc6 (>= 2.28)",
+		"libgmp10 (>= 2:5.0.1~)",
+		"libisl19 (>= 0.15)",
+		"libmpc3",
+		"libmpfr6 (>= 3.1.3)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-8-doc",
+		"ada-reference-manual-2012",
+		"gnat-8-sjlj"
+	],
+	"replaces": [
+		"dh-ada-library (<< 6.0)",
+		"gnat (<< 4.6.1)",
+		"gnat-4.6-base (= 4.6.4-2)",
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"breaks": [
+		"dh-ada-library (<< 6.0)",
+		"gnat (<< 4.6.1)",
+		"gnat-4.6-base (= 4.6.4-2)",
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"conflicts": [
+		"gnat (<< 4.1)",
+		"gnat-3.1",
+		"gnat-3.2",
+		"gnat-3.3",
+		"gnat-3.4",
+		"gnat-3.5",
+		"gnat-4.0",
+		"gnat-4.1",
+		"gnat-4.2",
+		"gnat-4.3",
+		"gnat-4.4",
+		"gnat-4.6",
+		"gnat-4.7",
+		"gnat-4.8",
+		"gnat-4.9",
+		"gnat-5-arm-linux-gnueabihf",
+		"gnat-6-arm-linux-gnueabihf",
+		"gnat-7-arm-linux-gnueabihf"
+	],
+	"installedSize": 74425,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Ada compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-8 (= 8.3.0-2)",
+	"filename": "pool/main/g/gcc-8-cross/gnat-8-arm-linux-gnueabihf_8.3.0-2cross1_amd64.deb",
+	"size": 14055444,
+	"md5": "f52a7100803d7626727a2c8a56520d6a",
+	"sha256": "e5a3cb13165f67dc5eab63e0bce04afe934453cfc243b8018997bef5e2a2e723",
+	"descriptionMd5": "8cebde0cd6b861927a7a457cacc8851f"
+}

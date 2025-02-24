@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "golang-github-prometheus-client-golang-dev",
+	"source": "golang-github-prometheus-client-golang",
+	"version": "1.14.0-3",
+	"section": "golang",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"golang-github-beorn7-perks-dev",
+		"golang-github-cespare-xxhash-dev",
+		"golang-github-davecgh-go-spew-dev",
+		"golang-github-golang-protobuf-1-3-dev | golang-github-golang-protobuf-1-5-dev",
+		"golang-github-json-iterator-go-dev",
+		"golang-github-prometheus-client-model-dev (>= 0.3.0)",
+		"golang-github-prometheus-common-dev (>= 0.16)",
+		"golang-github-prometheus-procfs-dev",
+		"golang-google-protobuf-dev"
+	],
+	"breaks": [
+		"golang-github-cloudflare-redoctober-dev (<< 0.0~git20161017.0.78e9720-4~)",
+		"golang-github-grpc-ecosystem-go-grpc-prometheus-dev (<< 1.2.0+git20191002~)",
+		"golang-github-mwitkow-go-conntrack-dev (<< 0.0~git20190716~)",
+		"golang-redoctober (<< 0.0~git20161017.0.78e9720-4~)",
+		"prometheus-postfix-exporter (<< 0.2.0-1~)"
+	],
+	"installedSize": 964,
+	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
+	"description": "Prometheus instrumentation library for Go applications",
+	"homepage": "https://github.com/prometheus/client_golang.git",
+	"filename": "pool/main/g/golang-github-prometheus-client-golang/golang-github-prometheus-client-golang-dev_1.14.0-3_all.deb",
+	"size": 174160,
+	"md5": "30949e585a910b75051177308f467620",
+	"sha256": "b95081bf869abc26d70ba2a1dfd9d0ac6675b6ac95c9ffa6e25971ee862e7016",
+	"descriptionMd5": "1554fe720b0324e6384563ff22eefa08"
+}

@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lib32gcc-s1",
+	"source": "gcc-10",
+	"version": "10.2.1-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-10-base (= 10.2.1-6)",
+		"libc6-i386 (>= 2.2.4)"
+	],
+	"replaces": [
+		"lib32gcc1 (<< 1:10)"
+	],
+	"breaks": [
+		"lib32gcc1 (<< 1:10)"
+	],
+	"conflicts": [
+		"libc6-i386 (<< 2.9-22)"
+	],
+	"installedSize": 130,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (32 bit Version)",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-10/lib32gcc-s1_10.2.1-6_amd64.deb",
+	"size": 49400,
+	"md5": "92c1a3d0b32a0f20820a1841a7a9df73",
+	"sha256": "73e63410091c81b7746de55fbe637fa01b9b89cef75a9548eb6a337b521bc26c",
+	"descriptionMd5": "a31c67d540f86442c895f2663cb4d5c9"
+}]

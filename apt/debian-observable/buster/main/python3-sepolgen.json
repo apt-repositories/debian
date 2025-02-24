@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-sepolgen",
+	"source": "selinux-python",
+	"version": "2.8-3",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"checkpolicy (>= 2.8)",
+		"make",
+		"python3-selinux (>= 2.8)",
+		"python3-setools (>= 4.1.1)",
+		"semodule-utils (>= 2.8)",
+		"python3:any"
+	],
+	"recommends": [
+		"selinux-policy-dev"
+	],
+	"replaces": [
+		"python-sepolgen (<< 2.6)"
+	],
+	"breaks": [
+		"python-sepolgen (<< 2.6)"
+	],
+	"installedSize": 357,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "Python3 module used in SELinux policy generation",
+	"homepage": "http://userspace.selinuxproject.org/",
+	"filename": "pool/main/s/selinux-python/python3-sepolgen_2.8-3_all.deb",
+	"size": 83852,
+	"md5": "2c935baf9cca08cf63c9e097ef8c222a",
+	"sha256": "f73e76d8ea5219fcce371be159f26736acae70745a96f4d5625934b3ddf66c96",
+	"descriptionMd5": "03778db4097db3afbc6b04fa1214dd9a"
+}]

@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ospd-openvas",
+	"version": "22.7.1-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"openvas-scanner (>= 22.4.0)",
+		"python3-defusedxml",
+		"python3-deprecated",
+		"python3-gnupg",
+		"python3-lxml",
+		"python3-packaging",
+		"python3-paho-mqtt",
+		"python3-psutil",
+		"python3-redis",
+		"python3:any",
+		"sudo"
+	],
+	"replaces": [
+		"python3-ospd (<< 21.4.5)"
+	],
+	"breaks": [
+		"python3-ospd (<< 21.4.5)"
+	],
+	"installedSize": 461,
+	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
+	"description": "OSP server implementation to allow GVM to remotely control an OpenVAS Scanner",
+	"homepage": "https://www.greenbone.net/",
+	"filename": "pool/main/o/ospd-openvas/ospd-openvas_22.7.1-2_all.deb",
+	"size": 89792,
+	"md5": "9b9fcc517c1432789e6302a6d264527e",
+	"sha256": "4bdc283bb6e49e0ab1aaf0c1f8e78b7ba1fc96acaa3b37e877958cdb95373d03",
+	"descriptionMd5": "3cec32874f47b5232a54521fa686a5fd"
+}]

@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "proftpd-mod-crypto",
+	"source": "proftpd-dfsg",
+	"version": "1.3.7a+dfsg-12+deb11u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"proftpd-core (= 1.3.7a+dfsg-12+deb11u3)",
+		"libc6 (>= 2.15)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsodium23 (>= 1.0.10)",
+		"libssl1.1 (>= 1.1.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"proftpd-basic (<= 1.3.7a+dfsg-3~)",
+		"proftpd-core (<= 1.3.7a+dfsg-3~)"
+	],
+	"enhances": [
+		"proftpd-core"
+	],
+	"breaks": [
+		"proftpd-basic (<= 1.3.7a+dfsg-3~)",
+		"proftpd-core (<= 1.3.7a+dfsg-3~)"
+	],
+	"installedSize": 1449,
+	"maintainer": "ProFTPD Maintainance Team <pkg-proftpd-maintainers@alioth-lists.debian.net>",
+	"description": "Versatile, virtual-hosting FTP daemon - TLS/SSL/SFTP modules",
+	"homepage": "http://www.proftpd.org/",
+	"filename": "pool/updates/main/p/proftpd-dfsg/proftpd-mod-crypto_1.3.7a+dfsg-12+deb11u3_amd64.deb",
+	"size": 790828,
+	"sha256": "0fbaf765ed9fe8e0ecb081c18a4e072cf879cd06ff1924008e8295f12f20b0c0",
+	"descriptionMd5": "041b57a12a4e3424c76a21aed775d37a"
+}

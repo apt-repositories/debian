@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcgi-application-dispatch-perl",
+	"version": "3.12-2.1",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libcgi-application-perl (>= 4.50)",
+		"libexception-class-perl",
+		"libhttp-exception-perl",
+		"libtry-tiny-perl"
+	],
+	"suggests": [
+		"libapache2-mod-perl2",
+		"libplack-perl"
+	],
+	"replaces": [
+		"libcgi-application-basic-plugin-bundle-perl (<< 0.6)",
+		"libcgi-application-plugins-perl (<< 0.11)"
+	],
+	"breaks": [
+		"libcgi-application-basic-plugin-bundle-perl (<< 0.6)",
+		"libcgi-application-plugins-perl (<< 0.11)"
+	],
+	"installedSize": 123,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "request dispatcher for CGI::Application",
+	"homepage": "https://metacpan.org/release/CGI-Application-Dispatch",
+	"filename": "pool/main/libc/libcgi-application-dispatch-perl/libcgi-application-dispatch-perl_3.12-2.1_all.deb",
+	"size": 45944,
+	"md5": "bfdc4ec412bc68d6ba14cc5c756fe82d",
+	"sha256": "8c237ff785c1706154000ace7f4665b0bfbf2d249f105b5956123a48ac9d6881",
+	"descriptionMd5": "09845a32f581155b1c30e76866d5d315"
+}

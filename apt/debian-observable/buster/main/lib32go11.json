@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lib32go11",
+	"source": "gcc-7",
+	"version": "7.4.0-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-7-base (= 7.4.0-6)",
+		"lib32gcc1",
+		"lib32z1 (>= 1:1.1.4)",
+		"libc6-i386 (>= 2.28)"
+	],
+	"replaces": [
+		"lib32go3",
+		"lib32go8"
+	],
+	"conflicts": [
+		"libc6-i386 (<< 2.9-22)"
+	],
+	"installedSize": 35610,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "Runtime library for GNU Go applications (32bit)",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-7/lib32go11_7.4.0-6_amd64.deb",
+	"size": 8723884,
+	"md5": "a3230adbb04e84900e34fac4d6499a69",
+	"sha256": "b45f4aaed17dda3be06320e276e5412bc3fb3994d3785703f77512b4cfe9309c",
+	"descriptionMd5": "7174520aedfeba49e54b8c36f55b7e95"
+}]

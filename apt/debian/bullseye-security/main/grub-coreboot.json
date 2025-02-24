@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-coreboot",
+	"source": "grub2",
+	"version": "2.06-3~deb11u6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-common (= 2.06-3~deb11u6)",
+		"grub2-common (= 2.06-3~deb11u6)",
+		"grub-coreboot-bin (= 2.06-3~deb11u6)",
+		"ucf"
+	],
+	"replaces": [
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-linuxbios",
+		"grub-pc",
+		"grub2 (<< 2.06-3~deb11u6)"
+	],
+	"conflicts": [
+		"grub (<< 0.97-54)",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-linuxbios (<< 2.06-3~deb11u6)",
+		"grub-pc",
+		"grub-xen"
+	],
+	"installedSize": 159,
+	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
+	"description": "GRand Unified Bootloader, version 2 (Coreboot version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/updates/main/g/grub2/grub-coreboot_2.06-3~deb11u6_amd64.deb",
+	"size": 40240,
+	"sha256": "03a0ad081f68292a027c7351aa9140a22641cea35b69594aecb77cec9845939d",
+	"descriptionMd5": "24bd58f91c5eb109ee5e6d95810f1702"
+}

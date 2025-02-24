@@ -1,0 +1,107 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "open-vm-tools",
+	"version": "2:12.2.0-1+deb12u2~bpo11+1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.28)",
+		"libdrm2 (>= 2.4.3)",
+		"libfuse3-3 (>= 3.2.3)",
+		"libgcc-s1 (>= 3.3)",
+		"libglib2.0-0 (>= 2.31.8)",
+		"libmspack0 (>= 0.4)",
+		"libssl1.1 (>= 1.1.0)",
+		"libudev1 (>= 183)",
+		"libxml2 (>= 2.7.4)",
+		"libxmlsec1 (>= 1.2.31)",
+		"libxmlsec1-openssl (>= 1.2.31)",
+		"pciutils",
+		"iproute2",
+		"lsb-release"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ethtool",
+		"zerofree",
+		"fuse3"
+	],
+	"suggests": [
+		"open-vm-tools-desktop",
+		"cloud-init",
+		"open-vm-tools-containerinfo",
+		"open-vm-tools-salt-minion"
+	],
+	"replaces": [
+		"open-vm-tools-sdmp (<< 2:12.1.0-2~)"
+	],
+	"breaks": [
+		"open-vm-tools-sdmp (<< 2:12.1.0-2~)"
+	],
+	"installedSize": 3241,
+	"maintainer": "Bernd Zeimetz <bzed@debian.org>",
+	"description": "Open VMware Tools for virtual machines hosted on VMware (CLI)",
+	"homepage": "https://github.com/vmware/open-vm-tools",
+	"filename": "pool/main/o/open-vm-tools/open-vm-tools_12.2.0-1+deb12u2~bpo11+1_amd64.deb",
+	"size": 704236,
+	"sha256": "04ed148bc22666ef01c15e069ddd539ea9d9e45fdac413f56cdd5341287974fa",
+	"descriptionMd5": "a6ea22fad449711c4296720ce1ebe6b4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "open-vm-tools",
+	"version": "2:11.2.5-2+deb11u3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.28)",
+		"libdrm2 (>= 2.4.3)",
+		"libfuse2 (>= 2.6)",
+		"libgcc-s1 (>= 3.3)",
+		"libglib2.0-0 (>= 2.31.8)",
+		"libmspack0 (>= 0.4)",
+		"libssl1.1 (>= 1.1.0)",
+		"libudev1 (>= 183)",
+		"libxml2 (>= 2.7.4)",
+		"libxmlsec1 (>= 1.2.31)",
+		"libxmlsec1-openssl (>= 1.2.31)",
+		"pciutils",
+		"iproute2",
+		"lsb-release",
+		"net-tools"
+	],
+	"recommends": [
+		"ethtool",
+		"zerofree",
+		"fuse"
+	],
+	"suggests": [
+		"open-vm-tools-desktop",
+		"cloud-init"
+	],
+	"replaces": [
+		"open-vm-tools-desktop (<< 2:10.0.7-3227872-2~)"
+	],
+	"breaks": [
+		"open-vm-tools-desktop (<< 2:10.3.5-2~)"
+	],
+	"installedSize": 2716,
+	"maintainer": "Bernd Zeimetz <bzed@debian.org>",
+	"description": "Open VMware Tools for virtual machines hosted on VMware (CLI)",
+	"homepage": "https://github.com/vmware/open-vm-tools",
+	"filename": "pool/updates/main/o/open-vm-tools/open-vm-tools_11.2.5-2+deb11u3_amd64.deb",
+	"size": 631872,
+	"sha256": "9f506f26f35d5e967e27d89e727f29775244e8c695b499e963fbf2e88aa9b1cd",
+	"descriptionMd5": "a6ea22fad449711c4296720ce1ebe6b4"
+}]

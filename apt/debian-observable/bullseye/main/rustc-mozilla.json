@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rustc-mozilla",
+	"version": "1.63.0+dfsg1-2~deb11u1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libstd-rust-mozilla-dev (= 1.63.0+dfsg1-2~deb11u1)",
+		"gcc",
+		"libc-dev",
+		"binutils (>= 2.26)"
+	],
+	"recommends": [
+		"cargo (>= 0.64.0~~)",
+		"cargo (<< 0.65.0~~)",
+		"llvm-13"
+	],
+	"suggests": [
+		"lld-13",
+		"clang-13"
+	],
+	"replaces": [
+		"libstd-rust-dev (<< 1.25.0+dfsg1-2~~)",
+		"rustc"
+	],
+	"breaks": [
+		"libstd-rust-dev (<< 1.25.0+dfsg1-2~~)"
+	],
+	"conflicts": [
+		"rustc"
+	],
+	"installedSize": 7833,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Rust systems programming language",
+	"homepage": "http://www.rust-lang.org/",
+	"filename": "pool/main/r/rustc-mozilla/rustc-mozilla_1.63.0+dfsg1-2~deb11u1_amd64.deb",
+	"size": 2648828,
+	"md5": "6c73b94ade6b6266ec8e139835bff739",
+	"sha256": "7f4c921bbae8cd68df30aac38915c93275353203ff7a10535a8e1096a54ae79d",
+	"descriptionMd5": "67ca6080eea53dc7f3cdf73bc6b8521e"
+}]

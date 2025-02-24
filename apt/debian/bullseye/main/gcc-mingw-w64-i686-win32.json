@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-mingw-w64-i686-win32",
+	"source": "gcc-mingw-w64 (24.2)",
+	"version": "10.2.1-6+24.2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-mingw-w64-i686 (>= 2.30~)",
+		"mingw-w64-i686-dev",
+		"gcc-mingw-w64-i686-win32-runtime (= 10.2.1-6+24.2)",
+		"gcc-mingw-w64-base (= 10.2.1-6+24.2)",
+		"libc6 (>= 2.15)",
+		"libgcc-s1 (>= 4.2)",
+		"libgmp10",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-10-locales (>= 10.2.1)"
+	],
+	"replaces": [
+		"gcc-mingw-w64 (<< 4.6.3-3+4)",
+		"gcc-mingw-w64-bootstrap",
+		"gcc-mingw-w64-i686 (<< 9.3.0-8+22)"
+	],
+	"breaks": [
+		"gcc-mingw-w64 (<< 4.6.3-3+4)",
+		"gcc-mingw-w64-i686 (<< 9.3.0-8+22)"
+	],
+	"conflicts": [
+		"gcc-mingw-w64-bootstrap"
+	],
+	"installedSize": 100107,
+	"maintainer": "Stephen Kitt <skitt@debian.org>",
+	"description": "GNU C compiler for MinGW-w64, Win32/Win32",
+	"homepage": "https://www.gnu.org/software/gcc/",
+	"builtUsing": "gcc-10 (= 10.2.1-6)",
+	"filename": "pool/main/g/gcc-mingw-w64/gcc-mingw-w64-i686-win32_10.2.1-6+24.2_amd64.deb",
+	"size": 26219468,
+	"md5": "47b6fc1aed648f53be4679573eb69996",
+	"sha256": "da5ba1f38eccc603b1299599e91e100aa5356d0b4accba9f9ff6a542451e569d",
+	"descriptionMd5": "9d97b15b1a36742b6f1c0af43e50bd9e"
+}

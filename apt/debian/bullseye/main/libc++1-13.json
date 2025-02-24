@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++1-13",
+	"source": "llvm-toolchain-13",
+	"version": "1:13.0.1-6~deb11u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++abi1-13 (>= 1:13.0.1)",
+		"libc6 (>= 2.17)",
+		"libgcc-s1 (>= 3.0)",
+		"libunwind-13 (>= 1:13.0.1)"
+	],
+	"suggests": [
+		"clang"
+	],
+	"replaces": [
+		"libc++-x.y"
+	],
+	"breaks": [
+		"libc++1 (<< 44)"
+	],
+	"conflicts": [
+		"libc++-x.y"
+	],
+	"installedSize": 908,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM C++ Standard library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-13/libc++1-13_13.0.1-6~deb11u1_amd64.deb",
+	"size": 262172,
+	"md5": "39419119d7c8a1be7392211709d7e8d5",
+	"sha256": "965465820553b5fd097f2c59ed703ffcd867bc1757df338acb8c1f3cbe393b6e",
+	"descriptionMd5": "3e11b80d657dd5ed05ee027e3cba65ca"
+}

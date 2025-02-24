@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cxl",
+	"source": "ndctl (77-2.2)",
+	"version": "77-2.2+b2",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcxl1 (>= 77)",
+		"libdaxctl1 (>= 71)",
+		"libjson-c5 (>= 0.15)",
+		"libtraceevent1 (>= 5.4)",
+		"libtracefs1 (>= 1.2.0)",
+		"libuuid1 (>= 2.16)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"ndctl (<< 77~)"
+	],
+	"breaks": [
+		"ndctl (<< 77~)"
+	],
+	"installedSize": 220,
+	"maintainer": "Adam Borowski <kilobyte@angband.pl>",
+	"description": "provisioning for CXL device memory",
+	"homepage": "https://github.com/pmem/ndctl",
+	"filename": "pool/main/n/ndctl/cxl_77-2.2+b2_amd64.deb",
+	"size": 77676,
+	"md5": "c747d23c636501545d7744a90a83a320",
+	"sha256": "f0e8060fe286f502197aa19037b81a78746026e6efdc534c1ebcc9f472bc457f",
+	"descriptionMd5": "6b159dcffcbea7bb27805b74dcffa623"
+}]

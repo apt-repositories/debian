@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fence-agents-openstack",
+	"source": "fence-agents",
+	"version": "4.16.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"fence-agents-common (>= 4.16.0-2)",
+		"python3-novaclient",
+		"python3-yaml"
+	],
+	"replaces": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"breaks": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"installedSize": 31,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "Fence Agents for Red Hat Cluster - OpenStack Nova agent",
+	"homepage": "https://github.com/ClusterLabs/fence-agents",
+	"filename": "pool/main/f/fence-agents/fence-agents-openstack_4.16.0-2_all.deb",
+	"size": 10296,
+	"md5": "ac7b0c487ad9792e5e320e094ef2ebfb",
+	"sha256": "834e34bb6ce7514c5392098401803d71653613e7bc5f19ec7c86164fed30c590",
+	"descriptionMd5": "9d94306a1bef97617d8560b52e05fb5c"
+}]

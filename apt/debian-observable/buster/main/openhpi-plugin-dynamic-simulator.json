@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openhpi-plugin-dynamic-simulator",
+	"source": "openhpi",
+	"version": "3.8.0-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgcc1 (>= 1:3.0)",
+		"libglib2.0-0 (>= 2.12.0)",
+		"libopenhpi3 (= 3.8.0-2)",
+		"libstdc++6 (>= 5)"
+	],
+	"replaces": [
+		"libopenhpi",
+		"libopenhpi2",
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"breaks": [
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"conflicts": [
+		"libopenhpi",
+		"libopenhpi2"
+	],
+	"installedSize": 355,
+	"maintainer": "Mohan Devarajulu <mohan.devarajulu@hpe.com>",
+	"description": "OpenHPI plugin module for a dynamic simulator",
+	"homepage": "http://openhpi.org",
+	"filename": "pool/main/o/openhpi/openhpi-plugin-dynamic-simulator_3.8.0-2_amd64.deb",
+	"size": 116552,
+	"md5": "d8c341ea1841c96a2193eae59b54dd29",
+	"sha256": "4811d8793f06fba592202d045efaf954275731c4c64f04a8ef507fbf452b1286",
+	"descriptionMd5": "5e8064e04964c2c206259ce897ef6a94"
+}]

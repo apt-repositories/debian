@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-client",
+	"source": "slurm-wlm",
+	"version": "22.05.8-4+deb12u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libreadline8 (>= 6.0)",
+		"slurm-wlm-basic-plugins (= 22.05.8-4+deb12u2)",
+		"munge",
+		"ucf"
+	],
+	"conflicts": [
+		"sinfo (<< 0.0.47-4)"
+	],
+	"installedSize": 1791,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Slurm client side commands",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/main/s/slurm-wlm/slurm-client_22.05.8-4+deb12u2_amd64.deb",
+	"size": 722208,
+	"md5": "f9ba57a845107a81fa9a25389d09b4c8",
+	"sha256": "1ac4e7f8027fa1ed719eba80c003368989c220027a47ee929a44e80995b1ad94",
+	"descriptionMd5": "adef5647f57454f084982d9520a1e78d"
+}

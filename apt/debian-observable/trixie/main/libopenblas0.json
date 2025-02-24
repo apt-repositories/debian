@@ -1,0 +1,31 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libopenblas0",
+	"source": "openblas",
+	"version": "0.3.29+ds-2",
+	"section": "metapackages",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libopenblas0-pthread | libopenblas0-openmp | libopenblas0-serial"
+	],
+	"breaks": [
+		"libatlas3-base (<< 3.10.3-4~)",
+		"libblas3 (<< 3.7.1-2~)",
+		"liblapack3 (<< 3.7.1-2~)",
+		"libopenblas-dev (<< 0.2.20+ds-3~)"
+	],
+	"installedSize": 69,
+	"maintainer": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Optimized BLAS (linear algebra) library (meta)",
+	"homepage": "https://www.openblas.net/",
+	"filename": "pool/main/o/openblas/libopenblas0_0.3.29+ds-2_amd64.deb",
+	"size": 42604,
+	"md5": "88dc51bc60cfaff30ec41fac69925fc3",
+	"sha256": "fceff26968a5af898799d64d34612c595ade1e7c309dd4d8077712c56da66f5d",
+	"descriptionMd5": "6c05c74194b9608a9e4a8e772a8dfd34"
+}]

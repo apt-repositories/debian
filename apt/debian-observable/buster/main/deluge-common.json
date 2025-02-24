@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "deluge-common",
+	"source": "deluge",
+	"version": "1.3.15-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python:any (<< 2.8)",
+		"python:any (>= 2.7.5-5~)",
+		"python (>= 2.6) | python-simplejson",
+		"python-twisted-core",
+		"python-openssl",
+		"python-pkg-resources",
+		"python-chardet",
+		"python-xdg",
+		"geoip-database"
+	],
+	"replaces": [
+		"deluge-core (<< 1.2.0~rc1-1)",
+		"deluge-torrent (<< 1.0.7.dfsg-1)",
+		"deluge-torrent-common (<< 1.0.7.dfsg-1)"
+	],
+	"breaks": [
+		"deluge-core (<< 1.2.0~rc1-1)",
+		"deluge-torrent (<< 1.0.7.dfsg-1)",
+		"deluge-torrent-common (<< 1.0.7.dfsg-1)"
+	],
+	"installedSize": 4456,
+	"maintainer": "Cristian Greco <cristian@debian.org>",
+	"description": "bittorrent client written in Python/PyGTK (common files)",
+	"homepage": "http://www.deluge-torrent.org/",
+	"filename": "pool/main/d/deluge/deluge-common_1.3.15-2_all.deb",
+	"size": 770580,
+	"md5": "1eba2c49974b885b711fa9f074e26334",
+	"sha256": "403893d3a3a9e0da5cab689e8f4f43747467c0a16290afc461b212aa6ec3b10b",
+	"descriptionMd5": "fda95b1a3c5d8042a9fcefb1948c4537"
+}]

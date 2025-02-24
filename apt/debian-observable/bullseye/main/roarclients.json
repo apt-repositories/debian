@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "roarclients",
+	"source": "roaraudio",
+	"version": "1.0~beta12-4",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.27)",
+		"libroar2 (>= 1.0~beta12)",
+		"libshout3 (>= 2.2.2)",
+		"libvorbisfile3 (>= 1.1.2)"
+	],
+	"recommends": [
+		"libroar-compat2 (= 1.0~beta12-4)",
+		"libroar-plugins-universal (= 1.0~beta12-4)"
+	],
+	"suggests": [
+		"roaraudio | roaraudio-server"
+	],
+	"replaces": [
+		"roaraudio (<< 1.0~beta1-1)",
+		"roaraudio-extra (<< 0.4~beta2~pr0-1)"
+	],
+	"breaks": [
+		"roaraudio (<< 1.0~beta1-1)",
+		"roaraudio-extra (<< 0.4~beta2~pr0-1)"
+	],
+	"installedSize": 459,
+	"maintainer": "Patrick Matthäi <pmatthaei@debian.org>",
+	"description": "Collection of basic clients for the RoarAudio Sound System",
+	"homepage": "http://roaraudio.keep-cool.org/",
+	"filename": "pool/main/r/roaraudio/roarclients_1.0~beta12-4_amd64.deb",
+	"size": 102812,
+	"md5": "d0afae6729d365e5bcac9703925b588d",
+	"sha256": "612796cf0ea17ad85073c4f7f5c301bb14382ff2bb7d84588b5dc06e7e75829a",
+	"descriptionMd5": "009276778a74ab297b1e7a361a45b91e"
+}]

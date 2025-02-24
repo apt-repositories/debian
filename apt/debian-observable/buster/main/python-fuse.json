@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python-fuse",
+	"version": "2:0.3.1-1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libfuse2 (>= 2.8)",
+		"python (<< 2.8)",
+		"python (>= 2.7)",
+		"python:any (>= 2.6.6-7~)",
+		"fuse"
+	],
+	"replaces": [
+		"python2.3-fuse (<< 2.5-3)",
+		"python2.4-fuse (<< 2.5-3)"
+	],
+	"breaks": [
+		"gmailfs (<= 0.7.3-4)",
+		"python2.3-fuse (<< 2.5-3)",
+		"python2.4-fuse (<< 2.5-3)",
+		"wikipediafs (<= 0.3)"
+	],
+	"installedSize": 125,
+	"maintainer": "Sebastien Delafond <seb@debian.org>",
+	"description": "Python bindings for FUSE (Filesystems in USErspace)",
+	"homepage": "https://github.com/libfuse/python-fuse",
+	"filename": "pool/main/p/python-fuse/python-fuse_0.3.1-1_amd64.deb",
+	"size": 35112,
+	"md5": "49d1cfb6c5da8b57951e2a071939822f",
+	"sha256": "052143e40ee7dce2c7d29a4dbb3b07fd2e6b7804efb6c20cb1616b16b4121d96",
+	"descriptionMd5": "f94c15829780c5437598664ed2ab946c"
+}]

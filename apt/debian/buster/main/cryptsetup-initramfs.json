@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cryptsetup-initramfs",
+	"source": "cryptsetup",
+	"version": "2:2.1.0-5+deb10u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox | busybox-static",
+		"cryptsetup-run (>= 2:2.1.0-5+deb10u2)",
+		"initramfs-tools (>= 0.129) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"console-setup",
+		"kbd"
+	],
+	"replaces": [
+		"cryptsetup (<< 2:2.0.3-1)"
+	],
+	"breaks": [
+		"cryptsetup (<< 2:2.0.3-1)"
+	],
+	"installedSize": 137,
+	"maintainer": "Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>",
+	"description": "disk encryption support - initramfs integration",
+	"homepage": "https://gitlab.com/cryptsetup/cryptsetup",
+	"filename": "pool/main/c/cryptsetup/cryptsetup-initramfs_2.1.0-5+deb10u2_all.deb",
+	"size": 69620,
+	"md5": "79084ccaff2b5963d2424702d71351dd",
+	"sha256": "041944bcb965b632b190adbb8d8c467e34f32a8356d50412bb33403e7edabd75",
+	"descriptionMd5": "cac39fb1e64bce69f201398c1e1e437a"
+}

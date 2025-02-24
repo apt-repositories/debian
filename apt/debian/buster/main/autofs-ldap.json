@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "autofs-ldap",
+	"source": "autofs",
+	"version": "5.1.2-4",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libcom-err2 (>= 1.01)",
+		"libk5crypto3 (>= 1.6.dfsg.2)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libsasl2-2",
+		"libxml2 (>= 2.7.4)",
+		"autofs (= 5.1.2-4)"
+	],
+	"replaces": [
+		"autofs5-ldap (<< 5.0.6-1~)"
+	],
+	"breaks": [
+		"autofs5-ldap (<< 5.0.6-1~)"
+	],
+	"installedSize": 310,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "LDAP map support for autofs",
+	"homepage": "http://www.kernel.org/pub/linux/daemons/autofs/v5/",
+	"filename": "pool/main/a/autofs/autofs-ldap_5.1.2-4_amd64.deb",
+	"size": 124100,
+	"md5": "51ca17831b184bd7762a2aa3316b9e27",
+	"sha256": "c4978618ac939f3942f2483e6a85d2a978ffde9c3666188725572718705c2894",
+	"descriptionMd5": "986dad815486127857fb80647532fa9c"
+}

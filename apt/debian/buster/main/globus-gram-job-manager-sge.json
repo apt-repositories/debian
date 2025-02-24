@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "globus-gram-job-manager-sge",
+	"version": "3.0-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl",
+		"globus-gram-job-manager (>= 13)",
+		"globus-gram-job-manager-scripts (>= 4)",
+		"globus-gass-cache-program (>= 5)",
+		"globus-gatekeeper (>= 9)"
+	],
+	"recommends": [
+		"globus-gram-job-manager-sge-setup-poll | globus-gram-job-manager-sge-setup-seg"
+	],
+	"replaces": [
+		"globus-gram-job-manager-setup-sge (<< 2.6)",
+		"globus-gram-job-manager-setup-sge-doc (<< 2.6)"
+	],
+	"conflicts": [
+		"globus-gram-job-manager-setup-sge (<< 2.6)",
+		"globus-gram-job-manager-setup-sge-doc (<< 2.6)"
+	],
+	"installedSize": 60,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "Grid Community Toolkit - Grid Engine Job Manager Support",
+	"homepage": "https://github.com/gridcf/gct/",
+	"filename": "pool/main/g/globus-gram-job-manager-sge/globus-gram-job-manager-sge_3.0-1_all.deb",
+	"size": 11844,
+	"md5": "78293b18fc910f9a4ba1d590523f4068",
+	"sha256": "ccf7f65dd9aff38adfc3e96522da6de9704f17ff276aea4a78611e7822162572",
+	"descriptionMd5": "c0a026c26e9841232e410f72a1c286c2"
+}

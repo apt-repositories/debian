@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nut-server",
+	"source": "nut",
+	"version": "2.8.1-4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"nut-client (= 2.8.1-4)",
+		"libnutscan2 (= 2.8.1-4)",
+		"udev",
+		"libc6 (>= 2.38)",
+		"libnspr4 (>= 2:4.9-2~)",
+		"libnss3 (>= 2:3.14)",
+		"libsystemd0 (>= 246)",
+		"libupsclient6t64 (>= 2.8.0)",
+		"libusb-1.0-0 (>= 2:1.0.16)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"nut-cgi",
+		"nut-i2c",
+		"nut-ipmi",
+		"nut-modbus",
+		"nut-snmp",
+		"nut-xml"
+	],
+	"installedSize": 9480,
+	"maintainer": "Laurent Bigonville <bigon@debian.org>",
+	"description": "network UPS tools - core system",
+	"homepage": "https://networkupstools.org/",
+	"filename": "pool/main/n/nut/nut-server_2.8.1-4_amd64.deb",
+	"size": 1539380,
+	"md5": "88253ae02b8d362781214692563cefa6",
+	"sha256": "f5cfa1a79b8f2188e699c41cf2447f80510653d096b716dae830ddab6edc6fc9",
+	"descriptionMd5": "cf50e3b4416f9edcc4a33c7f641661ef"
+}]

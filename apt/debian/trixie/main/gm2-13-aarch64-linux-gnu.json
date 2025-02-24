@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gm2-13-aarch64-linux-gnu",
+	"source": "gcc-13-cross (16)",
+	"version": "13.3.0-12cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-aarch64-linux-gnu-base (>= 13)",
+		"g++-13-aarch64-linux-gnu (>= 13.3.0-12cross1)",
+		"libgm2-13-dev-arm64-cross (>= 13)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"gm2 (<< 4.4.6-5)",
+		"gm2-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gm2-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 31575,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Modula-2 compiler for the aarch64-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-12)",
+	"filename": "pool/main/g/gcc-13-cross/gm2-13-aarch64-linux-gnu_13.3.0-12cross1_amd64.deb",
+	"size": 9748352,
+	"md5": "fc7cb0a3938c39cbf06ae8501a7b7337",
+	"sha256": "f6424ab540443c724c4f04213646c3f8ba70a954f46e0cb5fe789709f3a525b1",
+	"descriptionMd5": "5c32bb1a293588c845d7a3b4aff8df2e"
+}

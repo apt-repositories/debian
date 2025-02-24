@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgtp10",
+	"source": "osmo-ggsn",
+	"version": "1.12.0-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libosmocore22 (>= 1.9.2)",
+		"libtalloc2 (>= 2.0.4~git20101213)"
+	],
+	"replaces": [
+		"libgtp6t64"
+	],
+	"breaks": [
+		"libgtp6t64 (<< 1.12.0-2)"
+	],
+	"installedSize": 111,
+	"maintainer": "Debian Mobcom Maintainers <Debian-mobcom-maintainers@lists.alioth.debian.org>",
+	"description": "library implementing the GTP protocol between SGSN and GGSN",
+	"homepage": "https://projects.osmocom.org/projects/openggsn",
+	"filename": "pool/main/o/osmo-ggsn/libgtp10_1.12.0-2_amd64.deb",
+	"size": 35576,
+	"md5": "b18d71da9de81793aff31a6e2c351075",
+	"sha256": "3c268dd0340034f29394e7a740c74bc402309d6cee046baf7b47b4f6bf5977ab",
+	"descriptionMd5": "a239b3be3890024c8dfd1208977b204b"
+}

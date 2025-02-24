@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gccgo-8-riscv64-linux-gnu",
+	"source": "gcc-8-cross-ports (19)",
+	"version": "8.3.0-2cross2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-8-riscv64-linux-gnu-base (= 8.3.0-2cross2)",
+		"gcc-8-riscv64-linux-gnu (= 8.3.0-2cross2)",
+		"libgo13-riscv64-cross (>= 8)",
+		"libc6-dev-riscv64-cross (>= 2.13-5)",
+		"libc6 (>= 2.14)",
+		"libgmp10 (>= 2:5.0.1~)",
+		"libisl19 (>= 0.15)",
+		"libmpc3",
+		"libmpfr6 (>= 3.1.3)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gccgo-8-doc",
+		"libgo13-dbg-riscv64-cross (>= 8.3.0-2cross2)"
+	],
+	"replaces": [
+		"libgo12-riscv64-cross (<< 8-20171209-2)"
+	],
+	"breaks": [
+		"libgo12-riscv64-cross (<< 8-20171209-2)"
+	],
+	"conflicts": [
+		"golang-go (<< 2:1.3.3-1ubuntu2)"
+	],
+	"installedSize": 117684,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Go compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-8 (= 8.3.0-2)",
+	"filename": "pool/main/g/gcc-8-cross-ports/gccgo-8-riscv64-linux-gnu_8.3.0-2cross2_amd64.deb",
+	"size": 15128364,
+	"md5": "ae321a43fa58ce1d831100e072728241",
+	"sha256": "78725fd8b7f06acadefa202e1f2183a8b39096bdf9fc6c92f374b91f5eda79ad",
+	"descriptionMd5": "58c2a4ce4d3fe6815f7a6ee86b4db16d"
+}

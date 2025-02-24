@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ostree-boot",
+	"source": "ostree",
+	"version": "2020.8-2+deb11u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ostree (= 2020.8-2+deb11u1)",
+		"libc6 (>= 2.8)",
+		"libglib2.0-0 (>= 2.40.0)",
+		"libostree-1-1 (>= 2016.4)",
+		"libsystemd0"
+	],
+	"recommends": [
+		"dracut",
+		"grub-efi-amd64 | grub-pc | extlinux | syslinux | u-boot"
+	],
+	"replaces": [
+		"ostree (<< 2020.8-2+deb11u1)",
+		"ostree-grub2 (<< 2020.8-2+deb11u1)"
+	],
+	"breaks": [
+		"ostree (<< 2020.8-2+deb11u1)",
+		"ostree-grub2 (<< 2020.8-2+deb11u1)"
+	],
+	"installedSize": 114,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
+	"description": "libostree boot loader and initramfs integration",
+	"homepage": "https://github.com/ostreedev/ostree/",
+	"filename": "pool/main/o/ostree/ostree-boot_2020.8-2+deb11u1_amd64.deb",
+	"size": 27420,
+	"md5": "ff8a18a386a14ba59b482ddeb0884ad0",
+	"sha256": "c7c9c209545e8f44b80d26977a91ba6578de629aec39939d57b904bfb554fc52",
+	"descriptionMd5": "b74187f4782dcc008e77d474b62637c6"
+}]

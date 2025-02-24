@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "atftpd",
+	"source": "atftp",
+	"version": "0.8.0-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libwrap0 (>= 7.6-4~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"conflicts": [
+		"tftpd"
+	],
+	"installedSize": 181,
+	"maintainer": "Ludovic Drolez <ldrolez@debian.org>",
+	"description": "advanced TFTP server",
+	"homepage": "https://sourceforge.net/projects/atftp",
+	"filename": "pool/main/a/atftp/atftpd_0.8.0-3_amd64.deb",
+	"size": 63452,
+	"md5": "ea87f70732743a38d891825424e9b502",
+	"sha256": "7758cd64a4ec404c1f195b4c5dc3867b8f13f7ff36c617cc8dfaa157fd901858",
+	"descriptionMd5": "3ae8dee72501de81215cfd2f3cb4fd69"
+}]

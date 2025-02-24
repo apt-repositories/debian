@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "puppet-master-passenger",
+	"source": "puppet",
+	"version": "5.5.10-4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apache2",
+		"libapache2-mod-passenger",
+		"lsb-base",
+		"puppet (= 5.5.10-4)",
+		"ruby | ruby-interpreter"
+	],
+	"replaces": [
+		"puppetmaster-passenger (<< 4.4.0-1)"
+	],
+	"breaks": [
+		"puppetmaster-passenger (<< 4.4.0-1)"
+	],
+	"installedSize": 60,
+	"maintainer": "Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>",
+	"description": "configuration management system, scalable master service",
+	"homepage": "https://github.com/puppetlabs/puppet",
+	"filename": "pool/main/p/puppet/puppet-master-passenger_5.5.10-4_all.deb",
+	"size": 28684,
+	"md5": "6fa7c1b6ad073b134272c446ed0a16ab",
+	"sha256": "376d7a30dd485934fb1384d28da97e77e8a09b9ad350ec45eb17849194534f23",
+	"descriptionMd5": "efb9f6c0f98ec67aec99e4c9b4618aec"
+}]

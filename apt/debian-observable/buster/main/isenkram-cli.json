@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "isenkram-cli",
+	"source": "isenkram",
+	"version": "0.41",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"python:any (<< 2.8)",
+		"python:any (>= 2.7~)",
+		"appstream",
+		"python-gi",
+		"python-apt",
+		"gir1.2-appstream-1.0",
+		"lsb-release",
+		"curl",
+		"usbutils"
+	],
+	"replaces": [
+		"isenkram (<< 0.9+exp.1)"
+	],
+	"breaks": [
+		"isenkram (<< 0.9+exp.1)"
+	],
+	"installedSize": 3973,
+	"maintainer": "Petter Reinholdtsen <pere@debian.org>",
+	"description": "Suggest packages to install when inserting new hardware (CLI tool)",
+	"filename": "pool/main/i/isenkram/isenkram-cli_0.41_all.deb",
+	"size": 38676,
+	"md5": "73c698588a969bdea24f673340a6e3f7",
+	"sha256": "d4a8cabce96a828c549d01ad31f6d4d781719961b4f8834ec3f2491c36df4099",
+	"descriptionMd5": "51521383dd1ad0e6878f6c711bbed18a"
+}]

@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tomoyo-tools",
+	"version": "2.6.0-20201111-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.28)",
+		"libncurses6 (>= 6)",
+		"libtinfo6 (>= 6)",
+		"libtomoyotools3 (>= 2.5.0)"
+	],
+	"preDepends": [
+		"debconf"
+	],
+	"replaces": [
+		"tomoyo-ccstools",
+		"tomoyo-ccstools1.7"
+	],
+	"conflicts": [
+		"tomoyo-ccstools",
+		"tomoyo-ccstools1.7"
+	],
+	"installedSize": 615,
+	"maintainer": "Hideki Yamane <henrich@debian.org>",
+	"description": "lightweight Linux Mandatory Access Control system",
+	"homepage": "https://tomoyo.osdn.jp/",
+	"filename": "pool/main/t/tomoyo-tools/tomoyo-tools_2.6.0-20201111-1_amd64.deb",
+	"size": 148708,
+	"md5": "d5d509b856de2c5f490a275ca80705c1",
+	"sha256": "0f0579f39c950b150cc240d549d7b6281d419391ef7e453f9dc0a648b1bb4c7b",
+	"descriptionMd5": "71f15b078b6fcce393f30c177dc487ce"
+}

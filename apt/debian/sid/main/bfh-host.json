@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bfh-host",
+	"source": "bfh-metapackages",
+	"version": "20211009-32",
+	"section": "metapackages",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bfh-base-system",
+		"cryptsetup-bin",
+		"keyutils",
+		"firmware-linux-free",
+		"spectre-meltdown-checker",
+		"consolation",
+		"console-setup",
+		"dmidecode",
+		"ethtool",
+		"hdparm",
+		"nvme-cli",
+		"parted",
+		"smartmontools",
+		"systemd-timesyncd"
+	],
+	"suggests": [
+		"fonts-powerline-extra",
+		"firmware-linux-nonfree",
+		"firmware-misc-nonfree",
+		"firmware-ast",
+		"iucode-tool",
+		"amd64-microcode",
+		"intel-microcode",
+		"supermicro-ipmicfg",
+		"intel-x710-firmware",
+		"intel-e810-firmware"
+	],
+	"enhances": [
+		"bfh-base-system"
+	],
+	"installedSize": 12,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "BFH - Host Metapackage",
+	"homepage": "https://bfh.science",
+	"filename": "pool/main/b/bfh-metapackages/bfh-host_20211009-32_amd64.deb",
+	"size": 4936,
+	"md5": "4206ddcdc1a74abd5e20fbef2e479a1c",
+	"sha256": "58e5fe39683b906cfa7fc427e8d448daf858a178fa66c1957d4fe54cf7be5580",
+	"descriptionMd5": "b01e9a078303ede3587adcb3da110d29"
+}

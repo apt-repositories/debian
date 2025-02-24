@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpgv",
+	"source": "gnupg2",
+	"version": "2.2.40-1.1",
+	"section": "utils",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.34)",
+		"libgcrypt20 (>= 1.10.0)",
+		"libgpg-error0 (>= 1.42)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnupg"
+	],
+	"replaces": [
+		"gnupg2 (<< 2.0.21-2)",
+		"gpgv2 (<< 2.1.11-7+exp1)"
+	],
+	"breaks": [
+		"gnupg2 (<< 2.0.21-2)",
+		"gpgv2 (<< 2.1.11-7+exp1)",
+		"python-debian (<< 0.1.29)"
+	],
+	"installedSize": 917,
+	"maintainer": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
+	"description": "GNU privacy guard - signature verification tool",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/gpgv_2.2.40-1.1_amd64.deb",
+	"size": 648396,
+	"md5": "84afede6a5bf5a70b06ed81291596c3d",
+	"sha256": "0a43a9785f32d517a967d99e00d8e0a69edc0be09d4e63a08d7fd64466a11a0f",
+	"descriptionMd5": "4ea8f4f4d6a0a387a4a3aeba3e6cc888"
+}

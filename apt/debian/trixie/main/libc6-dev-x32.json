@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6-dev-x32",
+	"source": "glibc",
+	"version": "2.40-7",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6-x32 (= 2.40-7)",
+		"libc6-dev-i386 (= 2.40-7)",
+		"libc6-dev (= 2.40-7)"
+	],
+	"recommends": [
+		"gcc-multilib"
+	],
+	"conflicts": [
+		"libc6-dev-amd64",
+		"libc6-dev-i386:x32",
+		"libc6-dev-mips32",
+		"libc6-dev-mips64",
+		"libc6-dev-mipsn32",
+		"libc6-dev-powerpc",
+		"libc6-dev-ppc64",
+		"libc6-dev-s390",
+		"libc6-dev-sparc",
+		"libc6-dev-sparc64",
+		"libc6-dev-x32:i386"
+	],
+	"installedSize": 7840,
+	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
+	"description": "GNU C Library: X32 ABI Development Libraries for AMD64",
+	"homepage": "https://www.gnu.org/software/libc/libc.html",
+	"filename": "pool/main/g/glibc/libc6-dev-x32_2.40-7_amd64.deb",
+	"size": 1566020,
+	"md5": "1e2d9b90923c2a32781d4bebb0eb0283",
+	"sha256": "7b3a7fb80905268f756b224e6c332a3a550ee3483bccf24930d51ac1cd3b48ee",
+	"descriptionMd5": "0859bbe63e876c4ed2ca05543b5d535f"
+}

@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-trove-dashboard",
+	"source": "trove-dashboard",
+	"version": "23.0.0-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"openstack-dashboard (>= 3:23.3.0)",
+		"python3-django",
+		"python3-oslo.log",
+		"python3-pbr",
+		"python3-swiftclient",
+		"python3-troveclient",
+		"python3-django-horizon",
+		"python3:any"
+	],
+	"breaks": [
+		"python3-django-horizon (<< 3:19.2.0-2~)"
+	],
+	"installedSize": 570,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "Database as a Service for OpenStack - dashboard plugin",
+	"homepage": "https://opendev.org/openstack/trove-dashboard",
+	"filename": "pool/main/t/trove-dashboard/python3-trove-dashboard_23.0.0-2_all.deb",
+	"size": 62616,
+	"md5": "4dbaeb895b433d4c6c58842769ba45cd",
+	"sha256": "8cede05be96f1dcc2b1fbde34e22315ab8f64a3f780146b25d9795468daa8e15",
+	"descriptionMd5": "9da4f1d68607c9ca5c59c75e80e86c64"
+}

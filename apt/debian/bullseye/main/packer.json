@@ -1,0 +1,31 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "packer",
+	"source": "packer (1.6.6+ds1-2)",
+	"version": "1.6.6+ds1-2+b3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)"
+	],
+	"suggests": [
+		"ansible",
+		"docker.io",
+		"qemu-system"
+	],
+	"installedSize": 104255,
+	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
+	"description": "tool for creating machine images for multiple platforms",
+	"homepage": "https://www.packer.io/",
+	"builtUsing": "golang-1.15 (= 1.15.9-6), golang-github-agext-levenshtein (= 1.2.3-1), golang-github-aliyun-aliyun-oss-go-sdk (= 1.5.0+dfsg1-2), golang-github-apparentlymart-go-cidr (= 1.1.0-1), golang-github-apparentlymart-go-textseg (= 12.0.0-1), golang-github-armon-go-metrics (= 0.3.4-1), golang-github-armon-go-radix (= 1.0.0-1), golang-github-aws-aws-sdk-go (= 1.36.33-1), golang-github-azure-azure-sdk-for-go (= 43.3.0-1), golang-github-azure-go-autorest (= 14.1.1-1), golang-github-azure-go-ntlmssp (= 0.0~git20200615.6637195-1), golang-github-badgerodon-collections (= 0.0~git20130729.604e922-3), golang-github-bgentry-go-netrc (= 0.0~git20140422.9fd32a8-1), golang-github-bgentry-speakeasy (= 0.1.0-2), golang-github-biogo-hts (= 1.1.0+dfsg1-2), golang-github-bmatcuk-doublestar (= 2.0.4-1), golang-github-christrenkamp-goxpath (= 1.0~alpha3+git20170922.c385f95-1), golang-github-chzyer-readline (= 1.4.39.g2972be2-1), golang-github-dgrijalva-jwt-go (= 3.2.0-3), golang-github-digitalocean-go-qemu (= 0.0~git20200529.1b453d0-2), golang-github-digitalocean-godo (= 1.37.0-1), golang-github-dimchansky-utfbom (= 1.1.1-1), golang-github-dylanmei-iso8601 (= 0.1.0-6), golang-github-fatih-color (= 1.7.0-1), golang-github-gobwas-glob (= 0.2.3+git20180208.19c076c-2), golang-github-gofrs-flock (= 0.8.0-1), golang-github-gofrs-uuid (= 3.2.0-2), golang-github-golang-groupcache (= 0.0~git20200121.8c9f03a-1), golang-github-golang-snappy (= 0.0.2-2), golang-github-google-go-cmp (= 0.5.4-1), golang-github-google-go-querystring (= 1.0.0-1), golang-github-google-shlex (= 0.0~git20191202.e7afc7f-1), golang-github-google-uuid (= 1.2.0-1), golang-github-googleapis-gax-go (= 2.0.5-1), golang-github-gophercloud-gophercloud (= 0.12.0-1), golang-github-gophercloud-utils (= 0.0~git20200508.b0167b9-2), golang-github-hashicorp-errwrap (= 1.1.0-1), golang-github-hashicorp-go-checkpoint (= 0.5.0-1), golang-github-hashicorp-go-cleanhttp (= 0.5.2-1), golang-github-hashicorp-go-hclog (= 0.11.0-1), golang-github-hashicorp-go-immutable-radix (= 1.3.0-1), golang-github-hashicorp-go-multierror (= 1.1.0-1), golang-github-hashicorp-go-retryablehttp (= 0.6.4-2), golang-github-hashicorp-go-rootcerts (= 1.0.2-2), golang-github-hashicorp-go-safetemp (= 1.0.0-2), golang-github-hashicorp-go-sockaddr (= 0.0~git20170627.41949a1+ds-2), golang-github-hashicorp-go-uuid (= 1.0.2-1), golang-github-hashicorp-go-version (= 1.2.0-1), golang-github-hashicorp-golang-lru (= 0.5.4-2), golang-github-hashicorp-serf (= 0.9.4~ds1-1), golang-github-hashicorp-yamux (= 0.0+git20190923.df201c7-1), golang-github-hetznercloud-hcloud-go (= 1.17.0-1), golang-github-jmespath-go-jmespath (= 0.4.0-1), golang-github-json-iterator-go (= 1.1.10-2), golang-github-klauspost-compress (= 1.11.7-2), golang-github-klauspost-pgzip (= 1.2.5-1), golang-github-kr-fs (= 0.1.0-1), golang-github-masterzen-simplexml (= 0.0~git20190410.31eea30-1), golang-github-masterzen-winrm (= 0.0~git20200615.c42b513-1), golang-github-mattn-go-colorable (= 0.1.7-1), golang-github-mattn-go-isatty (= 0.0.12-1), golang-github-mattn-go-runewidth (= 0.0.9-1), golang-github-mattn-go-tty (= 0.0.3-2), golang-github-mitchellh-cli (= 1.1.1-1), golang-github-mitchellh-go-fs (= 0.0~git20180402.b7b9ca4-1), golang-github-mitchellh-go-homedir (= 1.1.0-1), golang-github-mitchellh-go-testing-interface (= 1.14.1-1), golang-github-mitchellh-go-vnc (= 0.0~git20150629.723ed98-1), golang-github-mitchellh-go-wordwrap (= 1.0.1-1), golang-github-mitchellh-iochan (= 1.0.0-1), golang-github-mitchellh-mapstructure (= 1.3.3-1), golang-github-mitchellh-panicwrap (= 0.0~git20191104.b3f3dc3-1), golang-github-mitchellh-prefixedio (= 0.0~git20190213.5733675-1), golang-github-mitchellh-reflectwalk (= 1.0.1-1), golang-github-modern-go-concurrent (= 1.0.3-1.1), golang-github-modern-go-reflect2 (= 1.0.1-1), golang-github-olekukonko-tablewriter (= 0.0.4-1), golang-github-pierrec-lz4 (= 2.5.2-1), golang-github-pkg-errors (= 0.9.1-1), golang-github-pkg-sftp (= 1.10.1-1), golang-github-posener-complete (= 1.2.3-2), golang-github-ryanuber-go-glob (= 1.0.0-2), golang-github-satori-go.uuid (= 1.2.0-2), golang-github-shirou-gopsutil (= 2.19.11-4), golang-github-ugorji-go-codec (= 1.1.7-2), golang-github-ulikunitz-xz (= 0.5.6-2), golang-github-vmware-govmomi (= 0.23.0-1), golang-github-xanzy-go-cloudstack (= 2.9.0-1), golang-github-zclconf-go-cty (= 1.5.1-1), golang-github-zclconf-go-cty-yaml (= 1.0.2-2), golang-go.crypto (= 1:0.0~git20201221.eec23a3-1), golang-go.opencensus (= 0.22.4-2), golang-golang-x-net (= 1:0.0+git20210119.5f4716e+dfsg-4), golang-golang-x-oauth2 (= 0.0~git20190604.0f29369-2), golang-golang-x-sync (= 0.0~git20210220.036812b-1), golang-golang-x-sys (= 0.0~git20210124.22da62e-1), golang-golang-x-term (= 0.0~git20201210.2321bbc-1), golang-golang-x-text (= 0.3.6-1), golang-golang-x-time (= 0.0+git20200630.3af7569-1), golang-google-api (= 0.28.0-2), golang-google-cloud (= 0.56.0-1), golang-google-genproto (= 0.0~git20200413.b5235f6-1), golang-google-grpc (= 1.27.1-1), golang-gopkg-cheggaaa-pb.v1 (= 1.0.25-1), golang-gopkg-ini.v1 (= 1.57.0-1), golang-gopkg-square-go-jose.v2 (= 2.5.1-2), golang-goprotobuf (= 1.3.4-2), golang-yaml.v2 (= 2.4.0-1), winrmcp (= 0.0~git20180921.c76d91c-1)",
+	"filename": "pool/main/p/packer/packer_1.6.6+ds1-2+b3_amd64.deb",
+	"size": 16735548,
+	"md5": "fb2af36dd5e4681f4524ef1b0de85c79",
+	"sha256": "ccef089330d55aba11920054902148fe31f8a2dd6fdc9a6daa8d57d95a5c0b43",
+	"descriptionMd5": "ffeec1df4bb7d2193e9c0c34c90da994"
+}

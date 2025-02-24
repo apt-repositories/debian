@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-ironic",
+	"source": "nova",
+	"version": "2:22.0.1-2+deb11u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dpkg-dev",
+		"nova-common",
+		"nova-compute",
+		"python3-ironicclient (>= 3.0.0)",
+		"python3-libvirt"
+	],
+	"recommends": [
+		"guestmount"
+	],
+	"replaces": [
+		"nova-compute-uml"
+	],
+	"breaks": [
+		"nova-compute-uml"
+	],
+	"conflicts": [
+		"nova-baremetal",
+		"nova-compute-kvm",
+		"nova-compute-lxc",
+		"nova-compute-qemu",
+		"nova-compute-uml",
+		"nova-compute-xen"
+	],
+	"installedSize": 37,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - compute node (Ironic)",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/main/n/nova/nova-compute-ironic_22.0.1-2+deb11u1_all.deb",
+	"size": 25508,
+	"md5": "60d14f412c9229b3728c59f01b59fb76",
+	"sha256": "3c14f113e623e2ff4b515e60c31ac86d4fc5c7e1c6aaeb4288abc88779b666be",
+	"descriptionMd5": "5831d0390e765e41a636fe4f9697285d"
+}

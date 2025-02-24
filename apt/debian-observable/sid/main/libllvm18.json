@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libllvm18",
+	"source": "llvm-toolchain-18",
+	"version": "1:18.1.8-16",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libffi8 (>= 3.4)",
+		"libgcc-s1 (>= 3.3)",
+		"libstdc++6 (>= 12)",
+		"libtinfo6 (>= 6)",
+		"libxml2 (>= 2.7.4)",
+		"libz3-4 (>= 4.13.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"llvm-18-dev (<< 1:18.1.8-8)"
+	],
+	"breaks": [
+		"llvm-18-dev (<< 1:18.1.8-8)"
+	],
+	"installedSize": 121324,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Modular compiler and toolchain technologies, runtime library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-18/libllvm18_18.1.8-16_amd64.deb",
+	"size": 24986756,
+	"md5": "7aa4ba276f747a9d4996b0ff90443424",
+	"sha256": "c5a72c2d8865e101066180bbf335b8f7b38eb6ceb4a8ab1e3d26ae7c2dc41ecd",
+	"descriptionMd5": "a8854f4edf76a8c14ce34dc209bd1d11"
+}]

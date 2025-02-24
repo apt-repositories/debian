@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclang-rt-14-dev",
+	"source": "llvm-toolchain-14",
+	"version": "1:14.0.6-12",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lib32gcc-s1 (>= 3.0)",
+		"lib32stdc++6 (>= 4.1.1)",
+		"libc6 (>= 2.34)",
+		"libc6-i386 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 4.1.1)"
+	],
+	"replaces": [
+		"libclang-common-14-dev (<< 1:14.0.6-10~exp4)"
+	],
+	"breaks": [
+		"libclang-common-14-dev (<< 1:14.0.6-10~exp4)"
+	],
+	"installedSize": 43007,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Compiler-rt - development package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-14/libclang-rt-14-dev_14.0.6-12_amd64.deb",
+	"size": 3274760,
+	"md5": "c864ea076836e7ab61832485a2b0fb97",
+	"sha256": "180c4d27fdc912e2e5de21f383aff07d27e1745c34591a41e4d12ff70be54764",
+	"descriptionMd5": "2aaff3e893bfd063ceaf38e310dc3055"
+}

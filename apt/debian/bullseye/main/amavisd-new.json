@@ -1,0 +1,83 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amavisd-new",
+	"version": "1:2.11.1-5+deb11u1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser (>= 3.34)",
+		"debconf | debconf-2.0",
+		"file",
+		"libarchive-tar-perl",
+		"libarchive-zip-perl (>= 1.14)",
+		"libberkeleydb-perl",
+		"libconvert-tnef-perl (>= 0.06)",
+		"libconvert-uulib-perl (>= 1.0.5)",
+		"libdigest-md5-perl",
+		"libio-stringy-perl",
+		"libmail-dkim-perl",
+		"libmailtools-perl (>= 1.58)",
+		"libmime-base64-perl",
+		"libmime-tools-perl",
+		"libnet-libidn-perl",
+		"libnet-server-perl",
+		"libtime-hires-perl",
+		"libunix-syslog-perl",
+		"libnet-snmp-perl",
+		"pax",
+		"perl (>= 5.10.1) | libcompress-raw-zlib-perl (>= 2.017)",
+		"lsb-base (>= 3.0-6)",
+		"perl:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"altermime",
+		"libnet-patricia-perl",
+		"ripole"
+	],
+	"suggests": [
+		"apt-listchanges (>= 2.35)",
+		"arj",
+		"cabextract",
+		"clamav",
+		"clamav-daemon",
+		"cpio",
+		"dspam",
+		"lhasa",
+		"libauthen-sasl-perl",
+		"libdbi-perl (>= 1.43)",
+		"libmail-dkim-perl (>= 0.31)",
+		"libnet-ldap-perl (>= 1:0.32)",
+		"libsnmp-perl",
+		"libzeromq-perl",
+		"lzop",
+		"nomarch",
+		"p7zip",
+		"rpm",
+		"spamassassin (>= 3.1.0a)",
+		"unrar"
+	],
+	"replaces": [
+		"amavis"
+	],
+	"conflicts": [
+		"amavis",
+		"logcheck (<= 1.2.62)"
+	],
+	"installedSize": 2793,
+	"maintainer": "Brian May <bam@debian.org>",
+	"description": "Interface between MTA and virus scanner/content filters",
+	"homepage": "https://www.ijs.si/software/amavisd/",
+	"filename": "pool/main/a/amavisd-new/amavisd-new_2.11.1-5+deb11u1_all.deb",
+	"size": 938204,
+	"md5": "3b47f257c2d3358936dc0d0a83b50f5f",
+	"sha256": "83fcd0da5c9cc8cd9a3a1e183e10ad93bf9cdf6d6aad0b155aa52ff9a18dc6e4",
+	"descriptionMd5": "d95fd9c270e69763b2674a7c7629b731"
+}

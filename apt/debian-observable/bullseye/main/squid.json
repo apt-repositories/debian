@@ -1,0 +1,69 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "squid",
+	"version": "4.13-10+deb11u3",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libdb5.3",
+		"libecap3 (>= 1.0.1)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc-s1 (>= 3.0)",
+		"libgnutls30 (>= 3.7.0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.10+dfsg~)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libltdl7 (>= 2.4.6)",
+		"libnetfilter-conntrack3 (>= 1.0.1)",
+		"libnettle8",
+		"libnsl2 (>= 1.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsasl2-2 (>= 2.1.27+dfsg)",
+		"libstdc++6 (>= 9)",
+		"libsystemd0",
+		"libxml2 (>= 2.7.4)",
+		"netbase",
+		"logrotate (>= 3.5.4-1)",
+		"squid-common (>= 4.13-10+deb11u3)",
+		"lsb-base",
+		"libdbi-perl"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"adduser"
+	],
+	"recommends": [
+		"libcap2-bin",
+		"ca-certificates"
+	],
+	"suggests": [
+		"squidclient",
+		"squid-cgi",
+		"squid-purge",
+		"resolvconf (>= 0.40)",
+		"smbclient",
+		"ufw",
+		"winbind",
+		"apparmor"
+	],
+	"conflicts": [
+		"squid-openssl"
+	],
+	"installedSize": 8398,
+	"maintainer": "Luigi Gangitano <luigi@debian.org>",
+	"description": "Full featured Web Proxy cache (HTTP proxy GnuTLS flavour)",
+	"homepage": "http://www.squid-cache.org",
+	"filename": "pool/updates/main/s/squid/squid_4.13-10+deb11u3_amd64.deb",
+	"size": 2630548,
+	"sha256": "06e9fb278764007a417bb4fbd25482f34140c21807bf04f472fff3d01592d8b6",
+	"descriptionMd5": "b87c39c34d2257909d3430ecc70c8bfb"
+}]

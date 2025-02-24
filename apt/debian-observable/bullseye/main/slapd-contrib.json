@@ -1,0 +1,71 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slapd-contrib",
+	"source": "openldap",
+	"version": "2.5.13+dfsg-2~bpo11+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"slapd (= 2.5.13+dfsg-2~bpo11+1)",
+		"libc6 (>= 2.8)",
+		"libkadm5srv8-heimdal (>= 1.4.0+git20110226)",
+		"libkrb5-26-heimdal (>= 1.4.0+git20110226)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libnettle8"
+	],
+	"replaces": [
+		"slapd-smbk5pwd (<< 2.4.47+dfsg-2~)"
+	],
+	"breaks": [
+		"slapd (<< 2.5.4+dfsg-1~)",
+		"slapd-smbk5pwd (<< 2.4.47+dfsg-2~)"
+	],
+	"installedSize": 224,
+	"maintainer": "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>",
+	"description": "contributed plugins for OpenLDAP slapd",
+	"homepage": "https://www.openldap.org/",
+	"filename": "pool/main/o/openldap/slapd-contrib_2.5.13+dfsg-2~bpo11+1_amd64.deb",
+	"size": 88516,
+	"sha256": "8e4dd2a23c4492262dfce1df3a830c7683b5e5a3f9b156fff65a59db186b3f49",
+	"descriptionMd5": "ff6e572efbbb94ce9953af67807dabd9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slapd-contrib",
+	"source": "openldap",
+	"version": "2.4.57+dfsg-3+deb11u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"slapd (= 2.4.57+dfsg-3+deb11u1)",
+		"libargon2-1 (>= 0~20171227)",
+		"libc6 (>= 2.8)",
+		"libkadm5srv8-heimdal (>= 1.4.0+git20110226)",
+		"libkrb5-26-heimdal (>= 1.4.0+git20110226)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libnettle8"
+	],
+	"replaces": [
+		"slapd-smbk5pwd (<< 2.4.47+dfsg-2~)"
+	],
+	"breaks": [
+		"slapd-smbk5pwd (<< 2.4.47+dfsg-2~)"
+	],
+	"installedSize": 222,
+	"maintainer": "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>",
+	"description": "contributed plugins for OpenLDAP slapd",
+	"homepage": "https://www.openldap.org/",
+	"filename": "pool/updates/main/o/openldap/slapd-contrib_2.4.57+dfsg-3+deb11u1_amd64.deb",
+	"size": 108908,
+	"sha256": "910b1fe315f9f9cf165bb25683686352ec03aeac0c98fcd61f4761a5ad779a41",
+	"descriptionMd5": "ff6e572efbbb94ce9953af67807dabd9"
+}]

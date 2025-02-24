@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "psad",
+	"source": "psad (2.4.6-3)",
+	"version": "2.4.6-3+b1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"perl:any",
+		"libunix-syslog-perl",
+		"iptables",
+		"rsyslog | system-log-daemon",
+		"libnet-ip-perl",
+		"libdate-calc-perl",
+		"libcarp-clan-perl",
+		"whois",
+		"psmisc",
+		"libiptables-parse-perl",
+		"libiptables-chainmgr-perl",
+		"default-mta | mail-transport-agent",
+		"bsd-mailx | mailx | mailutils",
+		"lsb-base",
+		"net-tools",
+		"iproute2"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"fwsnort"
+	],
+	"installedSize": 732,
+	"maintainer": "Thiago Andrade Marques <andrade@debian.org>",
+	"description": "Port Scan Attack Detector",
+	"homepage": "https://www.cipherdyne.org/psad/",
+	"filename": "pool/main/p/psad/psad_2.4.6-3+b1_amd64.deb",
+	"size": 171392,
+	"md5": "cbdec09efbb46e8274a1cd0335fc708c",
+	"sha256": "2a50d4ecb5befa3d1b37da930a09515bdd3996c41fd9d46b1c5166201376eff4",
+	"descriptionMd5": "e3992a132756dd53e418757efcf09239"
+}]

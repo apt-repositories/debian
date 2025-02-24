@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cqrlog",
+	"version": "2.5.2-3",
+	"section": "hamradio",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cqrlog-data (= 2.5.2-3)",
+		"default-mysql-client-core | virtual-mysql-client-core",
+		"default-mysql-server-core | virtual-mysql-server-core",
+		"libhamlib-utils",
+		"libhamlib4",
+		"libmariadb-dev-compat",
+		"libatk1.0-0 (>= 1.12.4)",
+		"libc6 (>= 2.34)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0 (>= 2.12.0)",
+		"libgtk2.0-0 (>= 2.24.0)",
+		"libpango-1.0-0 (>= 1.18.0)",
+		"libx11-6"
+	],
+	"recommends": [
+		"default-mysql-server",
+		"xplanet"
+	],
+	"replaces": [
+		"cqrlog-data (<< 2.5.2-2)"
+	],
+	"breaks": [
+		"cqrlog-data (<< 2.5.2-2)"
+	],
+	"installedSize": 17208,
+	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
+	"description": "Advanced logging program for hamradio operators",
+	"homepage": "https://www.cqrlog.com",
+	"filename": "pool/main/c/cqrlog/cqrlog_2.5.2-3_amd64.deb",
+	"size": 4327560,
+	"md5": "90438632d4661c3dded199c72ddd6f38",
+	"sha256": "3cb4e62dfcc25765d9a2da281f85d18cd93cf465218498ae394e0ec25348fd35",
+	"descriptionMd5": "f7b339209c0e83157276c21068727e49"
+}

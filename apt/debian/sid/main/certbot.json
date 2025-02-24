@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "certbot",
+	"source": "python-certbot",
+	"version": "2.11.0-1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-certbot (= 2.11.0-1)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any"
+	],
+	"suggests": [
+		"python-certbot-doc",
+		"python3-certbot-apache",
+		"python3-certbot-nginx"
+	],
+	"replaces": [
+		"letsencrypt"
+	],
+	"installedSize": 166,
+	"maintainer": "Debian Let's Encrypt <team+letsencrypt@tracker.debian.org>",
+	"description": "automatically configure HTTPS using Let's Encrypt",
+	"homepage": "https://certbot.eff.org/",
+	"filename": "pool/main/p/python-certbot/certbot_2.11.0-1_all.deb",
+	"size": 128360,
+	"md5": "c5ee732ad022a82f5b8ebc335a489ea4",
+	"sha256": "fab4db962a25626afd2ac766c00217a0447db402be6b26d8a5d85f5b4ed2c87e",
+	"descriptionMd5": "deb7e404ce1b150b59379c3f9a73ac1a"
+}

@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-legacy-340xx-kernel-source",
+	"source": "nvidia-graphics-drivers-legacy-340xx",
+	"version": "340.108-3~deb10u1",
+	"section": "non-free/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debhelper (>= 10)",
+		"make:any",
+		"quilt",
+		"xz-utils"
+	],
+	"recommends": [
+		"module-assistant | kernel-package",
+		"nvidia-legacy-340xx-kernel-support"
+	],
+	"suggests": [
+		"nvidia-legacy-340xx-driver (>= 340.108)"
+	],
+	"breaks": [
+		"module-assistant (<< 0.11.6~)"
+	],
+	"installedSize": 3939,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary kernel module source (340xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-340xx/nvidia-legacy-340xx-kernel-source_340.108-3~deb10u1_amd64.deb",
+	"size": 4014292,
+	"md5": "9d1ba71f2262729203e40922cf45660d",
+	"sha256": "f7c9a44b5ecc75ac34151f39d61a3df01840218bfc49333b6026c477591f53dd",
+	"descriptionMd5": "850d8a79461bb098a31ee9e8a208e2fa"
+}]

@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "resolvconf",
+	"version": "1.91+nmu1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"lsb-base",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"enhances": [
+		"dhcpcd",
+		"dnsmasq",
+		"ifupdown",
+		"isc-dhcp-client",
+		"libc6",
+		"network-manager",
+		"nscd",
+		"pdnsd",
+		"ppp",
+		"pump",
+		"udhcpc"
+	],
+	"breaks": [
+		"dhcp3-client (<< 4.1.1-P1-15+squeeze1)",
+		"dnscache-run"
+	],
+	"installedSize": 180,
+	"maintainer": "resolvconf team <team+resolvconf@tracker.debian.org>",
+	"description": "name server information handler",
+	"homepage": "https://salsa.debian.org/debian/resolvconf",
+	"filename": "pool/main/r/resolvconf/resolvconf_1.91+nmu1_all.deb",
+	"size": 55596,
+	"md5": "6f69956a8d42672a98a359926d6ccd38",
+	"sha256": "cad36ecf87013fc45cb1c70214863f23c753ae31102d4c552b7e3c7a17b13387",
+	"descriptionMd5": "e009e7114cd0b15ac6dbe0d813ec9472"
+}]

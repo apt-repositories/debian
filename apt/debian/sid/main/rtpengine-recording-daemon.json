@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rtpengine-recording-daemon",
+	"source": "rtpengine",
+	"version": "12.5.1.22-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nfs-common",
+		"rtpengine-daemon",
+		"libavcodec61 (>= 7:7.1)",
+		"libavfilter10 (>= 7:7.0)",
+		"libavformat61 (>= 7:7.0)",
+		"libavutil59 (>= 7:7.0)",
+		"libbcg729-0 (>= 1.0.0)",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.56.1)",
+		"libglib2.0-0t64 (>= 2.68.0)",
+		"libmariadb3 (>= 3.0.0)",
+		"libopus0 (>= 1.1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libswresample5 (>= 7:7.0)",
+		"libsystemd0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"rtpengine-utils"
+	],
+	"conflicts": [
+		"ngcp-rtpengine-recording-daemon"
+	],
+	"installedSize": 337,
+	"maintainer": "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>",
+	"description": "recording daemon for RTP and media streams",
+	"homepage": "https://github.com/sipwise/rtpengine/",
+	"filename": "pool/main/r/rtpengine/rtpengine-recording-daemon_12.5.1.22-1_amd64.deb",
+	"size": 111892,
+	"md5": "8b7ec8124683d52b20adcf1d094e88b2",
+	"sha256": "4902301957938bbde5098e50247d03ce2edc62ae23d39cdd03e96f21fa3d02b3",
+	"descriptionMd5": "0eb56e8f03cb21f79e12372990b4be8e"
+}

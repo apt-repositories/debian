@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-12-dev-mipsr6el-cross",
+	"source": "gcc-12-cross-mipsen (3+c3)",
+	"version": "12.2.0-14cross5",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base-mipsen (= 12.2.0-14cross5)",
+		"libgcc-s1-mipsr6el-cross (>= 12.2.0-14cross5)",
+		"libgomp1-mipsr6el-cross (>= 12.2.0-14cross5)",
+		"libatomic1-mipsr6el-cross (>= 12.2.0-14cross5)"
+	],
+	"recommends": [
+		"libc6-dev-mipsr6el-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-mipsr6el-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-mipsr6el-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 3010,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.2.0-14)",
+	"filename": "pool/main/g/gcc-12-cross-mipsen/libgcc-12-dev-mipsr6el-cross_12.2.0-14cross5_all.deb",
+	"size": 315240,
+	"md5": "963b86268224e609af6b39d38b6f2ed7",
+	"sha256": "d23c3b24d61e99b411b2621850fb71534f8b76ea0afa1b120e4da319d01e6ddf",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

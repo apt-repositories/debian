@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-efi-ia32-bin",
+	"source": "grub2",
+	"version": "2.12-5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"grub-common (= 2.12-5)",
+		"grub-efi-ia32-unsigned"
+	],
+	"recommends": [
+		"efibootmgr"
+	],
+	"replaces": [
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-efi",
+		"grub-efi-ia32 (<< 1.99-1)",
+		"grub2 (<< 2.12-5)"
+	],
+	"breaks": [
+		"grub-efi-ia32-signed (<< 1+2.12~rc1)"
+	],
+	"installedSize": 2165,
+	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
+	"description": "GRand Unified Bootloader, version 2 (EFI-IA32 modules)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-efi-ia32-bin_2.12-5_amd64.deb",
+	"size": 686524,
+	"md5": "6602df4b76e15088272d1d9615f87313",
+	"sha256": "dc1d6db7494ed05027d372951907a67fd9cd9c18da9012da397bce2ad2d01da2",
+	"descriptionMd5": "72eca32dad838f96ef1c12b3d764e537"
+}

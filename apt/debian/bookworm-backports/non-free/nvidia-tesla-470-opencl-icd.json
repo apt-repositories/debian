@@ -1,0 +1,32 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-470-opencl-icd",
+	"source": "nvidia-graphics-drivers-tesla-470",
+	"version": "470.256.02-5~bpo12+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-opencl-common",
+		"ocl-icd-libopencl1 | nvidia-libopencl1 | libopencl1",
+		"nvidia-tesla-470-alternative (= 470.256.02-5~bpo12+1)",
+		"libnvidia-tesla-470-cuda1 (= 470.256.02-5~bpo12+1)",
+		"libnvidia-tesla-470-compiler (= 470.256.02-5~bpo12+1)",
+		"libc6 (>= 2.34)"
+	],
+	"enhances": [
+		"libopencl1"
+	],
+	"installedSize": 17561,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA OpenCL installable client driver (ICD) (Tesla 470 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-opencl-icd_470.256.02-5~bpo12+1_amd64.deb",
+	"size": 2470912,
+	"sha256": "30a8f7a7b6eb8ee9758c7e568dab6629af74aef34a788b28a698b5d8b0e10081",
+	"descriptionMd5": "67cd14f90708a3b6eb44806bb5529caf"
+}

@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sndfile-tools",
+	"version": "1.5-1",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libcairo2 (>= 1.2.4)",
+		"libfftw3-double3 (>= 3.3.5)",
+		"libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125",
+		"libsamplerate0 (>= 0.1.7)",
+		"libsndfile1 (>= 1.0.20)"
+	],
+	"recommends": [
+		"fonts-dejavu-core"
+	],
+	"replaces": [
+		"samplerate-programs (<< 0.2.0)"
+	],
+	"breaks": [
+		"samplerate-programs (<< 0.2.0)",
+		"sndfile-programs (<< 1.0.21)"
+	],
+	"installedSize": 537,
+	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
+	"description": "Collection of programs for operating on sound files",
+	"homepage": "http://www.mega-nerd.com/libsndfile/tools/",
+	"filename": "pool/main/s/sndfile-tools/sndfile-tools_1.5-1_amd64.deb",
+	"size": 404876,
+	"md5": "08c0a872d269ee8496c4cf1162be73ba",
+	"sha256": "47950de229e16d9590b3e2563b8f57b2e12ade29a13c3b9f0fcbb5427674f0ba",
+	"descriptionMd5": "16dba206ac4f3ea4a79b16d4364fd9d4"
+}]

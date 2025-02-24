@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-4.19.0-21-amd64-unsigned",
+	"source": "linux",
+	"version": "4.19.249-2",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-4.19",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-4.19.0-21-amd64"
+	],
+	"breaks": [
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"xserver-xorg-input-vmmouse (<< 1:13.0.99)"
+	],
+	"conflicts": [
+		"linux-image-4.19.0-21-amd64"
+	],
+	"installedSize": 262453,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 4.19 for 64-bit PCs",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-4.19.0-21-amd64-unsigned_4.19.249-2_amd64.deb",
+	"size": 47494696,
+	"md5": "18328839cf1b350175681985daf6d535",
+	"sha256": "c241d3109862fbf4b526afdc72faee4e06cab0f90743acf4be724fafab10235d",
+	"descriptionMd5": "78854824a86388cd3a925ad45befb033"
+}]

@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pacemaker-cli-utils",
+	"source": "pacemaker",
+	"version": "2.1.8-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"pacemaker | pacemaker-remote",
+		"resource-agents",
+		"libc6 (>= 2.38)",
+		"libcib27t64 (>= 2.1.8~rc4)",
+		"libcrmcommon34t64 (>= 2.1.8)",
+		"libcrmservice28t64 (>= 2.1.4)",
+		"libglib2.0-0t64 (>= 2.40.0)",
+		"liblrmd28t64 (>= 2.1.2)",
+		"libncurses6 (>= 6)",
+		"libpacemaker1t64 (>= 2.1.8~rc1)",
+		"libpe-status28t64 (>= 2.1.7)",
+		"libqb100 (>= 2.0.3)",
+		"libstonithd26t64 (>= 2.1.5)",
+		"libtinfo6 (>= 6)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"replaces": [
+		"cluster-glue (<< 1.0.12-18~)",
+		"pacemaker (<< 2.1.4-1~)"
+	],
+	"breaks": [
+		"cluster-glue (<< 1.0.12-18~)",
+		"pacemaker (<< 2.1.4-1~)"
+	],
+	"installedSize": 741,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "cluster resource manager command line utilities",
+	"homepage": "https://www.clusterlabs.org/",
+	"filename": "pool/main/p/pacemaker/pacemaker-cli-utils_2.1.8-1_amd64.deb",
+	"size": 259496,
+	"md5": "4cdd023dd96e8f10a3ee6f7d5e2a41bb",
+	"sha256": "95fba69a40e4cc4248df2e73a1889c6ffcbdd0a146993befabde46c01f37a937",
+	"descriptionMd5": "031e08b73b20732817b9825a25a7eb56"
+}]

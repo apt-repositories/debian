@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "golang-google-grpc-dev",
+	"source": "golang-google-grpc",
+	"version": "1.33.3-2",
+	"section": "golang",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"golang-github-golang-protobuf-1-3-dev | golang-github-golang-protobuf-1-5-dev",
+		"golang-github-google-go-cmp-dev",
+		"golang-glog-dev | golang-github-golang-glog-dev",
+		"golang-golang-x-net-dev (>= 1:0.0+git20170629)",
+		"golang-golang-x-oauth2-dev",
+		"golang-golang-x-oauth2-google-dev",
+		"golang-golang-x-sys-dev",
+		"golang-google-genproto-dev"
+	],
+	"breaks": [
+		"golang-etcd-server-dev (<< 3.3.25+dfsg-8~)",
+		"golang-google-cloud-dev (<< 0.56.0-2~)"
+	],
+	"installedSize": 3633,
+	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
+	"description": "implementation of gRPC in Go",
+	"homepage": "https://godoc.org/google.golang.org/grpc",
+	"filename": "pool/main/g/golang-google-grpc/golang-google-grpc-dev_1.33.3-2_all.deb",
+	"size": 534992,
+	"md5": "1797cc3fd04130af5b0aeeb39e971f32",
+	"sha256": "d6f918cc84a7186d5bf08d21bd3b210db5fb68b34887dca2ff89d47ca37b8749",
+	"descriptionMd5": "310f3b05d40bb64e3e4e772ee87302ac"
+}]

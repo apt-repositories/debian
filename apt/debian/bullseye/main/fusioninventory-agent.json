@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fusioninventory-agent",
+	"version": "1:2.6-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"ucf",
+		"lsb-base",
+		"libnet-cups-perl",
+		"libnet-ip-perl",
+		"libwww-perl",
+		"libparse-edid-perl",
+		"libproc-daemon-perl",
+		"libuniversal-require-perl",
+		"libfile-which-perl",
+		"libxml-treepp-perl",
+		"libxml-xpath-perl",
+		"libyaml-perl",
+		"libtext-template-perl",
+		"libjson-pp-perl",
+		"pciutils",
+		"pci.ids",
+		"usbutils",
+		"usb.ids",
+		"libhttp-daemon-perl",
+		"libyaml-tiny-perl",
+		"libsocket-getaddrinfo-perl"
+	],
+	"recommends": [
+		"libio-socket-ssl-perl",
+		"dmidecode",
+		"hdparm",
+		"fdisk | util-linux (<< 2.29.2-3~)",
+		"net-tools"
+	],
+	"suggests": [
+		"smartmontools",
+		"read-edid"
+	],
+	"installedSize": 1853,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "hardware and software inventory tool (client)",
+	"homepage": "http://fusioninventory.org/",
+	"filename": "pool/main/f/fusioninventory-agent/fusioninventory-agent_2.6-2_all.deb",
+	"size": 372624,
+	"md5": "cf3aaec0a62beaed751aed55121fdfaf",
+	"sha256": "90c906a32e15343ddec8f3e1388777b42ce2de3f9dd90c3fc38c30917444ec6a",
+	"descriptionMd5": "3809bb6cd3b5308ad770093abffee62f"
+}

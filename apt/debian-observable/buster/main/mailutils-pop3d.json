@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mailutils-pop3d",
+	"source": "mailutils",
+	"version": "1:3.5-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mailutils-common (= 1:3.5-4)",
+		"netbase",
+		"update-inetd",
+		"libc6 (>= 2.14)",
+		"libgnutls30 (>= 3.6.5)",
+		"libgsasl7 (>= 1.1)",
+		"libkyotocabinet16v5 (>= 1.2.76)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libmailutils5",
+		"libpam0g (>= 0.99.7.1)",
+		"libwrap0 (>= 7.6-4~)"
+	],
+	"conflicts": [
+		"pop3-server"
+	],
+	"installedSize": 559,
+	"maintainer": "Jordi Mallach <jordi@debian.org>",
+	"description": "GNU mailutils-based POP3 Daemon",
+	"homepage": "https://www.gnu.org/software/mailutils/",
+	"filename": "pool/main/m/mailutils/mailutils-pop3d_3.5-4_amd64.deb",
+	"size": 479492,
+	"md5": "2815bd9321c9eb5c49f693622a588a21",
+	"sha256": "6b8a8218c819480bba4fa6f621dcb74f3292debcb28f29b3953c285033d8f36b",
+	"descriptionMd5": "ec3da8165eabed2bfc5e9c955e09ea68"
+}]

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-nvidia-tesla-418",
+	"source": "nvidia-graphics-drivers-tesla-418",
+	"version": "418.226.00-6~deb11u2",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-tesla-418-alternative (= 418.226.00-6~deb11u2)",
+		"nvidia-support",
+		"xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
+		"xserver-xorg-core (<< 2:1.20.99)",
+		"libc6 (>= 2.2.5)",
+		"libnvidia-tesla-418-glcore (= 418.226.00-6~deb11u2)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-tesla-418-driver (>= 418.226.00)",
+		"nvidia-tesla-418-vdpau-driver (>= 418.226.00)",
+		"nvidia-tesla-418-kernel-dkms (= 418.226.00-6~deb11u2) | nvidia-tesla-418-kernel-418.226.00",
+		"nvidia-settings-tesla-418"
+	],
+	"suggests": [
+		"nvidia-tesla-418-kernel-dkms (>= 418.226.00) | nvidia-tesla-418-kernel-source (>= 418.226.00)"
+	],
+	"installedSize": 21725,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary Xorg driver (Tesla 418 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-418/xserver-xorg-video-nvidia-tesla-418_418.226.00-6~deb11u2_amd64.deb",
+	"size": 2516264,
+	"md5": "d7c2ff7cc89a38df05e64bbe57c3d50e",
+	"sha256": "515a51903aae80efdb37bd131aadccecc0efbe6038c0c37516ed90aa1fd1fabb",
+	"descriptionMd5": "de1833424ecadc1b0017d198cf3c975c"
+}

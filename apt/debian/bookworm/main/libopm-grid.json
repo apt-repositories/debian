@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libopm-grid",
+	"source": "opm-grid",
+	"version": "2022.10+ds-3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.32)",
+		"libdune-common-2.9.0",
+		"libgcc-s1 (>= 3.0)",
+		"libgomp1 (>= 4.9)",
+		"liblapack3 | liblapack.so.3",
+		"libopenmpi3 (>= 4.1.4)",
+		"libopm-common-2022.10+ds",
+		"libscotch-7.0 (>= 7.0.3)",
+		"libstdc++6 (>= 11)",
+		"libtrilinos-zoltan-13.2 (>= 13.2.0)"
+	],
+	"replaces": [
+		"libopm-grid1"
+	],
+	"installedSize": 806,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "DUNE grid implementations for reservoir simulation -- library",
+	"homepage": "http://opm-project.org",
+	"filename": "pool/main/o/opm-grid/libopm-grid_2022.10+ds-3_amd64.deb",
+	"size": 263560,
+	"md5": "293a13567b6b0aa5563f79f9a58f3729",
+	"sha256": "70cf396c374cd45eb7e62fd1904d74b1ab54ff3333dc5116193c47d1c33538ad",
+	"descriptionMd5": "43e564721b92f6c16ececf703742368f"
+}

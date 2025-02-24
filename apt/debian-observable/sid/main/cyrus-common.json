@@ -1,0 +1,72 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cyrus-common",
+	"source": "cyrus-imapd",
+	"version": "3.10.1-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"db-util",
+		"e2fsprogs",
+		"default-mta | mail-transport-agent",
+		"gawk",
+		"libsasl2-modules",
+		"netbase",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any",
+		"libc6 (>= 2.38)",
+		"libclamav12 (>= 1.2.1)",
+		"libcom-err2 (>= 1.43.9)",
+		"libgcc-s1 (>= 3.0)",
+		"libical3t64 (>= 3.0.17)",
+		"libicu72 (>= 72.1~rc-1~)",
+		"libjansson4 (>= 2.14)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libldap2 (>= 2.6.2)",
+		"libpcre2-posix3 (>= 10.34)",
+		"libpq5",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libsqlite3-0 (>= 3.6.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 5.2)",
+		"libwrap0 (>= 7.6-4~)",
+		"libxapian30 (>= 1.4.19~)",
+		"libxml2 (>= 2.8.0)",
+		"libzephyr4",
+		"zlib1g (>= 1:1.2.6)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"cyrus-imapd | cyrus-pop3d | cyrus-murder | cyrus-nntpd | cyrus-admin | cyrus-caldav"
+	],
+	"suggests": [
+		"apt-listchanges",
+		"cyrus-admin",
+		"cyrus-caldav",
+		"cyrus-clients",
+		"cyrus-doc",
+		"cyrus-imapd",
+		"cyrus-murder",
+		"cyrus-nntpd",
+		"cyrus-pop3d",
+		"cyrus-replication",
+		"sasl2-bin"
+	],
+	"installedSize": 6124,
+	"maintainer": "Debian Cyrus Team <team+cyrus@tracker.debian.org>",
+	"description": "Cyrus mail system - common files",
+	"homepage": "https://www.cyrusimap.org/",
+	"filename": "pool/main/c/cyrus-imapd/cyrus-common_3.10.1-1_amd64.deb",
+	"size": 1477412,
+	"md5": "8d76329c9778b2e202bbda4855387c4f",
+	"sha256": "8829b530bd8c3f216e766047d22b6c9b788d9ca7f5baa2e99887af93221f5ce4",
+	"descriptionMd5": "ce477374fcdec4eb4b04c5e339e4a360"
+}]

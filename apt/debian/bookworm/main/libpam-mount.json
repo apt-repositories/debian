@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-mount",
+	"version": "2.19-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpam-runtime",
+		"libc6 (>= 2.33)",
+		"libcryptsetup12 (>= 2:2.4)",
+		"libhx32 (>= 3.25)",
+		"libmount1 (>= 2.19.1)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3 (>= 3.0.0)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"recommends": [
+		"libpam-mount-bin"
+	],
+	"suggests": [
+		"cifs-utils",
+		"davfs2",
+		"fuse",
+		"lsof",
+		"openssl",
+		"psmisc",
+		"sshfs",
+		"xfsprogs",
+		"hxtools"
+	],
+	"installedSize": 204,
+	"maintainer": "Jochen Sprickerhof <jspricke@debian.org>",
+	"description": "PAM module that can mount volumes for a user session",
+	"homepage": "http://pam-mount.sourceforge.net/",
+	"filename": "pool/main/libp/libpam-mount/libpam-mount_2.19-1_amd64.deb",
+	"size": 79892,
+	"md5": "178506c18f918fd7b4b4719fb253112e",
+	"sha256": "157aec798c52261c038a29d4efd036211fef6f21eb80180926303234aed3217f",
+	"descriptionMd5": "104628c783f5ce09f73179478f9d2431"
+}

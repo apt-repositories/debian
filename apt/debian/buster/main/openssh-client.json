@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssh-client",
+	"source": "openssh",
+	"version": "1:7.9p1-10+deb10u2",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"adduser (>= 3.10)",
+		"dpkg (>= 1.7.0)",
+		"passwd",
+		"libc6 (>= 2.26)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libselinux1 (>= 1.32)",
+		"libssl1.1 (>= 1.1.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"xauth"
+	],
+	"suggests": [
+		"keychain",
+		"libpam-ssh",
+		"monkeysphere",
+		"ssh-askpass"
+	],
+	"replaces": [
+		"ssh",
+		"ssh-krb5"
+	],
+	"conflicts": [
+		"sftp"
+	],
+	"installedSize": 3546,
+	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
+	"description": "secure shell (SSH) client, for secure access to remote machines",
+	"homepage": "http://www.openssh.com/",
+	"filename": "pool/main/o/openssh/openssh-client_7.9p1-10+deb10u2_amd64.deb",
+	"size": 781848,
+	"md5": "600bc4096443c8affac63e01b0f8813d",
+	"sha256": "14b54c6ca62c9fc8c1a9e3d7766d1b7ab5b75f4304d477b246721970d8e4662d",
+	"descriptionMd5": "8cde3280ebad71c16b3e8c661dae6c6d"
+}

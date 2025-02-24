@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libbatik-java",
+	"source": "batik",
+	"version": "1.18+dfsg-2",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"java-wrappers",
+		"libjaxp1.3-java",
+		"libxml-commons-external-java",
+		"libxmlgraphics-commons-java",
+		"librhino-java"
+	],
+	"recommends": [
+		"default-jre-headless | java7-runtime-headless"
+	],
+	"breaks": [
+		"elki (<= 0.6.5)",
+		"libfop-java (<< 2.0)"
+	],
+	"installedSize": 9191,
+	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
+	"description": "xml.apache.org SVG Library",
+	"homepage": "https://xmlgraphics.apache.org/batik/",
+	"filename": "pool/main/b/batik/libbatik-java_1.18+dfsg-2_all.deb",
+	"size": 3940216,
+	"md5": "878f2c90ba021582192f5706131739e2",
+	"sha256": "c21449a8e784dbd4ebb5ce45c9547e119ed8f9cb7a4e5fd45ee5a0e734b28fa6",
+	"descriptionMd5": "7b184faa1b3cf8713ca5674d8a7583ca"
+}

@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++1-11",
+	"source": "llvm-toolchain-11",
+	"version": "1:11.0.1-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libatomic1 (>= 4.8)",
+		"libc++abi1-11 (>= 1:11.0.1)",
+		"libc6 (>= 2.17)"
+	],
+	"suggests": [
+		"clang"
+	],
+	"replaces": [
+		"libc++-x.y"
+	],
+	"breaks": [
+		"libc++1 (<< 44)"
+	],
+	"conflicts": [
+		"libc++-x.y"
+	],
+	"installedSize": 843,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM C++ Standard library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-11/libc++1-11_11.0.1-2_amd64.deb",
+	"size": 239932,
+	"md5": "4d895baf2fc5dc361ca87e7ba8c435d1",
+	"sha256": "413b91fd51a7a8727fff6a53ed8d26a632c8f7a088fe0f18ae30659b56250b78",
+	"descriptionMd5": "3e11b80d657dd5ed05ee027e3cba65ca"
+}]

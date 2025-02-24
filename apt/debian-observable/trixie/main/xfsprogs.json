@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xfsprogs",
+	"version": "6.12.0-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.38)",
+		"libdevmapper1.02.1 (>= 2:1.02.197)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libicu72 (>= 72.1~rc-1~)",
+		"libinih1 (>= 53)",
+		"liburcu8t64 (>= 0.13.0)",
+		"libuuid1 (>= 2.16)",
+		"python3-dbus",
+		"python3:any"
+	],
+	"suggests": [
+		"xfsdump",
+		"acl",
+		"attr",
+		"quota"
+	],
+	"replaces": [
+		"xfsdump (<< 3.0.0)"
+	],
+	"breaks": [
+		"xfsdump (<< 3.0.0)"
+	],
+	"installedSize": 3959,
+	"maintainer": "XFS Development Team <linux-xfs@vger.kernel.org>",
+	"description": "Utilities for managing the XFS filesystem",
+	"homepage": "https://xfs.wiki.kernel.org/",
+	"filename": "pool/main/x/xfsprogs/xfsprogs_6.12.0-1_amd64.deb",
+	"size": 1123616,
+	"md5": "4fae10ea6db0c8e106738ba2f2c94780",
+	"sha256": "315ad6bc2412294fd34b0f494b1e077545438a596da1e1271c787899fdae6436",
+	"descriptionMd5": "11edfc24e752c0542cb7648c8934181f"
+}]

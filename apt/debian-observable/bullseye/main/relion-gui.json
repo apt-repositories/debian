@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "relion-gui",
+	"source": "relion",
+	"version": "3.1.0-4",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openmpi-gcc | openmpi-bin",
+		"relion",
+		"libc6 (>= 2.29)",
+		"libfftw3-double3 (>= 3.3.5)",
+		"libfltk1.3 (>= 1.3.4)",
+		"libgcc-s1 (>= 3.0)",
+		"libgomp1 (>= 4.9)",
+		"libstdc++6 (>= 9)",
+		"libtiff5 (>= 4.0.3)"
+	],
+	"replaces": [
+		"relion-bin",
+		"relion-bin+gui",
+		"relion-bin+mpi",
+		"relion-bin+mpi+gui"
+	],
+	"breaks": [
+		"relion-bin",
+		"relion-bin+gui",
+		"relion-bin+mpi",
+		"relion-bin+mpi+gui"
+	],
+	"conflicts": [
+		"relion-cuda-gui"
+	],
+	"installedSize": 7955,
+	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
+	"description": "parallel toolkit for 3D reconstructions in cryo-electron microscopy",
+	"homepage": "https://www2.mrc-lmb.cam.ac.uk/relion/index.php/Main_Page",
+	"filename": "pool/main/r/relion/relion-gui_3.1.0-4_amd64.deb",
+	"size": 1126444,
+	"md5": "79c7a812a91c5c4dbd44461f64d8d2d7",
+	"sha256": "bd0ff7e7538d68553b9aa5c5055429afa820cf01e6e915e3c1e6e2769dd21386",
+	"descriptionMd5": "c1f36687b4f2c4ed682467bfea9d2c43"
+}]

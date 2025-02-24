@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "glusterfs-common",
+	"source": "glusterfs",
+	"version": "5.5-3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.28)",
+		"libgfapi0",
+		"libgfchangelog0",
+		"libgfdb0",
+		"libgfrpc0",
+		"libgfxdr0",
+		"libglusterfs0",
+		"libibverbs1 (>= 1.1.6)",
+		"libncurses6 (>= 6)",
+		"libpython3.7 (>= 3.7.0)",
+		"librdmacm1 (>= 1.0.15)",
+		"libreadline7 (>= 6.0)",
+		"libsqlite3-0 (>= 3.5.9)",
+		"libssl1.1 (>= 1.1.0)",
+		"libtinfo6 (>= 6)",
+		"libtirpc3 (>= 1.1.4)",
+		"liburcu6 (>= 0.10.0)",
+		"libuuid1 (>= 2.16)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)",
+		"python3:any",
+		"libglusterfs-dev",
+		"python3-prettytable",
+		"python3-requests",
+		"python3-jwt",
+		"attr",
+		"xfsprogs",
+		"e2fsprogs",
+		"psmisc"
+	],
+	"replaces": [
+		"glusterfs-server (<< 3.4.0~qa5)"
+	],
+	"breaks": [
+		"glusterfs-server (<< 3.4.0~qa5)"
+	],
+	"installedSize": 16136,
+	"maintainer": "Patrick Matthäi <pmatthaei@debian.org>",
+	"description": "GlusterFS common libraries and translator modules",
+	"homepage": "https://www.gluster.org/",
+	"filename": "pool/main/g/glusterfs/glusterfs-common_5.5-3_amd64.deb",
+	"size": 5271496,
+	"md5": "4d8fd2b8800b77220054d37e787f71c6",
+	"sha256": "13aaa2f0d1dde2dc8ee6cd173a1efc018ea5e245faf3a5c98e56fc4f7f26ab48",
+	"descriptionMd5": "14fb61656fcb482fb70b2a8d7b3de9e4"
+}

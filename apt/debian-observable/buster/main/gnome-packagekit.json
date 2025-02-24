@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnome-packagekit",
+	"version": "3.30.0-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gnome-packagekit-data (>= 3.30.0-1)",
+		"packagekit (>= 1.0.4)",
+		"dconf-gsettings-backend | gsettings-backend",
+		"libc6 (>= 2.4)",
+		"libglib2.0-0 (>= 2.37.3)",
+		"libgtk-3-0 (>= 3.16.2)",
+		"libpackagekit-glib2-18 (>= 0.9.4)",
+		"libpolkit-gobject-1-0 (>= 0.101)"
+	],
+	"recommends": [
+		"software-properties-gtk"
+	],
+	"replaces": [
+		"gnome-packagekit-session (<< 3.16.0)",
+		"gnome-software-manager (<< 3.6.0-2)"
+	],
+	"breaks": [
+		"gnome-packagekit-session (<< 3.16.0)",
+		"gnome-software-manager (<< 3.6.0-2)",
+		"update-notifier (<< 3.24)"
+	],
+	"installedSize": 622,
+	"maintainer": "Matthias Klumpp <mak@debian.org>",
+	"description": "Graphical distribution neutral package manager for GNOME",
+	"homepage": "https://help.gnome.org/users/gnome-packagekit/stable/",
+	"filename": "pool/main/g/gnome-packagekit/gnome-packagekit_3.30.0-1_amd64.deb",
+	"size": 133772,
+	"md5": "1c76fc6ef66267abb7f7d3e2b016d1ad",
+	"sha256": "93ad55997e1afa19c34813d2f3778ec45ca80f20a05cbf1d1a1fa0813831896e",
+	"descriptionMd5": "bfcc8f9d59fbc2df0d120622c20e75c8"
+}]

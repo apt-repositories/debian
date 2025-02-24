@@ -1,0 +1,58 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ganeti",
+	"version": "3.0.2-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ganeti-3.0 (= 3.0.2-3)",
+		"ganeti-haskell-3.0 (>= 3.0.2-3)",
+		"ganeti-haskell-3.0 (<< 3.0.2-3.1~)",
+		"ganeti-htools-3.0 (>= 3.0.2-3)",
+		"ganeti-htools-3.0 (<< 3.0.2-3.1~)",
+		"adduser",
+		"python3",
+		"lsb-base (>= 3.0-6)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"drbd-utils | drbd8-utils (>= 8.0.7)",
+		"qemu-kvm | xen-system-amd64",
+		"fdisk",
+		"ganeti-instance-debootstrap",
+		"ndisc6"
+	],
+	"suggests": [
+		"ganeti-doc",
+		"blktap-dkms",
+		"molly-guard"
+	],
+	"replaces": [
+		"ganeti-haskell",
+		"ganeti-htools",
+		"ganeti2 (<< 2.7.0-2)"
+	],
+	"breaks": [
+		"ganeti-haskell",
+		"ganeti2 (<< 2.7.0-2)"
+	],
+	"conflicts": [
+		"ganeti-htools"
+	],
+	"installedSize": 401,
+	"maintainer": "Debian Ganeti Team <ganeti@packages.debian.org>",
+	"description": "cluster virtualization manager",
+	"homepage": "http://www.ganeti.org/",
+	"filename": "pool/main/g/ganeti/ganeti_3.0.2-3_all.deb",
+	"size": 96212,
+	"md5": "41ceed97965b43f44cbfca14d24c9e44",
+	"sha256": "5d3bb4bbbf64fc1f0114fa186c53b53d0ae948941bb58fe09cc9a093e430e568",
+	"descriptionMd5": "1cfa82fb400c69ad1e5d141436d47d89"
+}]

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "murano-common",
+	"source": "murano",
+	"version": "1:10.0.0-1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dbconfig-common",
+		"debconf",
+		"python3-murano (= 1:10.0.0-1)",
+		"sqlite3",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any"
+	],
+	"recommends": [
+		"python3-ldap"
+	],
+	"replaces": [
+		"murano-api (<< 1:6.0.0~)",
+		"murano-engine (<< 1:6.0.0~)"
+	],
+	"breaks": [
+		"murano-api (<< 1:6.0.0~)",
+		"murano-engine (<< 1:6.0.0~)"
+	],
+	"installedSize": 308,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "cloud-ready application catalog - common files",
+	"homepage": "https://github.com/openstack/murano",
+	"filename": "pool/main/m/murano/murano-common_10.0.0-1_all.deb",
+	"size": 96812,
+	"md5": "e02ee228925306fe83a7631635c4be63",
+	"sha256": "b2893d8bde3fb8b7855bcac2f146b6d374c1a42aacd424d698321f910bbae0aa",
+	"descriptionMd5": "a77762d02e3eadc0d73cf02aa801f65e"
+}

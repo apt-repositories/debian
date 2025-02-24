@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnfsidmap2",
+	"source": "libnfsidmap",
+	"version": "0.25-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libldap-2.4-2 (>= 2.4.7)"
+	],
+	"replaces": [
+		"nfs-common (<< 1:1.2.2-1)"
+	],
+	"breaks": [
+		"nfs-common (<< 1:1.2.2-1)"
+	],
+	"conflicts": [
+		"libnfsidmap1"
+	],
+	"installedSize": 115,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "NFS idmapping library",
+	"homepage": "http://www.citi.umich.edu/projects/nfsv4/linux/",
+	"filename": "pool/main/libn/libnfsidmap/libnfsidmap2_0.25-6_amd64.deb",
+	"size": 32636,
+	"md5": "05c54adce9e39993420a2c615cbe6eee",
+	"sha256": "e6968343e2601af51ec23dde9ef0fac6d35f9a4278be2e0f2c737d939ae969c5",
+	"descriptionMd5": "856ba2c52c6a37e20e52ec3ea4b76269"
+}]

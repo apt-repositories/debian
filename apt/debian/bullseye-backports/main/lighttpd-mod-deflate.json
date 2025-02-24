@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lighttpd-mod-deflate",
+	"source": "lighttpd",
+	"version": "1.4.69-1~bpo11+1",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lighttpd (= 1.4.69-1~bpo11+1)",
+		"libbrotli1 (>= 0.6.0)",
+		"libc6 (>= 2.14)",
+		"libdeflate0 (>= 1.0)",
+		"libzstd1 (>= 1.4.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"lighttpd (<< 1.4.56~rc7-0+exp2)"
+	],
+	"breaks": [
+		"lighttpd (<< 1.4.56~rc7-0+exp2)"
+	],
+	"installedSize": 47,
+	"maintainer": "Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>",
+	"description": "HTTP response compression module for lighttpd",
+	"homepage": "https://www.lighttpd.net/",
+	"filename": "pool/main/l/lighttpd/lighttpd-mod-deflate_1.4.69-1~bpo11+1_amd64.deb",
+	"size": 12432,
+	"sha256": "5b627310d26dcfe04f576840ae5d38c69244829517c905a844ef5dd0111361bd",
+	"descriptionMd5": "30a8855db36328d73f026c9f2f15ed34"
+}

@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ifupdown",
+	"version": "0.8.35",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"lsb-base",
+		"adduser",
+		"iproute2"
+	],
+	"recommends": [
+		"isc-dhcp-client | dhcp-client"
+	],
+	"suggests": [
+		"ppp",
+		"rdnssd"
+	],
+	"replaces": [
+		"systemd (<< 228-3~)"
+	],
+	"breaks": [
+		"systemd (<< 228-3~)"
+	],
+	"installedSize": 217,
+	"maintainer": "Guus Sliepen <guus@debian.org>",
+	"description": "high level tools to configure network interfaces",
+	"filename": "pool/main/i/ifupdown/ifupdown_0.8.35_amd64.deb",
+	"size": 81524,
+	"md5": "b4f342b3b3fc65bd890003a054cfe11d",
+	"sha256": "f51217a82c022cff99390804dba6698e66923205195744cf6c83023175498e71",
+	"descriptionMd5": "442edbd184a6e1febc9b203604eb38f4"
+}

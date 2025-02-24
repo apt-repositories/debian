@@ -1,0 +1,31 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lib32asan5-x32-cross",
+	"source": "gcc-9-cross-ports (23)",
+	"version": "9.3.0-22cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-9-cross-base-ports (= 9.3.0-22cross1)",
+		"lib32gcc-s1-x32-cross",
+		"libc6-i386-x32-cross (>= 2.31)"
+	],
+	"conflicts": [
+		"libc6-i386 (<< 2.9-22)"
+	],
+	"installedSize": 1698,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "AddressSanitizer -- a fast memory error detector (32bit)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-9 (= 9.3.0-22)",
+	"filename": "pool/main/g/gcc-9-cross-ports/lib32asan5-x32-cross_9.3.0-22cross1_all.deb",
+	"size": 395548,
+	"md5": "4b63debb5cbdbbe589f6596bffd0800b",
+	"sha256": "22e096e145b9d3e715dffbd8db28fffcfacfe8dfa1157bdf21c637735c18bade",
+	"descriptionMd5": "21a3c42c398c2fff43ee9449787256e4"
+}

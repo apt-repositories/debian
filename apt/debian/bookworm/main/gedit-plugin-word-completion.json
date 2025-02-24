@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gedit-plugin-word-completion",
+	"source": "gedit-plugins",
+	"version": "44.1-2",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gedit (>= 44.2)",
+		"libc6 (>= 2.4)",
+		"libglib2.0-0 (>= 2.37.3)",
+		"libgtk-3-0 (>= 3.9.0)",
+		"libgtksourceview-4-0 (>= 2.91.4)",
+		"libpeas-1.0-0 (>= 1.14.1)",
+		"dconf-gsettings-backend | gsettings-backend",
+		"gedit (<< 45~)",
+		"gedit-plugins-common (>= 44.1-2)"
+	],
+	"replaces": [
+		"gedit-plugins (<< 3.22.0-2~)"
+	],
+	"enhances": [
+		"gedit"
+	],
+	"breaks": [
+		"gedit-plugins (<< 3.22.0-2~)"
+	],
+	"installedSize": 212,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "Word Completion plugin for gedit",
+	"homepage": "https://wiki.gnome.org/Apps/Gedit#Plugins",
+	"filename": "pool/main/g/gedit-plugins/gedit-plugin-word-completion_44.1-2_amd64.deb",
+	"size": 24508,
+	"md5": "6d6fa3748b1df4c42beb4e1ca794180c",
+	"sha256": "034e35258f6a15b839482c502457ed9914455f5f4ac83a36812b3dc627f89085",
+	"descriptionMd5": "c2bcd7fa51d6e259a020a55858b690bb"
+}

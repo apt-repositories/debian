@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-470-vdpau-driver",
+	"source": "nvidia-graphics-drivers-tesla-470",
+	"version": "470.256.02-1~deb11u2",
+	"section": "non-free/video",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvdpau1 (>= 0.9)",
+		"nvidia-tesla-470-alternative (= 470.256.02-1~deb11u2)",
+		"libc6 (>= 2.7)",
+		"libx11-6",
+		"libxext6"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-tesla-470-kernel-dkms (= 470.256.02-1~deb11u2) | nvidia-tesla-470-kernel-470.256.02"
+	],
+	"suggests": [
+		"nvidia-tesla-470-kernel-dkms (>= 470.256.02) | nvidia-tesla-470-kernel-source (>= 470.256.02)"
+	],
+	"enhances": [
+		"libvdpau1"
+	],
+	"installedSize": 1135,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "Video Decode and Presentation API for Unix - NVIDIA driver (Tesla 470)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-vdpau-driver_470.256.02-1~deb11u2_amd64.deb",
+	"size": 751200,
+	"md5": "77cee1e67a6bb4a6488b40bf26d5c1e7",
+	"sha256": "52845ce3e16ef9440a9a092d2abaaa0acf8d41601360ffb2a5bf29e599724ff7",
+	"descriptionMd5": "b4b88d625a556a76f040c7b9b573ac1d"
+}

@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpkg-dev",
+	"source": "dpkg",
+	"version": "1.20.10",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libdpkg-perl (= 1.20.10)",
+		"tar (>= 1.28-1)",
+		"bzip2",
+		"xz-utils",
+		"patch (>= 2.7)",
+		"make",
+		"binutils"
+	],
+	"recommends": [
+		"build-essential",
+		"gcc | c-compiler",
+		"fakeroot",
+		"gnupg",
+		"gpgv",
+		"libalgorithm-merge-perl"
+	],
+	"suggests": [
+		"debian-keyring"
+	],
+	"breaks": [
+		"debhelper (<< 10.10.1~)"
+	],
+	"installedSize": 2611,
+	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
+	"description": "Debian package development tools",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/updates/main/d/dpkg/dpkg-dev_1.20.10_all.deb",
+	"size": 2306188,
+	"sha256": "961b47c4c9204163643467516b9dc54f0b48874c1a09da192b01e37ef17c876e",
+	"descriptionMd5": "2eaf4b4a1cef9584869950f3a52106fc"
+}

@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "knot-dnssecutils",
+	"source": "knot",
+	"version": "3.2.6-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libdnssec9 (= 3.2.6-1)",
+		"libknot13 (= 3.2.6-1)",
+		"libzscanner4 (= 3.2.6-1)",
+		"libc6 (>= 2.34)",
+		"liblmdb0 (>= 0.9.7)",
+		"libsystemd0 (>= 221)",
+		"liburcu8 (>= 0.13.0)"
+	],
+	"replaces": [
+		"knot (<< 3.2.0-1)",
+		"knot-dnsutils (<< 3.2.0-1)"
+	],
+	"breaks": [
+		"knot (<< 3.2.0-1)",
+		"knot-dnsutils (<< 3.2.0-1)"
+	],
+	"installedSize": 1252,
+	"maintainer": "knot packagers <knot@packages.debian.org>",
+	"description": "DNSSEC tools provided with Knot DNS (kzonecheck, kzonesign, knsec3hash)",
+	"homepage": "https://www.knot-dns.cz/",
+	"filename": "pool/main/k/knot/knot-dnssecutils_3.2.6-1_amd64.deb",
+	"size": 318100,
+	"md5": "289b58b303a974e36dc657b00353737e",
+	"sha256": "4f11704d724300ec71857d97f05e7d07dea98cf6e75e281e757136a2bfe630b9",
+	"descriptionMd5": "438b6998f4318263fbd1d4036a45b384"
+}

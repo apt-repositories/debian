@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "icinga2-ido-pgsql",
+	"source": "icinga2",
+	"version": "2.12.3-1+deb11u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dbconfig-common",
+		"icinga2-bin (= 2.12.3-1+deb11u1)",
+		"icinga2-common (= 2.12.3-1+deb11u1)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libpq5",
+		"libstdc++6 (>= 4.1.1)"
+	],
+	"recommends": [
+		"postgresql-client"
+	],
+	"suggests": [
+		"postgresql"
+	],
+	"conflicts": [
+		"icinga2-ido-mysql"
+	],
+	"installedSize": 352,
+	"maintainer": "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>",
+	"description": "host and network monitoring system - PostgreSQL support",
+	"homepage": "https://icinga.com",
+	"filename": "pool/updates/main/i/icinga2/icinga2-ido-pgsql_2.12.3-1+deb11u1_amd64.deb",
+	"size": 123716,
+	"sha256": "b917fbc91e11ab0eddf3cc87e416e20c6f01de90db8abaa58c2bf40d87e7c13b",
+	"descriptionMd5": "04211973d12167dab60262ef8ff3138c"
+}

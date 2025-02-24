@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "firmware-b43-installer",
+	"source": "b43-fwcutter",
+	"version": "1:019-8",
+	"section": "contrib/kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"b43-fwcutter (>= 1:019-8)",
+		"pciutils",
+		"bzip2",
+		"ca-certificates",
+		"wget"
+	],
+	"replaces": [
+		"firmware-b43-lpphy-installer (<= 1:015-14)"
+	],
+	"breaks": [
+		"firmware-b43-lpphy-installer (<= 1:015-14)"
+	],
+	"installedSize": 27,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "firmware installer for the b43 driver",
+	"homepage": "https://wireless.wiki.kernel.org/en/users/drivers/b43",
+	"filename": "pool/contrib/b/b43-fwcutter/firmware-b43-installer_019-8_all.deb",
+	"size": 7384,
+	"md5": "e820f3f53b635c290fb6569f580871cc",
+	"sha256": "fa2662276289e51987a16fc9ab0dcd8bcc2afca45c5f9c842b6d5642897566a5",
+	"descriptionMd5": "571d238de28bee9095c3b72db3bada7e"
+}

@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gem2deb-test-runner",
+	"source": "gem2deb",
+	"version": "2.1",
+	"section": "ruby",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"rake",
+		"ruby:any",
+		"ruby-minitest",
+		"ruby-test-unit"
+	],
+	"replaces": [
+		"gem2deb (<< 1.0.2~)"
+	],
+	"breaks": [
+		"gem2deb (<< 1.0.2~)",
+		"ruby-kaminari (<< 1.0.1-5~)",
+		"ruby-mime-types (<< 3.3.1-1~)",
+		"ruby-rails-assets-jquery (<< 3.3.1-2~)"
+	],
+	"installedSize": 55,
+	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "Debian Ruby packaging suite - tool to run tests",
+	"filename": "pool/main/g/gem2deb/gem2deb-test-runner_2.1_amd64.deb",
+	"size": 16944,
+	"md5": "9f7c91797dd0acb889cceb68c9206b2a",
+	"sha256": "eec50a61ffdb608863062fe35a05c8fadead27237e4a79a55eaf658e210f3d99",
+	"descriptionMd5": "2d73a89e49a09feafa108fa3c3236787"
+}]

@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-base",
+	"source": "courier (1.0.16-3)",
+	"version": "1.0.16-3+b6",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"courier-authdaemon",
+		"courier-authlib (>= 0.66.1)",
+		"courier-authlib-userdb",
+		"debconf (>= 0.5) | debconf-2.0",
+		"gnutls-bin",
+		"lsb-base",
+		"sysvinit-utils (>= 2.88dsf-50)",
+		"perl:any",
+		"libc6 (>= 2.34)",
+		"libcourier-unicode4 (>= 2.1.2)",
+		"libgamin0 | libfam0",
+		"libgdbm6 (>= 1.16)",
+		"libgnutls30 (>= 3.7.5)",
+		"libidn12 (>= 1.13)",
+		"libpcre3"
+	],
+	"replaces": [
+		"courier-ssl (<< 0.75.0-1)"
+	],
+	"breaks": [
+		"courier-authdaemon (<< 0.66.4-4~)",
+		"courier-ssl (<< 0.75.0-1)"
+	],
+	"installedSize": 696,
+	"maintainer": "Markus Wanner <markus@bluegap.ch>",
+	"description": "Courier mail server - base system",
+	"homepage": "http://www.courier-mta.org/",
+	"filename": "pool/main/c/courier/courier-base_1.0.16-3+b6_amd64.deb",
+	"size": 279600,
+	"md5": "f7a312a2a95f943844bb1c82bd92e094",
+	"sha256": "68904d149163b8ff8f9590047de73c3d4d4d9cc09f750b55d778e2a094bd1024",
+	"descriptionMd5": "555818a698d6dfec6122cd45f5263ef2"
+}]

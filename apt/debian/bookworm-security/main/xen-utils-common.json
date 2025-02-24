@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xen-utils-common",
+	"source": "xen",
+	"version": "4.17.5+23-ga4e5191dc0-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"sysvinit-utils (>= 3.05-4~) | lsb-base",
+		"udev",
+		"xenstore-utils",
+		"libc6 (>= 2.34)",
+		"libxenhypfs1 (>= 4.17.5+23-ga4e5191dc0)",
+		"libxenstore4 (>= 4.16.0)",
+		"python3:any",
+		"ucf"
+	],
+	"suggests": [
+		"xen-doc"
+	],
+	"installedSize": 665,
+	"maintainer": "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>",
+	"description": "Xen administrative tools - common files",
+	"homepage": "https://xenproject.org/",
+	"filename": "pool/updates/main/x/xen/xen-utils-common_4.17.5+23-ga4e5191dc0-1_amd64.deb",
+	"size": 275916,
+	"sha256": "bf2a607b5eb6e3d05bd74edf7a65db7fd7c235d917c9cb8cfb084ab8effff238",
+	"descriptionMd5": "1f4106fa79ae4eaa3fa5874a33091fc9"
+}

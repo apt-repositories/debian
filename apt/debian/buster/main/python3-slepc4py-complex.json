@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-slepc4py-complex",
+	"source": "slepc4py",
+	"version": "3.10.0-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-petsc4py-complex (>= 3.10)",
+		"python3-petsc4py-complex (<< 3.11)",
+		"python3 (<< 3.8)",
+		"python3 (>= 3.7~)",
+		"python3-numpy (>= 1:1.14.3)",
+		"python3-numpy-abi9",
+		"python3-petsc4py",
+		"python3:any",
+		"libc6 (>= 2.4)",
+		"libopenmpi3",
+		"libpetsc-complex3.10",
+		"libslepc-complex3.10"
+	],
+	"recommends": [
+		"python-slepc4py-docs"
+	],
+	"conflicts": [
+		"python3-slepc4py (<< 3.10)"
+	],
+	"installedSize": 990,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Python 3 bindings for SLEPc libraries (complex numbers)",
+	"homepage": "https://bitbucket.org/slepc/slepc4py",
+	"filename": "pool/main/s/slepc4py/python3-slepc4py-complex_3.10.0-2_amd64.deb",
+	"size": 218700,
+	"md5": "c92bf85f3bf9ecafe81d376ec1496240",
+	"sha256": "e3588069fabe73fbbe7895964c78b6f7d0928fd5d0ada6022110d1ebde314178",
+	"descriptionMd5": "a0053335c1fa2961ab5841048b326ac2"
+}

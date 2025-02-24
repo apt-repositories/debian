@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-proxy-mysql",
+	"source": "zabbix",
+	"version": "1:5.0.45+dfsg-1+deb11u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libcurl3-gnutls (>= 7.28.0)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"libgnutls30 (>= 3.7.0)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libmariadb3 (>= 3.0.0)",
+		"libodbc1 (>= 2.3.1)",
+		"libopenipmi0 (>= 2.0.29)",
+		"libpcre3",
+		"libsnmp40 (>= 5.9+dfsg)",
+		"libssh2-1 (>= 1.0)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.2.0)",
+		"ucf",
+		"fping",
+		"adduser",
+		"lsb-base"
+	],
+	"recommends": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"conflicts": [
+		"zabbix-proxy-pgsql",
+		"zabbix-proxy-sqlite3",
+		"zabbix-server-mysql",
+		"zabbix-server-pgsql"
+	],
+	"installedSize": 4219,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "network monitoring solution - proxy (using MySQL)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/updates/main/z/zabbix/zabbix-proxy-mysql_5.0.45+dfsg-1+deb11u1_amd64.deb",
+	"size": 1314584,
+	"sha256": "e09ab49907d5081e4f807f5c59c115ef56138cd89eaab4db24963ca14be711eb",
+	"descriptionMd5": "d6a8c019aa291e10002c2e08656b469b"
+}

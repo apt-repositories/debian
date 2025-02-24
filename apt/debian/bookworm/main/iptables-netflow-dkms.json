@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "iptables-netflow-dkms",
+	"source": "iptables-netflow",
+	"version": "2.6-4",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms (>= 2.8.4-3~)",
+		"libc6-dev",
+		"libxtables-dev",
+		"pkg-config",
+		"libc6 (>= 2.3.4)"
+	],
+	"recommends": [
+		"iptables"
+	],
+	"suggests": [
+		"irqtop",
+		"nfdump"
+	],
+	"installedSize": 292,
+	"maintainer": "Axel Beckert <abe@debian.org>",
+	"description": "iptables target which generates netflows",
+	"homepage": "https://github.com/aabc/ipt-netflow",
+	"filename": "pool/main/i/iptables-netflow/iptables-netflow-dkms_2.6-4_amd64.deb",
+	"size": 74608,
+	"md5": "b24be3bc80be227b478b38b4b79abd2a",
+	"sha256": "f712e5758d3bf14f98a168840bd2ac3dbd97c64c2826fe016e3f36bc1c36d425",
+	"descriptionMd5": "26669500ed996328e4db0fbdc886db3b"
+}

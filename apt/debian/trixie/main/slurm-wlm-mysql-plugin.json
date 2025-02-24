@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-mysql-plugin",
+	"source": "slurm-wlm",
+	"version": "24.11.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libmariadb3 (>= 3.0.0)",
+		"slurm-wlm-basic-plugins (= 24.11.0-2)"
+	],
+	"replaces": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"breaks": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"installedSize": 626,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Slurm MySQL plugins",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/main/s/slurm-wlm/slurm-wlm-mysql-plugin_24.11.0-2_amd64.deb",
+	"size": 202792,
+	"md5": "91e4665f304fd7a8163622bbac97eb83",
+	"sha256": "b2e62a58711795b7bcb25960a0c28a421f77a994ebba8f35dd1dfb53ce2145f6",
+	"descriptionMd5": "7b151d92ec0cd067c873fe539d0006b1"
+}

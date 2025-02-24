@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xz-utils",
+	"source": "xz-utils (5.6.3-1)",
+	"version": "5.6.3-1+b1",
+	"section": "utils",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"liblzma5 (>= 5.6.2)"
+	],
+	"replaces": [
+		"lzip (<< 1.8~rc2)",
+		"manpages-de (<< 4.17.0-2~bpo11+1)",
+		"manpages-fr (<< 4.17.0-2~bpo11+1)",
+		"xz-lzma"
+	],
+	"breaks": [
+		"lzip (<< 1.8~rc2)",
+		"manpages-de (<< 4.17.0-2~bpo11+1)",
+		"manpages-fr (<< 4.17.0-2~bpo11+1)",
+		"pristine-tar (<< 1.50+nmu1)"
+	],
+	"conflicts": [
+		"lzma (<< 9.22-1)",
+		"xz-lzma"
+	],
+	"installedSize": 1278,
+	"maintainer": "Sebastian Andrzej Siewior <sebastian@breakpoint.cc>",
+	"description": "XZ-format compression utilities",
+	"homepage": "https://tukaani.org/xz/",
+	"filename": "pool/main/x/xz-utils/xz-utils_5.6.3-1+b1_amd64.deb",
+	"size": 541728,
+	"md5": "e55142ee6cee4b7942a659e331c60634",
+	"sha256": "b70ffdedf05e8f40c847360d7a6a1044878bd1619d15f5bc437bdc548ce768be",
+	"descriptionMd5": "ea97a558c8575aebbed2c11cbd20e0f2"
+}

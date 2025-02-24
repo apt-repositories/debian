@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "selinux-policy-src",
+	"source": "refpolicy",
+	"version": "2:2.20250213-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"checkpolicy (>= 3.8)",
+		"gawk",
+		"make",
+		"policycoreutils (>= 3.8)",
+		"policycoreutils-python-utils (>= 3.8)",
+		"python3"
+	],
+	"recommends": [
+		"policycoreutils-dev (>= 3.8)",
+		"setools"
+	],
+	"suggests": [
+		"logcheck",
+		"syslog-summary"
+	],
+	"installedSize": 873,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "Source of the SELinux reference policy for customization",
+	"homepage": "https://github.com/SELinuxProject/refpolicy/releases",
+	"filename": "pool/main/r/refpolicy/selinux-policy-src_2.20250213-1_all.deb",
+	"size": 888516,
+	"md5": "b9139a82c4fe3250a050d336b3e72fec",
+	"sha256": "3c512e1113c6a515700746c603644d976895affc85b44b5f707bbff9cdb6bddb",
+	"descriptionMd5": "c0c4d6c84939c6ae39a399036273ac07"
+}

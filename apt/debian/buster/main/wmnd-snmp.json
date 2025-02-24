@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wmnd-snmp",
+	"source": "wmnd",
+	"version": "0.4.17-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libsnmp30 (>= 5.7.3+dfsg-3~dfsg)",
+		"libx11-6",
+		"libxext6",
+		"libxpm4"
+	],
+	"suggests": [
+		"snmp-mibs-downloader",
+		"trend"
+	],
+	"replaces": [
+		"wmnd"
+	],
+	"conflicts": [
+		"wmnd"
+	],
+	"installedSize": 134,
+	"maintainer": "Robert Luberda <robert@debian.org>",
+	"description": "Dockapp monitoring network interfaces with SNMP support",
+	"homepage": "https://www.thregr.org/~wavexx/software/wmnd/",
+	"filename": "pool/main/w/wmnd/wmnd-snmp_0.4.17-3_amd64.deb",
+	"size": 57304,
+	"md5": "42702eb0574bcce05764b99bcb5ae582",
+	"sha256": "8049f469b3dfa6e6b9d6a0cebfb03c13eaffb4daa9874e5312aba5229f293f11",
+	"descriptionMd5": "83fddd7a13584f8de56c83a436d90103"
+}

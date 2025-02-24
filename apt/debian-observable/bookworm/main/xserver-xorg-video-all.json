@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-all",
+	"source": "xorg",
+	"version": "1:7.7+23",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"xserver-xorg-video-amdgpu",
+		"xserver-xorg-video-ati",
+		"xserver-xorg-video-fbdev",
+		"xserver-xorg-video-nouveau",
+		"xserver-xorg-video-vesa",
+		"xserver-xorg-video-vmware"
+	],
+	"recommends": [
+		"xserver-xorg-video-intel",
+		"xserver-xorg-video-qxl"
+	],
+	"replaces": [
+		"xserver-xorg-driver-all"
+	],
+	"conflicts": [
+		"xserver-xorg-driver-all"
+	],
+	"installedSize": 46,
+	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
+	"description": "X.Org X server -- output driver metapackage",
+	"homepage": "https://www.x.org/",
+	"filename": "pool/main/x/xorg/xserver-xorg-video-all_7.7+23_amd64.deb",
+	"size": 38720,
+	"md5": "772c09d8515eb97c467681a43c5c1d90",
+	"sha256": "efd8e5b25666bb1d445e8f404d2d5393b73d46f00651ce48f2e706e8c84a1beb",
+	"descriptionMd5": "d6c33380f65bba53cd75efae633435bf"
+}]

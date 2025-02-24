@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "galera-arbitrator-3",
+	"source": "galera-3",
+	"version": "25.3.37-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libboost-program-options1.74.0 (>= 1.74.0)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libssl3 (>= 3.0.0)",
+		"libstdc++6 (>= 11)"
+	],
+	"replaces": [
+		"percona-xtradb-cluster-galera-2.x"
+	],
+	"breaks": [
+		"percona-xtradb-cluster-galera-2.x"
+	],
+	"conflicts": [
+		"garbd-2",
+		"garbd2",
+		"percona-xtradb-cluster-garbd-2.x"
+	],
+	"installedSize": 1713,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "Galera arbitrator daemon",
+	"homepage": "http://www.galeracluster.com/",
+	"filename": "pool/main/g/galera-3/galera-arbitrator-3_25.3.37-1_amd64.deb",
+	"size": 573968,
+	"md5": "a9a7b31b567f3823be92ab585881835a",
+	"sha256": "deee3f758154cf375503b3eb2071a3c9f934d484f70a8f867d650bbccba6544f",
+	"descriptionMd5": "20d304fb2749389309a06dc8ad372268"
+}

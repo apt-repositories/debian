@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-fpylll",
+	"source": "fpylll",
+	"version": "0.4.1+ds1-5",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-cysignals-bare | python3-cysignals",
+		"python3-numpy",
+		"python3 (<< 3.8)",
+		"python3 (>= 3.6~)",
+		"python3:any (>= 3.5~)",
+		"libc6 (>= 2.14)",
+		"libfplll5 (>= 5.2.1)",
+		"libgcc1 (>= 1:3.0)",
+		"libgmp10",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"suggests": [
+		"python-fpylll-doc (= 0.4.1+ds1-5)"
+	],
+	"breaks": [
+		"sagemath (<< 8.1~)"
+	],
+	"installedSize": 4328,
+	"maintainer": "Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>",
+	"description": "Python wrapper for LLL-reduction of Euclidean lattices -- Python 3",
+	"homepage": "https://github.com/fplll/fpylll",
+	"filename": "pool/main/f/fpylll/python3-fpylll_0.4.1+ds1-5_amd64.deb",
+	"size": 729888,
+	"md5": "10948419141d2b6420c982fa24eaf194",
+	"sha256": "9c127e4e1ce42ea8f976cadcadaccc12a09caaba56a4f5920c7777b83a144219",
+	"descriptionMd5": "07c0d891c61c6e5a0c48c1c4e549438e"
+}

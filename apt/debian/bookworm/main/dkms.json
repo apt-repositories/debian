@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dkms",
+	"version": "3.0.10-8+deb12u1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"kmod | kldutils",
+		"gcc | c-compiler",
+		"dpkg-dev",
+		"make | build-essential",
+		"patch"
+	],
+	"preDepends": [
+		"lsb-release"
+	],
+	"recommends": [
+		"fakeroot",
+		"sudo",
+		"linux-headers-generic | linux-headers-686-pae | linux-headers-amd64 | linux-headers"
+	],
+	"suggests": [
+		"menu",
+		"e2fsprogs"
+	],
+	"breaks": [
+		"blcr-dkms (<< 0.8.6~b3-1.0)",
+		"blktap-dkms (<< 2.0.93-0.10.0)",
+		"oss4-dkms (<< 4.2-build2020-1~)",
+		"sl-modem-dkms (<< 2.9.11~20110321-16.0)"
+	],
+	"installedSize": 186,
+	"maintainer": "Dynamic Kernel Module System Team <dkms@packages.debian.org>",
+	"description": "Dynamic Kernel Module System (DKMS)",
+	"homepage": "https://github.com/dell/dkms",
+	"filename": "pool/main/d/dkms/dkms_3.0.10-8+deb12u1_all.deb",
+	"size": 48716,
+	"md5": "d7ba143de15d19bd6e723875c385371b",
+	"sha256": "12da620048a926afa72f1f46f3477fb9ad3d2a6b3446da56cc43fe1a413b6944",
+	"descriptionMd5": "232c475017017fa9b762bad26978f5d1"
+}

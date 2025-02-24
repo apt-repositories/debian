@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "guestmount",
+	"source": "libguestfs",
+	"version": "1:1.54.1-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libguestfs0t64 (= 1:1.54.1-1)",
+		"libc6 (>= 2.38)",
+		"libconfig11 (>= 1.7.3)",
+		"libfuse2t64 (>= 2.8)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"replaces": [
+		"libguestfs-tools (<< 1:1.46)"
+	],
+	"breaks": [
+		"libguestfs-tools (<< 1:1.46)"
+	],
+	"installedSize": 130,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "FUSE-based mount utility for guest filesystems",
+	"homepage": "http://libguestfs.org",
+	"filename": "pool/main/libg/libguestfs/guestmount_1.54.1-1_amd64.deb",
+	"size": 62424,
+	"md5": "96dacdeb4797211c4071f4334f65aa61",
+	"sha256": "3b458d06d875e685a0281c05704c32c402ab6451199cd483c29cf1ff3e3aa6f0",
+	"descriptionMd5": "d9ab2ac05b13c3f34584055d28da2275"
+}]

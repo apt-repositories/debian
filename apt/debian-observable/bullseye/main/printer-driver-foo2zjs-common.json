@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "printer-driver-foo2zjs-common",
+	"source": "foo2zjs",
+	"version": "20200505dfsg0-1",
+	"section": "text",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"xz-utils"
+	],
+	"recommends": [
+		"tix",
+		"tk",
+		"printer-driver-foo2zjs (>= 20200505dfsg0-1)"
+	],
+	"replaces": [
+		"foo2zjs (<< 20111023dfsg0-1~)",
+		"printer-driver-foo2zjs (<< 20131225dfsg0-5~)"
+	],
+	"enhances": [
+		"printer-driver-foo2zjs (>= 20200505dfsg0-1)"
+	],
+	"breaks": [
+		"cups (<< 1.5.0-3~)",
+		"foo2zjs (<< 20111023dfsg0-1~)",
+		"printer-driver-foo2zjs (<< 20131225dfsg0-5~)",
+		"udev (<< 136-1)"
+	],
+	"installedSize": 2523,
+	"maintainer": "Debian Printing Team <debian-printing@lists.debian.org>",
+	"description": "printer driver for ZjStream-based printers - common files",
+	"homepage": "http://foo2zjs.rkkda.com/",
+	"filename": "pool/main/f/foo2zjs/printer-driver-foo2zjs-common_20200505dfsg0-1_all.deb",
+	"size": 587976,
+	"md5": "c16de1925c4ca8fa8f6c5d8740f39dd7",
+	"sha256": "9de3db38d855917b3a22ff73f588b7ed99881f2557dec64491da5803a08dcee7",
+	"descriptionMd5": "e621bf30a07e3113278d9cc013b9dc37"
+}]

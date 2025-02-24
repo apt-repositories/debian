@@ -1,0 +1,60 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fwupd",
+	"version": "1.2.14-1~deb10u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libarchive13 (>= 3.0.4)",
+		"libc6 (>= 2.17)",
+		"libefiboot1 (>= 37)",
+		"libefivar1 (>= 37)",
+		"libelf1 (>= 0.142)",
+		"libfwupd2 (>= 1.2.9)",
+		"libgcab-1.0-0 (>= 1.0)",
+		"libglib2.0-0 (>= 2.53.2)",
+		"libgnutls30 (>= 3.6.5)",
+		"libgpg-error0 (>= 1.14)",
+		"libgpgme11 (>= 1.2.0)",
+		"libgudev-1.0-0 (>= 212)",
+		"libgusb2 (>= 0.2.10)",
+		"libjson-glib-1.0-0 (>= 1.2.0)",
+		"libpolkit-gobject-1-0 (>= 0.99)",
+		"libsmbios-c2",
+		"libsoup2.4-1 (>= 2.41.90)",
+		"libsqlite3-0 (>= 3.5.9)",
+		"libxmlb1",
+		"shared-mime-info"
+	],
+	"recommends": [
+		"python3",
+		"bolt",
+		"tpm2-tools",
+		"tpm2-abrmd",
+		"fwupd-signed"
+	],
+	"replaces": [
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"breaks": [
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"installedSize": 9338,
+	"maintainer": "Debian EFI <debian-efi@lists.debian.org>",
+	"description": "Firmware update daemon",
+	"homepage": "https://github.com/hughsie/fwupd",
+	"filename": "pool/main/f/fwupd/fwupd_1.2.14-1~deb10u1_amd64.deb",
+	"size": 2608924,
+	"md5": "afed1d0da12c03b20390fe4688022a54",
+	"sha256": "ccd32bd7e11962e894ce27e1cf25c966f33a2a36f8ed50d4c45d3fc03f682633",
+	"descriptionMd5": "e2a6a4815ade6f8e643ec5c7e24a3e37"
+}

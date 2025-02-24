@@ -1,0 +1,66 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-client-core-10.5",
+	"source": "mariadb-10.5",
+	"version": "1:10.5.26-0+deb11u2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmariadb3 (>= 10.5.4)",
+		"mariadb-common (>= 1:10.5.26-0+deb11u2)",
+		"libc6 (>= 2.28)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libncurses6 (>= 6)",
+		"libssl1.1 (>= 1.1.1)",
+		"libstdc++6 (>= 4.1.1)",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"mariadb-client-10.0",
+		"mariadb-client-core-10.0",
+		"mariadb-client-core-10.1",
+		"mariadb-client-core-10.2",
+		"mariadb-client-core-10.3",
+		"mariadb-client-core-10.4",
+		"mariadb-client-core-5.5",
+		"mysql-client-core-5.5",
+		"mysql-client-core-5.6",
+		"mysql-client-core-5.7",
+		"mysql-client-core-8.0",
+		"virtual-mysql-client-core"
+	],
+	"breaks": [
+		"mariadb-client-10.0",
+		"mariadb-client-core-10.0",
+		"mariadb-client-core-10.1",
+		"mariadb-client-core-10.2",
+		"mariadb-client-core-10.3",
+		"mariadb-client-core-10.4",
+		"mariadb-client-core-5.5",
+		"mysql-client-core-5.5",
+		"mysql-client-core-5.6",
+		"mysql-client-core-5.7",
+		"mysql-client-core-8.0"
+	],
+	"conflicts": [
+		"mysql-client-5.5",
+		"mysql-client-5.6",
+		"mysql-client-5.7",
+		"mysql-client-8.0",
+		"virtual-mysql-client-core"
+	],
+	"installedSize": 8006,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "MariaDB database core client binaries",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/updates/main/m/mariadb-10.5/mariadb-client-core-10.5_10.5.26-0+deb11u2_amd64.deb",
+	"size": 785984,
+	"sha256": "bdd1bde0c7ee9082b50c2defe124f781b9933b02eeaa402c61006812bce78f92",
+	"descriptionMd5": "2862a38a5ead2e1df7366bf661e03278"
+}

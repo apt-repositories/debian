@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nslcd",
+	"source": "nss-pam-ldapd",
+	"version": "0.9.10-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libgssapi-krb5-2 (>= 1.6.dfsg.2)",
+		"libldap-2.4-2 (>= 2.4.15)",
+		"adduser",
+		"lsb-base (>= 3.0-6)",
+		"ca-certificates"
+	],
+	"preDepends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"nscd",
+		"libnss-ldapd | libnss-ldap",
+		"libpam-ldapd | libpam-ldap | libpam-krb5 | libpam-heimdal | libpam-sss",
+		"nslcd-utils",
+		"ldap-utils",
+		"bind9-host | host"
+	],
+	"suggests": [
+		"kstart"
+	],
+	"replaces": [
+		"libnss-ldapd (<< 0.7.0)",
+		"nslcd-2"
+	],
+	"breaks": [
+		"libnss-ldapd (<< 0.9.0)",
+		"libpam-ldapd (<< 0.9.0)"
+	],
+	"conflicts": [
+		"nslcd-2"
+	],
+	"installedSize": 426,
+	"maintainer": "Arthur de Jong <adejong@debian.org>",
+	"description": "daemon for NSS and PAM lookups using LDAP",
+	"homepage": "https://arthurdejong.org/nss-pam-ldapd/",
+	"filename": "pool/main/n/nss-pam-ldapd/nslcd_0.9.10-2_amd64.deb",
+	"size": 193440,
+	"md5": "19bfabfc5a733170d9a9102c9b282931",
+	"sha256": "e44fb90fe347ad9d455cc07410a529ca9ce290523d50630b271c4ae4ef408a62",
+	"descriptionMd5": "9d9eb0997c3878afcc05d90074bb2d97"
+}

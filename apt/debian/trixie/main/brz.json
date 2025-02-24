@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "brz",
+	"source": "breezy",
+	"version": "3.3.9-2",
+	"section": "vcs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-breezy (<= 3.3.9-2.1~)",
+		"python3-breezy (>= 3.3.9-2)",
+		"python3",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.2)",
+		"libpython3.13 (>= 3.13.0~rc3)"
+	],
+	"recommends": [
+		"python3-gpg",
+		"python3-dulwich (>= 0.21.6)"
+	],
+	"suggests": [
+		"brz-doc",
+		"python3-breezy.tests",
+		"python3-fastimport (>= 0.9.8)"
+	],
+	"conflicts": [
+		"bzr (<< 2.7.0+bzr6622-1)",
+		"bzr-git (<< 0.6.13+bzr1650+brz1)",
+		"git-remote-bzr"
+	],
+	"installedSize": 590,
+	"maintainer": "Debian Breezy Maintainers <pkg-bazaar-maint@lists.alioth.debian.org>",
+	"description": "easy to use distributed version control system",
+	"homepage": "https://www.breezy-vcs.org/",
+	"filename": "pool/main/b/breezy/brz_3.3.9-2_amd64.deb",
+	"size": 229016,
+	"md5": "6957a894a68f6e7f7cf2e3df2136dab8",
+	"sha256": "dc91cf94427b636d457bf21c5bdc61b88f588854f10888b75d4918744246e08d",
+	"descriptionMd5": "4daa260c32bc7524a58f92196d3808bc"
+}

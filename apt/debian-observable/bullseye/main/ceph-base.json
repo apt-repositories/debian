@@ -1,0 +1,66 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-base",
+	"source": "ceph",
+	"version": "14.2.21-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils",
+		"ceph-common (= 14.2.21-1)",
+		"cryptsetup-bin | cryptsetup",
+		"gdisk",
+		"hdparm | sdparm",
+		"parted",
+		"uuid-runtime",
+		"xfsprogs",
+		"python3:any",
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.30)",
+		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4",
+		"libleveldb1d",
+		"liblz4-1 (>= 0.0~r130)",
+		"librados2 (>= 12.1.4)",
+		"libsnappy1v5 (>= 1.1.8)",
+		"libssl1.1 (>= 1.1.0)",
+		"libstdc++6 (>= 9)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"ceph-mds (= 14.2.21-1)",
+		"chrony | time-daemon | ntp",
+		"librados2 (= 14.2.21-1)",
+		"librbd1 (= 14.2.21-1)"
+	],
+	"suggests": [
+		"btrfs-tools",
+		"logrotate"
+	],
+	"replaces": [
+		"ceph (<< 12.2.8+dfsg1-1~)",
+		"ceph-common (<< 9.2.0-0~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)",
+		"python-ceph (<< 0.94.1-1~)"
+	],
+	"breaks": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-common (<< 9.2.0-0~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)",
+		"python-ceph (<< 0.94.1-1~)"
+	],
+	"installedSize": 20222,
+	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
+	"description": "common ceph daemon libraries and management tools",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-base_14.2.21-1_amd64.deb",
+	"size": 4060292,
+	"md5": "91955b51dd4e98473ca2975e6a4fdff3",
+	"sha256": "506de3a7bb086cb2ed2eae81abcf3e7028c0bd966fcac0cac122c6d8e26ff838",
+	"descriptionMd5": "38862c56180e1d3d93a838a6386f82bc"
+}]

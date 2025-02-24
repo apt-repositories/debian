@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-powerpc64-linux-gnu",
+	"source": "gcc-defaults-ports (1.220)",
+	"version": "4:14.2.0-1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-powerpc64-linux-gnu (= 4:14.2.0-1)",
+		"gcc-14-powerpc64-linux-gnu (>= 14.2.0-6~)"
+	],
+	"recommends": [
+		"libc6-dev-ppc64-cross | libc-dev-ppc64-cross"
+	],
+	"suggests": [
+		"make",
+		"manpages-dev",
+		"autoconf",
+		"automake",
+		"libtool",
+		"flex",
+		"bison",
+		"gdb-powerpc64-linux-gnu",
+		"gcc-doc"
+	],
+	"replaces": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"breaks": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"installedSize": 23,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler for the ppc64 architecture",
+	"filename": "pool/main/g/gcc-defaults-ports/gcc-powerpc64-linux-gnu_14.2.0-1_amd64.deb",
+	"size": 1456,
+	"md5": "a401d09256483ecaea33726ad00c3761",
+	"sha256": "c39ac96799ff8f9c33fbb73eb80d6660004e8e7cfcec00dc5ca6090c67011c78",
+	"descriptionMd5": "3f3a4a778f1fff5d21b07b98acde1dd2"
+}

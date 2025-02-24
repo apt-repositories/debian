@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mcstrans",
+	"version": "3.1-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.0-6)",
+		"selinux-utils",
+		"libc6 (>= 2.27)",
+		"libcap2 (>= 1:2.10)",
+		"libpcre3",
+		"libselinux1 (>= 3.1)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"policycoreutils (<< 2.4)"
+	],
+	"breaks": [
+		"policycoreutils (<< 2.4)"
+	],
+	"installedSize": 359,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "SELinux core policy utilities (mcstrans utilities)",
+	"homepage": "http://userspace.selinuxproject.org/",
+	"builtUsing": "libsepol (= 3.1-1)",
+	"filename": "pool/main/m/mcstrans/mcstrans_3.1-1_amd64.deb",
+	"size": 128228,
+	"md5": "90e0834c8b57140d2b98e559c39e817d",
+	"sha256": "1e39dbb7c79d55808881a35a76625173b4e3e8a70aa81ca8ec7fde9914819460",
+	"descriptionMd5": "541c06c259030195b77188d8595e2aee"
+}]

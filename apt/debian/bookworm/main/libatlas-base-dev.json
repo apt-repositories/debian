@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libatlas-base-dev",
+	"source": "atlas",
+	"version": "3.10.3-13",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libatlas3-base (= 3.10.3-13)"
+	],
+	"suggests": [
+		"libatlas-doc",
+		"liblapack-doc"
+	],
+	"replaces": [
+		"libatlas-dev (<< 3.10.3-2)",
+		"libcblas-dev"
+	],
+	"breaks": [
+		"libatlas-dev (<< 3.10.3-2)",
+		"libblas-dev (<< 3.7.1-2~)",
+		"liblapack-dev (<< 3.7.1-2~)",
+		"libopenblas-dev (<< 0.2.20+ds-3~)"
+	],
+	"conflicts": [
+		"libcblas-dev"
+	],
+	"installedSize": 23396,
+	"maintainer": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Automatically Tuned Linear Algebra Software, generic static",
+	"homepage": "http://math-atlas.sourceforge.net/",
+	"filename": "pool/main/a/atlas/libatlas-base-dev_3.10.3-13_amd64.deb",
+	"size": 3510280,
+	"md5": "5f80aaf7b5de897101fa43eebddb8aaa",
+	"sha256": "2902ce22c8eae6047c937cc0b1eb5ee398a4cd79e1030b89329734175df8d1e3",
+	"descriptionMd5": "c68474c347d3e3f563b198629969a06c"
+}

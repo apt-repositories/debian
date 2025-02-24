@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "krb5-kdc",
+	"source": "krb5",
+	"version": "1.20.1-2+deb12u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)",
+		"libcom-err2 (>= 1.43.9)",
+		"libgssrpc4 (>= 1.6.dfsg.2)",
+		"libk5crypto3 (>= 1.20)",
+		"libkadm5srv-mit12 (>= 1.18.2)",
+		"libkdb5-10 (>= 1.20.1)",
+		"libkrb5-3 (= 1.20.1-2+deb12u2)",
+		"libkrb5support0 (>= 1.20)",
+		"libverto1 (>= 0.2.4)",
+		"krb5-config",
+		"krb5-user",
+		"lsb-base (>= 3.0-6)",
+		"libverto-libev1 | libverto-libevent1"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"krb5-kpropd",
+		"krb5-admin-server",
+		"krb5-kdc-ldap (= 1.20.1-2+deb12u2)"
+	],
+	"installedSize": 529,
+	"maintainer": "Sam Hartman <hartmans@debian.org>",
+	"description": "MIT Kerberos key server (KDC)",
+	"homepage": "https://web.mit.edu/kerberos/",
+	"filename": "pool/updates/main/k/krb5/krb5-kdc_1.20.1-2+deb12u2_amd64.deb",
+	"size": 180604,
+	"sha256": "e846660f1110bbd970361a5a0d798fcfbc209ea051afe5399b0287095468e6db",
+	"descriptionMd5": "0a143660c97d96b64a9766db9ef769fb"
+}

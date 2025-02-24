@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cron-daemon-common",
+	"source": "cron",
+	"version": "3.0pl1-162",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "all",
+	"depends": [
+		"adduser"
+	],
+	"replaces": [
+		"bcron (<< 0.11-9.1)",
+		"cron (<< 3.0pl1-140)",
+		"cronie (<< 1.6.1-5)",
+		"systemd-cron (<< 1.15.18-1.1)"
+	],
+	"breaks": [
+		"systemd-cron (<< 1.15.19-5~)"
+	],
+	"conflicts": [
+		"bcron (<< 0.11-9.1)",
+		"cron (<< 3.0pl1-140)",
+		"cronie (<< 1.6.1-5)",
+		"systemd-cron (<< 1.15.18-1.1)"
+	],
+	"installedSize": 44,
+	"maintainer": "Javier Fernández-Sanguino Peña <jfs@debian.org>",
+	"description": "process scheduling daemon's configuration files",
+	"homepage": "https://ftp.isc.org/isc/cron/",
+	"filename": "pool/main/c/cron/cron-daemon-common_3.0pl1-162_all.deb",
+	"size": 12660,
+	"md5": "b5d86b4a7b08caf42f6613275059e4bf",
+	"sha256": "0976761a354ce802a2cc6ac02d7585d93ad5fda231c27572d8529a6a62272c7f",
+	"descriptionMd5": "356827341f19f1a10278dd3b9540ab43"
+}]

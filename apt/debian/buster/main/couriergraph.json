@@ -1,0 +1,32 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "couriergraph",
+	"version": "0.25-4.4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libfile-tail-perl",
+		"librrds-perl (>= 1.2)"
+	],
+	"preDepends": [
+		"debconf (>= 1.1) | debconf-2.0"
+	],
+	"recommends": [
+		"apache2 | httpd",
+		"courier-pop",
+		"courier-imap"
+	],
+	"installedSize": 70,
+	"maintainer": "Jose Luis Tallon <jltallon@adv-solutions.net>",
+	"description": "Mail statistics RRDtool frontend for Courier-{POP,IMAP}",
+	"filename": "pool/main/c/couriergraph/couriergraph_0.25-4.4_all.deb",
+	"size": 20200,
+	"md5": "6b8c9325fc7712c6f0dad1e17c65bb10",
+	"sha256": "3203dd1be4949efd86fc62419a9acd5d4e640fa12de9fee3f3acfe1340e1657f",
+	"descriptionMd5": "17d254159a685c52f8ff50b5b56a6ec1"
+}

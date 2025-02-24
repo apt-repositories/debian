@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-legacy-340xx-vdpau-driver",
+	"source": "nvidia-graphics-drivers-legacy-340xx",
+	"version": "340.108-24",
+	"section": "non-free/video",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvdpau1",
+		"nvidia-legacy-340xx-alternative (= 340.108-24)",
+		"libc6 (>= 2.2.5)",
+		"libx11-6",
+		"libxext6"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-legacy-340xx-kernel-dkms (= 340.108-24) | nvidia-legacy-340xx-kernel-340.108"
+	],
+	"suggests": [
+		"nvidia-legacy-340xx-kernel-dkms (>= 340.108) | nvidia-legacy-340xx-kernel-source (>= 340.108)"
+	],
+	"enhances": [
+		"libvdpau1"
+	],
+	"installedSize": 2118,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "Video Decode and Presentation API for Unix - NVIDIA driver (340xx legacy)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-340xx/nvidia-legacy-340xx-vdpau-driver_340.108-24_amd64.deb",
+	"size": 909116,
+	"md5": "625cc5fcdcd47d5db979c0686d8395ec",
+	"sha256": "79674a096b5901ef0d0bb344a3fcac0feb9847037a98515f11b76c65204cb82e",
+	"descriptionMd5": "1ede00b39ad7e4df023171c105420ed9"
+}

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "maven-debian-helper",
+	"version": "2.3.2",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"default-jdk-headless | default-jdk",
+		"libmaven-clean-plugin-java",
+		"libmaven-compiler-plugin-java",
+		"libmaven-jar-plugin-java",
+		"libmaven-resources-plugin-java",
+		"libmaven-site-plugin-java",
+		"libplexus-velocity-java",
+		"libsurefire-java",
+		"libxml2-utils",
+		"maven (>= 3.3)",
+		"maven-repo-helper (>= 1.9)",
+		"unzip",
+		"velocity"
+	],
+	"suggests": [
+		"libmaven-javadoc-plugin-java",
+		"apt-file",
+		"licensecheck",
+		"subversion"
+	],
+	"installedSize": 223,
+	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
+	"description": "Helper tools for building Debian packages with Maven",
+	"homepage": "https://wiki.debian.org/Java/MavenBuilder",
+	"filename": "pool/main/m/maven-debian-helper/maven-debian-helper_2.3.2_all.deb",
+	"size": 121616,
+	"md5": "4304a27b317fb175726a9a64543a9597",
+	"sha256": "d0093464a61f6bd52f0c4fc4b9e275875ec8515f00ed5805d3336a8f958080cf",
+	"descriptionMd5": "1339aa9bab67b5b17d46e9f968b15eef"
+}

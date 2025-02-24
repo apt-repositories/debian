@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lib32go13",
+	"source": "gcc-8",
+	"version": "8.3.0-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-8-base (= 8.3.0-6)",
+		"lib32gcc1 (>= 1:4.2)",
+		"lib32z1 (>= 1:1.1.4)",
+		"libc6-i386 (>= 2.28)"
+	],
+	"replaces": [
+		"lib32go3",
+		"lib32go8"
+	],
+	"conflicts": [
+		"libc6-i386 (<< 2.9-22)"
+	],
+	"installedSize": 36672,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "Runtime library for GNU Go applications (32bit)",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-8/lib32go13_8.3.0-6_amd64.deb",
+	"size": 9359216,
+	"md5": "4952b06f72c0db3a98ddb90c243b401d",
+	"sha256": "c6e89c1a6070a1aa783416d957c95e0df38bc1086fbc7a692623fbbb8b6902f2",
+	"descriptionMd5": "7174520aedfeba49e54b8c36f55b7e95"
+}]

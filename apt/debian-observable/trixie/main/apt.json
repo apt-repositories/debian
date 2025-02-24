@@ -1,0 +1,55 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apt",
+	"version": "2.9.30",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"base-passwd (>= 3.6.1) | adduser",
+		"sqv",
+		"libapt-pkg7.0 (>= 2.9.30)",
+		"debian-archive-keyring",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libseccomp2 (>= 2.4.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"libsystemd0"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"suggests": [
+		"apt-doc",
+		"aptitude | synaptic | wajig",
+		"dpkg-dev (>= 1.17.2)",
+		"gnupg | gnupg2 | gnupg1",
+		"powermgmt-base"
+	],
+	"replaces": [
+		"apt-transport-https (<< 1.5~alpha4~)",
+		"apt-utils (<< 1.3~exp2~)"
+	],
+	"breaks": [
+		"apt-transport-https (<< 1.5~alpha4~)",
+		"apt-utils (<< 1.3~exp2~)",
+		"aptitude (<< 0.8.10)"
+	],
+	"conflicts": [
+		"apt-verify",
+		"libnettle8 (<< 3.9.1-2.2~)"
+	],
+	"installedSize": 4438,
+	"maintainer": "APT Development Team <deity@lists.debian.org>",
+	"description": "commandline package manager",
+	"filename": "pool/main/a/apt/apt_2.9.30_amd64.deb",
+	"size": 1439916,
+	"md5": "b541c85891f55b068af269e3d7a8dc47",
+	"sha256": "208733509db3b29696e797fc2a30c3eafc074859e20c55eb7c97aa033596d824",
+	"descriptionMd5": "6b534aaa75feaadaa911a5a6e81b66b2"
+}]

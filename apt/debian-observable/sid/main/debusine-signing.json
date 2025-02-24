@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debusine-signing",
+	"source": "debusine",
+	"version": "0.8.1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"arch-test",
+		"dbconfig-pgsql | dbconfig-no-thanks",
+		"openssl",
+		"python3-debusine-signing (= 0.8.1)",
+		"python3-gpg",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any (>= 3.11~)"
+	],
+	"recommends": [
+		"devscripts",
+		"sbsigntool"
+	],
+	"installedSize": 63,
+	"maintainer": "Raphaël Hertzog <raphael@freexian.com>",
+	"description": "Signing service for debusine",
+	"homepage": "https://salsa.debian.org/freexian-team/debusine",
+	"filename": "pool/main/d/debusine/debusine-signing_0.8.1_all.deb",
+	"size": 15836,
+	"md5": "effbcdb2ee42c3110e08bf2d2b3c2e71",
+	"sha256": "c8794b81386b07ac0e86408d3eaf4558966b07ec90e81c248078760480f668dc",
+	"descriptionMd5": "bee2fefa28dc3de150b97fe517747bdf"
+}]

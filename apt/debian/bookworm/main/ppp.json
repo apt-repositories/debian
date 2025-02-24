@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ppp",
+	"source": "ppp (2.4.9-1+1.1)",
+	"version": "2.4.9-1+1.1+b1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpam-modules",
+		"libpam-runtime",
+		"procps",
+		"libc6 (>= 2.33)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpcap0.8 (>= 0.9.8)",
+		"libssl3 (>= 3.0.0)",
+		"libsystemd0"
+	],
+	"breaks": [
+		"network-manager (<< 0.9.8.8-7~)",
+		"network-manager-pptp (<< 0.9.8.4-3~)",
+		"pppdcapiplugin (<< 1:3.25+dfsg1-3.4~)"
+	],
+	"installedSize": 1060,
+	"maintainer": "Chris Boot <bootc@debian.org>",
+	"description": "Point-to-Point Protocol (PPP) - daemon",
+	"homepage": "https://ppp.samba.org/",
+	"filename": "pool/main/p/ppp/ppp_2.4.9-1+1.1+b1_amd64.deb",
+	"size": 363880,
+	"md5": "620c778bc227ca7fefb5bbb1ccd393a9",
+	"sha256": "2497f9a22b5cc6bc198cc7a2878b0e013c59fd6c36490b8650e6434d393f7d82",
+	"descriptionMd5": "30c8068bb5c8dc59b8b1cfb452d03c8a"
+}

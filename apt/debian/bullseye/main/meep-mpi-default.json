@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "meep-mpi-default",
+	"version": "1.17.1-2",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"guile-2.2-libs",
+		"libc6 (>= 2.29)",
+		"libctl7 (>= 4.5.0-8)",
+		"libgcc-s1 (>= 3.0)",
+		"libmeep-mpi-default23 (>= 1.17.1)",
+		"libstdc++6 (>= 5)",
+		"mpi-default-bin"
+	],
+	"recommends": [
+		"libopenblas-base | libatlas3-base | libmkl-rt | libblas.so.3"
+	],
+	"conflicts": [
+		"meep",
+		"meep-mpich2",
+		"meep-openmpi"
+	],
+	"installedSize": 1002,
+	"maintainer": "Thorsten Alteholz <debian@alteholz.de>",
+	"description": "software package for FDTD simulation, parallel (OpenMPI) version",
+	"homepage": "https://meep.readthedocs.io",
+	"filename": "pool/main/m/meep-mpi-default/meep-mpi-default_1.17.1-2_amd64.deb",
+	"size": 271104,
+	"md5": "880cf6fb3f467b64670f78618a4b3762",
+	"sha256": "be8c96e212cc8887f329ad3ebce07a7289ca2b8b66761441c166864967415cf8",
+	"descriptionMd5": "ed9af9806c7c51b8737861a73f9913dc"
+}

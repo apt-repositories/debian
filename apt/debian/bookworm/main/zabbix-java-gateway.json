@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-java-gateway",
+	"source": "zabbix",
+	"version": "1:6.0.14+dfsg-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"default-jre-headless | java7-runtime-headless | java8-runtime-headless | java9-runtime-headless | java10-runtime-headless | java11-runtime-headless",
+		"jarwrapper (>= 0.5)",
+		"libandroid-json-java",
+		"liblogback-java",
+		"libslf4j-java",
+		"adduser",
+		"lsb-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 462,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "network monitoring solution - Java gateway",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/main/z/zabbix/zabbix-java-gateway_6.0.14+dfsg-1_all.deb",
+	"size": 421220,
+	"md5": "a002c2ba258bf250872a1c9134294471",
+	"sha256": "8d8b7c37c2b910901cabbf5df6ad4a436ded8fd7d996b5009f144894641a0d8a",
+	"descriptionMd5": "42a49756e8dbedace1379b450d6dc7f7"
+}

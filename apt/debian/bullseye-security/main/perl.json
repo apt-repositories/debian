@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "perl",
+	"version": "5.32.1-4+deb11u4",
+	"section": "perl",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"perl-base (= 5.32.1-4+deb11u4)",
+		"perl-modules-5.32 (>= 5.32.1-4+deb11u4)",
+		"libperl5.32 (= 5.32.1-4+deb11u4)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.17)"
+	],
+	"recommends": [
+		"netbase"
+	],
+	"suggests": [
+		"perl-doc",
+		"libterm-readline-gnu-perl | libterm-readline-perl-perl",
+		"make",
+		"libtap-harness-archive-perl"
+	],
+	"replaces": [
+		"perl-base (<< 5.32.0-2)",
+		"perl-modules (<< 5.22.0~)"
+	],
+	"breaks": [
+		"apt-show-versions (<< 0.22.10)",
+		"libdist-inkt-perl (<< 0.024-5)",
+		"libmarc-charset-perl (<< 1.35-3)",
+		"libperl-dev (<< 5.24.0~)",
+		"perl-doc (<< 5.32.1-1)",
+		"perl-modules-5.22",
+		"perl-modules-5.24",
+		"perl-modules-5.26 (<< 5.26.2-5)"
+	],
+	"conflicts": [
+		"libjson-pp-perl (<< 2.27200-2)"
+	],
+	"installedSize": 706,
+	"maintainer": "Niko Tyni <ntyni@debian.org>",
+	"description": "Larry Wall's Practical Extraction and Report Language",
+	"homepage": "http://dev.perl.org/perl5/",
+	"filename": "pool/updates/main/p/perl/perl_5.32.1-4+deb11u4_amd64.deb",
+	"size": 293360,
+	"sha256": "101c98d5afca0c956f6b52af0e804afebe9f89f59dfcc95e4673aa2bccf8fabc",
+	"descriptionMd5": "603cb1e5fe66da8106c364f4e9b84082"
+}

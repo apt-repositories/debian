@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rmail",
+	"source": "sendmail",
+	"version": "8.15.2-14~deb10u1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"sendmail-bin | mail-transport-agent",
+		"libc6 (>= 2.15)",
+		"libldap-2.4-2 (>= 2.4.7)"
+	],
+	"conflicts": [
+		"courier-mta",
+		"exim",
+		"exim-tls",
+		"exim4",
+		"exim4-daemon-custom",
+		"exim4-daemon-heavy",
+		"exim4-daemon-light",
+		"masqmail",
+		"postfix",
+		"smail",
+		"zmailer"
+	],
+	"installedSize": 316,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "MTA->UUCP remote mail handler",
+	"homepage": "http://www.sendmail.org",
+	"filename": "pool/main/s/sendmail/rmail_8.15.2-14~deb10u1_amd64.deb",
+	"size": 250720,
+	"md5": "366757d921e01465c89ba8f6c1106c45",
+	"sha256": "287cce207ffd275b3c728da6cbe39dc4860d38579ae149b961cd44da49313d05",
+	"descriptionMd5": "5999f32ca68d0cb331555bc479168fd4"
+}

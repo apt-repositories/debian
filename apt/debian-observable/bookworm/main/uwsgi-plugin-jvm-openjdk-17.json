@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "uwsgi-plugin-jvm-openjdk-17",
+	"source": "uwsgi",
+	"version": "2.0.21-5.1",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-17-jre-headless",
+		"uwsgi-core (= 2.0.21-5.1)",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"uwsgi-plugin-jvm-openjdk-11 (<< 2.0.21-1)"
+	],
+	"breaks": [
+		"uwsgi-plugin-jvm-openjdk-11 (<< 2.0.21-1)"
+	],
+	"installedSize": 100,
+	"maintainer": "uWSGI packaging team <pkg-uwsgi-devel@lists.alioth.debian.org>",
+	"description": "Java plugin for uWSGI (OpenJDK 17)",
+	"homepage": "http://projects.unbit.it/uwsgi/",
+	"filename": "pool/main/u/uwsgi/uwsgi-plugin-jvm-openjdk-17_2.0.21-5.1_amd64.deb",
+	"size": 47240,
+	"md5": "d87511e845580795143d3bbaf0799435",
+	"sha256": "f07bdbde05a067f701bb6a503fc6146a63e2c481ecc006612602fcb8939d4243",
+	"descriptionMd5": "3d774f60fef14b44d50292f0d7adf5dd"
+}]

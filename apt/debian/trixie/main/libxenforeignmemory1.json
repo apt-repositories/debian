@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxenforeignmemory1",
+	"source": "xen (4.19.1-1)",
+	"version": "4.19.1-1+b2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libxentoolcore1 (>= 4.19.1)",
+		"libxentoollog1 (>= 4.19.1)"
+	],
+	"replaces": [
+		"libxenforeignmemory1t64"
+	],
+	"breaks": [
+		"libxenforeignmemory1t64 (<< 4.19.1-1)"
+	],
+	"installedSize": 84,
+	"maintainer": "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>",
+	"description": "Xen runtime libraries - libxenforeignmemory",
+	"homepage": "https://xenproject.org/",
+	"filename": "pool/main/x/xen/libxenforeignmemory1_4.19.1-1+b2_amd64.deb",
+	"size": 36128,
+	"md5": "7dc757dc15afbc840cf22ca84c338450",
+	"sha256": "8f89c7994a61671480baca9209db1373f3ea475045e107c11e3a2546f0501df9",
+	"descriptionMd5": "dcbe3ced47522d91b647a027a556a47b"
+}

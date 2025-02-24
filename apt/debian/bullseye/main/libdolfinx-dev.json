@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libdolfinx-dev",
+	"source": "dolfinx",
+	"version": "2019.2.0~git20210130.c14cb0a-5",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libdolfinx-real-dev | libdolfinx-complex-dev",
+		"cmake (>= 2.8.0)",
+		"g++ | c++-compiler",
+		"libboost-chrono-dev",
+		"libboost-dev",
+		"libboost-filesystem-dev",
+		"libboost-iostreams-dev",
+		"libboost-math-dev",
+		"libboost-mpi-dev",
+		"libboost-program-options-dev",
+		"libboost-serialization-dev",
+		"libboost-thread-dev",
+		"libboost-timer-dev",
+		"libeigen3-dev",
+		"libhdf5-mpi-dev",
+		"libsuitesparse-dev",
+		"libscotch-dev",
+		"libxml2-dev",
+		"pkg-config",
+		"python3-ffcx (>= 2019.2.0~git20210116)",
+		"python3-ffcx (<< 2019.3~)"
+	],
+	"replaces": [
+		"libdolfin0-dev",
+		"libdolfin1.0-dev",
+		"libdolfin1.1-dev",
+		"libdolfin1.2-dev",
+		"libdolfin1.3-dev",
+		"libdolfin1.4-dev"
+	],
+	"conflicts": [
+		"libdolfin0-dev",
+		"libdolfin1.0-dev",
+		"libdolfin1.1-dev",
+		"libdolfin1.2-dev",
+		"libdolfin1.3-dev",
+		"libdolfin1.4-dev"
+	],
+	"installedSize": 671,
+	"maintainer": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Shared links and header files for DOLFIN",
+	"homepage": "http://fenicsproject.org",
+	"filename": "pool/main/d/dolfinx/libdolfinx-dev_2019.2.0~git20210130.c14cb0a-5_all.deb",
+	"size": 149460,
+	"md5": "e4232c3ed625d25ee7b9b5c67733fa73",
+	"sha256": "2d67b0e1e5005bd44f913cde97bdd764396944cdfba2b04700e5ac95bf7b48cf",
+	"descriptionMd5": "aa90851252787184d62f28b2cdaa7458"
+}

@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "eog-plugin-fullscreen-background",
+	"source": "eog-plugins",
+	"version": "42.3-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dconf-gsettings-backend | gsettings-backend",
+		"python3:any",
+		"eog (>= 3.20.3-1~)",
+		"eog-plugins-common (>= 42.3-1)",
+		"gir1.2-glib-2.0",
+		"gir1.2-gtk-3.0",
+		"gir1.2-peas-1.0",
+		"python3-gi"
+	],
+	"replaces": [
+		"eog-plugins (<< 3.16.6-2~)"
+	],
+	"enhances": [
+		"eog"
+	],
+	"breaks": [
+		"eog-plugins (<< 3.16.6-2~)"
+	],
+	"installedSize": 43,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "Fullscreen Background plugin for GNOME Image Viewer",
+	"homepage": "https://wiki.gnome.org/Apps/EyeOfGnome/Plugins",
+	"filename": "pool/main/e/eog-plugins/eog-plugin-fullscreen-background_42.3-1_amd64.deb",
+	"size": 8088,
+	"md5": "c20129b65f44d2dff79a54c8cf01c456",
+	"sha256": "856d50db8a2bb3a7e3af82302070295f8675233530a5f039cc33acec4f76b9e1",
+	"descriptionMd5": "48638ffe1a66c5b135d8d6d56194e965"
+}]

@@ -1,0 +1,66 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fsl-5.0-core",
+	"source": "fsl",
+	"version": "5.0.8-6",
+	"section": "non-free/science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mozilla-firefox | www-browser",
+		"file",
+		"tcsh | c-shell",
+		"tk",
+		"tcl",
+		"bc",
+		"dc",
+		"python",
+		"libjs-excanvas",
+		"libc6 (>= 2.27)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc1 (>= 1:3.0)",
+		"libgd3 (>= 2.1.0~alpha~)",
+		"libgdchart-gd2-noxpm | libgdchart-gd2-xpm",
+		"libgiftiio0",
+		"libgl1",
+		"libglu1-mesa | libglu1",
+		"libgomp1 (>= 4.9)",
+		"libnewmat10ldbl",
+		"libnifti2",
+		"libpng16-16 (>= 1.6.2-1)",
+		"libstdc++6 (>= 5.2)",
+		"zlib1g (>= 1:1.1.4)",
+		"sensible-utils"
+	],
+	"recommends": [
+		"fsl-atlases"
+	],
+	"suggests": [
+		"fsl-feeds",
+		"fsl-5.0-gpu",
+		"octave",
+		"mriconvert | dicomnifti",
+		"fsl-complete",
+		"condor | gridengine-client",
+		"fslview"
+	],
+	"replaces": [
+		"fsl-5.0 (<< 5.0.3)"
+	],
+	"conflicts": [
+		"fsl-fslview"
+	],
+	"installedSize": 40199,
+	"maintainer": "NeuroDebian Team <team@neuro.debian.net>",
+	"description": "analysis tools for FMRI, MRI and DTI brain imaging",
+	"homepage": "http://www.fmrib.ox.ac.uk/fsl/",
+	"filename": "pool/non-free/f/fsl/fsl-5.0-core_5.0.8-6_amd64.deb",
+	"size": 8365888,
+	"md5": "6d4434140a5dc07b276b2e70da706cb1",
+	"sha256": "fe5123e06e43d9b1206e65444773a15949f98c25bdfde913995f1a0cda89ca0e",
+	"descriptionMd5": "e7639348be43f978b33c8d355cc619ed"
+}

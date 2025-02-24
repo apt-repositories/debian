@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libdigidoc2",
+	"source": "libdigidoc",
+	"version": "3.10.5-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libdigidoc-common (= 3.10.5-2)",
+		"opensc",
+		"pcscd",
+		"libc6 (>= 2.14)",
+		"libssl1.1 (>= 1.1.0)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libdigidoc"
+	],
+	"breaks": [
+		"libdigidoc"
+	],
+	"installedSize": 480,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "DigiDoc digital signature library",
+	"homepage": "https://github.com/open-eid/libdigidoc",
+	"filename": "pool/main/libd/libdigidoc/libdigidoc2_3.10.5-2_amd64.deb",
+	"size": 167836,
+	"md5": "ff9a2b086b0b96e96447ec3c36fd5d20",
+	"sha256": "c487678a29011a3e228816572abe30889cb801b27c638d76b870efdc5a5bf8a3",
+	"descriptionMd5": "4cb042f96c50dd07b4e980b2a7b10311"
+}

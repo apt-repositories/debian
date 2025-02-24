@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cme",
+	"version": "1.032-1",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libapp-cmd-perl",
+		"libconfig-model-perl (>= 2.124)",
+		"libjson-perl",
+		"liblog-log4perl-perl",
+		"libpath-tiny-perl",
+		"libpod-pom-perl",
+		"libyaml-perl"
+	],
+	"recommends": [
+		"libconfig-model-approx-perl",
+		"libconfig-model-dpkg-perl",
+		"libconfig-model-lcdproc-perl",
+		"libconfig-model-openssh-perl",
+		"libconfig-model-systemd-perl",
+		"libconfig-model-tkui-perl"
+	],
+	"suggests": [
+		"libconfig-model-cursesui-perl",
+		"libconfig-model-itself-perl"
+	],
+	"replaces": [
+		"libconfig-model-perl (<< 2.071-2~)"
+	],
+	"breaks": [
+		"libconfig-model-perl (<< 2.071-2~)"
+	],
+	"installedSize": 199,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "Check or edit configuration data with Config::Model",
+	"homepage": "https://metacpan.org/release/App-Cme",
+	"filename": "pool/main/c/cme/cme_1.032-1_all.deb",
+	"size": 82720,
+	"md5": "6c70dece109a4bb0157e35d70a452226",
+	"sha256": "b6f05f939692190c56d99ed8299266c2e59b3fcbde3358c2ca057b3a757fe187",
+	"descriptionMd5": "45b506e74122752acb6b78c730f20bb6"
+}

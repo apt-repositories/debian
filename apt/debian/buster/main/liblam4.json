@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liblam4",
+	"source": "lam",
+	"version": "7.1.4-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgcc1 (>= 1:3.0)",
+		"libltdl7 (>= 2.4.6)",
+		"libstdc++6 (>= 5)"
+	],
+	"recommends": [
+		"lam-runtime"
+	],
+	"replaces": [
+		"lam",
+		"lam1",
+		"lam4",
+		"lam4c2"
+	],
+	"breaks": [
+		"libmpich-dev (<< 3.3~a3-2)",
+		"libopenmpi-dev (<< 3.0.1~rc1-2)",
+		"mpich (<< 3.3~a3-2)",
+		"openmpi-bin (<< 3.0.1~rc1-2)"
+	],
+	"conflicts": [
+		"lam",
+		"lam1",
+		"lam4",
+		"lam4c2"
+	],
+	"installedSize": 1481,
+	"maintainer": "Camm Maguire <camm@debian.org>",
+	"description": "Shared libraries used by LAM parallel programs",
+	"filename": "pool/main/l/lam/liblam4_7.1.4-6_amd64.deb",
+	"size": 466664,
+	"md5": "952b48b7d9cf2887c37ab7e8f353e5e3",
+	"sha256": "61bff1d09af874cc55e08e6a7398d06daf3d0363284dd722c8a7eae19e7c9905",
+	"descriptionMd5": "58d74167c19333440b1f8ad3df2db572"
+}

@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "odbc-mdbtools",
+	"source": "mdbtools",
+	"version": "0.7.1-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libglib2.0-0 (>= 2.12.0)",
+		"libmdb2 (>= 0.7~rc1)",
+		"libmdbsql2 (>= 0.5.99.0.6pre1.0.20051109)",
+		"odbcinst1debian2 (>= 2.3.1)"
+	],
+	"recommends": [
+		"libodbc1"
+	],
+	"suggests": [
+		"mdbtools-doc"
+	],
+	"replaces": [
+		"libmdbodbc1 (<< 0.7.1-1~)"
+	],
+	"breaks": [
+		"libiodbc2 (<< 3.52.7-2+deb7u1)",
+		"libmdbodbc1 (<< 0.7.1-1~)",
+		"odbcinst1debian2 (<< 2.2.14p2-3)",
+		"unixodbc (<< 2.2.14p2-3)"
+	],
+	"installedSize": 123,
+	"maintainer": "Jean-Michel Vourgère <nirgal@debian.org>",
+	"description": "MDB tools ODBC driver",
+	"homepage": "https://github.com/brianb/mdbtools",
+	"filename": "pool/main/m/mdbtools/odbc-mdbtools_0.7.1-6_amd64.deb",
+	"size": 43780,
+	"md5": "bfd62a67e71af6b10966ef91aab17a15",
+	"sha256": "4e162bebfacf7e2ff8ed8c846fa3ee2aa01228f6a53ae38e7230d4aa2c2cc37d",
+	"descriptionMd5": "adbbf5e7276666b028b26a318ba16b8c"
+}

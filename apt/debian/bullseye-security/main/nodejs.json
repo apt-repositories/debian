@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nodejs",
+	"version": "12.22.12~dfsg-1~deb11u5",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.2.5)",
+		"libnode72 (= 12.22.12~dfsg-1~deb11u5)"
+	],
+	"recommends": [
+		"ca-certificates",
+		"nodejs-doc"
+	],
+	"suggests": [
+		"npm"
+	],
+	"replaces": [
+		"nodejs-legacy"
+	],
+	"breaks": [
+		"node-babel-runtime (<< 7)",
+		"node-typescript-types (<< 20210110~)"
+	],
+	"conflicts": [
+		"nodejs-legacy"
+	],
+	"installedSize": 918,
+	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>",
+	"description": "evented I/O for V8 javascript - runtime executable",
+	"homepage": "https://nodejs.org/",
+	"filename": "pool/updates/main/n/nodejs/nodejs_12.22.12~dfsg-1~deb11u5_amd64.deb",
+	"size": 148892,
+	"sha256": "eb2cb80adbe89131211bc6f426a39de9c066ad749cf937449bf1a982fd135ea3",
+	"descriptionMd5": "0d0bbaed314d7d26588d112ee4ede074"
+}

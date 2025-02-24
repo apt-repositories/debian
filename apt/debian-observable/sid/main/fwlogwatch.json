@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fwlogwatch",
+	"version": "1.4-5",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 1.2.0) | debconf-2.0",
+		"default-mta | mail-transport-agent",
+		"lsb-base",
+		"rsyslog | system-log-daemon",
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 487,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "Firewall log analyzer",
+	"homepage": "http://fwlogwatch.inside-security.de/",
+	"filename": "pool/main/f/fwlogwatch/fwlogwatch_1.4-5_amd64.deb",
+	"size": 152716,
+	"md5": "6f4c3a2ad13ecdf19205a795ea1a9dbd",
+	"sha256": "98a9d66fd3f4edca60566fa55b53cb0c6b2aef6c665a7c8e4abd22e15badf252",
+	"descriptionMd5": "9fb0eca840377b5b84c214320b65b9ff"
+}]

@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "patroni",
+	"version": "2.0.2-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-cdiff",
+		"python3-click (>= 4.1)",
+		"python3-dateutil",
+		"python3-pkg-resources",
+		"python3-prettytable (>= 0.7)",
+		"python3-psutil",
+		"python3-six (>= 1.7)",
+		"python3-urllib3",
+		"python3-yaml",
+		"python3:any (>= 3.5~)",
+		"lsb-base (>= 3.0-6)",
+		"python3-psycopg2",
+		"python3-etcd (>= 0.4.3) | python3-consul (>= 0.7.0) | python3-kazoo | python3-kubernetes"
+	],
+	"recommends": [
+		"iproute2"
+	],
+	"suggests": [
+		"postgresql",
+		"etcd-server | consul | zookeeperd",
+		"vip-manager",
+		"haproxy",
+		"patroni-doc"
+	],
+	"installedSize": 766,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "PostgreSQL High Availability with ZooKeeper, etcd, Consul, or Kubernetes",
+	"homepage": "https://github.com/zalando/patroni",
+	"filename": "pool/main/p/patroni/patroni_2.0.2-1_all.deb",
+	"size": 152372,
+	"md5": "d63d44b03291b65aad08e007dd3b92a4",
+	"sha256": "6c6ca6c2e5109802bf6f22100b8fec20cf3ec06e849cfd8a83f779f15363248a",
+	"descriptionMd5": "500d92dec4fc214fc4d04ff56b7d221b"
+}

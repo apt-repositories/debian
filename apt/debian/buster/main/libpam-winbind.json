@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-winbind",
+	"source": "samba",
+	"version": "2:4.9.5+dfsg-5+deb10u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpam-runtime (>= 1.0.1-6)",
+		"libpam0g (>= 1.1.3-2~)",
+		"samba-common (= 2:4.9.5+dfsg-5+deb10u3)",
+		"winbind:any (= 2:4.9.5+dfsg-5+deb10u3)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.14)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libwbclient0 (>= 2:4.2.1+dfsg)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6~)"
+	],
+	"suggests": [
+		"libnss-winbind"
+	],
+	"installedSize": 188,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Windows domain authentication integration plugin",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/main/s/samba/libpam-winbind_4.9.5+dfsg-5+deb10u3_amd64.deb",
+	"size": 133360,
+	"md5": "365e40c5bbce5fee4b3365cfaf575859",
+	"sha256": "25ac5dae9c2e4a4b1b9ae9938a7d3a759c41d8cc46b3bb0b63660a6ae8998fca",
+	"descriptionMd5": "fba9076429d270720a91324cff071fed"
+}

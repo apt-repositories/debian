@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-primus-vk-wrapper",
+	"source": "primus-vk",
+	"version": "1.6.4-3",
+	"section": "contrib/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-primus-vk-common",
+		"libvulkan1",
+		"nvidia-vulkan-icd | nvidia-tesla-535-vulkan-icd | nvidia-vulkan-icd-any",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libglx0",
+		"libstdc++6 (>= 13.1)",
+		"libx11-6"
+	],
+	"recommends": [
+		"nvidia-primus-vk-wrapper:i386 (= 1.6.4-3)"
+	],
+	"replaces": [
+		"libnv-vulkan-wrapper1 (>= 0)"
+	],
+	"breaks": [
+		"libnv-vulkan-wrapper1 (>= 0)"
+	],
+	"installedSize": 44,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "thin wrapper for using the NVIDIA binary Vulkan ICD with bumblebee",
+	"homepage": "https://github.com/felixdoerre/primus_vk",
+	"filename": "pool/contrib/p/primus-vk/nvidia-primus-vk-wrapper_1.6.4-3_amd64.deb",
+	"size": 10360,
+	"md5": "294fcd27463c9641528869019e991bfe",
+	"sha256": "6d5d9c4a99850339d58c78c23677d2aba313f412bf786a4fb91868241ad795cb",
+	"descriptionMd5": "b56d29bdf2a2c1ac493d1c61f63daef4"
+}]

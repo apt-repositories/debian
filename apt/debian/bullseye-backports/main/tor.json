@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tor",
+	"version": "0.4.7.13-1~bpo11+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libcap2 (>= 1:2.10)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libseccomp2 (>= 0.0.0~20120605)",
+		"libssl1.1 (>= 1.1.1)",
+		"libsystemd0",
+		"libzstd1 (>= 1.4.0)",
+		"zlib1g (>= 1:1.1.4)",
+		"adduser",
+		"runit-helper (>= 2.10.0~)",
+		"lsb-base"
+	],
+	"recommends": [
+		"logrotate",
+		"tor-geoipdb",
+		"torsocks"
+	],
+	"suggests": [
+		"mixmaster",
+		"torbrowser-launcher",
+		"socat",
+		"apparmor-utils",
+		"nyx",
+		"obfs4proxy"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-36~)"
+	],
+	"conflicts": [
+		"libssl0.9.8 (<< 0.9.8g-9)"
+	],
+	"installedSize": 5634,
+	"maintainer": "Peter Palfrader <weasel@debian.org>",
+	"description": "anonymizing overlay network for TCP",
+	"homepage": "https://www.torproject.org/",
+	"filename": "pool/main/t/tor/tor_0.4.7.13-1~bpo11+1_amd64.deb",
+	"size": 2031808,
+	"sha256": "e395560ec7f46aea58e9ea5e0a0c897893ab2ae788b3d70fe17f58ebebf35097",
+	"descriptionMd5": "9106e8e4b3843ebd532ba2b89615a92e"
+}

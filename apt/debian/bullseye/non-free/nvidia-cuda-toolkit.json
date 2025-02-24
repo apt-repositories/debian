@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-cuda-toolkit",
+	"version": "11.2.2-3+deb11u3",
+	"section": "non-free/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-profiler (= 11.2.152~11.2.2-3+deb11u3)",
+		"nvidia-cuda-dev (= 11.2.2-3+deb11u3)",
+		"nvidia-opencl-dev (= 11.2.2-3+deb11u3) | opencl-dev",
+		"g++-10 | g++-10 | clang-11 | clang-10 | g++-9 | clang-9 | g++-8 | clang-8 | clang-7 | g++-7 | clang-6.0 | clang (<< 1:12~) | g++-6",
+		"gcc-10 | gcc-10 | clang-11 | clang-10 | gcc-9 | clang-9 | gcc-8 | clang-8 | clang-7 | gcc-7 | clang-6.0 | clang (<< 1:12~) | gcc-6",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 4.2)",
+		"libstdc++6 (>= 4.4.0)"
+	],
+	"recommends": [
+		"nvidia-cuda-toolkit-doc (= 11.2.2-3+deb11u3)",
+		"nvidia-cuda-gdb (= 11.2.152~11.2.2-3+deb11u3)",
+		"nvidia-visual-profiler (= 11.2.152~11.2.2-3+deb11u3)",
+		"nsight-compute (= 2020.3.1.4~11.2.2-3+deb11u3)",
+		"nsight-systems (= 2020.4.3.7~11.2.2-3+deb11u3)"
+	],
+	"suggests": [
+		"nvidia-driver (>= 460) | nvidia-tesla-510-driver (>= 460) | nvidia-tesla-470-driver (>= 460) | nvidia-tesla-460-driver (>= 460)"
+	],
+	"breaks": [
+		"nvidia-cuda-doc (<< 10.2.89-3)"
+	],
+	"installedSize": 121820,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA CUDA development toolkit",
+	"homepage": "https://developer.nvidia.com/cuda-zone",
+	"filename": "pool/non-free/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_11.2.2-3+deb11u3_amd64.deb",
+	"size": 60557632,
+	"md5": "7547cbf1be0c7ae2f406f15cab229794",
+	"sha256": "d6dda1647ca72d6c5f601b21355c631aba9849ae99cc3cfa14a7e6796eae4cb8",
+	"descriptionMd5": "4df65757189fdcbdcc50ffa97fccca02"
+}

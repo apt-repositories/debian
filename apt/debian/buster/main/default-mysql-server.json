@@ -1,0 +1,27 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "default-mysql-server",
+	"source": "mysql-defaults",
+	"version": "1.0.5",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"mariadb-server-10.3"
+	],
+	"breaks": [
+		"mysql-server (<< 5.7)"
+	],
+	"installedSize": 10,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "MySQL database server binaries and system database setup (metapackage)",
+	"filename": "pool/main/m/mysql-defaults/default-mysql-server_1.0.5_all.deb",
+	"size": 3540,
+	"md5": "749c0368775062a3ddcba0853361b2af",
+	"sha256": "7dafc796a27b90e71bec500bcb408922146422e65f479b88823312b8c57edc43",
+	"descriptionMd5": "9550a987565ff8657fc9f699871795c3"
+}

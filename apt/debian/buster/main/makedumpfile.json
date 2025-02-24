@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "makedumpfile",
+	"version": "1:1.6.5-1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.17)",
+		"libdw1 (>= 0.143)",
+		"libelf1 (>= 0.142)",
+		"liblzo2-2",
+		"zlib1g (>= 1:1.2.0)",
+		"perl:any"
+	],
+	"recommends": [
+		"crash",
+		"kexec-tools"
+	],
+	"replaces": [
+		"kdump-tools (<< 1.3.4-1~)"
+	],
+	"installedSize": 432,
+	"maintainer": "Louis Bouchard <louis.bouchard@ubuntu.com>",
+	"description": "VMcore extraction tool",
+	"filename": "pool/main/m/makedumpfile/makedumpfile_1.6.5-1_amd64.deb",
+	"size": 177364,
+	"md5": "d12f39deac32d17f52f109e1ada9ec77",
+	"sha256": "3efadd9051b2369bb3c576a9af4894dcf2b5e3c1a1775e0d9e93bb129662ab1c",
+	"descriptionMd5": "9efd4ca21c7d30a2f285e5d82375fce1"
+}

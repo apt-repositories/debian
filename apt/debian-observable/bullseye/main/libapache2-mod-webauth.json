@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libapache2-mod-webauth",
+	"source": "webauth",
+	"version": "4.7.0-8",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"apache2 (>= 2.4.4)",
+		"apache2-api-20120211",
+		"apache2-bin (>= 2.4.16)",
+		"libc6 (>= 2.14)",
+		"libcurl4 (>= 7.16.2)",
+		"libwebauth12 (>= 4.7.0)"
+	],
+	"suggests": [
+		"libapache2-mod-webauthldap"
+	],
+	"replaces": [
+		"libapache2-webauth (<< 4.2.0)"
+	],
+	"breaks": [
+		"libapache2-webauth (<< 4.2.0)"
+	],
+	"installedSize": 547,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "Apache module for WebAuth authentication",
+	"homepage": "https://webauth.stanford.edu/",
+	"filename": "pool/main/w/webauth/libapache2-mod-webauth_4.7.0-8_amd64.deb",
+	"size": 242964,
+	"md5": "d33f619eb3f8422efc5a2aae23d2b41f",
+	"sha256": "6bec3b063360eb259211fa82cad1b07643cd4e7d3dcdf18fb82bc0ea0e622bb2",
+	"descriptionMd5": "7957659e2323cd0c4662eefe98dc0e82"
+}]

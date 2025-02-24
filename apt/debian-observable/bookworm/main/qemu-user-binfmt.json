@@ -1,0 +1,64 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-binfmt",
+	"source": "qemu",
+	"version": "1:9.2.0+ds-3~bpo12+2",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"qemu-user (= 1:9.2.0+ds-3~bpo12+2)"
+	],
+	"recommends": [
+		"systemd"
+	],
+	"replaces": [
+		"qemu-user-static (<< 1:9.1.0)"
+	],
+	"breaks": [
+		"qemu-user-static (<< 1:9.1.0)"
+	],
+	"installedSize": 40,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU user mode binfmt registration for qemu-user",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-user-binfmt_9.2.0+ds-3~bpo12+2_amd64.deb",
+	"size": 2052,
+	"sha256": "a6745b2cfb50d9096aa310f4d54fc97afab6fffd77f3b0c6ea09f54b5ff26419",
+	"descriptionMd5": "e64f16d60c78a6797d7047057c0d93fd"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-binfmt",
+	"source": "qemu",
+	"version": "1:7.2+dfsg-7+deb12u12",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"qemu-user (= 1:7.2+dfsg-7+deb12u12)",
+		"systemd | binfmt-support"
+	],
+	"breaks": [
+		"binfmt-support (<< 2.1.7~)"
+	],
+	"conflicts": [
+		"qemu-user-static"
+	],
+	"installedSize": 101,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU user mode binfmt registration for qemu-user",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-user-binfmt_7.2+dfsg-7+deb12u12_amd64.deb",
+	"size": 5352,
+	"md5": "b59ef51ab8bb4ad21f8e3cc480bf0820",
+	"sha256": "d61069f7e6bb63bd031f2a4cdafae25441696a64784f447ee5c7d78be07c37a1",
+	"descriptionMd5": "b9d172841422ce933839d1a34cce7b20"
+}]

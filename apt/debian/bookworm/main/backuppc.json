@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "backuppc",
+	"version": "4.4.0-8",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"apache2 | httpd",
+		"apache2-utils",
+		"backuppc-rsync (>= 3.1.3)",
+		"bzip2",
+		"default-mta | exim4 | mail-transport-agent",
+		"iputils-ping | inetutils-ping",
+		"libarchive-zip-perl",
+		"libbackuppc-xs-perl (>= 0.62)",
+		"libcgi-pm-perl",
+		"libfile-listing-perl",
+		"libtime-parsedate-perl",
+		"sysvinit-utils (>= 3.05-4~) | lsb-base",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libio-dirent-perl",
+		"openssh-client | ssh-client",
+		"rrdtool",
+		"samba-common-bin",
+		"smbclient"
+	],
+	"suggests": [
+		"certbot | acme-tiny | acmetool | dehydrated | lacme | lecm | lego",
+		"libscgi-perl",
+		"par2",
+		"rsync",
+		"w3m | www-browser"
+	],
+	"installedSize": 3178,
+	"maintainer": "Debian BackupPC Team <team+pkg-backuppc@tracker.debian.org>",
+	"description": "high-performance, enterprise-grade system for backing up PCs",
+	"homepage": "https://backuppc.github.io/backuppc/",
+	"filename": "pool/main/b/backuppc/backuppc_4.4.0-8_amd64.deb",
+	"size": 571544,
+	"md5": "f69f285c764fbcb42596598a50926609",
+	"sha256": "f492413eddc5e7c4b55867debc24fee539da06f09c47e36d61fa64337eccdaa3",
+	"descriptionMd5": "b6f406334b3551715e06ad0d1f9cbb05"
+}

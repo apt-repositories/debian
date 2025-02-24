@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cryptsetup-ssh",
+	"source": "cryptsetup",
+	"version": "2:2.6.1-4~deb12u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcryptsetup12 (>= 2:2.4)",
+		"libjson-c5 (>= 0.15)",
+		"libpopt0 (>= 1.14)",
+		"libssh-4 (>= 0.8.0)"
+	],
+	"recommends": [
+		"cryptsetup-bin (>= 2:2.6.1-4~deb12u2)"
+	],
+	"replaces": [
+		"cryptsetup (<< 2:2.5.0~rc1-3)",
+		"cryptsetup-bin (<< 2:2.5.0~rc1-3)"
+	],
+	"breaks": [
+		"cryptsetup (<< 2:2.5.0~rc1-3)",
+		"cryptsetup-bin (<< 2:2.5.0~rc1-3)"
+	],
+	"installedSize": 101,
+	"maintainer": "Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>",
+	"description": "disk encryption support - experimental SSH token handler",
+	"homepage": "https://gitlab.com/cryptsetup/cryptsetup",
+	"filename": "pool/main/c/cryptsetup/cryptsetup-ssh_2.6.1-4~deb12u2_amd64.deb",
+	"size": 35064,
+	"md5": "07de6e1f0a1f636dee23b826225d6460",
+	"sha256": "474c29f418159cf25cad380796220ab1b48dec1b3a786e9e2088e03ecb8c64c0",
+	"descriptionMd5": "2da5a17c380bf0b79a11ebac69047c2b"
+}]

@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgl1-nvidia-legacy-390xx-glx",
+	"source": "nvidia-graphics-drivers-legacy-390xx",
+	"version": "390.157-11",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-legacy-390xx-alternative (= 390.157-11)",
+		"nvidia-support",
+		"libc6 (>= 2.34)",
+		"libnvidia-legacy-390xx-glcore (= 390.157-11)",
+		"libx11-6",
+		"libxext6"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-legacy-390xx-driver-libs-nonglvnd (= 390.157-11)",
+		"nvidia-legacy-390xx-kernel-dkms (= 390.157-11) | nvidia-legacy-390xx-kernel-390.157"
+	],
+	"suggests": [
+		"nvidia-legacy-390xx-kernel-dkms (>= 390.157) | nvidia-legacy-390xx-kernel-source (>= 390.157)"
+	],
+	"conflicts": [
+		"libgl1-nvidia-legacy-390xx-glvnd-glx"
+	],
+	"installedSize": 1599,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary OpenGL/GLX library (non-GLVND variant) (390xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-390xx/libgl1-nvidia-legacy-390xx-glx_390.157-11_amd64.deb",
+	"size": 505960,
+	"md5": "19b796458d3a0cb643d8ba65419614f1",
+	"sha256": "e4be5acd3b13db515f1ca3e2e520a4625ac3ec10f52511b1adeda9f3681da06e",
+	"descriptionMd5": "612f17e0be17de4159cf2ad1070501ca"
+}

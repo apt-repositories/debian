@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "connman-vpn",
+	"source": "connman",
+	"version": "1.36-2.2+deb11u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libglib2.0-0 (>= 2.28.0)",
+		"libgnutls30 (>= 3.7.0)"
+	],
+	"recommends": [
+		"connman (= 1.36-2.2+deb11u2)",
+		"xl2tpd"
+	],
+	"replaces": [
+		"connman (<< 1.21-1)"
+	],
+	"breaks": [
+		"connman (<< 1.21-1)",
+		"ppp (>= 2.4.9-2~)",
+		"ppp (<< 2.4.9-1+~)"
+	],
+	"installedSize": 479,
+	"maintainer": "Alexander Sack <asac@debian.org>",
+	"description": "Intel Connection Manager daemon - VPN daemon",
+	"homepage": "https://01.org/connman",
+	"filename": "pool/updates/main/c/connman/connman-vpn_1.36-2.2+deb11u2_amd64.deb",
+	"size": 130276,
+	"sha256": "43d3dbed405666cd29536bb651cf29d44aad2785b86095eeedc3941caf9695b3",
+	"descriptionMd5": "22b15eb188a536d912595f4ff4e0d24e"
+}

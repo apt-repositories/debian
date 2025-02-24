@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "heimdal-kdc",
+	"source": "heimdal (7.8.git20221117.28daf24+dfsg-8)",
+	"version": "7.8.git20221117.28daf24+dfsg-8+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5.00) | debconf-2.0",
+		"heimdal-clients",
+		"krb5-config",
+		"openbsd-inetd | inet-superserver",
+		"libasn1-8t64-heimdal (>= 1.4.0+git20110226)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libgssapi3t64-heimdal (>= 1.4.0+git20110226)",
+		"libhcrypto5t64-heimdal (>= 1.4.0+git20110226)",
+		"libhdb9t64-heimdal (>= 1.6~git20131117)",
+		"libheimbase1t64-heimdal (>= 1.4.0+git20110226)",
+		"libheimntlm0t64-heimdal (>= 1.4.0+git20110226)",
+		"libkadm5srv8t64-heimdal (>= 7.8.git20221115.a6cf945+dfsg)",
+		"libkdc2t64-heimdal (>= 1.4.0+git20110226)",
+		"libkrb5-26t64-heimdal (>= 1.7~git20160418)",
+		"libroken19t64-heimdal (>= 1.7~git20150920)",
+		"libsl0t64-heimdal (>= 1.4.0+git20110226)"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"suggests": [
+		"heimdal-docs"
+	],
+	"conflicts": [
+		"heimdal-clients (<< 0.4e-3)",
+		"heimdal-servers (<< 0.6.3-3)",
+		"kerberos4kth-kdc",
+		"krb5-admin-server",
+		"krb5-kdc"
+	],
+	"installedSize": 432,
+	"maintainer": "Brian May <bam@debian.org>",
+	"description": "Heimdal Kerberos - key distribution center (KDC)",
+	"homepage": "http://www.h5l.org/",
+	"filename": "pool/main/h/heimdal/heimdal-kdc_7.8.git20221117.28daf24+dfsg-8+b1_amd64.deb",
+	"size": 113004,
+	"md5": "69e47e8ca7b26ef383fcb6b058558f88",
+	"sha256": "5b3370fdeafe2df549e6d6927d9f5e926af478f936ab53290695eba923418a09",
+	"descriptionMd5": "341da9732edd5d975ab7c6361f80ddfe"
+}

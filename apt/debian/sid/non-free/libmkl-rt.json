@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmkl-rt",
+	"source": "intel-mkl",
+	"version": "2020.4.304-5",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.2.5)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"debconf",
+		"libmkl-meta-interface (= 2020.4.304-5)",
+		"libmkl-meta-threading (= 2020.4.304-5)",
+		"libmkl-meta-computational (= 2020.4.304-5)",
+		"libmkl-locale (= 2020.4.304-5)",
+		"libblas3 | libblas.so.3",
+		"liblapack3 | liblapack.so.3"
+	],
+	"recommends": [
+		"libomp-dev | libomp-18-dev | libomp-17-dev | libomp-16-dev | libomp-15-dev | libomp-14-dev | libomp-x.y-dev",
+		"libgcc-14-dev | libgcc-13-dev | libgcc-12-dev",
+		"libtbb-dev"
+	],
+	"enhances": [
+		"libblas.so.3",
+		"libblas64.so.3",
+		"liblapack.so.3",
+		"liblapack64.so.3"
+	],
+	"installedSize": 7038,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Intel® MKL: Single Dynamic Library (SDL)",
+	"homepage": "https://software.intel.com/en-us/mkl",
+	"filename": "pool/non-free/i/intel-mkl/libmkl-rt_2020.4.304-5_amd64.deb",
+	"size": 1017208,
+	"md5": "d5c0721ee2e68d3d851e91b854e7804c",
+	"sha256": "aaea048177a6307fd2e38d9ca71458b4cc1ea903d4d587ce869a4f00c1b7b5e5",
+	"descriptionMd5": "044b38cc68b953ba96716df3d1493bbd"
+}

@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "keyboard-configuration",
+	"source": "console-setup",
+	"version": "1.234",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"liblocale-gettext-perl",
+		"xkb-data (>= 2.42~)",
+		"xkb-data (<< 2.42A)"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"replaces": [
+		"console-setup (<< 1.47)",
+		"console-setup-mini (<< 1.47)"
+	],
+	"breaks": [
+		"console-setup (<< 1.71)",
+		"console-setup-mini (<< 1.47)"
+	],
+	"installedSize": 2860,
+	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
+	"description": "system-wide keyboard preferences",
+	"filename": "pool/main/c/console-setup/keyboard-configuration_1.234_all.deb",
+	"size": 428120,
+	"md5": "9a7ed027935f4ace4061a464ddb6dd58",
+	"sha256": "b82cad14f3ffed4be36be6f38b0dce036c128cdd2e626c032099d2c3e3f4b30c",
+	"descriptionMd5": "85ee5b58c8d635ba9041b52f81058494"
+}

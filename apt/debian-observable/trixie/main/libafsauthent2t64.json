@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libafsauthent2t64",
+	"source": "openafs",
+	"version": "1.8.13.2-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libafsrpc2t64 (>= 1.8.0~pre1)",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libhcrypto5t64-heimdal (>= 1.4.0+git20110226)",
+		"libroken19t64-heimdal (>= 1.7~git20150920)"
+	],
+	"replaces": [
+		"libafsauthent2"
+	],
+	"breaks": [
+		"libafsauthent2 (<< 1.8.13.2-1)"
+	],
+	"installedSize": 549,
+	"maintainer": "Benjamin Kaduk <kaduk@mit.edu>",
+	"description": "AFS distributed file system runtime library (authentication)",
+	"homepage": "http://www.openafs.org/",
+	"filename": "pool/main/o/openafs/libafsauthent2t64_1.8.13.2-1_amd64.deb",
+	"size": 218476,
+	"md5": "1b6000f5fd3b82e6386df95f01296eac",
+	"sha256": "0b4ed2e47210ce2a65bd1cda46700c2945a05ec2e5665b6a4019ab460d1d2204",
+	"descriptionMd5": "a0feedf62f2fa5d341102110cd7a1d2b"
+}]

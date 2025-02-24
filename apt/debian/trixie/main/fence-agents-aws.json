@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fence-agents-aws",
+	"source": "fence-agents",
+	"version": "4.16.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"fence-agents-common (>= 4.16.0-2)",
+		"python3-boto3",
+		"python3-requests"
+	],
+	"replaces": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"breaks": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"installedSize": 27,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "Fence Agents for Red Hat Cluster - AWS agent",
+	"homepage": "https://github.com/ClusterLabs/fence-agents",
+	"filename": "pool/main/f/fence-agents/fence-agents-aws_4.16.0-2_all.deb",
+	"size": 9880,
+	"md5": "7fa15454dbef3535f3c1c8241eeb6155",
+	"sha256": "f16cd5a0f1950ad4852c53f429c7ba221d4b882eb4a79b7466e238e0d0c746d2",
+	"descriptionMd5": "1d30ba83562b5c0c3c5c89c0214e8bed"
+}

@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "solid-pop3d",
+	"version": "0.15-31",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libpam-runtime",
+		"lsb-base",
+		"netbase",
+		"update-inetd",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.14)",
+		"liblockfile1 (>= 1.0)",
+		"libpam0g (>= 0.99.7.1)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent"
+	],
+	"suggests": [
+		"openbsd-inetd | inet-superserver"
+	],
+	"conflicts": [
+		"pop3-server"
+	],
+	"installedSize": 173,
+	"maintainer": "Robert Luberda <robert@debian.org>",
+	"description": "POP3 server supporting Maildir, PAM, vhosting",
+	"filename": "pool/main/s/solid-pop3d/solid-pop3d_0.15-31_amd64.deb",
+	"size": 62164,
+	"md5": "f53955fe9787d475af98b272b0061d32",
+	"sha256": "af8675e4b3ca612d7cb621517b56d36a221c47b9ede209907e2769b751f431c6",
+	"descriptionMd5": "3ce24da25b18d93f7c7eb2d5b4a7ddc6"
+}

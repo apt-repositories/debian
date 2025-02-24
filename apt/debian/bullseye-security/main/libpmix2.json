@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpmix2",
+	"source": "pmix",
+	"version": "4.0.0-4.1+deb11u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libevent-core-2.1-7 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7 (>= 2.1.8-stable)",
+		"libhwloc15 (>= 2.4.1+dfsg)",
+		"zlib1g (>= 1:1.2.0)",
+		"libhwloc-plugins"
+	],
+	"replaces": [
+		"libopenmpi3 (<< 4.1.0-3)",
+		"libpmix-dev (<< 3.2.0~rc1-2)"
+	],
+	"breaks": [
+		"libopenmpi3 (<< 4.1.0-3)",
+		"libpmix-dev (<< 3.2.0~rc1-2)"
+	],
+	"installedSize": 2312,
+	"maintainer": "Alastair McKinstry <mckinstry@debian.org>",
+	"description": "Process Management Interface (Exascale) library",
+	"homepage": "https://github.com/pmix/pmix",
+	"filename": "pool/updates/main/p/pmix/libpmix2_4.0.0-4.1+deb11u1_amd64.deb",
+	"size": 552896,
+	"sha256": "400916de20cc475994b36b20ecdccf056c27daf923824d1a766cec53258a98c5",
+	"descriptionMd5": "aca5aa31def7ae96d62a110030ef497f"
+}

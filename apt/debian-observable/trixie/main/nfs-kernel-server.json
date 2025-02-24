@@ -1,0 +1,55 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nfs-kernel-server",
+	"source": "nfs-utils",
+	"version": "1:2.8.2-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libnl-3-200 (>= 3.2.7)",
+		"libnl-genl-3-200 (>= 3.2.7)",
+		"libreadline8t64 (>= 6.0)",
+		"libsqlite3-0 (>= 3.7.15)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libuuid1 (>= 2.31.1)",
+		"libwrap0 (>= 7.6-4~)",
+		"libxml2 (>= 2.7.4)",
+		"nfs-common (= 1:2.8.2-2)",
+		"ucf",
+		"netbase",
+		"keyutils"
+	],
+	"recommends": [
+		"python3",
+		"python3-yaml"
+	],
+	"suggests": [
+		"procps"
+	],
+	"replaces": [
+		"knfs",
+		"nfs-server"
+	],
+	"conflicts": [
+		"knfs",
+		"nfs-server"
+	],
+	"installedSize": 793,
+	"maintainer": "Debian kernel team <debian-kernel@lists.debian.org>",
+	"description": "support for NFS kernel server",
+	"homepage": "https://linux-nfs.org/",
+	"filename": "pool/main/n/nfs-utils/nfs-kernel-server_2.8.2-2_amd64.deb",
+	"size": 189488,
+	"md5": "1dfdba2d3ccc8230f66592022f3a4dda",
+	"sha256": "731372ff48da2fe88f99564c0f9066effae3ca8e9c934e738b87b07ef7c335e9",
+	"descriptionMd5": "899bf536fe9edad1d8a30a8fada5180d"
+}]

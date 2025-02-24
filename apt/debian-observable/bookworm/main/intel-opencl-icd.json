@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "intel-opencl-icd",
+	"source": "intel-compute-runtime",
+	"version": "22.43.24595.41-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.4)",
+		"libigdgmm12 (>= 22.3.2+ds1)",
+		"libstdc++6 (>= 12)",
+		"libigc1 (>= 1.0.12504.6)",
+		"libigc1 (<< 1.0.12504.6+~)",
+		"libigc1+llvm14",
+		"libigdfcl1 (>= 1.0.12504.6)",
+		"libigdfcl1 (<< 1.0.12504.6+~)",
+		"libigdfcl1+llvm14",
+		"ocl-icd-libopencl1"
+	],
+	"replaces": [
+		"intel-opencl"
+	],
+	"breaks": [
+		"intel-opencl"
+	],
+	"installedSize": 22209,
+	"maintainer": "Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>",
+	"description": "Intel graphics compute runtime for OpenCL",
+	"homepage": "https://github.com/intel/compute-runtime",
+	"filename": "pool/main/i/intel-compute-runtime/intel-opencl-icd_22.43.24595.41-1_amd64.deb",
+	"size": 3711452,
+	"md5": "4f845cf45acd201352a222c02c68ee9c",
+	"sha256": "698b08ffaec1da7821daad3965e78b1667a5e6f268fa7ccfaae24fb35c30dd08",
+	"descriptionMd5": "f32be0be82cf119cc00913d59d0ffba0"
+}]

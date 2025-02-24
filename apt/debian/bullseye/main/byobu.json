@@ -1,0 +1,66 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "byobu",
+	"version": "5.133-1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any",
+		"gettext-base",
+		"iproute2",
+		"python3",
+		"python3-newt",
+		"tmux (>= 1.5)",
+		"gawk"
+	],
+	"recommends": [
+		"less",
+		"pastebinit",
+		"sensible-utils",
+		"run-one"
+	],
+	"suggests": [
+		"apport",
+		"ccze",
+		"gnome-terminal | xterm",
+		"gnupg",
+		"lsb-release",
+		"po-debconf",
+		"screen",
+		"speedometer",
+		"ttf-ubuntu-font-family (>= 0.80-0ubuntu1~medium)",
+		"update-notifier-common",
+		"vim",
+		"wireless-tools"
+	],
+	"replaces": [
+		"bikeshed (<< 1.64)",
+		"byobu-extras (<< 2.17)",
+		"screen-profiles (<< 2.0)",
+		"screen-profiles-extras (<< 2.0)"
+	],
+	"enhances": [
+		"screen"
+	],
+	"breaks": [
+		"bikeshed (<< 1.64)",
+		"byobu-extras (<< 2.17)",
+		"screen-profiles (<< 2.0)",
+		"screen-profiles-extras (<< 2.0)"
+	],
+	"installedSize": 696,
+	"maintainer": "Dustin Kirkland <kirkland@ubuntu.com>",
+	"description": "text window manager, shell multiplexer, integrated DevOps environment",
+	"homepage": "http://byobu.org",
+	"filename": "pool/main/b/byobu/byobu_5.133-1_all.deb",
+	"size": 243320,
+	"md5": "1e16fe1bea6b3054824ae7825fc0e6a0",
+	"sha256": "179232d12c6241aa944631502a901e95e9ddaf939d0c763f338787232747ff4d",
+	"descriptionMd5": "0d3627a1db464b5d00445f2b25b3e914"
+}

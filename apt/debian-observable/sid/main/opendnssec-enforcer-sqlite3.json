@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opendnssec-enforcer-sqlite3",
+	"source": "opendnssec",
+	"version": "1:2.1.13-1.2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libdbd-sqlite3-perl",
+		"opendnssec-common (= 1:2.1.13-1.2)",
+		"sqlite3",
+		"libc6 (>= 2.38)",
+		"libldns3t64 (>= 1.7.1)",
+		"libreadline8t64 (>= 6.0)",
+		"libsqlite3-0 (>= 3.6.0)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"recommends": [
+		"opendnssec (= 1:2.1.13-1.2)",
+		"softhsm2"
+	],
+	"replaces": [
+		"opendnssec-enforcer-backend"
+	],
+	"conflicts": [
+		"opendnssec-enforcer-backend"
+	],
+	"installedSize": 922,
+	"maintainer": "Mathieu Mirmont <mat@parad0x.org>",
+	"description": "tool to prepare DNSSEC keys (sqlite3 backend)",
+	"homepage": "https://www.opendnssec.org/",
+	"filename": "pool/main/o/opendnssec/opendnssec-enforcer-sqlite3_2.1.13-1.2_amd64.deb",
+	"size": 235044,
+	"md5": "93d3089973eaf9fbed89169583303f29",
+	"sha256": "2a9f1ac9446178a634ecbb764ab54db63f7ac7184e5a3e674eebc9ff715a8fbb",
+	"descriptionMd5": "bb5604863c8cb8d2017e5b112b4a4fc8"
+}]

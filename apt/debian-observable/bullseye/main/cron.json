@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cron",
+	"version": "3.0pl1-137",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.7)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"debianutils (>= 1.7)",
+		"sensible-utils",
+		"adduser",
+		"lsb-base (>= 3.0-10)",
+		"libpam-runtime (>= 1.0.1-11)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent"
+	],
+	"suggests": [
+		"anacron (>= 2.0-1)",
+		"logrotate",
+		"checksecurity"
+	],
+	"installedSize": 263,
+	"maintainer": "Javier Fernández-Sanguino Peña <jfs@debian.org>",
+	"description": "process scheduling daemon",
+	"homepage": "https://ftp.isc.org/isc/cron/",
+	"filename": "pool/main/c/cron/cron_3.0pl1-137_amd64.deb",
+	"size": 99592,
+	"md5": "f9060334a10f4e2b946c4802942a2319",
+	"sha256": "7e52ed6805d6296764574c6a3ec20ff9d96ae20d4b62befae25f034b78b32e09",
+	"descriptionMd5": "7384e614068d48b9ac2335cb05added3"
+}]

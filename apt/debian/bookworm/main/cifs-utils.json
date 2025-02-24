@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cifs-utils",
+	"version": "2:7.0-2",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkeyutils1 (>= 1.4)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libpam0g (>= 0.99.7.1)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)",
+		"python3"
+	],
+	"recommends": [
+		"keyutils"
+	],
+	"suggests": [
+		"smbclient",
+		"winbind",
+		"bash-completion"
+	],
+	"replaces": [
+		"smbfs (<< 2:4.0~rc1-1)"
+	],
+	"installedSize": 317,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Common Internet File System utilities",
+	"homepage": "https://www.samba.org/~jlayton/cifs-utils/",
+	"filename": "pool/main/c/cifs-utils/cifs-utils_7.0-2_amd64.deb",
+	"size": 94868,
+	"md5": "b7aa8ae5e6985271650a9aea08158815",
+	"sha256": "54ec40bc2a04419adfc807687cd660b40a7167ac2678a190e7954de668e55fb5",
+	"descriptionMd5": "935040b98485786df2e3f301255ff219"
+}

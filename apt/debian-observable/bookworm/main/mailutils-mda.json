@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mailutils-mda",
+	"source": "mailutils",
+	"version": "1:3.15-4",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mailutils-common (= 1:3.15-4)",
+		"guile-3.0-libs",
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libdb5.3",
+		"libgc1 (>= 1:7.2d)",
+		"libgdbm6 (>= 1.16)",
+		"libgnutls30 (>= 3.7.0)",
+		"libgsasl18 (>= 1.1)",
+		"libkyotocabinet16v5 (>= 1.2.79)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libmailutils9",
+		"libmu-dbm9 (>= 1:3.15)",
+		"libnsl2 (>= 1.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpython3.11 (>= 3.11.0)",
+		"libunistring2 (>= 0.9.7)",
+		"libwrap0 (>= 7.6-4~)"
+	],
+	"replaces": [
+		"libmailutils6 (<< 1:3.7-1~)"
+	],
+	"breaks": [
+		"libmailutils6 (<< 1:3.7-1~)"
+	],
+	"installedSize": 649,
+	"maintainer": "Jordi Mallach <jordi@debian.org>",
+	"description": "GNU mailutils utilities for handling mail -- MDA",
+	"homepage": "https://www.gnu.org/software/mailutils/",
+	"filename": "pool/main/m/mailutils/mailutils-mda_3.15-4_amd64.deb",
+	"size": 486008,
+	"md5": "ac4be28932cea7843f48c74b19dfd1f7",
+	"sha256": "1212f7719041cacccb6ff30ae13399220540a4969247d18005f90773167457ea",
+	"descriptionMd5": "380dd342b5dac86ccd3e45b0f932a59a"
+}]

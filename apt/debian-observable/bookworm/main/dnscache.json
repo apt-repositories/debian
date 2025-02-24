@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dnscache",
+	"source": "djbdns (1:1.05-15)",
+	"version": "1:1.05-15+b2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.51)",
+		"runit-helper (>= 2.14.0~)",
+		"sysuser-helper (<< 2.0)",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"daemon",
+		"runit"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-46~)"
+	],
+	"installedSize": 137,
+	"maintainer": "Peter Pentchev <roam@debian.org>",
+	"description": "DNS cache - tool for finding addresses of Internet hosts",
+	"homepage": "http://cr.yp.to/djbdns.html",
+	"filename": "pool/main/d/djbdns/dnscache_1.05-15+b2_amd64.deb",
+	"size": 45280,
+	"md5": "3f8db490fc6730684f8fbbb9b004edd7",
+	"sha256": "ebb1a0b814a7018982f3537c838db63397710c5c98f429d4b12fc8b715755645",
+	"descriptionMd5": "30ba9f7ccf3fdc71e9c68bf2cb1c93fe"
+}]

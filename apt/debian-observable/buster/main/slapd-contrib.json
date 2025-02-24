@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slapd-contrib",
+	"source": "openldap",
+	"version": "2.4.47+dfsg-3+deb10u7",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"slapd (= 2.4.47+dfsg-3+deb10u7)",
+		"libc6 (>= 2.8)",
+		"libkadm5srv8-heimdal (>= 1.4.0+git20110226)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libnettle6"
+	],
+	"replaces": [
+		"slapd-smbk5pwd (<< 2.4.47+dfsg-2~)"
+	],
+	"breaks": [
+		"slapd-smbk5pwd (<< 2.4.47+dfsg-2~)"
+	],
+	"installedSize": 198,
+	"maintainer": "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>",
+	"description": "contributed plugins for OpenLDAP slapd",
+	"homepage": "http://www.openldap.org/",
+	"filename": "pool/main/o/openldap/slapd-contrib_2.4.47+dfsg-3+deb10u7_amd64.deb",
+	"size": 100816,
+	"md5": "ce78f4a8b65713ccc3cd48654e1fce69",
+	"sha256": "813e3f984eabc73c237144781b463fa8c42aa134ea7510c7edd832cd40e73dfd",
+	"descriptionMd5": "ff6e572efbbb94ce9953af67807dabd9"
+}]

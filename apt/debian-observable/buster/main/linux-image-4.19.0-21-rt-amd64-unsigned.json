@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-4.19.0-21-rt-amd64-unsigned",
+	"source": "linux",
+	"version": "4.19.249-2",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-4.19",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-4.19.0-21-rt-amd64"
+	],
+	"breaks": [
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"xserver-xorg-input-vmmouse (<< 1:13.0.99)"
+	],
+	"conflicts": [
+		"linux-image-4.19.0-21-rt-amd64"
+	],
+	"installedSize": 263465,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 4.19 for 64-bit PCs, PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-4.19.0-21-rt-amd64-unsigned_4.19.249-2_amd64.deb",
+	"size": 47500928,
+	"md5": "0841c4bfe6c4b2b1316d71338f4f7071",
+	"sha256": "ad9d115ec6bf4f9d62d4013b0855f3402064e71854af50ae849346d2aae1f4b5",
+	"descriptionMd5": "99880284b5cbd8aeced7f3b6e59556f2"
+}]

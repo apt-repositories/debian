@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pki-tools",
+	"source": "dogtag-pki",
+	"version": "11.2.1-2",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ldap-utils",
+		"libjackson2-annotations-java",
+		"libnss3-tools",
+		"openssl",
+		"p11-kit-modules",
+		"pki-base-java (= 11.2.1-2)",
+		"python3-pki-base (>= 11.2.1-2)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libnspr4 (>= 2:4.12)",
+		"libnss3 (>= 2:3.44.0)",
+		"libstdc++6 (>= 5)"
+	],
+	"replaces": [
+		"pki-base-java (<< 10.10.2-3)",
+		"pki-tps-client (<< 11.2.1-1)"
+	],
+	"breaks": [
+		"pki-base-java (<< 10.10.2-3)",
+		"pki-tps-client (<< 11.2.1-1)"
+	],
+	"conflicts": [
+		"strongswan-pki",
+		"strongswan-starter"
+	],
+	"installedSize": 1748,
+	"maintainer": "Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>",
+	"description": "Certificate System - PKI Tools",
+	"homepage": "http://pki.fedoraproject.org",
+	"filename": "pool/main/d/dogtag-pki/pki-tools_11.2.1-2_amd64.deb",
+	"size": 871768,
+	"md5": "db37212aeb7a90f6159271c88478d568",
+	"sha256": "ff5d6ade09ad209926be2fcedcf265cab79ec2267b5f50e441d92598510a0ca8",
+	"descriptionMd5": "cca3119e0b364843d1edc3523b5fff52"
+}

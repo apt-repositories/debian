@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "transmission-daemon",
+	"source": "transmission",
+	"version": "3.00-2.1+deb12u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.0)",
+		"transmission-common (= 3.00-2.1+deb12u1)",
+		"libc6 (>= 2.34)",
+		"libcurl4 (>= 7.18.0)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"libminiupnpc17 (>= 1.9.20140610)",
+		"libnatpmp1 (>= 20150609)",
+		"libssl3 (>= 3.0.0)",
+		"libsystemd0",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"recommends": [
+		"transmission-cli (>= 1.50-1)"
+	],
+	"replaces": [
+		"transmission-cli (<< 1.40-1)"
+	],
+	"breaks": [
+		"transmission-cli (<< 1.40-1)"
+	],
+	"installedSize": 599,
+	"maintainer": "Sandro Tosi <morph@debian.org>",
+	"description": "lightweight BitTorrent client (daemon)",
+	"homepage": "https://transmissionbt.com/",
+	"filename": "pool/main/t/transmission/transmission-daemon_3.00-2.1+deb12u1_amd64.deb",
+	"size": 233520,
+	"md5": "50e7c0cea5c09d2944f7d825f00d5fe5",
+	"sha256": "7c578ce824303efb322d9f4974bfd324acc3a7e203467305aa89506c61c449e9",
+	"descriptionMd5": "c5796eb91f75285b9af0fb5f16136e5d"
+}

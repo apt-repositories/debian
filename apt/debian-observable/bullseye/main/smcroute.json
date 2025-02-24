@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "smcroute",
+	"version": "2.4.4-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libcap2 (>= 1:2.10)",
+		"libsystemd0",
+		"lsb-base (>= 3.0-6)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"conflicts": [
+		"mrouted",
+		"pimd",
+		"quagga-pimd"
+	],
+	"installedSize": 152,
+	"maintainer": "Micha Lenk <micha@debian.org>",
+	"description": "static multicast router daemon",
+	"homepage": "http://troglobit.com/smcroute.html",
+	"filename": "pool/main/s/smcroute/smcroute_2.4.4-3_amd64.deb",
+	"size": 59872,
+	"md5": "676139918dccd164b12c602324246d6b",
+	"sha256": "f77909e7fce825dab3e180097dc3b6cde1cda0447d83c914d4fc44882212dc30",
+	"descriptionMd5": "d93f96b4858be89be53d345ac6a56222"
+}]

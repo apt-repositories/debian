@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "plymouth",
+	"version": "0.9.4-1.1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.18)",
+		"initramfs-tools | dracut",
+		"lsb-base (>= 3.0-6)",
+		"systemd (>= 232-8~)",
+		"udev (>= 232-8~)",
+		"libc6 (>= 2.14)",
+		"libdrm2 (>= 2.4.47)",
+		"libplymouth4 (>= 0.9.4)"
+	],
+	"suggests": [
+		"desktop-base",
+		"plymouth-themes"
+	],
+	"replaces": [
+		"plymouth-drm (<< 0.9.0-6~)",
+		"plymouth-themes (<< 0.9.0-8~)"
+	],
+	"breaks": [
+		"plymouth-drm (<< 0.9.0-6~)",
+		"plymouth-themes (<< 0.9.0-8~)"
+	],
+	"conflicts": [
+		"console-common"
+	],
+	"installedSize": 483,
+	"maintainer": "Laurent Bigonville <bigon@debian.org>",
+	"description": "boot animation, logger and I/O multiplexer",
+	"homepage": "http://www.freedesktop.org/wiki/Software/Plymouth",
+	"filename": "pool/main/p/plymouth/plymouth_0.9.4-1.1_amd64.deb",
+	"size": 118848,
+	"md5": "5de5ba9c04d44f1a3feb1c09051ed58e",
+	"sha256": "c78e385b5fa5763746729457bf357d56a8ea961b52bc5dfe27dd40e4a39ca58d",
+	"descriptionMd5": "3bdea2047eb9e9c5a5a0546b4dbac457"
+}

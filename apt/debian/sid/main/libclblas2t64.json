@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclblas2t64",
+	"source": "clblas",
+	"version": "2.12-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 13.1)",
+		"ocl-icd-libopencl1 | libopencl1",
+		"ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1"
+	],
+	"replaces": [
+		"libclblas2"
+	],
+	"breaks": [
+		"libclblas2 (<< 2.12-6)"
+	],
+	"installedSize": 22852,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "OpenCL BLAS library",
+	"homepage": "https://github.com/clMathLibraries/clBLAS",
+	"filename": "pool/main/c/clblas/libclblas2t64_2.12-6_amd64.deb",
+	"size": 1004856,
+	"md5": "610d05f5ceba38046f0f98e592bcbea2",
+	"sha256": "439d2c7ebeea79eb7f10ac6f806b4c0a1e11c3a0a5af8711bfb953ee3a90416e",
+	"descriptionMd5": "9bd18cc8493ff161cbe6384273f85137"
+}

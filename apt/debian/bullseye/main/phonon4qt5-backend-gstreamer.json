@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "phonon4qt5-backend-gstreamer",
+	"source": "phonon-backend-gstreamer",
+	"version": "4:4.10.0-1",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gstreamer1.0-plugins-base",
+		"gstreamer1.0-pulseaudio | gstreamer1.0-alsa | gstreamer1.0-audiosink",
+		"phonon-backend-gstreamer-common (= 4:4.10.0-1)",
+		"libc6 (>= 2.14)",
+		"libgl1",
+		"libglib2.0-0 (>= 2.16.0)",
+		"libgstreamer-plugins-base1.0-0 (>= 1.0.0)",
+		"libgstreamer1.0-0 (>= 1.0.0)",
+		"libphonon4qt5-4 (>= 4:4.10.60~)",
+		"libqt5core5a (>= 5.12.2)",
+		"libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2)",
+		"libqt5opengl5 (>= 5.0.2)",
+		"libqt5widgets5 (>= 5.6.0~beta)",
+		"libqt5x11extras5 (>= 5.6.0)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"recommends": [
+		"gstreamer1.0-plugins-good"
+	],
+	"suggests": [
+		"gstreamer1.0-plugins-ugly"
+	],
+	"installedSize": 658,
+	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
+	"description": "Phonon Qt5 GStreamer 1.0 backend",
+	"homepage": "http://phonon.kde.org/",
+	"filename": "pool/main/p/phonon-backend-gstreamer/phonon4qt5-backend-gstreamer_4.10.0-1_amd64.deb",
+	"size": 132616,
+	"md5": "633de77900f45ec76aabbbe5c3efdc71",
+	"sha256": "05e956c0e0ecf9f2e242ecc991a9806db41c171f3b9748bb565695b86ff9ce7d",
+	"descriptionMd5": "be7875e4b4dcdedfc7696a12607ba5ed"
+}

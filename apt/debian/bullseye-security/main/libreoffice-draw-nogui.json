@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-draw-nogui",
+	"source": "libreoffice",
+	"version": "1:7.0.4-4+deb11u12",
+	"section": "editors",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core-nogui (= 1:7.0.4-4+deb11u12) | libreoffice-core (= 1:7.0.4-4+deb11u12)",
+		"ucf (>= 0.8)",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libc6 (>= 2.14)",
+		"libcdr-0.1-1",
+		"libfreehand-0.1-1",
+		"libgcc-s1 (>= 3.0)",
+		"libmspub-0.1-1",
+		"libmwaw-0.3-3",
+		"libodfgen-0.1-1",
+		"libpagemaker-0.0-0",
+		"libqxp-0.0-0",
+		"librevenge-0.0-0",
+		"libstaroffice-0.0-0",
+		"libstdc++6 (>= 9)",
+		"libuno-cppu3 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha)",
+		"libuno-sal3 (>= 5.3.0~alpha)",
+		"libuno-salhelpergcc3-3 (>= 3.6.0~beta)",
+		"libvisio-0.1-1",
+		"libwpg-0.3-3",
+		"libxml2 (>= 2.8)",
+		"libzmf-0.0-0",
+		"uno-libs-private"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-draw",
+		"libreoffice-impress (<< 1:5.2.0-2)"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-impress (<< 1:5.2.0-2)"
+	],
+	"conflicts": [
+		"libreoffice-draw"
+	],
+	"installedSize": 10144,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "office productivity suite -- drawing (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/updates/main/libr/libreoffice/libreoffice-draw-nogui_7.0.4-4+deb11u12_amd64.deb",
+	"size": 2722848,
+	"sha256": "6b1edbf615e332d8a9e68b1387f4e6bb752c9d862e11e25cb34eace866474f86",
+	"descriptionMd5": "c4d7d9707b31ef9344d70e006f7a27af"
+}

@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "akonadi-server",
+	"source": "akonadi",
+	"version": "4:20.08.3-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"akonadi-backend-mysql (= 4:20.08.3-3) | akonadi-backend-sqlite (= 4:20.08.3-3) | akonadi-backend-postgresql (= 4:20.08.3-3)",
+		"libaccounts-qt5-1 (>= 1.15~)",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libkf5akonadiprivate5-20.08",
+		"libkf5akonadiprivate5abi2 (>= 4:20.08.3)",
+		"libkf5akonadiwidgets5-20.08",
+		"libkf5akonadiwidgets5abi1 (>= 4:20.08.3)",
+		"libkf5configcore5 (>= 5.71.0~)",
+		"libkf5coreaddons5 (>= 5.71.0~)",
+		"libkf5crash5 (>= 5.71.0~)",
+		"libkf5i18n5 (>= 5.71.0~)",
+		"libqt5core5a (>= 5.15.1)",
+		"libqt5dbus5 (>= 5.14.1)",
+		"libqt5gui5 (>= 5.13.0~) | libqt5gui5-gles (>= 5.13.0~)",
+		"libqt5network5 (>= 5.13.0~)",
+		"libqt5sql5 (>= 5.13.0~)",
+		"libqt5widgets5 (>= 5.13.0~)",
+		"libqt5xml5 (>= 5.13.0~)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"suggests": [
+		"akonadi-backend-mysql (= 4:20.08.3-3)",
+		"akonadi-backend-postgresql (= 4:20.08.3-3)",
+		"akonadi-backend-sqlite (= 4:20.08.3-3)"
+	],
+	"replaces": [
+		"kdepimlibs-data (<< 4:16.04)"
+	],
+	"breaks": [
+		"kdepimlibs-data (<< 4:16.04)",
+		"libkf5akonadi-data (<< 4:19.08.2-1~)",
+		"libkf5akonadi-dev-bin (<< 4:18.08.3-8~)"
+	],
+	"installedSize": 2822,
+	"maintainer": "Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
+	"description": "Akonadi PIM storage service",
+	"homepage": "https://invent.kde.org/pim/akonadi",
+	"filename": "pool/main/a/akonadi/akonadi-server_20.08.3-3_amd64.deb",
+	"size": 868864,
+	"md5": "eeeab900b5c6bc9eda3d3706ba432e57",
+	"sha256": "008dd14f89c3d0215e5a482e2cd662c8758da054df18bf63fb0e795c13273ba4",
+	"descriptionMd5": "80144a9a021e5f971cbb61777684d38e"
+}

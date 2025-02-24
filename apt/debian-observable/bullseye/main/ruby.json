@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ruby",
+	"source": "ruby-defaults",
+	"version": "1:2.7+2",
+	"section": "ruby",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ruby2.7",
+		"ruby-rubygems"
+	],
+	"suggests": [
+		"ri",
+		"ruby-dev"
+	],
+	"replaces": [
+		"irb",
+		"rdoc",
+		"rubygems"
+	],
+	"breaks": [
+		"apt-listbugs (<< 0.1.6)",
+		"rbenv (<= 0.4.0-1)",
+		"ruby-bootsnap (<< 1.4.6-1)",
+		"ruby-debian (<< 0.3.8+b3)",
+		"ruby-switch (<= 0.1.0)"
+	],
+	"conflicts": [
+		"ruby-activesupport-2.3",
+		"ruby-activesupport-3.2"
+	],
+	"installedSize": 35,
+	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "Interpreter of object-oriented scripting language Ruby (default version)",
+	"homepage": "https://www.ruby-lang.org/",
+	"filename": "pool/main/r/ruby-defaults/ruby_2.7+2_amd64.deb",
+	"size": 11708,
+	"md5": "96930f034fe84f91cee71d0b46cbee47",
+	"sha256": "bfef89ab7b12d4048f4692764f0a39c2c855abe01689733d31bd244aed77dbb1",
+	"descriptionMd5": "53b76e874611c6e48c73acd5da40075e"
+}]

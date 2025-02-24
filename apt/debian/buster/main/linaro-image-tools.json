@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linaro-image-tools",
+	"version": "2016.05-1.1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"apt-utils",
+		"dosfstools",
+		"e2fsprogs",
+		"fdisk | util-linux (<< 2.29.2-3~)",
+		"gdisk",
+		"parted",
+		"python (>= 2.6.6-3~)",
+		"python-argparse",
+		"python-dbus",
+		"python-debian (>= 0.1.16ubuntu1~)",
+		"python-linaro-image-tools (>= 2016.05-1.1)",
+		"python-parted",
+		"python-yaml",
+		"sudo",
+		"u-boot-tools | uboot-mkimage",
+		"python:any (>= 2.6~)"
+	],
+	"recommends": [
+		"btrfs-progs",
+		"command-not-found",
+		"qemu-user-static | qemu-kvm-extras-static",
+		"udisks2"
+	],
+	"installedSize": 66,
+	"maintainer": "Linaro Packagers <packages@lists.linaro.org>",
+	"description": "collection of tools to work with Linaro images",
+	"filename": "pool/main/l/linaro-image-tools/linaro-image-tools_2016.05-1.1_amd64.deb",
+	"size": 15752,
+	"md5": "175459fc35db044c7569f82818782906",
+	"sha256": "050eac2af517ff5e414229ab7863cab1ef93ebc6b84f64d7b4be788e6ad7d406",
+	"descriptionMd5": "72dcd8474ae77a9d84c1fe3c324f6b65"
+}

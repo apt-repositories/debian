@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "groonga-server-gqtp",
+	"source": "groonga",
+	"version": "14.1.0+dfsg-3",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"groonga-server-common (= 14.1.0+dfsg-3)",
+		"sysvinit-utils (>= 3.05-4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"groonga-server (<< 2.0.7-1)"
+	],
+	"breaks": [
+		"groonga-server (<< 2.0.7-1)"
+	],
+	"installedSize": 51,
+	"maintainer": "Kentaro Hayashi <kenhys@xdump.org>",
+	"description": "Fulltext search engine (metapackage for GQTP server use)",
+	"homepage": "https://groonga.org/",
+	"filename": "pool/main/g/groonga/groonga-server-gqtp_14.1.0+dfsg-3_all.deb",
+	"size": 12096,
+	"md5": "a73f8eadb13a0783e84b533bd7293152",
+	"sha256": "d748bef5fc60ba3ba5259482c4a09498494e48b312dd4ff52ab76554310a1b70",
+	"descriptionMd5": "eb75d9af8bca61352d9eccc80918e801"
+}

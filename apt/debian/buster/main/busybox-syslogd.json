@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "busybox-syslogd",
+	"source": "busybox",
+	"version": "1:1.30.1-4",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox (>> 1:1.30.1) | busybox-static (>> 1:1.30.1)",
+		"lsb-base"
+	],
+	"conflicts": [
+		"linux-kernel-log-daemon",
+		"system-log-daemon"
+	],
+	"installedSize": 61,
+	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
+	"description": "Provides syslogd and klogd using busybox",
+	"homepage": "http://www.busybox.net",
+	"filename": "pool/main/b/busybox/busybox-syslogd_1.30.1-4_all.deb",
+	"size": 26052,
+	"md5": "8d17236ae99dfa9dd2df4ade270ff394",
+	"sha256": "9bf846f0b25301c8158927e3e9893ea33b29d9b6ef1519c60f5d11a352e53b4b",
+	"descriptionMd5": "6d204aacbcadc9711030ab99f904ca3b"
+}

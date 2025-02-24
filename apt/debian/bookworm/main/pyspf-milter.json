@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pyspf-milter",
+	"source": "spf-engine",
+	"version": "3.0.4-2",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"postfix | sendmail",
+		"adduser",
+		"python3-milter",
+		"python3-spf-engine (= 3.0.4-2)",
+		"python3-pkg-resources"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 48,
+	"maintainer": "Scott Kitterman <scott@kitterman.com>",
+	"description": "Modern milter for SPF checking",
+	"homepage": "https://launchpad.net/spf-engine",
+	"filename": "pool/main/s/spf-engine/pyspf-milter_3.0.4-2_all.deb",
+	"size": 20568,
+	"md5": "b9b10c09f8a0723a70e15aa49148b7b3",
+	"sha256": "6fe60812590a65bf83d145b9f0c812c2b294dda9f9a25e0f9d5ebe24da8e90a8",
+	"descriptionMd5": "ac95859bcaddda93a8a59d2aac7cece3"
+}

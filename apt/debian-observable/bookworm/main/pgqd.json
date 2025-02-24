@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pgqd",
+	"version": "3.5-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base",
+		"postgresql-common",
+		"libc6 (>= 2.34)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"libpq5"
+	],
+	"replaces": [
+		"skytools3-ticker"
+	],
+	"conflicts": [
+		"skytools3-ticker (<< 3.3)"
+	],
+	"installedSize": 106,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Queue maintenance daemon for PgQ",
+	"homepage": "https://github.com/pgq/pgqd",
+	"filename": "pool/main/p/pgqd/pgqd_3.5-1_amd64.deb",
+	"size": 31720,
+	"md5": "52eebdb6e903efc07406ca8f8c803afe",
+	"sha256": "da6dbe18e2af78dc3aa68f6b02fcaae7fe72904d74ba5401de75b09e55df8172",
+	"descriptionMd5": "84f5c20928790b58bdde69e97e9b84ec"
+}]

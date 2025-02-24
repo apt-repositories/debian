@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-authdaemon",
+	"source": "courier-authlib",
+	"version": "0.72.3-4",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"courier-authlib (>= 0.72.3-4)",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"courier-authlib (<< 0.71.1-2~)"
+	],
+	"breaks": [
+		"courier-authlib (<< 0.71.1-2~)"
+	],
+	"installedSize": 131,
+	"maintainer": "Soren Stoutner <soren@debian.org>",
+	"description": "Courier authentication daemon",
+	"homepage": "https://www.courier-mta.org/",
+	"filename": "pool/main/c/courier-authlib/courier-authdaemon_0.72.3-4_amd64.deb",
+	"size": 38052,
+	"md5": "eb15fca21435d2d1328ff5a9c4720965",
+	"sha256": "3883de318f9fa91d1c1b028201589c625ec1d72a133b50a64da37e5b02582248",
+	"descriptionMd5": "48c71af6b56ddad7d969cb6a2ff8a060"
+}]

@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.10.0-33-cloud-amd64",
+	"source": "linux-signed-amd64 (5.10.226+1)",
+	"version": "5.10.226-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-5.10",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-5.10.0-33-cloud-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)",
+		"xserver-xorg-input-vmmouse (<< 1:13.0.99)"
+	],
+	"conflicts": [
+		"linux-image-5.10.0-33-cloud-amd64-unsigned"
+	],
+	"installedSize": 82657,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 5.10 for x86-64 cloud (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 5.10.226-1)",
+	"filename": "pool/updates/main/l/linux-signed-amd64/linux-image-5.10.0-33-cloud-amd64_5.10.226-1_amd64.deb",
+	"size": 21047124,
+	"sha256": "90474d9b2118378cea8612d55f152c64dbcb1fc6f46803ab5d9dbedea439c7f1",
+	"descriptionMd5": "eacbefb3d5f4c0dfb9ee42bcbd3901c2"
+}

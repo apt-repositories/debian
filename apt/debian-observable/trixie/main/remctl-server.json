@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "remctl-server",
+	"source": "remctl (3.18-2)",
+	"version": "3.18-2+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"netbase",
+		"update-inetd | inet-superserver",
+		"libc6 (>= 2.38)",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libsystemd0"
+	],
+	"recommends": [
+		"openbsd-inetd | inet-superserver",
+		"tcpd"
+	],
+	"installedSize": 252,
+	"maintainer": "Russ Allbery <rra@debian.org>",
+	"description": "Server for Kerberos-authenticated command execution",
+	"homepage": "https://www.eyrie.org/~eagle/software/remctl/",
+	"filename": "pool/main/r/remctl/remctl-server_3.18-2+b1_amd64.deb",
+	"size": 107984,
+	"md5": "35900271c7b856cfe8e886a60cab87e9",
+	"sha256": "a5a90f7c1aebeef06b0a834d5a2f2c84abc57f5f5b14caa13341c5a48b810dae",
+	"descriptionMd5": "257dcaa873396308d41f247d9cb1bc08"
+}]

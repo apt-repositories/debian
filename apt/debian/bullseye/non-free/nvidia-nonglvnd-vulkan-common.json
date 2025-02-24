@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-nonglvnd-vulkan-common",
+	"source": "nvidia-graphics-drivers",
+	"version": "470.256.02-2",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"suggests": [
+		"nvidia-tesla-418-nonglvnd-vulkan-icd | nvidia-legacy-390xx-nonglvnd-vulkan-icd"
+	],
+	"conflicts": [
+		"libgl1-nvidia-glvnd-glx",
+		"libgl1-nvidia-legacy-390xx-glvnd-glx",
+		"libgl1-nvidia-tesla-418-glvnd-glx",
+		"libgl1-nvidia-tesla-440-glvnd-glx",
+		"libgl1-nvidia-tesla-450-glvnd-glx",
+		"libgl1-nvidia-tesla-460-glvnd-glx",
+		"libgl1-nvidia-tesla-470-glvnd-glx",
+		"libgl1-nvidia-tesla-510-glvnd-glx",
+		"libgl1-nvidia-tesla-glvnd-glx",
+		"nvidia-vulkan-common"
+	],
+	"installedSize": 267,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA Vulkan driver - common files (non-GLVND variant)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-nonglvnd-vulkan-common_470.256.02-2_amd64.deb",
+	"size": 249384,
+	"md5": "0e1f5f8fc842e5b15cab545ebbbd42c1",
+	"sha256": "f656376d5b76cced6555a6ec038047b60e51ee623be67779be0d33d80f4649e3",
+	"descriptionMd5": "03b8acfde5cb1717f9aa067248e0cbc3"
+}

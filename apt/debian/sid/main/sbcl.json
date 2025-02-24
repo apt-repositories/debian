@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sbcl",
+	"version": "2:2.5.1-1",
+	"section": "lisp",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libzstd1 (>= 1.5.5)"
+	],
+	"recommends": [
+		"binfmt-support | systemd"
+	],
+	"suggests": [
+		"sbcl-doc",
+		"sbcl-source",
+		"slime"
+	],
+	"breaks": [
+		"cl-asdf (<< 2:3.3.3-4~)",
+		"cl-cffi (<< 1:0.22.1-1~)",
+		"cl-nibbles (<< 20210520.gitdad2524-1~)"
+	],
+	"installedSize": 51875,
+	"maintainer": "Debian Common Lisp Team <debian-common-lisp@lists.debian.org>",
+	"description": "Common Lisp compiler and development system",
+	"homepage": "http://www.sbcl.org",
+	"filename": "pool/main/s/sbcl/sbcl_2.5.1-1_amd64.deb",
+	"size": 10209084,
+	"md5": "522cfeaf0d3cf170384b3a31ef3fc50b",
+	"sha256": "07198647b83b7e2457f267357da57ea3aa2104e5c2d3350685289e7699838c4f",
+	"descriptionMd5": "eb1113dee9d2ad5949c6cfc6301108ec"
+}

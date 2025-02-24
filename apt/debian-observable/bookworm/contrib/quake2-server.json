@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "quake2-server",
+	"source": "game-data-packager",
+	"version": "73",
+	"section": "contrib/games",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"quake2-full-data | quake2-demo-data | game-data-packager",
+		"yamagi-quake2-core | quake2-engine-server",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"quake2-groundzero-data",
+		"quake2-reckoning-data"
+	],
+	"installedSize": 155,
+	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
+	"description": "dedicated server for Quake II",
+	"homepage": "https://wiki.debian.org/Games/GameDataPackager",
+	"filename": "pool/contrib/g/game-data-packager/quake2-server_73_all.deb",
+	"size": 31520,
+	"md5": "cf116c23b3f39585f8b7468c7f44e781",
+	"sha256": "576f57238eb98cc18bc75509a6f72bfe56c709b05991b2bb0e8387220cdd4bf7",
+	"descriptionMd5": "083b1ceafe9ac6ce848313811be0e4de"
+}]

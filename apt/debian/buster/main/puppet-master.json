@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "puppet-master",
+	"source": "puppet",
+	"version": "5.5.10-4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"puppet (= 5.5.10-4)",
+		"ruby | ruby-interpreter",
+		"lsb-base (>= 3.0-6)"
+	],
+	"replaces": [
+		"puppetmaster (<< 4.8.1-3)"
+	],
+	"breaks": [
+		"puppetmaster (<< 4.8.1-3)"
+	],
+	"installedSize": 62,
+	"maintainer": "Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>",
+	"description": "configuration management system, master service",
+	"homepage": "https://github.com/puppetlabs/puppet",
+	"filename": "pool/main/p/puppet/puppet-master_5.5.10-4_all.deb",
+	"size": 25560,
+	"md5": "4305c003076352d90f94338412741134",
+	"sha256": "745b4bed0ba32d6813b7356f950c114fd3566e1b5b5e5b2f09d46d6f907bd8cf",
+	"descriptionMd5": "f2e308ab22471d2664f4aeaee83bddac"
+}

@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "snmpd",
+	"source": "net-snmp (5.9.4+dfsg-1.1)",
+	"version": "5.9.4+dfsg-1.1+b3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libsnmp40t64 (= 5.9.4+dfsg-1.1+b3)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"adduser",
+		"debconf",
+		"libsnmp-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"snmptrapd"
+	],
+	"replaces": [
+		"libsnmp-dev (<< 5.8+dfsg-3)"
+	],
+	"breaks": [
+		"libsnmp-dev (<< 5.8+dfsg-3)"
+	],
+	"installedSize": 147,
+	"maintainer": "Craig Small <csmall@debian.org>",
+	"description": "SNMP (Simple Network Management Protocol) agents",
+	"homepage": "https://net-snmp.sourceforge.net/",
+	"filename": "pool/main/n/net-snmp/snmpd_5.9.4+dfsg-1.1+b3_amd64.deb",
+	"size": 57768,
+	"md5": "343414e788d902936d04c6154d9b2e04",
+	"sha256": "832041bc1641b395beee2e721f6b54130cea832bf4db128445c52f0bb1d4672a",
+	"descriptionMd5": "9dc6ec703377042ed23b16c47ed5cb6c"
+}]

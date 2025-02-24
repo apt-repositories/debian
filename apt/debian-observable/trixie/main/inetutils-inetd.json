@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-inetd",
+	"source": "inetutils",
+	"version": "2:2.6-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"inetutils-syslogd | system-log-daemon | systemd-sysv",
+		"sysvinit-utils (>= 3.05-4~)",
+		"tcpd",
+		"update-inetd"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"conflicts": [
+		"inet-superserver"
+	],
+	"installedSize": 164,
+	"maintainer": "Guillem Jover <guillem@debian.org>",
+	"description": "internet super server",
+	"homepage": "https://www.gnu.org/software/inetutils/",
+	"filename": "pool/main/i/inetutils/inetutils-inetd_2.6-1_amd64.deb",
+	"size": 84976,
+	"md5": "d14ce6458d3fdf39c045c3885a5dfa13",
+	"sha256": "36ac9ed7cd34e384415abe33b86f92d8f6dca611ea8914c24db3c46c02d6b810",
+	"descriptionMd5": "4d6f447fb5156051840d637383dc72ad"
+}]

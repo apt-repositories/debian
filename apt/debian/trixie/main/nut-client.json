@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nut-client",
+	"source": "nut",
+	"version": "2.8.1-4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.38)",
+		"libsystemd0 (>= 246)",
+		"libupsclient6t64 (>= 2.8.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"bash-completion"
+	],
+	"suggests": [
+		"nut-monitor"
+	],
+	"replaces": [
+		"ups-monitor"
+	],
+	"conflicts": [
+		"ups-monitor"
+	],
+	"installedSize": 920,
+	"maintainer": "Laurent Bigonville <bigon@debian.org>",
+	"description": "network UPS tools - clients",
+	"homepage": "https://networkupstools.org/",
+	"filename": "pool/main/n/nut/nut-client_2.8.1-4_amd64.deb",
+	"size": 540660,
+	"md5": "8e315e1ee50f981cd55ebed13903f98e",
+	"sha256": "e28868be82b8c470d621531cef321fb35001eed7cff3983b1052a96d818a8b90",
+	"descriptionMd5": "30f1061db3258a7a5c46e18466afa6c0"
+}

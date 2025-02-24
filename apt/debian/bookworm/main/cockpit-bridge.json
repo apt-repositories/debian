@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cockpit-bridge",
+	"source": "cockpit",
+	"version": "287.1-0+deb12u3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libglib2.0-0 (>= 2.67.1)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
+		"libpolkit-agent-1-0 (>= 0.105)",
+		"libpolkit-gobject-1-0 (>= 0.104)",
+		"libssh-4 (>= 0.10.4)",
+		"libsystemd0 (>= 235)",
+		"glib-networking"
+	],
+	"replaces": [
+		"cockpit-dashboard (<< 170.x)",
+		"cockpit-ws (<< 181.x)"
+	],
+	"breaks": [
+		"cockpit-ws (<< 181.x)"
+	],
+	"installedSize": 736,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
+	"description": "Cockpit bridge server-side component",
+	"homepage": "https://cockpit-project.org/",
+	"filename": "pool/main/c/cockpit/cockpit-bridge_287.1-0+deb12u3_amd64.deb",
+	"size": 249712,
+	"md5": "a09ab21edb30cf6c0c50c46793d3634e",
+	"sha256": "8fdd58f6c7f07a4a5097ca8c3b5a03e77c81b8721468c7465e67aecf3a2573a3",
+	"descriptionMd5": "34419f40043aa83e9a0fb5968fe56ce7"
+}

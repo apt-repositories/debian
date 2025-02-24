@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rng-tools-debian",
+	"version": "2-unofficial-mt.14-3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"lsb-base",
+		"udev (>= 0.053) | makedev (>= 2.3.1-77)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"intel-rng-tools",
+		"rng-tools"
+	],
+	"conflicts": [
+		"intel-rng-tools",
+		"rng-tools"
+	],
+	"installedSize": 124,
+	"maintainer": "Thorsten Glaser <tg@mirbsd.de>",
+	"description": "daemon to use a Hardware TRNG (classic version)",
+	"filename": "pool/main/r/rng-tools-debian/rng-tools-debian_2-unofficial-mt.14-3_amd64.deb",
+	"size": 45264,
+	"md5": "aea3fb32044be114b5778dfc4d5a186a",
+	"sha256": "8c36eee53b38a2a565621d6a47e3c00734df2cb49ac173633bbc1f4341efc1c2",
+	"descriptionMd5": "92853c313852972f917ddd479b6d7b05"
+}]

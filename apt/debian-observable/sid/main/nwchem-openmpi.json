@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nwchem-openmpi",
+	"source": "nwchem (7.2.3-7)",
+	"version": "7.2.3-7+b1",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openmpi-bin",
+		"nwchem-data (= 7.2.3-7)",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.0)",
+		"libgfortran5 (>= 10)",
+		"liblapack3 | liblapack.so.3",
+		"libopenmpi40 (>= 5.0.6)",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libscalapack-openmpi2.2 (>= 2.2.1)"
+	],
+	"replaces": [
+		"nwchem (<< 7.2.3-4)"
+	],
+	"breaks": [
+		"nwchem (<< 7.2.3-4)"
+	],
+	"installedSize": 71666,
+	"maintainer": "Debichem Team <debichem-devel@lists.alioth.debian.org>",
+	"description": "High-performance computational chemistry software (OpenMPI build)",
+	"homepage": "https://nwchemgit.github.io",
+	"filename": "pool/main/n/nwchem/nwchem-openmpi_7.2.3-7+b1_amd64.deb",
+	"size": 13746560,
+	"md5": "a029647eed125fdd23567e898fbba3b8",
+	"sha256": "58a2ea4860e1bc52681874633fe8e178d726f0b7e22a504e51392c7807de5946",
+	"descriptionMd5": "eed3daa9b150455e24c0e1cb76475134"
+}]

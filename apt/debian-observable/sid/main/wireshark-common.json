@@ -1,0 +1,56 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wireshark-common",
+	"source": "wireshark",
+	"version": "4.4.4-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libgcrypt20 (>= 1.11.0)",
+		"libglib2.0-0t64 (>= 2.76.0)",
+		"libmaxminddb0 (>= 1.0.2)",
+		"libnl-3-200 (>= 3.2.21)",
+		"libnl-genl-3-200 (>= 3.2.21)",
+		"libnl-route-3-200 (>= 3.2.7)",
+		"libpcap0.8t64 (>= 1.5.1)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libspeexdsp1 (>= 1.2.1)",
+		"libssh-4 (>= 0.8.0)",
+		"libsystemd0 (>= 246)",
+		"libwireshark18 (>= 4.4.4-1)",
+		"libwiretap15 (>= 4.4.4-1)",
+		"libwsutil16 (>= 4.4.0)",
+		"zlib1g (>= 1:1.1.4)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"debconf",
+		"libcap2-bin"
+	],
+	"recommends": [
+		"wireshark (>= 4.4.4-1) | tshark (>= 4.4.4-1)"
+	],
+	"replaces": [
+		"wireshark (<< 2.0.0~)",
+		"wireshark-qt (<< 2.0.0~rc3+g841d5e1)"
+	],
+	"breaks": [
+		"wireshark (<< 2.0.0~)",
+		"wireshark-gtk (<< 3.0.0)",
+		"wireshark-qt (<< 2.0.0~rc3+g841d5e1)"
+	],
+	"installedSize": 1741,
+	"maintainer": "Balint Reczey <balint@balintreczey.hu>",
+	"description": "network traffic analyzer - common files",
+	"homepage": "https://www.wireshark.org/",
+	"filename": "pool/main/w/wireshark/wireshark-common_4.4.4-1_amd64.deb",
+	"size": 679544,
+	"md5": "7841f9b2477c843957e33be952cd3622",
+	"sha256": "e6c075a32d0cd59d8ea908b26cbfe799ab03aef8c2ee8462721f8df44fd08429",
+	"descriptionMd5": "b1c29e0c6a4eee149d83574a64f12c2b"
+}]

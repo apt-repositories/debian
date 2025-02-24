@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liballegro4.4t64",
+	"source": "allegro4.4 (2:4.4.3.1-5)",
+	"version": "2:4.4.3.1-5+b2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libasound2t64 (>= 1.0.16)",
+		"libc6 (>= 2.38)",
+		"libx11-6",
+		"libxcursor1 (>> 1.1.2)",
+		"libxext6",
+		"libxpm4",
+		"libxxf86dga1 (>= 2:1.1.5)",
+		"libxxf86vm1"
+	],
+	"replaces": [
+		"liballegro4.4",
+		"liballegro4.4-plugin-alsa (<= 2:4.4.2-4)"
+	],
+	"breaks": [
+		"liballegro4.4 (<< 2:4.4.3.1-5)",
+		"liballegro4.4-plugin-alsa (<= 2:4.4.2-4)"
+	],
+	"installedSize": 1233,
+	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
+	"description": "portable library for cross-platform game and multimedia development",
+	"homepage": "http://www.liballeg.org",
+	"filename": "pool/main/a/allegro4.4/liballegro4.4t64_4.4.3.1-5+b2_amd64.deb",
+	"size": 446060,
+	"md5": "c4902d8afb75188e30b54fd438c13599",
+	"sha256": "7e8449d4b8b54bec60a7e113ff8ed31cae2e86ae76aa0afc833a896ac88c2d53",
+	"descriptionMd5": "0b55a0d3ce990915ca710be119686ac7"
+}

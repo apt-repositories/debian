@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rpcbind",
+	"version": "1.2.5-9",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libsystemd0",
+		"libtirpc3 (>= 1.0.2)",
+		"libwrap0 (>= 7.6-4~)",
+		"lsb-base (>= 4.1+Debian3)",
+		"adduser"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"libc-bin (<< 2.16)"
+	],
+	"breaks": [
+		"libc-bin (<< 2.16)"
+	],
+	"conflicts": [
+		"portmap"
+	],
+	"installedSize": 156,
+	"maintainer": "Josue Ortega <josue@debian.org>",
+	"description": "converts RPC program numbers into universal addresses",
+	"homepage": "http://sourceforge.net/projects/rpcbind/",
+	"filename": "pool/main/r/rpcbind/rpcbind_1.2.5-9_amd64.deb",
+	"size": 51440,
+	"md5": "ee9c03908303f04de7a31dae59f15b5d",
+	"sha256": "db9236272edda76e6d40fcf986e323706708ae6f2a2160191f9bff4916fb4184",
+	"descriptionMd5": "595a8e4c17168e18f4843c47dfec5895"
+}

@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-legacy-390xx-kernel-support",
+	"source": "nvidia-graphics-drivers-legacy-390xx",
+	"version": "390.157-1~deb11u1",
+	"section": "non-free/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-legacy-390xx-alternative (= 390.157-1~deb11u1)",
+		"nvidia-legacy-390xx-alternative--kmod-alias",
+		"nvidia-kernel-common (>= 20151021)",
+		"nvidia-modprobe (>= 390)"
+	],
+	"replaces": [
+		"glx-alternative-nvidia (<< 0.6.91)"
+	],
+	"breaks": [
+		"glx-alternative-nvidia (<< 0.6.91)"
+	],
+	"installedSize": 224,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary kernel module support files (390xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-390xx/nvidia-legacy-390xx-kernel-support_390.157-1~deb11u1_amd64.deb",
+	"size": 200544,
+	"md5": "fe9fd45ceda162dbf4d173f1d76e8365",
+	"sha256": "01091e1e1cc10ad4235ef66edbb2063941bb18c84c9477f52720c82de2c017cd",
+	"descriptionMd5": "16dec0bb04dd8db67c4ceb2f5fa0323d"
+}

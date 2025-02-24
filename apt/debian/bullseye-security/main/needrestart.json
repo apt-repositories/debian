@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "needrestart",
+	"version": "3.5-4+deb11u5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"dpkg (>= 1.16.0)",
+		"gettext-base",
+		"libintl-perl",
+		"libproc-processtable-perl",
+		"libsort-naturally-perl",
+		"libterm-readkey-perl",
+		"libmodule-find-perl",
+		"binutils",
+		"xz-utils"
+	],
+	"recommends": [
+		"libpam-systemd | sysvinit-core"
+	],
+	"suggests": [
+		"needrestart-session | libnotify-bin",
+		"iucode-tool"
+	],
+	"enhances": [
+		"intel-microcode"
+	],
+	"installedSize": 295,
+	"maintainer": "Patrick Matthäi <pmatthaei@debian.org>",
+	"description": "check which daemons need to be restarted after library upgrades",
+	"homepage": "https://github.com/liske/needrestart",
+	"filename": "pool/updates/main/n/needrestart/needrestart_3.5-4+deb11u5_all.deb",
+	"size": 63164,
+	"sha256": "a3c871d01037eb490f97398293ef2eb1664160f8455933e7de3c69ead668c91f",
+	"descriptionMd5": "a26ee5dd9ec37fe484bee4f1ce585d87"
+}

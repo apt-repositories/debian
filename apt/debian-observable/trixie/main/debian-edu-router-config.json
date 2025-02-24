@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debian-edu-router-config",
+	"source": "debian-edu-router",
+	"version": "2.12.8",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"ifupdown",
+		"iptraf",
+		"uif (>= 1.99.0-3~)",
+		"vlan",
+		"iproute2",
+		"procps"
+	],
+	"recommends": [
+		"dnsmasq",
+		"ipcalc",
+		"ipv6calc"
+	],
+	"conflicts": [
+		"connman",
+		"firehol",
+		"ifupdown2",
+		"netplan.io",
+		"network-manager",
+		"shorewall",
+		"ufw"
+	],
+	"installedSize": 811,
+	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
+	"description": "Debian Edu Router Configuration",
+	"homepage": "https://wiki.debian.org/DebianEdu/Router",
+	"filename": "pool/main/d/debian-edu-router/debian-edu-router-config_2.12.8_all.deb",
+	"size": 69536,
+	"md5": "a51d39d888962ca533401fd95eca8b8e",
+	"sha256": "08a50585d4bc7c877ea21b3c3c6f318c1a58e32d4e310582bd18629e0bdfe822",
+	"descriptionMd5": "dd646b90683237ab04fdc2424008aed7"
+}]

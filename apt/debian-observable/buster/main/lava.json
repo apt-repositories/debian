@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lava",
+	"version": "2019.01-5",
+	"section": "metapackages",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"lava-server (>= 2019.01-5)",
+		"lava-server-doc",
+		"lava-dispatcher (>= 2019.01-5)",
+		"lava-coordinator",
+		"lava-dev",
+		"lavacli",
+		"lavapdu-client",
+		"ntp | ntpdate",
+		"tftpd-hpa",
+		"sudo",
+		"telnet",
+		"debootstrap (>= 1.0.86~)",
+		"openssh-client",
+		"lxc (>= 1:2.0.6)",
+		"rsync",
+		"bridge-utils"
+	],
+	"recommends": [
+		"lavapdu-daemon",
+		"schroot",
+		"img2simg",
+		"simg2img",
+		"docker.io",
+		"python3-docker"
+	],
+	"installedSize": 77,
+	"maintainer": "Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>",
+	"description": "Linaro Automated Validation Architecture metapackage",
+	"homepage": "https://www.lavasoftware.org/",
+	"filename": "pool/main/l/lava/lava_2019.01-5_all.deb",
+	"size": 69516,
+	"md5": "713023f05c5901e38452574a85bafd6c",
+	"sha256": "6f9efb53143fea3a359089e555b1fa4116a8c23811e9c85df2e74be462ffe54a",
+	"descriptionMd5": "e0d51189bbae7e0aabfccaec244b7d00"
+}]

@@ -1,0 +1,68 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
+	"version": "247.3-7+deb11u6",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.13)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libcap2 (>= 1:2.24-9~)",
+		"libcrypt1 (>= 1:4.4.0)",
+		"libcryptsetup12 (>= 2:2.3)",
+		"libgnutls30 (>= 3.7.0)",
+		"libgpg-error0 (>= 1.14)",
+		"libip4tc2 (>= 1.8.3)",
+		"libkmod2 (>= 5~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmount1 (>= 2.30)",
+		"libpam0g (>= 0.99.7.1)",
+		"libseccomp2 (>= 2.4.1)",
+		"libsystemd0 (= 247.3-7+deb11u6)",
+		"util-linux (>= 2.27.1)",
+		"mount (>= 2.26)",
+		"adduser"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.30)",
+		"libgcrypt20 (>= 1.8.0)",
+		"liblz4-1 (>= 0.0~r122)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.4.0)"
+	],
+	"recommends": [
+		"dbus",
+		"systemd-timesyncd | time-daemon"
+	],
+	"suggests": [
+		"systemd-container",
+		"policykit-1"
+	],
+	"breaks": [
+		"python-dbusmock (<< 0.18)",
+		"python3-dbusmock (<< 0.18)",
+		"resolvconf (<< 1.83~)",
+		"systemd-shim (<< 10-4~)",
+		"udev (<< 247~)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector"
+	],
+	"installedSize": 16028,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "system and service manager",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/updates/main/s/systemd/systemd_247.3-7+deb11u6_amd64.deb",
+	"size": 4501296,
+	"sha256": "071421f2ce5083fb1fa405fe13d848e9c460a50db8a53285dc8cb9c79721af16",
+	"descriptionMd5": "19399579cbc0c47a303288bf15eadcd4"
+}

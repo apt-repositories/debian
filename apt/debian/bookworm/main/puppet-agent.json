@@ -1,0 +1,67 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "puppet-agent",
+	"version": "7.23.0-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"facter",
+		"hiera",
+		"ruby",
+		"ruby-augeas",
+		"ruby-concurrent (<< 1.2.0)",
+		"ruby-deep-merge",
+		"ruby-semantic-puppet",
+		"ruby-shadow",
+		"ruby-sorted-set",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"augeas-tools",
+		"debconf-utils",
+		"lsb-release",
+		"ruby-selinux"
+	],
+	"suggests": [
+		"hiera-eyaml",
+		"puppet-module-puppetlabs-augeas-core",
+		"puppet-module-puppetlabs-cron-core",
+		"puppet-module-puppetlabs-host-core",
+		"puppet-module-puppetlabs-mount-core",
+		"puppet-module-puppetlabs-selinux-core",
+		"puppet-module-puppetlabs-sshkeys-core",
+		"puppet-module-puppetlabs-stdlib",
+		"ruby-hocon",
+		"ruby-msgpack"
+	],
+	"replaces": [
+		"puppet (<< 7.16.0)",
+		"puppet-common (<< 4.5.1-1)"
+	],
+	"breaks": [
+		"facter (<< 2.4.0~)",
+		"puppet (<< 7.16.0)",
+		"puppet-common (<< 4.5.1-1)",
+		"puppet-master (<< 7.9.3)",
+		"puppet-master-passenger (<< 7.9.3)",
+		"ruby-gettext-setup (<< 0.17)"
+	],
+	"installedSize": 6238,
+	"maintainer": "Puppet Package Maintainers <pkg-puppet-devel@alioth-lists.debian.net>",
+	"description": "configuration management system, agent",
+	"homepage": "https://github.com/puppetlabs/puppet",
+	"filename": "pool/main/p/puppet-agent/puppet-agent_7.23.0-1_all.deb",
+	"size": 1147000,
+	"md5": "2b6cf6b8bc334920b17faf2d4066704b",
+	"sha256": "4746edc2960b635ca066293b33fd30ac4cd9a8db7e2732bd2d92fb2fe08f2249",
+	"descriptionMd5": "9c11faacf3d08afaeacee81d1e4a7435"
+}

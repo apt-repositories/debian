@@ -1,0 +1,64 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cups",
+	"version": "2.2.10-6+deb10u6",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libc6 (>= 2.16)",
+		"libcups2 (= 2.2.10-6+deb10u6)",
+		"libcupsimage2 (>= 1.4.0)",
+		"libgcc1 (>= 1:3.0)",
+		"libstdc++6 (>= 5)",
+		"libusb-1.0-0 (>= 2:1.0.8)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"cups-core-drivers (>= 2.2.10-6+deb10u6)",
+		"cups-daemon (>= 2.2.10-6+deb10u6)",
+		"poppler-utils",
+		"procps",
+		"ghostscript",
+		"cups-common (>= 2.2.10-6+deb10u6)",
+		"cups-server-common (>= 2.2.10-6+deb10u6)",
+		"cups-client (>= 2.2.10-6+deb10u6)",
+		"cups-ppdc",
+		"cups-filters (>= 1.0.24-3~)"
+	],
+	"recommends": [
+		"avahi-daemon",
+		"colord",
+		"cups-filters (>= 1.0.42) | foomatic-filters",
+		"printer-driver-gutenprint",
+		"cups-filters (>= 1.0.36) | ghostscript-cups"
+	],
+	"suggests": [
+		"cups-bsd",
+		"foomatic-db-compressed-ppds | foomatic-db",
+		"printer-driver-hpcups",
+		"hplip",
+		"cups-pdf",
+		"udev",
+		"smbclient"
+	],
+	"replaces": [
+		"cups-bsd (<< 1.7.2-3~)"
+	],
+	"breaks": [
+		"cups-bsd (<< 1.7.2-3~)"
+	],
+	"installedSize": 1132,
+	"maintainer": "Debian Printing Team <debian-printing@lists.debian.org>",
+	"description": "Common UNIX Printing System(tm) - PPD/driver support, web interface",
+	"homepage": "https://www.cups.org/",
+	"filename": "pool/main/c/cups/cups_2.2.10-6+deb10u6_amd64.deb",
+	"size": 375300,
+	"md5": "f143f04db9becc51da39979e5732e4a0",
+	"sha256": "e7a65e3b3d6ce6006af01eedc3f28bf6be30e42af30d05d6828bb6e34fb46753",
+	"descriptionMd5": "757338adad655b8f7da62fcd23ed6453"
+}

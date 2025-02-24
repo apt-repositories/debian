@@ -1,0 +1,70 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dhcpcd",
+	"version": "1:10.1.0-6~bpo12+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dhcpcd-base (>= 1:10.1.0-6~bpo12+1~)",
+		"sysvinit-utils (>= 3.05-4~) | lsb-base"
+	],
+	"recommends": [
+		"wpasupplicant"
+	],
+	"suggests": [
+		"dhcpcd-gtk"
+	],
+	"replaces": [
+		"dhcpcd5 (<< 1:10.1.0-6~bpo12+1~)"
+	],
+	"breaks": [
+		"dhcpcd5 (<< 1:10.1.0-6~bpo12+1~)"
+	],
+	"installedSize": 39,
+	"maintainer": "Martin-Éric Racine <martin-eric.racine@iki.fi>",
+	"description": "DHCPv4 and DHCPv6 dual-stack client (init.d script & systemd unit)",
+	"homepage": "https://roy.marples.name/projects/dhcpcd",
+	"filename": "pool/main/d/dhcpcd/dhcpcd_10.1.0-6~bpo12+1_all.deb",
+	"size": 13436,
+	"sha256": "ac943d170adf93269ce64046785ab9919ef8205bca89805bf9aed155fb526956",
+	"descriptionMd5": "2e945b209e732c41256c26409c50e108"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dhcpcd",
+	"source": "dhcpcd5 (9.4.1-24~deb12u4)",
+	"version": "1:9.4.1-24~deb12u4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dhcpcd-base",
+		"sysvinit-utils (>= 3.05-4~) | lsb-base (>= 3.0-6)"
+	],
+	"suggests": [
+		"dhcpcd-gtk"
+	],
+	"replaces": [
+		"dhcpcd5 (<< 9.4.1-12)"
+	],
+	"breaks": [
+		"dhcpcd5 (<< 9.4.1-12)"
+	],
+	"installedSize": 37,
+	"maintainer": "Martin-Éric Racine <martin-eric.racine@iki.fi>",
+	"description": "DHCPv4 and DHCPv6 dual-stack client (init.d script and systemd unit)",
+	"homepage": "https://roy.marples.name/projects/dhcpcd",
+	"filename": "pool/main/d/dhcpcd5/dhcpcd_9.4.1-24~deb12u4_all.deb",
+	"size": 11140,
+	"md5": "68f33dfc3e9b3d340afb3c94adaee019",
+	"sha256": "6e779ec574d4eed8f22aa9b804018270a2b75d67ed4adbe037dd2545f32ab52d",
+	"descriptionMd5": "bb9afe2be8ed8a68c7770f809127d5cb"
+}]

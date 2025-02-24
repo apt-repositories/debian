@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gmt",
+	"source": "gmt (6.1.1+dfsg-1)",
+	"version": "6.1.1+dfsg-1+b1",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gmt-common (= 6.1.1+dfsg-1)",
+		"libc6 (>= 2.29)",
+		"libgmt6 (>= 6.1.0)",
+		"libnetcdf18 (>= 3.6.1)"
+	],
+	"recommends": [
+		"gmt-gshhg-data | gmt-gshhg-low",
+		"gmt-dcw"
+	],
+	"replaces": [
+		"libgenome-perl (<< 0.06-3~)",
+		"libgmt-dev (<< 5.3.2+dfsg-1~exp2)"
+	],
+	"breaks": [
+		"libgenome-perl (<< 0.06-3~)",
+		"libgmt-dev (<< 5.3.2+dfsg-1~exp2)"
+	],
+	"installedSize": 1508,
+	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
+	"description": "Generic Mapping Tools",
+	"homepage": "http://gmt.soest.hawaii.edu/",
+	"filename": "pool/main/g/gmt/gmt_6.1.1+dfsg-1+b1_amd64.deb",
+	"size": 560332,
+	"md5": "26dd7a680eb1d546b7597ec0fe84b533",
+	"sha256": "5c729be8fa2580b0c39811a36f2e07de641f9151dbe440bd824acd33b3050753",
+	"descriptionMd5": "8ac67adc3c58bce0682536c089d9c7ce"
+}

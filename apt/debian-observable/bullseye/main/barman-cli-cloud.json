@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "barman-cli-cloud",
+	"source": "barman",
+	"version": "2.12-2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-barman (= 2.12-2)",
+		"python3-pkg-resources",
+		"rsync (>= 3.0.4~)",
+		"python3:any",
+		"python3-boto3"
+	],
+	"replaces": [
+		"barman-cli (<< 2.10-3~~)"
+	],
+	"breaks": [
+		"barman-cli (<< 2.10-3~~)"
+	],
+	"installedSize": 78,
+	"maintainer": "Marco Nenciarini <mnencia@debian.org>",
+	"description": "Cloud client utilities for the integration of Barman in PostgreSQL clusters",
+	"homepage": "http://www.pgbarman.org",
+	"filename": "pool/main/b/barman/barman-cli-cloud_2.12-2_all.deb",
+	"size": 63452,
+	"md5": "5efcb54b785db9c42cbc72b23db0bc7e",
+	"sha256": "be2b346164d0b9f7556b80c06a3673b62423c6a8995bfc8d9f82c4c2debb5f02",
+	"descriptionMd5": "2371b5e88d570acd62cc0b8968de1c0a"
+}]

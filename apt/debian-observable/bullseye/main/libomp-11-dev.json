@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libomp-11-dev",
+	"source": "llvm-toolchain-11",
+	"version": "1:11.0.1-2",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libomp5-11 (= 1:11.0.1-2)",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"suggests": [
+		"libomp-11-doc"
+	],
+	"replaces": [
+		"libomp-x.y-dev"
+	],
+	"breaks": [
+		"libiomp-dev (<< 3.7-1)",
+		"libomp-dev (<< 44)"
+	],
+	"conflicts": [
+		"libomp-x.y-dev"
+	],
+	"installedSize": 326,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM OpenMP runtime - dev package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-11/libomp-11-dev_11.0.1-2_amd64.deb",
+	"size": 94088,
+	"md5": "cb90bbba0b69e665acfa7e092b22d112",
+	"sha256": "617a042dbb016ae615fb929693ccc874b5a38c3b82bc04fa04daff70810e8282",
+	"descriptionMd5": "6f692a0e089a2d4587b533b4f246db62"
+}]

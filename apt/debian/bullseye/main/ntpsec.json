@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ntpsec",
+	"version": "1.2.0+dfsg1-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libssl1.1 (>= 1.1.1b)",
+		"lsb-base (>= 3.2-13)",
+		"netbase",
+		"python3 (>= 3.3)",
+		"python3-ntp (= 1.2.0+dfsg1-4)",
+		"tzdata (>= 2015d-1)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.27)",
+		"libcap2 (>= 1:2.10)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"systemd | cron | cron-daemon"
+	],
+	"suggests": [
+		"apparmor",
+		"certbot",
+		"ntpsec-doc",
+		"ntpsec-ntpviz"
+	],
+	"replaces": [
+		"ntp",
+		"time-daemon"
+	],
+	"breaks": [
+		"apparmor-profiles-extra (<< 1.8)"
+	],
+	"conflicts": [
+		"ntp",
+		"ntpdate",
+		"time-daemon"
+	],
+	"installedSize": 886,
+	"maintainer": "Richard Laager <rlaager@debian.org>",
+	"description": "Network Time Protocol daemon and utility programs",
+	"homepage": "https://www.ntpsec.org",
+	"filename": "pool/main/n/ntpsec/ntpsec_1.2.0+dfsg1-4_amd64.deb",
+	"size": 336704,
+	"md5": "c41408162df3ede39c28e1374620aeb3",
+	"sha256": "9035b39fd258755a3c70751453e9be0fbd5e9681db1d16607f7ffb173423d4b3",
+	"descriptionMd5": "95a8d09202caa65253f30fb1db647bdf"
+}

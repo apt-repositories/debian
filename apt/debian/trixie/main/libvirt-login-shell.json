@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-login-shell",
+	"source": "libvirt",
+	"version": "11.0.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-clients (= 11.0.0-2)",
+		"libvirt-common (= 11.0.0-2)",
+		"libvirt-daemon-driver-lxc (= 11.0.0-2)",
+		"libvirt0 (= 11.0.0-2)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.12.0)"
+	],
+	"replaces": [
+		"libvirt-clients (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)"
+	],
+	"installedSize": 62,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "Isolate user sessions using LXC containers",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-login-shell_11.0.0-2_amd64.deb",
+	"size": 12608,
+	"md5": "465f02b198486889c5fb3d7b7f24164a",
+	"sha256": "cc723cd2987cd21357b86556d3a9c58a83439ef66673360e8d7f6bd289bf0df9",
+	"descriptionMd5": "b5e830e5771db93ed6a4c1c4f7927c4f"
+}

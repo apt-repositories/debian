@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lighttpd-mod-openssl",
+	"source": "lighttpd",
+	"version": "1.4.69-1",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lighttpd (= 1.4.69-1)",
+		"libc6 (>= 2.33)",
+		"libssl3 (>= 3.0.0)"
+	],
+	"replaces": [
+		"lighttpd (<< 1.4.56~rc7-0+exp2)"
+	],
+	"breaks": [
+		"lighttpd (<< 1.4.56~rc7-0+exp2)"
+	],
+	"installedSize": 71,
+	"maintainer": "Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>",
+	"description": "TLS support using OpenSSL module for lighttpd",
+	"homepage": "https://www.lighttpd.net/",
+	"filename": "pool/main/l/lighttpd/lighttpd-mod-openssl_1.4.69-1_amd64.deb",
+	"size": 18612,
+	"md5": "f66d8b19b18e66e2704a61d9f1b7a633",
+	"sha256": "c607388e02feefc9e9cf1990c6269a9ad846998d1e04b3a411d5000b90065e86",
+	"descriptionMd5": "c6623bb6ca744ccf80ade19e72baf918"
+}

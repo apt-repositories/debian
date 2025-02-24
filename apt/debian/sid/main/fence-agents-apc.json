@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fence-agents-apc",
+	"source": "fence-agents",
+	"version": "4.16.0-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"fence-agents-common (>= 4.16.0-2)",
+		"openssh-client",
+		"telnet"
+	],
+	"replaces": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"breaks": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"installedSize": 27,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "Fence Agents for Red Hat Cluster - APC over telnet/ssh agent",
+	"homepage": "https://github.com/ClusterLabs/fence-agents",
+	"filename": "pool/main/f/fence-agents/fence-agents-apc_4.16.0-2_all.deb",
+	"size": 9716,
+	"md5": "f3f6cf560e9ced84b4a6023d513dd9e3",
+	"sha256": "5ed122b9d46cc429896f025113d3af1d4badc322e765d757dcf0a0a17d79c83d",
+	"descriptionMd5": "0f7ba1c94d207bb336b88ae528b39702"
+}

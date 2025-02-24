@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpkg",
+	"version": "1.22.15",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"tar (>= 1.28-1)"
+	],
+	"preDepends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"liblzma5 (>= 5.4.0)",
+		"libmd0 (>= 0.0.0)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"apt",
+		"debsig-verify"
+	],
+	"breaks": [
+		"libapt-pkg5.0 (<< 1.7~b)",
+		"lsb-base (<< 10.2019031300)"
+	],
+	"installedSize": 6530,
+	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
+	"description": "Debian package management system",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/main/d/dpkg/dpkg_1.22.15_amd64.deb",
+	"size": 1537128,
+	"md5": "72c48f7e11e05a57b0e8db0e0c44d38b",
+	"sha256": "ba0592e8e1e9e278b3e39a04f9b94edd38193953af9955ae89a553535b854810",
+	"descriptionMd5": "2f156c6a30cc39895ad3487111e8c190"
+}

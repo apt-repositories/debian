@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sysv-rc",
+	"source": "sysvinit",
+	"version": "2.93-8",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"insserv (>> 1.12.0-10)",
+		"startpar",
+		"sysvinit-utils (>= 2.86.ds1-62)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.25~)"
+	],
+	"recommends": [
+		"lsb-base (>= 3.2-14)"
+	],
+	"breaks": [
+		"systemd (<< 215)"
+	],
+	"installedSize": 121,
+	"maintainer": "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>",
+	"description": "System-V-like runlevel change mechanism",
+	"homepage": "http://savannah.nongnu.org/projects/sysvinit",
+	"filename": "pool/main/s/sysvinit/sysv-rc_2.93-8_all.deb",
+	"size": 71016,
+	"md5": "b8d25c8c7ad9f48d9b7e053ceedca80d",
+	"sha256": "8e4f42902dc87514a73c1457523ac55bc9799e54c414e9ba4062a4ba52489ebc",
+	"descriptionMd5": "195f2d617082a23f37cee0f50784eef9"
+}]

@@ -1,0 +1,78 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libldb2",
+	"source": "samba (2:4.17.12+dfsg-0+deb12u1~bpo11+1)",
+	"version": "2:2.6.2+samba4.17.12+dfsg-0+deb12u1~bpo11+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.25)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"liblmdb0 (>= 0.9.9)",
+		"libtalloc2 (>= 2.3.4~)",
+		"libtdb1 (>= 1.4.7~)",
+		"libtevent0 (>= 0.13.0~)"
+	],
+	"breaks": [
+		"ldb-tools (<< 1.1.30~)",
+		"samba (<< 2:4.7.0~)",
+		"samba-dsdb-modules (<< 2:4.7.0~)",
+		"samba-libs (<< 2:4.7.0~)",
+		"samba-testsuite (<< 2:4.7.0~)"
+	],
+	"installedSize": 714,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "LDAP-like embedded database - shared library",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/libldb2_2.6.2+samba4.17.12+dfsg-0+deb12u1~bpo11+1_amd64.deb",
+	"size": 260404,
+	"sha256": "7e3b30a3561b81ee654534d894a6a74fb9e503bb025f07e6afb7ced84d99aff9",
+	"descriptionMd5": "afbf2b86552adbf8b69bb702e5773247"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libldb2",
+	"source": "ldb",
+	"version": "2:2.2.3-2~deb11u2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"liblmdb0 (>= 0.9.9)",
+		"libtalloc2 (>= 2.3.1~)",
+		"libtdb1 (>= 1.4.3~)",
+		"libtevent0 (>= 0.10.2~)"
+	],
+	"replaces": [
+		"libldb0"
+	],
+	"breaks": [
+		"ldb-tools (<< 1.1.30~)",
+		"libldb0",
+		"libldb1 (<< 2:2~)",
+		"libsamdb0 (<< 4.0.0~alpha17~git20110724.dfsg1-1)",
+		"python-samba (<< 2:4.7.0~)",
+		"samba (<< 2:4.7.0~)",
+		"samba-dsdb-modules (<< 2:4.7.0~)",
+		"samba-libs (<< 2:4.7.0~)",
+		"samba-testsuite (<< 2:4.7.0~)"
+	],
+	"installedSize": 600,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "LDAP-like embedded database - shared library",
+	"homepage": "https://ldb.samba.org/",
+	"filename": "pool/updates/main/l/ldb/libldb2_2.2.3-2~deb11u2_amd64.deb",
+	"size": 147888,
+	"sha256": "029478e6be538df893be8b008bb1c609a4fb5bf2a3b19e6ccd62ea24d4af9357",
+	"descriptionMd5": "afbf2b86552adbf8b69bb702e5773247"
+}]

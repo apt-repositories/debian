@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnukhata-core",
+	"version": "5.50-1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"postgresql",
+		"python-dateutil",
+		"python-psycopg2",
+		"python-pyramid",
+		"python-requests",
+		"python-setuptools",
+		"python-sqlalchemy",
+		"python-tk",
+		"python-twisted",
+		"python-twisted-web",
+		"python-wsgicors",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python-jwt",
+		"python-natsort",
+		"python-waitress",
+		"python-webob",
+		"python:any (<< 2.8)",
+		"python:any (>= 2.7~)",
+		"supervisor"
+	],
+	"preDepends": [
+		"adduser",
+		"dbconfig-common",
+		"postgresql-client"
+	],
+	"replaces": [
+		"gnukhata-core-engine"
+	],
+	"breaks": [
+		"gnukhata-core-engine"
+	],
+	"installedSize": 1376,
+	"maintainer": "Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>",
+	"description": "Free Accounting Software (Core Engine)",
+	"homepage": "http://gnukhata.in",
+	"filename": "pool/main/g/gnukhata-core/gnukhata-core_5.50-1_all.deb",
+	"size": 131692,
+	"md5": "5efb49b5f79b390c34b02a9ee07ccc48",
+	"sha256": "8952e3af99ddf402a976c4b6ec71cabffab69fe22531cc94b8c9cf614a31bf7b",
+	"descriptionMd5": "6a2ec52a25d55644587679c9de5becaf"
+}]

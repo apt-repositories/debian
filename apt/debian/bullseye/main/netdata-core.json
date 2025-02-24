@@ -1,0 +1,67 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "netdata-core",
+	"source": "netdata",
+	"version": "1.29.3-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libcap2-bin",
+		"lsb-base",
+		"libc6 (>= 2.28)",
+		"libcap2 (>= 1:2.10)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libjson-c5 (>= 0.15)",
+		"libjudydebian1",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnetfilter-acct1 (>= 1.0.3)",
+		"libprotobuf23 (>= 3.12.4)",
+		"libsnappy1v5 (>= 1.1.8)",
+		"libssl1.1 (>= 1.1.0)",
+		"libstdc++6 (>= 5.2)",
+		"libuuid1 (>= 2.16)",
+		"libuv1 (>= 1.4.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"curl"
+	],
+	"suggests": [
+		"apcupsd",
+		"hddtemp",
+		"iproute2",
+		"iw",
+		"lm-sensors",
+		"nc"
+	],
+	"replaces": [
+		"netdata-core-no-sse",
+		"netdata-plugins-bash (<< 1.19.0-2~)",
+		"netdata-plugins-python (<< 1.17.0-1~)"
+	],
+	"breaks": [
+		"netdata-plugins-bash (<< 1.19.0-2~)",
+		"netdata-plugins-python (<< 1.17.0-1~)"
+	],
+	"conflicts": [
+		"netdata-core-no-sse"
+	],
+	"installedSize": 3202,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "real-time performance monitoring (core)",
+	"homepage": "https://github.com/netdata/netdata",
+	"filename": "pool/main/n/netdata/netdata-core_1.29.3-4_amd64.deb",
+	"size": 1134144,
+	"md5": "0a3a5d5fd15ea95e263f23ce5b44ef31",
+	"sha256": "ea6e3da72cbd28256282b393af209cd03dfe3b2a45772fa60cc65c002e0ffee7",
+	"descriptionMd5": "87b39f1a30af62cc8cd399fb0a356478"
+}

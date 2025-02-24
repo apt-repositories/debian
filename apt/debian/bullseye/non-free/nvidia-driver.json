@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-driver",
+	"source": "nvidia-graphics-drivers",
+	"version": "470.256.02-2",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-driver-libs (= 470.256.02-2)",
+		"nvidia-driver-bin (= 470.256.02-2)",
+		"xserver-xorg-video-nvidia (= 470.256.02-2)",
+		"nvidia-vdpau-driver (= 470.256.02-2)",
+		"nvidia-alternative (= 470.256.02-2)",
+		"nvidia-kernel-dkms (= 470.256.02-2) | nvidia-kernel-470.256.02",
+		"nvidia-support"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup",
+		"nvidia-legacy-check (>= 396)"
+	],
+	"recommends": [
+		"nvidia-settings (>= 470)",
+		"libnvidia-cfg1 (= 470.256.02-2)",
+		"nvidia-persistenced"
+	],
+	"suggests": [
+		"nvidia-kernel-dkms (>= 470.256.02) | nvidia-kernel-source (>= 470.256.02)"
+	],
+	"installedSize": 1408,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-driver_470.256.02-2_amd64.deb",
+	"size": 593268,
+	"md5": "316454479df2435bbbd62a97eb7b8a2c",
+	"sha256": "6ee36c3f85df3f8235440bcf384bceb84ada3edf3b8a0601428d25c0a69109eb",
+	"descriptionMd5": "7505ffd40dd5fa164a4c108f5d0a5646"
+}

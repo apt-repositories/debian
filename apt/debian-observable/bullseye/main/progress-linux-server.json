@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "progress-linux-server",
+	"source": "progress-linux-metapackages",
+	"version": "20210101-2",
+	"section": "metapackages",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"progress-linux-base-system",
+		"localepurge",
+		"logrotate",
+		"molly-guard | progress-linux-container",
+		"postfix",
+		"safe-rm"
+	],
+	"enhances": [
+		"progress-linux",
+		"progress-linux-base-system"
+	],
+	"breaks": [
+		"exim4-config"
+	],
+	"installedSize": 12,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "Progress Linux - Server Metapackage",
+	"homepage": "https://progress-linux.org",
+	"filename": "pool/main/p/progress-linux-metapackages/progress-linux-server_20210101-2_all.deb",
+	"size": 4388,
+	"md5": "1f3d9e71fba1b948820feb45b80fa777",
+	"sha256": "0ca4fd753ccd34369ef5704914b54fae419201b83d1ffef848cea9f42befed5d",
+	"descriptionMd5": "27fd536c6576f664b228f79e777d7076"
+}]

@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liblxc-common",
+	"source": "lxc",
+	"version": "1:5.0.2-1+deb12u3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liblxc1 (= 1:5.0.2-1+deb12u3)",
+		"libapparmor1 (>= 2.6~devel)",
+		"libc6 (>= 2.36)",
+		"libcap2 (>= 1:2.10)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libseccomp2 (>= 2.5.0)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"replaces": [
+		"lxc (<< 1:4.0.11-1~)"
+	],
+	"breaks": [
+		"lxc (<< 1:4.0.11-1~)"
+	],
+	"installedSize": 3250,
+	"maintainer": "pkg-lxc <pkg-lxc-devel@lists.alioth.debian.org>",
+	"description": "Linux Containers userspace tools (library)",
+	"homepage": "https://linuxcontainers.org/",
+	"filename": "pool/main/l/lxc/liblxc-common_5.0.2-1+deb12u3_amd64.deb",
+	"size": 826256,
+	"md5": "7d17a05d4f800098a28db0605092e087",
+	"sha256": "ffdb5faa9de6713e516351ee10777ad445270eada25d900c72bdcebf06b0de40",
+	"descriptionMd5": "64c1c87f38b94cdcf67f746e6c6223fd"
+}

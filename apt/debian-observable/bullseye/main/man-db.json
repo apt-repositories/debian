@@ -1,0 +1,96 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "man-db",
+	"version": "2.10.1-1~bpo11+1",
+	"section": "doc",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"bsdextrautils | bsdmainutils (<< 12.1.1~)",
+		"groff-base",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.28)",
+		"libgdbm6 (>= 1.16)",
+		"libpipeline1 (>= 1.5.0)",
+		"libseccomp2 (>= 2.1.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"apparmor",
+		"groff",
+		"less",
+		"www-browser"
+	],
+	"replaces": [
+		"man",
+		"nlsutils"
+	],
+	"conflicts": [
+		"man"
+	],
+	"installedSize": 2977,
+	"maintainer": "Colin Watson <cjwatson@debian.org>",
+	"description": "tools for reading manual pages",
+	"homepage": "https://nongnu.org/man-db/",
+	"filename": "pool/main/m/man-db/man-db_2.10.1-1~bpo11+1_amd64.deb",
+	"size": 1407328,
+	"sha256": "cf72c26cff5a09fbfc900827b051234e9f0ed8c64e3681f9d39b9768840ff6cd",
+	"descriptionMd5": "fa4d579e45a7d37a797e795644e2648b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "man-db",
+	"version": "2.9.4-2",
+	"section": "doc",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"bsdextrautils | bsdmainutils (<< 12.1.1~)",
+		"debconf (>= 1.2.0) | debconf-2.0",
+		"groff-base (>= 1.18.1.1-15)",
+		"libc6 (>= 2.28)",
+		"libgdbm6 (>= 1.16)",
+		"libpipeline1 (>= 1.5.0)",
+		"libseccomp2 (>= 2.1.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.16.1~)"
+	],
+	"suggests": [
+		"apparmor",
+		"groff",
+		"less",
+		"www-browser"
+	],
+	"replaces": [
+		"man",
+		"manpages-de (<< 0.5-4)",
+		"manpages-tr (<< 1.0.5.1-3)",
+		"manpages-zh (<< 1.5.2-1.1)",
+		"nlsutils"
+	],
+	"breaks": [
+		"manpages-tr (<< 1.0.5.1-3)",
+		"manpages-zh (<< 1.5.2-1.1)"
+	],
+	"conflicts": [
+		"man"
+	],
+	"installedSize": 2874,
+	"maintainer": "Colin Watson <cjwatson@debian.org>",
+	"description": "tools for reading manual pages",
+	"homepage": "https://nongnu.org/man-db/",
+	"filename": "pool/main/m/man-db/man-db_2.9.4-2_amd64.deb",
+	"size": 1354168,
+	"md5": "58b7df92de585a5af2ebfec59f36de0c",
+	"sha256": "e066491c1660c8a33dbca4d7219b5806586651326667e4df73a7ac4739f3e065",
+	"descriptionMd5": "fa4d579e45a7d37a797e795644e2648b"
+}]

@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-common",
+	"source": "bacula",
+	"version": "9.4.2-2+deb10u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.28)",
+		"libcap2 (>= 1:2.10)",
+		"libgcc1 (>= 1:3.0)",
+		"libssl1.1 (>= 1.1.0)",
+		"libstdc++6 (>= 5)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"suggests": [
+		"gdb"
+	],
+	"replaces": [
+		"bacula-common-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-common-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-common-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"breaks": [
+		"bacula-common-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-common-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-common-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"installedSize": 2365,
+	"maintainer": "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>",
+	"description": "network backup service - common support files",
+	"homepage": "http://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-common_9.4.2-2+deb10u1_amd64.deb",
+	"size": 870712,
+	"md5": "f5d8b4d3a2911f6461f31116a6c61976",
+	"sha256": "265cdc061f2741836207869af0f3aebe25f3cc619c1ca434d9afedf4faaf488b",
+	"descriptionMd5": "ea0a644926ceb853a5dc7364f1c409cc"
+}]

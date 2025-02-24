@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gridengine-exec",
+	"source": "gridengine",
+	"version": "8.1.9+dfsg-9.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libhwloc15 (>= 2.4.1~rc2+dfsg)",
+		"libjemalloc2 (>= 2.1.1)",
+		"libmunge2 (>= 0.5.8)",
+		"libssl1.1 (>= 1.1.0)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"gridengine-common (= 8.1.9+dfsg-9.1)",
+		"gridengine-client (= 8.1.9+dfsg-9.1)",
+		"tcsh | c-shell",
+		"procps",
+		"lsb-base"
+	],
+	"suggests": [
+		"openssh-server"
+	],
+	"replaces": [
+		"gridengine-master (<< 6.2-3)"
+	],
+	"installedSize": 4166,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Distributed resource management - Execution Server",
+	"homepage": "https://arc.liv.ac.uk/trac/SGE/",
+	"filename": "pool/main/g/gridengine/gridengine-exec_8.1.9+dfsg-9.1_amd64.deb",
+	"size": 1018060,
+	"md5": "3ebc84dadc625233cf0338cf9b68b755",
+	"sha256": "62e1f27c508ab433bcf6eeb6c741829787800d8b27086ba699286a3a57a5371f",
+	"descriptionMd5": "6eadea8f174d60413282e34894dc3efc"
+}]

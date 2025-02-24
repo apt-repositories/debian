@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "olpc-kbdshim",
+	"source": "olpc-kbdshim (27-2)",
+	"version": "27-2+b1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libudev1 (>= 183)",
+		"udev",
+		"lsb-base"
+	],
+	"replaces": [
+		"olpc-kbdshim-common",
+		"olpc-kbdshim-hal"
+	],
+	"conflicts": [
+		"olpc-kbdshim-common",
+		"olpc-kbdshim-hal"
+	],
+	"installedSize": 81,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "OLPC XO keyboard support daemon",
+	"filename": "pool/main/o/olpc-kbdshim/olpc-kbdshim_27-2+b1_amd64.deb",
+	"size": 26304,
+	"md5": "0e1604602df270e895c4ae77a78281c1",
+	"sha256": "cd99e8dacb6dd3dad4db6ebb8927e3aa2bf8aa783b57cedb14549e9e2b6a3500",
+	"descriptionMd5": "9e201b7653bd989a0098116d30a0da75"
+}

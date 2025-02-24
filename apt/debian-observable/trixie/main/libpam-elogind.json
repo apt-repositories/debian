@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-elogind",
+	"source": "elogind",
+	"version": "255.17-1debian1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libcap2 (>= 1:2.10)",
+		"libpam0g (>= 0.99.7.1)",
+		"elogind (= 255.17-1debian1)",
+		"libpam-runtime"
+	],
+	"replaces": [
+		"logind"
+	],
+	"conflicts": [
+		"libpam-ck-connector",
+		"logind"
+	],
+	"installedSize": 582,
+	"maintainer": "Debian Ecosystem Init Diversity Team <debian-init-diversity@chiark.greenend.org.uk>",
+	"description": "elogind PAM module",
+	"homepage": "https://github.com/elogind/elogind",
+	"filename": "pool/main/e/elogind/libpam-elogind_255.17-1debian1_amd64.deb",
+	"size": 220116,
+	"md5": "ddc1d9b66efb441062d962debef55dad",
+	"sha256": "e0de878f4e452f1a51e6a0e5da1b6dcdf4496504fc4a9ba615f7bc0098db16ba",
+	"descriptionMd5": "3bd0a678b1a45ac49457606a7b77a5ad"
+}]

@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libomp5-16",
+	"source": "llvm-toolchain-16",
+	"version": "1:16.0.6-15~deb12u1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libffi8 (>= 3.4)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm16",
+		"libstdc++6 (>= 11)"
+	],
+	"replaces": [
+		"libomp-x.y"
+	],
+	"breaks": [
+		"libomp5 (<< 44)"
+	],
+	"conflicts": [
+		"libomp-x.y"
+	],
+	"installedSize": 3354,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM OpenMP runtime",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-16/libomp5-16_16.0.6-15~deb12u1_amd64.deb",
+	"size": 587512,
+	"md5": "c31847d55a2a7d5b1d71e790ff305912",
+	"sha256": "bb0373aaacb5a4f22ae136e4eb1ee985082e777fe154d8a52cb3f288580ee85a",
+	"descriptionMd5": "e28f50eb4beb8e316b69da2c1c0194c3"
+}

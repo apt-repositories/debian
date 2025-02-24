@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gearman-job-server",
+	"source": "gearmand",
+	"version": "1.1.20+ds-1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libboost-program-options1.74.0 (>= 1.74.0+ds1)",
+		"libc6 (>= 2.34)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7 (>= 2.1.8-stable)",
+		"libgcc-s1 (>= 3.0)",
+		"libhiredis0.14 (>= 0.14.0)",
+		"libmariadb3 (>= 3.0.0)",
+		"libmemcached11 (>= 1.1.4)",
+		"libpq5",
+		"libsqlite3-0 (>= 3.5.9)",
+		"libstdc++6 (>= 11)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"recommends": [
+		"memcached"
+	],
+	"installedSize": 403,
+	"maintainer": "Alexandre Mestiashvili <mestia@debian.org>",
+	"description": "Job server for the Gearman distributed job queue",
+	"homepage": "http://launchpad.net/gearmand",
+	"filename": "pool/main/g/gearmand/gearman-job-server_1.1.20+ds-1_amd64.deb",
+	"size": 134956,
+	"md5": "37321bd39f9fcafb6cd3e6b05d4c2c76",
+	"sha256": "1cd555b3aceb914f43f2b041d7d6c14f641ac8b152866e280804cd836f628624",
+	"descriptionMd5": "f1497cc9463c528ddc67462ff143594d"
+}]

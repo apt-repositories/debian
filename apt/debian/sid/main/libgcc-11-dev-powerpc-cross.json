@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-powerpc-cross",
+	"source": "gcc-11-cross-ports (19)",
+	"version": "11.5.0-2cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base-ports (= 11.5.0-2cross1)",
+		"libgcc-s1-powerpc-cross (>= 11.5.0-2cross1)",
+		"libgomp1-powerpc-cross (>= 11.5.0-2cross1)",
+		"libatomic1-powerpc-cross (>= 11.5.0-2cross1)",
+		"libasan6-powerpc-cross (>= 11.5.0-2cross1)",
+		"libubsan1-powerpc-cross (>= 11.5.0-2cross1)"
+	],
+	"recommends": [
+		"libc6-dev-powerpc-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan0-powerpc-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-powerpc-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 4901,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-2)",
+	"filename": "pool/main/g/gcc-11-cross-ports/libgcc-11-dev-powerpc-cross_11.5.0-2cross1_all.deb",
+	"size": 754896,
+	"md5": "992d4580f8fc7f577ad7d1e98c778b6e",
+	"sha256": "2de3b66b04e7855090373bfaa8bfc1e4c3af39c6ac4a22ba682763aa25188aec",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

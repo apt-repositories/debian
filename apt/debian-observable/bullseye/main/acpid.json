@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "acpid",
+	"version": "1:2.0.32-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.27)",
+		"runit-helper (>= 2.8.8~)",
+		"lsb-base (>= 3.2-14)",
+		"kmod"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"acpi-support-base (>= 0.114-1)"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-23~)"
+	],
+	"installedSize": 176,
+	"maintainer": "Josue Ortega <josue@debian.org>",
+	"description": "Advanced Configuration and Power Interface event daemon",
+	"homepage": "http://sourceforge.net/projects/acpid2/",
+	"filename": "pool/main/a/acpid/acpid_2.0.32-1_amd64.deb",
+	"size": 59244,
+	"md5": "95644f7fa17c4bfef3a122c547f45474",
+	"sha256": "e56967238520697521a2e1f7fcf453af9c6e42491a867488899c9be70aa79ce7",
+	"descriptionMd5": "6a7c4e4695f570d8fbcaec667cdcfcfe"
+}]

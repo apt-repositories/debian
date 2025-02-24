@@ -1,0 +1,54 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "progress-linux-host",
+	"source": "progress-linux-metapackages",
+	"version": "20221002-21",
+	"section": "metapackages",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"progress-linux-base-system",
+		"cryptsetup-bin",
+		"keyutils",
+		"firmware-linux-free",
+		"spectre-meltdown-checker",
+		"consolation",
+		"console-setup",
+		"dmidecode",
+		"ethtool",
+		"hdparm",
+		"nvme-cli",
+		"parted",
+		"smartmontools",
+		"systemd-timesyncd"
+	],
+	"suggests": [
+		"fonts-powerline-extra",
+		"firmware-ast",
+		"firmware-linux-nonfree",
+		"firmware-misc-nonfree",
+		"iucode-tool",
+		"amd64-microcode",
+		"intel-microcode",
+		"supermicro-ipmicfg",
+		"intel-x710-firmware",
+		"intel-e810-firmware"
+	],
+	"enhances": [
+		"progress-linux",
+		"progress-linux-base-system"
+	],
+	"installedSize": 14,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "Progress Linux - Host Metapackage",
+	"homepage": "https://progress-linux.org",
+	"filename": "pool/main/p/progress-linux-metapackages/progress-linux-host_20221002-21_amd64.deb",
+	"size": 6768,
+	"md5": "dba9de060bdb7e568dd45ee855ca8da5",
+	"sha256": "adf6bec935ea53ca0944dbcd0a429dd34de17e9ee376be3f83dc08bf1c357c91",
+	"descriptionMd5": "bf71449c233aa5a1db011923fad738f6"
+}]

@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bcron",
+	"version": "0.11-8",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ucspi-unix",
+		"runit-helper (>= 2.8.1~)",
+		"sysuser-helper (<< 1.4)",
+		"libbg2 (>= 2.03)",
+		"libc6 (>= 2.14)"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent",
+		"runit",
+		"daemon"
+	],
+	"suggests": [
+		"anacron",
+		"runit-init"
+	],
+	"replaces": [
+		"bcron-run",
+		"cron"
+	],
+	"conflicts": [
+		"bcron-run (<< 0.11-3~)",
+		"cron",
+		"runit (<< 2.1.2-20~)"
+	],
+	"installedSize": 266,
+	"maintainer": "Dmitry Bogatov <KAction@debian.org>",
+	"description": "Bruce cron system",
+	"homepage": "https://untroubled.org/bcron",
+	"filename": "pool/main/b/bcron/bcron_0.11-8_amd64.deb",
+	"size": 62000,
+	"md5": "08807a6c6ec47fb03900e30947aae5d7",
+	"sha256": "e41632add3113bf2e26edcc6ec4501ad827a830adfba4440960bddbd41a84b05",
+	"descriptionMd5": "2bb678838c137c5e549837603fced6d7"
+}

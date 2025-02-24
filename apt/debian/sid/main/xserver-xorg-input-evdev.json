@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-input-evdev",
+	"version": "1:2.11.0-1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libevdev2 (>= 1.2.2+dfsg-1~)",
+		"libmtdev1t64 (>= 1.1.0)",
+		"libudev1 (>= 183)",
+		"xorg-input-abi-24",
+		"xserver-xorg-core (>= 2:21.1.1)"
+	],
+	"replaces": [
+		"xserver-xorg-core (<< 2:1.18.0-1)"
+	],
+	"breaks": [
+		"xserver-xorg-core (<< 2:1.18.0-1)"
+	],
+	"installedSize": 184,
+	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
+	"description": "X.Org X server -- evdev input driver",
+	"homepage": "https://www.x.org",
+	"filename": "pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev_2.11.0-1_amd64.deb",
+	"size": 116176,
+	"md5": "685ca6382219af06586b0f286c0061ca",
+	"sha256": "1128cfa2df8831e8a1e61ffd6c15acfd3411a889198ca4bc73d805129a10db9f",
+	"descriptionMd5": "31de8b9a43f10be01a9c9a8d0805f00a"
+}

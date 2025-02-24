@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mailgraph",
+	"version": "1.14-20",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libfile-tail-perl",
+		"librrds-perl",
+		"lsb-base (>= 3.0-6)",
+		"ucf (>= 0.28)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"httpd | apache2",
+		"default-mta | exim4 | postfix | sendmail | mail-transport-agent"
+	],
+	"installedSize": 109,
+	"maintainer": "Jörg Frings-Fürst <debian@jff.email>",
+	"description": "RRDtool frontend for Mail statistics",
+	"homepage": "https://mailgraph.schweikert.ch",
+	"filename": "pool/main/m/mailgraph/mailgraph_1.14-20_all.deb",
+	"size": 29564,
+	"md5": "1453afbcbda3c2736a4274cb1192f658",
+	"sha256": "e2358c7b8424443c0d8fda80ec5b0fcb550ea0ff4ce9e87694734077dfcd84ab",
+	"descriptionMd5": "ce49fad41b7ea59a431312e0d92c9eab"
+}

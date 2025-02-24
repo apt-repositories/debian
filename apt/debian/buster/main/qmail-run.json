@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qmail-run",
+	"version": "2.0.2+nmu1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"qmail (>= 1.06-2.1)",
+		"fastforward (>= 1:0.51-3)",
+		"daemontools (>> 1:0.76)",
+		"ucspi-tcp (>> 1:0.88)",
+		"runit (>> 1.8.0-2) | daemontools-run (>> 1:0.76)",
+		"procmail"
+	],
+	"suggests": [
+		"dot-forward",
+		"mail-reader"
+	],
+	"replaces": [
+		"fastforward (<= 0.51-zarge1)",
+		"mail-transport-agent"
+	],
+	"conflicts": [
+		"lsb-core",
+		"mail-transport-agent"
+	],
+	"installedSize": 21,
+	"maintainer": "Gerrit Pape <pape@smarden.org>",
+	"description": "sets up qmail as mail-transfer-agent",
+	"filename": "pool/main/q/qmail-run/qmail-run_2.0.2+nmu1_all.deb",
+	"size": 10380,
+	"md5": "0ca2de0d3b23ec0fb1298d7a29fbcb6c",
+	"sha256": "2f768f995350496469d9c9f420429fcee72062a28a07a0a196eeb409c412e900",
+	"descriptionMd5": "576a08a1f0ef8bc5f4457a99a2e437fc"
+}

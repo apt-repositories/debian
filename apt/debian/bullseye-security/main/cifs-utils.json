@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cifs-utils",
+	"version": "2:6.11-3.1+deb11u1",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libkeyutils1 (>= 1.4)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libpam0g (>= 0.99.7.1)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)",
+		"python3"
+	],
+	"recommends": [
+		"keyutils"
+	],
+	"suggests": [
+		"smbclient",
+		"winbind",
+		"bash-completion"
+	],
+	"replaces": [
+		"smbfs (<< 2:4.0~rc1-1)"
+	],
+	"installedSize": 307,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Common Internet File System utilities",
+	"homepage": "https://www.samba.org/~jlayton/cifs-utils/",
+	"filename": "pool/updates/main/c/cifs-utils/cifs-utils_6.11-3.1+deb11u1_amd64.deb",
+	"size": 90368,
+	"sha256": "c4a83e6838db26cfb6dfa96299dcc3aab938d7a124ce05586d8a9af7e1d51bcf",
+	"descriptionMd5": "935040b98485786df2e3f301255ff219"
+}

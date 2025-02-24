@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "printer-driver-foo2zjs",
+	"source": "foo2zjs",
+	"version": "20171202dfsg0-2",
+	"section": "text",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libcups2 (>= 1.4.0)",
+		"libjbig0 (>= 2.0)",
+		"cups-filters | foomatic-filters",
+		"dc",
+		"printer-driver-foo2zjs-common (>= 20171202dfsg0-2)",
+		"liblcms2-utils"
+	],
+	"recommends": [
+		"wget",
+		"unzip",
+		"mscompress",
+		"cups",
+		"cups-client"
+	],
+	"suggests": [
+		"psutils",
+		"hannah-foo2zjs"
+	],
+	"replaces": [
+		"foo2zjs (<< 20111023dfsg0-1~)"
+	],
+	"breaks": [
+		"cups (<< 1.5.0-3~)",
+		"foo2zjs (<< 20111023dfsg0-1~)",
+		"udev (<< 136-1)"
+	],
+	"installedSize": 738,
+	"maintainer": "Debian Printing Team <debian-printing@lists.debian.org>",
+	"description": "printer driver for ZjStream-based printers",
+	"homepage": "http://foo2zjs.rkkda.com/",
+	"filename": "pool/main/f/foo2zjs/printer-driver-foo2zjs_20171202dfsg0-2_amd64.deb",
+	"size": 156892,
+	"md5": "b97563dae05eb3b7ebf1097e7d0ceecd",
+	"sha256": "b2967eabf61192294ef002e41cfdf37dddff43158c85c36ab8153fbcca31f5b1",
+	"descriptionMd5": "46dde92d651ea7e8f08d5611cf1b2363"
+}

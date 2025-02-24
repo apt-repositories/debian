@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libchipcard-tools",
+	"source": "libchipcard",
+	"version": "5.1.0beta-3",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libchipcard6 (>= 4.99.4)",
+		"libgcc1 (>= 1:3.0)",
+		"libgwenhywfar60 (>= 4.17.0)",
+		"libstdc++6 (>= 5.2)",
+		"libchipcard-data (>= 5.1.0beta-3)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.7.2)"
+	],
+	"replaces": [
+		"libchipcardd0 (<< 4.2.7)"
+	],
+	"breaks": [
+		"libchipcardd0 (<< 4.2.7)"
+	],
+	"installedSize": 163,
+	"maintainer": "Micha Lenk <micha@debian.org>",
+	"description": "tools for accessing chipcards",
+	"homepage": "https://www.aquamaniac.de/rdm/projects/libchipcard",
+	"filename": "pool/main/libc/libchipcard/libchipcard-tools_5.1.0beta-3_amd64.deb",
+	"size": 43880,
+	"md5": "8beacd6895d9c79fec8c5be44ed14019",
+	"sha256": "512bfcb9767308917b16eea4aba40ee2ba7b1b9030c737f3fc18d1a9691b2bab",
+	"descriptionMd5": "379ae3869f80ed055356d6e6fc390d6a"
+}

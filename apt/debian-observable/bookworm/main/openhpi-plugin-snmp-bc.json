@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openhpi-plugin-snmp-bc",
+	"source": "openhpi (3.8.0-2.1)",
+	"version": "3.8.0-2.1+b1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libglib2.0-0 (>= 2.12.0)",
+		"libopenhpi3 (= 3.8.0-2.1+b1)",
+		"libsnmp40 (>= 5.9.1+dfsg)",
+		"libuuid1 (>= 2.16)"
+	],
+	"replaces": [
+		"libopenhpi",
+		"libopenhpi2",
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"breaks": [
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"conflicts": [
+		"libopenhpi",
+		"libopenhpi2"
+	],
+	"installedSize": 2021,
+	"maintainer": "Mohan Devarajulu <mohan.devarajulu@hpe.com>",
+	"description": "OpenHPI plugin module for IBM's BladeCenter or RSA over SNMP",
+	"homepage": "http://openhpi.org",
+	"filename": "pool/main/o/openhpi/openhpi-plugin-snmp-bc_3.8.0-2.1+b1_amd64.deb",
+	"size": 855504,
+	"md5": "6f3d3e4ebbfe645543a25524fcd0ee00",
+	"sha256": "48152010e9c4fb52549a1baa2c09692369b40aa90454f7a23f482f7d5128ddc4",
+	"descriptionMd5": "4c2634601c685b609dbfbe7486a9cb4d"
+}]

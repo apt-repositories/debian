@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-12-dev-hppa-cross",
+	"source": "gcc-12-cross-ports (12)",
+	"version": "12.2.0-13cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base-ports (= 12.2.0-13cross1)",
+		"libgcc-s4-hppa-cross (>= 12.2.0-13cross1)",
+		"libgomp1-hppa-cross (>= 12.2.0-13cross1)",
+		"libatomic1-hppa-cross (>= 12.2.0-13cross1)"
+	],
+	"recommends": [
+		"libc6-dev-hppa-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-hppa-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-hppa-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 929,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.2.0-13)",
+	"filename": "pool/main/g/gcc-12-cross-ports/libgcc-12-dev-hppa-cross_12.2.0-13cross1_all.deb",
+	"size": 225792,
+	"md5": "0e54041de3d8f62901441b7f680699c7",
+	"sha256": "1451568118b6f5116683e8ee30ac9fc6db64d1948d433d5b14ddb4d497bfb3ed",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

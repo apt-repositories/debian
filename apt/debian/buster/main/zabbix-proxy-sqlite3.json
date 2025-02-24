@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-proxy-sqlite3",
+	"source": "zabbix",
+	"version": "1:4.0.4+dfsg-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libcurl3-gnutls (>= 7.28.0)",
+		"libevent-2.1-6 (>= 2.1.8-stable)",
+		"libgnutls30 (>= 3.6.6)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libodbc1 (>= 2.3.1)",
+		"libopenipmi0",
+		"libpcre3",
+		"libsnmp30 (>= 5.7.3+dfsg)",
+		"libsqlite3-0 (>= 3.5.9)",
+		"libssh2-1 (>= 1.0)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.2.0)",
+		"ucf",
+		"fping",
+		"adduser",
+		"lsb-base",
+		"sqlite3"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"conflicts": [
+		"zabbix-proxy-mysql",
+		"zabbix-proxy-pgsql",
+		"zabbix-server-mysql",
+		"zabbix-server-pgsql"
+	],
+	"installedSize": 2291,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "network monitoring solution - proxy (using SQLite3)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/main/z/zabbix/zabbix-proxy-sqlite3_4.0.4+dfsg-1_amd64.deb",
+	"size": 789136,
+	"md5": "610b119e54250ae4b01f8dfb24ebf4be",
+	"sha256": "ab3d5f6fe45cf02a3e48e222b820c60e84aca9afba4866aa702655c1b9aa8b37",
+	"descriptionMd5": "605c0c25b150b79a885b51e44078a990"
+}

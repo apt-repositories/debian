@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "atftpd",
+	"source": "atftp",
+	"version": "0.7.git20120829-3.2~deb10u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libpcre3",
+		"libwrap0 (>= 7.6-4~)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"update-inetd",
+		"lsb-base"
+	],
+	"recommends": [
+		"inet-superserver"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"conflicts": [
+		"tftpd"
+	],
+	"installedSize": 185,
+	"maintainer": "Ludovic Drolez <ldrolez@debian.org>",
+	"description": "advanced TFTP server",
+	"filename": "pool/main/a/atftp/atftpd_0.7.git20120829-3.2~deb10u3_amd64.deb",
+	"size": 69192,
+	"md5": "e7a7c7c05fe7b47f312dbb88ccf06073",
+	"sha256": "909c58221b922bf9796e9d46e2a423b3073833cd9fa5f6647df055918b0a32e6",
+	"descriptionMd5": "3eb0b0a3696106c263bd0289e3d92e83"
+}

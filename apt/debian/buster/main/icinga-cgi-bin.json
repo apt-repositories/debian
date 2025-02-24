@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "icinga-cgi-bin",
+	"source": "icinga (1.14.2+ds-3)",
+	"version": "1.14.2+ds-3+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libjs-jquery",
+		"libjs-jquery-ui (>= 1.10.1+dfsg-1~)",
+		"libc6 (>= 2.14)",
+		"libgd3 (>= 2.1.0~alpha~)",
+		"libjpeg62-turbo (>= 1.3.1)",
+		"libpng16-16 (>= 1.6.2-1)",
+		"zlib1g (>= 1:1.2.3.3)"
+	],
+	"recommends": [
+		"apache2 | httpd",
+		"nagios-images"
+	],
+	"replaces": [
+		"icinga-cgi (<< 1.11.0-2~)"
+	],
+	"breaks": [
+		"icinga-cgi (<< 1.11.0-2~)"
+	],
+	"installedSize": 11201,
+	"maintainer": "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>",
+	"description": "host and network monitoring system - CGI scripts",
+	"homepage": "https://www.icinga.com/",
+	"filename": "pool/main/i/icinga/icinga-cgi-bin_1.14.2+ds-3+b1_amd64.deb",
+	"size": 3867660,
+	"md5": "3f7a2f125c1604c360a38a9cc51d938c",
+	"sha256": "e550fe5c0c7784746e13e41cc84fc970d7813d38e1efe3dbf45c0dde98ad4001",
+	"descriptionMd5": "0e04b62685fce49e7487a7464775a0d8"
+}

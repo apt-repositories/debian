@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "console-setup",
+	"version": "1.234",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"console-setup-linux | hurd",
+		"xkb-data (>= 0.9)",
+		"keyboard-configuration (= 1.234)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"suggests": [
+		"lsb-base (>= 3.0-6)",
+		"locales"
+	],
+	"breaks": [
+		"lsb (<< 2.0-6)",
+		"lsb-base (<< 3.0-6)",
+		"lsb-core (<< 2.0-6)"
+	],
+	"conflicts": [
+		"console-setup-mini"
+	],
+	"installedSize": 403,
+	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
+	"description": "console font and keymap setup program",
+	"filename": "pool/main/c/console-setup/console-setup_1.234_all.deb",
+	"size": 94844,
+	"md5": "18be3a46e85e7d2b0c53a32024bcf29e",
+	"sha256": "e0444427b9486b2010a9669776bc2c45f3e0438926795f1d263fa97fc5356094",
+	"descriptionMd5": "68ace576871ee78c34a9c31d6c6d6bf9"
+}

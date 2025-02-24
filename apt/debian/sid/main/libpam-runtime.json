@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-runtime",
+	"source": "pam",
+	"version": "1.7.0-3",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"debconf (>= 1.5.19) | cdebconf",
+		"libpam-modules (>= 1.0.1-6)"
+	],
+	"replaces": [
+		"libpam-modules (<< 1.7.0)",
+		"libpam-modules-bin (<< 1.7.0)"
+	],
+	"breaks": [
+		"libpam-modules (<< 1.7.0)",
+		"libpam-modules-bin (<< 1.7.0)"
+	],
+	"installedSize": 1028,
+	"maintainer": "Sam Hartman <hartmans@debian.org>",
+	"description": "Runtime support for the PAM library",
+	"homepage": "http://www.linux-pam.org/",
+	"filename": "pool/main/p/pam/libpam-runtime_1.7.0-3_all.deb",
+	"size": 248248,
+	"md5": "00ff7990fea3a34701f14e18e8d6d375",
+	"sha256": "0f19f338c735e2ba51d9448e2dcba195d9698c5829dc864aec9b3b8913bb6f69",
+	"descriptionMd5": "bc15ddbf92ee7965a8588141c54bb5a1"
+}

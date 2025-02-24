@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "initramfs-tools-core",
+	"source": "initramfs-tools",
+	"version": "0.140",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"klibc-utils (>= 2.0.4-8~)",
+		"cpio (>= 2.12)",
+		"kmod",
+		"udev",
+		"coreutils (>= 8.24)",
+		"logsave | e2fsprogs (<< 1.45.3-1~)"
+	],
+	"recommends": [
+		"busybox (>= 1:1.22.0-17~) | busybox-static (>= 1:1.22.0-17~)",
+		"pigz"
+	],
+	"suggests": [
+		"bash-completion"
+	],
+	"replaces": [
+		"initramfs-tools (<< 0.121~)"
+	],
+	"breaks": [
+		"busybox (<< 1:1.22.0-17~)",
+		"busybox-static (<< 1:1.22.0-17~)",
+		"initramfs-tools (<< 0.121~)"
+	],
+	"installedSize": 211,
+	"maintainer": "Debian kernel team <debian-kernel@lists.debian.org>",
+	"description": "generic modular initramfs generator (core tools)",
+	"filename": "pool/main/i/initramfs-tools/initramfs-tools-core_0.140_all.deb",
+	"size": 102636,
+	"md5": "bcd3229878094fdfde108057cff88553",
+	"sha256": "aeb3110851b806c497d02ffa4319b297dcf29efd929c2f3b5909c4411a734fe1",
+	"descriptionMd5": "8d2ce4976ab4fb33b898ed3006a086fa"
+}]

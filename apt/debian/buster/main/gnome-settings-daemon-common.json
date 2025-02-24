@@ -1,0 +1,32 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnome-settings-daemon-common",
+	"source": "gnome-settings-daemon",
+	"version": "3.30.2-3",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dconf-gsettings-backend | gsettings-backend"
+	],
+	"replaces": [
+		"gnome-settings-daemon (<< 3.30.1.2-2~)",
+		"gnome-settings-daemon-schemas (<< 3.30.1.2-2~)"
+	],
+	"breaks": [
+		"gnome-settings-daemon (<< 3.30.1.2-2~)",
+		"gnome-settings-daemon-schemas (<< 3.30.1.2-2~)"
+	],
+	"installedSize": 4028,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "daemon handling the GNOME session settings - common files",
+	"filename": "pool/main/g/gnome-settings-daemon/gnome-settings-daemon-common_3.30.2-3_all.deb",
+	"size": 542888,
+	"md5": "4f209b4a917772561bae338765c8ce03",
+	"sha256": "759ca525214b1e4cf0979b79bb8a5353a953549b37db9e0bbc37c90d1cc28e6d",
+	"descriptionMd5": "24223ecc2ddfc19859537b1014c3f5c3"
+}

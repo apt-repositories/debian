@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "strongswan-starter",
+	"source": "strongswan",
+	"version": "6.0.0-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libstrongswan (= 6.0.0-2)",
+		"sysvinit-utils (>= 3.05-3)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"strongswan-charon"
+	],
+	"installedSize": 666,
+	"maintainer": "strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>",
+	"description": "strongSwan daemon starter and configuration file parser",
+	"homepage": "http://www.strongswan.org",
+	"filename": "pool/main/s/strongswan/strongswan-starter_6.0.0-2_amd64.deb",
+	"size": 224868,
+	"md5": "d9dc5b5029420dc79557385eb6052943",
+	"sha256": "80ab0b9bb29c9de8cdb07b3dc5693ead822677ee830ac3d4ac2185fe2c2058d4",
+	"descriptionMd5": "b25b8defb52457fc021a93ec427b9da8"
+}

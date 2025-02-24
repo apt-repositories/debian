@@ -1,0 +1,64 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "x2gothinclient-chroot",
+	"source": "x2gothinclient",
+	"version": "1.5.0.1-10.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"nfs-common",
+		"patch",
+		"plymouth",
+		"plymouth-themes-all",
+		"pulseaudio-x11 | pulseaudio",
+		"dbus-x11",
+		"dbus-user-session",
+		"x2gothinclient-displaymanager | x2gothinclient-minidesktop",
+		"locales",
+		"polkitd"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"acpid",
+		"gnupg-agent",
+		"pinentry-x2go",
+		"pcscd",
+		"pcsc-tools",
+		"scdaemon",
+		"gpgsm",
+		"less",
+		"mc",
+		"memtest86+",
+		"syslinux",
+		"vim",
+		"x11-xserver-utils",
+		"x2gothinclient-cdmanager",
+		"x2gothinclient-usbmount",
+		"x2gothinclient-smartcardrules",
+		"ntp"
+	],
+	"suggests": [
+		"firmware-linux-nonfree",
+		"firmware-bnx2",
+		"firmware-ralink",
+		"firmware-realtek",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"installedSize": 53,
+	"maintainer": "Debian Remote Maintainers <debian-remote@lists.debian.org>",
+	"description": "Install X2Go Thin Client chroot (metapackage)",
+	"homepage": "https://code.x2go.org/releases/source/x2gothinclient",
+	"filename": "pool/main/x/x2gothinclient/x2gothinclient-chroot_1.5.0.1-10.1_all.deb",
+	"size": 20108,
+	"md5": "cba7dc97cb562740f3c8eef541f7bf46",
+	"sha256": "bd8d2c51ac887be714f1b6ec1226ee55f09e2f09b2dda8391ad05caa82cf2395",
+	"descriptionMd5": "71c4ffc841bd25631b54e0ebb2396101"
+}]

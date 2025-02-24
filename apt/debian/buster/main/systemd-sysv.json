@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-sysv",
+	"source": "systemd",
+	"version": "241-7~deb10u8",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"preDepends": [
+		"systemd"
+	],
+	"recommends": [
+		"libnss-systemd"
+	],
+	"replaces": [
+		"sysvinit-core",
+		"upstart (<< 1.13.2-0ubuntu10~)",
+		"upstart-sysv"
+	],
+	"conflicts": [
+		"file-rc",
+		"openrc (<< 0.20.4-2.1)",
+		"systemd-shim",
+		"sysvinit-core",
+		"upstart (<< 1.13.2-0ubuntu10~)",
+		"upstart-sysv"
+	],
+	"installedSize": 125,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "system and service manager - SysV links",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd-sysv_241-7~deb10u8_amd64.deb",
+	"size": 100456,
+	"md5": "ab5d0af36394853e89f340efb6236b70",
+	"sha256": "6a3c84ccfd1ba55257178a6241b020d514ca13b470e7f5381581735da8513606",
+	"descriptionMd5": "b0c2db4da8d807aa3f83a2977e491907"
+}

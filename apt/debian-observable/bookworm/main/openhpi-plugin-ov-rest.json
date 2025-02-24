@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openhpi-plugin-ov-rest",
+	"source": "openhpi (3.8.0-2.1)",
+	"version": "3.8.0-2.1+b1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libcurl4 (>= 7.16.2)",
+		"libglib2.0-0 (>= 2.31.8)",
+		"libjson-c5 (>= 0.15)",
+		"libopenhpi3 (= 3.8.0-2.1+b1)",
+		"librabbitmq4 (>= 0.6.0)"
+	],
+	"replaces": [
+		"libopenhpi",
+		"libopenhpi2",
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"breaks": [
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"conflicts": [
+		"libopenhpi",
+		"libopenhpi2"
+	],
+	"installedSize": 920,
+	"maintainer": "Mohan Devarajulu <mohan.devarajulu@hpe.com>",
+	"description": "OpenHPI plugin module for HPE's Synergy enclosures",
+	"homepage": "http://openhpi.org",
+	"filename": "pool/main/o/openhpi/openhpi-plugin-ov-rest_3.8.0-2.1+b1_amd64.deb",
+	"size": 684416,
+	"md5": "fd1292afaf880d4e837349660140f273",
+	"sha256": "844bc472c67ac6f9db52fd4231e955710656effc99f5861db309bf63b75bef7e",
+	"descriptionMd5": "5c64b38cb883bef71665fb58a7e5c476"
+}]

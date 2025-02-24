@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "google-android-build-tools-installer",
+	"version": "23.0.3+r1",
+	"section": "contrib/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"wget",
+		"make | build-essential | dpkg-dev",
+		"zlib1g",
+		"libstdc++6",
+		"unzip",
+		"ca-certificates",
+		"debconf",
+		"po-debconf",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"replaces": [
+		"aapt",
+		"zipalign"
+	],
+	"conflicts": [
+		"aapt",
+		"dx",
+		"libclang-dev",
+		"zipalign"
+	],
+	"installedSize": 26,
+	"maintainer": "Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>",
+	"description": "Google build tools for Android (aapt, aidl, dexdump, dx)",
+	"homepage": "https://developer.android.com/sdk/index.html",
+	"filename": "pool/contrib/g/google-android-build-tools-installer/google-android-build-tools-installer_23.0.3+r1_amd64.deb",
+	"size": 5472,
+	"md5": "a41e0951feed578d001b1bc5fcc9eb43",
+	"sha256": "21256934695f688183fa49aa09422eb70c9fedb9b3a9c65f3cfe30e6d1cd24a1",
+	"descriptionMd5": "13722c23438ff573b8fdaae2e61cd44e"
+}

@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "adb",
+	"source": "android-platform-system-core",
+	"version": "1:10.0.0+r36-7",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"android-libadb (= 1:10.0.0+r36-7)",
+		"android-sdk-platform-tools-common (>= 28.0.2~)",
+		"android-libbase (>= 1:10.0.0+r36)",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 9)"
+	],
+	"replaces": [
+		"android-tools-adb (<< 6.0~)"
+	],
+	"breaks": [
+		"android-tools-adb (<< 6.0~)"
+	],
+	"installedSize": 261,
+	"maintainer": "Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>",
+	"description": "Android Debug Bridge",
+	"homepage": "https://android.googlesource.com/platform/system/core",
+	"filename": "pool/main/a/android-platform-system-core/adb_10.0.0+r36-7_amd64.deb",
+	"size": 104344,
+	"md5": "231b58aa580eb2ecc41e6de0b414f3f5",
+	"sha256": "d4bee8b89dcbbc7bb40029ad3db80aece774c5c76d9b438a146773ec5411e8b8",
+	"descriptionMd5": "4fb58b8688addfd94d32fe9a20c9d2e8"
+}

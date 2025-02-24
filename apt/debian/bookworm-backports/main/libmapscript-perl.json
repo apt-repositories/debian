@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmapscript-perl",
+	"source": "mapserver",
+	"version": "8.4.0-1~bpo12+1",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"perl (>= 5.36.0-7+deb12u1)",
+		"perlapi-5.36.0",
+		"libc6 (>= 2.14)",
+		"libmapserver2 (>= 8.4.0)",
+		"libperl5.36 (>= 5.36.0)"
+	],
+	"suggests": [
+		"mapserver-bin",
+		"mapserver-doc"
+	],
+	"replaces": [
+		"perl-mapscript"
+	],
+	"conflicts": [
+		"perl-mapscript"
+	],
+	"installedSize": 1326,
+	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
+	"description": "Perl MapServer module",
+	"homepage": "https://mapserver.org",
+	"filename": "pool/main/m/mapserver/libmapscript-perl_8.4.0-1~bpo12+1_amd64.deb",
+	"size": 263584,
+	"sha256": "422363f356a5a8d8ac7b3544b4b705f3771a2d1f5ba1762631a7693cb9489f06",
+	"descriptionMd5": "23a573748b9459aeca549f3899cc3a39"
+}

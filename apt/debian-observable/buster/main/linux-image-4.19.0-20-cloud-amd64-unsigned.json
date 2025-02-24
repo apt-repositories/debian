@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-4.19.0-20-cloud-amd64-unsigned",
+	"source": "linux",
+	"version": "4.19.235-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-4.19",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-4.19.0-20-cloud-amd64"
+	],
+	"breaks": [
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"xserver-xorg-input-vmmouse (<< 1:13.0.99)"
+	],
+	"conflicts": [
+		"linux-image-4.19.0-20-cloud-amd64"
+	],
+	"installedSize": 71786,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 4.19 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-4.19.0-20-cloud-amd64-unsigned_4.19.235-1_amd64.deb",
+	"size": 16239068,
+	"md5": "93f041c1bad0646514ec7c60865c2e8b",
+	"sha256": "9a84c149aba50a45998999a0453ec4aae2323171962c98c2ad5312fbce2d5439",
+	"descriptionMd5": "b37da537c743c5b5d6997d5f7a05fda5"
+}]

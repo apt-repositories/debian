@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpm-srm-server-postgres",
+	"source": "lcgdm (1.10.0-2)",
+	"version": "1.10.0-2+b3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libdpm1 (= 1.10.0-2+b3)",
+		"adduser",
+		"libc6 (>= 2.14)",
+		"libcgsi-gsoap1",
+		"libgsoap-2.8.75",
+		"liblcgdm1",
+		"libpq5",
+		"libuuid1 (>= 2.16)",
+		"finger"
+	],
+	"replaces": [
+		"dpm-postgres-srmv1 (<< 1.8.1.2-2~)",
+		"dpm-postgres-srmv2 (<< 1.8.1.2-2~)",
+		"dpm-postgres-srmv22 (<< 1.8.1.2-2~)"
+	],
+	"conflicts": [
+		"dpm-postgres-srmv1 (<< 1.8.1.2-2~)",
+		"dpm-postgres-srmv2 (<< 1.8.1.2-2~)",
+		"dpm-postgres-srmv22 (<< 1.8.1.2-2~)"
+	],
+	"installedSize": 1821,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "DPM SRM server with postgres database backend",
+	"homepage": "http://glite.web.cern.ch/glite/",
+	"filename": "pool/main/l/lcgdm/dpm-srm-server-postgres_1.10.0-2+b3_amd64.deb",
+	"size": 264576,
+	"md5": "a873c119530695b73445e6e582d25876",
+	"sha256": "78957f7310a92a6a17f11dec092a65c375f55866cbd449812cea1bfd86d57179",
+	"descriptionMd5": "4da2a3321a8f21d5c577326770b1c90e"
+}]

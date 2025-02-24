@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pamu2fcfg",
+	"source": "pam-u2f",
+	"version": "1.1.0-1.1+deb12u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libfido2-1 (>= 1.2.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl3 (>= 3.0.0)"
+	],
+	"breaks": [
+		"libpam-u2f (<< 1.0.4-0.2)"
+	],
+	"installedSize": 65,
+	"maintainer": "Debian Authentication Maintainers <team+auth@tracker.debian.org>",
+	"description": "universal 2nd factor (U2F) PAM module command-line helper tool",
+	"homepage": "https://developers.yubico.com/pam-u2f/",
+	"filename": "pool/updates/main/p/pam-u2f/pamu2fcfg_1.1.0-1.1+deb12u1_amd64.deb",
+	"size": 21436,
+	"sha256": "0e51d432dc78fc114a2e95b581dba4eb463211d0e6c780b71b32c33770acf4c5",
+	"descriptionMd5": "576150b27d240bfbfc2f80d126363a17"
+}

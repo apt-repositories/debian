@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-s1-x32-cross",
+	"source": "gcc-12-cross-ports (12)",
+	"version": "12.2.0-13cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base-ports (= 12.2.0-13cross1)",
+		"libc6-x32-cross (>= 2.36)"
+	],
+	"replaces": [
+		"libgcc1-x32-cross (<< 1:10)"
+	],
+	"breaks": [
+		"libgcc1-x32-cross (<< 1:10)"
+	],
+	"installedSize": 139,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (x32)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.2.0-13)",
+	"filename": "pool/main/g/gcc-12-cross-ports/libgcc-s1-x32-cross_12.2.0-13cross1_all.deb",
+	"size": 50372,
+	"md5": "e39ede8292fd74354cd79ef7c93e90f5",
+	"sha256": "010fb72fb105a906e319c6b78d8a683b54ee87468a6415c67256301289e1c708",
+	"descriptionMd5": "f260d13bf38c4bf7f34927887b6ec92a"
+}

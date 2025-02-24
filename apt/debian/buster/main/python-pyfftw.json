@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python-pyfftw",
+	"source": "pyfftw",
+	"version": "0.11.1-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python-numpy (>= 1:1.16.0~rc1)",
+		"python-numpy-abi9",
+		"python (<< 2.8)",
+		"python (>= 2.7~)",
+		"python:any (<< 2.8)",
+		"python:any (>= 2.7~)",
+		"libc6 (>= 2.4)",
+		"libfftw3-double3 (>= 3.3.5)",
+		"libfftw3-long3 (>= 3.3.5)",
+		"libfftw3-single3 (>= 3.3.5)"
+	],
+	"recommends": [
+		"python-scipy (>= 0.16.0)"
+	],
+	"replaces": [
+		"python-fftw3"
+	],
+	"conflicts": [
+		"python-fftw3"
+	],
+	"installedSize": 456,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Pythonic wrapper around FFTW - Python 2",
+	"homepage": "https://github.com/pyFFTW/pyFFTW",
+	"filename": "pool/main/p/pyfftw/python-pyfftw_0.11.1-2_amd64.deb",
+	"size": 116544,
+	"md5": "b0def6e3475e72ec9f5e18f7255b27ea",
+	"sha256": "faf80094b1ec4b07238ebd36b23ca550f37a19635ea036b43bf67a64cf6ac3e8",
+	"descriptionMd5": "dc56e3e17b17a8209eeae8b448dfb7f6"
+}

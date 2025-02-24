@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lxsession-logout",
+	"source": "lxsession",
+	"version": "0.5.5-2",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf2.0-0 (>= 2.22.0)",
+		"libglib2.0-0 (>= 2.26.0)",
+		"libgtk2.0-0 (>= 2.24.0)",
+		"libx11-6",
+		"lxsession-data",
+		"lxlock | xdg-utils",
+		"policykit-1"
+	],
+	"recommends": [
+		"lsb-release",
+		"consolekit | logind | default-logind"
+	],
+	"replaces": [
+		"lxsession (<< 0.5.3-1)"
+	],
+	"breaks": [
+		"lxsession (<< 0.5.3-1)"
+	],
+	"installedSize": 57,
+	"maintainer": "Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>",
+	"description": "utility to logout from a LXDE or an Openbox session",
+	"homepage": "http://www.lxde.org/",
+	"filename": "pool/main/l/lxsession/lxsession-logout_0.5.5-2_amd64.deb",
+	"size": 18180,
+	"md5": "5f4a60d413458446ab2bc1f61940d54b",
+	"sha256": "64709e29bc00792ef1e1dff5cfbfb8c580b9aafd1e2a82a6112b796d5c15052c",
+	"descriptionMd5": "0487baba3d88fe612cdde2250455703e"
+}

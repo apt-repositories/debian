@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-vulkan-icd",
+	"source": "nvidia-graphics-drivers",
+	"version": "535.216.03-2",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-vulkan-common",
+		"libvulkan1 (>= 1.0.42)",
+		"libglx-nvidia0 (= 535.216.03-2)",
+		"libnvidia-rtcore (= 535.216.03-2)"
+	],
+	"suggests": [
+		"vulkan-tools"
+	],
+	"enhances": [
+		"libvulkan1"
+	],
+	"conflicts": [
+		"nvidia-nonglvnd-vulkan-icd"
+	],
+	"installedSize": 174,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA Vulkan installable client driver (ICD)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-vulkan-icd_535.216.03-2_amd64.deb",
+	"size": 152524,
+	"md5": "328ea3cdeed0ca26a612e6e94af03c96",
+	"sha256": "90cc90909713e0894066332be71c2769e21a1ec7238c2e622b5ea87826703eab",
+	"descriptionMd5": "d104ec0a3dbcaf5f512b3217367c796e"
+}

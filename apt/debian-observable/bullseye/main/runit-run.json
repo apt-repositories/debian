@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "runit-run",
+	"source": "runit",
+	"version": "2.1.2-41",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"runit",
+		"runit-systemd (>= 2.1.2-39) | sysvinit-core"
+	],
+	"replaces": [
+		"runit (<< 2.1.2-4)",
+		"runit-systemd (<= 2.1.2-36)",
+		"runit-sysv (<= 2.1.2-36)"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-4)",
+		"runit-systemd (<= 2.1.2-36)",
+		"runit-sysv (<= 2.1.2-36)"
+	],
+	"conflicts": [
+		"runit-init"
+	],
+	"installedSize": 38,
+	"maintainer": "Lorenzo Puliti <plorenzo@disroot.org>",
+	"description": "service supervision (systemd and sysv integration)",
+	"homepage": "http://smarden.org/runit/",
+	"filename": "pool/main/r/runit/runit-run_2.1.2-41_all.deb",
+	"size": 20116,
+	"md5": "55d507a6419d45ca00153f8ce33bf9d1",
+	"sha256": "1fa03768f90ea982159f584f7fa138e710caa98649ea460f571c8755218eb74e",
+	"descriptionMd5": "4cbcc1c788c687f0b2196617c39dff9c"
+}]

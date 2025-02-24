@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-bscan",
+	"source": "bacula",
+	"version": "15.0.2-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common-pgsql (= 15.0.2-1) | bacula-common-mysql (= 15.0.2-1) | bacula-common-sqlite3 (= 15.0.2-1)",
+		"bacula-sd (= 15.0.2-1)",
+		"bacula-common (= 15.0.2-1)",
+		"libc6 (>= 2.38)",
+		"libstdc++6 (>= 5)"
+	],
+	"replaces": [
+		"bacula-sd-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"breaks": [
+		"bacula-sd-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"installedSize": 96,
+	"maintainer": "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>",
+	"description": "network backup service - bscan tool",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-bscan_15.0.2-1_amd64.deb",
+	"size": 26952,
+	"md5": "8f4d0910fade42c6bcd769c61fb9e369",
+	"sha256": "65326ffe579b1129e514873791b9aefcd188343dc66cc34ee69776ba0932f082",
+	"descriptionMd5": "44a01e27d6f81c2f40774f7989a68e8b"
+}]

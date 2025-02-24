@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-core",
+	"source": "dracut",
+	"version": "105-3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpio",
+		"dracut-install",
+		"e2fsprogs",
+		"gawk",
+		"kmod",
+		"udev",
+		"libc6 (>= 2.38)"
+	],
+	"recommends": [
+		"binutils",
+		"console-setup",
+		"cryptsetup",
+		"dmraid",
+		"dmsetup",
+		"kpartx",
+		"lvm2",
+		"mdadm",
+		"systemd",
+		"systemd-cryptsetup",
+		"systemd-sysv",
+		"zstd"
+	],
+	"replaces": [
+		"dracut-live (<< 059-2)",
+		"dracut-network (<< 057+157-2)"
+	],
+	"breaks": [
+		"dracut-live (<< 059-2)",
+		"dracut-network (<< 057+157-2)"
+	],
+	"installedSize": 1433,
+	"maintainer": "Thomas Lange <lange@debian.org>",
+	"description": "dracut is an event driven initramfs infrastructure (core tools)",
+	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
+	"filename": "pool/main/d/dracut/dracut-core_105-3_amd64.deb",
+	"size": 332576,
+	"md5": "b64cf9feccbc0f296cb92e43bf7a76ad",
+	"sha256": "aa747b693c2df144ed93b6a4179f64b778bdacbc5d8a229b2dba5807b3d9332a",
+	"descriptionMd5": "e406aeff68e5d5052162d2536e974a68"
+}

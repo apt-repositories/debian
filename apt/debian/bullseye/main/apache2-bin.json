@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apache2-bin",
+	"source": "apache2",
+	"version": "2.4.62-1~deb11u1",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"perl:any",
+		"libapr1 (>= 1.7.0)",
+		"libaprutil1 (>= 1.6.0)",
+		"libaprutil1-dbd-sqlite3 | libaprutil1-dbd-mysql | libaprutil1-dbd-odbc | libaprutil1-dbd-pgsql | libaprutil1-dbd-freetds",
+		"libaprutil1-ldap",
+		"libbrotli1 (>= 0.6.0)",
+		"libc6 (>= 2.30)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libcurl4 (>= 7.28.0)",
+		"libjansson4 (>= 2.4)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"liblua5.3-0",
+		"libnghttp2-14 (>= 1.20.0)",
+		"libpcre3",
+		"libssl1.1 (>= 1.1.1)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"apache2-doc",
+		"apache2-suexec-pristine | apache2-suexec-custom",
+		"www-browser"
+	],
+	"replaces": [
+		"libapache2-mod-proxy-uwsgi (<< 2.4.33)"
+	],
+	"breaks": [
+		"gridsite (<< 3.0.0~20170225gitd51b2fd-1~)",
+		"libapache2-mod-dacs (<= 1.4.38a-2)",
+		"libapache2-mod-proxy-uwsgi (<< 2.4.33)"
+	],
+	"installedSize": 5163,
+	"maintainer": "Debian Apache Maintainers <debian-apache@lists.debian.org>",
+	"description": "Apache HTTP Server (modules and other binary files)",
+	"homepage": "https://httpd.apache.org/",
+	"filename": "pool/main/a/apache2/apache2-bin_2.4.62-1~deb11u1_amd64.deb",
+	"size": 1453236,
+	"md5": "fc680b605b8f31c209e6849b13c18c2e",
+	"sha256": "f306e36356f726b48a12197faa3ad8909591acc10959b81dd0a4bc2c5f15dd09",
+	"descriptionMd5": "37901ca6bbb9305b61d0920ecc08204f"
+}

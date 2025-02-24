@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wine64-tools",
+	"source": "wine",
+	"version": "8.0~repack-4",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc",
+		"perl:any",
+		"libc6 (>= 2.34)",
+		"libgettextpo0 (>= 0.21)",
+		"libwine-dev (= 8.0~repack-4) | libwine-dev:i386 (= 8.0~repack-4)"
+	],
+	"recommends": [
+		"wine (= 8.0~repack-4)",
+		"g++"
+	],
+	"conflicts": [
+		"wine32-tools"
+	],
+	"installedSize": 1572,
+	"maintainer": "Debian Wine Party <debian-wine@lists.debian.org>",
+	"description": "Windows API implementation - 64-bit developer tools",
+	"homepage": "https://www.winehq.org",
+	"filename": "pool/main/w/wine/wine64-tools_8.0~repack-4_amd64.deb",
+	"size": 557584,
+	"md5": "08bfd95d91a8f19cfdda3d3af82b435b",
+	"sha256": "0bccfe63a6b25d0fa4c517d7f2b47546eb371ca974e4823716f1176b406e08db",
+	"descriptionMd5": "7f1bd7babff1d0228d2a02bd58dedb25"
+}]

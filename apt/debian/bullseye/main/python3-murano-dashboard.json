@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-murano-dashboard",
+	"source": "murano-dashboard",
+	"version": "1:10.0.0-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"openstack-dashboard (>= 3:18.3.0)",
+		"python3-bs4",
+		"python3-castellan",
+		"python3-django",
+		"python3-django-compressor",
+		"python3-django-formtools (>= 2.2)",
+		"python3-heat-dashboard",
+		"python3-iso8601",
+		"python3-muranoclient",
+		"python3-oslo.log",
+		"python3-pbr",
+		"python3-semantic-version",
+		"python3-tz",
+		"python3-yaml",
+		"python3-yaql",
+		"python3-django-horizon",
+		"python3:any"
+	],
+	"breaks": [
+		"python3-django-horizon (<< 3:18.6.2-4~)"
+	],
+	"conflicts": [
+		"python-murano-dashboard"
+	],
+	"installedSize": 1655,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "cloud-ready application catalog - dashboard plugin",
+	"homepage": "https://opendev.org/openstack/murano-dashboard",
+	"filename": "pool/main/m/murano-dashboard/python3-murano-dashboard_10.0.0-2_all.deb",
+	"size": 267444,
+	"md5": "a557e60214ce11cf25585d73f0c577c3",
+	"sha256": "6cf8aff33ccba30a9ec82840273062ffcd3a994791ec72f15c86f25d50689eda",
+	"descriptionMd5": "b45dd653ec73fae6ebe48a19d588014e"
+}

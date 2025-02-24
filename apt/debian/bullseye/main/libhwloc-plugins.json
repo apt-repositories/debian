@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libhwloc-plugins",
+	"source": "hwloc",
+	"version": "2.4.1+dfsg-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.7)",
+		"libpciaccess0",
+		"libx11-6",
+		"libxml2 (>= 2.7.4)",
+		"libxnvctrl0",
+		"ocl-icd-libopencl1 | libopencl1",
+		"libhwloc15 (>= 2.4.1+dfsg~)",
+		"libhwloc15 (<< 2.4.1+dfsgA)"
+	],
+	"replaces": [
+		"libhwloc-contrib-plugins (<< 2.1.0+dfsg-3~)"
+	],
+	"breaks": [
+		"libhwloc-contrib-plugins (<< 2.1.0+dfsg-3~)"
+	],
+	"installedSize": 87,
+	"maintainer": "Samuel Thibault <sthibault@debian.org>",
+	"description": "Hierarchical view of the machine - plugins",
+	"homepage": "https://www.open-mpi.org/projects/hwloc/",
+	"filename": "pool/main/h/hwloc/libhwloc-plugins_2.4.1+dfsg-1_amd64.deb",
+	"size": 21448,
+	"md5": "9c9989576ced161560ab73d6f6ad8ccf",
+	"sha256": "69e3fd703cbaf03d7c77810ef358b249f75ba39b501aca282b61b62fef56e2e7",
+	"descriptionMd5": "f9e5608207d0a4ad31da5436aaaacb4b"
+}

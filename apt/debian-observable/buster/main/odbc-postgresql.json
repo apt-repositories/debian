@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "odbc-postgresql",
+	"source": "psqlodbc",
+	"version": "1:11.00.0000-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.16)",
+		"libpq5 (>= 9.2~beta3)",
+		"odbcinst1debian2 (>= 2.3.1)"
+	],
+	"suggests": [
+		"unixodbc-bin"
+	],
+	"enhances": [
+		"unixodbc"
+	],
+	"breaks": [
+		"libiodbc2 (<= 3.52.7-2)",
+		"odbcinst1debian2 (<< 2.2.14p2-3)",
+		"unixodbc (<< 2.2.14p2-3)"
+	],
+	"installedSize": 1300,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "ODBC driver for PostgreSQL",
+	"homepage": "https://odbc.postgresql.org/",
+	"filename": "pool/main/p/psqlodbc/odbc-postgresql_11.00.0000-1_amd64.deb",
+	"size": 385840,
+	"md5": "22113a07fa4f8b144218e0f4971da1e5",
+	"sha256": "f1e307822c7dc4b7e397ddd4a2c178ddfd004ad0fd4157b51bd90c2bbd9ae4b6",
+	"descriptionMd5": "ca9991df6514508e654fa440ff1560cd"
+}]

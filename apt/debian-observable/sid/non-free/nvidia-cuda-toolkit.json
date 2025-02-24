@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-cuda-toolkit",
+	"source": "nvidia-cuda-toolkit (12.2.2-1)",
+	"version": "12.2.140~12.2.2-1",
+	"section": "non-free/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-profiler (= 12.2.142~12.2.2-1)",
+		"nvidia-cuda-dev (= 12.2.140~12.2.2-1)",
+		"nvidia-opencl-dev (= 12.2.140~12.2.2-1) | opencl-dev",
+		"g++-12 | g++-12 | clang-16 | clang-15 | clang-14 | g++-11 | clang-13 | clang-12 | g++-10 | clang-11 | clang-10 | g++-9 | clang-9 | g++-8 | clang-8 | clang-7 | g++-7 | clang (<< 1:17~) | g++-6",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.2)",
+		"libstdc++6 (>= 4.1.1)"
+	],
+	"recommends": [
+		"nvidia-cuda-toolkit-doc (= 12.2.2-1)",
+		"nvidia-cuda-gdb (= 12.2.140~12.2.2-1)",
+		"nvidia-visual-profiler (= 12.2.142~12.2.2-1)",
+		"nsight-compute (= 2023.2.2.3~12.2.2-1)",
+		"nsight-systems (= 2023.2.3.1004~12.2.2-1)"
+	],
+	"suggests": [
+		"nvidia-driver (>= 535) | nvidia-tesla-535-driver (>= 535)"
+	],
+	"breaks": [
+		"nvidia-cuda-doc (<< 10.2.89-3)"
+	],
+	"installedSize": 188590,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA CUDA development toolkit",
+	"homepage": "https://developer.nvidia.com/cuda-zone",
+	"filename": "pool/non-free/n/nvidia-cuda-toolkit/nvidia-cuda-toolkit_12.2.140~12.2.2-1_amd64.deb",
+	"size": 85750020,
+	"md5": "e761286755122e3e8c60e453b58d25fa",
+	"sha256": "03f08ed30ae80d403f1240ee79427ea80deca34cb4e54a84cc95f91cc50cd5c9",
+	"descriptionMd5": "4df65757189fdcbdcc50ffa97fccca02"
+}]

@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-12-dev-arc-cross",
+	"source": "gcc-12-cross-ports (12)",
+	"version": "12.2.0-13cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base-ports (= 12.2.0-13cross1)",
+		"libgcc-s1-arc-cross (>= 12.2.0-13cross1)",
+		"libgomp1-arc-cross (>= 12.2.0-13cross1)",
+		"libatomic1-arc-cross (>= 12.2.0-13cross1)"
+	],
+	"recommends": [
+		"libc6-dev-arc-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-arc-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-arc-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 740,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.2.0-13)",
+	"filename": "pool/main/g/gcc-12-cross-ports/libgcc-12-dev-arc-cross_12.2.0-13cross1_all.deb",
+	"size": 190744,
+	"md5": "1184f52d674268f9be19defae01f5a40",
+	"sha256": "edf4ecd2ac1600a1f057deccf531f9f84e706dcc21e9624bd703764ae270eed4",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

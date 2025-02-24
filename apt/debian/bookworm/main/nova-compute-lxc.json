@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-lxc",
+	"source": "nova",
+	"version": "2:26.2.2-1~deb12u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dpkg-dev",
+		"libvirt-daemon-system",
+		"lxc",
+		"nova-common",
+		"nova-compute",
+		"python3-libvirt"
+	],
+	"conflicts": [
+		"nova-compute-ironic",
+		"nova-compute-kvm",
+		"nova-compute-qemu",
+		"nova-compute-xen"
+	],
+	"installedSize": 22,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - compute node (LXC)",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/main/n/nova/nova-compute-lxc_26.2.2-1~deb12u3_all.deb",
+	"size": 9048,
+	"md5": "ec431364af0da4ce0a6a0a29275bc9cb",
+	"sha256": "ad7fe7effd65100672e33f2ec964c5fb81962e3e6cebcfa807b96e647fdc5085",
+	"descriptionMd5": "ee891f2fd6c366ed399c5aac3f71eb86"
+}

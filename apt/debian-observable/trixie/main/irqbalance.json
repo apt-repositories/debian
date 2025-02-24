@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "irqbalance",
+	"version": "1.9.4-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"runit-helper (>= 2.14.0~)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libglib2.0-0t64 (>= 2.36.0)",
+		"libncursesw6 (>= 6)",
+		"libnuma1 (>= 2.0.11)",
+		"libsystemd0",
+		"libtinfo6 (>= 6)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-51~)"
+	],
+	"conflicts": [
+		"runit (<< 2.1.2-51~)"
+	],
+	"installedSize": 155,
+	"maintainer": "Paride Legovini <paride@debian.org>",
+	"description": "Daemon to balance interrupts for SMP systems",
+	"homepage": "https://github.com/Irqbalance/irqbalance",
+	"filename": "pool/main/i/irqbalance/irqbalance_1.9.4-1_amd64.deb",
+	"size": 47756,
+	"md5": "e65b735a342fcad193d89ef332c7f40e",
+	"sha256": "faa20478b499274d4d27ff6f5091881026f5c42b5476dc2506cc76bac9c9eeac",
+	"descriptionMd5": "fa005f48c9a59b467ea65c0ddb10ffa9"
+}]

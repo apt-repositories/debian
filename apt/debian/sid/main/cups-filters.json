@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cups-filters",
+	"source": "cups-filters (1.28.17-5)",
+	"version": "1.28.17-5+b2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bc",
+		"cups-filters-core-drivers (>= 1.28.17-5+b2)",
+		"ghostscript",
+		"poppler-utils",
+		"libc6 (>= 2.38)",
+		"libcups2t64 (>= 2.3~b6)",
+		"libcupsfilters1t64 (>= 1.22.2)",
+		"libfontconfig1 (>= 2.12.6)",
+		"libfontembed1t64 (>= 1.0.31)",
+		"libgcc-s1 (>= 3.0)",
+		"libqpdf29t64 (>> 11.9~)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"recommends": [
+		"colord",
+		"liblouisutdml-bin | liblouis-bin",
+		"lynx"
+	],
+	"suggests": [
+		"antiword",
+		"docx2txt",
+		"foomatic-db-compressed-ppds | foomatic-db",
+		"imagemagick"
+	],
+	"replaces": [
+		"foomatic-filters",
+		"foomatic-filters-beh",
+		"ghostscript-cups"
+	],
+	"conflicts": [
+		"foomatic-filters",
+		"foomatic-filters-beh",
+		"ghostscript-cups"
+	],
+	"installedSize": 1912,
+	"maintainer": "Debian Printing Team <debian-printing@lists.debian.org>",
+	"description": "OpenPrinting CUPS Filters - Main Package",
+	"homepage": "http://www.openprinting.org/",
+	"filename": "pool/main/c/cups-filters/cups-filters_1.28.17-5+b2_amd64.deb",
+	"size": 571980,
+	"md5": "f7a260ae281472e4336d9a987389cc61",
+	"sha256": "4d4144c4ec68dcc54927eb12512cb1c5ab3203ecb730cc7dadf27fb2ac2f2aa4",
+	"descriptionMd5": "3904eb1f4e7435cb00f37604454e097a"
+}

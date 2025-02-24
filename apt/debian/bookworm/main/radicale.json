@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "radicale",
+	"version": "3.1.8-2",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"lsb-base",
+		"python3-radicale (= 3.1.8-2)",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ssl-cert"
+	],
+	"suggests": [
+		"apache2",
+		"apache2-utils",
+		"libapache2-mod-proxy-uwsgi",
+		"python3-bcrypt",
+		"python3-passlib",
+		"uwsgi",
+		"uwsgi-plugin-python3"
+	],
+	"installedSize": 154,
+	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
+	"description": "simple calendar and addressbook server - daemon",
+	"homepage": "https://radicale.org/",
+	"filename": "pool/main/r/radicale/radicale_3.1.8-2_all.deb",
+	"size": 58808,
+	"md5": "33cb7d742c5ea705eddeea3039877367",
+	"sha256": "8118ead85b1f17510f8ba68fb6cd0e7b77510675e73bb908b339f306504b702f",
+	"descriptionMd5": "e06a9fee6f2fca76f9660c260728428b"
+}

@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "schroot",
+	"source": "schroot (1.6.13-3)",
+	"version": "1.6.13-3+b2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libboost-filesystem1.74.0 (>= 1.74.0+ds1)",
+		"libboost-iostreams1.74.0 (>= 1.74.0+ds1)",
+		"libboost-program-options1.74.0 (>= 1.74.0+ds1)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libstdc++6 (>= 11)",
+		"libuuid1 (>= 2.16)",
+		"lsb-base",
+		"schroot-common (= 1.6.13-3)"
+	],
+	"preDepends": [
+		"debconf"
+	],
+	"suggests": [
+		"aufs-tools | unionfs-fuse",
+		"btrfs-progs",
+		"bzip2",
+		"debootstrap",
+		"lvm2",
+		"qemu-user-static",
+		"xz-utils",
+		"zfsutils-linux",
+		"zstd"
+	],
+	"enhances": [
+		"sbuild"
+	],
+	"installedSize": 2508,
+	"maintainer": "Christoph Biedl <debian.axhn@manchmal.in-ulm.de>",
+	"description": "Execute commands in a chroot environment",
+	"homepage": "https://codeberg.org/shelter/reschroot",
+	"filename": "pool/main/s/schroot/schroot_1.6.13-3+b2_amd64.deb",
+	"size": 605564,
+	"md5": "5e970ce22cf362ed63f8cc9dd1f0b797",
+	"sha256": "14bef231a48d657249720bfae2f014bc867891c5fffe21b297256455680444de",
+	"descriptionMd5": "05ddeddba4df3515093084851a978b95"
+}]

@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "syncplay-server",
+	"source": "syncplay",
+	"version": "1.7.3+repack1-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"syncplay-common",
+		"python3-twisted",
+		"python3-certifi"
+	],
+	"recommends": [
+		"certbot"
+	],
+	"suggests": [
+		"dehydrated | acme-tiny"
+	],
+	"replaces": [
+		"syncplay (<< 1.6.7+repack1-7)"
+	],
+	"breaks": [
+		"syncplay (<< 1.6.7+repack1-7)"
+	],
+	"installedSize": 91,
+	"maintainer": "Bruno Kleinert <fuddl@debian.org>",
+	"description": "Synchronize playback of various video players via internet (Server)",
+	"homepage": "https://syncplay.pl/",
+	"filename": "pool/main/s/syncplay/syncplay-server_1.7.3+repack1-1_all.deb",
+	"size": 19508,
+	"md5": "46472d0573b5420bb7abeae71f163e32",
+	"sha256": "c19bc6c4c9c3f777caf0819df81fd0f65df5f33bcfef8a4293120f3ac835f317",
+	"descriptionMd5": "3ac285f81d0d1d174bf5fad42e59dd99"
+}

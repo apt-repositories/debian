@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dnsutils",
+	"source": "bind9",
+	"version": "1:9.11.5.P4+dfsg-5.1+deb10u7",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-host | host",
+		"libbind9-161 (= 1:9.11.5.P4+dfsg-5.1+deb10u7)",
+		"libdns1104 (= 1:9.11.5.P4+dfsg-5.1+deb10u7)",
+		"libisc1100 (= 1:9.11.5.P4+dfsg-5.1+deb10u7)",
+		"libisccfg163 (= 1:9.11.5.P4+dfsg-5.1+deb10u7)",
+		"liblwres161 (= 1:9.11.5.P4+dfsg-5.1+deb10u7)",
+		"libc6 (>= 2.14)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libfstrm0 (>= 0.2.0)",
+		"libgeoip1",
+		"libgssapi-krb5-2 (>= 1.6.dfsg.2)",
+		"libidn2-0 (>= 2.0.0)",
+		"libirs161 (>= 1:9.10.6+dfsg)",
+		"libjson-c3 (>= 0.10)",
+		"libk5crypto3 (>= 1.6.dfsg.2)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"liblmdb0 (>= 0.9.6)",
+		"libprotobuf-c1 (>= 1.0.0)",
+		"libssl1.1 (>= 1.1.0)",
+		"libxml2 (>= 2.6.27)"
+	],
+	"suggests": [
+		"rblcheck"
+	],
+	"replaces": [
+		"bind9 (<< 1:9.11.2+dfsg-6)"
+	],
+	"breaks": [
+		"bind9 (<< 1:9.11.2+dfsg-6~)"
+	],
+	"installedSize": 724,
+	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
+	"description": "Clients provided with BIND",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/dnsutils_9.11.5.P4+dfsg-5.1+deb10u7_amd64.deb",
+	"size": 365248,
+	"md5": "8c26dd9090b3eb3d1b3f0704fe66c371",
+	"sha256": "c96e6ba37a4f484912cf1c9642744e0761428658ce9ec1a0d6c1555d781d0709",
+	"descriptionMd5": "11090f3795381e992a73710a1cc4118b"
+}

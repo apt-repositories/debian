@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "unattended-upgrades",
+	"version": "2.8",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"debconf",
+		"python3",
+		"python3-apt (>= 1.9.6~)",
+		"python3-dbus",
+		"python3-distro-info",
+		"ucf",
+		"lsb-release",
+		"lsb-base",
+		"xz-utils"
+	],
+	"recommends": [
+		"systemd-sysv | cron | cron-daemon | anacron"
+	],
+	"suggests": [
+		"bsd-mailx",
+		"default-mta | mail-transport-agent",
+		"needrestart",
+		"powermgmt-base",
+		"python3-gi"
+	],
+	"installedSize": 326,
+	"maintainer": "Michael Vogt <mvo@debian.org>",
+	"description": "automatic installation of security upgrades",
+	"filename": "pool/main/u/unattended-upgrades/unattended-upgrades_2.8_all.deb",
+	"size": 88592,
+	"md5": "28d6b59cb2d657f345fdd28bafe9ebfd",
+	"sha256": "667c2b2c3a92a037d0929bee52d9a616999f842812cebaec7443a16668c6babe",
+	"descriptionMd5": "13ffb6fcb282e3e2203472fa9b1a59f7"
+}

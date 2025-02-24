@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rust-llvm",
+	"source": "rustc",
+	"version": "1.84.0+dfsg1-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libgcc-s1 (>= 4.2)",
+		"lld-19",
+		"clang-19",
+		"llvm-19"
+	],
+	"replaces": [
+		"rustc (<< 1.71.1+dfsg1-1~exp1)",
+		"rustc-mozilla (<< 1.71.1+dfsg1-1~exp1)",
+		"rustc-web (<< 1.71.1+dfsg1-1~exp1)"
+	],
+	"breaks": [
+		"rustc (<< 1.71.1+dfsg1-1~exp1)",
+		"rustc-mozilla (<< 1.71.1+dfsg1-1~exp1)",
+		"rustc-web (<< 1.71.1+dfsg1-1~exp1)"
+	],
+	"installedSize": 6105,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Rust LLVM integration",
+	"homepage": "http://www.rust-lang.org/",
+	"filename": "pool/main/r/rustc/rust-llvm_1.84.0+dfsg1-2_amd64.deb",
+	"size": 1739044,
+	"md5": "7ea2065699c940cba95d920340d4f240",
+	"sha256": "2b6c5beb5d1737b2ba16160903ba6fe90fb5e0a90a49bc85498f754244805613",
+	"descriptionMd5": "a12e07c35fa6950f817eb932ab9ce497"
+}

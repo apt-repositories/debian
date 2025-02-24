@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnetcdf13",
+	"source": "netcdf",
+	"version": "1:4.6.2-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libcurl3-gnutls (>= 7.16.2)",
+		"libhdf5-103",
+		"libsz2",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libnetcdf6 (<< 1:4.1.1-7~)",
+		"libnetcdfc7 (<= 4.2.0)"
+	],
+	"breaks": [
+		"libnetcdf6 (<< 1:4.1.1-7~)",
+		"libnetcdfc7 (<= 4.2.0)"
+	],
+	"installedSize": 1361,
+	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
+	"description": "Interface for scientific data access to large binary data",
+	"homepage": "http://www.unidata.ucar.edu/software/netcdf/",
+	"filename": "pool/main/n/netcdf/libnetcdf13_4.6.2-1_amd64.deb",
+	"size": 403256,
+	"md5": "f975eb7c14bfc79cbdaab4cd3082e576",
+	"sha256": "70755c490c8f430ff2428872a9d4742098526e3907e19a53fed32fd45bdec571",
+	"descriptionMd5": "544d5abff5d8ffd3a09189e30430026f"
+}

@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zfsutils-linux",
+	"source": "zfs-linux",
+	"version": "0.7.12-2+deb10u2",
+	"section": "contrib/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3",
+		"python3:any",
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.17)",
+		"libnvpair1linux (>= 0.7.12)",
+		"libuuid1 (>= 2.16)",
+		"libuutil1linux (>= 0.7.12)",
+		"libzfs2linux (>= 0.7.12)",
+		"libzpool2linux (>= 0.7.12)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"lsb-base",
+		"zfs-modules | zfs-dkms",
+		"zfs-zed"
+	],
+	"suggests": [
+		"nfs-kernel-server",
+		"samba-common-bin (>= 3.0.23)",
+		"zfs-initramfs | zfs-dracut"
+	],
+	"breaks": [
+		"zfs-dkms (>> 0.7.12-2+deb10u2)",
+		"zfs-dkms (<< 0.7.12-2+deb10u2)"
+	],
+	"conflicts": [
+		"insserv (<< 1.18)",
+		"zfs",
+		"zfs-fuse"
+	],
+	"installedSize": 1099,
+	"maintainer": "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@alioth-lists.debian.net>",
+	"description": "command-line tools to manage OpenZFS filesystems",
+	"homepage": "http://www.zfsonlinux.org/",
+	"filename": "pool/contrib/z/zfs-linux/zfsutils-linux_0.7.12-2+deb10u2_amd64.deb",
+	"size": 292444,
+	"md5": "928b7371c07f32ab692c5536eda85f64",
+	"sha256": "51da7218e809d0b3876d175eac676f27b7f3c2aef4e13cd4bb8d9ecb81901003",
+	"descriptionMd5": "3b2c00b92882937cb7252c01e41d8975"
+}

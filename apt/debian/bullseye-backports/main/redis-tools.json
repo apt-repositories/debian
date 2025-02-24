@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "redis-tools",
+	"source": "redis",
+	"version": "5:7.0.10-1~bpo11+1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libatomic1 (>= 4.8)",
+		"libc6 (>= 2.29)",
+		"libjemalloc2 (>= 3.5.0)",
+		"liblzf1 (>= 1.5)",
+		"libssl1.1 (>= 1.1.1)",
+		"libsystemd0"
+	],
+	"suggests": [
+		"ruby-redis"
+	],
+	"replaces": [
+		"redis-server (<< 2:2.6.16-1)"
+	],
+	"breaks": [
+		"redis-server (<< 2:2.6.16-1)"
+	],
+	"installedSize": 5839,
+	"maintainer": "Chris Lamb <lamby@debian.org>",
+	"description": "Persistent key-value database with network interface (client)",
+	"homepage": "https://redis.io/",
+	"filename": "pool/main/r/redis/redis-tools_7.0.10-1~bpo11+1_amd64.deb",
+	"size": 984696,
+	"sha256": "82ff4aabd9b37b97bf76943082eb931341bf974ac2ec80e6ce9a138896d5b660",
+	"descriptionMd5": "73e12355ae0942ddf9ddc6d068f95d50"
+}

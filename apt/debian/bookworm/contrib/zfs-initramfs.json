@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zfs-initramfs",
+	"source": "zfs-linux",
+	"version": "2.1.11-1+deb12u1",
+	"section": "contrib/kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox-initramfs | busybox-static | busybox",
+		"initramfs-tools",
+		"zfs-modules | zfs-dkms",
+		"zfsutils-linux (>= 2.1.11-1+deb12u1)"
+	],
+	"replaces": [
+		"zfsutils-linux (<= 0.7.11-2)"
+	],
+	"breaks": [
+		"zfsutils-linux (<= 0.7.11-2)"
+	],
+	"installedSize": 114,
+	"maintainer": "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@alioth-lists.debian.net>",
+	"description": "OpenZFS root filesystem capabilities for Linux - initramfs",
+	"homepage": "https://zfsonlinux.org/",
+	"filename": "pool/contrib/z/zfs-linux/zfs-initramfs_2.1.11-1+deb12u1_all.deb",
+	"size": 34192,
+	"md5": "08b57e37ba5825ecfed09638ad8cdb14",
+	"sha256": "ea4bab32977552d83e6a372590e6226f7d4a2ca66c9c34cbe0aa90c896942e2c",
+	"descriptionMd5": "ed136876804c562cd1f81b87863a33a9"
+}

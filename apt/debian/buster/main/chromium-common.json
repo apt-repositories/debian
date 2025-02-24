@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "chromium-common",
+	"source": "chromium",
+	"version": "90.0.4430.212-1~deb10u1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.27)",
+		"libstdc++6 (>= 6)",
+		"libx11-6 (>= 2:1.4.99.1)",
+		"libxext6",
+		"zlib1g (>= 1:1.2.2)",
+		"x11-utils",
+		"xdg-utils"
+	],
+	"recommends": [
+		"upower",
+		"libu2f-udev",
+		"libgl1-mesa-dri",
+		"chromium-sandbox",
+		"fonts-liberation",
+		"notification-daemon"
+	],
+	"replaces": [
+		"chromium (<< 90.0.4430.212-1~deb10u1)"
+	],
+	"breaks": [
+		"chromium (<< 90.0.4430.212-1~deb10u1)"
+	],
+	"installedSize": 6158,
+	"maintainer": "Debian Chromium Team <chromium@packages.debian.org>",
+	"description": "web browser - common resources used by the chromium packages",
+	"homepage": "http://www.chromium.org/Home",
+	"filename": "pool/main/c/chromium/chromium-common_90.0.4430.212-1~deb10u1_amd64.deb",
+	"size": 1422800,
+	"md5": "cc9bef28208aea6775934b5c9ec1335f",
+	"sha256": "f08bee1a4e3fa17614d268cdb56c0617a34805c11663c579d0f0d93a3c27f943",
+	"descriptionMd5": "6f8b66c61b0d01bc4c6ea3fa84a5ff38"
+}

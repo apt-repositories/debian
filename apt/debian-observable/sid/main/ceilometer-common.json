@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceilometer-common",
+	"source": "ceilometer",
+	"version": "1:23.0.0-1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dpkg-dev",
+		"python3-ceilometer (= 1:23.0.0-1)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any"
+	],
+	"conflicts": [
+		"ceilometer-api",
+		"ceilometer-collector"
+	],
+	"installedSize": 204,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack efficient metering counters system - common files",
+	"homepage": "http://wiki.openstack.org/Ceilometer",
+	"filename": "pool/main/c/ceilometer/ceilometer-common_23.0.0-1_all.deb",
+	"size": 35104,
+	"md5": "9cb904b7095e44e2036e01a83e2dfc5f",
+	"sha256": "003889f56b43ca732f1a00e8ddbd5ada6df70332a93a689e778e90bab10cd07a",
+	"descriptionMd5": "57f81ef9becc1e19a17945de9b645926"
+}]

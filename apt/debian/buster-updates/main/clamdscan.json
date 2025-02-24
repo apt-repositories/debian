@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clamdscan",
+	"source": "clamav",
+	"version": "0.103.6+dfsg-0+deb10u1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"clamav-base (= 0.103.6+dfsg-0+deb10u1)",
+		"libc6 (>= 2.28)",
+		"libclamav9 (>= 0.103.6)"
+	],
+	"suggests": [
+		"clamav-daemon",
+		"clamav-docs"
+	],
+	"replaces": [
+		"clamd (<< 0.98.5~beta1+dfsg-3)"
+	],
+	"breaks": [
+		"clamd (<< 0.98.5~beta1+dfsg-3)"
+	],
+	"installedSize": 252,
+	"maintainer": "ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>",
+	"description": "anti-virus utility for Unix - scanner client",
+	"homepage": "https://www.clamav.net/",
+	"filename": "pool/main/c/clamav/clamdscan_0.103.6+dfsg-0+deb10u1_amd64.deb",
+	"size": 104916,
+	"sha256": "3f96a45172b11c9ffba5e0cdfe4c48ac217fa0df6deaee5948ca9210b3eef7e9",
+	"descriptionMd5": "ad077e4c74b9870b6e7bb55aef11c547"
+}

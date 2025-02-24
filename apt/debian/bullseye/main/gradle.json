@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gradle",
+	"version": "4.4.1-13",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"default-jre-headless (>= 2:1.8) | java8-runtime-headless",
+		"libgradle-core-java (>= 4.4.1-13)",
+		"libgradle-plugins-java (>= 4.4.1-13)"
+	],
+	"suggests": [
+		"gradle-doc"
+	],
+	"replaces": [
+		"libgradle-core-java (<< 1.12)"
+	],
+	"breaks": [
+		"gradle-debian-helper (<< 2.0~)",
+		"libgradle-core-java (<< 1.12)"
+	],
+	"installedSize": 512,
+	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
+	"description": "Powerful build system for the JVM",
+	"homepage": "https://gradle.org",
+	"filename": "pool/main/g/gradle/gradle_4.4.1-13_all.deb",
+	"size": 400724,
+	"md5": "581bf2b2540123a1ca5f9c7201c3df3a",
+	"sha256": "8b88bd9b6ed60379333378def60e46cffe3ab47b469f7521d52ebbfa6040c970",
+	"descriptionMd5": "dc7c348ba78fae9c679e7d8a527a89ff"
+}

@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "krb5-strength",
+	"version": "3.2-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"perl:any",
+		"libc6 (>= 2.26)",
+		"libcdb1",
+		"libcrack2 (>= 2.8.12)",
+		"libkrb5-3 (>= 1.10+dfsg~alpha1)",
+		"libsqlite3-0 (>= 3.5.9)"
+	],
+	"recommends": [
+		"cracklib-runtime",
+		"libcrypt-pbkdf2-perl",
+		"libdb-file-lock-perl",
+		"libdbd-sqlite3-perl",
+		"libdbi-perl",
+		"libgetopt-long-descriptive-perl",
+		"libipc-run-perl",
+		"libjson-perl",
+		"libreadonly-perl",
+		"tinycdb"
+	],
+	"enhances": [
+		"heimdal-kdc",
+		"krb5-admin-server"
+	],
+	"installedSize": 200,
+	"maintainer": "Russ Allbery <rra@debian.org>",
+	"description": "Password strength checking for Kerberos KDCs",
+	"homepage": "https://www.eyrie.org/~eagle/software/krb5-strength/",
+	"filename": "pool/main/k/krb5-strength/krb5-strength_3.2-3_amd64.deb",
+	"size": 75856,
+	"md5": "689b7ea45b0064c171f4f38bea5cacd6",
+	"sha256": "074636a14e25bb984fbc1d3d8f5bb3b12ee48849904fb0d97f9f1e49aeac1803",
+	"descriptionMd5": "8675c35d59b7b31637f532ee53c292a3"
+}

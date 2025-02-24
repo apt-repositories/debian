@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-nvidia-legacy-340xx",
+	"source": "nvidia-graphics-drivers-legacy-340xx",
+	"version": "340.108-24",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-legacy-340xx-glcore (= 340.108-24)",
+		"nvidia-legacy-340xx-alternative (= 340.108-24)",
+		"nvidia-support",
+		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
+		"xserver-xorg-core (<< 2:21.99)",
+		"libc6 (>= 2.2.5)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-legacy-340xx-driver (>= 340.108)",
+		"nvidia-legacy-340xx-vdpau-driver (>= 340.108)",
+		"nvidia-legacy-340xx-kernel-dkms (= 340.108-24) | nvidia-legacy-340xx-kernel-340.108",
+		"nvidia-settings-legacy-340xx (>= 340)"
+	],
+	"suggests": [
+		"nvidia-legacy-340xx-kernel-dkms (>= 340.108) | nvidia-legacy-340xx-kernel-source (>= 340.108)"
+	],
+	"replaces": [
+		"glx-alternative-nvidia (<< 0.6.91)"
+	],
+	"breaks": [
+		"glx-alternative-nvidia (<< 0.6.91)"
+	],
+	"installedSize": 26006,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary Xorg driver (340xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-340xx/xserver-xorg-video-nvidia-legacy-340xx_340.108-24_amd64.deb",
+	"size": 2774176,
+	"md5": "0a65380d9f8857fc1825b1fb0241fa01",
+	"sha256": "413ee86e7a87a10fbf5554e8f21ebaf36ca7b3fdc9fbea1813fa0deecdc57167",
+	"descriptionMd5": "d0ac21e517c3a6c7cebf581f38d71977"
+}

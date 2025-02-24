@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-common",
+	"source": "nginx",
+	"version": "1.22.1-9",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"fcgiwrap",
+		"nginx-doc",
+		"ssl-cert"
+	],
+	"replaces": [
+		"nginx (<< 1.22.1-8)"
+	],
+	"breaks": [
+		"nginx (<< 1.22.1-8)"
+	],
+	"installedSize": 326,
+	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
+	"description": "small, powerful, scalable web/proxy server - common files",
+	"homepage": "https://nginx.org",
+	"filename": "pool/main/n/nginx/nginx-common_1.22.1-9_all.deb",
+	"size": 112180,
+	"md5": "def8b2ee0028d6744bffa23b41951472",
+	"sha256": "3ed48529119e25d31a5eb854a7023ce951f3f54dc02ff5434a4957bb495300b2",
+	"descriptionMd5": "9e23931d84d07adbee5412aefdad8a90"
+}

@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcdk5t64",
+	"source": "libcdk5",
+	"version": "5.0.20250116-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libncurses6 (>= 6.1+20180210)",
+		"libtinfo6 (>= 6.1+20180210)"
+	],
+	"replaces": [
+		"libcdk5",
+		"libcdk5nc6"
+	],
+	"breaks": [
+		"libcdk5nc6 (<< 5.0.20250116-1)"
+	],
+	"conflicts": [
+		"libcdk5"
+	],
+	"installedSize": 362,
+	"maintainer": "Steve M. Robbins <smr@debian.org>",
+	"description": "C-based curses widget library",
+	"homepage": "http://invisible-island.net/cdk",
+	"filename": "pool/main/libc/libcdk5/libcdk5t64_5.0.20250116-1_amd64.deb",
+	"size": 129260,
+	"md5": "c7f507baa91485b65615f21b4b7708ac",
+	"sha256": "2ca37a528cea4a74e55b225f65c981ba7e229187aa2f15c5206cb3f75c556201",
+	"descriptionMd5": "9c4f30c429aa32a4a99bbda6393138fc"
+}

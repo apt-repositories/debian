@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libapache2-mod-ruwsgi",
+	"source": "uwsgi",
+	"version": "2.0.18-1",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"apache2-api-20120211",
+		"apache2-bin (>= 2.4.16)",
+		"libapr1 (>= 1.4.8-2~)",
+		"libaprutil1 (>= 1.2.7+dfsg)",
+		"libc6 (>= 2.14)"
+	],
+	"recommends": [
+		"uwsgi-core"
+	],
+	"suggests": [
+		"uwsgi"
+	],
+	"replaces": [
+		"libapache2-mod-uwsgi"
+	],
+	"conflicts": [
+		"libapache2-mod-uwsgi"
+	],
+	"installedSize": 86,
+	"maintainer": "uWSGI packaging team <pkg-uwsgi-devel@lists.alioth.debian.org>",
+	"description": "uwsgi module for Apache2 (mod_Ruwsgi)",
+	"homepage": "http://projects.unbit.it/uwsgi/",
+	"filename": "pool/main/u/uwsgi/libapache2-mod-ruwsgi_2.0.18-1_amd64.deb",
+	"size": 46856,
+	"md5": "1a33e9a60c9bff4c68ff0ae49b24f4dd",
+	"sha256": "5cb412a95519ce6f82d0b557d477c44750eba8dedba99495d455b7fcbf565502",
+	"descriptionMd5": "494e705a15ecab461dc09fdc5ea58d1e"
+}

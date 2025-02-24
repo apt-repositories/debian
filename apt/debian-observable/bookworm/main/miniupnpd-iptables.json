@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "miniupnpd-iptables",
+	"source": "miniupnpd",
+	"version": "2.3.1-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iptables",
+		"libc6 (>= 2.34)",
+		"libip4tc2 (>= 1.8.3)",
+		"libip6tc2 (>= 1.8.3)"
+	],
+	"replaces": [
+		"miniupnpd (<< 2.2.0)"
+	],
+	"breaks": [
+		"miniupnpd (<< 2.2.0)"
+	],
+	"conflicts": [
+		"miniupnpd-nftables"
+	],
+	"installedSize": 240,
+	"maintainer": "Thomas Goirand <zigo@debian.org>",
+	"description": "UPnP and NAT-PMP daemon for gateway routers - legacy iptables backend",
+	"homepage": "http://miniupnp.free.fr/",
+	"filename": "pool/main/m/miniupnpd/miniupnpd-iptables_2.3.1-1_amd64.deb",
+	"size": 99432,
+	"md5": "34eb0c0d5807a75054f62b299bcbef2c",
+	"sha256": "3768b6ad8444c1802f8629475fb5ae883875441828b62ae89a9f500d8c79bd54",
+	"descriptionMd5": "77007a15ecef72830f516793fb90e86a"
+}]

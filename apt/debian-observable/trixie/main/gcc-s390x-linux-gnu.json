@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-s390x-linux-gnu",
+	"source": "gcc-defaults (1.220)",
+	"version": "4:14.2.0-1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-s390x-linux-gnu (= 4:14.2.0-1)",
+		"gcc-14-s390x-linux-gnu (>= 14.2.0-6~)"
+	],
+	"recommends": [
+		"libc6-dev-s390x-cross | libc-dev-s390x-cross"
+	],
+	"suggests": [
+		"make",
+		"manpages-dev",
+		"autoconf",
+		"automake",
+		"libtool",
+		"flex",
+		"bison",
+		"gdb-s390x-linux-gnu",
+		"gcc-doc"
+	],
+	"replaces": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"breaks": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"installedSize": 23,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler for the s390x architecture",
+	"filename": "pool/main/g/gcc-defaults/gcc-s390x-linux-gnu_14.2.0-1_amd64.deb",
+	"size": 1448,
+	"md5": "22b6d7a3933d6e6d04f45b2eb531f3f1",
+	"sha256": "241e87b3aebf4cbaaae5e878f04b7a31d3fb051f220b096555134e18d1fbfa89",
+	"descriptionMd5": "0e9bad3b62304d1f54438e18e774f9bd"
+}]

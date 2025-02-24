@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "icinga2-ido-mysql",
+	"source": "icinga2",
+	"version": "2.14.5-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dbconfig-common",
+		"icinga2-bin (= 2.14.5-1)",
+		"icinga2-common (= 2.14.5-1)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libmariadb3 (>= 3.0.0)",
+		"libstdc++6 (>= 5)"
+	],
+	"recommends": [
+		"default-mysql-client | virtual-mysql-client"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"conflicts": [
+		"icinga2-ido-pgsql"
+	],
+	"installedSize": 373,
+	"maintainer": "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>",
+	"description": "host and network monitoring system - MySQL support",
+	"homepage": "https://icinga.com",
+	"filename": "pool/main/i/icinga2/icinga2-ido-mysql_2.14.5-1_amd64.deb",
+	"size": 130572,
+	"md5": "7039d53adbb55470784571510549b6d6",
+	"sha256": "2d459c4d5ef18d8e191a15e4bc042a5559c7bcbbdaee59bca8e595d36c943724",
+	"descriptionMd5": "52c90cfa8b96fd2c669519e8c63cec0c"
+}]

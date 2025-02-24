@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-boot",
+	"source": "systemd",
+	"version": "252.33-1~deb12u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libsystemd-shared (= 252.33-1~deb12u1)",
+		"systemd-boot-efi (= 252.33-1~deb12u1)"
+	],
+	"recommends": [
+		"efibootmgr"
+	],
+	"replaces": [
+		"systemd (<< 251.2-3~)"
+	],
+	"breaks": [
+		"systemd (<< 251.2-3~)"
+	],
+	"installedSize": 244,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "simple UEFI boot manager - tools and services",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd-boot_252.33-1~deb12u1_amd64.deb",
+	"size": 100164,
+	"md5": "8f50a316d4811df9defd60de658982ad",
+	"sha256": "b872d628ea4abf7d4bcaa612542676eb1db9e0ed70b45636a0f9b22da13013fa",
+	"descriptionMd5": "5ba77b2b4bc86eae081746facb23c909"
+}

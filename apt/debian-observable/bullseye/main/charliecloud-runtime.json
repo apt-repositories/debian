@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "charliecloud-runtime",
+	"source": "charliecloud",
+	"version": "0.21-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"charliecloud-common",
+		"python3",
+		"squashfuse"
+	],
+	"suggests": [
+		"charliecloud-doc",
+		"charliecloud-builders"
+	],
+	"replaces": [
+		"charliecloud (<< 0.16-1)"
+	],
+	"breaks": [
+		"charliecloud (<< 0.16-1)"
+	],
+	"installedSize": 113,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "user-defined software stacks (UDSS) for HPC centers (runtime tools)",
+	"homepage": "https://hpc.github.io/charliecloud/",
+	"filename": "pool/main/c/charliecloud/charliecloud-runtime_0.21-1_amd64.deb",
+	"size": 39792,
+	"md5": "1e443d7df9b8cac430ccab7d2481741c",
+	"sha256": "d277a2baae0a961627ad5211811190d78c7ab472c38557c24f6f45769874b3ae",
+	"descriptionMd5": "695addde1653bc5f0f6abee3f887dda0"
+}]

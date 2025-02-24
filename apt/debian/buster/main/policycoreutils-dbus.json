@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "policycoreutils-dbus",
+	"source": "selinux-dbus",
+	"version": "2.8-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbus (>= 1.8)",
+		"policycoreutils (>= 2.8)",
+		"policycoreutils-python-utils (>= 2.8)",
+		"policykit-1",
+		"python3 (>= 3.2)",
+		"python3-dbus",
+		"python3-gi",
+		"python3-selinux (>= 2.8)",
+		"python3-slip-dbus"
+	],
+	"replaces": [
+		"policycoreutils-gui (<< 2.7~)"
+	],
+	"breaks": [
+		"policycoreutils-gui (<< 2.7~)"
+	],
+	"installedSize": 51,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "SELinux core policy utilities (D-Bus daemon)",
+	"homepage": "http://userspace.selinuxproject.org/",
+	"filename": "pool/main/s/selinux-dbus/policycoreutils-dbus_2.8-1_all.deb",
+	"size": 25864,
+	"md5": "6744c06f4cbb6ff7fa8978e4bb10ed09",
+	"sha256": "8a35919bea35c55ff7e552ccf68605b7bfc918cde4b806f931b9c260c3409378",
+	"descriptionMd5": "a9fd585e3d16b666d69c9ef51016e56c"
+}

@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-mds",
+	"source": "ceph (12.2.11+dfsg1-2.1)",
+	"version": "12.2.11+dfsg1-2.1+b1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph",
+		"libboost-iostreams1.67.0",
+		"libboost-regex1.67.0 (>= 1.67.0-10)",
+		"libboost-system1.67.0",
+		"libboost-thread1.67.0",
+		"libc6 (>= 2.28)",
+		"libcephfs2 (>= 12.2.8)",
+		"libgcc1 (>= 1:3.0)",
+		"libgoogle-perftools4",
+		"libibverbs1 (>= 1.1.6)",
+		"libnspr4 (>= 2:4.9-2~)",
+		"libnss3 (>= 2:3.13.4-2~)",
+		"librados2 (>= 12.2.8)",
+		"libstdc++6 (>= 6)"
+	],
+	"recommends": [
+		"ceph-fuse"
+	],
+	"replaces": [
+		"ceph (<< 0.67.3-1)"
+	],
+	"breaks": [
+		"ceph (<< 0.67.3-1)"
+	],
+	"installedSize": 30277,
+	"maintainer": "Ceph Maintainers <ceph-maintainers@lists.ceph.com>",
+	"description": "metadata server for the ceph distributed file system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-mds_12.2.11+dfsg1-2.1+b1_amd64.deb",
+	"size": 7718412,
+	"md5": "f89764a474633cf0e40df8bba5a18cd6",
+	"sha256": "b771675e2b4827068f3532a82418e2c096e3f3cffbbcba83400921c240dcdc4a",
+	"descriptionMd5": "d37d51a4735a093f21799c80f707168f"
+}]

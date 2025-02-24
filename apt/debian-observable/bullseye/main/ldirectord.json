@@ -1,0 +1,54 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ldirectord",
+	"source": "resource-agents",
+	"version": "1:4.7.0-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ipvsadm",
+		"lsb-base",
+		"libauthen-radius-perl",
+		"libcrypt-ssleay-perl",
+		"libdbi-perl",
+		"libdigest-hmac-perl",
+		"libdigest-md5-perl",
+		"libio-socket-inet6-perl",
+		"libmail-pop3client-perl",
+		"libmailtools-perl",
+		"libnet-dns-perl",
+		"libnet-imap-simple-perl",
+		"libnet-imap-simple-ssl-perl",
+		"libnet-ldap-perl",
+		"libnet-perl",
+		"libsocket6-perl",
+		"libwww-perl",
+		"perl:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"logrotate",
+		"rsyslog | system-log-daemon"
+	],
+	"conflicts": [
+		"libpils0 (<< 2.0.8-3)",
+		"libstonith0 (<< 2.0.8-3)",
+		"stonith (<< 2.0.8-3)"
+	],
+	"installedSize": 259,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "Monitors virtual services provided by LVS",
+	"homepage": "https://github.com/ClusterLabs/resource-agents",
+	"filename": "pool/main/r/resource-agents/ldirectord_4.7.0-1_all.deb",
+	"size": 90436,
+	"md5": "4bc3d50712973d0e9a2b3b140466cbec",
+	"sha256": "6bc31be1e401b691479131b3359278da085012b8d7d3b56bcfb0968b9c05c408",
+	"descriptionMd5": "d72d6b56a28652bb82109ce53fb17aad"
+}]

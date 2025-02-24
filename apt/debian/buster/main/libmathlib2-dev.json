@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmathlib2-dev",
+	"source": "cernlib",
+	"version": "20061220+dfsg3-4.4",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblas-dev | libatlas-base-dev | libblas-3gf.so",
+		"liblapack-dev | libatlas-base-dev | liblapack-3gf.so",
+		"libmathlib2-gfortran (= 20061220+dfsg3-4.4)",
+		"libkernlib1-dev (= 20061220+dfsg3-4.4)",
+		"libpacklib1-dev (= 20061220+dfsg3-4.4)",
+		"cfortran (>= 4.4-10)",
+		"libc6-dev | libc-dev"
+	],
+	"replaces": [
+		"libmathlib1-dev (<= 2004.11.04.dfsg-0sarge1)"
+	],
+	"breaks": [
+		"libmathlib1-dev (<= 2004.11.04.dfsg-0sarge1)"
+	],
+	"conflicts": [
+		"blas2-dev",
+		"lapack2-dev",
+		"lapack3-dev",
+		"refblas3-dev"
+	],
+	"installedSize": 3096,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "CERNLIB data analysis suite - core mathematical library (development files)",
+	"homepage": "http://cernlib.web.cern.ch/cernlib/",
+	"filename": "pool/main/c/cernlib/libmathlib2-dev_20061220+dfsg3-4.4_amd64.deb",
+	"size": 555828,
+	"md5": "70d19c1d06961b80ad4a58d995848519",
+	"sha256": "c60368790e0c8dbd0372ff4260f04a65faa085e9b26b538d95879920a610e4b2",
+	"descriptionMd5": "b8620c7ec73de494fefb81d983e572d9"
+}

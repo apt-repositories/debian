@@ -1,0 +1,60 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inn2",
+	"version": "2.6.4-2",
+	"section": "news",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libdb5.3",
+		"libpam0g (>= 0.99.7.1)",
+		"libperl5.32 (>= 5.32.0~rc1)",
+		"libpython3.9 (>= 3.9.0~b4)",
+		"libsasl2-2 (>= 2.1.27+dfsg)",
+		"libssl1.1 (>= 1.1.1)",
+		"libsystemd0",
+		"zlib1g (>= 1:1.1.4)",
+		"cron | cron-daemon",
+		"default-mta | mail-transport-agent",
+		"time",
+		"procps",
+		"perl:any",
+		"perlapi-5.32.1",
+		"libmime-tools-perl",
+		"lsb-base"
+	],
+	"preDepends": [
+		"inn2-inews (= 2.6.4-2)"
+	],
+	"suggests": [
+		"gnupg1",
+		"wget",
+		"libgd-perl",
+		"libkrb5-3 (>= 1.6.dfsg.2)"
+	],
+	"replaces": [
+		"inn",
+		"inn2-dev",
+		"inn2-lfs",
+		"innfeed"
+	],
+	"conflicts": [
+		"inn",
+		"innfeed"
+	],
+	"installedSize": 3464,
+	"maintainer": "Marco d'Itri <md@linux.it>",
+	"description": "'InterNetNews' news server",
+	"homepage": "https://www.eyrie.org/~eagle/software/inn/",
+	"filename": "pool/main/i/inn2/inn2_2.6.4-2_amd64.deb",
+	"size": 1230372,
+	"md5": "425e11f0effba779ec54d0b281557ca6",
+	"sha256": "28597063094c8b825b75ecb5724ae5bb1e5613d680ab9d23fe022bd7d22fb962",
+	"descriptionMd5": "63e9cfa94e4a7e41032459586c02d0fb"
+}]

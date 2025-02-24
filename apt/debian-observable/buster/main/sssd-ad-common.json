@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sssd-ad-common",
+	"source": "sssd",
+	"version": "1.16.3-3.2",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"sssd-common (= 1.16.3-3.2)",
+		"libc6 (>= 2.28)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libdhash1 (>= 0.4.0)",
+		"libldb1 (>= 0.9.21)",
+		"libpopt0 (>= 1.14)",
+		"libselinux1 (>= 1.32)",
+		"libsss-idmap0",
+		"libsystemd0",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"libtevent0 (>= 0.9.9)",
+		"samba-libs (>= 2:4.9.5+dfsg)"
+	],
+	"replaces": [
+		"sssd (<< 1.10.0~beta2-1)"
+	],
+	"breaks": [
+		"sssd (<< 1.10.0~beta2-1)"
+	],
+	"installedSize": 236,
+	"maintainer": "Debian SSSD Team <pkg-sssd-devel@alioth-lists.debian.net>",
+	"description": "System Security Services Daemon -- PAC responder",
+	"homepage": "https://pagure.io/SSSD/sssd/",
+	"filename": "pool/main/s/sssd/sssd-ad-common_1.16.3-3.2_amd64.deb",
+	"size": 81328,
+	"md5": "277564abb4620e63cd560d2fe35cfd49",
+	"sha256": "5705abdfc5caa80a7a853c499be3233d554a1d92928701bac6af03d3b06e3d30",
+	"descriptionMd5": "dbd13e6ad445d781c84f0033e8c07ed7"
+}]

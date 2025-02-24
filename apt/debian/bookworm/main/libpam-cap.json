@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-cap",
+	"source": "libcap2",
+	"version": "1:2.66-4",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpam-runtime (>= 1.1.3-2~)",
+		"libc6 (>= 2.4)",
+		"libcap2 (>= 1:2.63)",
+		"libpam0g (>= 0.99.7.1)"
+	],
+	"replaces": [
+		"libcap2-bin (<< 1:2.66-1)"
+	],
+	"breaks": [
+		"libcap2-bin (<< 1:2.66-1)"
+	],
+	"installedSize": 52,
+	"maintainer": "Christian Kastner <ckk@debian.org>",
+	"description": "POSIX 1003.1e capabilities (PAM module)",
+	"homepage": "https://sites.google.com/site/fullycapable/",
+	"filename": "pool/main/libc/libcap2/libpam-cap_2.66-4_amd64.deb",
+	"size": 14484,
+	"md5": "3137518d8813c1ec3447c52c7db87167",
+	"sha256": "f7ec1bd03aeb1b7d263d6c1e426f34ab53ce61c48ba876980199ad8be8aed477",
+	"descriptionMd5": "c481c3648554442cc6a66d0b34d0d8f6"
+}

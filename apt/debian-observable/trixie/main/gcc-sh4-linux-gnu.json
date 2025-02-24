@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-sh4-linux-gnu",
+	"source": "gcc-defaults-ports (1.220)",
+	"version": "4:14.2.0-1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-sh4-linux-gnu (= 4:14.2.0-1)",
+		"gcc-14-sh4-linux-gnu (>= 14.2.0-6~)"
+	],
+	"recommends": [
+		"libc6-dev-sh4-cross | libc-dev-sh4-cross"
+	],
+	"suggests": [
+		"make",
+		"manpages-dev",
+		"autoconf",
+		"automake",
+		"libtool",
+		"flex",
+		"bison",
+		"gdb-sh4-linux-gnu",
+		"gcc-doc"
+	],
+	"replaces": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"breaks": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"installedSize": 23,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler for the sh4 architecture",
+	"filename": "pool/main/g/gcc-defaults-ports/gcc-sh4-linux-gnu_14.2.0-1_amd64.deb",
+	"size": 1440,
+	"md5": "d2b5e9a0b3490acbac422984e37d7ace",
+	"sha256": "9a6b81e3bce56efbc8242b3199ef4fdde8b65e0ff053c4e894df1535ac8477c1",
+	"descriptionMd5": "890c6dc590c651e561e51c27cd990372"
+}]

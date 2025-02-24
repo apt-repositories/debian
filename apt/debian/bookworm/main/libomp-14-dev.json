@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libomp-14-dev",
+	"source": "llvm-toolchain-14",
+	"version": "1:14.0.6-12",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libomp5-14 (= 1:14.0.6-12)",
+		"libc6 (>= 2.34)",
+		"libelf1 (>= 0.144)",
+		"libffi8 (>= 3.4)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm14",
+		"libstdc++6 (>= 11)"
+	],
+	"suggests": [
+		"libomp-14-doc"
+	],
+	"replaces": [
+		"libomp-x.y-dev",
+		"llvm-14 (<< 1:14~++20211011113307+f7ca54289c14)"
+	],
+	"breaks": [
+		"libiomp-dev (<< 3.7-1)",
+		"libomp-dev (<< 44)",
+		"llvm-14 (<< 1:14~++20211011113307+f7ca54289c14)"
+	],
+	"conflicts": [
+		"libomp-x.y-dev"
+	],
+	"installedSize": 6403,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM OpenMP runtime - dev package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-14/libomp-14-dev_14.0.6-12_amd64.deb",
+	"size": 349912,
+	"md5": "fb9537fbdf1ae9e0b9e0b0bec0250a48",
+	"sha256": "be2ef363d3c97a4af2e2730d27753cee5f750566992e2fab6dfbb90181a7e428",
+	"descriptionMd5": "6f692a0e089a2d4587b533b4f246db62"
+}

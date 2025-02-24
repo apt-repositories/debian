@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libenchant1c2a",
+	"source": "enchant (1.6.0-11.1)",
+	"version": "1.6.0-11.1+b1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"aspell-en | myspell-dictionary | aspell-dictionary | ispell-dictionary | hunspell-dictionary",
+		"libaspell15 (>= 0.60.7~20110707)",
+		"libc6 (>= 2.14)",
+		"libgcc1 (>= 1:3.0)",
+		"libglib2.0-0 (>= 2.35.9)",
+		"libhunspell-1.7-0",
+		"libstdc++6 (>= 5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"enchant"
+	],
+	"suggests": [
+		"libenchant-voikko"
+	],
+	"replaces": [
+		"libenchant-dev (<< 1.1.1++cvs.2003.11.08)",
+		"libenchant1",
+		"libenchant1c2"
+	],
+	"breaks": [
+		"ispell (<< 3.3.02)",
+		"libenchant1",
+		"libenchant1c2"
+	],
+	"installedSize": 251,
+	"maintainer": "Prach Pongpanich <prach@debian.org>",
+	"description": "Wrapper library for various spell checker engines (runtime libs)",
+	"homepage": "http://www.abisource.com/projects/enchant/",
+	"filename": "pool/main/e/enchant/libenchant1c2a_1.6.0-11.1+b1_amd64.deb",
+	"size": 69848,
+	"md5": "01efcd01f78b6fb89b12a4854d7ddb81",
+	"sha256": "42916be9a85eb409e210d2bfc58cd48a07968a7e303ad4b7d9f462aec4a2dc7c",
+	"descriptionMd5": "376c35f65a2fde728d882fde534aa99e"
+}

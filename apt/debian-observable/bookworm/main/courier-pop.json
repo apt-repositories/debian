@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-pop",
+	"source": "courier (1.0.16-3)",
+	"version": "1.0.16-3+b6",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"courier-base (= 1.0.16-3+b6)",
+		"debconf | debconf-2.0",
+		"default-mta | mail-transport-agent",
+		"sysvinit-utils (>= 2.88dsf-50) | init-d-script",
+		"courier-authlib (>= 0.71)",
+		"libc6 (>= 2.34)",
+		"libcourier-unicode4 (>= 2.1.2)",
+		"libidn12 (>= 1.13)"
+	],
+	"suggests": [
+		"courier-doc",
+		"mail-reader"
+	],
+	"replaces": [
+		"courier-pop-ssl (<< 0.75.0-1~)",
+		"pop3-server"
+	],
+	"breaks": [
+		"courier-pop-ssl (<< 0.75.0-1~)"
+	],
+	"conflicts": [
+		"pop3-server"
+	],
+	"installedSize": 270,
+	"maintainer": "Markus Wanner <markus@bluegap.ch>",
+	"description": "Courier mail server - POP3 server",
+	"homepage": "http://www.courier-mta.org/",
+	"filename": "pool/main/c/courier/courier-pop_1.0.16-3+b6_amd64.deb",
+	"size": 130440,
+	"md5": "3fe3f07b228cbed3a76db3e30e427f6e",
+	"sha256": "c05aa4cebc1f501377a1f814cc65a78cb465c1f3ea143ff009f581ea7fbccbb8",
+	"descriptionMd5": "89ea9794c711647b9c31923297fd27c5"
+}]

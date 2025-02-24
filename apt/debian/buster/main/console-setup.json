@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "console-setup",
+	"version": "1.193~deb10u1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"console-setup-linux | console-setup-freebsd | hurd",
+		"xkb-data (>= 0.9)",
+		"keyboard-configuration (= 1.193~deb10u1)"
+	],
+	"preDepends": [
+		"debconf (>= 1.5.34)"
+	],
+	"suggests": [
+		"lsb-base (>= 3.0-6)",
+		"locales"
+	],
+	"breaks": [
+		"lsb (<< 2.0-6)",
+		"lsb-base (<< 3.0-6)",
+		"lsb-core (<< 2.0-6)"
+	],
+	"conflicts": [
+		"console-setup-mini"
+	],
+	"installedSize": 421,
+	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
+	"description": "console font and keymap setup program",
+	"filename": "pool/main/c/console-setup/console-setup_1.193~deb10u1_all.deb",
+	"size": 98488,
+	"md5": "59de387d88773ca1f8177ae035db08d5",
+	"sha256": "2ad6c7ef16ab20ec6714abab8ff795690a65078ad1bbccbbaadb90d2d803d838",
+	"descriptionMd5": "68ace576871ee78c34a9c31d6c6d6bf9"
+}

@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "backuppc-rsync",
+	"version": "3.1.3.0-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"libpopt0 (>= 1.14)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"rsync-bpc"
+	],
+	"enhances": [
+		"backuppc (>= 4)"
+	],
+	"conflicts": [
+		"rsync-bpc"
+	],
+	"installedSize": 548,
+	"maintainer": "Debian BackupPC Team <team+pkg-backuppc@tracker.debian.org>",
+	"description": "patched rsync for BackupPC version 4",
+	"homepage": "https://github.com/backuppc/rsync-bpc",
+	"filename": "pool/main/b/backuppc-rsync/backuppc-rsync_3.1.3.0-4_amd64.deb",
+	"size": 236964,
+	"md5": "524a424e5db3364c35b525af900c3495",
+	"sha256": "ff587aacab2a4b3d411e65408d25ad6bdfb7e14db9deeccfdf1428c1b3c31c64",
+	"descriptionMd5": "fe2a5ada10b1f4a924327d9694186ade"
+}

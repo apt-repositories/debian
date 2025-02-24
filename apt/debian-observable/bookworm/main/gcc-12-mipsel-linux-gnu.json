@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-12-mipsel-linux-gnu",
+	"source": "gcc-12-cross-mipsen (3+c3)",
+	"version": "12.2.0-14cross5",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-12-mipsel-linux-gnu (= 12.2.0-14cross5)",
+		"gcc-12-mipsel-linux-gnu-base (= 12.2.0-14cross5)",
+		"libcc1-0 (>= 12)",
+		"binutils-mipsel-linux-gnu (>= 2.39.90.20230104)",
+		"libgcc-12-dev-mipsel-cross (>= 12.2.0-14cross5)",
+		"libc6 (>= 2.36)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.2.1+dfsg1)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-mipsel-cross (>= 2.23-1~)"
+	],
+	"suggests": [
+		"gcc-12-multilib-mipsel-linux-gnu",
+		"gcc-12-doc (>= 12)",
+		"gcc-12-locales (>= 12)"
+	],
+	"replaces": [
+		"cpp-12-mipsel-linux-gnu (<< 7.1.1-8)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 48439,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler (cross compiler for mipsel architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.2.0-14)",
+	"filename": "pool/main/g/gcc-12-cross-mipsen/gcc-12-mipsel-linux-gnu_12.2.0-14cross5_amd64.deb",
+	"size": 15942208,
+	"md5": "dc1fe8180193625f35d9badb7a5ab40f",
+	"sha256": "93f138d26854ad62d0f791ccef860df31d89e9f3f5049c30797a43ea5c4128f7",
+	"descriptionMd5": "1ed845ccbb41e0438f6d587cf734705e"
+}]

@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mgetty-fax",
+	"source": "mgetty",
+	"version": "1.2.1-1.2",
+	"section": "comm",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"cron",
+		"mgetty (= 1.2.1-1.2)",
+		"perl"
+	],
+	"suggests": [
+		"debianutils (>= 1.6)",
+		"netpbm",
+		"ghostscript",
+		"mgetty-viewfax (>= 1.2.1-1.2)"
+	],
+	"replaces": [
+		"mgetty"
+	],
+	"conflicts": [
+		"mgetty (<= 1.1.30-9)"
+	],
+	"installedSize": 489,
+	"maintainer": "Andreas Barth <aba@ayous.org>",
+	"description": "Faxing tools for mgetty",
+	"homepage": "http://mgetty.greenie.net/",
+	"filename": "pool/main/m/mgetty/mgetty-fax_1.2.1-1.2_amd64.deb",
+	"size": 137248,
+	"md5": "1c93d1043270b146730e35b85806461e",
+	"sha256": "2dc38eb7bff18cdcf36c524ca49607390b1ea6818f41c95c5c815512f27c36b8",
+	"descriptionMd5": "9d149b8c3ab687e4d875ba8146ecf3ca"
+}

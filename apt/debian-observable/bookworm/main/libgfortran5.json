@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgfortran5",
+	"source": "gcc-12",
+	"version": "12.2.0-14",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-base (= 12.2.0-14)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.3)",
+		"libquadmath0 (>= 4.6)"
+	],
+	"breaks": [
+		"gcc-4.3 (<< 4.3.6-1)",
+		"gcc-4.4 (<< 4.4.6-4)",
+		"gcc-4.5 (<< 4.5.3-2)"
+	],
+	"installedSize": 2923,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "Runtime library for GNU Fortran applications",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-12/libgfortran5_12.2.0-14_amd64.deb",
+	"size": 792504,
+	"md5": "88d98d0096bbfcc0763a2e4426e5ca92",
+	"sha256": "0c9f248f805c334364c6b19a221deebb887fb70d4d4cc48ea15b3f5dc02e299c",
+	"descriptionMd5": "bb4b9e7dbbaa67e95441936718b11f39"
+}]
