@@ -6,18 +6,18 @@
 	],
 	"package": "courier-base",
 	"source": "courier",
-	"version": "1.3.13-7",
+	"version": "1.3.13-8",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
 		"courier-authdaemon",
-		"courier-authlib (>= 0.66.1)",
+		"courier-authlib",
 		"courier-authlib-userdb",
-		"debconf (>= 0.5) | debconf-2.0",
+		"debconf",
 		"gnutls-bin",
-		"sysvinit-utils (>= 2.88dsf-50)",
+		"debconf (>= 0.5) | debconf-2.0",
 		"perl:any",
 		"libc6 (>= 2.38)",
 		"libcourier-unicode4 (>= 2.1.2)",
@@ -28,20 +28,13 @@
 		"libpcre2-8-0 (>= 10.22)",
 		"libstdc++6 (>= 5.2)"
 	],
-	"replaces": [
-		"courier-ssl (<< 0.75.0-1)"
-	],
-	"breaks": [
-		"courier-authdaemon (<< 0.66.4-4~)",
-		"courier-ssl (<< 0.75.0-1)"
-	],
 	"installedSize": 731,
 	"maintainer": "Soren Stoutner <soren@debian.org>",
 	"description": "Courier mail server - base system",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier/courier-base_1.3.13-7_amd64.deb",
-	"size": 291356,
-	"md5": "7fb0cb515392c3902dc461265973c7ae",
-	"sha256": "6a9ef84832ff24d86a459e3944e86cb19bea9ced8e8989c6fbc502d0d902eb9d",
+	"filename": "pool/main/c/courier/courier-base_1.3.13-8_amd64.deb",
+	"size": 291184,
+	"md5": "2ab317b2c9901eb8270d0384d764d47a",
+	"sha256": "2722ad8fa6ef1cab0dc90e3227e9f71520bdae0fc102bdfc6b206abd744487bd",
 	"descriptionMd5": "555818a698d6dfec6122cd45f5263ef2"
 }]

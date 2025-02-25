@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "azure-vm-utils",
-	"version": "0.4.0-2",
+	"version": "0.5.0-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)"
+		"libc6 (>= 2.38)",
+		"libjson-c5 (>= 0.15)"
 	],
 	"replaces": [
 		"azure-nvme-utils (<< 0.3.0-1~)"
@@ -18,13 +19,13 @@
 	"conflicts": [
 		"azure-nvme-utils (<< 0.3.0-1~)"
 	],
-	"installedSize": 48,
+	"installedSize": 44,
 	"maintainer": "Debian Cloud Team <debian-cloud@lists.debian.org>",
 	"description": "Core utilities and configuration for Linux VMs on Azure",
 	"homepage": "https://github.com/Azure/azure-vm-utils",
-	"filename": "pool/main/a/azure-vm-utils/azure-vm-utils_0.4.0-2_amd64.deb",
-	"size": 9700,
-	"md5": "e9c519fa96300d73f00ed150336eda53",
-	"sha256": "bb687ea872efa4ad8741c28fcaf8bd5e504da64ab88870760fb9722b645f8d5c",
+	"filename": "pool/main/a/azure-vm-utils/azure-vm-utils_0.5.0-1_amd64.deb",
+	"size": 10644,
+	"md5": "3190bea4e39dd3d7843419ea03779dc0",
+	"sha256": "fac5b8a57bff4c3725d3c2a9d9f83068b3069e0641d0dae54509d04c00ce548f",
 	"descriptionMd5": "005cbf9ece7535f25eaf4189705b243a"
 }
