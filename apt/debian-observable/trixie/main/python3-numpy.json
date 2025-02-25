@@ -6,18 +6,23 @@
 	],
 	"package": "python3-numpy",
 	"source": "numpy",
-	"version": "1:1.26.4+ds-13",
+	"version": "1:2.2.3+ds-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"python3-numpy-dev (= 1:2.2.3+ds-2)",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.12~)",
 		"python3:any",
 		"libblas3 | libblas.so.3",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.4)",
-		"liblapack3 | liblapack.so.3"
+		"liblapack3 | liblapack.so.3",
+		"libstdc++6 (>= 11)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.14)"
 	],
 	"suggests": [
 		"gcc",
@@ -26,13 +31,13 @@
 		"python3-dev",
 		"python3-pytest"
 	],
-	"installedSize": 37287,
-	"maintainer": "Debian Python Team <team+python@tracker.debian.org>,",
-	"description": "Fast array facility to the Python language (Python 3)",
+	"installedSize": 43949,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
+	"description": "Python library for numerical computations (Python 3)",
 	"homepage": "http://www.numpy.org/",
-	"filename": "pool/main/n/numpy/python3-numpy_1.26.4+ds-13_amd64.deb",
-	"size": 4736208,
-	"md5": "8682977c8e3cd959c53dafd2d04dc921",
-	"sha256": "d59243871402492fb8f3cab806cc8d0681cf761b57a57cc09390b183fe9d05be",
-	"descriptionMd5": "fbab8356ccf95c5a052db81b60564836"
+	"filename": "pool/main/n/numpy/python3-numpy_2.2.3+ds-2_amd64.deb",
+	"size": 7517308,
+	"md5": "3b4b8b3c461409463a126232adb733e7",
+	"sha256": "163e65ab1d1ee586fbe87673ad75c5c9dc05ffcb8e4ad3d6b2e0031f1c1a7638",
+	"descriptionMd5": "7954c6a3c139d1dff51b8186b4eac100"
 }]
