@@ -6,7 +6,7 @@
 	],
 	"package": "debusine-server",
 	"source": "debusine",
-	"version": "0.8.1",
+	"version": "0.9.0",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,7 +15,8 @@
 		"arch-test",
 		"daphne",
 		"dbconfig-pgsql | dbconfig-no-thanks",
-		"python3-debusine-server (= 0.8.1)",
+		"libjs-select2.js",
+		"python3-debusine-server (= 0.9.0)",
 		"debconf (>= 0.5) | debconf-2.0",
 		"python3:any (>= 3.11~)"
 	],
@@ -26,13 +27,16 @@
 		"redis-server",
 		"sensible-utils"
 	],
-	"installedSize": 97,
+	"suggests": [
+		"munin-node"
+	],
+	"installedSize": 108,
 	"maintainer": "Raphaël Hertzog <raphael@freexian.com>",
 	"description": "Services to run a debusine server",
 	"homepage": "https://salsa.debian.org/freexian-team/debusine",
-	"filename": "pool/main/d/debusine/debusine-server_0.8.1_all.deb",
-	"size": 18860,
-	"md5": "f53272242355122f032c9d3b8ff09901",
-	"sha256": "ebaf0bf17d4e5bb92ae6ca9ee662dc24f87ce706dc7d54c1c7707bf642cc48ba",
+	"filename": "pool/main/d/debusine/debusine-server_0.9.0_all.deb",
+	"size": 21120,
+	"md5": "e678cea0eb615e962a43cee43d9e9d02",
+	"sha256": "c69b767f913e792f4e1c874e2990170538d7877e4e76febef29c9754c831df6d",
 	"descriptionMd5": "bc99f38676ea648be1bacbb6d71f5598"
 }]
