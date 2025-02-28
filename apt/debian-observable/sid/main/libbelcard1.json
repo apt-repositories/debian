@@ -5,27 +5,35 @@
 		"Size"
 	],
 	"package": "libbelcard1",
-	"source": "belcard (5.2.0-2)",
-	"version": "5.2.0-2+b4",
+	"source": "belcard",
+	"version": "5.3.105-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libbctoolbox1t64 (>= 5.2.0-1)",
-		"libbctoolbox1t64 (<< 5.3.0-1)",
+		"libbctoolbox2 (>= 5.3.104)",
+		"libbctoolbox2 (<< 5.4.0)",
 		"libbelr1 (>= 5.2.0-1)",
 		"libbelr1 (<< 5.3.0-1)",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.0)",
-		"libstdc++6 (>= 13.1)"
+		"libstdc++6 (>= 13.1)",
+		"belcard-data"
 	],
-	"installedSize": 1364,
+	"replaces": [
+		"libbelcard1 (<< 5.2.98)"
+	],
+	"breaks": [
+		"libbelcard1 (<< 5.2.98)",
+		"liblinphone11"
+	],
+	"installedSize": 1346,
 	"maintainer": "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>",
 	"description": "VCard standard format manipulation library",
 	"homepage": "https://gitlab.linphone.org/BC/public/belcard/",
-	"filename": "pool/main/b/belcard/libbelcard1_5.2.0-2+b4_amd64.deb",
-	"size": 183860,
-	"md5": "d38234298b75a69de0b13bf6945209be",
-	"sha256": "55ad4f87a4d5857ecf41b248c64beed69383a6994f275afc2db1ab436c1c4411",
+	"filename": "pool/main/b/belcard/libbelcard1_5.3.105-1_amd64.deb",
+	"size": 179684,
+	"md5": "4eb25549443a6c48c05a0bf65612a832",
+	"sha256": "57c9bf50e75f6bf5cd93be258fe31692a31a21b5f4a7e16be307cc6512d3bb63",
 	"descriptionMd5": "9227dc75e88ed2df8f5d2e1f1c4ba702"
 }]

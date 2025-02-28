@@ -6,39 +6,39 @@
 	],
 	"package": "xserver-xorg-video-nvidia",
 	"source": "nvidia-graphics-drivers",
-	"version": "535.183.06-1~bpo12+1",
+	"version": "535.216.03-2~bpo12+1",
 	"section": "non-free/x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-alternative (= 535.183.06-1~bpo12+1)",
+		"nvidia-alternative (= 535.216.03-2~bpo12+1)",
 		"nvidia-support",
 		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
 		"xserver-xorg-core (<< 2:21.99)",
 		"libc6 (>= 2.34)",
-		"libnvidia-glcore (= 535.183.06-1~bpo12+1)"
+		"libnvidia-glcore (= 535.216.03-2~bpo12+1)"
 	],
 	"preDepends": [
 		"nvidia-installer-cleanup",
 		"nvidia-legacy-check (>= 495)"
 	],
 	"recommends": [
-		"nvidia-driver (>= 535.183.06)",
-		"nvidia-vdpau-driver (>= 535.183.06)",
-		"nvidia-vulkan-icd (>= 535.183.06)",
-		"nvidia-kernel-dkms (= 535.183.06-1~bpo12+1) | nvidia-kernel-535.183.06 | nvidia-open-kernel-535.183.06",
+		"nvidia-driver (>= 535.216.03)",
+		"nvidia-vdpau-driver (>= 535.216.03)",
+		"nvidia-vulkan-icd (>= 535.216.03)",
+		"nvidia-kernel-dkms (= 535.216.03-2~bpo12+1) | nvidia-kernel-535.216.03 | nvidia-open-kernel-535.216.03",
 		"nvidia-suspend-common",
 		"nvidia-settings (>= 535)"
 	],
 	"suggests": [
-		"nvidia-kernel-dkms (>= 535.183.06) | nvidia-kernel-source (>= 535.183.06) | nvidia-open-kernel-source (>= 535.183.06)"
+		"nvidia-kernel-dkms (>= 535.216.03) | nvidia-kernel-source (>= 535.216.03) | nvidia-open-kernel-source (>= 535.216.03)"
 	],
-	"installedSize": 18923,
+	"installedSize": 18921,
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "NVIDIA binary Xorg driver",
 	"homepage": "https://www.nvidia.com",
-	"filename": "pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_535.183.06-1~bpo12+1_amd64.deb",
-	"size": 2284048,
-	"sha256": "edb506a6ab4556d612232facef5161480a8f7871dea2fa92559298df1972ca84",
-	"descriptionMd5": "7f9c811d5e5ec2812e2364b79984eea5"
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_535.216.03-2~bpo12+1_amd64.deb",
+	"size": 2294648,
+	"sha256": "7c907b1c0ebb0767ae0f7a06a8b7abe9e18d3452086d28bd1ea0c6c7c70ea1ef",
+	"descriptionMd5": "a9e538a391a774fd2e77b931f35d8313"
 }

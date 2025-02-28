@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "wireviz",
-	"version": "0.4.1-1",
+	"version": "0.4.1-2",
 	"section": "electronics",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,17 +13,18 @@
 		"python3-click",
 		"python3-graphviz",
 		"python3-pillow",
-		"python3-yaml",
-		"python3-pil",
-		"python3:any"
+		"python3-yaml"
 	],
-	"installedSize": 3000,
+	"suggests": [
+		"wireviz-doc"
+	],
+	"installedSize": 15,
 	"maintainer": "Debian Electronics Team <pkg-electronics-devel@lists.alioth.debian.org>",
 	"description": "Tool for generating wire connection diagrams from YAML",
 	"homepage": "https://github.com/WireViz/wireviz",
-	"filename": "pool/main/w/wireviz/wireviz_0.4.1-1_all.deb",
-	"size": 1628484,
-	"md5": "8b64485a5f00383c32fb86a150990b74",
-	"sha256": "4538fbce6e38b7f3cad4ba4fe51288b552956f33dbc53efe60ff428c17994530",
+	"filename": "pool/main/w/wireviz/wireviz_0.4.1-2_all.deb",
+	"size": 5720,
+	"md5": "00ed207069a4edb67cb83196921797f1",
+	"sha256": "7035a372e2f3c6702cdf9a28050064f5d59d67319474af1d65194858fa25d842",
 	"descriptionMd5": "bcf64b2e44d62f702f041b7546785194"
 }

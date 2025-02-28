@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ug",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ug | myspell-dictionary-ug | libreoffice-spellcheck-ug",
@@ -25,13 +27,13 @@
 		"libreoffice-help-ug",
 		"mythes-ug"
 	],
-	"installedSize": 2987,
+	"installedSize": 2415,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Uighur language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ug_24.8.5-2_all.deb",
-	"size": 418168,
-	"md5": "da773a1fdbf9c4876d6afb5877e6d13e",
-	"sha256": "391fde9c72338e29f3771ccc1892371d2fc410da722ba8b8e073b296b746deaa",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ug_25.2.1-1_all.deb",
+	"size": 412332,
+	"md5": "66e2afb06106c2888df189b93c19ee99",
+	"sha256": "c28d7365bc7d5ab8927d6b6b39887b452f9ebca8a9818608b666d4ec930885e0",
 	"descriptionMd5": "ca1d8cb61ea8620dc7ff4ea41c7dfe12"
 }]

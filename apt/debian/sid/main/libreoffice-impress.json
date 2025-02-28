@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-impress",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.5-2)",
-		"libreoffice-draw (= 4:24.8.5-2)",
-		"libreoffice-uiconfig-impress (= 4:24.8.5-2)",
-		"ucf",
+		"libreoffice-core (= 4:25.2.1-1)",
+		"libreoffice-draw (= 4:25.2.1-1)",
+		"libreoffice-uiconfig-impress (= 4:25.2.1-1)",
 		"libbox2d2 (>= 2.4.1)",
 		"libc6 (>= 2.38)",
 		"libepoxy0 (>= 1.0)",
@@ -27,10 +25,14 @@
 		"libstaroffice-0.0-0",
 		"libstdc++6 (>= 13.1)",
 		"libuno-cppu3t64 (>= 4.4.0~alpha)",
-		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
 		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"suggests": [
 		"bluez"
@@ -45,13 +47,13 @@
 	"conflicts": [
 		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
 	],
-	"installedSize": 2573,
+	"installedSize": 2516,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- presentation",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-impress_24.8.5-2_amd64.deb",
-	"size": 733624,
-	"md5": "237871b6844a36cccb2521b0ff308cee",
-	"sha256": "32c8eec9b61070190005180e2c50002f9a4751cffdedfb0d881bf61b190d294f",
+	"filename": "pool/main/libr/libreoffice/libreoffice-impress_25.2.1-1_amd64.deb",
+	"size": 744804,
+	"md5": "195d0cfa5bb425801f4c60ac4e4ad5f8",
+	"sha256": "d18f1a6af256f65849f40da2d2d6609bbed867b3ed31acc925fea73d0cf2cda5",
 	"descriptionMd5": "472668fa8a618a3bed701d2301185f86"
 }

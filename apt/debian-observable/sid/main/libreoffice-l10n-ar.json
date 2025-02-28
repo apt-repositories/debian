@@ -6,20 +6,22 @@
 	],
 	"package": "libreoffice-l10n-ar",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-hosny-amiri",
 		"fonts-hosny-thabit",
 		"fonts-sil-scheherazade",
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ar | myspell-dictionary-ar | libreoffice-spellcheck-ar",
@@ -28,13 +30,13 @@
 		"libreoffice-help-ar",
 		"mythes-ar"
 	],
-	"installedSize": 3702,
+	"installedSize": 3150,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Arabic language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ar_24.8.5-2_all.deb",
-	"size": 606940,
-	"md5": "f3c8c3b32c6d902c9c632006d476651c",
-	"sha256": "6de28c0b72de3df5497a21e9f2093ee29e9858928e5efeafe3daf40f6cbc7172",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ar_25.2.1-1_all.deb",
+	"size": 595272,
+	"md5": "337454d2023a9bd54c8b6f7977dfd23d",
+	"sha256": "5815483d0aded494fb40080243b47c3f55cc90ef9390773ce2d3a4089abd91b3",
 	"descriptionMd5": "587caaeee146ae2e8c3996cb98f27e14"
 }]

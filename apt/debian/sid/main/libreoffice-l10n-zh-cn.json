@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-zh-cn",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-zh-cn | myspell-dictionary-zh-cn | libreoffice-spellcheck-zh-cn",
@@ -25,13 +27,13 @@
 		"libreoffice-help-zh-cn",
 		"mythes-zh-cn"
 	],
-	"installedSize": 4393,
+	"installedSize": 4028,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Chinese_simplified language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-zh-cn_24.8.5-2_all.deb",
-	"size": 875948,
-	"md5": "5c8cba108dc55cd1ffa545766452743e",
-	"sha256": "cbe72eb5588f7c8d4a5a417950b5cbd5514b690f1fee05450a5f60f0f5bd30d6",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-zh-cn_25.2.1-1_all.deb",
+	"size": 876092,
+	"md5": "aeb0a43df672f664033f68e2a5bc738e",
+	"sha256": "bbf3832a814cc61dff8273d2fe276efb754c42e76867b967debd4bb633476ada",
 	"descriptionMd5": "b8e748f9a21ee8996147f93a46daa148"
 }

@@ -6,18 +6,20 @@
 	],
 	"package": "libreoffice-l10n-bn",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-beng",
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-bn | myspell-dictionary-bn | libreoffice-spellcheck-bn",
@@ -26,13 +28,13 @@
 		"libreoffice-help-bn",
 		"mythes-bn"
 	],
-	"installedSize": 6411,
+	"installedSize": 5587,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Bengali language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-bn_24.8.5-2_all.deb",
-	"size": 643428,
-	"md5": "0e2ed0fbcd7bd90bdc9bcc309a32c385",
-	"sha256": "40af876a36a65dd99f8b0ccedb2932e1ae8cd28a648dc3fc25c73f420d92fdd9",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-bn_25.2.1-1_all.deb",
+	"size": 631472,
+	"md5": "dbc9bc5a8d845a3f79ea484b59d3b077",
+	"sha256": "68c1a5612f99788047d442210eade24d054d5be8dc12ea5f707fd0e084d249ca",
 	"descriptionMd5": "00d1921e153b39622cb04e7f66795716"
 }]

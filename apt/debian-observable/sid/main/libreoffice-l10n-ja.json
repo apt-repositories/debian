@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ja",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ja | myspell-dictionary-ja | libreoffice-spellcheck-ja",
@@ -25,13 +27,13 @@
 		"libreoffice-help-ja",
 		"mythes-ja"
 	],
-	"installedSize": 4317,
+	"installedSize": 3847,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Japanese language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ja_24.8.5-2_all.deb",
-	"size": 799720,
-	"md5": "6f10bc29eede0433c3b6f98a7b402466",
-	"sha256": "7785da9c7285ed927add96759090847c468a790243c48dac7ec5ba514ef50085",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ja_25.2.1-1_all.deb",
+	"size": 786588,
+	"md5": "a3d7fb7e429c4926aebb60f5b3bb3c14",
+	"sha256": "2183089db6e86fb2f0ff53f84435897f2312ddf8389cd00e05bdd48388ec8a6e",
 	"descriptionMd5": "711d02c365f10214733d3d63a55bf474"
 }]

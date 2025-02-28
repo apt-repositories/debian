@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-xh",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-xh | myspell-dictionary-xh | libreoffice-spellcheck-xh",
@@ -25,13 +27,13 @@
 		"libreoffice-help-xh",
 		"mythes-xh"
 	],
-	"installedSize": 1708,
+	"installedSize": 1425,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Xhosa language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-xh_24.8.5-2_all.deb",
-	"size": 247924,
-	"md5": "6d003665227534a5acd39c60cd232f81",
-	"sha256": "f25f4b5483b489e41ee6f59661242cc20281e232e0f35bea262425d35027d3a4",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-xh_25.2.1-1_all.deb",
+	"size": 245452,
+	"md5": "a96ac4d75b1f1727f47aa92da378d98d",
+	"sha256": "4300a20603451a8096e98c383422b6755cad28426bae8291814814ebe483c6fa",
 	"descriptionMd5": "6124cc72bfc02b25a2a78aaa09e77b01"
 }]

@@ -6,18 +6,20 @@
 	],
 	"package": "libreoffice-l10n-dz",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-dzongkha",
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-dz | myspell-dictionary-dz | libreoffice-spellcheck-dz",
@@ -26,13 +28,13 @@
 		"libreoffice-help-dz",
 		"mythes-dz"
 	],
-	"installedSize": 3189,
+	"installedSize": 2709,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Dzongkha language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-dz_24.8.5-2_all.deb",
-	"size": 367608,
-	"md5": "eef91a1eaa0fa191a97d26404a82e6f6",
-	"sha256": "f56cc8f6418f3f300cf88b1dffb4f7c397bd9a98af5525d739868b83d1c60836",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-dz_25.2.1-1_all.deb",
+	"size": 365056,
+	"md5": "96a4014e128dd76e3f804dc3178de10b",
+	"sha256": "4f0a702c121fbd9d65ba861e90288076b9d7792ba4009522d4d0767e8477e144",
 	"descriptionMd5": "ea22c1cbc51379d92908e5e9e9fd316d"
 }

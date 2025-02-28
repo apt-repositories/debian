@@ -6,13 +6,13 @@
 	],
 	"package": "libreoffice-dev",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-core-nogui (= 4:24.8.5-2) | libreoffice-core (= 4:24.8.5-2)",
-		"libreoffice-dev-common (= 4:24.8.5-2)",
+		"libreoffice-core-nogui (= 4:25.2.1-1) | libreoffice-core (= 4:25.2.1-1)",
+		"libreoffice-dev-common (= 4:25.2.1-1)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libstdc++6 (>= 13.1)",
@@ -22,12 +22,13 @@
 	"recommends": [
 		"g++",
 		"libreofficekit-dev",
-		"libreoffice-java-common (>= 4:24.8.5~)",
+		"libreoffice-java-common (>= 4:25.2.1~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"suggests": [
 		"libmythes-dev",
-		"libreoffice-dev-doc"
+		"libreoffice-dev-doc",
+		"libreofficekit-dev-gtk"
 	],
 	"replaces": [
 		"libreoffice-dev-common (<< 1:5.4.1~)"
@@ -39,13 +40,13 @@
 		"libreoffice (<< 1:5.2.5-2~)",
 		"libreoffice-dev-doc (<< 1:5.2.5-2~)"
 	],
-	"installedSize": 901,
+	"installedSize": 1032,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- SDK -- architecture-dependent parts",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-dev_24.8.5-2_amd64.deb",
-	"size": 292936,
-	"md5": "9a4be79002a8de2aa7ca34a30fc4f1e1",
-	"sha256": "6ac1a257e7b169460f2b6bf1869f7e50d245475985ff835cb166b87f3af02f5b",
+	"filename": "pool/main/libr/libreoffice/libreoffice-dev_25.2.1-1_amd64.deb",
+	"size": 330260,
+	"md5": "2ae755ad6a1fb0f62bb1c76936baa739",
+	"sha256": "f0ca3a68cfed7749f8eeb3898003bdbe911914875518c186773da20958390281",
 	"descriptionMd5": "fa13d1087845b42e8db65349b0428d09"
 }

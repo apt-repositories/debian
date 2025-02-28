@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "lxqt-qt5plugin",
-	"source": "lxqt-qt5plugin (1.4.1-1)",
-	"version": "1.4.1-1+b1",
+	"version": "1.4.1-2",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -29,13 +28,19 @@
 	"suggests": [
 		"lxqt | lxqt-core"
 	],
-	"installedSize": 144,
+	"replaces": [
+		"lxqt-qtplugin (<< 2.1.0)"
+	],
+	"conflicts": [
+		"lxqt-qtplugin (<< 2.1.0)"
+	],
+	"installedSize": 143,
 	"maintainer": "LXQt Packaging Team <team+lxqt@tracker.debian.org>",
 	"description": "LXQt system integration plugin for Qt5",
 	"homepage": "https://github.com/lxqt/lxqt-qtplugin",
-	"filename": "pool/main/l/lxqt-qt5plugin/lxqt-qt5plugin_1.4.1-1+b1_amd64.deb",
-	"size": 38980,
-	"md5": "137feab2a4856a0467efdabe000e3e04",
-	"sha256": "c4bcdb23bfdac863bde609357fde2b07ae6935e682a0ba40edd142261b146ebd",
+	"filename": "pool/main/l/lxqt-qt5plugin/lxqt-qt5plugin_1.4.1-2_amd64.deb",
+	"size": 38876,
+	"md5": "f7109df0c5be3bd1ae63aeaefe7f9206",
+	"sha256": "36c7bb52ce2befb8440dc380f8552431de1b6a869e8a09c9ec7421c1a715eef5",
 	"descriptionMd5": "3fa31b71a25863768b0396014ef61f76"
 }]

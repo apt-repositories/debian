@@ -6,18 +6,20 @@
 	],
 	"package": "libreoffice-l10n-ta",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-taml",
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ta | myspell-dictionary-ta | libreoffice-spellcheck-ta",
@@ -26,13 +28,13 @@
 		"libreoffice-help-ta",
 		"mythes-ta"
 	],
-	"installedSize": 3778,
+	"installedSize": 3336,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Tamil language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ta_24.8.5-2_all.deb",
-	"size": 527348,
-	"md5": "73e4e301f677cc86ebbc34bdf2690337",
-	"sha256": "17dbc6adad73d989f6818b117803928210bd43916f5d7018fc8636047f533fee",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ta_25.2.1-1_all.deb",
+	"size": 523472,
+	"md5": "9d2950a442a318e672510826afa391aa",
+	"sha256": "5fa34ef45e9806431c168f81b54f6e26f18c1bcaafbc0121a364519dc8ca5f9a",
 	"descriptionMd5": "f1a39c06a2dd67a9a2480ae41bbfcff0"
 }
