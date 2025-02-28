@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-uk",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-uk | myspell-dictionary-uk | libreoffice-spellcheck-uk",
@@ -25,13 +27,13 @@
 		"libreoffice-help-uk",
 		"mythes-uk"
 	],
-	"installedSize": 5376,
+	"installedSize": 4702,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Ukrainian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-uk_24.8.5-2_all.deb",
-	"size": 846248,
-	"md5": "9d7c1480fbfaa7ce820b9278eb6c17a3",
-	"sha256": "5a29b0e9e15ecde7ffc96cd17cf42afaad2e56d73af2993921544c70484ee5a5",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-uk_25.2.1-1_all.deb",
+	"size": 834152,
+	"md5": "115c1f6db8adaec87f72ca620e823bf6",
+	"sha256": "bc08086761baf29a3d7eb23285e32d7d89d4380d3372f96a0ff9606901cd534c",
 	"descriptionMd5": "6f386a310674737ccb0fc8c3aaefc90e"
 }]

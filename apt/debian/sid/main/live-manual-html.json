@@ -6,17 +6,23 @@
 	],
 	"package": "live-manual-html",
 	"source": "live-manual",
-	"version": "2:20151217.2",
+	"version": "2:20250226",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 8417,
-	"maintainer": "Live Systems Maintainers <debian-live@lists.debian.org>",
-	"description": "Live Systems Documentation (html)",
-	"homepage": "http://debian-live.alioth.debian.org/devel/live-manual/",
-	"filename": "pool/main/l/live-manual/live-manual-html_20151217.2_all.deb",
-	"size": 508248,
-	"md5": "ccce458093ce6a44c4acacfaf734e379",
-	"sha256": "fb575f16c39be23b73ce12f822202f4d90675a4d796c98d427805422a89389ca",
-	"descriptionMd5": "15deaa3772f6c042ea90d0848776a4f6"
+	"replaces": [
+		"live-manual-txt (<< 2:20250211~)"
+	],
+	"breaks": [
+		"live-manual-txt (<< 2:20250211~)"
+	],
+	"installedSize": 8005,
+	"maintainer": "Debian Live Maintainers <debian-live@lists.debian.org>",
+	"description": "Debian Live Documentation (html)",
+	"homepage": "https://live-team.pages.debian.net/live-manual/",
+	"filename": "pool/main/l/live-manual/live-manual-html_20250226_all.deb",
+	"size": 416080,
+	"md5": "bd35838bab79e1c841061218866a947d",
+	"sha256": "fc35106d33ba0973475d793aa4480ebb0de27bdc73614c5803f97b5a93e3f063",
+	"descriptionMd5": "649176e4a5960efb6288847488f9f59f"
 }

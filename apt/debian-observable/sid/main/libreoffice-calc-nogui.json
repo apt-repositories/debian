@@ -6,21 +6,18 @@
 	],
 	"package": "libreoffice-calc-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:24.8.5-2)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.5-2) | libreoffice-core (= 4:24.8.5-2)",
-		"libreoffice-uiconfig-calc (= 4:24.8.5-2)",
-		"lp-solve",
-		"ucf",
+		"libreoffice-base-core (= 4:25.2.1-1)",
+		"libreoffice-core-nogui (= 4:25.2.1-1) | libreoffice-core (= 4:25.2.1-1)",
+		"libreoffice-uiconfig-calc (= 4:25.2.1-1)",
 		"coinor-libcoinmp0",
 		"libc6 (>= 2.38)",
 		"libetonyek-0.1-1",
-		"libgcc-s1 (>= 3.3.1)",
+		"libgcc-s1 (>= 4.0)",
 		"libicu72 (>= 72.1~rc-1~)",
 		"libmwaw-0.3-3",
 		"libodfgen-0.1-1",
@@ -37,6 +34,10 @@
 		"libxml2 (>= 2.7.4)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-calc",
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
@@ -47,13 +48,13 @@
 	"conflicts": [
 		"libreoffice-calc"
 	],
-	"installedSize": 26202,
+	"installedSize": 26297,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- spreadsheet (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-calc-nogui_24.8.5-2_amd64.deb",
-	"size": 7683304,
-	"md5": "154e3395cc5c5e831e2aaf7f22cae332",
-	"sha256": "055c5865311e2b0b48c45af10ac938b952fa1b0143cd7fa07428f1ab8e00150c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-calc-nogui_25.2.1-1_amd64.deb",
+	"size": 7729432,
+	"md5": "cc939049fe8e73ca2a5fd96be37d3d51",
+	"sha256": "951afe10557f654b9cabe506bd42eb39f26a13ca60f4bd711f7477adc6f060f5",
 	"descriptionMd5": "ed9483b973f6b2dd25d568b6ef77d8c4"
 }]

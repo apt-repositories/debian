@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-tr",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-tr | myspell-dictionary-tr | libreoffice-spellcheck-tr",
@@ -25,13 +27,13 @@
 		"libreoffice-help-tr",
 		"mythes-tr"
 	],
-	"installedSize": 4406,
+	"installedSize": 4077,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Turkish language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tr_24.8.5-2_all.deb",
-	"size": 851960,
-	"md5": "d7245177d89449bb06ba441ac6b010b6",
-	"sha256": "51db4f0f97b04531c707ba45c2255fd4bf8ea572af7c8506abd6a6dd46c591a2",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tr_25.2.1-1_all.deb",
+	"size": 845660,
+	"md5": "cbefeea482ea253a657e75cb50762437",
+	"sha256": "c4fcc052027783099492429f8c81452441527cbe8b9648be11f166b12a9c0a09",
 	"descriptionMd5": "df7d8cde01531055398d2aa9010f77bc"
 }

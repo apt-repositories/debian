@@ -6,18 +6,20 @@
 	],
 	"package": "libreoffice-l10n-th",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-thai-tlwg",
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-th | myspell-dictionary-th | libreoffice-spellcheck-th",
@@ -26,13 +28,13 @@
 		"libreoffice-help-th",
 		"mythes-th"
 	],
-	"installedSize": 5848,
+	"installedSize": 5277,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Thai language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-th_24.8.5-2_all.deb",
-	"size": 830124,
-	"md5": "b7a1d098c44d614fca322b6de9f76d40",
-	"sha256": "17ca418d11c8cebc81a5d3281b6947d0b68c3014dd43a62f002415d8d12dcbf6",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-th_25.2.1-1_all.deb",
+	"size": 815336,
+	"md5": "b670ca83dd03927d46513b3e4d99edef",
+	"sha256": "442beeaf0b26364be5118b661c25a3182a8dc701b96b60595fd598453327aafb",
 	"descriptionMd5": "94a998c14aeff6049d9b90810598f1dd"
 }

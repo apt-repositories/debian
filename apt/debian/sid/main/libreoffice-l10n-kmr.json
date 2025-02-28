@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-kmr",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-kmr | myspell-dictionary-kmr | libreoffice-spellcheck-kmr",
@@ -25,13 +27,13 @@
 		"libreoffice-help-kmr",
 		"mythes-kmr"
 	],
-	"installedSize": 1863,
+	"installedSize": 1545,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Kurmanji language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kmr_24.8.5-2_all.deb",
-	"size": 278896,
-	"md5": "6b9a9963ff771869b8b36531f8c60763",
-	"sha256": "15b88cd4272d7897f486a483bf1cfc5ffd7072aa64e52982302e8fe4c2f00ab0",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kmr_25.2.1-1_all.deb",
+	"size": 271628,
+	"md5": "92deb915d37039bcae6d049dd09fda9e",
+	"sha256": "4e801e8efd9e6302bf4aa22329a2ff00e97aadd61f1a895ba718538b272fa0aa",
 	"descriptionMd5": "b118604d13c95984ec63f0e9fea14884"
 }

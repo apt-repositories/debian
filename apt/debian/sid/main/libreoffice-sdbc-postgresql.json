@@ -6,14 +6,12 @@
 	],
 	"package": "libreoffice-sdbc-postgresql",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha)",
 		"libreoffice-core-nogui | libreoffice-core",
-		"ucf",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libpq5 (>= 9.0~)",
@@ -24,19 +22,23 @@
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"suggests": [
 		"postgresql (>= 8.4)"
 	],
 	"enhances": [
 		"libreoffice-base-drivers"
 	],
-	"installedSize": 1029,
+	"installedSize": 1033,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "PostgreSQL SDBC driver for LibreOffice",
 	"homepage": "http://wiki.documentfoundation.org/PostgreSQL-SDBC",
-	"filename": "pool/main/libr/libreoffice/libreoffice-sdbc-postgresql_24.8.5-2_amd64.deb",
-	"size": 271488,
-	"md5": "111825dad875f46b8db1aa073d5c886e",
-	"sha256": "24e33077ddd429a973384a18ccda19fdba8a97ed963d92418226d08e28dc26ad",
+	"filename": "pool/main/libr/libreoffice/libreoffice-sdbc-postgresql_25.2.1-1_amd64.deb",
+	"size": 272132,
+	"md5": "ceeae59f5d9fc599c7ad8776e4d277e3",
+	"sha256": "a1db20545ea53eed8b53334bf7d3ab084f96ac2ea0292ff3bfc33017ae180bcc",
 	"descriptionMd5": "06f71158aa78dbe7201679601bd1279b"
 }

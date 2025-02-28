@@ -6,24 +6,26 @@
 	],
 	"package": "libreoffice-librelogo",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha)",
 		"libreoffice-core",
 		"libreoffice-script-provider-python",
-		"libreoffice-writer",
-		"ucf"
+		"libreoffice-writer"
 	],
-	"installedSize": 877,
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"installedSize": 875,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "Logo-like programming language for LibreOffice",
 	"homepage": "http://librelogo.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-librelogo_24.8.5-2_all.deb",
-	"size": 211280,
-	"md5": "503003a5d3d33e5c5439aa17f95cbd1a",
-	"sha256": "77dff97cd607eb8294a151e71c3130efe46878115cf607e9aaaa02126b3e3b42",
+	"filename": "pool/main/libr/libreoffice/libreoffice-librelogo_25.2.1-1_all.deb",
+	"size": 212308,
+	"md5": "7d425122fe9733516d6834da456e7373",
+	"sha256": "0484464069463000ddddc22400a72fb5d35f70c8c53f31d7e8176b6f384357e3",
 	"descriptionMd5": "cdaef056eb365a457e28772fa2fd9de6"
 }]

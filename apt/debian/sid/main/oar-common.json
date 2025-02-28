@@ -6,30 +6,33 @@
 	],
 	"package": "oar-common",
 	"source": "oar",
-	"version": "2.5.10-2",
+	"version": "2.6.0-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libbpf1 (>= 1:0.8.0)",
 		"libc6 (>= 2.34)",
 		"perl:any",
-		"liboar-perl (= 2.5.10-2)",
+		"liboar-perl (= 2.6.0-1)",
 		"adduser",
-		"ucf"
+		"ucf",
+		"hwloc-nox (>= 2.12) | hwloc (>= 2.12)"
 	],
 	"suggests": [
 		"oar-server",
 		"oar-user",
 		"oar-node",
-		"oar-doc"
+		"oar-doc",
+		"libpam-modules"
 	],
-	"installedSize": 222,
+	"installedSize": 249,
 	"maintainer": "Pierre Neyron <pierre.neyron@free.fr>",
 	"description": "OAR batch scheduler common package",
 	"homepage": "http://oar.imag.fr/",
-	"filename": "pool/main/o/oar/oar-common_2.5.10-2_amd64.deb",
-	"size": 66528,
-	"md5": "f94e2c51a8a93128e3b5b2a1d802cfc6",
-	"sha256": "edfa1bf7f0201b3c3ed0d41c20a7642221369af1e64cec79bc8d3c4d08120ce5",
-	"descriptionMd5": "c7cd5e3c702e048f04cbe6e69359a88d"
+	"filename": "pool/main/o/oar/oar-common_2.6.0-1_amd64.deb",
+	"size": 75448,
+	"md5": "03f5226dfeb6c6631b7a2c2f1ff1c806",
+	"sha256": "47f43ef0c0dd0338b4333aba6528ee1520723956cd19ed642531635ca3d25004",
+	"descriptionMd5": "36902dac8f30f062f62f3b8926f51e71"
 }

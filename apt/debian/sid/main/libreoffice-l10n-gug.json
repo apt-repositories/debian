@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-gug",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-gug | myspell-dictionary-gug | libreoffice-spellcheck-gug",
@@ -25,13 +27,13 @@
 		"libreoffice-help-gug",
 		"mythes-gug"
 	],
-	"installedSize": 2340,
+	"installedSize": 2058,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Guarani language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gug_24.8.5-2_all.deb",
-	"size": 394780,
-	"md5": "1240108a938dd0ffe323ecfa8f73c4f6",
-	"sha256": "489f64cf7059fa35e533223e64714c71e53e709a8cb2f1e6fcd5cc871cd77783",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gug_25.2.1-1_all.deb",
+	"size": 393764,
+	"md5": "d964e0648ff4fcd2bf95af1419ae0b27",
+	"sha256": "ff3fb789e4f67f95b4acedf1b62ebd881722ba119d3c8209adfa9b282537443d",
 	"descriptionMd5": "8a60db7a8c323661ed589467da797a53"
 }

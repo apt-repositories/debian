@@ -5,17 +5,19 @@
 		"Size"
 	],
 	"package": "libcolorhug-dev",
-	"source": "colord (1.4.7-1)",
-	"version": "1.4.7-1+b2",
+	"source": "colord",
+	"version": "1.4.7-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gir1.2-colorhug-1.0 (= 1.4.7-1+b2)",
-		"libcolord-dev",
-		"libcolorhug2 (= 1.4.7-1+b2)",
+		"libcolord-dev (= 1.4.7-2)",
+		"libcolorhug2 (= 1.4.7-2)",
 		"libglib2.0-dev",
-		"libgusb-dev (>= 0.2.7)"
+		"libgusb-dev (>= 0.2.7)",
+		"gir1.2-colorhug-1.0 (= 1.4.7-2)",
+		"gir1.2-gio-2.0-dev",
+		"gir1.2-gobject-2.0-dev"
 	],
 	"replaces": [
 		"colorhug-client (<< 0.2.0-3)"
@@ -23,13 +25,13 @@
 	"breaks": [
 		"colorhug-client (<< 0.2.0-3)"
 	],
-	"installedSize": 368,
+	"installedSize": 367,
 	"maintainer": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>",
 	"description": "library to access the ColorHug colourimeter -- development files",
 	"homepage": "https://www.freedesktop.org/software/colord/",
-	"filename": "pool/main/c/colord/libcolorhug-dev_1.4.7-1+b2_amd64.deb",
-	"size": 33440,
-	"md5": "0f9c7241926eb0dcd224bb24da40d931",
-	"sha256": "9e9864ca4cbbde30b5a6a36a837c48e0c71cbbbf7d27a257c64c72c8cc4f0346",
+	"filename": "pool/main/c/colord/libcolorhug-dev_1.4.7-2_amd64.deb",
+	"size": 33280,
+	"md5": "ee2729f453a0cbd3bda851a8c0b38756",
+	"sha256": "eff982691ce79fced4692961b47809ffa7dc43fba4cd3c2f2f2ff9acef63f329",
 	"descriptionMd5": "2b848b49bfa0ae456fb4d9fe1028bea1"
 }

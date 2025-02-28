@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ga",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ga | myspell-dictionary-ga | libreoffice-spellcheck-ga",
@@ -25,13 +27,13 @@
 		"libreoffice-help-ga",
 		"mythes-ga"
 	],
-	"installedSize": 2982,
+	"installedSize": 2690,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Gaelic language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ga_24.8.5-2_all.deb",
-	"size": 535044,
-	"md5": "6b5be670cc81414b828e171a1c8e7c97",
-	"sha256": "d2c1d8df4172e0b50118f19197781270f72e6f5b557d68c6321359fc4f81156c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ga_25.2.1-1_all.deb",
+	"size": 531860,
+	"md5": "ff0ac8b3864ad611bd3bf50c6e17b0df",
+	"sha256": "de2d3b584380eff6562109b4022d903992bd29042b5d223bf4b090ebb9e248ed",
 	"descriptionMd5": "45ee5e619b80d12047c3db358a95ece6"
 }]

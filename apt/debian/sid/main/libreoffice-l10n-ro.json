@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ro",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ro | myspell-dictionary-ro | libreoffice-spellcheck-ro",
@@ -25,13 +27,13 @@
 		"libreoffice-help-ro",
 		"mythes-ro"
 	],
-	"installedSize": 3198,
+	"installedSize": 2924,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Romanian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ro_24.8.5-2_all.deb",
-	"size": 580504,
-	"md5": "7de7cfd7006a2333e8622e54de0c4312",
-	"sha256": "3cb8a274bd50b43f502802376c61e1782f08662746bb1a72c646005cbf75bade",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ro_25.2.1-1_all.deb",
+	"size": 580212,
+	"md5": "38c73da544c99e8b0430eeb5c13c609e",
+	"sha256": "003abbe0d481921dfa2c9166e6f2e001cd12dd5800cfbf395744d59d298b062c",
 	"descriptionMd5": "e4018d28105361bb391246001caccf0c"
 }

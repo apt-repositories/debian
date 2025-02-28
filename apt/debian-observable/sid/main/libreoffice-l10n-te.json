@@ -6,18 +6,20 @@
 	],
 	"package": "libreoffice-l10n-te",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-telu",
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-te | myspell-dictionary-te | libreoffice-spellcheck-te",
@@ -26,13 +28,13 @@
 		"libreoffice-help-te",
 		"mythes-te"
 	],
-	"installedSize": 2905,
+	"installedSize": 2443,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Telugu language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-te_24.8.5-2_all.deb",
-	"size": 399148,
-	"md5": "e0a123af27d14a7d9007ee388a39033d",
-	"sha256": "848d36b40f9c4f0ee065104d53e5db2c57d7c373e63128b7a1417e788093c1b5",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-te_25.2.1-1_all.deb",
+	"size": 392428,
+	"md5": "6e599aee73268df513fac86dc6388c8e",
+	"sha256": "a8a8864f82be6c6420ea6da92282123b6625fcb459ac457ddf0752f640f631e6",
 	"descriptionMd5": "61e424cfb84420f8dc211c66f1b3a533"
 }]

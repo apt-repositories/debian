@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-lv",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-lv | myspell-dictionary-lv | libreoffice-spellcheck-lv",
@@ -25,13 +27,13 @@
 		"libreoffice-help-lv",
 		"mythes-lv"
 	],
-	"installedSize": 3098,
+	"installedSize": 2790,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Latvian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-lv_24.8.5-2_all.deb",
-	"size": 561928,
-	"md5": "1c383972e8a500c0709615ce09576556",
-	"sha256": "f044fb92575be54b04658c81e65236fb78a5c43c2216946a56c68d2c0895c961",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-lv_25.2.1-1_all.deb",
+	"size": 556912,
+	"md5": "4b123fd5104ab90fa8409f567e82eac8",
+	"sha256": "ad8dab057242401e6c02302596e114a46065be0ecc85857582132be609965d3e",
 	"descriptionMd5": "5590d50c683679292cf935268a635351"
 }]

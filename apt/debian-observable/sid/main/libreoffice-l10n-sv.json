@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-sv",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-sv | myspell-dictionary-sv | libreoffice-spellcheck-sv",
@@ -25,13 +27,13 @@
 		"libreoffice-help-sv",
 		"mythes-sv"
 	],
-	"installedSize": 4394,
+	"installedSize": 4138,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Swedish language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sv_24.8.5-2_all.deb",
-	"size": 874968,
-	"md5": "345077b9ec527a32b6e12930afe63eab",
-	"sha256": "1a5457086cc179c1b9c26f33ede976d950a608f76edaae5f21b7b23de772d7b0",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sv_25.2.1-1_all.deb",
+	"size": 880564,
+	"md5": "0e15f04ba392d0afea57a9c38a7840a1",
+	"sha256": "47ce2d1c1675c70ecc2fdc40500d7cc9713ad98ed8211955a70c67ebb1caf659",
 	"descriptionMd5": "94e08d9ebf4885b6a199a8604f8e4623"
 }]

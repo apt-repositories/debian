@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-da",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-da | myspell-dictionary-da | libreoffice-spellcheck-da",
@@ -25,13 +27,13 @@
 		"libreoffice-help-da",
 		"mythes-da"
 	],
-	"installedSize": 4396,
+	"installedSize": 4147,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Danish language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-da_24.8.5-2_all.deb",
-	"size": 881920,
-	"md5": "67ced43bb91388156fba658ef90d3295",
-	"sha256": "939e8702843a5edc4a1dc28583a2a18b36d6f17cd5b5f4863191f3968f6f7dc2",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-da_25.2.1-1_all.deb",
+	"size": 887876,
+	"md5": "ecc6b7b02d706820081eade98ec93027",
+	"sha256": "bbb96b428a629108f0a061dd08fb3660ce73a68e5d333c3112072aa3a39a5b64",
 	"descriptionMd5": "3baa4ced7ad5463e2aeedc011515df6f"
 }]

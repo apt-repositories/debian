@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-si",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-si | myspell-dictionary-si | libreoffice-spellcheck-si",
@@ -25,13 +27,13 @@
 		"libreoffice-help-si",
 		"mythes-si"
 	],
-	"installedSize": 2625,
+	"installedSize": 2209,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Sinhala language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-si_24.8.5-2_all.deb",
-	"size": 356492,
-	"md5": "b1e199d74412bfbf3b9833be6893af62",
-	"sha256": "5e3713677fe31aa060eaa5ceb398c2771c38cc4b0290706eeb531f83e109bd43",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-si_25.2.1-1_all.deb",
+	"size": 351776,
+	"md5": "882901d254c62a3dd5674c8842ff3249",
+	"sha256": "aeb8b53f7f4ae11b3dbaecd82a3ccd602b9d059427470192c116879f9849c0c7",
 	"descriptionMd5": "1f61af11cbbfd06c45ff93fd66708f91"
 }]

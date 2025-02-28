@@ -6,22 +6,22 @@
 	],
 	"package": "emacs-nox",
 	"source": "emacs",
-	"version": "1:29.4+1-4~bpo12+1",
+	"version": "1:30.1+1-3~bpo12+1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"emacs-bin-common (= 1:29.4+1-4~bpo12+1)",
-		"emacs-common (= 1:29.4+1-4~bpo12+1)",
+		"emacs-bin-common (= 1:30.1+1-3~bpo12+1)",
+		"emacs-common (= 1:30.1+1-3~bpo12+1)",
 		"libacl1 (>= 2.2.23)",
 		"libasound2 (>= 1.0.16)",
+		"libattr1 (>= 1:2.4.48)",
 		"libc6 (>= 2.35)",
 		"libdbus-1-3 (>= 1.9.14)",
 		"libgccjit0 (>= 12)",
 		"libgmp10 (>= 2:6.2.1+dfsg1)",
 		"libgnutls30 (>= 3.7.5)",
 		"libgpm2 (>= 1.20.7)",
-		"libjansson4 (>= 2.14)",
 		"liblcms2-2 (>= 2.2+git20110628)",
 		"libselinux1 (>= 3.1~)",
 		"libsqlite3-0 (>= 3.7.15)",
@@ -49,13 +49,13 @@
 		"emacs-lucid",
 		"emacs-pgtk"
 	],
-	"installedSize": 39603,
+	"installedSize": 44769,
 	"maintainer": "Rob Browning <rlb@defaultvalue.org>",
 	"description": "GNU Emacs editor (without GUI support)",
 	"homepage": "https://www.gnu.org/software/emacs/",
-	"filename": "pool/main/e/emacs/emacs-nox_29.4+1-4~bpo12+1_amd64.deb",
-	"size": 6723724,
-	"sha256": "96b6a78c81addfcd178111ba56b07079ff4bf4c7ea7d6a6c7995956bf2910729",
+	"filename": "pool/main/e/emacs/emacs-nox_30.1+1-3~bpo12+1_amd64.deb",
+	"size": 7259764,
+	"sha256": "962a1286371b9fea28530d6062d255e302816072a90d2364a212b1ffda5d9d63",
 	"descriptionMd5": "d7627aff9867f2ba95f2b9dcfc399d6a"
 },{
 	"raw": {},
@@ -103,8 +103,59 @@
 	"maintainer": "Rob Browning <rlb@defaultvalue.org>",
 	"description": "GNU Emacs editor (without GUI support)",
 	"homepage": "https://www.gnu.org/software/emacs/",
-	"filename": "pool/updates/main/e/emacs/emacs-nox_28.2+1-15+deb12u3_amd64.deb",
+	"filename": "pool/main/e/emacs/emacs-nox_28.2+1-15+deb12u3_amd64.deb",
 	"size": 5596660,
+	"md5": "a32ccd10005189e3859fba05419f3dfb",
 	"sha256": "d4603dd54efc4cc4d3bfb661196644964b10be4733e0a7016df2e4fd86fe828b",
+	"descriptionMd5": "d7627aff9867f2ba95f2b9dcfc399d6a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "emacs-nox",
+	"source": "emacs",
+	"version": "1:28.2+1-15+deb12u4",
+	"section": "editors",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"emacs-bin-common (= 1:28.2+1-15+deb12u4)",
+		"emacs-common (= 1:28.2+1-15+deb12u4)",
+		"libacl1 (>= 2.2.23)",
+		"libasound2 (>= 1.0.16)",
+		"libc6 (>= 2.35)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libgccjit0 (>= 11)",
+		"libgmp10 (>= 2:6.2.1+dfsg1)",
+		"libgnutls30 (>= 3.7.5)",
+		"libgpm2 (>= 1.20.7)",
+		"libjansson4 (>= 2.14)",
+		"liblcms2-2 (>= 2.2+git20110628)",
+		"libselinux1 (>= 3.1~)",
+		"libsystemd0",
+		"libtinfo6 (>= 6)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"emacs-common-non-dfsg"
+	],
+	"replaces": [
+		"emacs-gtk",
+		"emacs-lucid"
+	],
+	"conflicts": [
+		"emacs-gtk",
+		"emacs-lucid"
+	],
+	"installedSize": 33834,
+	"maintainer": "Rob Browning <rlb@defaultvalue.org>",
+	"description": "GNU Emacs editor (without GUI support)",
+	"homepage": "https://www.gnu.org/software/emacs/",
+	"filename": "pool/updates/main/e/emacs/emacs-nox_28.2+1-15+deb12u4_amd64.deb",
+	"size": 5601128,
+	"sha256": "049b1ba6c09be54be420f1ea8ff8a447c0bce24942e362b92e73fb88a37929a6",
 	"descriptionMd5": "d7627aff9867f2ba95f2b9dcfc399d6a"
 }]
