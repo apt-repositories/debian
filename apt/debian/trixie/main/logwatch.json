@@ -5,26 +5,29 @@
 		"Size"
 	],
 	"package": "logwatch",
-	"version": "7.7-1",
+	"version": "7.12-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"perl:any",
-		"default-mta | mail-transport-agent"
+		"default-mta | mail-transport-agent",
+		"libhtml-parser-perl",
+		"perl:any"
 	],
 	"recommends": [
-		"libdate-manip-perl",
+		"libdate-manip-perl"
+	],
+	"suggests": [
 		"libsys-cpu-perl",
 		"libsys-meminfo-perl"
 	],
-	"installedSize": 2328,
+	"installedSize": 2394,
 	"maintainer": "Willi Mann <willi@debian.org>",
 	"description": "log analyser with nice output written in Perl",
 	"homepage": "https://sourceforge.net/projects/logwatch/",
-	"filename": "pool/main/l/logwatch/logwatch_7.7-1_all.deb",
-	"size": 379688,
-	"md5": "d941833beb104df1403177d08f6c353c",
-	"sha256": "338143f248f6be5494b53cc263e9c0303785a2a67b58671bde1028f0c484f6df",
+	"filename": "pool/main/l/logwatch/logwatch_7.12-3_all.deb",
+	"size": 389944,
+	"md5": "86787ccf58e00f7d0be308085dd7b686",
+	"sha256": "a5f03f5e3d3d66c43c1510a976ff2858db595da949ca9de3a269dfb241c8d0eb",
 	"descriptionMd5": "ece539a8a87c5f861d7f0b865e42a03c"
 }
