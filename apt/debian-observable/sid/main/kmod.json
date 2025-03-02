@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "kmod",
-	"version": "34-2",
+	"version": "34-3",
 	"section": "admin",
 	"priority": "important",
 	"architecture": "amd64",
@@ -14,14 +14,20 @@
 		"liblzma5 (>= 5.4.5-0.2)",
 		"libssl3t64 (>= 3.0.0)",
 		"libzstd1 (>= 1.5.5)",
-		"libkmod2 (= 34-2)"
+		"libkmod2 (= 34-3)"
+	],
+	"replaces": [
+		"bash-completion (<< 1:2.16.0-1)"
+	],
+	"breaks": [
+		"bash-completion (<< 1:2.16.0-1)"
 	],
 	"installedSize": 254,
 	"maintainer": "Marco d'Itri <md@linux.it>",
 	"description": "tools for managing Linux kernel modules",
-	"filename": "pool/main/k/kmod/kmod_34-2_amd64.deb",
-	"size": 94580,
-	"md5": "8ecc8b3619f35acc8fa62ec65f204dc7",
-	"sha256": "9bbebfa7dc1e4bed459570bf88030bcb6f21b204dc39e1adede6626d34a11d75",
+	"filename": "pool/main/k/kmod/kmod_34-3_amd64.deb",
+	"size": 94668,
+	"md5": "89235763e6737a7965c8746c3094f07a",
+	"sha256": "620fc69d97a3f32451cfc52f9854c5fc4d50d0d1541fb89b6577455734236665",
 	"descriptionMd5": "0cd8f9566ff621a593309a12fd64999f"
 }]
