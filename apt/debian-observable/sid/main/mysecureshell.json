@@ -5,24 +5,26 @@
 		"Size"
 	],
 	"package": "mysecureshell",
-	"source": "mysecureshell (2.0-2)",
-	"version": "2.0-2+b3",
+	"version": "2.00+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libacl1 (>= 2.2.23)",
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libgnutls30t64 (>= 3.7.0)",
 		"openssh-server"
 	],
-	"installedSize": 229,
-	"maintainer": "Pierre Mavro <pierre@mavro.fr>",
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 233,
+	"maintainer": "Package Salvaging Team <team+salvage@tracker.debian.org>",
 	"description": "SFTP Server with ACL",
-	"homepage": "http://mysecureshell.readthedocs.org",
-	"filename": "pool/main/m/mysecureshell/mysecureshell_2.0-2+b3_amd64.deb",
-	"size": 62392,
-	"md5": "f60d70473aca217cfff850429a7e68bf",
-	"sha256": "069b095df4435af0a48f637e46d13db74869162448239515390d8788fc088ccc",
+	"homepage": "https://mysecureshell.readthedocs.org",
+	"filename": "pool/main/m/mysecureshell/mysecureshell_2.00+dfsg-1_amd64.deb",
+	"size": 63520,
+	"md5": "b69cc9500b59c431ad85869f95215ea1",
+	"sha256": "9db0ef3decfbfa48b68166329eeeaa3889cd3209914622b0f5fed83091f24403",
 	"descriptionMd5": "7f8ddb72009e19c4b9fc8c236b9b2bdf"
 }]
