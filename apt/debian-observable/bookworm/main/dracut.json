@@ -5,6 +5,37 @@
 		"Size"
 	],
 	"package": "dracut",
+	"version": "106-5~bpo12+1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dracut-core (<< 106-5~bpo12+1+b+~)",
+		"dracut-core (>= 106-5~bpo12+1)",
+		"linux-base"
+	],
+	"suggests": [
+		"dracut-network"
+	],
+	"conflicts": [
+		"initramfs-tools",
+		"live-tools"
+	],
+	"installedSize": 25,
+	"maintainer": "Thomas Lange <lange@debian.org>",
+	"description": "Initramfs generator using udev",
+	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
+	"filename": "pool/main/d/dracut/dracut_106-5~bpo12+1_all.deb",
+	"size": 9264,
+	"sha256": "56d6b30cdb5cfa01a1a35dd7fcf426bacb7b8a484889f2ff18cce0a85d5e8f45",
+	"descriptionMd5": "ff5d73107edf988d1308accca8de03f4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut",
 	"version": "059-4",
 	"section": "utils",
 	"priority": "optional",
