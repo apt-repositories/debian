@@ -6,6 +6,36 @@
 	],
 	"package": "dracut-squash",
 	"source": "dracut",
+	"version": "106-5~bpo12+1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dracut-core",
+		"squashfs-tools"
+	],
+	"replaces": [
+		"dracut-core (<< 050-1)"
+	],
+	"breaks": [
+		"dracut-core (<< 050-1)"
+	],
+	"installedSize": 36,
+	"maintainer": "Thomas Lange <lange@debian.org>",
+	"description": "dracut is an event driven initramfs infrastructure (squashfs modules)",
+	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
+	"filename": "pool/main/d/dracut/dracut-squash_106-5~bpo12+1_all.deb",
+	"size": 10892,
+	"sha256": "726ca394881d68fe3cece7420cb9c3dd8b59dffc083580fc7141a7137681aaf8",
+	"descriptionMd5": "85a5b251b3f335a51a518f8d85951f68"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-squash",
+	"source": "dracut",
 	"version": "059-4",
 	"section": "utils",
 	"priority": "optional",

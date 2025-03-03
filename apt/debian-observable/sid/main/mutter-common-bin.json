@@ -6,7 +6,7 @@
 	],
 	"package": "mutter-common-bin",
 	"source": "mutter",
-	"version": "47.4-1",
+	"version": "48~beta-7",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,21 +17,27 @@
 		"libx11-6",
 		"libxcomposite1 (>= 1:0.4.6)",
 		"libxfixes3 (>= 1:6.0.0)",
-		"libxi6 (>= 2:1.2.99.4)"
+		"libxi6 (>= 2:1.2.99.4)",
+		"gir1.2-glib-2.0",
+		"python3",
+		"python3-gi"
+	],
+	"suggests": [
+		"python3-argcomplete"
 	],
 	"replaces": [
-		"mutter (<< 44~)"
+		"mutter (<< 48~beta-3~)"
 	],
 	"breaks": [
-		"mutter (<< 44~)"
+		"mutter (<< 48~beta-3~)"
 	],
-	"installedSize": 103,
+	"installedSize": 154,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "shared programs for the Mutter window manager",
 	"homepage": "https://mutter.gnome.org/",
-	"filename": "pool/main/m/mutter/mutter-common-bin_47.4-1_amd64.deb",
-	"size": 47588,
-	"md5": "93ec7cc5746386770130c112b214b6fc",
-	"sha256": "17f702df28f46fc984cc4999b6afa8b29d7d9e8dacb944cdee6e3e6271a56df2",
+	"filename": "pool/main/m/mutter/mutter-common-bin_48~beta-7_amd64.deb",
+	"size": 56772,
+	"md5": "3bc6898c60156a15635ff5b64a0cd9d5",
+	"sha256": "d80c910a8f842b7452a7b74f2a90db1192bd0ee53b869b7bf2a02095faeac136",
 	"descriptionMd5": "e51d8fdda3423fdf24a80a3951732fb1"
 }]
