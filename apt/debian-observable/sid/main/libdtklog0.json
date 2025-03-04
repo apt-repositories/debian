@@ -6,7 +6,7 @@
 	],
 	"package": "libdtklog0",
 	"source": "dtklog",
-	"version": "0.0.2-2",
+	"version": "0.0.2-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,18 +21,20 @@
 		"qtbase-abi-5-15-15"
 	],
 	"replaces": [
+		"libdtkcommon (<< 5.7.11-2~)",
 		"libdtklog"
 	],
 	"breaks": [
+		"libdtkcommon (<< 5.7.11-2~)",
 		"libdtklog"
 	],
 	"installedSize": 176,
 	"maintainer": "Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>",
 	"description": "Simple, convenient and thread-safe C++ logger library (shared library)",
 	"homepage": "https://github.com/linuxdeepin/dtklog",
-	"filename": "pool/main/d/dtklog/libdtklog0_0.0.2-2_amd64.deb",
-	"size": 51856,
-	"md5": "20f42cad18c09337f23a81053d62c27f",
-	"sha256": "2e191d7a39f67640d5f1340b8a5bb0d762eb5bb99cb7aeb87a3011d8446afd83",
+	"filename": "pool/main/d/dtklog/libdtklog0_0.0.2-3_amd64.deb",
+	"size": 51916,
+	"md5": "cfc1ca24dc750c794dab8dde0ccacad3",
+	"sha256": "0275eeffb0188590d775bbdeb1db08220fa71826e932a99e7d82ada038a5afb0",
 	"descriptionMd5": "fe562614ff8e4422780ae18e490b9645"
 }]

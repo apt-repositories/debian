@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "yaret",
-	"version": "2.1.0-5.3",
+	"version": "2.1.0-6",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,15 +14,19 @@
 		"libappconfig-perl",
 		"libaudio-cd-perl",
 		"vorbis-tools | flac",
+		"sensible-utils",
 		"perl:any"
 	],
+	"recommends": [
+		"normalize-audio"
+	],
 	"installedSize": 79,
-	"maintainer": "Marco Nenciarini <mnencia@debian.org>",
+	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "console tool to turn CDs into encoded music",
-	"homepage": "http://www.nongnu.org/yaret",
-	"filename": "pool/main/y/yaret/yaret_2.1.0-5.3_all.deb",
-	"size": 24864,
-	"md5": "a9bf00b307bda92c9b89dbab9f93ddd4",
-	"sha256": "58774cc4853fc58d79c980f5baa600e2b1a3017d9cc3e7848cd4ff84be3d1f9e",
+	"homepage": "https://www.nongnu.org/yaret",
+	"filename": "pool/main/y/yaret/yaret_2.1.0-6_all.deb",
+	"size": 24992,
+	"md5": "324ced0ef9ccde3a47eaba8a568d49a4",
+	"sha256": "7fa003084f203c5d15a1f63dca4334f8570cec5fdebbe34d61f2e76cd1cde57c",
 	"descriptionMd5": "b69e9d25cc468c9b36e6543f32b78eab"
 }
