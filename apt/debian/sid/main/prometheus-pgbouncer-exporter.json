@@ -5,21 +5,30 @@
 		"Size"
 	],
 	"package": "prometheus-pgbouncer-exporter",
-	"version": "1:0.10.2-1",
+	"version": "1:0.10.2-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"postgresql-common (>= 26)",
 		"libc6 (>= 2.34)"
 	],
-	"installedSize": 12399,
+	"replaces": [
+		"golang-github-prometheus-community-pgbouncer-exporter (<< 0.10)"
+	],
+	"enhances": [
+		"pgbouncer"
+	],
+	"breaks": [
+		"golang-github-prometheus-community-pgbouncer-exporter (<< 0.10)"
+	],
+	"installedSize": 12584,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Prometheus exporter for PgBouncer (program)",
 	"homepage": "https://github.com/prometheus-community/pgbouncer_exporter",
-	"builtUsing": "golang-1.24 (= 1.24.0-1), golang-github-alecthomas-units (= 0.0~git20240626.61d1e34-1), golang-github-beorn7-perks (= 1.0.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-coreos-go-systemd (= 22.5.0-1), golang-github-go-kit-log (= 0.2.1-1), golang-github-go-logfmt-logfmt (= 0.5.0-2), golang-github-jpillora-backoff (= 1.0.0-1.1), golang-github-klauspost-compress (= 1.17.11+ds1-1), golang-github-lib-pq (= 1.10.9-2), golang-github-mdlayher-socket (= 0.5.1-1), golang-github-mdlayher-vsock (= 1.2.1-2), golang-github-munnerz-goautoneg (= 0.0~git20191010.a7dc8b6-2), golang-github-mwitkow-go-conntrack (= 0.0~git20190716.2f06839-3), golang-github-prometheus-client-golang (= 1.21.0-1), golang-github-prometheus-client-model (= 0.6.0-1), golang-github-prometheus-common (= 0.62.0-3), golang-github-prometheus-exporter-toolkit (= 0.14.0-1), golang-github-prometheus-procfs (= 0.15.1-1), golang-go.crypto (= 1:0.25.0-1), golang-golang-x-net (= 1:0.27.0-1), golang-golang-x-oauth2 (= 0.26.0-1), golang-golang-x-sync (= 0.7.0-1), golang-golang-x-sys (= 0.22.0-1), golang-golang-x-text (= 0.22.0-1), golang-google-protobuf (= 1.33.0-1), golang-gopkg-alecthomas-kingpin.v2 (= 2.2.6-4), golang-yaml.v2 (= 2.4.0-4)",
-	"filename": "pool/main/p/prometheus-pgbouncer-exporter/prometheus-pgbouncer-exporter_0.10.2-1_amd64.deb",
-	"size": 3753652,
-	"md5": "588c0c77d6cc371bb59839a0d9c172a8",
-	"sha256": "1ba09bd7eb73d12ab3b2f9622fcdbd8a43295bff600d0f0321e6c5f1864c0d8f",
+	"filename": "pool/main/p/prometheus-pgbouncer-exporter/prometheus-pgbouncer-exporter_0.10.2-2_amd64.deb",
+	"size": 3805748,
+	"md5": "27934f0840bea753a4e7ed990c748a26",
+	"sha256": "e8273a94188fd70ad17e9cb8c3a87a11dacce90600223ca919e029e544a07a3a",
 	"descriptionMd5": "a729ef3b56a50f73ad2f81db51619a25"
 }
