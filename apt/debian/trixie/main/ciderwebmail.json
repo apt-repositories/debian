@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "ciderwebmail",
-	"version": "1.05+20221106-2",
+	"version": "1.05+20240702-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
@@ -36,6 +36,7 @@
 		"libemail-sender-perl",
 		"libemail-simple-perl",
 		"libemail-valid-perl",
+		"libencode-imaputf7-perl",
 		"libhtml-defang-perl",
 		"libhtml-tidy-perl",
 		"libio-socket-ssl-perl",
@@ -63,8 +64,8 @@
 		"perl:any"
 	],
 	"recommends": [
-		"libauthen-sasl-perl",
 		"default-mta | mail-transport-agent",
+		"libauthen-sasl-perl",
 		"libdbd-sqlite3-perl"
 	],
 	"suggests": [
@@ -73,13 +74,13 @@
 		"libfcgi-perl",
 		"libfcgi-procmanager-perl"
 	],
-	"installedSize": 1385,
+	"installedSize": 1372,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "IMAP webmail service",
 	"homepage": "https://ciderwebmail.org/",
-	"filename": "pool/main/c/ciderwebmail/ciderwebmail_1.05+20221106-2_all.deb",
-	"size": 468456,
-	"md5": "79c6133dd6019e26a6fe14d1e958637a",
-	"sha256": "f7f19eb72a15816d2ee2dfa7448fa14d6e577e445a97703bafe7dbe4a72236d5",
+	"filename": "pool/main/c/ciderwebmail/ciderwebmail_1.05+20240702-1_all.deb",
+	"size": 461284,
+	"md5": "c68809719f2a1e35775de6fbb34dbd30",
+	"sha256": "468985910a37f5e573c95375db31b17aaa2d316f21467fa080e18e73918fc546",
 	"descriptionMd5": "e4e2044a58a9b3997237eb5047bf055d"
 }

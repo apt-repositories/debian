@@ -6,22 +6,22 @@
 	],
 	"package": "python3-elasticsearch-curator",
 	"source": "elasticsearch-curator",
-	"version": "5.8.1-5",
+	"version": "5.8.1-6",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"python3-elasticsearch (>= 7.0.4)",
+		"python3-pkg-resources",
 		"python3-boto3 (>= 1.9.142)",
 		"python3-certifi",
 		"python3-click",
-		"python3-elasticsearch (>= 7.0.4)",
 		"python3-requests",
 		"python3-six",
 		"python3-urllib3 (>= 1.24.2)",
 		"python3-voluptuous",
 		"python3-yaml",
-		"python3:any",
-		"python3-pkg-resources"
+		"python3:any"
 	],
 	"suggests": [
 		"python-elasticsearch-curator-doc"
@@ -30,9 +30,9 @@
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python 3 library for managing Elasticsearch time-series indices",
 	"homepage": "https://github.com/elasticsearch/curator",
-	"filename": "pool/main/e/elasticsearch-curator/python3-elasticsearch-curator_5.8.1-5_all.deb",
-	"size": 92988,
-	"md5": "e5d8595bb1b508ca442ace5e7334419f",
-	"sha256": "64a0744cdefa9ee7bd271d3f2a26cb747707a0ffe099f5e7d240a12e914acc70",
+	"filename": "pool/main/e/elasticsearch-curator/python3-elasticsearch-curator_5.8.1-6_all.deb",
+	"size": 93208,
+	"md5": "e27a7c523b86abf7f790fc1899638f9d",
+	"sha256": "3edc3229a6bf6ec3cbe430792f94fb4efb37eb20ea86a9b8df64e79cd56ee640",
 	"descriptionMd5": "9328509c402af1a020faa35d265d0fe1"
 }
