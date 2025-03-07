@@ -6,13 +6,13 @@
 	],
 	"package": "emacs-gtk",
 	"source": "emacs",
-	"version": "1:30.1+1-3",
+	"version": "1:30.1+1-4",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"emacs-bin-common (= 1:30.1+1-3)",
-		"emacs-common (= 1:30.1+1-3)",
+		"emacs-bin-common (= 1:30.1+1-4)",
+		"emacs-common (= 1:30.1+1-4)",
 		"libacl1 (>= 2.2.23)",
 		"libasound2t64 (>= 1.0.16)",
 		"libattr1 (>= 1:2.4.48)",
@@ -72,6 +72,7 @@
 		"emacs-pgtk"
 	],
 	"breaks": [
+		"dh-elpa-helper (<< 2.1.7)",
 		"emacs-bin-common (<< 1:29.2)"
 	],
 	"conflicts": [
@@ -83,9 +84,9 @@
 	"maintainer": "Rob Browning <rlb@defaultvalue.org>",
 	"description": "GNU Emacs editor (with GTK+ GUI support)",
 	"homepage": "https://www.gnu.org/software/emacs/",
-	"filename": "pool/main/e/emacs/emacs-gtk_30.1+1-3_amd64.deb",
-	"size": 7839796,
-	"md5": "74593162d9a65e90e47e4f4ae4f696ae",
-	"sha256": "9735b1d2b8eb83e24ebf285d92042d93e19a2545cf62c6c9d3d844bf24638532",
+	"filename": "pool/main/e/emacs/emacs-gtk_30.1+1-4_amd64.deb",
+	"size": 7817304,
+	"md5": "55b13c8b26674976057947ca293bfe2e",
+	"sha256": "246f7a964cbbd74801408b04e4d6834f5744654c9dfd215b5a3d794ec6240632",
 	"descriptionMd5": "0c21163250e39c4d332ee40663450921"
 }]

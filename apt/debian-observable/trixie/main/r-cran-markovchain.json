@@ -5,42 +5,45 @@
 		"Size"
 	],
 	"package": "r-cran-markovchain",
-	"version": "0.9.5-1",
+	"version": "0.10.0-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"r-api-4.0",
-		"r-cran-igraph",
 		"r-cran-matrix (>= 1.5-0)",
+		"r-cran-igraph",
 		"r-cran-expm",
 		"r-cran-rcpp (>= 1.0.2)",
 		"r-cran-rcppparallel",
 		"r-cran-rcpparmadillo (>= 0.9.600.4.0)",
 		"libblas3 | libblas.so.3",
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"liblapack3 | liblapack.so.3",
-		"libstdc++6 (>= 13.1)",
-		"libtbb12 (>= 2021.4.0)"
+		"libstdc++6 (>= 14)",
+		"libtbb12 (>= 2022.0.0)"
 	],
 	"recommends": [
 		"r-cran-knitr",
 		"r-cran-testthat",
-		"r-cran-diagram",
 		"r-cran-msm",
 		"r-cran-rsolnp",
 		"r-cran-rmarkdown",
 		"r-cran-ctmcd",
-		"r-cran-bookdown"
+		"r-cran-bookdown",
+		"r-cran-diagram"
 	],
-	"installedSize": 2318,
+	"suggests": [
+		"r-cran-diagrammer"
+	],
+	"installedSize": 2352,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "Easy Handling Discrete Time Markov Chains",
 	"homepage": "https://cran.r-project.org/package=markovchain",
-	"filename": "pool/main/r/r-cran-markovchain/r-cran-markovchain_0.9.5-1_amd64.deb",
-	"size": 1416732,
-	"md5": "3c3a598fe7ff7225fbb3f6abb1941242",
-	"sha256": "68c41d8ba5475bb8e9b48e5abbac9da8a3f881905a3801e108f5430f37a0b1d6",
+	"filename": "pool/main/r/r-cran-markovchain/r-cran-markovchain_0.10.0-1_amd64.deb",
+	"size": 1297396,
+	"md5": "2b0b84250f4bbb728d1cd52ca70ab492",
+	"sha256": "6f6be6dc8786347ef367ea826979820f1005a9792a4694a5b4f038b3d5d523d1",
 	"descriptionMd5": "9fa1ed516479b17527f67cb5e04593f4"
 }]

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "mutter",
-	"version": "47.4-1",
+	"version": "48~beta-7",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,24 +13,29 @@
 		"adwaita-icon-theme",
 		"gnome-settings-daemon-common",
 		"gsettings-desktop-schemas (>= 40~alpha)",
-		"mutter-common (>= 47.4-1)",
-		"zenity",
+		"mutter-common (>= 48~beta-7)",
 		"libc6 (>= 2.34)",
 		"libgles2",
 		"libglib2.0-0t64 (>= 2.76)",
-		"libmutter-15-0 (>= 47~rc)"
+		"libmutter-16-0 (>= 47~rc)"
 	],
 	"suggests": [
 		"gnome-control-center",
 		"xdg-user-dirs"
 	],
-	"installedSize": 206,
+	"replaces": [
+		"mutter-common (<< 48~beta)"
+	],
+	"breaks": [
+		"mutter-common (<< 48~beta)"
+	],
+	"installedSize": 214,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Example window manager using GNOME's window manager library",
 	"homepage": "https://mutter.gnome.org/",
-	"filename": "pool/main/m/mutter/mutter_47.4-1_amd64.deb",
-	"size": 154584,
-	"md5": "910822fada5cfeb20588b5a3e59fc334",
-	"sha256": "c444cdcc9ab634d6793f4fe52044cdf2c59b6b5d2f63ef48119e0994ac03e0ce",
+	"filename": "pool/main/m/mutter/mutter_48~beta-7_amd64.deb",
+	"size": 159244,
+	"md5": "ecdd82a6a63786ef3700195e450ccebd",
+	"sha256": "9cc5bf0170b1559d3b8344f04d490474d00a0e418f73d00be76ce73bbdcb3cbb",
 	"descriptionMd5": "e1aaf47f1a0045c06fca32ec80a0a883"
 }]
