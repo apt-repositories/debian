@@ -6,7 +6,7 @@
 	],
 	"package": "libdpkg-perl",
 	"source": "dpkg",
-	"version": "1.22.15",
+	"version": "1.22.17",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -22,8 +22,8 @@
 	],
 	"suggests": [
 		"debian-keyring",
-		"gnupg | sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq",
-		"gpgv | sq | sqop | rsop | gosop | pgpainless-cli | gpgv-sq",
+		"sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq | gnupg",
+		"sq | sqopv | rsopv | sopv | gosop | pgpainless-cli | gpgv-sq | gpgv",
 		"gcc | c-compiler",
 		"binutils",
 		"patch",
@@ -41,13 +41,13 @@
 		"sq (<< 0.40.0~)",
 		"sqop (<< 0.27.2~)"
 	],
-	"installedSize": 2054,
+	"installedSize": 2055,
 	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
 	"description": "Dpkg perl modules",
 	"homepage": "https://wiki.debian.org/Teams/Dpkg",
-	"filename": "pool/main/d/dpkg/libdpkg-perl_1.22.15_all.deb",
-	"size": 647712,
-	"md5": "10f15f464d7aafd0818c8a4080816cc8",
-	"sha256": "b77d5fdc901d9057cd558d1b9c34ba4d47a444193ebf7f85957e3dc18cbea9fe",
+	"filename": "pool/main/d/dpkg/libdpkg-perl_1.22.17_all.deb",
+	"size": 648368,
+	"md5": "6938a4e00fd872e78a3afac1da59bf2c",
+	"sha256": "95e647093bffbfec7ed1bf9eac80dba0773683bab5d1d7d33a085720dc21ba58",
 	"descriptionMd5": "5011cce9f04b116d18e831b42d79c4a1"
 }]
