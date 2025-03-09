@@ -6,35 +6,36 @@
 	],
 	"package": "python3-zarr",
 	"source": "zarr",
-	"version": "2.18.4+ds-3",
+	"version": "3.0.5-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-asciitree",
-		"python3-fasteners",
+		"python3-crc32c",
+		"python3-sphinx-copybutton",
+		"python3-pydata-sphinx-theme",
+		"python3-donfig",
 		"python3-numcodecs",
 		"python3-numpy",
+		"python3-packaging",
+		"python3-typing-extensions",
 		"python3:any",
-		"libjs-sphinxdoc (>= 8.1)",
-		"python3-sphinx-copybutton",
-		"python3-pydata-sphinx-theme"
+		"libjs-sphinxdoc (>= 8.1)"
 	],
 	"recommends": [
+		"python3-aiohttp",
+		"python3-botocore",
 		"python3-fsspec",
-		"python3-gdbm"
+		"python3-requests",
+		"python3-rich"
 	],
-	"suggests": [
-		"python3-h5py",
-		"jupyter-notebook"
-	],
-	"installedSize": 12688,
+	"installedSize": 15364,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "chunked, compressed, N-dimensional arrays for Python",
 	"homepage": "https://github.com/zarr-developers/zarr-python",
-	"filename": "pool/main/z/zarr/python3-zarr_2.18.4+ds-3_all.deb",
-	"size": 1940472,
-	"md5": "72a3ca571991f04389b53f9db40d1d7e",
-	"sha256": "518cafda98d1d73cb3b29e4b6fb329995d12571c727c833b8fd54e124910f922",
+	"filename": "pool/main/z/zarr/python3-zarr_3.0.5-1_all.deb",
+	"size": 1988748,
+	"md5": "b7bf2af95a8b641ca3aa0b9ddf38144e",
+	"sha256": "6d555a29b09b4aa506b5861aa480ae0909b0aba6b4d4b3670adb933cf5b3425e",
 	"descriptionMd5": "c64a8435acccdbe74e5e892f033e70f0"
 }]

@@ -5,28 +5,28 @@
 		"Size"
 	],
 	"package": "vifm",
-	"source": "vifm (0.12-1)",
-	"version": "0.12-1+b2",
+	"version": "0.13-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"perl:any",
+		"libc6 (>= 2.38)",
 		"libmagic1t64 (>= 5.12)",
 		"libncursesw6 (>= 6.1)",
-		"libtinfo6 (>= 6)"
+		"libtinfo6 (>= 6)",
+		"vim (>= 2:8.1.0693-2~) | neovim (>= 0.2.2-1~)"
 	],
 	"recommends": [
-		"libx11-6",
-		"vim-addon-manager"
+		"libx11-6"
 	],
-	"installedSize": 2231,
-	"maintainer": "Ondřej Nový <onovy@debian.org>",
-	"description": "flexible vi-like file manager using ncurses",
+	"installedSize": 2852,
+	"maintainer": "Kirill Rekhov <krekhov.dev@gmail.com>",
+	"description": "Flexible vi-like file manager using ncurses",
 	"homepage": "https://vifm.info/",
-	"filename": "pool/main/v/vifm/vifm_0.12-1+b2_amd64.deb",
-	"size": 840128,
-	"md5": "90bf12ce2ab30f04759a909456cc9eae",
-	"sha256": "e10ec472f336685f86aa6b83d447c735d389421b503f486f65f76da0aeb73c14",
-	"descriptionMd5": "d7b58c739f8c1019684e6dfe52e68ba4"
+	"filename": "pool/main/v/vifm/vifm_0.13-1_amd64.deb",
+	"size": 922776,
+	"md5": "2db1603e22743000bfa473049c622745",
+	"sha256": "4a89ccc6eab9bf2ad26c889849945eeac0b83d5bdebdfaed3206ac71ffcb33de",
+	"descriptionMd5": "5daf93bba04a1ec3aa0781381001fccc"
 }]
