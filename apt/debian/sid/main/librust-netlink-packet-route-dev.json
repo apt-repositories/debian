@@ -6,7 +6,7 @@
 	],
 	"package": "librust-netlink-packet-route-dev",
 	"source": "rust-netlink-packet-route",
-	"version": "0.21.0-2",
+	"version": "0.21.0-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,16 @@
 		"librust-netlink-packet-core-0.7+default-dev",
 		"librust-netlink-packet-utils-0.5+default-dev (>= 0.5.2-~~)"
 	],
+	"breaks": [
+		"librust-rtnetlink-dev (<= 0.13.1-7)"
+	],
 	"installedSize": 1145,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Netlink packet types - Rust source code",
 	"homepage": "https://github.com/rust-netlink/netlink-packet-route",
-	"filename": "pool/main/r/rust-netlink-packet-route/librust-netlink-packet-route-dev_0.21.0-2_amd64.deb",
-	"size": 125224,
-	"md5": "aec382a418df0b50634cadbd4df22910",
-	"sha256": "200abbf9f3a762668c94febbaa9e00e2783c61003a1c204c254c388bf685e0b6",
+	"filename": "pool/main/r/rust-netlink-packet-route/librust-netlink-packet-route-dev_0.21.0-4_amd64.deb",
+	"size": 125328,
+	"md5": "f92b339dc6c49c4520a37287d5c850d1",
+	"sha256": "94dc1b802a2a659e90008980347dfccc9c1c1615de2f7223905c8a979465847a",
 	"descriptionMd5": "185e46a3224c7bb3deb47942d5996864"
 }

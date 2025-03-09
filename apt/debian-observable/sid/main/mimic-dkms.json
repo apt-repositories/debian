@@ -5,26 +5,26 @@
 		"Size"
 	],
 	"package": "mimic-dkms",
-	"source": "mimic (0.6.3+ds-1)",
-	"version": "0.6.3+ds-1+b1",
+	"source": "mimic",
+	"version": "0.7.0+ds-1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dkms (>= 2.1.0.0)",
+		"dkms (>= 3.0.11)",
 		"libc6 (>= 2.38)",
 		"libelf1t64 (>= 0.144)",
 		"zlib1g (>= 1:1.2.3.3)",
-		"binutils",
-		"pahole"
-	],
-	"recommends": [
+		"pahole",
+		"bubblewrap",
 		"xz-utils",
-		"bzip2",
-		"lzma",
-		"lzop",
 		"lz4",
 		"zstd"
+	],
+	"recommends": [
+		"bzip2",
+		"lzma",
+		"lzop"
 	],
 	"conflicts": [
 		"mimic-modules"
@@ -33,9 +33,9 @@
 	"maintainer": "Eric Long <i@hack3r.moe>",
 	"description": "eBPF UDP -> TCP obfuscator (DKMS kernel module)",
 	"homepage": "https://github.com/hack3ric/mimic",
-	"filename": "pool/main/m/mimic/mimic-dkms_0.6.3+ds-1+b1_amd64.deb",
-	"size": 183488,
-	"md5": "35347347191bff34b2c7beb3cb2bb698",
-	"sha256": "1cf92381af8ecaeb94dbe229084b2142aea52bb2614dc863e50cfe0d862dd2f2",
+	"filename": "pool/main/m/mimic/mimic-dkms_0.7.0+ds-1_amd64.deb",
+	"size": 184312,
+	"md5": "b29aeab4080859ce785cf0b9700fc24c",
+	"sha256": "0587ef1a6aa006e8fc28c8104b21d2ec94b13d9666a8414593cabf8fe39636d1",
 	"descriptionMd5": "1aeccf4ab4643f5b1416ed7f68da5165"
 }]

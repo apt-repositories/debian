@@ -6,26 +6,32 @@
 	],
 	"package": "oar-node",
 	"source": "oar",
-	"version": "2.6.0-1",
+	"version": "2.6.0-2",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"openssh-client",
 		"openssh-server",
-		"oar-common (= 2.6.0-1)"
+		"oar-common (= 2.6.0-2)"
 	],
 	"suggests": [
 		"oar-doc",
 		"xauth"
 	],
-	"installedSize": 109,
+	"replaces": [
+		"oar-common (= 2.6.0-1)"
+	],
+	"breaks": [
+		"oar-common (= 2.6.0-1)"
+	],
+	"installedSize": 117,
 	"maintainer": "Pierre Neyron <pierre.neyron@free.fr>",
 	"description": "OAR batch scheduler node package",
 	"homepage": "http://oar.imag.fr/",
-	"filename": "pool/main/o/oar/oar-node_2.6.0-1_amd64.deb",
-	"size": 32728,
-	"md5": "eb49995d47206ad96dce910cc66043a6",
-	"sha256": "792771283e55fe91f4bcef37def2bf8c64a77898bed568865e1731ebfbe07b13",
+	"filename": "pool/main/o/oar/oar-node_2.6.0-2_amd64.deb",
+	"size": 36612,
+	"md5": "4762d00b7388522d8dabf19fe1a1ac4d",
+	"sha256": "62d6e6674ac09683fa56381fff50420628e0886cac34e1517bd95936c6cdcdde",
 	"descriptionMd5": "c435efed22a974bf17afaab5e9f95958"
 }]
