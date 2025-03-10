@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "xdg-desktop-portal-hyprland",
-	"version": "1.3.8-2",
+	"version": "1.3.8-3",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,20 +16,23 @@
 		"libgcc-s1 (>= 4.3)",
 		"libhyprlang2 (>= 0.5.2)",
 		"libpipewire-0.3-0t64 (>= 0.3.1)",
-		"libqt6core6t64 (>= 6.7.2)",
+		"libqt6core6t64 (>= 6.8.2)",
 		"libqt6gui6 (>= 6.1.2)",
 		"libqt6widgets6 (>= 6.1.2)",
 		"libsdbus-c++2 (>= 2.1.0)",
 		"libstdc++6 (>= 13.1)",
 		"libwayland-client0 (>= 1.20.0)"
 	],
-	"installedSize": 841,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"recommends": [
+		"xdg-desktop-portal-gtk"
+	],
+	"installedSize": 840,
+	"maintainer": "Carl Keinath <carl.keinath@gmail.com>",
 	"description": "XDG Desktop Portal backend for Hyprland",
 	"homepage": "https://github.com/hyprwm/xdg-desktop-portal-hyprland",
-	"filename": "pool/main/x/xdg-desktop-portal-hyprland/xdg-desktop-portal-hyprland_1.3.8-2_amd64.deb",
-	"size": 247876,
-	"md5": "3120f28de50ddbe2eacc84c68a1683e1",
-	"sha256": "2e209fac297c2505e38dd99a776c031b55c03bc4536ae77c1977d3a98253274f",
+	"filename": "pool/main/x/xdg-desktop-portal-hyprland/xdg-desktop-portal-hyprland_1.3.8-3_amd64.deb",
+	"size": 247288,
+	"md5": "4a946ab267155ed5767ed7b34bc19b4b",
+	"sha256": "16913078102a49cdd8c39c302e2b3fba13ad3e4a9ff9b347f9e8cde66f672939",
 	"descriptionMd5": "c8d7cb80e00744cbbc68eb7dc5c2828e"
 }]

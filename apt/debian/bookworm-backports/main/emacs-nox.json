@@ -6,13 +6,13 @@
 	],
 	"package": "emacs-nox",
 	"source": "emacs",
-	"version": "1:30.1+1-3~bpo12+1",
+	"version": "1:30.1+1-4~bpo12+1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"emacs-bin-common (= 1:30.1+1-3~bpo12+1)",
-		"emacs-common (= 1:30.1+1-3~bpo12+1)",
+		"emacs-bin-common (= 1:30.1+1-4~bpo12+1)",
+		"emacs-common (= 1:30.1+1-4~bpo12+1)",
 		"libacl1 (>= 2.2.23)",
 		"libasound2 (>= 1.0.16)",
 		"libattr1 (>= 1:2.4.48)",
@@ -42,6 +42,7 @@
 		"emacs-pgtk"
 	],
 	"breaks": [
+		"dh-elpa-helper (<< 2.1.7)",
 		"emacs-bin-common (<< 1:29.2)"
 	],
 	"conflicts": [
@@ -53,8 +54,8 @@
 	"maintainer": "Rob Browning <rlb@defaultvalue.org>",
 	"description": "GNU Emacs editor (without GUI support)",
 	"homepage": "https://www.gnu.org/software/emacs/",
-	"filename": "pool/main/e/emacs/emacs-nox_30.1+1-3~bpo12+1_amd64.deb",
-	"size": 7259764,
-	"sha256": "962a1286371b9fea28530d6062d255e302816072a90d2364a212b1ffda5d9d63",
+	"filename": "pool/main/e/emacs/emacs-nox_30.1+1-4~bpo12+1_amd64.deb",
+	"size": 7252004,
+	"sha256": "a18a125728388d94e45895bd208e04daa0203ba9a990a08fce91719390f3d30b",
 	"descriptionMd5": "d7627aff9867f2ba95f2b9dcfc399d6a"
 }

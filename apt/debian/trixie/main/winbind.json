@@ -6,27 +6,27 @@
 	],
 	"package": "winbind",
 	"source": "samba",
-	"version": "2:4.21.4+dfsg-1",
+	"version": "2:4.22.0+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"samba-common (= 2:4.21.4+dfsg-1)",
-		"samba-common-bin (= 2:4.21.4+dfsg-1)",
-		"libwbclient0 (= 2:4.21.4+dfsg-1)",
+		"samba-common (= 2:4.22.0+dfsg-1)",
+		"samba-common-bin (= 2:4.22.0+dfsg-1)",
+		"libwbclient0 (= 2:4.22.0+dfsg-1)",
 		"passwd",
 		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
 		"libgnutls30t64 (>= 3.7.0)",
 		"libldap2 (>= 2.6.2)",
 		"libldb2 (>= 0.9.21)",
-		"libndr5 (>= 2:4.20.0~rc1)",
+		"libndr6 (>= 2:4.20.0~rc1)",
 		"libpopt0 (>= 1.14)",
 		"libsmbldap2 (>= 2:4.16.6)",
 		"libtalloc2 (>= 2.4.0)",
 		"libtdb1 (>= 1.2.7+git20101214)",
 		"libtevent0t64 (>= 0.15.0)",
-		"samba-libs (= 2:4.21.4+dfsg-1)"
+		"samba-libs (= 2:4.22.0+dfsg-1)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -48,13 +48,13 @@
 		"samba (<< 2:4.16.6+dfsg-5~)",
 		"samba-libs (<< 2:4.16.6+dfsg-5~)"
 	],
-	"installedSize": 1654,
+	"installedSize": 1586,
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "service to resolve user and group information from Windows NT servers",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/winbind_4.21.4+dfsg-1_amd64.deb",
-	"size": 446960,
-	"md5": "ed83f9d868bd6d2455b75560db784002",
-	"sha256": "7df2b38d25d3816e61f7f920ea9aba33340096628cbb738a302727373c29c663",
+	"filename": "pool/main/s/samba/winbind_4.22.0+dfsg-1_amd64.deb",
+	"size": 422392,
+	"md5": "2d31208858797426e78dbe68cb934e2d",
+	"sha256": "06cfecf8644df4c93e37d283025fc1a2547132dda8f62ac0a2819d3be26a9d54",
 	"descriptionMd5": "760987c6cfd5ae0abd5c47c9758b31b0"
 }
