@@ -6,7 +6,7 @@
 	],
 	"package": "nscd",
 	"source": "glibc",
-	"version": "2.41-3",
+	"version": "2.41-4",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,16 @@
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
+	"conflicts": [
+		"unscd"
+	],
 	"installedSize": 261,
 	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
 	"description": "GNU C Library: Name Service Cache Daemon",
 	"homepage": "https://www.gnu.org/software/libc/libc.html",
-	"filename": "pool/main/g/glibc/nscd_2.41-3_amd64.deb",
-	"size": 104060,
-	"md5": "44d68d469148b3786eb779aa0a1f9eec",
-	"sha256": "774a6d1d4d670b0705f930d844ebc57cd861050edc0a213030e7c87267e4f3d5",
+	"filename": "pool/main/g/glibc/nscd_2.41-4_amd64.deb",
+	"size": 104380,
+	"md5": "b0382d3e5d0eb6933cf79f1fadff7033",
+	"sha256": "4a98593d4001f3edcfe39a571e6858abe9563169d9507ffcf89556e9e7213bb1",
 	"descriptionMd5": "e8172254ec0df735a3e44c0f557100bc"
 }]

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "prometheus-alertmanager",
-	"version": "0.28.0+ds-2",
+	"version": "0.28.1+ds-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,14 +17,13 @@
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 47688,
+	"installedSize": 48058,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "handle and deliver alerts created by Prometheus",
-	"homepage": "https://prometheus.io/",
-	"builtUsing": "golang-1.24 (= 1.24.0-1), golang-github-alecthomas-units (= 0.0~git20240626.61d1e34-1), golang-github-armon-go-metrics (= 0.4.1-1), golang-github-asaskevich-govalidator (= 11.0.1-1), golang-github-aws-aws-sdk-go (= 1.49.0-2), golang-github-beorn7-perks (= 1.0.1-1), golang-github-cenkalti-backoff (= 4.3.0-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-coder-quartz (= 0.1.3-2), golang-github-coreos-go-systemd (= 22.5.0-1), golang-github-davecgh-go-spew (= 1.1.1-3), golang-github-docker-go-units (= 0.4.0-4), golang-github-go-kit-log (= 0.2.1-1), golang-github-go-logfmt-logfmt (= 0.5.0-2), golang-github-go-logr-logr (= 1.4.2-2), golang-github-go-logr-stdr (= 1.2.2-4), golang-github-go-openapi-analysis (= 0.23.0-1), golang-github-go-openapi-errors (= 0.22.0-1), golang-github-go-openapi-jsonpointer (= 1:0.21.0-1), golang-github-go-openapi-jsonreference (= 1:0.21.0-1), golang-github-go-openapi-loads (= 0.22.0-1), golang-github-go-openapi-runtime (= 0.28.0-1), golang-github-go-openapi-spec (= 1:0.21.0-1), golang-github-go-openapi-strfmt (= 0.23.0-1), golang-github-go-openapi-swag (= 1:0.23.0-1), golang-github-go-openapi-validate (= 0.24.0-2), golang-github-gofrs-uuid (= 5.3.1-1), golang-github-golang-protobuf-1-5 (= 1.5.4-1), golang-github-google-btree (= 1.0.1-1), golang-github-google-uuid (= 1.6.0-1), golang-github-hashicorp-errwrap (= 1.1.0-1), golang-github-hashicorp-go-immutable-radix (= 1.3.1-3), golang-github-hashicorp-go-msgpack (= 0.5.5-1), golang-github-hashicorp-go-multierror (= 1.1.1-2), golang-github-hashicorp-go-sockaddr (= 1.0.2-2), golang-github-hashicorp-golang-lru (= 0.5.4-2), golang-github-hashicorp-golang-lru-v2 (= 2.0.7-2), golang-github-hashicorp-memberlist (= 0.5.0-1), golang-github-jmespath-go-jmespath (= 0.4.0-2), golang-github-josharian-intern (= 1.0.0-3), golang-github-jpillora-backoff (= 1.0.0-1.1), golang-github-julienschmidt-httprouter (= 1.3.0-2), golang-github-kimmachinegun-automemlimit (= 0.7.0-3), golang-github-klauspost-compress (= 1.17.11+ds1-1), golang-github-mailru-easyjson (= 0.7.7-1), golang-github-mdlayher-socket (= 0.5.1-1), golang-github-mdlayher-vsock (= 1.2.1-2), golang-github-miekg-dns (= 1.1.63-1), golang-github-mitchellh-mapstructure (= 1.5.0+git20231216.8508981-1), golang-github-munnerz-goautoneg (= 0.0~git20191010.a7dc8b6-2), golang-github-mwitkow-go-conntrack (= 0.0~git20190716.2f06839-3), golang-github-oklog-run (= 1.1.0-2), golang-github-oklog-ulid (= 2.0.2+ds-2), golang-github-opentracing-opentracing-go (= 1.2.0-2), golang-github-pbnjay-memory (= 0.0~git20210728.7b4eea6-2), golang-github-pmezard-go-difflib (= 1.0.0-3), golang-github-prometheus-client-golang (= 1.21.0-1), golang-github-prometheus-client-model (= 0.6.0-1), golang-github-prometheus-common (= 0.62.0-3), golang-github-prometheus-exporter-toolkit (= 0.14.0-1), golang-github-prometheus-procfs (= 0.15.1-1), golang-github-prometheus-sigv4 (= 0.1.2-2), golang-github-rs-cors (= 1.7.0-4), golang-github-xlab-treeprint (= 1.2.0-2), golang-go-flags (= 1.4.0-6), golang-go.crypto (= 1:0.25.0-1), golang-gogoprotobuf (= 1.3.2-3), golang-golang-x-mod (= 0.19.0-1), golang-golang-x-net (= 1:0.27.0-1), golang-golang-x-oauth2 (= 0.26.0-1), golang-golang-x-sync (= 0.7.0-1), golang-golang-x-sys (= 0.22.0-1), golang-golang-x-text (= 0.22.0-1), golang-google-protobuf (= 1.33.0-1), golang-gopkg-alecthomas-kingpin.v2 (= 2.2.6-4), golang-gopkg-telebot.v3 (= 3.3.8-1), golang-gopkg-yaml.v3 (= 3.0.1-3), golang-mongodb-mongo-driver (= 1.17.1+ds1-1), golang-opentelemetry-otel (= 1.31.0-3), golang-protobuf-extensions (= 1.0.4-2), golang-testify (= 1.9.0-1), golang-uber-automaxprocs (= 1.5.3-1), golang-yaml.v2 (= 2.4.0-4)",
-	"filename": "pool/main/p/prometheus-alertmanager/prometheus-alertmanager_0.28.0+ds-2_amd64.deb",
-	"size": 12149696,
-	"md5": "8df4891ae04fca6dd5b74fb16c1c4c09",
-	"sha256": "555a4ba48da114e929af20479f79b215176bcc831f634a6d47bbd8ddd4f430c4",
+	"homepage": "https://github.com/prometheus/alertmanager",
+	"filename": "pool/main/p/prometheus-alertmanager/prometheus-alertmanager_0.28.1+ds-1_amd64.deb",
+	"size": 12243404,
+	"md5": "3731bcc309c4e87850363e53a0f11fd8",
+	"sha256": "76ee08c2bf686fa32ca243d099b6bfc6cb00074e9337c18ef73154b60c5830a9",
 	"descriptionMd5": "3f68f63f49ce79ab49e1e311540ab47e"
 }]

@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "neomutt",
-	"version": "20241002+dfsg-1~bpo12+1",
+	"version": "20250113+dfsg-1~bpo12+1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"sensible-utils",
 		"libc6 (>= 2.34)",
 		"libgnutls30 (>= 3.7.5)",
 		"libgpgme11 (>= 1.11.1)",
@@ -26,29 +27,29 @@
 		"libtinfo6 (>= 6)",
 		"libtokyocabinet9 (>= 1.4.47)",
 		"libzstd1 (>= 1.5.2)",
-		"zlib1g (>= 1:1.2.0)",
-		"sensible-utils"
+		"zlib1g (>= 1:1.2.0)"
 	],
 	"recommends": [
 		"locales",
 		"mailcap"
 	],
 	"suggests": [
-		"default-mta | mail-transport-agent",
-		"urlview",
 		"aspell | ispell",
+		"ca-certificates",
+		"default-mta | mail-transport-agent",
 		"gnupg",
 		"openssl",
-		"ca-certificates"
+		"python3",
+		"urlview"
 	],
-	"installedSize": 9030,
+	"installedSize": 9139,
 	"maintainer": "Mutt maintainers <mutt@packages.debian.org>",
 	"description": "command line mail reader based on Mutt, with added features",
 	"homepage": "https://www.neomutt.org/",
-	"filename": "pool/main/n/neomutt/neomutt_20241002+dfsg-1~bpo12+1_amd64.deb",
-	"size": 1925656,
-	"sha256": "73f9d6a442feb65c50a91ea718352ddc2fbbef5f6c5fca9f4c0644c707fcc80a",
-	"descriptionMd5": "6458d4b7466ba2e6036b972b3f1d358a"
+	"filename": "pool/main/n/neomutt/neomutt_20250113+dfsg-1~bpo12+1_amd64.deb",
+	"size": 1929932,
+	"sha256": "ae110ac65e24154f32cd0d35bca4cd744a4b077464648ed616cd3b9210e2b735",
+	"descriptionMd5": "2fee387c74fbe17cdbd6f4882a280942"
 },{
 	"raw": {},
 	"required": [

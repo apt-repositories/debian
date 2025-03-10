@@ -6,18 +6,18 @@
 	],
 	"package": "samba-vfs-ceph",
 	"source": "samba",
-	"version": "2:4.21.4+dfsg-1",
+	"version": "2:4.22.0+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"samba (= 2:4.21.4+dfsg-1)",
+		"samba (= 2:4.22.0+dfsg-1)",
 		"libbsd0 (>= 0.0)",
-		"libc6 (>= 2.4)",
+		"libc6 (>= 2.34)",
 		"libcephfs2 (>= 16.2.6+ds)",
 		"libtalloc2 (>= 2.0.4~git20101213)",
 		"libtevent0t64 (>= 0.15.0)",
-		"samba-libs (= 2:4.21.4+dfsg-1)"
+		"samba-libs (= 2:4.22.0+dfsg-1)"
 	],
 	"replaces": [
 		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)"
@@ -28,13 +28,13 @@
 	"breaks": [
 		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)"
 	],
-	"installedSize": 168,
+	"installedSize": 282,
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "Samba Virtual FileSystem ceph modules",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/samba-vfs-ceph_4.21.4+dfsg-1_amd64.deb",
-	"size": 69772,
-	"md5": "9a24795a9d7ace10ce62b08c2fe6df45",
-	"sha256": "529d1bddaee3006a4264dad6bbe1c1d1c7f7ad87e2056f7748744915022d565d",
+	"filename": "pool/main/s/samba/samba-vfs-ceph_4.22.0+dfsg-1_amd64.deb",
+	"size": 99092,
+	"md5": "e5d1f7d6145da3f6bff2293a847efd56",
+	"sha256": "8310a47727bc9119112ad2c52eb26abad487228a0eca053e1f0a884b152b9355",
 	"descriptionMd5": "81c41d008c09fa58505d8e0a34d4e1fd"
 }

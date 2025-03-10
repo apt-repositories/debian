@@ -6,25 +6,28 @@
 	],
 	"package": "elixir",
 	"source": "elixir-lang",
-	"version": "1.14.0.dfsg-2",
+	"version": "1.18.1.dfsg-1.1",
 	"section": "interpreters",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"erlang-base (>= 1:24.3.4.5+dfsg)",
-		"erlang-crypto (>= 1:24.3.4.5+dfsg)",
-		"erlang-inets (>= 1:24.3.4.5+dfsg)",
-		"erlang-parsetools (>= 1:24.3.4.5+dfsg)",
-		"erlang-public-key (>= 1:24.3.4.5+dfsg)",
-		"erlang-tools (>= 1:24.3.4.5+dfsg)"
+		"erlang-base (>= 1:27.2.1+dfsg)",
+		"erlang-crypto (>= 1:27.2.1+dfsg)",
+		"erlang-inets (>= 1:27.2.1+dfsg)",
+		"erlang-parsetools (>= 1:27.2.1+dfsg)",
+		"erlang-public-key (>= 1:27.2.1+dfsg)",
+		"erlang-tools (>= 1:27.2.1+dfsg)"
 	],
-	"installedSize": 6964,
+	"breaks": [
+		"elixir-nimble-parsec (<< 1.4.0-2)"
+	],
+	"installedSize": 8786,
 	"maintainer": "Evgeny Golyshev <eugulixes@gmail.com>",
 	"description": "functional meta-programming aware language",
 	"homepage": "http://elixir-lang.org/",
-	"filename": "pool/main/e/elixir-lang/elixir_1.14.0.dfsg-2_amd64.deb",
-	"size": 4503868,
-	"md5": "9aa08a828f44eebff5faa8baa4036658",
-	"sha256": "0725a208427097fbecb57027af7af34b9562c4ee029ff8a55741fb6c55964778",
+	"filename": "pool/main/e/elixir-lang/elixir_1.18.1.dfsg-1.1_amd64.deb",
+	"size": 5559872,
+	"md5": "cde50519960ca3369226f5d7ad6d21cd",
+	"sha256": "d1636a46defba6a8858db7f42c329a6d03bcbfd2e1f9e4b4f7b0bf343fa70764",
 	"descriptionMd5": "572fe6b3095250d25aa22e376bc0e13e"
 }]

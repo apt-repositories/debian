@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "librust-tree-sitter-config-dev",
-	"source": "rust-tree-sitter-config (0.19.0-3)",
-	"version": "0.19.0-3+b1",
+	"source": "tree-sitter",
+	"version": "0.22.6-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-anyhow-1+default-dev",
-		"librust-dirs-5+default-dev | librust-dirs-4+default-dev | librust-dirs-3+default-dev",
-		"librust-serde-1+default-dev",
-		"librust-serde-json-1+default-dev",
-		"librust-serde-json-1+preserve-order-dev"
+		"librust-anyhow-1+default-dev (>= 1.0.82)",
+		"librust-dirs-5+default-dev (>= 5.0.1)",
+		"librust-serde-1+derive-dev (>= 1.0.198)",
+		"librust-serde-json-1+preserve-order-dev (>= 1.0.116)",
+		"rustc (>= 1.74.1)"
 	],
-	"installedSize": 28,
-	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "User configuration of tree-sitter's command line programs - Rust source code",
-	"filename": "pool/main/r/rust-tree-sitter-config/librust-tree-sitter-config-dev_0.19.0-3+b1_amd64.deb",
-	"size": 5440,
-	"md5": "0ff6ab8da8681ae9faa74e6b116d5de8",
-	"sha256": "b134893937369eff9c62f6dc47b3c69e4b421ab57acc1938ad6cd47a112a60a5",
-	"descriptionMd5": "39fafd1c06f6400ed3d9a7cb0e21b7ee"
+	"installedSize": 31,
+	"maintainer": "Tree-sitter Maintainers <team+tree-sitter@tracker.debian.org>",
+	"description": "user configuration of tree-sitter's CLI programs - Rust source code",
+	"homepage": "https://tree-sitter.github.io/tree-sitter/",
+	"filename": "pool/main/t/tree-sitter/librust-tree-sitter-config-dev_0.22.6-4_amd64.deb",
+	"size": 10940,
+	"md5": "b55121a26f51103bfd143e89c75de990",
+	"sha256": "4e2721a2c1afe02d6c7fba88fc409d8e604ada317d421b9915f1b0e61527a910",
+	"descriptionMd5": "c8b1e22eeb5faf49c761c67e9025196c"
 }]
