@@ -6,25 +6,27 @@
 	],
 	"package": "python3-pmix",
 	"source": "pmix",
-	"version": "5.0.6-3",
+	"version": "5.0.6-5",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"python3",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3:any",
 		"libc6 (>= 2.14)",
-		"libpmix2t64 (= 5.0.6-3)"
+		"libpmix2t64 (= 5.0.6-5)"
 	],
 	"recommends": [
 		"libpmix-dev"
 	],
-	"installedSize": 1340,
+	"installedSize": 1841,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Process Management Interface (Exascale) library - Python wrapper",
 	"homepage": "https://github.com/pmix/pmix",
-	"filename": "pool/main/p/pmix/python3-pmix_5.0.6-3_amd64.deb",
-	"size": 360272,
-	"md5": "38cf383fde570d47404a991cd8c0fb99",
-	"sha256": "87d7a62f053db0242fab33ff4b438d6425652179c4ff82df6284ff57810dcd35",
+	"filename": "pool/main/p/pmix/python3-pmix_5.0.6-5_amd64.deb",
+	"size": 314476,
+	"md5": "899a9686cb59d5df78cd66e7b19cbe0c",
+	"sha256": "a45f93ae790290af777b16b11b48aa0c445257bb8947dbeb3861a8545d1b7028",
 	"descriptionMd5": "18bdffb37642e6489d4ebfc74cf3d64d"
 }
