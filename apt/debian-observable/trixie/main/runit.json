@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "runit",
-	"version": "2.1.2-61",
+	"version": "2.2.0-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -30,13 +30,16 @@
 		"runit-init (<< 2.1.2-60~)",
 		"runit-run (<= 2.1.2-59)"
 	],
-	"installedSize": 562,
+	"conflicts": [
+		"daemontools-run"
+	],
+	"installedSize": 564,
 	"maintainer": "Lorenzo Puliti <plorenzo@disroot.org>",
 	"description": "system-wide service supervision",
 	"homepage": "http://smarden.org/runit/",
-	"filename": "pool/main/r/runit/runit_2.1.2-61_amd64.deb",
-	"size": 140564,
-	"md5": "9a27118c017424c3c723af0c44a5ee24",
-	"sha256": "74eb8a28fd25ba9ef93630e93142f3008c080935d7262b32405d471db5c23471",
+	"filename": "pool/main/r/runit/runit_2.2.0-1_amd64.deb",
+	"size": 141944,
+	"md5": "9222b732d870c2cc550f3b9dd2e661ef",
+	"sha256": "5dfe8da6140c3182848610a699a4f06fe30c00423fbe3a14b5bc5e07007c6630",
 	"descriptionMd5": "eb15553874e0d9d776a0d1b31885eca3"
 }]
