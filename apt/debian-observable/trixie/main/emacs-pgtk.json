@@ -6,13 +6,13 @@
 	],
 	"package": "emacs-pgtk",
 	"source": "emacs",
-	"version": "1:30.1+1-3",
+	"version": "1:30.1+1-4",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"emacs-bin-common (= 1:30.1+1-3)",
-		"emacs-common (= 1:30.1+1-3)",
+		"emacs-bin-common (= 1:30.1+1-4)",
+		"emacs-common (= 1:30.1+1-4)",
 		"dconf-gsettings-backend | gsettings-backend",
 		"libacl1 (>= 2.2.23)",
 		"libasound2t64 (>= 1.0.16)",
@@ -63,6 +63,7 @@
 		"emacs-nox"
 	],
 	"breaks": [
+		"dh-elpa-helper (<< 2.1.7)",
 		"emacs-bin-common (<< 1:29.2)",
 		"emacs-common (<< 1:29.3+1-3~)"
 	],
@@ -75,9 +76,9 @@
 	"maintainer": "Rob Browning <rlb@defaultvalue.org>",
 	"description": "GNU Emacs editor (with GTK+ Wayland GUI support)",
 	"homepage": "https://www.gnu.org/software/emacs/",
-	"filename": "pool/main/e/emacs/emacs-pgtk_30.1+1-3_amd64.deb",
-	"size": 7624452,
-	"md5": "c0c8fc584605383fa49e3b5f9ef3595e",
-	"sha256": "ec3ece2f0a015b4e98b25b1e2cc906ec3ff8b5714b268ea523dfcd76ca0d2b21",
+	"filename": "pool/main/e/emacs/emacs-pgtk_30.1+1-4_amd64.deb",
+	"size": 7627112,
+	"md5": "58651185c1d5c183387710a9ac58a96f",
+	"sha256": "f9cf0314338b78cb3da5bb4aaa126868f554d645b9299c4e60964fd34dfbaf97",
 	"descriptionMd5": "5514dad69844cdf5a6d45a09487b50ea"
 }]
