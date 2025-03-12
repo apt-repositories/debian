@@ -5,21 +5,33 @@
 		"Size"
 	],
 	"package": "libc6-dev-ppc64-powerpc-cross",
-	"source": "cross-toolchain-base-ports (70)",
-	"version": "2.40-4cross1",
+	"source": "cross-toolchain-base-ports (70+nmu1)",
+	"version": "2.41-4cross1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libc6-ppc64-powerpc-cross (= 2.40-4cross1)",
-		"libc6-dev-powerpc-cross (= 2.40-4cross1)"
+		"libc6-ppc64-powerpc-cross (= 2.41-4cross1)",
+		"libc6-dev-powerpc-cross (= 2.41-4cross1)"
+	],
+	"conflicts": [
+		"libc6-dev-amd64-powerpc-cross",
+		"libc6-dev-i386-powerpc-cross",
+		"libc6-dev-mips32-powerpc-cross",
+		"libc6-dev-mips64-powerpc-cross",
+		"libc6-dev-mipsn32-powerpc-cross",
+		"libc6-dev-powerpc-powerpc-cross",
+		"libc6-dev-s390-powerpc-cross",
+		"libc6-dev-sparc-powerpc-cross",
+		"libc6-dev-sparc64-powerpc-cross",
+		"libc6-dev-x32-powerpc-cross"
 	],
 	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
 	"description": "GNU C Library: 64bit Development Libraries for PowerPC64 (for cross-compiling)",
-	"builtUsing": "binutils (= 2.43.50.20241230-1), linux (= 6.12.6-1), gcc-14 (= 14.2.0-12), glibc (= 2.40-4)",
-	"filename": "pool/main/c/cross-toolchain-base-ports/libc6-dev-ppc64-powerpc-cross_2.40-4cross1_all.deb",
-	"size": 1266892,
-	"md5": "8b6a38105a6721a80facb51c1ac87104",
-	"sha256": "8570590d13aab85cf26e496e945aa8f5c9d66b51c0d6175651f79e9aaabd17df",
+	"builtUsing": "binutils (= 2.44-3), linux (= 6.12.17-1), gcc-14 (= 14.2.0-17), glibc (= 2.41-4)",
+	"filename": "pool/main/c/cross-toolchain-base-ports/libc6-dev-ppc64-powerpc-cross_2.41-4cross1_all.deb",
+	"size": 1296864,
+	"md5": "ae4a6b458e4ba68dcc40ff6798a07bae",
+	"sha256": "2fe2e68422bf8ecef879e54e169c3ccc524fdb137834cc6a5eedba6ca95a03da",
 	"descriptionMd5": "40830d53ae7d4f878756116065b1f9e5"
 }]

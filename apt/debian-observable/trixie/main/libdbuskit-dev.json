@@ -5,27 +5,27 @@
 		"Size"
 	],
 	"package": "libdbuskit-dev",
-	"source": "dbuskit (0.1.1-6)",
-	"version": "0.1.1-6+b1",
+	"source": "dbuskit",
+	"version": "0.1.1-8",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdbuskit0 (= 0.1.1-6+b1)",
+		"libdbuskit0 (= 0.1.1-8)",
 		"libgnustep-base-dev",
-		"gnustep-layout-multiarch",
-		"gnustep-base-runtime (>= 1.31.0)",
-		"libc6 (>= 2.34)",
-		"libgnustep-base1.31 (>= 1.31.0)",
-		"libobjc4 (>= 4.2.1)"
+		"gnustep-layout-multiarch"
 	],
-	"installedSize": 623,
+	"recommends": [
+		"dbuskit-dev-tools",
+		"dbuskit-doc"
+	],
+	"installedSize": 77,
 	"maintainer": "Debian GNUstep maintainers <pkg-gnustep-maintainers@lists.alioth.debian.org>",
 	"description": "GNUstep framework that interfaces with D-Bus (development files)",
 	"homepage": "http://gnustep.org",
-	"filename": "pool/main/d/dbuskit/libdbuskit-dev_0.1.1-6+b1_amd64.deb",
-	"size": 316944,
-	"md5": "4610cc8a72e2f09d535a47fdd3802b8f",
-	"sha256": "3f253454d6090d44c4cf066c2995abe010d604c3b5ef06aa342f4221620fdff9",
-	"descriptionMd5": "834af2b0acf5a9df066faf489329da09"
+	"filename": "pool/main/d/dbuskit/libdbuskit-dev_0.1.1-8_amd64.deb",
+	"size": 23916,
+	"md5": "f8cd930112ad68b9c5f75dbb30871c23",
+	"sha256": "92679418f07bfef11cbb0395fd18d4ee22af284589ee3317309ae4959aff07d7",
+	"descriptionMd5": "4b277593c64df7a7b98f2e96eb3a4884"
 }]
