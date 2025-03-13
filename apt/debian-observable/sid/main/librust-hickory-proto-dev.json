@@ -6,7 +6,7 @@
 	],
 	"package": "librust-hickory-proto-dev",
 	"source": "rust-hickory-proto",
-	"version": "0.24.2-1",
+	"version": "0.24.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -46,7 +46,7 @@
 		"librust-rustls-0.23+ring-dev",
 		"librust-rustls-0.23+std-dev",
 		"librust-rustls-0.23+tls12-dev",
-		"librust-rustls-native-certs-0.6+default-dev (>= 0.6.3-~~)",
+		"librust-rustls-native-certs-0.6+default-dev (>= 0.6.3-4.1)",
 		"librust-rustls-pemfile-2+default-dev",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
@@ -70,13 +70,16 @@
 		"librust-url-2+serde-dev (>= 2.4.0-~~)",
 		"librust-wasm-bindgen-0.2+default-dev (>= 0.2.58-~~)"
 	],
-	"installedSize": 1958,
+	"breaks": [
+		"librust-hickory-resolver-dev (<< 0.24.4)"
+	],
+	"installedSize": 1953,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Hickory DNS is a safe and secure DNS library - Rust source code",
 	"homepage": "https://hickory-dns.org/",
-	"filename": "pool/main/r/rust-hickory-proto/librust-hickory-proto-dev_0.24.2-1_amd64.deb",
-	"size": 274496,
-	"md5": "7883674516e1a9516be53b4aabe2943d",
-	"sha256": "0e810fd0c1595e3dceb1970839c7703052803c1ab7dc97559efdc582ac091391",
+	"filename": "pool/main/r/rust-hickory-proto/librust-hickory-proto-dev_0.24.3-1_amd64.deb",
+	"size": 273820,
+	"md5": "abe73be736ec66e6aefa088729cee7d4",
+	"sha256": "2e10651e092dc502f327b5e4abc69f334216e2cc244c882709b8cc0efe5d202a",
 	"descriptionMd5": "0627ec8919bab75e7c1ffdfcda293bb5"
 }]
