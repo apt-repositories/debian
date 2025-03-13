@@ -5,25 +5,30 @@
 		"Size"
 	],
 	"package": "libortp16",
-	"source": "ortp (1:5.2.0-2)",
-	"version": "1:5.2.0-2+b2",
+	"source": "ortp",
+	"version": "1:5.3.105-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libbctoolbox1t64 (>= 5.2.0-1)",
-		"libbctoolbox1t64 (<< 5.3.0-1)",
-		"libc6 (>= 2.34)",
+		"libbctoolbox2 (>= 5.3.104)",
+		"libbctoolbox2 (<< 5.4.0)",
+		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 285,
+	"breaks": [
+		"liblinphone11",
+		"libmediastreamer13",
+		"mediastreamer2-plugin-openh264 (<= 5.2.0-2)"
+	],
+	"installedSize": 326,
 	"maintainer": "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>",
 	"description": "Real-time Transport Protocol (RTP) stack",
 	"homepage": "https://www.linphone.org/technical-corner/ortp",
-	"filename": "pool/main/o/ortp/libortp16_5.2.0-2+b2_amd64.deb",
-	"size": 94536,
-	"md5": "eb99b38293eca4939b75482089fb17df",
-	"sha256": "4cabc288d9bc5e0c46e92d1e51310e171c14a5b4967929cede742f25028c4882",
+	"filename": "pool/main/o/ortp/libortp16_5.3.105-1_amd64.deb",
+	"size": 107404,
+	"md5": "c47c4c5377fc42a1eb96eb5bc26f7d1a",
+	"sha256": "9fe0374bdf6f54f679eca72c2b4ffbbc49ff6c3d0cf67e8ad5bdce9cb8874946",
 	"descriptionMd5": "13c152962710d40dde2dc6114071765c"
 }

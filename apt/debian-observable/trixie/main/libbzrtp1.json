@@ -5,26 +5,29 @@
 		"Size"
 	],
 	"package": "libbzrtp1",
-	"source": "bzrtp (5.2.0-2)",
-	"version": "5.2.0-2+b4",
+	"source": "bzrtp",
+	"version": "5.3.105-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libbctoolbox1t64 (>= 5.2.0-1)",
-		"libbctoolbox1t64 (<< 5.3.0-1)",
+		"libbctoolbox2 (>= 5.3.104)",
+		"libbctoolbox2 (<< 5.4.0)",
 		"libc6 (>= 2.14)",
 		"libsqlite3-0 (>= 3.5.9)",
-		"libstdc++6 (>= 13.1)",
-		"libxml2 (>= 2.7.4)"
+		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 129,
+	"breaks": [
+		"libmediastreamer12 (<< 1:5.3.104~)",
+		"libmediastreamer13t64 (<< 1:5.3.104~)"
+	],
+	"installedSize": 125,
 	"maintainer": "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>",
 	"description": "Library for the ZRTP key exchange protocol",
 	"homepage": "https://www.linphone.org/",
-	"filename": "pool/main/b/bzrtp/libbzrtp1_5.2.0-2+b4_amd64.deb",
-	"size": 42724,
-	"md5": "5c3386f103fe52bba879be848a03d611",
-	"sha256": "8c9d014b9f3a696d0f7e7af9f89c8316c5a7f4f0e2d6867afa95c1c087e3bf10",
+	"filename": "pool/main/b/bzrtp/libbzrtp1_5.3.105-1_amd64.deb",
+	"size": 41148,
+	"md5": "535491d3327bff8a72ad4c00f5c183ab",
+	"sha256": "f2f68d905de5370ae9024ef80a749a328cec4356d52ddbd6db2fe7337c660ad3",
 	"descriptionMd5": "ab28e420d09bff11ed8077d395b6c8f0"
 }]
