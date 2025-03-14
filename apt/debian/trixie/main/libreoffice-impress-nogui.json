@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-impress-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.5-2) | libreoffice-core (= 4:24.8.5-2)",
-		"libreoffice-draw-nogui (= 4:24.8.5-2) | libreoffice-draw (= 4:24.8.5-2)",
-		"libreoffice-uiconfig-impress (= 4:24.8.5-2)",
-		"ucf",
+		"libreoffice-core-nogui (= 4:25.2.1-3) | libreoffice-core (= 4:25.2.1-3)",
+		"libreoffice-draw-nogui (= 4:25.2.1-3) | libreoffice-draw (= 4:25.2.1-3)",
+		"libreoffice-uiconfig-impress (= 4:25.2.1-3)",
 		"libbox2d2 (>= 2.4.1)",
 		"libc6 (>= 2.38)",
 		"libetonyek-0.1-1",
@@ -26,10 +24,14 @@
 		"libstaroffice-0.0-0",
 		"libstdc++6 (>= 13.1)",
 		"libuno-cppu3t64 (>= 4.4.0~alpha)",
-		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
 		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"suggests": [
 		"bluez"
@@ -45,13 +47,13 @@
 		"libreoffice-impress",
 		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
 	],
-	"installedSize": 2290,
+	"installedSize": 2233,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- presentation (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-impress-nogui_24.8.5-2_amd64.deb",
-	"size": 610940,
-	"md5": "105528210f96479a061f691c45359ac9",
-	"sha256": "03ced7d11bf8a03308d2481338d74eb617bf7cd06a1b76ce3fa739251bb8773e",
+	"filename": "pool/main/libr/libreoffice/libreoffice-impress-nogui_25.2.1-3_amd64.deb",
+	"size": 621476,
+	"md5": "e75567bad5718a939f78f7d335b3d723",
+	"sha256": "43063c39c2978886f5e8daea3ce48910669ac67dbc3d4134ce48b10d1243ee6b",
 	"descriptionMd5": "10ce2c27d434135cd9308937c1bdb31c"
 }

@@ -6,17 +6,19 @@
 	],
 	"package": "ruby-railties",
 	"source": "rails",
-	"version": "2:6.1.7.3+dfsg-13",
+	"version": "2:7.2.2.1+dfsg-2",
 	"section": "ruby",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"rake",
 		"ruby:any (>= 1:2.5.0)",
-		"ruby-actionpack (= 2:6.1.7.3+dfsg-13)",
-		"ruby-activesupport (= 2:6.1.7.3+dfsg-13)",
+		"ruby-actionpack (= 2:7.2.2.1+dfsg-2)",
+		"ruby-activesupport (= 2:7.2.2.1+dfsg-2)",
 		"ruby-method-source",
-		"ruby-thor (>= 1.0~)"
+		"ruby-rackup",
+		"ruby-thor (>= 1.0~)",
+		"ruby-zeitwerk (>= 2.6~)"
 	],
 	"breaks": [
 		"ruby-browser (<< 4.2~)",
@@ -26,13 +28,13 @@
 		"ruby-sidekiq (<< 6.0~)",
 		"ruby-web-console (<< 4.1~)"
 	],
-	"installedSize": 1318,
+	"installedSize": 1024,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "tools for creating, working with, and running Rails applications",
-	"homepage": "https://rubyonrails.org/",
-	"filename": "pool/main/r/rails/ruby-railties_6.1.7.3+dfsg-13_all.deb",
-	"size": 453716,
-	"md5": "829feebc293d10d7ac899a49f88dc71f",
-	"sha256": "ed12bcb9009c4f464aa03b942f08e2ac3a45ba111e24131fa0db22921a745acb",
+	"homepage": "https://rubyonrails.org",
+	"filename": "pool/main/r/rails/ruby-railties_7.2.2.1+dfsg-2_all.deb",
+	"size": 171092,
+	"md5": "3f0f1f35db71596012c9b662de971938",
+	"sha256": "40609e7e01b01b495a221ea3504b0014e8777ee5fd454d393de4801a72d8128d",
 	"descriptionMd5": "01d43872be0201ffeb74c2650abcbc28"
 }

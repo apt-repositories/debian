@@ -6,13 +6,13 @@
 	],
 	"package": "dpkg-dev",
 	"source": "dpkg",
-	"version": "1.22.15",
+	"version": "1.22.18",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"perl:any",
-		"libdpkg-perl (= 1.22.15)",
+		"libdpkg-perl (= 1.22.18)",
 		"tar (>= 1.28-1)",
 		"bzip2",
 		"xz-utils (>= 5.4.0)",
@@ -24,8 +24,8 @@
 		"build-essential",
 		"gcc | c-compiler",
 		"fakeroot",
-		"gnupg | sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq",
-		"gpgv | sq | sqop | rsop | gosop | pgpainless-cli | gpgv-sq",
+		"sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq | gnupg",
+		"sq | sqopv | rsopv | sopv | gosop | pgpainless-cli | gpgv-sq | gpgv",
 		"libalgorithm-merge-perl"
 	],
 	"suggests": [
@@ -40,13 +40,13 @@
 		"sq (<< 0.40.0~)",
 		"sqop (<< 0.27.2~)"
 	],
-	"installedSize": 1724,
+	"installedSize": 1725,
 	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
 	"description": "Debian package development tools",
 	"homepage": "https://wiki.debian.org/Teams/Dpkg",
-	"filename": "pool/main/d/dpkg/dpkg-dev_1.22.15_all.deb",
-	"size": 1336720,
-	"md5": "4e2236b615e812fe8881d19574388fe4",
-	"sha256": "9ed603f1c79c284b9abc86a6f615f86d1a41ee6d1670ab7311d08df92dcd205e",
+	"filename": "pool/main/d/dpkg/dpkg-dev_1.22.18_all.deb",
+	"size": 1338140,
+	"md5": "6fd91a25870285d6b38675f92ba075cc",
+	"sha256": "835f05f4399685fd15da860c4c64042be74741ef4a86ccf621f7057c9569408c",
 	"descriptionMd5": "2eaf4b4a1cef9584869950f3a52106fc"
 }

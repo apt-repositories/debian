@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-math-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"fonts-opensymbol (>= 2:102.11)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.5-2) | libreoffice-core (= 4:24.8.5-2)",
-		"libreoffice-uiconfig-math (= 4:24.8.5-2)",
-		"ucf",
+		"libreoffice-core-nogui (= 4:25.2.1-3) | libreoffice-core (= 4:25.2.1-3)",
+		"libreoffice-uiconfig-math (= 4:25.2.1-3)",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libicu72 (>= 72.1~rc-1~)",
@@ -26,6 +24,10 @@
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-math"
@@ -34,13 +36,13 @@
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-math"
 	],
-	"installedSize": 1889,
+	"installedSize": 1888,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- equation editor (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-math-nogui_24.8.5-2_amd64.deb",
-	"size": 521772,
-	"md5": "aa32d3b53a08d6a8b7047b06df388821",
-	"sha256": "87f158d64095fe6ff2f4dc7e3a5f75e94a9266712211058768e4190124879692",
+	"filename": "pool/main/libr/libreoffice/libreoffice-math-nogui_25.2.1-3_amd64.deb",
+	"size": 526396,
+	"md5": "34995101ed6985a570f2c000b45143a4",
+	"sha256": "05fbfa3e22acc885d4fc1b1b86c147508520495e35280c6c026ff3c7145054fe",
 	"descriptionMd5": "e104f51d572d2ee302d3c3550e97e6ff"
 }]

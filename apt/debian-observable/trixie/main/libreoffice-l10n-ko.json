@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ko",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ko | myspell-dictionary-ko | libreoffice-spellcheck-ko",
@@ -25,13 +27,13 @@
 		"libreoffice-help-ko",
 		"mythes-ko"
 	],
-	"installedSize": 3630,
+	"installedSize": 3236,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Korean language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ko_24.8.5-2_all.deb",
-	"size": 687024,
-	"md5": "f672ecc5c65d30f6018c578813ac4c9d",
-	"sha256": "6e40fa60b1e8483d0b47ade76c35f2018758bf5fbbd57f81ed921844335efeef",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ko_25.2.1-3_all.deb",
+	"size": 680884,
+	"md5": "055f4fab4d2f3a74a4d85959f161ceb6",
+	"sha256": "6459aad61e0687aeb8c7a63b1dd78e17ac5ccdb94484339eaee887ed5f70b820",
 	"descriptionMd5": "959045aad72889d15ef474977f2b76c4"
 }]

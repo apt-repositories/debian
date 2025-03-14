@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "miniupnpd-nftables",
+	"source": "miniupnpd",
+	"version": "2.3.7-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"miniupnpd",
+		"libc6 (>= 2.38)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnftnl11 (>= 1.1.2)"
+	],
+	"replaces": [
+		"miniupnpd (<< 2.3.3)"
+	],
+	"breaks": [
+		"miniupnpd (<< 2.3.3)"
+	],
+	"conflicts": [
+		"miniupnpd-iptables"
+	],
+	"installedSize": 252,
+	"maintainer": "Thomas Goirand <zigo@debian.org>",
+	"description": "Lightweight UPnP IGD & PCP/NAT-PMP daemon - nftables backend",
+	"homepage": "https://miniupnp.tuxfamily.org/",
+	"filename": "pool/main/m/miniupnpd/miniupnpd-nftables_2.3.7-2_amd64.deb",
+	"size": 104424,
+	"md5": "80a0ba4e6842bfcdee2491313784d00b",
+	"sha256": "1aea8b365dcb145bca5928c80ffe986db2602b73434bd5c25bfa6818c877fdd5",
+	"descriptionMd5": "1886dac37b4aea1b15d0f801e92f5d72"
+}]

@@ -5,30 +5,33 @@
 		"Size"
 	],
 	"package": "gnome-usage",
-	"version": "46.0-1",
+	"version": "48~rc-1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"vnstat",
 		"dconf-gsettings-backend | gsettings-backend",
-		"libadwaita-1-0 (>= 1.5)",
+		"libadwaita-1-0 (>= 1.6)",
 		"libc6 (>= 2.34)",
 		"libcairo2 (>= 1.2.4)",
 		"libgee-0.8-2 (>= 0.8.3)",
-		"libglib2.0-0t64 (>= 2.74.0)",
+		"libglib2.0-0t64 (>= 2.80.0)",
 		"libgraphene-1.0-0 (>= 1.5.4)",
 		"libgtk-4-1 (>= 4.12.0)",
 		"libgtop-2.0-11 (>= 2.34.0)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
+		"libnm0 (>= 1.44.0)",
 		"libpango-1.0-0 (>= 1.14.0)",
-		"libtracker-sparql-3.0-0 (>= 3.1.1)"
+		"libtinysparql-3.0-0 (>= 3.8.1)"
 	],
-	"installedSize": 728,
+	"installedSize": 820,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "simple system monitor app for GNOME",
 	"homepage": "https://wiki.gnome.org/Apps/Usage",
-	"filename": "pool/main/g/gnome-usage/gnome-usage_46.0-1_amd64.deb",
-	"size": 148048,
-	"md5": "4349faebc51a5aecb9b5085ebd548d70",
-	"sha256": "4e964cb6925997e2d59b08756dd28f4ac2f40321aed4ac1c031559b986a05320",
-	"descriptionMd5": "5dd651bdb1c960d799efa56ba7416e73"
+	"filename": "pool/main/g/gnome-usage/gnome-usage_48~rc-1_amd64.deb",
+	"size": 166768,
+	"md5": "e47e329bf600fa4bcef2fbc75fd76134",
+	"sha256": "6beaada4d8ded61a5b860616341c59d5cf7a4d7c5b3e2e7f512a0178134bfd0f",
+	"descriptionMd5": "26c89b55692cfb38eff700ad618b1016"
 }

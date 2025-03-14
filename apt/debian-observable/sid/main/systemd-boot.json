@@ -6,16 +6,16 @@
 	],
 	"package": "systemd-boot",
 	"source": "systemd",
-	"version": "257.4-1",
+	"version": "257.4-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libssl3t64 (>= 3.0.0)",
-		"libsystemd-shared (= 257.4-1)",
-		"systemd (= 257.4-1)",
-		"systemd-boot-efi-signed (>= 257.4-1) | systemd-boot-efi (= 257.4-1)"
+		"libsystemd-shared (= 257.4-3)",
+		"systemd (= 257.4-3)",
+		"systemd-boot-tools (= 257.4-3)",
+		"systemd-boot-efi-signed (>= 257.4-3) | systemd-boot-efi (= 257.4-3)"
 	],
 	"recommends": [
 		"efibootmgr",
@@ -28,13 +28,13 @@
 		"systemd (<< 256-2~)",
 		"systemd-boot-efi (<< 256-2~)"
 	],
-	"installedSize": 326,
+	"installedSize": 191,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "simple UEFI boot manager - tools and services",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-boot_257.4-1_amd64.deb",
-	"size": 144160,
-	"md5": "e608af66b8b16fc4b432c0815aafabfe",
-	"sha256": "47d975d7ae354b3efade36e03c8111a24d6f6531286b62574affad3a2c38b611",
-	"descriptionMd5": "5ba77b2b4bc86eae081746facb23c909"
+	"filename": "pool/main/s/systemd/systemd-boot_257.4-3_amd64.deb",
+	"size": 95436,
+	"md5": "f26708da4f1ce8cdd0a8fe06db6e0857",
+	"sha256": "8f547b6fdf4718211b05ee1a6f201e12437823c18d5e99540bb69d12fadbcac4",
+	"descriptionMd5": "30424db10b26f26bbbfb41834c04a0ee"
 }]

@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "miniupnpd-iptables",
+	"source": "miniupnpd",
+	"version": "2.3.7-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"miniupnpd",
+		"iptables",
+		"libc6 (>= 2.38)",
+		"libip4tc2 (>= 1.8.3)",
+		"libip6tc2 (>= 1.8.3)"
+	],
+	"replaces": [
+		"miniupnpd (<< 2.3.3)"
+	],
+	"breaks": [
+		"miniupnpd (<< 2.3.3)"
+	],
+	"conflicts": [
+		"miniupnpd-nftables"
+	],
+	"installedSize": 244,
+	"maintainer": "Thomas Goirand <zigo@debian.org>",
+	"description": "Lightweight UPnP IGD & PCP/NAT-PMP daemon - legacy iptables backend",
+	"homepage": "https://miniupnp.tuxfamily.org/",
+	"filename": "pool/main/m/miniupnpd/miniupnpd-iptables_2.3.7-2_amd64.deb",
+	"size": 101328,
+	"md5": "f2f159a96fbbd7617a373ccf70e267bc",
+	"sha256": "d5881161b3a4ebb4b0cfbd2970e2a37327a834238c04afd83fc5c1fc9132ae53",
+	"descriptionMd5": "cd512f1bb75094df8ecd6b5d936436d2"
+}

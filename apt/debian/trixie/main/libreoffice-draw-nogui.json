@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-draw-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.5-2) | libreoffice-core (= 4:24.8.5-2)",
-		"libreoffice-uiconfig-draw (= 4:24.8.5-2)",
-		"libreoffice-uiconfig-impress (= 4:24.8.5-2)",
-		"ucf",
+		"libreoffice-core-nogui (= 4:25.2.1-3) | libreoffice-core (= 4:25.2.1-3)",
+		"libreoffice-uiconfig-draw (= 4:25.2.1-3)",
+		"libreoffice-uiconfig-impress (= 4:25.2.1-3)",
 		"libavahi-client3 (>= 0.6.16)",
 		"libavahi-common3 (>= 0.6.16)",
 		"libc6 (>= 2.35)",
@@ -40,6 +38,10 @@
 		"libzmf-0.0-0",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-draw",
@@ -53,13 +55,13 @@
 	"conflicts": [
 		"libreoffice-draw"
 	],
-	"installedSize": 9339,
+	"installedSize": 9401,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- drawing (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-draw-nogui_24.8.5-2_amd64.deb",
-	"size": 2580888,
-	"md5": "ca59cdf396bdb45144549ca1e58d9933",
-	"sha256": "5e7c00bcff0f2a52f9b1fa7d96cf1ce9daf922b960c302a6e507cd580ca73b75",
+	"filename": "pool/main/libr/libreoffice/libreoffice-draw-nogui_25.2.1-3_amd64.deb",
+	"size": 2612588,
+	"md5": "13c3e5173e93f03cc38becc683e991b3",
+	"sha256": "2cd7684d3ed5d0ad561e36d425264ca0409e2bf71d82f0ad01e4f3117c4afe6a",
 	"descriptionMd5": "c4d7d9707b31ef9344d70e006f7a27af"
 }

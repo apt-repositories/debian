@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "plasma-browser-integration",
-	"version": "6.3.0-1",
+	"version": "6.3.2-2",
 	"section": "kde",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -27,21 +27,27 @@
 		"libkf6service-bin",
 		"libkf6service6 (>= 6.8.0~)",
 		"libkf6statusnotifieritem6 (>= 6.8.0~)",
-		"libplasmaactivities6 (>= 6.3.0~)",
-		"libqt6core6t64 (>= 6.7.2)",
-		"libqt6dbus6 (>= 6.6.0+dfsg~)",
+		"libplasmaactivities6 (>= 6.3.2~)",
+		"libqt6core6t64 (>= 6.8.2)",
+		"libqt6dbus6 (>= 6.8.2)",
 		"libqt6gui6 (>= 6.6.0+dfsg~)",
 		"libqt6widgets6 (>= 6.6.0+dfsg~)",
 		"libstdc++6 (>= 9)",
-		"libtaskmanager6 (>= 4:6.3.0~)"
+		"libtaskmanager6 (>= 4:6.3.2~)"
 	],
-	"installedSize": 797,
+	"replaces": [
+		"webext-plasma-browser-integration (<< 6.3.2-2~)"
+	],
+	"breaks": [
+		"webext-plasma-browser-integration (<< 6.3.2-2~)"
+	],
+	"installedSize": 807,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
-	"description": "Chromium, Google Chrome, Firefox integration for Plasma",
+	"description": "Chromium, Google Chrome, Firefox integration for Plasma (backend)",
 	"homepage": "https://invent.kde.org/plasma/plasma-browser-integration",
-	"filename": "pool/main/p/plasma-browser-integration/plasma-browser-integration_6.3.0-1_amd64.deb",
-	"size": 166496,
-	"md5": "58edbc204b8403a1c47ea4ab4d111cad",
-	"sha256": "6c257d3c9811e2a4eb2a0db14d359b5d86c60234f3f3aebca13ac4d620e51990",
-	"descriptionMd5": "53b2d05e47bc1e0d2ce7dd982411bb92"
+	"filename": "pool/main/p/plasma-browser-integration/plasma-browser-integration_6.3.2-2_amd64.deb",
+	"size": 169624,
+	"md5": "fa993faa1319d1e34af0d959bc1c562c",
+	"sha256": "3ca6bc8e5c213f308679e075bd56d930461a21b8492e9bfe7a8886570df23a50",
+	"descriptionMd5": "dae14b8f93eff60e756fd8cf801f167b"
 }

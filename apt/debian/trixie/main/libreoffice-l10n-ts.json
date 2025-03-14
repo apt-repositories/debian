@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ts",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ts | myspell-dictionary-ts | libreoffice-spellcheck-ts",
@@ -25,13 +27,13 @@
 		"libreoffice-help-ts",
 		"mythes-ts"
 	],
-	"installedSize": 1681,
+	"installedSize": 1398,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Tsonga language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ts_24.8.5-2_all.deb",
-	"size": 240448,
-	"md5": "bf0c02c20b0945ea50a67d7684ee7451",
-	"sha256": "37f578cd7ad4473502ec60aafb0b8ad19ab7a3ba0713b7f66ac84910f0bd0810",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ts_25.2.1-3_all.deb",
+	"size": 238504,
+	"md5": "ef680a42f7523ae494b85a0efb20e53b",
+	"sha256": "14dcc72e2e77fa924ce7284b9be1582cbfe1c5c39eeaa2669488ebd93818cfa8",
 	"descriptionMd5": "29ca3694d6ba2d256e546fdcdc5b65bb"
 }

@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ast",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ast | myspell-dictionary-ast | libreoffice-spellcheck-ast",
@@ -25,13 +27,13 @@
 		"libreoffice-help-ast",
 		"mythes-ast"
 	],
-	"installedSize": 2842,
+	"installedSize": 2562,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Asturian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ast_24.8.5-2_all.deb",
-	"size": 508520,
-	"md5": "d49f1127e22294330433e52b06f0e25f",
-	"sha256": "acee5985e414ff2ad89c0c85fcd4e1228c11f5f7944044e549f7ce8a65606e3f",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ast_25.2.1-3_all.deb",
+	"size": 507424,
+	"md5": "5c5c5a94e6cd793c667c361c52234841",
+	"sha256": "c7c6f81894e214cb7c671f95b581d1018200f99785a945561a9b18d1ad91552f",
 	"descriptionMd5": "e881b8766739626fc2bfe3be78a504b6"
 }

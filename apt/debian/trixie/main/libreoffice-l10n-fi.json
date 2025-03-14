@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-fi",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-fi | myspell-dictionary-fi | libreoffice-spellcheck-fi",
@@ -25,13 +27,13 @@
 		"libreoffice-help-fi",
 		"mythes-fi"
 	],
-	"installedSize": 3755,
+	"installedSize": 3459,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Finnish language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-fi_24.8.5-2_all.deb",
-	"size": 701052,
-	"md5": "d0d1d1a2fa1097019873e22d7842553a",
-	"sha256": "d5a96405ef866261a15a09efce1c5c4a7cf76d287cfeb1a37b68c827d7eff7c0",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-fi_25.2.1-3_all.deb",
+	"size": 697892,
+	"md5": "14e2fde89afffc2070972cc68218a1d3",
+	"sha256": "cdef4e8c0777f9ca3801dfacddf4617ccf709838ca3810b60d223d7c3139c43a",
 	"descriptionMd5": "3706653bf050d85e2b88029ab6b8043d"
 }
