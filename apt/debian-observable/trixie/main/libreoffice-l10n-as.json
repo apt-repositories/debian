@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-as",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-as | myspell-dictionary-as | libreoffice-spellcheck-as",
@@ -25,13 +27,13 @@
 		"libreoffice-help-as",
 		"mythes-as"
 	],
-	"installedSize": 2887,
+	"installedSize": 2448,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Assamese language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-as_24.8.5-2_all.deb",
-	"size": 396128,
-	"md5": "d2021083af56e899704a7d67d04f7210",
-	"sha256": "f4a659fee34805028604fe311b749ccadd546b719d3a5d29a2c07124273a5e61",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-as_25.2.1-3_all.deb",
+	"size": 390000,
+	"md5": "35f162c6eff92dabd4dad5f09c2b85aa",
+	"sha256": "fec30ca423ad5ee5c77b7696a670bc1afc541b0866164f221b92177c3b958689",
 	"descriptionMd5": "4ac2e69fa5a27abf0c1dea94b43a4a7a"
 }]

@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-nn",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-nn | myspell-dictionary-nn | libreoffice-spellcheck-nn",
@@ -25,13 +27,13 @@
 		"libreoffice-help-nn",
 		"mythes-nn"
 	],
-	"installedSize": 4265,
+	"installedSize": 4017,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Norwegian_nynorsk language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nn_24.8.5-2_all.deb",
-	"size": 808048,
-	"md5": "682e83bf149facac4217e9bf6a80588f",
-	"sha256": "46c18ec62b39722183215e9da7238220f589bd635531838f6e935c71037550a4",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nn_25.2.1-3_all.deb",
+	"size": 814668,
+	"md5": "37cd4b48fb069b8c49dd6eb54f08d3cb",
+	"sha256": "76eb019e90d022484209d50a2ac2d16b63a5728d3fc98388f2536ae54d6f3aec",
 	"descriptionMd5": "bbdb9d7bd3b045feb8b26450f0b1e84d"
 }]

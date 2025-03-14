@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-szl",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-szl | myspell-dictionary-szl | libreoffice-spellcheck-szl",
@@ -25,13 +27,13 @@
 		"libreoffice-help-szl",
 		"mythes-szl"
 	],
-	"installedSize": 3003,
+	"installedSize": 2707,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Upper_silesian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-szl_24.8.5-2_all.deb",
-	"size": 542524,
-	"md5": "aea840c201ed1549f36cde991d00bf7f",
-	"sha256": "a333cae370382dea9e17520ed61485461d879595ac9656e34619a39b6f9a2815",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-szl_25.2.1-3_all.deb",
+	"size": 539228,
+	"md5": "f8af8f0cb9dd518a698ba81e2b95c4b6",
+	"sha256": "d3144a7ef29149bbbdc9c45da90b969124aaa6981e42b7e653b452380ab298a8",
 	"descriptionMd5": "042319a52566380faa02b485ca055ca0"
 }]

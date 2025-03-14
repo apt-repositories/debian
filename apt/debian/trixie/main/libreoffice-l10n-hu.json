@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-hu",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-hu | myspell-dictionary-hu | libreoffice-spellcheck-hu",
@@ -25,13 +27,13 @@
 		"libreoffice-help-hu",
 		"mythes-hu"
 	],
-	"installedSize": 4536,
+	"installedSize": 4186,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Hungarian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hu_24.8.5-2_all.deb",
-	"size": 896420,
-	"md5": "dc3525953f0d4b995cea038a9f1ec27b",
-	"sha256": "06a72467fcc097828d7c198ca1eed8ba18915d5cb9864627ac2c2becaaf5da1c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hu_25.2.1-3_all.deb",
+	"size": 885968,
+	"md5": "c3323a1dcd4c041cbf617170062b8dec",
+	"sha256": "f2a712abaf1f907d846e4f61bca97c4b1d9a3143b822d5702897d0bbcf67d8d3",
 	"descriptionMd5": "03faefa7ee83b9dbc4ee7a082d63744e"
 }

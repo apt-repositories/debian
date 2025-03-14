@@ -6,18 +6,20 @@
 	],
 	"package": "libreoffice-l10n-ne",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2",
+	"version": "4:25.2.1-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-deva",
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ne | myspell-dictionary-ne | libreoffice-spellcheck-ne",
@@ -26,13 +28,13 @@
 		"libreoffice-help-ne",
 		"mythes-ne"
 	],
-	"installedSize": 3143,
+	"installedSize": 2723,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Nepalese language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ne_24.8.5-2_all.deb",
-	"size": 415596,
-	"md5": "457f6f9630ec385e8cd6de89534e215f",
-	"sha256": "b2a0c2333bc8e12dacabb966249c5be0c7d680edaa300524e86970894a0bdb92",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ne_25.2.1-3_all.deb",
+	"size": 413040,
+	"md5": "1b599a87c227760f6368c988bd0ac4bd",
+	"sha256": "aff0909e638b8801ae7c90c40df6c001f8d736b8ae7665cf2075822e014ec50d",
 	"descriptionMd5": "b943bce9f69b671bef2b0962294dd15e"
 }

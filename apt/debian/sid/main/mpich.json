@@ -5,31 +5,32 @@
 		"Size"
 	],
 	"package": "mpich",
-	"version": "4.2.1-5",
+	"version": "4.3.0-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"hwloc-nox | hwloc",
-		"libmpich12 (= 4.2.1-5)",
+		"libmpich12 (= 4.3.0-2)",
 		"perl:any",
+		"libamdhip64-5 (>= 4.5.2)",
 		"libc6 (>= 2.38)",
-		"libhwloc15 (>= 2.11.2)",
+		"libhwloc15 (>= 2.12.0)",
 		"libslurm42t64 (>= 23.11)"
 	],
 	"recommends": [
-		"libmpich-dev (= 4.2.1-5)"
+		"libmpich-dev (= 4.3.0-2)"
 	],
 	"suggests": [
-		"mpich-doc (= 4.2.1-5)"
+		"mpich-doc (= 4.3.0-2)"
 	],
-	"installedSize": 1006,
+	"installedSize": 1014,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Implementation of the MPI Message Passing Interface standard",
 	"homepage": "https://www.mpich.org/",
-	"filename": "pool/main/m/mpich/mpich_4.2.1-5_amd64.deb",
-	"size": 251388,
-	"md5": "1425451db93b0e110b80f66809165afc",
-	"sha256": "d208ff8499a022762dd14a07be757769a3ac1c8e372b3c827a209a28947a855c",
+	"filename": "pool/main/m/mpich/mpich_4.3.0-2_amd64.deb",
+	"size": 254240,
+	"md5": "594c089b1bb004e6d5cb0450bf03edb9",
+	"sha256": "ba740a6482929c56508c88552627a49b5814ef3ead066e0edca3737f7ee652de",
 	"descriptionMd5": "2513720741704dd0c29b565e29b2dc8b"
 }

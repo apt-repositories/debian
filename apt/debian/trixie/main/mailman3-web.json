@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mailman3-web",
+	"source": "mailman-suite",
+	"version": "0+20240312-1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-sqlite3 | dbconfig-pgsql | dbconfig-mysql | dbconfig-no-thanks",
+		"python3",
+		"python3-django-hyperkitty",
+		"python3-django-postorius",
+		"python3-psycopg2 | python3-mysqldb",
+		"python3-whoosh",
+		"ucf",
+		"uwsgi-core",
+		"uwsgi-plugin-python3",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libapache2-mod-proxy-uwsgi | nginx"
+	],
+	"suggests": [
+		"postgresql | default-mysql-server | virtual-mysql-server"
+	],
+	"installedSize": 122,
+	"maintainer": "Debian Mailman Team <pkg-mailman-hackers@lists.alioth.debian.org>",
+	"description": "Django project integrating Mailman3 Postorius and HyperKitty",
+	"homepage": "https://gitlab.com/mailman/mailman-suite",
+	"filename": "pool/main/m/mailman-suite/mailman3-web_0+20240312-1_all.deb",
+	"size": 25928,
+	"md5": "55814bffc9f4dd8bebcca0eb192acbe2",
+	"sha256": "f2fdd1636c19be849835ca89c132107b465f3ebf4f792add910bb13e2b8acd42",
+	"descriptionMd5": "2c9dd59652cc6eb67d540ac788c9a9fe"
+}

@@ -5,22 +5,35 @@
 		"Size"
 	],
 	"package": "libc6-dev-x32-i386-cross",
-	"source": "cross-toolchain-base (73)",
-	"version": "2.40-4cross1",
+	"source": "cross-toolchain-base (73+nmu1)",
+	"version": "2.41-4cross1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libc6-x32-i386-cross (= 2.40-4cross1)",
-		"libc6-dev-amd64-i386-cross (= 2.40-4cross1)",
-		"libc6-dev-i386-cross (= 2.40-4cross1)"
+		"libc6-x32-i386-cross (= 2.41-4cross1)",
+		"libc6-dev-amd64-i386-cross (= 2.41-4cross1)",
+		"libc6-dev-i386-cross (= 2.41-4cross1)"
+	],
+	"conflicts": [
+		"libc6-dev-amd64-x32-cross",
+		"libc6-dev-i386-i386-cross",
+		"libc6-dev-mips32-i386-cross",
+		"libc6-dev-mips64-i386-cross",
+		"libc6-dev-mipsn32-i386-cross",
+		"libc6-dev-powerpc-i386-cross",
+		"libc6-dev-ppc64-i386-cross",
+		"libc6-dev-s390-i386-cross",
+		"libc6-dev-sparc-i386-cross",
+		"libc6-dev-sparc64-i386-cross",
+		"libc6-dev-x32-amd64-cross"
 	],
 	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
 	"description": "GNU C Library: X32 ABI Development Libraries for AMD64 (for cross-compiling)",
-	"builtUsing": "binutils (= 2.43.50.20241230-1), linux (= 6.12.6-1), gcc-14 (= 14.2.0-12), glibc (= 2.40-4)",
-	"filename": "pool/main/c/cross-toolchain-base/libc6-dev-x32-i386-cross_2.40-4cross1_all.deb",
-	"size": 1562788,
-	"md5": "ef0312359f04cd562a00e5aca0c2e229",
-	"sha256": "763af44df29ab952403da85d1468c70582fc106f9538cf44c156915d452aea05",
+	"builtUsing": "binutils (= 2.44-3), linux (= 6.12.17-1), gcc-14 (= 14.2.0-17), glibc (= 2.41-4)",
+	"filename": "pool/main/c/cross-toolchain-base/libc6-dev-x32-i386-cross_2.41-4cross1_all.deb",
+	"size": 1596152,
+	"md5": "79aeb1195b4ca0317cbd0e2937fc9316",
+	"sha256": "b87f8b27e8ffd329b7d438d3b0e06c37dceceb6f444126fcbd8f2c75cc74643a",
 	"descriptionMd5": "ce902e17792a1f6f55caa01d881d0b93"
 }]
