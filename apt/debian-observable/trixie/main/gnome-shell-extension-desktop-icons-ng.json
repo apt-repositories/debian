@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "gnome-shell-extension-desktop-icons-ng",
-	"version": "48.0.0-2",
+	"version": "48.0.0-3",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "all",
@@ -18,13 +18,16 @@
 		"gjs",
 		"nautilus (>= 3.38)"
 	],
-	"installedSize": 811,
+	"breaks": [
+		"apparmor (<< 4)"
+	],
+	"installedSize": 813,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "desktop icon support for GNOME Shell",
 	"homepage": "https://gitlab.com/rastersoft/desktop-icons-ng",
-	"filename": "pool/main/g/gnome-shell-extension-desktop-icons-ng/gnome-shell-extension-desktop-icons-ng_48.0.0-2_all.deb",
-	"size": 132604,
-	"md5": "87d67751e00f637cca49f8c37d99e43a",
-	"sha256": "114bdde99dedf9420c5f585abcc1393884b01244d83e8123729dc04216212deb",
+	"filename": "pool/main/g/gnome-shell-extension-desktop-icons-ng/gnome-shell-extension-desktop-icons-ng_48.0.0-3_all.deb",
+	"size": 132972,
+	"md5": "3978bb60fdb33bbc13f049e17024703a",
+	"sha256": "671a8f727b2ec6a6fbe3f495665a46a026365da0f3c9c8755abb0e3d4e3399e4",
 	"descriptionMd5": "de2d1265844a1946ab72c3b5b2921613"
 }]

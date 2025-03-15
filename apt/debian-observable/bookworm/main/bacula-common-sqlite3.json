@@ -6,6 +6,35 @@
 	],
 	"package": "bacula-common-sqlite3",
 	"source": "bacula",
+	"version": "15.0.2-1~bpo12+2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common (= 15.0.2-1~bpo12+2)",
+		"libc6 (>= 2.33)",
+		"libsqlite3-0 (>= 3.5.9)"
+	],
+	"conflicts": [
+		"bacula-common-mysql",
+		"bacula-common-pgsql"
+	],
+	"installedSize": 48,
+	"maintainer": "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>",
+	"description": "network backup service - SQLite v3 common files",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-common-sqlite3_15.0.2-1~bpo12+2_amd64.deb",
+	"size": 9888,
+	"sha256": "1c57ae16033333775360eca4618c31e5eb211dfc082f2a9d8f8dd7ba05fe6305",
+	"descriptionMd5": "5dd5383fa711d37f105290c46d19905e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-common-sqlite3",
+	"source": "bacula",
 	"version": "9.6.7-7",
 	"section": "admin",
 	"priority": "optional",

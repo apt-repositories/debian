@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "ceph-osd",
-	"source": "ceph",
-	"version": "18.2.4+ds-13",
+	"source": "ceph (18.2.4+ds-13)",
+	"version": "18.2.4+ds-13+b1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"ceph-base (= 18.2.4+ds-13)",
+		"ceph-base (= 18.2.4+ds-13+b1)",
 		"ceph-volume (= 18.2.4+ds-13)",
 		"lvm2",
 		"sudo",
@@ -23,7 +23,7 @@
 		"libc6 (>= 2.38)",
 		"libcap2 (>= 1:2.10)",
 		"libfmt10 (>= 10.1.1+ds1)",
-		"libfuse3-3 (>= 3.12.0)",
+		"libfuse3-4 (>= 3.17.1~rc0)",
 		"libgcc-s1 (>= 3.4)",
 		"libgoogle-perftools4t64 (>= 2.16)",
 		"libibverbs1 (>= 1.1.6)",
@@ -39,7 +39,7 @@
 		"zlib1g (>= 1:1.2.0)"
 	],
 	"preDepends": [
-		"ceph-common (= 18.2.4+ds-13)"
+		"ceph-common (= 18.2.4+ds-13+b1)"
 	],
 	"recommends": [
 		"smartmontools"
@@ -47,13 +47,13 @@
 	"suggests": [
 		"nvme-cli"
 	],
-	"installedSize": 71259,
+	"installedSize": 71192,
 	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
 	"description": "OSD server for the ceph storage system",
 	"homepage": "http://ceph.com/",
-	"filename": "pool/main/c/ceph/ceph-osd_18.2.4+ds-13_amd64.deb",
-	"size": 20461596,
-	"md5": "11af6ff44d6685a4b0e1a73031292993",
-	"sha256": "2732986e5f6210a5267564e27c552e0958fe016a08e0165f792628b5a919ed09",
+	"filename": "pool/main/c/ceph/ceph-osd_18.2.4+ds-13+b1_amd64.deb",
+	"size": 20453816,
+	"md5": "b5f03d7ece901b635951a29c29fe1fa5",
+	"sha256": "cba24172b044f27d3bf4f2013510f9b8f77dac0bf3b027c873ff6d3d07da418a",
 	"descriptionMd5": "fb08b00d788b505eb4bb23072221ce43"
 }
