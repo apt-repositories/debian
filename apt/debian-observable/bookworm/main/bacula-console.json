@@ -6,6 +6,39 @@
 	],
 	"package": "bacula-console",
 	"source": "bacula",
+	"version": "15.0.2-1~bpo12+2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common (= 15.0.2-1~bpo12+2)",
+		"ucf",
+		"libc6 (>= 2.34)",
+		"libreadline8 (>= 6.0)",
+		"libstdc++6 (>= 5)"
+	],
+	"replaces": [
+		"bacula-common (<< 9.6.4-1)"
+	],
+	"breaks": [
+		"bacula-common (<< 9.6.4-1)"
+	],
+	"installedSize": 112,
+	"maintainer": "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>",
+	"description": "network backup service - text console",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-console_15.0.2-1~bpo12+2_amd64.deb",
+	"size": 26744,
+	"sha256": "6faa85a1222a85a4dff9a1ffcbdcce416fb2156505358682f43cbfdb400eb85c",
+	"descriptionMd5": "0a204f8e90989252b1663adf774d9184"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-console",
+	"source": "bacula",
 	"version": "9.6.7-7",
 	"section": "admin",
 	"priority": "optional",

@@ -6,15 +6,16 @@
 	],
 	"package": "libqt5contact5-plugin-sqlite",
 	"source": "qtcontacts-sqlite",
-	"version": "0.3.20-2",
+	"version": "0.3.20-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libqt5sql5-sqlite",
+		"libsqlite3-ext-icu",
 		"libc6 (>= 2.29)",
 		"libgcc-s1 (>= 3.3.1)",
-		"libgsettings-qt1 (>= 0.1+14.04.20140408)",
+		"libgsettings-qt1 (>= 1.0.0)",
 		"libqt5contacts5a (>= 5.0~git20190618.f9a8f0fc+dfsg1)",
 		"libqt5core5t64 (>= 5.15.1)",
 		"libqt5dbus5t64 (>= 5.0.2)",
@@ -26,13 +27,13 @@
 	"recommends": [
 		"contactsd"
 	],
-	"installedSize": 1388,
+	"installedSize": 1396,
 	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
 	"description": "SQLite-based plugin for QtPIM Contacts",
 	"homepage": "https://github.com/sailfishos/qtcontacts-sqlite",
-	"filename": "pool/main/q/qtcontacts-sqlite/libqt5contact5-plugin-sqlite_0.3.20-2_amd64.deb",
-	"size": 347888,
-	"md5": "08bbc5f87d5cecd458f67666ffe84a36",
-	"sha256": "ea0918dff4f05fb8041d0d4c7a97fd060ddb98235bf45ea1aaac391918f8357b",
+	"filename": "pool/main/q/qtcontacts-sqlite/libqt5contact5-plugin-sqlite_0.3.20-3_amd64.deb",
+	"size": 349768,
+	"md5": "1ac881bac7f386d38cab2558022cc438",
+	"sha256": "c681edc2b15d3de891e3a69b12122dbcdcf7b9f1c336993102d1356ee06d0c94",
 	"descriptionMd5": "6b1e372d1aa386168d087129dd291524"
 }]

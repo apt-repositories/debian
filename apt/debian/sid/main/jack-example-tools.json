@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "jack-example-tools",
-	"version": "4-2",
+	"version": "4-3",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -24,18 +24,20 @@
 		"jackd"
 	],
 	"replaces": [
+		"jackd1 (<< 1:0.126.0-3~)",
 		"jackd2 (<< 1.9.22~dfsg-1~)"
 	],
 	"breaks": [
+		"jackd1 (<< 1:0.126.0-3~)",
 		"jackd2 (<< 1.9.22~dfsg-1~)"
 	],
 	"installedSize": 859,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "JACK Audio Connection Kit (example clients)",
 	"homepage": "https://jackaudio.org/",
-	"filename": "pool/main/j/jack-example-tools/jack-example-tools_4-2_amd64.deb",
-	"size": 118068,
-	"md5": "1a50c2301b18e222b569375b06230439",
-	"sha256": "888d3824f01a36dfa81c21a4813ee63a6cf74007f0b7c0d596c8bc37597b0cee",
+	"filename": "pool/main/j/jack-example-tools/jack-example-tools_4-3_amd64.deb",
+	"size": 118560,
+	"md5": "d6285010f552b582ebeb90fba363c4e6",
+	"sha256": "0c94ab6c725f753bb829a396012f8a928b77f93371f00236e883d75cee9dc2c6",
 	"descriptionMd5": "320b88f76c36886ba2729c6534867ab9"
 }

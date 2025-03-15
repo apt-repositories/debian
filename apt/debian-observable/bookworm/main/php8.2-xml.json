@@ -28,8 +28,43 @@
 	"maintainer": "Debian PHP Maintainers <team+pkg-php@tracker.debian.org>",
 	"description": "DOM, SimpleXML, XML, and XSL module for PHP",
 	"homepage": "http://www.php.net/",
-	"filename": "pool/updates/main/p/php8.2/php8.2-xml_8.2.26-1~deb12u1_amd64.deb",
+	"filename": "pool/main/p/php8.2/php8.2-xml_8.2.26-1~deb12u1_amd64.deb",
 	"size": 112884,
+	"md5": "c88ca0e9cd4d967cff3c9e07674dc20f",
 	"sha256": "ec1932eb838e0b6717d8134cdf8b80848174df7f6ca42aef7091fbb2901b630d",
+	"descriptionMd5": "9dffe9f3f61ff368673fc5a2dcd65841"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php8.2-xml",
+	"source": "php8.2",
+	"version": "8.2.28-1~deb12u1",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"php-common (>= 1:81~)",
+		"ucf",
+		"php8.2-common (= 8.2.28-1~deb12u1)",
+		"libc6 (>= 2.33)",
+		"libxml2 (>= 2.9.0)",
+		"libxslt1.1 (>= 1.1.25)"
+	],
+	"replaces": [
+		"php8.2-xsl (<< 7.0.3-6~)"
+	],
+	"breaks": [
+		"php8.2-xsl (<< 7.0.3-6~)"
+	],
+	"installedSize": 469,
+	"maintainer": "Debian PHP Maintainers <team+pkg-php@tracker.debian.org>",
+	"description": "DOM, SimpleXML, XML, and XSL module for PHP",
+	"homepage": "http://www.php.net/",
+	"filename": "pool/updates/main/p/php8.2/php8.2-xml_8.2.28-1~deb12u1_amd64.deb",
+	"size": 113020,
+	"sha256": "a7f449755070d397824433be9616712b7864e3efe1ec0dcb328ea37f76b0633b",
 	"descriptionMd5": "9dffe9f3f61ff368673fc5a2dcd65841"
 }]
