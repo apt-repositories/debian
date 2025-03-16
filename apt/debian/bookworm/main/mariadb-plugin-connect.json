@@ -6,15 +6,16 @@
 	],
 	"package": "mariadb-plugin-connect",
 	"source": "mariadb",
-	"version": "1:10.11.6-0+deb12u1",
+	"version": "1:10.11.11-0+deb12u1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libxml2 (>= 2.7.4)",
-		"mariadb-server (= 1:10.11.6-0+deb12u1)",
+		"mariadb-server (= 1:10.11.11-0+deb12u1)",
 		"unixodbc",
-		"libc6 (>= 2.35)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
 		"libodbc2 (>= 2.3.1)",
 		"libstdc++6 (>= 4.1.1)",
 		"zlib1g (>= 1:1.2.3.4)"
@@ -38,13 +39,13 @@
 		"mariadb-connect-engine-10.0",
 		"mariadb-connect-engine-10.1"
 	],
-	"installedSize": 1780,
+	"installedSize": 1777,
 	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
 	"description": "Connect storage engine for MariaDB",
 	"homepage": "https://mariadb.org/",
-	"filename": "pool/main/m/mariadb/mariadb-plugin-connect_10.11.6-0+deb12u1_amd64.deb",
-	"size": 533196,
-	"md5": "3ddef1405ec4ea7c5aea34358adef544",
-	"sha256": "eedbba2ad14b393fb042e0fae343633abf48209c89ada34afa29db0c96639d72",
+	"filename": "pool/main/m/mariadb/mariadb-plugin-connect_10.11.11-0+deb12u1_amd64.deb",
+	"size": 532180,
+	"md5": "7456a32c47ea54813bffb67deeb9c5fe",
+	"sha256": "74c7453da7ab42adaa7f02b8c703df0de4bac563169aeffaccde980f539a826d",
 	"descriptionMd5": "a80bd9647c2961ca648b4365a4644855"
 }
