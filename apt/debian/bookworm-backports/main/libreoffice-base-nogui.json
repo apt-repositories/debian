@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-base-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:24.8.5-2~bpo12+2)",
-		"libreoffice-base-drivers (= 4:24.8.5-2~bpo12+2)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.5-2~bpo12+2) | libreoffice-core (= 4:24.8.5-2~bpo12+2)",
-		"ucf",
+		"libreoffice-base-core (= 4:25.2.1-3~bpo12+1)",
+		"libreoffice-base-drivers (= 4:25.2.1-3~bpo12+1)",
+		"libreoffice-core-nogui (= 4:25.2.1-3~bpo12+1) | libreoffice-core (= 4:25.2.1-3~bpo12+1)",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libstdc++6 (>= 11)",
@@ -25,9 +23,13 @@
 		"libuno-salhelpergcc3-3 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"recommends": [
 		"libreoffice-writer",
-		"libreoffice-java-common (>= 4:24.8.5~)",
+		"libreoffice-java-common (>= 4:25.2.1~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"suggests": [
@@ -45,12 +47,12 @@
 	"conflicts": [
 		"libreoffice-base"
 	],
-	"installedSize": 882,
+	"installedSize": 887,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- database (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-base-nogui_24.8.5-2~bpo12+2_amd64.deb",
-	"size": 262420,
-	"sha256": "ecf56884a35f55abd2d508a406cba7c9bfbc51b4703ba2a33d8a03cbe05d0d12",
+	"filename": "pool/main/libr/libreoffice/libreoffice-base-nogui_25.2.1-3~bpo12+1_amd64.deb",
+	"size": 263604,
+	"sha256": "d7955d5caa7e640152a31a5e99ed4f8d61eba9f70ceed946f3b9c2b8e296bcc4",
 	"descriptionMd5": "e83dd6cdb7c67ccb13c0407fd6a32ebc"
 }

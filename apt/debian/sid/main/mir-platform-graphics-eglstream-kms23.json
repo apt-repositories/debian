@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mir-platform-graphics-eglstream-kms23",
+	"source": "mir",
+	"version": "2.20.0-3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libdrm2 (>= 2.4.71)",
+		"libegl1",
+		"libepoxy0 (>= 1.4.3)",
+		"libgcc-s1 (>= 4.3)",
+		"libgles2",
+		"libmircommon11 (>= 2.20.0)",
+		"libmircore2t64 (>= 2.20.0)",
+		"libmirplatform30 (>= 2.20.0)",
+		"libmirwayland5 (>= 2.20.0)",
+		"libnvidia-egl-wayland1 (>= 1:1.1.7)",
+		"libstdc++6 (>= 14)",
+		"libwayland-server0 (>= 1.2.0)"
+	],
+	"replaces": [
+		"mir-platform-graphics-eglstream-kms20",
+		"mir-platform-graphics-eglstream-kms22"
+	],
+	"breaks": [
+		"mir-platform-graphics-eglstream-kms20 (<< 2.20.0-3)",
+		"mir-platform-graphics-eglstream-kms22 (<< 2.20.0-3)"
+	],
+	"installedSize": 609,
+	"maintainer": "Debian Mir Team <team+mir@tracker.debian.org>",
+	"description": "Mir Display Server - platform library for NVIDIA",
+	"homepage": "https://mir-server.io/",
+	"filename": "pool/main/m/mir/mir-platform-graphics-eglstream-kms23_2.20.0-3_amd64.deb",
+	"size": 171432,
+	"md5": "3329a8584132df923864e0d712db1e17",
+	"sha256": "704a246305fb4e14f3d9529c5d01d8c3ee1ecced2624f6946d263da15ebc8ae0",
+	"descriptionMd5": "de3eb683c5cd18107a001c6710326ebe"
+}

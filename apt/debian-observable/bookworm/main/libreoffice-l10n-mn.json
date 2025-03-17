@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-mn",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-mn | myspell-dictionary-mn | libreoffice-spellcheck-mn",
@@ -25,13 +27,13 @@
 		"libreoffice-help-mn",
 		"mythes-mn"
 	],
-	"installedSize": 3932,
+	"installedSize": 3325,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Mongolian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-mn_24.8.5-2~bpo12+2_all.deb",
-	"size": 655032,
-	"sha256": "c544c162a17d3a6f182d8067a6ff46339b6e4c82c2b298ac9f4e47772a978dcb",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-mn_25.2.1-3~bpo12+1_all.deb",
+	"size": 649040,
+	"sha256": "e323de3f13ac9de765d3436e9093abc0ea0b0eef6ea204900831e162b0b49371",
 	"descriptionMd5": "4025564fcb7aef1ac127f7d38a7d89a3"
 },{
 	"raw": {},

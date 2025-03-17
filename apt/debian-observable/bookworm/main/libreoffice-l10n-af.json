@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-af",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-af | myspell-dictionary-af | libreoffice-spellcheck-af",
@@ -25,13 +27,13 @@
 		"libreoffice-help-af",
 		"mythes-af"
 	],
-	"installedSize": 4280,
+	"installedSize": 4038,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Afrikaans language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-af_24.8.5-2~bpo12+2_all.deb",
-	"size": 824200,
-	"sha256": "56d3c56908019587762d7a372e86610bcdc34b5d2aed469c61f7670adf3c0b1d",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-af_25.2.1-3~bpo12+1_all.deb",
+	"size": 832288,
+	"sha256": "761d6d1539e824c9fe1dd4ca2eb82baa794e03067c0292fcc51a7f1c9e8eabfe",
 	"descriptionMd5": "25408426f5cceacb5ad931a04f17c27e"
 },{
 	"raw": {},

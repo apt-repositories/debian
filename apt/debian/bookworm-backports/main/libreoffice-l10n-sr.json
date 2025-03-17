@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-sr",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-sr | myspell-dictionary-sr | libreoffice-spellcheck-sr",
@@ -25,12 +27,12 @@
 		"libreoffice-help-sr",
 		"mythes-sr"
 	],
-	"installedSize": 5748,
+	"installedSize": 4845,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Serbian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sr_24.8.5-2~bpo12+2_all.deb",
-	"size": 764652,
-	"sha256": "0156e8416342a764312755526530370abb5e76d29d6d7616ef55f5552f8ce485",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sr_25.2.1-3~bpo12+1_all.deb",
+	"size": 748772,
+	"sha256": "11fffece2c159f065eca1c282c10f9437ce2a509320fe53b240029f36eca54ba",
 	"descriptionMd5": "a5246257fe1a7bc6da50c1903b447187"
 }

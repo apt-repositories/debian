@@ -6,22 +6,26 @@
 	],
 	"package": "mir-graphics-drivers-desktop",
 	"source": "mir",
-	"version": "2.14.1-8",
+	"version": "2.20.0-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"mir-platform-graphics-atomic-kms",
 		"mir-platform-graphics-gbm-kms",
 		"mir-platform-graphics-x",
 		"mir-platform-graphics-wayland"
 	],
-	"installedSize": 110,
+	"recommends": [
+		"mir-platform-graphics-virtual"
+	],
+	"installedSize": 115,
 	"maintainer": "Debian Mir Team <team+mir@tracker.debian.org>",
 	"description": "Mir Display Server - desktop driver metapackage",
 	"homepage": "https://mir-server.io/",
-	"filename": "pool/main/m/mir/mir-graphics-drivers-desktop_2.14.1-8_amd64.deb",
-	"size": 20436,
-	"md5": "b5dbb710de1e774ebbed131c3527fb76",
-	"sha256": "65b0f26ebae028de96dd39a6d4d41f5bcf3d25947ce46573d0788f6d2ee8be22",
+	"filename": "pool/main/m/mir/mir-graphics-drivers-desktop_2.20.0-3_amd64.deb",
+	"size": 21964,
+	"md5": "0d3b6a257474ab3c6f24d549deef8ff8",
+	"sha256": "b7d1587a55d1f60de5251e628b4ea7a194403d9f996f6c5b4d61509bf9e6c5a2",
 	"descriptionMd5": "59d745ac811598ba73a8e13e20ca3dd2"
 }]

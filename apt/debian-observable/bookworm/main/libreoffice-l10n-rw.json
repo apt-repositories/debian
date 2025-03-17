@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-rw",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-rw | myspell-dictionary-rw | libreoffice-spellcheck-rw",
@@ -25,13 +27,13 @@
 		"libreoffice-help-rw",
 		"mythes-rw"
 	],
-	"installedSize": 1898,
+	"installedSize": 1619,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Kinarwanda language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-rw_24.8.5-2~bpo12+2_all.deb",
-	"size": 285584,
-	"sha256": "16873a5293b9ce999521d9a88754c8657fa70c9af1e50cee7a2ca886cfe798ed",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-rw_25.2.1-3~bpo12+1_all.deb",
+	"size": 284052,
+	"sha256": "c9d794fe3df7a0f01b910777df6007ff2a20274ed98c08aa0ab62602c5d1c072",
 	"descriptionMd5": "567e17f0373585af19cb698b7c5680e9"
 },{
 	"raw": {},

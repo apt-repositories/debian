@@ -6,15 +6,13 @@
 	],
 	"package": "libreoffice-writer-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:24.8.5-2~bpo12+2)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.5-2~bpo12+2) | libreoffice-core (= 4:24.8.5-2~bpo12+2)",
-		"ucf",
+		"libreoffice-base-core (= 4:25.2.1-3~bpo12+1)",
+		"libreoffice-core-nogui (= 4:25.2.1-3~bpo12+1) | libreoffice-core (= 4:25.2.1-3~bpo12+1)",
 		"libabw-0.1-1",
 		"libc6 (>= 2.35)",
 		"libe-book-0.1-1",
@@ -38,6 +36,10 @@
 		"uno-libs-private",
 		"zlib1g (>= 1:1.1.4)"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"recommends": [
 		"libreoffice-math-nogui"
 	],
@@ -45,7 +47,7 @@
 		"fonts-crosextra-caladea",
 		"fonts-crosextra-carlito",
 		"libreoffice-base",
-		"libreoffice-java-common (>= 4:24.8.5~)",
+		"libreoffice-java-common (>= 4:25.2.1~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"replaces": [
@@ -58,12 +60,12 @@
 	"conflicts": [
 		"libreoffice-writer"
 	],
-	"installedSize": 28661,
+	"installedSize": 28922,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- word processor (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-writer-nogui_24.8.5-2~bpo12+2_amd64.deb",
-	"size": 8737468,
-	"sha256": "8cd7aa03d5299c80f6dcfbfc979cf45bf532f61bd340c63a4fd0ed60d8df66b4",
+	"filename": "pool/main/libr/libreoffice/libreoffice-writer-nogui_25.2.1-3~bpo12+1_amd64.deb",
+	"size": 8831696,
+	"sha256": "8ca8f75ba412d8dfabdc813819fbb96c7d79b4b9ef02848a587a09f831f00d53",
 	"descriptionMd5": "963dc225bb14f9e5974345a7995f16a7"
 }

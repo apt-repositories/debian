@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-gd",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-gd | myspell-dictionary-gd | libreoffice-spellcheck-gd",
@@ -25,12 +27,12 @@
 		"libreoffice-help-gd",
 		"mythes-gd"
 	],
-	"installedSize": 3064,
+	"installedSize": 2791,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Scottish_gaelic language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gd_24.8.5-2~bpo12+2_all.deb",
-	"size": 542892,
-	"sha256": "b36e09b5158e47ba49342c349d7f93d05c316c267c38584c6f695efba733e925",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gd_25.2.1-3~bpo12+1_all.deb",
+	"size": 543928,
+	"sha256": "1734e50c8ad8402945c3d40f2d396119a43afdffff2f45d05a2c05cd579cf20a",
 	"descriptionMd5": "18113968ce7e8c22cc31b05613ac922a"
 }

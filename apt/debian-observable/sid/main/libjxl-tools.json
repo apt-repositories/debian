@@ -6,16 +6,21 @@
 	],
 	"package": "libjxl-tools",
 	"source": "jpeg-xl",
-	"version": "0.10.4-2",
+	"version": "0.11.1-3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libgcc-s1 (>= 3.3.1)",
+		"libgcc-s1 (>= 3.4)",
+		"libgif7 (>= 5.1)",
 		"libhwy1t64 (>= 0.16.0)",
-		"libjxl0.10 (>= 0.10.3)",
-		"libstdc++6 (>= 13.1)"
+		"libjpeg62-turbo (>= 1.3.1)",
+		"libjxl0.11 (>= 0.10.3)",
+		"libopenexr-3-1-30 (>= 3.1.13)",
+		"libpng16-16t64 (>= 1.6.46)",
+		"libstdc++6 (>= 13.1)",
+		"libtcmalloc-minimal4t64 (>= 2.16)"
 	],
 	"recommends": [
 		"libjpeg-turbo-progs"
@@ -23,13 +28,13 @@
 	"suggests": [
 		"netpbm"
 	],
-	"installedSize": 242,
+	"installedSize": 931,
 	"maintainer": "Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>",
 	"description": "JPEG XL Image Coding System - \"JXL\" (command line utility)",
 	"homepage": "https://github.com/libjxl/libjxl",
-	"filename": "pool/main/j/jpeg-xl/libjxl-tools_0.10.4-2_amd64.deb",
-	"size": 76700,
-	"md5": "c798eda504424ffa7bfd4e9bdb759e93",
-	"sha256": "95716a26d2d9918ce71a12f16cd67bb2dd29f4b5b891e7116fe9db8ddb421315",
+	"filename": "pool/main/j/jpeg-xl/libjxl-tools_0.11.1-3_amd64.deb",
+	"size": 291996,
+	"md5": "aded150f40ff41726109c437c38708f1",
+	"sha256": "daa15e3fd8e635e3d0af2854bdfff6013354b9b754e7397e69878aadfa23e472",
 	"descriptionMd5": "c789e316cb9fb5ca256c59b68643b721"
 }]

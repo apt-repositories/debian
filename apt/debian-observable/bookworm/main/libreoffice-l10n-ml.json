@@ -6,18 +6,20 @@
 	],
 	"package": "libreoffice-l10n-ml",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-mlym",
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ml | myspell-dictionary-ml | libreoffice-spellcheck-ml",
@@ -26,13 +28,13 @@
 		"libreoffice-help-ml",
 		"mythes-ml"
 	],
-	"installedSize": 3073,
+	"installedSize": 2580,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Malayalam language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ml_24.8.5-2~bpo12+2_all.deb",
-	"size": 397236,
-	"sha256": "ad72b8ce03ffe50d16a1b509fdaf5df95e5e617ec0a46478a1dc54266d415820",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ml_25.2.1-3~bpo12+1_all.deb",
+	"size": 391452,
+	"sha256": "ee69c52756c8439e9222eff50ca9b8d89400c534b9e0997ca49077b1ee9b538b",
 	"descriptionMd5": "60f657487ccd35990900a2b5e69a0ece"
 },{
 	"raw": {},

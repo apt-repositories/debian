@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-tn",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-tn | myspell-dictionary-tn | libreoffice-spellcheck-tn",
@@ -25,12 +27,12 @@
 		"libreoffice-help-tn",
 		"mythes-tn"
 	],
-	"installedSize": 1615,
+	"installedSize": 1333,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Tswana language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tn_24.8.5-2~bpo12+2_all.deb",
-	"size": 228896,
-	"sha256": "aafa07565d2e3cf1a5093e653dbdb9f8bf474fb68c4635a0bc49257a9377511e",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tn_25.2.1-3~bpo12+1_all.deb",
+	"size": 226780,
+	"sha256": "e2391bce7815be46145770c96855ca5b7fbef3ab723175c58238a92872ffdf6c",
 	"descriptionMd5": "7da81d27f41218d11fbd8aabceec792c"
 }

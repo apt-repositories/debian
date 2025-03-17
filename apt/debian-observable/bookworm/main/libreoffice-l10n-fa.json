@@ -6,18 +6,20 @@
 	],
 	"package": "libreoffice-l10n-fa",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-farsiweb",
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-fa | myspell-dictionary-fa | libreoffice-spellcheck-fa",
@@ -26,13 +28,13 @@
 		"libreoffice-help-fa",
 		"mythes-fa"
 	],
-	"installedSize": 2280,
+	"installedSize": 1835,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Farsi language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-fa_24.8.5-2~bpo12+2_all.deb",
-	"size": 324196,
-	"sha256": "e08f6ad99b5aadf52946e948508609dd7a2fa8d059c5a6d1e01b49ba3f5ac4f5",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-fa_25.2.1-3~bpo12+1_all.deb",
+	"size": 320980,
+	"sha256": "a0080abdecbc7efd265d2ef06eee4f4d2f05064648c622391cbab29591da55db",
 	"descriptionMd5": "6fb22f6ccd00a52dcb073d05bdb131d9"
 },{
 	"raw": {},

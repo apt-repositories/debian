@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-is",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-is | myspell-dictionary-is | libreoffice-spellcheck-is",
@@ -25,13 +27,13 @@
 		"libreoffice-help-is",
 		"mythes-is"
 	],
-	"installedSize": 3409,
+	"installedSize": 3077,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Icelandic language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-is_24.8.5-2~bpo12+2_all.deb",
-	"size": 635468,
-	"sha256": "48b62acbd0997df1cefd72d63f3506efd214bd0a205bfe350d603231989f9501",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-is_25.2.1-3~bpo12+1_all.deb",
+	"size": 625636,
+	"sha256": "4827697f4e9b1ec918fffece5839b28913071b367e1b0ef2dcd0ddbc77c05291",
 	"descriptionMd5": "867a82757a25dc87440a74fb74e46369"
 },{
 	"raw": {},

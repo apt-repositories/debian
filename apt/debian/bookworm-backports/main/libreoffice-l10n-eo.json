@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-eo",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-eo | myspell-dictionary-eo | libreoffice-spellcheck-eo",
@@ -25,12 +27,12 @@
 		"libreoffice-help-eo",
 		"mythes-eo"
 	],
-	"installedSize": 4222,
+	"installedSize": 3917,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Esperanto language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-eo_24.8.5-2~bpo12+2_all.deb",
-	"size": 794512,
-	"sha256": "0d1bee5b45e067681ec44cb558f1bd9d39e58c081f4d28879fa128d8fff3095a",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-eo_25.2.1-3~bpo12+1_all.deb",
+	"size": 788652,
+	"sha256": "9a4cc9f4c1ccaa4ec64e7cf850eee3b8d6ed42d4ffe2d6f67e6abfa23bb73698",
 	"descriptionMd5": "ceec53900ab8424d55b41ca9805f4477"
 }

@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-om",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-om | myspell-dictionary-om | libreoffice-spellcheck-om",
@@ -25,12 +27,12 @@
 		"libreoffice-help-om",
 		"mythes-om"
 	],
-	"installedSize": 2296,
+	"installedSize": 2028,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Oromo language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-om_24.8.5-2~bpo12+2_all.deb",
-	"size": 375816,
-	"sha256": "b6a484c8f713eccdd55285d993ce963aa98a855f3e75fd18632b8cfe283fecc3",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-om_25.2.1-3~bpo12+1_all.deb",
+	"size": 377592,
+	"sha256": "445e0378eba65971c2e6633dd99962f3106af9b4aee267f86069f714fa710240",
 	"descriptionMd5": "b0d2c1a766f405e3832badc1c8a5b242"
 }
