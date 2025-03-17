@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-nso",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-nso | myspell-dictionary-nso | libreoffice-spellcheck-nso",
@@ -25,13 +27,13 @@
 		"libreoffice-help-nso",
 		"mythes-nso"
 	],
-	"installedSize": 1817,
+	"installedSize": 1527,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Northern_sotho language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nso_24.8.5-2~bpo12+2_all.deb",
-	"size": 267232,
-	"sha256": "91c6f515e8b5f8ba140c78463dc89fbb13e700e848d5a05f48590a7076b174e2",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nso_25.2.1-3~bpo12+1_all.deb",
+	"size": 265428,
+	"sha256": "b4f17fd5c8f70ba558e276c57b782ed0e5c72d01bf2eff277d1801f114ed78da",
 	"descriptionMd5": "12301064896f2feae77bfb9b19df2b41"
 },{
 	"raw": {},

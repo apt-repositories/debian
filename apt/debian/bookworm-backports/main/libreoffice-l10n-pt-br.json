@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-pt-br",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-pt-br | myspell-dictionary-pt-br | libreoffice-spellcheck-pt-br",
@@ -25,12 +27,12 @@
 		"libreoffice-help-pt-br",
 		"mythes-pt-br"
 	],
-	"installedSize": 4505,
+	"installedSize": 4250,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Portuguese_brazilian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pt-br_24.8.5-2~bpo12+2_all.deb",
-	"size": 885200,
-	"sha256": "0a784e6b6eac5b9261fbdcb571634e58c2311c6712ffdc3515abc629df120565",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pt-br_25.2.1-3~bpo12+1_all.deb",
+	"size": 891948,
+	"sha256": "4af850ae83c58e83e2c094c7699e34af8b38224ef0ad244356bfcdea9577d436",
 	"descriptionMd5": "bca2f0a66f444a733b61ca3bb45846ca"
 }

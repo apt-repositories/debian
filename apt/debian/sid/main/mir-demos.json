@@ -6,7 +6,7 @@
 	],
 	"package": "mir-demos",
 	"source": "mir",
-	"version": "2.14.1-8",
+	"version": "2.20.0-3",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,12 +18,14 @@
 		"libgcc-s1 (>= 3.0)",
 		"libgles2",
 		"libglib2.0-0t64 (>= 2.12.0)",
-		"libmiral5t64 (>= 2.14.1)",
-		"libmircore2t64 (>= 2.14.1)",
+		"libmiral7 (>= 2.20.0)",
+		"libmircore2t64 (>= 2.20.0)",
 		"libstdc++6 (>= 13.1)",
 		"libwayland-client0 (>= 1.20.0)",
 		"libwayland-egl1 (>= 1.15.0)",
-		"inotify-tools"
+		"libwayland-server0 (>= 1.0.2)",
+		"inotify-tools",
+		"python3:any"
 	],
 	"recommends": [
 		"dmz-cursor-theme",
@@ -37,13 +39,13 @@
 	"breaks": [
 		"miral-examples"
 	],
-	"installedSize": 1167,
+	"installedSize": 1462,
 	"maintainer": "Debian Mir Team <team+mir@tracker.debian.org>",
 	"description": "Mir Display Server - demonstration programs",
 	"homepage": "https://mir-server.io/",
-	"filename": "pool/main/m/mir/mir-demos_2.14.1-8_amd64.deb",
-	"size": 131304,
-	"md5": "38abae5b5b317cfcc39fa045c8ba16d8",
-	"sha256": "fe6a83a5b9ac05486a04612ec3350928ad3c245bf55808231728cd10a0041128",
+	"filename": "pool/main/m/mir/mir-demos_2.20.0-3_amd64.deb",
+	"size": 246016,
+	"md5": "ab5bbfbda4eb5bc516ee3513a1d90eb4",
+	"sha256": "89a6e963cbe989907a62580768a20fa3ba988e9f606248e91953a70da2e6160e",
 	"descriptionMd5": "438fbed9a91dcd2671ec41b04913bd86"
 }

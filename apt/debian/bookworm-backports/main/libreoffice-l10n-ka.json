@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ka",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ka | myspell-dictionary-ka | libreoffice-spellcheck-ka",
@@ -25,12 +27,12 @@
 		"libreoffice-help-ka",
 		"mythes-ka"
 	],
-	"installedSize": 6375,
+	"installedSize": 5771,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Georgian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ka_24.8.5-2~bpo12+2_all.deb",
-	"size": 857624,
-	"sha256": "913f1256fb9ab4368cea07156e03a970ff12133316d35930a274d38ae7402e48",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ka_25.2.1-3~bpo12+1_all.deb",
+	"size": 859036,
+	"sha256": "beed79b28d96e9b78fbc1e0cf7c8edaacbad35caa828babe29ef6283ad68ba4e",
 	"descriptionMd5": "1efb8e2732132342f73ee09022329760"
 }

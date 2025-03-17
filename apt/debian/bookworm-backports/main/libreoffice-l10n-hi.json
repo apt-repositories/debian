@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-hi",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-hi | myspell-dictionary-hi | libreoffice-spellcheck-hi",
@@ -25,12 +27,12 @@
 		"libreoffice-help-hi",
 		"mythes-hi"
 	],
-	"installedSize": 2700,
+	"installedSize": 2277,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Hindi language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hi_24.8.5-2~bpo12+2_all.deb",
-	"size": 369600,
-	"sha256": "1a5cbb0804fdcc1a1ebf7eb297f9ab5f1860afb243b8415a3c281683311e23c5",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hi_25.2.1-3~bpo12+1_all.deb",
+	"size": 366364,
+	"sha256": "3589466848ffe132e312d0999b19f16e76abb3e37560c81318e0a36fe26844b3",
 	"descriptionMd5": "c0f9f00435657eaf48161db67ec8e03d"
 }

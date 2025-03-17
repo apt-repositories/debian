@@ -6,20 +6,24 @@
 	],
 	"package": "icewm-common",
 	"source": "icewm",
-	"version": "3.6.0-1.1",
+	"version": "3.7.2-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
-		"libglib2.0-0t64 (>= 2.36.0)",
-		"libstdc++6 (>= 11)",
+		"libstdc++6 (>= 13.1)",
 		"sensible-utils"
 	],
 	"recommends": [
-		"menu",
 		"xscreensaver",
+		"lxqt-menu-data | gnome-menus | lxmenu-data",
+		"desktop-base"
+	],
+	"suggests": [
+		"menu",
+		"extra-xdg-menus",
 		"xterm"
 	],
 	"replaces": [
@@ -30,12 +34,12 @@
 	"conflicts": [
 		"menu (<< 2.1.9-1)"
 	],
-	"installedSize": 3903,
+	"installedSize": 4005,
 	"maintainer": "Eduard Bloch <blade@debian.org>",
 	"description": "wonderful Win95-OS/2-Motif-like window manager",
-	"filename": "pool/main/i/icewm/icewm-common_3.6.0-1.1_amd64.deb",
-	"size": 1093596,
-	"md5": "eaac2982e14fbb3e9145bb0e40dc2255",
-	"sha256": "ede026c10b1d245e1643e52724180d380d00776c3b106a22f2485f60fd122f54",
+	"filename": "pool/main/i/icewm/icewm-common_3.7.2-1_amd64.deb",
+	"size": 1135396,
+	"md5": "9ac66c809a5e5d9cf6c49a0e6c7c570f",
+	"sha256": "baafdaeef3a781ec699e694e0f99afe277b59a14cab738c2c5a610fa837711a3",
 	"descriptionMd5": "95ebf911ffa84e4e1d93c7b253b4fc71"
 }

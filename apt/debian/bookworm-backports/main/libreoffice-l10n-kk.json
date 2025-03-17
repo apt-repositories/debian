@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-kk",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-kk | myspell-dictionary-kk | libreoffice-spellcheck-kk",
@@ -25,12 +27,12 @@
 		"libreoffice-help-kk",
 		"mythes-kk"
 	],
-	"installedSize": 5006,
+	"installedSize": 4325,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Kazakh language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kk_24.8.5-2~bpo12+2_all.deb",
-	"size": 770840,
-	"sha256": "0d18ee22c56794b9ee1ffb4b852a0fcced23231cf25c06497b5282928c402fdc",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kk_25.2.1-3~bpo12+1_all.deb",
+	"size": 755012,
+	"sha256": "5914bfa109efdaf59107be40516784e8979dcdcd7cd8f09482a3980f8ea71c2f",
 	"descriptionMd5": "0f55a645c29d349c14ae394b15a44300"
 }

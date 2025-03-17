@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-nb",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-nb | myspell-dictionary-nb | libreoffice-spellcheck-nb",
@@ -25,13 +27,13 @@
 		"libreoffice-help-nb",
 		"mythes-nb"
 	],
-	"installedSize": 4258,
+	"installedSize": 4010,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Norwegian_bokmal language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nb_24.8.5-2~bpo12+2_all.deb",
-	"size": 806880,
-	"sha256": "2215e805e2a3592f74bedbb4c6d7673512af8b07b6e0b45aee9cc24791bab3d4",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nb_25.2.1-3~bpo12+1_all.deb",
+	"size": 813772,
+	"sha256": "fbbf28886a06261acfc84cb2ddcc775e99445fb3ac8c3aad786c11c062ed7550",
 	"descriptionMd5": "9ec98f81a0201acd8a280f74f7aea258"
 },{
 	"raw": {},

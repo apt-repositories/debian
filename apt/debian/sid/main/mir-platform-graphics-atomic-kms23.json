@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mir-platform-graphics-atomic-kms23",
+	"source": "mir",
+	"version": "2.20.0-3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libboost-program-options1.83.0 (>= 1.83.0)",
+		"libc6 (>= 2.32)",
+		"libdrm2 (>= 2.4.108)",
+		"libegl1",
+		"libgbm1 (>= 21.3.0~rc1)",
+		"libgcc-s1 (>= 4.3)",
+		"libgles2",
+		"libmircommon11 (>= 2.20.0)",
+		"libmircore2t64 (>= 2.20.0)",
+		"libmirplatform30 (>= 2.20.0)",
+		"libstdc++6 (>= 13)"
+	],
+	"replaces": [
+		"mir-platform-graphics-gbm-kms22"
+	],
+	"breaks": [
+		"mir-platform-graphics-gbm-kms22 (<< 2.20.0-3)"
+	],
+	"installedSize": 619,
+	"maintainer": "Debian Mir Team <team+mir@tracker.debian.org>",
+	"description": "Mir Display Server - platform library for Atomic KMS",
+	"homepage": "https://mir-server.io/",
+	"filename": "pool/main/m/mir/mir-platform-graphics-atomic-kms23_2.20.0-3_amd64.deb",
+	"size": 185128,
+	"md5": "f74525f7475d7a3b476bcf57589b13df",
+	"sha256": "a85350e6152ed302fb01179251a5a700b8fc1912f145694a33439db9e9a4ce8f",
+	"descriptionMd5": "eee54143633a71a476a4084f60a29cde"
+}

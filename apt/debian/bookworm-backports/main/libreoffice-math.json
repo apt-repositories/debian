@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-math",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"fonts-opensymbol (>= 2:102.11)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.5-2~bpo12+2)",
-		"libreoffice-uiconfig-math (= 4:24.8.5-2~bpo12+2)",
-		"ucf",
+		"libreoffice-core (= 4:25.2.1-3~bpo12+1)",
+		"libreoffice-uiconfig-math (= 4:25.2.1-3~bpo12+1)",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libicu72 (>= 72.1~rc-1~)",
@@ -26,18 +24,22 @@
 		"libuno-salhelpergcc3-3 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 1849,
+	"installedSize": 1860,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- equation editor",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-math_24.8.5-2~bpo12+2_amd64.deb",
-	"size": 512304,
-	"sha256": "4aa1020487d4aedca875afac9c86c0f92e12535907258793b2661f698bc1476e",
+	"filename": "pool/main/libr/libreoffice/libreoffice-math_25.2.1-3~bpo12+1_amd64.deb",
+	"size": 520380,
+	"sha256": "3f22f09ab2be45df397929684bd5561f48a449e950fb2ae511b223e325fd3eac",
 	"descriptionMd5": "66f3b39e514cc02ac689ec67f6ed274a"
 }

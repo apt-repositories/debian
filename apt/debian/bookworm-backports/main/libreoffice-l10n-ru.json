@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ru",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ru | myspell-dictionary-ru | libreoffice-spellcheck-ru",
@@ -25,12 +27,12 @@
 		"libreoffice-help-ru",
 		"mythes-ru"
 	],
-	"installedSize": 5444,
+	"installedSize": 4765,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Russian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ru_24.8.5-2~bpo12+2_all.deb",
-	"size": 891980,
-	"sha256": "485d59ff2953cb3329fdf319318cb8225f1fd299e4d8c40e62216986ba3b1d46",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ru_25.2.1-3~bpo12+1_all.deb",
+	"size": 877916,
+	"sha256": "fae02094d7028b3aa2ed587dab58824be457994b5c5877b3984c661d7cdbe26c",
 	"descriptionMd5": "58787e12e170fc436c645c007bfdc3a3"
 }

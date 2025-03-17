@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-sk",
 	"source": "libreoffice",
-	"version": "4:24.8.5-2~bpo12+2",
+	"version": "4:25.2.1-3~bpo12+1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.5)"
+		"libreoffice-core (>> 4:25.2.1)"
 	],
 	"suggests": [
 		"hunspell-dictionary-sk | myspell-dictionary-sk | libreoffice-spellcheck-sk",
@@ -25,13 +27,13 @@
 		"libreoffice-help-sk",
 		"mythes-sk"
 	],
-	"installedSize": 4528,
+	"installedSize": 4182,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Slovak language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sk_24.8.5-2~bpo12+2_all.deb",
-	"size": 918920,
-	"sha256": "dc49380751ac15d39e212c4dfd813a6c17361581162aaa366612524de5573f26",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sk_25.2.1-3~bpo12+1_all.deb",
+	"size": 908224,
+	"sha256": "83e14a8044bcf1b2ba0e5ef3dbd766cb61678659b78f1d3fc4373fb2ec1a49cd",
 	"descriptionMd5": "1769b72d83c3ab6d8bc16b3fda5f0a67"
 },{
 	"raw": {},
