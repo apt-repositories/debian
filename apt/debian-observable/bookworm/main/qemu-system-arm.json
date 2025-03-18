@@ -6,7 +6,7 @@
 	],
 	"package": "qemu-system-arm",
 	"source": "qemu",
-	"version": "1:9.2.0+ds-3~bpo12+2",
+	"version": "1:9.2.2+ds-1~bpo12+1",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -37,18 +37,19 @@
 		"libvdeplug2 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.2)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:9.2.0+ds-3~bpo12+2)",
-		"qemu-system-data (>> 1:9.2.0+ds~)"
+		"qemu-system-common (= 1:9.2.2+ds-1~bpo12+1)",
+		"qemu-system-data (>> 1:9.2.2+ds~)"
 	],
 	"recommends": [
 		"qemu-utils",
 		"ipxe-qemu",
+		"seabios",
 		"qemu-efi-aarch64",
 		"qemu-efi-arm",
-		"qemu-system-gui (= 1:9.2.0+ds-3~bpo12+2)",
-		"qemu-system-modules-spice (= 1:9.2.0+ds-3~bpo12+2)",
-		"qemu-system-modules-opengl (= 1:9.2.0+ds-3~bpo12+2)",
-		"qemu-block-extra (= 1:9.2.0+ds-3~bpo12+2)"
+		"qemu-system-gui (= 1:9.2.2+ds-1~bpo12+1)",
+		"qemu-system-modules-spice (= 1:9.2.2+ds-1~bpo12+1)",
+		"qemu-system-modules-opengl (= 1:9.2.2+ds-1~bpo12+1)",
+		"qemu-block-extra (= 1:9.2.2+ds-1~bpo12+1)"
 	],
 	"suggests": [
 		"samba",
@@ -58,9 +59,9 @@
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (arm)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-arm_9.2.0+ds-3~bpo12+2_amd64.deb",
-	"size": 9634480,
-	"sha256": "e58db8a12db4bb39c6fef334ff835e4b6345a271f32aaa64e20d9e8b2ea1dc7a",
+	"filename": "pool/main/q/qemu/qemu-system-arm_9.2.2+ds-1~bpo12+1_amd64.deb",
+	"size": 9642912,
+	"sha256": "cae9c1d2044ae264aa877f7af6a70ccb3879d1caa1f21b59851d43ef0e325b1c",
 	"descriptionMd5": "83d726eaed5d7e2ff1d8f100e85c8a47"
 },{
 	"raw": {},

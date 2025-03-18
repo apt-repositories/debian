@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "debian-repro-status",
-	"source": "rust-debian-repro-status (0.1.2-1)",
-	"version": "0.1.2-1+b1",
+	"source": "rust-debian-repro-status",
+	"version": "0.2.1-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,14 +15,17 @@
 		"libgcc-s1 (>= 4.2)",
 		"libssl3t64 (>= 3.0.0)"
 	],
-	"installedSize": 5287,
+	"recommends": [
+		"ca-certificates"
+	],
+	"installedSize": 3872,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Check the reproducibility status of your Debian packages",
+	"description": "Check the reproducibility status of your installed Debian packages",
 	"homepage": "https://github.com/kpcyrd/debian-repro-status",
-	"builtUsing": "rust-colored (= 2.1.0-1), rust-hyper-rustls (= 0.24.2-5), rust-rebuilderd-common (= 0.21.0-1), rust-rustls-0.21 (= 0.21.12-11), rust-rustls-native-certs (= 0.6.3-4), rust-rustls-webpki (= 0.101.7-4), rustc (= 1.84.0+dfsg1-2)",
-	"filename": "pool/main/r/rust-debian-repro-status/debian-repro-status_0.1.2-1+b1_amd64.deb",
-	"size": 1683872,
-	"md5": "7246963278497592a363ecc53310e676",
-	"sha256": "e2f7c8aff50649cd448ccc075c315e24dcad4b31369e6f2394d7a284aa5a1749",
-	"descriptionMd5": "d11be6f93ff69d32aaf43e64c227c102"
+	"builtUsing": "rust-colored (= 2.1.0-1), rust-rebuilderd-common (= 0.22.1-1), rust-rustls-pki-types (= 1.11.0-2), rustc (= 1.85.0+dfsg1-1)",
+	"filename": "pool/main/r/rust-debian-repro-status/debian-repro-status_0.2.1-1_amd64.deb",
+	"size": 1179276,
+	"md5": "158fbded1ab6740aad61be4c87898eb8",
+	"sha256": "764eb9ad37b0589309512e398859cae3b2aca322a34a37dffe93558c22d5093e",
+	"descriptionMd5": "5163f9feb8675888ec9c576e6d774ff3"
 }]
