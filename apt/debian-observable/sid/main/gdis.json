@@ -5,32 +5,33 @@
 		"Size"
 	],
 	"package": "gdis",
-	"source": "gdis (0.90-6)",
-	"version": "0.90-6+b1",
+	"version": "1.00-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gdis-data (= 0.90-6)",
-		"libc6 (>= 2.29)",
+		"gdis-data (= 1.00-1)",
+		"libc6 (>= 2.34)",
+		"libcairo2 (>= 1.6.0)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
 		"libgl1",
-		"libglib2.0-0 (>= 2.35.9)",
+		"libglib2.0-0t64 (>= 2.76.0)",
 		"libglu1-mesa | libglu1",
-		"libgtk2.0-0 (>= 2.8.0)",
+		"libgtk2.0-0t64 (>= 2.24.0)",
 		"libgtkglext1",
-		"libpango-1.0-0 (>= 1.14.0)"
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)"
 	],
 	"suggests": [
 		"openbabel"
 	],
-	"installedSize": 1662,
+	"installedSize": 2058,
 	"maintainer": "Debichem Team <debichem-devel@lists.alioth.debian.org>",
 	"description": "molecular and crystal model viewer",
-	"homepage": "http://gdis.sourceforge.net",
-	"filename": "pool/main/g/gdis/gdis_0.90-6+b1_amd64.deb",
-	"size": 753860,
-	"md5": "a29fd3df0f2bd75bd7ec27c2c52c18b4",
-	"sha256": "6fd66c4f7945a42a2d50e0b778f7c719607b1fd84eaa01ddbb187e87b6640417",
+	"homepage": "https://github.com/arohl/gdis",
+	"filename": "pool/main/g/gdis/gdis_1.00-1_amd64.deb",
+	"size": 893428,
+	"md5": "8610873035effaa39288c564d8dc3b33",
+	"sha256": "2736e980ec4b3742f60b36fd986b898ca51edd76444fa3b2494aaeea7492487b",
 	"descriptionMd5": "6e1876488f4b33174a7e154365c1bae9"
 }]

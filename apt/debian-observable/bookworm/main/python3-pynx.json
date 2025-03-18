@@ -6,16 +6,14 @@
 	],
 	"package": "python3-pynx",
 	"source": "pynx",
-	"version": "2024.1.1-2~bpo12+1",
+	"version": "2025.1-2~bpo12+1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"python3 (<< 3.12)",
 		"python3 (>= 3.11~)",
-		"python3-fabio",
-		"python3-h5py (>= 2.9)",
-		"python3-hdf5plugin",
+		"python3-fabio (>= 2023.6.0-3~)",
 		"python3-mako",
 		"python3-matplotlib",
 		"python3-numexpr",
@@ -34,17 +32,19 @@
 		"python3-sklearn",
 		"python3-tomoscan",
 		"python3:any",
-		"libc6 (>= 2.4)"
+		"libc6 (>= 2.4)",
+		"python3-h5py",
+		"python3-hdf5plugin"
 	],
 	"suggests": [
 		"python-pynx-doc"
 	],
-	"installedSize": 4681,
+	"installedSize": 4695,
 	"maintainer": "Debian PaN Maintainers <debian-pan-maintainers@alioth-lists.debian.net>",
 	"description": "Python tools for Nano-structures Crystallography (Python 3)",
 	"homepage": "https://gitlab.esrf.fr/favre/PyNX",
-	"filename": "pool/main/p/pynx/python3-pynx_2024.1.1-2~bpo12+1_amd64.deb",
-	"size": 591228,
-	"sha256": "95d33143e7970e92f0eb541892e0206b30b00814c77135f09496694a56450a50",
+	"filename": "pool/main/p/pynx/python3-pynx_2025.1-2~bpo12+1_amd64.deb",
+	"size": 594548,
+	"sha256": "4e35a26d165dc41596ed8484aba817d33d9535e3b2ce10e2304bb904e35d634d",
 	"descriptionMd5": "8656eb49b50737136c8bcfc94045834e"
 }]
