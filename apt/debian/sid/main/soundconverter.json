@@ -5,20 +5,21 @@
 		"Size"
 	],
 	"package": "soundconverter",
-	"version": "4.0.6-1",
+	"version": "4.0.6-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"dconf-gsettings-backend | gsettings-backend",
-		"python3:any",
-		"python3-gi",
 		"gir1.2-glib-2.0",
-		"gir1.2-gstreamer-1.0",
 		"gir1.2-gst-plugins-base-1.0",
+		"gir1.2-gstreamer-1.0",
 		"gir1.2-gtk-3.0",
+		"gstreamer1.0-plugins-base",
 		"gstreamer1.0-plugins-good",
-		"gstreamer1.0-plugins-base"
+		"python3-gi",
+		"python3-pkg-resources",
+		"dconf-gsettings-backend | gsettings-backend",
+		"python3:any"
 	],
 	"recommends": [
 		"gir1.2-notify-0.7",
@@ -29,9 +30,9 @@
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "GNOME application to convert audio files into other formats",
 	"homepage": "https://soundconverter.org/",
-	"filename": "pool/main/s/soundconverter/soundconverter_4.0.6-1_all.deb",
-	"size": 204720,
-	"md5": "e69a31f76c29d52eddb34c1b578328cb",
-	"sha256": "199585fb01dce89665443726191e5354535513b2db9e743324151c77583aa56e",
+	"filename": "pool/main/s/soundconverter/soundconverter_4.0.6-2_all.deb",
+	"size": 204728,
+	"md5": "14a206a2278a3460b43ab480220a5413",
+	"sha256": "cc767fb84751566b816734355858691270bb6e27fb39978c35cdd0873c3e7fce",
 	"descriptionMd5": "df64ec8695eb6d4a89ca29f2bff306ee"
 }
