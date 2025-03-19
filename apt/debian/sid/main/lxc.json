@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "lxc",
-	"version": "1:6.0.3-1",
+	"version": "1:6.0.3-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"dnsmasq-base",
 		"iproute2",
-		"liblxc-common (= 1:6.0.3-1)",
+		"liblxc-common (= 1:6.0.3-2)",
 		"nftables | iptables",
 		"debconf (>= 0.5) | debconf-2.0",
 		"libapparmor1 (>= 2.6~devel)",
@@ -25,7 +25,7 @@
 		"libselinux1 (>= 3.1~)"
 	],
 	"recommends": [
-		"apparmor (>= 3.0.10)",
+		"apparmor (>= 4.1.0~)",
 		"debootstrap",
 		"dirmngr",
 		"distrobuilder",
@@ -44,13 +44,16 @@
 		"lxc-templates",
 		"python3-lxc"
 	],
-	"installedSize": 1564,
+	"conflicts": [
+		"lava-lxc-mocker"
+	],
+	"installedSize": 1619,
 	"maintainer": "pkg-lxc <pkg-lxc-devel@lists.alioth.debian.org>",
 	"description": "Linux Containers userspace tools",
 	"homepage": "https://linuxcontainers.org/",
-	"filename": "pool/main/l/lxc/lxc_6.0.3-1_amd64.deb",
-	"size": 409168,
-	"md5": "d2f06aad06947ca63eb3b9124d8a4b22",
-	"sha256": "fce96cffcbc775f0447b912c8d6913dd1d54a9fe3b6f413a94eccaa9a5f9b5b0",
+	"filename": "pool/main/l/lxc/lxc_6.0.3-2_amd64.deb",
+	"size": 404156,
+	"md5": "b0fd515d6f87b531701ed42e7d0b6e70",
+	"sha256": "51088959b1de44f601cc758caa766b3a9288fab84fc02497c2f7343fe299ba42",
 	"descriptionMd5": "4ece0dffd153c29e95ffdb89f8238dfc"
 }
