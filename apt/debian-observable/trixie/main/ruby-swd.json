@@ -5,25 +5,26 @@
 		"Size"
 	],
 	"package": "ruby-swd",
-	"version": "1.0.1-2.1",
+	"version": "2.0.3-1",
 	"section": "ruby",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"ruby | ruby-interpreter",
-		"ruby-activesupport (>= 3)",
+		"ruby-activesupport (>= 2:3)",
 		"ruby-attr-required (>= 0.0.5)",
-		"ruby-httpclient (>= 2.4)",
+		"ruby-httpclient",
 		"ruby-i18n",
-		"ruby-json (>= 1.4.3)"
+		"ruby-json",
+		"ruby-faraday (>= 2.0)",
+		"ruby-faraday-follow-redirects"
 	],
-	"installedSize": 32,
-	"maintainer": "Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"installedSize": 30,
+	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "SWD (Simple Web Discovery) Client Library",
 	"homepage": "https://github.com/nov/swd",
-	"filename": "pool/main/r/ruby-swd/ruby-swd_1.0.1-2.1_all.deb",
-	"size": 5832,
-	"md5": "44e9ee84384aa06ee7882059a52daa23",
-	"sha256": "0d5523bbb534f82ee643f5502d2410e842cdde7403b8f9e95f7035d26f146708",
+	"filename": "pool/main/r/ruby-swd/ruby-swd_2.0.3-1_all.deb",
+	"size": 6280,
+	"md5": "39991fbe690fdc518d35e0c397cfc139",
+	"sha256": "cf008c9761276c73d2979172bbe02e7109b84cb4c87d31615e1b4e6505c7a21b",
 	"descriptionMd5": "e80555555b61f74abf6bd706af98ccbe"
 }]
