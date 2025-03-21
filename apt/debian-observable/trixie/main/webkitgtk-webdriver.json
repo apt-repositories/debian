@@ -5,21 +5,22 @@
 		"Size"
 	],
 	"package": "webkitgtk-webdriver",
-	"source": "webkit2gtk",
-	"version": "2.46.6-1",
+	"source": "webkit2gtk (2.48.0-1)",
+	"version": "2.48.0-1+b1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libwebkit2gtk-4.1-0 (= 2.46.6-1)",
+		"libwebkit2gtk-4.1-0 (= 2.48.0-1+b1)",
 		"libatomic1 (>= 4.8)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libglib2.0-0t64 (>= 2.40.0)",
-		"libicu72 (>= 72.1~rc-1~)",
+		"libicu76 (>= 76.1-1~)",
 		"libsoup-3.0-0 (>= 3.0.3)",
 		"libstdc++6 (>= 12)",
-		"libsystemd0"
+		"libsystemd0",
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"replaces": [
 		"webkit2gtk-driver (<< 2.45.5~)"
@@ -27,13 +28,13 @@
 	"breaks": [
 		"webkit2gtk-driver (<< 2.45.5~)"
 	],
-	"installedSize": 1422,
+	"installedSize": 1462,
 	"maintainer": "Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>",
 	"description": "WebKitGTK WebDriver support",
 	"homepage": "https://webkitgtk.org/",
-	"filename": "pool/main/w/webkit2gtk/webkitgtk-webdriver_2.46.6-1_amd64.deb",
-	"size": 418608,
-	"md5": "d1420540625a18249d1c3ed8e2fc858b",
-	"sha256": "f3633c6aa473df745d0be900177594a3cd0228520d8e6709d7bf3cbe249eeef2",
+	"filename": "pool/main/w/webkit2gtk/webkitgtk-webdriver_2.48.0-1+b1_amd64.deb",
+	"size": 405456,
+	"md5": "87bb2618175a11005d1ae11bf799d622",
+	"sha256": "1ef7d7a459374ec6576d9256106886b7725548807cfaecbe3d88f6e4581f9e8c",
 	"descriptionMd5": "088bf78d76ece6d47a2cd75d9dee0fbe"
 }]

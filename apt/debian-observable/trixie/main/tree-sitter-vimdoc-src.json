@@ -6,22 +6,24 @@
 	],
 	"package": "tree-sitter-vimdoc-src",
 	"source": "tree-sitter-vimdoc",
-	"version": "2.0.0-2",
+	"version": "3.0.0-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"g++",
-		"libtree-sitter-dev",
-		"pkg-config"
+		"gcc",
+		"libc6-dev | libc-dev",
+		"libtree-sitter-dev (>= 0.21)",
+		"make",
+		"pkgconf"
 	],
-	"installedSize": 353,
+	"installedSize": 518,
 	"maintainer": "Tree-sitter Team <team+tree-sitter@tracker.debian.org>",
 	"description": "Vim help file parser for Tree-sitter (source files)",
 	"homepage": "https://github.com/neovim/tree-sitter-vimdoc/",
-	"filename": "pool/main/t/tree-sitter-vimdoc/tree-sitter-vimdoc-src_2.0.0-2_all.deb",
-	"size": 16400,
-	"md5": "1b95acad9ea31845fd1aa95b64906f1e",
-	"sha256": "7801f27ab320b598725d5dde1a5834e73790093b92a7606b07b7e58c21e21eae",
+	"filename": "pool/main/t/tree-sitter-vimdoc/tree-sitter-vimdoc-src_3.0.0-3_all.deb",
+	"size": 24164,
+	"md5": "21cd90a39456a1936fca712604ad84cb",
+	"sha256": "1ae09eeba0c7825a6bc83c91fff03a52a5eab8e3dfdeb858c29ae252ec6d32b2",
 	"descriptionMd5": "d00c8688252fcf3b279f62fe129937b2"
 }]

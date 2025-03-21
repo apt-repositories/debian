@@ -6,20 +6,26 @@
 	],
 	"package": "firmware-realtek",
 	"source": "firmware-nonfree",
-	"version": "20240709-2~bpo12+1",
+	"version": "20241210-1~bpo12+1",
 	"section": "non-free-firmware/kernel",
 	"priority": "optional",
 	"architecture": "all",
 	"suggests": [
 		"initramfs-tools"
 	],
-	"installedSize": 11271,
+	"replaces": [
+		"firmware-realtek-rtl8723cs-bt"
+	],
+	"conflicts": [
+		"firmware-realtek-rtl8723cs-bt"
+	],
+	"installedSize": 17650,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "Binary firmware for Realtek wired/Wi-Fi/BT adapters",
 	"homepage": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git",
-	"filename": "pool/non-free-firmware/f/firmware-nonfree/firmware-realtek_20240709-2~bpo12+1_all.deb",
-	"size": 2162540,
-	"sha256": "bfbea08a18fbc4451fe8eede67ea73cc25b89945c3674631e747f815efe6954f",
+	"filename": "pool/non-free-firmware/f/firmware-nonfree/firmware-realtek_20241210-1~bpo12+1_all.deb",
+	"size": 2647672,
+	"sha256": "19422b2b127ca2d3ed1711f19f9b682a4e589943b59f7986ba26bb23c70151f5",
 	"descriptionMd5": "9730ac5762c925527385edc3a9b3dc74"
 },{
 	"raw": {},
