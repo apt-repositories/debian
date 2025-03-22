@@ -6,14 +6,14 @@
 	],
 	"package": "librust-axum-dev",
 	"source": "rust-axum",
-	"version": "0.7.9-12",
+	"version": "0.7.9-13",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"librust-async-trait-0.1+default-dev",
-		"librust-axum-core-dev (= 0.4.5+0.7.9-12)",
-		"librust-axum-macros-dev (= 0.4.2+0.7.9-12)",
+		"librust-axum-core-dev (= 0.4.5+0.7.9-13)",
+		"librust-axum-macros-dev (= 0.4.2+0.7.9-13)",
 		"librust-base64-0.22+default-dev",
 		"librust-bytes-1+default-dev",
 		"librust-futures-util-0.3+alloc-dev",
@@ -86,13 +86,17 @@
 		"librust-tower-service-0.3+default-dev",
 		"librust-tracing-0.1-dev"
 	],
+	"breaks": [
+		"librust-tonic-build-dev (<< 0.12)",
+		"librust-tonic-dev (<< 0.12)"
+	],
 	"installedSize": 1263,
 	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
 	"description": "ergonomic and modular web framework - Rust source code",
 	"homepage": "https://github.com/tokio-rs/axum",
-	"filename": "pool/main/r/rust-axum/librust-axum-dev_0.7.9-12_all.deb",
-	"size": 173696,
-	"md5": "a0d82df6b9e20aeb973f21f0d42fa3da",
-	"sha256": "1cabc1e109d83bc4a28d577282384c7a9fb7dbaee4d30eaacf8900bd03499740",
+	"filename": "pool/main/r/rust-axum/librust-axum-dev_0.7.9-13_all.deb",
+	"size": 173652,
+	"md5": "3224062ed1ce8dc7eb8c9f9833d9b2f7",
+	"sha256": "54766c185060e2ed05437555e5158835f56aa6cd00cae884727fd6915e3e9c22",
 	"descriptionMd5": "d84c6c7f8d0787e1d58404074107aa36"
 }]

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "exult",
-	"version": "1.10.1-2",
+	"version": "1.10.1-3",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,13 +22,19 @@
 		"debconf (>= 0.5) | debconf-2.0",
 		"timidity"
 	],
+	"replaces": [
+		"exult-studio (<< 1.10.1-2~)"
+	],
+	"breaks": [
+		"exult-studio (<< 1.10.1-2~)"
+	],
 	"installedSize": 26511,
 	"maintainer": "Michael Banck <mbanck@debian.org>",
 	"description": "engine for Ultima VII (BG, FOV, SI, SS)",
 	"homepage": "http://exult.sourceforge.net/",
-	"filename": "pool/contrib/e/exult/exult_1.10.1-2_amd64.deb",
-	"size": 12249300,
-	"md5": "c234cdf2e02970e631e5b9e074da5796",
-	"sha256": "dac52d5c03438a51df03a0de0a78fdd593de9f6b5a2c56ebd0d3a52a764a1ece",
+	"filename": "pool/contrib/e/exult/exult_1.10.1-3_amd64.deb",
+	"size": 12248156,
+	"md5": "4b5ba80527137cb04b87b3ff03e451df",
+	"sha256": "caf978cd0b6a4ed3cf65cdcf2da4f71cf7912254f8f83f8e4dc8da47c005046a",
 	"descriptionMd5": "9c39d06a3da0bc0cfd896163aa1493f5"
 }]

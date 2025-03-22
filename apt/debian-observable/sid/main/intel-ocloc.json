@@ -6,14 +6,17 @@
 	],
 	"package": "intel-ocloc",
 	"source": "intel-compute-runtime",
-	"version": "24.35.30872.32-1",
+	"version": "25.05.32567.18-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libgcc-s1 (>= 3.3.1)",
+		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 14)"
+	],
+	"recommends": [
+		"intel-ocloc-legacy"
 	],
 	"replaces": [
 		"intel-opencl-icd (<< 23.26.26690.22-1)"
@@ -21,13 +24,13 @@
 	"breaks": [
 		"intel-opencl-icd (<< 23.26.26690.22-1)"
 	],
-	"installedSize": 1335,
+	"installedSize": 1970,
 	"maintainer": "Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>",
 	"description": "Tool for managing Intel Compute GPU device binary format",
 	"homepage": "https://github.com/intel/compute-runtime",
-	"filename": "pool/main/i/intel-compute-runtime/intel-ocloc_24.35.30872.32-1_amd64.deb",
-	"size": 386184,
-	"md5": "31aeb05b8814a68e3deaf3e6a1fb6410",
-	"sha256": "925daa900105ad392db01e4d8c2082366e0bba2c6e40cdfba8dc51cca5e9ecb9",
+	"filename": "pool/main/i/intel-compute-runtime/intel-ocloc_25.05.32567.18-1_amd64.deb",
+	"size": 549168,
+	"md5": "8b797d5c4cb7cc92e44162887f89d247",
+	"sha256": "11639e9f22d1a731038ddb94ce09757da49e6b16747a934fbcfad5eb5326fdc9",
 	"descriptionMd5": "3d9fac287cb567484fa3366817b140e9"
 }]
