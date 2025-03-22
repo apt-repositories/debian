@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rustls-pemfile-dev",
 	"source": "rust-rustls-pemfile",
-	"version": "2.2.0-1",
+	"version": "2.2.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-rustls-pki-types-1+default-dev (>= 1.9-~~)",
 		"librust-rustls-pki-types-1+std-dev (>= 1.9-~~)"
 	],
+	"breaks": [
+		"librust-rustls-0.21-dev (<< 0.21.12-14)"
+	],
 	"installedSize": 125,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Basic .pem file parser for keys and certificates - Rust source code",
 	"homepage": "https://github.com/rustls/pemfile",
-	"filename": "pool/main/r/rust-rustls-pemfile/librust-rustls-pemfile-dev_2.2.0-1_amd64.deb",
-	"size": 26960,
-	"md5": "f09d14a029043edbd8077189a7ce1521",
-	"sha256": "edc6ff436b00e378bf4999706b456691e8978409f4e5041121f522c49983b2c7",
+	"filename": "pool/main/r/rust-rustls-pemfile/librust-rustls-pemfile-dev_2.2.0-2_amd64.deb",
+	"size": 27068,
+	"md5": "dd084da22b303353d18e57773d327e81",
+	"sha256": "be473c567f5db79c172b916190cc4c5af479f14cfc884ce4819291f7a274f370",
 	"descriptionMd5": "9207ec1618699ce2232a5105c4ee3a48"
 }]
