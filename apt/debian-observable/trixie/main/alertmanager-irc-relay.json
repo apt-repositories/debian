@@ -5,22 +5,24 @@
 		"Size"
 	],
 	"package": "alertmanager-irc-relay",
-	"source": "alertmanager-irc-relay (0.4.2-1)",
-	"version": "0.4.2-1+b18",
+	"version": "0.5.1-3",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"adduser",
 		"libc6 (>= 2.34)"
 	],
-	"installedSize": 10704,
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 11713,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
-	"description": "Send Prometheus Alerts to IRC using Webhooks",
+	"description": "IRC bot to relay Prometheus alerts using webhooks",
 	"homepage": "https://github.com/google/alertmanager-irc-relay",
-	"builtUsing": "golang-1.23 (= 1.23.6-2), golang-github-beorn7-perks (= 1.0.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-fluffle-goirc (= 1.1.1+ds-2), golang-github-go-kit-log (= 0.2.1-1), golang-github-go-logfmt-logfmt (= 0.5.0-2), golang-github-golang-mock (= 1.6.0-2), golang-github-gorilla-mux (= 1.8.1-1), golang-github-klauspost-compress (= 1.17.11+ds1-1), golang-github-munnerz-goautoneg (= 0.0~git20191010.a7dc8b6-2), golang-github-prometheus-client-golang (= 1.20.5-1), golang-github-prometheus-client-model (= 0.6.0-1), golang-github-prometheus-common (= 0.61.0-1), golang-github-prometheus-procfs (= 0.14.0-1), golang-golang-x-net (= 1:0.27.0-1), golang-golang-x-sys (= 0.22.0-1), golang-golang-x-text (= 0.16.0-1), golang-google-protobuf (= 1.33.0-1), golang-yaml.v2 (= 2.4.0-4), prometheus-alertmanager (= 0.27.0+ds-3)",
-	"filename": "pool/main/a/alertmanager-irc-relay/alertmanager-irc-relay_0.4.2-1+b18_amd64.deb",
-	"size": 3343292,
-	"md5": "3de8a425be7fdc65a99415d1160f7810",
-	"sha256": "da54fbcdbfe3e77d4619c91f0144986520016385eabeba9d50a11b538aa4f331",
-	"descriptionMd5": "3e3b4f210b982523cf61a95b138644b4"
+	"filename": "pool/main/a/alertmanager-irc-relay/alertmanager-irc-relay_0.5.1-3_amd64.deb",
+	"size": 3586484,
+	"md5": "5792c340641bb1ae5152c422167d1fe0",
+	"sha256": "af2a53c6315928739a80a26bae3c3d0f9072777495876bc46e9a167c9855fad5",
+	"descriptionMd5": "df1bf2a170c33d4066c47c157738fc07"
 }]

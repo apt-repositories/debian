@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "xineliboutput-wlfe",
-	"source": "vdr-plugin-xineliboutput (2.3.0-1)",
-	"version": "2.3.0-1+b1",
+	"source": "vdr-plugin-xineliboutput",
+	"version": "2.3.0-2",
 	"section": "video",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,17 +17,23 @@
 		"libwayland-client0 (>= 1.20.0)",
 		"libwayland-cursor0 (>= 1.0.2)",
 		"libxine2 (>= 1.2.0)",
-		"libxine2-xvdr (= 2.3.0-1+b1)",
+		"libxine2-xvdr (= 2.3.0-2)",
 		"libxine2-x",
 		"dbus"
 	],
-	"installedSize": 155,
+	"replaces": [
+		"xineliboutput-sxfe (<< 2.3.0-2)"
+	],
+	"breaks": [
+		"xineliboutput-sxfe (<< 2.3.0-2)"
+	],
+	"installedSize": 271,
 	"maintainer": "Debian VDR Team <pkg-vdr-dvb-devel@lists.alioth.debian.org>",
-	"description": "Remote X-Server frontend for vdr-plugin-xineliboutput",
+	"description": "Remote Wayland frontend for vdr-plugin-xineliboutput",
 	"homepage": "http://sourceforge.net/projects/xineliboutput",
-	"filename": "pool/main/v/vdr-plugin-xineliboutput/xineliboutput-wlfe_2.3.0-1+b1_amd64.deb",
-	"size": 62180,
-	"md5": "09fbfead6b48cf1a86fa57da45e54847",
-	"sha256": "bcb6b4315dc9bacbeb0dc54c2c9f7e78b3e63738f814904890047f0673c5f050",
-	"descriptionMd5": "53703668135c571f76dda48b6f5d7b5c"
+	"filename": "pool/main/v/vdr-plugin-xineliboutput/xineliboutput-wlfe_2.3.0-2_amd64.deb",
+	"size": 70468,
+	"md5": "daaca43055c3380bbd9b300ee2e43089",
+	"sha256": "80bb22dc77a67630edbe6d1d7773be1e42b2eb43856e603d27855045a825239f",
+	"descriptionMd5": "10cbbeaa9864db9670ca5d4a691c8f7e"
 }
