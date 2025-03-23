@@ -5,13 +5,12 @@
 		"Size"
 	],
 	"package": "qpsmtpd",
-	"version": "0.94-7",
+	"version": "0.94-8",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"adduser (>= 3.0)",
-		"debconf (>= 1.0.0)",
 		"libclamav-client-perl",
 		"libdigest-hmac-perl",
 		"libio-socket-inet6-perl",
@@ -22,6 +21,7 @@
 		"libnet-perl",
 		"libsocket6-perl",
 		"sysvinit-utils (>= 3.05-4~)",
+		"debconf (>= 0.5) | debconf-2.0",
 		"perl:any"
 	],
 	"suggests": [
@@ -34,9 +34,9 @@
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Flexible SMTP daemon for network-level spam detection",
 	"homepage": "http://smtpd.develooper.com/",
-	"filename": "pool/main/q/qpsmtpd/qpsmtpd_0.94-7_all.deb",
-	"size": 261664,
-	"md5": "a6ad947ab773609cb3d2b4f7c09920b1",
-	"sha256": "5498edfb39bf72eed2aa099bd1b3cfddca560a46d25218b169957b8d7f2328e3",
+	"filename": "pool/main/q/qpsmtpd/qpsmtpd_0.94-8_all.deb",
+	"size": 261660,
+	"md5": "c3626bf64da26ba72e429bea244d630c",
+	"sha256": "cfbf9edfd0b4ac2d07925d5ece5eb81e8a74031bf8044262324b2983b67f2616",
 	"descriptionMd5": "9047d0dbdf28ebebb1e89abaf63105ed"
 }

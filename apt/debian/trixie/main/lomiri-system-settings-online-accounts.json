@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lomiri-system-settings-online-accounts",
+	"version": "0.12-2",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaccounts-qt5-1 (>= 1.13)",
+		"libc6 (>= 2.4)",
+		"liblomirisystemsettings1 (>= 1.2.0)",
+		"libqt5core5t64 (>= 5.15.1)",
+		"libstdc++6 (>= 5)",
+		"lomiri-online-accounts-client (>= 0.14)",
+		"qml-module-sso-onlineaccounts",
+		"qml-module-lomiri-onlineaccounts-client (>= 0.13)",
+		"qml-module-lomiri-onlineaccounts-plugin (>= 0.13)",
+		"qml-module-lomiri-components | qml-module-lomiri-components-gles",
+		"signon-ui-service",
+		"lomiri-system-settings"
+	],
+	"replaces": [
+		"libonline-accounts-client-dev",
+		"libonline-accounts-client1",
+		"libonline-accounts-plugin-dev"
+	],
+	"breaks": [
+		"libonline-accounts-client-dev",
+		"libonline-accounts-client1",
+		"libonline-accounts-plugin-dev"
+	],
+	"installedSize": 646,
+	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
+	"description": "Online Accounts setup for Lomiri",
+	"homepage": "https://gitlab.com/ubports/development/core/lomiri-system-settings-online-accounts",
+	"filename": "pool/main/l/lomiri-system-settings-online-accounts/lomiri-system-settings-online-accounts_0.12-2_amd64.deb",
+	"size": 73796,
+	"md5": "ffab9eff1da7180f69aea5a852edf607",
+	"sha256": "4b1cc58f4d0dacaa951bb18665e6ea629a9b3912b31f5c468eafc80419fc6da5",
+	"descriptionMd5": "7cf09793011f1520f79362ed50bdae1b"
+}
