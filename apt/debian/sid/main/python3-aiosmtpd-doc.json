@@ -6,7 +6,7 @@
 	],
 	"package": "python3-aiosmtpd-doc",
 	"source": "python-aiosmtpd",
-	"version": "1.4.6-4",
+	"version": "1.4.6-5",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,13 +15,19 @@
 		"libjs-sphinxdoc (>= 8.1)",
 		"sphinx-rtd-theme-common (>= 3.0.2+dfsg)"
 	],
+	"replaces": [
+		"python3-aiosmtpd (<< 1.4.6-2~)"
+	],
+	"breaks": [
+		"python3-aiosmtpd (<< 1.4.6-2~)"
+	],
 	"installedSize": 781,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python3 asyncio based SMTP server (documentation)",
 	"homepage": "https://aiosmtpd.readthedocs.io",
-	"filename": "pool/main/p/python-aiosmtpd/python3-aiosmtpd-doc_1.4.6-4_all.deb",
-	"size": 96116,
-	"md5": "020bec25eefd2980804fff5ee66d0d48",
-	"sha256": "c38f8f86b28aeee241a2b1c33aa8528a1544236bb7ab71713d63ff742c54518f",
+	"filename": "pool/main/p/python-aiosmtpd/python3-aiosmtpd-doc_1.4.6-5_all.deb",
+	"size": 96232,
+	"md5": "f48156ce92b6ae11ffb2340c5857639e",
+	"sha256": "9fe7f65ece8edbd9edc3377a861f038d7c36ce2d2a6c7e913114c28208a267ab",
 	"descriptionMd5": "fbb0b16d815a5e994445ee7b6704b088"
 }

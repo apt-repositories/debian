@@ -6,19 +6,25 @@
 	],
 	"package": "grub-legacy",
 	"source": "grub",
-	"version": "0.97-83",
+	"version": "0.97-84",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"grub-pc (>= 2.12-4)"
 	],
-	"installedSize": 104,
+	"replaces": [
+		"grub-pc (<< 2.12-6)"
+	],
+	"breaks": [
+		"grub-pc (<< 2.12-6)"
+	],
+	"installedSize": 139,
 	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
 	"description": "GRand Unified Bootloader - Transistional package",
-	"filename": "pool/main/g/grub/grub-legacy_0.97-83_amd64.deb",
-	"size": 98408,
-	"md5": "e9864bf3fe39397498d26b241d1be797",
-	"sha256": "21666d6d75e8611f51443edcea00186ebf0134b8c3dea7505cc50a48c62b1c15",
+	"filename": "pool/main/g/grub/grub-legacy_0.97-84_amd64.deb",
+	"size": 107456,
+	"md5": "7724b76ef177db9482e57977fb9f7643",
+	"sha256": "2a8f5a1a7b857df48d054ebb8856508d5e1730e53949bb5932758323289cd491",
 	"descriptionMd5": "58b093d83a3461a50d529fa4b13d5a89"
 }]

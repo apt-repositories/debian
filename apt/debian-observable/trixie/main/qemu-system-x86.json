@@ -6,7 +6,7 @@
 	],
 	"package": "qemu-system-x86",
 	"source": "qemu (1:9.2.2+ds-1)",
-	"version": "1:9.2.2+ds-1+b1",
+	"version": "1:9.2.2+ds-1+b2",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,7 +16,7 @@
 		"libc6 (>= 2.38)",
 		"libcapstone5 (>= 5)",
 		"libfdt1 (>= 1.7.2)",
-		"libfuse3-3 (>= 3.2.3)",
+		"libfuse3-4 (>= 3.17.1~rc0)",
 		"libglib2.0-0t64 (>= 2.78.0)",
 		"libgmp10 (>= 2:6.3.0+dfsg)",
 		"libgnutls30t64 (>= 3.8.6)",
@@ -37,7 +37,7 @@
 		"libvdeplug2t64 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:9.2.2+ds-1+b1)",
+		"qemu-system-common (= 1:9.2.2+ds-1+b2)",
 		"qemu-system-data (>> 1:9.2.2+ds~)",
 		"seabios (>> 1.16.3-1~)",
 		"ipxe-qemu"
@@ -45,10 +45,10 @@
 	"recommends": [
 		"qemu-utils",
 		"ovmf",
-		"qemu-system-gui (= 1:9.2.2+ds-1+b1)",
-		"qemu-system-modules-spice (= 1:9.2.2+ds-1+b1)",
-		"qemu-system-modules-opengl (= 1:9.2.2+ds-1+b1)",
-		"qemu-block-extra (= 1:9.2.2+ds-1+b1)"
+		"qemu-system-gui (= 1:9.2.2+ds-1+b2)",
+		"qemu-system-modules-spice (= 1:9.2.2+ds-1+b2)",
+		"qemu-system-modules-opengl (= 1:9.2.2+ds-1+b2)",
+		"qemu-block-extra (= 1:9.2.2+ds-1+b2)"
 	],
 	"suggests": [
 		"samba",
@@ -61,9 +61,9 @@
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (x86)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-x86_9.2.2+ds-1+b1_amd64.deb",
-	"size": 10115420,
-	"md5": "95240e05f125b2fe314eb96042858bb7",
-	"sha256": "aabbdb16f3f8a23e45ba781a2a70c0a75fc83ed22cba68530e2d15d56723b52f",
+	"filename": "pool/main/q/qemu/qemu-system-x86_9.2.2+ds-1+b2_amd64.deb",
+	"size": 10124596,
+	"md5": "1fe4ba9d45bf939f138f36b8025d30b0",
+	"sha256": "8b67c1c4622a3bd72eb834995edcfd322a5dac27800461f03317301cab695561",
 	"descriptionMd5": "101a12e03df790d974e0f42cbdab8a73"
 }]

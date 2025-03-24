@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "ipmitool",
-	"version": "1.8.19-7.1",
+	"version": "1.8.19-8",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,7 +13,9 @@
 		"libc6 (>= 2.34)",
 		"libfreeipmi17 (>= 1.1.5)",
 		"libreadline8t64 (>= 6.0)",
-		"libssl3t64 (>= 3.0.0)"
+		"libssl3t64 (>= 3.0.0)",
+		"anacron",
+		"wget"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -21,13 +23,13 @@
 	"recommends": [
 		"openipmi"
 	],
-	"installedSize": 6201,
+	"installedSize": 6414,
 	"maintainer": "Jörg Frings-Fürst <debian@jff.email>",
 	"description": "utility for IPMI control with kernel driver or LAN interface (daemon)",
 	"homepage": "https://codeberg.org/IPMITool/ipmitool",
-	"filename": "pool/main/i/ipmitool/ipmitool_1.8.19-7.1_amd64.deb",
-	"size": 1973496,
-	"md5": "3fc565436771a5e4bcedd07c9ba94133",
-	"sha256": "d1ed231a65ccdd59355e349271baa6df4c6821cfcd12dbb58867048dd1cc1e43",
+	"filename": "pool/main/i/ipmitool/ipmitool_1.8.19-8_amd64.deb",
+	"size": 2042472,
+	"md5": "a71ead42a72ba3b46faee260feacd401",
+	"sha256": "6c7d7692a3df86f7527a49dc784ee1858208a56f40ea4858e8d917cee4a10b54",
 	"descriptionMd5": "25a9e9b297f6cb408542afe642c815cb"
 }
