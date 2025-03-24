@@ -5,22 +5,26 @@
 		"Size"
 	],
 	"package": "lxcfs",
-	"version": "6.0.3-1",
+	"version": "6.0.3-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"runit-helper (>= 2.14.0~)",
 		"libc6 (>= 2.38)",
-		"libfuse3-3 (>= 3.2.3)",
+		"libfuse3-4 (>= 3.17.1~rc0)",
 		"libgcc-s1 (>= 3.3.1)"
 	],
-	"installedSize": 263,
+	"breaks": [
+		"runit (<< 2.1.2-51~)"
+	],
+	"installedSize": 291,
 	"maintainer": "pkg-lxc <pkg-lxc-devel@lists.alioth.debian.org>",
 	"description": "FUSE based filesystem for LXC",
 	"homepage": "https://linuxcontainers.org",
-	"filename": "pool/main/l/lxcfs/lxcfs_6.0.3-1_amd64.deb",
-	"size": 82652,
-	"md5": "e6f66b6b0a4905201548a4f4252c00c2",
-	"sha256": "0b82c9c9a099c50c2a699a2d473faaccc336f4c6f0461348b0245c4b26d8f4e9",
+	"filename": "pool/main/l/lxcfs/lxcfs_6.0.3-2_amd64.deb",
+	"size": 83956,
+	"md5": "0a1f07d5bafe92f07474573e2f4c6b28",
+	"sha256": "d0669c33dadcc3dc02e98303290ab72f076b469ca0ffe75fb242ee869b669d37",
 	"descriptionMd5": "f3cabfc6ca3d3433720d9d811af950bd"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rustls-native-certs-dev",
 	"source": "rust-rustls-native-certs",
-	"version": "0.6.3-4.1",
+	"version": "0.6.3-5",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,13 +17,19 @@
 	"suggests": [
 		"ca-certificates"
 	],
+	"replaces": [
+		"librust-rustls-native-certs-dev (<< 0.7)"
+	],
+	"breaks": [
+		"librust-rustls-native-certs-dev (<< 0.7)"
+	],
 	"installedSize": 51,
 	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
 	"description": "rustls use of platform native certificate store - Rust source code",
 	"homepage": "https://github.com/ctz/rustls-native-certs",
-	"filename": "pool/main/r/rust-rustls-native-certs/librust-rustls-native-certs-dev_0.6.3-4.1_all.deb",
-	"size": 14296,
-	"md5": "ea730be12db548007a0e711f01e93b2f",
-	"sha256": "149a6afe7664a17630587f6649639be8dcd45288af2a81bb8990da18a4773131",
+	"filename": "pool/main/r/rust-rustls-native-certs/librust-rustls-native-certs-dev_0.6.3-5_all.deb",
+	"size": 14524,
+	"md5": "55e9828fd435f4a7f4afae9b7c45b55b",
+	"sha256": "6167d906b8af0626769503cebaabf8203cea3dfdeb7f5bcdbeef4acec74a3f63",
 	"descriptionMd5": "be2ea49e33e50cbd3066ffa986266fc3"
 }

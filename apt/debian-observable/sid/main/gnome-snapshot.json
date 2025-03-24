@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "gnome-snapshot",
-	"version": "48.0-1",
+	"version": "48.0-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -31,19 +31,23 @@
 		"libpango-1.0-0 (>= 1.14.0)",
 		"libseccomp2 (>= 2.1.0)"
 	],
+	"recommends": [
+		"libcamera-ipa",
+		"libspa-0.2-libcamera"
+	],
 	"replaces": [
 		"snapshot (<< 45.2-4~)"
 	],
 	"breaks": [
 		"snapshot (<< 45.2-4~)"
 	],
-	"installedSize": 5235,
+	"installedSize": 5240,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Take pictures and videos from your webcam",
 	"homepage": "https://gitlab.gnome.org/GNOME/snapshot",
-	"filename": "pool/main/g/gnome-snapshot/gnome-snapshot_48.0-1_amd64.deb",
-	"size": 1570864,
-	"md5": "9369b2a379857242a093b7fa81a0b7c1",
-	"sha256": "352ab1a7533285fa75ed16496a8b2d38cd7e8916389ac0789d92bd59d378ab68",
-	"descriptionMd5": "000914f1cb27d53954f2237eb6ec0ccb"
+	"filename": "pool/main/g/gnome-snapshot/gnome-snapshot_48.0-2_amd64.deb",
+	"size": 1571452,
+	"md5": "be95a7edf0146cd9f8ebf8409218e8bb",
+	"sha256": "02f627b1788c11c4fffa488111332a40e6db4ddfee540448e376f5a6c8e17794",
+	"descriptionMd5": "25378d6d9ad71cca05571624f2a053bf"
 }]

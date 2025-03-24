@@ -6,17 +6,20 @@
 	],
 	"package": "kubernetes-client",
 	"source": "kubernetes",
-	"version": "1.20.5+really1.20.2-1.1",
+	"version": "1.31.4+ds-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 37547,
-	"maintainer": "Janos Lenart <ocsi@debian.org>",
-	"description": "Kubernetes client binary (kubectl)",
-	"homepage": "http://kubernetes.io/",
-	"filename": "pool/main/k/kubernetes/kubernetes-client_1.20.5+really1.20.2-1.1_amd64.deb",
-	"size": 8194676,
-	"md5": "ac384125139048697fc917d2155a9b86",
-	"sha256": "52b81524351fa48e2f312571b21fc538e5d5459397aaea4cd1da4dbf4e139a7c",
-	"descriptionMd5": "bafd2b0159f97bf7142565fa8fa56d1a"
+	"depends": [
+		"kubectl"
+	],
+	"installedSize": 100,
+	"maintainer": "Debian Kubernetes Packaging Team <team+kubernetes@tracker.debian.org>",
+	"description": "Transitional package",
+	"homepage": "https://kubernetes.io/",
+	"filename": "pool/main/k/kubernetes/kubernetes-client_1.31.4+ds-1_amd64.deb",
+	"size": 92404,
+	"md5": "08416deb1d1f42f9ce55b4f4c80c333a",
+	"sha256": "241ee54b9077008c1389340314dd6e7f80871ecab041668158ff2822bf781acc",
+	"descriptionMd5": "098b53cb5345c79e9d43a7c3970e37d5"
 }

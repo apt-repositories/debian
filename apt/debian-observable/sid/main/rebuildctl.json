@@ -6,7 +6,7 @@
 	],
 	"package": "rebuildctl",
 	"source": "rust-rebuildctl",
-	"version": "0.22.1-1",
+	"version": "0.22.1-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,17 +15,19 @@
 		"libc6 (>= 2.39)",
 		"libgcc-s1 (>= 4.2)",
 		"liblzma5 (>= 5.1.1alpha+20120614)",
-		"libssl3t64 (>= 3.0.0)",
 		"libzstd1 (>= 1.5.5)"
 	],
-	"installedSize": 6551,
+	"recommends": [
+		"ca-certificates"
+	],
+	"installedSize": 7803,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Client for rebuilderd server",
 	"homepage": "https://github.com/kpcyrd/rebuilderd",
-	"builtUsing": "rust-colored (= 2.1.0-1), rust-rebuilderd-common (= 0.22.1-1), rustc (= 1.85.0+dfsg1-1)",
-	"filename": "pool/main/r/rust-rebuildctl/rebuildctl_0.22.1-1_amd64.deb",
-	"size": 1804756,
-	"md5": "27c432ab0dd9c68766d2bde97dad2cd6",
-	"sha256": "08bd42385db52c5394a02c4485897fbce1faf1965bee36b073504f2383c6fa98",
+	"builtUsing": "rust-colored (= 2.2.0-1), rust-rebuilderd-common (= 0.22.1-2), rust-rustls (= 0.23.20+ds-10), rust-rustls-native-certs (= 0.6.3-4.1), rust-rustls-pki-types (= 1.11.0-2), rust-rustls-webpki (= 0.102.8-5), rustc (= 1.85.0+dfsg1-1)",
+	"filename": "pool/main/r/rust-rebuildctl/rebuildctl_0.22.1-2_amd64.deb",
+	"size": 2313704,
+	"md5": "3d8de5ad3c722fa946d40d1261c1b8d0",
+	"sha256": "83ce830fdace15d419fb5e7dd73531a682a3cad064a05f05f5f08eb1f8c07e3a",
 	"descriptionMd5": "a793be2b65a9a0728038909e014dbdd1"
 }]
