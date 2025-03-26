@@ -5,20 +5,20 @@
 		"Size"
 	],
 	"package": "tinysparql",
-	"version": "3.8.2-6",
+	"version": "3.8.2-7",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"default-dbus-session-bus | dbus-session-bus",
+		"libglib2.0-bin",
+		"shared-mime-info",
 		"libc6 (>= 2.38)",
 		"libglib2.0-0t64 (>= 2.80.0)",
 		"libjson-glib-1.0-0 (>= 1.5.2)",
 		"libsqlite3-0 (>= 3.20.0)",
 		"libtinysparql-3.0-0 (>= 3.8.1)",
-		"libxml2 (>= 2.7.4)",
-		"shared-mime-info",
-		"libglib2.0-bin",
-		"default-dbus-session-bus | dbus-session-bus"
+		"libxml2 (>= 2.7.4)"
 	],
 	"recommends": [
 		"localsearch"
@@ -33,9 +33,9 @@
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "metadata database, indexer and search tool",
 	"homepage": "https://tracker.gnome.org/",
-	"filename": "pool/main/t/tinysparql/tinysparql_3.8.2-6_amd64.deb",
-	"size": 549908,
-	"md5": "0dd90250d406264443c870bb0e15e29b",
-	"sha256": "14f767d2fedaef45cfe7427f0484535e21c22caff73b3713b045ac825fee53aa",
+	"filename": "pool/main/t/tinysparql/tinysparql_3.8.2-7_amd64.deb",
+	"size": 550428,
+	"md5": "7620a0723865a31f585608066044e000",
+	"sha256": "e9bce37caeadd6ad8c99ce5c00faebdd1220759f893d6f396abfd88a9b9d7a8b",
 	"descriptionMd5": "87313afa17960507074864725e7b27e5"
 }]

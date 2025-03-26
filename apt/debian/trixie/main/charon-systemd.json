@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "charon-systemd",
-	"source": "strongswan (5.9.13-2)",
-	"version": "5.9.13-2+b2",
+	"source": "strongswan",
+	"version": "6.0.1-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libstrongswan (= 5.9.13-2+b2)",
+		"libstrongswan (= 6.0.1-1)",
 		"strongswan-swanctl",
 		"libc6 (>= 2.34)",
 		"libsystemd0",
-		"strongswan-libcharon (>= 5.9.13)"
+		"strongswan-libcharon (>= 6.0.1)"
 	],
-	"installedSize": 194,
+	"conflicts": [
+		"strongswan-charon"
+	],
+	"installedSize": 269,
 	"maintainer": "strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>",
 	"description": "strongSwan IPsec client, systemd support",
 	"homepage": "http://www.strongswan.org",
-	"filename": "pool/main/s/strongswan/charon-systemd_5.9.13-2+b2_amd64.deb",
-	"size": 85284,
-	"md5": "c03ed878f66b700205c00feb592f2019",
-	"sha256": "c443ca0b21bbc64808e2c6f8a5c729017aec117eaa0104ba4aec529284811051",
+	"filename": "pool/main/s/strongswan/charon-systemd_6.0.1-1_amd64.deb",
+	"size": 94792,
+	"md5": "7691f3738dccdbf87bfd60effe6467f5",
+	"sha256": "4247f9b3eee32222dbc7ef71160b885995d7092262bbb9e8f87a09ac6a974531",
 	"descriptionMd5": "aa65f07fc27272b7f25aed8a94e96770"
 }
