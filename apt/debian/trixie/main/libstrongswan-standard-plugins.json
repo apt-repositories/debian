@@ -5,24 +5,29 @@
 		"Size"
 	],
 	"package": "libstrongswan-standard-plugins",
-	"source": "strongswan (5.9.13-2)",
-	"version": "5.9.13-2+b2",
+	"source": "strongswan",
+	"version": "6.0.1-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libstrongswan (= 5.9.13-2+b2)",
+		"libstrongswan (= 6.0.1-1)",
 		"libc6 (>= 2.25)",
-		"libip4tc2 (>= 1.8.3)",
-		"libssl3t64 (>= 3.0.0)"
+		"libip4tc2 (>= 1.8.3)"
 	],
-	"installedSize": 411,
+	"replaces": [
+		"libstrongswan (<< 6.0.0-1~)"
+	],
+	"breaks": [
+		"libstrongswan (<< 6.0.0-1~)"
+	],
+	"installedSize": 377,
 	"maintainer": "strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>",
 	"description": "strongSwan utility and crypto library (standard plugins)",
 	"homepage": "http://www.strongswan.org",
-	"filename": "pool/main/s/strongswan/libstrongswan-standard-plugins_5.9.13-2+b2_amd64.deb",
-	"size": 141480,
-	"md5": "81c0fdad78ee03869ce392590ab73c21",
-	"sha256": "f0b190afe8d34dd6d32b480534cf0df318ad78e67357b2e20c19f1ab21bb87f2",
-	"descriptionMd5": "84424f5380a28b65d960aa52e6f242ea"
+	"filename": "pool/main/s/strongswan/libstrongswan-standard-plugins_6.0.1-1_amd64.deb",
+	"size": 115900,
+	"md5": "b50430a1066490ad583adea83ebfe6d7",
+	"sha256": "f1983ad44ad1cb1f6044822e4323eb60802861a1ad95fd861b97fabd25a866bd",
+	"descriptionMd5": "2061c8d543949e2d7c50012e27340e5e"
 }

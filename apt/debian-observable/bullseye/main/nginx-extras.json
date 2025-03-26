@@ -53,8 +53,68 @@
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "nginx web/proxy server (extended version)",
 	"homepage": "https://nginx.net",
-	"filename": "pool/updates/main/n/nginx/nginx-extras_1.18.0-6.1+deb11u3_amd64.deb",
+	"filename": "pool/main/n/nginx/nginx-extras_1.18.0-6.1+deb11u3_amd64.deb",
 	"size": 529600,
+	"md5": "64dc22a4a407cc8ef21d88a70b4a781b",
 	"sha256": "5873a4ec05bdc61f033556d734f70552f1a4b435a65a012635abef6d92453468",
+	"descriptionMd5": "29cf2b49f0b9a924cda3b3a67701259a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-extras",
+	"source": "nginx",
+	"version": "1.18.0-6.1+deb11u4",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnginx-mod-http-auth-pam (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-cache-purge (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-dav-ext (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-echo (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-fancyindex (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-geoip (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-geoip2 (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-headers-more-filter (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-image-filter (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-lua (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-perl (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-subs-filter (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-uploadprogress (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-upstream-fair (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-http-xslt-filter (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-mail (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-nchan (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-stream (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-stream-geoip (= 1.18.0-6.1+deb11u4)",
+		"libnginx-mod-stream-geoip2 (= 1.18.0-6.1+deb11u4)",
+		"nginx-common (= 1.18.0-6.1+deb11u4)",
+		"iproute2",
+		"libc6 (>= 2.28)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpcre3",
+		"libssl1.1 (>= 1.1.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"nginx-doc (= 1.18.0-6.1+deb11u4)"
+	],
+	"breaks": [
+		"nginx (<< 1.4.5-1)"
+	],
+	"conflicts": [
+		"nginx-core",
+		"nginx-light"
+	],
+	"installedSize": 1318,
+	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
+	"description": "nginx web/proxy server (extended version)",
+	"homepage": "https://nginx.net",
+	"filename": "pool/updates/main/n/nginx/nginx-extras_1.18.0-6.1+deb11u4_amd64.deb",
+	"size": 530292,
+	"sha256": "bd850e79f78573998325fb4a6d51690770d9ad043bc0788ab68ebe42c007f713",
 	"descriptionMd5": "29cf2b49f0b9a924cda3b3a67701259a"
 }]

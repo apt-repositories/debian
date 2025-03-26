@@ -5,20 +5,26 @@
 		"Size"
 	],
 	"package": "ucspi-tcp",
-	"version": "1:0.88-12",
+	"version": "1:0.88-13",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)"
 	],
+	"replaces": [
+		"ucspi-tcp-ipv6"
+	],
+	"conflicts": [
+		"ucspi-tcp-ipv6"
+	],
 	"installedSize": 372,
 	"maintainer": "Peter Pentchev <roam@debian.org>",
 	"description": "command-line tools for building TCP client-server applications",
 	"homepage": "http://cr.yp.to/ucspi-tcp",
-	"filename": "pool/main/u/ucspi-tcp/ucspi-tcp_0.88-12_amd64.deb",
-	"size": 72196,
-	"md5": "16a449975981a6e208b825763b966d3a",
-	"sha256": "ab725bcfec52a75a4e40c536a13917492d0ec4d4eae036583c37ee8f82ea7b60",
+	"filename": "pool/main/u/ucspi-tcp/ucspi-tcp_0.88-13_amd64.deb",
+	"size": 72504,
+	"md5": "35da5a279d7295e45e1abf4c81ff1862",
+	"sha256": "e4ba79ef7779e2e2d9325c4fd2b9a6350e607705b25d6f27e9b5ae0782d3b3ae",
 	"descriptionMd5": "82875864414a7b3635f3dd400c43801e"
 }]
