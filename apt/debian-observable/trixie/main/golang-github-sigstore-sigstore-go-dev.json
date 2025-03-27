@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-sigstore-sigstore-go-dev",
 	"source": "sigstore-go",
-	"version": "0.6.2-3",
+	"version": "0.7.0-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -30,13 +30,16 @@
 		"golang-golang-x-mod-dev",
 		"golang-google-protobuf-dev"
 	],
-	"installedSize": 517,
+	"breaks": [
+		"cosign (<< 2.4.3~)"
+	],
+	"installedSize": 560,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Sigstore signing and verification (Go library)",
 	"homepage": "https://github.com/sigstore/sigstore-go",
-	"filename": "pool/main/s/sigstore-go/golang-github-sigstore-sigstore-go-dev_0.6.2-3_all.deb",
-	"size": 98204,
-	"md5": "8a69847763efff8c71a2643beca15083",
-	"sha256": "e0cc72574462006552d0cd648d8cbf3475f6c84288ab00209ddd78567a8ee461",
+	"filename": "pool/main/s/sigstore-go/golang-github-sigstore-sigstore-go-dev_0.7.0-2_all.deb",
+	"size": 103424,
+	"md5": "c399fb96bb8b733b3ed996b9934b222f",
+	"sha256": "96b93b39a3ad262db117b5e03e7ea8d5a587d82d12ca5ad4de7616f8d6eb6a12",
 	"descriptionMd5": "99c90524c35ccdfa6467892b247bec21"
 }]

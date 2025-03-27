@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "varnish-selector",
-	"source": "libvmod-selector (2.6.0-5)",
-	"version": "2.6.0-5+b1",
+	"source": "libvmod-selector",
+	"version": "2.6.0-5.1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"varnishabi-20.1",
+		"varnishabi-21.0",
+		"varnishabi-strict-71fc9d211c471106e4be590f3816a56ba156a833",
 		"libc6 (>= 2.14)",
 		"libvarnishapi3 (>= 7.6.0-2~)"
 	],
@@ -19,9 +20,9 @@
 	"maintainer": "Varnish Package Maintainers <team+varnish-team@tracker.debian.org>",
 	"description": "match strings with backends, regexen and other strings",
 	"homepage": "https://code.uplex.de/uplex-varnish/libvmod-selector",
-	"filename": "pool/main/libv/libvmod-selector/varnish-selector_2.6.0-5+b1_amd64.deb",
-	"size": 59996,
-	"md5": "bf1dd366b59752801f5c7d20e0d3fa68",
-	"sha256": "a121ec5f040387a9d99292f1325e017988c40caedebe3cd884e451db9c433dbb",
+	"filename": "pool/main/libv/libvmod-selector/varnish-selector_2.6.0-5.1_amd64.deb",
+	"size": 59916,
+	"md5": "df9ac8c28e168b4837a5241ada17ce58",
+	"sha256": "f8a23ebaf8b6c7e50de957e5db04af26e2eac9c95d15cd26373422717b07ceea",
 	"descriptionMd5": "6ae2aa1126cf8b03d8f801d1ae088c25"
 }]
