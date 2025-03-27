@@ -6,7 +6,7 @@
 	],
 	"package": "librust-hyper-timeout-dev",
 	"source": "rust-hyper-timeout",
-	"version": "0.5.2-2",
+	"version": "0.5.2-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"librust-tokio-1+default-dev (>= 1.35-~~)",
 		"librust-tower-service-0.3+default-dev"
 	],
+	"breaks": [
+		"librust-tonic-dev (<< 0.12.3)"
+	],
 	"installedSize": 81,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Connect, read and write timeout aware connector to be used with hyper Client - Rust source code",
 	"homepage": "https://github.com/hjr3/hyper-timeout",
-	"filename": "pool/main/r/rust-hyper-timeout/librust-hyper-timeout-dev_0.5.2-2_amd64.deb",
-	"size": 15468,
-	"md5": "dd485cb2d4a1f76666c9e7d13d2ca010",
-	"sha256": "0dc635cd50834869af2188678d740020acc4d8723358a9c9f0db9fd679e7d929",
+	"filename": "pool/main/r/rust-hyper-timeout/librust-hyper-timeout-dev_0.5.2-3_amd64.deb",
+	"size": 15524,
+	"md5": "7e6e9a526de8339ad963fd715b1748ba",
+	"sha256": "5be38c0959844702be01146fbeda75c025e619919ba38e252f50d85f8fb5c39d",
 	"descriptionMd5": "1e54498e2dfcfe0ef271057f6182d335"
 }]

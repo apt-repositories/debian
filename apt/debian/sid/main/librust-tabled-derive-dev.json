@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "librust-tabled-derive-dev",
-	"source": "rust-tabled-derive (0.6.0-1)",
-	"version": "0.6.0-1+b3",
+	"source": "rust-tabled-derive",
+	"version": "0.10.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-heck-0.4+default-dev",
-		"librust-proc-macro-error-1+default-dev",
+		"librust-proc-macro-error2-2+default-dev (>= 2.0.1-~~)",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
-		"librust-syn-1+default-dev"
+		"librust-syn-2+default-dev",
+		"librust-syn-2+extra-traits-dev",
+		"librust-syn-2+full-dev",
+		"librust-syn-2+visit-mut-dev"
 	],
-	"installedSize": 53,
+	"installedSize": 74,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive macros which is used by tabled crate - Rust source code",
-	"filename": "pool/main/r/rust-tabled-derive/librust-tabled-derive-dev_0.6.0-1+b3_amd64.deb",
-	"size": 11040,
-	"md5": "1aefa77faac88c951d432084a87af8f7",
-	"sha256": "441d2e32b9fae23e5c0148cef94b500eeb9e46e4be4ae98e43f7ce3205930758",
-	"descriptionMd5": "e3b201be707b5cd4f8fb63df27144ec8"
+	"homepage": "https://github.com/zhiburt/tabled",
+	"filename": "pool/main/r/rust-tabled-derive/librust-tabled-derive-dev_0.10.0-1_amd64.deb",
+	"size": 13308,
+	"md5": "fbdba3f927556caf3e49b789bcd6c0f9",
+	"sha256": "26d1d77c6322dc34e8092e6d9b165365e9318ea7eb4c57942cac2c4c009c29b8",
+	"descriptionMd5": "77a915ab44649997b023c5f7f3b914a3"
 }

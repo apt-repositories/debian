@@ -6,20 +6,23 @@
 	],
 	"package": "golang-github-go-openapi-jsonpointer-dev",
 	"source": "golang-github-go-openapi-jsonpointer",
-	"version": "1:0.21.0-1",
+	"version": "1:0.21.1-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"golang-github-go-openapi-swag-dev (>= 1:0.22.5)"
 	],
-	"installedSize": 50,
+	"breaks": [
+		"golang-github-go-openapi-validate-dev (<< 0.24.0-3)"
+	],
+	"installedSize": 51,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "fork of gojsonpointer with support for structs (Go library)",
 	"homepage": "https://github.com/go-openapi/jsonpointer",
-	"filename": "pool/main/g/golang-github-go-openapi-jsonpointer/golang-github-go-openapi-jsonpointer-dev_0.21.0-1_all.deb",
-	"size": 10556,
-	"md5": "9a6a08e8bcd1a5ac711db7932f948eab",
-	"sha256": "c7c9eba69a03ea3dec88c8aa279363adf19cdb8bd716eaec8f291aa4bbfd8d1b",
+	"filename": "pool/main/g/golang-github-go-openapi-jsonpointer/golang-github-go-openapi-jsonpointer-dev_0.21.1-2_all.deb",
+	"size": 10880,
+	"md5": "61965ffb1418753ef1ec0f66e5d0bba4",
+	"sha256": "1b95c5b4f774a7b26f85a732cfbb99c7f63bcd96c94148ad710de3fa61d613c7",
 	"descriptionMd5": "a61d5ec96bd172b11213e3387ce293cd"
 }]
