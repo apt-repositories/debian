@@ -5,34 +5,29 @@
 		"Size"
 	],
 	"package": "libgssdp-1.6-dev",
-	"source": "gssdp (1.6.3-1)",
-	"version": "1.6.3-1+b3",
+	"source": "gssdp",
+	"version": "1.6.3-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libgssdp-1.6-0 (= 1.6.3-1+b3)",
-		"gir1.2-gssdp-1.6 (= 1.6.3-1+b3)",
-		"libsoup-3.0-dev"
+		"libgssdp-1.6-0 (= 1.6.3-2)",
+		"libsoup-3.0-dev",
+		"gir1.2-gio-2.0-dev",
+		"gir1.2-gobject-2.0-dev",
+		"gir1.2-gssdp-1.6 (= 1.6.3-2)",
+		"gir1.2-soup-3.0-dev"
 	],
 	"suggests": [
 		"libgssdp-doc"
 	],
-	"replaces": [
-		"gir-repository-dev (<= 0.6.5-5)",
-		"gupnp-vala (<= 0.10.4)"
-	],
-	"breaks": [
-		"gir-repository-dev (<= 0.6.5-5)",
-		"gupnp-vala (<= 0.10.4)"
-	],
-	"installedSize": 136,
+	"installedSize": 135,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GObject-based library for SSDP (development files)",
 	"homepage": "https://wiki.gnome.org/Projects/GUPnP",
-	"filename": "pool/main/g/gssdp/libgssdp-1.6-dev_1.6.3-1+b3_amd64.deb",
-	"size": 16000,
-	"md5": "ab1f5437a8e02dffcf94a2fdd842a69d",
-	"sha256": "66399005542526f23d0c4ebda636b2ba266b903b4f698e3826901e9e5428856d",
+	"filename": "pool/main/g/gssdp/libgssdp-1.6-dev_1.6.3-2_amd64.deb",
+	"size": 15784,
+	"md5": "17883edce65e580668bc5fdcd36fb9bc",
+	"sha256": "e12129fff5056dadc51af1edb3781e4091bcc4c0c2c0646c4bc435f8eddceff2",
 	"descriptionMd5": "24d125dcec038893face07f8c878be98"
 }

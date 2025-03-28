@@ -5,32 +5,33 @@
 		"Size"
 	],
 	"package": "feedbackd",
-	"version": "0.7.0-1",
+	"version": "0.8.0-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"adduser",
+		"feedbackd-common (>= 0.8.0-1)",
+		"sound-theme-freedesktop",
 		"init-system-helpers (>= 1.52)",
 		"libc6 (>= 2.34)",
 		"libfeedback-0.0-0 (>= 0.7.0)",
-		"libglib2.0-0t64 (>= 2.80.0)",
+		"libglib2.0-0t64 (>= 2.83.0)",
 		"libgmobile0 (>= 0.1.0)",
 		"libgsound0t64 (>= 1.0.1)",
 		"libgudev-1.0-0 (>= 146)",
-		"libjson-glib-1.0-0 (>= 1.5.2)",
-		"feedbackd-common (>= 0.7.0-1)",
-		"sound-theme-freedesktop"
+		"libjson-glib-1.0-0 (>= 1.5.2)"
 	],
 	"recommends": [
 		"gsettings-desktop-schemas"
 	],
-	"installedSize": 483,
+	"installedSize": 491,
 	"maintainer": "DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>",
 	"description": "DBus service for haptic/visual/audio feedback",
 	"homepage": "https://source.puri.sm/Librem5/feedbackd",
-	"filename": "pool/main/f/feedbackd/feedbackd_0.7.0-1_amd64.deb",
-	"size": 92156,
-	"md5": "0eb3c27b6944bbd035fe2ce5c709883e",
-	"sha256": "c02629f49b17674e512e7d55e4278e3e8555155b90704948429c2cc1c56207c0",
+	"filename": "pool/main/f/feedbackd/feedbackd_0.8.0-1_amd64.deb",
+	"size": 94636,
+	"md5": "f61f6fba629ea094bedfbd8953ad58d6",
+	"sha256": "2d69e5b1a7af2f6d1a7a64ed9073ed04c22d6b13d7de507752f8d0f7001e1afa",
 	"descriptionMd5": "e21f85224431aebcd16699f4033e0f84"
 }

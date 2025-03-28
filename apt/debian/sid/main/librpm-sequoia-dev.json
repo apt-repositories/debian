@@ -6,20 +6,26 @@
 	],
 	"package": "librpm-sequoia-dev",
 	"source": "rust-rpm-sequoia",
-	"version": "1.7.0-3",
+	"version": "1.7.0-4",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librpm-sequoia-1 (= 1.7.0-3)"
+		"librpm-sequoia-1 (= 1.7.0-4)"
+	],
+	"replaces": [
+		"librpm-sequoia-1 (<< 1.7.0-3)"
+	],
+	"breaks": [
+		"librpm-sequoia-1 (<< 1.7.0-3)"
 	],
 	"installedSize": 13,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Provides an implementation of the",
 	"homepage": "https://sequoia-pgp.org/",
-	"filename": "pool/main/r/rust-rpm-sequoia/librpm-sequoia-dev_1.7.0-3_amd64.deb",
-	"size": 2100,
-	"md5": "ee1ba9da2d8b9328ead0a2988e9c6db6",
-	"sha256": "87ba3d74b2f064b3c8fbdedb0e4d9a789a02e353a9fa89d5db54c911ee10d36f",
+	"filename": "pool/main/r/rust-rpm-sequoia/librpm-sequoia-dev_1.7.0-4_amd64.deb",
+	"size": 2280,
+	"md5": "40c8a249e45eea6e46f5cc707dfb1154",
+	"sha256": "f0af0e38fdace8818d4425e1d5cbdc2bf6ec3ffc6e48f198b3b136a9b0bdac39",
 	"descriptionMd5": "33dda3b049d4ea9dc20f8cad28150338"
 }
