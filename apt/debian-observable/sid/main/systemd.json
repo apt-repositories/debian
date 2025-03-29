@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "systemd",
-	"version": "257.4-3",
+	"version": "257.4-5",
 	"section": "admin",
 	"priority": "important",
 	"architecture": "amd64",
@@ -18,12 +18,12 @@
 		"libseccomp2 (>= 2.3.1)",
 		"libselinux1 (>= 3.1~)",
 		"libssl3t64 (>= 3.4.0)",
-		"libsystemd0 (= 257.4-3)",
+		"libsystemd0 (= 257.4-5)",
 		"mount"
 	],
 	"preDepends": [
 		"libc6 (>= 2.38)",
-		"libsystemd-shared (= 257.4-3)"
+		"libsystemd-shared (= 257.4-5)"
 	],
 	"recommends": [
 		"default-dbus-system-bus | dbus-system-bus",
@@ -49,16 +49,16 @@
 	"conflicts": [
 		"consolekit",
 		"libpam-ck-connector",
-		"opensysusers",
+		"opensysusers (<< 0.7.3-4.1~)",
 		"systemd-shim"
 	],
-	"installedSize": 9949,
+	"installedSize": 9941,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "system and service manager",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd_257.4-3_amd64.deb",
-	"size": 3093728,
-	"md5": "64cf463e89de7eebc8f9a426ec45d5e3",
-	"sha256": "0a9c87bfaf6e40fb69724f36640aeacd13b59260a77d1bfd449baf8010d83490",
+	"filename": "pool/main/s/systemd/systemd_257.4-5_amd64.deb",
+	"size": 3087036,
+	"md5": "5c193ec904220cb9524acb8aef171388",
+	"sha256": "74577767f46ea828c595f7d1c04f750bc2250744d326479e1077aefcc97b6126",
 	"descriptionMd5": "2728f00e9cb47f195aa39097a3afbc42"
 }]

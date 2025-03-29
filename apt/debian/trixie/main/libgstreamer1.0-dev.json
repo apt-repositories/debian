@@ -6,20 +6,24 @@
 	],
 	"package": "libgstreamer1.0-dev",
 	"source": "gstreamer1.0",
-	"version": "1.26.0-1",
+	"version": "1.26.0-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libgstreamer1.0-0 (= 1.26.0-1)",
+		"libgstreamer1.0-0 (= 1.26.0-3)",
 		"libc6-dev | libc-dev",
 		"pkgconf",
 		"libglib2.0-dev",
 		"libunwind-dev",
 		"libdw-dev",
+		"gir1.2-gstreamer-1.0 (= 1.26.0-3)",
+		"gir1.2-gio-2.0-dev",
+		"gir1.2-glib-2.0-dev",
+		"gir1.2-gmodule-2.0-dev",
+		"gir1.2-gobject-2.0-dev",
 		"libc6 (>= 2.34)",
-		"libglib2.0-0t64 (>= 2.12.0)",
-		"gir1.2-gstreamer-1.0 (= 1.26.0-1)"
+		"libglib2.0-0t64 (>= 2.12.0)"
 	],
 	"suggests": [
 		"gstreamer1.0-doc"
@@ -28,9 +32,9 @@
 	"maintainer": "Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>",
 	"description": "GStreamer core development files",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/g/gstreamer1.0/libgstreamer1.0-dev_1.26.0-1_amd64.deb",
-	"size": 573572,
-	"md5": "da489f7150c458aaa7624363abb2e40e",
-	"sha256": "36e90b99966a4200a4b96a30afb7ba7f40ff18a70b55577aedd526766db5a575",
+	"filename": "pool/main/g/gstreamer1.0/libgstreamer1.0-dev_1.26.0-3_amd64.deb",
+	"size": 573516,
+	"md5": "36b8db4828c7520c195a0828ca8eb5dd",
+	"sha256": "dafc92461e31e4397dccb9a64e2fe81f00f3c1c5a90f8768d1461cf072d83caa",
 	"descriptionMd5": "de1692260510350a48f76ec91eae40a9"
 }
