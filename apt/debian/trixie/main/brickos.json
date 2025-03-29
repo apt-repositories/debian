@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "brickos",
-	"version": "0.9.0.dfsg-13",
+	"version": "0.9.0.dfsg-14",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)"
+		"libc6 (>= 2.34)",
+		"perl:any"
 	],
 	"recommends": [
 		"binutils-h8300-hms",
@@ -20,18 +21,22 @@
 		"brickos-doc"
 	],
 	"replaces": [
+		"brickos-doc (= 0.9.0.dfsg-13)",
 		"legos"
+	],
+	"breaks": [
+		"brickos-doc (= 0.9.0.dfsg-13)"
 	],
 	"conflicts": [
 		"legos"
 	],
-	"installedSize": 534,
+	"installedSize": 526,
 	"maintainer": "Debian LEGO Team <debian-lego-team@lists.alioth.debian.org>",
 	"description": "alternative OS for LEGO(r) Mindstorms RCX. Supports devel. in C/C++",
 	"homepage": "https://brickos.sourceforge.net",
-	"filename": "pool/main/b/brickos/brickos_0.9.0.dfsg-13_amd64.deb",
-	"size": 105408,
-	"md5": "055da77637dbc3e2a239a862b8f9e8fc",
-	"sha256": "777970e6e1b73166646e753395f387e4f109828728b6fcdcbca292c684431aa5",
-	"descriptionMd5": "10cd698b2ec20e7c7087952e4647bc32"
+	"filename": "pool/main/b/brickos/brickos_0.9.0.dfsg-14_amd64.deb",
+	"size": 103816,
+	"md5": "55633c6b75ed4175f73a035fdabeba17",
+	"sha256": "43ff04c8e100e51cfd5ab02860b3da7ae28708fd3d24f2566ec0562241816823",
+	"descriptionMd5": "8a2b3b33b88135a88996b8a6159a4cad"
 }
