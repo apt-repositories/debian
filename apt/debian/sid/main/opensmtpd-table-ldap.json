@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opensmtpd-table-ldap",
+	"version": "1.0-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"opensmtpd (>= 7.6.0)",
+		"libc6 (>= 2.38)"
+	],
+	"replaces": [
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"enhances": [
+		"opensmtpd"
+	],
+	"breaks": [
+		"opensmtpd (<< 7.6.0)",
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"installedSize": 69,
+	"maintainer": "Ryan Kavanagh <rak@debian.org>",
+	"description": "lookup OpenSMTPD users in LDAP tables",
+	"homepage": "https://opensmtpd.org/",
+	"filename": "pool/main/o/opensmtpd-table-ldap/opensmtpd-table-ldap_1.0-1_amd64.deb",
+	"size": 21880,
+	"md5": "b29e96eb8434b3f199c506a21585b81c",
+	"sha256": "b2920a0d1d5186f7978c2a4909f185edfa8567e8b862521579afbd64343be3ed",
+	"descriptionMd5": "b72d2f6733f8a11c69d097d4f2a403d4"
+}

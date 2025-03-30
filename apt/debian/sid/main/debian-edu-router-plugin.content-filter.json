@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debian-edu-router-plugin.content-filter",
+	"source": "debian-edu-router",
+	"version": "2.13.0~beta3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"apache2",
+		"debian-edu-router-config (>= 2.13.0~beta3~)",
+		"debian-edu-router-config (<< 2.13.0~beta3.1~)",
+		"dnsutils",
+		"e2guardian (>= 5.5.4)",
+		"squid-openssl",
+		"systemd"
+	],
+	"preDepends": [
+		"debconf",
+		"debian-edu-router-common (>= 2.13.0~beta3)",
+		"debian-edu-router-common (<< 2.13.0~beta3.1~)",
+		"ssl-cert"
+	],
+	"recommends": [
+		"squid-langpack"
+	],
+	"enhances": [
+		"debian-edu-router-config"
+	],
+	"installedSize": 2548,
+	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
+	"description": "Debian Edu Router Plugin for content filtering",
+	"homepage": "https://salsa.debian.org/debian-edu/debian-edu-router",
+	"filename": "pool/main/d/debian-edu-router/debian-edu-router-plugin.content-filter_2.13.0~beta3_all.deb",
+	"size": 811836,
+	"md5": "99255143e17ea9f377a5bc9c2bff84cd",
+	"sha256": "4604ea368d91ccfae960cc95c96c9d07a1e353bc23911cedfc368b4aea6731d3",
+	"descriptionMd5": "0ef43bcbfe38b23918fa4ed6809ee91e"
+}

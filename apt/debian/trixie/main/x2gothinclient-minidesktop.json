@@ -1,0 +1,58 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "x2gothinclient-minidesktop",
+	"source": "x2gothinclient",
+	"version": "1.5.0.1-10.2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dconf-gsettings-backend | gsettings-backend",
+		"mate-desktop-environment-core",
+		"mate-icon-theme",
+		"mate-themes",
+		"mate-backgrounds",
+		"mate-media-pulse | hello",
+		"mate-settings-daemon-pulse | hello",
+		"murrine-themes",
+		"nuvola-icon-theme | hicolor-icon-theme",
+		"firefox-esr | firefox | chromium | x-www-browser",
+		"libglib2.0-bin",
+		"pavucontrol",
+		"pinentry-x2go",
+		"pulseaudio",
+		"xauth",
+		"xinit",
+		"x2gothinclient-common (>= 1.5.0.1-10.2)",
+		"x2gothinclient-common (<< 1.5.0.1-10.2.1)",
+		"lightdm"
+	],
+	"preDepends": [
+		"x2goclient"
+	],
+	"recommends": [
+		"alsa-tools"
+	],
+	"replaces": [
+		"x2gothinclient-minidesktop-mate"
+	],
+	"breaks": [
+		"x2gothinclient-minidesktop-mate"
+	],
+	"conflicts": [
+		"x2gothinclient"
+	],
+	"installedSize": 88,
+	"maintainer": "Debian Remote Maintainers <debian-remote@lists.debian.org>",
+	"description": "Minimal desktop for X2Go Thin Client chroot (based on MATE)",
+	"homepage": "https://code.x2go.org/releases/source/x2gothinclient",
+	"filename": "pool/main/x/x2gothinclient/x2gothinclient-minidesktop_1.5.0.1-10.2_all.deb",
+	"size": 22384,
+	"md5": "10b45c48c62d600adc1cdf04f9a5d7fe",
+	"sha256": "b21cafb7f11935aeab67fb391c07efd160d51968493e26359ba74092553dedc2",
+	"descriptionMd5": "9470ab90ac785b01691e22d73d7f3ae6"
+}

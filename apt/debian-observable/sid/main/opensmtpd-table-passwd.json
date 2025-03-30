@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opensmtpd-table-passwd",
+	"version": "1.0.2-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"opensmtpd (>= 7.6.0)",
+		"libc6 (>= 2.38)"
+	],
+	"replaces": [
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"enhances": [
+		"opensmtpd"
+	],
+	"breaks": [
+		"opensmtpd (<< 7.6.0)",
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"installedSize": 49,
+	"maintainer": "Ryan Kavanagh <rak@debian.org>",
+	"description": "lookup OpenSMTPD users in passwd-format tables",
+	"homepage": "https://opensmtpd.org/",
+	"filename": "pool/main/o/opensmtpd-table-passwd/opensmtpd-table-passwd_1.0.2-1_amd64.deb",
+	"size": 12820,
+	"md5": "dbfb6c314fc03b002885095240d02d3f",
+	"sha256": "3f76a2e19fa862f9514763100b3aedcf8e8f32a2159331ff7cfb502358e76d84",
+	"descriptionMd5": "c6029faafb2d5c34cbaa30436084d9d9"
+}]

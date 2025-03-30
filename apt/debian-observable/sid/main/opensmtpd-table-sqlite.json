@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opensmtpd-table-sqlite",
+	"version": "1.0.1-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"opensmtpd (>= 7.6.0)",
+		"libc6 (>= 2.38)",
+		"libsqlite3-0 (>= 3.5.9)"
+	],
+	"replaces": [
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"enhances": [
+		"opensmtpd"
+	],
+	"breaks": [
+		"opensmtpd (<< 7.6.0)",
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"installedSize": 54,
+	"maintainer": "Ryan Kavanagh <rak@debian.org>",
+	"description": "lookup OpenSMTPD users in SQLite tables",
+	"homepage": "https://opensmtpd.org/",
+	"filename": "pool/main/o/opensmtpd-table-sqlite/opensmtpd-table-sqlite_1.0.1-1_amd64.deb",
+	"size": 15512,
+	"md5": "37a13bb74eb5d28cc8fab1fa7205f94f",
+	"sha256": "807174306d9159e6a46ea409405ec82617091a28787b01cae63a919c185d4000",
+	"descriptionMd5": "8397f70678d00a3a11c984fc5a7fb5c2"
+}]
