@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "x2gothinclient-management",
+	"source": "x2gothinclient",
+	"version": "1.5.0.1-10.2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debootstrap"
+	],
+	"recommends": [
+		"atftpd | tftpd | tftpd-hpa",
+		"syslinux",
+		"pxelinux",
+		"syslinux-themes-debian-squeeze",
+		"nfs-kernel-server"
+	],
+	"suggests": [
+		"dhcp3-server | dnsmasq | isc-dhcp-server"
+	],
+	"replaces": [
+		"x2gothinclientmanagement (<< 1.5.0.0)"
+	],
+	"breaks": [
+		"x2gothinclientmanagement (<< 1.5.0.0)"
+	],
+	"installedSize": 151,
+	"maintainer": "Debian Remote Maintainers <debian-remote@lists.debian.org>",
+	"description": "Management tools for X2Go Thin Client chroot server",
+	"homepage": "https://code.x2go.org/releases/source/x2gothinclient",
+	"filename": "pool/main/x/x2gothinclient/x2gothinclient-management_1.5.0.1-10.2_all.deb",
+	"size": 54352,
+	"md5": "133db692054a494eab3ffaeecbc756b5",
+	"sha256": "7bbad0e33b53709296e126f566b14909910e4a17f3ae476cd7ea527ac95889b5",
+	"descriptionMd5": "c8084ed584ad391947cba3d9a878708d"
+}

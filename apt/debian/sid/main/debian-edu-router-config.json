@@ -6,23 +6,38 @@
 	],
 	"package": "debian-edu-router-config",
 	"source": "debian-edu-router",
-	"version": "2.12.8",
+	"version": "2.13.0~beta3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
+		"dnsmasq",
 		"ifupdown",
 		"iptraf",
-		"uif (>= 1.99.0-3~)",
-		"vlan",
 		"iproute2",
-		"procps"
+		"netcat-openbsd",
+		"openssh-client",
+		"openssh-server",
+		"procps",
+		"uif (>= 1.99.0-3~)",
+		"vlan"
+	],
+	"preDepends": [
+		"debconf",
+		"debian-edu-router-common (>= 2.13.0~beta3)",
+		"debian-edu-router-common (<< 2.13.0~beta3.1~)"
 	],
 	"recommends": [
-		"dnsmasq",
+		"gpm",
 		"ipcalc",
-		"ipv6calc"
+		"ipv6calc",
+		"htop"
+	],
+	"suggests": [
+		"debian-edu-router-plugin.mdns-reflector",
+		"debian-edu-router-plugin.content-filter",
+		"etckeeper"
 	],
 	"conflicts": [
 		"connman",
@@ -33,13 +48,13 @@
 		"shorewall",
 		"ufw"
 	],
-	"installedSize": 811,
+	"installedSize": 861,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "Debian Edu Router Configuration",
-	"homepage": "https://wiki.debian.org/DebianEdu/Router",
-	"filename": "pool/main/d/debian-edu-router/debian-edu-router-config_2.12.8_all.deb",
-	"size": 69536,
-	"md5": "a51d39d888962ca533401fd95eca8b8e",
-	"sha256": "08a50585d4bc7c877ea21b3c3c6f318c1a58e32d4e310582bd18629e0bdfe822",
+	"homepage": "https://salsa.debian.org/debian-edu/debian-edu-router",
+	"filename": "pool/main/d/debian-edu-router/debian-edu-router-config_2.13.0~beta3_all.deb",
+	"size": 78908,
+	"md5": "7717ad9d87436829da1d3c8f9f482181",
+	"sha256": "9f0e42bc02f05696bf75599876040e3773fb107664059f53963b30bfb6fa2a86",
 	"descriptionMd5": "dd646b90683237ab04fdc2424008aed7"
 }

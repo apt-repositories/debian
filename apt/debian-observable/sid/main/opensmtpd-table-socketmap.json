@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opensmtpd-table-socketmap",
+	"version": "1.1.1-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"opensmtpd (>= 7.6.0)",
+		"libc6 (>= 2.38)"
+	],
+	"replaces": [
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"enhances": [
+		"opensmtpd"
+	],
+	"breaks": [
+		"opensmtpd (<< 7.6.0)",
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"installedSize": 48,
+	"maintainer": "Ryan Kavanagh <rak@debian.org>",
+	"description": "lookup OpenSMTPD users or keys in socketmap tables",
+	"homepage": "https://opensmtpd.org/",
+	"filename": "pool/main/o/opensmtpd-table-socketmap/opensmtpd-table-socketmap_1.1.1-1_amd64.deb",
+	"size": 12296,
+	"md5": "9c6ffd8a7e2a23dbb802371dcd6b0949",
+	"sha256": "583d1983c37bb7b7866df3b387fac7a92307cb8b0f73750443854c18587e806c",
+	"descriptionMd5": "1311d03286c6f3bc33bfa02ace11f481"
+}]
