@@ -6,18 +6,18 @@
 	],
 	"package": "nvidia-tesla-460-vulkan-icd",
 	"source": "nvidia-graphics-drivers-tesla-460",
-	"version": "460.106.00-19",
+	"version": "460.106.00-20",
 	"section": "non-free/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"nvidia-vulkan-common",
 		"libvulkan1 (>= 1.0.42)",
-		"libglx-nvidia-tesla-460-0 (= 460.106.00-19)"
+		"libglx-nvidia-tesla-460-0 (= 460.106.00-20)",
+		"libnvidia-tesla-460-rtcore (= 460.106.00-20)"
 	],
 	"recommends": [
-		"libnvidia-tesla-460-cbl (= 460.106.00-19)",
-		"libnvidia-tesla-460-rtcore (= 460.106.00-19)"
+		"libnvidia-tesla-460-cbl (= 460.106.00-20)"
 	],
 	"suggests": [
 		"vulkan-tools"
@@ -29,9 +29,9 @@
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "NVIDIA Vulkan installable client driver (ICD) (Tesla 460 version)",
 	"homepage": "https://www.nvidia.com",
-	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-460/nvidia-tesla-460-vulkan-icd_460.106.00-19_amd64.deb",
-	"size": 119752,
-	"md5": "eaf9bea6276507ab0f66eebf049a300f",
-	"sha256": "45e15f4ab48822aeaa956f03a8c8c6f3f3197c049d03faa44a9d206596901300",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-460/nvidia-tesla-460-vulkan-icd_460.106.00-20_amd64.deb",
+	"size": 119924,
+	"md5": "56eb44818201d2b5457e850f938ac26e",
+	"sha256": "bd87cca7de395a6370c1790fe931643519076a7addf3fc56c2720a0e3ab4a814",
 	"descriptionMd5": "2c40d33564a42d6215ae2127f8c6725b"
 }

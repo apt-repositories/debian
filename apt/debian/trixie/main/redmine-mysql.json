@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "redmine-mysql",
+	"source": "redmine",
+	"version": "6.0.4+ds-1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-mysql | dbconfig-no-thanks",
+		"default-mysql-client | virtual-mysql-client",
+		"ruby-mysql2 (>= 0.5.0~)",
+		"ruby-with-advisory-lock"
+	],
+	"recommends": [
+		"redmine (= 6.0.4+ds-1)"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"installedSize": 137,
+	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "metapackage providing MySQL dependencies for Redmine",
+	"homepage": "https://www.redmine.org",
+	"filename": "pool/main/r/redmine/redmine-mysql_6.0.4+ds-1_all.deb",
+	"size": 131304,
+	"md5": "342c595907dc6fee4416052ed8f0f4d6",
+	"sha256": "a6f13ba25e235a965e872e637611f96b83319403c30bfbc0b2018a5b438b4d51",
+	"descriptionMd5": "5334d370ac0b467914273b70a17e9522"
+}

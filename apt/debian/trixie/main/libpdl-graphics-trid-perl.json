@@ -5,25 +5,31 @@
 		"Size"
 	],
 	"package": "libpdl-graphics-trid-perl",
-	"version": "2.100-1",
+	"version": "2.100-3",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libopengl-perl",
-		"pdl (>= 1:2.098-4)",
+		"pdl (>= 1:2.099-3)",
 		"pdlapi-20",
-		"perl (>= 5.40.0-8)",
-		"perlapi-5.40.0",
+		"perl (>= 5.40.1-2)",
+		"perlapi-5.40.1",
 		"libc6 (>= 2.4)"
+	],
+	"replaces": [
+		"pdl (<< 1:2.096)"
+	],
+	"breaks": [
+		"pdl (<< 1:2.096)"
 	],
 	"installedSize": 412,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "PDL 3D interface",
 	"homepage": "https://metacpan.org/release/PDL-Graphics-TriD",
-	"filename": "pool/main/libp/libpdl-graphics-trid-perl/libpdl-graphics-trid-perl_2.100-1_amd64.deb",
-	"size": 108164,
-	"md5": "59fc041bafe39393e9228d57dd24cae7",
-	"sha256": "7c31eee57c02062d629dc12c813cccd8083d8ff7da8852719105b761c202ea2f",
+	"filename": "pool/main/libp/libpdl-graphics-trid-perl/libpdl-graphics-trid-perl_2.100-3_amd64.deb",
+	"size": 108660,
+	"md5": "c6589aa03973aead0408a8fdba32a97e",
+	"sha256": "c08e3a4e50d95f8c2fea677cd074ab9290f9c052c166767add273c4de3496718",
 	"descriptionMd5": "73aec037e9aca0f3bf0a59b8e9a96a0a"
 }

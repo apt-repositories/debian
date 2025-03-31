@@ -6,17 +6,23 @@
 	],
 	"package": "kget-doc",
 	"source": "kget",
-	"version": "4:24.12.3-1",
+	"version": "4:24.12.3-2",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
+	"replaces": [
+		"kget (<< 4:24.08.2-1~)"
+	],
+	"breaks": [
+		"kget (<< 4:24.08.2-1~)"
+	],
 	"installedSize": 4519,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "download manager - documentation",
 	"homepage": "https://apps.kde.org/kget",
-	"filename": "pool/main/k/kget/kget-doc_24.12.3-1_all.deb",
-	"size": 3915388,
-	"md5": "ee4090ce874583df77eb122bbdb9f638",
-	"sha256": "b8bc6e230ad74ac6fc2ac73ec173cd95b4e3b619de0e2ee1fd0a49797bd96f06",
+	"filename": "pool/main/k/kget/kget-doc_24.12.3-2_all.deb",
+	"size": 3915528,
+	"md5": "97a708aef490b887b927b98cf6e1d2a8",
+	"sha256": "f56a3975a15ed2bb951020bc765e28a655f7822a99e5b8bf6894c63f7637574b",
 	"descriptionMd5": "fdf100f1fcae214c6a245ff092004d6b"
 }]
