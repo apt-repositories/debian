@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "plasma-desktop",
-	"source": "plasma-desktop (4:6.3.2-2)",
-	"version": "4:6.3.2-2+b2",
+	"version": "4:6.3.2-3",
 	"section": "kde",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,7 +19,7 @@
 		"layer-shell-qt (>= 6.2.90~)",
 		"ocean-sound-theme (>= 6.2.90~)",
 		"oxygen-sounds (>= 4:6.2.90~)",
-		"plasma-desktop-data (= 4:6.3.2-2)",
+		"plasma-desktop-data (= 4:6.3.2-3)",
 		"plasma-desktoptheme",
 		"plasma-integration (>= 6.2.90~)",
 		"plasma-workspace (>= 4:6.2.90~)",
@@ -170,7 +169,7 @@
 		"libkf6kcmutils-bin",
 		"libpam-kwallet5 (>= 6.2.90~)",
 		"plasma-browser-integration (>= 6.2.90~)",
-		"plasma-desktop-doc (>= 4:6.3.2-2)",
+		"plasma-desktop-doc (>= 4:6.3.2-3)",
 		"plasma-discover (>= 6.2.90~)",
 		"plasma-disks (>= 6.2.90~)",
 		"plasma-firewall (>= 6.2.90~)",
@@ -189,19 +188,21 @@
 		"kde-config-flatpak (>= 6.2.90~)"
 	],
 	"replaces": [
+		"plasma-desktop-data (<< 4:6.3.2-3~)",
 		"plasma-workspace (<< 4:6.1.0~)"
 	],
 	"breaks": [
+		"plasma-desktop-data (<< 4:6.3.2-3~)",
 		"plasma-workspace (<< 4:6.1.0~)",
 		"user-manager (<< 4:5.20)"
 	],
-	"installedSize": 7519,
+	"installedSize": 7716,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Tools and widgets for the desktop",
 	"homepage": "https://invent.kde.org/plasma/plasma-desktop",
-	"filename": "pool/main/p/plasma-desktop/plasma-desktop_6.3.2-2+b2_amd64.deb",
-	"size": 1510080,
-	"md5": "e409e4b99dc5eaff89a9d7047d33f605",
-	"sha256": "cc57af9236e9c48e4d0edd0c3d691db0d778e50d4bb3780b57184c36b1a7e8e0",
+	"filename": "pool/main/p/plasma-desktop/plasma-desktop_6.3.2-3_amd64.deb",
+	"size": 1546380,
+	"md5": "d802600d029f4cc1615bd289e44a6aa4",
+	"sha256": "e11cb5dcf71e3b883258760e5779477e8af2198fdab091fca203e85289d81805",
 	"descriptionMd5": "75fe427efb7974561485d1b970aaa5b3"
 }]
