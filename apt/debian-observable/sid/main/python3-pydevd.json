@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-pydevd",
+	"source": "pydevd",
+	"version": "3.3.0+ds-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gdb",
+		"python3-coverage",
+		"python3 (<< 3.14)",
+		"python3 (>= 3~)",
+		"python3:any",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 4.1.1)"
+	],
+	"replaces": [
+		"pydevd",
+		"python3-omegaconf (<< 2.2.2-1)"
+	],
+	"breaks": [
+		"python3-debugpy (<< 1.8.0+ds)",
+		"python3-omegaconf (<< 2.2.2-1)"
+	],
+	"conflicts": [
+		"pydevd"
+	],
+	"installedSize": 3864,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
+	"description": "Debugger used by debugpy",
+	"homepage": "https://github.com/fabioz/PyDev.Debugger/",
+	"builtUsing": "python-bytecode (= 0.16.1-2)",
+	"filename": "pool/main/p/pydevd/python3-pydevd_3.3.0+ds-2_amd64.deb",
+	"size": 700680,
+	"md5": "087f09462149ad78aed385520e3a3595",
+	"sha256": "0bec40b02cb5ebf9d23148a0eab89a043c1283b8a148fa0aa19d3d351d5dfa22",
+	"descriptionMd5": "fc79b6ef17d4930b380d7ee459fe06ce"
+}]

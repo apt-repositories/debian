@@ -6,17 +6,24 @@
 	],
 	"package": "libzmat1",
 	"source": "zmat",
-	"version": "0.9.9+ds.1-3",
+	"version": "0.9.9+ds.1-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 126,
+	"depends": [
+		"libblosc2-4 (>= 2.9.2)",
+		"libc6 (>= 2.14)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"installedSize": 111,
 	"maintainer": "Debian Octave Group <team+pkg-octave-team@tracker.debian.org>",
-	"description": "compression library - runtime",
+	"description": "compression library - shared library object",
 	"homepage": "https://github.com/NeuroJSON/zmat",
-	"filename": "pool/main/z/zmat/libzmat1_0.9.9+ds.1-3_amd64.deb",
-	"size": 49508,
-	"md5": "64fd8dd57c46110a6af2fae3d4d13711",
-	"sha256": "957e4f3d34d01382eb37498270791a744599c0566b26110c2ccdc72b9427e5fe",
-	"descriptionMd5": "37af48d9760f878fdc3383176d4e7b76"
+	"filename": "pool/main/z/zmat/libzmat1_0.9.9+ds.1-4_amd64.deb",
+	"size": 48924,
+	"md5": "60e55b2be91aa5bfe6a9667d5e97af20",
+	"sha256": "65c50bc591c6ef1a7cea47a7c9cabc1b97727b37baf6d85591f25f1bd2758f54",
+	"descriptionMd5": "1d9aac2a8b4eff8e20a78de94109ad2a"
 }

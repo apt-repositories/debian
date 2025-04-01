@@ -6,7 +6,7 @@
 	],
 	"package": "libcdio19t64",
 	"source": "libcdio",
-	"version": "2.2.0-2",
+	"version": "2.2.0-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,15 +17,19 @@
 		"libcdio19"
 	],
 	"breaks": [
-		"libcdio19 (<< 2.2.0-2)"
+		"libcdio19 (<< 2.2.0-3)",
+		"libiso9660++-0 (<< 2.2.0)",
+		"libiso9660++-0t64 (<< 2.2.0)",
+		"libiso9660-11 (<< 2.2.0)",
+		"libiso9660-11t64 (<< 2.2.0)"
 	],
 	"installedSize": 191,
 	"maintainer": "Gabriel F. T. Gomes <gabriel@debian.org>",
 	"description": "library to read and control CD-ROM",
 	"homepage": "https://www.gnu.org/software/libcdio/",
-	"filename": "pool/main/libc/libcdio/libcdio19t64_2.2.0-2_amd64.deb",
-	"size": 61080,
-	"md5": "2ad5e801e92f0d6be011fe1d818ed2f4",
-	"sha256": "ba572e6676c5ff88a269084bdb03e594fcf4391d91d7a34cb978c834da5a06b0",
+	"filename": "pool/main/libc/libcdio/libcdio19t64_2.2.0-3_amd64.deb",
+	"size": 61160,
+	"md5": "52d7b0a2502af29e6a7dc92b0bb3d2d9",
+	"sha256": "7dccfef5aaab6d9b3db27016aa370ce95134bea1404326e102b6b313372f931c",
 	"descriptionMd5": "cfd26896ddfcc94bc6dec5a0e3cefbf9"
 }]

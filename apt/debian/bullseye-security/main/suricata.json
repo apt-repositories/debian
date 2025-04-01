@@ -1,0 +1,69 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "suricata",
+	"version": "1:6.0.1-3+deb11u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3 (>= 3.2)",
+		"python3-simplejson",
+		"python3:any",
+		"libbpf0 (>= 5.2.6)",
+		"libc6 (>= 2.29)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7 (>= 2.1.8-stable)",
+		"libgcc-s1 (>= 4.2)",
+		"libhiredis0.14 (>= 0.14.1)",
+		"libhtp2 (>= 1:0.5.36-1~)",
+		"libhyperscan5 (>= 5.4.0)",
+		"libjansson4 (>= 2.2)",
+		"libluajit-5.1-2 (>= 2.0.4+dfsg)",
+		"liblz4-1 (>= 0.0~r127)",
+		"libmagic1 (>= 5.12)",
+		"libmaxminddb0 (>= 1.0.2)",
+		"libnet1 (>= 1.1.5)",
+		"libnetfilter-log1 (>= 0.0.13)",
+		"libnetfilter-queue1 (>= 1.0.2)",
+		"libnfnetlink0",
+		"libnspr4 (>= 2:4.9-2~)",
+		"libnss3 (>= 2:3.13.4-2~)",
+		"libpcap0.8 (>= 1.0.0)",
+		"libpcre3",
+		"libyaml-0-2",
+		"zlib1g (>= 1:1.1.4)",
+		"lsb-base (>= 3.0-6)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.7.2)",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"snort-rules-default",
+		"suricata-update"
+	],
+	"suggests": [
+		"libtcmalloc-minimal4"
+	],
+	"replaces": [
+		"libhtp1 (<< 0.5.16)",
+		"suricata-hyperscan (<< 3.2)"
+	],
+	"conflicts": [
+		"libhtp1 (<< 0.5.16)",
+		"suricata-hyperscan (<< 3.2)"
+	],
+	"installedSize": 6479,
+	"maintainer": "Pierre Chifflier <pollux@debian.org>",
+	"description": "Next Generation Intrusion Detection and Prevention Tool",
+	"homepage": "https://www.suricata-ids.org/",
+	"filename": "pool/updates/main/s/suricata/suricata_6.0.1-3+deb11u1_amd64.deb",
+	"size": 1963980,
+	"sha256": "040b08cfa464bc47b486edde4ff35bf87ac633e35d299100d736d1ea813f970b",
+	"descriptionMd5": "d75d723de9cd9ee5828c14e079cfc931"
+}
