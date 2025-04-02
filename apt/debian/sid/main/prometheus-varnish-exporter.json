@@ -5,27 +5,22 @@
 		"Size"
 	],
 	"package": "prometheus-varnish-exporter",
-	"source": "prometheus-varnish-exporter (1.6.1-2)",
-	"version": "1.6.1-2+b9",
+	"version": "1.6.1-3",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"daemon",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"varnish"
 	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
-	],
-	"installedSize": 8705,
+	"installedSize": 8700,
 	"maintainer": "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>",
 	"description": "Prometheus exporter for Varnish",
 	"homepage": "https://github.com/jonnenauha/prometheus_varnish_exporter",
-	"builtUsing": "golang-1.24 (= 1.24.1-1), golang-github-beorn7-perks (= 1.0.1-3), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-klauspost-compress (= 1.18.0+ds1-1), golang-github-munnerz-goautoneg (= 0.0~git20191010.a7dc8b6-2), golang-github-prometheus-client-golang (= 1.21.1-1), golang-github-prometheus-client-model (= 0.6.0-1), golang-github-prometheus-common (= 0.62.0-3), golang-github-prometheus-procfs (= 0.15.1-1), golang-golang-x-sys (= 0.22.0-1), golang-google-protobuf (= 1.36.5-1)",
-	"filename": "pool/main/p/prometheus-varnish-exporter/prometheus-varnish-exporter_1.6.1-2+b9_amd64.deb",
-	"size": 2766364,
-	"md5": "6e36148c601999c24ffc892d577ff978",
-	"sha256": "e5fbf98ec4ae3c4840dc6c2e67390a622a2be262d1dc7248b5e516d8669e4617",
+	"filename": "pool/main/p/prometheus-varnish-exporter/prometheus-varnish-exporter_1.6.1-3_amd64.deb",
+	"size": 2766568,
+	"md5": "e10a8d454befef2ed3d35c3f342f454e",
+	"sha256": "f88989edca2fa09ad32d5d9e3d26506ece87156ae17ebf250586dd61da4583eb",
 	"descriptionMd5": "8e1e38fb3c826f961b59c38a63310a20"
 }

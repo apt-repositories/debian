@@ -5,17 +5,18 @@
 		"Size"
 	],
 	"package": "gom",
-	"version": "0.30.4-1",
+	"version": "0.30.5-1",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
 		"libncurses6 (>= 6)",
-		"libtinfo6 (>= 6)"
+		"libtinfo6 (>= 6)",
+		"debconf (>= 0.5) | debconf-2.0"
 	],
 	"preDepends": [
-		"debconf (>= 1.5.11)"
+		"debconf | debconf-2.0"
 	],
 	"recommends": [
 		"osspd"
@@ -30,9 +31,9 @@
 	"maintainer": "Stephan Sürken <absurd@debian.org>",
 	"description": "Command line and interactive ncurses-based OSS audio mixer",
 	"homepage": "http://software.installiert.net",
-	"filename": "pool/main/g/gom/gom_0.30.4-1_amd64.deb",
-	"size": 65140,
-	"md5": "efa4d03e0c4cdeacf59d7f5e3adef1c9",
-	"sha256": "de8c252943464b3d53fc68c902442ea1d9591aea858571471fae9164afe262cd",
+	"filename": "pool/main/g/gom/gom_0.30.5-1_amd64.deb",
+	"size": 66112,
+	"md5": "c3dda363ed9b0111a9dd18a393156ff8",
+	"sha256": "313cb23117838cc9bd0e540c9aa6df4c5f6a7ffc02dc7e6a5a39dfa86300e0eb",
 	"descriptionMd5": "74d50365b57befd4544fd8350d1b8afa"
 }]
