@@ -56,8 +56,43 @@
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Java servlet engine and webserver",
 	"homepage": "http://www.eclipse.org/jetty/",
-	"filename": "pool/updates/main/j/jetty9/jetty9_9.4.50-4+deb11u2_all.deb",
+	"filename": "pool/main/j/jetty9/jetty9_9.4.50-4+deb11u2_all.deb",
 	"size": 281920,
+	"md5": "b9ceeb0c6565644e90ef524e235cea42",
 	"sha256": "f1a1079d4aab88c331935e2650bd10fc4d87e9f65bfc8a2d98b9c6b0080d33e0",
+	"descriptionMd5": "6145995b8766cbb4600d50bf0658018e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "jetty9",
+	"version": "9.4.57-0+deb11u1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"apache2-utils",
+		"default-jre-headless (>= 2:1.8) | java8-runtime-headless",
+		"libeclipse-jdt-core-java",
+		"libjetty9-extra-java (>= 9.4.57-0+deb11u1)",
+		"libjetty9-java (>= 9.4.57-0+deb11u1)",
+		"sysvinit-utils (>= 3.05-4~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"authbind"
+	],
+	"installedSize": 757,
+	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
+	"description": "Java servlet engine and webserver",
+	"homepage": "http://www.eclipse.org/jetty/",
+	"filename": "pool/updates/main/j/jetty9/jetty9_9.4.57-0+deb11u1_all.deb",
+	"size": 282400,
+	"sha256": "4e156cff341b23ea8ac071d59bfaf2d7687233a59f561dae308fd622840adbc0",
 	"descriptionMd5": "6145995b8766cbb4600d50bf0658018e"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "python3-aiocoap",
 	"source": "aiocoap",
-	"version": "0.4.12-4",
+	"version": "0.4.12-5",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,9 +14,11 @@
 		"python3:any"
 	],
 	"recommends": [
-		"oscore",
-		"prettyprint",
-		"ws"
+		"python3-cryptography",
+		"python3-cbor2",
+		"python3-filelock",
+		"python3-pygments",
+		"python3-websockets (>= 13)"
 	],
 	"suggests": [
 		"python-aiocoap-doc",
@@ -26,9 +28,9 @@
 	"maintainer": "Mazen Neifer <mazen@debian.org>",
 	"description": "Python implementation of CoAP",
 	"homepage": "https://github.com/chrysn/aiocoap",
-	"filename": "pool/main/a/aiocoap/python3-aiocoap_0.4.12-4_all.deb",
-	"size": 171164,
-	"md5": "2a42301b769571f5b0d4cf33929699db",
-	"sha256": "c6acde1813018e9eb9b1349f0d0197c521cde4f528c8e10fa641b2d5f0fd802d",
+	"filename": "pool/main/a/aiocoap/python3-aiocoap_0.4.12-5_all.deb",
+	"size": 171260,
+	"md5": "4299145fe4f32166e52254e1098cab8b",
+	"sha256": "e3bd66987935ff00482d5c2d7220cf0a76a6141f112e89ebd1602c825068c81b",
 	"descriptionMd5": "d1001a49d0f96ddaf2c2c87979948445"
 }]
