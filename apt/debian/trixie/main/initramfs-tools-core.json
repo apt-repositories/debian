@@ -6,7 +6,7 @@
 	],
 	"package": "initramfs-tools-core",
 	"source": "initramfs-tools",
-	"version": "0.145",
+	"version": "0.147",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
@@ -26,12 +26,15 @@
 	"suggests": [
 		"bash-completion"
 	],
-	"installedSize": 166,
+	"breaks": [
+		"miniramfs (<< 1.0.3~)"
+	],
+	"installedSize": 172,
 	"maintainer": "Debian kernel team <debian-kernel@lists.debian.org>",
 	"description": "generic modular initramfs generator (core tools)",
-	"filename": "pool/main/i/initramfs-tools/initramfs-tools-core_0.145_all.deb",
-	"size": 49232,
-	"md5": "1b0f77f957c2fa4cc8ffeb542d5aa149",
-	"sha256": "19f6789f200a9b1ccae87c54a0c74f3a53faedee5030030c9d5e434b40998eac",
+	"filename": "pool/main/i/initramfs-tools/initramfs-tools-core_0.147_all.deb",
+	"size": 52512,
+	"md5": "52ccda7a8e46a0fc578e8c7d3d41f609",
+	"sha256": "ea9661c6e0bfbdc266998f2e5d5b81c0f29738ec90479147c4d0d0a038106e61",
 	"descriptionMd5": "8d2ce4976ab4fb33b898ed3006a086fa"
 }
