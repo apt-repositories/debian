@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "runit",
-	"version": "2.2.0-1",
+	"version": "2.2.0-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,14 +21,16 @@
 		"socklog",
 		"ucspi-unix",
 		"zsh",
-		"runit-services"
+		"runit-services",
+		"xchpst"
 	],
 	"replaces": [
 		"runit-init (<< 2.1.2-29~)"
 	],
 	"breaks": [
 		"runit-init (<< 2.1.2-60~)",
-		"runit-run (<= 2.1.2-59)"
+		"runit-run (<= 2.1.2-59)",
+		"xchpst (<< 0.5.0-1~)"
 	],
 	"conflicts": [
 		"daemontools-run"
@@ -37,9 +39,9 @@
 	"maintainer": "Lorenzo Puliti <plorenzo@disroot.org>",
 	"description": "system-wide service supervision",
 	"homepage": "http://smarden.org/runit/",
-	"filename": "pool/main/r/runit/runit_2.2.0-1_amd64.deb",
-	"size": 141944,
-	"md5": "9222b732d870c2cc550f3b9dd2e661ef",
-	"sha256": "5dfe8da6140c3182848610a699a4f06fe30c00423fbe3a14b5bc5e07007c6630",
+	"filename": "pool/main/r/runit/runit_2.2.0-2_amd64.deb",
+	"size": 142800,
+	"md5": "2747b4c91573dcf347ae29ad5de04f50",
+	"sha256": "ff4f15d1ceea7fdba86d87be07050e82e78f20c23d8df2bb8c6912f7bd8caca0",
 	"descriptionMd5": "eb15553874e0d9d776a0d1b31885eca3"
 }]
