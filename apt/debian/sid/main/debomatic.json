@@ -5,16 +5,15 @@
 		"Size"
 	],
 	"package": "debomatic",
-	"version": "0.26-4",
+	"version": "0.40-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3:any",
-		"debootstrap | cdebootstrap | qemu-user-static",
-		"sbuild",
-		"schroot",
-		"python3-toposort"
+		"mmdebstrap",
+		"uidmap",
+		"sbuild"
 	],
 	"recommends": [
 		"python3-pyinotify",
@@ -26,18 +25,18 @@
 		"blhc",
 		"devscripts",
 		"lintian",
-		"piuparts",
+		"piuparts (>= 1.5.0~)",
 		"apt-utils",
 		"gnupg",
 		"debian-archive-keyring"
 	],
-	"installedSize": 508,
+	"installedSize": 469,
 	"maintainer": "Luca Falavigna <dktrkranz@debian.org>",
 	"description": "automatic build machine for Debian source packages",
 	"homepage": "https://debomatic.github.io",
-	"filename": "pool/main/d/debomatic/debomatic_0.26-4_all.deb",
-	"size": 230944,
-	"md5": "7262d6b26425236fbc31db46407c6ce9",
-	"sha256": "ba1d29cf7c913db2d940399cd95282b786852eb8fadeb66e3b7940be947323cc",
+	"filename": "pool/main/d/debomatic/debomatic_0.40-1_all.deb",
+	"size": 222356,
+	"md5": "bac6e9a09a82ff956f4e45055da48c54",
+	"sha256": "9bd642bc08df51d6cedd3a51fe032745c7b4cb996e6426f98645a051decca732",
 	"descriptionMd5": "79f67124cc6327d4a58ffd311de9cc7f"
 }
