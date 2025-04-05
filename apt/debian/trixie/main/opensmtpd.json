@@ -5,45 +5,55 @@
 		"Size"
 	],
 	"package": "opensmtpd",
-	"version": "7.5.0p0-1",
+	"version": "7.6.0p1-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"adduser",
+		"ed",
+		"debconf (>= 0.5) | debconf-2.0",
 		"libc6 (>= 2.38)",
 		"libcrypt1 (>= 1:4.1.0)",
 		"libdb5.3t64",
 		"libevent-2.1-7t64 (>= 2.1.8-stable)",
 		"libpam0g (>= 0.99.7.1)",
 		"libssl3t64 (>= 3.0.0)",
-		"zlib1g (>= 1:1.1.4)",
-		"debconf (>= 0.5) | debconf-2.0",
-		"adduser",
-		"ed"
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"recommends": [
-		"opensmtpd-extras"
-	],
 	"suggests": [
-		"ca-certificates"
+		"ca-certificates",
+		"opensmtpd-filter-dkimsign",
+		"opensmtpd-filter-rspamd",
+		"opensmtpd-filter-senderscore",
+		"opensmtpd-table-ldap",
+		"opensmtpd-table-mysql",
+		"opensmtpd-table-passwd",
+		"opensmtpd-table-postgres",
+		"opensmtpd-table-redis",
+		"opensmtpd-table-socketmap",
+		"opensmtpd-table-sqlite"
 	],
 	"replaces": [
 		"mail-transport-agent"
+	],
+	"breaks": [
+		"opensmtpd-extras (<< 6.7.1+ds0)"
 	],
 	"conflicts": [
 		"mail-transport-agent",
 		"sendmail-base"
 	],
-	"installedSize": 1484,
+	"installedSize": 1528,
 	"maintainer": "Ryan Kavanagh <rak@debian.org>",
 	"description": "secure, reliable, lean, and easy-to configure SMTP server",
 	"homepage": "https://www.opensmtpd.org/",
-	"filename": "pool/main/o/opensmtpd/opensmtpd_7.5.0p0-1_amd64.deb",
-	"size": 387612,
-	"md5": "cc878cf2dfe24e9e55a121d1af5eb57d",
-	"sha256": "8c6f2db363b6cd03706fa3d87b3a09d2324cc7402cbc06383f1cf9f5ef51cd9f",
+	"filename": "pool/main/o/opensmtpd/opensmtpd_7.6.0p1-1_amd64.deb",
+	"size": 395256,
+	"md5": "50f98044caa012d41fd979dd826378f6",
+	"sha256": "b3c40a40b6d943c1302628c08f0ce71762e30677fc84a22b9247b7c2fa2d40fd",
 	"descriptionMd5": "be8df8944be13df6be34d92bf71cf048"
 }

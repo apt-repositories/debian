@@ -87,4 +87,48 @@
 	"md5": "3fe6d92aa977e5496861ff9d945c73d5",
 	"sha256": "3d0fdd5ab4f732461a8570692f351a1d3d53d84c53e7ee659d2f216bbfc73755",
 	"descriptionMd5": "39e75ed3c1d3a5bc9c23ff32d0b5bbe1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zfs-dkms",
+	"source": "zfs-linux",
+	"version": "2.0.3-9+deb11u2",
+	"section": "contrib/kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dkms (>> 2.1.1.2-5)",
+		"file",
+		"libc6-dev | libc-dev",
+		"lsb-release",
+		"python3-distutils | libpython3-stdlib (<< 3.6.4)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any"
+	],
+	"recommends": [
+		"zfs-zed",
+		"zfsutils-linux (>= 2.0.3-9+deb11u2)",
+		"linux-libc-dev (<< 5.11~)",
+		"linux-libc-dev (>= 3.10~)"
+	],
+	"suggests": [
+		"debhelper"
+	],
+	"replaces": [
+		"spl-dkms"
+	],
+	"breaks": [
+		"spl-dkms (<< 0.8.0~rc1)"
+	],
+	"installedSize": 16899,
+	"maintainer": "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@alioth-lists.debian.net>",
+	"description": "OpenZFS filesystem kernel modules for Linux",
+	"homepage": "https://zfsonlinux.org/",
+	"filename": "pool/updates/contrib/z/zfs-linux/zfs-dkms_2.0.3-9+deb11u2_all.deb",
+	"size": 2234312,
+	"sha256": "cb76962c30a0bbd109780aa62a3b792f7449f0876e2150bdc45f8512c0da52fb",
+	"descriptionMd5": "39e75ed3c1d3a5bc9c23ff32d0b5bbe1"
 }]
