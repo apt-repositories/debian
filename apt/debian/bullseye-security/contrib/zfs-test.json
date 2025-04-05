@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zfs-test",
+	"source": "zfs-linux",
+	"version": "2.0.3-9+deb11u2",
+	"section": "contrib/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"acl",
+		"attr",
+		"bc",
+		"fio",
+		"ksh",
+		"lsscsi",
+		"mdadm",
+		"parted",
+		"python3",
+		"python3-pyzfs",
+		"sudo",
+		"sysstat",
+		"zfs-modules | zfs-dkms",
+		"zfsutils-linux (>= 2.0.3-9+deb11u2)",
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.29)",
+		"libnvpair3linux (>= 0.8.2)",
+		"libudev1 (>= 183)",
+		"libzfs4linux (>= 2.0)",
+		"libzpool4linux (>= 2.0)"
+	],
+	"recommends": [
+		"nfs-kernel-server"
+	],
+	"replaces": [
+		"zfsutils-linux (<= 0.7.9-2)"
+	],
+	"breaks": [
+		"zfsutils-linux (<= 0.7.9-2)"
+	],
+	"conflicts": [
+		"zutils"
+	],
+	"installedSize": 11032,
+	"maintainer": "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@alioth-lists.debian.net>",
+	"description": "OpenZFS test infrastructure and support scripts",
+	"homepage": "https://zfsonlinux.org/",
+	"filename": "pool/updates/contrib/z/zfs-linux/zfs-test_2.0.3-9+deb11u2_amd64.deb",
+	"size": 5367384,
+	"sha256": "83d4972bca2493886654d82ca23e51320f84508680e5966235dfb0dd12a68b86",
+	"descriptionMd5": "626efba8698ac960b7fa793abb13e6d2"
+}

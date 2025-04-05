@@ -5,32 +5,28 @@
 		"Size"
 	],
 	"package": "libsoqt520-dev",
-	"source": "soqt (1.6.0+ds1-3.1)",
-	"version": "1.6.0+ds1-3.1+b1",
+	"source": "soqt",
+	"version": "1.6.3+ds1-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libcoin-dev",
 		"libqt5opengl5-dev",
-		"libsoqt520t64 (= 1.6.0+ds1-3.1+b1)",
-		"qtbase5-dev"
+		"libsoqt520t64 (= 1.6.3+ds1-2)",
+		"qtbase5-dev",
+		"libsoqt-common-dev (= 1.6.3+ds1-2)"
 	],
-	"replaces": [
-		"libsoqt-dev-common",
-		"libsoqt4-dev"
+	"conflicts": [
+		"libsoqt620-dev"
 	],
-	"breaks": [
-		"libsoqt-dev-common",
-		"libsoqt4-dev"
-	],
-	"installedSize": 1546,
+	"installedSize": 41,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Qt5 GUI component toolkit for Inventor - development",
 	"homepage": "https://github.com/coin3d/soqt",
-	"filename": "pool/main/s/soqt/libsoqt520-dev_1.6.0+ds1-3.1+b1_amd64.deb",
-	"size": 54968,
-	"md5": "5add005ea518477813672ba362a953fc",
-	"sha256": "fc29054f91558f6c9b7d2bdc5a31f2d48a735b9bc4862d90efb1b6bea8692680",
+	"filename": "pool/main/s/soqt/libsoqt520-dev_1.6.3+ds1-2_amd64.deb",
+	"size": 9372,
+	"md5": "2b22aca7d5763ef95755f83663664537",
+	"sha256": "30ebb590ba2981abc18abdb2e90a608ef6cfc6ea1ba7ca494756e3ec35485253",
 	"descriptionMd5": "e61d3fbea8eb1290983981c1255558eb"
 }

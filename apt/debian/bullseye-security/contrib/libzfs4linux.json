@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libzfs4linux",
+	"source": "zfs-linux",
+	"version": "2.0.3-9+deb11u2",
+	"section": "contrib/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.29)",
+		"libnvpair3linux (>= 0.8.2)",
+		"libssl1.1 (>= 1.1.0)",
+		"libudev1 (>= 183)",
+		"libuuid1 (>= 2.16)",
+		"libuutil3linux (>= 0.8.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libzfs2",
+		"libzfs4"
+	],
+	"breaks": [
+		"libzfs2",
+		"libzfs4"
+	],
+	"installedSize": 625,
+	"maintainer": "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@alioth-lists.debian.net>",
+	"description": "OpenZFS filesystem library for Linux",
+	"homepage": "https://zfsonlinux.org/",
+	"filename": "pool/updates/contrib/z/zfs-linux/libzfs4linux_2.0.3-9+deb11u2_amd64.deb",
+	"size": 232504,
+	"sha256": "c664523eb7dd9c83e796a8b07f7911a14f3bafa7c74aa3b2e004e1f2b81dc0bb",
+	"descriptionMd5": "3dbcadce6b253d93a93ded3426097393"
+}

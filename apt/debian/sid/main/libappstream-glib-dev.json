@@ -5,29 +5,33 @@
 		"Size"
 	],
 	"package": "libappstream-glib-dev",
-	"source": "appstream-glib (0.8.2-1.1)",
-	"version": "0.8.2-1.1+b1",
+	"source": "appstream-glib",
+	"version": "0.8.2-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gir1.2-appstreamglib-1.0 (= 0.8.2-1.1+b1)",
-		"libappstream-glib8 (= 0.8.2-1.1+b1)",
+		"gir1.2-appstreamglib-1.0 (= 0.8.2-2)",
+		"libappstream-glib8 (= 0.8.2-2)",
 		"libarchive-dev",
-		"libgcab-dev",
-		"libgdk-pixbuf-2.0-dev | libgdk-pixbuf2.0-dev",
+		"libgdk-pixbuf-2.0-dev",
 		"libglib2.0-dev",
-		"libsoup2.4-dev",
 		"libyaml-dev",
-		"uuid-dev"
+		"uuid-dev",
+		"gir1.2-gdkpixbuf-2.0-dev",
+		"gir1.2-gio-2.0-dev",
+		"gir1.2-gobject-2.0-dev"
 	],
-	"installedSize": 990,
+	"suggests": [
+		"appstream-glib-doc"
+	],
+	"installedSize": 989,
 	"maintainer": "PkgUtopia Team <team+pkgutopia-team@tracker.debian.org>",
 	"description": "GNOME library to access AppStream services (development files)",
 	"homepage": "https://github.com/hughsie/appstream-glib",
-	"filename": "pool/main/a/appstream-glib/libappstream-glib-dev_0.8.2-1.1+b1_amd64.deb",
-	"size": 72608,
-	"md5": "803b246eb2096eeb68ebaaa44925f19f",
-	"sha256": "db5f928a97cda9bde8c067fd0219e6f0016fe7ad0bbcee002b34588225aac8db",
+	"filename": "pool/main/a/appstream-glib/libappstream-glib-dev_0.8.2-2_amd64.deb",
+	"size": 72580,
+	"md5": "5e48bdddb60be75621d0132e2fa47741",
+	"sha256": "0f68e350ec1382673b8e72aa0c8e2bfb258d151f96fe7e8b65f0fcc38d6c73e3",
 	"descriptionMd5": "843c5ab072fad15eb5195facad271989"
 }
