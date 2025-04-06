@@ -6,18 +6,18 @@
 	],
 	"package": "nvidia-tesla-470-vulkan-icd",
 	"source": "nvidia-graphics-drivers-tesla-470",
-	"version": "470.256.02-5",
+	"version": "470.256.02-6",
 	"section": "non-free/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"nvidia-vulkan-common",
 		"libvulkan1 (>= 1.0.42)",
-		"libglx-nvidia-tesla-470-0 (= 470.256.02-5)"
+		"libglx-nvidia-tesla-470-0 (= 470.256.02-6)",
+		"libnvidia-tesla-470-rtcore (= 470.256.02-6)"
 	],
 	"recommends": [
-		"libnvidia-tesla-470-cbl (= 470.256.02-5)",
-		"libnvidia-tesla-470-rtcore (= 470.256.02-5)"
+		"libnvidia-tesla-470-cbl (= 470.256.02-6)"
 	],
 	"suggests": [
 		"vulkan-tools"
@@ -32,9 +32,9 @@
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "NVIDIA Vulkan installable client driver (ICD) (Tesla 470 version)",
 	"homepage": "https://www.nvidia.com",
-	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-vulkan-icd_470.256.02-5_amd64.deb",
-	"size": 131816,
-	"md5": "9e28c6fa7144dc41739998eaeb8a1486",
-	"sha256": "64a7ae3925871101013ec202eab866afe1182720c119fd0a9638161b31726ba9",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-vulkan-icd_470.256.02-6_amd64.deb",
+	"size": 132200,
+	"md5": "8482ab074400bf4adf3618c9a3b0ce2f",
+	"sha256": "92b8c760b1621b6150570f89c83f623196ce396525116b7f4d44bac2a50cb15a",
 	"descriptionMd5": "8932f3ac9eee7570fffc87ba6ef73025"
 }]
