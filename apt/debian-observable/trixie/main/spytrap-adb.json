@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "spytrap-adb",
-	"source": "rust-spytrap-adb (0.3.3-2)",
-	"version": "0.3.3-2+b1",
+	"source": "rust-spytrap-adb (0.3.4-2)",
+	"version": "0.3.4-2+b1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,14 +15,17 @@
 		"libgcc-s1 (>= 4.2)",
 		"adb"
 	],
-	"installedSize": 9183,
+	"recommends": [
+		"ca-certificates"
+	],
+	"installedSize": 8146,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Test a phone for stalkerware using adb and usb debugging",
 	"homepage": "https://github.com/spytrap-org/spytrap-adb",
-	"builtUsing": "rust-ahash (= 0.8.11-9), rust-forensic-adb (= 0.7.0-1), rust-hyper-rustls (= 0.24.2-5), rust-option-ext (= 0.2.0-1), rust-rustls-0.21 (= 0.21.12-11), rust-rustls-native-certs (= 0.6.3-4), rust-rustls-webpki (= 0.101.7-4), rustc (= 1.84.0+dfsg1-2)",
-	"filename": "pool/main/r/rust-spytrap-adb/spytrap-adb_0.3.3-2+b1_amd64.deb",
-	"size": 2725908,
-	"md5": "afd21b28c04938d6946b6669f384b880",
-	"sha256": "f63a6b00b256ee549ce977a57e503c1b4c1f330a43adbad6d0dcbe59c6b4a197",
+	"builtUsing": "rust-ahash (= 0.8.11-9), rust-forensic-adb (= 0.8.0-1), rust-option-ext (= 0.2.0-1), rust-rustls (= 0.23.25+ds-1), rust-rustls-native-certs (= 0.6.3-7), rust-rustls-pki-types (= 1.11.0-2), rust-rustls-webpki (= 0.102.8-5), rustc (= 1.85.0+dfsg1-1)",
+	"filename": "pool/main/r/rust-spytrap-adb/spytrap-adb_0.3.4-2+b1_amd64.deb",
+	"size": 2459104,
+	"md5": "97420178355d7010d239da60c6e08b5e",
+	"sha256": "4bbcd2f0ba7a4de196b21e88f84101cf0255082633d8db3fc160c8becc53e222",
 	"descriptionMd5": "a8d0e1d1ef0827a3591744aebd2d9c25"
 }]

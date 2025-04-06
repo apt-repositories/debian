@@ -5,9 +5,9 @@
 		"Size"
 	],
 	"package": "gitlab-common",
-	"source": "gitaly",
-	"version": "16.8.2+ds3-2",
-	"section": "net",
+	"source": "gitaly-installer",
+	"version": "17.3.6+debian2",
+	"section": "contrib/net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
@@ -16,15 +16,18 @@
 		"adduser (>= 3.34~)",
 		"git (>= 1:2.41~)",
 		"ucf",
-		"gitlab-shell (>= 14.33~)"
+		"gitlab-shell (>= 14.35~)"
 	],
-	"installedSize": 135,
+	"preDepends": [
+		"ca-certificates"
+	],
+	"installedSize": 34,
 	"maintainer": "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>",
 	"description": "git powered software platform to collaborate on code (common)",
-	"homepage": "https://gitlab.com/gitlab-org/gitaly",
-	"filename": "pool/main/g/gitaly/gitlab-common_16.8.2+ds3-2_all.deb",
-	"size": 106504,
-	"md5": "a7748c9215a4226c9971d6844f631375",
-	"sha256": "d5a23a12e1b2c42d71ae4ba0928a4dedf27bae127a60b6d04b7da9a54e7fc4c0",
+	"homepage": "https://wiki.debian.org/gitlab",
+	"filename": "pool/contrib/g/gitaly-installer/gitlab-common_17.3.6+debian2_all.deb",
+	"size": 6840,
+	"md5": "a75d4946f17fb7011192882a2f33809a",
+	"sha256": "d04b213e06bd8314e860cd8999e55a11ae75da0d14a78caa7d708dc1b4f85f60",
 	"descriptionMd5": "ccb3bd8dfffd14a6e75d53315368861a"
 }]
