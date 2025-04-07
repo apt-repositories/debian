@@ -5,23 +5,25 @@
 		"Size"
 	],
 	"package": "librust-idna-dev",
-	"source": "rust-idna (0.4.0-1)",
-	"version": "0.4.0-1+b2",
+	"source": "rust-idna",
+	"version": "1.0.3-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-unicode-bidi-0.3+hardcoded-data-dev (>= 0.3.10-~~)",
-		"librust-unicode-bidi-0.3+std-dev (>= 0.3.10-~~)",
-		"librust-unicode-normalization-0.1+std-dev (>= 0.1.22-~~)",
-		"librust-unicode-normalization-0.1-dev (>= 0.1.22-~~)"
+		"librust-idna-adapter-1+compiled-data-dev",
+		"librust-idna-adapter-1+default-dev",
+		"librust-smallvec-1+const-generics-dev (>= 1.13.1-~~)",
+		"librust-smallvec-1+default-dev (>= 1.13.1-~~)",
+		"librust-utf8-iter-1+default-dev (>= 1.0.4-~~)"
 	],
-	"installedSize": 2249,
+	"installedSize": 932,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "IDNA (Internationalizing Domain Names in Applications) and Punycode - Rust source code",
-	"filename": "pool/main/r/rust-idna/librust-idna-dev_0.4.0-1+b2_amd64.deb",
-	"size": 205472,
-	"md5": "0cd74e9999537739662f432720a589c7",
-	"sha256": "a415e76fdf082fcf070037b92d6a2bcff87025adba876049c5d638e40a4f1abe",
-	"descriptionMd5": "0756145129d858f98a716f2c7071c25f"
+	"homepage": "https://github.com/servo/rust-url/",
+	"filename": "pool/main/r/rust-idna/librust-idna-dev_1.0.3-2_amd64.deb",
+	"size": 125520,
+	"md5": "3c70135f98281a3be80d5e0548b542f3",
+	"sha256": "56d917fae30cc8f8f4256c19c0cc25e4d0b8500ba16e02292b5c2465955584a2",
+	"descriptionMd5": "fb59d7bf132a83005cc227505eceaa27"
 }
