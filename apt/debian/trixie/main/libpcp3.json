@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpcp3",
+	"source": "pcp",
+	"version": "6.3.7-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.0.0)",
+		"pcp-conf (= 6.3.7-1)"
+	],
+	"replaces": [
+		"libpcp3t64 (<< 6.3.2)"
+	],
+	"breaks": [
+		"libpcp3-dev (<< 2.8.5)",
+		"libpcp3t64 (<< 6.3.2)",
+		"pcp (<< 2.8.0)"
+	],
+	"conflicts": [
+		"pgpool2"
+	],
+	"installedSize": 919,
+	"maintainer": "PCP Development Team <pcp@groups.io>",
+	"description": "Performance Co-Pilot library",
+	"homepage": "https://pcp.io",
+	"filename": "pool/main/p/pcp/libpcp3_6.3.7-1_amd64.deb",
+	"size": 431204,
+	"md5": "df9050d3d4797af69f345f08577aa902",
+	"sha256": "7edee193647a965f33662e759440af0a9ffe3f1234995074116ac607a063bee9",
+	"descriptionMd5": "1ea3c2bd9feab4e5d9b74b4d788b00a3"
+}

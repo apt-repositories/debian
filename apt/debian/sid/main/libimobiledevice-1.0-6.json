@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libimobiledevice-1.0-6",
-	"source": "libimobiledevice (1.3.0+git20240701-4)",
-	"version": "1.3.0+git20240701-4+b1",
+	"source": "libimobiledevice",
+	"version": "1.3.0+git20250228-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -24,15 +24,18 @@
 		"libusbmuxd-tools"
 	],
 	"replaces": [
-		"libimobiledevice6"
+		"libimobiledevice6 (<< 1.3.0-9)"
 	],
-	"installedSize": 331,
+	"breaks": [
+		"libimobiledevice6 (<< 1.3.0-9)"
+	],
+	"installedSize": 330,
 	"maintainer": "gtkpod Maintainers <pkg-gtkpod-devel@alioth-lists.debian.net>",
 	"description": "Library for communicating with iPhone and other Apple devices",
 	"homepage": "https://www.libimobiledevice.org/",
-	"filename": "pool/main/libi/libimobiledevice/libimobiledevice-1.0-6_1.3.0+git20240701-4+b1_amd64.deb",
-	"size": 134540,
-	"md5": "d0a59548f8717fdc943d88f76a1211cf",
-	"sha256": "daeb0c4b50889c17006e9a60cb8fb149a96dc86028248c6ee2d254ba316d5b1a",
+	"filename": "pool/main/libi/libimobiledevice/libimobiledevice-1.0-6_1.3.0+git20250228-1_amd64.deb",
+	"size": 134200,
+	"md5": "38ea9d821229000fcdbb90493a4c8a04",
+	"sha256": "86a1de38a4db5916254a5c3d86fbbe3befa0522783d2c68ed36836eed9210151",
 	"descriptionMd5": "be0a750ab7829c97c09771c79a37b041"
 }

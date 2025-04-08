@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "far2l",
-	"source": "far2l (2.6.4~beta+ds-2)",
-	"version": "2.6.4~beta+ds-2+b1",
+	"version": "2.6.5~beta+ds-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -29,18 +28,22 @@
 	],
 	"suggests": [
 		"chafa",
-		"htop"
-	],
-	"conflicts": [
+		"htop",
 		"far2l-wx"
 	],
-	"installedSize": 7956,
+	"replaces": [
+		"far2l-wx (<< 2.6.5~beta+ds-1~)"
+	],
+	"breaks": [
+		"far2l-wx (<< 2.6.5~beta+ds-1~)"
+	],
+	"installedSize": 8248,
 	"maintainer": "Alex Myczko <tar@debian.org>",
 	"description": "Linux port of FAR v2",
 	"homepage": "https://github.com/elfmz/far2l",
-	"filename": "pool/main/f/far2l/far2l_2.6.4~beta+ds-2+b1_amd64.deb",
-	"size": 2218364,
-	"md5": "b5ed32fa45808e5ac26faccd0a58f8da",
-	"sha256": "18b4a34e2fcc10fb6a709bf77c39906425bbe882283c278b67411655dc963d8d",
+	"filename": "pool/main/f/far2l/far2l_2.6.5~beta+ds-1_amd64.deb",
+	"size": 2285052,
+	"md5": "0b409b1f84e2b8e2ce28312ee7926104",
+	"sha256": "4c0c5574bc67f82686e776b83779b2dcccf7a15cd7396b710773a375b149d866",
 	"descriptionMd5": "1bee445c3fe11ea23d90a38146124b9c"
 }]
