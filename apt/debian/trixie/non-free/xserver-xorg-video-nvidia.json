@@ -6,17 +6,17 @@
 	],
 	"package": "xserver-xorg-video-nvidia",
 	"source": "nvidia-graphics-drivers",
-	"version": "535.216.03-2",
+	"version": "535.216.03-3",
 	"section": "non-free/x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-alternative (= 535.216.03-2)",
+		"nvidia-alternative (= 535.216.03-3)",
 		"nvidia-support",
 		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
 		"xserver-xorg-core (<< 2:21.99)",
 		"libc6 (>= 2.34)",
-		"libnvidia-glcore (= 535.216.03-2)"
+		"libnvidia-glcore (= 535.216.03-3)"
 	],
 	"preDepends": [
 		"nvidia-installer-cleanup",
@@ -26,20 +26,20 @@
 		"nvidia-driver (>= 535.216.03)",
 		"nvidia-vdpau-driver (>= 535.216.03)",
 		"nvidia-vulkan-icd (>= 535.216.03)",
-		"nvidia-kernel-dkms (= 535.216.03-2) | nvidia-kernel-535.216.03 | nvidia-open-kernel-535.216.03",
+		"nvidia-kernel-dkms (= 535.216.03-3) | nvidia-kernel-535.216.03 | nvidia-open-kernel-535.216.03",
 		"nvidia-suspend-common",
 		"nvidia-settings (>= 535)"
 	],
 	"suggests": [
 		"nvidia-kernel-dkms (>= 535.216.03) | nvidia-kernel-source (>= 535.216.03) | nvidia-open-kernel-source (>= 535.216.03)"
 	],
-	"installedSize": 18919,
+	"installedSize": 18920,
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "NVIDIA binary Xorg driver",
 	"homepage": "https://www.nvidia.com",
-	"filename": "pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_535.216.03-2_amd64.deb",
-	"size": 2283072,
-	"md5": "15b3df13e30900049071e8ecd41a2822",
-	"sha256": "b75ce59725d74996d323efa3c0b2901771633aa86fa3ac5409170c828630db96",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_535.216.03-3_amd64.deb",
+	"size": 2274112,
+	"md5": "89426d42f3e8905ec6484390a94c44ea",
+	"sha256": "4a9ff99d551444ee0778ad162cb0afd0178f2575f9c5de6117484fb467199316",
 	"descriptionMd5": "a9e538a391a774fd2e77b931f35d8313"
 }
