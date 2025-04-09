@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "fossil",
-	"version": "1:2.25-1",
+	"version": "1:2.25-2",
 	"section": "vcs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,6 +16,9 @@
 		"libssl3t64 (>= 3.0.0)",
 		"zlib1g (>= 1:1.2.0)"
 	],
+	"recommends": [
+		"fuse3 (>= 3.10.1-3) | fuse (<< 3)"
+	],
 	"suggests": [
 		"gnupg | gnupg2"
 	],
@@ -23,13 +26,13 @@
 		"apache2 (<< 2.4.59-1~)",
 		"apache2-bin (<< 2.4.59-1~)"
 	],
-	"installedSize": 5493,
+	"installedSize": 5506,
 	"maintainer": "Barak A. Pearlmutter <bap@debian.org>",
 	"description": "DSCM with built-in wiki, http interface and server, tickets database",
 	"homepage": "https://fossil-scm.org",
-	"filename": "pool/main/f/fossil/fossil_2.25-1_amd64.deb",
-	"size": 2046284,
-	"md5": "86d382442c36cb4b415b3644f134cac3",
-	"sha256": "7079010ca24a87374a9f64434fce7c6381db951797c58b9086edbf7b71bec517",
+	"filename": "pool/main/f/fossil/fossil_2.25-2_amd64.deb",
+	"size": 2047752,
+	"md5": "bb501d28888e474ba47ab99940cd9fb0",
+	"sha256": "66dd1fa72f3e11798caa709e6d1905dc53ad262ca7b4539e61a60e3444294f17",
 	"descriptionMd5": "21b5c8af5ad471c6f1c111bbfb3ccfe7"
 }

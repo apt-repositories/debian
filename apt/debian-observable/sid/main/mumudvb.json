@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "mumudvb",
-	"source": "mumudvb (1.7.1-1)",
-	"version": "1.7.1-1+b2",
+	"version": "2.1.0-1",
 	"section": "video",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,16 +14,19 @@
 		"dvb-apps",
 		"libc6 (>= 2.38)"
 	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
 	"suggests": [
 		"dvbtune"
 	],
-	"installedSize": 1204,
-	"maintainer": "Stéphane Glondu <glondu@debian.org>",
+	"installedSize": 1152,
+	"maintainer": "Debian VDR Team <pkg-vdr-dvb-devel@lists.alioth.debian.org>",
 	"description": "multicasts all channels of a DVB transponder on a network",
-	"homepage": "http://mumudvb.braice.net/",
-	"filename": "pool/main/m/mumudvb/mumudvb_1.7.1-1+b2_amd64.deb",
-	"size": 578936,
-	"md5": "2f20fb00531a01257ed592b5825b8a8c",
-	"sha256": "bc13ab042cfa0daf77d33edad674f4294d2e7e3c25c0cf88e3d631960c6886b8",
+	"homepage": "https://mumudvb.net/",
+	"filename": "pool/main/m/mumudvb/mumudvb_2.1.0-1_amd64.deb",
+	"size": 584912,
+	"md5": "191c23daff75091e8428fa18edc47085",
+	"sha256": "614ef26e68b9610cea1fab59bd96135194730c732e68200e0abdc30b7e369ce2",
 	"descriptionMd5": "a6212e7f3d0e3b8df713bfe65a7b593f"
 }]

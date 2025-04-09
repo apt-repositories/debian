@@ -6,26 +6,31 @@
 	],
 	"package": "gridengine-master",
 	"source": "gridengine",
-	"version": "8.1.9+dfsg-12",
+	"version": "8.1.9+dfsg-13",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libc6 (>= 2.38)",
+		"libjemalloc2 (>= 2.1.1)",
+		"libmunge2 (>= 0.5.8)",
+		"libssl3t64 (>= 3.0.0)",
+		"libtirpc3t64 (>= 1.0.2)",
 		"debconf (>= 0.5) | debconf-2.0",
-		"gridengine-client (= 8.1.9+dfsg-12)",
+		"gridengine-client (= 8.1.9+dfsg-13)",
 		"procps",
 		"lsb-base"
 	],
 	"recommends": [
 		"db-util"
 	],
-	"installedSize": 17517,
+	"installedSize": 4411,
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "Distributed resource management - Master Server",
 	"homepage": "https://arc.liv.ac.uk/trac/SGE/",
-	"filename": "pool/main/g/gridengine/gridengine-master_8.1.9+dfsg-12_amd64.deb",
-	"size": 4634460,
-	"md5": "b1a55cf819c19fe49a2423c274299e56",
-	"sha256": "d1212b0decf1e8f656535783cd52d561d7b5fe8fc0248769693e3e218994ce0d",
+	"filename": "pool/main/g/gridengine/gridengine-master_8.1.9+dfsg-13_amd64.deb",
+	"size": 1225280,
+	"md5": "6425d8b09f03307e2ce22ad2db31490a",
+	"sha256": "2b1ff466d8e46dec445342f0bc7a4c06ae078e9791073688e6273fce9ce6cc66",
 	"descriptionMd5": "68e4d6273a227ee167642634bb3a4218"
 }

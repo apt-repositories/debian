@@ -67,4 +67,41 @@
 	"md5": "1e524bb0fad59cfa8767055ebcddc8da",
 	"sha256": "250e7d82655a7f9e7b4554890d0c908408830c9b618cbab3e64a88aeed361e55",
 	"descriptionMd5": "9581d765c8dbdafc58e31f96283b6764"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lemonldap-ng-handler",
+	"source": "lemonldap-ng",
+	"version": "2.16.1+ds-deb12u6",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"liblemonldap-ng-handler-perl (= 2.16.1+ds-deb12u6)"
+	],
+	"recommends": [
+		"lemonldap-ng-fastcgi-server (= 2.16.1+ds-deb12u6) | lemonldap-ng-uwsgi-app (= 2.16.1+ds-deb12u6) | libapache2-mod-perl2"
+	],
+	"suggests": [
+		"libcache-memcached-perl",
+		"libdigest-hmac-perl",
+		"libsoap-lite-perl"
+	],
+	"replaces": [
+		"lemonldap-ng-fastcgi-server (<< 2.0.5~)"
+	],
+	"breaks": [
+		"lemonldap-ng-fastcgi-server (<< 2.0.5~)"
+	],
+	"installedSize": 208,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "Lemonldap::NG handler part",
+	"homepage": "https://lemonldap-ng.org/",
+	"filename": "pool/updates/main/l/lemonldap-ng/lemonldap-ng-handler_2.16.1+ds-deb12u6_all.deb",
+	"size": 84756,
+	"sha256": "e5956ee8e23cc8a204ccf51a5120205916590ed23649be13ee8f2773736dd63f",
+	"descriptionMd5": "9581d765c8dbdafc58e31f96283b6764"
 }]
