@@ -6,7 +6,7 @@
 	],
 	"package": "pcscd",
 	"source": "pcsc-lite",
-	"version": "2.3.1-1",
+	"version": "2.3.3-1",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,7 +18,8 @@
 		"libsystemd0",
 		"libudev1 (>= 183)",
 		"runit-helper (>= 2.14.0~)",
-		"libpcsclite1 (= 2.3.1-1)"
+		"libpcsclite1 (= 2.3.3-1)",
+		"polkitd"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -26,13 +27,13 @@
 	"suggests": [
 		"systemd"
 	],
-	"installedSize": 235,
+	"installedSize": 236,
 	"maintainer": "Ludovic Rousseau <rousseau@debian.org>",
 	"description": "Middleware to access a smart card using PC/SC (daemon side)",
 	"homepage": "https://pcsclite.apdu.fr/",
-	"filename": "pool/main/p/pcsc-lite/pcscd_2.3.1-1_amd64.deb",
-	"size": 96716,
-	"md5": "cd4bdefa726de30dfac1e67b878ad681",
-	"sha256": "2fba112d59726590fbe32b865ab43f8c3e71263bd6c6fcd302a984e1bef43168",
+	"filename": "pool/main/p/pcsc-lite/pcscd_2.3.3-1_amd64.deb",
+	"size": 96636,
+	"md5": "ac143647b6b071567fbbae2716043b02",
+	"sha256": "55e0aeebcf8fe484da2860a372a7ba6932369269d70f2e2031d8a95bc5266486",
 	"descriptionMd5": "40f2879e95ee03b8541cb267e0af1f29"
 }
