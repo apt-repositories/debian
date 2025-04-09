@@ -6,23 +6,26 @@
 	],
 	"package": "libapache2-mod-evasive",
 	"source": "libapache-mod-evasive",
-	"version": "1.10.1-7",
+	"version": "2.4.0-1",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"bsd-mailx | mailx",
 		"apache2-api-20120211",
 		"apache2-bin (>= 2.4.16)",
-		"libc6 (>= 2.38)"
+		"libc6 (>= 2.38)",
+		"libpcre2-8-0 (>= 10.22)"
 	],
-	"installedSize": 53,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"recommends": [
+		"bsd-mailx | mailx"
+	],
+	"installedSize": 63,
+	"maintainer": "Christian Göttsche <cgzones@googlemail.com>",
 	"description": "evasive module to minimize HTTP DoS or brute force attacks",
-	"homepage": "https://github.com/jzdziarski/mod_evasive",
-	"filename": "pool/main/liba/libapache-mod-evasive/libapache2-mod-evasive_1.10.1-7_amd64.deb",
-	"size": 15228,
-	"md5": "0d5850d57550b8e416a32bd4fa128dd7",
-	"sha256": "742d912eda914cd79af04d9f23a7b671ccc903f05b0cee5e84e9b60ff583c265",
-	"descriptionMd5": "366cd284d54b39351e1d15be1f1d1880"
+	"homepage": "https://github.com/jvdmr/mod_evasive",
+	"filename": "pool/main/liba/libapache-mod-evasive/libapache2-mod-evasive_2.4.0-1_amd64.deb",
+	"size": 19496,
+	"md5": "e5e1621cc5e851083dc4a6d95407ef28",
+	"sha256": "00ee861b7028418fb29606c3985e1871fc60f655a8e8a9611f7c7ee25a7b5949",
+	"descriptionMd5": "70a0bf40ec2f9db1f08d587bd5acf80c"
 }]
