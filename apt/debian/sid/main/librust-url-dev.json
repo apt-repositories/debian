@@ -6,7 +6,7 @@
 	],
 	"package": "librust-url-dev",
 	"source": "rust-url",
-	"version": "2.5.4-2",
+	"version": "2.5.4-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,13 +21,17 @@
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev"
 	],
+	"breaks": [
+		"python3-pydantic (<< 2.10.6-2~)",
+		"python3-pydantic-core (<< 2.27.2-2~)"
+	],
 	"installedSize": 589,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "URL library for Rust - Rust source code",
 	"homepage": "https://github.com/servo/rust-url",
-	"filename": "pool/main/r/rust-url/librust-url-dev_2.5.4-2_amd64.deb",
-	"size": 70840,
-	"md5": "83432d147a061c3d024807e9651318c5",
-	"sha256": "03ecb662133b6b3e664f873c49d4e4908133976df7b070fe5b2735d4401160c5",
+	"filename": "pool/main/r/rust-url/librust-url-dev_2.5.4-3_amd64.deb",
+	"size": 70952,
+	"md5": "473dd864de24a52d5d2f6afd219efd1c",
+	"sha256": "212dd246f356c171478004bf03fed286c1ce60805fcd717251b0f522870c2901",
 	"descriptionMd5": "1fe6c6acc78ef84e0d2da1d4a1afaabd"
 }
