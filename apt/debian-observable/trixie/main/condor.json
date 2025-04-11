@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "condor",
-	"source": "condor (23.6.2+dfsg-2)",
-	"version": "23.6.2+dfsg-2+b1",
+	"version": "23.9.6+dfsg-2",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -28,8 +27,9 @@
 		"libscitokens0t64",
 		"libssl3t64 (>= 3.0.0)",
 		"libvomsapi1t64",
+		"condor-upgrade-checks",
 		"perl:any",
-		"python3 (>= 3.13~)",
+		"python3 (>= 3~)",
 		"python3:any",
 		"libboost-python1.83.0 (>= 1.83.0)",
 		"libboost-python1.83.0-py313",
@@ -55,24 +55,24 @@
 		"slurm-client"
 	],
 	"replaces": [
-		"htcondor (<< 23.6.2+dfsg-2+b1)",
+		"htcondor (<< 23.9.6+dfsg-2)",
 		"libclassad16"
 	],
 	"breaks": [
-		"htcondor (<< 23.6.2+dfsg-2+b1)",
+		"htcondor (<< 23.9.6+dfsg-2)",
 		"libclassad16"
 	],
 	"conflicts": [
-		"htcondor (<< 23.6.2+dfsg-2+b1)",
+		"htcondor (<< 23.9.6+dfsg-2)",
 		"libclassad16"
 	],
-	"installedSize": 31491,
+	"installedSize": 32100,
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "distributed workload management system",
 	"homepage": "https://htcondor.org/",
-	"filename": "pool/main/c/condor/condor_23.6.2+dfsg-2+b1_amd64.deb",
-	"size": 9107700,
-	"md5": "0194aa4a4e5f51f7a192a81e6c1d723c",
-	"sha256": "1f4d929df94d9187b87c66c7be0d251893bb8fd5d975c490eb67d1b5c7b2a3fc",
+	"filename": "pool/main/c/condor/condor_23.9.6+dfsg-2_amd64.deb",
+	"size": 9264708,
+	"md5": "4d78efcd58579de781cbfaa118096bef",
+	"sha256": "d0815a8b30f2a97c84f349244ed970d5ef1594d39ba2116568900217f7a9e480",
 	"descriptionMd5": "903f297977fa999b1736134b3022d178"
 }]

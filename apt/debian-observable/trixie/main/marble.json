@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "marble",
-	"version": "4:24.12.3-2",
+	"version": "4:24.12.3-3",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"marble-data (>= 4:24.12.3-2)",
-		"marble-plugins (= 4:24.12.3-2)",
+		"marble-data (>= 4:24.12.3-3)",
+		"marble-plugins (= 4:24.12.3-3)",
 		"libc6 (>= 2.34)",
 		"libkf6configcore6 (>= 6.5.0~)",
 		"libkf6configgui6 (>= 6.5.0~)",
@@ -23,7 +23,7 @@
 		"libkf6parts6 (>= 6.5.0~)",
 		"libkf6widgetsaddons6 (>= 6.0.0)",
 		"libkf6xmlgui6 (>= 6.0.0)",
-		"libmarblewidget-qt6-28 (= 4:24.12.3-2)",
+		"libmarblewidget-qt6-28 (= 4:24.12.3-3)",
 		"libqt6core6t64 (>= 6.8.2)",
 		"libqt6dbus6 (>= 6.6~)",
 		"libqt6gui6 (>= 6.6~)",
@@ -38,13 +38,19 @@
 		"monav-routing-daemon",
 		"routino"
 	],
-	"installedSize": 1011,
+	"replaces": [
+		"marble-data (<< 4:24.12.3-3~)"
+	],
+	"breaks": [
+		"marble-data (<< 4:24.12.3-3~)"
+	],
+	"installedSize": 1015,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "globe and map widget",
 	"homepage": "https://marble.kde.org/",
-	"filename": "pool/main/m/marble/marble_24.12.3-2_amd64.deb",
-	"size": 203556,
-	"md5": "c7985854ac9b9f356369b66e23ccdae5",
-	"sha256": "a9de143895bd75388cbac29ceff615381201906b03514ffc8c2e0a9889b5b5b5",
+	"filename": "pool/main/m/marble/marble_24.12.3-3_amd64.deb",
+	"size": 203568,
+	"md5": "a8de9ce0649e1de90d01a3ac6b1f2823",
+	"sha256": "6193dadba10d497116e83b2bdbc1d1628bf0c3e4074e88e19a2b35337656f002",
 	"descriptionMd5": "1f126a4752fd8384e6c2471b34c0cba7"
 }]
