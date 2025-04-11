@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "netplan.io",
-	"version": "1.1.2-4",
+	"version": "1.1.2-5",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,7 +13,7 @@
 		"python3:any",
 		"libc6 (>= 2.34)",
 		"libglib2.0-0t64 (>= 2.70.0)",
-		"libnetplan1 (= 1.1.2-4)",
+		"libnetplan1 (= 1.1.2-5)",
 		"libsystemd0 (>= 243)",
 		"ethtool",
 		"iproute2",
@@ -26,13 +26,16 @@
 	"recommends": [
 		"python3-rich"
 	],
+	"suggests": [
+		"systemd-resolved"
+	],
 	"installedSize": 340,
 	"maintainer": "Debian Networking Team <team+networking@tracker.debian.org>",
 	"description": "Declarative network configuration for various backends at runtime",
 	"homepage": "https://netplan.io/",
-	"filename": "pool/main/n/netplan.io/netplan.io_1.1.2-4_amd64.deb",
-	"size": 81816,
-	"md5": "bc79eab5332a82643ebbffcaacf3fd2c",
-	"sha256": "1da2657591c161ba20b4b0395d7be128b8de8e61b826f652ec1fe5f6f96098ef",
+	"filename": "pool/main/n/netplan.io/netplan.io_1.1.2-5_amd64.deb",
+	"size": 82060,
+	"md5": "8e74367bb0b78db53a878669013d787d",
+	"sha256": "5df5f0b6300c2638dc4e860793c681fb3ad986fd00bcb071cbd0ee76315b2b94",
 	"descriptionMd5": "47418db3097451bfa4e401a22e0112c1"
 }]
