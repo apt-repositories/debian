@@ -6,7 +6,7 @@
 	],
 	"package": "libkdsingleapplication-qt6-1.0",
 	"source": "kdsingleapplication",
-	"version": "1.1.0-1",
+	"version": "1.1.0-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"libqt6network6 (>= 6.1.2)",
 		"libstdc++6 (>= 5)"
 	],
+	"breaks": [
+		"libkdsingleapplication-qt6-dev (<< 1.1.0-1)"
+	],
 	"installedSize": 71,
 	"maintainer": "Pierre-Elliott Bécue <peb@debian.org>",
 	"description": "KDAB's helper class for single-instance policy applications (lib)",
 	"homepage": "https://www.kdab.com/kdsingleapplication/",
-	"filename": "pool/main/k/kdsingleapplication/libkdsingleapplication-qt6-1.0_1.1.0-1_amd64.deb",
-	"size": 19008,
-	"md5": "0d14c7de6473e35e56b67e7c01bc991a",
-	"sha256": "8b1be1a696872fc68ce4c19767d61e6d5575d3f9c30b26e68e811ab22818060d",
+	"filename": "pool/main/k/kdsingleapplication/libkdsingleapplication-qt6-1.0_1.1.0-2_amd64.deb",
+	"size": 19180,
+	"md5": "084633a3705056033989790ac274555c",
+	"sha256": "711163bcb20f5b2bf8886b59decf9af251f7c92fc16bfa2912c439efac6b61ef",
 	"descriptionMd5": "9e5e714830c5674bb4da5a476780abf9"
 }]

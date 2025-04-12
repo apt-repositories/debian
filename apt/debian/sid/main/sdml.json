@@ -5,24 +5,26 @@
 		"Size"
 	],
 	"package": "sdml",
-	"source": "sdml (0.3.1+20241014-3)",
-	"version": "0.3.1+20241014-3+b1",
+	"version": "0.3.2+20250310-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.39)",
-		"libgcc-s1 (>= 4.2)",
-		"libtree-sitter0 (>= 0.20.3)"
+		"libgcc-s1 (>= 4.2)"
 	],
-	"installedSize": 11999,
+	"recommends": [
+		"graphviz",
+		"plantuml"
+	],
+	"installedSize": 12090,
 	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
 	"description": "CLI tool for Simple Domain Modeling Language (SDML)",
 	"homepage": "https://github.com/sdm-lang/rust-sdml",
-	"builtUsing": "rust-clio (= 0.3.5-4), rust-human-panic (= 2.0.2-1), rust-search-path (= 0.1.4-3), rust-text-trees (= 0.1.2-3), rustc (= 1.81.0+dfsg1-2), tree-sitter-sdml (= 0.3.3~20240830-2)",
-	"filename": "pool/main/s/sdml/sdml_0.3.1+20241014-3+b1_amd64.deb",
-	"size": 2627064,
-	"md5": "8bea5e2c0d30bbff7cae7d9326099a7f",
-	"sha256": "a04940bb2031f9db71d1cab6359f16c1b4136785efa4f07b9f380cc9bc823ccf",
-	"descriptionMd5": "323d3b9887c52725c55a23d56c81047f"
+	"builtUsing": "rust-clio (= 0.3.5-6), rust-human-panic (= 2.0.2-2), rust-search-path (= 0.1.4-4), rust-text-trees (= 0.1.2-4), rustc (= 1.85.0+dfsg2-2), tree-sitter-sdml (= 0.4.5-1)",
+	"filename": "pool/main/s/sdml/sdml_0.3.2+20250310-1_amd64.deb",
+	"size": 2758040,
+	"md5": "6e513bfbbdaa83a84456b6c330cfb5b9",
+	"sha256": "9d678199e2074a8ffcd79a07bc1108da3373bd322b9cfe4008d493ed151ad155",
+	"descriptionMd5": "a01b6636b088a197efedde3849a78497"
 }
