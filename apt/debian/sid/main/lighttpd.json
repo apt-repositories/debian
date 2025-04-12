@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "lighttpd",
-	"version": "1.4.77-1",
+	"version": "1.4.79-1",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,9 +14,7 @@
 		"libcrypt1 (>= 1:4.1.0)",
 		"libnettle8t64",
 		"libpcre2-8-0 (>= 10.22)",
-		"libxxhash0 (>= 0.6.5)",
-		"media-types | mime-support",
-		"systemd-sysv"
+		"libxxhash0 (>= 0.6.5)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -34,19 +32,16 @@
 		"lighttpd-doc",
 		"lighttpd-mod-webdav",
 		"lighttpd-modules-dbi",
-		"lighttpd-modules-lua"
+		"lighttpd-modules-lua",
+		"media-types | mime-support"
 	],
-	"conflicts": [
-		"lighttpd-mod-geoip",
-		"lighttpd-mod-trigger-b4-dl"
-	],
-	"installedSize": 1027,
+	"installedSize": 1035,
 	"maintainer": "Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>",
 	"description": "fast webserver with minimal memory footprint",
 	"homepage": "https://www.lighttpd.net/",
-	"filename": "pool/main/l/lighttpd/lighttpd_1.4.77-1_amd64.deb",
-	"size": 366728,
-	"md5": "ec285a7fb4e210b1851e811a3f3a5459",
-	"sha256": "85cce24afd46600d5fa61e14bec82364a429cdc957906c69d693ad5927fb58fd",
+	"filename": "pool/main/l/lighttpd/lighttpd_1.4.79-1_amd64.deb",
+	"size": 370076,
+	"md5": "e9808350d6c38f70664705f3538b0ee1",
+	"sha256": "7f1ee8aeb23839d56742334ca34e4e73860ce0b6f9a7fea30457a7fcc669fc04",
 	"descriptionMd5": "3cbd5b2dae1802558158d8c2aae494ab"
 }

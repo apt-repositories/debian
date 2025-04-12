@@ -5,23 +5,29 @@
 		"Size"
 	],
 	"package": "android-udev-rules",
-	"version": "0~20250314+ds-2",
+	"version": "0~20250314+ds-4",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"replaces": [
-		"android-sdk-platform-tools-common (<< 28.0.2+12~)"
+		"android-sdk-platform-tools-common (<< 28.0.2+12~)",
+		"google-android-platform-tools-installer (<< 1743526702-1~)"
 	],
 	"breaks": [
-		"android-sdk-platform-tools-common (<< 28.0.2+12~)"
+		"android-sdk-platform-tools-common (<< 28.0.2+12~)",
+		"google-android-platform-tools-installer (<< 1743526702-1~)"
+	],
+	"conflicts": [
+		"android-sdk-platform-tools-common (<< 28.0.2+12~)",
+		"google-android-platform-tools-installer (<< 1743526702-1~)"
 	],
 	"installedSize": 53,
 	"maintainer": "Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>",
 	"description": "udev rules for Android tools",
 	"homepage": "https://github.com/M0Rf30/android-udev-rules",
-	"filename": "pool/main/a/android-udev-rules/android-udev-rules_0~20250314+ds-2_all.deb",
-	"size": 10980,
-	"md5": "845480c417b62893f89743df6b27eacc",
-	"sha256": "6cbe3882890af06ed0d3970c959b24e47996b0e530f788aa2e70b88d0527b67d",
+	"filename": "pool/main/a/android-udev-rules/android-udev-rules_0~20250314+ds-4_all.deb",
+	"size": 11252,
+	"md5": "d6cbc970625d38ef0d7b1bfb49b36542",
+	"sha256": "2546988cbe6ebfe6e6822936d8fb6ac2030011256b917158e775442feaa9397b",
 	"descriptionMd5": "863a83c824f4506cbf3847563f15e996"
 }
