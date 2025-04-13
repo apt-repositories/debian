@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "qemu-system-x86",
-	"source": "qemu (1:9.2.2+ds-1)",
-	"version": "1:9.2.2+ds-1+b2",
+	"source": "qemu",
+	"version": "1:10.0.0~rc2+ds-2",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -37,18 +37,18 @@
 		"libvdeplug2t64 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:9.2.2+ds-1+b2)",
-		"qemu-system-data (>> 1:9.2.2+ds~)",
+		"qemu-system-common (= 1:10.0.0~rc2+ds-2)",
+		"qemu-system-data (>> 1:10.0.0~rc2+ds~)",
 		"seabios (>> 1.16.3-1~)",
 		"ipxe-qemu"
 	],
 	"recommends": [
 		"qemu-utils",
 		"ovmf",
-		"qemu-system-gui (= 1:9.2.2+ds-1+b2)",
-		"qemu-system-modules-spice (= 1:9.2.2+ds-1+b2)",
-		"qemu-system-modules-opengl (= 1:9.2.2+ds-1+b2)",
-		"qemu-block-extra (= 1:9.2.2+ds-1+b2)"
+		"qemu-system-gui (= 1:10.0.0~rc2+ds-2)",
+		"qemu-system-modules-spice (= 1:10.0.0~rc2+ds-2)",
+		"qemu-system-modules-opengl (= 1:10.0.0~rc2+ds-2)",
+		"qemu-block-extra (= 1:10.0.0~rc2+ds-2)"
 	],
 	"suggests": [
 		"samba",
@@ -57,13 +57,13 @@
 	"conflicts": [
 		"qemu-kvm"
 	],
-	"installedSize": 63831,
+	"installedSize": 64289,
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (x86)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-x86_9.2.2+ds-1+b2_amd64.deb",
-	"size": 10124596,
-	"md5": "1fe4ba9d45bf939f138f36b8025d30b0",
-	"sha256": "8b67c1c4622a3bd72eb834995edcfd322a5dac27800461f03317301cab695561",
+	"filename": "pool/main/q/qemu/qemu-system-x86_10.0.0~rc2+ds-2_amd64.deb",
+	"size": 10240672,
+	"md5": "9efd3778f48788222c7cbf9278f34935",
+	"sha256": "48bb542e016f9d66356fc48d4e29e65dee48c05f89fa376769d4dc599b675ff7",
 	"descriptionMd5": "101a12e03df790d974e0f42cbdab8a73"
 }]

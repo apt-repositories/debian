@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libpgplot-perl",
-	"version": "1:2.35-1",
+	"version": "1:2.35-2",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,19 +13,25 @@
 		"perl (>= 5.40.1-2)",
 		"perlapi-5.40.1",
 		"libc6 (>= 2.4)",
-		"libcpgplot0 (>= 1.4.4)",
-		"libpgplot0 (>= 1.4.4)"
+		"libcpgplot0 (>= 1.5.0)",
+		"libpgplot0 (>= 1.5.0)"
 	],
 	"recommends": [
 		"pdl"
+	],
+	"replaces": [
+		"pdl (<< 1:2.096)"
+	],
+	"breaks": [
+		"pdl (<< 1:2.096)"
 	],
 	"installedSize": 930,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "perl interface to the pgplot plotting library",
 	"homepage": "https://metacpan.org/release/PGPLOT",
-	"filename": "pool/main/libp/libpgplot-perl/libpgplot-perl_2.35-1_amd64.deb",
-	"size": 177928,
-	"md5": "3bd2fc51a22910e011c059a6f0b3b4d2",
-	"sha256": "cfef6e9a58ea4eccc97637411fdb0ddc73f58575f927acd1d7033d1a16a669ef",
+	"filename": "pool/main/libp/libpgplot-perl/libpgplot-perl_2.35-2_amd64.deb",
+	"size": 177980,
+	"md5": "fbb4c45c1719d8a293a49c2407f99ef0",
+	"sha256": "b8e896a87dbdc4596d7b2551da62d413e56a985fd8c66ec8afc80801a743566d",
 	"descriptionMd5": "0bcad72bb03a82fdbdd15f1eaf307200"
 }
