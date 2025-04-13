@@ -6,20 +6,28 @@
 	],
 	"package": "libfltk1.4-compat-headers",
 	"source": "fltk1.4",
-	"version": "1.4.2-5",
+	"version": "1.4.2-6",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"libfltk1.4-dev"
 	],
-	"installedSize": 202,
+	"replaces": [
+		"libfltk-compat-headers",
+		"libfltk1.3-compat-headers"
+	],
+	"conflicts": [
+		"libfltk-compat-headers",
+		"libfltk1.3-compat-headers"
+	],
+	"installedSize": 203,
 	"maintainer": "Aaron M. Ucko <ucko@debian.org>",
 	"description": "Fast Light Toolkit - compatibility header symlinks",
 	"homepage": "https://www.fltk.org/",
-	"filename": "pool/main/f/fltk1.4/libfltk1.4-compat-headers_1.4.2-5_all.deb",
-	"size": 29872,
-	"md5": "3e853515a747ddae456737486b1fbed9",
-	"sha256": "753ba922ebc8d6f4574f63c5989e14d65ff7b3715ab4e853929c598c17c420e8",
+	"filename": "pool/main/f/fltk1.4/libfltk1.4-compat-headers_1.4.2-6_all.deb",
+	"size": 30052,
+	"md5": "75375fe70dfef1d1fcf14cf8f5fd128e",
+	"sha256": "59f2e9ae8ec2ae775960fda1491562412e5dbe4402bd8100ae4fe91a6605db61",
 	"descriptionMd5": "fa94b320a39737e9ee0afbc46e00e010"
 }

@@ -5,11 +5,13 @@
 		"Size"
 	],
 	"package": "rancid",
-	"version": "3.13-4",
+	"version": "3.14-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"perl:any",
+		"libc6 (>= 2.38)",
 		"adduser",
 		"cvs | subversion | git",
 		"debconf | debconf-2.0",
@@ -18,9 +20,7 @@
 		"libperl4-corelibs-perl",
 		"openssh-client | ssh",
 		"passwd",
-		"perl",
-		"perl:any",
-		"libc6 (>= 2.38)"
+		"perl"
 	],
 	"suggests": [
 		"diffstat"
@@ -33,13 +33,13 @@
 		"rancid-core (<< 2.3.2-1)",
 		"rancid-util (<< 2.3.2-1)"
 	],
-	"installedSize": 1969,
+	"installedSize": 1986,
 	"maintainer": "Roland Rosenfeld <roland@debian.org>",
 	"description": "Really Awesome New Cisco confIg Differ",
 	"homepage": "https://www.shrubbery.net/rancid/",
-	"filename": "pool/main/r/rancid/rancid_3.13-4_amd64.deb",
-	"size": 231196,
-	"md5": "81a1ec774a177bdb1108cbe641fbe438",
-	"sha256": "31f219c487e4d461a6d38d12865cb91990668e62e2abcc52e821a0ae36b59261",
+	"filename": "pool/main/r/rancid/rancid_3.14-1_amd64.deb",
+	"size": 236020,
+	"md5": "91963e54ad897a5c6fd0417ea65e9ee2",
+	"sha256": "19af062645dfb243ea06abf16244fa995b291c31bb89ecd6e9ae07ae5111bbba",
 	"descriptionMd5": "c3d1e662df232fbb8fd7d78a39f154c4"
 }

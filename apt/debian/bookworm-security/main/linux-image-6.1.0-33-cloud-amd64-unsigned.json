@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.1.0-33-cloud-amd64-unsigned",
+	"source": "linux",
+	"version": "6.1.133-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-6.1",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.1.0-33-cloud-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.1.0-33-cloud-amd64"
+	],
+	"installedSize": 104000,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.1 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/updates/main/l/linux/linux-image-6.1.0-33-cloud-amd64-unsigned_6.1.133-1_amd64.deb",
+	"size": 25635776,
+	"sha256": "4ce4a2afbca8b0217291576f1e95232be789c58841dc1bc34231b4c6b9390ace",
+	"descriptionMd5": "f1cfd45517446f0f1122649ef7e2011b"
+}

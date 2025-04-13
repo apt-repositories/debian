@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libpdl-io-idl-perl",
-	"version": "2.098-1",
+	"version": "2.098-2",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,13 +13,19 @@
 		"pdl",
 		"perl:any"
 	],
+	"replaces": [
+		"pdl (<< 1:2.096)"
+	],
+	"breaks": [
+		"pdl (<< 1:2.096)"
+	],
 	"installedSize": 40,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "Read IDL(tm) data files into PDL",
 	"homepage": "https://metacpan.org/release/PDL-IO-IDL",
-	"filename": "pool/main/libp/libpdl-io-idl-perl/libpdl-io-idl-perl_2.098-1_all.deb",
-	"size": 11672,
-	"md5": "4f7ac2d3977a7ac9b43e8a01dab87633",
-	"sha256": "64460e5adf1585bf1bb4f5485eddd98ce63ebfc4c4975976a15d54b5f3384b6f",
+	"filename": "pool/main/libp/libpdl-io-idl-perl/libpdl-io-idl-perl_2.098-2_all.deb",
+	"size": 11800,
+	"md5": "d554853f5f2a4510784fb8316171b593",
+	"sha256": "581aeb221b3fb697702d89f8373730295b9521e1d592540adaa0c899352d37e1",
 	"descriptionMd5": "8c1a6382ebe3dd80de22162934133e55"
 }
