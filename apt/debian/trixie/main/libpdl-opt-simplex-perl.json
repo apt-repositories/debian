@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libpdl-opt-simplex-perl",
-	"version": "2.097-1",
+	"version": "2.097-2",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,13 +13,19 @@
 		"pdl",
 		"perl:any"
 	],
+	"replaces": [
+		"pdl (<< 1:2.096)"
+	],
+	"breaks": [
+		"pdl (<< 1:2.096)"
+	],
 	"installedSize": 31,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "PDL implementation of simplex optimization algorithm",
 	"homepage": "https://metacpan.org/release/PDL-Opt-Simplex",
-	"filename": "pool/main/libp/libpdl-opt-simplex-perl/libpdl-opt-simplex-perl_2.097-1_all.deb",
-	"size": 9764,
-	"md5": "b9ce005a8e835c240505c2e4c3b8cbc5",
-	"sha256": "feaf90a9260d15a0d90ffed47c7ea73100b183b59bf9bd42b2e239c8d1ec60b8",
+	"filename": "pool/main/libp/libpdl-opt-simplex-perl/libpdl-opt-simplex-perl_2.097-2_all.deb",
+	"size": 9892,
+	"md5": "f7244a2a850b5b0d80cce4bdf39377e3",
+	"sha256": "a2fd814732d7cbc86d546bb4aea2fb61fd1a50b9a747db089c311950f9044807",
 	"descriptionMd5": "9815cf7bc0a81be26f542a11087c6c16"
 }

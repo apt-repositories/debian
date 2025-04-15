@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "socklog-run",
+	"source": "socklog",
+	"version": "2.1.0+repack-6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"socklog (= 2.1.0+repack-6)",
+		"runit",
+		"runit-helper (>= 2.14.0~)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
+	],
+	"recommends": [
+		"ipsvd",
+		"mailx"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-51~)"
+	],
+	"conflicts": [
+		"linux-kernel-log-daemon",
+		"system-log-daemon"
+	],
+	"installedSize": 71,
+	"maintainer": "Mathieu Mirmont <mat@parad0x.org>",
+	"description": "system and kernel logging services - runit services",
+	"homepage": "http://smarden.org/socklog",
+	"filename": "pool/main/s/socklog/socklog-run_2.1.0+repack-6_amd64.deb",
+	"size": 10240,
+	"md5": "a6b690c19c58ac039f9cef91591f505e",
+	"sha256": "39de079fe5b296b8959aeb14b9cfe718cf9d1bff346a90dbec3e6b994d81cd5e",
+	"descriptionMd5": "ff83493ae4bcfd2e204e5ecf7b81ee68"
+}]
