@@ -6,23 +6,27 @@
 	],
 	"package": "ncbi-vdb-data",
 	"source": "ncbi-vdb",
-	"version": "3.0.9+dfsg-2",
+	"version": "3.2.1+dfsg-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "all",
+	"recommends": [
+		"python3:any"
+	],
 	"replaces": [
-		"libncbi-vdb2 (<< 2.11.2+dfsg-5~)"
+		"libncbi-vdb2 (<< 2.11.2+dfsg-5~)",
+		"sra-toolkit (<< 3.2)"
 	],
 	"breaks": [
 		"libncbi-vdb2 (<< 2.11.2+dfsg-5~)"
 	],
-	"installedSize": 424,
+	"installedSize": 529,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "schemata and defaults for the INSDC Sequence Read Archives",
 	"homepage": "https://github.com/ncbi/ncbi-vdb",
-	"filename": "pool/main/n/ncbi-vdb/ncbi-vdb-data_3.0.9+dfsg-2_all.deb",
-	"size": 74016,
-	"md5": "423b40b751c776d622806b94accd1493",
-	"sha256": "7c19f40cf82bb7e7708e73b6948cf89d0151f70e5d83836d9a8020e8af48568c",
-	"descriptionMd5": "64318773fb965a7b4cab20e12b34de93"
+	"filename": "pool/main/n/ncbi-vdb/ncbi-vdb-data_3.2.1+dfsg-2_all.deb",
+	"size": 88544,
+	"md5": "33f260461d49687363f5e4175967c8e8",
+	"sha256": "fbfc785a252f0d1d9f1e31d4817515bf1e1f127c0db1316675417d503fdc4fc4",
+	"descriptionMd5": "c1dc8b10449fa8ced5610833baf57aa1"
 }

@@ -5,30 +5,42 @@
 		"Size"
 	],
 	"package": "phing",
-	"version": "2.17.4-1",
+	"version": "3.0.1-2",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"php-xml",
 		"php-cli",
-		"php-common"
+		"php-common",
+		"php-xml",
+		"php-json",
+		"phpunit-version (>> 2.0)",
+		"phpunit-version (<< 7.0~~)",
+		"php-symfony-console (>> 4)",
+		"php-symfony-console (<< 8.0~~)",
+		"php-symfony-yaml (>> 4)",
+		"php-symfony-yaml (<< 8.0~~)"
 	],
-	"recommends": [
-		"php-pear (>= 1.3.8)",
-		"php-xdebug (>= 2.0.5)",
-		"php-http-request2 (>= 2.1.1)",
-		"pdepend (>= 0.10.0)",
-		"phpmd (>= 1.1.0)",
-		"php-codesniffer (>= 1.5.0)"
+	"suggests": [
+		"php-intl",
+		"php-tidy",
+		"php-guzzlehttp-guzzle",
+		"php-monolog",
+		"php-pear",
+		"php-mail",
+		"php-mail-mime",
+		"phpunit",
+		"php-codecoverage",
+		"php-symfony-stopwatch",
+		"php-jshrink"
 	],
-	"installedSize": 3652,
+	"installedSize": 3983,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "PHP project build system or build tool based on Apache Ant",
 	"homepage": "https://www.phing.info/",
-	"filename": "pool/main/p/phing/phing_2.17.4-1_all.deb",
-	"size": 454992,
-	"md5": "8dae641f5e301a739178ddb2a9fbc1d4",
-	"sha256": "6be8f18a0a7898ed48c7b879ccd04ed8112f0d78e4fb44b46fbbda752fe7bcb0",
+	"filename": "pool/main/p/phing/phing_3.0.1-2_all.deb",
+	"size": 715376,
+	"md5": "75b10e96c85ffc776dcca01b0d0c647a",
+	"sha256": "736dc13c8c208fb10626aad15b760dcfc89aac89dc67fe1568e925fc6d510c7d",
 	"descriptionMd5": "59e33493ef30d88d0872c87ba39caf56"
 }]

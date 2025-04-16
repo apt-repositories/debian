@@ -6,17 +6,20 @@
 	],
 	"package": "sra-toolkit",
 	"source": "sra-sdk",
-	"version": "3.0.9+dfsg-7.1",
+	"version": "3.2.1+dfsg-3",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libabsl20240722 (>= 20240722.0-1)",
+		"libbz2-1.0",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libhdf5-310 (>= 1.14.3)",
 		"libmagic1t64 (>= 5.12)",
-		"libncbi-vdb3 (>= 3.0.9+dfsg)",
-		"libncbi-wvdb3 (>= 3.0.9+dfsg)",
+		"libncbi-vdb3 (>= 3.2.1+dfsg)",
+		"libncbi-wvdb3 (>= 3.2.1+dfsg)",
+		"libre2-11-absl20240722",
 		"libstdc++6 (>= 14)",
 		"libxml2 (>= 2.7.4)",
 		"zlib1g (>= 1:1.2.2)"
@@ -24,13 +27,13 @@
 	"recommends": [
 		"med-config"
 	],
-	"installedSize": 16602,
+	"installedSize": 20156,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "utilities for the NCBI Sequence Read Archive",
 	"homepage": "https://github.com/ncbi/sra-tools/",
-	"filename": "pool/main/s/sra-sdk/sra-toolkit_3.0.9+dfsg-7.1_amd64.deb",
-	"size": 6519832,
-	"md5": "2b595845103ffa41396d6c520ee9f7a5",
-	"sha256": "2199c55451786330e396d090c962cf2ae4bcc3d6ee4217562e328843a15c640d",
+	"filename": "pool/main/s/sra-sdk/sra-toolkit_3.2.1+dfsg-3_amd64.deb",
+	"size": 7231204,
+	"md5": "4a59f0ab93e163bc914f6e77df1fd95a",
+	"sha256": "f339df7caa11a20e071ed935ee7f8da4429232c9318508bb7ae81d08f1d30925",
 	"descriptionMd5": "1a61cd8ef6f417d5f86c6c13697e7a05"
 }
