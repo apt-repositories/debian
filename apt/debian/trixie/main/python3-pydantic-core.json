@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "python3-pydantic-core",
-	"source": "pydantic-core (2.27.2-1)",
-	"version": "2.27.2-1+b2",
+	"source": "pydantic-core",
+	"version": "2.27.2-3",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,14 +18,17 @@
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 4.2)"
 	],
-	"installedSize": 4992,
+	"breaks": [
+		"python3-pydantic (<< 2.10.6-2~)"
+	],
+	"installedSize": 5031,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Rust implementation of pydantic core functionality (Python 3 module)",
 	"homepage": "https://github.com/pydantic/pydantic-core",
-	"builtUsing": "rust-ahash (= 0.8.11-9), rustc (= 1.85.0+dfsg1-1)",
-	"filename": "pool/main/p/pydantic-core/python3-pydantic-core_2.27.2-1+b2_amd64.deb",
-	"size": 1502308,
-	"md5": "e8591254346f9413bd7d2cca14def980",
-	"sha256": "61472d5ebfb413938a5679c9a1dbba2641ee042da6e900f1c69498188b01c52a",
+	"builtUsing": "rust-ahash (= 0.8.11-9), rustc (= 1.85.0+dfsg2-2)",
+	"filename": "pool/main/p/pydantic-core/python3-pydantic-core_2.27.2-3_amd64.deb",
+	"size": 1504572,
+	"md5": "ace5512348d005cb2adde36a288ee76b",
+	"sha256": "de66a768913654959d6e3000b3e08f0c32552999e2359f1e007a4590a3c3f297",
 	"descriptionMd5": "67af44897aff633e24519040dafa7c8a"
 }

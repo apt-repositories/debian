@@ -6,12 +6,13 @@
 	],
 	"package": "luanti-server",
 	"source": "luanti",
-	"version": "5.10.0+dfsg-3",
+	"version": "5.10.0+dfsg-4",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"luanti-data (= 5.10.0+dfsg-3)",
+		"luanti-data (= 5.10.0+dfsg-4)",
+		"luanti-game-minetest",
 		"libc6 (>= 2.38)",
 		"libcurl4t64 (>= 7.66.0)",
 		"libgcc-s1 (>= 3.3.1)",
@@ -28,9 +29,6 @@
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"recommends": [
-		"luanti-game-minetest"
-	],
 	"conflicts": [
 		"minetest-server (<< 5.10.0+dfsg-1~)"
 	],
@@ -38,9 +36,9 @@
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "Multiplayer infinite-world block sandbox (server)",
 	"homepage": "https://www.luanti.org",
-	"filename": "pool/main/l/luanti/luanti-server_5.10.0+dfsg-3_amd64.deb",
-	"size": 1997020,
-	"md5": "81715c132bcc2c03aad7c0e9b8ecadc1",
-	"sha256": "c22c8f7e8b7f42a3cade907f60183adf23925ef67f284590d08f5f6abafb24fe",
+	"filename": "pool/main/l/luanti/luanti-server_5.10.0+dfsg-4_amd64.deb",
+	"size": 1996564,
+	"md5": "e35c9d2aa43ba792ce53e124280d2958",
+	"sha256": "952dbdb98e2849c8ebeb0a72ab822e9cc21729dcd89e3153e79221b2dbc7838d",
 	"descriptionMd5": "029dc3d953333309db86e41e9ba12eb8"
 }
