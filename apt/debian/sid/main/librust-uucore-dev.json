@@ -6,7 +6,7 @@
 	],
 	"package": "librust-uucore-dev",
 	"source": "rust-uucore",
-	"version": "0.0.30-2",
+	"version": "0.0.30-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -56,13 +56,16 @@
 		"librust-xattr-1+default-dev (>= 1.3.1-~~)",
 		"librust-z85-3+default-dev (>= 3.0.5-~~)"
 	],
-	"installedSize": 627,
+	"breaks": [
+		"librust-findutils-dev (<< 0.8.0-1)"
+	],
+	"installedSize": 629,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Uutils ~ 'core' uutils code library (cross-platform) - Rust source code",
 	"homepage": "https://github.com/uutils/coreutils",
-	"filename": "pool/main/r/rust-uucore/librust-uucore-dev_0.0.30-2_amd64.deb",
-	"size": 117696,
-	"md5": "e61100362f019d8503222b5dc5f99202",
-	"sha256": "4ab81753a012ecb8c92fa4844494e827641a18b7f313c7307403d56dd68a602b",
+	"filename": "pool/main/r/rust-uucore/librust-uucore-dev_0.0.30-3_amd64.deb",
+	"size": 117940,
+	"md5": "4bc465081a347aebd537fb64d5708c18",
+	"sha256": "5c5cc891b72a6bd05fade3c799874f478339fa27208d7766726b7080b1da4774",
 	"descriptionMd5": "d4a53ec699d615b5b5639280da73f86a"
 }
