@@ -6,12 +6,12 @@
 	],
 	"package": "python3-setuptools",
 	"source": "setuptools",
-	"version": "78.1.0-1.1",
+	"version": "78.1.0-1.2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-pkg-resources (= 78.1.0-1.1)",
+		"python3-pkg-resources (= 78.1.0-1.2)",
 		"python3-importlib-metadata | python3-supported-min (>= 3.10)",
 		"python3-jaraco.text",
 		"python3-more-itertools",
@@ -23,13 +23,16 @@
 	"suggests": [
 		"python-setuptools-doc"
 	],
-	"installedSize": 3895,
+	"breaks": [
+		"python3-wheel (<< 0.46.0)"
+	],
+	"installedSize": 3896,
 	"maintainer": "Matthias Klose <doko@debian.org>",
 	"description": "Python3 Distutils Enhancements",
 	"homepage": "https://pypi.python.org/pypi/setuptools",
-	"filename": "pool/main/s/setuptools/python3-setuptools_78.1.0-1.1_all.deb",
-	"size": 737556,
-	"md5": "7ef674855ea3d2f07b962944e220ec37",
-	"sha256": "efd521698752bb13d3d8e80893eb3d48ab4368494597c53efbfdc2ff8551f584",
+	"filename": "pool/main/s/setuptools/python3-setuptools_78.1.0-1.2_all.deb",
+	"size": 737652,
+	"md5": "65c19f46e597bfc41a9c07a0be0f34ad",
+	"sha256": "88864263c358669022699ac433ffeaf3b0719c977507d41f577aa33d1dcbcafd",
 	"descriptionMd5": "1ec9057b4c43c99ba7a78729ff0f8f1c"
 }]
