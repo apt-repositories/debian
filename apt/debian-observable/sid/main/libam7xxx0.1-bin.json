@@ -6,7 +6,7 @@
 	],
 	"package": "libam7xxx0.1-bin",
 	"source": "libam7xxx",
-	"version": "0.1.7-4",
+	"version": "0.1.7-5",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,13 +21,19 @@
 		"libusb-1.0-0 (>= 2:1.0.16)",
 		"libxcb1"
 	],
+	"replaces": [
+		"libam7xxx0.1 (<< 0.1.7-3)"
+	],
+	"breaks": [
+		"libam7xxx0.1 (<< 0.1.7-3)"
+	],
 	"installedSize": 88,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "library for accessing am7xxx devices - utilities",
 	"homepage": "https://git.ao2.it/libam7xxx.git",
-	"filename": "pool/main/liba/libam7xxx/libam7xxx0.1-bin_0.1.7-4_amd64.deb",
-	"size": 22608,
-	"md5": "a8d25b43d90bb13f365da4d85b9e0527",
-	"sha256": "ae3a3a65776c38f00938c93d12626f770b57ac3474bc790807385c42396a8daa",
+	"filename": "pool/main/liba/libam7xxx/libam7xxx0.1-bin_0.1.7-5_amd64.deb",
+	"size": 22720,
+	"md5": "28fce0b7281f074c6cbf1e2c6c36cbe3",
+	"sha256": "6764696b446db76948c50974e2316cdd60f8e2426c86e20eb1aca79f0b345936",
 	"descriptionMd5": "81b17f58b188ac4460d550109784279a"
 }]
