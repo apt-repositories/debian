@@ -6,7 +6,7 @@
 	],
 	"package": "rsyslog-pgsql",
 	"source": "rsyslog",
-	"version": "8.2502.0-5",
+	"version": "8.2502.0-6",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,8 +14,8 @@
 		"libc6 (>= 2.4)",
 		"libpq5",
 		"debconf (>= 0.5) | debconf-2.0",
-		"rsyslog (= 8.2502.0-5)",
-		"dbconfig-common",
+		"rsyslog (= 8.2502.0-6)",
+		"dbconfig-pgsql | dbconfig-no-thanks",
 		"ucf"
 	],
 	"recommends": [
@@ -28,9 +28,9 @@
 	"maintainer": "Michael Biebl <biebl@debian.org>",
 	"description": "PostgreSQL output plugin for rsyslog",
 	"homepage": "https://www.rsyslog.com/",
-	"filename": "pool/main/r/rsyslog/rsyslog-pgsql_8.2502.0-5_amd64.deb",
-	"size": 307088,
-	"md5": "9804d7fd9d57aab9e8e4ae955a2f31ff",
-	"sha256": "5087f5af840cb6165244449c71e10aa5f224d221dddd9c4e39fc1191ec8ac726",
+	"filename": "pool/main/r/rsyslog/rsyslog-pgsql_8.2502.0-6_amd64.deb",
+	"size": 307252,
+	"md5": "36c740509d3d623417d1d0745bd7622c",
+	"sha256": "e9f230d730b21c760b42d1bcde4271b7ac10e91c1bf226c5045d4bf50ef22dd3",
 	"descriptionMd5": "1d2cf23cdf0c487b7ba6462ff29414d9"
 }
