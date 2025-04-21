@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "awf-gtk4",
-	"source": "awf-gtk (2.8.0-1)",
-	"version": "2.8.0-1+b1",
+	"source": "awf-gtk",
+	"version": "2.9.0-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libglib2.0-0t64 (>= 2.32.0)",
-		"libgtk-4-1 (>= 4.0.0)",
+		"libglib2.0-0t64 (>= 2.42.0)",
+		"libgtk-4-1 (>= 4.9.2)",
+		"libnotify4 (>= 0.7.0)",
 		"libpango-1.0-0 (>= 1.18.0)"
 	],
-	"installedSize": 123,
+	"replaces": [
+		"awf"
+	],
+	"installedSize": 129,
 	"maintainer": "Fabrice Creuzot <code@luigifab.fr>",
 	"description": "theme preview application for GTK 4",
 	"homepage": "https://github.com/luigifab/awf-extended",
-	"filename": "pool/main/a/awf-gtk/awf-gtk4_2.8.0-1+b1_amd64.deb",
-	"size": 30436,
-	"md5": "6bce1036dfe799a79585897f3adf22e3",
-	"sha256": "2d5b7963f058d0c738ba9572aac646398c1057ad2966acef6d2933b14686422f",
+	"filename": "pool/main/a/awf-gtk/awf-gtk4_2.9.0-1_amd64.deb",
+	"size": 31624,
+	"md5": "c44dbc12dff21e0bf875361e112218ec",
+	"sha256": "2d5de9871df57250d7e43efde7be9448f105839b8e1835f657bf3f7d27670579",
 	"descriptionMd5": "76b5e6b496b0b4dc2255eacd5f3f0e0e"
 }

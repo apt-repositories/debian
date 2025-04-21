@@ -64,4 +64,69 @@
 	"md5": "d023169554682a620c9eb0e74b8fd880",
 	"sha256": "3a59b60b23f03fbebc6fd2bf91e2cb29b6ac30a2ea3753877ba1ba349d2963c4",
 	"descriptionMd5": "34f1d00a77372c45835007b286d6b266"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "erlang-base",
+	"source": "erlang",
+	"version": "1:23.2.6+dfsg-1+deb11u2",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"procps",
+		"adduser",
+		"libc6 (>= 2.29)",
+		"libsystemd0",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.2.8)"
+	],
+	"recommends": [
+		"libsctp1 (>= 1.0.18+dfsg)",
+		"erlang-crypto (= 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-syntax-tools (= 1:23.2.6+dfsg-1+deb11u2)"
+	],
+	"suggests": [
+		"erlang-tools (= 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang",
+		"erlang-manpages",
+		"erlang-doc"
+	],
+	"replaces": [
+		"erlang (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-base-hipe",
+		"erlang-dev (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-doc (>> 1:23.2.6+dfsg-999)",
+		"erlang-doc (<< 1:23.2.6+dfsg)",
+		"erlang-doc-html (<< 1:13.b.4)",
+		"erlang-examples (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-manpages (<= 1:11.b.1-2)",
+		"erlang-mode (<< 1:12.b.1-dfsg-2)",
+		"erlang-nox (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-src (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-typer (<< 1:20.0+dfsg)",
+		"erlang-x11 (<< 1:23.2.6+dfsg-1+deb11u2)"
+	],
+	"breaks": [
+		"rabbitmq-server (<< 3.7.7)"
+	],
+	"conflicts": [
+		"erlang (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-base-hipe",
+		"erlang-doc (>> 1:23.2.6+dfsg-999)",
+		"erlang-doc (<< 1:23.2.6+dfsg)",
+		"erlang-doc-html (<< 1:13.b.4)",
+		"erlang-manpages (<= 1:11.b.1-2)"
+	],
+	"installedSize": 14818,
+	"maintainer": "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>",
+	"description": "Erlang/OTP virtual machine and base applications",
+	"homepage": "http://www.erlang.org/",
+	"filename": "pool/updates/main/e/erlang/erlang-base_23.2.6+dfsg-1+deb11u2_amd64.deb",
+	"size": 8457472,
+	"sha256": "993e1e2d27255f0c3a24082332a62a66ddea6ae76871978432bea67467e7f126",
+	"descriptionMd5": "34f1d00a77372c45835007b286d6b266"
 }]
