@@ -44,4 +44,49 @@
 	"md5": "9748d3112c6b0a9a0c3c7194d0653ed0",
 	"sha256": "06422dcb38ea9f1a2e72d45d2c4019522eb0ede8e06110a3be119bafe0231c23",
 	"descriptionMd5": "2ab50c8973bb765ccc1c37f7e496762f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "erlang-ssh",
+	"source": "erlang",
+	"version": "1:23.2.6+dfsg-1+deb11u2",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"erlang-base (= 1:23.2.6+dfsg-1+deb11u2) | erlang-base-hipe (= 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-crypto (= 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-public-key (= 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-runtime-tools (= 1:23.2.6+dfsg-1+deb11u2)"
+	],
+	"suggests": [
+		"erlang",
+		"erlang-manpages",
+		"erlang-doc"
+	],
+	"replaces": [
+		"erlang (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-base (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-base-hipe (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-dev (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-doc (>> 1:23.2.6+dfsg-999)",
+		"erlang-doc (<< 1:23.2.6+dfsg)",
+		"erlang-examples (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-manpages (<= 1:11.b.1-2)",
+		"erlang-mode (<< 1:12.b.1-dfsg-2)",
+		"erlang-nox (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-src (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-x11 (<< 1:23.2.6+dfsg-1+deb11u2)"
+	],
+	"installedSize": 1016,
+	"maintainer": "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>",
+	"description": "Erlang/OTP implementation of SSH protocol",
+	"homepage": "http://www.erlang.org/",
+	"filename": "pool/updates/main/e/erlang/erlang-ssh_23.2.6+dfsg-1+deb11u2_amd64.deb",
+	"size": 792324,
+	"sha256": "f115f61185a0069913b2bf2ee0ffe380616335e7a9e5340982c16e6338c790d7",
+	"descriptionMd5": "2ab50c8973bb765ccc1c37f7e496762f"
 }]

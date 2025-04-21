@@ -43,4 +43,48 @@
 	"md5": "58d96d34e3668d003bbf41371043a03c",
 	"sha256": "3e93bb245e390b12f97396854a75140605301ac05eecc53c510238fec9a646d4",
 	"descriptionMd5": "a0448be753203ae3013367e215bb963c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "erlang-runtime-tools",
+	"source": "erlang",
+	"version": "1:23.2.6+dfsg-1+deb11u2",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"erlang-base (= 1:23.2.6+dfsg-1+deb11u2) | erlang-base-hipe (= 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-mnesia (= 1:23.2.6+dfsg-1+deb11u2)",
+		"libc6 (>= 2.14)"
+	],
+	"suggests": [
+		"erlang",
+		"erlang-manpages",
+		"erlang-doc"
+	],
+	"replaces": [
+		"erlang (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-base (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-base-hipe (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-dev (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-doc (>> 1:23.2.6+dfsg-999)",
+		"erlang-doc (<< 1:23.2.6+dfsg)",
+		"erlang-examples (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-manpages (<= 1:11.b.1-2)",
+		"erlang-mode (<< 1:12.b.1-dfsg-2)",
+		"erlang-nox (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-src (<< 1:23.2.6+dfsg-1+deb11u2)",
+		"erlang-x11 (<< 1:23.2.6+dfsg-1+deb11u2)"
+	],
+	"installedSize": 396,
+	"maintainer": "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>",
+	"description": "Erlang/OTP runtime tracing/debugging tools",
+	"homepage": "http://www.erlang.org/",
+	"filename": "pool/updates/main/e/erlang/erlang-runtime-tools_23.2.6+dfsg-1+deb11u2_amd64.deb",
+	"size": 217572,
+	"sha256": "1f642cdcd33b170ce114e136b099eb550a9988f0a0b267e640dce6ff965e8ef0",
+	"descriptionMd5": "a0448be753203ae3013367e215bb963c"
 }]
