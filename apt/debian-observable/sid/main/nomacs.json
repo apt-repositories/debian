@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "nomacs",
-	"version": "3.21.0+dfsg-1",
+	"version": "3.21.0+dfsg-2",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"qt6-image-formats-plugins",
 		"libc6 (>= 2.38)",
 		"libexiv2-28 (>= 0.28.0)",
 		"libgcc-s1 (>= 3.0)",
@@ -25,11 +26,10 @@
 		"libquazip1-qt6-1t64 (>= 1.4)",
 		"libraw23t64 (>= 0.21.1)",
 		"libstdc++6 (>= 13.1)",
-		"libtiff6 (>= 4.0.3)",
-		"qt5-image-formats-plugins"
+		"libtiff6 (>= 4.0.3)"
 	],
 	"recommends": [
-		"nomacs-l10n (= 3.21.0+dfsg-1)"
+		"nomacs-l10n (= 3.21.0+dfsg-2)"
 	],
 	"replaces": [
 		"libnomacscore3 (<< 3.6.1)",
@@ -45,9 +45,9 @@
 	"maintainer": "LXQt Packaging Team <team+lxqt@tracker.debian.org>",
 	"description": "image viewer with capability of syncing multiple instances",
 	"homepage": "https://nomacs.org/",
-	"filename": "pool/main/n/nomacs/nomacs_3.21.0+dfsg-1_amd64.deb",
-	"size": 1346628,
-	"md5": "91d062b71704708a3770e28ef8f9a95a",
-	"sha256": "3443759a3b08176f45bff5d9f38febb71f91f31c1a6254a2d63788edcbf53519",
+	"filename": "pool/main/n/nomacs/nomacs_3.21.0+dfsg-2_amd64.deb",
+	"size": 1348676,
+	"md5": "c575f92d40f05ee233db9d660b38d053",
+	"sha256": "b780da207877709be170ddd23cad534671b8d2a468519b9926c9b7ad4c267130",
 	"descriptionMd5": "c598a477ee0a8993a5cdae70c04d2674"
 }]
