@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "pinto",
-	"version": "0.14000-2",
+	"version": "0.14000-3",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -63,13 +63,16 @@
 		"lsb-base",
 		"starman"
 	],
-	"installedSize": 1091,
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 1085,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "application for curating a repository of Perl modules",
 	"homepage": "https://metacpan.org/release/Pinto",
-	"filename": "pool/main/p/pinto/pinto_0.14000-2_all.deb",
-	"size": 343276,
-	"md5": "a9473876fb302d561b34349fbd73739b",
-	"sha256": "b68e8270669ac861c30e04c2a8c5f7397332950f0251c1a7ee6ceebf1fa77bc3",
+	"filename": "pool/main/p/pinto/pinto_0.14000-3_all.deb",
+	"size": 324816,
+	"md5": "626306231b5ca5dd303fde5c5319e918",
+	"sha256": "f4ac35fb7a5052f537366bf9b82a83ceb1b4168ea9479bfd2298564599ba8a92",
 	"descriptionMd5": "8c61f11b8072b9b2e24f590a25caf9d3"
 }]
