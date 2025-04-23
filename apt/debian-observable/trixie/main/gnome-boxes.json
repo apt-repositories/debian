@@ -5,15 +5,14 @@
 		"Size"
 	],
 	"package": "gnome-boxes",
-	"version": "48.0-1",
+	"version": "48.0-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"genisoimage",
 		"libosinfo-bin",
-		"libvirt-clients",
-		"libvirt-daemon",
+		"libvirt-daemon-system",
 		"user-session-migration",
 		"dconf-gsettings-backend | gsettings-backend",
 		"libarchive13t64 (>= 3.1.2)",
@@ -35,9 +34,6 @@
 		"libwebkit2gtk-4.1-0 (>= 2.25.1)",
 		"libxml2 (>= 2.7.8)"
 	],
-	"recommends": [
-		"qemu-system-x86"
-	],
 	"suggests": [
 		"gnome-connections"
 	],
@@ -45,9 +41,9 @@
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Simple GNOME app to access virtual systems",
 	"homepage": "https://apps.gnome.org/Boxes/",
-	"filename": "pool/main/g/gnome-boxes/gnome-boxes_48.0-1_amd64.deb",
-	"size": 891188,
-	"md5": "2c6df5615633afc421a8a2981e7b5159",
-	"sha256": "66ebb6d194d5b03caaf6ccb4a5f5bf9aee94301f45eab71f4e9ee35542837b1d",
+	"filename": "pool/main/g/gnome-boxes/gnome-boxes_48.0-2_amd64.deb",
+	"size": 891284,
+	"md5": "b37a09797c166b86434582a9d3b20a14",
+	"sha256": "9956ad57e49296d7d81b42e3c48fcec8fc8e6ea019dbea139a0c6b5d97e8133b",
 	"descriptionMd5": "23802aa6ebc544c9c10bcdeaaeda1749"
 }]
