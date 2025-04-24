@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "r-cran-bit64",
-	"version": "4.0.5-1",
+	"version": "4.6.0-1-4",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"r-base-core (>= 4.0.2-1)",
 		"r-api-4.0",
 		"r-cran-bit (>= 4.0.0)",
-		"libc6 (>= 2.29)"
+		"libc6 (>= 2.38)"
 	],
-	"installedSize": 646,
+	"recommends": [
+		"r-cran-testthat",
+		"r-cran-withr"
+	],
+	"installedSize": 683,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
-	"description": "GNU R S3 Class for Vectors of 64bit Integers",
+	"description": "A S3 Class for Vectors of 64bit Integers",
 	"homepage": "https://cran.r-project.org/package=bit64",
-	"filename": "pool/main/r/r-cran-bit64/r-cran-bit64_4.0.5-1_amd64.deb",
-	"size": 463380,
-	"md5": "88755d416b8ef7ae0f0df4b5456f5b71",
-	"sha256": "5749c226bc6286c990a644bd2642ef83985dcc7892d44c931b6273dd622aa6d4",
-	"descriptionMd5": "e8cd547c29ff22fa3b9d0de8292fa529"
+	"filename": "pool/main/r/r-cran-bit64/r-cran-bit64_4.6.0-1-4_amd64.deb",
+	"size": 489280,
+	"md5": "f146460dd91b16ffe9dd0b36c78f8d45",
+	"sha256": "26acd1aaee51923a4be9593123b40afc7a116bc3db529d37c0c772cd86d7c7db",
+	"descriptionMd5": "6d2a16b10e148b53c4f7a0c08de91382"
 }]

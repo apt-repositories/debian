@@ -6,7 +6,7 @@
 	],
 	"package": "dicod",
 	"source": "dico",
-	"version": "2.12-2",
+	"version": "2.12-3",
 	"section": "text",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -28,7 +28,11 @@
 	],
 	"suggests": [
 		"dico-doc",
-		"openbsd-inetd | inetutils-inetd"
+		"openbsd-inetd | inetutils-inetd",
+		"dict-foldoc",
+		"dict-gcide | dictd-dictionary",
+		"dict-jargon",
+		"dict-wn"
 	],
 	"replaces": [
 		"dico-module-dictorg",
@@ -44,9 +48,9 @@
 	"maintainer": "Ritesh Raj Sarraf <rrs@debian.org>",
 	"description": "RFC 2229 compliant modular dictionary server",
 	"homepage": "https://puszcza.gnu.org.ua/software/dico/",
-	"filename": "pool/main/d/dico/dicod_2.12-2_amd64.deb",
-	"size": 256288,
-	"md5": "5257c79663abd830e5b0c07e8b106b9e",
-	"sha256": "97840c80fa1710e574a95f10e74ec9cb70000654b7cb6dae028ef8b2f6a803fc",
+	"filename": "pool/main/d/dico/dicod_2.12-3_amd64.deb",
+	"size": 256328,
+	"md5": "3b8321ee8e5ff271b7d283160dc531f5",
+	"sha256": "b909afc11e78215d3a5b0bffac5226f428a06180d0ced35c973adc503312b7c6",
 	"descriptionMd5": "ec9ad191eacf23c9cb9849b4c27dc108"
 }]
