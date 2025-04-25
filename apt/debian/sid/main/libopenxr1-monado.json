@@ -5,18 +5,19 @@
 		"Size"
 	],
 	"package": "libopenxr1-monado",
-	"source": "monado (21.0.0+git2905.e26a272c1~dfsg1-2)",
-	"version": "21.0.0+git2905.e26a272c1~dfsg1-2+b6",
+	"source": "monado",
+	"version": "25.0.0+dfsg-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
+		"libcjson1 (>= 1.7.5)",
 		"libgcc-s1 (>= 3.0)",
 		"libglx0",
-		"libstdc++6 (>= 11)",
+		"libstdc++6 (>= 13)",
 		"libvulkan1 (>= 1.2.131.2)",
-		"monado-service (= 21.0.0+git2905.e26a272c1~dfsg1-2+b6)"
+		"monado-service (= 25.0.0+dfsg-1)"
 	],
 	"recommends": [
 		"xr-hardware",
@@ -25,13 +26,13 @@
 	"suggests": [
 		"bluez"
 	],
-	"installedSize": 809,
-	"maintainer": "Ryan Pavlik <ryan@ryanpavlik.com>",
+	"installedSize": 1340,
+	"maintainer": "Rylie Pavlik <rylie@ryliepavlik.com>",
 	"description": "Monado implementation of the OpenXR API",
 	"homepage": "https://monado.freedesktop.org/",
-	"filename": "pool/main/m/monado/libopenxr1-monado_21.0.0+git2905.e26a272c1~dfsg1-2+b6_amd64.deb",
-	"size": 250192,
-	"md5": "5c6c40440aaedbb7e2854e74513eaaa7",
-	"sha256": "891a9b65b3effc3f02897c435fb2013f134abf812852129cdcac271f5ee95701",
-	"descriptionMd5": "5a1f28f2420e96cba15199ea013c1143"
+	"filename": "pool/main/m/monado/libopenxr1-monado_25.0.0+dfsg-1_amd64.deb",
+	"size": 406200,
+	"md5": "2d106a938329fd97372f10328580685f",
+	"sha256": "3e4ad1002c9605f057f09c8a65b038337a8bc130b50f20d5c77bc404adaa439f",
+	"descriptionMd5": "42b7f7e3f486af4cff6ec3f9bcb011da"
 }
