@@ -6,7 +6,7 @@
 	],
 	"package": "python3-neutron",
 	"source": "neutron",
-	"version": "2:26.0.0-1",
+	"version": "2:26.0.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -78,13 +78,16 @@
 	"recommends": [
 		"iputils-arping"
 	],
+	"breaks": [
+		"neutron-dynamic-routing (<< 2:26.0.0~)"
+	],
 	"installedSize": 18724,
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "OpenStack virtual network service - Python library",
 	"homepage": "http://neutron.openstack.org/",
-	"filename": "pool/main/n/neutron/python3-neutron_26.0.0-1_all.deb",
-	"size": 2052244,
-	"md5": "6b5ee8376662fd1601b68f5486bdbc6e",
-	"sha256": "b4959bf5441ed492a3228090cf88943fb0584ee76a194b704777a16a2e1a2569",
+	"filename": "pool/main/n/neutron/python3-neutron_26.0.0-2_all.deb",
+	"size": 2052400,
+	"md5": "c59ec19e3f7460e068765e372b1232d4",
+	"sha256": "6174fbdf823eed6ffaf978a08ca3c1f1b6d9e49cf4f82e9bfbcaf628388902dd",
 	"descriptionMd5": "cc0229b30e5c68dc9bc0572ce8b9d600"
 }
