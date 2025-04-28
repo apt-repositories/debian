@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "devscripts",
-	"version": "2.25.9",
+	"version": "2.25.10",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,7 +14,6 @@
 		"file",
 		"gpg",
 		"gpg-agent",
-		"sopv | gpgv",
 		"libdpkg-perl",
 		"libfile-dirlist-perl",
 		"libfile-homedir-perl",
@@ -23,6 +22,7 @@
 		"libwww-perl",
 		"patchutils",
 		"sensible-utils",
+		"sopv | gpgv",
 		"wdiff",
 		"perl:any",
 		"python3:any"
@@ -62,6 +62,7 @@
 		"pristine-tar"
 	],
 	"suggests": [
+		"debhelper",
 		"adequate",
 		"at",
 		"autopkgtest",
@@ -69,7 +70,6 @@
 		"bsd-mailx | mailx",
 		"build-essential",
 		"check-all-the-things",
-		"debhelper",
 		"diffoscope",
 		"disorderfs",
 		"docker.io",
@@ -106,12 +106,12 @@
 		"hardening-includes",
 		"ubuntu-dev-tools (<< 0.147~)"
 	],
-	"installedSize": 2673,
+	"installedSize": 2689,
 	"maintainer": "Devscripts Maintainers <devscripts@packages.debian.org>",
 	"description": "scripts to make the life of a Debian Package maintainer easier",
-	"filename": "pool/main/d/devscripts/devscripts_2.25.9_all.deb",
-	"size": 1057188,
-	"md5": "6b9fae84ef6b82370ecaf54c768694bb",
-	"sha256": "9182126c42d52fb6f14ba2f2aa920c017c27e47313a1be1a57f4c57507ef9c71",
-	"descriptionMd5": "ec2533fcd1460c38810402e3a95a5fde"
+	"filename": "pool/main/d/devscripts/devscripts_2.25.10_all.deb",
+	"size": 1062272,
+	"md5": "5faae8fd963278e9856ad95cfe1d651d",
+	"sha256": "b70bf325fb16a05f6b63ac1f2dea62b202dc634773ac48e089e16e9d2511fbad",
+	"descriptionMd5": "9fea6b44d1cbf2988cf0d4dca6d643d9"
 }]
