@@ -6,12 +6,13 @@
 	],
 	"package": "openssh-client",
 	"source": "openssh",
-	"version": "1:9.9p2-2",
+	"version": "1:10.0p1-2",
 	"section": "net",
 	"priority": "standard",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
+		"init-system-helpers (>= 1.66~)",
 		"passwd",
 		"libc6 (>= 2.38)",
 		"libedit2 (>= 2.11-20080614-0)",
@@ -41,13 +42,13 @@
 	"conflicts": [
 		"sftp"
 	],
-	"installedSize": 4988,
+	"installedSize": 4997,
 	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
 	"description": "secure shell (SSH) client, for secure access to remote machines",
 	"homepage": "https://www.openssh.com/",
-	"filename": "pool/main/o/openssh/openssh-client_9.9p2-2_amd64.deb",
-	"size": 968128,
-	"md5": "e243960c4ea9eb9af465d543b34dcf4b",
-	"sha256": "3f98aea379050b2353c3011e3809633119712902b56fbeebbc4ed5ecbd5a9b69",
+	"filename": "pool/main/o/openssh/openssh-client_10.0p1-2_amd64.deb",
+	"size": 984840,
+	"md5": "eb9f415cd902223c8a3dcb7cd62ab863",
+	"sha256": "8d07cccc8998515c69fd1a30d662fc7c58445401fca44816d309562e0a50f575",
 	"descriptionMd5": "8cde3280ebad71c16b3e8c661dae6c6d"
 }]

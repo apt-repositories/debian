@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-proglottis-gpgme-dev",
 	"source": "golang-github-proglottis-gpgme",
-	"version": "0.1.4-2",
+	"version": "0.1.4-3",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,16 @@
 		"libgpgme-dev",
 		"pkgconf"
 	],
+	"breaks": [
+		"golang-github-keltia-archive-dev (<< 0.9.1-1~)"
+	],
 	"installedSize": 79,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Go wrapper for the GPGME library",
 	"homepage": "https://github.com/proglottis/gpgme",
-	"filename": "pool/main/g/golang-github-proglottis-gpgme/golang-github-proglottis-gpgme-dev_0.1.4-2_all.deb",
-	"size": 19636,
-	"md5": "ab1c32967308eda79f55be0fd308dec8",
-	"sha256": "e067cb286d24bbba174f7954958d672f4be3c530e264d500bcf4526bc9fc6e37",
+	"filename": "pool/main/g/golang-github-proglottis-gpgme/golang-github-proglottis-gpgme-dev_0.1.4-3_all.deb",
+	"size": 19700,
+	"md5": "cc1add2583c7481332eb145a1fddc2a2",
+	"sha256": "c19b699d263e49dd55fcf3bdfd79b5c8647c1cf124073dab66d3004a70b7ec43",
 	"descriptionMd5": "9f0b4aa35683d72f552a7a4d0716e1ce"
 }]
