@@ -5,18 +5,17 @@
 		"Size"
 	],
 	"package": "bind9",
-	"version": "1:9.20.7-1",
+	"version": "1:9.20.8-6",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
-		"bind9-libs (= 1:9.20.7-1)",
-		"bind9-utils (= 1:9.20.7-1)",
+		"bind9-libs (= 1:9.20.8-6)",
+		"bind9-utils (= 1:9.20.8-6)",
 		"debconf | debconf-2.0",
 		"dns-root-data",
 		"iproute2",
-		"lsb-base (>= 3.2-14)",
 		"netbase",
 		"libc6 (>= 2.38)",
 		"libcap2 (>= 1:2.10)",
@@ -37,7 +36,7 @@
 		"init-system-helpers (>= 1.54~)"
 	],
 	"suggests": [
-		"bind-doc",
+		"bind9-doc",
 		"bind9-dnsutils",
 		"resolvconf",
 		"ufw"
@@ -48,13 +47,13 @@
 	"breaks": [
 		"bind (<< 1:9.13.6~)"
 	],
-	"installedSize": 880,
+	"installedSize": 888,
 	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
 	"description": "Internet Domain Name Server",
 	"homepage": "https://www.isc.org/downloads/bind/",
-	"filename": "pool/main/b/bind9/bind9_9.20.7-1_amd64.deb",
-	"size": 249740,
-	"md5": "13bfbb4f2c195c958839673f61c8ce0f",
-	"sha256": "428fec9c9425ea050e0c1aee5dcfe4ed4ce6575fea80a372de7493fa0d59404e",
+	"filename": "pool/main/b/bind9/bind9_9.20.8-6_amd64.deb",
+	"size": 250236,
+	"md5": "23d6c5d4c92ef9c437bb8ef3f8744d77",
+	"sha256": "7e713176023646b92feb01a6fa93a09f0f87830702711d8dd1252faaa47750a7",
 	"descriptionMd5": "2cdf89d501b5ca6fe55e945de47cc047"
 }

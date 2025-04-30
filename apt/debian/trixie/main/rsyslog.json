@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "rsyslog",
-	"version": "8.2502.0-5",
+	"version": "8.2502.0-6",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -23,9 +23,16 @@
 		"logrotate"
 	],
 	"suggests": [
+		"rsyslog-doc",
 		"rsyslog-mysql | rsyslog-pgsql",
 		"rsyslog-mongodb",
-		"rsyslog-doc",
+		"rsyslog-elasticsearch",
+		"rsyslog-kafka",
+		"rsyslog-hiredis",
+		"rsyslog-snmp",
+		"rsyslog-kubernetes",
+		"rsyslog-docker",
+		"rsyslog-clickhouse",
 		"rsyslog-openssl | rsyslog-gnutls",
 		"rsyslog-gssapi",
 		"rsyslog-relp"
@@ -38,9 +45,9 @@
 	"maintainer": "Michael Biebl <biebl@debian.org>",
 	"description": "reliable system and kernel logging daemon",
 	"homepage": "https://www.rsyslog.com/",
-	"filename": "pool/main/r/rsyslog/rsyslog_8.2502.0-5_amd64.deb",
-	"size": 757948,
-	"md5": "7074060a511a61e7cba37286f89a8e76",
-	"sha256": "4446159902a2c4f4aa1a65c2102cdf3381c4e6a63d964b04cb453a5918fb7afc",
+	"filename": "pool/main/r/rsyslog/rsyslog_8.2502.0-6_amd64.deb",
+	"size": 759152,
+	"md5": "2a1bfe6727e5b38572360c4a7cb3dbd4",
+	"sha256": "6b25db3dd4c79e5213e15a3f842667e94690a35ac4fe82d8c0018512842ab4eb",
 	"descriptionMd5": "c25fbd9bcc88ab95bcc33eea4228fd42"
 }
