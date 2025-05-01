@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-nvidia-tesla-550",
+	"source": "nvidia-graphics-drivers-tesla-550",
+	"version": "550.54.15-1",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-tesla-550-alternative (= 550.54.15-1)",
+		"nvidia-support",
+		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
+		"xserver-xorg-core (<< 2:21.99)",
+		"libc6 (>= 2.34)",
+		"libnvidia-tesla-550-glcore (= 550.54.15-1)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-tesla-550-driver (>= 550.54.15)",
+		"nvidia-tesla-550-vdpau-driver (>= 550.54.15)",
+		"nvidia-tesla-550-vulkan-icd (>= 550.54.15)",
+		"nvidia-tesla-550-kernel-dkms (= 550.54.15-1) | nvidia-tesla-550-kernel-550.54.15 | nvidia-open-kernel-550.54.15",
+		"nvidia-suspend-common"
+	],
+	"suggests": [
+		"nvidia-tesla-550-kernel-dkms (>= 550.54.15) | nvidia-tesla-550-kernel-source (>= 550.54.15) | nvidia-open-kernel-source (>= 550.54.15)"
+	],
+	"installedSize": 20008,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary Xorg driver (Tesla 550 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-550/xserver-xorg-video-nvidia-tesla-550_550.54.15-1_amd64.deb",
+	"size": 2351844,
+	"md5": "37425e7c67872497a8866e55e1a00516",
+	"sha256": "ad1582fe182e7270db58626fbf11d623e329af884884f875ba09a4d6a9533223",
+	"descriptionMd5": "f4421517964668200a8338c010072c36"
+}]

@@ -37,4 +37,42 @@
 	"md5": "892ddfd8eed2334194a3c0c0cc25819f",
 	"sha256": "eddf4a78af7acaffd605649d327457ff4fe29a612b4567b520669d98c2bf566b",
 	"descriptionMd5": "3db761b210d4c694ba67e5f3a6107e32"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "u-boot-tools",
+	"source": "u-boot",
+	"version": "2021.01+dfsg-5+deb11u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libssl1.1 (>= 1.1.1)"
+	],
+	"recommends": [
+		"device-tree-compiler",
+		"libubootenv-tool"
+	],
+	"replaces": [
+		"u-boot (<< 2010.12-2)",
+		"uboot-envtools (<< 20081215-3~)",
+		"uboot-mkimage (<= 0.4build1)"
+	],
+	"breaks": [
+		"u-boot (<< 2010.12-2)",
+		"uboot-envtools (<< 20081215-3~)",
+		"uboot-mkimage (<= 0.4build1)"
+	],
+	"installedSize": 678,
+	"maintainer": "Vagrant Cascadian <vagrant@debian.org>",
+	"description": "companion tools for Das U-Boot bootloader",
+	"homepage": "https://www.denx.de/wiki/U-Boot/",
+	"filename": "pool/updates/main/u/u-boot/u-boot-tools_2021.01+dfsg-5+deb11u1_amd64.deb",
+	"size": 183256,
+	"sha256": "4c141b2c2e86af9a8c9889bb2c02646112e526692b5719ee60ebc57e3563dc2b",
+	"descriptionMd5": "3db761b210d4c694ba67e5f3a6107e32"
 }]

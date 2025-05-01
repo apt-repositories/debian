@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-550-driver-libs",
+	"source": "nvidia-graphics-drivers-tesla-550",
+	"version": "550.54.15-1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libgl1-nvidia-tesla-550-glvnd-glx (= 550.54.15-1)",
+		"nvidia-tesla-550-egl-icd (= 550.54.15-1)"
+	],
+	"recommends": [
+		"nvidia-tesla-550-driver-libs:i386 (= 550.54.15-1)",
+		"libopengl0 | libopengl0-glvnd-nvidia",
+		"libglx-nvidia-tesla-550-0 (= 550.54.15-1)",
+		"libgles-nvidia-tesla-550-1 (= 550.54.15-1)",
+		"libgles-nvidia-tesla-550-2 (= 550.54.15-1)",
+		"libnvidia-tesla-550-cfg1 (= 550.54.15-1)",
+		"libnvidia-tesla-550-encode1 (= 550.54.15-1)",
+		"nvidia-tesla-550-vulkan-icd (= 550.54.15-1)",
+		"libnvidia-tesla-550-allocator1 (= 550.54.15-1)"
+	],
+	"breaks": [
+		"libegl1-nvidia-tesla-550",
+		"libgl1-nvidia-tesla-550-glx",
+		"nvidia-tesla-550-driver-libs-nonglvnd",
+		"nvidia-tesla-550-nonglvnd-vulkan-icd"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia"
+	],
+	"installedSize": 188,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (OpenGL/GLX/EGL/GLES libraries) (Tesla 550 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-550/nvidia-tesla-550-driver-libs_550.54.15-1_amd64.deb",
+	"size": 160936,
+	"md5": "7909cb1b9eebe47d93ec61539b702811",
+	"sha256": "97acd4bfb88796e7a36778fa90d23f2a15b940a283016c86af00ab6aa72959dd",
+	"descriptionMd5": "193118daf1fda1525e4d3e4ae19f1d9b"
+}
