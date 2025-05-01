@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-550-vulkan-icd",
+	"source": "nvidia-graphics-drivers-tesla-550",
+	"version": "550.54.15-1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-vulkan-common",
+		"libvulkan1 (>= 1.0.42)",
+		"libglx-nvidia-tesla-550-0 (= 550.54.15-1)",
+		"libnvidia-tesla-550-rtcore (= 550.54.15-1)"
+	],
+	"suggests": [
+		"vulkan-tools"
+	],
+	"enhances": [
+		"libvulkan1"
+	],
+	"conflicts": [
+		"nvidia-tesla-550-nonglvnd-vulkan-icd"
+	],
+	"installedSize": 184,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA Vulkan installable client driver (ICD) (Tesla 550 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-550/nvidia-tesla-550-vulkan-icd_550.54.15-1_amd64.deb",
+	"size": 160596,
+	"md5": "1e4c3a8cf53fc01054684ca3a5c4f693",
+	"sha256": "a65cc749374e47f5804c7f813a4c0b2fe54166ad7541506276394267cdb87eb7",
+	"descriptionMd5": "9d0b8858a8c0058b81db8dfa4a7de1b4"
+}

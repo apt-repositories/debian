@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-550-kernel-dkms",
+	"source": "nvidia-graphics-drivers-tesla-550",
+	"version": "550.54.15-1",
+	"section": "non-free/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"firmware-nvidia-tesla-550-gsp (= 550.54.15) | firmware-nvidia-gsp-550.54.15",
+		"nvidia-tesla-550-kernel-support--v1",
+		"dkms (>= 3.0.11)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-tesla-550-driver (>= 550.54.15) | libnvidia-tesla-550-cuda1 (>= 550.54.15)"
+	],
+	"installedSize": 70765,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary kernel module DKMS source (Tesla 550 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-550/nvidia-tesla-550-kernel-dkms_550.54.15-1_amd64.deb",
+	"size": 41512016,
+	"md5": "4cf6a62ec4ed801298b2c66a38b988b7",
+	"sha256": "6a7feea2743d9ce69d813075054637c3ace3b272ee32d842f3a89e680655ae82",
+	"descriptionMd5": "66363cfd4ac7734ec7f45c6ac025eb00"
+}]

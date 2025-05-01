@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-550-alternative",
+	"source": "nvidia-graphics-drivers-tesla-550",
+	"version": "550.54.15-1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"glx-alternative-nvidia (>= 1.2)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.21)"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia",
+		"nvidia-legacy-304xx-alternative",
+		"nvidia-legacy-340xx-alternative",
+		"nvidia-legacy-390xx-alternative (<< 390.157-2~)",
+		"nvidia-tesla-418-alternative (<< 418.226.00-7~)",
+		"nvidia-tesla-450-alternative",
+		"nvidia-tesla-460-alternative",
+		"nvidia-tesla-470-alternative (<< 470.256.02-5)",
+		"nvidia-tesla-510-alternative",
+		"nvidia-tesla-alternative (<< 525.147.05-8~)"
+	],
+	"installedSize": 214,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "allows the selection of NVIDIA as GLX provider (Tesla 550 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-550/nvidia-tesla-550-alternative_550.54.15-1_amd64.deb",
+	"size": 162844,
+	"md5": "9b5a5b999fb70bda07b2c83682658d70",
+	"sha256": "79e23177256adeb6bac0c6c705b9ad416652810527cb27415259efe765a2524a",
+	"descriptionMd5": "a2b22768482073b7576de75a361eb0d3"
+}]
