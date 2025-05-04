@@ -6,7 +6,7 @@
 	],
 	"package": "monitoring-plugins-basic",
 	"source": "monitoring-plugins",
-	"version": "2.4.0-1",
+	"version": "2.4.0-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,7 +16,9 @@
 		"procps",
 		"ucf",
 		"libc6 (>= 2.38)",
-		"libssl3t64 (>= 3.0.0)"
+		"libcurl4t64 (>= 7.16.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"liburiparser1 (>= 0.6.0)"
 	],
 	"recommends": [
 		"libcap2-bin"
@@ -24,13 +26,19 @@
 	"suggests": [
 		"icinga2"
 	],
-	"installedSize": 1717,
+	"replaces": [
+		"monitoring-plugins-standard (<< 2.4.0-3~)"
+	],
+	"breaks": [
+		"monitoring-plugins-standard (<< 2.4.0-3~)"
+	],
+	"installedSize": 1851,
 	"maintainer": "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>",
 	"description": "Plugins for nagios compatible monitoring systems (basic)",
 	"homepage": "https://www.monitoring-plugins.org",
-	"filename": "pool/main/m/monitoring-plugins/monitoring-plugins-basic_2.4.0-1_amd64.deb",
-	"size": 266504,
-	"md5": "0e9cb454de19e27f84302c70ceb554c1",
-	"sha256": "bec55d4e7ba2e95d272ca3ff0a7939d25d38548bbbd42f6b2f11b770093d1503",
-	"descriptionMd5": "0ebf82c1421b961a4c00adda72f8022b"
+	"filename": "pool/main/m/monitoring-plugins/monitoring-plugins-basic_2.4.0-3_amd64.deb",
+	"size": 292596,
+	"md5": "0ae93be7e4bc387980cf8a553fb398bb",
+	"sha256": "bf2dbeea8504ea86da9a29dddb046b4dbac24ba8c289b7c9c88426d080ed79e8",
+	"descriptionMd5": "01efb7958463c4215e2d33b8093a68fb"
 }
