@@ -5,15 +5,17 @@
 		"Size"
 	],
 	"package": "waagent",
-	"version": "2.12.0.2-1",
+	"version": "2.12.0.2-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-distro",
+		"python3-legacycrypt | python3-supported-max (<< 3.13)",
 		"python3:any",
 		"ca-certificates",
-		"openssl"
+		"openssl",
+		"python3-crypt-r"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -31,13 +33,13 @@
 		"network-manager",
 		"walinuxagent"
 	],
-	"installedSize": 1403,
+	"installedSize": 1402,
 	"maintainer": "Debian Cloud Team <debian-cloud@lists.debian.org>",
 	"description": "Virtual machine interaction with the Microsoft Azure cloud service",
 	"homepage": "https://github.com/Azure/WALinuxAgent",
-	"filename": "pool/main/w/waagent/waagent_2.12.0.2-1_all.deb",
-	"size": 232972,
-	"md5": "806a61659bfff0c081cc602db60f33fc",
-	"sha256": "4974bc963b0e247f3377d3b535c7aee03a26737cba50ad23bc47fb93d089e8e7",
+	"filename": "pool/main/w/waagent/waagent_2.12.0.2-3_all.deb",
+	"size": 233096,
+	"md5": "2d37dbf9301558fb2e59a3aecb8c78c0",
+	"sha256": "d61fee9f3e865e572ad02718394d8700ef7e50331f00a1250593b2db6056f2ca",
 	"descriptionMd5": "906f9b548cc855096e29ff983dc7bdc0"
 }]
