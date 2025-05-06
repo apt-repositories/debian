@@ -6,14 +6,14 @@
 	],
 	"package": "python3-neutron-taas",
 	"source": "neutron-taas",
-	"version": "12.0.0+git.2024.10.07.749ac4557c-2",
+	"version": "15.0.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-babel",
-		"python3-neutron",
-		"python3-neutron-lib (>= 2.11.0)",
+		"python3-neutron (>= 2:26.0.0~rc1)",
+		"python3-neutron-lib (>= 3.18.2)",
+		"python3-openstackclient",
 		"python3-openstacksdk (>= 0.102.0)",
 		"python3-osc-lib",
 		"python3-pbr",
@@ -28,13 +28,13 @@
 	"breaks": [
 		"python-neutron-taas"
 	],
-	"installedSize": 301,
+	"installedSize": 422,
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "OpenStack virtual network service - Tap-as-a-Service extension",
 	"homepage": "https://opendev.org/x/tap-as-a-service",
-	"filename": "pool/main/n/neutron-taas/python3-neutron-taas_12.0.0+git.2024.10.07.749ac4557c-2_all.deb",
-	"size": 36300,
-	"md5": "57deb058ba28aff5136f41132386d102",
-	"sha256": "ab72224ff36ac265d08aaf8b46327e28d81575a8d00b239bf4d4ab7b60817033",
+	"filename": "pool/main/n/neutron-taas/python3-neutron-taas_15.0.0-1_all.deb",
+	"size": 47116,
+	"md5": "e3a912d41b0e71d0652aa3c8b14b6bbd",
+	"sha256": "6d7991fe5fc084a26950b9675d7a27e0f11b1744377611bd370e601845e3bca5",
 	"descriptionMd5": "57af05868f98571eb08ba36e093452f3"
 }
