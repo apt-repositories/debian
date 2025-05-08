@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.12.27-amd64",
+	"source": "linux-signed-amd64 (6.12.27+1)",
+	"version": "6.12.27-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.12",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.12.27-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.12.27-amd64-unsigned"
+	],
+	"installedSize": 109095,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.12 for 64-bit PCs (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.12.27-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.12.27-amd64_6.12.27-1_amd64.deb",
+	"size": 108790240,
+	"md5": "226a6dab27e4d9ed754516876b8ec260",
+	"sha256": "a4e9dd374ab409df013a8b3d565beb7b560a083c4a1e9fc189e06c87b3a85568",
+	"descriptionMd5": "224c8e7ad16235c8d318cebf70217775"
+}]
