@@ -6,7 +6,7 @@
 	],
 	"package": "atftpd",
 	"source": "atftp",
-	"version": "0.8.0-7",
+	"version": "0.8.0-8",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,16 +21,21 @@
 	"suggests": [
 		"logrotate"
 	],
+	"replaces": [
+		"tftp-server",
+		"tftpd-hpa"
+	],
 	"conflicts": [
-		"tftpd"
+		"tftp-server",
+		"tftpd-hpa"
 	],
 	"installedSize": 183,
 	"maintainer": "Ludovic Drolez <ldrolez@debian.org>",
 	"description": "advanced TFTP server",
 	"homepage": "https://sourceforge.net/projects/atftp",
-	"filename": "pool/main/a/atftp/atftpd_0.8.0-7_amd64.deb",
-	"size": 64024,
-	"md5": "ac1227b3d30ebebe4e27ab3126a02918",
-	"sha256": "d8ee147b82263071b8dc2b61fba48c83ac1eca963bc369d0daac3df64413412a",
+	"filename": "pool/main/a/atftp/atftpd_0.8.0-8_amd64.deb",
+	"size": 64104,
+	"md5": "100e53c72f9450e0d0098775f7e641e0",
+	"sha256": "6efeecc4b71d4e4042f9133b40bd27cf4846a26b51af01cf44b7e0e39f1851b8",
 	"descriptionMd5": "3ae8dee72501de81215cfd2f3cb4fd69"
 }
