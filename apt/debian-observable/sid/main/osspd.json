@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "osspd",
-	"version": "1.3.3-3",
+	"version": "1.3.3-4",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,6 +17,9 @@
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
+	"breaks": [
+		"libfuse3-4 (<< 3.17.2)"
+	],
 	"conflicts": [
 		"oss-compat"
 	],
@@ -24,9 +27,9 @@
 	"maintainer": "Sébastien Noel <sebastien@twolife.be>",
 	"description": "OSS Proxy Daemon: Userland OSS emulation",
 	"homepage": "https://github.com/OpenMandrivaSoftware/ossp",
-	"filename": "pool/main/o/osspd/osspd_1.3.3-3_amd64.deb",
-	"size": 29564,
-	"md5": "919212035e0b589a1009b9e797d41c0e",
-	"sha256": "86a1aaf88464382bde75994f3914234d2228915c610e53c08ed1b508955a95e8",
+	"filename": "pool/main/o/osspd/osspd_1.3.3-4_amd64.deb",
+	"size": 29692,
+	"md5": "a5c15fe160c8dd057e725674c5f2ad88",
+	"sha256": "01f237302d81b6da4a948fb035cbdc07fc0485d7af322888b4738d3f05fa79da",
 	"descriptionMd5": "d7ac15bb4572a62032e48c6a9cafc78c"
 }]
