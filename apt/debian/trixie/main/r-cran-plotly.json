@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "r-cran-plotly",
-	"version": "4.10.4+dfsg-2",
+	"version": "4.10.4+dfsg-3",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
@@ -50,7 +50,6 @@
 		"r-cran-cairo",
 		"r-cran-broom",
 		"r-cran-webshot",
-		"r-cran-dendextend",
 		"r-cran-sf",
 		"r-cran-png",
 		"r-cran-irdisplay",
@@ -62,13 +61,16 @@
 		"r-cran-reticulate",
 		"r-cran-rsvg"
 	],
-	"installedSize": 21088,
+	"suggests": [
+		"r-cran-dendextend"
+	],
+	"installedSize": 21065,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "create interactive web graphics via 'plotly.js' in GNU R",
 	"homepage": "https://cran.r-project.org/package=plotly",
-	"filename": "pool/main/r/r-cran-plotly/r-cran-plotly_4.10.4+dfsg-2_all.deb",
-	"size": 3633900,
-	"md5": "d859561b0d2450cf4ed4ed6915b0411d",
-	"sha256": "dea35d5ff95e75e226b19debba303cfe253c454b13958443328e9c57b347be39",
+	"filename": "pool/main/r/r-cran-plotly/r-cran-plotly_4.10.4+dfsg-3_all.deb",
+	"size": 3608436,
+	"md5": "ef90e89d077d0e9857aa6f295e8c0782",
+	"sha256": "0a2131b30f4954c40a103be5f58db37c14e6b572c656f1856a3b6b2c6b6ff439",
 	"descriptionMd5": "cecc3a721615181f4ae356efe531d6a0"
 }
