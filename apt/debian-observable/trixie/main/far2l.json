@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "far2l",
-	"version": "2.6.5~beta+ds-2",
+	"version": "2.6.5~beta+ds-3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,18 +13,20 @@
 		"libarchive13t64 (>= 3.2.1)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libstdc++6 (>= 14)",
+		"libuchardet0 (>= 0.0.1)",
+		"libxml2 (>= 2.7.4)",
+		"far2l-data"
+	],
+	"recommends": [
 		"libneon27t64",
 		"libnfs14 (>= 1.9.7)",
-		"libpython3.13 (>= 3.13.0~rc3)",
 		"libsmbclient0 (>= 2:4.0.3+dfsg1)",
 		"libssh-4 (>= 0.8.0)",
 		"libssl3t64 (>= 3.0.0)",
-		"libstdc++6 (>= 14)",
-		"libuchardet0 (>= 0.0.1)",
 		"libx11-6 (>= 2:1.2.99.901)",
-		"libxi6 (>= 2:1.2.99.4)",
-		"libxml2 (>= 2.7.4)",
-		"far2l-data"
+		"libxi6 (>= 2:1.2.99.4)"
 	],
 	"suggests": [
 		"chafa",
@@ -37,13 +39,13 @@
 	"breaks": [
 		"far2l-wx (<< 2.6.5~beta+ds-1~)"
 	],
-	"installedSize": 8245,
+	"installedSize": 8247,
 	"maintainer": "Alex Myczko <tar@debian.org>",
 	"description": "Linux port of FAR v2",
 	"homepage": "https://github.com/elfmz/far2l",
-	"filename": "pool/main/f/far2l/far2l_2.6.5~beta+ds-2_amd64.deb",
-	"size": 2284232,
-	"md5": "6b2978503e54d7dc24ebb142a40dfc6c",
-	"sha256": "9a61c6d22bc1ba3be62df3d2343ad6441eba35fe9a3a5193291fea072e3c9e7f",
+	"filename": "pool/main/f/far2l/far2l_2.6.5~beta+ds-3_amd64.deb",
+	"size": 2284924,
+	"md5": "752058fec04251cbd8e8b8714225dd42",
+	"sha256": "072a1deda46765246accde4578fa78be71fc78147c21919229aaf3a9393485a5",
 	"descriptionMd5": "1bee445c3fe11ea23d90a38146124b9c"
 }]

@@ -5,12 +5,11 @@
 		"Size"
 	],
 	"package": "powerman",
-	"version": "2.4.4-2",
+	"version": "2.4.4-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"init-system-helpers (>= 1.51)",
 		"libc6 (>= 2.34)",
 		"libcurl4t64 (>= 7.16.2)",
@@ -18,13 +17,16 @@
 		"libjansson4 (>= 2.14)",
 		"libsnmp40t64 (>= 5.9.4+dfsg)"
 	],
-	"installedSize": 549,
+	"preDepends": [
+		"adduser"
+	],
+	"installedSize": 553,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Centralized Power Distribution Unit (PDU) management",
 	"homepage": "https://github.com/chaos/powerman",
-	"filename": "pool/main/p/powerman/powerman_2.4.4-2_amd64.deb",
-	"size": 127172,
-	"md5": "caa636012f80cc9f36f303e8fe99a6de",
-	"sha256": "bc96cd8d6750eaa9dafa0c9c309efe7414136cb77022fa3d5b04af37c5659872",
+	"filename": "pool/main/p/powerman/powerman_2.4.4-3_amd64.deb",
+	"size": 128220,
+	"md5": "1ebdf1c3a7c7cdbe94c04b5ab486e99b",
+	"sha256": "336f33e7504ee3b5851c322563f9597b66dea526faf5151c9de2e32468430d11",
 	"descriptionMd5": "233d24b256c156dd1a8a01638c615bf2"
 }
