@@ -5,30 +5,31 @@
 		"Size"
 	],
 	"package": "milter-greylist",
-	"source": "milter-greylist (4.6.4-3)",
-	"version": "4.6.4-3+b3",
+	"version": "4.6.4-4",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libcurl4t64 (>= 7.16.2)",
 		"libmilter1.0.1",
 		"libopendkim11 (>= 2.11.0~alpha)",
 		"libspf2-2t64",
-		"init-system-helpers (>= 1.51)",
-		"adduser (>= 3.11)"
+		"init-system-helpers (>= 1.51)"
+	],
+	"preDepends": [
+		"adduser"
 	],
 	"recommends": [
 		"sendmail | postfix"
 	],
-	"installedSize": 372,
+	"installedSize": 371,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Greylist milter for sendmail",
 	"homepage": "http://hcpnet.free.fr/milter-greylist/",
-	"filename": "pool/main/m/milter-greylist/milter-greylist_4.6.4-3+b3_amd64.deb",
-	"size": 149164,
-	"md5": "19490b477e3e4648f7e31fa6c7e671df",
-	"sha256": "05a68c9365c3cd662eb2b70f2c9c51688c0e163975b4972cfaa8bcb9091d0355",
+	"filename": "pool/main/m/milter-greylist/milter-greylist_4.6.4-4_amd64.deb",
+	"size": 148972,
+	"md5": "7c38e41c4b0de6a2c73563e626d6e1f3",
+	"sha256": "63e9cafdacd3fd66c7719cedff205a7866924a4cf70390f35caf698a1ddd877a",
 	"descriptionMd5": "e2bcfcf12d0c831c8d6900b5c70a65f7"
 }]
