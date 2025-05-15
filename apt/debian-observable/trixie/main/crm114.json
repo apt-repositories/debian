@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "crm114",
-	"version": "20100106-10",
+	"version": "20100106-11",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.29)",
-		"libtre5",
+		"libc6 (>= 2.34)",
+		"libtre5 (>= 0.9.0)",
 		"debconf (>= 0.5) | debconf-2.0"
 	],
 	"preDepends": [
@@ -20,13 +20,16 @@
 	"recommends": [
 		"metamail | mew-bin"
 	],
-	"installedSize": 1119,
+	"conflicts": [
+		"crmsh"
+	],
+	"installedSize": 1365,
 	"maintainer": "Milan Zamazal <pdm@debian.org>",
 	"description": "versatile classifier for e-mail and other data",
 	"homepage": "http://crm114.sourceforge.net",
-	"filename": "pool/main/c/crm114/crm114_20100106-10_amd64.deb",
-	"size": 543824,
-	"md5": "aebb6db8eefdac3a9d4f38f8a587609d",
-	"sha256": "d126cfee58328365975a3507a251c5bab36d19ba6c45c4c4e4d368a6b20bfe73",
+	"filename": "pool/main/c/crm114/crm114_20100106-11_amd64.deb",
+	"size": 530908,
+	"md5": "6aae6eb1e9f6b840caf37636efd6a0e2",
+	"sha256": "b0a540d1316caec1e13d5760499398eb1b44ba626658e08e5a4b48d3818c8ba6",
 	"descriptionMd5": "a1b06491b5597f83f7e50b28f0b46c23"
 }]
