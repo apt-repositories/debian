@@ -5,20 +5,26 @@
 		"Size"
 	],
 	"package": "austin",
-	"version": "1.0.1-2",
+	"version": "3.7.0-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.17)"
+		"libc6 (>= 2.38)",
+		"libsframe1 (>= 2.41)",
+		"libunwind8",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)",
+		"python3 (>= 3.8)",
+		"python3 (<< 3.14~)"
 	],
-	"installedSize": 55,
-	"maintainer": "Gabriele N. Tornetta <phoenix1987@gmail.com>",
+	"installedSize": 1652,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Frame stack sampler for CPython",
 	"homepage": "https://github.com/P403n1x87/austin",
-	"filename": "pool/main/a/austin/austin_1.0.1-2_amd64.deb",
-	"size": 18252,
-	"md5": "4c8083750511419a393a70b6015722a8",
-	"sha256": "7c011e2b6477430bc1c6bec1f5f903fa984f5c27787ec24f950f45f3ca5e8214",
+	"filename": "pool/main/a/austin/austin_3.7.0-2_amd64.deb",
+	"size": 614868,
+	"md5": "679c4d08dd85c8e9a416e434426a74ae",
+	"sha256": "6af46b75824ef2a704a994161556fe14fd412bc64e66624e5113ab6dd6d1c6d2",
 	"descriptionMd5": "620d7f4a5e6cd66265e4f28583d49cb8"
 }]
