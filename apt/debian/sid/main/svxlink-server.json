@@ -6,7 +6,7 @@
 	],
 	"package": "svxlink-server",
 	"source": "svxlink",
-	"version": "24.02-4",
+	"version": "24.02-5",
 	"section": "hamradio",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -27,19 +27,22 @@
 		"libstdc++6 (>= 13.1)",
 		"libtcl8.6 (>= 8.6.0)",
 		"init-system-helpers (>= 1.51)",
-		"svxlink-gpio (= 24.02-4)"
+		"svxlink-gpio (= 24.02-5)"
+	],
+	"preDepends": [
+		"adduser"
 	],
 	"recommends": [
-		"remotetrx (= 24.02-4)",
-		"svxlink-calibration-tools (= 24.02-4)"
+		"remotetrx (= 24.02-5)",
+		"svxlink-calibration-tools (= 24.02-5)"
 	],
-	"installedSize": 2737,
+	"installedSize": 2741,
 	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
 	"description": "Voice-over-IP server for ham radio operators",
 	"homepage": "https://www.svxlink.org",
-	"filename": "pool/main/s/svxlink/svxlink-server_24.02-4_amd64.deb",
-	"size": 777348,
-	"md5": "24724253ff73e32a8cf69b7aeab1dec2",
-	"sha256": "08198cdc42a6b07523455fab34c4ea1106a196fe4b99ab911f68bdc06623e7c7",
+	"filename": "pool/main/s/svxlink/svxlink-server_24.02-5_amd64.deb",
+	"size": 778420,
+	"md5": "592b220de152abfe1a38f489080041f0",
+	"sha256": "c6f0de2af0be033f2af91547f9f8c024e09716871220d30359823373ae54b01b",
 	"descriptionMd5": "055c55fbe6bb5443f174bd98a81e8085"
 }

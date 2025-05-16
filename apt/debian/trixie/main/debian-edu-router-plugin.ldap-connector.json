@@ -6,21 +6,21 @@
 	],
 	"package": "debian-edu-router-plugin.ldap-connector",
 	"source": "debian-edu-router",
-	"version": "2.13.0~beta4",
+	"version": "2.13.0~beta7",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
-		"debian-edu-router-config (>= 2.13.0~beta4~)",
-		"debian-edu-router-config (<< 2.13.0~beta4.1~)",
+		"debian-edu-router-config (>= 2.13.0~beta7~)",
+		"debian-edu-router-config (<< 2.13.0~beta7.1~)",
 		"ldap-utils",
 		"systemd"
 	],
 	"preDepends": [
 		"debconf",
-		"debian-edu-router-common (>= 2.13.0~beta4)",
-		"debian-edu-router-common (<< 2.13.0~beta4.1~)"
+		"debian-edu-router-common (>= 2.13.0~beta7)",
+		"debian-edu-router-common (<< 2.13.0~beta7.1~)"
 	],
 	"recommends": [
 		"debian-edu-router-plugin.content-filter"
@@ -28,13 +28,13 @@
 	"enhances": [
 		"debian-edu-router-config"
 	],
-	"installedSize": 644,
+	"installedSize": 648,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "Debian Edu Router Plugin for LDAP/AD connector",
 	"homepage": "https://salsa.debian.org/debian-edu/debian-edu-router",
-	"filename": "pool/main/d/debian-edu-router/debian-edu-router-plugin.ldap-connector_2.13.0~beta4_all.deb",
-	"size": 53216,
-	"md5": "ad2c386f40d049b9d3f3b7d2ded015db",
-	"sha256": "d316dc1c83489de46f08cd2ad192b39f28b8aba3f07bb805a97dfd567725b66d",
+	"filename": "pool/main/d/debian-edu-router/debian-edu-router-plugin.ldap-connector_2.13.0~beta7_all.deb",
+	"size": 53588,
+	"md5": "f0ace819c9057e16d31d431280c2ca4a",
+	"sha256": "1ad03995a24a9bcb731c349d9a74f6324f58a67ec28c4d98edc530a39e981a72",
 	"descriptionMd5": "1e61c90caa9a2efbcd822d2656c4d2a2"
 }

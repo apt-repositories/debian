@@ -5,15 +5,17 @@
 		"Size"
 	],
 	"package": "cyrus-imapd",
-	"version": "3.8.1-1~bpo12+1",
+	"version": "3.10.1-3~bpo12+1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"cyrus-common (= 3.8.1-1~bpo12+1)",
+		"cyrus-common (= 3.10.1-3~bpo12+1)",
 		"libc6 (>= 2.34)",
 		"libcom-err2 (>= 1.43.9)",
+		"libjansson4 (>= 2.14)",
 		"libsasl2-2 (>= 2.1.28+dfsg)",
+		"libsqlite3-0 (>= 3.5.9)",
 		"libssl3 (>= 3.0.0)",
 		"libwrap0 (>= 7.6-4~)",
 		"zlib1g (>= 1:1.1.4)"
@@ -21,21 +23,15 @@
 	"recommends": [
 		"rsync"
 	],
-	"replaces": [
-		"cyrus-common (<< 3.2.3~)"
-	],
-	"breaks": [
-		"cyrus-common (<< 3.2.3~)"
-	],
 	"conflicts": [
 		"imap-server"
 	],
-	"installedSize": 514,
+	"installedSize": 527,
 	"maintainer": "Debian Cyrus Team <team+cyrus@tracker.debian.org>",
 	"description": "Cyrus mail system - IMAP support",
 	"homepage": "https://www.cyrusimap.org/",
-	"filename": "pool/main/c/cyrus-imapd/cyrus-imapd_3.8.1-1~bpo12+1_amd64.deb",
-	"size": 215456,
-	"sha256": "35c55f36de0bf8ad2a6bd12a6bb1eb9838de76374777167216782aeaa47b301b",
+	"filename": "pool/main/c/cyrus-imapd/cyrus-imapd_3.10.1-3~bpo12+1_amd64.deb",
+	"size": 222296,
+	"sha256": "b2759c48b2811d8763e5c8b28d92a5038952801a0fdb120bb58f7ca4a6893994",
 	"descriptionMd5": "2013b72b2b05fdd34a3b3dd1c1ba084e"
 }
