@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "virtualbox",
-	"version": "7.0.26-dfsg-1",
+	"version": "7.1.8-dfsg-2",
 	"section": "contrib/misc",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,18 +14,19 @@
 		"iproute2",
 		"libfuse2",
 		"procps",
-		"virtualbox-dkms (>= 7.0.26-dfsg-1) | virtualbox-source (>= 7.0.26-dfsg-1) | virtualbox-modules",
+		"virtualbox-dkms (>= 7.1.8-dfsg-2) | virtualbox-source (>= 7.1.8-dfsg-2) | virtualbox-modules",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.13~)",
+		"python3-packaging",
 		"python3.13",
 		"python3:any",
 		"libc6 (>= 2.38)",
 		"libcurl3t64-gnutls (>= 7.16.2)",
-		"libdevmapper1.02.1 (>= 2:1.02.197)",
 		"libgcc-s1 (>= 3.0)",
 		"libgl1",
 		"libgsoap-2.8.135 (>= 2.8.135)",
 		"liblzf1 (>= 1.5)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
 		"libpng16-16t64 (>= 1.6.46)",
 		"libsdl2-2.0-0 (>= 2.0.12)",
 		"libssl3t64 (>= 3.0.0)",
@@ -39,14 +40,7 @@
 		"zlib1g (>= 1:1.1.4)"
 	],
 	"recommends": [
-		"virtualbox-qt (= 7.0.26-dfsg-1)",
-		"libqt5core5t64 (>= 5.15.1)",
-		"libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2)",
-		"libqt5opengl5t64 (>= 5.0.2)",
-		"libqt5widgets5t64 (>= 5.0.2)",
-		"libxcb1",
-		"libxcursor1 (>> 1.1.2)",
-		"libxext6"
+		"virtualbox-qt (= 7.1.8-dfsg-2)"
 	],
 	"suggests": [
 		"vde2",
@@ -68,15 +62,16 @@
 		"virtualbox-5.2",
 		"virtualbox-6.0",
 		"virtualbox-6.1",
-		"virtualbox-7.0"
+		"virtualbox-7.0",
+		"virtualbox-7.1"
 	],
-	"installedSize": 132824,
+	"installedSize": 130281,
 	"maintainer": "Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>",
 	"description": "x86 virtualization solution - base binaries",
 	"homepage": "https://www.virtualbox.org",
-	"filename": "pool/contrib/v/virtualbox/virtualbox_7.0.26-dfsg-1_amd64.deb",
-	"size": 29838860,
-	"md5": "7d829bb33406d6bdcf465b2da2b11574",
-	"sha256": "1b44f6a77a3f5b988ff32da90340ae7a7dd4d529b48cc193292956b51cb27c43",
+	"filename": "pool/contrib/v/virtualbox/virtualbox_7.1.8-dfsg-2_amd64.deb",
+	"size": 22341948,
+	"md5": "2122c4356e8cedb9fbbe2ea70e55f5da",
+	"sha256": "09ef923bc44dffe24eba41d06f689d56e558bee0c374f5b66129e6126d0f14b9",
 	"descriptionMd5": "30f96d22c1a6ca04db16bdc1e79ad965"
 }]
