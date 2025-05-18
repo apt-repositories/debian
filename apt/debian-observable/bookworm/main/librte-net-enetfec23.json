@@ -6,6 +6,48 @@
 	],
 	"package": "librte-net-enetfec23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.7)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-bus-pci23 (>= 20.11)",
+		"librte-bus-vdev23 (>= 22.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-ethdev23 (>= 20.11)",
+		"librte-kvargs23 (>= 18.08)",
+		"librte-mbuf23 (>= 19.08)",
+		"librte-mempool23 (>= 22.11)",
+		"librte-meter23 (>= 22.11~rc2)",
+		"librte-net23 (>= 22.11~rc2)",
+		"librte-pci23 (>= 22.11~rc2)",
+		"librte-ring23 (>= 22.11~rc2)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 64,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-net-enetfec runtime library)",
+	"homepage": "https://dpdk.org/doc/guides/nics/enetfec.html",
+	"filename": "pool/main/d/dpdk/librte-net-enetfec23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 21828,
+	"md5": "786d86592687116549586489bde2cdbc",
+	"sha256": "4faaae53729d271c032bba0c86c10965d8a3b413a5796bd6e3b78b739faafc8c",
+	"descriptionMd5": "3141536dd90df5b548cd1571ea1278d3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-net-enetfec23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

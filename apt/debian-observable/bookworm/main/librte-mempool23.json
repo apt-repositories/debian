@@ -6,6 +6,40 @@
 	],
 	"package": "librte-mempool23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.4)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-kvargs23 (>= 18.08)",
+		"librte-ring23 (>= 22.11~rc2)",
+		"librte-telemetry23 (>= 22.11)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 75,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-mempool runtime library)",
+	"homepage": "https://dpdk.org/doc/api/rte__mempool_8h.html",
+	"filename": "pool/main/d/dpdk/librte-mempool23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 26628,
+	"md5": "83fd373a3fbdc01fabcb59b2ae3d6b65",
+	"sha256": "87dcec0be3fd3cbc46864802be8eb26ac6f2719e8a8312db0f43f34a340eeaf7",
+	"descriptionMd5": "e3ab1f96e1606abb4a8022a379e330a6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-mempool23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

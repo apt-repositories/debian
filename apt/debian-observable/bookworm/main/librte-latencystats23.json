@@ -6,6 +6,47 @@
 	],
 	"package": "librte-latencystats23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.4)",
+		"libfdt1 (>= 1.6.1)",
+		"libjansson4 (>= 2.14)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-ethdev23 (>= 22.11)",
+		"librte-kvargs23 (>= 18.08)",
+		"librte-mbuf23 (>= 22.11)",
+		"librte-mempool23 (>= 18.05)",
+		"librte-meter23 (>= 22.11~rc2)",
+		"librte-metrics23 (>= 22.11)",
+		"librte-net23 (>= 22.11~rc2)",
+		"librte-ring23 (>= 22.11~rc2)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 40,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-latencystats runtime library)",
+	"homepage": "https://www.dpdk.org",
+	"filename": "pool/main/d/dpdk/librte-latencystats23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 16352,
+	"md5": "6ab44b94dc7bed0967201063e0302276",
+	"sha256": "b8de3c8955a76e8d4fdd26e8b27985cfd9d0800d8566bef63ce7c654638062bc",
+	"descriptionMd5": "1fffcd4e3ce4e4d4992c914adbdddc5e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-latencystats23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

@@ -6,6 +6,44 @@
 	],
 	"package": "librte-baseband-null23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.4)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-bbdev23 (>= 22.11)",
+		"librte-bus-vdev23 (>= 22.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-kvargs23 (>= 22.11)",
+		"librte-mbuf23 (>= 19.08)",
+		"librte-mempool23 (>= 18.05)",
+		"librte-ring23 (>= 22.11)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 52,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-baseband-null runtime library)",
+	"homepage": "https://dpdk.org/doc/guides/bbdevs/null.html",
+	"filename": "pool/main/d/dpdk/librte-baseband-null23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 17896,
+	"md5": "a92eb48da65cc2bec13472cf9be295bd",
+	"sha256": "145360c8697e78a62dabae5612ab3fdc76086437ba151449f41b5578fc62fe87",
+	"descriptionMd5": "69a87dd8fffa732b04b2e251eda5f269"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-baseband-null23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",
