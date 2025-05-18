@@ -6,6 +6,47 @@
 	],
 	"package": "librte-bpf23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.14)",
+		"libelf1 (>= 0.131)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"libpcap0.8 (>= 0.9.8)",
+		"librte-eal23 (>= 22.11)",
+		"librte-ethdev23 (>= 22.11)",
+		"librte-kvargs23 (>= 18.08)",
+		"librte-mbuf23 (>= 22.11)",
+		"librte-mempool23 (>= 22.11)",
+		"librte-meter23 (>= 22.11~rc2)",
+		"librte-net23 (>= 22.11~rc2)",
+		"librte-ring23 (>= 22.11~rc2)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 105,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-bpf runtime library)",
+	"homepage": "https://dpdk.org/doc/guides/prog_guide/bpf_lib.html",
+	"filename": "pool/main/d/dpdk/librte-bpf23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 38692,
+	"md5": "79dc1656e9720f3110b5ad173257b47b",
+	"sha256": "ef4394cbfb1adcb56bf0f398826686f63cd27ad8698fb44c3ecf715a21d4ba27",
+	"descriptionMd5": "3c445bc6594fc0b93b49c5039cbcfd04"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-bpf23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

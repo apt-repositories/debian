@@ -6,6 +6,45 @@
 	],
 	"package": "librte-efd23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.4)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-hash23 (>= 18.11)",
+		"librte-kvargs23 (>= 18.08)",
+		"librte-mbuf23 (>= 19.08)",
+		"librte-mempool23 (>= 18.05)",
+		"librte-net23 (>= 22.11~rc2)",
+		"librte-rcu23 (>= 19.11)",
+		"librte-ring23 (>= 22.11)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 64,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-efd runtime library)",
+	"homepage": "https://doc.dpdk.org/guides/prog_guide/efd_lib.html",
+	"filename": "pool/main/d/dpdk/librte-efd23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 30448,
+	"md5": "e9847bd7d8e165acc9d19c2deeb6e731",
+	"sha256": "c2c3ca49116a2e45daf1222cbd2114825f968862176b5f18c8601611e0b57859",
+	"descriptionMd5": "5a046496680fbf2806c42e4e127507ea"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-efd23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

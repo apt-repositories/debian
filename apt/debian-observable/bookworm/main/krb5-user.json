@@ -6,6 +6,47 @@
 	],
 	"package": "krb5-user",
 	"source": "krb5",
+	"version": "1.20.1-2+deb12u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.20)",
+		"libkadm5clnt-mit12 (>= 1.18.2)",
+		"libkadm5srv-mit12 (>= 1.18.2)",
+		"libkdb5-10 (>= 1.20.1)",
+		"libkrb5-3 (= 1.20.1-2+deb12u3)",
+		"libkrb5support0 (>= 1.17)",
+		"libss2 (>= 1.01)"
+	],
+	"recommends": [
+		"krb5-config"
+	],
+	"suggests": [
+		"krb5-k5tls"
+	],
+	"conflicts": [
+		"heimdal-clients"
+	],
+	"installedSize": 412,
+	"maintainer": "Sam Hartman <hartmans@debian.org>",
+	"description": "basic programs to authenticate using MIT Kerberos",
+	"homepage": "https://web.mit.edu/kerberos/",
+	"filename": "pool/main/k/krb5/krb5-user_1.20.1-2+deb12u3_amd64.deb",
+	"size": 118648,
+	"md5": "368dbd0393dc07addc7aa219e1f79d1a",
+	"sha256": "714ed966d9b4dcf5582c6bb49aea663791eb4aeaf583647ae0279ef856f310fb",
+	"descriptionMd5": "b10599fa748131166d0b1a01617ee6ce"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "krb5-user",
+	"source": "krb5",
 	"version": "1.20.1-2+deb12u2",
 	"section": "net",
 	"priority": "optional",

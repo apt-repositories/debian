@@ -6,6 +6,48 @@
 	],
 	"package": "librte-net-bnxt23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.34)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-bus-pci23 (>= 22.11)",
+		"librte-bus-vdev23 (>= 22.11~rc2)",
+		"librte-eal23 (>= 22.11)",
+		"librte-ethdev23 (>= 22.11)",
+		"librte-kvargs23 (>= 22.11)",
+		"librte-mbuf23 (>= 22.11)",
+		"librte-mempool23 (>= 22.11)",
+		"librte-meter23 (>= 22.11~rc2)",
+		"librte-net23 (>= 22.11)",
+		"librte-pci23 (>= 22.11~rc2)",
+		"librte-ring23 (>= 22.11~rc2)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 2513,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-net-bnxt runtime library)",
+	"homepage": "https://doc.dpdk.org/guides/nics/bnxt.html",
+	"filename": "pool/main/d/dpdk/librte-net-bnxt23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 278584,
+	"md5": "db4da255ee4f005fa8dd7c9e6b126fda",
+	"sha256": "d19c87a55cc8fc07600c96603022e84bacc019618689fbf6464325d70ef18739",
+	"descriptionMd5": "dd9becf254fe57b4b2043547499dd879"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-net-bnxt23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

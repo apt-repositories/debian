@@ -6,6 +6,48 @@
 	],
 	"package": "librte-net-null23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.4)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-bus-pci23 (>= 20.11)",
+		"librte-bus-vdev23 (>= 22.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-ethdev23 (>= 20.11)",
+		"librte-kvargs23 (>= 22.11)",
+		"librte-mbuf23 (>= 19.08)",
+		"librte-mempool23 (>= 22.11)",
+		"librte-meter23 (>= 22.11~rc2)",
+		"librte-net23 (>= 22.11)",
+		"librte-pci23 (>= 22.11~rc2)",
+		"librte-ring23 (>= 22.11~rc2)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 68,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-net-null runtime library)",
+	"homepage": "https://dpdk.org/browse/dpdk/tree/drivers/net/null",
+	"filename": "pool/main/d/dpdk/librte-net-null23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 22112,
+	"md5": "2766125eeeb7288c39ef00a720b4b927",
+	"sha256": "4806dc8f461d706be14280c24a36bda7ea48dc94c3aed0abc8fb7fd1adda7883",
+	"descriptionMd5": "163d74ebe99f50759431ecdf3fca7b8e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-net-null23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

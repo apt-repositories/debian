@@ -6,6 +6,39 @@
 	],
 	"package": "librte-ring23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.4)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-kvargs23 (>= 18.08)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 40,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-ring runtime library)",
+	"homepage": "https://dpdk.org/doc/api/rte__ring_8h.html",
+	"filename": "pool/main/d/dpdk/librte-ring23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 15884,
+	"md5": "f99fa1e3700807e142de3fa36aacfe68",
+	"sha256": "324dffa2a6ee63c3f277aaec3e723f728d42c33c43a0cc97d6cdd510a04a4e48",
+	"descriptionMd5": "552f8ec57dd9738c9ec71352a49f93ba"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-ring23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

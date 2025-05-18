@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-535-opencl-icd",
+	"source": "nvidia-graphics-drivers-tesla-535",
+	"version": "535.216.03-3~deb12u1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-opencl-common",
+		"ocl-icd-libopencl1 | nvidia-libopencl1 | libopencl1",
+		"nvidia-tesla-535-alternative (= 535.216.03-3~deb12u1)",
+		"libnvidia-tesla-535-cuda1 (= 535.216.03-3~deb12u1)",
+		"libnvidia-tesla-535-nvvm4 (= 535.216.03-3~deb12u1)",
+		"libc6 (>= 2.34)"
+	],
+	"enhances": [
+		"libopencl1"
+	],
+	"installedSize": 23912,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA OpenCL installable client driver (ICD) (Tesla 535 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-535/nvidia-tesla-535-opencl-icd_535.216.03-3~deb12u1_amd64.deb",
+	"size": 2792736,
+	"md5": "321c7f607ea518416fe0b25b578fcbae",
+	"sha256": "cd8929a3b426c6d746d06928d488640b471734a4322ffdbbd1848d1b4a21ac9e",
+	"descriptionMd5": "8a3b287464aca21f9e460f79828678ab"
+}

@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "libpetsc-real3.22-dev",
-	"source": "petsc",
-	"version": "3.22.3+dfsg1-1",
+	"source": "petsc (3.22.5+dfsg1-2)",
+	"version": "3.22.5+dfsg1-2+b1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libpetsc-real3.22 (= 3.22.3+dfsg1-1)",
-		"libpetsc3.22-dev-common (= 3.22.3+dfsg1-1)",
+		"libpetsc-real3.22 (= 3.22.5+dfsg1-2+b1)",
+		"libpetsc3.22-dev-common (= 3.22.5+dfsg1-2)",
 		"mpi-default-dev",
+		"libopenmpi-dev (>= 5.0.7~)",
 		"libhypre-dev (>= 2.15.1)",
 		"libmumps-dev",
 		"gfortran",
@@ -27,7 +28,7 @@
 	],
 	"suggests": [
 		"petsc-dev",
-		"libpetsc-real3.22-dbg (= 3.22.3+dfsg1-1)",
+		"libpetsc-real3.22-dbg (= 3.22.5+dfsg1-2+b1)",
 		"petsc3.22-doc",
 		"libluminate-dev"
 	],
@@ -37,13 +38,13 @@
 		"libpetsc3.6.2-dev (<= 3.6.2.dfsg1-3)",
 		"libpetsc3.6.3-dev (<< 3.6.3.dfsg2-2)"
 	],
-	"installedSize": 9887,
+	"installedSize": 9888,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Static libraries, shared links, header files for PETSc",
 	"homepage": "http://www.mcs.anl.gov/petsc",
-	"filename": "pool/main/p/petsc/libpetsc-real3.22-dev_3.22.3+dfsg1-1_amd64.deb",
-	"size": 7950064,
-	"md5": "5254dc0f897b3db4d7587f5b09b41f69",
-	"sha256": "e6b6848c95a3edb80c79677fd33f4fa9d0ae95306e5f4ffe95515a4b7604262b",
+	"filename": "pool/main/p/petsc/libpetsc-real3.22-dev_3.22.5+dfsg1-2+b1_amd64.deb",
+	"size": 7951000,
+	"md5": "901c75968359ac0c9126967a0eb66e2f",
+	"sha256": "51a9d09320969c615a7481d159449186138594e315014e046ec36cf300b53704",
 	"descriptionMd5": "3f009d9b51758cccaad1c3eef1597d40"
 }]

@@ -6,6 +6,45 @@
 	],
 	"package": "librte-pcapng23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.17)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-ethdev23 (>= 22.11)",
+		"librte-kvargs23 (>= 18.08)",
+		"librte-mbuf23 (>= 22.11)",
+		"librte-mempool23 (>= 22.11)",
+		"librte-meter23 (>= 22.11~rc2)",
+		"librte-net23 (>= 22.11~rc2)",
+		"librte-ring23 (>= 22.11~rc2)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 44,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-net-pcapng runtime library)",
+	"homepage": "https://doc.dpdk.org/guides/prog_guide/pcapng_lib.html",
+	"filename": "pool/main/d/dpdk/librte-pcapng23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 18312,
+	"md5": "1692791539ba2078b96671cb25310ae5",
+	"sha256": "b38ae948868d2142a49408d4996d830bc83dc6434580839237acb40644e0c492",
+	"descriptionMd5": "f586c935d788adaca0fc4abeb1876213"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-pcapng23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

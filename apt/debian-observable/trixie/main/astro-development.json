@@ -6,18 +6,19 @@
 	],
 	"package": "astro-development",
 	"source": "debian-astro",
-	"version": "4.1",
+	"version": "5.0",
 	"section": "metapackages",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"astro-tasks (= 4.1)"
+		"astro-tasks (= 5.0)"
 	],
 	"recommends": [
 		"aoflagger-dev",
 		"casacore-dev",
 		"giza-dev",
 		"libastro-fits-cfitsio-perl",
+		"libastro-perl",
 		"libastrometry-dev",
 		"libccfits-dev",
 		"libcfitsio-dev",
@@ -25,6 +26,7 @@
 		"libcpl-dev",
 		"liberfa-dev",
 		"libfftw3-dev",
+		"libgnuastro-dev",
 		"libgsl-dev",
 		"libhdf5-dev",
 		"libhealpix-cxx-dev",
@@ -38,11 +40,13 @@
 		"libplplot-dev",
 		"libpluto-jpl-eph-dev",
 		"libpluto-lunar-dev",
+		"libpurify-dev",
 		"libqfits-dev",
 		"libsep-dev",
 		"libsopt-dev",
 		"libstarlink-ast-dev",
 		"libstarlink-pal-dev",
+		"libsupernovas-dev",
 		"libwcstools-dev",
 		"postgresql-pgsphere",
 		"postgresql-q3c",
@@ -52,10 +56,8 @@
 	],
 	"suggests": [
 		"libatlas-dev",
-		"libgnuastro-dev",
 		"libgyoto6-dev",
 		"libpgsbox-dev",
-		"libpurify-dev",
 		"pgplot5",
 		"slang-cfitsio"
 	],
@@ -63,9 +65,9 @@
 	"maintainer": "Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>",
 	"description": "C/C++ development packages for astronomy",
 	"homepage": "https://blends.debian.org/astro/",
-	"filename": "pool/main/d/debian-astro/astro-development_4.1_all.deb",
-	"size": 11720,
-	"md5": "36427d49dfeb1da82bd4af3959cb85bc",
-	"sha256": "f244675210aeed7f904cfcc0cd7bbc316950028e2d690b065a0a0cdde53e3555",
+	"filename": "pool/main/d/debian-astro/astro-development_5.0_all.deb",
+	"size": 12028,
+	"md5": "18a387a93f21314a84cad4c7d5f1c979",
+	"sha256": "7444c9c2d2af84ed496b48c7a9ca500f6857a0a513c3786dc4bfaab073185391",
 	"descriptionMd5": "0ad1cbf55f087a09ebc776c5aaeed4a1"
 }]

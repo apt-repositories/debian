@@ -6,6 +6,39 @@
 	],
 	"package": "librte-common-octeontx23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.4)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-kvargs23 (>= 18.08)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 47,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-common-octeontx library)",
+	"homepage": "https://doc.dpdk.org/guides/nics/octeontx.html",
+	"filename": "pool/main/d/dpdk/librte-common-octeontx23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 15296,
+	"md5": "004bda79f08cc7682d9bc570959516da",
+	"sha256": "4f93f8a6a37aff9848acad4830b7575d2fc469c38826cc585316ca04522087da",
+	"descriptionMd5": "03d2898e232c8157b5a7f982d8cdd4be"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-common-octeontx23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",

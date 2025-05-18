@@ -6,25 +6,31 @@
 	],
 	"package": "libjavascriptcoregtk-4.0-bin",
 	"source": "webkit2gtk",
-	"version": "2.46.6-1~deb12u1",
+	"version": "2.48.1-2~deb12u1",
 	"section": "interpreters",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libjavascriptcoregtk-4.0-18 (= 2.46.6-1~deb12u1)",
+		"libjavascriptcoregtk-4.0-18 (= 2.48.1-2~deb12u1)",
+		"libatomic1 (>= 4.8)",
 		"libc6 (>= 2.34)",
-		"libstdc++6 (>= 4.4)"
+		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0 (>= 2.16.0)",
+		"libicu72 (>= 72.1~rc-1~)",
+		"libstdc++6 (>= 12)",
+		"libsystemd0",
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"conflicts": [
 		"libjavascriptcoregtk-bin"
 	],
-	"installedSize": 614,
+	"installedSize": 630,
 	"maintainer": "Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>",
 	"description": "JavaScript engine library from WebKitGTK - command-line interpreter",
 	"homepage": "https://webkitgtk.org/",
-	"filename": "pool/main/w/webkit2gtk/libjavascriptcoregtk-4.0-bin_2.46.6-1~deb12u1_amd64.deb",
-	"size": 151880,
-	"md5": "3cb98755e68db2c478271980b23cae49",
-	"sha256": "79566e7aa16288ed4bd39c6791c7abdeb06985eed43a557a5669d45221839180",
+	"filename": "pool/main/w/webkit2gtk/libjavascriptcoregtk-4.0-bin_2.48.1-2~deb12u1_amd64.deb",
+	"size": 142484,
+	"md5": "de600125e3e26141e9552c2e0015863d",
+	"sha256": "9b0f38ff51d0f17562852f93d889e3bd017708889c5ea9d971d65e1bb0de2598",
 	"descriptionMd5": "ac7afc0b1a4392958885f97c8f08146c"
 }

@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dropbear",
+	"version": "2020.81-3+deb11u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dropbear-bin (>= 2020.81-3+deb11u3)",
+		"lsb-base (>= 3.0-6)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"dropbear-initramfs"
+	],
+	"suggests": [
+		"runit"
+	],
+	"replaces": [
+		"dropbear-run (<< 2019.78-1~)"
+	],
+	"breaks": [
+		"dropbear-run (<< 2019.78-1~)"
+	],
+	"installedSize": 69,
+	"maintainer": "Guilhem Moulin <guilhem@debian.org>",
+	"description": "lightweight SSH2 server and client - startup scripts",
+	"homepage": "https://matt.ucc.asn.au/dropbear/dropbear.html",
+	"filename": "pool/updates/main/d/dropbear/dropbear_2020.81-3+deb11u3_all.deb",
+	"size": 42844,
+	"sha256": "3ce8b5081ab352e896e72cb840ba198af6e01afb11409fb20b90abad3f43b96b",
+	"descriptionMd5": "6e452e53572d4eaad28fb343855010d0"
+}

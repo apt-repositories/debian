@@ -6,6 +6,48 @@
 	],
 	"package": "librte-net-vdev-netvsc23",
 	"source": "dpdk",
+	"version": "22.11.8-1~deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.28)",
+		"libfdt1 (>= 1.6.1)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-bus-pci23 (>= 20.11)",
+		"librte-bus-vdev23 (>= 22.11)",
+		"librte-eal23 (>= 22.11)",
+		"librte-ethdev23 (>= 17.11)",
+		"librte-kvargs23 (>= 22.11)",
+		"librte-mbuf23 (>= 19.08)",
+		"librte-mempool23 (>= 18.05)",
+		"librte-meter23 (>= 22.11~rc2)",
+		"librte-net23 (>= 22.11)",
+		"librte-pci23 (>= 22.11~rc2)",
+		"librte-ring23 (>= 22.11~rc2)",
+		"librte-telemetry23 (>= 21.08)"
+	],
+	"conflicts": [
+		"libdpdk0"
+	],
+	"installedSize": 60,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (librte-net-vdev-netvsc runtime library)",
+	"homepage": "https://dpdk.org/doc/guides/nics/vdev_netvsc.html",
+	"filename": "pool/main/d/dpdk/librte-net-vdev-netvsc23_22.11.8-1~deb12u1_amd64.deb",
+	"size": 19376,
+	"md5": "5287d6c00990c518a228e192d70a59e5",
+	"sha256": "eb1ddde253a16d0f50b918fc9738f7bf5660d1f3454f67cc16b68a6f4c020f99",
+	"descriptionMd5": "03d74d45660a028fbeafd2036214b440"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librte-net-vdev-netvsc23",
+	"source": "dpdk",
 	"version": "22.11.7-1~deb12u1",
 	"section": "libs",
 	"priority": "optional",
