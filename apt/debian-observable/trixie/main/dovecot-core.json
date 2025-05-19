@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "dovecot-core",
-	"source": "dovecot (1:2.3.21.1+dfsg1-1)",
-	"version": "1:2.3.21.1+dfsg1-1+b2",
+	"source": "dovecot",
+	"version": "1:2.4.1+dfsg1-4",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,6 +16,7 @@
 		"openssl",
 		"ssl-cert",
 		"ucf",
+		"dovecot-sieve (>= 1:2.4.1+dfsg1)",
 		"libapparmor1 (>= 2.7.0~beta1+bzr1772)",
 		"libbz2-1.0",
 		"libc6 (>= 2.36)",
@@ -25,7 +26,6 @@
 		"libicu76 (>= 76.1-1~)",
 		"liblua5.4-0 (>= 5.4.6)",
 		"liblz4-1 (>= 0.0~r130)",
-		"liblzma5 (>= 5.1.1alpha+20120614)",
 		"libpam0g (>= 0.99.7.1)",
 		"libsodium23 (>= 1.0.13)",
 		"libssl3t64 (>= 3.0.0)",
@@ -33,7 +33,6 @@
 		"libsystemd0",
 		"libtirpc3t64 (>= 1.0.2)",
 		"libunwind8",
-		"libwrap0 (>= 7.6-4~)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.1.4)"
 	],
@@ -41,6 +40,7 @@
 		"init-system-helpers (>= 1.54~)"
 	],
 	"suggests": [
+		"dovecot-flatcurve",
 		"dovecot-gssapi",
 		"dovecot-imapd",
 		"dovecot-ldap",
@@ -49,7 +49,6 @@
 		"dovecot-mysql",
 		"dovecot-pgsql",
 		"dovecot-pop3d",
-		"dovecot-sieve",
 		"dovecot-solr",
 		"dovecot-sqlite",
 		"dovecot-submissiond",
@@ -63,13 +62,13 @@
 		"dovecot-common (<< 1:2.0.14-2~)",
 		"mailavenger (<< 0.8.1-4)"
 	],
-	"installedSize": 11616,
+	"installedSize": 9736,
 	"maintainer": "Dovecot Maintainers <dovecot@packages.debian.org>",
 	"description": "secure POP3/IMAP server - core files",
 	"homepage": "https://dovecot.org/",
-	"filename": "pool/main/d/dovecot/dovecot-core_2.3.21.1+dfsg1-1+b2_amd64.deb",
-	"size": 4525624,
-	"md5": "cee54b02695cfcea36bd7731e8d0edf7",
-	"sha256": "84446ed22508f8dc5df426fa95b6ab3ee5443b7e5f015b64370239a24aa9a96d",
+	"filename": "pool/main/d/dovecot/dovecot-core_2.4.1+dfsg1-4_amd64.deb",
+	"size": 2714376,
+	"md5": "132d6a6c78f2bb7e7901786bc34e427b",
+	"sha256": "81048f436370098f65dcad33dc6e6660b972cc374bea0605aca3c2ff998d104c",
 	"descriptionMd5": "42825422b1ef9e3a592c94dfafed375c"
 }]
