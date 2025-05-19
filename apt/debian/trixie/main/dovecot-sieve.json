@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "dovecot-sieve",
-	"source": "dovecot (1:2.3.21.1+dfsg1-1)",
-	"version": "1:2.3.21.1+dfsg1-1+b2",
+	"source": "dovecot",
+	"version": "1:2.4.1+dfsg1-4",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dovecot-core (= 1:2.3.21.1+dfsg1-1+b2)",
+		"dovecot-core (= 1:2.4.1+dfsg1-4)",
 		"ucf",
-		"libc6 (>= 2.34)"
+		"libc6 (>= 2.34)",
+		"libldap2 (>= 2.6.2)"
 	],
 	"replaces": [
 		"dovecot-core (<= 1:2.2.13-6)",
@@ -23,13 +24,13 @@
 		"dovecot-core (<= 1:2.2.13-6)",
 		"dovecot-imapd (<< 1:2.2.26.0-1~)"
 	],
-	"installedSize": 2569,
+	"installedSize": 1357,
 	"maintainer": "Dovecot Maintainers <dovecot@packages.debian.org>",
 	"description": "secure POP3/IMAP server - Sieve filters support",
 	"homepage": "https://dovecot.org/",
-	"filename": "pool/main/d/dovecot/dovecot-sieve_2.3.21.1+dfsg1-1+b2_amd64.deb",
-	"size": 1722824,
-	"md5": "a84c33d4a155d3b01e3583b251f5c836",
-	"sha256": "f7c3015de2320953ebfd7b03f2a8e7cd8e151666cd5d6956d50b7bfedd9b2735",
+	"filename": "pool/main/d/dovecot/dovecot-sieve_2.4.1+dfsg1-4_amd64.deb",
+	"size": 380760,
+	"md5": "9fa1001be6db36aef508a4934037991a",
+	"sha256": "f2423aee67567c8a566e91d48543271a79612428cce98b604a49093e61067c9b",
 	"descriptionMd5": "70234206edc75d829fdb3617a653da24"
 }

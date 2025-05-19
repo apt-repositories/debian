@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "nvchecker",
-	"version": "2.15.1-0.1",
+	"version": "2.17-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-pkg-resources | python3-supported-min (>= 3.8)",
+		"python3-lxml",
 		"python3-platformdirs",
 		"python3-pycurl",
 		"python3-structlog",
@@ -18,13 +18,19 @@
 		"python3-tornado",
 		"python3:any"
 	],
-	"installedSize": 193,
+	"replaces": [
+		"python3-nvchecker"
+	],
+	"conflicts": [
+		"python3-nvchecker"
+	],
+	"installedSize": 204,
 	"maintainer": "Afif Elghraoui <afif@debian.org>",
 	"description": "new-version checker for software releases",
 	"homepage": "https://nvchecker.readthedocs.io/en/latest/",
-	"filename": "pool/main/n/nvchecker/nvchecker_2.15.1-0.1_all.deb",
-	"size": 38060,
-	"md5": "90c564f80cf2deadec77dee57e45007e",
-	"sha256": "cc674c60be3b7ff398174445eb24335eaf98eb737037659ab0cb3326ec95b184",
+	"filename": "pool/main/n/nvchecker/nvchecker_2.17-1_all.deb",
+	"size": 40364,
+	"md5": "f30e80a30ebb06dfed656e4b1eaf7df4",
+	"sha256": "6482e59b3e5a9cdc6046545c6ee1f0a904536d019d7efb316b667eae28d63d90",
 	"descriptionMd5": "867d3015947909b4cee8acacbb45b12f"
 }]
