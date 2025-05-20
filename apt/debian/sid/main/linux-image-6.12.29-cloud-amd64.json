@@ -1,12 +1,12 @@
-[{
+{
 	"raw": {},
 	"required": [
 		"Filename",
 		"Size"
 	],
-	"package": "linux-image-6.12.27-cloud-amd64-unsigned",
-	"source": "linux",
-	"version": "6.12.27-1",
+	"package": "linux-image-6.12.29-cloud-amd64",
+	"source": "linux-signed-amd64 (6.12.29+1)",
+	"version": "6.12.29-1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -25,7 +25,7 @@
 		"grub-pc | grub-efi-amd64 | extlinux"
 	],
 	"replaces": [
-		"linux-image-6.12.27-cloud-amd64"
+		"linux-image-6.12.29-cloud-amd64-unsigned"
 	],
 	"breaks": [
 		"fwupdate (<< 12-7)",
@@ -33,15 +33,16 @@
 		"wireless-regdb (<< 2019.06.03-1~)"
 	],
 	"conflicts": [
-		"linux-image-6.12.27-cloud-amd64"
+		"linux-image-6.12.29-cloud-amd64-unsigned"
 	],
-	"installedSize": 34572,
+	"installedSize": 34579,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
-	"description": "Linux 6.12 for x86-64 cloud",
+	"description": "Linux 6.12 for x86-64 cloud (signed)",
 	"homepage": "https://www.kernel.org/",
-	"filename": "pool/main/l/linux/linux-image-6.12.27-cloud-amd64-unsigned_6.12.27-1_amd64.deb",
-	"size": 34303280,
-	"md5": "610e3249b4e995069ff712b5dc5105f5",
-	"sha256": "d5123ee8115e207f727ead692cb1d44b21eed372d5ef9a106144fae416846da7",
-	"descriptionMd5": "07b366522b969b1514d747d01da43283"
-}]
+	"builtUsing": "linux (= 6.12.29-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.12.29-cloud-amd64_6.12.29-1_amd64.deb",
+	"size": 34302244,
+	"md5": "ab51a3c6046791d05eeed06371d2b153",
+	"sha256": "ecd6c1bd4bafa5ed9b171c4348e8cbe099c24313d02712ebace13f739dd641ec",
+	"descriptionMd5": "ff364982b40ab71bfeff1949c4cf6595"
+}
