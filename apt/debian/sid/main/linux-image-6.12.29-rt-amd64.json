@@ -4,9 +4,9 @@
 		"Filename",
 		"Size"
 	],
-	"package": "linux-image-6.12.27-cloud-amd64-unsigned",
-	"source": "linux",
-	"version": "6.12.27-1",
+	"package": "linux-image-6.12.29-rt-amd64",
+	"source": "linux-signed-amd64 (6.12.29+1)",
+	"version": "6.12.29-1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -25,7 +25,7 @@
 		"grub-pc | grub-efi-amd64 | extlinux"
 	],
 	"replaces": [
-		"linux-image-6.12.27-cloud-amd64"
+		"linux-image-6.12.29-rt-amd64-unsigned"
 	],
 	"breaks": [
 		"fwupdate (<< 12-7)",
@@ -33,15 +33,16 @@
 		"wireless-regdb (<< 2019.06.03-1~)"
 	],
 	"conflicts": [
-		"linux-image-6.12.27-cloud-amd64"
+		"linux-image-6.12.29-rt-amd64-unsigned"
 	],
-	"installedSize": 34572,
+	"installedSize": 109058,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
-	"description": "Linux 6.12 for x86-64 cloud",
+	"description": "Linux 6.12 for 64-bit PCs (signed), PREEMPT_RT",
 	"homepage": "https://www.kernel.org/",
-	"filename": "pool/main/l/linux/linux-image-6.12.27-cloud-amd64-unsigned_6.12.27-1_amd64.deb",
-	"size": 34303280,
-	"md5": "610e3249b4e995069ff712b5dc5105f5",
-	"sha256": "d5123ee8115e207f727ead692cb1d44b21eed372d5ef9a106144fae416846da7",
-	"descriptionMd5": "07b366522b969b1514d747d01da43283"
+	"builtUsing": "linux (= 6.12.29-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.12.29-rt-amd64_6.12.29-1_amd64.deb",
+	"size": 108753528,
+	"md5": "3e6de3a85cb99a5e099c2f22339ffd8a",
+	"sha256": "6205e6fa0419213739184a75f84a1281bc136cf07915ffb0034ed17d4ff5d5dd",
+	"descriptionMd5": "a2405402bd0433fbd9f3a302f609a2bb"
 }
