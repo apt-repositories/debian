@@ -6,7 +6,7 @@
 	],
 	"package": "qemu-user",
 	"source": "qemu",
-	"version": "1:9.2.2+ds-1~bpo12+1",
+	"version": "1:10.0.0+ds-2~bpo12+1",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,18 +14,20 @@
 		"qemu-user-binfmt"
 	],
 	"replaces": [
+		"qemu-user-binfmt (<< 1:9.1.0)",
 		"qemu-user-static (<< 1:9.1.0)"
 	],
 	"breaks": [
+		"qemu-user-binfmt (<< 1:9.1.0)",
 		"qemu-user-static (<< 1:9.1.0)"
 	],
-	"installedSize": 366103,
+	"installedSize": 372104,
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU user mode emulation (static binaries)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-user_9.2.2+ds-1~bpo12+1_amd64.deb",
-	"size": 60462052,
-	"sha256": "699cc91ddd259fd2b98c5256fa2f17d194dd8da8ca64e94917e20605d8e149ff",
+	"filename": "pool/main/q/qemu/qemu-user_10.0.0+ds-2~bpo12+1_amd64.deb",
+	"size": 62819736,
+	"sha256": "d90b5e99da6215a7a15ce6ffaa291b1a8ba8eb9a17f360a4159c2a2459e64426",
 	"descriptionMd5": "ac1d9a9271c8a65efd1b2a07327a5b98"
 },{
 	"raw": {},

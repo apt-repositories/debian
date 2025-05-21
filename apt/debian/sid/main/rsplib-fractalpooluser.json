@@ -6,13 +6,13 @@
 	],
 	"package": "rsplib-fractalpooluser",
 	"source": "rsplib",
-	"version": "3.5.1-1.1",
+	"version": "3.5.1-1.2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"rsplib-common (>= 3.5.1-1.1)",
-		"rsplib-tools (= 3.5.1-1.1)",
+		"rsplib-common (>= 3.5.1-1.2)",
+		"rsplib-tools (= 3.5.1-1.2)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libqt6core6t64 (>= 6.8.2)",
@@ -23,16 +23,22 @@
 		"libstdc++6 (>= 13.1)"
 	],
 	"recommends": [
-		"rsplib-doc (>= 3.5.1-1.1)",
-		"rsplib-services (= 3.5.1-1.1)"
+		"rsplib-doc (>= 3.5.1-1.2)",
+		"rsplib-services (= 3.5.1-1.2)"
+	],
+	"replaces": [
+		"rsplib-services (<< 3.5.1)"
+	],
+	"breaks": [
+		"rsplib-services (<< 3.5.1)"
 	],
 	"installedSize": 223,
 	"maintainer": "Thomas Dreibholz <thomas.dreibholz@gmail.com>",
 	"description": "RSerPool-based fractal generator client",
 	"homepage": "https://www.nntb.no/~dreibh/rserpool/",
-	"filename": "pool/main/r/rsplib/rsplib-fractalpooluser_3.5.1-1.1_amd64.deb",
-	"size": 149004,
-	"md5": "5b964853bc85dfd2b2c72ae2d26b29a3",
-	"sha256": "cb1e06a7c04e7d39fbe44c2aa41a2c7a686eb28b950248d5cef120f9416b2c45",
+	"filename": "pool/main/r/rsplib/rsplib-fractalpooluser_3.5.1-1.2_amd64.deb",
+	"size": 149148,
+	"md5": "2baa25285e12ae869834ffe89423e753",
+	"sha256": "91979fa184ed07b27a142cb4aa4050c20e34eed21c86ccefaf4e2e128b673c93",
 	"descriptionMd5": "35b04547d57f611fe534f62ba7f4af0a"
 }
