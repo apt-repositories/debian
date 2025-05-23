@@ -5,25 +5,65 @@
 		"Size"
 	],
 	"package": "netdata",
-	"version": "1.47.5-1",
+	"version": "2.0.3+dfsg-3",
 	"section": "net",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"netdata-core",
-		"netdata-plugins-bash",
-		"netdata-web"
+		"libcap2-bin",
+		"lsb-base",
+		"passwd",
+		"libbrotli1 (>= 0.6.0)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libgcc-s1 (>= 3.0)",
+		"libjson-c5 (>= 0.15)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnetfilter-acct1 (>= 1.0.3)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libsnappy1v5 (>= 1.2.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libsystemd0",
+		"libuuid1 (>= 2.16)",
+		"libuv1t64 (>= 1.4.2)",
+		"libyaml-0-2",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
 	],
 	"recommends": [
+		"curl",
+		"netdata-plugins-bash",
 		"netdata-plugins-python"
 	],
-	"installedSize": 48,
-	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
-	"description": "real-time performance monitoring (metapackage)",
+	"suggests": [
+		"apcupsd",
+		"iproute2",
+		"iw",
+		"lm-sensors",
+		"nc"
+	],
+	"replaces": [
+		"netdata-apache2",
+		"netdata-core",
+		"netdata-core-no-sse",
+		"netdata-web"
+	],
+	"breaks": [
+		"netdata-apache2",
+		"netdata-core (<< 2)",
+		"netdata-core-no-sse (<< 2)",
+		"netdata-web"
+	],
+	"installedSize": 13279,
+	"maintainer": "Lennart Weller <lhw@ring0.de>",
+	"description": "real-time performance monitoring",
 	"homepage": "https://www.netdata.cloud",
-	"filename": "pool/main/n/netdata/netdata_1.47.5-1_all.deb",
-	"size": 25816,
-	"md5": "9b77d83fe2b22ac3c9858c5405c94d3a",
-	"sha256": "cbe25b37ce0b560d2d3166ec180a4332fc4e97914917c99c96153fa23ba038d9",
-	"descriptionMd5": "6843dd310958e94a27dd618821504b8e"
+	"filename": "pool/main/n/netdata/netdata_2.0.3+dfsg-3_amd64.deb",
+	"size": 3165064,
+	"md5": "e6b539f7cdad84338222951ad6ccdf56",
+	"sha256": "f742869d385e4ef35859d74109c8a0b074656edb76d8df56512fe22fbdaaa298",
+	"descriptionMd5": "2aa3c8ac9ee16508232f9ab4e51a56af"
 }

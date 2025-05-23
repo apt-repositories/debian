@@ -6,55 +6,17 @@
 	],
 	"package": "netdata-core",
 	"source": "netdata",
-	"version": "1.47.5-1",
+	"version": "2.0.3+dfsg-3",
 	"section": "net",
 	"priority": "optional",
-	"architecture": "amd64",
-	"depends": [
-		"libcap2-bin",
-		"lsb-base",
-		"passwd",
-		"libc6 (>= 2.38)",
-		"libcap2 (>= 1:2.10)",
-		"libgcc-s1 (>= 3.0)",
-		"libjson-c5 (>= 0.15)",
-		"liblz4-1 (>= 0.0~r130)",
-		"libmnl0 (>= 1.0.3-4~)",
-		"libnetfilter-acct1 (>= 1.0.3)",
-		"libpcre2-8-0 (>= 10.22)",
-		"libsnappy1v5 (>= 1.2.1)",
-		"libssl3t64 (>= 3.0.0)",
-		"libstdc++6 (>= 14)",
-		"libsystemd0",
-		"libuuid1 (>= 2.16)",
-		"libuv1t64 (>= 1.4.2)",
-		"libyaml-0-2",
-		"libzstd1 (>= 1.5.5)",
-		"zlib1g (>= 1:1.2.0)"
-	],
-	"recommends": [
-		"curl"
-	],
-	"suggests": [
-		"apcupsd",
-		"iproute2",
-		"iw",
-		"lm-sensors",
-		"nc"
-	],
-	"replaces": [
-		"netdata-core-no-sse"
-	],
-	"breaks": [
-		"netdata-core-no-sse (<< 1.44)"
-	],
-	"installedSize": 11381,
-	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
-	"description": "real-time performance monitoring (core)",
+	"architecture": "all",
+	"installedSize": 27,
+	"maintainer": "Lennart Weller <lhw@ring0.de>",
+	"description": "real-time performance monitoring (transitional package)",
 	"homepage": "https://www.netdata.cloud",
-	"filename": "pool/main/n/netdata/netdata-core_1.47.5-1_amd64.deb",
-	"size": 2743136,
-	"md5": "49eeaaa45d42ab8d32b0ece6ebd1b68b",
-	"sha256": "f3c67381ebc96c964257495308a059c321fda8ce83e29868c6c648d688676669",
-	"descriptionMd5": "87b39f1a30af62cc8cd399fb0a356478"
+	"filename": "pool/main/n/netdata/netdata-core_2.0.3+dfsg-3_all.deb",
+	"size": 20512,
+	"md5": "8f72d4ee37d2927aec3f384fe92640b7",
+	"sha256": "1a5256d106991b5764b84c8fc800cf832a3db5296bdfd4b905e16aec653cd1f0",
+	"descriptionMd5": "a346f4d013d77b2d502d5e85ae340580"
 }
