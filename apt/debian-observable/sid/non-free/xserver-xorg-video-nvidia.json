@@ -6,40 +6,40 @@
 	],
 	"package": "xserver-xorg-video-nvidia",
 	"source": "nvidia-graphics-drivers",
-	"version": "545.29.06-2",
+	"version": "550.144.03-1",
 	"section": "non-free/x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-alternative (= 545.29.06-2)",
+		"nvidia-alternative (= 550.144.03-1)",
 		"nvidia-support",
 		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
 		"xserver-xorg-core (<< 2:21.99)",
 		"libc6 (>= 2.34)",
-		"libnvidia-glcore (= 545.29.06-2)"
+		"libnvidia-glcore (= 550.144.03-1)"
 	],
 	"preDepends": [
 		"nvidia-installer-cleanup",
 		"nvidia-legacy-check (>= 495)"
 	],
 	"recommends": [
-		"nvidia-driver (>= 545.29.06)",
-		"nvidia-vdpau-driver (>= 545.29.06)",
-		"nvidia-vulkan-icd (>= 545.29.06)",
-		"nvidia-kernel-dkms (= 545.29.06-2) | nvidia-kernel-545.29.06 | nvidia-open-kernel-545.29.06",
+		"nvidia-driver (>= 550.144.03)",
+		"nvidia-vdpau-driver (>= 550.144.03)",
+		"nvidia-vulkan-icd (>= 550.144.03)",
+		"nvidia-kernel-dkms (= 550.144.03-1) | nvidia-kernel-550.144.03 | nvidia-open-kernel-550.144.03",
 		"nvidia-suspend-common",
-		"nvidia-settings (>= 545)"
+		"nvidia-settings (>= 550)"
 	],
 	"suggests": [
-		"nvidia-kernel-dkms (>= 545.29.06) | nvidia-kernel-source (>= 545.29.06) | nvidia-open-kernel-source (>= 545.29.06)"
+		"nvidia-kernel-dkms (>= 550.144.03) | nvidia-kernel-source (>= 550.144.03) | nvidia-open-kernel-source (>= 550.144.03)"
 	],
-	"installedSize": 19979,
+	"installedSize": 20010,
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "NVIDIA binary Xorg driver",
 	"homepage": "https://www.nvidia.com",
-	"filename": "pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_545.29.06-2_amd64.deb",
-	"size": 2325708,
-	"md5": "43fa716dd99ef1934917d062065196f9",
-	"sha256": "b28569f6c26eeb6c073a4cdb2a2fe9464ea0cea49c4f4c94b3e8d8b959d7e646",
-	"descriptionMd5": "4e7b2411631b8b33ce9960b45db67a6a"
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_550.144.03-1_amd64.deb",
+	"size": 2368348,
+	"md5": "bc0da1c92587aca78bc252fe4c4cfd60",
+	"sha256": "f155af06842858955242189360091b37f6a9df3df7f3f45e0be10f60de75e8cc",
+	"descriptionMd5": "fb5b91a40857e098bb7d1dcb672092fe"
 }]

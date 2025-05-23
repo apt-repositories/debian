@@ -6,13 +6,14 @@
 	],
 	"package": "netdata-plugins-python",
 	"source": "netdata",
-	"version": "1.47.5-1",
+	"version": "2.0.3+dfsg-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"netdata-core (>= 1.47.5-1)",
+		"netdata (>= 2.0.3+dfsg-3)",
 		"python3",
+		"python3-monotonic",
 		"python3-urllib3 (>= 1.22)",
 		"python3-yaml"
 	],
@@ -22,15 +23,15 @@
 		"python3-requests"
 	],
 	"enhances": [
-		"netdata-core"
+		"netdata"
 	],
-	"installedSize": 1211,
-	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"installedSize": 200,
+	"maintainer": "Lennart Weller <lhw@ring0.de>",
 	"description": "real-time performance monitoring (python plugins)",
 	"homepage": "https://www.netdata.cloud",
-	"filename": "pool/main/n/netdata/netdata-plugins-python_1.47.5-1_all.deb",
-	"size": 194928,
-	"md5": "6b4322370865454e2f83dbfd3bab5d15",
-	"sha256": "f64c34176fc2c372e0e33f02b1b1b0e74dd5288544e6122030abbf109d5e0dbf",
+	"filename": "pool/main/n/netdata/netdata-plugins-python_2.0.3+dfsg-3_all.deb",
+	"size": 50264,
+	"md5": "a465cf7abbc8156afd533f46a9825350",
+	"sha256": "01286f397b896be246ad12a2b093f3ab05c19bb23b597feb53e18030247f23f7",
 	"descriptionMd5": "a7be5ab574ae14d3cc0ebb401e66765e"
 }
