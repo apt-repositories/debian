@@ -6,13 +6,13 @@
 	],
 	"package": "mariadb-plugin-gssapi-server",
 	"source": "mariadb",
-	"version": "1:11.8.1-4",
+	"version": "1:11.8.1-5",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libgssapi-krb5-2 (>= 1.17)",
-		"mariadb-server",
+		"mariadb-server-core (= 1:11.8.1-5)",
 		"libc6 (>= 2.14)",
 		"libkrb5-3 (>= 1.13~alpha1+dfsg)"
 	],
@@ -24,13 +24,13 @@
 		"mariadb-gssapi-server-10.1",
 		"mariadb-gssapi-server-10.2"
 	],
-	"installedSize": 87,
+	"installedSize": 85,
 	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
 	"description": "GSSAPI authentication plugin for MariaDB server",
 	"homepage": "https://mariadb.org/",
-	"filename": "pool/main/m/mariadb/mariadb-plugin-gssapi-server_11.8.1-4_amd64.deb",
-	"size": 32336,
-	"md5": "7d645ce093a66c4ab7f5c779a979fe53",
-	"sha256": "87199efc57357aa7d1498868de181284bafcb07e44d1452a2e0845bff42851d3",
+	"filename": "pool/main/m/mariadb/mariadb-plugin-gssapi-server_11.8.1-5_amd64.deb",
+	"size": 31128,
+	"md5": "84281d9ead66fad0bb499c3dc2e19b9e",
+	"sha256": "170e6295bf024dc65c28509c5c929d445b413fa53e5567a76616ebac963c5918",
 	"descriptionMd5": "15f0c8ec89caa84121f658521f1d6501"
 }]
