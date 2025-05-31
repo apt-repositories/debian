@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libguestfs0t64",
-	"source": "libguestfs (1:1.54.1-1)",
-	"version": "1:1.54.1-1+b1",
+	"source": "libguestfs",
+	"version": "1:1.54.1-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -43,6 +43,7 @@
 		"cpio",
 		"cryptsetup-bin",
 		"dash",
+		"dhcpcd-base | isc-dhcp-client",
 		"diffutils",
 		"dosfstools",
 		"e2fsprogs",
@@ -55,7 +56,6 @@
 		"gdisk",
 		"grub2-common",
 		"iproute2 | iproute",
-		"dhcpcd-base | isc-dhcp-client",
 		"kmod | module-init-tools",
 		"ldmtool",
 		"less",
@@ -100,15 +100,15 @@
 		"libguestfs0"
 	],
 	"breaks": [
-		"libguestfs0 (<< 1:1.54.1-1)"
+		"libguestfs0 (<< 1:1.54.1-2)"
 	],
-	"installedSize": 5188,
+	"installedSize": 5213,
 	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
 	"description": "guest disk image management system - shared library",
 	"homepage": "http://libguestfs.org",
-	"filename": "pool/main/libg/libguestfs/libguestfs0t64_1.54.1-1+b1_amd64.deb",
-	"size": 3330868,
-	"md5": "60b4a6e8d70627ab59a42421814570e3",
-	"sha256": "cc3d055f7a6ffe4be9fe04300758ae26683615a2b9c684f4d22902db40c1adea",
+	"filename": "pool/main/libg/libguestfs/libguestfs0t64_1.54.1-2_amd64.deb",
+	"size": 3329888,
+	"md5": "44f58b0336aee725e5b14e706504875f",
+	"sha256": "857d46b372514032a8572b497384c3976e26bb82762261501d59d7b673be86f4",
 	"descriptionMd5": "09eb4589f8a971622769ace74830dcb3"
 }
