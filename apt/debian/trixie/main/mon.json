@@ -6,16 +6,18 @@
 	],
 	"package": "mon",
 	"source": "etbemon",
-	"version": "1.4.1-1",
+	"version": "1.4.1-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"mon-client (>= 1.2.0)",
 		"libtime-period-perl",
-		"adduser",
 		"libc6 (>= 2.34)",
 		"libtirpc3t64 (>= 1.0.2)"
+	],
+	"preDepends": [
+		"adduser"
 	],
 	"recommends": [
 		"fping",
@@ -50,9 +52,9 @@
 	"maintainer": "Debian Mon Maintainers <pkg-monitoring-maintainers@lists.alioth.debian.org>",
 	"description": "monitor hosts/services/whatever and alert about problems",
 	"homepage": "https://doc.coker.com.au/projects/etbe-mon/",
-	"filename": "pool/main/e/etbemon/mon_1.4.1-1_amd64.deb",
-	"size": 288632,
-	"md5": "2ba8b16c6c4c25015de8fde6519cea3e",
-	"sha256": "97bb94d1b687d5846d8dcf5120936891251bcf0381e940ad01a5eaece9dd680f",
+	"filename": "pool/main/e/etbemon/mon_1.4.1-2_amd64.deb",
+	"size": 288660,
+	"md5": "6a516815f50ce59a2ccc5e6c775b5a9c",
+	"sha256": "f194f0ca0047957f0df6512cfe1384607fd9d0940fa8070bd9bbac9b412609ce",
 	"descriptionMd5": "40263012d1b466f3789ea2f3dff1fcd9"
 }
