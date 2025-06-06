@@ -1,0 +1,29 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-base",
+	"version": "4.12~bpo12+1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"replaces": [
+		"kernel-common (<= 13.018+nmu1)"
+	],
+	"breaks": [
+		"kernel-common (<= 13.018+nmu1)",
+		"linux-perf (<< 5.16.2-1~exp1)"
+	],
+	"installedSize": 76,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux image base package",
+	"filename": "pool/main/l/linux-base/linux-base_4.12~bpo12+1_all.deb",
+	"size": 25516,
+	"sha256": "b3e197b7c67528f1a3f396767b6e4dfd40274d7b963877d657babae964e0d4f4",
+	"descriptionMd5": "441643227abc8006d7ae05aa2312ff51"
+}

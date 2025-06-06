@@ -6,7 +6,7 @@
 	],
 	"package": "v4l2loopback-dkms",
 	"source": "v4l2loopback",
-	"version": "0.14.0-1",
+	"version": "0.15.0-1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "all",
@@ -16,13 +16,16 @@
 	"suggests": [
 		"v4l2loopback-utils"
 	],
-	"installedSize": 156,
+	"breaks": [
+		"v4l2loopback-utils (<< 0.15~)"
+	],
+	"installedSize": 157,
 	"maintainer": "IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>",
 	"description": "Source for the v4l2loopback driver (DKMS)",
 	"homepage": "https://github.com/umlaeute/v4l2loopback",
-	"filename": "pool/main/v/v4l2loopback/v4l2loopback-dkms_0.14.0-1_all.deb",
-	"size": 53300,
-	"md5": "4fab3cca7331150745e748ee7d702356",
-	"sha256": "f6dcf6723266af141e11bc3b344656e6cca1a47064664196dc0c48c804f2b332",
+	"filename": "pool/main/v/v4l2loopback/v4l2loopback-dkms_0.15.0-1_all.deb",
+	"size": 54188,
+	"md5": "b569ee03bc0871c43c5cf3a956921f56",
+	"sha256": "109ce1b55c1e76cdca3325159fe0297af514cfc31b17f9abc7c86b8fe026489f",
 	"descriptionMd5": "b822bc0a88412f52de27569a000ebb3c"
 }

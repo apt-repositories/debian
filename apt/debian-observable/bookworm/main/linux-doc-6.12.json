@@ -6,16 +6,20 @@
 	],
 	"package": "linux-doc-6.12",
 	"source": "linux",
-	"version": "6.12.22-1~bpo12+1",
+	"version": "6.12.27-1~bpo12+1",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 199835,
+	"depends": [
+		"libjs-sphinxdoc (>= 5.2)"
+	],
+	"installedSize": 199488,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "Linux kernel specific documentation for version 6.12",
 	"homepage": "https://www.kernel.org/",
-	"filename": "pool/main/l/linux/linux-doc-6.12_6.12.22-1~bpo12+1_all.deb",
-	"size": 39130416,
-	"sha256": "a8a13919aba7216a5dc15fc966e2dce394e3b721876a0b39eae57e6e9f262b30",
+	"builtUsing": "alabaster (= 0.7.12-1), sphinx (= 5.3.0-4)",
+	"filename": "pool/main/l/linux/linux-doc-6.12_6.12.27-1~bpo12+1_all.deb",
+	"size": 39073224,
+	"sha256": "cbb18f1b0cc85b32650bddf5322d37c87abdb54924bafa1b41d296c58159ff94",
 	"descriptionMd5": "5f10b0018f61c08e9aae235fbbf6a73f"
 }]
