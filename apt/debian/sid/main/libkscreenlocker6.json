@@ -6,7 +6,7 @@
 	],
 	"package": "libkscreenlocker6",
 	"source": "kscreenlocker",
-	"version": "6.3.4-1",
+	"version": "6.3.5-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -52,19 +52,25 @@
 	"recommends": [
 		"kde-config-screenlocker"
 	],
+	"suggests": [
+		"libpam-fprintd",
+		"libpam-kwallet5",
+		"libpam-sss",
+		"libpam-pkcs11"
+	],
 	"replaces": [
 		"libkscreenlocker5"
 	],
 	"breaks": [
 		"libkscreenlocker5"
 	],
-	"installedSize": 577,
+	"installedSize": 601,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Secure lock screen architecture",
 	"homepage": "https://invent.kde.org/plasma/kscreenlocker",
-	"filename": "pool/main/k/kscreenlocker/libkscreenlocker6_6.3.4-1_amd64.deb",
-	"size": 152292,
-	"md5": "e7742cfa5be196025d2d9d0c3cf0c0f6",
-	"sha256": "e17cb453ba23eee9932fff7bbcc0032b760b104317affaf87bb1b4141f37a939",
+	"filename": "pool/main/k/kscreenlocker/libkscreenlocker6_6.3.5-1_amd64.deb",
+	"size": 155232,
+	"md5": "010fdec7376cbb0675f529c7e8c7f2d2",
+	"sha256": "5780b00abad71a019fb75b93e5d8007bb06603d7bb26a90ffea32359258f53f8",
 	"descriptionMd5": "5e8a469bf611d84ac5a3b8178c76fedc"
 }
