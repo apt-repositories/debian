@@ -98,7 +98,7 @@
 		"Size"
 	],
 	"package": "gimp",
-	"version": "2.10.34-1+deb12u1",
+	"version": "2.10.34-1+deb12u3",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -166,17 +166,21 @@
 		"libasound2"
 	],
 	"replaces": [
+		"gimp-dds",
 		"gimp-plugin-registry (<< 7.20140602+nmu1~)"
 	],
 	"breaks": [
 		"gimp-plugin-registry (<< 7.20140602+nmu1~)"
 	],
+	"conflicts": [
+		"gimp-dds"
+	],
 	"installedSize": 19878,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GNU Image Manipulation Program",
 	"homepage": "https://www.gimp.org/",
-	"filename": "pool/updates/main/g/gimp/gimp_2.10.34-1+deb12u1_amd64.deb",
-	"size": 4467572,
-	"sha256": "63383dd1da7b3602ee7b8c6d09176734030d46d85e44254957956340803b030b",
+	"filename": "pool/updates/main/g/gimp/gimp_2.10.34-1+deb12u3_amd64.deb",
+	"size": 4470176,
+	"sha256": "97feb19573adbfd96e10839dad13acabc8b87076c578b978c1406519b62377c3",
 	"descriptionMd5": "0c13253910a0a1bd77c64d38c07351a0"
 }]

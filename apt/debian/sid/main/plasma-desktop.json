@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "plasma-desktop",
-	"version": "4:6.3.4-2",
+	"version": "4:6.3.5-1",
 	"section": "kde",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,11 +15,11 @@
 		"kactivitymanagerd (>= 6.2.90~)",
 		"kde-cli-tools (>= 4:6.2.90~)",
 		"kded6",
-		"kio6",
+		"kio6 (>= 6.13.0-4~)",
 		"layer-shell-qt (>= 6.2.90~)",
 		"ocean-sound-theme (>= 6.2.90~)",
 		"oxygen-sounds (>= 4:6.2.90~)",
-		"plasma-desktop-data (= 4:6.3.4-2)",
+		"plasma-desktop-data (= 4:6.3.5-1)",
 		"plasma-desktoptheme",
 		"plasma-integration (>= 6.2.90~)",
 		"plasma-workspace (>= 4:6.2.90~)",
@@ -89,10 +89,10 @@
 		"libkf6kcmutils6 (>= 6.10.0~)",
 		"libkf6kcmutilscore6 (>= 6.10.0~)",
 		"libkf6kcmutilsquick6 (>= 6.10.0~)",
-		"libkf6kiocore6 (>= 6.10.0~)",
-		"libkf6kiofilewidgets6 (>= 6.10.0~)",
-		"libkf6kiogui6 (>= 6.10.0~)",
-		"libkf6kiowidgets6 (>= 6.10.0~)",
+		"libkf6kiocore6 (>= 6.13.0-4~)",
+		"libkf6kiofilewidgets6 (>= 6.13.0-4~)",
+		"libkf6kiogui6 (>= 6.13.0-4~)",
+		"libkf6kiowidgets6 (>= 6.13.0-4~)",
 		"libkf6newstuffcore6 (>= 6.10.0~)",
 		"libkf6notifications6 (>= 6.10.0~)",
 		"libkf6notifyconfig6 (>= 6.10.0~)",
@@ -155,7 +155,6 @@
 		"kde-config-screenlocker (>= 6.2.90~)",
 		"kde-config-sddm (>= 4:6.2.90~)",
 		"kde-spectacle",
-		"kde-style-oxygen-qt6 (>= 4:6.2.90~)",
 		"kgamma (>= 6.2.90~)",
 		"khelpcenter",
 		"kinfocenter (>= 4:6.2.90~)",
@@ -168,7 +167,7 @@
 		"libkf6kcmutils-bin",
 		"libpam-kwallet5 (>= 6.2.90~)",
 		"plasma-browser-integration (>= 6.2.90~)",
-		"plasma-desktop-doc (>= 4:6.3.4-2)",
+		"plasma-desktop-doc (>= 4:6.3.5-1)",
 		"plasma-discover (>= 6.2.90~)",
 		"plasma-disks (>= 6.2.90~)",
 		"plasma-firewall (>= 6.2.90~)",
@@ -185,7 +184,8 @@
 		"xdg-desktop-portal-kde (>= 6.2.90~)"
 	],
 	"suggests": [
-		"kde-config-flatpak (>= 6.2.90~)"
+		"kde-config-flatpak (>= 6.2.90~)",
+		"plasma-theme-oxygen"
 	],
 	"replaces": [
 		"plasma-desktop-data (<< 4:6.3.2-3~)",
@@ -196,13 +196,13 @@
 		"plasma-workspace (<< 4:6.1.0~)",
 		"user-manager (<< 4:5.20)"
 	],
-	"installedSize": 7706,
+	"installedSize": 7717,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Tools and widgets for the desktop",
 	"homepage": "https://invent.kde.org/plasma/plasma-desktop",
-	"filename": "pool/main/p/plasma-desktop/plasma-desktop_6.3.4-2_amd64.deb",
-	"size": 1546168,
-	"md5": "a771ccc7c59b3fb8eb319d92981c3b86",
-	"sha256": "0c4189609291915f829890b7c5573aae608710a120aa7f4aad84215a48ee3d65",
+	"filename": "pool/main/p/plasma-desktop/plasma-desktop_6.3.5-1_amd64.deb",
+	"size": 1550604,
+	"md5": "702eb8993c5ce3b451d4e348ceefe90b",
+	"sha256": "ea102873df55298584db02e17565b739540a0a0c85c79a9c051eb642afa9785c",
 	"descriptionMd5": "75fe427efb7974561485d1b970aaa5b3"
 }
