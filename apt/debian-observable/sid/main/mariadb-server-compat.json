@@ -6,26 +6,28 @@
 	],
 	"package": "mariadb-server-compat",
 	"source": "mariadb",
-	"version": "1:11.8.1-5",
+	"version": "1:11.8.2-1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"mariadb-server (>= 1:11.8.1-5)"
+		"mariadb-server (>= 1:11.8.2-1)"
 	],
 	"replaces": [
 		"mariadb-server (<< 1:11.0.0)",
 		"mariadb-server-10.5 (<< 1:10.11)",
 		"mariadb-server-core (<< 1:11.0.0)",
 		"mysql-server-5.5",
-		"mysql-server-5.7"
+		"mysql-server-5.7",
+		"mysql-server-core (<< 9.9~)"
 	],
 	"breaks": [
 		"mariadb-server (<< 1:11.0.0)",
 		"mariadb-server-10.5 (<< 1:10.11)",
 		"mariadb-server-core (<< 1:11.0.0)",
 		"mysql-server-5.5",
-		"mysql-server-5.7"
+		"mysql-server-5.7",
+		"mysql-server-core (<< 9.9~)"
 	],
 	"conflicts": [
 		"mariadb-server-10.0",
@@ -67,13 +69,13 @@
 		"percona-xtradb-cluster-server-5.6",
 		"percona-xtradb-cluster-server-5.7"
 	],
-	"installedSize": 65,
+	"installedSize": 66,
 	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
 	"description": "MySQL compatibility links to mariadb-server binaries/scripts",
 	"homepage": "https://mariadb.org/",
-	"filename": "pool/main/m/mariadb/mariadb-server-compat_11.8.1-5_all.deb",
-	"size": 26992,
-	"md5": "a728c7f3eae828885d017a2957b6d967",
-	"sha256": "62fbbf6948ea0e3d84453e2cad409feecb715711f651100429fb9421249520b1",
+	"filename": "pool/main/m/mariadb/mariadb-server-compat_11.8.2-1_all.deb",
+	"size": 27424,
+	"md5": "836a7bdd858905699d819fde4d54398f",
+	"sha256": "3a95292068b0388b6717a09403cd7a320862f73c65ce073b86a50d1069c2daed",
 	"descriptionMd5": "227d2eb532ddbe9ae6715aba3cf88756"
 }]

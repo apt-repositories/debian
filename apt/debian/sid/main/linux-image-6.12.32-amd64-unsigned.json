@@ -1,19 +1,21 @@
-[{
+{
 	"raw": {},
 	"required": [
 		"Filename",
 		"Size"
 	],
-	"package": "linux-image-6.12.30-amd64-unsigned",
+	"package": "linux-image-6.12.32-amd64-unsigned",
 	"source": "linux",
-	"version": "6.12.30-1",
+	"version": "6.12.32-1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"kmod",
-		"linux-base (>= 4.3~)",
 		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
 	],
 	"recommends": [
 		"apparmor"
@@ -25,7 +27,7 @@
 		"grub-pc | grub-efi-amd64 | extlinux"
 	],
 	"replaces": [
-		"linux-image-6.12.30-amd64"
+		"linux-image-6.12.32-amd64"
 	],
 	"breaks": [
 		"fwupdate (<< 12-7)",
@@ -33,15 +35,15 @@
 		"wireless-regdb (<< 2019.06.03-1~)"
 	],
 	"conflicts": [
-		"linux-image-6.12.30-amd64"
+		"linux-image-6.12.32-amd64"
 	],
-	"installedSize": 109136,
+	"installedSize": 109185,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "Linux 6.12 for 64-bit PCs",
 	"homepage": "https://www.kernel.org/",
-	"filename": "pool/main/l/linux/linux-image-6.12.30-amd64-unsigned_6.12.30-1_amd64.deb",
-	"size": 108830288,
-	"md5": "7c1edf3e9d2a69925981ced37d05283d",
-	"sha256": "e632414b012dc88922e859137549195bcabc26db4869f8ae5850ceac01c20c40",
+	"filename": "pool/main/l/linux/linux-image-6.12.32-amd64-unsigned_6.12.32-1_amd64.deb",
+	"size": 108863160,
+	"md5": "b3fe75d8b4b20883a3590232d7f84dc9",
+	"sha256": "5515b5c7e33375fc8663508ba371edd22ab12565c1a0db1656eb4188d565d8b9",
 	"descriptionMd5": "faccb96a3fff2d1523870e550e879d00"
-}]
+}
