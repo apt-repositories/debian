@@ -6,7 +6,7 @@
 	],
 	"package": "initramfs-tools-bin",
 	"source": "initramfs-tools",
-	"version": "0.148.1",
+	"version": "0.148.2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,12 +16,15 @@
 	"replaces": [
 		"initramfs-tools-core (<< 0.148~)"
 	],
+	"breaks": [
+		"initramfs-tools-core (<< 0.148~)"
+	],
 	"installedSize": 44,
 	"maintainer": "Debian kernel team <debian-kernel@lists.debian.org>",
 	"description": "generic modular initramfs generator (binary tools)",
-	"filename": "pool/main/i/initramfs-tools/initramfs-tools-bin_0.148.1_amd64.deb",
-	"size": 17232,
-	"md5": "0621143e1079f7778e2dc7ce9a185267",
-	"sha256": "0d7d950b01034851171a0507ef7600257faee7f4b2d33d2044fc330f7c2f968c",
+	"filename": "pool/main/i/initramfs-tools/initramfs-tools-bin_0.148.2_amd64.deb",
+	"size": 17312,
+	"md5": "d5c37b7c69acbf7c157e13c828ac1ee1",
+	"sha256": "c7d54c552dab95c01967b1b44774dee303610a2ba2a320f1db819f13d1d6bd46",
 	"descriptionMd5": "efd6b36824d7c63188867c4859daba2c"
 }]
