@@ -5,6 +5,34 @@
 		"Size"
 	],
 	"package": "ca-certificates",
+	"version": "20230311+deb12u1",
+	"section": "misc",
+	"priority": "standard",
+	"architecture": "all",
+	"depends": [
+		"openssl (>= 1.1.1)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"enhances": [
+		"openssl"
+	],
+	"breaks": [
+		"ca-certificates-java (<< 20121112+nmu1)"
+	],
+	"installedSize": 387,
+	"maintainer": "Julien Cristau <jcristau@debian.org>",
+	"description": "Common CA certificates",
+	"filename": "pool/main/c/ca-certificates/ca-certificates_20230311+deb12u1_all.deb",
+	"size": 155260,
+	"sha256": "0d5f444f594e48c1e16a41d8fc628a09b24c658916a1274025c2330f2a802bed",
+	"descriptionMd5": "e867d2a359bea1800b5bff209fc65bd1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ca-certificates",
 	"version": "20230311",
 	"section": "misc",
 	"priority": "standard",
