@@ -6,23 +6,23 @@
 	],
 	"package": "debian-edu-router-fai",
 	"source": "debian-edu-router",
-	"version": "2.13.0~beta7",
+	"version": "2.13.0",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"binutils",
+		"dosfstools",
+		"dialog",
 		"fai-server",
-		"ucf"
+		"mtools",
+		"squashfs-tools",
+		"ucf",
+		"xorriso"
 	],
 	"preDepends": [
-		"debian-edu-router-common (>= 2.13.0~beta7)",
-		"debian-edu-router-common (<< 2.13.0~beta7.1~)"
-	],
-	"recommends": [
-		"binutils",
-		"dialog",
-		"squashfs-tools",
-		"xorriso"
+		"debian-edu-router-common (>= 2.13.0)",
+		"debian-edu-router-common (<< 2.13.0.1~)"
 	],
 	"suggests": [
 		"debian-edu-router-fai-l10n"
@@ -35,13 +35,13 @@
 		"debian-edu-router",
 		"debian-edu-router-deployserver (<< 2.13.0~beta3~)"
 	],
-	"installedSize": 330,
+	"installedSize": 335,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "FAI config space (et al.) for the Debian Edu Router system",
 	"homepage": "https://salsa.debian.org/debian-edu/debian-edu-router",
-	"filename": "pool/main/d/debian-edu-router/debian-edu-router-fai_2.13.0~beta7_all.deb",
-	"size": 55476,
-	"md5": "2f1978b4cbf20c6aa09681789fbf764c",
-	"sha256": "6192f2254fe724e8d2268cce5aeca9a37507a2e23f87cfee7c374735acf39e43",
+	"filename": "pool/main/d/debian-edu-router/debian-edu-router-fai_2.13.0_all.deb",
+	"size": 58868,
+	"md5": "a1a439f818e410c7473b31bc9c363594",
+	"sha256": "50e683c9ac9440cc24d1e163a6ac127b3a3999a29b100945fb20e1b3876c8b4c",
 	"descriptionMd5": "8392ad2e249eeafa20e9ed54214390e6"
 }
