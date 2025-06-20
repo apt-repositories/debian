@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "steam-installer",
-	"version": "1:1.0.0.82~ds-4",
+	"version": "1:1.0.0.83~ds-3",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"default-dbus-session-bus | dbus-session-bus",
 		"lsof",
-		"steam-libs (= 1:1.0.0.82~ds-4)",
-		"steam-libs-i386 (= 1:1.0.0.82~ds-4)",
+		"steam-libs (= 1:1.0.0.83~ds-3)",
+		"steam-libs-i386 (= 1:1.0.0.83~ds-3)",
+		"xdg-user-dirs",
 		"zenity | yad",
 		"debconf (>= 0.5) | debconf-2.0"
 	],
@@ -30,13 +31,13 @@
 	"conflicts": [
 		"steam-launcher"
 	],
-	"installedSize": 125,
+	"installedSize": 126,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "Valve's Steam digital software delivery system",
 	"homepage": "https://steamcommunity.com/linux",
-	"filename": "pool/contrib/s/steam-installer/steam-installer_1.0.0.82~ds-4_amd64.deb",
-	"size": 61532,
-	"md5": "d6b7d62f992d3472db8df712f41a4025",
-	"sha256": "14b291b3581703ed16b5c2d1ede5c4c5eb169bc315feafe52f8c07cbee3c09fd",
+	"filename": "pool/contrib/s/steam-installer/steam-installer_1.0.0.83~ds-3_amd64.deb",
+	"size": 61644,
+	"md5": "72d3102e8d673ee8b5e68ae7297d4826",
+	"sha256": "f71e9406349f43fd86563e99b893d89f46a9d8d83a439aade6bc3efb60c685e4",
 	"descriptionMd5": "1628561328c024db73bb48ba285fc9ad"
 }
