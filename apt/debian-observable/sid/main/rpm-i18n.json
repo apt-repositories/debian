@@ -6,20 +6,24 @@
 	],
 	"package": "rpm-i18n",
 	"source": "rpm",
-	"version": "4.20.1+dfsg-2",
+	"version": "4.20.1+dfsg-3",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"suggests": [
 		"rpm"
 	],
-	"installedSize": 1928,
+	"breaks": [
+		"manpages-ko (<< 4.27.0-1)",
+		"manpages-pl (<< 1:4.27.0-1)"
+	],
+	"installedSize": 1929,
 	"maintainer": "RPM packaging team <team+pkg-rpm@tracker.debian.org>",
-	"description": "localization and localized man pages for rpm",
+	"description": "localization for rpm",
 	"homepage": "https://rpm.org/",
-	"filename": "pool/main/r/rpm/rpm-i18n_4.20.1+dfsg-2_all.deb",
-	"size": 307424,
-	"md5": "f1cdbdb40a09f8bee6c67ff6938ce27f",
-	"sha256": "2b5da9cb40b51f050cfb3533d1a0d47b6145e6dee9e7f1892a8ede59e1208e79",
-	"descriptionMd5": "38f72444aa854dc7f3f657c4be38e842"
+	"filename": "pool/main/r/rpm/rpm-i18n_4.20.1+dfsg-3_all.deb",
+	"size": 307876,
+	"md5": "f6db4f4d4e88d041fa6047f1ee2af7c8",
+	"sha256": "ab7fd0d6c74e38d28c8eb27f7ebbafe0b6e6d00eba2513be6d83a497116972d4",
+	"descriptionMd5": "19b436b4afcad3e076031994ffe99f01"
 }]
