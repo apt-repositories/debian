@@ -6,12 +6,13 @@
 	],
 	"package": "inetutils-talkd",
 	"source": "inetutils",
-	"version": "2:2.6-1",
+	"version": "2:2.6-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
+		"libsystemd0 (>= 254)",
 		"inetutils-inetd | inet-superserver",
 		"inetutils-syslogd | system-log-daemon | systemd-sysv",
 		"netbase"
@@ -19,13 +20,13 @@
 	"conflicts": [
 		"talkd"
 	],
-	"installedSize": 140,
+	"installedSize": 144,
 	"maintainer": "Guillem Jover <guillem@debian.org>",
 	"description": "remote user communication server",
 	"homepage": "https://www.gnu.org/software/inetutils/",
-	"filename": "pool/main/i/inetutils/inetutils-talkd_2.6-1_amd64.deb",
-	"size": 76792,
-	"md5": "1c24b68bd6dda85143507afc5d9d0b70",
-	"sha256": "e50c0f5df6c55d5536d38e4533f13173f8a6f34959afa7f4a119821d26e3979f",
+	"filename": "pool/main/i/inetutils/inetutils-talkd_2.6-2_amd64.deb",
+	"size": 78900,
+	"md5": "caa4d4cd16f9993e0340342343819cfe",
+	"sha256": "868a9a6eea0fb5660ff19a471613ee15a8ae6ae42c0fdc374f398045fe5e5899",
 	"descriptionMd5": "0f715fd8340f3856de4f0f2f28a3ddad"
 }
