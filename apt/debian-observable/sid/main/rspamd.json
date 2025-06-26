@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "rspamd",
-	"version": "3.11.1-4",
+	"version": "3.12.1-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,11 +16,13 @@
 		"libjs-bootstrap5",
 		"libjs-jquery",
 		"libjs-requirejs",
+		"publicsuffix",
 		"perl:any",
 		"libarchive13t64 (>= 3.2.1)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 4.2)",
 		"libglib2.0-0t64 (>= 2.76.0)",
+		"libhyperscan5 (>= 5.4.2)",
 		"libicu76 (>= 76.1-1~)",
 		"libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty)",
 		"libpcre2-8-0 (>= 10.22)",
@@ -28,7 +30,6 @@
 		"libsqlite3-0 (>= 3.7.15)",
 		"libssl3t64 (>= 3.4.0)",
 		"libstdc++6 (>= 13.1)",
-		"libvectorscan5 (>= 5.4.11)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)"
 	],
@@ -38,13 +39,13 @@
 	"recommends": [
 		"valkey-server | redis-server"
 	],
-	"installedSize": 16506,
+	"installedSize": 16219,
 	"maintainer": "Sebastien Badia <sbadia@debian.org>",
 	"description": "Rapid spam filtering system",
 	"homepage": "https://rspamd.com",
-	"filename": "pool/main/r/rspamd/rspamd_3.11.1-4_amd64.deb",
-	"size": 3915000,
-	"md5": "c67d9f00df7898c7f5bf90e2061dfbdd",
-	"sha256": "042e33bfbc6344d6409b569ed5afd07e07a4b67dbe0d2fa6ddbc3caad5a505ea",
+	"filename": "pool/main/r/rspamd/rspamd_3.12.1-1_amd64.deb",
+	"size": 3849064,
+	"md5": "a838f303b0c0d7e3c9ce4237ac603fe2",
+	"sha256": "dc5de6967cf39bceea9d744afb7c895c2d0fd7c9b80477b77ff43ce9d5573146",
 	"descriptionMd5": "7e5be3910fdbb8e6287582c3520347e2"
 }]
