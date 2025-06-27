@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "freeradius-utils",
+	"source": "freeradius",
+	"version": "3.0.21+dfsg-2.2+deb11u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"freeradius-common",
+		"freeradius-config",
+		"libfreeradius3 (= 3.0.21+dfsg-2.2+deb11u2)",
+		"libc6 (>= 2.14)",
+		"libgdbm6 (>= 1.16)",
+		"libpcap0.8 (>= 0.9.8)",
+		"libpcre3",
+		"libssl1.1 (>= 1.1.1)",
+		"libtalloc2 (>= 2.0.4~git20101213)"
+	],
+	"recommends": [
+		"libdbi-perl"
+	],
+	"replaces": [
+		"freeradius (<< 3)"
+	],
+	"conflicts": [
+		"radiusd-livingston",
+		"yardradius"
+	],
+	"installedSize": 382,
+	"maintainer": "Debian FreeRADIUS Packaging Team <pkg-freeradius-maintainers@lists.alioth.debian.org>",
+	"description": "FreeRADIUS client utilities",
+	"homepage": "http://www.freeradius.org/",
+	"filename": "pool/updates/main/f/freeradius/freeradius-utils_3.0.21+dfsg-2.2+deb11u2_amd64.deb",
+	"size": 145208,
+	"sha256": "9e66005413829b85eed19e8423daa7fcaa84c11adcd4bdbae0c2ee12cb01a701",
+	"descriptionMd5": "24b3cb63eaad19ed5b58df947d58078e"
+}

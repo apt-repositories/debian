@@ -96,4 +96,52 @@
 	"md5": "951ea484e560a969259cf77d3eb5ab7f",
 	"sha256": "36f751ec85c96a2c0b322ff5a0011373c3af31b372947e0fd13b8a613701cf12",
 	"descriptionMd5": "8f93db923be1449fe3d8c09996bd75e7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "freeradius",
+	"version": "3.0.21+dfsg-2.2+deb11u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"freeradius-common",
+		"freeradius-config",
+		"libfreeradius3 (= 3.0.21+dfsg-2.2+deb11u2)",
+		"lsb-base (>= 3.1-23.2)",
+		"libc6 (>= 2.27)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libct4 (>= 0.64)",
+		"libgdbm6 (>= 1.16)",
+		"libpam0g (>= 0.99.7.1)",
+		"libperl5.32 (>= 5.32.0~rc1)",
+		"libreadline8 (>= 6.0)",
+		"libsqlite3-0 (>= 3.7.15)",
+		"libssl1.1 (>= 1.1.1)",
+		"libsystemd0",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libwbclient0 (>= 2:4.2.1+dfsg)"
+	],
+	"recommends": [
+		"freeradius-utils"
+	],
+	"suggests": [
+		"freeradius-krb5",
+		"freeradius-ldap",
+		"freeradius-mysql",
+		"freeradius-postgresql",
+		"freeradius-python3",
+		"snmp"
+	],
+	"installedSize": 2182,
+	"maintainer": "Debian FreeRADIUS Packaging Team <pkg-freeradius-maintainers@lists.alioth.debian.org>",
+	"description": "high-performance and highly configurable RADIUS server",
+	"homepage": "http://www.freeradius.org/",
+	"filename": "pool/updates/main/f/freeradius/freeradius_3.0.21+dfsg-2.2+deb11u2_amd64.deb",
+	"size": 557160,
+	"sha256": "931dfcb97d4c5176267dffe953269bc131cfb280eb65f867e237d9e81c4631ef",
+	"descriptionMd5": "8f93db923be1449fe3d8c09996bd75e7"
 }]
