@@ -65,4 +65,39 @@
 	"md5": "2b04adb87781eaf74f1d5e620f4cd402",
 	"sha256": "4bdd9937ba572635f80e7480da5fd7e8d4ab32a40900c7b9738c276cf2fdda24",
 	"descriptionMd5": "ac5463a5cccad417d59c5cd9a88dd876"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "freeradius-config",
+	"source": "freeradius",
+	"version": "3.0.21+dfsg-2.2+deb11u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"ca-certificates",
+		"freeradius-common (>= 3)",
+		"make",
+		"openssl",
+		"ssl-cert"
+	],
+	"replaces": [
+		"freeradius (<< 3.0.11+dfsg-1)"
+	],
+	"breaks": [
+		"freeradius (<< 3.0.11+dfsg-1)",
+		"freeradius-config"
+	],
+	"installedSize": 1035,
+	"maintainer": "Debian FreeRADIUS Packaging Team <pkg-freeradius-maintainers@lists.alioth.debian.org>",
+	"description": "FreeRADIUS default config files",
+	"homepage": "http://www.freeradius.org/",
+	"filename": "pool/updates/main/f/freeradius/freeradius-config_3.0.21+dfsg-2.2+deb11u2_amd64.deb",
+	"size": 222108,
+	"sha256": "7489a26e9f477b19ef995de6ad6b047fcee15d182a20a99a0a149d332e022e4a",
+	"descriptionMd5": "ac5463a5cccad417d59c5cd9a88dd876"
 }]
