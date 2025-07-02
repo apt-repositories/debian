@@ -6,7 +6,7 @@
 	],
 	"package": "v4l2loopback-utils",
 	"source": "v4l2loopback",
-	"version": "0.14.0-1",
+	"version": "0.15.0-2",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"v4l-utils",
 		"v4l2loopback-dkms | v4l2loopback-modules"
 	],
+	"breaks": [
+		"v4l2loopback-dkms (<< 0.15~)"
+	],
 	"installedSize": 91,
 	"maintainer": "IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>",
 	"description": "Commandline utilities for the for the v4l2-loopback module",
 	"homepage": "https://github.com/umlaeute/v4l2loopback",
-	"filename": "pool/main/v/v4l2loopback/v4l2loopback-utils_0.14.0-1_amd64.deb",
-	"size": 43396,
-	"md5": "6fdd6a6a4f1d142eb3e869f47d1f4bbd",
-	"sha256": "ab1fce34e4f1ebce87cac27ee20ae6889da6f373ea8f8aafd1be2bebd6365ed8",
+	"filename": "pool/main/v/v4l2loopback/v4l2loopback-utils_0.15.0-2_amd64.deb",
+	"size": 44244,
+	"md5": "b75240610ea39f9b601ea30a75725bd4",
+	"sha256": "46d9e5579de6664d69afeeac044990f76bca7ff064fd1bb66105e8f3e99deef8",
 	"descriptionMd5": "d4012d46cca371eab589dfd7688dc585"
 }]
