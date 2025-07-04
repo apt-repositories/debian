@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-iscsi",
+	"source": "libvirt",
+	"version": "11.3.0-2~bpo12+1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.3.0-2~bpo12+1)",
+		"libvirt-daemon (= 11.3.0-2~bpo12+1)",
+		"libvirt-daemon-driver-storage (= 11.3.0-2~bpo12+1)",
+		"libvirt0 (= 11.3.0-2~bpo12+1)",
+		"open-iscsi",
+		"libc6 (>= 2.7)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0 (>= 2.24.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 33,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - iSCSI storage driver",
+	"homepage": "https://libvirt.org/storage.html#iscsi-pool",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-storage-iscsi_11.3.0-2~bpo12+1_amd64.deb",
+	"size": 6840,
+	"sha256": "d32480fecd5946a2d637dd294bd825ed1c93f98107ec370692529094a0e20cda",
+	"descriptionMd5": "07d56f19991d6c86a8e673725c1788e7"
+}

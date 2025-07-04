@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-common",
+	"source": "libvirt",
+	"version": "11.3.0-2~bpo12+1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"dmidecode",
+		"gettext-base",
+		"iproute2",
+		"libvirt-common (= 11.3.0-2~bpo12+1)",
+		"libvirt0 (= 11.3.0-2~bpo12+1)",
+		"polkitd (>= 121+compat0.1-2)",
+		"sensible-utils",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0 (>= 2.57.2)",
+		"libreadline8 (>= 6.0)"
+	],
+	"recommends": [
+		"netcat-openbsd"
+	],
+	"suggests": [
+		"apparmor",
+		"auditd",
+		"systemtap"
+	],
+	"replaces": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 431,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - common files",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-common_11.3.0-2~bpo12+1_amd64.deb",
+	"size": 105716,
+	"sha256": "7f3f2098e90d5e75a61ae5edd6599d00ab52714b4dec6bc66025ebbd3bc45b99",
+	"descriptionMd5": "bb15534ddc75f9c256177238a85ecbc0"
+}

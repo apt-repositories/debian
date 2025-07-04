@@ -6,12 +6,13 @@
 	],
 	"package": "inetutils-syslogd",
 	"source": "inetutils",
-	"version": "2:2.6-1",
+	"version": "2:2.6-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
+		"libsystemd0 (>= 254)",
 		"sysvinit-utils (>= 3.05-4~)",
 		"netbase"
 	],
@@ -25,13 +26,13 @@
 		"linux-kernel-log-daemon",
 		"system-log-daemon"
 	],
-	"installedSize": 181,
+	"installedSize": 189,
 	"maintainer": "Guillem Jover <guillem@debian.org>",
 	"description": "system logging daemon",
 	"homepage": "https://www.gnu.org/software/inetutils/",
-	"filename": "pool/main/i/inetutils/inetutils-syslogd_2.6-1_amd64.deb",
-	"size": 89684,
-	"md5": "05d99676a0e6aa2ed90d95d2c962eda9",
-	"sha256": "fca0812e818441a926d89788467a34851739c2ba5b2bdbbb665dad828f7d5658",
+	"filename": "pool/main/i/inetutils/inetutils-syslogd_2.6-3_amd64.deb",
+	"size": 91756,
+	"md5": "bf15b09e48c1c9aaeb3c08628d0c3ab2",
+	"sha256": "c90efbe2dedd9931c99bb0dcf01397f6ee003644ce2495c71c223335868f248d",
 	"descriptionMd5": "2114d87f02896f73b904f74e7b55d1af"
 }]
