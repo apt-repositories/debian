@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-plugin-lockd",
+	"source": "libvirt",
+	"version": "11.3.0-2~bpo12+1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.3.0-2~bpo12+1)",
+		"libvirt-daemon-lock (= 11.3.0-2~bpo12+1)",
+		"libvirt0 (= 11.3.0-2~bpo12+1)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0 (>= 2.12.0)",
+		"libtirpc3 (>= 1.0.2)"
+	],
+	"recommends": [
+		"libvirt-daemon (= 11.3.0-2~bpo12+1)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 41,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - locking plugin (virtlockd)",
+	"homepage": "https://libvirt.org/kbase/locking-lockd.html",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-plugin-lockd_11.3.0-2~bpo12+1_amd64.deb",
+	"size": 9980,
+	"sha256": "1586453f0f9253aa5dd1e1aaed777ec686796f800069bfa10cbf700540a22924",
+	"descriptionMd5": "bc801dfea26cc9f847a8704e07c51f31"
+}]
