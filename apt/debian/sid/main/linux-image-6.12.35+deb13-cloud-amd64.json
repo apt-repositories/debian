@@ -1,12 +1,12 @@
-[{
+{
 	"raw": {},
 	"required": [
 		"Filename",
 		"Size"
 	],
-	"package": "linux-image-6.12.33+deb13-amd64-unsigned",
-	"source": "linux",
-	"version": "6.12.33-1",
+	"package": "linux-image-6.12.35+deb13-cloud-amd64",
+	"source": "linux-signed-amd64 (6.12.35+1)",
+	"version": "6.12.35-1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -27,7 +27,7 @@
 		"grub-pc | grub-efi-amd64 | extlinux"
 	],
 	"replaces": [
-		"linux-image-6.12.33+deb13-amd64"
+		"linux-image-6.12.35+deb13-cloud-amd64-unsigned"
 	],
 	"breaks": [
 		"fwupdate (<< 12-7)",
@@ -35,15 +35,16 @@
 		"wireless-regdb (<< 2019.06.03-1~)"
 	],
 	"conflicts": [
-		"linux-image-6.12.33+deb13-amd64"
+		"linux-image-6.12.35+deb13-cloud-amd64-unsigned"
 	],
-	"installedSize": 109205,
+	"installedSize": 34697,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
-	"description": "Linux 6.12 for 64-bit PCs",
+	"description": "Linux 6.12 for x86-64 cloud (signed)",
 	"homepage": "https://www.kernel.org/",
-	"filename": "pool/main/l/linux/linux-image-6.12.33+deb13-amd64-unsigned_6.12.33-1_amd64.deb",
-	"size": 108895464,
-	"md5": "a4b56ce126ed7cef338ddcbcafbb093f",
-	"sha256": "697d1916bbbfeaa88391eeaaa475895356bd34fea3969a1cbc73fc5dc91db598",
-	"descriptionMd5": "faccb96a3fff2d1523870e550e879d00"
-}]
+	"builtUsing": "linux (= 6.12.35-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.12.35+deb13-cloud-amd64_6.12.35-1_amd64.deb",
+	"size": 34431872,
+	"md5": "3a34868eab21bbd5d795d4d9fcd98be2",
+	"sha256": "df334907cf93dee7df2b6d144f23c06da1b43ea0d7b66c080c28fe912a11209e",
+	"descriptionMd5": "ff364982b40ab71bfeff1949c4cf6595"
+}
