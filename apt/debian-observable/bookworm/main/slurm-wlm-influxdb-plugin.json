@@ -25,8 +25,40 @@
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "Slurm InfluxDB plugin",
 	"homepage": "http://slurm.schedmd.com",
-	"filename": "pool/updates/main/s/slurm-wlm/slurm-wlm-influxdb-plugin_22.05.8-4+deb12u2_amd64.deb",
+	"filename": "pool/main/s/slurm-wlm/slurm-wlm-influxdb-plugin_22.05.8-4+deb12u2_amd64.deb",
 	"size": 21204,
+	"md5": "3a986cf4f2d513a80f73246d79af4d9b",
 	"sha256": "25a8dda1dae7a37311e5090fbbad8f4f65e215089f804f489713717f991e446e",
+	"descriptionMd5": "1a9e9429c768146072d5430d71ef6945"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-influxdb-plugin",
+	"source": "slurm-wlm",
+	"version": "22.05.8-4+deb12u3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libcurl4 (>= 7.16.2)",
+		"slurm-wlm-basic-plugins (= 22.05.8-4+deb12u3)"
+	],
+	"replaces": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"breaks": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"installedSize": 88,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Slurm InfluxDB plugin",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/updates/main/s/slurm-wlm/slurm-wlm-influxdb-plugin_22.05.8-4+deb12u3_amd64.deb",
+	"size": 21288,
+	"sha256": "c000ebaf51757ebb70db7de3e8f704060945983fc1919ab55ec80d586658358b",
 	"descriptionMd5": "1a9e9429c768146072d5430d71ef6945"
 }]

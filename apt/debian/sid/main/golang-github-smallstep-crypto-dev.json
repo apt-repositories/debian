@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-smallstep-crypto-dev",
 	"source": "golang-github-smallstep-crypto",
-	"version": "0.57.0-1",
+	"version": "0.57.0-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -19,13 +19,19 @@
 		"golang-golang-x-crypto-dev",
 		"golang-golang-x-net-dev"
 	],
+	"replaces": [
+		"golang-step-crypto-dev (<= 0.24.0-1)"
+	],
+	"breaks": [
+		"golang-step-crypto-dev (<= 0.24.0-1)"
+	],
 	"installedSize": 2293,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "smallstep crypto packages (Go development library)",
 	"homepage": "https://github.com/smallstep/crypto",
-	"filename": "pool/main/g/golang-github-smallstep-crypto/golang-github-smallstep-crypto-dev_0.57.0-1_all.deb",
-	"size": 375480,
-	"md5": "44f15e14965b38c05c8a336c98fb291c",
-	"sha256": "b56db9b7856766fa6f3923bc22879c2e802aac9e5346a26d4acee81cfc95194d",
+	"filename": "pool/main/g/golang-github-smallstep-crypto/golang-github-smallstep-crypto-dev_0.57.0-2_all.deb",
+	"size": 375544,
+	"md5": "2ef2ac9e052d5da897ba4f7a188d1870",
+	"sha256": "d37d5f62f8b0159238264fed5276e50d3480a654fb596bad2398a8dcd5d38455",
 	"descriptionMd5": "02e7e8cb9bbb9d9832f66fdc62be890a"
 }

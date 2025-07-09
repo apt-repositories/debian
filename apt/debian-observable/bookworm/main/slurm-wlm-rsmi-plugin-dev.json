@@ -25,8 +25,40 @@
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "Slurm RSMI plugin development files",
 	"homepage": "http://slurm.schedmd.com",
-	"filename": "pool/updates/main/s/slurm-wlm/slurm-wlm-rsmi-plugin-dev_22.05.8-4+deb12u2_amd64.deb",
+	"filename": "pool/main/s/slurm-wlm/slurm-wlm-rsmi-plugin-dev_22.05.8-4+deb12u2_amd64.deb",
 	"size": 25400,
+	"md5": "99e7975d1eabe5919d39fe042b4f9dc1",
 	"sha256": "49b70367deeb5dd6145f79d6cb4d21bdb9a88c6b2383460419235890c0fe815c",
+	"descriptionMd5": "e74f98431f26c77ac7272e157fef5b8a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-rsmi-plugin-dev",
+	"source": "slurm-wlm",
+	"version": "22.05.8-4+deb12u3",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librocm-smi-dev",
+		"slurm-wlm-basic-plugins-dev (= 22.05.8-4+deb12u3)",
+		"slurm-wlm-rsmi-plugin (= 22.05.8-4+deb12u3)"
+	],
+	"replaces": [
+		"slurm-wlm-basic-plugins-dev (<< 22.05.7-1)"
+	],
+	"breaks": [
+		"slurm-wlm-basic-plugins-dev (<< 22.05.7-1)"
+	],
+	"installedSize": 108,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Slurm RSMI plugin development files",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/updates/main/s/slurm-wlm/slurm-wlm-rsmi-plugin-dev_22.05.8-4+deb12u3_amd64.deb",
+	"size": 25472,
+	"sha256": "f4af0af01f6f9ffc96bd4210685ffe82e37437b428e2ec6076493717568c0f41",
 	"descriptionMd5": "e74f98431f26c77ac7272e157fef5b8a"
 }]
