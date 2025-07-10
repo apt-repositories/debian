@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sslh",
+	"version": "1.20-1+deb11u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libcap2 (>= 1:2.10)",
+		"libconfig9",
+		"libpcre3",
+		"libwrap0 (>= 7.6-4~)",
+		"debconf (>= 0.5)",
+		"init-system-helpers (>= 1.51)",
+		"adduser",
+		"lsb-base (>= 3.0-6)",
+		"update-inetd"
+	],
+	"recommends": [
+		"apache2 | httpd",
+		"openssh-server | ssh-server"
+	],
+	"suggests": [
+		"openbsd-inetd | inet-superserver"
+	],
+	"conflicts": [
+		"libnet-proxy-perl"
+	],
+	"installedSize": 183,
+	"maintainer": "Don Armstrong <don@debian.org>",
+	"description": "Applicative protocol multiplexer",
+	"homepage": "http://www.rutschle.net/tech/sslh/README.html",
+	"filename": "pool/updates/main/s/sslh/sslh_1.20-1+deb11u1_amd64.deb",
+	"size": 57928,
+	"sha256": "3f8ee9d53fc46a377d415e407f8e5d41256f1b7e55f94770039a0ffb908952cf",
+	"descriptionMd5": "f4689a572a444f710de3ad341846f07b"
+}
