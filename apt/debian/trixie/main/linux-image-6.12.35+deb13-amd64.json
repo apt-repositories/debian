@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.12.35+deb13-amd64",
+	"source": "linux-signed-amd64 (6.12.35+1)",
+	"version": "6.12.35-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.12",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.12.35+deb13-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.12.35+deb13-amd64-unsigned"
+	],
+	"installedSize": 109217,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.12 for 64-bit PCs (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.12.35-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.12.35+deb13-amd64_6.12.35-1_amd64.deb",
+	"size": 108909128,
+	"md5": "00a851600b206bc908d40295c128be34",
+	"sha256": "9bd5d130262ac7bd2cf9691548a41eff508117d4695aa4b170df4f383557024d",
+	"descriptionMd5": "224c8e7ad16235c8d318cebf70217775"
+}
