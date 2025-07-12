@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.12.37+deb13-rt-amd64",
+	"source": "linux-signed-amd64 (6.12.37+1)",
+	"version": "6.12.37-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.12",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.12.37+deb13-rt-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.12.37+deb13-rt-amd64-unsigned"
+	],
+	"installedSize": 109433,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.12 for 64-bit PCs (signed), PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.12.37-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.12.37+deb13-rt-amd64_6.12.37-1_amd64.deb",
+	"size": 109120180,
+	"md5": "00d55a43d840ae1a7d7725dc45051acc",
+	"sha256": "fdc795f6efa157c6509fecb60cc28918f2e0b90aaf326f9654bba605fe047758",
+	"descriptionMd5": "a2405402bd0433fbd9f3a302f609a2bb"
+}
