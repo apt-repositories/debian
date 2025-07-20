@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "emmax",
-	"version": "0~beta.20100307-5",
+	"version": "0~beta.20100307-6",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,16 +13,19 @@
 		"libblas3 | libblas.so.3",
 		"libc6 (>= 2.34)",
 		"liblapack3 | liblapack.so.3",
-		"liblapacke (>= 3.11.0)",
+		"liblapacke (>= 3.12.1)",
 		"zlib1g (>= 1:1.1.4)"
+	],
+	"breaks": [
+		"libatlas3-base (<< 3.10.3-13)"
 	],
 	"installedSize": 89,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "genetic mapping considering population structure",
 	"homepage": "http://genome.sph.umich.edu/wiki/EMMAX",
-	"filename": "pool/main/e/emmax/emmax_0~beta.20100307-5_amd64.deb",
-	"size": 27720,
-	"md5": "5b04dae0ed105637f55d5bcf07159979",
-	"sha256": "ee8ec83c1101d76ec9bb99c9e3ea1d8ecc10d0394de901654db939ddd6aa9c64",
+	"filename": "pool/main/e/emmax/emmax_0~beta.20100307-6_amd64.deb",
+	"size": 28200,
+	"md5": "dc61df24d1e69d29a18202aa3c277fb4",
+	"sha256": "42db311097749925d3d188aab72c8cf7791f81ccc502c4ba48f0899ad469ca71",
 	"descriptionMd5": "fa08a2d54a24822f6f716959bc91f62c"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "mandos-client",
 	"source": "mandos",
-	"version": "1.8.18-1",
+	"version": "1.8.19-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -24,7 +24,8 @@
 		"cryptsetup (<< 2:2.0.3-1) | cryptsetup-initramfs",
 		"initramfs-tools (>= 0.99) | dracut (>= 044+241-3)",
 		"dpkg-dev (>= 1.16.0)",
-		"gnutls-bin (>= 3.6.6) | libgnutls30 (<< 3.6.0)"
+		"gnutls-bin (>= 3.6.6) | libgnutls30 (<< 3.6.0)",
+		"systemd-cryptsetup | systemd (<< 256-2) | sysvinit-core"
 	],
 	"recommends": [
 		"ssh"
@@ -42,9 +43,9 @@
 	"maintainer": "Mandos Maintainers <mandos@recompile.se>",
 	"description": "do unattended reboots with an encrypted root file system",
 	"homepage": "https://www.recompile.se/mandos",
-	"filename": "pool/main/m/mandos/mandos-client_1.8.18-1_amd64.deb",
-	"size": 170048,
-	"md5": "45361bf3bf82a0930dc2c13dd275e2e6",
-	"sha256": "104a5370d67bb1a6a8c1f5a750a96945536c7e59c2f24c2ceca1288426538b2c",
+	"filename": "pool/main/m/mandos/mandos-client_1.8.19-1_amd64.deb",
+	"size": 170532,
+	"md5": "90fe5f36e1f8ac04f63676d557e47ecc",
+	"sha256": "d31a582e36b93c32b977868a97891aee55795b242c574b650aae2229bb278df0",
 	"descriptionMd5": "1f5f0395f024e9a2960dd14e0a205616"
 }
