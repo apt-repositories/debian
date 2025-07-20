@@ -35,8 +35,50 @@
 	"maintainer": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>",
 	"description": "GNU TLS library - development files",
 	"homepage": "https://www.gnutls.org/",
-	"filename": "pool/updates/main/g/gnutls28/libgnutls28-dev_3.7.9-2+deb12u4_amd64.deb",
+	"filename": "pool/main/g/gnutls28/libgnutls28-dev_3.7.9-2+deb12u4_amd64.deb",
 	"size": 1352544,
+	"md5": "d003fea57b40afeb3bec8e7a460e2a44",
 	"sha256": "f6e0c2a1ff44efc842bb306971e4cd188ae7cee130fa57c5f7c4e231a6652dcb",
+	"descriptionMd5": "6baa023d298b1250826dc2baac8acd8b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgnutls28-dev",
+	"source": "gnutls28",
+	"version": "3.7.9-2+deb12u5",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6-dev | libc-dev",
+		"libgnutls-dane0 (= 3.7.9-2+deb12u5)",
+		"libgnutls-openssl27 (= 3.7.9-2+deb12u5)",
+		"libgnutls30 (= 3.7.9-2+deb12u5)",
+		"libgnutlsxx30 (= 3.7.9-2+deb12u5)",
+		"libidn2-dev",
+		"libp11-kit-dev",
+		"libtasn1-6-dev",
+		"nettle-dev (>= 3.6)"
+	],
+	"suggests": [
+		"gnutls-bin",
+		"gnutls-doc"
+	],
+	"replaces": [
+		"gnutls-dev"
+	],
+	"conflicts": [
+		"gnutls-dev"
+	],
+	"installedSize": 5233,
+	"maintainer": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>",
+	"description": "GNU TLS library - development files",
+	"homepage": "https://www.gnutls.org/",
+	"filename": "pool/updates/main/g/gnutls28/libgnutls28-dev_3.7.9-2+deb12u5_amd64.deb",
+	"size": 1353588,
+	"sha256": "4ea9c90bb96903bf18197835e8f5bc22681c435eeb3adea9a5ae39d872fc7cea",
 	"descriptionMd5": "6baa023d298b1250826dc2baac8acd8b"
 }]
