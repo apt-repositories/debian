@@ -6,12 +6,13 @@
 	],
 	"package": "python3-yubihsm",
 	"source": "python-yubihsm",
-	"version": "3.1.0-1",
+	"version": "3.1.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-cryptography (>= 2.6)",
+		"python3-cryptography (<< 47)",
 		"python3:any"
 	],
 	"recommends": [
@@ -21,13 +22,13 @@
 		"python3-usb",
 		"yubihsm-connector"
 	],
-	"installedSize": 141,
+	"installedSize": 162,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "Python interface to the YubiHSM 2",
 	"homepage": "https://developers.yubico.com/python-yubihsm/",
-	"filename": "pool/main/p/python-yubihsm/python3-yubihsm_3.1.0-1_all.deb",
-	"size": 22536,
-	"md5": "924a9d4b1cd6149a000a9bb0283fd06c",
-	"sha256": "c387a689e28d5c16137e71e2f0edfd3a0d4eaaba274525c5fab9173e399472e2",
+	"filename": "pool/main/p/python-yubihsm/python3-yubihsm_3.1.1-1_all.deb",
+	"size": 28104,
+	"md5": "9494ec784387a66e99458fd7a5846445",
+	"sha256": "211b2bb012aca1fbc91602d02813c9cba6006f49533dab622c6812fc516b01fa",
 	"descriptionMd5": "826dcb3294ef85ba0294830df3d409d7"
 }
