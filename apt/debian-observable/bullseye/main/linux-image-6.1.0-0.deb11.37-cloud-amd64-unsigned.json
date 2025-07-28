@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.1.0-0.deb11.37-cloud-amd64-unsigned",
+	"source": "linux-6.1",
+	"version": "6.1.140-1~deb11u1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-6.1",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.1.0-0.deb11.37-cloud-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.1.0-0.deb11.37-cloud-amd64"
+	],
+	"installedSize": 146080,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.1 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/updates/main/l/linux-6.1/linux-image-6.1.0-0.deb11.37-cloud-amd64-unsigned_6.1.140-1~deb11u1_amd64.deb",
+	"size": 27219140,
+	"sha256": "c37712daed36e468a941e8afc374ae60be6ef5b8ecb9bf0b060b427e923d8c45",
+	"descriptionMd5": "f1cfd45517446f0f1122649ef7e2011b"
+}]
