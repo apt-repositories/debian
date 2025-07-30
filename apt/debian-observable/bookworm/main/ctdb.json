@@ -50,6 +50,51 @@
 	],
 	"package": "ctdb",
 	"source": "samba",
+	"version": "2:4.17.12+dfsg-0+deb12u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2",
+		"psmisc",
+		"samba-libs (= 2:4.17.12+dfsg-0+deb12u2)",
+		"sudo",
+		"tdb-tools",
+		"time",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.34)",
+		"libpopt0 (>= 1.14)",
+		"libtalloc2 (>= 2.3.4~)",
+		"libtdb1 (>= 1.4.7~)",
+		"libtevent0 (>= 0.13.0~)",
+		"libtirpc3 (>= 1.0.2)"
+	],
+	"recommends": [
+		"ethtool",
+		"python3:any",
+		"python3-etcd",
+		"librados2 (>= 16.2.15+ds)"
+	],
+	"suggests": [
+		"logrotate",
+		"lsof"
+	],
+	"installedSize": 3765,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "clustered database to store temporary data",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/ctdb_4.17.12+dfsg-0+deb12u2_amd64.deb",
+	"size": 699212,
+	"sha256": "4158ab33b5f306abdab84849a25c6debe8de12dd61d8a01e1c4ae66db66e1d2d",
+	"descriptionMd5": "83dff66615250b53a0cd3df6fb3b9ea7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ctdb",
+	"source": "samba",
 	"version": "2:4.17.12+dfsg-0+deb12u1",
 	"section": "net",
 	"priority": "optional",
