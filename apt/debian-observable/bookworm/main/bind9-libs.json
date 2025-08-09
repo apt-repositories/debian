@@ -6,6 +6,49 @@
 	],
 	"package": "bind9-libs",
 	"source": "bind9",
+	"version": "1:9.20.11-4~bpo12+1",
+	"section": "libs",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libfstrm0 (>= 0.2.0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libjemalloc2 (>= 4.0.0)",
+		"libjson-c5 (>= 0.15)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"liblmdb0 (>= 0.9.7)",
+		"libmaxminddb0 (>= 1.3.0)",
+		"libnghttp2-14 (>= 1.12.0)",
+		"libprotobuf-c1 (>= 1.0.1)",
+		"libssl3 (>= 3.0.0)",
+		"liburcu8 (>= 0.13.0)",
+		"libuv1 (>= 1.38.0)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"bind-libs (<< 1:9.13.6~)"
+	],
+	"breaks": [
+		"bind-libs (<< 1:9.13.6~)"
+	],
+	"installedSize": 3572,
+	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
+	"description": "Shared Libraries used by BIND 9",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/bind9-libs_9.20.11-4~bpo12+1_amd64.deb",
+	"size": 1223160,
+	"sha256": "14b327ddfdec967bf4eae3136642c8fe14d06d4c10944baf03466cfe6e9bdfdd",
+	"descriptionMd5": "5d0130b772445112be93a9bd80da10e6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-libs",
+	"source": "bind9",
 	"version": "1:9.18.33-1~deb12u2",
 	"section": "libs",
 	"priority": "optional",
