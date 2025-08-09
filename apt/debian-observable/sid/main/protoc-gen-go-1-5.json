@@ -6,7 +6,7 @@
 	],
 	"package": "protoc-gen-go-1-5",
 	"source": "golang-github-golang-protobuf-1-5",
-	"version": "1.5.4-1",
+	"version": "1.5.4-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,18 +14,24 @@
 		"libprotobuf-dev",
 		"protobuf-compiler"
 	],
-	"conflicts": [
-		"golang-goprotobuf-dev",
-		"protoc-gen-go",
-		"protoc-gen-go-1-3"
+	"replaces": [
+		"protoc-gen-go-1-3 (<< 1.5)"
 	],
-	"installedSize": 4609,
+	"breaks": [
+		"protoc-gen-go-1-3 (<< 1.5)"
+	],
+	"conflicts": [
+		"golang-goprotobuf-dev (<< 1.5)",
+		"protoc-gen-go",
+		"protoc-gen-go-1-3 (<< 1.5)"
+	],
+	"installedSize": 5883,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Go plugin for protobuf compiler (version v1.5.x)",
 	"homepage": "https://github.com/golang/protobuf",
-	"filename": "pool/main/g/golang-github-golang-protobuf-1-5/protoc-gen-go-1-5_1.5.4-1_amd64.deb",
-	"size": 1435244,
-	"md5": "7570527701d8cb7cc6947d76053fa2b7",
-	"sha256": "c7cea009d994bdaba3786e1bd96780c3448abb4ba6123ed8bef98cec54c0829c",
+	"filename": "pool/main/g/golang-github-golang-protobuf-1-5/protoc-gen-go-1-5_1.5.4-2_amd64.deb",
+	"size": 1862540,
+	"md5": "d2e7050f0a04b52fbcd1a59dac055c47",
+	"sha256": "6bc0724dd8db87ad3a96afd1c4eea8716daf504cc8af513ea871ca6b1a3f9d8b",
 	"descriptionMd5": "5751e2e6b6ac34b323b8c7e9c6da3286"
 }]
