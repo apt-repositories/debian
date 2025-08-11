@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-lxc-incus-dev",
 	"source": "incus",
-	"version": "6.0.4-2",
+	"version": "6.0.4-3",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -18,7 +18,7 @@
 		"golang-github-digitalocean-go-qemu-dev",
 		"golang-github-digitalocean-go-smbios-dev",
 		"golang-github-dustinkirkland-golang-petname-dev",
-		"golang-github-flosch-pongo2.v4-dev",
+		"golang-github-flosch-pongo2.v6-dev",
 		"golang-github-fvbommel-sortorder-dev",
 		"golang-github-go-chi-chi-dev",
 		"golang-github-go-jose-go-jose-dev",
@@ -56,7 +56,7 @@
 		"golang-github-spf13-pflag-dev",
 		"golang-github-stretchr-testify-dev",
 		"golang-github-vishvananda-netlink-dev",
-		"golang-github-zitadel-oidc-dev (>= 3.0)",
+		"golang-github-zitadel-oidc-dev (>= 3.44.0)",
 		"golang-gocapability-dev",
 		"golang-golang-x-crypto-dev",
 		"golang-golang-x-exp-dev",
@@ -73,13 +73,16 @@
 		"golang-k8s-utils-dev",
 		"golang-starlark-dev (>= 0.0~git20240725.42030a7)"
 	],
-	"installedSize": 12170,
+	"breaks": [
+		"distrobuilder (<< 3.2-2)"
+	],
+	"installedSize": 12171,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Powerful system container and virtual machine manager - library",
 	"homepage": "https://linuxcontainers.org/incus/",
-	"filename": "pool/main/i/incus/golang-github-lxc-incus-dev_6.0.4-2_all.deb",
-	"size": 1588720,
-	"md5": "d5b9bb440900fc04facda7a6ba89490a",
-	"sha256": "28638311dd3127bfd93846cbd32987beca27756b48b4b545d65881eddbeecd2a",
+	"filename": "pool/main/i/incus/golang-github-lxc-incus-dev_6.0.4-3_all.deb",
+	"size": 1588928,
+	"md5": "56652e8ff600c9c79127cc0047f302dc",
+	"sha256": "96c3c5c6fa20f6ebf17ab15c400591aad76b670a81abc6da850ad7089634a5a4",
 	"descriptionMd5": "04b821607fd093bab53351c9db35fb0f"
 }

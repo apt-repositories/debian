@@ -5,14 +5,13 @@
 		"Size"
 	],
 	"package": "ferm",
-	"version": "2.5.1-4",
+	"version": "2.7-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"iptables (>= 1.3)",
-		"perl (>= 5.6)",
-		"debconf (>= 0.5) | debconf-2.0"
+		"iptables",
+		"perl"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -20,13 +19,13 @@
 	"recommends": [
 		"libnet-dns-perl"
 	],
-	"installedSize": 307,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"installedSize": 310,
+	"maintainer": "Debian Ferm Maintainers <ferm@packages.debian.org>",
 	"description": "maintain and setup complicated firewall rules",
-	"homepage": "http://ferm.foo-projects.org/",
-	"filename": "pool/main/f/ferm/ferm_2.5.1-4_all.deb",
-	"size": 108216,
-	"md5": "8ac6d839c0e570da422d3488f79c96ac",
-	"sha256": "e769f83b96593092a4a80de9af9012899156812d609a4cc0dd36c6889bedfab8",
+	"homepage": "https://github.com/MaxKellermann/ferm",
+	"filename": "pool/main/f/ferm/ferm_2.7-2_all.deb",
+	"size": 107812,
+	"md5": "5e39a8b82fbc27cc274a38755a4331df",
+	"sha256": "3bb5759f7ec828fcd64ef125ea83cf5f5fb764a995967a3454071c71d5f88012",
 	"descriptionMd5": "72483f2f5f9153295b67c751fece6d34"
 }]

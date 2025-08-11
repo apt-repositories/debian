@@ -6,13 +6,14 @@
 	],
 	"package": "libreoffice-evolution",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc3-1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libreoffice-base",
-		"libreoffice-core (= 4:25.2.3-2)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core (= 4:25.8.0~rc3-1)",
 		"libebook-1.2-21t64",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.3.1)",
@@ -24,10 +25,6 @@
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
 	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
-	],
 	"recommends": [
 		"evolution"
 	],
@@ -38,9 +35,9 @@
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- Evolution addressbook support",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-evolution_25.2.3-2_amd64.deb",
-	"size": 120736,
-	"md5": "3f0f5e3b7e5058513b2048bb48f55c2a",
-	"sha256": "dda645ff814ec01f62a7c4b519acad657a7ac03247dace44e5534011b705c713",
+	"filename": "pool/main/libr/libreoffice/libreoffice-evolution_25.8.0~rc3-1_amd64.deb",
+	"size": 122120,
+	"md5": "314e0030af6ce68726ade0052b66fdd5",
+	"sha256": "ab78c5f1e45d7f92c449f9a36f49404646dca89ffb8cbf69cfc552abdf3dab7b",
 	"descriptionMd5": "7d9a6b62e74d5a806f263ecd0d4bed18"
 }

@@ -6,14 +6,15 @@
 	],
 	"package": "libreoffice-writer",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc3-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:25.2.3-2)",
-		"libreoffice-core (= 4:25.2.3-2)",
-		"libreoffice-uiconfig-writer (= 4:25.2.3-2)",
+		"libreoffice-base-core (= 4:25.8.0~rc3-1)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core (= 4:25.8.0~rc3-1)",
+		"libreoffice-uiconfig-writer (= 4:25.8.0~rc3-1)",
 		"libabw-0.1-1",
 		"libc6 (>= 2.38)",
 		"libe-book-0.1-1",
@@ -23,6 +24,7 @@
 		"libicu76 (>= 76.1-1~)",
 		"libmwaw-0.3-3",
 		"libodfgen-0.1-1",
+		"libreoffice-sal-private-abi (= 25.8.0)",
 		"librevenge-0.0-0",
 		"libstaroffice-0.0-0",
 		"libstdc++6 (>= 13.1)",
@@ -37,10 +39,6 @@
 		"uno-libs-private",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
-	],
 	"recommends": [
 		"libreoffice-math"
 	],
@@ -48,7 +46,7 @@
 		"fonts-crosextra-caladea",
 		"fonts-crosextra-carlito",
 		"libreoffice-base",
-		"libreoffice-java-common (>= 4:25.2.3~)",
+		"libreoffice-java-common (>= 4:25.8.0~rc3~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"replaces": [
@@ -57,13 +55,13 @@
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 32651,
+	"installedSize": 33032,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- word processor",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-writer_25.2.3-2_amd64.deb",
-	"size": 9849392,
-	"md5": "cbe89bb695bd4ae1659b2fdb9e1e525e",
-	"sha256": "52dbdb132aaeb94a2a71ba6edb70dcf24ec4b8a3ff9f2e35aa462199b330d451",
+	"filename": "pool/main/libr/libreoffice/libreoffice-writer_25.8.0~rc3-1_amd64.deb",
+	"size": 9957232,
+	"md5": "db9acd7efe00ca2073aca62ec0e5d666",
+	"sha256": "26a0715b923dc90115f8c61aab082f5bd5bd3aeeb00e356120509b5a1e06eae6",
 	"descriptionMd5": "7ddf1a7be67dc22b315f212f564325e8"
 }
