@@ -6,13 +6,14 @@
 	],
 	"package": "libreoffice-writer-nogui",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc3-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:25.2.3-2)",
-		"libreoffice-core-nogui (= 4:25.2.3-2) | libreoffice-core (= 4:25.2.3-2)",
+		"libreoffice-base-core (= 4:25.8.0~rc3-1)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core-nogui (= 4:25.8.0~rc3-1) | libreoffice-core (= 4:25.8.0~rc3-1)",
 		"libabw-0.1-1",
 		"libc6 (>= 2.38)",
 		"libe-book-0.1-1",
@@ -22,6 +23,7 @@
 		"libicu76 (>= 76.1-1~)",
 		"libmwaw-0.3-3",
 		"libodfgen-0.1-1",
+		"libreoffice-sal-private-abi (= 25.8.0)",
 		"librevenge-0.0-0",
 		"libstaroffice-0.0-0",
 		"libstdc++6 (>= 13.1)",
@@ -36,10 +38,6 @@
 		"uno-libs-private",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
-	],
 	"recommends": [
 		"libreoffice-math-nogui"
 	],
@@ -47,7 +45,7 @@
 		"fonts-crosextra-caladea",
 		"fonts-crosextra-carlito",
 		"libreoffice-base",
-		"libreoffice-java-common (>= 4:25.2.3~)",
+		"libreoffice-java-common (>= 4:25.8.0~rc3~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"replaces": [
@@ -60,13 +58,13 @@
 	"conflicts": [
 		"libreoffice-writer"
 	],
-	"installedSize": 30170,
+	"installedSize": 30383,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- word processor (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-writer-nogui_25.2.3-2_amd64.deb",
-	"size": 9150432,
-	"md5": "003b877a0398c9b2bf8c726bd41dbdb7",
-	"sha256": "3c44bb5ab94c3902156d03f24e8100a238946c738aa2b523f36ce983f3a9a1c0",
+	"filename": "pool/main/libr/libreoffice/libreoffice-writer-nogui_25.8.0~rc3-1_amd64.deb",
+	"size": 9224824,
+	"md5": "6fd2419457e2f904cebad8cd13801046",
+	"sha256": "a88fa01d921389503ec4261b48264a6dad76e16337335dcf3a61a40f5b82938f",
 	"descriptionMd5": "963dc225bb14f9e5974345a7995f16a7"
 }]

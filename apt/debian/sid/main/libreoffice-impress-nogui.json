@@ -6,20 +6,22 @@
 	],
 	"package": "libreoffice-impress-nogui",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc3-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-core-nogui (= 4:25.2.3-2) | libreoffice-core (= 4:25.2.3-2)",
-		"libreoffice-draw-nogui (= 4:25.2.3-2) | libreoffice-draw (= 4:25.2.3-2)",
-		"libreoffice-uiconfig-impress (= 4:25.2.3-2)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core-nogui (= 4:25.8.0~rc3-1) | libreoffice-core (= 4:25.8.0~rc3-1)",
+		"libreoffice-draw-nogui (= 4:25.8.0~rc3-1) | libreoffice-draw (= 4:25.8.0~rc3-1)",
+		"libreoffice-uiconfig-impress (= 4:25.8.0~rc3-1)",
 		"libbox2d2 (>= 2.4.1)",
 		"libc6 (>= 2.38)",
 		"libetonyek-0.1-1",
 		"libgcc-s1 (>= 3.3.1)",
 		"libmwaw-0.3-3",
 		"libodfgen-0.1-1",
+		"libreoffice-sal-private-abi (= 25.8.0)",
 		"librevenge-0.0-0",
 		"libstaroffice-0.0-0",
 		"libstdc++6 (>= 13.1)",
@@ -28,10 +30,6 @@
 		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
-	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"suggests": [
 		"bluez"
@@ -47,13 +45,13 @@
 		"libreoffice-impress",
 		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
 	],
-	"installedSize": 2234,
+	"installedSize": 2202,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- presentation (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-impress-nogui_25.2.3-2_amd64.deb",
-	"size": 622640,
-	"md5": "9ad2ad03e5b6f40e56fa241d9ce94e90",
-	"sha256": "0a7ad68bef41f106c9cc0d8103e80400839fc71b87c8cfefd011aca8d1239b9d",
+	"filename": "pool/main/libr/libreoffice/libreoffice-impress-nogui_25.8.0~rc3-1_amd64.deb",
+	"size": 612548,
+	"md5": "67dde1dba6711a8db28d6932534e59c3",
+	"sha256": "3b04a43b4f68499c4458366bd2d61a38ebacbda0e9e353acbf20c41064bc9d55",
 	"descriptionMd5": "10ce2c27d434135cd9308937c1bdb31c"
 }

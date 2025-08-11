@@ -6,7 +6,7 @@
 	],
 	"package": "python3-metpy",
 	"source": "metpy",
-	"version": "1.6.3+ds-1",
+	"version": "1.7.0+ds-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -22,13 +22,19 @@
 		"python3-xarray",
 		"python3:any"
 	],
-	"installedSize": 1932,
+	"suggests": [
+		"python3-boto3",
+		"python3-cartopy",
+		"python3-dask",
+		"python3-shapely"
+	],
+	"installedSize": 2013,
 	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
 	"description": "Collection of tools for reading, visualizing and performing calculations with we",
 	"homepage": "https://github.com/Unidata/MetPy",
-	"filename": "pool/main/m/metpy/python3-metpy_1.6.3+ds-1_all.deb",
-	"size": 359464,
-	"md5": "0420dc84cb38b145b5b7616fee66679b",
-	"sha256": "d83a493cfe6fddb7b689314e925528e231ced1cb8ebd6639b5222ff998fb8f0a",
+	"filename": "pool/main/m/metpy/python3-metpy_1.7.0+ds-1_all.deb",
+	"size": 371260,
+	"md5": "51005704d49844a4198746d66ec8f8f1",
+	"sha256": "bfaf539087a0ee379f1f612f81181ca03987335655ce2ecfeda056855da77bb7",
 	"descriptionMd5": "ed903773f7d29e0bee42dea5a989dfdf"
 }

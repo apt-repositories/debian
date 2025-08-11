@@ -6,14 +6,15 @@
 	],
 	"package": "libreoffice-calc-nogui",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc3-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:25.2.3-2)",
-		"libreoffice-core-nogui (= 4:25.2.3-2) | libreoffice-core (= 4:25.2.3-2)",
-		"libreoffice-uiconfig-calc (= 4:25.2.3-2)",
+		"libreoffice-base-core (= 4:25.8.0~rc3-1)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core-nogui (= 4:25.8.0~rc3-1) | libreoffice-core (= 4:25.8.0~rc3-1)",
+		"libreoffice-uiconfig-calc (= 4:25.8.0~rc3-1)",
 		"coinor-libcoinmp0",
 		"libc6 (>= 2.38)",
 		"libcolamd3 (>= 1:7.0.1)",
@@ -22,8 +23,7 @@
 		"libicu76 (>= 76.1-1~)",
 		"libmwaw-0.3-3",
 		"libodfgen-0.1-1",
-		"liborcus-0.18-0 (>= 0.19.2)",
-		"liborcus-parser-0.18-0 (>= 0.19.2)",
+		"libreoffice-sal-private-abi (= 25.8.0)",
 		"librevenge-0.0-0",
 		"libstaroffice-0.0-0",
 		"libstdc++6 (>= 13.1)",
@@ -34,10 +34,6 @@
 		"libwps-0.4-4",
 		"libxml2 (>= 2.7.4)",
 		"uno-libs-private"
-	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"replaces": [
 		"libreoffice-calc",
@@ -51,13 +47,13 @@
 	"conflicts": [
 		"libreoffice-calc"
 	],
-	"installedSize": 26924,
+	"installedSize": 27172,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- spreadsheet (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-calc-nogui_25.2.3-2_amd64.deb",
-	"size": 7995392,
-	"md5": "5e22d76b23b6828d4bd9dec5fe5ea206",
-	"sha256": "4f971cb16facedc4c05c0ed619c8fa922239fabcddeda8f1a966fe864fb11fa6",
+	"filename": "pool/main/libr/libreoffice/libreoffice-calc-nogui_25.8.0~rc3-1_amd64.deb",
+	"size": 8056528,
+	"md5": "38f8c3879e8d6b821f36e5a4ebbfe9ee",
+	"sha256": "abaafeb0b0a7222db06fd38260ceb84e7821b1fd3452f993a0fd9b3c514e6cfc",
 	"descriptionMd5": "ed9483b973f6b2dd25d568b6ef77d8c4"
 }]

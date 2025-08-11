@@ -6,12 +6,13 @@
 	],
 	"package": "libreoffice-gnome",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc3-1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-core (= 4:25.2.3-2)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core (= 4:25.8.0~rc3-1)",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libglib2.0-0t64 (>= 2.80.0)",
@@ -21,10 +22,6 @@
 		"libuno-sal3t64 (>= 5.1.0~alpha)",
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
-	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"libreoffice-style-elementary",
@@ -48,9 +45,9 @@
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- GNOME integration",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-gnome_25.2.3-2_amd64.deb",
-	"size": 99064,
-	"md5": "f2ce122eaaeef6ee13b87883c22a7bc3",
-	"sha256": "f2b8a0d7f08ddf2dc6333fdb8c4d8858c1b739b218c9ef1fe3bcc92570589de2",
+	"filename": "pool/main/libr/libreoffice/libreoffice-gnome_25.8.0~rc3-1_amd64.deb",
+	"size": 99820,
+	"md5": "2886612ea916b36ced6db2403fd92c72",
+	"sha256": "062963be11cb33e69677b8fa9720a576b1b77dc3ee885bb9a90cab03cf030e29",
 	"descriptionMd5": "c468d8fd91ddd9ba3bc4401d295be6e1"
 }

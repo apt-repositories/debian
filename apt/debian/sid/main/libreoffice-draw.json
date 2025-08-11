@@ -6,17 +6,18 @@
 	],
 	"package": "libreoffice-draw",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc3-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-core (= 4:25.2.3-2)",
-		"libreoffice-uiconfig-draw (= 4:25.2.3-2)",
-		"libreoffice-uiconfig-impress (= 4:25.2.3-2)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core (= 4:25.8.0~rc3-1)",
+		"libreoffice-uiconfig-draw (= 4:25.8.0~rc3-1)",
+		"libreoffice-uiconfig-impress (= 4:25.8.0~rc3-1)",
 		"libavahi-client3 (>= 0.6.16)",
 		"libavahi-common3 (>= 0.6.16)",
-		"libc6 (>= 2.35)",
+		"libc6 (>= 2.38)",
 		"libcdr-0.1-1",
 		"libdbus-1-3 (>= 1.10)",
 		"libfreehand-0.1-1",
@@ -27,6 +28,7 @@
 		"libodfgen-0.1-1",
 		"libpagemaker-0.0-0",
 		"libqxp-0.0-0",
+		"libreoffice-sal-private-abi (= 25.8.0)",
 		"librevenge-0.0-0",
 		"libstaroffice-0.0-0",
 		"libstdc++6 (>= 13.1)",
@@ -40,10 +42,6 @@
 		"libzmf-0.0-0",
 		"uno-libs-private"
 	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
-	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-core (<< 1:6.4.1~rc1-3)",
@@ -55,13 +53,13 @@
 		"libreoffice-core (<< 1:6.4.1~rc1-3)",
 		"libreoffice-impress (<< 4:7.5.3~rc2-2)"
 	],
-	"installedSize": 10842,
+	"installedSize": 11004,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- drawing",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-draw_25.2.3-2_amd64.deb",
-	"size": 2995096,
-	"md5": "92fb59b449fc6695a969506a28c0ced2",
-	"sha256": "e1ff5a0dd87cb695d55d371c6482ba070e43f81cf00745be4555f989836b06df",
+	"filename": "pool/main/libr/libreoffice/libreoffice-draw_25.8.0~rc3-1_amd64.deb",
+	"size": 3040000,
+	"md5": "bd9193bf111421e1f46044470d4f342e",
+	"sha256": "99f057e16a920d8a63f52d1526bab94daaf309f719e7ef4ded9b2bbe9e2f0b92",
 	"descriptionMd5": "48e37fe8495cb12961b923bb0b0f970f"
 }

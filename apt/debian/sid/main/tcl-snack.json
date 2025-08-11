@@ -6,7 +6,7 @@
 	],
 	"package": "tcl-snack",
 	"source": "snack",
-	"version": "2.2.10.20090624+dfsg-3",
+	"version": "2.2.10.20090624+dfsg-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,28 +16,20 @@
 		"libogg0 (>= 1.1.0)",
 		"libvorbis0a (>= 1.1.2)",
 		"libvorbisenc2 (>= 1.1.2)",
-		"tcl (>= 8.6.0-2)",
-		"libsnack-oss (= 2.2.10.20090624+dfsg-3) | libsnack-alsa (= 2.2.10.20090624+dfsg-3)"
+		"tcl8.6 | tcl9.0",
+		"libsnack-oss (= 2.2.10.20090624+dfsg-4) | libsnack-alsa (= 2.2.10.20090624+dfsg-4)"
 	],
 	"suggests": [
-		"tk (>= 8.6.0-2)",
+		"tk8.6 | tk9.0",
 		"tcl-snack-doc"
 	],
-	"replaces": [
-		"libsnack2",
-		"libsnack2-alsa"
-	],
-	"conflicts": [
-		"libsnack2",
-		"libsnack2-alsa"
-	],
-	"installedSize": 143,
+	"installedSize": 208,
 	"maintainer": "Sergei Golovan <sgolovan@debian.org>",
 	"description": "Sound extension to Tcl/Tk and Python/Tkinter - Tcl/Tk library",
 	"homepage": "http://pdqi.com/w/pw/pdqi/Wize/Snack",
-	"filename": "pool/main/s/snack/tcl-snack_2.2.10.20090624+dfsg-3_amd64.deb",
-	"size": 55624,
-	"md5": "00183db924aca299ce746acd0c3ef3af",
-	"sha256": "231f328409d6f4a38d88114f7f9a8e12d1b2c1f21b6efb4411e51b142101b34a",
+	"filename": "pool/main/s/snack/tcl-snack_2.2.10.20090624+dfsg-4_amd64.deb",
+	"size": 60300,
+	"md5": "1db65ce421d4c42686893ffedb7eca27",
+	"sha256": "c2f0bd189320272ffa4e5fcc875129c001f6f1418c36400b7a6cbe04876da340",
 	"descriptionMd5": "65270955b20e6f14e4095b25ee03bc2f"
 }
