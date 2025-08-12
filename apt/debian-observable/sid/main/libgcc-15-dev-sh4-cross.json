@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-15-dev-sh4-cross",
+	"source": "gcc-15-cross-ports (8)",
+	"version": "15.2.0-1cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-15-cross-base-ports (= 15.2.0-1cross1)",
+		"libgcc-s1-sh4-cross (>= 15.2.0-1cross1)",
+		"libgomp1-sh4-cross (>= 15.2.0-1cross1)",
+		"libitm1-sh4-cross (>= 15.2.0-1cross1)",
+		"libatomic1-sh4-cross (>= 15.2.0-1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-sh4-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-sh4-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-sh4-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 1038,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-1)",
+	"filename": "pool/main/g/gcc-15-cross-ports/libgcc-15-dev-sh4-cross_15.2.0-1cross1_all.deb",
+	"size": 278580,
+	"md5": "c0081a33becf0b1fb05934639f7b77fd",
+	"sha256": "1a187a029822a938865a52555962ec72762002ce3c421825d7aa718c2f0d76b4",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]
