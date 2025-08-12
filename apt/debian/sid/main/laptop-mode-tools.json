@@ -5,14 +5,16 @@
 		"Size"
 	],
 	"package": "laptop-mode-tools",
-	"version": "1.74-1.4",
+	"version": "1.74-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"lsb-base (>= 3.0-10)",
-		"util-linux (>= 2.13)",
+		"lsb-release",
 		"psmisc"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"hdparm",
@@ -30,13 +32,13 @@
 	"conflicts": [
 		"noflushd"
 	],
-	"installedSize": 392,
+	"installedSize": 391,
 	"maintainer": "Ritesh Raj Sarraf <rrs@debian.org>",
 	"description": "Tools for Power Savings based on battery/AC status",
 	"homepage": "https://github.com/rickysarraf/laptop-mode-tools",
-	"filename": "pool/main/l/laptop-mode-tools/laptop-mode-tools_1.74-1.4_all.deb",
-	"size": 111400,
-	"md5": "f63e173acf889bb35637d8ca396917b2",
-	"sha256": "e34d7d81413a9cc88563fff2278fa2c4cd54ab552f948dc3ca110fedf00b2cfc",
+	"filename": "pool/main/l/laptop-mode-tools/laptop-mode-tools_1.74-2_all.deb",
+	"size": 112040,
+	"md5": "c0d4e0401b67b3ef220b1bf18cb78d87",
+	"sha256": "74d4b57a9ff8ca03d763440b7d7c2b6cd3aa500a3750b1351614de3affce9514",
 	"descriptionMd5": "43f109990cc61ac81c810b482d7dff84"
 }

@@ -6,24 +6,25 @@
 	],
 	"package": "mono-runtime",
 	"source": "mono",
-	"version": "6.12.0.199+dfsg-6",
+	"version": "6.12.0.199+ds-4",
 	"section": "cli-mono",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"mono-runtime-sgen (= 6.12.0.199+dfsg-6)"
+		"libmono-corlib4.5-cil",
+		"mono-runtime-sgen (= 6.12.0.199+ds-4)",
+		"libc6 (>= 2.34)"
 	],
 	"recommends": [
 		"binfmt-support (>= 1.1.2)"
 	],
-	"installedSize": 79,
-	"maintainer": "Antoine Le Gonidec <debian@vv221.fr>",
+	"installedSize": 70,
+	"maintainer": "Antoine Le Gonidec <vv221@debian.org>",
 	"description": "Mono runtime - default version",
 	"homepage": "http://www.mono-project.com/",
-	"filename": "pool/main/m/mono/mono-runtime_6.12.0.199+dfsg-6_amd64.deb",
-	"size": 18312,
-	"md5": "f5ead8c5ef198050981314cff8fd1aa5",
-	"sha256": "a6f0de6e1881de8d70f3865cc8e8ec264bb45942071c2cfd3377531c90850239",
+	"filename": "pool/main/m/mono/mono-runtime_6.12.0.199+ds-4_amd64.deb",
+	"size": 17704,
+	"md5": "59258b6320a5083164a5696b6a1abc89",
+	"sha256": "b213f5d1c17ac02951235b5d2ab5b2a8e7a7fb5a1e4e5ea11185a82795823b85",
 	"descriptionMd5": "0ef9550e0b708629302fd4b5f9bdeb39"
 }
