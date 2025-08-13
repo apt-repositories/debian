@@ -6,15 +6,15 @@
 	],
 	"package": "gvfs-backends",
 	"source": "gvfs",
-	"version": "1.57.2-2",
+	"version": "1.57.2-3",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gvfs (= 1.57.2-2)",
-		"gvfs-common (= 1.57.2-2)",
-		"gvfs-daemons (= 1.57.2-2)",
-		"gvfs-libs (= 1.57.2-2)",
+		"gvfs (= 1.57.2-3)",
+		"gvfs-common (= 1.57.2-3)",
+		"gvfs-daemons (= 1.57.2-3)",
+		"gvfs-libs (= 1.57.2-3)",
 		"psmisc",
 		"dconf-gsettings-backend | gsettings-backend",
 		"libarchive13t64 (>= 3.0.4)",
@@ -25,8 +25,7 @@
 		"libcdio-cdda2t64 (>= 10.2+2.0.0)",
 		"libcdio-paranoia2t64 (>= 10.2+2.0.0)",
 		"libcdio19t64 (>= 2.1.0)",
-		"libgcrypt20 (>= 1.11.0)",
-		"libgdata22 (>= 0.18.0)",
+		"libgcrypt20 (>= 1.11.1)",
 		"libglib2.0-0t64 (>= 2.83.0)",
 		"libgoa-1.0-0b (>= 3.53.1)",
 		"libgphoto2-6t64 (>= 2.5.10)",
@@ -44,21 +43,22 @@
 		"libxml2 (>= 2.7.4)"
 	],
 	"recommends": [
-		"gnome-keyring | kwalletmanager",
-		"wsdd"
+		"gnome-keyring | kwalletmanager"
 	],
 	"suggests": [
 		"bluez-obexd",
+		"openssh-client",
 		"pkexec",
-		"samba-common"
+		"samba-common",
+		"wsdd"
 	],
-	"installedSize": 1948,
+	"installedSize": 1867,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "userspace virtual filesystem - backends",
 	"homepage": "https://wiki.gnome.org/Projects/gvfs",
-	"filename": "pool/main/g/gvfs/gvfs-backends_1.57.2-2_amd64.deb",
-	"size": 369380,
-	"md5": "d475ffdfdca8dadd988e8cdfbb9089bb",
-	"sha256": "df8b222bd8e1cedd06933c891646c2660d56c55e10d66a0497c412e2ad5cd865",
+	"filename": "pool/main/g/gvfs/gvfs-backends_1.57.2-3_amd64.deb",
+	"size": 351004,
+	"md5": "8db1efd8261c25d27d09fb09a2b5622a",
+	"sha256": "882b9ead24a6d1722707bf2b8c73519ff95895816c9e5bb1618db008acf1139b",
 	"descriptionMd5": "2edda3393e212ed6ab9626b02fee32b9"
 }

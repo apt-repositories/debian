@@ -5,20 +5,31 @@
 		"Size"
 	],
 	"package": "libdist-inkt-profile-tobyink-perl",
-	"version": "0.024-4",
+	"version": "0.024-5",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"perl:any"
+		"perl:any",
+		"libdist-inkt-doap-perl",
+		"libdist-inkt-role-hg-perl",
+		"libdist-inkt-role-release-perl",
+		"libdist-inkt-role-test-perl",
+		"libdist-inkt-role-test-kwalitee-perl",
+		"libtest-eol-perl",
+		"libtest-tabs-perl",
+		"libdist-inkt-perl (>= 0.24)"
 	],
-	"installedSize": 25,
+	"recommends": [
+		"cpanminus"
+	],
+	"installedSize": 24,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "Dist::Inkt profile for TOBYINK",
 	"homepage": "https://metacpan.org/release/Dist-Inkt-Profile-TOBYINK",
-	"filename": "pool/main/libd/libdist-inkt-profile-tobyink-perl/libdist-inkt-profile-tobyink-perl_0.024-4_all.deb",
-	"size": 6256,
-	"md5": "037dd12c655a3b4ea3c65b472d542bf0",
-	"sha256": "270e7f48d8f8bb2918ea60a7768b64429c672a052b5bd595f1e9cbc806a017bd",
+	"filename": "pool/main/libd/libdist-inkt-profile-tobyink-perl/libdist-inkt-profile-tobyink-perl_0.024-5_all.deb",
+	"size": 5984,
+	"md5": "2c002c5179db45e4aa0e894a7d5d8e4c",
+	"sha256": "56e6323827a8b974f49625f23ce5422fb03c647886e1bee52282ee398db7aea9",
 	"descriptionMd5": "9672d892b7ab9731153d3470d6f78cd7"
 }]
