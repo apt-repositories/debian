@@ -6,21 +6,23 @@
 	],
 	"package": "librust-pyo3-log-dev",
 	"source": "rust-pyo3-log",
-	"version": "0.11.0-1",
+	"version": "0.12.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-arc-swap-1+default-dev",
 		"librust-log-0.4+std-dev (>= 0.4.4-~~)",
-		"librust-pyo3-0.22-dev | librust-pyo3-0.21-dev"
+		"librust-pyo3-dev (<< 0.26-~~)",
+		"librust-pyo3-dev (>= 0.23-~~)"
 	],
-	"installedSize": 65,
+	"installedSize": 69,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Logging bridge from pyo3 native extension to python - Rust source code",
-	"filename": "pool/main/r/rust-pyo3-log/librust-pyo3-log-dev_0.11.0-1_amd64.deb",
-	"size": 16432,
-	"md5": "c1a98a8fc77520d14bcc3932ad8d3f93",
-	"sha256": "4511379745e1ea94b762528bfd0a67d1da621861f44d5ddec9137a3a5cbaf621",
+	"homepage": "https://github.com/vorner/pyo3-log",
+	"filename": "pool/main/r/rust-pyo3-log/librust-pyo3-log-dev_0.12.4-1_amd64.deb",
+	"size": 17236,
+	"md5": "0b66bc778a3652aca4d197a5fe3aea11",
+	"sha256": "1211c5a5389dc5120adf6ad4af3116484dae727beacda251f57468d745d7c3ea",
 	"descriptionMd5": "0525cae8434858dcadc5119f4f522b67"
 }]

@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-14-dev-riscv64-cross",
+	"source": "gcc-14-cross (12)",
+	"version": "14.3.0-5cross3",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-14-cross-base (>= 14.3.0-5)",
+		"libgcc-s1-riscv64-cross (>= 14.3.0-5cross3)",
+		"libgomp1-riscv64-cross (>= 14.3.0-5cross3)",
+		"libitm1-riscv64-cross (>= 14.3.0-5cross3)",
+		"libatomic1-riscv64-cross (>= 14.3.0-5cross3)",
+		"libasan8-riscv64-cross (>= 14.3.0-5cross3)",
+		"liblsan0-riscv64-cross (>= 14.3.0-5cross3)",
+		"libtsan2-riscv64-cross (>= 14.3.0-5cross3)",
+		"libubsan1-riscv64-cross (>= 14.3.0-5cross3)"
+	],
+	"recommends": [
+		"libc6-dev-riscv64-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-riscv64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-riscv64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 55408,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-14 (= 14.3.0-5)",
+	"filename": "pool/main/g/gcc-14-cross/libgcc-14-dev-riscv64-cross_14.3.0-5cross3_all.deb",
+	"size": 5167212,
+	"md5": "fbd3f8ea12a84fea8f36642ea7cfdc4e",
+	"sha256": "68795c615b5e27d44d05545f8fa4fe7a3b8646c29fc2c47cd5276f9a7189caea",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

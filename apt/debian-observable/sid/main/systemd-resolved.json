@@ -6,15 +6,15 @@
 	],
 	"package": "systemd-resolved",
 	"source": "systemd",
-	"version": "257.7-1",
+	"version": "258~rc2-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.39)",
 		"libssl3t64 (>= 3.0.0)",
-		"libsystemd-shared (= 257.7-1)",
-		"systemd (= 257.7-1)",
+		"libsystemd-shared (= 258~rc2-2)",
+		"systemd (= 258~rc2-2)",
 		"default-dbus-system-bus | dbus-system-bus"
 	],
 	"recommends": [
@@ -29,16 +29,17 @@
 		"resolvconf"
 	],
 	"conflicts": [
+		"openresolv",
 		"resolvconf",
 		"systemd (<< 257.4-4~)"
 	],
-	"installedSize": 915,
+	"installedSize": 995,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "systemd DNS resolver",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-resolved_257.7-1_amd64.deb",
-	"size": 360576,
-	"md5": "f34ff53582c05bea73734f2444255e0e",
-	"sha256": "45c15e462ddbc4f2e88e81b51469bb234ed7dd5a7df6cb72dff9e50999b6adf4",
+	"filename": "pool/main/s/systemd/systemd-resolved_258~rc2-2_amd64.deb",
+	"size": 380344,
+	"md5": "36fd436fc1cff5706a88a841bfa0c1e9",
+	"sha256": "aa0f4fd280d8d7b3b83c73402742af252072c915b4cb6cb207b7e91c82086a03",
 	"descriptionMd5": "846dc3eb3129c6a17b29965b209c161e"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-tokio-dev",
 	"source": "rust-tokio",
-	"version": "1.47.1-1",
+	"version": "1.47.1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -29,13 +29,16 @@
 		"librust-tokio-macros-2+default-dev (>= 2.5.0-~~)",
 		"librust-tracing-0.1+std-dev (>= 0.1.29-~~)"
 	],
+	"breaks": [
+		"librust-actix-server-dev (<< 2.5.1)"
+	],
 	"installedSize": 4545,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Event-driven, non-blocking I/O platform - Rust source code",
 	"homepage": "https://tokio.rs",
-	"filename": "pool/main/r/rust-tokio/librust-tokio-dev_1.47.1-1_amd64.deb",
-	"size": 628008,
-	"md5": "f577aa0fc75b11d2a4b7847c7e424c96",
-	"sha256": "19fc030e0968aa57c862445e22d3820ea39fd66432e6bf8d180aada191cc2f94",
+	"filename": "pool/main/r/rust-tokio/librust-tokio-dev_1.47.1-2_amd64.deb",
+	"size": 628108,
+	"md5": "12edb043767ca62ae1bc02a594e4947b",
+	"sha256": "f6796776625d6d42121a1e7b3f1a85b0d4dbc80069302c919b525a75727861f4",
 	"descriptionMd5": "14e3f2f39c184d81cc0c50c49c3052ae"
 }]

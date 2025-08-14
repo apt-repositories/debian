@@ -5,25 +5,26 @@
 		"Size"
 	],
 	"package": "systemd",
-	"version": "257.7-1",
+	"version": "258~rc2-2",
 	"section": "admin",
 	"priority": "important",
 	"architecture": "amd64",
 	"depends": [
 		"libacl1 (>= 2.2.23)",
-		"libapparmor1 (>= 2.13)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libblkid1 (>= 2.24)",
 		"libc6 (>= 2.41)",
 		"libmount1 (>= 2.30)",
 		"libpam0g (>= 0.99.7.1)",
 		"libseccomp2 (>= 2.3.1)",
 		"libselinux1 (>= 3.1~)",
 		"libssl3t64 (>= 3.4.0)",
-		"libsystemd0 (= 257.7-1)",
+		"libsystemd0 (= 258~rc2-2)",
 		"mount"
 	],
 	"preDepends": [
 		"libc6 (>= 2.38)",
-		"libsystemd-shared (= 257.7-1)"
+		"libsystemd-shared (= 258~rc2-2)"
 	],
 	"recommends": [
 		"default-dbus-system-bus | dbus-system-bus",
@@ -48,17 +49,19 @@
 	],
 	"conflicts": [
 		"consolekit",
+		"elogind",
 		"libpam-ck-connector",
 		"opensysusers (<< 0.7.3-4.1~)",
+		"systemctl",
 		"systemd-shim"
 	],
-	"installedSize": 9950,
+	"installedSize": 10434,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "system and service manager",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd_257.7-1_amd64.deb",
-	"size": 3099072,
-	"md5": "324f19f1e9f6b747f3784b63ca5b3cb3",
-	"sha256": "c5b56a8e78a5f6e032da90155a84cb402dd026b2dca71706d3f505793a5b066e",
+	"filename": "pool/main/s/systemd/systemd_258~rc2-2_amd64.deb",
+	"size": 3215488,
+	"md5": "07794d2a54b53f60c3047406dd34f939",
+	"sha256": "44a4f61d8788083dc62e2774419d3de66fabf205633976e7e6111da0c6b4da8e",
 	"descriptionMd5": "2728f00e9cb47f195aa39097a3afbc42"
 }
