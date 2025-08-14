@@ -6,7 +6,7 @@
 	],
 	"package": "systemd-ukify",
 	"source": "systemd",
-	"version": "257.7-1",
+	"version": "258~rc2-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -20,7 +20,8 @@
 		"systemd-boot-efi",
 		"systemd-repart",
 		"python3-cryptography",
-		"python3-lz4"
+		"python3-lz4",
+		"sbsigntool | pesign"
 	],
 	"replaces": [
 		"systemd (<< 255.1-1~)"
@@ -28,13 +29,13 @@
 	"conflicts": [
 		"systemd (<< 255.1-1~)"
 	],
-	"installedSize": 173,
+	"installedSize": 187,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "tool to build Unified Kernel Images",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-ukify_257.7-1_all.deb",
-	"size": 87268,
-	"md5": "fd1e552dfd20c401c197183d62a21b63",
-	"sha256": "fc4253fafbb35fd49eeef6e9ddd5971773d09074b50a949089555e87c7f443b3",
+	"filename": "pool/main/s/systemd/systemd-ukify_258~rc2-2_all.deb",
+	"size": 91528,
+	"md5": "e35275cd01d8ddc030d5857e5400dc82",
+	"sha256": "7d055bdf54eba596352dc6e6879d1c3e7d4f211c60befca6b29d53003edb1959",
 	"descriptionMd5": "39e5649d00705f557e265149601a82a3"
 }
