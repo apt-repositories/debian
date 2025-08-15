@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxmlsec1-nss1",
+	"source": "xmlsec1",
+	"version": "1.3.7-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libnspr4 (>= 2:4.10.9)",
+		"libnss3 (>= 2:3.72-2)",
+		"libxml2-16 (>= 2.14.1)",
+		"libxmlsec1-1 (>= 1.3.0)"
+	],
+	"replaces": [
+		"libxmlsec1-nss",
+		"libxmlsec1t64-nss"
+	],
+	"breaks": [
+		"libxmlsec1-nss (<< 1.3.7-2)",
+		"libxmlsec1t64-nss (<< 1.3.7-2)"
+	],
+	"conflicts": [
+		"libxmlsec1-nss",
+		"libxmlsec1t64-nss"
+	],
+	"installedSize": 335,
+	"maintainer": "Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>",
+	"description": "Nss engine for the XML security library",
+	"homepage": "https://www.aleksey.com/xmlsec/",
+	"filename": "pool/main/x/xmlsec1/libxmlsec1-nss1_1.3.7-2_amd64.deb",
+	"size": 80564,
+	"md5": "2ca4dbb9c807e7dcc70677392aedad5d",
+	"sha256": "45785d608e56db884fc8f94c2a6271f9b0936e766f7629f0b784d54571339ae4",
+	"descriptionMd5": "4a7c7b1a82c79304c0f1e08a371b2d99"
+}
