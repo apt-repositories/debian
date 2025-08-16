@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnupg1",
+	"version": "1.4.23-3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gpgv | gpgv1",
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.16.2)",
+		"libreadline8t64 (>= 6.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"gnupg1-l10n (= 1.4.23-3)",
+		"libldap-2.5-0 (>= 2.5.4)"
+	],
+	"suggests": [
+		"libpcsclite1",
+		"parcimonie",
+		"xloadimage | imagemagick | eog"
+	],
+	"replaces": [
+		"gnupg1-curl (<< 1.4.22-2)"
+	],
+	"breaks": [
+		"gnupg1-curl (<< 1.4.22-2)"
+	],
+	"installedSize": 1347,
+	"maintainer": "Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
+	"description": "GNU privacy guard - a PGP implementation (deprecated \"classic\" version)",
+	"homepage": "https://www.gnupg.org",
+	"filename": "pool/main/g/gnupg1/gnupg1_1.4.23-3_amd64.deb",
+	"size": 610880,
+	"md5": "9efd6948557ddd6564ab9e46d409744d",
+	"sha256": "81a676bfaae2ffde0be345fda59558be9e422daf4e849d75afe7d4bfb64c18fc",
+	"descriptionMd5": "650f309964713c304db8795238c7ac72"
+}

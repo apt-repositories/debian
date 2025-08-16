@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclc-18",
+	"source": "llvm-toolchain-18",
+	"version": "1:18.1.8-18",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libclc-18-dev (= 1:18.1.8-18)",
+		"libclang-common-18-dev"
+	],
+	"replaces": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600",
+		"libclc-x.y"
+	],
+	"breaks": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600"
+	],
+	"conflicts": [
+		"libclc-x.y"
+	],
+	"installedSize": 78234,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "OpenCL C language implementation - platform support",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-18/libclc-18_18.1.8-18_all.deb",
+	"size": 10409628,
+	"md5": "6624212fdca9fe3453c1dc89361b6a6c",
+	"sha256": "3b1ab3b3abab6262c2bfaf01be98198657d88949b6621824a3040e888b18fba9",
+	"descriptionMd5": "73bf1c1e61845108c59b363de4fd901a"
+}]

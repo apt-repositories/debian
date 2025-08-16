@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libopm-simulators-bin",
+	"source": "opm-simulators",
+	"version": "2024.10+ds-6",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libdune-common-2.10.0",
+		"libdune-geometry-2.10.0",
+		"libfmt10 (>= 10.1.1+ds1)",
+		"libgcc-s1 (>= 3.0)",
+		"libgomp1 (>= 4.9)",
+		"libopenmpi40 (>= 5.0.7)",
+		"libopm-common-2024.10",
+		"libopm-grid-2024.10",
+		"libopm-simulators-2024.10",
+		"libstdc++6 (>= 14)"
+	],
+	"recommends": [
+		"libopm-grid-bin",
+		"libopm-common-bin"
+	],
+	"replaces": [
+		"libopm-simulators1-bin"
+	],
+	"installedSize": 35729,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Parallel porous media / reservoir simulators -- applications",
+	"homepage": "https://opm-project.org",
+	"filename": "pool/main/o/opm-simulators/libopm-simulators-bin_2024.10+ds-6_amd64.deb",
+	"size": 5853692,
+	"md5": "c45c58d9d2a57d471ae0e887dcf4e7cd",
+	"sha256": "93fc9f6340eba67c9cf3e8d206aa765b936ee6e48d4b5ce4153eb76050f8f4a7",
+	"descriptionMd5": "a53078b54969f0808458867bd6bb2768"
+}]

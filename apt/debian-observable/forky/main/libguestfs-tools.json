@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libguestfs-tools",
+	"source": "libguestfs (1:1.54.1-2)",
+	"version": "1:1.54.1-2+b1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libguestfs0t64 (= 1:1.54.1-2+b1)",
+		"libc6 (>= 2.38)",
+		"guestfs-tools",
+		"guestmount",
+		"guestfish"
+	],
+	"replaces": [
+		"guestfish (<< 1:1.22.6-1~)",
+		"guestmount (<< 1.24.2-1~)",
+		"libguestfs0t64 (<< 1:1.18.2-1~)"
+	],
+	"breaks": [
+		"guestfish (<< 1:1.22.6-1~)",
+		"guestmount (<< 1.24.2-1~)",
+		"libguestfs0t64 (<< 1:1.18.2-1~)"
+	],
+	"installedSize": 85,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "guest disk image management system - tools",
+	"homepage": "http://libguestfs.org",
+	"filename": "pool/main/libg/libguestfs/libguestfs-tools_1.54.1-2+b1_amd64.deb",
+	"size": 37080,
+	"md5": "548dad5549299a31558ad513cf75212e",
+	"sha256": "58a2f5e5d8df329f8aa55de404313987fd86cfaf5f9bfd5ff8a857e67f9b3b7b",
+	"descriptionMd5": "78f66f90dcf70b3221e57798fa59a02e"
+}]

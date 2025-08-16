@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debconf",
+	"version": "1.5.91",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "all",
+	"recommends": [
+		"apt (>= 2.9.11~) | apt-utils",
+		"debconf-i18n"
+	],
+	"suggests": [
+		"debconf-doc",
+		"debconf-kde-helper",
+		"debconf-utils",
+		"libgtk3-perl",
+		"libnet-ldap-perl",
+		"libterm-readline-gnu-perl",
+		"perl",
+		"whiptail | dialog"
+	],
+	"replaces": [
+		"debconf-tiny"
+	],
+	"conflicts": [
+		"debconf-tiny",
+		"whiptail-utf8 (<= 0.50.17-13)"
+	],
+	"installedSize": 497,
+	"maintainer": "Debconf Developers <debconf-devel@lists.alioth.debian.org>",
+	"description": "Debian configuration management system",
+	"filename": "pool/main/d/debconf/debconf_1.5.91_all.deb",
+	"size": 121088,
+	"md5": "19f464db8fc065dfbca92198ee28f058",
+	"sha256": "1ddc7e6c5925f748eefb7ca811d98e049f18c158bb21fbc7e122262ce6011e49",
+	"descriptionMd5": "85b82bf406dfc9a635114f44ab7fb66d"
+}

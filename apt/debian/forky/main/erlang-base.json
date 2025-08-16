@@ -1,0 +1,67 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "erlang-base",
+	"source": "erlang",
+	"version": "1:27.3.4.1+dfsg-1",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"procps",
+		"adduser",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 12)",
+		"libstdc++6 (>= 11)",
+		"libsystemd0",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.2.8)"
+	],
+	"recommends": [
+		"libsctp1 (>= 1.0.21+dfsg)",
+		"erlang-crypto (= 1:27.3.4.1+dfsg-1)"
+	],
+	"suggests": [
+		"erlang-tools (= 1:27.3.4.1+dfsg-1)",
+		"erlang",
+		"erlang-doc"
+	],
+	"replaces": [
+		"erlang (<< 1:27.3.4.1+dfsg-1)",
+		"erlang-base-hipe",
+		"erlang-dev (<< 1:27.3.4.1+dfsg-1)",
+		"erlang-doc (>> 1:27.3.4.1+dfsg-999)",
+		"erlang-doc (<< 1:27.3.4.1+dfsg)",
+		"erlang-doc-html (<< 1:13.b.4)",
+		"erlang-examples (<< 1:27.3.4.1+dfsg-1)",
+		"erlang-manpages (<= 1:11.b.1-2)",
+		"erlang-mode (<< 1:12.b.1-dfsg-2)",
+		"erlang-nox (<< 1:27.3.4.1+dfsg-1)",
+		"erlang-src (<< 1:27.3.4.1+dfsg-1)",
+		"erlang-typer (<< 1:20.0+dfsg)",
+		"erlang-x11 (<< 1:27.3.4.1+dfsg-1)"
+	],
+	"breaks": [
+		"rabbitmq-server (<< 3.7.7)"
+	],
+	"conflicts": [
+		"erlang (<< 1:27.3.4.1+dfsg-1)",
+		"erlang-base-hipe",
+		"erlang-doc (>> 1:27.3.4.1+dfsg-999)",
+		"erlang-doc (<< 1:27.3.4.1+dfsg)",
+		"erlang-doc-html (<< 1:13.b.4)",
+		"erlang-manpages (<= 1:11.b.1-2)"
+	],
+	"installedSize": 24807,
+	"maintainer": "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>",
+	"description": "Erlang/OTP virtual machine and base applications",
+	"homepage": "http://www.erlang.org/",
+	"filename": "pool/main/e/erlang/erlang-base_27.3.4.1+dfsg-1_amd64.deb",
+	"size": 11415344,
+	"md5": "d232887da2019719c647271362350ba8",
+	"sha256": "1ae02c78ad4c72006e4be02f6ddb6d814e6a54d96e21b1863cbf90d439167996",
+	"descriptionMd5": "05592e757f082a6d0a61fb86c3fb8cac"
+}

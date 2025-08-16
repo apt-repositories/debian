@@ -1,0 +1,58 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nordugrid-arc-arex",
+	"source": "nordugrid-arc",
+	"version": "7.0.0-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libarccommon4 (= 7.0.0-4)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libglibmm-2.4-1t64 (>= 2.66.8)",
+		"libsigc++-2.0-0v5 (>= 2.2.0)",
+		"libsqlite3-0 (>= 3.7.15)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"perl:any",
+		"python3:any",
+		"nordugrid-arc-hed (= 7.0.0-4)",
+		"nordugrid-arc-plugins-needed (= 7.0.0-4)",
+		"nordugrid-arc-arcctl (= 7.0.0-4)",
+		"nordugrid-arc-arcctl-service (= 7.0.0-4)",
+		"libjson-xs-perl",
+		"libxml-simple-perl",
+		"procps"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"libarccommon3v5 (<< 6.5.0~)",
+		"nordugrid-arc-aris (<< 6.0.0~)",
+		"nordugrid-arc-cache-service (<< 6.0.0~)",
+		"nordugrid-arc-candypond (<< 6.0.0~)"
+	],
+	"breaks": [
+		"libarccommon3v5 (<< 6.5.0~)",
+		"nordugrid-arc-aris (<< 6.0.0~)"
+	],
+	"conflicts": [
+		"nordugrid-arc-cache-service (<< 6.0.0~)",
+		"nordugrid-arc-candypond (<< 6.0.0~)"
+	],
+	"installedSize": 6610,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "ARC Resource-coupled EXecution service",
+	"homepage": "http://www.nordugrid.org",
+	"filename": "pool/main/n/nordugrid-arc/nordugrid-arc-arex_7.0.0-4_amd64.deb",
+	"size": 1134320,
+	"md5": "94e469b48a2de9a2e98b5f93fdaea92e",
+	"sha256": "01a9a4226489963e7e9b6d1f1d6148918f52d7924734ade2a1a1720bb9980aa4",
+	"descriptionMd5": "300b960e90b117b0353dbf89c0e3b06d"
+}]

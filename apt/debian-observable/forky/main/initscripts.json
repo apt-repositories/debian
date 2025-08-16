@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "initscripts",
+	"source": "sysvinit",
+	"version": "3.14-4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"sysvinit-utils (>= 3.05-1)",
+		"sysv-rc | file-rc | openrc"
+	],
+	"recommends": [
+		"e2fsprogs",
+		"psmisc",
+		"util-linux-extra"
+	],
+	"replaces": [
+		"kmod (<< 34.1-1)",
+		"udev (<< 254.3-1)",
+		"util-linux-extra (<< 2.39.2-2.1~)"
+	],
+	"breaks": [
+		"kmod (<< 34.1-1)",
+		"udev (<< 254.3-1)",
+		"util-linux-extra (<< 2.39.2-2.1~)"
+	],
+	"installedSize": 203,
+	"maintainer": "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>",
+	"description": "scripts for initializing and shutting down the system",
+	"homepage": "https://salsa.debian.org/debian/sysvinit",
+	"filename": "pool/main/s/sysvinit/initscripts_3.14-4_all.deb",
+	"size": 70148,
+	"md5": "f3f095f724e85fe3be5b983f94e5b699",
+	"sha256": "989e9bb0f6c7cb5635536c636a038c8aca15513d1f9e9a80682782a3db642d2f",
+	"descriptionMd5": "db9003c179cd2a623493209da58ea2ea"
+}]

@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "frr",
+	"version": "10.3-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2",
+		"logrotate",
+		"lsof",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcares2 (>= 1.16.0)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libjson-c5 (>= 0.15)",
+		"liblua5.3-0",
+		"libpam0g (>= 0.99.7.1)",
+		"libprotobuf-c1 (>= 1.0.1)",
+		"libreadline8t64 (>= 7.0~rc1)",
+		"libunwind8",
+		"libyang3 (>= 3.7.8)"
+	],
+	"recommends": [
+		"frr-pythontools"
+	],
+	"suggests": [
+		"frr-doc"
+	],
+	"conflicts": [
+		"pimd"
+	],
+	"installedSize": 38570,
+	"maintainer": "David Lamparter <equinox-debian@diac24.net>",
+	"description": "FRRouting Internet routing protocol suite",
+	"homepage": "https://www.frrouting.org",
+	"filename": "pool/main/f/frr/frr_10.3-3_amd64.deb",
+	"size": 5875292,
+	"md5": "3ee60fd6692e2312adf4dd3d3274afff",
+	"sha256": "c84b5c973e8279dd3ea4b010fd76207b320780c957fd28b6afeec70d803e36cc",
+	"descriptionMd5": "58ed4dac82af494ba1b1feb66fdc5d16"
+}

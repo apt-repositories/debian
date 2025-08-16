@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cockpit-ws",
+	"source": "cockpit",
+	"version": "338-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libglib2.0-0t64 (>= 2.68.0)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
+		"libpam0g (>= 1.3.1)",
+		"libsystemd0 (>= 237)",
+		"glib-networking",
+		"adduser",
+		"openssl",
+		"systemd (>= 235)",
+		"libnss-systemd"
+	],
+	"suggests": [
+		"sssd-dbus (>= 2.6.2)",
+		"python3"
+	],
+	"replaces": [
+		"cockpit-tests (<< 331)"
+	],
+	"conflicts": [
+		"cockpit-tests (<< 331)"
+	],
+	"installedSize": 1932,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
+	"description": "Cockpit Web Service",
+	"homepage": "https://cockpit-project.org/",
+	"filename": "pool/main/c/cockpit/cockpit-ws_338-1_amd64.deb",
+	"size": 1035628,
+	"md5": "b0b1fccac1d6abac815d9e41f1f17177",
+	"sha256": "1101ae650068e3216884f54976cb1bb6fff554f0a88eac1aa3d93f8d64ed7bfc",
+	"descriptionMd5": "f492a869e15f8c92004032f384bce124"
+}

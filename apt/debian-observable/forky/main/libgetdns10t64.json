@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgetdns10t64",
+	"source": "getdns",
+	"version": "1.6.0-3.2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dns-root-data",
+		"libc6 (>= 2.38)",
+		"libev4t64 (>= 1:4.04)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libidn2-0 (>= 2.0.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)",
+		"libuv1t64 (>= 1.4.2)"
+	],
+	"replaces": [
+		"libgetdns0 (>= 0.1.5-1~)",
+		"libgetdns10"
+	],
+	"breaks": [
+		"libgetdns0 (>= 0.1.5-1~)",
+		"libgetdns10 (<< 1.6.0-3.2)"
+	],
+	"installedSize": 627,
+	"maintainer": "getdns packagers <getdns@packages.debian.org>",
+	"description": "modern asynchronous DNS API (shared library)",
+	"homepage": "https://getdnsapi.net/",
+	"filename": "pool/main/g/getdns/libgetdns10t64_1.6.0-3.2_amd64.deb",
+	"size": 207816,
+	"md5": "368d33fc7bc5eb3bda8b04a5a11e9af8",
+	"sha256": "428d12a3da2d7f46c478437187b6147feebb9329b7c4284ccb6c8d32ee4a75e7",
+	"descriptionMd5": "fd65a4eb8e5bb2f4ac237175c5959bbf"
+}]

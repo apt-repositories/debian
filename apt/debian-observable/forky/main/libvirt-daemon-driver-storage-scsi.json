@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-scsi",
+	"source": "libvirt",
+	"version": "11.3.0-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.3.0-3)",
+		"libvirt-daemon (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage (= 11.3.0-3)",
+		"libvirt0 (= 11.3.0-3)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.12.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 33,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - SCSI storage driver",
+	"homepage": "https://libvirt.org/storage.html#scsi-pool",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-storage-scsi_11.3.0-3_amd64.deb",
+	"size": 6884,
+	"md5": "39fcb3f4f240e4447f54ccf03eb85765",
+	"sha256": "90bf0bed0de033e27ba680c746348905ad13bea70781aaa2b610bc5c70c5781c",
+	"descriptionMd5": "909aea0f7968e1d6a9b9234a81be494d"
+}]

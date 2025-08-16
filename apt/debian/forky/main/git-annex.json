@@ -1,0 +1,58 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "git-annex",
+	"version": "10.20250416-2",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libffi8 (>= 3.4)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libmagic1t64 (>= 5.12)",
+		"libnuma1 (>= 2.0.11)",
+		"libsqlite3-0 (>= 3.7.3)",
+		"libyaml-0-2",
+		"zlib1g (>= 1:1.1.4)",
+		"git (>= 1:2.22)",
+		"netbase",
+		"rsync",
+		"curl",
+		"openssh-client (>= 1:5.6p1)"
+	],
+	"recommends": [
+		"lsof",
+		"gnupg",
+		"bind9-host",
+		"git-remote-gcrypt (>= 0.20130908-6)",
+		"nocache",
+		"aria2"
+	],
+	"suggests": [
+		"xdot",
+		"bup",
+		"adb",
+		"tor",
+		"magic-wormhole",
+		"tahoe-lafs",
+		"libnss-mdns",
+		"uftp",
+		"yt-dlp"
+	],
+	"breaks": [
+		"datalad (<< 0.12.3~)"
+	],
+	"installedSize": 98341,
+	"maintainer": "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>",
+	"description": "manage files with git, without checking their contents into git",
+	"homepage": "http://git-annex.branchable.com/",
+	"filename": "pool/main/g/git-annex/git-annex_10.20250416-2_amd64.deb",
+	"size": 16749272,
+	"md5": "154c0c0d94f5667f4fb25a3bde9ab200",
+	"sha256": "7e12975df1a238e99b652c988146e59275fb51f15bbbcb8ac3792205dd45cc1a",
+	"descriptionMd5": "88efc7abdf2a743a6caeeb3db7c83733"
+}

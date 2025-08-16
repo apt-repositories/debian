@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-13-sh4-linux-gnu",
+	"source": "gcc-13-cross-ports (23)",
+	"version": "13.4.0-1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-sh4-linux-gnu-base (= 13.4.0-1cross1)",
+		"gcc-13-sh4-linux-gnu (>= 13)",
+		"libgnat-13-sh4-cross (>= 13.4.0-1cross1)",
+		"libc6-dev-sh4-cross (>= 2.23-1~)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-13-doc",
+		"ada-reference-manual-2012"
+	],
+	"replaces": [
+		"gnat-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gnat-13 (<< 13.2.0-11)"
+	],
+	"conflicts": [
+		"gnat-10-sh4-linux-gnu",
+		"gnat-11-sh4-linux-gnu",
+		"gnat-12-sh4-linux-gnu",
+		"gnat-4.9",
+		"gnat-5-sh4-linux-gnu",
+		"gnat-6-sh4-linux-gnu",
+		"gnat-7-sh4-linux-gnu",
+		"gnat-8-sh4-linux-gnu",
+		"gnat-9-sh4-linux-gnu"
+	],
+	"installedSize": 84838,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Ada compiler for the sh4-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-1)",
+	"filename": "pool/main/g/gcc-13-cross-ports/gnat-13-sh4-linux-gnu_13.4.0-1cross1_amd64.deb",
+	"size": 17681404,
+	"md5": "56c936342e408470a62de339a54b9392",
+	"sha256": "c92a26a655c402fb4f767a85dc846fc1735fbac0542965fd49449e4fa67d7904",
+	"descriptionMd5": "ed9a4697d3270a9f4fa6f779b95be99a"
+}

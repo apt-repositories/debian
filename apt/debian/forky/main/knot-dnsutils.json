@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "knot-dnsutils",
+	"source": "knot",
+	"version": "3.4.6-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libdnssec9t64 (= 3.4.6-2)",
+		"libknot15 (= 3.4.6-2)",
+		"libzscanner4t64 (= 3.4.6-2)",
+		"libc6 (>= 2.38)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libfstrm0 (>= 0.2.0)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libidn2-0 (>= 2.0.0)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnghttp2-14 (>= 1.3.0)",
+		"libngtcp2-16 (>= 1.1.0)",
+		"libngtcp2-crypto-gnutls8 (>= 1.1.0)",
+		"libprotobuf-c1 (>= 1.0.1)"
+	],
+	"replaces": [
+		"knot (<< 2.9.2-5)"
+	],
+	"breaks": [
+		"knot (<< 2.9.2-5)"
+	],
+	"installedSize": 503,
+	"maintainer": "knot packagers <knot@packages.debian.org>",
+	"description": "Clients provided with Knot DNS (kdig, knsupdate, kxdpgun)",
+	"homepage": "https://www.knot-dns.cz/",
+	"filename": "pool/main/k/knot/knot-dnsutils_3.4.6-2_amd64.deb",
+	"size": 171160,
+	"md5": "d20ac37f1c5c357981835ab1872fbc76",
+	"sha256": "330890ebb1d6657090f806a3e4fd9c30a3e39188092b4ae436f9555efb2fb5f7",
+	"descriptionMd5": "f64aa9c9eb0ae3edc9a66df67c1b3ba0"
+}

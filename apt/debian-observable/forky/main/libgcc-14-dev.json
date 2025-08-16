@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-14-dev",
+	"source": "gcc-14",
+	"version": "14.2.0-19",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-14-base (= 14.2.0-19)",
+		"libgcc-s1 (>= 14.2.0-19)",
+		"libgomp1 (>= 14.2.0-19)",
+		"libitm1 (>= 14.2.0-19)",
+		"libatomic1 (>= 14.2.0-19)",
+		"libasan8 (>= 14.2.0-19)",
+		"liblsan0 (>= 14.2.0-19)",
+		"libtsan2 (>= 14.2.0-19)",
+		"libubsan1 (>= 14.2.0-19)",
+		"libhwasan0 (>= 14.2.0-19)",
+		"libquadmath0 (>= 14.2.0-19)"
+	],
+	"recommends": [
+		"libc6-dev (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2 (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2 (<< 12-20211113-2~)"
+	],
+	"installedSize": 17357,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-14/libgcc-14-dev_14.2.0-19_amd64.deb",
+	"size": 2672328,
+	"md5": "39f291b5a853a4ef843359d007960016",
+	"sha256": "ca6f2d36d96b19b3eb71405b0b80134d8c89380b02204a2512e5c58ceb090628",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

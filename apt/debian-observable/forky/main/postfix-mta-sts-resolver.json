@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postfix-mta-sts-resolver",
+	"version": "1.5.0-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-aiodns",
+		"python3-aiohttp",
+		"python3-yaml",
+		"python3:any",
+		"adduser",
+		"ca-certificates",
+		"python3-aiosqlite",
+		"python3-asyncpg",
+		"python3-redis"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"python3-uvloop"
+	],
+	"enhances": [
+		"postfix"
+	],
+	"installedSize": 153,
+	"maintainer": "Benjamin Hof <vexel@vexel.net>",
+	"description": "Daemon providing MTA-STS map to Postfix",
+	"homepage": "https://github.com/Snawoot/postfix-mta-sts-resolver",
+	"filename": "pool/main/p/postfix-mta-sts-resolver/postfix-mta-sts-resolver_1.5.0-1_all.deb",
+	"size": 38060,
+	"md5": "ebdf847f92afbfee79afbb2f6c2772b9",
+	"sha256": "5d9df509ce4870c2e7cd5ebc813caf3bfe2299bc05ea083513e96c89ba3f7817",
+	"descriptionMd5": "41f80f5aacee2c642d3b99898d2fade1"
+}]

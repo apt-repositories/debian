@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "speech-dispatcher-pico",
+	"source": "speech-dispatcher-contrib",
+	"version": "0.12.0-1",
+	"section": "contrib/sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libdotconf0 (>= 1.0.13)",
+		"libglib2.0-0t64 (>= 2.36)",
+		"libltdl7 (>= 2.5.4)",
+		"libspeechd-module0 (>= 0.12.0)",
+		"libttspico0t64 (>= 1.0)",
+		"speech-dispatcher (>= 0.12.0)",
+		"speech-dispatcher (<< 0.12.0.0~)"
+	],
+	"replaces": [
+		"speech-dispatcher (<< 0.10.2-1)",
+		"speech-dispatcher-contrib (<< 0.8.5-5)"
+	],
+	"breaks": [
+		"speech-dispatcher (<< 0.10.2-1)",
+		"speech-dispatcher-contrib (<< 0.8.5-5)"
+	],
+	"installedSize": 78,
+	"maintainer": "Debian TTS Team <tts-project@alioth-lists.debian.net>",
+	"description": "Speech Dispatcher: Pico output module",
+	"homepage": "http://devel.freebsoft.org/speechd",
+	"filename": "pool/contrib/s/speech-dispatcher-contrib/speech-dispatcher-pico_0.12.0-1_amd64.deb",
+	"size": 25468,
+	"md5": "7ff21fbe5fd0634e32b0dd1b57c263c5",
+	"sha256": "b10b7d3c5ce61352cf731dfdb4738a343e8e799444363643840290be14f88828",
+	"descriptionMd5": "3f7b0336934407e292229150a3407010"
+}

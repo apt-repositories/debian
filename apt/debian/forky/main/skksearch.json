@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "skksearch",
+	"source": "skksearch (0.0-26)",
+	"version": "0.0-26+b1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcdb1 (>= 0.76)",
+		"libdb5.3t64",
+		"skkdic-cdb",
+		"openbsd-inetd | inet-superserver"
+	],
+	"recommends": [
+		"skkdic-extra"
+	],
+	"suggests": [
+		"skkdic"
+	],
+	"replaces": [
+		"skkserv"
+	],
+	"enhances": [
+		"skk"
+	],
+	"conflicts": [
+		"skkserv"
+	],
+	"installedSize": 45,
+	"maintainer": "Tatsuya Kinoshita <tats@debian.org>",
+	"description": "SKK dictionary server handling multiple dictionaries",
+	"filename": "pool/main/s/skksearch/skksearch_0.0-26+b1_amd64.deb",
+	"size": 13072,
+	"md5": "ce066403a44ad7f50787bd0659992960",
+	"sha256": "84d0d9f1fa99418eee3917cda4707491f0021964ec1216d60bbce4f1744feddf",
+	"descriptionMd5": "46da23a2fd44dd602fd265e9b91de612"
+}

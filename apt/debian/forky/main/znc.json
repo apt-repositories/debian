@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "znc",
+	"source": "znc (1.9.1-2)",
+	"version": "1.9.1-2+b3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libargon2-1 (>= 0~20171227)",
+		"libboost-locale1.83.0 (>= 1.83.0)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libicu76 (>= 76.1-1~)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"zlib1g (>= 1:1.1.4)",
+		"adduser",
+		"openssl"
+	],
+	"recommends": [
+		"znc-tcl",
+		"znc-perl",
+		"znc-python"
+	],
+	"replaces": [
+		"znc-extra",
+		"znc-webadmin"
+	],
+	"breaks": [
+		"znc-extra (<< 1.9.1-2+b3)"
+	],
+	"conflicts": [
+		"znc-extra",
+		"znc-webadmin"
+	],
+	"installedSize": 9253,
+	"maintainer": "Patrick Matthäi <pmatthaei@debian.org>",
+	"description": "advanced modular IRC bouncer",
+	"homepage": "https://www.znc.in/",
+	"filename": "pool/main/z/znc/znc_1.9.1-2+b3_amd64.deb",
+	"size": 1981320,
+	"md5": "2ce166c845c31762f29f6f4b0870dd82",
+	"sha256": "ef7c7c76d1bb7be7923d814eafd0b907b1ff5d2a073cc2e3c3ffab44a39fa23c",
+	"descriptionMd5": "9b4612c45a69774bb76ba3e438f750c7"
+}

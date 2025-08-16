@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpython3.13-minimal",
+	"source": "python3.13",
+	"version": "3.13.5-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libssl3t64 (>= 3.4.0)"
+	],
+	"recommends": [
+		"libpython3.13-stdlib"
+	],
+	"replaces": [
+		"libpython3.13-stdlib (<< 3.13.1-3~)"
+	],
+	"breaks": [
+		"libpython3.13-stdlib (<< 3.13.1-3~)"
+	],
+	"conflicts": [
+		"binfmt-support (<< 1.1.2)"
+	],
+	"installedSize": 5450,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "Minimal subset of the Python language (version 3.13)",
+	"filename": "pool/main/p/python3.13/libpython3.13-minimal_3.13.5-2_amd64.deb",
+	"size": 862200,
+	"md5": "975239352dc3e29f7fbc1e37de3bdae3",
+	"sha256": "d4972bf4b407236b1751e2346bfdd92848c224f6117992a1b13cbffeb91ad3cb",
+	"descriptionMd5": "27c5988c4d00dbac20f8472c2133a9c6"
+}

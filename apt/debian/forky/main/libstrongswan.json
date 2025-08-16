@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libstrongswan",
+	"source": "strongswan",
+	"version": "6.0.1-6",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libssl3t64 (>= 3.3.0)",
+		"libsystemd0 (>= 227)"
+	],
+	"recommends": [
+		"libstrongswan-standard-plugins"
+	],
+	"suggests": [
+		"libstrongswan-extra-plugins"
+	],
+	"replaces": [
+		"libstrongswan-standard-plugins (<< 6.0.0-1~)"
+	],
+	"breaks": [
+		"libstrongswan-standard-plugins (<< 6.0.0-1~)"
+	],
+	"installedSize": 1412,
+	"maintainer": "strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>",
+	"description": "strongSwan utility and crypto library",
+	"homepage": "http://www.strongswan.org",
+	"filename": "pool/main/s/strongswan/libstrongswan_6.0.1-6_amd64.deb",
+	"size": 444240,
+	"md5": "c69a01cb647488a337732f920e7e8d2b",
+	"sha256": "045932627aa7a7910170c2faf5813942f2cc0e20698be386c873a9f5a31184f7",
+	"descriptionMd5": "008d72bea35ef3db9bc3ab579f48d1d0"
+}

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmedc11t64",
+	"source": "med-fichier (4.1.0+repack-9)",
+	"version": "4.1.0+repack-9+b1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libhdf5-openmpi-310 (>= 1.12.0)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"suggests": [
+		"libmed-doc",
+		"libmed-tools"
+	],
+	"replaces": [
+		"libmedc1",
+		"libmedc11",
+		"libmedc1v5 (= 4.0.0+repack-1)"
+	],
+	"breaks": [
+		"libmedc1",
+		"libmedc11 (<< 4.1.0+repack-9)",
+		"libmedc1v5 (= 4.0.0+repack-1)"
+	],
+	"installedSize": 1332,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Library to exchange meshed data (C version)",
+	"homepage": "http://www.salome-platform.org/user-section/about/med",
+	"filename": "pool/main/m/med-fichier/libmedc11t64_4.1.0+repack-9+b1_amd64.deb",
+	"size": 414348,
+	"md5": "94f4553e63f68bfa90f7d05af891efde",
+	"sha256": "d8b5a5de4e86dc1140439c5edfbf702f01f2bfd8bb3c40cf596398653b3fca92",
+	"descriptionMd5": "240c8fa72a78b0c954354b94f28bb7cf"
+}

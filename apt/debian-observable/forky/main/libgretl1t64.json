@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgretl1t64",
+	"source": "gretl",
+	"version": "2025b-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.56.1)",
+		"libfftw3-double3 (>= 3.3.10)",
+		"libglib2.0-0t64 (>= 2.62.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libgomp1 (>= 4.9)",
+		"liblapack3 | liblapack.so.3",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.2.0.2)"
+	],
+	"replaces": [
+		"libesl0",
+		"libgretl0",
+		"libgretl1"
+	],
+	"breaks": [
+		"libgretl1 (<< 2025b-1)"
+	],
+	"conflicts": [
+		"libesl0",
+		"libgretl0"
+	],
+	"installedSize": 3490,
+	"maintainer": "Dirk Eddelbuettel <edd@debian.org>",
+	"description": "GNU Regression, Econometric & Time-Series Library -- library package",
+	"homepage": "http://gretl.sourceforge.net/",
+	"filename": "pool/main/g/gretl/libgretl1t64_2025b-1_amd64.deb",
+	"size": 1509164,
+	"md5": "9d92e86f62a9243fb50d8cbccaddb23e",
+	"sha256": "87d39240a53b5b5a888b6f3db71f1d083a03373fa07f60e686ed09d1cec9f44e",
+	"descriptionMd5": "280aca5449828146a212cd203161d06d"
+}]

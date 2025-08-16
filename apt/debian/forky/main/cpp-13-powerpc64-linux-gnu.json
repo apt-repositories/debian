@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cpp-13-powerpc64-linux-gnu",
+	"source": "gcc-13-cross-ports (23)",
+	"version": "13.4.0-1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-powerpc64-linux-gnu-base (= 13.4.0-1cross1)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-13-locales (>= 13)",
+		"cpp-13-doc (>= 13)"
+	],
+	"replaces": [
+		"cpp-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"cpp-13 (<< 13.2.0-11)",
+		"hardening-wrapper (<< 2.8+nmu3)",
+		"libmagics++-dev (<< 2.28.0-4)"
+	],
+	"installedSize": 28260,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C preprocessor for powerpc64-linux-gnu",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-1)",
+	"filename": "pool/main/g/gcc-13-cross-ports/cpp-13-powerpc64-linux-gnu_13.4.0-1cross1_amd64.deb",
+	"size": 9205300,
+	"md5": "78a82dd53abf60df2f067d105f1ddf23",
+	"sha256": "42c231aefa0b3101959c170a513f4090c3a81f821de700d7fac93be8980ed98e",
+	"descriptionMd5": "1a9ec75094ee73c2df113786fdde488c"
+}

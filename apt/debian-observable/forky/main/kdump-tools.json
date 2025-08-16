@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "kdump-tools",
+	"version": "1:1.10.7",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bsdextrautils | bsdmainutils",
+		"busybox-static | busybox",
+		"debconf",
+		"file",
+		"linux-base",
+		"lsb-base (>= 3.0-6)",
+		"ucf",
+		"kexec-tools",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"initramfs-tools-core",
+		"makedumpfile"
+	],
+	"installedSize": 127,
+	"maintainer": "Debian Kdump <team+kdump@tracker.debian.org>",
+	"description": "scripts and tools for automating kdump (Linux crash dumps)",
+	"filename": "pool/main/k/kdump-tools/kdump-tools_1.10.7_amd64.deb",
+	"size": 33160,
+	"md5": "c59a88d89ffe6bb57da861d53ea14b33",
+	"sha256": "cbd325749dbac79e3d7bf337b955d7a69fa4da93c08a436563b6026121ca379c",
+	"descriptionMd5": "e4c630411cca5f22a32a48bd81b16449"
+}]

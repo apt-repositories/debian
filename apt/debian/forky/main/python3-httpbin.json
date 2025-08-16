@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-httpbin",
+	"source": "httpbin",
+	"version": "0.10.2+dfsg-2",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-brotlicffi",
+		"python3-decorator",
+		"python3-flasgger",
+		"python3-flask (>= 2.2.4)",
+		"python3-greenlet | python3-supported-max (<< 3.12)",
+		"python3-greenlet | python3-supported-min (>= 3.12)",
+		"python3-werkzeug",
+		"python3:any",
+		"python3-brotli"
+	],
+	"recommends": [
+		"gunicorn"
+	],
+	"installedSize": 218,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
+	"description": "HTTP request and response service (Python 3 package)",
+	"homepage": "https://github.com/psf/httpbin",
+	"filename": "pool/main/h/httpbin/python3-httpbin_0.10.2+dfsg-2_all.deb",
+	"size": 89824,
+	"md5": "dcb442222896ccb6f3da345a3ae49199",
+	"sha256": "065871c6c157140764ba0857c1e00a6680adaab1ab3065f5865361453fe46204",
+	"descriptionMd5": "0794f60858b9409fcee467723bbbfd7c"
+}

@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-kernel-dkms",
+	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-2",
+	"section": "non-free/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"firmware-nvidia-gsp (= 550.163.01) | firmware-nvidia-gsp-550.163.01",
+		"nvidia-kernel-support--v1",
+		"dkms (>= 3.0.11)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-driver (>= 550.163.01) | libcuda1 (>= 550.163.01)"
+	],
+	"installedSize": 71212,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary kernel module DKMS source",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-kernel-dkms_550.163.01-2_amd64.deb",
+	"size": 41721692,
+	"md5": "1a36506f37710ca6aafefff88d8d2416",
+	"sha256": "729d17210de2a407c27b33d1811a72502483d189251dafd718e453b0c4e40107",
+	"descriptionMd5": "facc09ac40b5253d1a60253386bc387e"
+}]

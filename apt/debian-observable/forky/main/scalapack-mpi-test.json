@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "scalapack-mpi-test",
+	"source": "scalapack",
+	"version": "2.2.2-1",
+	"section": "math",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"scalapack-test-common",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.0)",
+		"libgfortran5 (>= 8)",
+		"liblapack3 | liblapack.so.3",
+		"libmpich12",
+		"libopenmpi40 (>= 5.0.6)",
+		"libscalapack-mpich2.2 (>= 2.2.2)",
+		"libscalapack-openmpi2.2 (>= 2.2.2)"
+	],
+	"recommends": [
+		"cmake"
+	],
+	"suggests": [
+		"scalapack-doc"
+	],
+	"replaces": [
+		"blacs-mpi-test",
+		"scalapack-mpich-test"
+	],
+	"conflicts": [
+		"scalapack-mpich-test"
+	],
+	"installedSize": 20180,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Scalable Linear Algebra Package - Test files for MPI",
+	"homepage": "https://www.netlib.org/scalapack/",
+	"filename": "pool/main/s/scalapack/scalapack-mpi-test_2.2.2-1_amd64.deb",
+	"size": 2070396,
+	"md5": "b3c305a05a34726d77548e530d272541",
+	"sha256": "1e09b7d6dcda5b07658e0ae9c1a6f5a239556679cb0891ced55f32e01b601bee",
+	"descriptionMd5": "7e87e96a634d9634a50130dca294d269"
+}]

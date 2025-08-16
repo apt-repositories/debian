@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "couriergraph",
+	"version": "0.25-7",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libfile-tail-perl",
+		"librrds-perl (>= 1.2)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"debconf (>= 1.1) | debconf-2.0"
+	],
+	"recommends": [
+		"apache2 | httpd",
+		"courier-imap",
+		"courier-pop"
+	],
+	"installedSize": 70,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "Mail statistics RRDtool frontend for Courier-{POP,IMAP}",
+	"filename": "pool/main/c/couriergraph/couriergraph_0.25-7_all.deb",
+	"size": 17988,
+	"md5": "5c9cf47e947a54aa35a54ebad853279a",
+	"sha256": "c6cd70f10b25be6416265b31a9e6a1127d8c3cd1e0c04bad03f2339d1e56bcc0",
+	"descriptionMd5": "17d254159a685c52f8ff50b5b56a6ec1"
+}]

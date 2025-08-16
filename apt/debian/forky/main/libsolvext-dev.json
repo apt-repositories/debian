@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsolvext-dev",
+	"source": "libsolv",
+	"version": "0.7.32-1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libsolvext1 (= 0.7.32-1)",
+		"zlib1g-dev",
+		"liblzma-dev",
+		"libbz2-dev",
+		"libzstd-dev"
+	],
+	"replaces": [
+		"libsolvext0-dev (<< 0.7)"
+	],
+	"breaks": [
+		"libsolvext0-dev (<< 0.7)"
+	],
+	"installedSize": 61,
+	"maintainer": "RPM packaging team <team+pkg-rpm@tracker.debian.org>",
+	"description": "dependency solver using a satisfiability algorithm (ext development files)",
+	"homepage": "https://github.com/openSUSE/libsolv",
+	"filename": "pool/main/libs/libsolv/libsolvext-dev_0.7.32-1_amd64.deb",
+	"size": 17100,
+	"md5": "d8ddc865118820ad42225edf004c0e77",
+	"sha256": "3a2fb587b82e04fe35b83258f2eadc79bdb1b30025c9a3be2d64b01f65577642",
+	"descriptionMd5": "2f9d425c8287c1674bc3eb11f83c768e"
+}

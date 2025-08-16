@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xinetd",
+	"version": "1:2.3.15.4-6",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libselinux1 (>= 3.1~)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libwrap0 (>= 7.6-4~)",
+		"netbase"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"update-inetd"
+	],
+	"conflicts": [
+		"inet-superserver"
+	],
+	"installedSize": 325,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "replacement for inetd with many enhancements",
+	"homepage": "https://github.com/openSUSE/xinetd",
+	"filename": "pool/main/x/xinetd/xinetd_2.3.15.4-6_amd64.deb",
+	"size": 124444,
+	"md5": "935146d72165b76f4230839a6b6b10e7",
+	"sha256": "986632b1d0eb149e659f2d7bd52943edb04769973d2d8fcb097a8dc1de9dfd65",
+	"descriptionMd5": "dc305c474ff901c52b71c07c0ec109d0"
+}]

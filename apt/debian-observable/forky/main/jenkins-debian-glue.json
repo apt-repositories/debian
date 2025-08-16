@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "jenkins-debian-glue",
+	"version": "0.23.5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"sudo | sudo-ldap"
+	],
+	"recommends": [
+		"jenkins-debian-glue-buildenv"
+	],
+	"conflicts": [
+		"jenkins-debian-glue-buildenv-git",
+		"jenkins-debian-glue-buildenv-lintian",
+		"jenkins-debian-glue-buildenv-piuparts",
+		"jenkins-debian-glue-buildenv-slave",
+		"jenkins-debian-glue-buildenv-svn",
+		"jenkins-debian-glue-buildenv-taptools"
+	],
+	"installedSize": 182,
+	"maintainer": "Michael Prokop <mika@debian.org>",
+	"description": "Jenkins Debian glue scripts",
+	"homepage": "https://github.com/mika/jenkins-debian-glue",
+	"filename": "pool/main/j/jenkins-debian-glue/jenkins-debian-glue_0.23.5_all.deb",
+	"size": 36908,
+	"md5": "083aadac907a5a7dd20204d7c6c058c5",
+	"sha256": "e991f737f61f15df97ed35190be24c47756f1d93453a001fd67bff6f76c689aa",
+	"descriptionMd5": "7b51a8e326a1db99808ce80d3c2b6fb0"
+}]

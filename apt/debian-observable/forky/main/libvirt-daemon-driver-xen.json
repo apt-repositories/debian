@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-xen",
+	"source": "libvirt",
+	"version": "11.3.0-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.3.0-3)",
+		"libvirt-daemon (= 11.3.0-3)",
+		"libvirt0 (= 11.3.0-3)",
+		"logrotate",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.64.0)",
+		"libxenmisc4.20 (>= 4.20.0+68-g35cb38b222)",
+		"libxenstore4 (>= 4.16.0)",
+		"libxentoollog1 (>= 4.20.0+68-g35cb38b222)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"replaces": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"enhances": [
+		"xen"
+	],
+	"breaks": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 341,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - Xen connection driver",
+	"homepage": "https://libvirt.org/drvxen.html",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-xen_11.3.0-3_amd64.deb",
+	"size": 112864,
+	"md5": "ecff86eaa2e9a52f3a74478d9af18123",
+	"sha256": "a1bde639c6c95b71cd5a3d8358bc2c46084b44aae59aa83643901bac4a6876a3",
+	"descriptionMd5": "e9a0dc3639475356c140a07820252356"
+}]

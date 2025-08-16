@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-uno",
+	"source": "libreoffice",
+	"version": "4:25.2.3-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core-nogui (= 4:25.2.3-2) | libreoffice-core (= 4:25.2.3-2)",
+		"python3:any",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3.13",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libstdc++6 (>= 13)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha)",
+		"libuno-sal3t64 (>= 5.4.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 3.6.0~beta)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"awk"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:4.4.0~beta2)",
+		"libreoffice-core (= 1:4.3.0~beta1-1)"
+	],
+	"enhances": [
+		"libreoffice"
+	],
+	"conflicts": [
+		"python-uno"
+	],
+	"installedSize": 509,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "Python-UNO bridge",
+	"homepage": "http://udk.openoffice.org/python/python-bridge.html",
+	"filename": "pool/main/libr/libreoffice/python3-uno_25.2.3-2_amd64.deb",
+	"size": 172140,
+	"md5": "cc6dea8c888d5a8f8b57f1bcca441b82",
+	"sha256": "e0c090ca8cc37b7befbaa203c3fc8782fab5ad129b9128511d830a004832308a",
+	"descriptionMd5": "f4a55d75b607baa049506ff436442fb6"
+}]

@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "walldns",
+	"source": "djbdns",
+	"version": "1:1.05-22",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.51)",
+		"runit-helper (>= 2.14.0~)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"daemon",
+		"runit"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-51~)"
+	],
+	"conflicts": [
+		"runit (<< 2.1.2-51~)"
+	],
+	"installedSize": 83,
+	"maintainer": "Peter Pentchev <roam@debian.org>",
+	"description": "reverse DNS wall",
+	"homepage": "http://cr.yp.to/djbdns.html",
+	"filename": "pool/main/d/djbdns/walldns_1.05-22_amd64.deb",
+	"size": 24192,
+	"md5": "9cad21868810af396d559c4ee30b3779",
+	"sha256": "bb1bf6b0d517da35105047ec2868d06a2ee941eee80ebc9f0b86b91fd4f208eb",
+	"descriptionMd5": "c3c1c3c8641cf22754ab9b089ec38dbb"
+}

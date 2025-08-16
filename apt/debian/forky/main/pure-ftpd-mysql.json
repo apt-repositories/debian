@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pure-ftpd-mysql",
+	"source": "pure-ftpd (1.0.50-2.2)",
+	"version": "1.0.50-2.2+b2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.2-14)",
+		"pure-ftpd-common (= 1.0.50-2.2)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libmariadb3 (>= 3.0.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsodium23 (>= 1.0.10)",
+		"libssl3t64 (>= 3.0.0)",
+		"openbsd-inetd | inet-superserver"
+	],
+	"replaces": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"conflicts": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"installedSize": 682,
+	"maintainer": "Stefan Hornburg (Racke) <racke@linuxia.de>",
+	"description": "Secure and efficient FTP server with MySQL user authentication",
+	"homepage": "https://www.pureftpd.org/project/pure-ftpd/",
+	"filename": "pool/main/p/pure-ftpd/pure-ftpd-mysql_1.0.50-2.2+b2_amd64.deb",
+	"size": 172488,
+	"md5": "f6f0e86c64deccf83c382f1ba781decc",
+	"sha256": "b40afba3e44d60321897e343e8beda31557c82f99c84e6a32a4fa23d1d992c8b",
+	"descriptionMd5": "d0b28646386ab85cff7e54614bef04c1"
+}

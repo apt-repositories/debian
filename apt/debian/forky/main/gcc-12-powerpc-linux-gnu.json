@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-12-powerpc-linux-gnu",
+	"source": "gcc-12-cross-ports (20)",
+	"version": "12.5.0-1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-12-powerpc-linux-gnu (= 12.5.0-1cross1)",
+		"gcc-12-powerpc-linux-gnu-base (= 12.5.0-1cross1)",
+		"libcc1-0 (>= 12)",
+		"binutils-powerpc-linux-gnu (>= 2.44)",
+		"libgcc-12-dev-powerpc-cross (>= 12.5.0-1cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-powerpc-cross (>= 2.23-1~)"
+	],
+	"suggests": [
+		"gcc-12-multilib-powerpc-linux-gnu",
+		"gcc-12-doc (>= 12)",
+		"gcc-12-locales (>= 12)"
+	],
+	"replaces": [
+		"cpp-12-powerpc-linux-gnu (<< 7.1.1-8)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 54151,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler (cross compiler for powerpc architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.5.0-1)",
+	"filename": "pool/main/g/gcc-12-cross-ports/gcc-12-powerpc-linux-gnu_12.5.0-1cross1_amd64.deb",
+	"size": 16992456,
+	"md5": "f71caeb1354e2dc65a950d6a9418f846",
+	"sha256": "d983cc038c6c889ef512daa3383df6e9608498ef07125ff79eb009f6bab9e514",
+	"descriptionMd5": "45b8bb0736af15d214f67dae5a33875a"
+}

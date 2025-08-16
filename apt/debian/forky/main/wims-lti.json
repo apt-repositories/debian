@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wims-lti",
+	"version": "0.4.4.1-17",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3",
+		"python3-apscheduler",
+		"python3-oauthlib",
+		"python3-django",
+		"python3-lti",
+		"python3-redis",
+		"python3-pymongo",
+		"python3-memcache",
+		"python3-defusedxml",
+		"python3-httplib2",
+		"python3-wimsapi",
+		"python3-pyutil",
+		"libjs-bootstrap5",
+		"libjs-jquery",
+		"fonts-font-awesome",
+		"libjs-popper.js",
+		"adduser",
+		"apache2",
+		"libapache2-mod-wsgi-py3",
+		"sqlite3",
+		"acl"
+	],
+	"suggests": [
+		"wims"
+	],
+	"enhances": [
+		"wims"
+	],
+	"installedSize": 381,
+	"maintainer": "Georges Khaznadar <georgesk@debian.org>",
+	"description": "gateway server that links LMSs to WIMS servers, using LTI",
+	"homepage": "https://github.com/PremierLangage/wims-lti",
+	"filename": "pool/main/w/wims-lti/wims-lti_0.4.4.1-17_all.deb",
+	"size": 51048,
+	"md5": "2c190f445224cd1092d4b079a37b9b1b",
+	"sha256": "a3ad4ea449e47f3925f2add127bc9e189bf95c37b4848bb9c0106e33e9bc7c38",
+	"descriptionMd5": "53fe6676135b3fad3d8509a7a66ac4ab"
+}

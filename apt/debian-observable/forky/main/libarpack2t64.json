@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libarpack2t64",
+	"source": "arpack",
+	"version": "3.9.1-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.29)",
+		"libgcc-s1 (>= 3.0)",
+		"libgfortran5 (>= 8)",
+		"liblapack3 | liblapack.so.3"
+	],
+	"replaces": [
+		"libarpack2"
+	],
+	"breaks": [
+		"libarpack2 (<< 3.9.1-6)"
+	],
+	"installedSize": 324,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Fortran77 subroutines to solve large scale eigenvalue problems",
+	"homepage": "https://github.com/opencollab/arpack-ng",
+	"filename": "pool/main/a/arpack/libarpack2t64_3.9.1-6_amd64.deb",
+	"size": 104268,
+	"md5": "d346826fbe0c2d876c779b2291a517ba",
+	"sha256": "d4e49ad09975800befd3ef1bbcf13d9413379686bd66f832e2ae13723097b8c4",
+	"descriptionMd5": "2930973bf6f522d792538129ee506be1"
+}]

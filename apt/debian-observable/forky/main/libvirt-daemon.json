@@ -1,0 +1,72 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon",
+	"source": "libvirt",
+	"version": "11.3.0-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.3.0-3)",
+		"libvirt-daemon-common (= 11.3.0-3)",
+		"libvirt-daemon-log (= 11.3.0-3)",
+		"libvirt0 (= 11.3.0-3)",
+		"logrotate",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.26.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"recommends": [
+		"libvirt-daemon-driver-interface (= 11.3.0-3)",
+		"libvirt-daemon-driver-network (= 11.3.0-3)",
+		"libvirt-daemon-driver-nodedev (= 11.3.0-3)",
+		"libvirt-daemon-driver-nwfilter (= 11.3.0-3)",
+		"libvirt-daemon-driver-qemu (= 11.3.0-3)",
+		"libvirt-daemon-driver-secret (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage-disk (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage-iscsi (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage-logical (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage-mpath (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage-scsi (= 11.3.0-3)",
+		"libvirt-daemon-lock (= 11.3.0-3)",
+		"libvirt-daemon-plugin-lockd (= 11.3.0-3)"
+	],
+	"suggests": [
+		"libvirt-daemon-driver-lxc (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage-gluster (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage-iscsi-direct (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage-rbd (= 11.3.0-3)",
+		"libvirt-daemon-driver-storage-zfs (= 11.3.0-3)",
+		"libvirt-daemon-driver-vbox (= 11.3.0-3)",
+		"libvirt-daemon-driver-xen (= 11.3.0-3)",
+		"libvirt-daemon-system (= 11.3.0-3)"
+	],
+	"replaces": [
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-lxc (<< 6.9.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)",
+		"libvirt-sanlock (<< 6.9.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 881,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon",
+	"homepage": "https://libvirt.org/daemons.html#monolithic-driver-daemon",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon_11.3.0-3_amd64.deb",
+	"size": 178640,
+	"md5": "c04cf25cc6defce7b60274153e40e995",
+	"sha256": "41fd48433f7a45620499d77d8bfbdc470e7c3514562ca4aec19791e94f14983d",
+	"descriptionMd5": "f1e7330bb9acecba96883cafaacdded9"
+}]

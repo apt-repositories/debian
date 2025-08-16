@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apache2",
+	"version": "2.4.65-2",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"apache2-bin (= 2.4.65-2)",
+		"apache2-data (= 2.4.65-2)",
+		"apache2-utils (= 2.4.65-2)",
+		"media-types",
+		"procps",
+		"perl:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ssl-cert"
+	],
+	"suggests": [
+		"apache2-doc",
+		"apache2-suexec-pristine | apache2-suexec-custom",
+		"ufw",
+		"www-browser"
+	],
+	"installedSize": 576,
+	"maintainer": "Debian Apache Maintainers <debian-apache@lists.debian.org>",
+	"description": "Apache HTTP Server",
+	"homepage": "https://httpd.apache.org/",
+	"filename": "pool/main/a/apache2/apache2_2.4.65-2_amd64.deb",
+	"size": 223624,
+	"md5": "8aa93bb21112144bfb24a863ff952e1b",
+	"sha256": "dd131f75408c5e3f427cc438b962ddaf82ff8c0904c7fe7fd89574845a852b00",
+	"descriptionMd5": "d02426bc360345e5acd45367716dc35c"
+}

@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mono-runtime-dbg",
+	"source": "mono",
+	"version": "6.12.0.199+dfsg-6",
+	"section": "debug",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mono-runtime-sgen (= 6.12.0.199+dfsg-6)",
+		"mono-runtime-boehm (= 6.12.0.199+dfsg-6)"
+	],
+	"recommends": [
+		"gdb"
+	],
+	"replaces": [
+		"mono-jit-dbg (<< 2.4)"
+	],
+	"conflicts": [
+		"mono-jit-dbg (<< 2.4)"
+	],
+	"installedSize": 24862,
+	"maintainer": "Antoine Le Gonidec <debian@vv221.fr>",
+	"description": "Mono runtime, debugging symbols",
+	"homepage": "http://www.mono-project.com/",
+	"filename": "pool/main/m/mono/mono-runtime-dbg_6.12.0.199+dfsg-6_amd64.deb",
+	"size": 21357564,
+	"md5": "a9a848ba7a0fa77fbc653047adda6be5",
+	"sha256": "41e6285c463b70a7aedeba8eb9fa9c5e6e4e79b84adb627c799cf40a9b7b5526",
+	"descriptionMd5": "0f5b756bd9c313fa705058f5c7b6d0a6"
+}

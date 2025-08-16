@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-modules-spice",
+	"source": "qemu (1:10.0.2+ds-2)",
+	"version": "1:10.0.2+ds-2+b1",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libglib2.0-0t64 (>= 2.30.0)",
+		"libpixman-1-0 (>= 0.19.6)",
+		"libspice-server1 (>= 0.14.2)",
+		"qemu-system-modules-opengl (= 1:10.0.2+ds-2+b1)",
+		"qemu-system-any (= 1:10.0.2+ds-2+b1)"
+	],
+	"replaces": [
+		"qemu-system-common (<< 1:8.1.0+ds-1~exp2~)"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:8.1.0+ds-1~exp2~)"
+	],
+	"installedSize": 310,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU full system emulation binaries (spice display modules)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-modules-spice_10.0.2+ds-2+b1_amd64.deb",
+	"size": 105404,
+	"md5": "6c3060e1a0b013cd5fd4bec99f60d77b",
+	"sha256": "00f13d50687c36fc85b3f395abef386e95e065eddcf1e0a932a0c53da2d246f1",
+	"descriptionMd5": "4ea1c759c139cf59763d67b1b71bf6e5"
+}

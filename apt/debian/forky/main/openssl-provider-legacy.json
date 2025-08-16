@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssl-provider-legacy",
+	"source": "openssl",
+	"version": "3.5.1-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libssl3t64 (>= 3.0.3)"
+	],
+	"replaces": [
+		"libssl3 (<< 3.3.1-5)",
+		"libssl3t64 (<< 3.3.1-5)"
+	],
+	"breaks": [
+		"libssl3 (<< 3.3.1-5)",
+		"libssl3t64 (<< 3.3.1-5)"
+	],
+	"installedSize": 414,
+	"maintainer": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>",
+	"description": "Secure Sockets Layer toolkit - cryptographic utility",
+	"homepage": "https://openssl-library.org",
+	"filename": "pool/main/o/openssl/openssl-provider-legacy_3.5.1-1_amd64.deb",
+	"size": 307288,
+	"md5": "266edd9a9bd159d7dc7e6f28f1812a96",
+	"sha256": "c7c96877213071f6eb1f9978f37ca2ba291abd1a6d4268dd3b90faa7fab750ae",
+	"descriptionMd5": "6ae6f8ddd6448e07b5d86dc9b813dddd"
+}

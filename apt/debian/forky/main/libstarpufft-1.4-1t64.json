@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libstarpufft-1.4-1t64",
+	"source": "starpu",
+	"version": "1.4.7+dfsg-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libfftw3-double3 (>= 3.3.10)",
+		"libfftw3-single3 (>= 3.3.10)",
+		"libstarpu-1.4-6 (>= 1.4.3+dfsg~) | libstarpu-any-1.4-6"
+	],
+	"replaces": [
+		"libstarpufft-1.4-1"
+	],
+	"breaks": [
+		"libstarpufft-1.4-1 (<< 1.4.7+dfsg-2)"
+	],
+	"conflicts": [
+		"libstarpu-contribfft-1.4-1",
+		"libstarpu-contribfft-1.4-1t64"
+	],
+	"installedSize": 83,
+	"maintainer": "Samuel Thibault <sthibault@debian.org>",
+	"description": "Task scheduler for heterogeneous multicore machines",
+	"homepage": "https://starpu.gitlabpages.inria.fr/",
+	"filename": "pool/main/s/starpu/libstarpufft-1.4-1t64_1.4.7+dfsg-2_amd64.deb",
+	"size": 39168,
+	"md5": "46fd67da0782ea526bcffddcd4f2db9d",
+	"sha256": "48ae00549e4eee1f50d4645dca47403d4af081d4b85d5f964edcaea13374e764",
+	"descriptionMd5": "a1e84fcd5b7aa1a04d6c8089b0a0ecef"
+}

@@ -1,0 +1,58 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-common",
+	"source": "libvirt",
+	"version": "11.3.0-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"dmidecode",
+		"gettext-base",
+		"iproute2",
+		"libvirt-common (= 11.3.0-3)",
+		"libvirt0 (= 11.3.0-3)",
+		"polkitd (>= 121+compat0.1-2)",
+		"sensible-utils",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.58.0)",
+		"libreadline8t64 (>= 6.0)"
+	],
+	"recommends": [
+		"netcat-openbsd"
+	],
+	"suggests": [
+		"apparmor",
+		"auditd",
+		"systemtap"
+	],
+	"replaces": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 435,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - common files",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-common_11.3.0-3_amd64.deb",
+	"size": 107472,
+	"md5": "a188e37a251eb36398f5f94f791cd14e",
+	"sha256": "badc29166fba46cbdf6f0b8b3bc7546b6bb104f9ffe7a62ba41c2643a0c6b4e8",
+	"descriptionMd5": "bb15534ddc75f9c256177238a85ecbc0"
+}]

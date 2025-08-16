@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sendmail-bin",
+	"source": "sendmail (8.18.1-6)",
+	"version": "8.18.1-6+b1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"sendmail-base (= 8.18.1-6)",
+		"sendmail-cf (= 8.18.1-6)",
+		"procps",
+		"libc6 (>= 2.34)",
+		"libdb5.3t64",
+		"libldap2 (>= 2.6.2)",
+		"liblockfile1 (>= 1.0)",
+		"libnsl2 (>= 1.0)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libwrap0 (>= 7.6-4~)"
+	],
+	"preDepends": [
+		"debconf",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"sendmail-doc",
+		"sasl2-bin",
+		"libsasl2-modules",
+		"openssl"
+	],
+	"replaces": [
+		"mail-transport-agent"
+	],
+	"conflicts": [
+		"mail-transport-agent"
+	],
+	"installedSize": 1963,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "powerful, efficient, and scalable Mail Transport Agent",
+	"homepage": "http://www.sendmail.org",
+	"filename": "pool/main/s/sendmail/sendmail-bin_8.18.1-6+b1_amd64.deb",
+	"size": 733332,
+	"md5": "d26a99cc3908479b9664574b98ce89c6",
+	"sha256": "1694b3671bdf0b62d9274e210031457f8610ff0db6707f624f4f702d56598092",
+	"descriptionMd5": "bedc851ae968a6d7605e8cd4d9ae887d"
+}

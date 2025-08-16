@@ -1,0 +1,55 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pcs",
+	"version": "0.12.1-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libnss3-tools",
+		"psmisc",
+		"puma",
+		"python3:any",
+		"python3-dacite",
+		"python3-dateutil",
+		"python3-lxml",
+		"python3-openssl",
+		"python3-pycurl",
+		"python3-pyparsing",
+		"python3-tornado (>= 6.0.4)",
+		"ruby",
+		"ruby-backports",
+		"ruby-childprocess",
+		"ruby-ethon",
+		"ruby-json",
+		"ruby-nio4r",
+		"ruby-rack (>= 3.1.16)",
+		"ruby-rackup",
+		"ruby-sinatra"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"pacemaker (>= 2.0)"
+	],
+	"breaks": [
+		"pacemaker (<< 2.0)"
+	],
+	"conflicts": [
+		"python3-pcs"
+	],
+	"installedSize": 3652,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>",
+	"description": "Pacemaker Configuration System",
+	"homepage": "https://github.com/ClusterLabs/pcs",
+	"filename": "pool/main/p/pcs/pcs_0.12.1-2_all.deb",
+	"size": 557356,
+	"md5": "828f0b5b494d7d07461be20cf631739a",
+	"sha256": "d7525745892e530d5893d9797f9b65e4d3297da1ddf98561cecd3ad1909e2537",
+	"descriptionMd5": "9591f3d4966c2a44acf5838689dcc0c6"
+}]

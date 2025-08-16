@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-certbot",
+	"source": "python-certbot",
+	"version": "4.0.0-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-acme-abi-4 (>= 4.0)",
+		"python3-requests",
+		"python3-acme",
+		"python3-configargparse (>= 1.7~)",
+		"python3-configobj",
+		"python3-cryptography (>= 43.0.0)",
+		"python3-distro",
+		"python3-importlib-metadata | python3-supported-min (>= 3.10)",
+		"python3-josepy (>= 2.0~)",
+		"python3-parsedatetime",
+		"python3-pytz",
+		"python3-rfc3339",
+		"python3:any"
+	],
+	"recommends": [
+		"certbot"
+	],
+	"suggests": [
+		"python-certbot-doc"
+	],
+	"replaces": [
+		"python-letsencrypt"
+	],
+	"breaks": [
+		"python-letsencrypt (<= 0.6.0)"
+	],
+	"installedSize": 1603,
+	"maintainer": "Debian Let's Encrypt <team+letsencrypt@tracker.debian.org>",
+	"description": "main library for certbot",
+	"homepage": "https://certbot.eff.org/",
+	"filename": "pool/main/p/python-certbot/python3-certbot_4.0.0-2_all.deb",
+	"size": 299896,
+	"md5": "d14c195c5fdc97b9d9ea23bb61ada31a",
+	"sha256": "50b46b58f3031652039dc81774a79916f92524e94727b206bf4549e6be8a74d8",
+	"descriptionMd5": "ba2761f329f04c874e6c3fcebf4ad5f1"
+}]

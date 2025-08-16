@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgccjit0",
+	"source": "gcc-14",
+	"version": "14.2.0-19",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-14-base (= 14.2.0-19)",
+		"libgcc-14-dev",
+		"binutils",
+		"libc6-dev (>= 2.23-1~)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"breaks": [
+		"python-gccjit (<< 0.4-4)",
+		"python3-gccjit (<< 0.4-4)"
+	],
+	"installedSize": 37501,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC just-in-time compilation (shared library)",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-14/libgccjit0_14.2.0-19_amd64.deb",
+	"size": 10440052,
+	"md5": "c1c84846cbaaf35cbc6025b484be574b",
+	"sha256": "cab79f341f9b1ee14a03bc6ca1c1ecdb2d52b2a346d1e011c47682e5f45453f9",
+	"descriptionMd5": "78f861084806b36ce34263514298785e"
+}]

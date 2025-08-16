@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apt-cacher-ng",
+	"version": "3.7.5-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libcares2 (>= 1.16.0)",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libfuse2t64 (>= 2.6)",
+		"libgcc-s1 (>= 3.0)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"libsystemd0 (>= 210)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.2.0)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~) | lsb-base (>> 3.0-6)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6)"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"suggests": [
+		"doc-base",
+		"avahi-daemon"
+	],
+	"conflicts": [
+		"logrotate (<< 3.8.0)"
+	],
+	"installedSize": 1924,
+	"maintainer": "Eduard Bloch <blade@debian.org>",
+	"description": "caching proxy server for software repositories",
+	"homepage": "http://www.unix-ag.uni-kl.de/~bloch/acng/",
+	"filename": "pool/main/a/apt-cacher-ng/apt-cacher-ng_3.7.5-1_amd64.deb",
+	"size": 711124,
+	"md5": "777a5854cd37661d5ac577af6405ae35",
+	"sha256": "ebfcf72d976ed2ccb6ffed8328c130cd8b7c836306687b197275320e7fde66de",
+	"descriptionMd5": "b88e5e2d04c76e8d4500fb60880c7d76"
+}]

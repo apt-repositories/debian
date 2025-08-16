@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-535-driver",
+	"source": "nvidia-graphics-drivers-tesla-535",
+	"version": "535.261.03-1",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-tesla-535-driver-libs (= 535.261.03-1)",
+		"nvidia-tesla-535-driver-bin (= 535.261.03-1)",
+		"xserver-xorg-video-nvidia-tesla-535 (= 535.261.03-1)",
+		"nvidia-tesla-535-vdpau-driver (= 535.261.03-1)",
+		"nvidia-tesla-535-alternative (= 535.261.03-1)",
+		"nvidia-tesla-535-kernel-dkms (= 535.261.03-1) | nvidia-tesla-535-kernel-535.261.03 | nvidia-open-kernel-535.261.03",
+		"nvidia-support"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-settings-tesla-535 (>= 535)",
+		"libnvidia-tesla-535-cfg1 (= 535.261.03-1)",
+		"nvidia-persistenced (>= 535)"
+	],
+	"suggests": [
+		"nvidia-tesla-535-kernel-dkms (>= 535.261.03) | nvidia-tesla-535-kernel-source (>= 535.261.03) | nvidia-open-kernel-source (>= 535.261.03)"
+	],
+	"installedSize": 1430,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (Tesla 535 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-535/nvidia-tesla-535-driver_535.261.03-1_amd64.deb",
+	"size": 523864,
+	"md5": "eac700f0128893cc47b6d92c6e7a4871",
+	"sha256": "d5581f30945ccffd636e66d2d2962f956c18db9c7cd78570e5084bcda8e40bfa",
+	"descriptionMd5": "ab8eb75f55647a23f4a9121a63ece30d"
+}]

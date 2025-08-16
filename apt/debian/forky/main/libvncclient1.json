@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvncclient1",
+	"source": "libvncserver",
+	"version": "0.9.15+dfsg-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libgcrypt20 (>= 1.11.0)",
+		"libgnutls30t64 (>= 3.8.2)",
+		"libjpeg62-turbo (>= 1.3.1)",
+		"liblzo2-2 (>= 2.02)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"libvncserver0 (<< 0.9.9+dfsg-3)"
+	],
+	"breaks": [
+		"libvncserver0 (<< 0.9.9+dfsg-3)"
+	],
+	"installedSize": 328,
+	"maintainer": "Debian Remote Maintainers <debian-remote@lists.debian.org>",
+	"description": "API to write one's own VNC server - client library",
+	"homepage": "http://libvnc.github.io",
+	"filename": "pool/main/libv/libvncserver/libvncclient1_0.9.15+dfsg-1_amd64.deb",
+	"size": 196436,
+	"md5": "fa6b1fb05abc60a5a3ecb0e238fe6d72",
+	"sha256": "cc8df0c08d5fc8c92ce5a0ffea9acbac3139c70b07ec5f4ec2a31d180ed4a9f7",
+	"descriptionMd5": "de0d2f1b9e2b35d757b74d91c86a7280"
+}

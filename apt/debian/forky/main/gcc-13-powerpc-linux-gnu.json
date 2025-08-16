@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-13-powerpc-linux-gnu",
+	"source": "gcc-13-cross-ports (23)",
+	"version": "13.4.0-1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-13-powerpc-linux-gnu (= 13.4.0-1cross1)",
+		"gcc-13-powerpc-linux-gnu-base (= 13.4.0-1cross1)",
+		"libcc1-0 (>= 13)",
+		"binutils-powerpc-linux-gnu (>= 2.39)",
+		"libgcc-13-dev-powerpc-cross (>= 13.4.0-1cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-powerpc-cross (>= 2.23-1~)"
+	],
+	"suggests": [
+		"gcc-13-doc (>= 13)",
+		"gcc-13-locales (>= 13)"
+	],
+	"replaces": [
+		"cpp-13-powerpc-linux-gnu (<< 7.1.1-8)",
+		"gcc-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gcc-13 (<< 13.2.0-11)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 58266,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler for the powerpc-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-1)",
+	"filename": "pool/main/g/gcc-13-cross-ports/gcc-13-powerpc-linux-gnu_13.4.0-1cross1_amd64.deb",
+	"size": 17641392,
+	"md5": "260adb8f0f3cc34e6a635335fb2c10ee",
+	"sha256": "07c5d3093f8842a5079e2552a5f80c05ccb3c5ae4fafc9908c1238650fd6d77d",
+	"descriptionMd5": "2492669da5037450fea56bf2a467a14d"
+}

@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "iiod",
+	"source": "libiio",
+	"version": "0.26-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libiio0 (>= 0.26-2)",
+		"libaio1t64 (>= 0.3.93)",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libc6 (>= 2.38)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"avahi-daemon"
+	],
+	"installedSize": 110,
+	"maintainer": "A. Maitland Bottoms <bottoms@debian.org>",
+	"description": "Daemon to share IIO devices on the network",
+	"homepage": "https://github.com/analogdevicesinc/libiio",
+	"filename": "pool/main/libi/libiio/iiod_0.26-2_amd64.deb",
+	"size": 36716,
+	"md5": "3b7abdcd22ece00d8d6995fbb5674599",
+	"sha256": "f2b40e7742b64c38b28a4885aa6aac387e422900333f5481f37d829566d45bf0",
+	"descriptionMd5": "381c5ac0a614548f6c763749394d601d"
+}

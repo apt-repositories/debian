@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgmt6t64",
+	"source": "gmt",
+	"version": "6.5.0+dfsg-4",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.16.2)",
+		"libfftw3-single3 (>= 3.3.10)",
+		"libgdal36 (>= 3.0.0)",
+		"libgeos-c1t64 (>= 3.4.2)",
+		"liblapack3 | liblapack.so.3",
+		"libnetcdf22 (>= 4.0.1)",
+		"libpcre2-8-0 (>= 10.22)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gmt"
+	],
+	"replaces": [
+		"libgmt6"
+	],
+	"breaks": [
+		"libgmt6 (<< 6.5.0+dfsg-4)"
+	],
+	"installedSize": 6206,
+	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
+	"description": "Generic Mapping Tools Library",
+	"homepage": "http://gmt.soest.hawaii.edu/",
+	"filename": "pool/main/g/gmt/libgmt6t64_6.5.0+dfsg-4_amd64.deb",
+	"size": 1993372,
+	"md5": "ad887b97f06dc90ab55074c6f3381791",
+	"sha256": "23436af8c175431d228af781fc25aa7c845d1c0fe295b00bba8d719768231b64",
+	"descriptionMd5": "46ce4ae4113ab8e140ed6370cac94112"
+}]

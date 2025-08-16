@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "iwd",
+	"version": "3.9-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.51)",
+		"libc6 (>= 2.34)",
+		"libell0 (>= 0.77~)",
+		"libreadline8t64 (>= 6.0)"
+	],
+	"recommends": [
+		"dbus | dbus-system-bus",
+		"wireless-regdb"
+	],
+	"suggests": [
+		"network-manager-iwd"
+	],
+	"breaks": [
+		"orphan-sysvinit-scripts (<< 0.11)"
+	],
+	"installedSize": 2078,
+	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
+	"description": "wireless daemon for Linux",
+	"homepage": "https://iwd.wiki.kernel.org/",
+	"filename": "pool/main/i/iwd/iwd_3.9-2_amd64.deb",
+	"size": 536816,
+	"md5": "dd364c48b555db03a4a84b989f654f41",
+	"sha256": "08dc57ce088e192583f2b76b32b7cc5f27d868c541ebd361aca811d2e0acec07",
+	"descriptionMd5": "a38d828be9cfba0c12dd17c9690833ce"
+}

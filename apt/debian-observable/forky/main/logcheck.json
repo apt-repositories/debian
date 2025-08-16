@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "logcheck",
+	"version": "1.4.6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"lockfile-progs",
+		"default-mta | mail-transport-agent",
+		"mime-construct",
+		"systemd-sysv | cron | anacron | cron-daemon",
+		"logtail"
+	],
+	"recommends": [
+		"logcheck-database (>= 1.4.6)"
+	],
+	"suggests": [
+		"rsyslog | system-log-daemon"
+	],
+	"enhances": [
+		"rsyslog",
+		"system-log-daemon",
+		"systemd"
+	],
+	"installedSize": 120,
+	"maintainer": "Debian logcheck Team <logcheck@packages.debian.org>",
+	"description": "check the system log for unusual entries",
+	"filename": "pool/main/l/logcheck/logcheck_1.4.6_all.deb",
+	"size": 29604,
+	"md5": "fd43854d8680fa48083be383e4a669d0",
+	"sha256": "5620d27490716c0fe7a7e7e18e64078aae4087dadf631a2342b2a7b9a836ef95",
+	"descriptionMd5": "99ef742d80b81f7128d270bdb5b5c7df"
+}]

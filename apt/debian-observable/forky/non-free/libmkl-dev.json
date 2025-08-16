@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmkl-dev",
+	"source": "intel-mkl",
+	"version": "2020.4.304-6",
+	"section": "non-free/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libmkl-rt (= 2020.4.304-6)",
+		"libmkl-interface-dev (= 2020.4.304-6)",
+		"libmkl-threading-dev (= 2020.4.304-6)",
+		"libmkl-computational-dev (= 2020.4.304-6)",
+		"pkgconf",
+		"libblas-dev | libblas.so",
+		"liblapack-dev | liblapack.so"
+	],
+	"recommends": [
+		"libomp-dev | libomp-18-dev | libomp-17-dev | libomp-16-dev | libomp-15-dev | libomp-14-dev | libomp-x.y-dev",
+		"libgcc-14-dev | libgcc-13-dev | libgcc-12-dev",
+		"libtbb-dev"
+	],
+	"suggests": [
+		"intel-mkl-doc (= 2020.4.304-6)"
+	],
+	"enhances": [
+		"libblas.so",
+		"libblas64.so",
+		"liblapack.so",
+		"liblapack64.so"
+	],
+	"installedSize": 12594,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Intel® Math Kernel Library (Intel® MKL) (Dev)",
+	"homepage": "https://software.intel.com/en-us/mkl",
+	"filename": "pool/non-free/i/intel-mkl/libmkl-dev_2020.4.304-6_amd64.deb",
+	"size": 536240,
+	"md5": "5c6414db33fe82001d5cbb95232c662c",
+	"sha256": "7734c1cfee798dd50493399a0b74f58beb21e78258de36792d95530e5a7a952b",
+	"descriptionMd5": "25975add6311dfb7c226a01c3f16e694"
+}]

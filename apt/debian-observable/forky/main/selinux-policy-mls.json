@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "selinux-policy-mls",
+	"source": "refpolicy",
+	"version": "2:2.20250213-10",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libselinux1 (>= 3.8)",
+		"libsemanage2 (>= 3.8)",
+		"libsepol2 (>= 3.8)",
+		"policycoreutils (>= 3.8)",
+		"selinux-utils (>= 3.8)"
+	],
+	"recommends": [
+		"checkpolicy",
+		"setools"
+	],
+	"suggests": [
+		"logcheck",
+		"syslog-summary"
+	],
+	"breaks": [
+		"selinux-basics (<< 0.5.2~)"
+	],
+	"conflicts": [
+		"mcstrans"
+	],
+	"installedSize": 4589,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "MLS (Multi Level Security) variant of the SELinux policy",
+	"homepage": "https://github.com/SELinuxProject/refpolicy/releases",
+	"filename": "pool/main/r/refpolicy/selinux-policy-mls_2.20250213-10_all.deb",
+	"size": 3268428,
+	"md5": "a9c583a3ea2f68263f20527d745e2bcf",
+	"sha256": "c5804b77a5af90db0b282528c01d7e85761b617c9478f1a1ed88ddb651661ac2",
+	"descriptionMd5": "b404c7aea7329bd6fd0d9cdedc389175"
+}]

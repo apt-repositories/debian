@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gfortran-13-powerpc-linux-gnu",
+	"source": "gcc-13-cross-ports (23)",
+	"version": "13.4.0-1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-powerpc-linux-gnu-base (= 13.4.0-1cross1)",
+		"gcc-13-powerpc-linux-gnu (= 13.4.0-1cross1)",
+		"libgfortran-13-dev-powerpc-cross (>= 13)",
+		"libc6-dev-powerpc-cross (>= 2.23-1~)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gfortran-13-doc",
+		"libcoarrays-dev"
+	],
+	"replaces": [
+		"gfortran-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gfortran-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 29268,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Fortran compiler for the powerpc-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-1)",
+	"filename": "pool/main/g/gcc-13-cross-ports/gfortran-13-powerpc-linux-gnu_13.4.0-1cross1_amd64.deb",
+	"size": 9634984,
+	"md5": "33318df3cae3cd869228f68e68b38fbc",
+	"sha256": "9f1b8812659c083718e978a634497fdc67e715c2ee21dd6b4f2c0ffcc7b3c556",
+	"descriptionMd5": "73db4808194a17d54df02f8d5d05fa32"
+}

@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libdpkg-perl",
+	"source": "dpkg",
+	"version": "1.22.21",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"dpkg (>= 1.18.11)"
+	],
+	"recommends": [
+		"libfile-fcntllock-perl",
+		"liblocale-gettext-perl",
+		"bzip2",
+		"xz-utils (>= 5.4.0)"
+	],
+	"suggests": [
+		"debian-keyring",
+		"debian-tag2upload-keyring",
+		"sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq | gnupg",
+		"sqv | sqopv | rsopv | sopv | gosop | pgpainless-cli | gpgv-sq | gpgv",
+		"gcc | c-compiler",
+		"binutils",
+		"patch",
+		"sensible-utils",
+		"git",
+		"bzr"
+	],
+	"breaks": [
+		"dgit (<< 3.13~)",
+		"gosop (<< 1.1.0~)",
+		"libsop-java-java (<< 4.0.7~)",
+		"pgpainless-cli (<< 1.3.13~)",
+		"pkg-kde-tools (<< 0.15.28~)",
+		"rsop (<< 0.4.0~)",
+		"sq (<< 0.40.0~)",
+		"sqop (<< 0.27.2~)",
+		"sqv (<< 1.3.0~)"
+	],
+	"installedSize": 2089,
+	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
+	"description": "Dpkg perl modules",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/main/d/dpkg/libdpkg-perl_1.22.21_all.deb",
+	"size": 649716,
+	"md5": "c9c192a77c479402a9a182e824781b00",
+	"sha256": "9e58a91c859751b60e45231520bc59b294999d2b73672f5325f3521e7767cf01",
+	"descriptionMd5": "5011cce9f04b116d18e831b42d79c4a1"
+}
