@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gdc-13-riscv64-linux-gnu",
+	"source": "gcc-13-cross (19)",
+	"version": "13.4.0-1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-riscv64-linux-gnu-base (>= 13)",
+		"g++-13-riscv64-linux-gnu (>= 13.4.0-1cross1)",
+		"gdc-13 (>= 13)",
+		"libgphobos-13-dev-riscv64-cross (>= 13)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"gdc (<< 4.4.6-5)",
+		"gdc-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gdc-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 33542,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU D compiler (version 2) for the riscv64-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-1)",
+	"filename": "pool/main/g/gcc-13-cross/gdc-13-riscv64-linux-gnu_13.4.0-1cross1_amd64.deb",
+	"size": 10135580,
+	"md5": "de01bf5e57913f1c3fa30e0e76f925cc",
+	"sha256": "fca465153cc2b9347307751934177eb62be573d6e9601950d3b0216b0de01e42",
+	"descriptionMd5": "079a7e73375fff1da316ca219ebbcae9"
+}

@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "netplan-generator",
+	"source": "netplan.io",
+	"version": "1.1.2-7",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libglib2.0-0t64 (>= 2.70.0)",
+		"libnetplan1 (= 1.1.2-7)",
+		"systemd (>= 248~)"
+	],
+	"suggests": [
+		"network-manager | wpasupplicant",
+		"openvswitch-switch",
+		"iw"
+	],
+	"replaces": [
+		"netplan.io (<< 0.106.1-8~)"
+	],
+	"breaks": [
+		"netplan.io (<< 0.106.1-8~)"
+	],
+	"installedSize": 291,
+	"maintainer": "Debian Networking Team <team+networking@tracker.debian.org>",
+	"description": "Declarative network configuration for various backends at boot",
+	"homepage": "https://netplan.io/",
+	"filename": "pool/main/n/netplan.io/netplan-generator_1.1.2-7_amd64.deb",
+	"size": 75120,
+	"md5": "09fcfef2f8abc63ef6257a77ad2b37fe",
+	"sha256": "f27d32bb0e3d63479750ff747f1fce28dbd39529aab99ba2b6aa4a222e42c504",
+	"descriptionMd5": "cbcba3fa237c18ff67f4a4db8776aa29"
+}]

@@ -1,0 +1,59 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ocserv",
+	"version": "1.3.0-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"ssl-cert",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libev4t64 (>= 1:4.04)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libgssapi-krb5-2 (>= 1.14+dfsg)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmaxminddb0 (>= 1.0.2)",
+		"libnettle8t64",
+		"libnl-3-200 (>= 3.2.7)",
+		"libnl-route-3-200 (>= 3.2.7)",
+		"liboath0t64 (>= 1.8.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libprotobuf-c1 (>= 1.0.1)",
+		"libradcli4 (>= 1.2.11)",
+		"libreadline8t64 (>= 6.0)",
+		"libseccomp2 (>= 0.0.0~20120605)",
+		"libsystemd0",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtasn1-6 (>= 4.14)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ca-certificates",
+		"dnsmasq",
+		"gnutls-bin",
+		"iproute2",
+		"iputils-ping | inetutils-ping",
+		"nuttcp"
+	],
+	"suggests": [
+		"freeradius",
+		"haproxy"
+	],
+	"installedSize": 1260,
+	"maintainer": "Aron Xu <aron@debian.org>",
+	"description": "OpenConnect VPN server compatible with Cisco AnyConnect VPN",
+	"homepage": "https://www.infradead.org/ocserv/",
+	"filename": "pool/main/o/ocserv/ocserv_1.3.0-2_amd64.deb",
+	"size": 523900,
+	"md5": "2de63bffa429613eb8bb8719b2ee3a6a",
+	"sha256": "315adb730fa048b7b4996f3c80265b6c514b2604a116d9e8a71f4e9af95e6601",
+	"descriptionMd5": "4db510f429382469247db91a4d396ce4"
+}]

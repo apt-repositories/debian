@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "yaws",
+	"version": "2.2.0+dfsg-2",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"erlang-yaws (>= 2.2.0+dfsg-2)",
+		"adduser",
+		"ssl-cert"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"yaws-doc",
+		"yaws-chat",
+		"yaws-mail",
+		"yaws-wiki",
+		"yaws-yapp",
+		"erlang-yapp",
+		"logrotate"
+	],
+	"installedSize": 164,
+	"maintainer": "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>",
+	"description": "High performance HTTP 1.1 webserver written in Erlang",
+	"homepage": "http://yaws.hyber.org/",
+	"filename": "pool/main/y/yaws/yaws_2.2.0+dfsg-2_all.deb",
+	"size": 84668,
+	"md5": "f539681b14c68f7fd968d7ce16418f0c",
+	"sha256": "14296387e1d5d197670eaab3a929eb4a3a3db67512d251e9e78a0094566b9e31",
+	"descriptionMd5": "4a42180ab7f74c5b48d3710d8bb249a1"
+}]

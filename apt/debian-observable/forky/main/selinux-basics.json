@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "selinux-basics",
+	"version": "0.6.0",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"checkpolicy",
+		"policycoreutils (>= 3.1)",
+		"selinux-utils (>= 3.1)",
+		"perl:any",
+		"python3:any"
+	],
+	"recommends": [
+		"policycoreutils-python-utils (>= 3.1)",
+		"selinux-policy-default",
+		"setools (>= 4.3.0)"
+	],
+	"suggests": [
+		"logcheck",
+		"syslog-summary"
+	],
+	"breaks": [
+		"selinux-policy-default (<= 2:0.2.20100524-4)"
+	],
+	"installedSize": 48,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "SELinux basic support",
+	"filename": "pool/main/s/selinux-basics/selinux-basics_0.6.0_all.deb",
+	"size": 12268,
+	"md5": "a88fd0e90b7eab89a39e6a1141034e11",
+	"sha256": "37b4d9364ca3802cd79eb92f3f62aa5cfce208c8433dda82e9c264567fdfaa9f",
+	"descriptionMd5": "dca2ca41603c7b932fd8870763cff243"
+}]

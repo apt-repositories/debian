@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgssapi3t64-heimdal",
+	"source": "heimdal",
+	"version": "7.8.git20221117.28daf24+dfsg-9",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libasn1-8t64-heimdal (>= 1.4.0+git20110226)",
+		"libc6 (>= 2.34)",
+		"libcom-err2 (>= 1.43.9)",
+		"libhcrypto5t64-heimdal (>= 1.4.0+git20110226)",
+		"libheimntlm0t64-heimdal (>= 1.4.0+git20110226)",
+		"libkrb5-26t64-heimdal (>= 1.6~git20131117)",
+		"libroken19t64-heimdal (>= 1.7~git20150920)"
+	],
+	"replaces": [
+		"libgssapi3-heimdal"
+	],
+	"breaks": [
+		"libgssapi3-heimdal (<< 7.8.git20221117.28daf24+dfsg-9)"
+	],
+	"conflicts": [
+		"libgssapi3"
+	],
+	"installedSize": 308,
+	"maintainer": "Brian May <bam@debian.org>",
+	"description": "Heimdal Kerberos - GSSAPI support library",
+	"homepage": "http://www.h5l.org/",
+	"filename": "pool/main/h/heimdal/libgssapi3t64-heimdal_7.8.git20221117.28daf24+dfsg-9_amd64.deb",
+	"size": 104004,
+	"md5": "0e0a26550fff90787e71846b2540727d",
+	"sha256": "fcf39dfc65f3e2a1a8ebb6c133cc95eb7bc4f52a2ceede0ea47cb882e411c765",
+	"descriptionMd5": "af366fc4a421c3a53900cab1af5922e2"
+}

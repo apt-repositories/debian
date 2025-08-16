@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxrdcl3t64",
+	"source": "xrootd",
+	"version": "5.8.4-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libisal2 (>= 2.19.0)",
+		"libstdc++6 (>= 14)",
+		"libuuid1 (>= 2.16)",
+		"libxrdutils3t64 (>= 5.8.4)",
+		"libxrdxml3t64 (>= 5.8.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"xrootd-plugins (= 5.8.4-2)",
+		"xrootd-client-plugins (= 5.8.4-2)"
+	],
+	"replaces": [
+		"libxrdcl3"
+	],
+	"breaks": [
+		"libxrdcl3 (<< 5.8.4-2)"
+	],
+	"installedSize": 2831,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "Client library for xrootd",
+	"homepage": "https://xrootd.web.cern.ch/",
+	"filename": "pool/main/x/xrootd/libxrdcl3t64_5.8.4-2_amd64.deb",
+	"size": 760220,
+	"md5": "a50d45f266cfa5c7f1e6405a318eb4da",
+	"sha256": "32be8395de3bc969472a769bbc1d64cf38d873be3dd58cc9ebd6c81bd3a2c50c",
+	"descriptionMd5": "c6c5efc15d8b675ecfd92362409f2c46"
+}

@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "uucp",
+	"version": "1.07-30",
+	"section": "comm",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpam0g (>= 0.99.7.1)",
+		"cron | cron-daemon",
+		"bsd-mailx | mailx",
+		"libpam-runtime (>= 0.76-13.1)",
+		"netbase"
+	],
+	"recommends": [
+		"postfix | exim4 | smail | courier-mta | zmailer | rmail",
+		"logrotate",
+		"openbsd-inetd | inet-superserver",
+		"cu (= 1.07-30)"
+	],
+	"installedSize": 1836,
+	"maintainer": "Thorsten Alteholz <debian@alteholz.de>",
+	"description": "Unix to Unix Copy Program",
+	"homepage": "http://airs.com/ian/uucp.html",
+	"filename": "pool/main/u/uucp/uucp_1.07-30_amd64.deb",
+	"size": 662480,
+	"md5": "9be8c31a643aa98cb1b11716f0dd09d1",
+	"sha256": "8e5d744d7568b1a5371680564a66529a1036842f9f47031fe0e1150059608669",
+	"descriptionMd5": "e32a21cc3608590f8b15aa418cc347f7"
+}]

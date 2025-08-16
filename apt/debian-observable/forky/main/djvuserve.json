@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "djvuserve",
+	"source": "djvulibre",
+	"version": "3.5.28-2.2",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libdjvulibre21 (>= 3.5.28)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 5)"
+	],
+	"recommends": [
+		"apache2 | apache | httpd-cgi | httpd"
+	],
+	"conflicts": [
+		"djvulibre-bin (<< 3.5.9-3)"
+	],
+	"installedSize": 75,
+	"maintainer": "Barak A. Pearlmutter <bap@debian.org>",
+	"description": "CGI program for unbundling DjVu files on the fly",
+	"homepage": "http://djvu.sourceforge.net/",
+	"filename": "pool/main/d/djvulibre/djvuserve_3.5.28-2.2_amd64.deb",
+	"size": 24580,
+	"md5": "6b8f3db59ae124b9e3661ad9b30699dc",
+	"sha256": "86e6b63b83727cb004d590bd905b7f2e9595b605334e118aaacad442b26ac90e",
+	"descriptionMd5": "1440f01db6ede771bb8636f76fcccfda"
+}]

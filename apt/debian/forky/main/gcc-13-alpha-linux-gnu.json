@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-13-alpha-linux-gnu",
+	"source": "gcc-13-cross-ports (23)",
+	"version": "13.4.0-1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-13-alpha-linux-gnu (= 13.4.0-1cross1)",
+		"gcc-13-alpha-linux-gnu-base (= 13.4.0-1cross1)",
+		"libcc1-0 (>= 13)",
+		"binutils-alpha-linux-gnu (>= 2.39)",
+		"libgcc-13-dev-alpha-cross (>= 13.4.0-1cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6.1-dev-alpha-cross (>= 2.23-1~)"
+	],
+	"suggests": [
+		"gcc-13-doc (>= 13)",
+		"gcc-13-locales (>= 13)"
+	],
+	"replaces": [
+		"cpp-13-alpha-linux-gnu (<< 7.1.1-8)",
+		"gcc-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gcc-13 (<< 13.2.0-11)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 47154,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler for the alpha-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-1)",
+	"filename": "pool/main/g/gcc-13-cross-ports/gcc-13-alpha-linux-gnu_13.4.0-1cross1_amd64.deb",
+	"size": 15400972,
+	"md5": "d67d774490a9588b66e2769c69cddb58",
+	"sha256": "67b6a8e279c9938778c1a323e5c7c8899236b7e7ce776699388a37b64501e78e",
+	"descriptionMd5": "e9a3c4dd42ac04b05c49b9d069800db5"
+}

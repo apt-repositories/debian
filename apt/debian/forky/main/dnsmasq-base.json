@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dnsmasq-base",
+	"source": "dnsmasq",
+	"version": "2.91-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"passwd",
+		"libc6 (>= 2.38)",
+		"libdbus-1-3 (>= 1.10)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libhogweed6t64 (>= 2.4-3)",
+		"libidn2-0 (>= 2.0.0)",
+		"libnetfilter-conntrack3 (>= 1.0.1)",
+		"libnettle8t64 (>= 2.4-3)",
+		"libnftables1 (>= 1.0.2)"
+	],
+	"recommends": [
+		"dns-root-data"
+	],
+	"replaces": [
+		"dnsmasq (<< 2.63-1~)",
+		"dnsmasq-base"
+	],
+	"breaks": [
+		"dnsmasq (<< 2.63-1~)"
+	],
+	"conflicts": [
+		"dnsmasq-base-lua"
+	],
+	"installedSize": 1117,
+	"maintainer": "Simon Kelley <simon@thekelleys.org.uk>",
+	"description": "Small caching DNS proxy and DHCP/TFTP server - executable",
+	"homepage": "https://www.thekelleys.org.uk/dnsmasq/doc.html",
+	"filename": "pool/main/d/dnsmasq/dnsmasq-base_2.91-1_amd64.deb",
+	"size": 507036,
+	"md5": "c4980fbedc8aa348e4bd393b6fdfb01d",
+	"sha256": "ab6ddc5b46d27658104a5246e00d1bc556b5b449cf1584b1ffa39acb3b3a0a2b",
+	"descriptionMd5": "ddc8fa1338def4dac026d945c9533b88"
+}

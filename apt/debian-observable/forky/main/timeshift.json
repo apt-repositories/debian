@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "timeshift",
+	"version": "24.06.6-2",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cron-daemon | cron",
+		"psmisc",
+		"rsync",
+		"libc6 (>= 2.34)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libgee-0.8-2 (>= 0.8.3)",
+		"libglib2.0-0t64 (>= 2.62.0)",
+		"libgtk-3-0t64 (>= 3.16.2)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
+		"libvte-2.91-0",
+		"libxapp1 (>= 1.0.4)"
+	],
+	"recommends": [
+		"pkexec"
+	],
+	"replaces": [
+		"timeshift-btrfs"
+	],
+	"breaks": [
+		"util-linux (<< 2.37.2~)"
+	],
+	"installedSize": 4077,
+	"maintainer": "Yanhao Mo <yanhaocs@gmail.com>",
+	"description": "System restore utility",
+	"homepage": "https://github.com/linuxmint/timeshift",
+	"filename": "pool/main/t/timeshift/timeshift_24.06.6-2_amd64.deb",
+	"size": 722804,
+	"md5": "7d95fb1c108670e597337165a4905a98",
+	"sha256": "1d3cfed137b08a9a02d9b5db5835972a2862e1481b9f9199f8739b1ccac1c5f4",
+	"descriptionMd5": "111bc23f71315a6e4f214d083796ab9c"
+}]

@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "galera-arbitrator-4",
+	"source": "galera-4",
+	"version": "26.4.22-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libboost-program-options1.83.0 (>= 1.83.0)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"replaces": [
+		"percona-xtradb-cluster-galera-2.x"
+	],
+	"breaks": [
+		"percona-xtradb-cluster-galera-2.x"
+	],
+	"conflicts": [
+		"galera-arbitrator-3",
+		"garbd-2",
+		"garbd2",
+		"percona-galera-arbitrator-3",
+		"percona-galera-arbitrator-4",
+		"percona-xtradb-cluster-garbd-2.x"
+	],
+	"installedSize": 2123,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "Galera arbitrator daemon",
+	"homepage": "https://www.galeracluster.com/",
+	"filename": "pool/main/g/galera-4/galera-arbitrator-4_26.4.22-1_amd64.deb",
+	"size": 695604,
+	"md5": "2cc696528667813ef2177b87e5878076",
+	"sha256": "e42f70818fe7ef18ed9ebcf474385bd007e726bb6d5b408f8985a43c638e3c5d",
+	"descriptionMd5": "da518f05c411048167552722fda305be"
+}]

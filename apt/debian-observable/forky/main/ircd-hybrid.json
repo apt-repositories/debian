@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ircd-hybrid",
+	"version": "1:8.2.46+dfsg.1-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libltdl7 (>= 2.5.4)",
+		"openssl",
+		"lsb-base (>= 3.0-6)"
+	],
+	"preDepends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"whois"
+	],
+	"suggests": [
+		"anope"
+	],
+	"breaks": [
+		"anope (<< 2.0.9-1~)"
+	],
+	"conflicts": [
+		"dancer-ircd",
+		"ircd-irc2",
+		"ircd-ircu",
+		"oftc-hybrid"
+	],
+	"installedSize": 2599,
+	"maintainer": "Dominic Hargreaves <dom@earth.li>",
+	"description": "high-performance secure IRC server",
+	"homepage": "https://www.ircd-hybrid.org/",
+	"filename": "pool/main/i/ircd-hybrid/ircd-hybrid_8.2.46+dfsg.1-1_amd64.deb",
+	"size": 372664,
+	"md5": "8c51e92c6ee5093facd60e2940694f1e",
+	"sha256": "ee032b32dfebfa60373b18c55391c42cfe27dec3cb81788d5b58f888f98acaa9",
+	"descriptionMd5": "6d0ecd7f1095a9a8ad287cd1870f2be9"
+}]

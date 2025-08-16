@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemtap-runtime",
+	"source": "systemtap",
+	"version": "5.1-5",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libdebuginfod1t64 (>= 0.180)",
+		"libelf1t64 (>= 0.142)",
+		"libgcc-s1 (>= 3.0)",
+		"libnspr4 (>= 2:4.9-2~)",
+		"libnss3 (>= 2:3.13.4-2~)",
+		"libstdc++6 (>= 13.1)",
+		"adduser"
+	],
+	"suggests": [
+		"systemtap"
+	],
+	"replaces": [
+		"systemtap (<< 0.0.20081220-1)"
+	],
+	"breaks": [
+		"systemtap (<< 0.0.20081220-1)"
+	],
+	"installedSize": 563,
+	"maintainer": "Emanuele Rocca <ema@debian.org>",
+	"description": "instrumentation system for Linux (runtime component)",
+	"homepage": "http://sourceware.org/systemtap/",
+	"filename": "pool/main/s/systemtap/systemtap-runtime_5.1-5_amd64.deb",
+	"size": 148880,
+	"md5": "65d2497c36c703683b01c038ca44ce0e",
+	"sha256": "10078ef1a31d33bd9f18cab1e0e72d3f57f4c1e7ad2aeb63c079f398a90ba1b4",
+	"descriptionMd5": "3b8442240972060b39c7cabf63a3eb04"
+}]

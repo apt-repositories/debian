@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-riscv64-linux-gnu",
+	"source": "gcc-defaults (1.220)",
+	"version": "4:14.2.0-1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-riscv64-linux-gnu (= 4:14.2.0-1)",
+		"gcc-14-riscv64-linux-gnu (>= 14.2.0-6~)"
+	],
+	"recommends": [
+		"libc6-dev-riscv64-cross | libc-dev-riscv64-cross"
+	],
+	"suggests": [
+		"make",
+		"manpages-dev",
+		"autoconf",
+		"automake",
+		"libtool",
+		"flex",
+		"bison",
+		"gdb-riscv64-linux-gnu",
+		"gcc-doc"
+	],
+	"replaces": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"breaks": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"installedSize": 23,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler for the riscv64 architecture",
+	"filename": "pool/main/g/gcc-defaults/gcc-riscv64-linux-gnu_14.2.0-1_amd64.deb",
+	"size": 1444,
+	"md5": "52775f0d64acb1a792c97dabf6c077cf",
+	"sha256": "c11880a5271fee10e123905ccb08d4337032bba10e570e438ef310432a68179f",
+	"descriptionMd5": "076e3ddf958518fce5f91a3ca856f2b9"
+}]

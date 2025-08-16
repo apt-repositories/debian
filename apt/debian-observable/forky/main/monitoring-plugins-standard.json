@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "monitoring-plugins-standard",
+	"source": "monitoring-plugins",
+	"version": "2.4.0-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"monitoring-plugins-basic",
+		"ucf",
+		"libc6 (>= 2.38)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"recommends": [
+		"bind9-host | host",
+		"dnsutils",
+		"libnet-snmp-perl",
+		"rpcbind",
+		"smbclient",
+		"snmp",
+		"sudo",
+		"libdbi1t64 (>= 0.9.0)",
+		"libldap2 (>= 2.6.2)",
+		"libmariadb3 (>= 3.0.0)",
+		"libpq5",
+		"libradcli4 (>= 1.2.11)"
+	],
+	"suggests": [
+		"fping",
+		"icinga2",
+		"postfix | sendmail-bin | exim4-daemon-heavy | exim4-daemon-light",
+		"qstat"
+	],
+	"installedSize": 860,
+	"maintainer": "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>",
+	"description": "Plugins for nagios compatible monitoring systems (standard)",
+	"homepage": "https://www.monitoring-plugins.org",
+	"filename": "pool/main/m/monitoring-plugins/monitoring-plugins-standard_2.4.0-3_amd64.deb",
+	"size": 138208,
+	"md5": "f8f94e021d2c4013af41b6bc8a9fd58e",
+	"sha256": "c62b7e52a3a2e8787e1cb18b4f83ae9bea8fc2f70f8ad8b3bd6a617f411e88a1",
+	"descriptionMd5": "4b9521fc857dec46e8aa902c6f4c791d"
+}]

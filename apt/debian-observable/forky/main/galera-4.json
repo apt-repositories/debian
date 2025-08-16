@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "galera-4",
+	"version": "26.4.22-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"replaces": [
+		"galera-3 (<< 26.4)"
+	],
+	"breaks": [
+		"galera-3 (<< 26.4)"
+	],
+	"conflicts": [
+		"garbd-2",
+		"garbd-3",
+		"garbd2",
+		"garbd3",
+		"percona-galera-3",
+		"percona-galera-4",
+		"percona-xtradb-cluster-galera",
+		"percona-xtradb-cluster-galera-2.x",
+		"percona-xtradb-cluster-galera-3.x",
+		"percona-xtradb-cluster-galera-4.x",
+		"percona-xtradb-cluster-garbd-2.x",
+		"percona-xtradb-cluster-garbd-3.x"
+	],
+	"installedSize": 2630,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "Replication framework for transactional applications",
+	"homepage": "https://www.galeracluster.com/",
+	"filename": "pool/main/g/galera-4/galera-4_26.4.22-1_amd64.deb",
+	"size": 912028,
+	"md5": "6b5db529bba0688c565a52519937be78",
+	"sha256": "bbb54b583a750c278bf53facfa17d2c791c75181d1b66b4f55919b8aacfa4c58",
+	"descriptionMd5": "fe238c5e6ce783e128515e8bc966eacf"
+}]

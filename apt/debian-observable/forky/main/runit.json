@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "runit",
+	"version": "2.2.0-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"runit-helper (>= 2.14.0~)",
+		"sysuser-helper (>= 1.6)",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"runit-run | runit-init"
+	],
+	"suggests": [
+		"socklog",
+		"ucspi-unix",
+		"zsh",
+		"runit-services",
+		"xchpst"
+	],
+	"replaces": [
+		"runit-init (<< 2.1.2-29~)"
+	],
+	"breaks": [
+		"runit-init (<< 2.1.2-60~)",
+		"runit-run (<= 2.1.2-59)",
+		"xchpst (<< 0.5.0-1~)"
+	],
+	"conflicts": [
+		"daemontools-run"
+	],
+	"installedSize": 565,
+	"maintainer": "Lorenzo Puliti <plorenzo@disroot.org>",
+	"description": "system-wide service supervision",
+	"homepage": "http://smarden.org/runit/",
+	"filename": "pool/main/r/runit/runit_2.2.0-3_amd64.deb",
+	"size": 143268,
+	"md5": "73d3897d0db1c9b68d852321832e33db",
+	"sha256": "12f60cd5e149cf89b0bf21960c7a73014b2ae34d7ee443bd31b23fbd94b985fd",
+	"descriptionMd5": "eb15553874e0d9d776a0d1b31885eca3"
+}]

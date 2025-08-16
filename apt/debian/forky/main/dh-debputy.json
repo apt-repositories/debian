@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dh-debputy",
+	"source": "debputy",
+	"version": "0.1.71",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debhelper",
+		"dwz",
+		"man-db",
+		"python3-colored",
+		"python3-colorlog",
+		"python3-debian",
+		"python3-ruyaml | python3-ruamel.yaml",
+		"python3:any (>= 3.11~)",
+		"strip-nondeterminism",
+		"perl:any"
+	],
+	"recommends": [
+		"python3-argcomplete"
+	],
+	"suggests": [
+		"debputy-lsp",
+		"hunspell-en-us",
+		"python3-hunspell",
+		"python3-junit.xml",
+		"python3-levenshtein",
+		"python3-lsprotocol",
+		"python3-pygls"
+	],
+	"breaks": [
+		"debhelper (<= 13.19~)"
+	],
+	"installedSize": 2825,
+	"maintainer": "Debputy Maintainers <debputy@packages.debian.org>",
+	"description": "Manifest style Debian-based package builder (debhelper integration)",
+	"homepage": "https://salsa.debian.org/debian/debputy",
+	"filename": "pool/main/d/debputy/dh-debputy_0.1.71_all.deb",
+	"size": 537492,
+	"md5": "b375a9e2bdc89c84d1326644a164bfeb",
+	"sha256": "22d39aa64f717ce0a5d5494c84cf6bf3ed11d1f8c6924aee50c585eb715486d2",
+	"descriptionMd5": "0a43251d363265f0459e396fcab3fea3"
+}

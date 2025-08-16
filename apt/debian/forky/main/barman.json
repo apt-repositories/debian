@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "barman",
+	"version": "3.14.1-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-barman (= 3.14.1-1)",
+		"python3-pkg-resources",
+		"adduser",
+		"file",
+		"rsync",
+		"python3:any"
+	],
+	"recommends": [
+		"openssh-server",
+		"openssh-client",
+		"postgresql-client"
+	],
+	"suggests": [
+		"barman-cli",
+		"repmgr"
+	],
+	"installedSize": 100,
+	"maintainer": "Marco Nenciarini <mnencia@debian.org>",
+	"description": "Backup and Recovery Manager for PostgreSQL",
+	"homepage": "https://www.pgbarman.org",
+	"filename": "pool/main/b/barman/barman_3.14.1-1_all.deb",
+	"size": 66428,
+	"md5": "31f0d535e9d77c1799e439e66c8dec4b",
+	"sha256": "9fca35f81111d8a8d0f1a725dbaa787e0bdc617d60eb62da8c3e1af081c1d48c",
+	"descriptionMd5": "c01daa785e513f09a6935c6fe6b4365b"
+}

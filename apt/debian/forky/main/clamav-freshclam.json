@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clamav-freshclam",
+	"source": "clamav",
+	"version": "1.4.3+dfsg-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"clamav-base (>= 1.4.3+dfsg-1)",
+		"dpkg (>= 1.16.1)",
+		"logrotate",
+		"procps (>= 1:3.3.2)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)",
+		"libclamav12 (>= 1.4.3)"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"suggests": [
+		"apparmor",
+		"clamav-doc"
+	],
+	"conflicts": [
+		"clamav-data",
+		"libclamav2",
+		"libclamav3"
+	],
+	"installedSize": 373,
+	"maintainer": "ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>",
+	"description": "anti-virus utility for Unix - virus database update utility",
+	"homepage": "https://www.clamav.net/",
+	"filename": "pool/main/c/clamav/clamav-freshclam_1.4.3+dfsg-1_amd64.deb",
+	"size": 160528,
+	"md5": "cc86ed30680fa7f884b891a60e69f964",
+	"sha256": "1693185fcfc3d87ccd72ee542b83c12162759cdd8b83492a0ea6946427205863",
+	"descriptionMd5": "82c68e4f7c984e3d6bdc720ae842fca8"
+}

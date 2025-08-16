@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pgpool2",
+	"version": "4.6.1-2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpgpool2 (= 4.6.1-2)",
+		"postgresql-common",
+		"ucf",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libldap2 (>= 2.6.2)",
+		"libmemcached11t64 (>= 1.1.4)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpq5 (>= 9.1~)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"pgpool"
+	],
+	"enhances": [
+		"postgresql"
+	],
+	"conflicts": [
+		"pgpool"
+	],
+	"installedSize": 7093,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "connection pool server and replication proxy for PostgreSQL",
+	"homepage": "https://www.pgpool.net/mediawiki/index.php/Main_Page",
+	"filename": "pool/main/p/pgpool2/pgpool2_4.6.1-2_amd64.deb",
+	"size": 1299624,
+	"md5": "eeb2a7fb8ac5ebd5a78be9ef83d0ba06",
+	"sha256": "faed11bdbd07264751cb21436ee789b374c50a4c4177c7ce07c453b154e7df08",
+	"descriptionMd5": "db1da7136cd7647f1ce4a0a590fc0046"
+}]

@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-12-dev-x32-cross",
+	"source": "gcc-12-cross-ports (20)",
+	"version": "12.5.0-1cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base-ports (= 12.5.0-1cross1)",
+		"libgcc-s1-x32-cross (>= 12.5.0-1cross1)",
+		"libgomp1-x32-cross (>= 12.5.0-1cross1)",
+		"libitm1-x32-cross (>= 12.5.0-1cross1)",
+		"libatomic1-x32-cross (>= 12.5.0-1cross1)",
+		"libasan8-x32-cross (>= 12.5.0-1cross1)",
+		"libubsan1-x32-cross (>= 12.5.0-1cross1)",
+		"libquadmath0-x32-cross (>= 12.5.0-1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-x32-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-x32-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-x32-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 9622,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.5.0-1)",
+	"filename": "pool/main/g/gcc-12-cross-ports/libgcc-12-dev-x32-cross_12.5.0-1cross1_all.deb",
+	"size": 2202644,
+	"md5": "82cf382dd1ac9bab078f413da37c8232",
+	"sha256": "d2fdbb914cb003d3bf2050f1d2c7fc83efdd08c910cc08da88b26e8b7afb509f",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

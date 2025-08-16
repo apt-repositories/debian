@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opensmtpd-table-postgres",
+	"source": "opensmtpd-table-postgres (1.1.1-1)",
+	"version": "1.1.1-1+b1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"opensmtpd (>= 7.6.0)",
+		"libc6 (>= 2.38)",
+		"libpq5"
+	],
+	"replaces": [
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"enhances": [
+		"opensmtpd"
+	],
+	"breaks": [
+		"opensmtpd (<< 7.6.0)",
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"installedSize": 55,
+	"maintainer": "Ryan Kavanagh <rak@debian.org>",
+	"description": "lookup OpenSMTPD users in PostgreSQL tables",
+	"homepage": "https://opensmtpd.org/",
+	"filename": "pool/main/o/opensmtpd-table-postgres/opensmtpd-table-postgres_1.1.1-1+b1_amd64.deb",
+	"size": 16272,
+	"md5": "800577b7806cdf627dd5a80c963f1093",
+	"sha256": "91a29c06829eb2d8bee7f1a57365202875a2b153828be6cf7697966e57add423",
+	"descriptionMd5": "6e7594f8d2e0d3b42f47cef24852c70d"
+}

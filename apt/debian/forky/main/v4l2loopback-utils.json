@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "v4l2loopback-utils",
+	"source": "v4l2loopback",
+	"version": "0.15.0-2",
+	"section": "graphics",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"gstreamer1.0-tools",
+		"sudo",
+		"v4l-utils",
+		"v4l2loopback-dkms | v4l2loopback-modules"
+	],
+	"breaks": [
+		"v4l2loopback-dkms (<< 0.15~)"
+	],
+	"installedSize": 91,
+	"maintainer": "IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>",
+	"description": "Commandline utilities for the for the v4l2-loopback module",
+	"homepage": "https://github.com/umlaeute/v4l2loopback",
+	"filename": "pool/main/v/v4l2loopback/v4l2loopback-utils_0.15.0-2_amd64.deb",
+	"size": 44244,
+	"md5": "b75240610ea39f9b601ea30a75725bd4",
+	"sha256": "46d9e5579de6664d69afeeac044990f76bca7ff064fd1bb66105e8f3e99deef8",
+	"descriptionMd5": "d4012d46cca371eab589dfd7688dc585"
+}

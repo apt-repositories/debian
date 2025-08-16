@@ -6,62 +6,6 @@
 	],
 	"package": "libvirt-daemon-driver-qemu",
 	"source": "libvirt",
-	"version": "11.3.0-2~bpo12+1",
-	"section": "admin",
-	"priority": "optional",
-	"architecture": "amd64",
-	"depends": [
-		"adduser",
-		"libvirt-common (= 11.3.0-2~bpo12+1)",
-		"libvirt-daemon-log (= 11.3.0-2~bpo12+1)",
-		"libvirt0 (= 11.3.0-2~bpo12+1)",
-		"logrotate",
-		"qemu-kvm | qemu-system",
-		"systemd-container | sysvinit-core",
-		"debconf (>= 0.5) | debconf-2.0",
-		"libc6 (>= 2.34)",
-		"libgcc-s1 (>= 3.3.1)",
-		"libglib2.0-0 (>= 2.63.1)",
-		"libgnutls30 (>= 3.7.0)",
-		"libselinux1 (>= 3.1~)",
-		"libxml2 (>= 2.7.4)"
-	],
-	"recommends": [
-		"passt",
-		"swtpm",
-		"swtpm-tools"
-	],
-	"suggests": [
-		"numad"
-	],
-	"replaces": [
-		"libvirt-clients (<< 6.9.0-2~)",
-		"libvirt-daemon-system (<< 10.6.0-2~)"
-	],
-	"enhances": [
-		"qemu-kvm",
-		"qemu-system"
-	],
-	"breaks": [
-		"libvirt-clients (<< 6.9.0-2~)",
-		"libvirt-daemon-system (<< 10.6.0-2~)"
-	],
-	"installedSize": 2246,
-	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
-	"description": "virtualization daemon - QEMU connection driver",
-	"homepage": "https://libvirt.org/drvqemu.html",
-	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-qemu_11.3.0-2~bpo12+1_amd64.deb",
-	"size": 765956,
-	"sha256": "bf293fe5a9100d3805b0a6e5d8c6757286dff956a932a72e40a9c55e24906613",
-	"descriptionMd5": "c2d4ef64bc876424b917fe7a09035280"
-},{
-	"raw": {},
-	"required": [
-		"Filename",
-		"Size"
-	],
-	"package": "libvirt-daemon-driver-qemu",
-	"source": "libvirt",
 	"version": "9.0.0-4+deb12u2",
 	"section": "admin",
 	"priority": "optional",

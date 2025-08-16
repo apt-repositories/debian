@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute",
+	"source": "nova",
+	"version": "2:31.0.0-6",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"conntrack",
+		"cgroup-tools",
+		"curl",
+		"dosfstools",
+		"ebtables",
+		"fdisk",
+		"gawk",
+		"iptables",
+		"kpartx",
+		"mdevctl",
+		"nova-common (= 2:31.0.0-6)",
+		"nova-compute-kvm | nova-compute-hypervisor",
+		"open-iscsi",
+		"ovmf",
+		"parted",
+		"qemu-utils",
+		"rsync",
+		"vlan",
+		"python3:any"
+	],
+	"recommends": [
+		"dmidecode"
+	],
+	"installedSize": 53,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - compute node",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/main/n/nova/nova-compute_31.0.0-6_all.deb",
+	"size": 16892,
+	"md5": "cc45df430464c87b8a2dcbdc7bf50650",
+	"sha256": "46a403d16cd74866f64d0d9cad71543ad425f63dd5c022b9329534676b2f0504",
+	"descriptionMd5": "abef552695fcdbc4d11dcd8d9a15c1b6"
+}

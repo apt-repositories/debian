@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sitesummary-client",
+	"source": "sitesummary",
+	"version": "0.1.60",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any",
+		"sysvinit-utils (>= 3.05-1)",
+		"gnupg",
+		"net-tools"
+	],
+	"recommends": [
+		"cron | cron-daemon",
+		"dmidecode",
+		"pciutils",
+		"usbutils",
+		"lsscsi",
+		"iproute2",
+		"hdparm"
+	],
+	"suggests": [
+		"sitesummary",
+		"munin-node",
+		"nagios-nrpe-server",
+		"monitoring-plugins-standard",
+		"cdpr",
+		"ipmitool",
+		"zfsutils-linux"
+	],
+	"installedSize": 104,
+	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
+	"description": "Generate site summary of submitting hosts (client part)",
+	"homepage": "https://wiki.debian.org/DebianEdu/HowTo/SiteSummary",
+	"filename": "pool/main/s/sitesummary/sitesummary-client_0.1.60_all.deb",
+	"size": 25264,
+	"md5": "d50b164143c8b06e47ca300dd96ff591",
+	"sha256": "cf93ad24d5263ce4518a4971d3b9491d6a765ee24dd2aefc69f127f3c54caeab",
+	"descriptionMd5": "d6997024fe7e58e3d3534bbc3a3f7ee3"
+}]

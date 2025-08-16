@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "backintime-qt",
+	"source": "backintime",
+	"version": "1.5.5-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"backintime-common (= 1.5.5-1)",
+		"libnotify-bin",
+		"pkexec",
+		"polkitd",
+		"python3-dbus.mainloop.pyqt6",
+		"python3-pyqt6",
+		"x11-utils",
+		"python3:any"
+	],
+	"recommends": [
+		"python3-secretstorage"
+	],
+	"suggests": [
+		"meld | kompare"
+	],
+	"replaces": [
+		"backintime-kde4",
+		"backintime-qt4 (<< 1.2.1-0.1~)"
+	],
+	"breaks": [
+		"backintime-qt4 (<< 1.2.1-0.1~)"
+	],
+	"conflicts": [
+		"backintime-kde4"
+	],
+	"installedSize": 528,
+	"maintainer": "Jonathan Wiltshire <jmw@debian.org>",
+	"description": "simple backup/snapshot system (graphical interface)",
+	"homepage": "https://github.com/bit-team/backintime",
+	"filename": "pool/main/b/backintime/backintime-qt_1.5.5-1_all.deb",
+	"size": 102512,
+	"md5": "0d441f13b7ba806d0e261d47e2ca056f",
+	"sha256": "590a14a0ec7f64843b4ca318055576da3d89905f456dbc6796e8a53c48fae2e9",
+	"descriptionMd5": "2587da36d484aa3c1b54d050acb99a6b"
+}]

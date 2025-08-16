@@ -1,0 +1,58 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pynslcd",
+	"source": "nss-pam-ldapd",
+	"version": "0.9.13-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"adduser",
+		"python3-daemon",
+		"python3-ldap",
+		"python3-setproctitle",
+		"python3-pyasn1",
+		"python3-pyasn1-modules"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"nscd",
+		"ca-certificates",
+		"libnss-ldapd | libnss-ldap",
+		"libpam-ldapd | libpam-ldap | libpam-krb5 | libpam-heimdal | libpam-sss",
+		"nslcd-utils",
+		"ldap-utils",
+		"bind9-host | host"
+	],
+	"suggests": [
+		"kstart"
+	],
+	"replaces": [
+		"nslcd-2"
+	],
+	"breaks": [
+		"libnss-ldapd (<< 0.9.0)",
+		"libpam-ldapd (<< 0.9.0)"
+	],
+	"conflicts": [
+		"nslcd",
+		"nslcd-2"
+	],
+	"installedSize": 385,
+	"maintainer": "Arthur de Jong <adejong@debian.org>",
+	"description": "daemon for NSS and PAM lookups via LDAP - Python version",
+	"homepage": "https://arthurdejong.org/nss-pam-ldapd/",
+	"filename": "pool/main/n/nss-pam-ldapd/pynslcd_0.9.13-1_all.deb",
+	"size": 133348,
+	"md5": "9d25e796a657b27813a7be55396338e4",
+	"sha256": "64c2fec3c2c1b864d84b27c14a52c00bb050fc8da0434c73e307087a6c1b8490",
+	"descriptionMd5": "ded83b939dc2c13277ec58acb61cc0ac"
+}

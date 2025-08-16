@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "finit-sysv",
+	"source": "finit",
+	"version": "4.12-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"finit"
+	],
+	"replaces": [
+		"finit (<< 3.2~rc3-2)",
+		"runit-init",
+		"systemd-sysv",
+		"sysvinit-core",
+		"upstart"
+	],
+	"breaks": [
+		"finit (<< 3.2~rc3-2)"
+	],
+	"conflicts": [
+		"bfh-container (<< 20211009-24~)",
+		"molly-guard (<< 0.8.2~)",
+		"progress-linux-container (<< 20221002-15~)",
+		"runit-init",
+		"systemd-sysv",
+		"sysvinit-core",
+		"upstart"
+	],
+	"installedSize": 56,
+	"maintainer": "Yangfl <mmyangfl@gmail.com>",
+	"description": "Fast init for Linux systems - SysV compatibility symlinks",
+	"homepage": "https://troglobit.com/projects/finit/",
+	"filename": "pool/main/f/finit/finit-sysv_4.12-1_all.deb",
+	"size": 36248,
+	"md5": "7565679381b8ff5c9b41154e803e4372",
+	"sha256": "5d3f3c81764403f7d7e66d4e6c82cb99c0cd7afca45900638cc4e1a43abaa56e",
+	"descriptionMd5": "3d569ccc0cdb1cf0f4487ad4baae3a69"
+}]

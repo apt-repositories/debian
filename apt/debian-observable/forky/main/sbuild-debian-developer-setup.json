@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sbuild-debian-developer-setup",
+	"source": "sbuild",
+	"version": "0.89.3",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apt-cacher-ng | apt-cacher",
+		"cron | cron-daemon",
+		"sbuild (>= 0.77.0-5)",
+		"schroot",
+		"debootstrap",
+		"perl:any"
+	],
+	"replaces": [
+		"sbuild (<< 0.77.0-5)"
+	],
+	"breaks": [
+		"sbuild (<< 0.77.0-5)"
+	],
+	"installedSize": 43,
+	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
+	"description": "Deprecated: Convenience script to set up an sbuild environment for Debian Developers",
+	"filename": "pool/main/s/sbuild/sbuild-debian-developer-setup_0.89.3_all.deb",
+	"size": 20704,
+	"md5": "11de69afd5912946898672c1e49277fe",
+	"sha256": "cb78c34f6f1c0051fe37c69358479d1703d40f2d8b07f54a85726a53fb6120db",
+	"descriptionMd5": "754fdbcdb9a7bab249d6d9611098e386"
+}]

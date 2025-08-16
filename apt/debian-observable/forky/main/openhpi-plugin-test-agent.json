@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openhpi-plugin-test-agent",
+	"source": "openhpi",
+	"version": "3.8.0-2.3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libopenhpi3 (= 3.8.0-2.3)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"replaces": [
+		"libopenhpi",
+		"libopenhpi2",
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"breaks": [
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"conflicts": [
+		"libopenhpi",
+		"libopenhpi2"
+	],
+	"installedSize": 394,
+	"maintainer": "Mohan Devarajulu <mohan.devarajulu@hpe.com>",
+	"description": "OpenHPI plugin module for test agent plugin",
+	"homepage": "http://openhpi.org",
+	"filename": "pool/main/o/openhpi/openhpi-plugin-test-agent_3.8.0-2.3_amd64.deb",
+	"size": 125824,
+	"md5": "201f19725d66445fb723fc35d0a1cad8",
+	"sha256": "ca0326f24d74b49413811f3f54f9ad3e120e67522319af1211d58a6cdfc89ba7",
+	"descriptionMd5": "7069f1ccfcd5946399a98fdb06e4b366"
+}]

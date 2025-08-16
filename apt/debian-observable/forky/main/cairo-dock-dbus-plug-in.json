@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cairo-dock-dbus-plug-in",
+	"source": "cairo-dock-plug-ins",
+	"version": "3.5.1-1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libcairo2 (>= 1.8.0)",
+		"libdbus-glib-1-2 (>= 0.88)",
+		"libdbusmenu-glib4 (>= 0.4.2)",
+		"libdbusmenu-gtk3-4 (>= 0.4.2)",
+		"libglib2.0-0t64 (>= 2.80.0)",
+		"libgtk-3-0t64 (>= 3.0.0)",
+		"cairo-dock-plug-in-data (= 3.5.1-1)",
+		"python3:any"
+	],
+	"suggests": [
+		"cairo-dock-dbus-plug-in-interface-python (>= 3.5.1-1)",
+		"cairo-dock-dbus-plug-in-interface-ruby (>= 3.5.1-1)",
+		"cairo-dock-dbus-plug-in-interface-vala (>= 3.5.1-1)"
+	],
+	"replaces": [
+		"cairo-dock-dbus-plugin (<< 2.4.0~2-1)"
+	],
+	"breaks": [
+		"cairo-dock-dbus-plugin (<< 2.4.0~2-1)"
+	],
+	"installedSize": 203,
+	"maintainer": "Debian Cairo-dock Maintainers <team+pkg-cairo-dock-devel@tracker.debian.org>",
+	"description": "Dbus plug-in for Cairo-dock",
+	"homepage": "https://www.glx-dock.org/",
+	"filename": "pool/main/c/cairo-dock-plug-ins/cairo-dock-dbus-plug-in_3.5.1-1_amd64.deb",
+	"size": 56500,
+	"md5": "3d41f6aacf530d2cb87e4b78d5c6d35a",
+	"sha256": "9f0a3dab3e95f56e2d64f9556d1c9b90ca60b7428f7444a44a799bc502fb179e",
+	"descriptionMd5": "806ab0a79a2ffa3a819bb273f028595f"
+}]

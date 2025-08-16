@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "uwsgi-plugin-ruby",
+	"source": "uwsgi-plugin-ruby (0.0.2)",
+	"version": "2.0.29+1+0.0.2+b2",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libruby3.3 (>= 3.3.1)",
+		"uwsgi-abi-3ae50573f15f0ea42634e94ff97c81ba",
+		"ruby-rack"
+	],
+	"replaces": [
+		"uwsgi-plugin-fiber",
+		"uwsgi-plugin-rack-ruby3.1",
+		"uwsgi-plugin-rbthreads"
+	],
+	"conflicts": [
+		"uwsgi-plugin-fiber",
+		"uwsgi-plugin-rack-ruby3.1",
+		"uwsgi-plugin-rbthreads"
+	],
+	"installedSize": 135,
+	"maintainer": "uWSGI packaging team <pkg-uwsgi-devel@lists.alioth.debian.org>",
+	"description": "Ruby plugins for uWSGI",
+	"homepage": "https://uwsgi-docs.readthedocs.io/en/latest/",
+	"filename": "pool/main/u/uwsgi-plugin-ruby/uwsgi-plugin-ruby_2.0.29+1+0.0.2+b2_amd64.deb",
+	"size": 40988,
+	"md5": "8030333f3f0efb88087c9eee21a729a3",
+	"sha256": "47940bd2651dbe8b40ee4e2ab46ecec8772074793cfb97c976607432d4fc1a6c",
+	"descriptionMd5": "871233241c2f8347d4e085c87d57442b"
+}]

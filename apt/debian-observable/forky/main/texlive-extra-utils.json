@@ -1,0 +1,64 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "texlive-extra-utils",
+	"source": "texlive-extra",
+	"version": "2024.20250309-2",
+	"section": "tex",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"tex-common (>= 6.13)",
+		"libfile-homedir-perl",
+		"libunicode-linebreak-perl",
+		"libyaml-tiny-perl",
+		"python3",
+		"texlive-base (>= 2024.20240401)",
+		"texlive-binaries (>= 2024.20240313)",
+		"texlive-latex-base (>= 2024.20240401)",
+		"texlive-luatex (>= 2024.20240401)",
+		"texlive-plain-generic (>= 2024.20240401)"
+	],
+	"recommends": [
+		"ghostscript",
+		"liblog-log4perl-perl",
+		"ruby",
+		"texlive-latex-recommended"
+	],
+	"suggests": [
+		"chktex",
+		"default-jre-headless",
+		"dvidvi",
+		"dvipng",
+		"fragmaster",
+		"lacheck",
+		"latexdiff",
+		"latexmk",
+		"purifyeps",
+		"xindy"
+	],
+	"replaces": [
+		"texlive-base (<< 2020.20200329-2)",
+		"texlive-binaries (<< 2024.20240313.70630+ds-6)",
+		"texlive-font-utils (<< 2019.20200131)",
+		"texlive-lang-japanese (<< 2023.20230613)"
+	],
+	"breaks": [
+		"texlive-base (<< 2024.20240829)",
+		"texlive-binaries (<< 2024.20240313.70630+ds-6)",
+		"texlive-font-utils (<< 2019.20200131)",
+		"texlive-lang-japanese (<< 2023.20230613)"
+	],
+	"installedSize": 82868,
+	"maintainer": "Debian TeX Task Force <debian-tex-maint@lists.debian.org>",
+	"description": "TeX Live: TeX auxiliary programs",
+	"homepage": "http://www.tug.org/texlive/",
+	"filename": "pool/main/t/texlive-extra/texlive-extra-utils_2024.20250309-2_all.deb",
+	"size": 67638004,
+	"md5": "52590ba8b504c2aa7aee46bdac16c2f7",
+	"sha256": "b5b8a13ffc043a975a878f22d078f004cc5d1339cda01be3af255e8f77cb43fe",
+	"descriptionMd5": "452c058a2defd638be42174e329359d3"
+}]

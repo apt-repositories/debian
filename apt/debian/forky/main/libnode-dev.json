@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnode-dev",
+	"source": "nodejs",
+	"version": "20.19.2+dfsg-1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libssl-dev (>= 1.1.1~)",
+		"libuv1-dev (>= 1.33.0~)",
+		"libnode115 (= 20.19.2+dfsg-1)"
+	],
+	"replaces": [
+		"libv8-dev",
+		"nodejs-dev (<< 10.0.0~dfsg1-3)"
+	],
+	"breaks": [
+		"nodejs-dev (<< 10.0.0~dfsg1-3)"
+	],
+	"conflicts": [
+		"libv8-dev (<= 3.14.5.8-11)"
+	],
+	"installedSize": 3700,
+	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>",
+	"description": "evented I/O for V8 javascript (development files)",
+	"homepage": "https://nodejs.org/",
+	"filename": "pool/main/n/nodejs/libnode-dev_20.19.2+dfsg-1_amd64.deb",
+	"size": 535540,
+	"md5": "5f2eeb735771dc78b1c191b38db3282a",
+	"sha256": "14bcd74a8b82d53379b666e32466f2c0d6c7fb3e743bddd44b2cfaa9bd9e5668",
+	"descriptionMd5": "75974f1c9f5486fb656a060b83cecc2d"
+}

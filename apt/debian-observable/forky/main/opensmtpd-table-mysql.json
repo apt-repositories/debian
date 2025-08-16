@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opensmtpd-table-mysql",
+	"source": "opensmtpd-table-mysql (1.2.1-1)",
+	"version": "1.2.1-1+b1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"opensmtpd (>= 7.6.0)",
+		"libc6 (>= 2.38)",
+		"libmariadb3 (>= 3.0.0)"
+	],
+	"replaces": [
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"enhances": [
+		"opensmtpd"
+	],
+	"breaks": [
+		"opensmtpd (<< 7.6.0)",
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"installedSize": 55,
+	"maintainer": "Ryan Kavanagh <rak@debian.org>",
+	"description": "lookup OpenSMTPD users in MySQL or MariaDB tables",
+	"homepage": "https://opensmtpd.org/",
+	"filename": "pool/main/o/opensmtpd-table-mysql/opensmtpd-table-mysql_1.2.1-1+b1_amd64.deb",
+	"size": 16552,
+	"md5": "03741adf518f1c11dff3be42330ea22c",
+	"sha256": "a9275a6030a06f35a9d0fa900decc0083ddf87653a2116bbdd6b7a8487f3ae56",
+	"descriptionMd5": "143d3c7ed7e5338c8f82f1ac262f6b13"
+}]

@@ -1,0 +1,31 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-snapper",
+	"source": "snapper",
+	"version": "0.10.6-1.2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"snapper",
+		"libc6 (>= 2.34)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libpam0g (>= 0.99.7.1)"
+	],
+	"breaks": [
+		"snapper (<< 0.8.11-1)"
+	],
+	"installedSize": 58,
+	"maintainer": "Hideki Yamane <henrich@debian.org>",
+	"description": "PAM module for Linux filesystem snapshot management tool",
+	"homepage": "http://snapper.io/",
+	"filename": "pool/main/s/snapper/libpam-snapper_0.10.6-1.2_amd64.deb",
+	"size": 14340,
+	"md5": "27f3cefcd6fb7c623ef16fa666d56e4e",
+	"sha256": "a0469a03e13121a9a1d746d6f0ed9c564395300a46f114d09027ce734a562d72",
+	"descriptionMd5": "46efe8ad060046e71acb637119d9384e"
+}

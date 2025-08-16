@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dhcpcd-base",
+	"source": "dhcpcd",
+	"version": "1:10.1.0-11",
+	"section": "net",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.38)",
+		"libssl3t64 (>= 3.0.0)",
+		"libudev1 (>= 183)"
+	],
+	"suggests": [
+		"openresolv | resolvconf | systemd-resolved"
+	],
+	"replaces": [
+		"dhcpcd5 (<< 1:10.1.0-11~)"
+	],
+	"breaks": [
+		"dhcpcd5 (<< 1:10.1.0-11~)"
+	],
+	"installedSize": 495,
+	"maintainer": "Martin-Éric Racine <martin-eric.racine@iki.fi>",
+	"description": "DHCPv4 and DHCPv6 dual-stack client (binaries and exit hooks)",
+	"homepage": "https://github.com/NetworkConfiguration/dhcpcd",
+	"filename": "pool/main/d/dhcpcd/dhcpcd-base_10.1.0-11_amd64.deb",
+	"size": 200988,
+	"md5": "3f59407d85fc9a019786904f70918d5a",
+	"sha256": "baea4e7747f0ede3fb69678fe23097c4a0a1fd08d659d387b463ef019e3d7a6b",
+	"descriptionMd5": "9fabc12c92ee2a93e5fbc5a0e6dcd21c"
+}

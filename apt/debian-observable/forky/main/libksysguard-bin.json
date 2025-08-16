@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libksysguard-bin",
+	"source": "libksysguard",
+	"version": "4:6.3.5-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libksysguard-data (= 4:6.3.5-1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libkf6authcore6 (>= 6.10.0~)",
+		"libkf6coreaddons6 (>= 6.10.0~)",
+		"libkf6i18n6 (>= 6.10.0~)",
+		"libnl-3-200 (>= 3.2.7)",
+		"libpcap0.8t64 (>= 1.0.0)",
+		"libprocesscore10 (>= 4:6.1.0)",
+		"libqt6core6t64 (>= 6.8.2)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"replaces": [
+		"ksysguard (<< 4:5.21.80)",
+		"libkf5sysguard-bin"
+	],
+	"breaks": [
+		"ksysguard (<< 4:5.21.80)",
+		"libkf5sysguard-bin"
+	],
+	"installedSize": 256,
+	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
+	"description": "library for system monitoring - utilities",
+	"homepage": "https://invent.kde.org/plasma/libksysguard",
+	"filename": "pool/main/libk/libksysguard/libksysguard-bin_6.3.5-1_amd64.deb",
+	"size": 71592,
+	"md5": "5290ba17892e8391807a066a86cd5701",
+	"sha256": "a6fd69e648becf3124fb54c047d83f177cd51bcc7e52425ab700ecfb89536cc6",
+	"descriptionMd5": "f984ad69cccd51224e3b543236de212f"
+}]

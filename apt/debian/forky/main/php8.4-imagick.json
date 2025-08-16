@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php8.4-imagick",
+	"source": "php-imagick",
+	"version": "3.8.0-2",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"php8.4-common",
+		"phpapi-20240924",
+		"libc6 (>= 2.38)",
+		"libgomp1 (>= 9)",
+		"libmagickcore-7.q16-10 (>= 8:7.1.1.21)",
+		"libmagickwand-7.q16-10 (>= 8:7.1.1.21)"
+	],
+	"preDepends": [
+		"php-common (>= 2:69~)"
+	],
+	"recommends": [
+		"fonts-dejavu-core",
+		"ghostscript"
+	],
+	"replaces": [
+		"php-imagick (<< 3.8.0~)"
+	],
+	"breaks": [
+		"php-imagick (<< 3.8.0~)"
+	],
+	"installedSize": 525,
+	"maintainer": "Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>",
+	"description": "Provides a wrapper to the ImageMagick library",
+	"homepage": "http://pecl.php.net/package/imagick",
+	"filename": "pool/main/p/php-imagick/php8.4-imagick_3.8.0-2_amd64.deb",
+	"size": 104292,
+	"md5": "5d70333ec4b2314b74003ca72ab2a4ac",
+	"sha256": "2668373784b0d050283030a0ed1746a05225260a5503a681ea5812bf233f3b14",
+	"descriptionMd5": "1b0be74175e2a8655593a6b583950eed"
+}

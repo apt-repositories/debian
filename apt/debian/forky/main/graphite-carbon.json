@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "graphite-carbon",
+	"version": "1.1.10-2",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"python3-twisted",
+		"python3-cachetools",
+		"python3-urllib3",
+		"python3-whisper (>= 1.1.4)",
+		"python3-six",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"graphite-web"
+	],
+	"installedSize": 387,
+	"maintainer": "Debian Graphite Group <team+debian-graphite-team@tracker.debian.org>",
+	"description": "backend data caching and persistence daemon for Graphite",
+	"homepage": "https://github.com/graphite-project/carbon",
+	"filename": "pool/main/g/graphite-carbon/graphite-carbon_1.1.10-2_all.deb",
+	"size": 67832,
+	"md5": "0a6974f583ddba1b9ac829ac5f7930b0",
+	"sha256": "5a2a0947cf132b77b0f32920cf402d47dd60d1ed13eb4e7341ea8f1968c4627d",
+	"descriptionMd5": "81181f1ab7b63c53be5b1e2e74416690"
+}

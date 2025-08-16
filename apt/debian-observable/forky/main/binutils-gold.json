@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-gold",
+	"version": "2.44-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-gold-x86-64-linux-gnu (= 2.44-2)"
+	],
+	"replaces": [
+		"binutils (<< 2.43.90)",
+		"binutils-common (<< 2.43.90)"
+	],
+	"breaks": [
+		"binutils (<< 2.43.90)",
+		"binutils-common (<< 2.43.90)"
+	],
+	"conflicts": [
+		"binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3)",
+		"binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3)",
+		"binutils-multiarch (<< 2.27-8)",
+		"modutils (<< 2.4.19-1)"
+	],
+	"installedSize": 955,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "gold ELF linker (deprecated)",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils-gold/binutils-gold_2.44-2_amd64.deb",
+	"size": 202224,
+	"md5": "1059c71d8d39702ba372d8ee134087e0",
+	"sha256": "73e5c04fac3ec2755793fdcbd405e740887f5acb9d0f7f0362b0dccd3eb22b37",
+	"descriptionMd5": "8acd4f6304778a0754c5dda053f547e1"
+}]

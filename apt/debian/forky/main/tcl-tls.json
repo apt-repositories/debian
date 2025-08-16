@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tcl-tls",
+	"source": "tcltls",
+	"version": "1.8.0-2",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libssl3t64 (>= 3.2.0)",
+		"libtcl8.6 (>= 8.6.16+dfsg-1~) | libtcl"
+	],
+	"replaces": [
+		"libtls0",
+		"tcltls"
+	],
+	"conflicts": [
+		"libtls0",
+		"tcltls"
+	],
+	"installedSize": 326,
+	"maintainer": "Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>",
+	"description": "TLS OpenSSL extension to Tcl",
+	"homepage": "https://core.tcl-lang.org/tcltls",
+	"filename": "pool/main/t/tcltls/tcl-tls_1.8.0-2_amd64.deb",
+	"size": 65128,
+	"md5": "c4170c67cbcb45534ee96cef1c6decfa",
+	"sha256": "f5fb002c49b4813e7c33357e6e7171c6424caa938d1566c196fde6cc6397b31f",
+	"descriptionMd5": "3a2c2e9ca9338a6eae0db2c161e18e8f"
+}

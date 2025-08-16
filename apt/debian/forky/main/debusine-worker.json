@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debusine-worker",
+	"source": "debusine",
+	"version": "0.11.3",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"arch-test",
+		"python3-debusine (= 0.11.3)",
+		"udev",
+		"python3:any (>= 3.11~)"
+	],
+	"recommends": [
+		"autopkgtest",
+		"binutils-for-host | binutils-multiarch",
+		"debootstrap",
+		"debvm",
+		"dosfstools",
+		"e2fsprogs",
+		"fdisk",
+		"mmdebstrap",
+		"mount",
+		"mtools",
+		"parted",
+		"qemu-utils",
+		"sbuild",
+		"systemd",
+		"systemd-ukify | systemd (<< 255.1-1)",
+		"uidmap",
+		"xz-utils"
+	],
+	"suggests": [
+		"incus",
+		"qemu-kvm"
+	],
+	"installedSize": 74,
+	"maintainer": "Raphaël Hertzog <raphael@freexian.com>",
+	"description": "Standalone daemon handling work requests for a debusine server",
+	"homepage": "https://salsa.debian.org/freexian-team/debusine",
+	"filename": "pool/main/d/debusine/debusine-worker_0.11.3_all.deb",
+	"size": 21512,
+	"md5": "8463d3b026ad8192678d2360368b6f7d",
+	"sha256": "6a0ef87d11b5454bb30e747dabbe4ec061f7e32409ea9fd8eb64f4db79e08457",
+	"descriptionMd5": "142822e330f542c85667590d4d51e610"
+}

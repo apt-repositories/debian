@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tcmu-runner",
+	"source": "tcmu",
+	"version": "1.5.4-9",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libglib2.0-0t64 (>= 2.38.0)",
+		"libkmod2 (>= 5~)",
+		"librbd1 (>= 12.1.4)",
+		"libtcmu2 (>= 1.5.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 325,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "Daemon that handles the userspace side of the LIO TCM-User backstore",
+	"homepage": "https://github.com/open-iscsi/tcmu-runner",
+	"filename": "pool/main/t/tcmu/tcmu-runner_1.5.4-9_amd64.deb",
+	"size": 94012,
+	"md5": "c82639f53ac20c31ec13317ce02c63c5",
+	"sha256": "3d025d6c66baae801f52f98d4312c69e5f790bf7e398106d487f7421ad6d0014",
+	"descriptionMd5": "145e597bb8213f857ae5d54f860956e6"
+}

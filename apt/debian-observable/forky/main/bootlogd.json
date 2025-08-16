@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bootlogd",
+	"source": "sysvinit",
+	"version": "3.14-4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"sysvinit-utils (>= 3.05-1)",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"manpages-fr (<< 4.15.0-9~)"
+	],
+	"breaks": [
+		"manpages-fr (<< 4.15.0-9~)"
+	],
+	"conflicts": [
+		"plymouth"
+	],
+	"installedSize": 160,
+	"maintainer": "Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>",
+	"description": "daemon to log boot messages",
+	"homepage": "https://github.com/slicer69/sysvinit",
+	"filename": "pool/main/s/sysvinit/bootlogd_3.14-4_amd64.deb",
+	"size": 71464,
+	"md5": "782db465420507345bc2a5898ab59854",
+	"sha256": "b51e693de23b7a85ecb4650bc79d277b7bfcd79640ef14c9ed46c13a61538a87",
+	"descriptionMd5": "bc80b2f9f6a02a2c03f43c25ee93d161"
+}]

@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php8.4-gnupg",
+	"source": "php-gnupg",
+	"version": "1.5.3-1",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ucf",
+		"php8.4-common",
+		"phpapi-20240924",
+		"libc6 (>= 2.14)",
+		"libgpgme11t64 (>= 1.23.2)"
+	],
+	"preDepends": [
+		"php-common (>= 2:69~)"
+	],
+	"replaces": [
+		"php-gnupg (<< 1.5.3~)"
+	],
+	"breaks": [
+		"php-gnupg (<< 1.5.3~)"
+	],
+	"installedSize": 80,
+	"maintainer": "Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>",
+	"description": "PHP wrapper around the gpgme library",
+	"homepage": "https://pecl.php.net/package/gnupg",
+	"filename": "pool/main/p/php-gnupg/php8.4-gnupg_1.5.3-1_amd64.deb",
+	"size": 19888,
+	"md5": "2bccb1d33a8f0d25c2bf9e9add9d0e4c",
+	"sha256": "875ca9ecb1104052ed02f51d89058dc42db99abe210368e7fcfd9c623c5838fd",
+	"descriptionMd5": "390146555a9d62d7c35ba54798d074b0"
+}

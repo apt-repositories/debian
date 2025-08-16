@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libbiometry1",
+	"source": "biometryd",
+	"version": "0.3.1-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libboost-filesystem1.83.0 (>= 1.83.0)",
+		"libboost-program-options1.83.0 (>= 1.83.0)",
+		"libc6 (>= 2.38)",
+		"libdbus-cpp5 (>= 5.0.4)",
+		"libelf1t64 (>= 0.142)",
+		"libgcc-s1 (>= 3.0)",
+		"libprocess-cpp3 (>= 3.0.2)",
+		"libstdc++6 (>= 14)"
+	],
+	"recommends": [
+		"biometryd-bin"
+	],
+	"replaces": [
+		"libiometryd1 (<< 0.0.3~)"
+	],
+	"breaks": [
+		"libbiometryd1 (<< 0.0.3~)"
+	],
+	"installedSize": 1101,
+	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
+	"description": "biometryd mediates/multiplexes to biometric devices - runtime library",
+	"homepage": "https://gitlab.com/ubports/development/core/biometryd/",
+	"filename": "pool/main/b/biometryd/libbiometry1_0.3.1-6_amd64.deb",
+	"size": 274064,
+	"md5": "cf7fdc45dc11bf85873d52f26d000eb7",
+	"sha256": "4e4a4010d46b97ca4be2b017a8ad0be6e13af4223eb4b71427ce8a3ac1154461",
+	"descriptionMd5": "c0e47b13ff10587deca73bb66f3ed12f"
+}]

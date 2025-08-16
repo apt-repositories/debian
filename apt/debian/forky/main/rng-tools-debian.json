@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rng-tools-debian",
+	"version": "2.6",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"sysvinit-utils (>= 3.05-4~)",
+		"udev | makedev"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"intel-rng-tools",
+		"rng-tools"
+	],
+	"breaks": [
+		"rng-tools (>= 5migratf)",
+		"rng-tools (<< 5migrate)"
+	],
+	"conflicts": [
+		"intel-rng-tools",
+		"rng-tools5"
+	],
+	"installedSize": 132,
+	"maintainer": "Thorsten Glaser <tg@mirbsd.de>",
+	"description": "daemon to use a Hardware RNG (classic version)",
+	"filename": "pool/main/r/rng-tools-debian/rng-tools-debian_2.6_amd64.deb",
+	"size": 44600,
+	"md5": "0b9f46481796710281a4094223ee5086",
+	"sha256": "4678c8adec0ef89146c033742289831e0942c69dab671bdab73022bd04195f86",
+	"descriptionMd5": "79886e724d12d4e9ccd765b7cd54dd0d"
+}

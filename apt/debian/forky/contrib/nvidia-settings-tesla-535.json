@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-settings-tesla-535",
+	"version": "535.247.01-2",
+	"section": "contrib/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-tesla-535-alternative",
+		"libc6 (>= 2.38)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0t64 (>= 2.16.0)",
+		"libgtk-3-0t64 (>= 3.0.0)",
+		"libjansson4 (>= 2.14)",
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libwayland-client0 (>= 1.20.0)",
+		"libx11-6 (>= 2:1.4.99.1)",
+		"libxext6",
+		"libxxf86vm1"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"libgl1-nvidia-tesla-535-glvnd-glx",
+		"nvidia-tesla-535-vdpau-driver",
+		"libnvidia-tesla-535-ml1"
+	],
+	"conflicts": [
+		"nvidia-settings-gtk-535.247.01"
+	],
+	"installedSize": 1669,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "tool for configuring the NVIDIA graphics driver (Tesla 535 version)",
+	"homepage": "https://download.nvidia.com/XFree86/nvidia-settings/",
+	"filename": "pool/contrib/n/nvidia-settings-tesla-535/nvidia-settings-tesla-535_535.247.01-2_amd64.deb",
+	"size": 768308,
+	"md5": "a3f662dfe3df608f95e9690c1d49671c",
+	"sha256": "2ac22c42bbb9be01aabf191ff846c612474dec07d0474a2a275cbf4bc4f1987d",
+	"descriptionMd5": "3781fe6412f3ed0de9ac65d2bc68b879"
+}

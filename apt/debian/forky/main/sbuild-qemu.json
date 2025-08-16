@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sbuild-qemu",
+	"source": "sbuild",
+	"version": "0.89.3",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"autopkgtest (>= 5.17~)",
+		"python3-pexpect",
+		"python3-psutil",
+		"qemu-system-x86",
+		"qemu-utils",
+		"sbuild",
+		"vmdb2 (>= 0.22)",
+		"python3:any"
+	],
+	"recommends": [
+		"qemu-system-arm",
+		"qemu-system-ppc"
+	],
+	"replaces": [
+		"qemu-sbuild-utils (<< 0.2.1~)"
+	],
+	"breaks": [
+		"qemu-sbuild-utils (<< 0.2.1~)"
+	],
+	"installedSize": 81,
+	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
+	"description": "Utilities for using sbuild with QEMU images",
+	"filename": "pool/main/s/sbuild/sbuild-qemu_0.89.3_all.deb",
+	"size": 34152,
+	"md5": "8bf86d09cab3d2ce52d1e28a0239cbe9",
+	"sha256": "2fa1539d083e5597ddd486342b41e872805349cfd5660d91651e9d0313614a47",
+	"descriptionMd5": "7760999d8e048bb1a7d2dc08e677650c"
+}

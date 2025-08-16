@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmtp9t64",
+	"source": "libmtp",
+	"version": "1.1.22-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmtp-common",
+		"libc6 (>= 2.14)",
+		"libgcrypt20 (>= 1.11.0)",
+		"libusb-1.0-0 (>= 2:1.0.22)"
+	],
+	"recommends": [
+		"libmtp-runtime",
+		"udev"
+	],
+	"replaces": [
+		"libmtp9"
+	],
+	"breaks": [
+		"libmtp9 (<< 1.1.22-1)"
+	],
+	"installedSize": 641,
+	"maintainer": "Alessio Treglia <alessio@debian.org>",
+	"description": "Media Transfer Protocol (MTP) library",
+	"homepage": "https://libmtp.sourceforge.net/",
+	"filename": "pool/main/libm/libmtp/libmtp9t64_1.1.22-1_amd64.deb",
+	"size": 204848,
+	"md5": "6cfc9577f604034e1722466591d9eb06",
+	"sha256": "7ef1aa4fb9b6c2006f1949759c3abf39fd4d5e9f629d9d611c6d391eea4ce478",
+	"descriptionMd5": "ec2660c24145023b9998ae464417b767"
+}

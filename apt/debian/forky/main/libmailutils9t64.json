@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmailutils9t64",
+	"source": "mailutils",
+	"version": "1:3.19-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mailutils-common (>= 1:3.19-1)",
+		"guile-3.0-libs",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libgsasl18 (>= 1.1)",
+		"libldap2 (>= 2.6.2)",
+		"libltdl7 (>= 2.5.4)",
+		"libmariadb3 (>= 3.0.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpq5",
+		"libpython3.13 (>= 3.13.0~rc3)"
+	],
+	"replaces": [
+		"libmailutils9"
+	],
+	"breaks": [
+		"libmailutils9 (<< 1:3.19-1)"
+	],
+	"installedSize": 2658,
+	"maintainer": "Jordi Mallach <jordi@debian.org>",
+	"description": "GNU Mail abstraction library",
+	"homepage": "https://www.gnu.org/software/mailutils/",
+	"filename": "pool/main/m/mailutils/libmailutils9t64_3.19-1_amd64.deb",
+	"size": 942664,
+	"md5": "bab78551db960797f8083c9c4b7f761c",
+	"sha256": "e89b9bbdef03a8eed39f79c1e807817736133002885f77f227c4c18af3a5f534",
+	"descriptionMd5": "3a19b102336d5639c842ef925f5fa286"
+}

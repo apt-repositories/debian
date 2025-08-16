@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "raspi-firmware",
+	"version": "1.20240424+ds-6",
+	"section": "non-free-firmware/misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dosfstools"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.14)"
+	],
+	"suggests": [
+		"firmware-brcm80211",
+		"firmware-misc-nonfree",
+		"bluez-firmware"
+	],
+	"replaces": [
+		"linux-firmware-raspi3 (<< 1.20161123-2)",
+		"raspi3-firmware (<< 1.20190718-1~)"
+	],
+	"breaks": [
+		"linux-firmware-raspi3 (<< 1.20161123-2)",
+		"raspi3-firmware (<< 1.20190718-1~)"
+	],
+	"installedSize": 22342,
+	"maintainer": "pkg-raspi <pkg-raspi-maintainers@lists.alioth.debian.org>",
+	"description": "Raspberry Pi family GPU firmware and bootloaders",
+	"homepage": "https://github.com/raspberrypi/firmware",
+	"filename": "pool/non-free-firmware/r/raspi-firmware/raspi-firmware_1.20240424+ds-6_all.deb",
+	"size": 4828544,
+	"md5": "026ff4421a76c1ecae6fba9df6406df1",
+	"sha256": "f95a3d3c41df10bac33580be91b595efa1e126ad5e4b7eca75ce26fbbc69af06",
+	"descriptionMd5": "1d52938bf8f18e15a1948e9778a9e310"
+}]

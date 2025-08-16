@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-amazon-sqs-messenger",
+	"source": "symfony",
+	"version": "6.4.21+dfsg-2",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-async-aws-core (>= 1.7)",
+		"php-async-aws-core (<< 2~~)",
+		"php-async-aws-sqs",
+		"php-symfony-messenger",
+		"php-symfony-service-contracts",
+		"php-psr-log"
+	],
+	"breaks": [
+		"php-symfony-http-client-contracts (<< 2.5~~)"
+	],
+	"installedSize": 100,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "Symfony Amazon SQS extension Messenger Bridge",
+	"homepage": "https://symfony.com/doc/6.4/components/messenger.html",
+	"filename": "pool/main/s/symfony/php-symfony-amazon-sqs-messenger_6.4.21+dfsg-2_all.deb",
+	"size": 26276,
+	"md5": "d067ad9df1b1ca51e31c822af175bda9",
+	"sha256": "9c8b29180517edcc508e6e3dbf510a611f76fa0db2cd11eee07f3b51194fede8",
+	"descriptionMd5": "3f28de3802e7ae6866a5974ac9ee4b39"
+}

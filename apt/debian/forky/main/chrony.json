@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "chrony",
+	"version": "4.7-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser (>= 3.130)",
+		"iproute2",
+		"tzdata",
+		"ucf",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libnettle8t64 (>= 3.9~)",
+		"libseccomp2 (>= 2.5.5-2~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"dnsutils",
+		"gpsd",
+		"networkd-dispatcher"
+	],
+	"replaces": [
+		"time-daemon"
+	],
+	"breaks": [
+		"network-manager (<< 1.20.0-1~)"
+	],
+	"conflicts": [
+		"time-daemon"
+	],
+	"installedSize": 696,
+	"maintainer": "Vincent Blut <vincent.debian@free.fr>",
+	"description": "Versatile implementation of the Network Time Protocol",
+	"homepage": "https://chrony-project.org",
+	"filename": "pool/main/c/chrony/chrony_4.7-2_amd64.deb",
+	"size": 315628,
+	"md5": "2486ebb79082a02851f19115d0c232a9",
+	"sha256": "a5013e1f49707b0c67ea63900152b942991eb94b381daa456fa9ba47bae07a41",
+	"descriptionMd5": "9cabd69bfb142e997bb5d5447abe3ddd"
+}

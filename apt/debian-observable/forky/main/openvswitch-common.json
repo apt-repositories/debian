@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvswitch-common",
+	"source": "openvswitch (3.5.0-1)",
+	"version": "3.5.0-1+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openssl",
+		"libbpf1 (>= 1:0.7.0)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libnuma1 (>= 2.0.11)",
+		"libssl3t64 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)",
+		"libxdp1 (>= 1.4.3~)"
+	],
+	"recommends": [
+		"python3:any (>= 3.10~)",
+		"python3-openvswitch (= 3.5.0-1+b1)"
+	],
+	"suggests": [
+		"ethtool",
+		"openvswitch-doc"
+	],
+	"replaces": [
+		"openvswitch-switch (<< 2.13.0~git20200212.15ae9db33-0ubuntu2~)"
+	],
+	"breaks": [
+		"openvswitch-switch (<< 2.13.0~git20200212.15ae9db33-0ubuntu2~)"
+	],
+	"installedSize": 13440,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "Open vSwitch common components",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/main/o/openvswitch/openvswitch-common_3.5.0-1+b1_amd64.deb",
+	"size": 2001716,
+	"md5": "0b886c1f72f4d187e284b714582781b3",
+	"sha256": "80e23f4ca65a634d9c21ef040b1346d69041d7082fc999d5822b8626cbf31083",
+	"descriptionMd5": "592fb336c66a49b36ec2d6b8873eb66a"
+}]
