@@ -5,30 +5,31 @@
 		"Size"
 	],
 	"package": "librust-tokio-uring-dev",
-	"source": "rust-tokio-uring (0.4.0-3)",
-	"version": "0.4.0-3+b2",
+	"source": "rust-tokio-uring",
+	"version": "0.5.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bytes-1+default-dev",
-		"librust-io-uring-0.6+default-dev",
+		"librust-futures-util-0.3+std-dev (>= 0.3.26-~~)",
+		"librust-io-uring-0.7+default-dev",
 		"librust-libc-0.2+default-dev (>= 0.2.80-~~)",
-		"librust-scoped-tls-1+default-dev",
 		"librust-slab-0.4+default-dev (>= 0.4.2-~~)",
 		"librust-socket2-0.5+all-dev",
 		"librust-socket2-0.5+default-dev",
 		"librust-tokio-1+default-dev (>= 1.30-~~)",
 		"librust-tokio-1+net-dev (>= 1.30-~~)",
-		"librust-tokio-1+rt-dev (>= 1.30-~~)"
+		"librust-tokio-1+rt-dev (>= 1.30-~~)",
+		"librust-tokio-1+sync-dev (>= 1.30-~~)"
 	],
-	"installedSize": 288,
+	"installedSize": 466,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Io-uring support for the Tokio asynchronous runtime - Rust source code",
 	"homepage": "https://tokio.rs",
-	"filename": "pool/main/r/rust-tokio-uring/librust-tokio-uring-dev_0.4.0-3+b2_amd64.deb",
-	"size": 51136,
-	"md5": "3cc82f25bb225932d0d8f77e0dd5f11e",
-	"sha256": "338455de7808cab78438dcf0deb5697233d9a844371aa3669d4fec8308bbbc01",
-	"descriptionMd5": "ed45683eb94145c2455e9cb61ee20cac"
+	"filename": "pool/main/r/rust-tokio-uring/librust-tokio-uring-dev_0.5.0-1_amd64.deb",
+	"size": 75816,
+	"md5": "a348701d0fecb1b851e19b1e2c5a9dac",
+	"sha256": "3b2e68fe2bf22eef954882ede92d6a6c48f7a0ab15c8e7a6db0bef9fe9ccef00",
+	"descriptionMd5": "050019249ff03642a64c6939a6288839"
 }
