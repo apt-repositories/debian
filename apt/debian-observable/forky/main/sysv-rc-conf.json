@@ -5,23 +5,25 @@
 		"Size"
 	],
 	"package": "sysv-rc-conf",
-	"version": "0.99-10",
+	"version": "1.1.0-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"libcurses-ui-perl",
-		"sysv-rc",
-		"sysvinit-core",
+		"liblist-utilsby-perl",
 		"perl:any"
 	],
-	"installedSize": 59,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"recommends": [
+		"sysv-rc"
+	],
+	"installedSize": 120,
+	"maintainer": "Andrew Bower <andrew@bower.uk>",
 	"description": "SysV init runlevel configuration tool for the terminal",
-	"homepage": "https://sourceforge.net/projects/sysv-rc-conf/",
-	"filename": "pool/main/s/sysv-rc-conf/sysv-rc-conf_0.99-10_all.deb",
-	"size": 21564,
-	"md5": "05a66f7eadb60be781fd4eb6b6b30306",
-	"sha256": "dc700c0dfcb0ed1ef86047f954c9b266a8c3f71f6021e3311c1a512b03a33393",
-	"descriptionMd5": "e60c4e7b58e7196a47a76883428c55cd"
+	"homepage": "https://gitlab.com/abower/sysv-rc-conf",
+	"filename": "pool/main/s/sysv-rc-conf/sysv-rc-conf_1.1.0-1_all.deb",
+	"size": 40844,
+	"md5": "df494dda713db95e266e400048b56b33",
+	"sha256": "fcca661c6d6a6216a1371cce913076c47e6cb0568f1ad3ce1a82616bb6d5635a",
+	"descriptionMd5": "ec8530848ffb0af4bc4a186bcc8250a4"
 }]

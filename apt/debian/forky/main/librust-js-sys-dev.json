@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "librust-js-sys-dev",
-	"source": "rust-js-sys (0.3.64-1)",
-	"version": "0.3.64-1+b2",
+	"source": "rust-js-sys",
+	"version": "0.3.77-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-wasm-bindgen-0.2+default-dev (>= 0.2.87-~~)"
+		"librust-once-cell-1-dev (>= 1.12-~~)",
+		"librust-wasm-bindgen-0.2+std-dev (<< 0.2.101-~~)",
+		"librust-wasm-bindgen-0.2+std-dev (>= 0.2.100-~~)",
+		"librust-wasm-bindgen-0.2-dev (<< 0.2.101-~~)",
+		"librust-wasm-bindgen-0.2-dev (>= 0.2.100-~~)"
 	],
-	"installedSize": 561,
+	"installedSize": 385,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Bindings for JS global objects and functions - Rust source code",
 	"homepage": "https://rustwasm.github.io/wasm-bindgen/",
-	"filename": "pool/main/r/rust-js-sys/librust-js-sys-dev_0.3.64-1+b2_amd64.deb",
-	"size": 71780,
-	"md5": "2d11c466407196c6d47df7ad9e824800",
-	"sha256": "91d5e7196ee5fd49db740af9729492577aab3ae98e030718c821ebb1c9eb2ad7",
-	"descriptionMd5": "c8e40b5a57364ca66e4d51a0a392f4d2"
+	"filename": "pool/main/r/rust-js-sys/librust-js-sys-dev_0.3.77-1_amd64.deb",
+	"size": 48348,
+	"md5": "e9c68b29176870865bf071592c0f5ffa",
+	"sha256": "ef27b9caeaa81d9960dd7b28702e913ae47ec89e21a947bd1fa6946a03eca242",
+	"descriptionMd5": "f5484f36f9415ce07ad20de66b374fb2"
 }

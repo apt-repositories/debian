@@ -6,12 +6,11 @@
 	],
 	"package": "git-debpush",
 	"source": "dgit",
-	"version": "13.11",
+	"version": "13.12",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"devscripts",
 		"git",
 		"gnupg",
 		"libgit-wrapper-perl",
@@ -20,12 +19,15 @@
 		"libstring-shellquote-perl",
 		"libtry-tiny-perl"
 	],
-	"installedSize": 81,
+	"replaces": [
+		"devscripts (<< 2.25.18)"
+	],
+	"installedSize": 113,
 	"maintainer": "Debian tag2upload Delegates <dgit-owner@debian.org>",
 	"description": "client script for git pushing to Debian-style archives",
-	"filename": "pool/main/d/dgit/git-debpush_13.11_all.deb",
-	"size": 45084,
-	"md5": "e55a27263f476752ab5ca1d8c458483b",
-	"sha256": "256d2f441c7b39fb3b887007ff413369663776f5bbe27029d634eb6ef723d315",
-	"descriptionMd5": "f81a25b032f095406615f34eb49d78cb"
+	"filename": "pool/main/d/dgit/git-debpush_13.12_all.deb",
+	"size": 57412,
+	"md5": "24702500469f1b5fe9c99296b44d7ed0",
+	"sha256": "49e3ccf0ae0fb67a5566b186d7b6fe67f606a428247b2b5c06c0c820efb3e7a9",
+	"descriptionMd5": "105ec8f4a6cd42b7b9240815a87a8f8d"
 }

@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "nm-connection-editor",
-	"source": "network-manager-applet (1.36.0-3)",
-	"version": "1.36.0-3+b1",
+	"source": "network-manager-applet",
+	"version": "1.36.0-4",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,19 +22,22 @@
 		"policykit-1-gnome | polkit-1-auth-agent",
 		"default-dbus-session-bus | dbus-session-bus"
 	],
+	"recommends": [
+		"mobile-broadband-provider-info"
+	],
 	"replaces": [
 		"network-manager-gnome (<< 1.36.0-3~)"
 	],
 	"breaks": [
 		"network-manager-gnome (<< 1.36.0-3~)"
 	],
-	"installedSize": 5316,
+	"installedSize": 5495,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "network management framework (connection configuration editor)",
 	"homepage": "https://networkmanager.dev",
-	"filename": "pool/main/n/network-manager-applet/nm-connection-editor_1.36.0-3+b1_amd64.deb",
-	"size": 816288,
-	"md5": "91d7e5afc294c1afbc606a4f255e67f0",
-	"sha256": "4aba2adc41783e3837c6f404da637294c2b5bfd32340216c2995a09e9211674a",
+	"filename": "pool/main/n/network-manager-applet/nm-connection-editor_1.36.0-4_amd64.deb",
+	"size": 818292,
+	"md5": "9138d4e391650b7d08f85fa8748bd5dd",
+	"sha256": "5519dbdb2cc6e2943fd49a52dd2059b82e751b03eb7433d67d5509d720afb491",
 	"descriptionMd5": "0e1228d9edf8376292d47d08cc00cc59"
 }]
