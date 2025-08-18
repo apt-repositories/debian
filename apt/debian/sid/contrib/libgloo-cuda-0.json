@@ -6,7 +6,7 @@
 	],
 	"package": "libgloo-cuda-0",
 	"source": "gloo-cuda",
-	"version": "0.0~git20231202.5354032-4",
+	"version": "0.0~git20231202.5354032-5",
 	"section": "contrib/libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,8 +17,9 @@
 		"libhiredis1.1.0 (>= 1.2.0)",
 		"libibverbs1 (>= 1.1.6)",
 		"libnccl2 (>= 2.16.5)",
-		"libopenmpi40 (>= 5.0.6)",
-		"libstdc++6 (>= 12)"
+		"libopenmpi40 (>= 5.0.7)",
+		"libstdc++6 (>= 13.1)",
+		"libuv1t64 (>= 1.18.0)"
 	],
 	"replaces": [
 		"libgloo0"
@@ -26,13 +27,13 @@
 	"conflicts": [
 		"libgloo0"
 	],
-	"installedSize": 2593,
+	"installedSize": 2901,
 	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
 	"description": "Collective communications library (shared object)",
 	"homepage": "https://github.com/facebookincubator/gloo",
-	"filename": "pool/contrib/g/gloo-cuda/libgloo-cuda-0_0.0~git20231202.5354032-4_amd64.deb",
-	"size": 453412,
-	"md5": "4042b8b25b02f1775a57fbca2e586036",
-	"sha256": "6b9883e510eb1f4173b6d21ab73d8aff0e5173fb7f1f97ce1238ce1ff761fac9",
+	"filename": "pool/contrib/g/gloo-cuda/libgloo-cuda-0_0.0~git20231202.5354032-5_amd64.deb",
+	"size": 510344,
+	"md5": "3b798d0a56cb578a148cc0f9c5d34ee4",
+	"sha256": "2be0d4ef47d17d62281323c8bdd128965410af1b89846a2030f6221a1026cc54",
 	"descriptionMd5": "11fe5b4bb9197845522ecac87176ae15"
 }

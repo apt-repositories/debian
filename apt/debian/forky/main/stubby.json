@@ -6,25 +6,33 @@
 	],
 	"package": "stubby",
 	"source": "getdns",
-	"version": "1.6.0-3.2",
+	"version": "1.7.3-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libgetdns10t64 (= 1.6.0-3.2)",
+		"libgetdns10t64 (= 1.7.3-2)",
+		"runit-helper (>= 2.14.0~)",
 		"libc6 (>= 2.38)",
 		"libidn2-0 (>= 2.0.0)",
-		"libssl3t64 (>= 3.0.0)",
+		"libssl3t64 (>= 3.4.0)",
+		"libsystemd0",
 		"libunbound8 (>= 1.8.0)",
 		"libyaml-0-2"
 	],
-	"installedSize": 594,
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-51~)"
+	],
+	"installedSize": 640,
 	"maintainer": "getdns packagers <getdns@packages.debian.org>",
 	"description": "modern asynchronous DNS API (stub resolver)",
 	"homepage": "https://getdnsapi.net/",
-	"filename": "pool/main/g/getdns/stubby_1.6.0-3.2_amd64.deb",
-	"size": 212420,
-	"md5": "4f11c8afa48f82a0d65cad0cb9250706",
-	"sha256": "20a8fa0ea878909abe6e4c9c8872129aca96fea8f561ee3e0b128b3107790bd3",
+	"filename": "pool/main/g/getdns/stubby_1.7.3-2_amd64.deb",
+	"size": 222320,
+	"md5": "31b7a76ab86528c254a4dc64b9665b17",
+	"sha256": "4560b84c266952ef90d6f7b160d3ed5d03bd07bda58c827d31d30dc94ce572b6",
 	"descriptionMd5": "bc98f2b43cb916f83d10bc959a8bf9b0"
 }
