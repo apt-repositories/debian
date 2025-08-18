@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gccgo-15-i686-linux-gnu",
+	"source": "gcc-15-cross (9)",
+	"version": "15.2.0-1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-15-i686-linux-gnu-base (= 15.2.0-1cross1)",
+		"gcc-15-i686-linux-gnu (= 15.2.0-1cross1)",
+		"libgo-15-dev-i386-cross (>= 15)",
+		"libc6-dev-i386-cross (>= 2.23-1~)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gccgo-15-doc"
+	],
+	"replaces": [
+		"libgo12-i386-cross (<< 8-20171209-2)"
+	],
+	"breaks": [
+		"libgo12-i386-cross (<< 8-20171209-2)"
+	],
+	"conflicts": [
+		"golang-go (<< 2:1.3.3-1ubuntu2)"
+	],
+	"installedSize": 378858,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Go compiler for the i686-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-1)",
+	"filename": "pool/main/g/gcc-15-cross/gccgo-15-i686-linux-gnu_15.2.0-1cross1_amd64.deb",
+	"size": 90582812,
+	"md5": "43d136d92742f1c51dfbb418bd8aa7ef",
+	"sha256": "ad8b3851fe8a20c8dbc7a815abd9c6c6e5720b7d91c590c5c7cf1d21a5bd4304",
+	"descriptionMd5": "476b8ef19f68a3705287682de1e1d740"
+}

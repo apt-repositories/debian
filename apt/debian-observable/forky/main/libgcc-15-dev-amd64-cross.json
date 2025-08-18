@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-15-dev-amd64-cross",
+	"source": "gcc-15-cross (9)",
+	"version": "15.2.0-1cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-15-cross-base (>= 15.2.0-1)",
+		"libgcc-s1-amd64-cross (>= 15.2.0-1cross1)",
+		"libgomp1-amd64-cross (>= 15.2.0-1cross1)",
+		"libitm1-amd64-cross (>= 15.2.0-1cross1)",
+		"libatomic1-amd64-cross (>= 15.2.0-1cross1)",
+		"libasan8-amd64-cross (>= 15.2.0-1cross1)",
+		"liblsan0-amd64-cross (>= 15.2.0-1cross1)",
+		"libtsan2-amd64-cross (>= 15.2.0-1cross1)",
+		"libubsan1-amd64-cross (>= 15.2.0-1cross1)",
+		"libhwasan0-amd64-cross (>= 15.2.0-1cross1)",
+		"libquadmath0-amd64-cross (>= 15.2.0-1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-amd64-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-amd64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-amd64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 17955,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-1)",
+	"filename": "pool/main/g/gcc-15-cross/libgcc-15-dev-amd64-cross_15.2.0-1cross1_all.deb",
+	"size": 2705420,
+	"md5": "8f83e1f5b2e083b879a8e9a22526243f",
+	"sha256": "59ccfb3d5d803058e1e11c3639bf98ef3672b5a3868c186134d9cbfcc42fee54",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

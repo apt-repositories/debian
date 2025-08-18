@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-15-dev-m68k-cross",
+	"source": "gcc-15-cross-ports (8)",
+	"version": "15.2.0-1cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-15-cross-base-ports (= 15.2.0-1cross1)",
+		"libgcc-s2-m68k-cross (>= 15.2.0-1cross1)",
+		"libgomp1-m68k-cross (>= 15.2.0-1cross1)",
+		"libatomic1-m68k-cross (>= 15.2.0-1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-m68k-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-m68k-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-m68k-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 766,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-1)",
+	"filename": "pool/main/g/gcc-15-cross-ports/libgcc-15-dev-m68k-cross_15.2.0-1cross1_all.deb",
+	"size": 181052,
+	"md5": "e02126d587f5722d1459393765bbf7d5",
+	"sha256": "f4fd4b8af90704af5f03b41ad025898343ba7347f795645e7d81ad2e6e2a09ab",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]
