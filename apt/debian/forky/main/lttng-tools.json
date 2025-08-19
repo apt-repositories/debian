@@ -5,20 +5,22 @@
 		"Size"
 	],
 	"package": "lttng-tools",
-	"source": "ltt-control",
-	"version": "2.13.15-2",
+	"source": "ltt-control (2.14.0-1)",
+	"version": "2.14.0-1+b1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
 		"libkmod2 (>= 5~)",
-		"liblttng-ctl0t64 (>= 2.13.1)",
-		"liblttng-ust-common1t64 (>= 2.13.0)",
-		"liblttng-ust-ctl5t64 (>= 2.13.0)",
+		"liblttng-ctl0t64 (>= 2.14.0)",
+		"liblttng-ust-common1t64 (>= 2.14.0~)",
+		"liblttng-ust-ctl6 (>= 2.14.0)",
 		"libpopt0 (>= 1.14)",
+		"libstdc++6 (>= 14)",
 		"liburcu8t64 (>= 0.13.0)",
-		"libxml2 (>= 2.7.6~)"
+		"libxml2-16 (>= 2.14.1)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -29,13 +31,13 @@
 	"suggests": [
 		"lttng-modules-dkms"
 	],
-	"installedSize": 4539,
+	"installedSize": 5939,
 	"maintainer": "Jon Bernard <jbernard@debian.org>",
 	"description": "LTTng control and utility programs",
 	"homepage": "https://lttng.org/",
-	"filename": "pool/main/l/ltt-control/lttng-tools_2.13.15-2_amd64.deb",
-	"size": 1252604,
-	"md5": "55a3a1f477d8ae86ed4c37af677268be",
-	"sha256": "6adfbbf065be97d1b26b546abc4abb95a89aeb9ded1b03ce0450a2e027959aeb",
+	"filename": "pool/main/l/ltt-control/lttng-tools_2.14.0-1+b1_amd64.deb",
+	"size": 1531140,
+	"md5": "a0b09a2515df5babbeee3b1c9f4c4ef8",
+	"sha256": "d4bb439ca32ca75d54c6c78248f765cc9c3ee695c30d2f83c7c10237d5766ae2",
 	"descriptionMd5": "7b1ddadc5c0e006d514c38704904991e"
 }

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "tkrev",
-	"version": "9.6.1-2",
+	"version": "9.6.1-3",
 	"section": "vcs",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,19 +14,25 @@
 		"fonts-dejavu",
 		"sensible-utils",
 		"tk (>= 8.6)",
-		"tkdiff (= 6.0~9.6.1-2)"
+		"tkdiff (= 6.0~9.6.1-3)"
 	],
 	"recommends": [
 		"dirdiff",
 		"xterm | x-terminal-emulator"
 	],
+	"replaces": [
+		"tkcvs (<< 9.4)"
+	],
+	"breaks": [
+		"tkcvs (<< 9.4)"
+	],
 	"installedSize": 1094,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Graphical front-end to CVS, Subversion, GIT, RCS",
 	"homepage": "https://sourceforge.net/projects/tkcvs/",
-	"filename": "pool/main/t/tkrev/tkrev_9.6.1-2_all.deb",
-	"size": 255832,
-	"md5": "a37b6f2906e05a8285b1d0ca3020e33c",
-	"sha256": "5ed4792148add5903e2879a4d056e1131a55c840342b1e56039f5117d9425efe",
+	"filename": "pool/main/t/tkrev/tkrev_9.6.1-3_all.deb",
+	"size": 255912,
+	"md5": "4669353c4a01716edd6182e5fffdcaec",
+	"sha256": "10ed14aa31f49ff05cd89d9f5da7749703ad3c85894bf6e6fa3bcc801890b02d",
 	"descriptionMd5": "f3d6a46238e0758b7c9eea9213bd44ea"
 }]

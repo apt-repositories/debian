@@ -6,25 +6,30 @@
 	],
 	"package": "python3-jupyter-sphinx",
 	"source": "jupyter-sphinx",
-	"version": "0.3.2-2",
+	"version": "0.5.3-2",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"libjs-requirejs",
+		"python3-ipykernel (>= 4.5.1)",
 		"python3-ipython",
-		"python3-ipywidgets",
-		"python3-nbconvert",
+		"python3-ipywidgets (>= 7)",
+		"python3-nbconvert (>= 5.5)",
 		"python3-nbformat",
-		"python3-sphinx",
+		"python3-sphinx (>= 7)",
 		"python3:any"
 	],
-	"installedSize": 74,
+	"suggests": [
+		"python-jupyter-sphinx-doc"
+	],
+	"installedSize": 83,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Jupyter Sphinx Extension - Python3",
 	"homepage": "https://github.com/jupyter/jupyter-sphinx",
-	"filename": "pool/main/j/jupyter-sphinx/python3-jupyter-sphinx_0.3.2-2_all.deb",
-	"size": 17164,
-	"md5": "becb793dcd406529a968aa1314997ecd",
-	"sha256": "30bb11a761ee31e87b3a9f01bf98c1ee636d4887d6e46bf23b6f91a15977d34c",
-	"descriptionMd5": "aad3257db603d4b9e9bce980533f61d7"
+	"filename": "pool/main/j/jupyter-sphinx/python3-jupyter-sphinx_0.5.3-2_all.deb",
+	"size": 19056,
+	"md5": "0032c2ae4cf92e62cfa83d74e2362228",
+	"sha256": "9da3eaf8b1e77fd4874442afa3554ffddc31f4b543b5bc0d6418b9849688b3dd",
+	"descriptionMd5": "dc261f069b4a75c71c769c5cf0fa66e8"
 }

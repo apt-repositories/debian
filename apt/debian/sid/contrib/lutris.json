@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "lutris",
-	"version": "0.5.19-2",
+	"version": "0.5.19-3",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,7 +14,6 @@
 		"7zip",
 		"cabextract",
 		"curl",
-		"fluid-soundfont-gs",
 		"gir1.2-gtk-3.0",
 		"gir1.2-notify-0.7",
 		"gir1.2-webkit2-4.1",
@@ -40,19 +39,22 @@
 		"gvfs-backends",
 		"libwine-development | libwine",
 		"winetricks",
-		"fluidsynth",
 		"xdg-desktop-portal",
 		"xdg-desktop-portal-gtk | xdg-desktop-portal-kde",
 		"gamemode",
 		"gamescope"
 	],
-	"installedSize": 5149,
+	"suggests": [
+		"fluid-soundfont-gs",
+		"fluidsynth"
+	],
+	"installedSize": 5148,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "video game preservation platform",
 	"homepage": "https://lutris.net",
-	"filename": "pool/contrib/l/lutris/lutris_0.5.19-2_all.deb",
-	"size": 1069180,
-	"md5": "a87fe32ee0dd0452c21c373b250816ba",
-	"sha256": "cdf579024fccad55cd54614721f5bf901f331e4e9466f79b31c0c9c2da02e97d",
+	"filename": "pool/contrib/l/lutris/lutris_0.5.19-3_all.deb",
+	"size": 1069244,
+	"md5": "2b381749f31cee01b5ac3f3f5ccc97ee",
+	"sha256": "8daf2859f57ecbfa1916df18a348c29fcb869597909d97ad120bd8371bb1c730",
 	"descriptionMd5": "20699e375b114ef44842ce4060474a27"
 }

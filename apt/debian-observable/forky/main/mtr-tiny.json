@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "mtr-tiny",
-	"source": "mtr (0.95-1.1)",
-	"version": "0.95-1.1+b1",
+	"source": "mtr",
+	"version": "0.96-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
 		"libjansson4 (>= 2.14)",
-		"libncurses6 (>= 6)",
+		"libncursesw6 (>= 6)",
 		"libtinfo6 (>= 6)"
 	],
 	"replaces": [
@@ -23,13 +24,13 @@
 		"mtr",
 		"suidmanager (<< 0.50)"
 	],
-	"installedSize": 157,
+	"installedSize": 181,
 	"maintainer": "Robert Woodcock <rcw@debian.org>",
 	"description": "Full screen ncurses traceroute tool",
 	"homepage": "https://www.bitwizard.nl/mtr/",
-	"filename": "pool/main/m/mtr/mtr-tiny_0.95-1.1+b1_amd64.deb",
-	"size": 67668,
-	"md5": "1de0b043a84a683009a02b354e5ba168",
-	"sha256": "4c1c39da74bbd1fa77ef7d5cb15dcf7ed28b5553ee620bc92c62b27c89269b1e",
+	"filename": "pool/main/m/mtr/mtr-tiny_0.96-1_amd64.deb",
+	"size": 71172,
+	"md5": "221b0dace06e977ca0ad89f167c86631",
+	"sha256": "3518d94962a2a9628b681d6ac74c01e776f4ef271b694231c13d44c405617e13",
 	"descriptionMd5": "1bfbca08bdef8b364895eace26dac3e1"
 }]
