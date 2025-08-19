@@ -5,18 +5,18 @@
 		"Size"
 	],
 	"package": "mtr",
-	"source": "mtr (0.95-1.1)",
-	"version": "0.95-1.1+b1",
+	"version": "0.96-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
 		"libglib2.0-0t64 (>= 2.12.0)",
 		"libgtk-3-0t64 (>= 3.21.5)",
 		"libjansson4 (>= 2.14)",
-		"libncurses6 (>= 6)",
+		"libncursesw6 (>= 6)",
 		"libtinfo6 (>= 6)"
 	],
 	"replaces": [
@@ -26,13 +26,13 @@
 		"mtr-tiny",
 		"suidmanager (<< 0.50)"
 	],
-	"installedSize": 210,
+	"installedSize": 230,
 	"maintainer": "Robert Woodcock <rcw@debian.org>",
 	"description": "Full screen ncurses and X11 traceroute tool",
 	"homepage": "https://www.bitwizard.nl/mtr/",
-	"filename": "pool/main/m/mtr/mtr_0.95-1.1+b1_amd64.deb",
-	"size": 83376,
-	"md5": "2b1a557527f226350795a42a8600e9e8",
-	"sha256": "ae411ad872496478cad59292302ae4b875098df583fc033cdeeb60322ea8b567",
+	"filename": "pool/main/m/mtr/mtr_0.96-1_amd64.deb",
+	"size": 87472,
+	"md5": "e1c7d605c4576544c6cb8ec8883a04bd",
+	"sha256": "93d6da6b345a730dc3020ff1654fca3eb926ba2d491e6202ca7e58bb330eefbe",
 	"descriptionMd5": "54a77efbbccea4575d5a174a6e182d79"
 }

@@ -5,27 +5,29 @@
 		"Size"
 	],
 	"package": "librust-getrandom-dev",
-	"source": "rust-getrandom",
-	"version": "0.2.15-1",
+	"source": "rust-getrandom (0.2.15-3)",
+	"version": "0.2.15-3+b1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cfg-if-1+default-dev",
-		"librust-libc-0.2-dev (>= 0.2.154-~~)"
+		"librust-compiler-builtins-0.1+default-dev",
+		"librust-js-sys-0.3+default-dev",
+		"librust-libc-0.2+rustc-dep-of-std-dev (>= 0.2.154-~~)",
+		"librust-libc-0.2-dev (>= 0.2.154-~~)",
+		"librust-rustc-std-workspace-core-1+default-dev",
+		"librust-wasm-bindgen-0.2-dev (>= 0.2.62-~~)",
+		"librust-js-sys-dev",
+		"librust-wasm-bindgen-dev"
 	],
-	"suggests": [
-		"librust-getrandom+compiler-builtins-dev (= 0.2.15-1)",
-		"librust-getrandom+core-dev (= 0.2.15-1)",
-		"librust-getrandom+rustc-dep-of-std-dev (= 0.2.15-1)"
-	],
-	"installedSize": 163,
+	"installedSize": 164,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Retrieve random data from system source - Rust source code",
 	"homepage": "https://github.com/rust-random/getrandom",
-	"filename": "pool/main/r/rust-getrandom/librust-getrandom-dev_0.2.15-1_amd64.deb",
-	"size": 41928,
-	"md5": "925ae3005212b0625a4a88bb6af62e83",
-	"sha256": "560078fc11fed0fc30196c33754bfefd14756b480c489cc823f69ee61a9bd6d4",
+	"filename": "pool/main/r/rust-getrandom/librust-getrandom-dev_0.2.15-3+b1_amd64.deb",
+	"size": 42412,
+	"md5": "bb2e94c63eff71f9be5a5de35153fa57",
+	"sha256": "a1793b2f1a6cdeedd8fa5044ce5cd5cfc9d65361fa7caf90652db6b5ced2a67d",
 	"descriptionMd5": "b7468bf8f9d77baaaa127fff3c657248"
 }]

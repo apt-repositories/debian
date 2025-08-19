@@ -5,28 +5,30 @@
 		"Size"
 	],
 	"package": "liblttng-ctl0t64",
-	"source": "ltt-control",
-	"version": "2.13.15-2",
+	"source": "ltt-control (2.14.0-1)",
+	"version": "2.14.0-1+b1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libxml2 (>= 2.7.6~)"
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 13.1)",
+		"libxml2-16 (>= 2.14.1)"
 	],
 	"replaces": [
 		"liblttng-ctl0"
 	],
 	"breaks": [
-		"liblttng-ctl0 (<< 2.13.15-2)"
+		"liblttng-ctl0 (<< 2.14.0-1)"
 	],
-	"installedSize": 915,
+	"installedSize": 1107,
 	"maintainer": "Jon Bernard <jbernard@debian.org>",
 	"description": "LTTng control and utility library",
 	"homepage": "https://lttng.org/",
-	"filename": "pool/main/l/ltt-control/liblttng-ctl0t64_2.13.15-2_amd64.deb",
-	"size": 317968,
-	"md5": "50caafb7a280d70100c33d645a10bb68",
-	"sha256": "347138f0de7c3f91701a6c56fac8ce9f115b642b6446ca8ced383505da39cc57",
+	"filename": "pool/main/l/ltt-control/liblttng-ctl0t64_2.14.0-1+b1_amd64.deb",
+	"size": 335008,
+	"md5": "8033ebf20c4f6b9b8bffd7dbb26a697a",
+	"sha256": "74bd93e61fb413df67d0673d851c63eee029b2b6a8824daba9267d853c87bb55",
 	"descriptionMd5": "f22c86813321509ad0d8b771b8b2cb17"
 }]
