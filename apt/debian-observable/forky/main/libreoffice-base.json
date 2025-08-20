@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-base",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc4-2",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:25.2.3-2)",
-		"libreoffice-base-drivers (= 4:25.2.3-2)",
-		"libreoffice-core (= 4:25.2.3-2)",
-		"libreoffice-uiconfig-base (= 4:25.2.3-2)",
+		"libreoffice-base-core (= 4:25.8.0~rc4-2)",
+		"libreoffice-base-drivers (= 4:25.8.0~rc4-2)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core (= 4:25.8.0~rc4-2)",
+		"libreoffice-uiconfig-base (= 4:25.8.0~rc4-2)",
 		"libc6 (>= 2.35)",
 		"libgcc-s1 (>= 3.3.1)",
+		"libreoffice-sal-private-abi (= 25.8.0)",
 		"libstdc++6 (>= 11)",
 		"libuno-cppu3t64 (>= 4.4.0~alpha)",
 		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
@@ -24,13 +26,9 @@
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
 	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
-	],
 	"recommends": [
 		"libreoffice-writer",
-		"libreoffice-java-common (>= 4:25.2.3~)",
+		"libreoffice-java-common (>= 4:25.8.0~rc4~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"suggests": [
@@ -44,13 +42,13 @@
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 5047,
+	"installedSize": 5046,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- database",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-base_25.2.3-2_amd64.deb",
-	"size": 1394500,
-	"md5": "63168d7f454367c89a0558493782458b",
-	"sha256": "df3de0c9b2ee2785c5fe88415e8954c001db53b625959c81e1839b50a5bb2b41",
+	"filename": "pool/main/libr/libreoffice/libreoffice-base_25.8.0~rc4-2_amd64.deb",
+	"size": 1397860,
+	"md5": "9dad0c01d48f2a46752d0785f20785a3",
+	"sha256": "2b5a87192a899bfa9b10137b9cff6bfb3ba6cf90d082e4e431a06d9fcb156641",
 	"descriptionMd5": "5529fff5c628ca6b70284749063daea4"
 }]

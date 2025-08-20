@@ -6,27 +6,24 @@
 	],
 	"package": "libreoffice-sdbc-hsqldb",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc4-2",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libreoffice-core-nogui | libreoffice-core",
-		"libreoffice-java-common (>= 4:25.2.3~)",
+		"libreoffice-java-common (>= 4:25.8.0~rc4~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre",
 		"libhsqldb1.8.0-java",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.3.1)",
+		"libreoffice-sal-private-abi (= 25.8.0)",
 		"libstdc++6 (>= 11)",
 		"libuno-cppu3t64 (>= 4.4.0~alpha)",
-		"libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
 		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
-	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"replaces": [
 		"libreoffice-common (= 4:24.8.5-1)"
@@ -38,9 +35,9 @@
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "embedded HSQLDB SDBC driver for LibreOffice",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-sdbc-hsqldb_25.2.3-2_amd64.deb",
-	"size": 151012,
-	"md5": "dfd9af61b8c2d462508ece78a4dfcc91",
-	"sha256": "57233c09219409a47a7bad644d26632b4a3ccbc69a4cd5304b59b09511b32bc3",
+	"filename": "pool/main/libr/libreoffice/libreoffice-sdbc-hsqldb_25.8.0~rc4-2_amd64.deb",
+	"size": 152024,
+	"md5": "4a87647a11412d3b2a7e926fcb011e04",
+	"sha256": "e8fcb761dfe9761d15465523e40b5cf805052363d428d5f2e6258c245ee68cbe",
 	"descriptionMd5": "6f134726a575672413c47417341a5e32"
 }

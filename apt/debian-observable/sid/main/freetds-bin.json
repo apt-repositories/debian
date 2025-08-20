@@ -6,11 +6,12 @@
 	],
 	"package": "freetds-bin",
 	"source": "freetds",
-	"version": "1.5.2+ds-1",
+	"version": "1.5.4+ds-1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"freetds-common",
 		"libc6 (>= 2.38)",
 		"libgmp10 (>= 2:6.3.0+dfsg)",
 		"libgnutls30t64 (>= 3.8.1)",
@@ -19,19 +20,18 @@
 		"libnettle8t64",
 		"libodbc2 (>= 2.3.1)",
 		"libreadline8t64 (>= 6.0)",
-		"libsybdb5 (>= 1.00.82)",
-		"freetds-common"
+		"libsybdb5 (>= 1.00.82)"
 	],
 	"suggests": [
 		"freetds-doc"
 	],
-	"installedSize": 868,
+	"installedSize": 869,
 	"maintainer": "Joseph Nahmias <jello@debian.org>",
 	"description": "FreeTDS command-line utilities",
 	"homepage": "http://www.freetds.org/",
-	"filename": "pool/main/f/freetds/freetds-bin_1.5.2+ds-1_amd64.deb",
-	"size": 224412,
-	"md5": "57bf4d5e0c6c3304f3aefcfa4e79c612",
-	"sha256": "2246eab4f485ab8ebd67cc74c4bc8cee9757ea6d6634247c2bf6bed013d7460f",
+	"filename": "pool/main/f/freetds/freetds-bin_1.5.4+ds-1_amd64.deb",
+	"size": 224736,
+	"md5": "3f92222a34513e73f00ed1bd0b9ac78e",
+	"sha256": "9c5a02c125c6a7f30b1112ceb87768a7c342c307b57bd094fe68290488831622",
 	"descriptionMd5": "ecc81bdba70ea8f8a0ff19107655f93a"
 }]
