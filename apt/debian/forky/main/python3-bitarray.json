@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "python3-bitarray",
-	"source": "python-bitarray (2.9.2-1)",
-	"version": "2.9.2-1+b3",
+	"source": "python-bitarray",
+	"version": "3.6.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,16 @@
 		"python3:any",
 		"libc6 (>= 2.14)"
 	],
-	"installedSize": 724,
+	"breaks": [
+		"python3-bitstring (<< 4.3.1)"
+	],
+	"installedSize": 801,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python3 module for efficient boolean array handling",
 	"homepage": "https://github.com/ilanschnell/bitarray",
-	"filename": "pool/main/p/python-bitarray/python3-bitarray_2.9.2-1+b3_amd64.deb",
-	"size": 161868,
-	"md5": "6d39cc62f2f40d3952041b18db3f3614",
-	"sha256": "eaf72f7e7a2efb4bfbe0ed0cc2d5f3d97e8cef32c1032d34d4ab2b3d0261bb6f",
+	"filename": "pool/main/p/python-bitarray/python3-bitarray_3.6.1-1_amd64.deb",
+	"size": 179308,
+	"md5": "de734c335b8fdd1e567277ed18b5154c",
+	"sha256": "3985aabb640659b9920172c8593500448ee0933611b3a10b9bc8ed524e11e3cf",
 	"descriptionMd5": "75477cdb36ae1e7cd63e2a3b80fb641a"
 }

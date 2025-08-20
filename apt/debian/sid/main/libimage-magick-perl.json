@@ -6,13 +6,13 @@
 	],
 	"package": "libimage-magick-perl",
 	"source": "imagemagick",
-	"version": "8:7.1.1.47+dfsg1-2",
+	"version": "8:7.1.2.1+dfsg1-1",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"perl:any",
-		"imagemagick-7-common (= 8:7.1.1.47+dfsg1-2)",
+		"imagemagick-7-common (= 8:7.1.2.1+dfsg1-1)",
 		"libimage-magick-q16-perl:any"
 	],
 	"preDepends": [
@@ -24,13 +24,16 @@
 	"suggests": [
 		"imagemagick-7-doc"
 	],
+	"conflicts": [
+		"graphicsmagick-libmagick-dev-compat"
+	],
 	"installedSize": 80,
 	"maintainer": "ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>",
 	"description": "Perl interface to the ImageMagick graphics routines",
 	"homepage": "https://www.imagemagick.org/",
-	"filename": "pool/main/i/imagemagick/libimage-magick-perl_7.1.1.47+dfsg1-2_all.deb",
-	"size": 38908,
-	"md5": "9bca4ba1d2742843aaa0911ecf91e901",
-	"sha256": "212bf03aab4951842d00354c667ec3747d60d597c178b71af240b43fb18654ce",
+	"filename": "pool/main/i/imagemagick/libimage-magick-perl_7.1.2.1+dfsg1-1_all.deb",
+	"size": 38920,
+	"md5": "6958c9d7e680d635566ed4c385973fe9",
+	"sha256": "c6e963a2bda419058734654cccaad6cecfcdd8b71a0cc41a2cc3d93940bc8935",
 	"descriptionMd5": "7ce8b44a017b6b1792ace5babb8a40cb"
 }

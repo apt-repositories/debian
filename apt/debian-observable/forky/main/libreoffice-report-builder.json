@@ -6,15 +6,16 @@
 	],
 	"package": "libreoffice-report-builder",
 	"source": "libreoffice",
-	"version": "4:25.2.3-2",
+	"version": "4:25.8.0~rc4-2",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"liblibreoffice-java",
+		"libreoffice-common (>= 1:7.0.0~alpha)",
 		"libreoffice-core | libreoffice-core-nogui",
-		"libreoffice-report-builder-bin (>= 4:25.2.3)",
-		"libreoffice-uiconfig-report-builder (= 4:25.2.3-2)",
+		"libreoffice-report-builder-bin (>= 4:25.8.0~rc4)",
+		"libreoffice-uiconfig-report-builder (= 4:25.8.0~rc4-2)",
 		"libreoffice-java-common",
 		"libbase-java",
 		"libsac-java",
@@ -28,10 +29,6 @@
 		"libfonts-java",
 		"libserializer-java"
 	],
-	"preDepends": [
-		"ucf",
-		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
-	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~r~~)"
 	],
@@ -41,13 +38,13 @@
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 415,
+	"installedSize": 420,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "LibreOffice component for building database reports",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-report-builder_25.2.3-2_all.deb",
-	"size": 318704,
-	"md5": "85c9aacd31d8a5477baad07e4845debb",
-	"sha256": "3704c4760f89a90f444fbcd5a01f76ac5396d68d3587014edce5acd5edd62d5a",
+	"filename": "pool/main/libr/libreoffice/libreoffice-report-builder_25.8.0~rc4-2_all.deb",
+	"size": 319692,
+	"md5": "87d049b02a964a9d465114cfc3e5ed63",
+	"sha256": "b0b93223068a392be5f67b65e7f3986ab9f2374d1d04bcaeb4f81a2f477de266",
 	"descriptionMd5": "8239ceaa4ebaf25c2b15325d48eb907c"
 }]
