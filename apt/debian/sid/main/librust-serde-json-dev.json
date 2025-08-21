@@ -6,12 +6,13 @@
 	],
 	"package": "librust-serde-json-dev",
 	"source": "rust-serde-json",
-	"version": "1.0.139-1",
+	"version": "1.0.143-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-indexmap-2+default-dev | librust-indexmap-1+default-dev (>= 1.5.2-~~)",
+		"librust-indexmap+default-dev (<< 3.0.0-~~)",
+		"librust-indexmap+default-dev (>= 1.5.2-~~)",
 		"librust-itoa-1+default-dev",
 		"librust-memchr-2+std-dev",
 		"librust-memchr-2-dev",
@@ -23,13 +24,13 @@
 	"breaks": [
 		"librust-just-dev (<= 1.35.0-1)"
 	],
-	"installedSize": 799,
+	"installedSize": 800,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "JSON serialization file format - Rust source code",
 	"homepage": "https://github.com/serde-rs/json",
-	"filename": "pool/main/r/rust-serde-json/librust-serde-json-dev_1.0.139-1_amd64.deb",
-	"size": 125644,
-	"md5": "f0de06d168860c66b30d18b1561681c4",
-	"sha256": "57a10142537b4f1ec783c3a79f52182b37f77e3d77b65437da4ddce096e1e104",
+	"filename": "pool/main/r/rust-serde-json/librust-serde-json-dev_1.0.143-1_amd64.deb",
+	"size": 125812,
+	"md5": "296babf75705ee5bdf585933a362b3f9",
+	"sha256": "9c760824c7ae5b3e2e86559f39498d8497bf82788088bb4366309f3b32fa16a9",
 	"descriptionMd5": "6c8c09eb99697f1e7e46b31e68129c15"
 }
