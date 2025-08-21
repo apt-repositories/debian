@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "openvswitch-common",
-	"source": "openvswitch (3.5.0-1)",
-	"version": "3.5.0-1+b1",
+	"source": "openvswitch",
+	"version": "3.6.0-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,7 +22,8 @@
 	],
 	"recommends": [
 		"python3:any (>= 3.10~)",
-		"python3-openvswitch (= 3.5.0-1+b1)"
+		"openvswitch-switch (= 3.6.0-1)",
+		"python3-openvswitch (= 3.6.0-1)"
 	],
 	"suggests": [
 		"ethtool",
@@ -34,13 +35,13 @@
 	"breaks": [
 		"openvswitch-switch (<< 2.13.0~git20200212.15ae9db33-0ubuntu2~)"
 	],
-	"installedSize": 13440,
+	"installedSize": 13542,
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "Open vSwitch common components",
 	"homepage": "http://openvswitch.org/",
-	"filename": "pool/main/o/openvswitch/openvswitch-common_3.5.0-1+b1_amd64.deb",
-	"size": 2001716,
-	"md5": "0b886c1f72f4d187e284b714582781b3",
-	"sha256": "80e23f4ca65a634d9c21ef040b1346d69041d7082fc999d5822b8626cbf31083",
+	"filename": "pool/main/o/openvswitch/openvswitch-common_3.6.0-1_amd64.deb",
+	"size": 2016128,
+	"md5": "69c39f40bc196bc9a3afed1badcbdde4",
+	"sha256": "419c2d3dfc1a6fe902cbcd35ba4eea5759c487b74d7f088c4966245eede24a07",
 	"descriptionMd5": "592fb336c66a49b36ec2d6b8873eb66a"
 }

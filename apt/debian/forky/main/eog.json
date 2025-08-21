@@ -5,17 +5,25 @@
 		"Size"
 	],
 	"package": "eog",
-	"version": "47.0-1",
+	"version": "47.0-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"gir1.2-peas-1.0",
+		"gsettings-desktop-schemas (>= 42~beta)",
+		"libjxl-gdk-pixbuf",
+		"librsvg2-common",
+		"shared-mime-info (>= 0.20)",
+		"webp-pixbuf-loader",
+		"gir1.2-gtk-3.0 (>= 3.24.15)",
+		"dconf-gsettings-backend | gsettings-backend",
 		"libc6 (>= 2.34)",
 		"libcairo2 (>= 1.10.0)",
 		"libexempi8 (>= 2.5.0)",
 		"libexif12 (>= 0.6.21-1~)",
 		"libgdk-pixbuf-2.0-0 (>= 2.36.5)",
-		"libgirepository-1.0-1 (>= 0.9.12)",
+		"libgirepository-1.0-1 (>= 0.9.3)",
 		"libglib2.0-0t64 (>= 2.80.0)",
 		"libgnome-desktop-3-20t64 (>= 3.17.92)",
 		"libgtk-3-0t64 (>= 3.24.15)",
@@ -25,15 +33,7 @@
 		"libpeas-1.0-0 (>= 1.0.0)",
 		"librsvg2-2 (>= 2.44)",
 		"libx11-6",
-		"zlib1g (>= 1:1.1.4)",
-		"dconf-gsettings-backend | gsettings-backend",
-		"gir1.2-gtk-3.0 (>= 3.24.15)",
-		"shared-mime-info (>= 0.20)",
-		"gsettings-desktop-schemas (>= 42~beta)",
-		"gir1.2-peas-1.0",
-		"libjxl-gdk-pixbuf",
-		"librsvg2-common",
-		"webp-pixbuf-loader"
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"recommends": [
 		"yelp"
@@ -44,13 +44,13 @@
 	"breaks": [
 		"eog-plugins (<< 3.16.4-2~)"
 	],
-	"installedSize": 7787,
+	"installedSize": 10306,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Eye of GNOME graphics viewer program",
 	"homepage": "https://wiki.gnome.org/Apps/EyeOfGnome",
-	"filename": "pool/main/e/eog/eog_47.0-1_amd64.deb",
-	"size": 1144528,
-	"md5": "303f1b30f9d124cc15e47189e8fece77",
-	"sha256": "1d2cf43e236fc8b1ff8829f74ec3883ce474bc89c448496b47448f06881130bd",
+	"filename": "pool/main/e/eog/eog_47.0-2_amd64.deb",
+	"size": 3286060,
+	"md5": "a796d3cbb59b842097744a0e0e1c8a6c",
+	"sha256": "9d8419922b6f114d11f8e0f0b375586bc1e8674eab4dc15da72e9fcd75090632",
 	"descriptionMd5": "a17b1b698fda7b280b8e85d7b08c5d27"
 }
