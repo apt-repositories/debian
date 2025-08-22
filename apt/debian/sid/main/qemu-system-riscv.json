@@ -6,7 +6,7 @@
 	],
 	"package": "qemu-system-riscv",
 	"source": "qemu",
-	"version": "1:10.0.3+ds-3",
+	"version": "1:10.0.3+ds-4",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -37,13 +37,18 @@
 		"libvdeplug2t64 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:10.0.3+ds-3)",
+		"qemu-system-common (= 1:10.0.3+ds-4)",
 		"qemu-system-data (>> 1:10.0.3+ds~)",
 		"opensbi (>> 1.5.1-1~)"
 	],
 	"recommends": [
 		"qemu-utils",
-		"ipxe-qemu"
+		"ipxe-qemu",
+		"qemu-efi-riscv64",
+		"qemu-system-gui (= 1:10.0.3+ds-4)",
+		"qemu-system-modules-spice (= 1:10.0.3+ds-4)",
+		"qemu-system-modules-opengl (= 1:10.0.3+ds-4)",
+		"qemu-block-extra (= 1:10.0.3+ds-4)"
 	],
 	"suggests": [
 		"samba",
@@ -61,9 +66,9 @@
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (riscv)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-riscv_10.0.3+ds-3_amd64.deb",
-	"size": 7632908,
-	"md5": "7ea2d710a0c33c7a35182bf39cf85f0b",
-	"sha256": "163743c582482ce17c0ea6572161c5e23d59b5880bd2699835792b44e6c39e39",
+	"filename": "pool/main/q/qemu/qemu-system-riscv_10.0.3+ds-4_amd64.deb",
+	"size": 7575576,
+	"md5": "824f4bbc8354eb24a98ae219908f125c",
+	"sha256": "73ebc42ebd798c7a466f2d948e8e8b4d36f26b074f5ef91b5be3bf2064521bea",
 	"descriptionMd5": "5e5887e91389f4d68f57148b82ac7aad"
 }
