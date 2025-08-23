@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-block-extra",
+	"source": "qemu",
+	"version": "1:10.0.2+ds-2+deb13u1",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblkio1 (>= 1.4.0)",
+		"libbz2-1.0",
+		"libc6 (>= 2.14)",
+		"libcurl3t64-gnutls (>= 7.16.3)",
+		"libgfapi0 (>= 11.1)",
+		"libiscsi7 (>= 1.18.0)",
+		"libnfs14 (>= 4.0.0)",
+		"librados2 (>= 18.2.7+ds)",
+		"librbd1 (>= 18.2.0+ds)",
+		"libssh-4 (>= 0.8.4)",
+		"qemu-system-any (= 1:10.0.2+ds-2+deb13u1) | qemu-utils (= 1:10.0.2+ds-2+deb13u1)"
+	],
+	"enhances": [
+		"qemu-system-arm",
+		"qemu-system-mips",
+		"qemu-system-misc",
+		"qemu-system-ppc",
+		"qemu-system-riscv",
+		"qemu-system-s390x",
+		"qemu-system-sparc",
+		"qemu-system-x86",
+		"qemu-utils"
+	],
+	"installedSize": 372,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "extra block backend modules for qemu-system and qemu-utils",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/updates/main/q/qemu/qemu-block-extra_10.0.2+ds-2+deb13u1_amd64.deb",
+	"size": 115476,
+	"sha256": "21bd0367c2dba26f1343c552512458d81a25e3ce269fffeb456c4ebc06a7994a",
+	"descriptionMd5": "b5e1c6baef0716841da073a7551acbc5"
+}

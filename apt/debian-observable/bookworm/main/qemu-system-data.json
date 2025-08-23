@@ -40,4 +40,45 @@
 	"md5": "7aed8f150950cc6fba0d61e11823cf53",
 	"sha256": "f0e7fda44257957b16a9abe2226c0f3d5b194d06dc0c677b25292f87af06acbc",
 	"descriptionMd5": "c61105eaa5edddd1459bc7ebfd8348d6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-data",
+	"source": "qemu",
+	"version": "1:7.2+dfsg-7+deb12u15",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "all",
+	"replaces": [
+		"openbios-ppc",
+		"openbios-sparc",
+		"qemu-slof",
+		"qemu-system-common (<< 1:2.12+dfsg-2~)",
+		"qemu-system-ppc (<< 1:6.1-4~)",
+		"qemu-system-sparc (<< 1:4.2-4~)",
+		"sgabios"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:2.12+dfsg-2~)",
+		"qemu-system-ppc (<< 1:6.1-4~)",
+		"qemu-system-sparc (<< 1:4.2-4~)"
+	],
+	"conflicts": [
+		"openbios-ppc",
+		"openbios-sparc",
+		"qemu-skiboot",
+		"qemu-slof",
+		"sgabios"
+	],
+	"installedSize": 7990,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU full system emulation (data files)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/updates/main/q/qemu/qemu-system-data_7.2+dfsg-7+deb12u15_all.deb",
+	"size": 1295548,
+	"sha256": "b2a473b3ee78be58c492205c24633a234f3561c8c22a62a5f80c41d2c3bf54ee",
+	"descriptionMd5": "c61105eaa5edddd1459bc7ebfd8348d6"
 }]
