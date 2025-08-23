@@ -29,4 +29,34 @@
 	"md5": "35a1aa82bec4641781dda56c0c1b8ccf",
 	"sha256": "4c56a8c2e9d1256019255758b153242a05aea5d8cd24baf7d2093d6cd8364c84",
 	"descriptionMd5": "b9d172841422ce933839d1a34cce7b20"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-binfmt",
+	"source": "qemu",
+	"version": "1:7.2+dfsg-7+deb12u15",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"qemu-user (= 1:7.2+dfsg-7+deb12u15)",
+		"systemd | binfmt-support"
+	],
+	"breaks": [
+		"binfmt-support (<< 2.1.7~)"
+	],
+	"conflicts": [
+		"qemu-user-static"
+	],
+	"installedSize": 101,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU user mode binfmt registration for qemu-user",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/updates/main/q/qemu/qemu-user-binfmt_7.2+dfsg-7+deb12u15_amd64.deb",
+	"size": 5348,
+	"sha256": "42b63a590133634bc6adfe9ea2dc7b3110285e19433b57ab0dc99d90213550b1",
+	"descriptionMd5": "b9d172841422ce933839d1a34cce7b20"
 }]

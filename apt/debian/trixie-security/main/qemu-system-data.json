@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-data",
+	"source": "qemu",
+	"version": "1:10.0.2+ds-2+deb13u1",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "all",
+	"replaces": [
+		"openbios-ppc",
+		"openbios-sparc",
+		"qemu-slof",
+		"qemu-system-common (<< 1:8.2.2+ds-1~)",
+		"qemu-system-ppc (<< 1:6.1-4~)",
+		"sgabios"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:8.2.2+ds-1~)",
+		"qemu-system-misc (<< 1:9.1.1+ds-1~)",
+		"qemu-system-ppc (<< 1:6.1-4~)",
+		"qemu-system-s390x (<< 1:9.2.0~)"
+	],
+	"conflicts": [
+		"openbios-ppc",
+		"openbios-sparc",
+		"qemu-skiboot",
+		"qemu-slof",
+		"sgabios"
+	],
+	"installedSize": 18469,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU full system emulation (data files)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/updates/main/q/qemu/qemu-system-data_10.0.2+ds-2+deb13u1_all.deb",
+	"size": 2118872,
+	"sha256": "66fc820b6032db0755708cbc77237f21ac5f34b2a25d645f3d5ca4fd9392e9d5",
+	"descriptionMd5": "c61105eaa5edddd1459bc7ebfd8348d6"
+}

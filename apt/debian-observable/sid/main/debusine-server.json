@@ -6,7 +6,7 @@
 	],
 	"package": "debusine-server",
 	"source": "debusine",
-	"version": "0.12.0",
+	"version": "0.12.1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
@@ -19,7 +19,8 @@
 		"libjs-select2.js",
 		"node-popper2",
 		"python3-apt",
-		"python3-debusine-server (= 0.12.0)",
+		"python3-debusine-server (= 0.12.1)",
+		"sensible-utils",
 		"debconf (>= 0.5) | debconf-2.0",
 		"python3:any (>= 3.11~)"
 	],
@@ -27,8 +28,7 @@
 		"default-mta | mail-transport-agent",
 		"nginx-core | httpd",
 		"postgresql",
-		"redis-server",
-		"sensible-utils"
+		"redis-server"
 	],
 	"suggests": [
 		"munin-node"
@@ -37,9 +37,9 @@
 	"maintainer": "Raphaël Hertzog <raphael@freexian.com>",
 	"description": "Services to run a debusine server",
 	"homepage": "https://salsa.debian.org/freexian-team/debusine",
-	"filename": "pool/main/d/debusine/debusine-server_0.12.0_all.deb",
-	"size": 23208,
-	"md5": "4f539ab6540dd7b7f72dac3a999dc195",
-	"sha256": "8f6020b20d73a38f21ea64c7c56c0059f96900d25458761d7805d3585e661e56",
+	"filename": "pool/main/d/debusine/debusine-server_0.12.1_all.deb",
+	"size": 23336,
+	"md5": "bc9e972349a68872ecbeb485741d623d",
+	"sha256": "650069c8c5409b48ecb4a97ae6cd4bf8eda020ef3f27ade8419a7b5777e2a70d",
 	"descriptionMd5": "bc99f38676ea648be1bacbb6d71f5598"
 }]

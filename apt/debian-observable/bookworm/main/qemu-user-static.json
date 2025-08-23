@@ -29,4 +29,34 @@
 	"md5": "23989c584adcfb1311c5e24f1a2ec14e",
 	"sha256": "835d4364555a2769d832a26337dc2c1fa2549daf235cf285a2d3d3caf94880e1",
 	"descriptionMd5": "745cf1fdce8807e14d332ae512779b8f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-static",
+	"source": "qemu",
+	"version": "1:7.2+dfsg-7+deb12u15",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"recommends": [
+		"systemd | binfmt-support"
+	],
+	"breaks": [
+		"binfmt-support (<< 2.1.7~)"
+	],
+	"conflicts": [
+		"qemu-user-binfmt"
+	],
+	"installedSize": 379178,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU user mode emulation binaries (static version)",
+	"homepage": "http://www.qemu.org/",
+	"builtUsing": "capstone (= 4.0.2-5), gcc-12 (= 12.2.0-14+deb12u1), glib2.0 (= 2.74.6-2+deb12u6), glibc (= 2.36-9+deb12u10), gnutls28 (= 3.7.9-2+deb12u5), liburing (= 2.3-3), numactl (= 2.0.16-1), zlib (= 1:1.2.13.dfsg-1)",
+	"filename": "pool/updates/main/q/qemu/qemu-user-static_7.2+dfsg-7+deb12u15_amd64.deb",
+	"size": 62622984,
+	"sha256": "073b3bc6081c82177c37f045ab7954c998f7d7a70ca57dcfbc308bdc83dc4018",
+	"descriptionMd5": "745cf1fdce8807e14d332ae512779b8f"
 }]
