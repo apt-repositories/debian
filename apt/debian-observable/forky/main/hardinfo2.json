@@ -6,7 +6,7 @@
 	],
 	"package": "hardinfo2",
 	"source": "hardinfo",
-	"version": "2.2.10-1",
+	"version": "2.2.13-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,6 +14,7 @@
 		"gawk",
 		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.2.4)",
+		"libdecor-0-0 (>= 0.1.0)",
 		"libgcc-s1 (>= 3.0)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
 		"libglib2.0-0t64 (>= 2.80.0)",
@@ -27,7 +28,10 @@
 		"libqt5widgets5t64 (>= 5.0.2)",
 		"libsoup-3.0-0 (>= 3.0.3)",
 		"libstdc++6 (>= 5)",
-		"libx11-6"
+		"libvulkan1 (>= 1.2.131.2)",
+		"libwayland-client0 (>= 1.20.0)",
+		"libx11-6",
+		"libxcb1"
 	],
 	"recommends": [
 		"dmidecode",
@@ -45,18 +49,18 @@
 		"pciutils"
 	],
 	"replaces": [
-		"hardinfo (<< 2.2.10-1~)"
+		"hardinfo (<< 2.2.13-1~)"
 	],
 	"breaks": [
-		"hardinfo (<< 2.2.10-1~)"
+		"hardinfo (<< 2.2.13-1~)"
 	],
-	"installedSize": 10072,
+	"installedSize": 9353,
 	"maintainer": "Boyuan Yang <byang@debian.org>",
 	"description": "System Information and Benchmark for Linux Systems",
 	"homepage": "https://github.com/hardinfo2/hardinfo2",
-	"filename": "pool/main/h/hardinfo/hardinfo2_2.2.10-1_amd64.deb",
-	"size": 3034320,
-	"md5": "042b9d92aada71f5b9a52589aeea763a",
-	"sha256": "a82c847c375f02f69d10662bac296bdf5f14f0022064467935d9b7da8b614c33",
+	"filename": "pool/main/h/hardinfo/hardinfo2_2.2.13-1_amd64.deb",
+	"size": 3038372,
+	"md5": "2383b6b06e6a25c5cff16128e74c701a",
+	"sha256": "940f84bbf1180e7136e306c2a1b71a4b55b9891093f9f61b43be174d55926f63",
 	"descriptionMd5": "c4e75f2f501b3ee18281dc42b83cb522"
 }]
