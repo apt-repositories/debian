@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "starpu-examples",
-	"source": "starpu",
-	"version": "1.4.7+dfsg-2",
+	"source": "starpu (1.4.8+dfsg-4)",
+	"version": "1.4.8+dfsg-4+b1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libamdhip64-5 (>= 4.5.2)",
 		"libblas3 | libblas.so.3",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
@@ -19,11 +20,12 @@
 		"libglu1-mesa | libglu1",
 		"libglut3.12 (>= 3.4.0)",
 		"libgomp1 (>= 4.9)",
+		"libhipblas0 (>= 5.3.3)",
 		"libhwloc15 (>= 2.12.0)",
 		"libnuma1 (>= 2.0.11)",
 		"libomp5-19 (>= 0.20130412)",
 		"libopenmpi40 (>= 5.0.7)",
-		"libstarpu-1.4-6 (>= 1.4.3+dfsg~) | libstarpu-any-1.4-6",
+		"libstarpu-1.4-7 (>= 1.4.3+dfsg~) | libstarpu-any-1.4-7",
 		"libstarpu-openmp-llvm-1.4-1t64 (>= 1.4.0+dfsg~) | libstarpu-any-openmp-llvm-1.4-1",
 		"libstarpumpi-1.4-3t64 (>= 1.4.0+dfsg~) | libstarpu-anympi-1.4-3",
 		"libstarpurm-1.4-1t64 (>= 1.4.0+dfsg~) | libstarpu-anyrm-1.4-1",
@@ -47,13 +49,13 @@
 	"conflicts": [
 		"starpu-contrib-examples"
 	],
-	"installedSize": 6249,
+	"installedSize": 7231,
 	"maintainer": "Samuel Thibault <sthibault@debian.org>",
 	"description": "Task scheduler for heterogeneous multicore machines - exs",
 	"homepage": "https://starpu.gitlabpages.inria.fr/",
-	"filename": "pool/main/s/starpu/starpu-examples_1.4.7+dfsg-2_amd64.deb",
-	"size": 588524,
-	"md5": "ac88c2408f29dc70186c8a00e46f9947",
-	"sha256": "1f739788fc6bc585740efce09b0cb0e75890d348047c2f904a199fbac890d78d",
+	"filename": "pool/main/s/starpu/starpu-examples_1.4.8+dfsg-4+b1_amd64.deb",
+	"size": 643884,
+	"md5": "e7a95eb4873b6cda914aad05559399a8",
+	"sha256": "02975f9879d493666c5e44b4c7e62f1301ad36ddd8818c4782929187c1651456",
 	"descriptionMd5": "601fd3c318d53962421cdbdd364f312b"
 }]

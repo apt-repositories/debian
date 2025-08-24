@@ -6,6 +6,39 @@
 	],
 	"package": "libzfsbootenv1linux",
 	"source": "zfs-linux",
+	"version": "2.3.3-1~bpo13+1",
+	"section": "contrib/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.8)",
+		"libnvpair3linux (>= 0.8.2)",
+		"libzfs6linux (>= 2.0)"
+	],
+	"replaces": [
+		"libzfs2",
+		"libzfs4"
+	],
+	"breaks": [
+		"libzfs2",
+		"libzfs4"
+	],
+	"installedSize": 109,
+	"maintainer": "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@alioth-lists.debian.net>",
+	"description": "OpenZFS filesystem library for Linux - label info support",
+	"homepage": "https://zfsonlinux.org/",
+	"filename": "pool/contrib/z/zfs-linux/libzfsbootenv1linux_2.3.3-1~bpo13+1_amd64.deb",
+	"size": 38472,
+	"sha256": "1776bda9a9769c390a0cb1298212b8bf34e2a6c859e9d4b8f09c6e7b0f82a263",
+	"descriptionMd5": "ba1246d18e334f582c2be912dfe69655"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libzfsbootenv1linux",
+	"source": "zfs-linux",
 	"version": "2.3.2-2",
 	"section": "contrib/libs",
 	"priority": "optional",
