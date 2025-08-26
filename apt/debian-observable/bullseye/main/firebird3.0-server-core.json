@@ -44,4 +44,49 @@
 	"md5": "a80ab68888beffd7f897c71e8bf0fbff",
 	"sha256": "0259057280ce716be7c7a75460eff7518b0b46e30eaad4eda83d010b2a9c2d1c",
 	"descriptionMd5": "f540578275d4feacf219d86a12101dd7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "firebird3.0-server-core",
+	"source": "firebird3.0",
+	"version": "3.0.7.33374.ds4-2+deb11u1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libfbclient2 (>= 3.0.0~svn20110219r52404.ds3)",
+		"libgcc-s1 (>= 3.0)",
+		"libib-util (>= 2.5.0.23247~Beta1.ds2)",
+		"libstdc++6 (>= 4.1.1)",
+		"libicu67",
+		"firebird3.0-common (= 3.0.7.33374.ds4-2+deb11u1)",
+		"firebird3.0-common-doc (= 3.0.7.33374.ds4-2+deb11u1)"
+	],
+	"recommends": [
+		"firebird3.0-utils"
+	],
+	"suggests": [
+		"firebird3.0-server"
+	],
+	"replaces": [
+		"firebird3.0-server (<< 3.0.0.32483.ds4-6~)"
+	],
+	"enhances": [
+		"libfbclient2"
+	],
+	"breaks": [
+		"firebird3.0-server (<< 3.0.0.32483.ds4-6~)"
+	],
+	"installedSize": 9714,
+	"maintainer": "Damyan Ivanov <dmn@debian.org>",
+	"description": "Firebird engine core",
+	"homepage": "https://firebirdsql.org/",
+	"filename": "pool/updates/main/f/firebird3.0/firebird3.0-server-core_3.0.7.33374.ds4-2+deb11u1_amd64.deb",
+	"size": 2528112,
+	"sha256": "1c78142477b1a3e848a727e91ccd7da895dec13ede94af98a676ccd56f6b8b02",
+	"descriptionMd5": "f540578275d4feacf219d86a12101dd7"
 }]
