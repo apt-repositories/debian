@@ -5,12 +5,11 @@
 		"Size"
 	],
 	"package": "deja-dup",
-	"version": "49~alpha-1",
+	"version": "49~alpha-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"duplicity (>= 0.7.14)",
 		"dconf-gsettings-backend | gsettings-backend",
 		"libadwaita-1-0 (>= 1.7)",
 		"libc6 (>= 2.34)",
@@ -20,22 +19,26 @@
 		"libpackagekit-glib2-18 (>= 1.1.0)",
 		"libpango-1.0-0 (>= 1.50.3)",
 		"libsecret-1-0 (>= 0.18.6)",
-		"libsoup-3.0-0 (>= 3.0.3)"
+		"libsoup-3.0-0 (>= 3.0.3)",
+		"fuse3",
+		"restic (>= 0.17.1)"
 	],
 	"recommends": [
 		"gvfs-backends",
-		"packagekit"
+		"gvfs-fuse",
+		"packagekit",
+		"rclone"
 	],
 	"suggests": [
-		"python3-pydrive2"
+		"duplicity (>= 2.1.0)"
 	],
 	"installedSize": 5020,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Backup utility",
 	"homepage": "https://apps.gnome.org/DejaDup/",
-	"filename": "pool/main/d/deja-dup/deja-dup_49~alpha-1_amd64.deb",
-	"size": 746296,
-	"md5": "67cd1d889a012981740f26ba69abcbb6",
-	"sha256": "ed7198cabbb6782527a8d40a782ca694a83f1a60b09f8ed1bec033249c39f469",
-	"descriptionMd5": "64abc8268624d9e0642c7fa56604762f"
+	"filename": "pool/main/d/deja-dup/deja-dup_49~alpha-2_amd64.deb",
+	"size": 746200,
+	"md5": "3d004373c8b3780016d419842708314e",
+	"sha256": "98032b7547b3db9900f7940e1ce1d0ea9262abf5bfe427aead5c06759153b901",
+	"descriptionMd5": "7827688436e49fcda140429bdf3c0b9e"
 }

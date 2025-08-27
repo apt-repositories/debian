@@ -6,24 +6,27 @@
 	],
 	"package": "libpmix-dev",
 	"source": "pmix",
-	"version": "6.0.0-2",
+	"version": "6.0.0-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libpmix2t64 (= 6.0.0-2)",
+		"libpmix2t64 (= 6.0.0-3)",
 		"libevent-dev",
 		"libhwloc-dev",
 		"zlib1g-dev",
 		"libjs-jquery"
 	],
-	"installedSize": 12851,
+	"breaks": [
+		"libopenmpi-dev (>= 5.0.8-1)"
+	],
+	"installedSize": 12858,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Development files for the PMI Exascale library",
 	"homepage": "https://github.com/pmix/pmix",
-	"filename": "pool/main/p/pmix/libpmix-dev_6.0.0-2_amd64.deb",
-	"size": 4379596,
-	"md5": "323ffad9a8a2a5d6cc84b5d2f1a3c0cb",
-	"sha256": "a3ef1c546554af669597e26fd60942557d7473c2f66b03167f846d9992150770",
+	"filename": "pool/main/p/pmix/libpmix-dev_6.0.0-3_amd64.deb",
+	"size": 4381596,
+	"md5": "349b79ac47f18c340b3abf2b26ab2964",
+	"sha256": "7b8a482e669e36c1fb5b2c7183e7e26605e79a498c764476a2e1d09cb6f1317f",
 	"descriptionMd5": "40649f4e98770885669b0326273d7233"
 }]
