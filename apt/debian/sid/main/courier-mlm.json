@@ -6,12 +6,12 @@
 	],
 	"package": "courier-mlm",
 	"source": "courier",
-	"version": "1.4.1-6",
+	"version": "1.4.1-8",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"courier-base (= 1.4.1-6)",
+		"courier-base (= 1.4.1-8)",
 		"maildrop",
 		"libc6 (>= 2.38)",
 		"libcourier-unicode8 (>= 2.3.1)",
@@ -20,6 +20,9 @@
 		"libidn2-0 (>= 2.0.0)",
 		"libstdc++6 (>= 13.1)"
 	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
 	"suggests": [
 		"courier-doc"
 	],
@@ -27,9 +30,9 @@
 	"maintainer": "Soren Stoutner <soren@debian.org>",
 	"description": "Courier mail server - mailing list manager",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier/courier-mlm_1.4.1-6_amd64.deb",
-	"size": 379904,
-	"md5": "b12b42f09053678f6d6a6a6ca0796349",
-	"sha256": "5b93dcf82f0d3af3bc69014fa1447f2e278781629b1ad662c23ae173c73c602f",
+	"filename": "pool/main/c/courier/courier-mlm_1.4.1-8_amd64.deb",
+	"size": 380480,
+	"md5": "fda791214ae896d9e8d1dd5213028112",
+	"sha256": "02a7d9ca3a4323edd0e4138493e61254e3d348cf80e0b5ce28f36abb75e1de35",
 	"descriptionMd5": "fb8213625648c3fbce12df9752b51d0f"
 }

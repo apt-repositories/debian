@@ -6,7 +6,7 @@
 	],
 	"package": "libpmix2t64",
 	"source": "pmix",
-	"version": "6.0.0-2",
+	"version": "6.0.0-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -23,15 +23,16 @@
 		"libpmix2"
 	],
 	"breaks": [
-		"libpmix2 (<< 6.0.0-2)"
+		"libopenmpi-dev (>= 5.0.8-1)",
+		"libpmix2 (<< 6.0.0-3)"
 	],
-	"installedSize": 2428,
+	"installedSize": 2436,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Process Management Interface (Exascale) library",
 	"homepage": "https://github.com/pmix/pmix",
-	"filename": "pool/main/p/pmix/libpmix2t64_6.0.0-2_amd64.deb",
-	"size": 675844,
-	"md5": "2fc0d7e81e07fc772d6a4ab74cf7ccc8",
-	"sha256": "0d59a235138bbfd0540e0f94f46d38abc306da6a46769683cdbc40134f9d8f2a",
+	"filename": "pool/main/p/pmix/libpmix2t64_6.0.0-3_amd64.deb",
+	"size": 680332,
+	"md5": "6af2a42a9d92fc48b280ef9758e29232",
+	"sha256": "0b75fd7d2d481b4c08c6b5be6a3cdf27e6281810fa721f3b9aeac1aba76b2df6",
 	"descriptionMd5": "aca5aa31def7ae96d62a110030ef497f"
 }]
