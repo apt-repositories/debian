@@ -5,21 +5,27 @@
 		"Size"
 	],
 	"package": "libllhttp-dev",
-	"source": "node-undici (7.3.0+dfsg1+~cs24.12.11-2)",
-	"version": "9.2.1~7.3.0+dfsg1+~cs24.12.11-2",
+	"source": "llhttp",
+	"version": "9.2.1+~cs12.9.9-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libllhttp9.2 (= 9.2.1~7.3.0+dfsg1+~cs24.12.11-2)"
+		"libllhttp9.2 (= 9.2.1+~cs12.9.9-1)"
 	],
-	"installedSize": 172,
+	"replaces": [
+		"libllhttp-dev (<< 7.3.0+dfsg2~)"
+	],
+	"breaks": [
+		"libllhttp-dev (<< 7.3.0+dfsg2~)"
+	],
+	"installedSize": 165,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
-	"description": "HTTP messages parser library dev files",
-	"homepage": "https://github.com/nodejs/llhttp",
-	"filename": "pool/main/n/node-undici/libllhttp-dev_9.2.1~7.3.0+dfsg1+~cs24.12.11-2_amd64.deb",
-	"size": 39960,
-	"md5": "56db36f286782d514bc887c1a045c8eb",
-	"sha256": "2f1a40c46d4cf7c4476e546e30e0e11f05c17dcdf27c57fbadafb8d65e233032",
-	"descriptionMd5": "9142f9fbff2776f24a85dd6b66893d38"
+	"description": "HTTP messages parser library (devel)",
+	"homepage": "https://llhttp.org/",
+	"filename": "pool/main/l/llhttp/libllhttp-dev_9.2.1+~cs12.9.9-1_amd64.deb",
+	"size": 36836,
+	"md5": "704a4342a15ee2ba8c5f775efca5966a",
+	"sha256": "b7ea569f546a967c484cdf840b239b45857e58d50e9a6049d99884c9bdf807fa",
+	"descriptionMd5": "ec95cf87ebfcedbd83552f8e02c093a5"
 }]
