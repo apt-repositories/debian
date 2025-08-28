@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libllhttp9.2",
-	"source": "node-undici (7.3.0+dfsg1+~cs24.12.11-2)",
-	"version": "9.2.1~7.3.0+dfsg1+~cs24.12.11-2",
+	"source": "llhttp",
+	"version": "9.2.1+~cs12.9.9-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,18 +14,20 @@
 		"libc6 (>= 2.3.4)"
 	],
 	"replaces": [
-		"libllhttp9.1"
+		"libllhttp9.1",
+		"libllhttp9.2 (<< 7.3.0+dfsg2~)"
 	],
 	"breaks": [
-		"libllhttp9.1 (<< 6)"
+		"libllhttp9.1 (<< 6)",
+		"libllhttp9.2 (<< 7.3.0+dfsg2~)"
 	],
-	"installedSize": 106,
+	"installedSize": 95,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "HTTP messages parser library",
-	"homepage": "https://github.com/nodejs/llhttp",
-	"filename": "pool/main/n/node-undici/libllhttp9.2_9.2.1~7.3.0+dfsg1+~cs24.12.11-2_amd64.deb",
-	"size": 33528,
-	"md5": "41dc14b7a3aa684a74e84979c0bed8a1",
-	"sha256": "97ff123f89720827cf5232548d58f484a7a62e20fd31835b38a9db639a3151bc",
-	"descriptionMd5": "730028e6ed7a9c4003476122f011360a"
+	"homepage": "https://llhttp.org/",
+	"filename": "pool/main/l/llhttp/libllhttp9.2_9.2.1+~cs12.9.9-1_amd64.deb",
+	"size": 29332,
+	"md5": "42a7e9c5ba1d9b9a56c24099ac93dea3",
+	"sha256": "97f0659d15b368a52aad84293186515757eed3cb6856f033db5c69236a354a0f",
+	"descriptionMd5": "e96d597e9fdb41a204763e5b3a3f6e29"
 }]

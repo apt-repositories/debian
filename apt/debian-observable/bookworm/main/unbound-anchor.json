@@ -26,8 +26,41 @@
 	"maintainer": "unbound packagers <unbound@packages.debian.org>",
 	"description": "utility to securely fetch the root DNS trust anchor",
 	"homepage": "https://www.unbound.net/",
-	"filename": "pool/updates/main/u/unbound/unbound-anchor_1.17.1-2+deb12u2_amd64.deb",
+	"filename": "pool/main/u/unbound/unbound-anchor_1.17.1-2+deb12u2_amd64.deb",
 	"size": 179224,
+	"md5": "53acf451b99ad2ee8da81025bf132552",
 	"sha256": "fa0667aa6601df05ef8573be9a6af736ba5ca31a025bdc234e54385cffdd2951",
+	"descriptionMd5": "f49fb3435120bde9cd4af959aeac719c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "unbound-anchor",
+	"source": "unbound",
+	"version": "1.17.1-2+deb12u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.36)",
+		"libexpat1 (>= 2.0.1)",
+		"libssl3 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)"
+	],
+	"replaces": [
+		"unbound (<< 1.4.13-1)"
+	],
+	"breaks": [
+		"unbound (<< 1.4.13-1)"
+	],
+	"installedSize": 239,
+	"maintainer": "unbound packagers <unbound@packages.debian.org>",
+	"description": "utility to securely fetch the root DNS trust anchor",
+	"homepage": "https://www.unbound.net/",
+	"filename": "pool/updates/main/u/unbound/unbound-anchor_1.17.1-2+deb12u3_amd64.deb",
+	"size": 179780,
+	"sha256": "557d319afd12160c3ea97b0ed647867737fcd324e194a8fc2a58b590efa2ea24",
 	"descriptionMd5": "f49fb3435120bde9cd4af959aeac719c"
 }]

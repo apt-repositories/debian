@@ -6,7 +6,7 @@
 	],
 	"package": "qemu-system-sparc",
 	"source": "qemu",
-	"version": "1:10.0.3+ds-4",
+	"version": "1:10.1.0+ds-1",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -36,29 +36,30 @@
 		"libvdeplug2t64 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:10.0.3+ds-4)",
-		"qemu-system-data (>> 1:10.0.3+ds~)"
+		"qemu-system-common (= 1:10.1.0+ds-1)",
+		"qemu-system-data (>> 1:10.1.0+ds~)"
 	],
 	"recommends": [
 		"qemu-utils",
 		"seabios",
 		"ipxe-qemu",
-		"qemu-system-gui (= 1:10.0.3+ds-4)",
-		"qemu-system-modules-spice (= 1:10.0.3+ds-4)",
-		"qemu-system-modules-opengl (= 1:10.0.3+ds-4)",
-		"qemu-block-extra (= 1:10.0.3+ds-4)"
+		"qemu-system-gui (= 1:10.1.0+ds-1)",
+		"qemu-system-modules-spice (= 1:10.1.0+ds-1)",
+		"qemu-system-modules-opengl (= 1:10.1.0+ds-1)",
+		"qemu-block-extra (= 1:10.1.0+ds-1)"
 	],
 	"suggests": [
 		"samba",
-		"vde2"
+		"vde2",
+		"passt"
 	],
-	"installedSize": 23449,
+	"installedSize": 22939,
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (sparc)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-sparc_10.0.3+ds-4_amd64.deb",
-	"size": 5716752,
-	"md5": "48f4dc04a030aeec12e7666471b7fd1d",
-	"sha256": "4e9ddb7753dde5a1ae389ba25dd824745380f73f9c89bee6d0776be15c7b162c",
+	"filename": "pool/main/q/qemu/qemu-system-sparc_10.1.0+ds-1_amd64.deb",
+	"size": 5565896,
+	"md5": "9752c0bc8435e72d73c86862ffcd55ff",
+	"sha256": "bf602cb8e4653b1a4ebee8132781f20d1181646decc86e7024a2fe65ddfb53e4",
 	"descriptionMd5": "cb4be2931f1bb54f137765dca623e91b"
 }]
