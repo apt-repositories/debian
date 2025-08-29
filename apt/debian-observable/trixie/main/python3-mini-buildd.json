@@ -6,6 +6,52 @@
 	],
 	"package": "python3-mini-buildd",
 	"source": "mini-buildd",
+	"version": "2.4.2~bpo13+1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any (>= 3.11~)",
+		"python3-packaging",
+		"python3-dateparser",
+		"python3-argcomplete (>= 2)",
+		"python3-keyring (>= 17)",
+		"python3-debian (>= 0.1.25~)",
+		"python3-distro-info (>= 1.0~)",
+		"python3-twisted (>= 24.3)",
+		"python3-pyftpdlib (>= 1.2.0)",
+		"python3-django (>= 3:3.2)",
+		"python3-gpg",
+		"libjs-jquery",
+		"libjs-jquery-datatables",
+		"node-clipboard (>= 2.0.6+ds+~cs7.6.4-1~)"
+	],
+	"suggests": [
+		"python3-bs4",
+		"debmirror"
+	],
+	"replaces": [
+		"python-mini-buildd"
+	],
+	"conflicts": [
+		"python-mini-buildd"
+	],
+	"installedSize": 1197,
+	"maintainer": "Stephan Sürken <absurd@debian.org>",
+	"description": "minimal build daemon - Python library and user tool",
+	"homepage": "http://mini-buildd.installiert.net/",
+	"filename": "pool/main/m/mini-buildd/python3-mini-buildd_2.4.2~bpo13+1_all.deb",
+	"size": 372864,
+	"sha256": "13da863be53c6247b85459f93e15929e93e9c775410318cc6d9032af75a16302",
+	"descriptionMd5": "9de35f17c5da9684ee3f7e460026c4e4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-mini-buildd",
+	"source": "mini-buildd",
 	"version": "2.2.8",
 	"section": "python",
 	"priority": "optional",

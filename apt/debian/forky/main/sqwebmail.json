@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "sqwebmail",
-	"source": "courier (1.4.1-6)",
-	"version": "6.2.9+1.4.1-6",
+	"source": "courier (1.4.1-8)",
+	"version": "6.2.9+1.4.1-8",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"apache2",
-		"courier-base (= 1.4.1-6)",
+		"courier-base (= 1.4.1-8)",
 		"cron",
 		"debconf",
 		"default-mta | mail-transport-agent",
@@ -30,6 +30,9 @@
 		"libpcre2-8-0 (>= 10.22)",
 		"perl:any"
 	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
 	"recommends": [
 		"apache2 (>= 2.4.6-4~) | httpd",
 		"courier-pcp"
@@ -42,9 +45,9 @@
 	"maintainer": "Soren Stoutner <soren@debian.org>",
 	"description": "Courier mail server - webmail server",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier/sqwebmail_6.2.9+1.4.1-6_amd64.deb",
-	"size": 449884,
-	"md5": "b9335fade8aa77d03ea89bec6c58b303",
-	"sha256": "17f92c9c3bacf862081f1d3e3b2e6a30a22a32186bb35ae2b793b71bf95a698e",
+	"filename": "pool/main/c/courier/sqwebmail_6.2.9+1.4.1-8_amd64.deb",
+	"size": 450508,
+	"md5": "b8b6e4a1fe3e90e123dd9c4ad62963d1",
+	"sha256": "4af8387daa342e723655f3059e7483f6c6b4a2b0db85a4ab9e0cc686b2cc6613",
 	"descriptionMd5": "ba58b55a2bbe8efe6abfe55d02dd61cc"
 }

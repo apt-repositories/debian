@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ure-java",
+	"source": "libreoffice",
+	"version": "4:25.8.0-1~bpo13+1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libunoloader-java",
+		"uno-libs-private (= 4:25.8.0-1~bpo13+1)",
+		"ure (= 4:25.8.0-1~bpo13+1)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libreoffice-sal-private-abi (= 25.8.0)",
+		"libstdc++6 (>= 13.1)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1.4.0)",
+		"libuno-sal3t64 (>= 5.1.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)"
+	],
+	"recommends": [
+		"liblibreoffice-java",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"replaces": [
+		"ure (<< 4:24.2.0~rc1~)"
+	],
+	"breaks": [
+		"ure (<< 4:24.2.0~rc1~)"
+	],
+	"installedSize": 430,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "LibreOffice UNO runtime environment -- Java support",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/ure-java_25.8.0-1~bpo13+1_amd64.deb",
+	"size": 207172,
+	"sha256": "fd50f6c975a8f2db007f9430575907c37150ca96f304ff19a0ac26603fc1b025",
+	"descriptionMd5": "3780fd4c22acb15e52acba392035d968"
+}

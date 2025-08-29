@@ -6,6 +6,41 @@
 	],
 	"package": "cockpit-bridge",
 	"source": "cockpit",
+	"version": "345-1~bpo13+1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any"
+	],
+	"recommends": [
+		"openssh-client"
+	],
+	"suggests": [
+		"python3-pcp"
+	],
+	"replaces": [
+		"cockpit-pcp (<< 236)"
+	],
+	"conflicts": [
+		"cockpit-pcp"
+	],
+	"installedSize": 848,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
+	"description": "Cockpit bridge server-side component",
+	"homepage": "https://cockpit-project.org/",
+	"filename": "pool/main/c/cockpit/cockpit-bridge_345-1~bpo13+1_all.deb",
+	"size": 389404,
+	"sha256": "1ac8e5ac4ff369b6b80d172c4914448854de2b288c72d08be73712565c4e6fe2",
+	"descriptionMd5": "34419f40043aa83e9a0fb5968fe56ce7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cockpit-bridge",
+	"source": "cockpit",
 	"version": "337-1",
 	"section": "admin",
 	"priority": "optional",

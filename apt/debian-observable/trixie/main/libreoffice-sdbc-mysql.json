@@ -6,6 +6,42 @@
 	],
 	"package": "libreoffice-sdbc-mysql",
 	"source": "libreoffice",
+	"version": "4:25.8.0-1~bpo13+1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core-nogui | libreoffice-core",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libmariadb3 (>= 3.0.0)",
+		"libreoffice-sal-private-abi (= 25.8.0)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.1.0~alpha1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"installedSize": 650,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "MariaDB/MySQL SDBC driver for LibreOffice",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/libreoffice-sdbc-mysql_25.8.0-1~bpo13+1_amd64.deb",
+	"size": 180492,
+	"sha256": "7d3b05a3d325741ffd7bf408cb24d4d087e3fefad273f5e5679d16683b406116",
+	"descriptionMd5": "1022a8fb85f50d65847256d96ae25e4f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-sdbc-mysql",
+	"source": "libreoffice",
 	"version": "4:25.2.3-2",
 	"section": "misc",
 	"priority": "optional",

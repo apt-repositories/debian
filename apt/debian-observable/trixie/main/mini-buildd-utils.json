@@ -6,6 +6,43 @@
 	],
 	"package": "mini-buildd-utils",
 	"source": "mini-buildd",
+	"version": "2.4.2~bpo13+1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any (>= 3.11~)",
+		"python3-mini-buildd (= 2.4.2~bpo13+1)",
+		"python3-apt"
+	],
+	"recommends": [
+		"jq",
+		"lsb-release"
+	],
+	"replaces": [
+		"python-mini-buildd",
+		"python3-mini-buildd (<< 1.1.5~)"
+	],
+	"breaks": [
+		"python-mini-buildd",
+		"python3-mini-buildd (<< 1.1.5~)"
+	],
+	"installedSize": 276,
+	"maintainer": "Stephan Sürken <absurd@debian.org>",
+	"description": "minimal build daemon - utilities",
+	"homepage": "http://mini-buildd.installiert.net/",
+	"filename": "pool/main/m/mini-buildd/mini-buildd-utils_2.4.2~bpo13+1_all.deb",
+	"size": 229436,
+	"sha256": "9560b146047e6a2cbe870b5b7a6454f49c44f22f26f1f02aa546232ec464c305",
+	"descriptionMd5": "c13068504339a542225772226bdda003"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mini-buildd-utils",
+	"source": "mini-buildd",
 	"version": "2.2.8",
 	"section": "devel",
 	"priority": "optional",

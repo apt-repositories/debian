@@ -5,34 +5,34 @@
 		"Size"
 	],
 	"package": "telepathy-mission-control-5",
-	"source": "telepathy-mission-control-5 (1:5.16.5-2.2)",
-	"version": "1:5.16.5-2.2+b1",
+	"version": "1:5.16.6-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libmission-control-plugins0t64 (= 1:5.16.5-2.2+b1)",
+		"libmission-control-plugins0t64 (= 1:5.16.6-2)",
 		"dconf-gsettings-backend | gsettings-backend",
 		"libc6 (>= 2.34)",
-		"libdbus-1-3 (>= 1.9.14)",
+		"libdbus-1-3 (>= 1.10)",
 		"libdbus-glib-1-2 (>= 0.92)",
 		"libglib2.0-0t64 (>= 2.78.0)",
 		"libnm0 (>= 1.0.0)",
-		"libtelepathy-glib0t64 (>= 0.20)"
+		"libtelepathy-glib0t64 (>= 0.19.10)"
 	],
 	"suggests": [
-		"telepathy-haze"
+		"telepathy-haze",
+		"apparmor"
 	],
 	"conflicts": [
 		"telepathy-mission-control"
 	],
-	"installedSize": 646,
+	"installedSize": 671,
 	"maintainer": "Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>",
 	"description": "management daemon for Telepathy real-time communication framework",
 	"homepage": "https://telepathy.freedesktop.org/wiki/",
-	"filename": "pool/main/t/telepathy-mission-control-5/telepathy-mission-control-5_5.16.5-2.2+b1_amd64.deb",
-	"size": 312996,
-	"md5": "4b8367850edcc9d8500a05189afaae95",
-	"sha256": "a88a8442c2960849f9afe45bfe616c3a87a2a39e6ff5a9e7e706deb542842b47",
+	"filename": "pool/main/t/telepathy-mission-control-5/telepathy-mission-control-5_5.16.6-2_amd64.deb",
+	"size": 316672,
+	"md5": "71036cde9d866a2332b58aa190be4534",
+	"sha256": "07777f3e68f0257ac77dab48a6c162c5460bea5a42bc190f5f266ea666a09ca8",
 	"descriptionMd5": "e55b455e982023023ef7a47ea2921383"
 }]

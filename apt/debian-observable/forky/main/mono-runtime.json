@@ -6,24 +6,39 @@
 	],
 	"package": "mono-runtime",
 	"source": "mono",
-	"version": "6.12.0.199+dfsg-6",
+	"version": "6.14.1+ds-6",
 	"section": "cli-mono",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"mono-runtime-sgen (= 6.12.0.199+dfsg-6)"
+		"binutils",
+		"mono-libraries",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3)",
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"recommends": [
-		"binfmt-support (>= 1.1.2)"
+		"binfmt-support"
 	],
-	"installedSize": 79,
-	"maintainer": "Antoine Le Gonidec <debian@vv221.fr>",
-	"description": "Mono runtime - default version",
+	"replaces": [
+		"mono-gac (<< 6.14.1+ds-3)",
+		"mono-runtime-boehm (<< 6.14.1+ds-3)",
+		"mono-runtime-common (<< 6.14.1+ds-3)",
+		"mono-runtime-sgen (<< 6.14.1+ds-3)"
+	],
+	"breaks": [
+		"mono-gac (<< 6.14.1+ds-3)",
+		"mono-runtime-boehm (<< 6.14.1+ds-3)",
+		"mono-runtime-common (<< 6.14.1+ds-3)",
+		"mono-runtime-sgen (<< 6.14.1+ds-3)"
+	],
+	"installedSize": 12877,
+	"maintainer": "Antoine Le Gonidec <vv221@debian.org>",
+	"description": "Framework Mono - runtime binaries",
 	"homepage": "http://www.mono-project.com/",
-	"filename": "pool/main/m/mono/mono-runtime_6.12.0.199+dfsg-6_amd64.deb",
-	"size": 18312,
-	"md5": "f5ead8c5ef198050981314cff8fd1aa5",
-	"sha256": "a6f0de6e1881de8d70f3865cc8e8ec264bb45942071c2cfd3377531c90850239",
-	"descriptionMd5": "0ef9550e0b708629302fd4b5f9bdeb39"
+	"filename": "pool/main/m/mono/mono-runtime_6.14.1+ds-6_amd64.deb",
+	"size": 3175636,
+	"md5": "889a6315ab15d9f5a88b0cfdde127a90",
+	"sha256": "101408e30024a79025e7b5c1026a5e1f2dc02639389337b085822c2d7411615f",
+	"descriptionMd5": "0c4439d149c048814d2520c06fab634d"
 }]
