@@ -5,6 +5,37 @@
 		"Size"
 	],
 	"package": "cockpit-machines",
+	"version": "338-1~bpo13+1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"cockpit-bridge (>= 215)",
+		"libvirt-daemon-system",
+		"libvirt-clients | libvirt-bin",
+		"libvirt-dbus",
+		"virt-install (>= 3.0.0) | virtinst (>= 3.0.0)"
+	],
+	"recommends": [
+		"python3-gi",
+		"gir1.2-libosinfo-1.0",
+		"qemu-block-extra"
+	],
+	"installedSize": 915,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
+	"description": "Cockpit user interface for virtual machines",
+	"homepage": "https://github.com/cockpit-project/cockpit-machines",
+	"filename": "pool/main/c/cockpit-machines/cockpit-machines_338-1~bpo13+1_all.deb",
+	"size": 894984,
+	"sha256": "c6d50e741ce317dbc755220ea69603e6228751a5dbac294dcf4372ae58239edc",
+	"descriptionMd5": "8df4c11e840a3161801680033725df15"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cockpit-machines",
 	"version": "332-1",
 	"section": "admin",
 	"priority": "optional",
