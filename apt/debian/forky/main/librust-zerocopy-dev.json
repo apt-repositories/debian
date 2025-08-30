@@ -6,21 +6,24 @@
 	],
 	"package": "librust-zerocopy-dev",
 	"source": "rust-zerocopy",
-	"version": "0.7.34-1",
+	"version": "0.8.26-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-byteorder-1-dev (>= 1.3-~~)",
-		"librust-zerocopy-derive-0.7.34+default-dev"
+		"librust-zerocopy-derive-0.8+default-dev (<< 0.8.27-~~)",
+		"librust-zerocopy-derive-0.8+default-dev (>= 0.8.26-~~)"
 	],
-	"installedSize": 1078,
+	"breaks": [
+		"librust-ppv-lite86-dev (<< 0.2.21)"
+	],
+	"installedSize": 1577,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Utilities for zero-copy parsing and serialization - Rust source code",
+	"description": "Zerocopy makes zero-cost memory manipulation effortless - Rust source code",
 	"homepage": "https://github.com/google/zerocopy",
-	"filename": "pool/main/r/rust-zerocopy/librust-zerocopy-dev_0.7.34-1_amd64.deb",
-	"size": 114624,
-	"md5": "a209084032f8cae00ee93227ab6a2165",
-	"sha256": "e23ebe89a804d33fd54eb05f70cc34261439a824544d8544321f7f70e1974020",
-	"descriptionMd5": "8537546cc09e6eb3c0798395f348b1c5"
+	"filename": "pool/main/r/rust-zerocopy/librust-zerocopy-dev_0.8.26-4_amd64.deb",
+	"size": 184180,
+	"md5": "12228a0396677b5a5cbfbf5eb1696b19",
+	"sha256": "d8d832333c2f377c016f7d4232a852691b4ae2f832d01ea4512d5adcdcd2e5a1",
+	"descriptionMd5": "bb9aa1cc35be45c5bc4d1a7bf5880c25"
 }
