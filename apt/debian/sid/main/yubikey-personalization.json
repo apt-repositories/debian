@@ -5,23 +5,23 @@
 		"Size"
 	],
 	"package": "yubikey-personalization",
-	"version": "1.20.0-5",
+	"version": "1.20.0-6",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libyubikey-udev",
 		"libc6 (>= 2.34)",
 		"libykpers-1-1 (>= 1.19.0)",
-		"libyubikey0 (>= 1.5)",
-		"libyubikey-udev"
+		"libyubikey0 (>= 1.5)"
 	],
 	"installedSize": 152,
-	"maintainer": "Debian Authentication Maintainers <team+auth@tracker.debian.org>",
+	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "Personalization tool for Yubikey OTP tokens",
-	"homepage": "https://developers.yubico.com/yubikey-personalization/",
-	"filename": "pool/main/y/yubikey-personalization/yubikey-personalization_1.20.0-5_amd64.deb",
-	"size": 75656,
-	"md5": "21481104b0ef8e5c82b1ad7175cf8595",
-	"sha256": "315a837a16ed1fa37aeef2f0360b0c35f8668813a49a5ecdfe6a9de5fccd6a0c",
+	"homepage": "https://github.com/Yubico/yubikey-personalization",
+	"filename": "pool/main/y/yubikey-personalization/yubikey-personalization_1.20.0-6_amd64.deb",
+	"size": 75896,
+	"md5": "daf83665980f52e436905ea57c8091c4",
+	"sha256": "40819d2ba47fd4e98e09ff485267f6a9a3e34ac0ca55901465154905fe748e48",
 	"descriptionMd5": "82f7bd05e2168cf6a93b92963aaab5a1"
 }
