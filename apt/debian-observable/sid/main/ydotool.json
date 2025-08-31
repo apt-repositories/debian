@@ -5,17 +5,27 @@
 		"Size"
 	],
 	"package": "ydotool",
-	"version": "0.1.8-3",
+	"version": "1.0.4-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 2261,
-	"maintainer": "Alexandre Viau <aviau@debian.org>",
+	"depends": [
+		"init-system-helpers (>= 1.52)",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"ydotoold (<< 1.0.4-1)"
+	],
+	"breaks": [
+		"ydotoold (<< 1.0.4-1)"
+	],
+	"installedSize": 69,
+	"maintainer": "Andre Paiusco <debian@paiusco.org>",
 	"description": "Command-line automation tool - cli",
 	"homepage": "https://github.com/ReimuNotMoe/ydotool",
-	"filename": "pool/main/y/ydotool/ydotool_0.1.8-3_amd64.deb",
-	"size": 679196,
-	"md5": "8e65d122c5a9c200f0085a0c22e2119c",
-	"sha256": "58dd3bd7ecf680eb9c2febea013cdadc10e5e9fe9b08db6c5de123593c0d542f",
-	"descriptionMd5": "9dc55d2328c5a9c2477a2e94d484bad3"
+	"filename": "pool/main/y/ydotool/ydotool_1.0.4-2_amd64.deb",
+	"size": 16344,
+	"md5": "d65758c1c8118a265b91b8af0bb1e2a9",
+	"sha256": "d78a488c12b101e621705d29e989273f865633ffa882ef62c9319f46a0293703",
+	"descriptionMd5": "a377823689a5c6ac5216d20c5a0be88e"
 }]
