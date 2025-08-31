@@ -6,7 +6,7 @@
 	],
 	"package": "librust-upstream-ontologist-dev",
 	"source": "rust-upstream-ontologist",
-	"version": "0.2.10-2",
+	"version": "0.2.10-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -64,13 +64,16 @@
 		"librust-url-2+default-dev",
 		"librust-xmltree+default-dev (>= 0.10-~~)"
 	],
+	"breaks": [
+		"librust-ognibuild-dev (<< 0.1.4)"
+	],
 	"installedSize": 1054,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Tracking of upstream project metadata - Rust source code",
 	"homepage": "https://github.com/jelmer/upstream-ontologist",
-	"filename": "pool/main/r/rust-upstream-ontologist/librust-upstream-ontologist-dev_0.2.10-2_amd64.deb",
-	"size": 144524,
-	"md5": "5031ce20d2ccddd88cd0b1208303073c",
-	"sha256": "26fd39642ca25d0fa2d6cc872667d9dd01a37ba57f677e4617aed0186b33c8bc",
+	"filename": "pool/main/r/rust-upstream-ontologist/librust-upstream-ontologist-dev_0.2.10-3_amd64.deb",
+	"size": 144648,
+	"md5": "55cc9e1eb7ddd6e2658930a07bff31ac",
+	"sha256": "f343f9b53ed1da800ac1b0d86942f150f0b7b6423861175aaff00982fc45079d",
 	"descriptionMd5": "0beafff2d79e7b3e4cc5be9821a9dbda"
 }]

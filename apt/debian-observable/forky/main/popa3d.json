@@ -5,32 +5,34 @@
 		"Size"
 	],
 	"package": "popa3d",
-	"version": "1.0.3-1.1",
+	"version": "1.0.3-2",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libpam0g (>= 0.99.7.1)"
+		"libpam0g (>= 0.99.7.1)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"preDepends": [
-		"debconf (>= 1.2.9) | debconf-2.0",
-		"adduser",
-		"update-inetd"
+		"debconf | debconf-2.0",
+		"update-inetd",
+		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
-		"exim4 | mail-transport-agent"
+		"default-mta | mail-transport-agent"
 	],
 	"conflicts": [
 		"pop3-server"
 	],
-	"installedSize": 87,
-	"maintainer": "Krzysztof Krzyżaniak (eloy) <eloy@debian.org>",
+	"installedSize": 105,
+	"maintainer": "Package Salvaging Team <team+salvage@tracker.debian.org>",
 	"description": "Tiny POP3 daemon, designed with security as the primary goal",
 	"homepage": "http://www.openwall.com/popa3d/",
-	"filename": "pool/main/p/popa3d/popa3d_1.0.3-1.1_amd64.deb",
-	"size": 31160,
-	"md5": "bb67529eb3cbaaa3269a2f9812ea1598",
-	"sha256": "fe16986828b617d0356b525b03911821341bf7cd559c3b87901a385af5bc7736",
-	"descriptionMd5": "61843b2fcfb89d8f6bcc09ed21531191"
+	"filename": "pool/main/p/popa3d/popa3d_1.0.3-2_amd64.deb",
+	"size": 35520,
+	"md5": "33c7129182b777a43b8927fae434f197",
+	"sha256": "29964983df93fee6cae7fa694b6af39582bd5d64a0edf6482481757438b4afc3",
+	"descriptionMd5": "f3f536c8acc6abf8a21c014cb1117843"
 }]
