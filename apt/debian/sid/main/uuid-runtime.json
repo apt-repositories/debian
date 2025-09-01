@@ -6,17 +6,17 @@
 	],
 	"package": "uuid-runtime",
 	"source": "util-linux",
-	"version": "2.41.1-1",
+	"version": "2.41.1-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
-		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
-		"libsmartcols1 (= 2.41.1-1)",
+		"libsmartcols1 (= 2.41.1-2)",
 		"libsystemd0",
-		"libuuid1 (= 2.41.1-1)"
+		"libuuid1 (= 2.41.1-2)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"preDepends": [
 		"libuuid1",
@@ -26,9 +26,9 @@
 	"maintainer": "Chris Hofstaedtler <zeha@debian.org>",
 	"description": "runtime components for the Universally Unique ID library",
 	"homepage": "https://github.com/util-linux/util-linux",
-	"filename": "pool/main/u/util-linux/uuid-runtime_2.41.1-1_amd64.deb",
-	"size": 60628,
-	"md5": "5032366c970e816f23b57a8c7059cf4b",
-	"sha256": "a8e040e193163784e674b1c74e71ceadb627bc90ea76d5ccdd8e0e93211a1172",
+	"filename": "pool/main/u/util-linux/uuid-runtime_2.41.1-2_amd64.deb",
+	"size": 60660,
+	"md5": "8e123a8ad535d6c1f41e791fd36d5305",
+	"sha256": "cecccc492678108b87398c37159feb2e13797c9338d2d823ebf664d38ef9ee32",
 	"descriptionMd5": "c848721d4a6e6dbc698c36d06bf45ef9"
 }
