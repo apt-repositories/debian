@@ -5,6 +5,61 @@
 		"Size"
 	],
 	"package": "speech-dispatcher",
+	"version": "0.12.1-2~bpo13+1",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"speech-dispatcher-audio-plugins (= 0.12.1-2~bpo13+1)",
+		"init-system-helpers (>= 1.52)",
+		"libc6 (>= 2.38)",
+		"libdotconf0 (>= 1.0.13)",
+		"libglib2.0-0t64 (>= 2.76.0)",
+		"libltdl7 (>= 2.5.4)",
+		"libsndfile1 (>= 1.0.20)",
+		"libspeechd-module0 (>= 0.12.1)",
+		"libspeechd2 (>= 0.12.0~)",
+		"libsystemd0"
+	],
+	"recommends": [
+		"speech-dispatcher-espeak-ng",
+		"sound-icons"
+	],
+	"suggests": [
+		"libttspico-utils",
+		"espeak",
+		"mbrola",
+		"speech-dispatcher-doc-cs",
+		"speech-dispatcher-festival",
+		"speech-dispatcher-cicero",
+		"speech-dispatcher-flite",
+		"speech-dispatcher-espeak"
+	],
+	"breaks": [
+		"cl-speech-dispatcher (<< 0.9~)",
+		"libspeechd2 (<< 0.9~)",
+		"python-speechd (<< 0.9~)",
+		"python3-speechd (<< 0.9~)",
+		"speech-dispatcher-baratinoo (<< 0.10.2-1~)",
+		"speech-dispatcher-ibmtts (<< 0.10.2-1~)",
+		"speech-dispatcher-kali (<< 0.10.2-1~)"
+	],
+	"installedSize": 28508,
+	"maintainer": "Debian TTS Team <tts-project@alioth-lists.debian.net>",
+	"description": "Common interface to speech synthesizers",
+	"homepage": "http://devel.freebsoft.org/speechd",
+	"filename": "pool/main/s/speech-dispatcher/speech-dispatcher_0.12.1-2~bpo13+1_amd64.deb",
+	"size": 3987140,
+	"sha256": "d1c821cbce0bae59077dbfdeaeeec38e4cb896c380056f801145aeabbd6da40f",
+	"descriptionMd5": "9726217383c5d7c9454fe7d0db64bda2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "speech-dispatcher",
 	"version": "0.12.0-5",
 	"section": "sound",
 	"priority": "optional",
