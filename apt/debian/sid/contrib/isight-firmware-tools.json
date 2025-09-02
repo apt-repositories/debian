@@ -5,24 +5,24 @@
 		"Size"
 	],
 	"package": "isight-firmware-tools",
-	"version": "1.6-4.2",
+	"version": "1.6-4.3",
 	"section": "contrib/graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"udev",
+		"debconf (>= 0.5) | debconf-2.0",
 		"libc6 (>= 2.34)",
 		"libglib2.0-0t64 (>= 2.14.0)",
-		"libusb-0.1-4 (>= 2:0.1.12)",
-		"debconf (>= 0.5) | debconf-2.0",
-		"udev"
+		"libusb-0.1-4 (>= 2:0.1.12)"
 	],
-	"installedSize": 115,
+	"installedSize": 116,
 	"maintainer": "Debian Mactel <team+pkg-mactel-devel@tracker.debian.org>",
 	"description": "tools for dealing with Apple iSight firmware",
 	"homepage": "https://launchpad.net/isight-firmware-tools/",
-	"filename": "pool/contrib/i/isight-firmware-tools/isight-firmware-tools_1.6-4.2_amd64.deb",
-	"size": 28912,
-	"md5": "819821e43f915b12207e6d4c6010a022",
-	"sha256": "15427cfbb17169b6bd2f3531ef8f9092a25ce612142621758e831067b0678f72",
+	"filename": "pool/contrib/i/isight-firmware-tools/isight-firmware-tools_1.6-4.3_amd64.deb",
+	"size": 28884,
+	"md5": "d15bce4cfadf61450dfc8783501ba9fb",
+	"sha256": "920729842ee9b3b6a1bfc3202250d7362434d14a82ba4eb2d38a1f039323effd",
 	"descriptionMd5": "17c00d9904d218c9804739e81a19fe3e"
 }

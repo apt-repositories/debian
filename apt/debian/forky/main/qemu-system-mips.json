@@ -6,7 +6,7 @@
 	],
 	"package": "qemu-system-mips",
 	"source": "qemu",
-	"version": "1:10.0.3+ds-4",
+	"version": "1:10.1.0+ds-2",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -37,29 +37,30 @@
 		"libvdeplug2t64 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:10.0.3+ds-4)",
-		"qemu-system-data (>> 1:10.0.3+ds~)"
+		"qemu-system-common (= 1:10.1.0+ds-2)",
+		"qemu-system-data (>> 1:10.1.0+ds~)"
 	],
 	"recommends": [
 		"qemu-utils",
 		"seabios",
 		"ipxe-qemu",
-		"qemu-system-gui (= 1:10.0.3+ds-4)",
-		"qemu-system-modules-spice (= 1:10.0.3+ds-4)",
-		"qemu-system-modules-opengl (= 1:10.0.3+ds-4)",
-		"qemu-block-extra (= 1:10.0.3+ds-4)"
+		"qemu-system-gui (= 1:10.1.0+ds-2)",
+		"qemu-system-modules-spice (= 1:10.1.0+ds-2)",
+		"qemu-system-modules-opengl (= 1:10.1.0+ds-2)",
+		"qemu-block-extra (= 1:10.1.0+ds-2)"
 	],
 	"suggests": [
 		"samba",
-		"vde2"
+		"vde2",
+		"passt"
 	],
-	"installedSize": 62954,
+	"installedSize": 61395,
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (mips)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-mips_10.0.3+ds-4_amd64.deb",
-	"size": 14603204,
-	"md5": "edbebd43760bd7cb3e30819019109a13",
-	"sha256": "dde4f905dfebfa9927f2adb8023d657bb868453439ba47a920f543f8f273a54e",
+	"filename": "pool/main/q/qemu/qemu-system-mips_10.1.0+ds-2_amd64.deb",
+	"size": 14240520,
+	"md5": "13651c171666fef1d60dd44521c92cf6",
+	"sha256": "4ef1bfa5d1d96837e5372d2386463fbdc419cfa4eb4173695a1e98a8deec3d61",
 	"descriptionMd5": "c652a6e2716b5a4171c86c75dd130e2b"
 }

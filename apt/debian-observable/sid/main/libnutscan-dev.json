@@ -6,26 +6,23 @@
 	],
 	"package": "libnutscan-dev",
 	"source": "nut",
-	"version": "2.8.1-5",
+	"version": "2.8.3-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnutscan2 (= 2.8.1-5)"
+		"libnutscan3 (= 2.8.3-3)"
 	],
-	"replaces": [
-		"libupsclient-dev (<< 2.7.4-9~)"
+	"conflicts": [
+		"libnutscan2"
 	],
-	"breaks": [
-		"libupsclient-dev (<< 2.7.4-9~)"
-	],
-	"installedSize": 470,
+	"installedSize": 966,
 	"maintainer": "Laurent Bigonville <bigon@debian.org>",
 	"description": "network UPS tools - development files for the scanner library",
 	"homepage": "https://networkupstools.org/",
-	"filename": "pool/main/n/nut/libnutscan-dev_2.8.1-5_amd64.deb",
-	"size": 446524,
-	"md5": "5763ed1beb31afb466f55fd62816822e",
-	"sha256": "c0682083a6d6083abb3ab1f6b82b2140c7a7e52cecfaa384e5150fd1f5504f77",
+	"filename": "pool/main/n/nut/libnutscan-dev_2.8.3-3_amd64.deb",
+	"size": 686384,
+	"md5": "d34069aa042e8fa5b008418a1cf4cacc",
+	"sha256": "a7e617094ae7d0d069883e5553e96256a76d70587b83e3b2e18501ab8725e803",
 	"descriptionMd5": "547f44f844617d1f65315be349e8f60e"
 }]
