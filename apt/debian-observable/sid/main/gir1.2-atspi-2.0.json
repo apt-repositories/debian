@@ -6,7 +6,7 @@
 	],
 	"package": "gir1.2-atspi-2.0",
 	"source": "at-spi2-core",
-	"version": "2.57.1-1",
+	"version": "2.57.2-1",
 	"section": "introspection",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,20 +14,23 @@
 		"gir1.2-dbus-1.0",
 		"gir1.2-glib-2.0",
 		"gir1.2-gobject-2.0",
-		"libatspi2.0-0t64 (= 2.57.1-1)",
+		"libatspi2.0-0t64 (= 2.57.2-1)",
 		"python3:any"
 	],
 	"replaces": [
 		"gir1.0-gtk-2.0 (<< 2.22)",
 		"gobject-introspection-repository"
 	],
+	"breaks": [
+		"python3-pyatspi (<< 2.57.0-1)"
+	],
 	"installedSize": 95,
 	"maintainer": "Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>",
 	"description": "Assistive Technology Service Provider (GObject introspection)",
 	"homepage": "https://wiki.gnome.org/Accessibility",
-	"filename": "pool/main/a/at-spi2-core/gir1.2-atspi-2.0_2.57.1-1_amd64.deb",
-	"size": 25148,
-	"md5": "03708783c47f5e339ae1dca78acbbfc3",
-	"sha256": "65a03a21e1e793e0964e4f6039b60bcf88b7623cd54a41a4e52724f5fc3edcaf",
+	"filename": "pool/main/a/at-spi2-core/gir1.2-atspi-2.0_2.57.2-1_amd64.deb",
+	"size": 25328,
+	"md5": "903eaba6caca5dd92adb6c6345fbf11d",
+	"sha256": "a0ffb25c7d70bcf38d04c14c3d15bd2e6c86c9942224cea7bfac2a2d60d89f6b",
 	"descriptionMd5": "b2f515b8cdef2fbe0cb29eb69f2ea27a"
 }]
