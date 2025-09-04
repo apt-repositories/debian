@@ -6,7 +6,7 @@
 	],
 	"package": "node-llhttp",
 	"source": "llhttp",
-	"version": "9.3.3~really9.3.0+~cs12.11.8-1",
+	"version": "9.3.3~really9.3.0+~cs12.11.8-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,16 @@
 		"node-debug",
 		"node-semver"
 	],
-	"installedSize": 1270,
+	"breaks": [
+		"node-undici (<< 7.15.0+dfsg+~cs3.2.0-1)"
+	],
+	"installedSize": 1269,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "HTTP messages parser library - Node.js module",
 	"homepage": "https://llhttp.org/",
-	"filename": "pool/main/l/llhttp/node-llhttp_9.3.3~really9.3.0+~cs12.11.8-1_all.deb",
-	"size": 150596,
-	"md5": "70ab19394e88c90719fca3c03980b284",
-	"sha256": "33827d7012a8ea1c49bbe40ee3312e035bc2b59496e0c1622ae907f8adf03f39",
+	"filename": "pool/main/l/llhttp/node-llhttp_9.3.3~really9.3.0+~cs12.11.8-3_all.deb",
+	"size": 150152,
+	"md5": "0ee10ac0b79c67caccd83966ae5e6712",
+	"sha256": "dddb772a276093578a1f75251be8c57a6c1e8718c24afe710b0e8cdc20e44486",
 	"descriptionMd5": "fb0d7c8e8169da3e6eb11ecb0b2dbad8"
 }
