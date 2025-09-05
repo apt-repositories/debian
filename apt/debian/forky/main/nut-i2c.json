@@ -6,23 +6,26 @@
 	],
 	"package": "nut-i2c",
 	"source": "nut",
-	"version": "2.8.1-5",
+	"version": "2.8.3-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nut-server (= 2.8.1-5)",
+		"nut-server (= 2.8.3-3)",
 		"libc6 (>= 2.38)",
 		"libi2c0 (>= 4.0)",
 		"libsystemd0 (>= 246)"
 	],
-	"installedSize": 672,
+	"conflicts": [
+		"nut-server (<< 2.8.3-2~)"
+	],
+	"installedSize": 1048,
 	"maintainer": "Laurent Bigonville <bigon@debian.org>",
 	"description": "network UPS tools - I2C driver",
 	"homepage": "https://networkupstools.org/",
-	"filename": "pool/main/n/nut/nut-i2c_2.8.1-5_amd64.deb",
-	"size": 481780,
-	"md5": "9e51f27b9c841487cefdbfe0ba5dede4",
-	"sha256": "a9793331c6d2d4f63f92160112958c3f157abf0a2dff648e78999fee2f4b2b6a",
+	"filename": "pool/main/n/nut/nut-i2c_2.8.3-3_amd64.deb",
+	"size": 683624,
+	"md5": "9aaf41ad801b2c0c2c248a95a538516e",
+	"sha256": "86799d3d4f4c64261b2efedbb7be1d2a42f3c68297e8886691a50db8e008bc4a",
 	"descriptionMd5": "78f5ff49f62d1fce4d5e4b382c68afb2"
 }
