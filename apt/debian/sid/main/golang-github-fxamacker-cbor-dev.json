@@ -6,20 +6,23 @@
 	],
 	"package": "golang-github-fxamacker-cbor-dev",
 	"source": "golang-github-fxamacker-cbor",
-	"version": "2.8.0-1",
+	"version": "2.9.0-1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"golang-github-x448-float16-dev"
 	],
-	"installedSize": 947,
+	"breaks": [
+		"golang-github-veraison-go-cose-dev (<= 1.2.1-2)"
+	],
+	"installedSize": 1005,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "CBOR codec implementing RFCs 7049 & 8949 (library)",
 	"homepage": "https://github.com/fxamacker/cbor",
-	"filename": "pool/main/g/golang-github-fxamacker-cbor/golang-github-fxamacker-cbor-dev_2.8.0-1_all.deb",
-	"size": 115756,
-	"md5": "a85100e0c53ab2bcc0293a551a5c5645",
-	"sha256": "e2f0cee67979e5f6a068d85f9e01583469bf1d0d3735ee6ff6b71fada81b1088",
+	"filename": "pool/main/g/golang-github-fxamacker-cbor/golang-github-fxamacker-cbor-dev_2.9.0-1_all.deb",
+	"size": 120832,
+	"md5": "5c098c94ec852f9a4d979659523c5d9b",
+	"sha256": "61c0729b744d3b95fa4668250901d2aad06f893e29ca6b93dac91e430d71103e",
 	"descriptionMd5": "5ef866a98dc98e8589d2554ac3eec0f6"
 }
