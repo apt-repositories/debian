@@ -6,25 +6,23 @@
 	],
 	"package": "nginx-core",
 	"source": "nginx",
-	"version": "1.28.0-3",
+	"version": "1.28.0-4",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libnginx-mod-http-geoip (>= 1.28.0-3)",
-		"libnginx-mod-http-geoip (<< 1.28.0-3.1~)",
-		"libnginx-mod-http-image-filter (>= 1.28.0-3)",
-		"libnginx-mod-http-image-filter (<< 1.28.0-3.1~)",
-		"libnginx-mod-http-xslt-filter (>= 1.28.0-3)",
-		"libnginx-mod-http-xslt-filter (<< 1.28.0-3.1~)",
-		"libnginx-mod-mail (>= 1.28.0-3)",
-		"libnginx-mod-mail (<< 1.28.0-3.1~)",
-		"libnginx-mod-stream (>= 1.28.0-3)",
-		"libnginx-mod-stream (<< 1.28.0-3.1~)",
-		"libnginx-mod-stream-geoip (>= 1.28.0-3)",
-		"libnginx-mod-stream-geoip (<< 1.28.0-3.1~)",
-		"nginx (>= 1.28.0-3)",
-		"nginx (<< 1.28.0-3.1~)"
+		"libnginx-mod-http-geoip2",
+		"libnginx-mod-http-image-filter (>= 1.28.0-4)",
+		"libnginx-mod-http-image-filter (<< 1.28.0-4.1~)",
+		"libnginx-mod-http-xslt-filter (>= 1.28.0-4)",
+		"libnginx-mod-http-xslt-filter (<< 1.28.0-4.1~)",
+		"libnginx-mod-mail (>= 1.28.0-4)",
+		"libnginx-mod-mail (<< 1.28.0-4.1~)",
+		"libnginx-mod-stream (>= 1.28.0-4)",
+		"libnginx-mod-stream (<< 1.28.0-4.1~)",
+		"libnginx-mod-stream-geoip2",
+		"nginx (>= 1.28.0-4)",
+		"nginx (<< 1.28.0-4.1~)"
 	],
 	"replaces": [
 		"nginx-full (<< 1.18.0-1)"
@@ -32,13 +30,13 @@
 	"breaks": [
 		"nginx-full (<< 1.18.0-1)"
 	],
-	"installedSize": 90,
+	"installedSize": 91,
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "nginx web/proxy server (standard version)",
 	"homepage": "https://nginx.org",
-	"filename": "pool/main/n/nginx/nginx-core_1.28.0-3_all.deb",
-	"size": 84012,
-	"md5": "cf7089be22377326429df6bf7dbd7dbc",
-	"sha256": "728e8db18a4add16cb277ec7b1cc991133583810b9a9facc7fc611410b1c4d02",
+	"filename": "pool/main/n/nginx/nginx-core_1.28.0-4_all.deb",
+	"size": 84484,
+	"md5": "39cd67ead4c49f0d813528e568eb7303",
+	"sha256": "53c28f03702f262514ee1ac5d3964b762b422b068200afb5df5b2fe54dc6ac66",
 	"descriptionMd5": "e85c58ee97847a5147d2960542e84a35"
 }]
