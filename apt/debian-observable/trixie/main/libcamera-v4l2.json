@@ -6,6 +6,38 @@
 	],
 	"package": "libcamera-v4l2",
 	"source": "libcamera",
+	"version": "0.5.2-2~bpo13+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcamera0.5 (>= 0.5.2)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"replaces": [
+		"libcamera0 (<< 0.0.3-1~)"
+	],
+	"breaks": [
+		"libcamera0 (<< 0.0.3-1~)"
+	],
+	"installedSize": 172,
+	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
+	"description": "complex camera support library (V4L2 module)",
+	"homepage": "https://libcamera.org/",
+	"filename": "pool/main/libc/libcamera/libcamera-v4l2_0.5.2-2~bpo13+1_amd64.deb",
+	"size": 51304,
+	"sha256": "5dd075ad44ffb3499a15990d7888efd40cd682486d77e8cfcd0132b8b6e45096",
+	"descriptionMd5": "589aec948becdf65f485779e3046c667"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcamera-v4l2",
+	"source": "libcamera",
 	"version": "0.4.0-7",
 	"section": "libs",
 	"priority": "optional",
