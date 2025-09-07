@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pipewire-pulse",
+	"source": "pipewire",
+	"version": "1.4.7-3~bpo13+1",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"pipewire (= 1.4.7-3~bpo13+1)",
+		"dconf-gsettings-backend | gsettings-backend",
+		"init-system-helpers (>= 1.52)"
+	],
+	"recommends": [
+		"wireplumber"
+	],
+	"suggests": [
+		"libspa-0.2-bluetooth",
+		"pulseaudio-utils"
+	],
+	"replaces": [
+		"pipewire-bin (<< 0.3.27-2)"
+	],
+	"breaks": [
+		"pipewire-bin (<< 0.3.27-2)"
+	],
+	"conflicts": [
+		"pulseaudio-module-gsettings"
+	],
+	"installedSize": 63,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>",
+	"description": "PipeWire PulseAudio daemon",
+	"homepage": "https://pipewire.org/",
+	"filename": "pool/main/p/pipewire/pipewire-pulse_1.4.7-3~bpo13+1_amd64.deb",
+	"size": 25048,
+	"sha256": "876aa258e8def136017f33622486ff26eace9c83817eb58ca7d54603823415f6",
+	"descriptionMd5": "9c7e93012c8f4cad579ebff7dd3cb0db"
+}

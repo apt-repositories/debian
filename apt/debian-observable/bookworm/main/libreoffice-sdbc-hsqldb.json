@@ -6,6 +6,44 @@
 	],
 	"package": "libreoffice-sdbc-hsqldb",
 	"source": "libreoffice",
+	"version": "4:7.4.7-1+deb12u9",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core-nogui | libreoffice-core",
+		"libreoffice-java-common (>= 4:7.4.7~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre",
+		"libhsqldb1.8.0-java",
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3 (>= 5.3.0~alpha)",
+		"libuno-sal3 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"enhances": [
+		"libreoffice-base-drivers"
+	],
+	"installedSize": 426,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "HSQLDB SDBC driver for LibreOffice",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/libreoffice-sdbc-hsqldb_7.4.7-1+deb12u9_amd64.deb",
+	"size": 136304,
+	"md5": "bd0b58f50afb16a19ae1489a80090729",
+	"sha256": "c7d6e00999de795b88574a71e5f0bfb6e6102ed6d4e83c8029bae984f703a044",
+	"descriptionMd5": "54ed9715a25b1dae2ad2d3a9b6838a65"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-sdbc-hsqldb",
+	"source": "libreoffice",
 	"version": "4:7.4.7-1+deb12u8",
 	"section": "database",
 	"priority": "optional",

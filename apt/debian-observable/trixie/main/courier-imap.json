@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "courier-imap",
-	"source": "courier (1.4.1-3)",
-	"version": "5.2.11+1.4.1-3",
+	"source": "courier (1.4.1-3+deb13u1)",
+	"version": "5.2.11+1.4.1-3+deb13u1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"courier-base (= 1.4.1-3)",
+		"courier-base (= 1.4.1-3+deb13u1)",
 		"debconf",
 		"default-mta | mail-transport-agent",
 		"courier-authlib (>= 0.71)",
@@ -19,6 +19,9 @@
 		"libcourier-unicode8 (>= 2.3.1)",
 		"libgdbm6t64 (>= 1.16)",
 		"libidn2-0 (>= 2.0.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
 	],
 	"suggests": [
 		"courier-doc",
@@ -34,13 +37,13 @@
 	"conflicts": [
 		"imap-server"
 	],
-	"installedSize": 563,
+	"installedSize": 564,
 	"maintainer": "Soren Stoutner <soren@debian.org>",
 	"description": "Courier mail server - IMAP server",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier/courier-imap_5.2.11+1.4.1-3_amd64.deb",
-	"size": 233988,
-	"md5": "5585adf57d1f1915ef6f8c1444c09935",
-	"sha256": "12c28a0068efeb4b6288b29b0a56ea206f1cfba9da62b18a60b75640b6e4f2be",
+	"filename": "pool/main/c/courier/courier-imap_5.2.11+1.4.1-3+deb13u1_amd64.deb",
+	"size": 234468,
+	"md5": "01f9fd30561081a0268b6f308ff1d9d7",
+	"sha256": "e1daffef182bad601a182e871d828d2635ea56eb4c9596dc510f3dfac85a2927",
 	"descriptionMd5": "aedad44242f18297b70663ef077f0e63"
 }]

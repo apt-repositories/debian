@@ -6,6 +6,49 @@
 	],
 	"package": "ure-java",
 	"source": "libreoffice",
+	"version": "4:7.4.7-1+deb12u9",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libunoloader-java",
+		"uno-libs-private (= 4:7.4.7-1+deb12u9)",
+		"ure (= 4:7.4.7-1+deb12u9)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3 (>= 1.4.0)",
+		"libuno-sal3 (>= 5.1.0~alpha)",
+		"libuno-salhelpergcc3-3 (>= 1.4.0)"
+	],
+	"recommends": [
+		"liblibreoffice-java",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"replaces": [
+		"ure (<< 1:7.1.0~)"
+	],
+	"breaks": [
+		"ure (<< 1:7.1.0~)"
+	],
+	"installedSize": 296,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "LibreOffice UNO runtime environment -- Java support",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/ure-java_7.4.7-1+deb12u9_amd64.deb",
+	"size": 97876,
+	"md5": "8c9e40c04dc052a42ece3572aeac1ae4",
+	"sha256": "cda03f840b6c5b63959107c77038f9db6bdc5d20c60758c0e7585ba1826b6cdd",
+	"descriptionMd5": "3780fd4c22acb15e52acba392035d968"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ure-java",
+	"source": "libreoffice",
 	"version": "4:7.4.7-1+deb12u8",
 	"section": "java",
 	"priority": "optional",

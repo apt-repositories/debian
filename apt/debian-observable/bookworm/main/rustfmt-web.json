@@ -6,27 +6,29 @@
 	],
 	"package": "rustfmt-web",
 	"source": "rustc-web",
-	"version": "1.78.0+dfsg1-2~deb12u3",
+	"version": "1.85.0+dfsg3-1~deb12u3",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libgcc-s1 (>= 4.2)"
+		"libgcc-s1 (>= 4.2)",
+		"libstd-rust-web-1.85 (= 1.85.0+dfsg3-1~deb12u3)"
 	],
 	"recommends": [
 		"cargo-web"
 	],
 	"conflicts": [
-		"rustfmt"
+		"rustfmt",
+		"rustup"
 	],
-	"installedSize": 7693,
+	"installedSize": 7963,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust formatting helper",
 	"homepage": "http://www.rust-lang.org/",
-	"filename": "pool/main/r/rustc-web/rustfmt-web_1.78.0+dfsg1-2~deb12u3_amd64.deb",
-	"size": 2061132,
-	"md5": "b4d53fe56e4cdeaa6c9f353d83825fd8",
-	"sha256": "129f430b776dfefb27d2c01775ba7976d509612fd22f84b3b19421cf7c20bdd5",
+	"filename": "pool/main/r/rustc-web/rustfmt-web_1.85.0+dfsg3-1~deb12u3_amd64.deb",
+	"size": 2205608,
+	"md5": "c379d768fa7bd3c900ff18570094ced0",
+	"sha256": "1d73c7c2f1d8125700cbd68b69b41e77d1d0cc9aa71eb7a435e1905a98a1ce92",
 	"descriptionMd5": "3ad3031d946444f1737bc02666f33a91"
 }]

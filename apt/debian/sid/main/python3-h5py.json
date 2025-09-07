@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-h5py",
+	"source": "h5py",
+	"version": "3.14.0-3",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-h5py-serial | python3-h5py-mpi",
+		"python3-numpy (>= 2.0.0~)",
+		"python3:any"
+	],
+	"suggests": [
+		"python-h5py-doc"
+	],
+	"replaces": [
+		"python3-h5py-serial (<< 3.10.0-1~)"
+	],
+	"breaks": [
+		"python3-h5py-serial (<< 3.10.0-1~)"
+	],
+	"installedSize": 57,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "general-purpose Python interface to hdf5",
+	"homepage": "https://www.h5py.org/",
+	"filename": "pool/main/h/h5py/python3-h5py_3.14.0-3_all.deb",
+	"size": 18332,
+	"md5": "1774352337df044092ec165767ecd609",
+	"sha256": "429eb2a9935c4fcb334ef5d905c3407d1dbfa4bc968a5c6bc366ef0126505c57",
+	"descriptionMd5": "babe5999c3c9449de8bcbd876b20685d"
+}
