@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debhelper",
+	"version": "13.26~bpo13+1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dh-autoreconf (>= 17~)",
+		"dh-strip-nondeterminism (>= 0.028~)",
+		"dpkg-dev (>= 1.18.2~)",
+		"autotools-dev",
+		"dpkg (>= 1.18.0~)",
+		"dwz (>= 0.12.20190711)",
+		"file (>= 3.23)",
+		"libdebhelper-perl (= 13.26~bpo13+1)",
+		"libdpkg-perl (>= 1.17.14)",
+		"man-db",
+		"po-debconf",
+		"perl:any"
+	],
+	"suggests": [
+		"dh-make"
+	],
+	"replaces": [
+		"dh-buildinfo"
+	],
+	"breaks": [
+		"cmake (<< 3.9~)",
+		"dh-debputy (<< 0.1.36~)",
+		"meson (<< 0.40.0~)"
+	],
+	"conflicts": [
+		"dh-buildinfo"
+	],
+	"installedSize": 1509,
+	"maintainer": "Debhelper Maintainers <debhelper@packages.debian.org>",
+	"description": "helper programs for debian/rules",
+	"filename": "pool/main/d/debhelper/debhelper_13.26~bpo13+1_all.deb",
+	"size": 941476,
+	"sha256": "469a20ef266850a019e55c56752c215549ba998059413fe8bade680f1279d3c2",
+	"descriptionMd5": "c3d35229c1ce392f77324206e097b92e"
+}
