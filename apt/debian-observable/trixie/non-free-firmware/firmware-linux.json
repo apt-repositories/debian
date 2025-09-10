@@ -6,6 +6,33 @@
 	],
 	"package": "firmware-linux",
 	"source": "firmware-nonfree",
+	"version": "20250808-1~bpo13+1",
+	"section": "non-free-firmware/metapackages",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"firmware-linux-free",
+		"firmware-linux-nonfree (= 20250808-1~bpo13+1)"
+	],
+	"recommends": [
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"installedSize": 407,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Binary firmware for various drivers in the Linux kernel (metapackage)",
+	"filename": "pool/non-free-firmware/f/firmware-nonfree/firmware-linux_20250808-1~bpo13+1_all.deb",
+	"size": 76948,
+	"sha256": "ed932b5e6e3011b78427658901604186228e4a74be097cb86415c16aa4900ab1",
+	"descriptionMd5": "5de19f5665fffbb3fbe8d9daf675cc45"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "firmware-linux",
+	"source": "firmware-nonfree",
 	"version": "20250410-2",
 	"section": "non-free-firmware/metapackages",
 	"priority": "optional",
