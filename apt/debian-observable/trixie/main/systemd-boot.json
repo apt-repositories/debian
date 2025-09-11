@@ -6,6 +6,44 @@
 	],
 	"package": "systemd-boot",
 	"source": "systemd",
+	"version": "257.8-1~deb13u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libsystemd-shared (= 257.8-1~deb13u2)",
+		"systemd (= 257.8-1~deb13u2)",
+		"systemd-boot-tools (= 257.8-1~deb13u2)",
+		"systemd-boot-efi-signed (>= 257.8-1~deb13u2) | systemd-boot-efi (= 257.8-1~deb13u2)"
+	],
+	"recommends": [
+		"efibootmgr",
+		"shim-signed"
+	],
+	"suggests": [
+		"systemd-ukify"
+	],
+	"conflicts": [
+		"systemd (<< 256-2~)",
+		"systemd-boot-efi (<< 256-2~)"
+	],
+	"installedSize": 195,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "simple UEFI boot manager - integration and services",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-boot_257.8-1~deb13u2_amd64.deb",
+	"size": 98416,
+	"sha256": "857c0f493d6ad599a80c609bb3f190df4a79632c273c1674887174f982bb6662",
+	"descriptionMd5": "0df90775ace126cb973183972b57f509"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-boot",
+	"source": "systemd",
 	"version": "257.8-1~deb13u1",
 	"section": "admin",
 	"priority": "optional",

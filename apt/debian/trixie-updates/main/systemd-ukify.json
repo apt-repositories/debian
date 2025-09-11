@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-ukify",
+	"source": "systemd",
+	"version": "257.8-1~deb13u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"python3-pefile",
+		"python3-zstandard"
+	],
+	"recommends": [
+		"systemd",
+		"systemd-boot-efi",
+		"systemd-repart",
+		"python3-cryptography",
+		"python3-lz4",
+		"sbsigntool | pesign"
+	],
+	"replaces": [
+		"systemd (<< 255.1-1~)"
+	],
+	"conflicts": [
+		"systemd (<< 255.1-1~)"
+	],
+	"installedSize": 173,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "tool to build Unified Kernel Images",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-ukify_257.8-1~deb13u2_all.deb",
+	"size": 87684,
+	"sha256": "a6b333a85f4bf267b946247335b6c3d0bcb3a27b875f9a53afd0f03da8818925",
+	"descriptionMd5": "39e5649d00705f557e265149601a82a3"
+}

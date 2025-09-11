@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gitaly-installer",
+	"version": "17.6.5+debian1",
+	"section": "contrib/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"build-essential",
+		"gitlab-common (= 17.6.5+debian1)",
+		"curl",
+		"unzip",
+		"ucf"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"gitaly"
+	],
+	"conflicts": [
+		"gitaly"
+	],
+	"installedSize": 52,
+	"maintainer": "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>",
+	"description": "Git RPC service for handling all the git calls made by GitLab",
+	"homepage": "https://wiki.debian.org/gitlab",
+	"filename": "pool/contrib/g/gitaly-installer/gitaly-installer_17.6.5+debian1_all.deb",
+	"size": 8408,
+	"md5": "bcf4f8cba9954bcb75d17d5ef7f6dbe4",
+	"sha256": "ba2b249a89a8595f0860f7a61f139f0dc5291c48359eca642cf4bf7d655879a5",
+	"descriptionMd5": "a0db51942a7c98ec821bffaf2b5a8789"
+}

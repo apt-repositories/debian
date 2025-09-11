@@ -5,20 +5,23 @@
 		"Size"
 	],
 	"package": "librust-ipnetwork-dev",
-	"source": "rust-ipnetwork (0.17.0-1)",
-	"version": "0.17.0-1+b2",
+	"source": "rust-ipnetwork",
+	"version": "0.21.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+default-dev"
+		"librust-schemars-0.8+default-dev (>= 0.8.17-~~)",
+		"librust-serde-1+default-dev (>= 1.0.200-~~)",
+		"librust-serde-1+derive-dev (>= 1.0.200-~~)"
 	],
-	"installedSize": 97,
+	"installedSize": 132,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Work with IP CIDRs in Rust - Rust source code",
-	"filename": "pool/main/r/rust-ipnetwork/librust-ipnetwork-dev_0.17.0-1+b2_amd64.deb",
-	"size": 16712,
-	"md5": "8823598224278532b35f757bcc2d42f4",
-	"sha256": "bef7248d0ab53fd4ec211ee76336d5a8fa2672099e9c38bb4ab568a321e4d68d",
-	"descriptionMd5": "8cab203462c6fa321d090f43bfa5b4a5"
+	"homepage": "https://github.com/achanda/ipnetwork",
+	"filename": "pool/main/r/rust-ipnetwork/librust-ipnetwork-dev_0.21.1-1_amd64.deb",
+	"size": 22256,
+	"md5": "df2aa4da4701fe5ba3f1c0a5354a375e",
+	"sha256": "cdf8dac8447b850c476e45565c04619a5c64ed31a176ed2c3965d813f18acfd3",
+	"descriptionMd5": "52056cde7edf336b227482d7174370be"
 }

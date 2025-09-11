@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "librust-pnet-datalink-dev",
-	"source": "rust-pnet-datalink (0.35.0-1)",
-	"version": "0.35.0-1+b2",
+	"source": "rust-pnet-datalink",
+	"version": "0.35.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-ipnetwork-0.17+default-dev",
+		"librust-ipnetwork+serde-dev (<< 0.22-~~)",
+		"librust-ipnetwork+serde-dev (>= 0.17-~~)",
 		"librust-libc-0.2+default-dev (>= 0.2.147-~~)",
 		"librust-pcap-2+default-dev",
 		"librust-pnet-base-0.35+std-dev",
@@ -20,13 +21,13 @@
 		"librust-serde-1+derive-dev (>= 1.0.171-~~)",
 		"librust-winapi-0.3+default-dev (>= 0.3.9-~~)"
 	],
-	"installedSize": 150,
+	"installedSize": 151,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Cross-platform, datalink layer networking - Rust source code",
 	"homepage": "https://github.com/libpnet/libpnet",
-	"filename": "pool/main/r/rust-pnet-datalink/librust-pnet-datalink-dev_0.35.0-1+b2_amd64.deb",
-	"size": 28644,
-	"md5": "9f87aa2e2eaa041f630e8f4eec9e01ff",
-	"sha256": "4bbcd94ec355354e224d2b2dbf03d5316d0300a6ee24c062e48a9ee2558c57a9",
+	"filename": "pool/main/r/rust-pnet-datalink/librust-pnet-datalink-dev_0.35.0-2_amd64.deb",
+	"size": 28824,
+	"md5": "289ab29df6920e40181c4b4b5e73d268",
+	"sha256": "f0bba914a1757793b230692a6e0be1e4e65f8d1f08e46d0e51a458f1f9d2bfef",
 	"descriptionMd5": "6be026c205ef5be852136a99c6b4b9e2"
 }
