@@ -6,6 +6,45 @@
 	],
 	"package": "systemd-standalone-tmpfiles",
 	"source": "systemd",
+	"version": "257.8-1~deb13u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"suggests": [
+		"libcryptsetup12",
+		"libidn2-0",
+		"libtss2-rc0t64"
+	],
+	"replaces": [
+		"systemd (<< 249.3-3)",
+		"systemd-tmpfiles"
+	],
+	"conflicts": [
+		"systemd (<< 249.3-3)",
+		"systemd-tmpfiles"
+	],
+	"installedSize": 454,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "standalone tmpfiles binary for use in non-systemd systems",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-standalone-tmpfiles_257.8-1~deb13u2_amd64.deb",
+	"size": 226652,
+	"sha256": "8b249b3d655723a0194709e9fccf5a25fe27538dc37c6534cd7df974f26f32db",
+	"descriptionMd5": "e59a151e226689c494584c32d7f05a2c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-standalone-tmpfiles",
+	"source": "systemd",
 	"version": "257.8-1~deb13u1",
 	"section": "admin",
 	"priority": "optional",

@@ -6,6 +6,47 @@
 	],
 	"package": "libpam-systemd",
 	"source": "systemd",
+	"version": "257.8-1~deb13u2",
+	"section": "admin",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libcap2 (>= 1:2.10)",
+		"libpam0g (>= 0.99.7.1)",
+		"systemd (= 257.8-1~deb13u2)",
+		"libpam-runtime",
+		"default-dbus-system-bus | dbus-system-bus",
+		"systemd-sysv"
+	],
+	"recommends": [
+		"dbus-user-session"
+	],
+	"suggests": [
+		"libcryptsetup12",
+		"libidn2-0",
+		"libp11-kit0",
+		"libtss2-rc0t64"
+	],
+	"conflicts": [
+		"libpam-elogind-compat"
+	],
+	"installedSize": 699,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "system and service manager - PAM module",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/libpam-systemd_257.8-1~deb13u2_amd64.deb",
+	"size": 296968,
+	"sha256": "cde55afd86c9f3b5f3a4f26c1e23ec37d9a87f387ddea9f1e4e1b21e90171b3c",
+	"descriptionMd5": "7acf141cc9da21b0ad349b6cecc40e46"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-systemd",
+	"source": "systemd",
 	"version": "257.8-1~deb13u1",
 	"section": "admin",
 	"priority": "standard",

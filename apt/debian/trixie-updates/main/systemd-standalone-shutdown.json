@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-standalone-shutdown",
+	"source": "systemd",
+	"version": "257.8-1~deb13u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libmount1 (>= 2.30)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"suggests": [
+		"libcryptsetup12",
+		"libidn2-0",
+		"libtss2-rc0t64"
+	],
+	"conflicts": [
+		"systemd"
+	],
+	"installedSize": 502,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "standalone shutdown binary for use in exitrds",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-standalone-shutdown_257.8-1~deb13u2_amd64.deb",
+	"size": 209964,
+	"sha256": "b3bfbfa2f6c280b92cd425bb80caa1e1937e652513b5beeae2d2a5b8d4ce3d7e",
+	"descriptionMd5": "9ee6184f37c7f9760d9be532ffe4e801"
+}

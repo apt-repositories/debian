@@ -6,6 +6,48 @@
 	],
 	"package": "systemd-resolved",
 	"source": "systemd",
+	"version": "257.8-1~deb13u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd-shared (= 257.8-1~deb13u2)",
+		"systemd (= 257.8-1~deb13u2)",
+		"default-dbus-system-bus | dbus-system-bus"
+	],
+	"recommends": [
+		"libnss-myhostname",
+		"libnss-resolve",
+		"libidn2-0"
+	],
+	"suggests": [
+		"polkitd"
+	],
+	"replaces": [
+		"resolvconf"
+	],
+	"conflicts": [
+		"resolvconf",
+		"systemd (<< 257.4-4~)"
+	],
+	"installedSize": 915,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "systemd DNS resolver",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-resolved_257.8-1~deb13u2_amd64.deb",
+	"size": 360780,
+	"sha256": "678fdc4f4e3b70932b6bcda29bcba4716c36c4abf164edcc90cf7075bdcaf04c",
+	"descriptionMd5": "846dc3eb3129c6a17b29965b209c161e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-resolved",
+	"source": "systemd",
 	"version": "257.8-1~deb13u1",
 	"section": "admin",
 	"priority": "optional",
