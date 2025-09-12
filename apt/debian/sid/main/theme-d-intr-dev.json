@@ -6,27 +6,33 @@
 	],
 	"package": "theme-d-intr-dev",
 	"source": "theme-d-intr",
-	"version": "0.20.0-1",
+	"version": "0.20.1-1",
 	"section": "lisp",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"theme-d-intr (>= 0.20.0-1)",
+		"theme-d-intr (>= 0.20.1-1)",
+		"theme-d-translator (>= 7.1.0)",
+		"theme-d-rte (>= 7.1.0)",
+		"theme-d-stdlib (>= 7.1.0)",
 		"guile-3.0 (>= 3.0.7)"
 	],
 	"replaces": [
 		"theme-d-golf-dev"
 	],
 	"conflicts": [
-		"theme-d-golf"
+		"theme-d-golf",
+		"theme-d-rte (<= 7.0.0-1)",
+		"theme-d-stdlib (<= 7.0.0-1)",
+		"theme-d-translator (<= 7.0.0-1)"
 	],
-	"installedSize": 216,
+	"installedSize": 217,
 	"maintainer": "Tommi Höynälänmaa <tommi.hoynalanmaa@iki.fi>",
 	"description": "Theme-D-Intr development files",
 	"homepage": "http://www.iki.fi/tohoyn/theme-d-intr/",
-	"filename": "pool/main/t/theme-d-intr/theme-d-intr-dev_0.20.0-1_all.deb",
-	"size": 51380,
-	"md5": "033ac0c40f8647e4aeac44742ba7a364",
-	"sha256": "52bba1bafd55a469844247531b8cf917cc64c40f4a9c869832569b38c43a2565",
+	"filename": "pool/main/t/theme-d-intr/theme-d-intr-dev_0.20.1-1_all.deb",
+	"size": 52172,
+	"md5": "189be5db8bf3218ccf135b223b367b89",
+	"sha256": "01b744d1154e98d96a9e3d7614aafda51297bcd3ee3018091580b5be52103680",
 	"descriptionMd5": "1a832b0c1cace55340d0376aa3a96d6c"
 }

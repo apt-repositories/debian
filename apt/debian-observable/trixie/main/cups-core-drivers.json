@@ -34,4 +34,39 @@
 	"md5": "1af2560e3d38c1220793a27530fd13f0",
 	"sha256": "00e6ecce2f96fb15c62ea76a1e0d32c38576ac46a9c585e7c5f478063d61ff20",
 	"descriptionMd5": "4f9e3623496bd3c54084d9d6fbddff87"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cups-core-drivers",
+	"source": "cups",
+	"version": "2.4.10-3+deb13u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cups-daemon (>= 2.4.10-3+deb13u1)",
+		"cups-filters-core-drivers",
+		"libcups2t64 (= 2.4.10-3+deb13u1)",
+		"libc6 (>= 2.38)"
+	],
+	"recommends": [
+		"avahi-daemon"
+	],
+	"replaces": [
+		"cups-server-common (<< 2.1.0-7~)"
+	],
+	"breaks": [
+		"cups-server-common (<< 2.1.0-7~)"
+	],
+	"installedSize": 126,
+	"maintainer": "Debian Printing Team <debian-printing@lists.debian.org>",
+	"description": "Common UNIX Printing System(tm) - driverless printing",
+	"homepage": "https://github.com/OpenPrinting/cups/",
+	"filename": "pool/updates/main/c/cups/cups-core-drivers_2.4.10-3+deb13u1_amd64.deb",
+	"size": 40944,
+	"sha256": "9d8ca058410e3ab4a4ed3716d1d23e8a4a8ffd8244c3152eaa4de87c1691d0ea",
+	"descriptionMd5": "4f9e3623496bd3c54084d9d6fbddff87"
 }]
