@@ -37,4 +37,42 @@
 	"md5": "ca0f937cd315a39de84e928753428469",
 	"sha256": "41df3c3d874634192b9cde6f37bf656cb2e07acc239c0eec13c977c2c3cbfafa",
 	"descriptionMd5": "c3c989aa362d5214cb2ded85b4ac9299"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmagick++-7.q16-dev",
+	"source": "imagemagick",
+	"version": "8:7.1.1.43+dfsg1-1+deb13u2",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmagick++-7-headers (= 8:7.1.1.43+dfsg1-1+deb13u2)",
+		"libmagick++-7.q16-5 (= 8:7.1.1.43+dfsg1-1+deb13u2)",
+		"libmagickcore-7.q16-dev (= 8:7.1.1.43+dfsg1-1+deb13u2)",
+		"libmagickwand-7.q16-dev (= 8:7.1.1.43+dfsg1-1+deb13u2)",
+		"pkgconf"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.11)"
+	],
+	"replaces": [
+		"libmagick++-6.q16-dev",
+		"libmagick++-dev (<< 8:6.8.3.10-1~)"
+	],
+	"breaks": [
+		"libmagick++-6.q16-dev",
+		"libmagick++-dev (<< 8:6.8.3.10-1~)"
+	],
+	"installedSize": 1275,
+	"maintainer": "ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>",
+	"description": "C++ interface to ImageMagick - development files (Q16)",
+	"homepage": "https://www.imagemagick.org/",
+	"filename": "pool/updates/main/i/imagemagick/libmagick++-7.q16-dev_7.1.1.43+dfsg1-1+deb13u2_amd64.deb",
+	"size": 159036,
+	"sha256": "76a04985f5134c877a0f80ca9ce4754b6efb92bdb850346af7fee561775a0942",
+	"descriptionMd5": "c3c989aa362d5214cb2ded85b4ac9299"
 }]
