@@ -6,6 +6,37 @@
 	],
 	"package": "libasm1t64",
 	"source": "elfutils",
+	"version": "0.193-3~bpo13+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libdw1t64 (= 0.193-3~bpo13+1)",
+		"libelf1t64 (= 0.193-3~bpo13+1)"
+	],
+	"replaces": [
+		"libasm1"
+	],
+	"breaks": [
+		"libasm1 (<< 0.193-3~bpo13+1)"
+	],
+	"installedSize": 71,
+	"maintainer": "Debian Elfutils Maintainers <debian-gcc@lists.debian.org>",
+	"description": "library with a programmable assembler interface",
+	"homepage": "https://sourceware.org/elfutils/",
+	"filename": "pool/main/e/elfutils/libasm1t64_0.193-3~bpo13+1_amd64.deb",
+	"size": 28792,
+	"sha256": "ed7a8f9e607326c22a73df1455b258367fb99fa89c5aa4b1c1adb8a5cd663e64",
+	"descriptionMd5": "8f886b0de17b2f986416475036400a7b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libasm1t64",
+	"source": "elfutils",
 	"version": "0.192-4",
 	"section": "libs",
 	"priority": "optional",
