@@ -6,21 +6,23 @@
 	],
 	"package": "libproxy-dev",
 	"source": "libproxy",
-	"version": "0.5.11-1",
+	"version": "0.5.11-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libproxy1v5 (= 0.5.11-1)",
-		"libglib2.0-dev"
+		"libglib2.0-dev",
+		"gir1.2-gio-2.0-dev",
+		"gir1.2-libproxy-1.0 (= 0.5.11-2)",
+		"libproxy1v5 (= 0.5.11-2)"
 	],
-	"installedSize": 32,
+	"installedSize": 45,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "automatic proxy configuration management library (devel)",
 	"homepage": "https://libproxy.github.io/libproxy/",
-	"filename": "pool/main/libp/libproxy/libproxy-dev_0.5.11-1_amd64.deb",
-	"size": 10792,
-	"md5": "a9d6aa72dfb2aa5c6578f3a2ca19888d",
-	"sha256": "70a86048e3f52f05f87e2a85bffb6b1621df20ecc9fa254b2648b37f6eedb6ab",
+	"filename": "pool/main/libp/libproxy/libproxy-dev_0.5.11-2_amd64.deb",
+	"size": 12324,
+	"md5": "1a3f63943a92e418c3cbe02b395690de",
+	"sha256": "bd65c02f9c048f44ac6685d52b853a1fa9924845704a1fec75eee45b3d387e10",
 	"descriptionMd5": "29be2cc9b16e55d72e96ae251f29ee6d"
 }]
