@@ -6,7 +6,7 @@
 	],
 	"package": "glycin-loaders",
 	"source": "glycin",
-	"version": "1.2.1+ds-3",
+	"version": "2.0~rc+ds-2",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,19 @@
 		"libjxl0.11 (>= 0.10.0)",
 		"librsvg2-2 (>= 2.52.5)"
 	],
-	"installedSize": 10212,
+	"recommends": [
+		"libheif-plugin-aomenc | libheif-plugin-rav1e | libheif-plugin-svtenc"
+	],
+	"suggests": [
+		"libheif-plugin-x265 | libheif-plugin-kvazaar"
+	],
+	"installedSize": 12793,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "sandboxed image loaders for GNOME",
 	"homepage": "https://gitlab.gnome.org/GNOME/glycin",
-	"filename": "pool/main/g/glycin/glycin-loaders_1.2.1+ds-3_amd64.deb",
-	"size": 1940160,
-	"md5": "767009dda139d79adfc27b2768c7acda",
-	"sha256": "f147c9fdde54432cd1e6c9731874eac9c03ba0647807bccdd4a142274e8fd73d",
+	"filename": "pool/main/g/glycin/glycin-loaders_2.0~rc+ds-2_amd64.deb",
+	"size": 2404680,
+	"md5": "e0de41c3e34ba2046e574a6904d6b00d",
+	"sha256": "6bebffd92916614a2f1812aa9c554ea4ea2fb75d011bcd8eb6de7f2e88037403",
 	"descriptionMd5": "699d41e1b52927760a8dd0874762ead8"
 }]

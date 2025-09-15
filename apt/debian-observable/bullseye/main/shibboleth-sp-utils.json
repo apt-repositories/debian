@@ -40,4 +40,45 @@
 	"md5": "3d48cb257a26e706ec81c134cda109db",
 	"sha256": "f23d4d4d6ec45eb3281a2277add133ba3df0fee87646361eb3d0c40a37e9e75e",
 	"descriptionMd5": "fda8565d0a52d696945a782569eb5e97"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "shibboleth-sp-utils",
+	"source": "shibboleth-sp",
+	"version": "3.2.2+dfsg1-1+deb11u1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libshibsp-plugins (= 3.2.2+dfsg1-1+deb11u1)",
+		"lsb-base",
+		"libc6 (>= 2.14)",
+		"libfcgi0ldbl (>= 2.4.2)",
+		"libgcc-s1 (>= 3.0)",
+		"liblog4shib2",
+		"libsaml12 (>= 3.2.0)",
+		"libshibsp10 (>= 3.2.2+dfsg1)",
+		"libstdc++6 (>= 5.2)",
+		"libsystemd0",
+		"libxerces-c3.2",
+		"libxmltooling10 (>= 3.2.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"openssl"
+	],
+	"installedSize": 339,
+	"maintainer": "Debian Shib Team <pkg-shibboleth-devel@alioth-lists.debian.net>",
+	"description": "Federated web single sign-on system (daemon and utilities)",
+	"homepage": "http://shibboleth.net/",
+	"filename": "pool/updates/main/s/shibboleth-sp/shibboleth-sp-utils_3.2.2+dfsg1-1+deb11u1_amd64.deb",
+	"size": 93956,
+	"sha256": "ca244eb23c691238e620f668f31105a6385d19ca356272213bfbfe81590c225c",
+	"descriptionMd5": "fda8565d0a52d696945a782569eb5e97"
 }]
