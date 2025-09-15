@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "systemd-cron",
-	"version": "2.5.1-2",
+	"version": "2.6.0-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,7 +14,8 @@
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libmd0 (>= 0.0.0)",
-		"libstdc++6 (>= 13)"
+		"libstdc++6 (>= 13)",
+		"libsystemd0 (>= 221)"
 	],
 	"preDepends": [
 		"cron-daemon-common"
@@ -29,13 +30,13 @@
 		"anacron",
 		"cron-daemon"
 	],
-	"installedSize": 247,
+	"installedSize": 297,
 	"maintainer": "Debian Systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "systemd generator that provides cron daemon & anacron functionality",
 	"homepage": "https://github.com/systemd-cron/systemd-cron",
-	"filename": "pool/main/s/systemd-cron/systemd-cron_2.5.1-2_amd64.deb",
-	"size": 86228,
-	"md5": "affb6e92364945bbf971340f25c4cc4a",
-	"sha256": "eaa908d873e3e4515e5723c477affe1d27c6f5388c19305b4778287eb3a0368e",
+	"filename": "pool/main/s/systemd-cron/systemd-cron_2.6.0-1_amd64.deb",
+	"size": 97872,
+	"md5": "5a39d441135f8bd9807a9f3ee8a3138b",
+	"sha256": "8208ff246ef10ca84f4d354c6232ab131be4fb69e34afc0d4752099d0e5cf62c",
 	"descriptionMd5": "51f27570ae28b674ea96fd5617df0ede"
 }

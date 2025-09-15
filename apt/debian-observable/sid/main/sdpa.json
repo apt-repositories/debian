@@ -5,26 +5,26 @@
 		"Size"
 	],
 	"package": "sdpa",
-	"source": "sdpa (7.3.18-1)",
-	"version": "7.3.18-1+b1",
+	"version": "7.3.19-1",
 	"section": "math",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libblas3 | libblas.so.3",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
-		"libgfortran5 (>= 10)",
-		"libscotch-7.0 (>= 7.0.5)",
+		"liblapack3 | liblapack.so.3",
+		"libmumps-seq-5.7 (>= 5.7.3)",
 		"libstdc++6 (>= 13.1)",
-		"libmumps-seq-5.7t64"
+		"libmumps-seq-t64"
 	],
-	"installedSize": 30500,
-	"maintainer": "Makoto Yamashita <Makoto.Yamashita@c.titech.ac.jp>",
+	"installedSize": 372,
+	"maintainer": "Makoto Yamashita <Makoto.Yamashita@comp.isct.ac.jp>",
 	"description": "High-performance package for SemiDefinite Programs",
 	"homepage": "http://sdpa.sourceforge.net/",
-	"filename": "pool/main/s/sdpa/sdpa_7.3.18-1+b1_amd64.deb",
-	"size": 2738936,
-	"md5": "ea903730ab2b87f08505e93f0361d2a7",
-	"sha256": "16e8d2cfed506a41d02985eb85ecb63773ae0533451db5006e179f0d2ce89c55",
+	"filename": "pool/main/s/sdpa/sdpa_7.3.19-1_amd64.deb",
+	"size": 142436,
+	"md5": "5bbcd0a1641db718e8938c0c1a2f9857",
+	"sha256": "edf28208a172bcd306aef0d8f3773c4b6f83671348b2747205bc164e3542e62a",
 	"descriptionMd5": "bd9e6f21ac9c276ced30f5a976ae4459"
 }]
