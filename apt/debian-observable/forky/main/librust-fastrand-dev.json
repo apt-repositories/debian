@@ -6,16 +6,21 @@
 	],
 	"package": "librust-fastrand-dev",
 	"source": "rust-fastrand",
-	"version": "2.1.1-4",
+	"version": "2.3.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 83,
+	"depends": [
+		"librust-getrandom-0.2+default-dev",
+		"librust-getrandom-0.2+js-dev"
+	],
+	"installedSize": 82,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Simple and fast random number generator - Rust source code",
-	"filename": "pool/main/r/rust-fastrand/librust-fastrand-dev_2.1.1-4_amd64.deb",
-	"size": 18604,
-	"md5": "829da3779e6bfabf0fbd9468e0da3d05",
-	"sha256": "5e5a12232ae0d3fe60c138b77613e2f8fca700591c9e8bf0028378c67bf430eb",
+	"homepage": "https://github.com/smol-rs/fastrand",
+	"filename": "pool/main/r/rust-fastrand/librust-fastrand-dev_2.3.0-1_amd64.deb",
+	"size": 18804,
+	"md5": "de8b15d3d64c7991bd11323ef49cc5e1",
+	"sha256": "fe3930b2cc70b7524e8b0fccf874c058193273175b936f96001ce6295e5c4da5",
 	"descriptionMd5": "6f2df02397547d4efdebc87e84adee2b"
 }]
