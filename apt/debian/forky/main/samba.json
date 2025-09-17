@@ -5,15 +5,14 @@
 		"Size"
 	],
 	"package": "samba",
-	"version": "2:4.22.4+dfsg-1",
+	"version": "2:4.23.0+dfsg-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"passwd",
-		"procps",
 		"samba-common",
-		"samba-common-bin (= 2:4.22.4+dfsg-1)",
+		"samba-common-bin (= 2:4.23.0+dfsg-2)",
 		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
 		"libcups2t64 (>= 1.7.0)",
@@ -29,22 +28,19 @@
 		"libtevent0t64 (>= 0.15.0)",
 		"libtirpc3t64 (>= 1.0.2)",
 		"liburing2 (>= 2.3)",
-		"samba-libs (= 2:4.22.4+dfsg-1)"
+		"samba-libs (= 2:4.23.0+dfsg-2)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
-	],
-	"recommends": [
-		"attr",
-		"python3-samba",
-		"samba-ad-dc"
 	],
 	"suggests": [
 		"ctdb",
 		"ufw",
 		"winbind",
+		"python3-samba",
 		"samba-vfs-ceph",
-		"samba-vfs-glusterfs"
+		"samba-vfs-glusterfs",
+		"attr"
 	],
 	"replaces": [
 		"samba-libs (<< 2:4.19.0~)",
@@ -52,17 +48,17 @@
 	],
 	"breaks": [
 		"samba-ad-dc (<< 2:4.20.1+dfsg-2~)",
-		"samba-ad-provision (<< 2:4.22.4+dfsg)",
+		"samba-ad-provision (<< 2:4.23.0+dfsg)",
 		"samba-libs (<< 2:4.19.0~)",
 		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)"
 	],
-	"installedSize": 5590,
+	"installedSize": 5289,
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "SMB/CIFS file, print, and login server for Unix",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/samba_4.22.4+dfsg-1_amd64.deb",
-	"size": 1330816,
-	"md5": "4eaf95a2a7a9ab7e63e8fdb39bd39292",
-	"sha256": "ed00f25cc21c3a8a37929006b6c5980c2df4a83908026a067ce4afaa8a4a6bc4",
+	"filename": "pool/main/s/samba/samba_4.23.0+dfsg-2_amd64.deb",
+	"size": 1279876,
+	"md5": "e8eaf038ebc30db81023a10aca0642c0",
+	"sha256": "d812421cd6383b770f6578329bad56b0f91defb806f843d6fd50c6bf5477b27a",
 	"descriptionMd5": "c9d307ae5cf3b46be12b53a9f95862f0"
 }

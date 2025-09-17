@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libqcheck-ocaml-dev",
-	"source": "ocaml-qcheck (0.25-1)",
-	"version": "0.25-1+b3",
+	"source": "ocaml-qcheck",
+	"version": "0.26-2",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,22 +16,25 @@
 		"libcmdliner-ocaml-dev-hks52",
 		"libfmt-ocaml-dev-zjng0",
 		"libounit-ocaml-dev-yhyl5",
-		"libqcheck-core-ocaml-dev-ak3w4",
-		"libqcheck-ocaml-b9hl4",
-		"libqcheck-ounit-ocaml-dev-ldy61",
+		"libqcheck-core-ocaml-dev-dfwb9",
+		"libqcheck-ocaml-l8jf3",
+		"libqcheck-ounit-ocaml-dev-u9ro2",
 		"libstdlib-ocaml-dev-m4xw9",
 		"ocaml-5.3.0"
 	],
 	"recommends": [
 		"ocaml-findlib"
 	],
+	"breaks": [
+		"libcontainers-ocaml-dev (<< 3.16+dfsg-2~)"
+	],
 	"installedSize": 142,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "QuickCheck inspired property-based testing for OCaml (Development package)",
 	"homepage": "https://github.com/c-cube/qcheck",
-	"filename": "pool/main/o/ocaml-qcheck/libqcheck-ocaml-dev_0.25-1+b3_amd64.deb",
-	"size": 52960,
-	"md5": "d15ebac38a9ac3dd3634ac68cd620471",
-	"sha256": "f19824d6bc1d62ee753bf78f76864ec2d991ec0490ba4a5f32e79ab41377c4a8",
+	"filename": "pool/main/o/ocaml-qcheck/libqcheck-ocaml-dev_0.26-2_amd64.deb",
+	"size": 53116,
+	"md5": "5bfce97c987c24177e5b29a1682b8e97",
+	"sha256": "e5e148bfed10973fd16d24e2a12775695ba54a3807484d039ac34bc04ddade31",
 	"descriptionMd5": "e09ed79bba6040b88ff9ff5edf7e52a6"
 }

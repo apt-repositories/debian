@@ -5,28 +5,30 @@
 		"Size"
 	],
 	"package": "libace-perl",
-	"source": "libace-perl (1.92-12)",
-	"version": "1.92-12+b1",
+	"version": "1.92-13",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.33)",
-		"perl (>= 5.40.0-6)",
-		"perlapi-5.40.0",
+		"libc6 (>= 2.38)",
+		"perl (>= 5.40.1-6)",
+		"perlapi-5.40.1",
 		"libcache-cache-perl"
 	],
 	"recommends": [
 		"libcgi-pm-perl",
 		"libgd-perl"
 	],
-	"installedSize": 821,
+	"conflicts": [
+		"ace"
+	],
+	"installedSize": 828,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "Object-Oriented Access to ACEDB Databases",
 	"homepage": "https://metacpan.org/release/AcePerl",
-	"filename": "pool/main/liba/libace-perl/libace-perl_1.92-12+b1_amd64.deb",
-	"size": 274256,
-	"md5": "f83b4e11460c32c26ee2ba32d3371129",
-	"sha256": "137052e443aa4f8215ee4c754a3d3a8bc2d8112e8e22d271ce97328c24b06297",
+	"filename": "pool/main/liba/libace-perl/libace-perl_1.92-13_amd64.deb",
+	"size": 277524,
+	"md5": "8a4f5a91af7384245ea1d2d2a22952ef",
+	"sha256": "1d429b74f85aaf1d6b86fcbfad304692d559224a66ad87999124d38fea8f78bd",
 	"descriptionMd5": "0beecf4bcce569f15c4ea5e6cd5c8d79"
 }
