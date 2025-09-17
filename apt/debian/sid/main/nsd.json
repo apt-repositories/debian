@@ -5,30 +5,33 @@
 		"Size"
 	],
 	"package": "nsd",
-	"version": "4.13.0-1",
+	"version": "4.13.0-5",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
 		"openssl",
+		"libbpf1 (>= 1:0.7.0)",
 		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
 		"libevent-2.1-7t64 (>= 2.1.8-stable)",
 		"libfstrm0 (>= 0.4.0)",
 		"libprotobuf-c1 (>= 1.0.1)",
 		"libssl3t64 (>= 3.0.0)",
-		"libsystemd0"
+		"libsystemd0",
+		"libxdp1 (>= 1.2.0)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 6126,
+	"installedSize": 5827,
 	"maintainer": "nsd packagers <nsd@packages.debian.org>",
 	"description": "authoritative domain name server",
 	"homepage": "https://www.nlnetlabs.nl/projects/nsd/about/",
-	"filename": "pool/main/n/nsd/nsd_4.13.0-1_amd64.deb",
-	"size": 875740,
-	"md5": "b19e96af0200440d14956ee1efcb0602",
-	"sha256": "c2442e4aeac57097ea56d4e8d6ca752ddec8b75d55ec47b578257ccd63e97244",
-	"descriptionMd5": "9378aea937aae1ec536455a32d721617"
+	"filename": "pool/main/n/nsd/nsd_4.13.0-5_amd64.deb",
+	"size": 850556,
+	"md5": "f1d994fc725bb22ace67fa33f45f79c6",
+	"sha256": "7c34634fd68092d4367d572e5302061bb11d9e98729d04f7fc08ed7b66bdfda2",
+	"descriptionMd5": "0d138f0c24ea9ffbd8b3b10cbfadacc7"
 }

@@ -6,22 +6,24 @@
 	],
 	"package": "librust-xattr-dev",
 	"source": "rust-xattr",
-	"version": "1.3.1-1",
+	"version": "1.5.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-libc-0.2+default-dev (>= 0.2.150-~~)",
-		"librust-linux-raw-sys-0.4+std-dev (>= 0.4.11-~~)",
-		"librust-rustix-0.38+fs-dev (>= 0.38.29-~~)",
-		"librust-rustix-0.38+std-dev (>= 0.38.29-~~)"
+		"librust-rustix+fs-dev (<< 2.0-~~)",
+		"librust-rustix+fs-dev (>= 0.38.37-~~)",
+		"librust-rustix+std-dev (<< 2.0-~~)",
+		"librust-rustix+std-dev (>= 0.38.37-~~)"
 	],
-	"installedSize": 76,
+	"installedSize": 80,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Unix extended filesystem attributes - Rust source code",
-	"filename": "pool/main/r/rust-xattr/librust-xattr-dev_1.3.1-1_amd64.deb",
-	"size": 14508,
-	"md5": "48616331cb100260112b0ea352e2a262",
-	"sha256": "cb416a012ab78ec73b5ccc9814595532658f23e9fca79e90f01ab56872e0e963",
+	"homepage": "https://github.com/Stebalien/xattr",
+	"filename": "pool/main/r/rust-xattr/librust-xattr-dev_1.5.1-1_amd64.deb",
+	"size": 15096,
+	"md5": "a455a6412d81929a2d1aea1463bf217f",
+	"sha256": "fbf4a70a822600b87d192e24d88a355db15d47047e92af2d965efb598306df4f",
 	"descriptionMd5": "8c5a831b46ba0467fa03fc268912a46a"
 }]
