@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "harec",
-	"version": "0.24.2-5",
+	"version": "0.25.2-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,13 +13,16 @@
 		"qbe",
 		"libc6 (>= 2.34)"
 	],
-	"installedSize": 342,
-	"maintainer": "Miguel Landaeta <nomadium@debian.org>",
+	"breaks": [
+		"hare (<< 0.25.2)"
+	],
+	"installedSize": 356,
+	"maintainer": "Debian Hare Team <team+pkg-hare@tracker.debian.org>",
 	"description": "Hare compiler for POSIX-compatible systems",
 	"homepage": "https://harelang.org/",
-	"filename": "pool/main/h/harec/harec_0.24.2-5_amd64.deb",
-	"size": 94996,
-	"md5": "ea1ff00836de2fd42e39d37203d85534",
-	"sha256": "ad005d5cb80f925607a1e3b4e22b98209ade8cf486024907fbfbff45292f5def",
+	"filename": "pool/main/h/harec/harec_0.25.2-1_amd64.deb",
+	"size": 101856,
+	"md5": "9dc737342459960ae6024f2549ae37ef",
+	"sha256": "4ee11684a44c8f6e3186dc9dfe8434c37b378e6f7254dd39f4430b6dbd4bc365",
 	"descriptionMd5": "2c7ad1d1fb1e50f7b7d3fd14746b4ab5"
 }]
