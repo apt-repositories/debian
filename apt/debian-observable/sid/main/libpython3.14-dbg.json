@@ -1,0 +1,51 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpython3.14-dbg",
+	"source": "python3.14",
+	"version": "3.14.0~rc3-1",
+	"section": "debug",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpython3.14-stdlib (= 3.14.0~rc3-1)",
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libdb5.3t64",
+		"libexpat1 (>= 2.6.0)",
+		"libffi8 (>= 3.4)",
+		"libgdbm6t64 (>= 1.16)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libncursesw6 (>= 6.1)",
+		"libreadline8t64 (>= 7.0~beta)",
+		"libsqlite3-0 (>= 3.36.0)",
+		"libssl3t64 (>= 3.4.0)",
+		"libtcl8.6 (>= 8.6.0)",
+		"libtinfo6 (>= 6)",
+		"libtk8.6 (>= 8.6.0)",
+		"libuuid1 (>= 2.20.1)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"libpython3.14-dbg",
+		"python3-gdbm-dbg (<< 3.12.5-2~)",
+		"python3-tk-dbg (<< 3.12.5-2~)"
+	],
+	"breaks": [
+		"libpython3.14-dbg (<< 3.14.0~rc3-1)",
+		"python3-gdbm-dbg (<< 3.12.5-2~)",
+		"python3-tk-dbg (<< 3.12.5-2~)"
+	],
+	"installedSize": 121944,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "Debug Build of the Python Interpreter (version 3.14)",
+	"filename": "pool/main/p/python3.14/libpython3.14-dbg_3.14.0~rc3-1_amd64.deb",
+	"size": 24851656,
+	"md5": "28a0fe8a5987f86c711bfa02e397754f",
+	"sha256": "f9a0a0e1a907f9a91e16cf51190a1aba02326805711b231cf08e8db36131d491",
+	"descriptionMd5": "66f6b70a13a54128ccb53461e125015a"
+}]
