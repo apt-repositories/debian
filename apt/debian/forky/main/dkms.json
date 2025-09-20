@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "dkms",
-	"version": "3.2.0-1",
+	"version": "3.2.2-1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,9 +14,6 @@
 		"dpkg-dev",
 		"make | build-essential",
 		"patch"
-	],
-	"preDepends": [
-		"lsb-release"
 	],
 	"recommends": [
 		"gcc | c-compiler",
@@ -50,10 +47,11 @@
 		"nat-rtsp-dkms (<< 0.7+5.3-0.3~)",
 		"ndiswrapper-dkms (<< 1.60-8.0)",
 		"nvidia-kernel-dkms (<< 535.230)",
+		"nvidia-tesla-535-kernel-dkms (<< 535.230)",
 		"open-vm-tools-dkms (<< 2:10.1.15-1.0)",
 		"openswan-modules-dkms (<< 1:2.6.38-1.0)",
 		"openvswitch-datapath-dkms (<< 2.1.0+git20140411-3.0)",
-		"oss4-dkms (<< 4.2-build2020-1~)",
+		"oss4-dkms (<< 4.2-build2020-5~)",
 		"sl-modem-dkms (<< 2.9.11~20110321-16.0)",
 		"spl-dkms (<< 2.1)",
 		"sysdig-dkms (<< 0.27.1-0.3.0)",
@@ -64,13 +62,13 @@
 		"virtualbox-ose-guest-dkms (<< 5)",
 		"wireguard-dkms (<< 1.0.20210606-1.0)"
 	],
-	"installedSize": 238,
+	"installedSize": 235,
 	"maintainer": "Dynamic Kernel Module System Team <dkms@packages.debian.org>",
 	"description": "Dynamic Kernel Module System (DKMS)",
 	"homepage": "https://github.com/dell/dkms",
-	"filename": "pool/main/d/dkms/dkms_3.2.0-1_all.deb",
-	"size": 60344,
-	"md5": "b0daa3eec0cc416d89a30a98594f90b2",
-	"sha256": "cae72abcd34da113d752ff05d9c37bf77fab10ce7c2ef6d42829bdf967935739",
+	"filename": "pool/main/d/dkms/dkms_3.2.2-1_all.deb",
+	"size": 60064,
+	"md5": "d02ccb0f4da9209694e60ec495ec88ec",
+	"sha256": "99390f98c52436714b418b990f70732a28cae6428b76be456b5aa360b1fbef64",
 	"descriptionMd5": "232c475017017fa9b762bad26978f5d1"
 }
