@@ -5,33 +5,26 @@
 		"Size"
 	],
 	"package": "portsentry",
-	"version": "1.2-16",
+	"version": "2.0.5-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
+		"libpcap0.8t64 (>= 1.5.1)",
 		"debconf (>= 0.5) | debconf-2.0",
-		"net-tools",
-		"procps",
-		"libfile-temp-perl"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
+		"logrotate"
 	],
 	"recommends": [
-		"tcpd"
+		"fail2ban"
 	],
-	"suggests": [
-		"logcheck"
-	],
-	"installedSize": 182,
-	"maintainer": "Dario Minnucci <midget@debian.org>",
-	"description": "Portscan detection daemon",
-	"homepage": "http://sentrytools.sourceforge.net/",
-	"filename": "pool/main/p/portsentry/portsentry_1.2-16_amd64.deb",
-	"size": 67568,
-	"md5": "0d9b9523cad2603bb641953b59214a5f",
-	"sha256": "ad4fce7cde04406fe79fcc5c2f6f4cc0ce3331f21badb017b4b8484ab34180b5",
-	"descriptionMd5": "ff8ecc87ed516a7095261180d5556efa"
+	"installedSize": 248,
+	"maintainer": "Marcus Hufvudsson <mh@protohuf.com>",
+	"description": "Port scan detection and response tool",
+	"homepage": "https://portsentry.xyz",
+	"filename": "pool/main/p/portsentry/portsentry_2.0.5-1_amd64.deb",
+	"size": 127680,
+	"md5": "9729b7efb02a8c619929796081974e9c",
+	"sha256": "1f63976eeeadb51da722e34c80d6fd2c67dd047f8e166a793504d30e858615ad",
+	"descriptionMd5": "0bcbe6d29bcbd20d6f1f469edc09e352"
 }
