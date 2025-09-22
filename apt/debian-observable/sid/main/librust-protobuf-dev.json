@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "librust-protobuf-dev",
-	"source": "rust-protobuf (2.27.1-1)",
-	"version": "2.27.1-1+b2",
+	"source": "rust-protobuf",
+	"version": "3.7.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"suggests": [
-		"librust-protobuf+bytes-dev (= 2.27.1-1+b2)",
-		"librust-protobuf+serde-dev (= 2.27.1-1+b2)",
-		"librust-protobuf+serde-derive-dev (= 2.27.1-1+b2)",
-		"librust-protobuf+with-serde-dev (= 2.27.1-1+b2)"
+	"depends": [
+		"librust-bytes-1+default-dev (>= 1.1-~~)",
+		"librust-once-cell-1+default-dev (>= 1.9.0-~~)",
+		"librust-protobuf-support-3.7+default-dev (<< 3.7.3-~~)",
+		"librust-protobuf-support-3.7+default-dev (>= 3.7.2-~~)",
+		"librust-thiserror-1+default-dev (>= 1.0.30-~~)"
 	],
-	"installedSize": 1218,
+	"installedSize": 1407,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Google protocol buffers - Rust source code",
 	"homepage": "https://github.com/stepancheg/rust-protobuf/",
-	"filename": "pool/main/r/rust-protobuf/librust-protobuf-dev_2.27.1-1+b2_amd64.deb",
-	"size": 127336,
-	"md5": "82cb9aa15722d633a66d041050f1773e",
-	"sha256": "c1dab4cfce897114e775afdfea223ac332d5884d9cce5db4fa69fe38dfad466d",
-	"descriptionMd5": "4ab2db81dcb177b7c92783fb1753b133"
+	"filename": "pool/main/r/rust-protobuf/librust-protobuf-dev_3.7.2-1_amd64.deb",
+	"size": 160532,
+	"md5": "9e2645de589eda977266a74fbb51e0ed",
+	"sha256": "73a4034541cd9567e822431f82adc614f257cd5a6d186c22df323208b920edc2",
+	"descriptionMd5": "71f29ab28b6d67b947d51748b0ee2730"
 }]

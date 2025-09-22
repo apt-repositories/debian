@@ -6,7 +6,7 @@
 	],
 	"package": "libopenmpi40",
 	"source": "openmpi",
-	"version": "5.0.8-9",
+	"version": "5.0.8-10",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,24 +18,18 @@
 		"libgcc-s1 (>= 3.0)",
 		"libhwloc15 (>= 2.12.2)",
 		"libnl-3-200 (>= 3.11.0)",
+		"libpmix2t64 (>= 6.0.0+really5.0.8)",
 		"libpsm2-2 (>= 10.3-37)",
 		"libucx0",
-		"zlib1g (>= 1:1.2.0)",
 		"libhwloc-plugins"
 	],
-	"replaces": [
-		"libpmix2t64 (<< 6.0.0-3)"
-	],
-	"breaks": [
-		"libpmix2t64 (<< 6.0.0-3)"
-	],
-	"installedSize": 13992,
+	"installedSize": 10441,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "high performance message passing library -- shared library",
 	"homepage": "https://www.open-mpi.org/",
-	"filename": "pool/main/o/openmpi/libopenmpi40_5.0.8-9_amd64.deb",
-	"size": 3258316,
-	"md5": "86d35f26b922377cb797131a6e2a160d",
-	"sha256": "7a58e0bbdea56e527714610f788c6291b9de8bb3e492960019935c2ba05b39d4",
+	"filename": "pool/main/o/openmpi/libopenmpi40_5.0.8-10_amd64.deb",
+	"size": 2413296,
+	"md5": "f13c29af4b26244a1b5ba675224fc12f",
+	"sha256": "542f217381a4e9476851cc7044b1aa762a898cd7bed56e835995a4424a08c64d",
 	"descriptionMd5": "72141e1823cc63cbe9896c2f4fefec5f"
 }]

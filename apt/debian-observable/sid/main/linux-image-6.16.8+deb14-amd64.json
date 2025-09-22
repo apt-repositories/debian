@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.16.8+deb14-amd64",
+	"source": "linux-signed-amd64 (6.16.8+1)",
+	"version": "6.16.8-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.16",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.16.8+deb14-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.16.8+deb14-amd64-unsigned"
+	],
+	"installedSize": 115694,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.16 for 64-bit PCs (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.16.8-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.16.8+deb14-amd64_6.16.8-1_amd64.deb",
+	"size": 115427760,
+	"md5": "67427fb13b436136c428c1fb65869295",
+	"sha256": "c8926351918742cd4daaa14f09cfc48e157eb7de5f69fbd8659a8f6bf5281efd",
+	"descriptionMd5": "1446edb2bf4ec53f9c03eed62fa68006"
+}]
