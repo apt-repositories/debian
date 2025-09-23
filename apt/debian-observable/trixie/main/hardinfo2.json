@@ -6,6 +6,70 @@
 	],
 	"package": "hardinfo2",
 	"source": "hardinfo",
+	"version": "2.2.13-1~bpo13+1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gawk",
+		"libc6 (>= 2.38)",
+		"libcairo2 (>= 1.2.4)",
+		"libdecor-0-0 (>= 0.1.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0t64 (>= 2.80.0)",
+		"libgtk-3-0t64 (>= 3.11.5)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libqt5core5t64 (>= 5.15.1)",
+		"libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1)",
+		"libqt5opengl5t64 (>= 5.0.2)",
+		"libqt5widgets5t64 (>= 5.0.2)",
+		"libsoup-3.0-0 (>= 3.0.3)",
+		"libstdc++6 (>= 5)",
+		"libvulkan1 (>= 1.2.131.2)",
+		"libwayland-client0 (>= 1.20.0)",
+		"libx11-6",
+		"libxcb1"
+	],
+	"recommends": [
+		"dmidecode",
+		"fwupd",
+		"iperf3",
+		"lm-sensors",
+		"mesa-utils",
+		"sysbench",
+		"udisks2",
+		"vulkan-tools",
+		"x11-xserver-utils",
+		"xdg-utils"
+	],
+	"suggests": [
+		"pciutils"
+	],
+	"replaces": [
+		"hardinfo (<< 2.2.13-1~bpo13+1~)"
+	],
+	"breaks": [
+		"hardinfo (<< 2.2.13-1~bpo13+1~)"
+	],
+	"installedSize": 9353,
+	"maintainer": "Boyuan Yang <byang@debian.org>",
+	"description": "System Information and Benchmark for Linux Systems",
+	"homepage": "https://github.com/hardinfo2/hardinfo2",
+	"filename": "pool/main/h/hardinfo/hardinfo2_2.2.13-1~bpo13+1_amd64.deb",
+	"size": 3040832,
+	"sha256": "2a7ff11f0f28249ce4c8197e75d346b633396c8a20906d15a1b4d1078a297615",
+	"descriptionMd5": "c4e75f2f501b3ee18281dc42b83cb522"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "hardinfo2",
+	"source": "hardinfo",
 	"version": "2.2.10-1",
 	"section": "x11",
 	"priority": "optional",
