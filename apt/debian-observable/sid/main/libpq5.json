@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libpq5",
-	"source": "postgresql-17",
-	"version": "17.6-1",
+	"source": "postgresql-18",
+	"version": "18~rc1-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 	"recommends": [
 		"ca-certificates"
 	],
-	"installedSize": 1079,
+	"suggests": [
+		"libpq-oauth"
+	],
+	"installedSize": 1157,
 	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
 	"description": "PostgreSQL C client library",
 	"homepage": "http://www.postgresql.org/",
-	"filename": "pool/main/p/postgresql-17/libpq5_17.6-1_amd64.deb",
-	"size": 227320,
-	"md5": "a9d6740ef48eb968ac8d4ec9c5332f8c",
-	"sha256": "e707f5b820eb4ed6ecbf7a8f5563084b1ff17b16f0a2c6b8be47a010269bb73d",
+	"filename": "pool/main/p/postgresql-18/libpq5_18~rc1-2_amd64.deb",
+	"size": 245352,
+	"md5": "2766610e2b05208809615beec310e5ad",
+	"sha256": "4798aba531ddfc4c16be31fa6546401a069030ca020a46ccd4e47a7b0b158f3e",
 	"descriptionMd5": "da9bc59f7fd653cbf94d3bb2760708aa"
 }]

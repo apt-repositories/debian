@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18",
+	"version": "18~rc1-2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"locales | locales-all",
+		"postgresql-client-18 (= 18~rc1-2)",
+		"postgresql-common (>= 275~)",
+		"ssl-cert",
+		"tzdata",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libgssapi-krb5-2 (>= 1.14+dfsg)",
+		"libicu76 (>= 76.1-1~)",
+		"libldap2 (>= 2.6.2)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libnuma1 (>= 2.0.11)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpq5 (>= 17~~)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.4.0)",
+		"libsystemd0",
+		"liburing2 (>= 2.3)",
+		"libuuid1 (>= 2.16)",
+		"libxml2-16 (>= 2.14.1)",
+		"libxslt1.1 (>= 1.1.25)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"postgresql-18-jit",
+		"sysstat"
+	],
+	"breaks": [
+		"dbconfig-common (<< 2.0.22~)"
+	],
+	"installedSize": 34652,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "The World's Most Advanced Open Source Relational Database",
+	"homepage": "http://www.postgresql.org/",
+	"filename": "pool/main/p/postgresql-18/postgresql-18_18~rc1-2_amd64.deb",
+	"size": 7245676,
+	"md5": "11034be14c8f10398f75a408372ceab4",
+	"sha256": "243ad2c7970008e8824849fc92ca6225f3e98f70eac0e572197d60711db2bed2",
+	"descriptionMd5": "dcb0488ab35080ca4e8e57faa4716e66"
+}]
