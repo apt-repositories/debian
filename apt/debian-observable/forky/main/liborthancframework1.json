@@ -6,7 +6,7 @@
 	],
 	"package": "liborthancframework1",
 	"source": "orthanc",
-	"version": "1.12.7+dfsg-4",
+	"version": "1.12.9+dfsg-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -33,13 +33,16 @@
 		"zlib1g (>= 1:1.2.0)",
 		"dcmtk-data (>= 3.6.9-5)"
 	],
-	"installedSize": 15311,
+	"breaks": [
+		"orthanc-webviewer (<= 2.10+dfsg-1)"
+	],
+	"installedSize": 15453,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "Orthanc Framework library",
 	"homepage": "https://www.orthanc-server.com/",
-	"filename": "pool/main/o/orthanc/liborthancframework1_1.12.7+dfsg-4_amd64.deb",
-	"size": 2010672,
-	"md5": "9acde175bc32870175312a64a9e28c3b",
-	"sha256": "d3d2adee5f2c79a73f37b1fa26053415cf46c0be2fc2e8c069c8839477761b9d",
+	"filename": "pool/main/o/orthanc/liborthancframework1_1.12.9+dfsg-2_amd64.deb",
+	"size": 2044684,
+	"md5": "8eff3869d4b98486dae7a2de06e2dea0",
+	"sha256": "7f64ab8e1d9adf55e15231c7b13167acbe63236c78ed5d6f713cd6e634f6710e",
 	"descriptionMd5": "392aa2993031dd44d8b8826b01ed8365"
 }]
