@@ -5,20 +5,21 @@
 		"Size"
 	],
 	"package": "librust-syslog-dev",
-	"source": "rust-syslog (6.0.1-2)",
-	"version": "6.0.1-2+b2",
+	"source": "rust-syslog",
+	"version": "6.0.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-error-chain-0.12-dev",
-		"librust-hostname-0.3+default-dev",
-		"librust-libc-0.2+default-dev",
-		"librust-log-0.4+default-dev",
-		"librust-log-0.4+std-dev",
-		"librust-time-0.3+default-dev",
-		"librust-time-0.3+formatting-dev",
-		"librust-time-0.3+local-offset-dev"
+		"librust-error-chain-0.12-dev (>= 0.12.2-~~)",
+		"librust-hostname+default-dev (<< 0.5-~~)",
+		"librust-hostname+default-dev (>= 0.3.1-~~)",
+		"librust-libc-0.2+default-dev (>= 0.2.112-~~)",
+		"librust-log-0.4+default-dev (>= 0.4.8-~~)",
+		"librust-log-0.4+std-dev (>= 0.4.8-~~)",
+		"librust-time-0.3+default-dev (>= 0.3.5-~~)",
+		"librust-time-0.3+formatting-dev (>= 0.3.5-~~)",
+		"librust-time-0.3+local-offset-dev (>= 0.3.5-~~)"
 	],
 	"breaks": [
 		"librust-pleaser-dev (<= 0.5.1-1)"
@@ -26,9 +27,10 @@
 	"installedSize": 61,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Send log messages to syslog - Rust source code",
-	"filename": "pool/main/r/rust-syslog/librust-syslog-dev_6.0.1-2+b2_amd64.deb",
-	"size": 11024,
-	"md5": "3a3114abcbff78d61871c0ad3f733e96",
-	"sha256": "067770073253f26d1ccc601d9f0900f544a1ad27df9bcd197b0b3d01190c105c",
-	"descriptionMd5": "3f6509dd4d0e06675b00c5201d2c2d09"
+	"homepage": "https://github.com/Geal/rust-syslog",
+	"filename": "pool/main/r/rust-syslog/librust-syslog-dev_6.0.1-3_amd64.deb",
+	"size": 10904,
+	"md5": "fcbaf89c334f73ea36a0dbe872959d85",
+	"sha256": "ae5debdba29cda8f7b6d5f73bd56950e89a9c94984119d877669696766b6ec21",
+	"descriptionMd5": "859ba4d90da14ac56ca7f148789d81e8"
 }
