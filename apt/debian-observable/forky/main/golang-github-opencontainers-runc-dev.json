@@ -6,20 +6,21 @@
 	],
 	"package": "golang-github-opencontainers-runc-dev",
 	"source": "runc",
-	"version": "1.1.15+ds1-2",
+	"version": "1.3.0+ds1-4",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"golang-dbus-dev",
 		"golang-github-checkpoint-restore-go-criu-dev (>= 6)",
-		"golang-github-cilium-ebpf-dev (>= 0.6.2~)",
+		"golang-github-cilium-ebpf-dev (>= 0.17~)",
 		"golang-github-containerd-console-dev",
 		"golang-github-coreos-go-systemd-dev (>= 22.3.2~)",
 		"golang-github-cyphar-filepath-securejoin-dev",
 		"golang-github-docker-go-units-dev (>= 0.4.0~)",
 		"golang-github-moby-sys-dev (>= 0.0~git20201113.5a29239~)",
 		"golang-github-mrunalp-fileutils-dev (>= 0.5.1~)",
+		"golang-github-opencontainers-cgroups-dev",
 		"golang-github-opencontainers-selinux-dev (>= 1.8.0~)",
 		"golang-github-opencontainers-specs-dev (>= 1.0.2.66~)",
 		"golang-github-seccomp-libseccomp-golang-dev (>= 0.10.0~)",
@@ -31,15 +32,17 @@
 		"golang-google-protobuf-dev"
 	],
 	"breaks": [
-		"podman (<< 2.0.4+dfsg2-5~)"
+		"golang-github-containers-buildah-dev (<< 1.41)",
+		"golang-github-containers-common-dev (<< 0.64)",
+		"podman (<< 5.6.1)"
 	],
-	"installedSize": 1296,
+	"installedSize": 954,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Open Container Project - development files",
 	"homepage": "https://github.com/opencontainers/runc",
-	"filename": "pool/main/r/runc/golang-github-opencontainers-runc-dev_1.1.15+ds1-2_all.deb",
-	"size": 252800,
-	"md5": "ae35614fe5f23e6a980431ab2cbb10f1",
-	"sha256": "e31de0639dd3fef11cca61e3db191cf136c03d7fdcb9bd2961945d91819c50bd",
+	"filename": "pool/main/r/runc/golang-github-opencontainers-runc-dev_1.3.0+ds1-4_all.deb",
+	"size": 212172,
+	"md5": "574d90d8c1bfcbd6bf1d6b5f2c8131a3",
+	"sha256": "16d216a5fab981e3676e9374539c7518df415ba40b3e474288a4facedcca2df6",
 	"descriptionMd5": "b8a1a472413b94034a70f3493cd01471"
 }]

@@ -6,21 +6,27 @@
 	],
 	"package": "golang-github-cilium-ebpf-dev",
 	"source": "golang-github-cilium-ebpf",
-	"version": "0.11.0-2",
+	"version": "0.17.3+ds1-4",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"golang-github-go-quicktest-qt-dev",
+		"golang-github-jsimonetti-rtnetlink-dev",
 		"golang-golang-x-exp-dev",
 		"golang-golang-x-sys-dev (>= 0.0~git20211117~)"
 	],
-	"installedSize": 3039,
+	"breaks": [
+		"golang-github-containerd-cgroups-dev (<< 3.0.5)",
+		"golang-github-opencontainers-runc-dev (<< 1.3)"
+	],
+	"installedSize": 3324,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "eBPF Library for Go",
 	"homepage": "https://github.com/cilium/ebpf",
-	"filename": "pool/main/g/golang-github-cilium-ebpf/golang-github-cilium-ebpf-dev_0.11.0-2_all.deb",
-	"size": 1793100,
-	"md5": "342cfa5ffbad1b6107867f07215f564a",
-	"sha256": "eeca279c70ca81cb2e18efd3cd0254a672cea07f6bdc5f8173186745aad34285",
+	"filename": "pool/main/g/golang-github-cilium-ebpf/golang-github-cilium-ebpf-dev_0.17.3+ds1-4_all.deb",
+	"size": 1728540,
+	"md5": "debf62343d8f58a5820196fb2ebee872",
+	"sha256": "4be8381542e03235306da79eb3e8cd1345e2dcab47083356be01ec504244a7d3",
 	"descriptionMd5": "c3fc4c621a2f93d3c74a5d10cd7fa14e"
 }]

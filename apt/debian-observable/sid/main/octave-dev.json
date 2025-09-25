@@ -6,7 +6,7 @@
 	],
 	"package": "octave-dev",
 	"source": "octave",
-	"version": "9.4.0-1",
+	"version": "10.2.0-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,7 +14,7 @@
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libstdc++6 (>= 13.1)",
-		"octave (= 9.4.0-1)",
+		"octave (= 10.2.0-2)",
 		"libreadline-dev | libreadline-gplv2-dev",
 		"libncurses-dev",
 		"libhdf5-dev | libhdf5-openmpi-dev | libhdf5-mpich-dev",
@@ -29,13 +29,16 @@
 	"enhances": [
 		"octave"
 	],
-	"installedSize": 5108,
+	"breaks": [
+		"swig (<< 4.3.0-2~)"
+	],
+	"installedSize": 5211,
 	"maintainer": "Debian Octave Group <team+pkg-octave-team@tracker.debian.org>",
 	"description": "development files for the GNU Octave language",
 	"homepage": "https://www.octave.org/",
-	"filename": "pool/main/o/octave/octave-dev_9.4.0-1_amd64.deb",
-	"size": 1007400,
-	"md5": "a659f59283382a92e514919293e3f6da",
-	"sha256": "df168a512c3fd4beec5b4777bd4eccaee1ccd99378c5d3e0ba3c7884b9520016",
+	"filename": "pool/main/o/octave/octave-dev_10.2.0-2_amd64.deb",
+	"size": 1065672,
+	"md5": "4f7fcdccb2fe02c35c4fe1dd0649a6b3",
+	"sha256": "92b190374ff1eae0f9f2884cf3bf847489456d0c4e4a2b5c88ee30b9a95496f6",
 	"descriptionMd5": "043714be64f3fab45c4f444484bf7bb1"
 }]

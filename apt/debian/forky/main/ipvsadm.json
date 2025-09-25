@@ -5,14 +5,15 @@
 		"Size"
 	],
 	"package": "ipvsadm",
-	"version": "1:1.31-5",
+	"source": "ipvsadm (1:1.31-5)",
+	"version": "1:1.31-5+b1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"libnl-3-200 (>= 3.2.7)",
-		"libnl-genl-3-200 (>= 3.2.7)",
+		"libc6 (>= 2.38)",
+		"libnl-3-200 (>= 3.11.0)",
+		"libnl-genl-3-200 (>= 3.11.0)",
 		"libpopt0 (>= 1.14)"
 	],
 	"preDepends": [
@@ -29,13 +30,13 @@
 	"conflicts": [
 		"lvs"
 	],
-	"installedSize": 127,
+	"installedSize": 128,
 	"maintainer": "Debian Netfilter Packaging Team <team+pkg-netfilter-team@tracker.debian.org>",
 	"description": "Linux Virtual Server support programs",
 	"homepage": "https://git.kernel.org/pub/scm/utils/kernel/ipvsadm/ipvsadm.git",
-	"filename": "pool/main/i/ipvsadm/ipvsadm_1.31-5_amd64.deb",
-	"size": 41308,
-	"md5": "884bcc2cd163b5b29557856adc376bc6",
-	"sha256": "70cd847dec51cee5f49e12c3ac5bee573b93088baeb86a79e3cb1dbaee229e40",
+	"filename": "pool/main/i/ipvsadm/ipvsadm_1.31-5+b1_amd64.deb",
+	"size": 41488,
+	"md5": "f03fe88477fc355cc8cd96c66a2fe896",
+	"sha256": "6596cccd17770be16cd71d91e31d372f0117ea5b8e5a158ed777c91a20bf7b39",
 	"descriptionMd5": "d34c5d442e928349e361a339b0e29561"
 }
