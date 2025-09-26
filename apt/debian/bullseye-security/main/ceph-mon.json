@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-mon",
+	"source": "ceph",
+	"version": "14.2.21-1+deb11u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 14.2.21-1+deb11u1)",
+		"libboost-program-options1.74.0 (>= 1.74.0)",
+		"libc6 (>= 2.30)",
+		"libgcc-s1 (>= 3.0)",
+		"libgoogle-perftools4",
+		"libleveldb1d",
+		"liblz4-1 (>= 0.0~r130)",
+		"librados2 (>= 12.1.4)",
+		"libsnappy1v5 (>= 1.1.8)",
+		"libstdc++6 (>= 9)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"ceph (<< 10.2.2-0ubuntu2~)"
+	],
+	"breaks": [
+		"ceph (<< 10.2.2-0ubuntu2~)"
+	],
+	"installedSize": 14094,
+	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
+	"description": "monitor server for the ceph storage system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/updates/main/c/ceph/ceph-mon_14.2.21-1+deb11u1_amd64.deb",
+	"size": 3259608,
+	"sha256": "f564087fc4452dc84bb89833e70dd4d4ddc76f32419f1259bb64622d936a5d78",
+	"descriptionMd5": "aa343322863ec9d4c967e6b512da062d"
+}

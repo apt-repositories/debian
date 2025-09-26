@@ -30,4 +30,35 @@
 	"md5": "4a05fb84216ae3261173cc2f4baa9584",
 	"sha256": "e573b77959103e58611a1c913a736c0c324c686c182c2a2a59c3858e3a6ccef4",
 	"descriptionMd5": "15cf24eaec74387c1ae6ddef87cdb866"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rbd-fuse",
+	"source": "ceph",
+	"version": "14.2.21-1+deb11u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.28)",
+		"libfuse2 (>= 2.6)",
+		"libgcc-s1 (>= 3.0)",
+		"librados2 (>= 12.0.3)",
+		"librbd1 (>= 14.2.0)",
+		"libstdc++6 (>= 9)"
+	],
+	"recommends": [
+		"fuse"
+	],
+	"installedSize": 249,
+	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
+	"description": "FUSE-based rbd client for the Ceph distributed file system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/updates/main/c/ceph/rbd-fuse_14.2.21-1+deb11u1_amd64.deb",
+	"size": 90852,
+	"sha256": "6cee5b1cf55c27102e3268eedba3fba04111112b64305c7b8e8f1db5a9cad0ee",
+	"descriptionMd5": "15cf24eaec74387c1ae6ddef87cdb866"
 }]
