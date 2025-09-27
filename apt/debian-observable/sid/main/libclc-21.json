@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclc-21",
+	"source": "llvm-toolchain-21",
+	"version": "1:21.1.2-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libclc-21-dev (= 1:21.1.2-2)",
+		"libclang-common-21-dev"
+	],
+	"replaces": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600",
+		"libclc-x.y"
+	],
+	"breaks": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600"
+	],
+	"conflicts": [
+		"libclc-x.y"
+	],
+	"installedSize": 53021,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "OpenCL C language implementation - platform support",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-21/libclc-21_21.1.2-2_all.deb",
+	"size": 7160624,
+	"md5": "4a965299e0ae4dd820813f3c21967a8f",
+	"sha256": "faf34b0d67467c244f5cd77ab84fbcb7142be1a9ad9365b81d11eceb19c951d4",
+	"descriptionMd5": "73bf1c1e61845108c59b363de4fd901a"
+}]

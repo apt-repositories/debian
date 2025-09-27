@@ -6,25 +6,30 @@
 	],
 	"package": "libcaca0",
 	"source": "libcaca",
-	"version": "0.99.beta20-5",
+	"version": "0.99.beta20-6",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libncursesw6 (>= 6)",
-		"libslang2 (>= 2.2.4)",
 		"libstdc++6 (>= 13.1)",
 		"libtinfo6 (>= 6)",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 899,
+	"recommends": [
+		"libgl1",
+		"libglu1-mesa | libglu1",
+		"libglut3.12 (>= 3.4.0)",
+		"libx11-6"
+	],
+	"installedSize": 891,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "colour ASCII art library",
 	"homepage": "http://caca.zoy.org/wiki/libcaca",
-	"filename": "pool/main/libc/libcaca/libcaca0_0.99.beta20-5_amd64.deb",
-	"size": 202420,
-	"md5": "426cc007e03cd9372a9a00add398556b",
-	"sha256": "6451e5e3ac03b63c83a75b6e2c0ea7b144a25b04cc07caab9477403c133195b7",
+	"filename": "pool/main/libc/libcaca/libcaca0_0.99.beta20-6_amd64.deb",
+	"size": 199356,
+	"md5": "03cb5fc0404943c196e1b32ddf8ae6d7",
+	"sha256": "36b199378b1a0e8704b94b2682853d0793d80b22b06919420dbc336c48bb89bf",
 	"descriptionMd5": "d4849604710d4ce2aca997ad664f17fe"
 }]

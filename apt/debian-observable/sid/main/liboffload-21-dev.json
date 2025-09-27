@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liboffload-21-dev",
+	"source": "llvm-toolchain-21",
+	"version": "1:21.1.2-2",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liboffload-21 (= 1:21.1.2-2)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3)",
+		"libllvm21 (>= 1:21.1.0)",
+		"libomp5-21 (>= 1:20)",
+		"libstdc++6 (>= 10.2)",
+		"libz3-4 (>= 4.13.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"liboffload-x.y-dev"
+	],
+	"conflicts": [
+		"liboffload-x.y-dev"
+	],
+	"installedSize": 1416,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Offload Library - Development Package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-21/liboffload-21-dev_21.1.2-2_amd64.deb",
+	"size": 456156,
+	"md5": "165694a0ce408bd8396bfbc86f949b2b",
+	"sha256": "26bdf25adef5a9fa5f7913046d1a254d098e90ee83f2f084dbdd1ea42ea701ec",
+	"descriptionMd5": "352e5b2eb6f0446d5039b547a7bc6d17"
+}]
