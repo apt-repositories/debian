@@ -6,7 +6,7 @@
 	],
 	"package": "manpages-pt-br",
 	"source": "manpages-l10n",
-	"version": "4.27.0-1",
+	"version": "4.28.0-2",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,19 @@
 		"man-browser",
 		"manpages"
 	],
-	"installedSize": 1061,
+	"replaces": [
+		"net-tools (<< 2.10-2~)"
+	],
+	"breaks": [
+		"net-tools (<< 2.10-2~)"
+	],
+	"installedSize": 1065,
 	"maintainer": "Dr. Helge Kreutzmann <debian@helgefjell.de>",
 	"description": "Brazilian Portuguese man pages",
 	"homepage": "https://manpages-l10n-team.pages.debian.net/manpages-l10n/",
-	"filename": "pool/main/m/manpages-l10n/manpages-pt-br_4.27.0-1_all.deb",
-	"size": 468644,
-	"md5": "cec972d75ed5525a8cdace100bff2ee6",
-	"sha256": "d1785d426400beb36d69fac22d6d8b3cd390ffd45fab062bf5c70cfa46947d2b",
+	"filename": "pool/main/m/manpages-l10n/manpages-pt-br_4.28.0-2_all.deb",
+	"size": 464800,
+	"md5": "025ae7fe61f55525fa1b54b1cb0de3f1",
+	"sha256": "48e36271e7925eea4de84353be3457360277f68b870326de9ca9831fb0b697a4",
 	"descriptionMd5": "f33875648803b99264ef49aed6df140e"
 }]
