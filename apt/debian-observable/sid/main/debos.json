@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "debos",
-	"source": "debos (1.1.5-1)",
-	"version": "1.1.5-1+b2",
+	"version": "1.1.5-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,6 +15,7 @@
 		"qemu-system-x86",
 		"qemu-user-static",
 		"systemd-container",
+		"systemd-resolved",
 		"libc6 (>= 2.34)",
 		"libglib2.0-0t64 (>= 2.38.0)",
 		"libostree-1-1 (>= 2016.8)"
@@ -30,7 +30,6 @@
 		"mount",
 		"ovmf",
 		"parted",
-		"systemd-resolved",
 		"udev",
 		"xz-utils",
 		"zip"
@@ -39,14 +38,13 @@
 		"libslirp-helper",
 		"user-mode-linux"
 	],
-	"installedSize": 9125,
+	"installedSize": 9132,
 	"maintainer": "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>",
 	"description": "Debian OS builder",
 	"homepage": "https://github.com/go-debos/debos",
-	"builtUsing": "golang-1.24 (= 1.24.4-1), golang-github-alessio-shellescape (= 1.4.2-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-docker-go-units (= 0.4.0-4), golang-github-freddierice-go-losetup (= 2.0.1+ds1-1.1), golang-github-go-debos-fakemachine (= 0.0.11-1), golang-github-go-task-slim-sprig (= 3.0.0-2), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.18.0+ds1-1), golang-github-sjoerdsimons-ostree-go (= 0.0~git20201014.8fae757-2), golang-github-surma-gocpio (= 1.1.0+git20160926.fcb6877-1.1), golang-github-ulikunitz-xz (= 0.5.6-2), golang-go-flags (= 1.4.0-6), golang-golang-x-sys (= 0.22.0-1), golang-yaml.v2 (= 2.4.0-5)",
-	"filename": "pool/main/d/debos/debos_1.1.5-1+b2_amd64.deb",
-	"size": 2943520,
-	"md5": "a37524b95317136b8d5bccd60ad007d9",
-	"sha256": "2b3a30f9f68a04650737cc0966ee6dd75597dbb8e2eb39bcb4d0c1411fce70be",
+	"filename": "pool/main/d/debos/debos_1.1.5-2_amd64.deb",
+	"size": 2942996,
+	"md5": "9724e676ff64b8eb208992ae44005283",
+	"sha256": "64a56cae4d2f8dbcff96fad51a5ef00e85eb93f153599db3a1c6fc46da7f8dca",
 	"descriptionMd5": "c0707a49f28410861421b982e1e4b223"
 }]
