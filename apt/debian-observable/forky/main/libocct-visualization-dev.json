@@ -6,7 +6,7 @@
 	],
 	"package": "libocct-visualization-dev",
 	"source": "opencascade",
-	"version": "7.8.1+dfsg1-3",
+	"version": "7.8.1+dfsg1-5",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,16 +15,16 @@
 		"libfreetype-dev",
 		"libgl-dev",
 		"libglu1-mesa-dev | libglu-dev",
-		"libocct-foundation-dev (<< 7.8.1+dfsg1-3+1~)",
-		"libocct-foundation-dev (>= 7.8.1+dfsg1-3)",
-		"libocct-modeling-algorithms-dev (<< 7.8.1+dfsg1-3+1~)",
-		"libocct-modeling-algorithms-dev (>= 7.8.1+dfsg1-3)",
-		"libocct-modeling-data-dev (<< 7.8.1+dfsg1-3+1~)",
-		"libocct-modeling-data-dev (>= 7.8.1+dfsg1-3)",
-		"libocct-ocaf-dev (<< 7.8.1+dfsg1-3+1~)",
-		"libocct-ocaf-dev (>= 7.8.1+dfsg1-3)",
-		"libocct-visualization-7.8 (<< 7.8.1+dfsg1-3+1~)",
-		"libocct-visualization-7.8 (>= 7.8.1+dfsg1-3)",
+		"libocct-foundation-dev (<< 7.8.1+dfsg1-5+1~)",
+		"libocct-foundation-dev (>= 7.8.1+dfsg1-5)",
+		"libocct-modeling-algorithms-dev (<< 7.8.1+dfsg1-5+1~)",
+		"libocct-modeling-algorithms-dev (>= 7.8.1+dfsg1-5)",
+		"libocct-modeling-data-dev (<< 7.8.1+dfsg1-5+1~)",
+		"libocct-modeling-data-dev (>= 7.8.1+dfsg1-5)",
+		"libocct-ocaf-dev (<< 7.8.1+dfsg1-5+1~)",
+		"libocct-ocaf-dev (>= 7.8.1+dfsg1-5)",
+		"libocct-visualization-7.8 (<< 7.8.1+dfsg1-5+1~)",
+		"libocct-visualization-7.8 (>= 7.8.1+dfsg1-5)",
 		"libx11-dev",
 		"libxext-dev",
 		"libxmu-dev"
@@ -32,16 +32,19 @@
 	"replaces": [
 		"liboce-visualization-dev"
 	],
+	"breaks": [
+		"libocct-foundation-dev (<< 7.8.1+dfsg1-5)"
+	],
 	"conflicts": [
 		"liboce-visualization-dev"
 	],
-	"installedSize": 4655,
+	"installedSize": 4644,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Open CASCADE Technology graphical data visualization module - dev files",
 	"homepage": "https://www.opencascade.com/",
-	"filename": "pool/main/o/opencascade/libocct-visualization-dev_7.8.1+dfsg1-3_amd64.deb",
-	"size": 533096,
-	"md5": "e75e4765bc18ecdc99307b5b4e2335a3",
-	"sha256": "80d473d56d055833d1f4e0446f87ddde84845e1c7b4a819d5ab84859b37352d7",
+	"filename": "pool/main/o/opencascade/libocct-visualization-dev_7.8.1+dfsg1-5_amd64.deb",
+	"size": 531944,
+	"md5": "17032c7721fe1e911502f45be224e340",
+	"sha256": "3079edbc914d1d02aced58140cf07a36e86eb1def36c55ed6ceabf0bb6120b81",
 	"descriptionMd5": "3dbdb7cb864e3ef32e12fe3eca1da8d1"
 }]
