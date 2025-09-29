@@ -6,13 +6,14 @@
 	],
 	"package": "librust-backtrace-dev",
 	"source": "rust-backtrace",
-	"version": "0.3.74-3",
+	"version": "0.3.75-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-addr2line-0.24-dev",
 		"librust-cfg-if-1+default-dev",
+		"librust-cpp-demangle-0.4+alloc-dev",
 		"librust-libc-0.2-dev (>= 0.2.156-~~)",
 		"librust-miniz-oxide-0-dev (>= 0.7.1-~~)",
 		"librust-object-0.36+archive-dev",
@@ -23,19 +24,18 @@
 		"librust-object-0.36+unaligned-dev",
 		"librust-object-0.36+xcoff-dev",
 		"librust-rustc-demangle-0.1+default-dev (>= 0.1.24-~~)",
+		"librust-ruzstd-0.7-dev (>= 0.7.3-~~)",
+		"librust-serde-1+default-dev",
+		"librust-serde-1+derive-dev",
 		"librust-flate2-dev (>= 1.0.27)"
 	],
-	"suggests": [
-		"librust-backtrace+cpp-demangle-dev (= 0.3.74-3)",
-		"librust-backtrace+serde-dev (= 0.3.74-3)"
-	],
-	"installedSize": 382,
+	"installedSize": 402,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Acquire a backtrace at runtime - Rust source code",
 	"homepage": "https://github.com/rust-lang/backtrace-rs",
-	"filename": "pool/main/r/rust-backtrace/librust-backtrace-dev_0.3.74-3_amd64.deb",
-	"size": 78372,
-	"md5": "8cb0c36e3b48a4a2688d0d946a53db1b",
-	"sha256": "5f9fe50b5b2feed078434b2b6747f4439c510a5366dddd78065a7b4b6832b786",
+	"filename": "pool/main/r/rust-backtrace/librust-backtrace-dev_0.3.75-2_amd64.deb",
+	"size": 82128,
+	"md5": "2408e3f21d4c9d8418cc3eee95deeb67",
+	"sha256": "29c162f3bb9703f58f32b66a8cd18ba871a3ea00e53d7f8f91f08651992b73cb",
 	"descriptionMd5": "fc1cb1f31289354910341c4c3e839591"
 }

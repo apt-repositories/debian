@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "gearman-server",
-	"version": "1.130.1-4",
+	"version": "1.130.1-5",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,13 +15,16 @@
 		"libdanga-socket-perl",
 		"libgearman-client-perl"
 	],
+	"breaks": [
+		"libgearman-client-perl (<< 2.004.015-2)"
+	],
 	"installedSize": 94,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "Gearman distributed job server and Perl interface",
 	"homepage": "https://metacpan.org/release/Gearman-Server",
-	"filename": "pool/main/g/gearman-server/gearman-server_1.130.1-4_all.deb",
-	"size": 27364,
-	"md5": "45f47fd8993c42731decfcb4d8bcd4de",
-	"sha256": "77147f083f2378043add7a3cbc50f8fdac877805d248fa493197171ca4018230",
+	"filename": "pool/main/g/gearman-server/gearman-server_1.130.1-5_all.deb",
+	"size": 27456,
+	"md5": "6d4113c91c4e838140e7b4800c5abaae",
+	"sha256": "ffc9e74a41ad97a0713f4dd2a1020f4c4790c045fa8b0ef54ac315a88f950488",
 	"descriptionMd5": "e7597f47edd569f62c875c5965350fc9"
 }]
