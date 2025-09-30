@@ -6,16 +6,16 @@
 	],
 	"package": "samba-ad-dc",
 	"source": "samba",
-	"version": "2:4.23.0+dfsg-3",
+	"version": "2:4.23.1+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"samba (= 2:4.23.0+dfsg-3)",
-		"python3-samba (= 2:4.23.0+dfsg-3)",
+		"samba (= 2:4.23.1+dfsg-1)",
+		"python3-samba (= 2:4.23.1+dfsg-1)",
 		"python3-dnspython",
-		"samba-dsdb-modules (= 2:4.23.0+dfsg-3)",
-		"winbind (= 2:4.23.0+dfsg-3)",
+		"samba-dsdb-modules (= 2:4.23.1+dfsg-1)",
+		"winbind (= 2:4.23.1+dfsg-1)",
 		"python3:any",
 		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.34)",
@@ -23,7 +23,7 @@
 		"libpopt0 (>= 1.14)",
 		"libtalloc2 (>= 2.0.4~git20101213)",
 		"libtevent0t64 (>= 0.9.16)",
-		"samba-libs (= 2:4.23.0+dfsg-3)"
+		"samba-libs (= 2:4.23.1+dfsg-1)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -48,7 +48,7 @@
 		"ntpsec"
 	],
 	"breaks": [
-		"samba-ad-provision (<< 2:4.23.0+dfsg)",
+		"samba-ad-provision (<< 2:4.23.1+dfsg)",
 		"samba-common-bin (<< 2:4.20.1+dfsg-2~)"
 	],
 	"conflicts": [
@@ -58,9 +58,9 @@
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "Samba control files to run AD Domain Controller",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/samba-ad-dc_4.23.0+dfsg-3_amd64.deb",
-	"size": 78132,
-	"md5": "91d815d86f1ae27924806d3dd186ece4",
-	"sha256": "71ea3676d7049b24bc144b295444b2a1fe35de9b052ccc08e6bedee5bbe67f1d",
+	"filename": "pool/main/s/samba/samba-ad-dc_4.23.1+dfsg-1_amd64.deb",
+	"size": 78504,
+	"md5": "88027e80f7e3d6ee10bd16e7d2adc35d",
+	"sha256": "eefdf4a9ac212cd284a7dbb29c01fb27c7bcf097bb3f026f11bc1513e91919db",
 	"descriptionMd5": "eba517f15cc7dff6d61d4bf8f68630b3"
 }]

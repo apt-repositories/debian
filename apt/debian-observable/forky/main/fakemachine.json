@@ -5,33 +5,32 @@
 		"Size"
 	],
 	"package": "fakemachine",
-	"source": "golang-github-go-debos-fakemachine (0.0.11-1)",
-	"version": "0.0.11-1+b2",
+	"source": "golang-github-go-debos-fakemachine",
+	"version": "0.0.11-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"busybox | busybox-static",
 		"qemu-system-x86",
-		"systemd"
+		"systemd",
+		"systemd-resolved"
 	],
 	"recommends": [
 		"e2fsprogs",
-		"linux-image-amd64",
-		"systemd-resolved"
+		"linux-image-amd64"
 	],
 	"suggests": [
 		"libslirp-helper",
 		"user-mode-linux"
 	],
-	"installedSize": 4124,
+	"installedSize": 4127,
 	"maintainer": "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>",
 	"description": "Create and spawn virtual machines (program)",
 	"homepage": "https://github.com/go-debos/fakemachine",
-	"builtUsing": "golang-1.24 (= 1.24.4-1), golang-github-alessio-shellescape (= 1.4.2-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-docker-go-units (= 0.4.0-4), golang-github-klauspost-compress (= 1.18.0+ds1-1), golang-github-surma-gocpio (= 1.1.0+git20160926.fcb6877-1.1), golang-github-ulikunitz-xz (= 0.5.6-2), golang-go-flags (= 1.4.0-6), golang-golang-x-sys (= 0.22.0-1)",
-	"filename": "pool/main/g/golang-github-go-debos-fakemachine/fakemachine_0.0.11-1+b2_amd64.deb",
-	"size": 1380600,
-	"md5": "2f3487405b5062df7716e972a46f722b",
-	"sha256": "280827af545589f40dd2ebf180f8831bd4634727ad2dd3d5dde8f6186b19e35d",
+	"filename": "pool/main/g/golang-github-go-debos-fakemachine/fakemachine_0.0.11-2_amd64.deb",
+	"size": 1382136,
+	"md5": "991caea7f92a3748ed4c956d6e38f343",
+	"sha256": "bae16e5f794916cf83a1994cf090ff7ebe6eed65733c63d82b57a3b154731de0",
 	"descriptionMd5": "5b3f42d849c07e567de6082397426262"
 }]
