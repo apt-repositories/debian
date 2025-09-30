@@ -6,7 +6,7 @@
 	],
 	"package": "python3-anyio",
 	"source": "python-anyio",
-	"version": "4.11.0-1",
+	"version": "4.11.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,13 +17,16 @@
 		"python3-typing-extensions | python3-supported-min (>= 3.13)",
 		"python3:any"
 	],
+	"breaks": [
+		"python3-trio (<< 0.31.0)"
+	],
 	"installedSize": 466,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
-	"description": "Asynchronous compatibility layer (Python 3)",
+	"description": "Asynchronous compatibility layer",
 	"homepage": "https://github.com/agronholm/anyio",
-	"filename": "pool/main/p/python-anyio/python3-anyio_4.11.0-1_all.deb",
-	"size": 72704,
-	"md5": "fc9e09d02b2013bac555f0f18c693522",
-	"sha256": "d81c41c13480f53b78a1d56ca718b2cc30c4198985c3a9c276c0fa5ff3dc64bd",
-	"descriptionMd5": "800409278ac1e2b711841a3112620537"
+	"filename": "pool/main/p/python-anyio/python3-anyio_4.11.0-2_all.deb",
+	"size": 72784,
+	"md5": "71641de485d06d4eb2e83260beb6ac0d",
+	"sha256": "113efd576da645fcd530729752a3da9d3a94e845adce96c81f9ab1ecb44be195",
+	"descriptionMd5": "6e28a85cc775375a7a6047094b0faf77"
 }

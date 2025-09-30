@@ -5,23 +5,23 @@
 		"Size"
 	],
 	"package": "librust-binary-heap-plus-dev",
-	"source": "rust-binary-heap-plus (0.4.1-1)",
-	"version": "0.4.1-1+b2",
+	"source": "rust-binary-heap-plus",
+	"version": "0.5.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-compare-0.1+default-dev"
+		"librust-compare-0.1+default-dev",
+		"librust-serde-1+default-dev (>= 1.0.116-~~)",
+		"librust-serde-1+derive-dev (>= 1.0.116-~~)"
 	],
-	"suggests": [
-		"librust-binary-heap-plus+serde-dev (= 0.4.1-1+b2)"
-	],
-	"installedSize": 100,
+	"installedSize": 114,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Enhanced version of std::collections::BinaryHeap - Rust source code",
-	"filename": "pool/main/r/rust-binary-heap-plus/librust-binary-heap-plus-dev_0.4.1-1+b2_amd64.deb",
-	"size": 19296,
-	"md5": "b1051fb8d8936565577603fc4068bc80",
-	"sha256": "61b0a8e5718d4f0a8c5b8187c307691e5a12a6057797f23165df94a2501622ad",
-	"descriptionMd5": "3f763523ef59b39628b86583d61b89c6"
+	"homepage": "https://github.com/sekineh/binary-heap-plus-rs",
+	"filename": "pool/main/r/rust-binary-heap-plus/librust-binary-heap-plus-dev_0.5.0-1_amd64.deb",
+	"size": 22656,
+	"md5": "cd22a91da20ddad606618bb34ce99a46",
+	"sha256": "032af323ad740652aea6c88d3bbd9817370314b6ec31ca488347f0009da39594",
+	"descriptionMd5": "c198b74e4a74efbfa82426d39b829c5d"
 }

@@ -5,26 +5,28 @@
 		"Size"
 	],
 	"package": "duperemove",
-	"source": "duperemove (0.11.2-3)",
-	"version": "0.11.2-3+b1",
+	"version": "0.15.2-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.38)",
 		"libglib2.0-0t64 (>= 2.32.0)",
-		"libsqlite3-0 (>= 3.7.15)"
+		"libmount1 (>= 2.24.2)",
+		"libsqlite3-0 (>= 3.7.15)",
+		"libuuid1 (>= 2.16)"
 	],
 	"enhances": [
 		"btrfs-progs"
 	],
-	"installedSize": 278,
-	"maintainer": "Peter Záhradník <peter.zahradnik@znik.sk>",
+	"installedSize": 382,
+	"maintainer": "Duperemove Maintainers <duperemove@packages.debian.org>",
 	"description": "extent-based deduplicator for file systems",
 	"homepage": "https://markfasheh.github.io/duperemove/",
-	"filename": "pool/main/d/duperemove/duperemove_0.11.2-3+b1_amd64.deb",
-	"size": 74736,
-	"md5": "8f8243f835a76a55ce3f777ec361578e",
-	"sha256": "627b4db3690c4e524a3bfaf3d4359ab3fb4c9d74e69ad8d9d3ad38549992d80e",
+	"filename": "pool/main/d/duperemove/duperemove_0.15.2-1_amd64.deb",
+	"size": 81612,
+	"md5": "03f3916062a779591810ee5db6a468cb",
+	"sha256": "fc1d1f0a11883edf2ff9e9bb6c36a7e899bce72384d3c718adb5f8dbcefe93e3",
 	"descriptionMd5": "72bba30b3018bc5f707cad43ab080a24"
 }

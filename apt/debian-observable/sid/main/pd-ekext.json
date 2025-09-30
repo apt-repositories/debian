@@ -5,25 +5,25 @@
 		"Size"
 	],
 	"package": "pd-ekext",
-	"version": "0.1.1-6",
+	"version": "0.3.1-1",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"puredata | pd | puredata64 | pd64",
+		"libc6 (>= 2.38)"
+	],
+	"suggests": [
 		"pd-libdir",
-		"puredata-core | pd",
-		"libc6 (>= 2.14)"
+		"pd64-libdir"
 	],
-	"recommends": [
-		"pd-import"
-	],
-	"installedSize": 1397,
+	"installedSize": 6502,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Pd objects for music information retrieval and polyphony control",
 	"homepage": "https://puredata.info",
-	"filename": "pool/main/p/pd-ekext/pd-ekext_0.1.1-6_amd64.deb",
-	"size": 489824,
-	"md5": "2e026a7966cdc19631d3725957c61d76",
-	"sha256": "7b201016ffe30576bb5ce653f62d8dfc4a2c1d669d70759950843d7b7f607fa1",
+	"filename": "pool/main/p/pd-ekext/pd-ekext_0.3.1-1_amd64.deb",
+	"size": 849580,
+	"md5": "f087760840fc34c44255e7838055ff75",
+	"sha256": "50c972fcd7df59e49b8109853e76a276083c5f3ff3a6cbf08acb67bd160ec4bd",
 	"descriptionMd5": "8267f8b5e2b51f3e606718295a2ad61b"
 }]
