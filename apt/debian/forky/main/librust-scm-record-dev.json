@@ -5,14 +5,15 @@
 		"Size"
 	],
 	"package": "librust-scm-record-dev",
-	"source": "rust-scm-record (0.5.0-1)",
-	"version": "0.5.0-1+b1",
+	"source": "rust-scm-record",
+	"version": "0.5.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cassowary-0.3+default-dev",
-		"librust-crossterm-0.27+default-dev",
+		"librust-crossterm+default-dev (<< 0.30-~~)",
+		"librust-crossterm+default-dev (>= 0.27-~~)",
 		"librust-num-traits-0.2+default-dev",
 		"librust-ratatui-0.28+default-dev",
 		"librust-serde-1+default-dev",
@@ -22,13 +23,13 @@
 		"librust-tracing-0.1+default-dev",
 		"librust-unicode-width-0.2+default-dev"
 	],
-	"installedSize": 418,
+	"installedSize": 417,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "UI component to interactively select changes to include in a commit - Rust source code",
 	"homepage": "https://github.com/arxanas/scm-record",
-	"filename": "pool/main/r/rust-scm-record/librust-scm-record-dev_0.5.0-1+b1_amd64.deb",
-	"size": 44808,
-	"md5": "8841c175dbdfa234bcdbd631c3e0bae9",
-	"sha256": "32561ea1dea32ba2d439104cf725778ede2ae527421c86c94109831ce09d76d5",
+	"filename": "pool/main/r/rust-scm-record/librust-scm-record-dev_0.5.0-3_amd64.deb",
+	"size": 44668,
+	"md5": "6849c036594f1b6adca4a560b15c7eb5",
+	"sha256": "fc6d2d30ed952663d758b17da7846c6107336603dab9e98784666fc5891628f1",
 	"descriptionMd5": "3c64ea6cbddffac6b04b410c986dda36"
 }

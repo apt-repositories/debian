@@ -5,28 +5,32 @@
 		"Size"
 	],
 	"package": "fractgen",
-	"source": "fractgen (2.1.13-1)",
-	"version": "2.1.13-1+b1",
+	"version": "3.0.5-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"fractgen-common (>= 3.0.5-1)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 4.0)",
-		"libqt5core5t64 (>= 5.15.1)",
-		"libqt5gui5t64 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0)",
-		"libqt5printsupport5t64 (>= 5.0.2)",
-		"libqt5widgets5t64 (>= 5.0.2)",
-		"libqt5xml5t64 (>= 5.0.2)",
-		"libstdc++6 (>= 5)"
+		"libqt6core6t64 (>= 6.9.1)",
+		"libqt6gui6 (>= 6.1.2)",
+		"libqt6printsupport6 (>= 6.1.2)",
+		"libqt6widgets6 (>= 6.3.0)",
+		"libqt6xml6 (>= 6.6.0)",
+		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 411,
+	"suggests": [
+		"fractgen-examples (>= 3.0.5-1)",
+		"rsplib-tools"
+	],
+	"installedSize": 197,
 	"maintainer": "Debian Math Team <team+math@tracker.debian.org>",
-	"description": "Extensible Fractal Generator",
-	"homepage": "https://www.nntb.no/~dreibh/fractalgenerator",
-	"filename": "pool/main/f/fractgen/fractgen_2.1.13-1+b1_amd64.deb",
-	"size": 250140,
-	"md5": "d84a538aa741d237fa5c58d88b863c02",
-	"sha256": "24a8fba9ce931093167f660ebbb399d25e5d579427e107bdecf31fe5eed13671",
-	"descriptionMd5": "c8b63da71a2378af784b07a8d823c666"
+	"description": "fractal images calculation application (Qt version)",
+	"homepage": "https://www.nntb.no/~dreibh/fractalgenerator/",
+	"filename": "pool/main/f/fractgen/fractgen_3.0.5-1_amd64.deb",
+	"size": 73336,
+	"md5": "c43f4bdea9fd4bce46d34581dbd78120",
+	"sha256": "ef1f8e402e1ddc38693204463b4333444387155c34d21cbaa93ab3a1fd54029a",
+	"descriptionMd5": "00258a6c3b0775e0afa5ad5c3d89e859"
 }]
