@@ -5,20 +5,21 @@
 		"Size"
 	],
 	"package": "qml6-module-qt3d-input",
-	"source": "qt6-3d (6.8.2+dfsg-2)",
-	"version": "6.8.2+dfsg-2+b1",
+	"source": "qt6-3d",
+	"version": "6.9.2+dfsg-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"qml6-module-qt3d-core",
 		"qml6-module-qtqml",
 		"libc6 (>= 2.14)",
 		"libqt63dcore6 (>= 6.6.1)",
 		"libqt63dinput6 (>= 6.6.1)",
-		"libqt6core6t64 (>= 6.8.2+dfsg~)",
-		"libqt6qml6 (>= 6.8.2+dfsg~)",
+		"libqt6core6t64 (>= 6.9.2+dfsg~)",
+		"libqt6qml6 (>= 6.9.2+dfsg~)",
 		"libstdc++6 (>= 5)",
-		"qt6-declarative-private-abi (= 6.8.2)"
+		"qt6-declarative-private-abi (= 6.9.2)"
 	],
 	"replaces": [
 		"libqt63dquickinput6"
@@ -26,13 +27,13 @@
 	"breaks": [
 		"libqt63dquickinput6"
 	],
-	"installedSize": 278,
+	"installedSize": 285,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Qt 6 3D Input QML module",
 	"homepage": "https://www.qt.io/developers/",
-	"filename": "pool/main/q/qt6-3d/qml6-module-qt3d-input_6.8.2+dfsg-2+b1_amd64.deb",
-	"size": 45848,
-	"md5": "20d9ecc09871dc1f1c6a3d27dfcee856",
-	"sha256": "49aa68f8ee73ea09921252781a2e6773d3aa84ec703ec24c88499e342a1b1ff8",
+	"filename": "pool/main/q/qt6-3d/qml6-module-qt3d-input_6.9.2+dfsg-2_amd64.deb",
+	"size": 47344,
+	"md5": "0496b78c7ffd1049dc3219c367ba10fc",
+	"sha256": "c11037fd4c83c294a1996f1f4f7738822fd2a6c33b4cb6b8c2325a7ebdde715c",
 	"descriptionMd5": "b0f55ca9de1035df89be7bae7b0568bf"
 }

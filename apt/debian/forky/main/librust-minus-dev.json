@@ -5,14 +5,15 @@
 		"Size"
 	],
 	"package": "librust-minus-dev",
-	"source": "rust-minus (5.6.1-1)",
-	"version": "5.6.1-1+b2",
+	"source": "rust-minus",
+	"version": "5.6.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-crossbeam-channel-0.5+default-dev",
-		"librust-crossterm-0.27+default-dev",
+		"librust-crossterm+default-dev (<< 0.30-~~)",
+		"librust-crossterm+default-dev (>= 0.27-~~)",
 		"librust-once-cell-1+default-dev (>= 1.18-~~)",
 		"librust-once-cell-1+parking-lot-dev (>= 1.18-~~)",
 		"librust-parking-lot-0.12+default-dev (>= 0.12.1-~~)",
@@ -23,9 +24,10 @@
 	"installedSize": 1012,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Asynchronous data feedable terminal paging library for Rust - Rust source code",
-	"filename": "pool/main/r/rust-minus/librust-minus-dev_5.6.1-1+b2_amd64.deb",
-	"size": 683088,
-	"md5": "074133753b7334cb1bb1f9d4edb7153b",
-	"sha256": "cd81333d95f541218580bd6b4de4c050c7b246014a65c0ee019b578a09a613dd",
+	"homepage": "https://github.com/arijit79/minus",
+	"filename": "pool/main/r/rust-minus/librust-minus-dev_5.6.1-3_amd64.deb",
+	"size": 683112,
+	"md5": "7f3b27d36701aff18be7214dcd9968ab",
+	"sha256": "1dfca6e18637d8668fcdc28ab26d7ba1fb9a3252ec10eedf3a872feb7dfb6633",
 	"descriptionMd5": "6d4453f57a59b9555609adba5357a82b"
 }

@@ -5,22 +5,24 @@
 		"Size"
 	],
 	"package": "librust-blight-dev",
-	"source": "rust-blight (0.7.1-2)",
-	"version": "0.7.1-2+b3",
+	"source": "rust-blight",
+	"version": "0.7.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-colored-2+default-dev",
+		"librust-colored+default-dev (<< 4-~~)",
+		"librust-colored+default-dev (>= 2.0.3-~~)",
 		"librust-fs4-0.11+default-dev",
 		"librust-fs4-0.11+sync-dev"
 	],
-	"installedSize": 79,
+	"installedSize": 78,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Hassle-free CLI backlight utility/library for Linux - Rust source code",
-	"filename": "pool/main/r/rust-blight/librust-blight-dev_0.7.1-2+b3_amd64.deb",
-	"size": 17664,
-	"md5": "c707a76f5a78410a8caa671f449d1cf4",
-	"sha256": "4d57e84f1431ab99c72e06dbe9a01c8fbbbc562207fa521c8f55024c85df6b97",
+	"homepage": "https://github.com/VoltaireNoir/blight",
+	"filename": "pool/main/r/rust-blight/librust-blight-dev_0.7.1-3_amd64.deb",
+	"size": 17460,
+	"md5": "baa60771a80e9d747ef902eb6b02bf7f",
+	"sha256": "5205b49ffea3d43ce8c05ab41608d60b9bcea5e132563ecdad18fc268b151840",
 	"descriptionMd5": "3433d48dc4ad2df37f52234796b59b49"
 }]
