@@ -6,20 +6,23 @@
 	],
 	"package": "golang-github-skeema-knownhosts-dev",
 	"source": "golang-github-skeema-knownhosts",
-	"version": "1.3.0-1",
+	"version": "1.3.1-1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"golang-golang-x-crypto-dev"
+		"golang-golang-x-crypto-dev (>> 1:0.37.0~)"
 	],
-	"installedSize": 65,
+	"breaks": [
+		"golang-golang-x-crypto-dev (<< 1:0.37.0~)"
+	],
+	"installedSize": 60,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Go SSH known_hosts wrapper with host key lookup (library)",
 	"homepage": "https://github.com/skeema/knownhosts",
-	"filename": "pool/main/g/golang-github-skeema-knownhosts/golang-github-skeema-knownhosts-dev_1.3.0-1_all.deb",
-	"size": 15356,
-	"md5": "d9a879451936d2936a3f7635f6d5f973",
-	"sha256": "9bc5444cfaeaa2bc44db7efdee25cc1e77011ec52ade174bd6bb855e85a9ca60",
+	"filename": "pool/main/g/golang-github-skeema-knownhosts/golang-github-skeema-knownhosts-dev_1.3.1-1_all.deb",
+	"size": 13248,
+	"md5": "1661a6c1c1994ee4a564493dcb42944c",
+	"sha256": "64ccca26f670643d20f0efaec46ae0d87c8c04ca7c94493f686da5b521c040d1",
 	"descriptionMd5": "becdbf2a270371af853ce4810c70c99a"
 }

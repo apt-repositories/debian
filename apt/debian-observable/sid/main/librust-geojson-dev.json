@@ -5,26 +5,27 @@
 		"Size"
 	],
 	"package": "librust-geojson-dev",
-	"source": "rust-geojson (0.24.1-1)",
-	"version": "0.24.1-1+b3",
+	"source": "rust-geojson",
+	"version": "0.24.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-geo-types-0.7+default-dev",
-		"librust-geo-types-0.7+serde-dev",
+		"librust-geo-types-0.7+default-dev (>= 0.7.11-~~)",
+		"librust-geo-types-0.7+serde-dev (>= 0.7.11-~~)",
 		"librust-log-0.4+default-dev (>= 0.4.17-~~)",
-		"librust-serde-1.0+default-dev",
-		"librust-serde-1.0+derive-dev",
-		"librust-serde-json-1.0+default-dev",
-		"librust-thiserror-1+default-dev (>= 1.0.20-~~)"
+		"librust-serde-1+default-dev (<< 1.1-~~)",
+		"librust-serde-1+derive-dev (<< 1.1-~~)",
+		"librust-serde-json-1+default-dev (<< 1.1-~~)",
+		"librust-thiserror-2+default-dev (>= 2.0.6-~~)"
 	],
-	"installedSize": 1214,
+	"installedSize": 1237,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Read and write GeoJSON vector geographic data - Rust source code",
-	"filename": "pool/main/r/rust-geojson/librust-geojson-dev_0.24.1-1+b3_amd64.deb",
-	"size": 122384,
-	"md5": "eded05c520fa153df12d6e2766da6b06",
-	"sha256": "4925c704103f2a78bbb47dbcc14964f0d46e715179f05096fe62f563ff9d8adb",
-	"descriptionMd5": "140f300337dc62df3a827a751ac2b17a"
+	"homepage": "https://github.com/georust/geojson",
+	"filename": "pool/main/r/rust-geojson/librust-geojson-dev_0.24.2-1_amd64.deb",
+	"size": 125608,
+	"md5": "0a4fedb3182152567dcf4222ad8c0c28",
+	"sha256": "ed0e6c37b7edaa6d0ead7829f032d1c0d4970127a34ada364e8b091bb1b5e4b6",
+	"descriptionMd5": "58332ca8e8b1e2e56f0ca87d6e2b232e"
 }]

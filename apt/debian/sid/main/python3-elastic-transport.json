@@ -6,7 +6,7 @@
 	],
 	"package": "python3-elastic-transport",
 	"source": "python-elastic-transport",
-	"version": "9.1.0-2",
+	"version": "9.1.0-3",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -18,13 +18,16 @@
 	"suggests": [
 		"python-elastic-transport-doc"
 	],
+	"breaks": [
+		"python3-elasticsearch (<< 9.1.0-1~)"
+	],
 	"installedSize": 204,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Transport utilities shared by the Elastic client libraries",
 	"homepage": "https://github.com/elastic/elastic-transport-python",
-	"filename": "pool/main/p/python-elastic-transport/python3-elastic-transport_9.1.0-2_all.deb",
-	"size": 37316,
-	"md5": "e4594994a6921a0e77752af9153692c4",
-	"sha256": "6d15021f2471d7d1b099d9dabe52c9bddadcd8a1c3b61249de1155f6fe6795a3",
+	"filename": "pool/main/p/python-elastic-transport/python3-elastic-transport_9.1.0-3_all.deb",
+	"size": 37412,
+	"md5": "4a0de6bce143d77df5993924a887fe9e",
+	"sha256": "0adb56315b02bf58c2918a513434147e771e1a9fa69b936a56f0b6e35eb7c1e5",
 	"descriptionMd5": "19a07d462cb15bd4256cb00aa6c39018"
 }
