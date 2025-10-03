@@ -6,7 +6,7 @@
 	],
 	"package": "manpages-fr",
 	"source": "manpages-l10n",
-	"version": "4.27.0-1",
+	"version": "4.28.0-2",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,16 +14,19 @@
 		"man-browser",
 		"manpages"
 	],
-	"breaks": [
-		"util-linux-locales (<< 2.39.1-3)"
+	"replaces": [
+		"net-tools (<< 2.10-2~)"
 	],
-	"installedSize": 3894,
+	"breaks": [
+		"net-tools (<< 2.10-2~)"
+	],
+	"installedSize": 4061,
 	"maintainer": "Dr. Helge Kreutzmann <debian@helgefjell.de>",
 	"description": "French man pages",
 	"homepage": "https://manpages-l10n-team.pages.debian.net/manpages-l10n/",
-	"filename": "pool/main/m/manpages-l10n/manpages-fr_4.27.0-1_all.deb",
-	"size": 2948132,
-	"md5": "710224e7ab1ba057ffdea61c952705e1",
-	"sha256": "20a563c41d9483796260870634bb2a07b271026b99b888db87ea0ae0a99a63e5",
+	"filename": "pool/main/m/manpages-l10n/manpages-fr_4.28.0-2_all.deb",
+	"size": 3086644,
+	"md5": "a7a5ea337c2ffa957d50b86b27521e51",
+	"sha256": "f883fbc2d4bdacfd6d7f8f86b13aa88b6325bd3f7ee29b12d49580cca40f851a",
 	"descriptionMd5": "82d85d0484f0adafab9bf0c8d516e733"
 }
