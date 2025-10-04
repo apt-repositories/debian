@@ -6,23 +6,29 @@
 	],
 	"package": "valac-bin",
 	"source": "vala",
-	"version": "0.56.18-2",
+	"version": "0.56.18-5",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"libglib2.0-0t64 (>= 2.48)",
-		"libvala-0.56-0 (= 0.56.18-2)",
-		"libvalacodegen-0.56-0 (= 0.56.18-2)"
+		"libc6 (>= 2.38)",
+		"libglib2.0-0t64 (>= 2.76.0)",
+		"libvala-0.56-0 (= 0.56.18-5)",
+		"libvalacodegen-0.56-0 (= 0.56.18-5)"
 	],
-	"installedSize": 403,
+	"replaces": [
+		"valac (<< 0.56.18-5)"
+	],
+	"breaks": [
+		"valac (<< 0.56.18-5)"
+	],
+	"installedSize": 606,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "internal package for C# like language for the GObject system",
 	"homepage": "https://wiki.gnome.org/Projects/Vala/",
-	"filename": "pool/main/v/vala/valac-bin_0.56.18-2_amd64.deb",
-	"size": 337304,
-	"md5": "bd9e0750c04b537353daaf9bf5738b39",
-	"sha256": "5fa26c40c0e053b91fa38a07c2a07b6f2df821d970608d2972ebc383600bc8b1",
+	"filename": "pool/main/v/vala/valac-bin_0.56.18-5_amd64.deb",
+	"size": 407340,
+	"md5": "2d12fb65cfa3233398d2157297480f9b",
+	"sha256": "047de6ff73f42973f2355a03334951a46e08474781ba116967675c5f8547e514",
 	"descriptionMd5": "1f3b65eadc24355b9310b1ca8be2a2e4"
 }]
