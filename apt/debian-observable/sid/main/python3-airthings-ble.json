@@ -6,14 +6,13 @@
 	],
 	"package": "python3-airthings-ble",
 	"source": "airthings-ble",
-	"version": "1.1.0-1",
+	"version": "1.1.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-async-interrupt",
-		"python3-async-timeout",
-		"python3-bleak",
+		"python3-bleak | python3-supported-min (>= 3.14)",
 		"python3-bleak-retry-connector",
 		"python3-cbor2",
 		"python3:any"
@@ -22,9 +21,9 @@
 	"maintainer": "Home Assistant Team <team+homeassistant@tracker.debian.org>",
 	"description": "Control Airthings devices via BLE for Python environments",
 	"homepage": "https://github.com/Airthings/airthings-ble",
-	"filename": "pool/main/a/airthings-ble/python3-airthings-ble_1.1.0-1_all.deb",
-	"size": 14044,
-	"md5": "522b3b27b2cf0bd3644475ee85dec1e2",
-	"sha256": "d920c8cfc8f483f9fac0eaa241d9fb4b868757a331c3e467bcd8c70aad55dce6",
+	"filename": "pool/main/a/airthings-ble/python3-airthings-ble_1.1.1-1_all.deb",
+	"size": 14076,
+	"md5": "b35ac93563d8fa1835d61696804838cc",
+	"sha256": "9fd8ceeb3e563155a35452098b531d093d991a61e01912010ab1144846b127cf",
 	"descriptionMd5": "6b708a649c164e2a557bb502e9250c87"
 }]

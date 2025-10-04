@@ -6,27 +6,31 @@
 	],
 	"package": "python3-es-client",
 	"source": "python-es-client",
-	"version": "8.17.4-2",
+	"version": "9.0.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-certifi",
 		"python3-click",
+		"python3-cryptography (>= 44.0.2)",
 		"python3-dotmap",
 		"python3-ecs-logging",
-		"python3-elasticsearch",
+		"python3-tiered-debug",
 		"python3-voluptuous",
 		"python3-yaml",
 		"python3:any"
 	],
-	"installedSize": 131,
+	"breaks": [
+		"python3-elasticsearch (<< 9.0.0-1~)"
+	],
+	"installedSize": 181,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Elasticsearch Client builder, complete with schema validation",
 	"homepage": "https://github.com/untergeek/es_client",
-	"filename": "pool/main/p/python-es-client/python3-es-client_8.17.4-2_all.deb",
-	"size": 36224,
-	"md5": "2930b37ba7b60328619ba317ab85b5fa",
-	"sha256": "d3babf87ed8c479c76504a1062cfce02b698314b25e25a0042dd8c1316309970",
+	"filename": "pool/main/p/python-es-client/python3-es-client_9.0.0-1_all.deb",
+	"size": 45776,
+	"md5": "192a653212fbdb116a15ac7cf18e07af",
+	"sha256": "53400d7917fca002349d057688a5930c0bf2909b03c9f49ab7621ffde1e11f6c",
 	"descriptionMd5": "c8b2c1e4b15143d9bb01faef9121ce23"
 }]
