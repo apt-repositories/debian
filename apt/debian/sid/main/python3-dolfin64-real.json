@@ -6,13 +6,13 @@
 	],
 	"package": "python3-dolfin64-real",
 	"source": "dolfin",
-	"version": "2019.2.0~legacy20240219.1c52e83-21",
+	"version": "2019.2.0~legacy20240219.1c52e83-22",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdolfin64-dev (= 2019.2.0~legacy20240219.1c52e83-21)",
-		"libdolfin64-2019.2t64 (= 2019.2.0~legacy20240219.1c52e83-21)",
+		"libdolfin64-dev (= 2019.2.0~legacy20240219.1c52e83-22)",
+		"libdolfin64-2019.2t64 (= 2019.2.0~legacy20240219.1c52e83-22)",
 		"python3-petsc4py-64-real (>= 3.22)",
 		"python3-petsc4py-64-real (<< 3.23)",
 		"python3-slepc4py-64-real (>= 3.22)",
@@ -34,15 +34,18 @@
 		"libstdc++6 (>= 14)"
 	],
 	"recommends": [
-		"python3-dolfin (= 2019.2.0~legacy20240219.1c52e83-21)"
+		"python3-dolfin (= 2019.2.0~legacy20240219.1c52e83-22)"
 	],
-	"installedSize": 4124,
+	"breaks": [
+		"python3-mshr64-real (<< 2019.2.0~git20230811.ff54a68+dfsg1-5)"
+	],
+	"installedSize": 4501,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Python interface for DOLFIN (with 64-bit PETSc integers)",
 	"homepage": "https://fenicsproject.org",
-	"filename": "pool/main/d/dolfin/python3-dolfin64-real_2019.2.0~legacy20240219.1c52e83-21_amd64.deb",
-	"size": 910560,
-	"md5": "d9794f6e05c60542ec6ed69be6823a87",
-	"sha256": "c9d22a61bac96d9ac4375513e35974dd829522837a32fbba671fedbf4eca8652",
+	"filename": "pool/main/d/dolfin/python3-dolfin64-real_2019.2.0~legacy20240219.1c52e83-22_amd64.deb",
+	"size": 994412,
+	"md5": "4a6f1362ddffc899bf5fb2e4941e4735",
+	"sha256": "77a4f7d0a19c4a79e5359d751b89da3fe9a31a3a8a29065ac5589c1f2633411d",
 	"descriptionMd5": "f0e44a41b798fdc367452f32a781ae4c"
 }
