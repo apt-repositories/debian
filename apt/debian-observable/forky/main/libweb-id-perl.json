@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "libweb-id-perl",
-	"version": "1.927-3",
+	"version": "1.927-4",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"perl:any",
 		"libcrypt-x509-perl",
 		"libdatetime-perl",
 		"libexporter-tiny-perl",
@@ -22,27 +23,26 @@
 		"libplack-perl",
 		"librdf-query-perl",
 		"librdf-trine-perl",
+		"libtype-tiny-perl",
 		"libtypes-datetime-perl",
 		"libtypes-uri-perl",
-		"libtype-tiny-perl",
-		"liburi-perl",
-		"perl:any"
+		"liburi-perl"
 	],
 	"recommends": [
 		"openssl"
 	],
 	"suggests": [
-		"libwww-finger-perl",
 		"libplack-middleware-apache2-modssl-perl",
-		"libplack-middleware-gepokx-modssl-perl"
+		"libplack-middleware-gepokx-modssl-perl",
+		"libwww-finger-perl"
 	],
-	"installedSize": 123,
+	"installedSize": 120,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "implementation of WebID (a.k.a. FOAF+SSL)",
 	"homepage": "https://metacpan.org/release/Web-ID",
-	"filename": "pool/main/libw/libweb-id-perl/libweb-id-perl_1.927-3_all.deb",
-	"size": 52620,
-	"md5": "a4ea917784227b68e5b52d9541d3a14a",
-	"sha256": "65ac0b1267c4286d2d032680c79db0ec120cd43aa8bc3ff2b93253a624a26145",
+	"filename": "pool/main/libw/libweb-id-perl/libweb-id-perl_1.927-4_all.deb",
+	"size": 47972,
+	"md5": "26fe54d93b73126fa89a884d2974fb31",
+	"sha256": "418d64a1994f63f3e6d801ce52e9abe3fe3e3dd2772abd26377cecea14731757",
 	"descriptionMd5": "86212808618078766cf46733a3a252d5"
 }]

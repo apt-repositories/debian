@@ -6,15 +6,16 @@
 	],
 	"package": "knot-dnssecutils",
 	"source": "knot",
-	"version": "3.4.6-2",
+	"version": "3.5.0-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdnssec9t64 (= 3.4.6-2)",
-		"libknot15 (= 3.4.6-2)",
-		"libzscanner4t64 (= 3.4.6-2)",
+		"libdnssec10 (= 3.5.0-2)",
+		"libknot16 (= 3.5.0-2)",
+		"libzscanner5 (= 3.5.0-2)",
 		"libc6 (>= 2.38)",
+		"libhiredis1.1.0 (>= 1.2.0)",
 		"liblmdb0 (>= 0.9.7)",
 		"libsystemd0 (>= 234)",
 		"liburcu8t64 (>= 0.13.0)"
@@ -27,13 +28,13 @@
 		"knot (<< 3.2.0-1)",
 		"knot-dnsutils (<< 3.2.0-1)"
 	],
-	"installedSize": 1490,
+	"installedSize": 1572,
 	"maintainer": "knot packagers <knot@packages.debian.org>",
-	"description": "DNSSEC tools provided with Knot DNS (kzonecheck, kzonesign, knsec3hash)",
+	"description": "DNSSEC tools",
 	"homepage": "https://www.knot-dns.cz/",
-	"filename": "pool/main/k/knot/knot-dnssecutils_3.4.6-2_amd64.deb",
-	"size": 376376,
-	"md5": "476b5d102388c42580a78e2072582f5f",
-	"sha256": "e47fbdb075680f439b2b85e62627e0b16f15941d19afd756bc2ddcfaaa5ef36d",
-	"descriptionMd5": "438b6998f4318263fbd1d4036a45b384"
+	"filename": "pool/main/k/knot/knot-dnssecutils_3.5.0-2_amd64.deb",
+	"size": 398580,
+	"md5": "b1ebb61f016a3dcb952aab90aa4790c7",
+	"sha256": "d1b37b205c692b1c4fffb868b20f93d281c04518d48f96e17c6a37e448281ac5",
+	"descriptionMd5": "c163c1c3c3e7da564535ab630a2315fa"
 }
