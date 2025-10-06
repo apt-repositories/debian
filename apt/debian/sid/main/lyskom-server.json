@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "lyskom-server",
-	"version": "2.1.2-16.1",
+	"version": "2.1.2-18",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,20 +16,22 @@
 		"liboop4t64 (>= 1.0.1~)",
 		"debconf (>= 0.5) | debconf-2.0",
 		"adduser",
-		"rsyslog | system-log-daemon",
-		"cron | cron-daemon",
-		"lsb-base (>= 3.0-6)"
+		"cron | cron-daemon"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
 	],
 	"suggests": [
-		"lyskom-elisp-client | lyskom-tty-client"
+		"lyskom-elisp-client | lyskom-tty-client",
+		"system-log-daemon"
 	],
-	"installedSize": 1113,
+	"installedSize": 1123,
 	"maintainer": "Magnus Holmgren <holmgren@debian.org>",
 	"description": "Server for the LysKOM conference system",
 	"homepage": "http://www.lysator.liu.se/lyskom/lyskom-server/",
-	"filename": "pool/main/l/lyskom-server/lyskom-server_2.1.2-16.1_amd64.deb",
-	"size": 542236,
-	"md5": "7c80b51172a46b0f3eb68e3de5d15cd1",
-	"sha256": "6bbd5934a695b578d1551170347343cfdd2336f59e3c92ae1f95d3cc835ea32f",
+	"filename": "pool/main/l/lyskom-server/lyskom-server_2.1.2-18_amd64.deb",
+	"size": 543012,
+	"md5": "0f8e35f7d57a81c101416326f149a469",
+	"sha256": "bab359d77f8b299770362ae9a6f3c5597d3f444749781db5341a839c381d8e7d",
 	"descriptionMd5": "3286ed662bbabf8d33fd08462d8c939b"
 }

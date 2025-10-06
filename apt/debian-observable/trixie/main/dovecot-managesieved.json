@@ -31,4 +31,36 @@
 	"md5": "46efda790418f16ea6d1beab4c04bd91",
 	"sha256": "094468b999cb8d07c4b4508de5921c6e5b69685c1a4cc6fa933c88b940ffe216",
 	"descriptionMd5": "9c22507acd609a92f0a6377258e2d338"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-managesieved",
+	"source": "dovecot",
+	"version": "1:2.4.1+dfsg1-6+deb13u1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-core (= 1:2.4.1+dfsg1-6+deb13u1)",
+		"dovecot-sieve (= 1:2.4.1+dfsg1-6+deb13u1)",
+		"ucf",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"dovecot-common (<< 1:2.0.14-2~)"
+	],
+	"breaks": [
+		"dovecot-common (<< 1:2.0.14-2~)"
+	],
+	"installedSize": 183,
+	"maintainer": "Dovecot Maintainers <dovecot@packages.debian.org>",
+	"description": "secure POP3/IMAP server - ManageSieve server",
+	"homepage": "https://dovecot.org/",
+	"filename": "pool/updates/main/d/dovecot/dovecot-managesieved_2.4.1+dfsg1-6+deb13u1_amd64.deb",
+	"size": 47508,
+	"sha256": "32471f0e830ae3cbda73e2f2991375ee451c3409781a89fee2d2785dcafa9b1b",
+	"descriptionMd5": "9c22507acd609a92f0a6377258e2d338"
 }]
