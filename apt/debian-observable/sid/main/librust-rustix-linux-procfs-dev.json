@@ -6,23 +6,24 @@
 	],
 	"package": "librust-rustix-linux-procfs-dev",
 	"source": "rust-rustix-linux-procfs",
-	"version": "0.1.1-2",
+	"version": "0.1.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-once-cell-1+default-dev (>= 1.5.2-~~)",
-		"librust-rustix-1+alloc-dev",
-		"librust-rustix-1+fs-dev",
-		"librust-rustix-1+std-dev"
+		"librust-rustix+alloc-dev (>= 0.38.37-~~)",
+		"librust-rustix+fs-dev (>= 0.38.37-~~)",
+		"librust-rustix+pty-dev (>= 0.38.37-~~)",
+		"librust-rustix+std-dev (>= 0.38.37-~~)"
 	],
-	"installedSize": 76,
+	"installedSize": 80,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Utilities for opening Linux procfs files and directories - Rust source code",
 	"homepage": "https://github.com/sunfishcode/rustix-linux-procfs",
-	"filename": "pool/main/r/rust-rustix-linux-procfs/librust-rustix-linux-procfs-dev_0.1.1-2_amd64.deb",
-	"size": 17136,
-	"md5": "16975767b0583afbe51d189a019559e7",
-	"sha256": "6eb6c794675be221c99950142ea156954a87d40b0aa9f04d97314ea72db86728",
+	"filename": "pool/main/r/rust-rustix-linux-procfs/librust-rustix-linux-procfs-dev_0.1.1-3_amd64.deb",
+	"size": 17432,
+	"md5": "33d0ab97d2f008845c2f9b4a00a8f98a",
+	"sha256": "a9ed507d27d5c0a336172781e383ed57e36fec037c30bdb1a95ddf7948a3e7cd",
 	"descriptionMd5": "48a6908f2ba2d06f01d197ac53dcf8e4"
 }]

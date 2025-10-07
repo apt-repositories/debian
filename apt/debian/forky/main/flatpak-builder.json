@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "flatpak-builder",
-	"version": "1.4.5-1",
+	"version": "1.4.6-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,12 +13,12 @@
 		"appstream (>= 0.15.0)",
 		"appstream-compose (>= 0.15.0)",
 		"debugedit (>= 1:5.0)",
-		"gir1.2-flatpak-1.0 (>= 1.12.4)",
 		"flatpak (>= 1.12.4)",
 		"fuse3",
+		"gir1.2-flatpak-1.0 (>= 1.12.4)",
 		"ostree",
 		"libc6 (>= 2.38)",
-		"libcurl3t64-gnutls (>= 7.16.2)",
+		"libcurl4t64 (>= 7.16.2)",
 		"libelf1t64 (>= 0.131)",
 		"libglib2.0-0t64 (>= 2.80.0)",
 		"libjson-glib-1.0-0 (>= 1.5.2)",
@@ -36,17 +36,18 @@
 		"zstd"
 	],
 	"suggests": [
-		"brz",
 		"7zip",
+		"brz",
+		"git-lfs",
 		"subversion"
 	],
-	"installedSize": 526,
+	"installedSize": 493,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "Flatpak application building helper",
 	"homepage": "https://flatpak.org/",
-	"filename": "pool/main/f/flatpak-builder/flatpak-builder_1.4.5-1_amd64.deb",
-	"size": 181088,
-	"md5": "52b8e7c5e223f8942727f1fa42ebd1d0",
-	"sha256": "9692115151f104698c2ca7b471e0a3ec12f2c83063cea5aef4b25e68abd33331",
+	"filename": "pool/main/f/flatpak-builder/flatpak-builder_1.4.6-2_amd64.deb",
+	"size": 170864,
+	"md5": "5850bd0255af73e6e6b302f2c40939ab",
+	"sha256": "5afbf1733ed76080e0f8ece0cffc5279be82bca058528da1e77fbfb1eb36a825",
 	"descriptionMd5": "89c6b69c9118935a588236acc7ce68f9"
 }

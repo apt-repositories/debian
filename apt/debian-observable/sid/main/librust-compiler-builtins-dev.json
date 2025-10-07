@@ -6,7 +6,7 @@
 	],
 	"package": "librust-compiler-builtins-dev",
 	"source": "rust-compiler-builtins",
-	"version": "0.1.158-2",
+	"version": "0.1.158-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-cc-1+default-dev",
 		"librust-rustc-std-workspace-core-1+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.88)"
+	],
 	"installedSize": 1165,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Compiler intrinsics used by the Rust compiler - Rust source code",
 	"homepage": "https://github.com/rust-lang/compiler-builtins",
-	"filename": "pool/main/r/rust-compiler-builtins/librust-compiler-builtins-dev_0.1.158-2_amd64.deb",
-	"size": 205064,
-	"md5": "8ecadcfa14b969c4931f5c1bac393eeb",
-	"sha256": "d4e4de80b8878a05de5370d1be42365b1dfd08dee1fb07a7a718d3f2c0683c01",
+	"filename": "pool/main/r/rust-compiler-builtins/librust-compiler-builtins-dev_0.1.158-3_amd64.deb",
+	"size": 205152,
+	"md5": "b8c6717c783f25e10124f5552c46a81d",
+	"sha256": "7e700861f582d476219ed6756299d6453b50cf3317c950c103fbab10e633a3be",
 	"descriptionMd5": "ec0c20a28bc5e4a5095d4d84b36b6c67"
 }]
