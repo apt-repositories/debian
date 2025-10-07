@@ -6,13 +6,21 @@
 	],
 	"package": "libgstreamer-plugins-base1.0-dev",
 	"source": "gst-plugins-base1.0",
-	"version": "1.26.6-1",
+	"version": "1.26.6-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libgstreamer-plugins-base1.0-0 (= 1.26.6-1)",
-		"libgstreamer-gl1.0-0 (= 1.26.6-1)",
+		"gir1.2-gio-2.0-dev",
+		"gir1.2-glib-2.0 (>= 1.78.1-3~)",
+		"gir1.2-glib-2.0-dev",
+		"gir1.2-gmodule-2.0-dev",
+		"gir1.2-gobject-2.0-dev",
+		"gir1.2-gst-1.0-dev",
+		"gir1.2-gst-plugins-base-1.0 (= 1.26.6-3)",
+		"gir1.2-gstbase-1.0-dev",
+		"libgstreamer-plugins-base1.0-0 (= 1.26.6-3)",
+		"libgstreamer-gl1.0-0 (= 1.26.6-3)",
 		"libc6-dev | libc-dev",
 		"pkgconf",
 		"libgstreamer1.0-dev (>= 1.16.2)",
@@ -25,8 +33,7 @@
 		"libwayland-dev (>= 1.11)",
 		"libdrm-dev (>= 2.4.55)",
 		"libgbm-dev",
-		"libgudev-1.0-dev (>= 147)",
-		"gir1.2-gst-plugins-base-1.0 (= 1.26.6-1)"
+		"libgudev-1.0-dev (>= 147)"
 	],
 	"breaks": [
 		"libgstreamer-plugins-bad1.0-dev (<< 1.15.1)"
@@ -34,13 +41,13 @@
 	"conflicts": [
 		"libgstreamer-plugins-bad1.0-dev (<< 1.15.1)"
 	],
-	"installedSize": 6410,
+	"installedSize": 6411,
 	"maintainer": "Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>",
 	"description": "GStreamer development files for libraries from the \"base\" set",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-dev_1.26.6-1_amd64.deb",
-	"size": 543664,
-	"md5": "c5d490356d4baee1a06dacb469abea3d",
-	"sha256": "0fdd5e0c5d828f205c21de552403a8071c01a4b635306ba6bcc803e96a07925c",
+	"filename": "pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-dev_1.26.6-3_amd64.deb",
+	"size": 544112,
+	"md5": "23ccc0ac7ea9825f7f80cf1d39c8b6e3",
+	"sha256": "4bf7188b9df73d2c35f2de33b24f71f839ecffec58c0e3ace1deb0fe632ffc42",
 	"descriptionMd5": "0acc042058e8c9e8d17fbca59836d2a0"
 }

@@ -6,11 +6,12 @@
 	],
 	"package": "libwine",
 	"source": "wine",
-	"version": "10.0~repack-7",
+	"version": "10.0~repack-8",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"wine-common",
 		"libc6 (>= 2.38)",
 		"libfontconfig1 (>= 2.12.6)",
 		"libfreetype6 (>= 2.2.1)",
@@ -61,11 +62,10 @@
 		"libxrandr2",
 		"libxrender1 (>= 1:0.9.12)",
 		"libxxf86vm1",
-		"libgl1-mesa-dri",
-		"libasound2-plugins",
 		"fonts-liberation",
-		"fonts-wine (>= 1.8.2-1~)",
-		"gstreamer1.0-plugins-good"
+		"gstreamer1.0-plugins-good",
+		"libgl1-mesa-dri",
+		"libasound2-plugins"
 	],
 	"suggests": [
 		"cups-bsd",
@@ -84,13 +84,13 @@
 		"wine32 (<< 4.7-2~)",
 		"wine64 (<< 4.7-2~)"
 	],
-	"installedSize": 743127,
+	"installedSize": 603667,
 	"maintainer": "Debian Wine Party <debian-wine@lists.debian.org>",
 	"description": "Windows API implementation - library",
 	"homepage": "https://www.winehq.org",
-	"filename": "pool/main/w/wine/libwine_10.0~repack-7_amd64.deb",
-	"size": 111351320,
-	"md5": "856b6f5460b182afa93429dfe63530d9",
-	"sha256": "978e6123036cc8053cc2d67ecdbe16aceec869301e89949baa9218d576f59aee",
+	"filename": "pool/main/w/wine/libwine_10.0~repack-8_amd64.deb",
+	"size": 100167380,
+	"md5": "72e766f9fdb5f2a10c9555723b2f43f5",
+	"sha256": "8f964eb5e5cc7a111d72513763750a89e8c0a3b083f0b88807aeb4d9f19d08fb",
 	"descriptionMd5": "3db6a8ba0d26a391d504eae7a2076cb6"
 }

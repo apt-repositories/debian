@@ -5,17 +5,18 @@
 		"Size"
 	],
 	"package": "t-prot",
-	"version": "3.4-4.1",
+	"version": "3.4-4.2",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
+		"debconf",
 		"liblocale-gettext-perl",
-		"perl (>= 5.6.0-16)"
+		"perl:any"
 	],
 	"recommends": [
-		"mutt (>= 1.5.5.1)"
+		"mutt"
 	],
 	"suggests": [
 		"mail-transport-agent"
@@ -27,13 +28,13 @@
 		"mutt",
 		"slrn"
 	],
-	"installedSize": 142,
+	"installedSize": 135,
 	"maintainer": "Rhonda D'Vine <rhonda@debian.org>",
 	"description": "display filter for Internet messages",
-	"homepage": "http://www.escape.de/~tolot/mutt/",
-	"filename": "pool/main/t/t-prot/t-prot_3.4-4.1_all.deb",
-	"size": 63108,
-	"md5": "1f0f513c9820e561322e8b3a8b706cb7",
-	"sha256": "b7698ed239344bbd5f9b907319b542ef3a139e17470bb1c9fa6ce60715923de2",
+	"homepage": "https://github.com/kdave/t-prot",
+	"filename": "pool/main/t/t-prot/t-prot_3.4-4.2_all.deb",
+	"size": 55140,
+	"md5": "2ef533bfda4d41e797c3c40e1037d858",
+	"sha256": "6519ba9612a789c5f73ea42cc604cb6268aead66a246126d556bdf9106b55d6b",
 	"descriptionMd5": "b35ddae834b7567ec0ccfa64097f18b1"
 }

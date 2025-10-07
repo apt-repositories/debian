@@ -6,16 +6,16 @@
 	],
 	"package": "libllama0",
 	"source": "llama.cpp",
-	"version": "5882+dfsg-4",
+	"version": "6641+dfsg-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libggml0-backend-cpu (>= 0.0~git20250712)",
-		"libggml0-backend-cpu (<< 0.0~git20250713)",
+		"libggml0-backend-cpu (>= 0.9.4)",
+		"libggml0-backend-cpu (<< 0.9.5)",
 		"libc6 (>= 2.38)",
-		"libgcc-s1 (>= 3.0)",
-		"libggml0 (>= 0.0~git20250712.d62df60)",
+		"libgcc-s1 (>= 3.4)",
+		"libggml0 (>= 0.9.4)",
 		"libstdc++6 (>= 11)"
 	],
 	"replaces": [
@@ -24,13 +24,13 @@
 	"breaks": [
 		"llama.cpp (<< 5882+dfsg-3~exp1)"
 	],
-	"installedSize": 2709,
+	"installedSize": 2736,
 	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
 	"description": "LLM inference in C/C++ - libraries",
 	"homepage": "https://github.com/ggml-org/llama.cpp/",
-	"filename": "pool/main/l/llama.cpp/libllama0_5882+dfsg-4_amd64.deb",
-	"size": 797780,
-	"md5": "a29a5fabc10e0f10276cc139c1445fb8",
-	"sha256": "791ee135401843ed1bdb9e43b8e89d5695d0344ed19dc0396063b07b19a82601",
+	"filename": "pool/main/l/llama.cpp/libllama0_6641+dfsg-1_amd64.deb",
+	"size": 830132,
+	"md5": "6af931ad383334697a6f49f75c8a9e96",
+	"sha256": "d65da6806ddc0a08f13b01336dfb2643311f45033a3b4a968bc7e5516d1cb724",
 	"descriptionMd5": "5de991542cb2b0126a0d383452d4ff1c"
 }]
