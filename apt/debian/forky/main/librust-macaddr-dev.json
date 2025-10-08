@@ -5,21 +5,22 @@
 		"Size"
 	],
 	"package": "librust-macaddr-dev",
-	"source": "rust-macaddr (1.0.1-2)",
-	"version": "1.0.1-2+b2",
+	"source": "rust-macaddr",
+	"version": "1.0.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"suggests": [
-		"librust-macaddr+serde-dev (= 1.0.1-2+b2)",
-		"librust-macaddr+serde-std-dev (= 1.0.1-2+b2)"
+	"depends": [
+		"librust-serde-1+derive-dev",
+		"librust-serde-1+std-dev"
 	],
 	"installedSize": 80,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "MAC address types - Rust source code",
-	"filename": "pool/main/r/rust-macaddr/librust-macaddr-dev_1.0.1-2+b2_amd64.deb",
-	"size": 13524,
-	"md5": "29114d0f77d823a814443c267c7036f3",
-	"sha256": "084edde676d1349bc1a62bde59055ce5c4c3df0802f555c6be4f99542f2dd9e8",
-	"descriptionMd5": "e9b303d5d694b45abf5b86b21f93310b"
+	"homepage": "https://github.com/svartalf/rust-macaddr",
+	"filename": "pool/main/r/rust-macaddr/librust-macaddr-dev_1.0.1-3_amd64.deb",
+	"size": 13492,
+	"md5": "8872d2c461e9ede05c93455e65771b7b",
+	"sha256": "084cd49d2634ce15c0308e56193805a23e84ff09ddb6a23ed66c2f6e6bc8916b",
+	"descriptionMd5": "32e6a7825c221fcf7dbeefeff41f4003"
 }
