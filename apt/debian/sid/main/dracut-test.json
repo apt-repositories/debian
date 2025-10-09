@@ -6,13 +6,25 @@
 	],
 	"package": "dracut-test",
 	"source": "dracut",
-	"version": "108-5",
+	"version": "108-6",
 	"section": "utils",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
+		"bsdextrautils",
+		"cryptsetup",
 		"dracut-core",
-		"mount"
+		"ipxe-qemu",
+		"linux-image-generic",
+		"lvm2",
+		"make",
+		"mdadm",
+		"mount",
+		"ovmf",
+		"qemu-system-native",
+		"systemd",
+		"systemd-cryptsetup",
+		"zstd"
 	],
 	"replaces": [
 		"dracut-core (<< 105)"
@@ -24,9 +36,9 @@
 	"maintainer": "Thomas Lange <lange@debian.org>",
 	"description": "dracut is an event driven initramfs infrastructure (test modules)",
 	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
-	"filename": "pool/main/d/dracut/dracut-test_108-5_all.deb",
-	"size": 12044,
-	"md5": "bdcb1ffc95542699876df12e2c82c8bb",
-	"sha256": "5a991b52a1e290a8daab79f60b409fcc450be45e3c4764c00ac3163e59f82b87",
-	"descriptionMd5": "69ca61ef67ef6af0317fab878ddca38f"
+	"filename": "pool/main/d/dracut/dracut-test_108-6_amd64.deb",
+	"size": 12356,
+	"md5": "3d18f7f6d5870e83bc405d1f993850c7",
+	"sha256": "6070ae2dfcab788fb0251c34486b071fce7c80e8637a0076827af23146d176fe",
+	"descriptionMd5": "5cfeaa4cc4d48ab19b9a3be41354943a"
 }

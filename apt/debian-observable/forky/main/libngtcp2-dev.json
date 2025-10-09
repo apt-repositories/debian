@@ -6,20 +6,26 @@
 	],
 	"package": "libngtcp2-dev",
 	"source": "ngtcp2",
-	"version": "1.15.1-1",
+	"version": "1.16.0-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libngtcp2-16 (= 1.15.1-1)"
+		"libngtcp2-16 (= 1.16.0-1)"
 	],
-	"installedSize": 945,
+	"replaces": [
+		"libngtcp2-crypto-gnutls-dev (<< 1.16.0-1~exp1~)"
+	],
+	"conflicts": [
+		"libngtcp2-crypto-gnutls-dev (<< 1.16.0-1~exp1~)"
+	],
+	"installedSize": 930,
 	"maintainer": "Debian Curl Maintainers <team+curl@tracker.debian.org>",
-	"description": "implementation of QUIC protocol (development)",
+	"description": "development files for QUIC protocol library",
 	"homepage": "https://github.com/ngtcp2/ngtcp2",
-	"filename": "pool/main/n/ngtcp2/libngtcp2-dev_1.15.1-1_amd64.deb",
-	"size": 195616,
-	"md5": "11d80d9e146f2e40d4a0ebbc65e935d4",
-	"sha256": "2636b83f86da1d2d66a50374880a73188704ffbc4812efbeafa56bf86bf633bf",
-	"descriptionMd5": "0bf11bc6aff855fcd041b3a424c4c274"
+	"filename": "pool/main/n/ngtcp2/libngtcp2-dev_1.16.0-1_amd64.deb",
+	"size": 193328,
+	"md5": "2547db8003dbf3578545e672169dd175",
+	"sha256": "ceab7c336bab9d3528b4055c8c70b724acbd15aec8b0604b7bb0451c24fa5536",
+	"descriptionMd5": "65378aad8ecc4b2e9a691e541c64dab2"
 }]

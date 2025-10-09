@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "python3-basix",
-	"source": "fenics-basix (0.9.0-3)",
-	"version": "0.9.0-3+b1",
+	"source": "fenics-basix",
+	"version": "0.9.0-4",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libbasix-dev (= 0.9.0-3+b1)",
+		"libbasix-dev (= 0.9.0-4)",
 		"python3-ufl (>= 2024.1.0~)",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.13~)",
@@ -28,18 +28,20 @@
 		"basix-doc"
 	],
 	"breaks": [
-		"python3-dolfinx (<< 1:0.8.0-11)",
-		"python3-dolfinx-complex (<< 1:0.8.0-11)",
-		"python3-dolfinx-real (<< 1:0.8.0-11)",
-		"python3-ffcx (<< 1:0.4~)"
+		"python3-dolfinx (<< 1:0.9.0-8~)",
+		"python3-dolfinx-complex (<< 1:0.9.0-8~)",
+		"python3-dolfinx-mpc (<< 0.9.3-2~)",
+		"python3-dolfinx-real (<< 1:0.9.0-8~)",
+		"python3-ffcx (<< 1:0.4~)",
+		"python3-scifem (<< 0.10.0-1~)"
 	],
-	"installedSize": 510,
+	"installedSize": 509,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Finite Element Basis Function Definition Runtime Library (Python 3)",
 	"homepage": "https://github.com/FEniCS/basix",
-	"filename": "pool/main/f/fenics-basix/python3-basix_0.9.0-3+b1_amd64.deb",
-	"size": 133288,
-	"md5": "e870cdf3bfb60e528b30055307e248b5",
-	"sha256": "93e345862481c18afc2aadac7da9fd7dfff2cceb3fad574c50e9a22988eda180",
+	"filename": "pool/main/f/fenics-basix/python3-basix_0.9.0-4_amd64.deb",
+	"size": 133180,
+	"md5": "2331de79b41bdd1a483f4f0700fea7dd",
+	"sha256": "4426ae582ff604eb17ef9aeabe41fa879020106956a22aab90471872229273f9",
 	"descriptionMd5": "a1e3538433bc3ecb969f0f2161b29bdc"
 }

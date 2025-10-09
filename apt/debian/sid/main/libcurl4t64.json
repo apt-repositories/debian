@@ -6,19 +6,19 @@
 	],
 	"package": "libcurl4t64",
 	"source": "curl",
-	"version": "8.16.0-2",
+	"version": "8.16.0-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libnghttp3-9 (>= 1.11.0~)",
+		"libngtcp2-16 (>= 1.16.0~)",
 		"libbrotli1 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
 		"libgssapi-krb5-2 (>= 1.17)",
 		"libidn2-0 (>= 2.0.0)",
 		"libldap2 (>= 2.6.2)",
 		"libnghttp2-14 (>= 1.50.0)",
-		"libnghttp3-9 (>= 0.15.0)",
-		"libngtcp2-16 (>= 1.1.0)",
 		"libngtcp2-crypto-ossl0 (>= 1.15.1)",
 		"libpsl5t64 (>= 0.16.0)",
 		"librtmp1 (>= 2.3)",
@@ -35,7 +35,7 @@
 		"libcurl4"
 	],
 	"breaks": [
-		"libcurl4 (<< 8.16.0-2)"
+		"libcurl4 (<< 8.16.0-4)"
 	],
 	"conflicts": [
 		"libcurl3"
@@ -44,9 +44,9 @@
 	"maintainer": "Debian Curl Maintainers <team+curl@tracker.debian.org>",
 	"description": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
 	"homepage": "https://curl.se/",
-	"filename": "pool/main/c/curl/libcurl4t64_8.16.0-2_amd64.deb",
-	"size": 407236,
-	"md5": "753b044e8ec9c5c6ae93ab6f3f374b39",
-	"sha256": "7272d7fac81d0d51e363d17d47c14b3821ee4e338858c5b4aa2c3eb460d97f1b",
+	"filename": "pool/main/c/curl/libcurl4t64_8.16.0-4_amd64.deb",
+	"size": 408400,
+	"md5": "c6bbc170324b5ec5179a4e674273b942",
+	"sha256": "39b3420f87042638341f8e129349417485b6c4d89b2cffd5bfdbb0ac52a810fb",
 	"descriptionMd5": "f1c7f18aba2d8ab7a7e32acea1dc61e7"
 }
