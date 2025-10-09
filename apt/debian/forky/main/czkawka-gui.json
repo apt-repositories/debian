@@ -6,12 +6,11 @@
 	],
 	"package": "czkawka-gui",
 	"source": "rust-czkawka-gui",
-	"version": "8.0.0-5",
+	"version": "8.0.0-6",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libbz2-1.0",
 		"libc6 (>= 2.39)",
 		"libcairo2 (>= 1.2.4)",
 		"libgcc-s1 (>= 4.2)",
@@ -20,16 +19,17 @@
 		"libgtk-4-1 (>= 4.6.0)",
 		"libheif1 (>= 1.13.0)",
 		"libpango-1.0-0 (>= 1.14.0)",
-		"libraw23t64 (>= 0.16.0)"
+		"libraw23t64 (>= 0.16.0)",
+		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 15922,
+	"installedSize": 16038,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Multi functional app to find duplicates, empty folders, similar images etc (GUI)",
 	"homepage": "https://github.com/qarmin/czkawka",
-	"builtUsing": "resvg (= 0.45.1-2), rust-imagepipe (= 0.5.0-3), rust-multicache (= 0.6.1-1), rust-rawloader (= 0.37.1-2), rust-symphonia (= 0.5.4-1), rust-symphonia-bundle-flac (= 0.5.4-1), rust-symphonia-bundle-mp3 (= 0.5.4-1), rust-symphonia-codec-aac (= 0.5.4-1), rust-symphonia-codec-adpcm (= 0.5.4-1), rust-symphonia-codec-alac (= 0.5.4-1), rust-symphonia-codec-pcm (= 0.5.4-1), rust-symphonia-codec-vorbis (= 0.5.4-1), rust-symphonia-core (= 0.5.4-1), rust-symphonia-format-caf (= 0.5.4-1), rust-symphonia-format-isomp4 (= 0.5.4-1), rust-symphonia-format-mkv (= 0.5.4-1), rust-symphonia-format-ogg (= 0.5.4-1), rust-symphonia-format-riff (= 0.5.4-1), rust-symphonia-metadata (= 0.5.4-1), rust-symphonia-utils-xiph (= 0.5.4-1), rustc (= 1.86.0+dfsg1-1)",
-	"filename": "pool/main/r/rust-czkawka-gui/czkawka-gui_8.0.0-5_amd64.deb",
-	"size": 4008552,
-	"md5": "ec8fbb0f6bf090bb4165fb8a9098fa68",
-	"sha256": "924cb753d96af1da820a273793bf7ea450b2fac5cb80b1623ea7e41c489cabd2",
+	"builtUsing": "resvg (= 0.45.1-5), rust-imagepipe (= 0.5.0-3), rust-multicache (= 0.6.1-1), rust-rawloader (= 0.37.1-2), rust-symphonia (= 0.5.4-1), rust-symphonia-bundle-flac (= 0.5.4-1), rust-symphonia-bundle-mp3 (= 0.5.4-1), rust-symphonia-codec-aac (= 0.5.4-1), rust-symphonia-codec-adpcm (= 0.5.4-1), rust-symphonia-codec-alac (= 0.5.4-1), rust-symphonia-codec-pcm (= 0.5.4-1), rust-symphonia-codec-vorbis (= 0.5.4-1), rust-symphonia-core (= 0.5.4-1), rust-symphonia-format-caf (= 0.5.4-1), rust-symphonia-format-isomp4 (= 0.5.4-1), rust-symphonia-format-mkv (= 0.5.4-1), rust-symphonia-format-ogg (= 0.5.4-1), rust-symphonia-format-riff (= 0.5.4-1), rust-symphonia-metadata (= 0.5.4-1), rust-symphonia-utils-xiph (= 0.5.4-1), rustc (= 1.88.0+dfsg1-1)",
+	"filename": "pool/main/r/rust-czkawka-gui/czkawka-gui_8.0.0-6_amd64.deb",
+	"size": 4038372,
+	"md5": "64ea5f4d92f8a915445d811a5f6c7b7d",
+	"sha256": "6ec4ffe086842b6f622abd2243173f6ed9878683a5c4ae69c938d0b3f64ecb90",
 	"descriptionMd5": "8a863e13e7e3027954b7002bf1d2c720"
 }

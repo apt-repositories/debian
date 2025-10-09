@@ -5,34 +5,30 @@
 		"Size"
 	],
 	"package": "sbuild",
-	"version": "0.90.2",
+	"version": "0.91.1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
-		"libsbuild-perl (= 0.90.2)",
+		"libsbuild-perl (= 0.91.1)",
+		"iproute2",
+		"uidmap",
 		"perl:any"
 	],
 	"recommends": [
-		"autopkgtest (>= 4.0.4)",
-		"debootstrap",
-		"uidmap",
 		"mmdebstrap (>= 1.4.0)",
-		"iproute2"
+		"sbuild-schroot"
 	],
 	"suggests": [
-		"e2fsprogs",
-		"kmod",
-		"wget",
-		"schroot (>= 1.6.0)"
+		"autopkgtest",
+		"piuparts"
 	],
-	"installedSize": 285,
+	"installedSize": 158,
 	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
 	"description": "Tool for building Debian binary packages from Debian sources",
-	"filename": "pool/main/s/sbuild/sbuild_0.90.2_all.deb",
-	"size": 112912,
-	"md5": "dba7b15c2053c0d8fb8c1f39508f656e",
-	"sha256": "5bd126ce97e65392411867ffed415ddd69a2f9a4194f108f1888907c1cb3e60b",
-	"descriptionMd5": "9e15ceda32607c62e78e4f4d946f038e"
+	"filename": "pool/main/s/sbuild/sbuild_0.91.1_all.deb",
+	"size": 76340,
+	"md5": "ef4993e7dc6aba17f0d6cfd058bdc1cc",
+	"sha256": "aaa730a4d8aa9e8838d1650d98ed7b8e2f83450522ad6bd34ef6b799fc8a36dc",
+	"descriptionMd5": "52a7efe774c1dc4d9d877e9d259442b5"
 }]

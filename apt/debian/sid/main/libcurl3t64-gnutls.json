@@ -6,11 +6,13 @@
 	],
 	"package": "libcurl3t64-gnutls",
 	"source": "curl",
-	"version": "8.16.0-2",
+	"version": "8.16.0-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libnghttp3-9 (>= 1.11.0~)",
+		"libngtcp2-16 (>= 1.16.0~)",
 		"libbrotli1 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
 		"libgnutls30t64 (>= 3.8.6)",
@@ -19,8 +21,6 @@
 		"libldap2 (>= 2.6.2)",
 		"libnettle8t64",
 		"libnghttp2-14 (>= 1.50.0)",
-		"libnghttp3-9 (>= 0.15.0)",
-		"libngtcp2-16 (>= 1.1.0)",
 		"libngtcp2-crypto-gnutls8 (>= 1.1.0)",
 		"libpsl5t64 (>= 0.16.0)",
 		"librtmp1 (>= 2.3)",
@@ -35,15 +35,15 @@
 		"libcurl3-gnutls"
 	],
 	"breaks": [
-		"libcurl3-gnutls (<< 8.16.0-2)"
+		"libcurl3-gnutls (<< 8.16.0-4)"
 	],
 	"installedSize": 1022,
 	"maintainer": "Debian Curl Maintainers <team+curl@tracker.debian.org>",
 	"description": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
 	"homepage": "https://curl.se/",
-	"filename": "pool/main/c/curl/libcurl3t64-gnutls_8.16.0-2_amd64.deb",
-	"size": 399580,
-	"md5": "edee56354c4242bde1927ad4c8e3f64a",
-	"sha256": "ab9797e29672edc9007f588c5f73a7c124f122c6275666e33f1a3fd5946f5796",
+	"filename": "pool/main/c/curl/libcurl3t64-gnutls_8.16.0-4_amd64.deb",
+	"size": 399956,
+	"md5": "c0e57dcfafb012f444f17ddd61335440",
+	"sha256": "fa15305711bb3e183c8397ea61ee9507cfe17fda473d54de47664fd6f8d1b1c0",
 	"descriptionMd5": "785baf29d91f9f781677a7f569940052"
 }
