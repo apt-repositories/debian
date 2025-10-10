@@ -5,23 +5,24 @@
 		"Size"
 	],
 	"package": "ksmtuned",
-	"version": "4.20150326+nmu1",
+	"version": "4.20150326+nn-0.1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)"
+		"libc6 (>= 2.38)",
+		"procps"
 	],
-	"recommends": [
+	"enhances": [
 		"qemu-kvm"
 	],
 	"installedSize": 43,
 	"maintainer": "Bernd Zeimetz <bzed@debian.org>",
 	"description": "enables and tunes Kernel Samepage Merging",
 	"homepage": "https://github.com/ksmtuned/ksmtuned",
-	"filename": "pool/main/k/ksmtuned/ksmtuned_4.20150326+nmu1_amd64.deb",
-	"size": 7360,
-	"md5": "db020c83d6a548500caab9ae20b581d7",
-	"sha256": "e66609e41ea53088414f45154b9191a787e0837b1e3143526274defd4de464ca",
+	"filename": "pool/main/k/ksmtuned/ksmtuned_4.20150326+nn-0.1_amd64.deb",
+	"size": 7484,
+	"md5": "414df0c8ee20cb79114364c647a5317e",
+	"sha256": "7ce069d39ed7d53d0a8a600f0daacb20ae937fcd66cf37a3e82a21124e528d63",
 	"descriptionMd5": "cee1adf287c9c4d1367b2f4deb20fdf0"
 }

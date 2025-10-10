@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "python3-dolfinx-complex",
-	"source": "fenics-dolfinx (1:0.9.0-8)",
-	"version": "1:0.9.0-8+b1",
+	"source": "fenics-dolfinx",
+	"version": "1:0.9.0-9",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdolfinx-dev (= 1:0.9.0-8+b1)",
-		"libdolfinx-complex-dev (= 1:0.9.0-8+b1)",
+		"libdolfinx-dev (= 1:0.9.0-9)",
+		"libdolfinx-complex-dev (= 1:0.9.0-9)",
 		"python3-ffcx (>= 1:0.9.0~)",
 		"python3-ffcx (<< 1:0.10.0)",
 		"python3-ufl (>= 2024.2.0~)",
@@ -52,13 +52,16 @@
 	"suggests": [
 		"dolfinx-doc"
 	],
-	"installedSize": 5921,
+	"breaks": [
+		"python3-basix (<< 0.9.0-4~)"
+	],
+	"installedSize": 5920,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Python interface for DOLFIN (Python 3)",
 	"homepage": "https://fenicsproject.org",
-	"filename": "pool/main/f/fenics-dolfinx/python3-dolfinx-complex_0.9.0-8+b1_amd64.deb",
-	"size": 1314400,
-	"md5": "69390afb4af827c6df9087b3b1f563d9",
-	"sha256": "5176f6549c2076656df2b5ccd0a08264cd577a83860cfdf0e3d2f637ef9fe97c",
+	"filename": "pool/main/f/fenics-dolfinx/python3-dolfinx-complex_0.9.0-9_amd64.deb",
+	"size": 1313504,
+	"md5": "775c2e413f260fe9b7174a7fd8c635c2",
+	"sha256": "a8d154e80f928fbef6d7dc2bdc6e4f915c9d60b3c321dfa63631e50d8cd5b4de",
 	"descriptionMd5": "21c9bd2c698d8d40721e0a273f1bd404"
 }

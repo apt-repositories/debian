@@ -1,0 +1,29 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-set-user",
+	"source": "postgresql-set-user",
+	"version": "4.2.0-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.4)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 106,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "PostgreSQL privilege escalation with enhanced logging and control",
+	"homepage": "https://github.com/pgaudit/set_user",
+	"filename": "pool/main/p/postgresql-set-user/postgresql-18-set-user_4.2.0-1_amd64.deb",
+	"size": 35908,
+	"md5": "7f08e0489b4896a618117b4d94ab6084",
+	"sha256": "8c0daf001fd3becd8b4bf312203e756a4ee3ebfda024c6585607b4750824df52",
+	"descriptionMd5": "23b81c8e3218300711a8a62a54ac4370"
+}]

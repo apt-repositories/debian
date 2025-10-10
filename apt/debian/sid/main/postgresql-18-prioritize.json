@@ -1,0 +1,29 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-prioritize",
+	"source": "postgresql-prioritize",
+	"version": "1.0.4-13",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.2.5)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 50,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Get and set the nice priorities of PostgreSQL backends",
+	"homepage": "http://pgxn.org/dist/prioritize/",
+	"filename": "pool/main/p/postgresql-prioritize/postgresql-18-prioritize_1.0.4-13_amd64.deb",
+	"size": 11884,
+	"md5": "bafda51dea71948dfbc20e6b1edfc122",
+	"sha256": "e0c2d6317523f265869c9f29901410fa81604032f159f6d47d78a7ba9b911c23",
+	"descriptionMd5": "68c40bc61c85e2dd2ec3063f8f1aeace"
+}

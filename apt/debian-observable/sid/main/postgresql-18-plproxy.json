@@ -1,0 +1,30 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-plproxy",
+	"source": "postgresql-plproxy",
+	"version": "2.11.0-13",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libpq5"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 297,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "database partitioning system for PostgreSQL 18",
+	"homepage": "https://plproxy.github.io/",
+	"filename": "pool/main/p/postgresql-plproxy/postgresql-18-plproxy_2.11.0-13_amd64.deb",
+	"size": 137092,
+	"md5": "5e6567a5e94360f996a1280564339f02",
+	"sha256": "4e11f9f608fbc328c12cd285beeb7f3e49b719efa2aaf3ca0210d00ae0f46737",
+	"descriptionMd5": "238b894f91ed2c6a30214ba06a8f5514"
+}]
