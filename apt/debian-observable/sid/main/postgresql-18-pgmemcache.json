@@ -1,0 +1,31 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-pgmemcache",
+	"source": "pgmemcache",
+	"version": "2.3.0-15",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libmemcached11t64 (>= 1.1.4)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 121,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "PostgreSQL interface to memcached",
+	"homepage": "https://github.com/ohmu/pgmemcache",
+	"filename": "pool/main/p/pgmemcache/postgresql-18-pgmemcache_2.3.0-15_amd64.deb",
+	"size": 46640,
+	"md5": "aef48e9a050bef1fa090c0362e3262ff",
+	"sha256": "4970ce4157bc7ebb28cd09b5a650fd65fcf6266451bcc104463d147295383899",
+	"descriptionMd5": "17588ad8096d2be814de0c2ec10b9819"
+}]

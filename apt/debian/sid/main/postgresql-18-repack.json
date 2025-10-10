@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-repack",
+	"source": "pg-repack",
+	"version": "1.5.2-2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libpq5 (>= 9.0~)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 251,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "reorganize tables in PostgreSQL databases with minimal locks",
+	"homepage": "https://github.com/reorg/pg_repack",
+	"filename": "pool/main/p/pg-repack/postgresql-18-repack_1.5.2-2_amd64.deb",
+	"size": 104536,
+	"md5": "07233a65d9355c0e3808ff67a55d2cca",
+	"sha256": "c86388c0092f5f2d06e026641c5a595263cee9e7383e5b265cbc1efdd21dda3f",
+	"descriptionMd5": "e3b09561da3dc6ec6d616b915783ffd0"
+}

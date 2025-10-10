@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-http",
+	"source": "pgsql-http",
+	"version": "1.7.0-3",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 145,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "HTTP client for PostgreSQL, retrieve a web page from inside the database",
+	"homepage": "https://github.com/pramsey/pgsql-http",
+	"filename": "pool/main/p/pgsql-http/postgresql-18-http_1.7.0-3_amd64.deb",
+	"size": 53396,
+	"md5": "668ceb788a934cf64c9b644a22e4c690",
+	"sha256": "e26356e27862c49b4b904079306b1267256e6ac74d3053bf0adfc18a68dc21a9",
+	"descriptionMd5": "a8fc6a95c5bb9dad7c210d1e5d2c91e4"
+}

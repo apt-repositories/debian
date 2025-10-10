@@ -1,0 +1,30 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-pgpcre",
+	"source": "pgpcre",
+	"version": "0.20190509-9",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.14)",
+		"libpcre2-8-0 (>= 10.22)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 55,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Perl Compatible Regular Expressions (PCRE) extension for PostgreSQL",
+	"homepage": "https://github.com/petere/pgpcre",
+	"filename": "pool/main/p/pgpcre/postgresql-18-pgpcre_0.20190509-9_amd64.deb",
+	"size": 18596,
+	"md5": "2afb688fd2c29ba9c2ed4c6c41b2c532",
+	"sha256": "bcfaab24d00b6103806196faf59fcccc2715b01ed9d178b4fb88ba709fc2c1a2",
+	"descriptionMd5": "42e5370b3c7752183cb9e02b2a9ac14c"
+}]

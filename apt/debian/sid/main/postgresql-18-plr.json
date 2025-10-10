@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-plr",
+	"source": "plr",
+	"version": "1:8.4.8-2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"r-base-core (>= 2.10)",
+		"postgresql-18",
+		"libc6 (>= 2.38)"
+	],
+	"suggests": [
+		"r-recommended"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 296,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Procedural language interface between PostgreSQL and R",
+	"homepage": "https://github.com/postgres-plr/plr",
+	"filename": "pool/main/p/plr/postgresql-18-plr_8.4.8-2_amd64.deb",
+	"size": 138900,
+	"md5": "513ba674628213d8c3c5cc1e88de2539",
+	"sha256": "bde3d216547c09c008a186ac4c46b674574502edc72cff0e12cad0c86f7735eb",
+	"descriptionMd5": "6a964e0a721d2cb6428a8f9c8c0e52ae"
+}
