@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-repmgr",
+	"source": "repmgr",
+	"version": "5.5.0+debpgdg-3",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"repmgr-common (>= 5.5.0+debpgdg-3)",
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libjson-c5 (>= 0.15)",
+		"libpq5 (>= 9.3~)"
+	],
+	"suggests": [
+		"rsync"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 1072,
+	"maintainer": "Marco Nenciarini <mnencia@debian.org>",
+	"description": "replication manager for PostgreSQL 18",
+	"homepage": "https://www.repmgr.org/",
+	"filename": "pool/main/r/repmgr/postgresql-18-repmgr_5.5.0+debpgdg-3_amd64.deb",
+	"size": 253096,
+	"md5": "9908c2ee5529ed30dfb3abe4b2493ab0",
+	"sha256": "9ea5decaf445e106617eecfc10b58ce2c7653e34e7d2ff657edf661fbbafa515",
+	"descriptionMd5": "44e7296a087b0baaa46ed6288fd2a8c3"
+}]

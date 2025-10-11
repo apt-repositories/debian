@@ -6,6 +6,38 @@
 	],
 	"package": "mesa-va-drivers",
 	"source": "mesa",
+	"version": "25.2.4-1~bpo13+2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mesa-libgallium (= 25.2.4-1~bpo13+2)"
+	],
+	"replaces": [
+		"vdpau-va-driver (<< 0.7.4-5)"
+	],
+	"enhances": [
+		"libva2"
+	],
+	"breaks": [
+		"vdpau-va-driver (<< 0.7.4-5)"
+	],
+	"installedSize": 48,
+	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
+	"description": "Mesa VA-API video acceleration drivers",
+	"homepage": "https://mesa3d.org/",
+	"filename": "pool/main/m/mesa/mesa-va-drivers_25.2.4-1~bpo13+2_amd64.deb",
+	"size": 20732,
+	"sha256": "5a41906466052410091c1b4efce184e9cb8edc68c84637343ba008c89aeb06c8",
+	"descriptionMd5": "c89bbf6e4f80a47acafd5858be814f3c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mesa-va-drivers",
+	"source": "mesa",
 	"version": "25.0.7-2",
 	"section": "libs",
 	"priority": "optional",

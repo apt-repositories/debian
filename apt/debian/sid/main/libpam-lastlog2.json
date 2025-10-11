@@ -6,25 +6,31 @@
 	],
 	"package": "libpam-lastlog2",
 	"source": "util-linux",
-	"version": "2.41.2-3",
+	"version": "2.41.2-4",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libpam-runtime",
 		"libc6 (>= 2.38)",
-		"liblastlog2-2 (= 2.41.2-3)"
+		"liblastlog2-2 (= 2.41.2-4)"
 	],
 	"recommends": [
 		"wtmpdb"
 	],
-	"installedSize": 77,
+	"replaces": [
+		"lastlog2 (<< 2.41.2-4~)"
+	],
+	"breaks": [
+		"lastlog2 (<< 2.41.2-4~)"
+	],
+	"installedSize": 83,
 	"maintainer": "Chris Hofstaedtler <zeha@debian.org>",
 	"description": "lastlog2 database PAM module",
 	"homepage": "https://github.com/util-linux/util-linux",
-	"filename": "pool/main/u/util-linux/libpam-lastlog2_2.41.2-3_amd64.deb",
-	"size": 29424,
-	"md5": "8fcd9cfb290031b6c825e7e1c1aa6d32",
-	"sha256": "904da13c1abf8c0d0a64ef31b5c33a43f0ad0dc0a379067ba6904d0d3558ef2d",
+	"filename": "pool/main/u/util-linux/libpam-lastlog2_2.41.2-4_amd64.deb",
+	"size": 29952,
+	"md5": "da8cb061897ba2546d26a4cb82b82e1b",
+	"sha256": "03376d30cc1d84e551145326b09442d43d54301b39c0e964b345e06fb9af2000",
 	"descriptionMd5": "44d05a5389249ac3ace99386c8a9584d"
 }

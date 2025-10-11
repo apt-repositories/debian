@@ -6,26 +6,29 @@
 	],
 	"package": "librust-flate2-dev",
 	"source": "rust-flate2",
-	"version": "1.1.2-1",
+	"version": "1.1.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-crc32fast-1+default-dev (>= 1.2.0-~~)",
+		"librust-libz-rs-sys-0.5+rust-allocator-dev (>= 0.5.1-~~)",
+		"librust-libz-rs-sys-0.5+std-dev (>= 0.5.1-~~)",
 		"librust-libz-sys-1+default-dev (>= 1.1.20-~~)",
 		"librust-libz-sys-1-dev (>= 1.1.20-~~)",
+		"librust-miniz-oxide-0.7+simd-dev",
 		"librust-miniz-oxide-0.7+with-alloc-dev"
 	],
 	"breaks": [
 		"librust-tiff-dev (<= 0.6.1-1)"
 	],
-	"installedSize": 356,
+	"installedSize": 360,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FLATE, Gzip, and Zlib bindings for Rust - Rust source code",
 	"homepage": "https://github.com/rust-lang/flate2-rs",
-	"filename": "pool/main/r/rust-flate2/librust-flate2-dev_1.1.2-1_amd64.deb",
-	"size": 64080,
-	"md5": "289628b24107e0f038d395cce4925b4d",
-	"sha256": "188070ba5956fb2ce604713b2326f4452cec7fd4145d783b81170dc66aef302a",
+	"filename": "pool/main/r/rust-flate2/librust-flate2-dev_1.1.4-1_amd64.deb",
+	"size": 64480,
+	"md5": "1f8dc7d37b386859bbdd8b3764c162ce",
+	"sha256": "af307ce8b489decabf773cc44bd06c399739c69746fed233dc80d46c465cf4b5",
 	"descriptionMd5": "83f16bdadcfecf17f15c0955669e8fab"
 }]
