@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "privatebin-cli",
-	"version": "2.1.0-2",
+	"version": "2.1.1-2",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)"
 	],
-	"installedSize": 8089,
+	"recommends": [
+		"media-types"
+	],
+	"installedSize": 7102,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Powerful CLI for creating and managing PrivateBin pastes with ease",
 	"homepage": "https://github.com/gearnode/privatebin",
-	"builtUsing": "golang-1.24 (= 1.24.4-3), golang-github-spf13-cobra (= 1.8.1-1), golang-github-spf13-pflag (= 1.0.6~git20210604-d5e0c0615ace-1), golang-go.crypto (= 1:0.25.0-1), golang-go.gearno-encoding-base58 (= 0.1.0-2)",
-	"filename": "pool/main/p/privatebin-cli/privatebin-cli_2.1.0-2_amd64.deb",
-	"size": 2606136,
-	"md5": "4c6e7f8633738accdacb0c84ca0bf698",
-	"sha256": "0354b4e9d211e4ee61871f7086df7a368d8a5d20775ff90ee5fc5ec9c0d62aac",
+	"builtUsing": "golang-1.24 (= 1.24.7-1), golang-github-spf13-cobra (= 1.10.1-1), golang-github-spf13-pflag (= 1.0.10-1), golang-go.crypto (= 1:0.42.0-3), golang-go.gearno-encoding-base58 (= 0.1.0-2)",
+	"filename": "pool/main/p/privatebin-cli/privatebin-cli_2.1.1-2_amd64.deb",
+	"size": 2245700,
+	"md5": "a189e6099338a9ee70be446e2fe2c3e7",
+	"sha256": "d3c02d93f978d3530ada3f740cad3fb71272eb324f107c31908e0aab3f75bb63",
 	"descriptionMd5": "a53754e1fba97542fad635ce32af5a9b"
 }

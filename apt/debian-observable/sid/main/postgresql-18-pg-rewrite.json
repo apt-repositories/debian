@@ -1,0 +1,29 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-pg-rewrite",
+	"source": "pg-rewrite",
+	"version": "2.0.0-2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 188,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Rewrite PostgreSQL tables with less locking",
+	"homepage": "https://github.com/cybertec-postgresql/pg_rewrite",
+	"filename": "pool/main/p/pg-rewrite/postgresql-18-pg-rewrite_2.0.0-2_amd64.deb",
+	"size": 77556,
+	"md5": "ad733f2f7b6de5a22891d3590f948f29",
+	"sha256": "eb1269e03665382466e740d059d5260a99734be5f6e052ed0a551ad5ae4ff9f8",
+	"descriptionMd5": "3ae2443f5b9b37100d58b843eb8f3b90"
+}]

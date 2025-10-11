@@ -6,27 +6,30 @@
 	],
 	"package": "libv4l-0t64",
 	"source": "v4l-utils",
-	"version": "1.30.1-1",
+	"version": "1.32.0-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libv4lconvert0t64 (= 1.30.1-1)",
-		"libc6 (>= 2.34)"
+		"libv4lconvert0t64 (= 1.32.0-1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libjson-c5 (>= 0.15)",
+		"libstdc++6 (>= 13.1)"
 	],
 	"replaces": [
 		"libv4l-0"
 	],
 	"breaks": [
-		"libv4l-0 (<< 1.30.1-1)"
+		"libv4l-0 (<< 1.32.0-1)"
 	],
-	"installedSize": 256,
+	"installedSize": 659,
 	"maintainer": "Gregor Jasny <gjasny@googlemail.com>",
 	"description": "Collection of video4linux support libraries",
 	"homepage": "https://linuxtv.org/wiki/index.php/V4l-utils",
-	"filename": "pool/main/v/v4l-utils/libv4l-0t64_1.30.1-1_amd64.deb",
-	"size": 116440,
-	"md5": "c914ef0e3e643b0ff1848f432c11b5c5",
-	"sha256": "840ea0cf83afe4737311e6fb65783b65113f31974e7fd2f439ad1e9c33662b13",
+	"filename": "pool/main/v/v4l-utils/libv4l-0t64_1.32.0-1_amd64.deb",
+	"size": 222188,
+	"md5": "8c7212428867602fb719c49f41a676d6",
+	"sha256": "cd8119af699ffe4aa68afd373c7d0b6c3f13e03e35e5464527004973a1ae22a3",
 	"descriptionMd5": "51ed604a5803d8a2ecaa5742927e357e"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "golang-golang-x-crypto-dev",
 	"source": "golang-go.crypto",
-	"version": "1:0.25.0-1",
+	"version": "1:0.42.0-4",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,13 +15,16 @@
 		"golang-golang-x-term-dev (>= 0.22.0)",
 		"golang-golang-x-text-dev (>= 0.16.0)"
 	],
-	"installedSize": 5997,
+	"breaks": [
+		"golang-github-skeema-knownhosts-dev (<< 1.3.1~)"
+	],
+	"installedSize": 7685,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Supplementary Go cryptography libraries",
 	"homepage": "https://golang.org/x/crypto",
-	"filename": "pool/main/g/golang-go.crypto/golang-golang-x-crypto-dev_0.25.0-1_all.deb",
-	"size": 1682488,
-	"md5": "6209eadd556a5446572c8b5d583524d9",
-	"sha256": "c6ecd307e88b1d3af7ecfaee12b258c24aff3b16acbbc87acbe02079aabf5867",
+	"filename": "pool/main/g/golang-go.crypto/golang-golang-x-crypto-dev_0.42.0-4_all.deb",
+	"size": 1944448,
+	"md5": "0b351ed1beef33dc1ef8246878b69808",
+	"sha256": "f34ec97698b76eedbb00bcce88adfd834c4183310882c0e0a31d946dcd5dab1f",
 	"descriptionMd5": "66f52ca9de151cfcb6ed8ba8a5a6a8a4"
 }
