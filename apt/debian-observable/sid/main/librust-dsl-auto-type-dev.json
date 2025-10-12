@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "librust-dsl-auto-type-dev",
-	"source": "rust-dsl-auto-type (0.1.3-1)",
-	"version": "0.1.3-1+b1",
+	"source": "rust-dsl-auto-type",
+	"version": "0.1.3-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-darling-0.20+default-dev",
 		"librust-either-1+default-dev",
-		"librust-heck-0.4+default-dev",
+		"librust-heck+default-dev (<< 0.6-~~)",
+		"librust-heck+default-dev (>= 0.4-~~)",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
 		"librust-syn-2+default-dev",
@@ -23,13 +24,13 @@
 		"librust-syn-2+parsing-dev",
 		"librust-syn-2+visit-dev"
 	],
-	"installedSize": 82,
+	"installedSize": 81,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Automatically expand query fragment types for factoring as functions - Rust source code",
 	"homepage": "https://diesel.rs",
-	"filename": "pool/main/r/rust-dsl-auto-type/librust-dsl-auto-type-dev_0.1.3-1+b1_amd64.deb",
-	"size": 16452,
-	"md5": "6b5fcbeedc69532b884859e08af5cf89",
-	"sha256": "dd25e9f794a25a63098652fa5ba86856db1b1d6569b0e355808206cf5e9cff9b",
+	"filename": "pool/main/r/rust-dsl-auto-type/librust-dsl-auto-type-dev_0.1.3-2_amd64.deb",
+	"size": 16296,
+	"md5": "a29f62305089f2b062ab8f5dbb7858f2",
+	"sha256": "7c09c9ea050879ae5ea21b31f9ffde072abfd5f3e59f42de33f02aa616bfcd1f",
 	"descriptionMd5": "59294a166292e1c729826696a2fac727"
 }]

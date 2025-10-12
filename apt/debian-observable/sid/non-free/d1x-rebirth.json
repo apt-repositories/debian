@@ -5,29 +5,34 @@
 		"Size"
 	],
 	"package": "d1x-rebirth",
-	"version": "0.58.1-1.2",
+	"version": "0.60~git20250524-1",
 	"section": "non-free/games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.15)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
 		"libgl1",
 		"libglu1-mesa | libglu1",
 		"libphysfs1 (>= 3.0.2)",
-		"libsdl-mixer1.2",
-		"libsdl1.2debian (>= 1.2.11)"
+		"libpng16-16t64 (>= 1.6.46)",
+		"libsdl2-2.0-0 (>= 2.0.12)",
+		"libsdl2-image-2.0-0 (>= 2.0.5)",
+		"libsdl2-mixer-2.0-0 (>= 2.6.0)",
+		"libstdc++6 (>= 13)",
+		"descent1-data | descent1-demo-data | game-data-packager"
 	],
 	"recommends": [
 		"timidity",
 		"freepats"
 	],
-	"installedSize": 1504,
-	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"installedSize": 1357,
+	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "port of the 1995 classic game Descent 1: First Strike",
 	"homepage": "http://www.dxx-rebirth.com",
-	"filename": "pool/non-free/d/d1x-rebirth/d1x-rebirth_0.58.1-1.2_amd64.deb",
-	"size": 572156,
-	"md5": "b3a3af23f427f3e4e86392a841c5d4b5",
-	"sha256": "b6b98b2e6c1d37d187a46d1c8ecbc631d28fd216cdfd7a8cb5d99e421459e97e",
-	"descriptionMd5": "84358dd249daa543b4f5d2936956dc7a"
+	"filename": "pool/non-free/d/d1x-rebirth/d1x-rebirth_0.60~git20250524-1_amd64.deb",
+	"size": 575096,
+	"md5": "42ae07eebebbde556bb2e90dcee1771a",
+	"sha256": "fa50dd4902f54b1c5ca299827beb6780256fa28ad2c7518e927a65e083a38c9d",
+	"descriptionMd5": "b3566f0072b8628184f278ac75aa752a"
 }]

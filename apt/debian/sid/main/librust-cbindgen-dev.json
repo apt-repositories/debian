@@ -5,13 +5,15 @@
 		"Size"
 	],
 	"package": "librust-cbindgen-dev",
-	"source": "rust-cbindgen (0.27.0-1)",
-	"version": "0.27.0-1+b4",
+	"source": "rust-cbindgen",
+	"version": "0.27.0-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-heck-0.4+default-dev",
+		"librust-clap-4+default-dev (>= 4.3-~~)",
+		"librust-heck+default-dev (<< 0.6-~~)",
+		"librust-heck+default-dev (>= 0.4-~~)",
 		"librust-indexmap+default-dev (>= 1-~~)",
 		"librust-log-0.4+default-dev",
 		"librust-proc-macro2-1+default-dev (>= 1.0.60-~~)",
@@ -27,15 +29,13 @@
 		"librust-tempfile-3+default-dev",
 		"librust-toml-0.8+default-dev (>= 0.8.8-~~)"
 	],
-	"recommends": [
-		"librust-cbindgen+clap-dev (= 0.27.0-1+b4)"
-	],
-	"installedSize": 844,
+	"installedSize": 846,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generating C bindings to Rust code - Rust source code",
-	"filename": "pool/main/r/rust-cbindgen/librust-cbindgen-dev_0.27.0-1+b4_amd64.deb",
-	"size": 129356,
-	"md5": "77218c99b4611924e530c8d983aad604",
-	"sha256": "7db950eac70b74ded65e4ccb8740f18dbaf688769d5cda32c251b9e984e1f878",
+	"homepage": "https://github.com/mozilla/cbindgen",
+	"filename": "pool/main/r/rust-cbindgen/librust-cbindgen-dev_0.27.0-2_amd64.deb",
+	"size": 129588,
+	"md5": "29eb289234be2c86f81b9cbeb4606414",
+	"sha256": "cd848dece5997250ce2fe2c304e8c099de0184abc06cbf83a05421b9ec4ce767",
 	"descriptionMd5": "1b7dc35ff31d9ee74931f7da971f58bf"
 }
