@@ -6,24 +6,25 @@
 	],
 	"package": "git-debpush",
 	"source": "dgit",
-	"version": "13.15~bpo13+1",
+	"version": "13.16~bpo13+1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"git",
-		"gnupg",
+		"gpg",
+		"gpg-agent",
 		"libdpkg-perl"
 	],
 	"replaces": [
 		"devscripts (<< 2.25.18)"
 	],
-	"installedSize": 126,
+	"installedSize": 134,
 	"maintainer": "Debian tag2upload Delegates <dgit-owner@debian.org>",
 	"description": "client script for git pushing to Debian-style archives",
-	"filename": "pool/main/d/dgit/git-debpush_13.15~bpo13+1_all.deb",
-	"size": 62044,
-	"sha256": "2ed8e464e383ff8bc854b9cf8f86cfb44f586c9b1e365af7aec3bfacd53cfa0d",
+	"filename": "pool/main/d/dgit/git-debpush_13.16~bpo13+1_all.deb",
+	"size": 68548,
+	"sha256": "75da2b150ffc956d2a275c3a84cb141b099b2bfd3667833515bbe8c4fab9866e",
 	"descriptionMd5": "105ec8f4a6cd42b7b9240815a87a8f8d"
 },{
 	"raw": {},
