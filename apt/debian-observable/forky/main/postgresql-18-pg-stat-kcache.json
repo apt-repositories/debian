@@ -1,0 +1,30 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-pg-stat-kcache",
+	"source": "pg-stat-kcache",
+	"version": "2.3.1-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-contrib-18",
+		"postgresql-18",
+		"libc6 (>= 2.38)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 155,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "PostgreSQL extension to gather per-query kernel statistics.",
+	"homepage": "https://powa.readthedocs.io/",
+	"filename": "pool/main/p/pg-stat-kcache/postgresql-18-pg-stat-kcache_2.3.1-1_amd64.deb",
+	"size": 37860,
+	"md5": "16faf32f9fe27e54b2487081610d1ed0",
+	"sha256": "22222e2fe6b67b34aa305128e8bba25175f2e5aaee3de903afb2f5045a30c61b",
+	"descriptionMd5": "b382a2f5c1a04f9c33485ae5b8f982bf"
+}]

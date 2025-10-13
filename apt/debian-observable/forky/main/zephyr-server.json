@@ -5,30 +5,32 @@
 		"Size"
 	],
 	"package": "zephyr-server",
-	"source": "zephyr (3.1.2-1.1)",
-	"version": "3.1.2-1.1+b2",
+	"source": "zephyr",
+	"version": "3.1.2-4",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libcares2 (>= 1.7.0)",
 		"libcom-err2 (>= 1.43.9)",
 		"libhesiod0",
-		"libzephyr4",
+		"libzephyr4 (>= 3.1.2)",
 		"debconf (>= 0.5) | debconf-2.0"
 	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
 	"conflicts": [
-		"zephyr-server-krb",
-		"zephyr-server-krb45",
 		"zephyr-server-krb5"
 	],
-	"installedSize": 796,
-	"maintainer": "Karl Ramm <kcr@debian.org>",
+	"installedSize": 818,
+	"maintainer": "Zephyr IM Team <team+zephyr-im@tracker.debian.org>",
 	"description": "Project Athena's notification service - non-Kerberos server",
-	"filename": "pool/main/z/zephyr/zephyr-server_3.1.2-1.1+b2_amd64.deb",
-	"size": 95268,
-	"md5": "50b87f69ac95d82571856bb5a05afea1",
-	"sha256": "d97801d087ff1625644057c5c23ee3bfb7785a90f43ddc9e366c4577414a0ead",
+	"homepage": "https://github.com/zephyr-im/zephyr",
+	"filename": "pool/main/z/zephyr/zephyr-server_3.1.2-4_amd64.deb",
+	"size": 102916,
+	"md5": "3dee5076072d522ce2d3269ac103b536",
+	"sha256": "c5097229f27824e55b26e015ad995cbd12ed1e9d481507bfff0b6495803674f8",
 	"descriptionMd5": "f69862b4d9d498663a10a3a7337a75a8"
 }]

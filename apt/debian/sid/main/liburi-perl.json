@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "liburi-perl",
-	"version": "5.34-1",
+	"version": "5.34-2",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -20,16 +20,20 @@
 		"libregexp-ipv6-perl",
 		"libwww-perl"
 	],
+	"replaces": [
+		"liburi-ws-perl (<< 5.34)"
+	],
 	"breaks": [
+		"liburi-ws-perl (<< 5.34)",
 		"sqitch (<< 1.3.1-2~)"
 	],
 	"installedSize": 300,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "module to manipulate and access URI strings",
 	"homepage": "https://metacpan.org/release/URI",
-	"filename": "pool/main/libu/liburi-perl/liburi-perl_5.34-1_all.deb",
+	"filename": "pool/main/libu/liburi-perl/liburi-perl_5.34-2_all.deb",
 	"size": 110688,
-	"md5": "b325ce6c454909152f2ab0eace3f5262",
-	"sha256": "1860fe06ed237655d579d7394d898b93e611bf9b7632424c9f76ac6d292c8e54",
+	"md5": "43be57ba227b4496c92f0f220ea0010b",
+	"sha256": "9b990338cc9b94ec375fd247ab3aa4fd73a124f850f2df220f6d5614f641e694",
 	"descriptionMd5": "8af2948497c501a41ac31e21cb3641dd"
 }

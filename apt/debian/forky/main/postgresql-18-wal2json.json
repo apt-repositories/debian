@@ -1,0 +1,29 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-wal2json",
+	"source": "wal2json",
+	"version": "2.6-3",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 127,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "PostgreSQL logical decoding JSON output plugin",
+	"homepage": "https://github.com/eulerto/wal2json",
+	"filename": "pool/main/w/wal2json/postgresql-18-wal2json_2.6-3_amd64.deb",
+	"size": 57288,
+	"md5": "c30cba51f73a79edf1bee2a48ba0049a",
+	"sha256": "0b9b915ba0e8079424288133f456ec8f45fd1737a22f1fe3f67913eb952f4872",
+	"descriptionMd5": "ed84e1375e8e3eddb45720de3aff7187"
+}
