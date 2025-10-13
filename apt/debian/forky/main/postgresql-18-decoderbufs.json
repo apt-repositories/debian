@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-decoderbufs",
+	"source": "postgres-decoderbufs",
+	"version": "3.3.0-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.14)",
+		"libprotobuf-c1 (>= 1.0.1)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 107,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "logical decoder output plugin to deliver data as Protocol Buffers",
+	"homepage": "https://github.com/debezium/postgres-decoderbufs",
+	"filename": "pool/main/p/postgres-decoderbufs/postgresql-18-decoderbufs_3.3.0-1_amd64.deb",
+	"size": 40144,
+	"md5": "eaf8b9b99d7a6cb1ccfc3ca161a83a4f",
+	"sha256": "5bad6fa145fb568c14ce46555a5d6104b7c820d0439c289b1afeca4c32c201af",
+	"descriptionMd5": "9994d34c045767ef7444a79dad7fb4f5"
+}
