@@ -6,7 +6,7 @@
 	],
 	"package": "python3-ujson",
 	"source": "ujson",
-	"version": "5.11.0-1",
+	"version": "5.11.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,19 @@
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 5)"
 	],
+	"replaces": [
+		"python3-typeshed (<< 0.0~git20241223.ea91db2-4)"
+	],
+	"breaks": [
+		"python3-typeshed (<< 0.0~git20241223.ea91db2-4)"
+	],
 	"installedSize": 84,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "ultra fast JSON encoder and decoder for Python 3",
 	"homepage": "https://github.com/ultrajson/ultrajson",
-	"filename": "pool/main/u/ujson/python3-ujson_5.11.0-1_amd64.deb",
-	"size": 26336,
-	"md5": "1398150323e6b7f1b3a3afd02fd52ddd",
-	"sha256": "6077ce1721bee7dedf3316feffd57e53268fb121d1ff64cfdfd6774cde79db73",
+	"filename": "pool/main/u/ujson/python3-ujson_5.11.0-2_amd64.deb",
+	"size": 26544,
+	"md5": "fc59e3065ad6dcbc92811978ae143182",
+	"sha256": "2595f44e885d4df3c6e9fe4787a884a484df71b51e1a4a83c48cd59dea024453",
 	"descriptionMd5": "abfd4b7abb5ebef31715809995b02044"
 }
