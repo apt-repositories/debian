@@ -5,13 +5,16 @@
 		"Size"
 	],
 	"package": "wl-mirror",
-	"version": "0.17.0-1",
+	"version": "0.18.0-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
+		"libdecor-0-0 (>= 0.1.0)",
+		"libdrm2 (>= 2.4.109)",
 		"libegl1",
+		"libgbm1 (>= 21.3.0~rc1)",
 		"libgles2",
 		"libwayland-client0 (>= 1.20.0)",
 		"libwayland-egl1 (>= 1.15.0)"
@@ -19,13 +22,13 @@
 	"recommends": [
 		"wl-present"
 	],
-	"installedSize": 109,
+	"installedSize": 147,
 	"maintainer": "Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>",
 	"description": "output-mirroring tool for wlroots-based Wayland desktops",
 	"homepage": "https://github.com/Ferdi265/wl-mirror",
-	"filename": "pool/main/w/wl-mirror/wl-mirror_0.17.0-1_amd64.deb",
-	"size": 34076,
-	"md5": "dd947e9de4a296dd8f84ed59c11e23c4",
-	"sha256": "9efb5adfa5a18b253cf1d78ae171eb9b65bf350a1aaaab3ebd0b4fb94b970a1b",
+	"filename": "pool/main/w/wl-mirror/wl-mirror_0.18.0-1_amd64.deb",
+	"size": 44884,
+	"md5": "bb16570851571a0cd810dc0ca635c0ad",
+	"sha256": "44b66ad6c947b940df70a7b76e8a073cf54321f72989e4e889e35fdc17444950",
 	"descriptionMd5": "892a7a6f274b69127973c74068884734"
 }]

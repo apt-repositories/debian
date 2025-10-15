@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.16.12+deb14-rt-amd64-unsigned",
+	"source": "linux",
+	"version": "6.16.12-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.16",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.16.12+deb14-rt-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.16.12+deb14-rt-amd64"
+	],
+	"installedSize": 113849,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.16 for 64-bit PCs, PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-6.16.12+deb14-rt-amd64-unsigned_6.16.12-1_amd64.deb",
+	"size": 113562448,
+	"md5": "019c0be82fc18b90b196dd2904a09348",
+	"sha256": "d775857cbcb08a4a3f3297fd7287322ce327a6c75cf2d17e1860fbc6044f04f3",
+	"descriptionMd5": "d625192c3bc2ccf52efe49d4c5757d0b"
+}]

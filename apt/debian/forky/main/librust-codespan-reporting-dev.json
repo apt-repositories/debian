@@ -5,25 +5,26 @@
 		"Size"
 	],
 	"package": "librust-codespan-reporting-dev",
-	"source": "rust-codespan-reporting (0.11.1-2)",
-	"version": "0.11.1-2+b2",
+	"source": "rust-codespan-reporting",
+	"version": "0.12.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+default-dev",
+		"librust-serde-1+alloc-dev",
 		"librust-serde-1+derive-dev",
-		"librust-serde-1+rc-dev",
-		"librust-termcolor-1+default-dev",
-		"librust-unicode-width-0.1+default-dev"
+		"librust-serde-1+std-dev",
+		"librust-termcolor-1+default-dev (>= 1.0.4-~~)",
+		"librust-unicode-width+default-dev (<< 0.3-~~)",
+		"librust-unicode-width+default-dev (>= 0.1-~~)"
 	],
-	"installedSize": 322,
+	"installedSize": 359,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Beautiful diagnostic reporting for text-based programming languages - Rust source code",
 	"homepage": "https://github.com/brendanzab/codespan",
-	"filename": "pool/main/r/rust-codespan-reporting/librust-codespan-reporting-dev_0.11.1-2+b2_amd64.deb",
-	"size": 46160,
-	"md5": "86ceade3e3bec13274322705e123cc3e",
-	"sha256": "50c0a7e4a395dda6918454fc3ce9cb330d1a7774ec55e0409cc514dceb34b073",
-	"descriptionMd5": "41eacaa6796fc1115fe2822380e80a1c"
+	"filename": "pool/main/r/rust-codespan-reporting/librust-codespan-reporting-dev_0.12.0-2_amd64.deb",
+	"size": 53676,
+	"md5": "5b1faceff7ce0d4ab581e321aafd3a12",
+	"sha256": "a10528289557172a0a42942a9645bfd0b75bf6e83c5c5968a0cb79e5db27d7bd",
+	"descriptionMd5": "3e64b11031b3b0502fc31942d29ba10d"
 }
