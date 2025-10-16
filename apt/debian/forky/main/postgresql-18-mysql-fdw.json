@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-mysql-fdw",
+	"source": "postgresql-mysql-fdw",
+	"version": "2.9.3-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"default-libmysqlclient-dev | libmysqlclient-dev",
+		"postgresql-18",
+		"libc6 (>= 2.38)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 290,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Postgres 18 Foreign Data Wrapper for MySQL",
+	"homepage": "https://github.com/EnterpriseDB/mysql_fdw",
+	"filename": "pool/main/p/postgresql-mysql-fdw/postgresql-18-mysql-fdw_2.9.3-1_amd64.deb",
+	"size": 127304,
+	"md5": "9e33682049b099560d9597abcc789a49",
+	"sha256": "7a22ff7d28906a5e088c6e4ce6dd6a48492be9047ec821561ac47d68a75fcce6",
+	"descriptionMd5": "8f51d718d8290d3c3aaf6c7dbf92d140"
+}
