@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "suricata",
-	"version": "1:7.0.11-1~bpo13+1",
+	"version": "1:8.0.1-3~bpo13+1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,10 +19,8 @@
 		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
 		"libgcc-s1 (>= 4.2)",
 		"libhiredis1.1.0 (>= 1.2.0)",
-		"libhtp2 (>= 1:0.5.51-1~bpo13+1~)",
 		"libhyperscan5 (>= 5.4.2)",
 		"libjansson4 (>= 2.14)",
-		"libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty)",
 		"liblz4-1 (>= 0.0~r127)",
 		"libmagic1t64 (>= 5.12)",
 		"libmaxminddb0 (>= 1.0.2)",
@@ -39,17 +37,13 @@
 		"librte-mbuf25 (>= 23.11)",
 		"librte-mempool25 (>= 23.11)",
 		"librte-net-bond25 (>= 24.11~rc2)",
-		"libsystemd0",
+		"libunwind8",
 		"libxdp1 (>= 1.2.0)",
 		"libyaml-0-2",
-		"zlib1g (>= 1:1.1.4)"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
+		"zlib1g (>= 1:1.2.3.4)"
 	],
 	"recommends": [
 		"python3",
-		"snort-rules-default",
 		"suricata-update"
 	],
 	"suggests": [
@@ -59,16 +53,15 @@
 		"suricata-hyperscan"
 	],
 	"conflicts": [
-		"libhtp1",
 		"suricata-hyperscan"
 	],
-	"installedSize": 9698,
+	"installedSize": 16845,
 	"maintainer": "Pierre Chifflier <pollux@debian.org>",
 	"description": "Next Generation Intrusion Detection and Prevention Tool",
 	"homepage": "https://suricata.io",
-	"filename": "pool/main/s/suricata/suricata_7.0.11-1~bpo13+1_amd64.deb",
-	"size": 2972860,
-	"sha256": "f716650d6a6a47442dc54d7e635c12c858160dada601bca47025f9970f66d66e",
+	"filename": "pool/main/s/suricata/suricata_8.0.1-3~bpo13+1_amd64.deb",
+	"size": 4382024,
+	"sha256": "68d876ae6a294f7171e26c99c443d1216cac8a53f33655d2cc2d6e191a06d95d",
 	"descriptionMd5": "d75d723de9cd9ee5828c14e079cfc931"
 },{
 	"raw": {},
