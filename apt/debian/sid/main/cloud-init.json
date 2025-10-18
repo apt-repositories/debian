@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "cloud-init",
-	"version": "25.3-1",
+	"version": "25.3-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -18,6 +18,13 @@
 		"lsb-release",
 		"netcat-openbsd",
 		"procps",
+		"python3-configobj",
+		"python3-jinja2",
+		"python3-jsonpatch",
+		"python3-jsonschema",
+		"python3-oauthlib",
+		"python3-requests",
+		"python3-yaml",
 		"python3:any"
 	],
 	"recommends": [
@@ -29,6 +36,7 @@
 		"btrfs-progs",
 		"e2fsprogs",
 		"python3-passlib",
+		"ssh-import-id",
 		"xfsprogs"
 	],
 	"replaces": [
@@ -38,13 +46,13 @@
 		"cloud-init-22.4.2",
 		"firewalld"
 	],
-	"installedSize": 3230,
+	"installedSize": 3231,
 	"maintainer": "Debian Cloud Team <debian-cloud@lists.debian.org>",
 	"description": "initialization system for infrastructure cloud instances",
 	"homepage": "https://launchpad.net/cloud-init",
-	"filename": "pool/main/c/cloud-init/cloud-init_25.3-1_all.deb",
-	"size": 682340,
-	"md5": "bbdab1952c9f017e7870c7e3b99c90be",
-	"sha256": "338c8811420a6a02b4c78135c24a1987a9e6deac791b1574bb7f94be49e762ae",
+	"filename": "pool/main/c/cloud-init/cloud-init_25.3-2_all.deb",
+	"size": 682736,
+	"md5": "700988984f8fd22919a701916756e80e",
+	"sha256": "8bb0353d6b6dadae6ec0253d53c1d320a97bbf6f85af1d704cd8556c8dc7c3b5",
 	"descriptionMd5": "7a24c8b28bb6e73e97d38e2f4129f075"
 }
