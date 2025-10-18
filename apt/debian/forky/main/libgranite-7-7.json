@@ -6,24 +6,30 @@
 	],
 	"package": "libgranite-7-7",
 	"source": "granite-7",
-	"version": "7.6.0-3",
+	"version": "7.7.0-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libgranite-7-common (= 7.6.0-3)",
+		"libgranite-7-common (= 7.7.0-1)",
 		"libc6 (>= 2.38)",
 		"libgee-0.8-2 (>= 0.8.3)",
 		"libglib2.0-0t64 (>= 2.80.0)",
-		"libgtk-4-1 (>= 4.6.0)"
+		"libgtk-4-1 (>= 4.12.0)"
 	],
-	"installedSize": 314,
+	"replaces": [
+		"libgranite7"
+	],
+	"breaks": [
+		"libgranite7"
+	],
+	"installedSize": 375,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "extension of GTK4 libraries",
 	"homepage": "https://github.com/elementary/granite",
-	"filename": "pool/main/g/granite-7/libgranite-7-7_7.6.0-3_amd64.deb",
-	"size": 97092,
-	"md5": "3934323f622e135a747192f7729222ab",
-	"sha256": "30d40b16774ce19c7cf5a506193645da48ade5294f55466deb2cbafea158ccb8",
+	"filename": "pool/main/g/granite-7/libgranite-7-7_7.7.0-1_amd64.deb",
+	"size": 135880,
+	"md5": "0c4913fed94ff8bad9bb3fbea3a30c15",
+	"sha256": "3c0c704919b8eae027e75c3f6d125a96cd074b0634b60193399ada729c3a83b4",
 	"descriptionMd5": "2d3c29e3d0904ade95c5a289ca8e9be0"
 }
