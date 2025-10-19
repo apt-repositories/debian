@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "ipband",
-	"source": "ipband (0.8.1-5.1)",
-	"version": "0.8.1-5.1+b2",
+	"version": "0.8.1-6",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"exim4 | mail-transport-agent",
-		"lsb-base (>= 3.0-6)",
-		"libc6 (>= 2.34)",
+		"default-mta | mail-transport-agent",
+		"libc6 (>= 2.38)",
 		"libpcap0.8t64 (>= 0.9.8)"
 	],
-	"installedSize": 89,
-	"maintainer": "Mats Erik Andersson <mats.andersson@gisladisker.se>",
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 92,
+	"maintainer": "Package Salvaging Team <team+salvage@tracker.debian.org>",
 	"description": "daemon for subnet bandwidth monitoring with reporting via email",
 	"homepage": "http://ipband.sourceforge.net/",
-	"filename": "pool/main/i/ipband/ipband_0.8.1-5.1+b2_amd64.deb",
-	"size": 30288,
-	"md5": "37ab284e5c29bd82474e2ff9ed04e125",
-	"sha256": "6d804c8a13a05c7162ce3234243df6082c9065b9621bca3f6c959a2ced5aae97",
+	"filename": "pool/main/i/ipband/ipband_0.8.1-6_amd64.deb",
+	"size": 30420,
+	"md5": "8135b59fa2a2d85b4be43993db89b5c1",
+	"sha256": "7d911beaeeca9fd23b9778b784fd89d52acb6b1d1183581a9b922b2689089452",
 	"descriptionMd5": "0be4450a13737db456fcb076686dbe2e"
 }
