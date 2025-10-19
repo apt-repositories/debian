@@ -6,7 +6,7 @@
 	],
 	"package": "python3-sushy",
 	"source": "python-sushy",
-	"version": "5.5.0-2",
+	"version": "5.7.1-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -20,13 +20,19 @@
 	"suggests": [
 		"python-sushy-doc"
 	],
-	"installedSize": 1025,
+	"replaces": [
+		"python3-sushy-oem-idrac"
+	],
+	"breaks": [
+		"python3-sushy-oem-idrac"
+	],
+	"installedSize": 1181,
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "small library to communicate with Redfish based systems - Python 3.x",
 	"homepage": "https://docs.openstack.org/sushy",
-	"filename": "pool/main/p/python-sushy/python3-sushy_5.5.0-2_all.deb",
-	"size": 113544,
-	"md5": "b555bb8c6938c07aa4131511551e97ae",
-	"sha256": "47578b20d06e67a00b3819bce7597e19c9b6ce9cd903ec27648723dab5254705",
+	"filename": "pool/main/p/python-sushy/python3-sushy_5.7.1-2_all.deb",
+	"size": 129560,
+	"md5": "cda38abdd16d8c38df47ca8a21c9c6f6",
+	"sha256": "995c07a43ddb8d0c9ba01fcaa551bd04b99f743edeeccf780ee9ba01e27da0b0",
 	"descriptionMd5": "b730bbc708a0e87ff9d98c552a48d485"
 }]
