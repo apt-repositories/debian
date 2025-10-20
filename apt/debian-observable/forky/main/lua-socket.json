@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "lua-socket",
-	"source": "luasocket (3.1.0-1)",
-	"version": "3.1.0-1+b2",
+	"source": "luasocket",
+	"version": "3.1.0-2",
 	"section": "interpreters",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.15)"
+		"libc6 (>= 2.38)"
 	],
-	"installedSize": 914,
+	"recommends": [
+		"lua-sec"
+	],
+	"installedSize": 697,
 	"maintainer": "Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>",
 	"description": "TCP/UDP socket library for the Lua language",
 	"homepage": "https://lunarmodules.github.io/luasocket/",
-	"filename": "pool/main/l/luasocket/lua-socket_3.1.0-1+b2_amd64.deb",
-	"size": 85488,
-	"md5": "9d4e59a2207aa7d22383b689ebf0df11",
-	"sha256": "f527839ad52a7bcd89c5af548a5efed8725893bdcfe3c80302f22425e12f4003",
+	"filename": "pool/main/l/luasocket/lua-socket_3.1.0-2_amd64.deb",
+	"size": 77212,
+	"md5": "1a88b3d54e2ab2c27fa23ccf190ba454",
+	"sha256": "beb54c26c60a676ec39dd92a490e2638c9a308c2cec06e2d12798023ea99f849",
 	"descriptionMd5": "16d98ec2922d284e0842f9c8bd770d31"
 }]

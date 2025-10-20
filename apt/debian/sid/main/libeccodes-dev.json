@@ -6,12 +6,14 @@
 	],
 	"package": "libeccodes-dev",
 	"source": "eccodes",
-	"version": "2.44.0-1",
+	"version": "2.44.0-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libeccodes0 (= 2.44.0-1)",
+		"libeccodes0 (= 2.44.0-2)",
+		"libc6 (>= 2.34)",
+		"libgfortran5 (>= 10)",
 		"gfortran-15 | gfortran-mod-16",
 		"libaec-dev",
 		"libpng-dev",
@@ -21,13 +23,13 @@
 	"recommends": [
 		"libeccodes-tools"
 	],
-	"installedSize": 9656,
+	"installedSize": 9612,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "GRIB and BUFR decoding/encoding software library (development)",
 	"homepage": "https://software.ecmwf.int/wiki/display/ECC/ecCodes+Home",
-	"filename": "pool/main/e/eccodes/libeccodes-dev_2.44.0-1_amd64.deb",
-	"size": 1060764,
-	"md5": "5ed02434ef5f9789775bdffc854c94b7",
-	"sha256": "43d5bc52f735072a073b455e820dd037bb03c5b3d4ba01290b7794af71a35d98",
+	"filename": "pool/main/e/eccodes/libeccodes-dev_2.44.0-2_amd64.deb",
+	"size": 1097812,
+	"md5": "6c362fa93ad06625c010f6f424124f63",
+	"sha256": "d5ed950787ccb96158a290a2fa5afadc111dd19aebaf00dc150f78ebf151b453",
 	"descriptionMd5": "38cacbaa96d02cec8bf386e2e0422d74"
 }
