@@ -5,38 +5,40 @@
 		"Size"
 	],
 	"package": "python3-dolfin-real",
-	"source": "dolfin (2019.2.0~legacy20240219.1c52e83-18)",
-	"version": "2019.2.0~legacy20240219.1c52e83-18+b2",
+	"source": "dolfin",
+	"version": "2019.2.0~legacy20240219.1c52e83-24",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdolfin-dev (= 2019.2.0~legacy20240219.1c52e83-18+b2)",
-		"libdolfin2019.2t64 (= 2019.2.0~legacy20240219.1c52e83-18+b2)",
+		"libdolfin-dev (= 2019.2.0~legacy20240219.1c52e83-24)",
+		"libdolfin2019.2t64 (= 2019.2.0~legacy20240219.1c52e83-24)",
 		"python3-petsc4py-real (>= 3.22)",
 		"python3-petsc4py-real (<< 3.23)",
 		"python3-slepc4py-real (>= 3.22)",
 		"python3-slepc4py-real (<< 3.23)",
-		"python3-numpy2-abi0 | python3-numpy-abi9",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.13~)",
 		"python3:any",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.3.1)",
-		"libopenmpi40 (>= 5.0.7)",
-		"libpetsc-real3.22 (>= 3.22.3+dfsg1)",
+		"libopenmpi40 (>= 5.0.8)",
+		"libpetsc-real3.22 (>= 3.22.5+dfsg1)",
 		"libstdc++6 (>= 14)"
 	],
 	"recommends": [
-		"python3-dolfin (= 2019.2.0~legacy20240219.1c52e83-18+b2)"
+		"python3-dolfin (= 2019.2.0~legacy20240219.1c52e83-24)"
 	],
-	"installedSize": 3998,
+	"breaks": [
+		"python3-mshr-real (<< 2019.2.0~git20230811.ff54a68+dfsg1-5)"
+	],
+	"installedSize": 4403,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Python interface for DOLFIN",
-	"homepage": "http://fenicsproject.org",
-	"filename": "pool/main/d/dolfin/python3-dolfin-real_2019.2.0~legacy20240219.1c52e83-18+b2_amd64.deb",
-	"size": 870832,
-	"md5": "c27625c200d78d008ce48dbc6303ef56",
-	"sha256": "d4554dc7728bcd0fb248e68b72f2b8d6269972a1c49e4a634e3e7b9e8cf8cc18",
+	"homepage": "https://fenicsproject.org",
+	"filename": "pool/main/d/dolfin/python3-dolfin-real_2019.2.0~legacy20240219.1c52e83-24_amd64.deb",
+	"size": 977940,
+	"md5": "c4ce2a19df4ec5901b33909958135f6c",
+	"sha256": "8c59cd43f5f050e40d8e3408cade113ee24274bbee2ebaaabd91e92a2e1f772e",
 	"descriptionMd5": "cd25943676baf8079740fbee38d5cb3a"
 }
