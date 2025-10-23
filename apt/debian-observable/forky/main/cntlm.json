@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "cntlm",
-	"version": "0.92.3-1.3",
+	"version": "0.94.0+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
-		"libc6 (>= 2.34)"
+		"libc6 (>= 2.38)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
 	],
 	"replaces": [
 		"ntlmaps"
 	],
-	"installedSize": 147,
-	"maintainer": "David Watson <dwatson@debian.org>",
+	"installedSize": 695,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Fast NTLM authentication proxy with tunneling",
-	"homepage": "http://cntlm.sourceforge.net/",
-	"filename": "pool/main/c/cntlm/cntlm_0.92.3-1.3_amd64.deb",
-	"size": 64004,
-	"md5": "b105d40217084c63dbcfb49126d9e965",
-	"sha256": "39540467ff3adf7dd493939d653248245d34d9312a676b383febe4ba557ef930",
+	"homepage": "https://github.com/versat/cntlm/",
+	"filename": "pool/main/c/cntlm/cntlm_0.94.0+dfsg-1_amd64.deb",
+	"size": 289436,
+	"md5": "fb428e3e9433ac804484922ee67dd295",
+	"sha256": "dcc34df4f2b7d2931f787689b709c0e70fe23c55250d29fb7f37be47b0e484a6",
 	"descriptionMd5": "a09ce14efcc2b3cdd95e19cd49ef5d70"
 }]
