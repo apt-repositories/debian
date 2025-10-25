@@ -1,0 +1,66 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "knot-resolver6",
+	"source": "knot-resolver",
+	"version": "6.0.15-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"dns-root-data",
+		"python3-aiohttp",
+		"python3-jinja2",
+		"python3-yaml",
+		"supervisor",
+		"systemd",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3-typing-extensions",
+		"python3:any",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libdnssec10 (>= 3.5.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libjemalloc2 (>= 2.1.1)",
+		"libknot16 (>= 3.5.0)",
+		"liblmdb0 (>= 0.9.9)",
+		"libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty)",
+		"libnghttp2-14 (>= 1.3.0)",
+		"libstdc++6 (>= 5)",
+		"libsystemd0 (>= 227)",
+		"libuv1t64 (>= 1.30.1)",
+		"libzscanner5 (>= 3.5.0)"
+	],
+	"recommends": [
+		"lua-basexx",
+		"lua-cqueues",
+		"lua-http",
+		"lua-psl",
+		"python3-prometheus-client",
+		"python3-watchdog"
+	],
+	"suggests": [
+		"knot-resolver6-module-http"
+	],
+	"replaces": [
+		"knot-resolver (<< 6)"
+	],
+	"breaks": [
+		"knot-resolver (<< 6)"
+	],
+	"installedSize": 1776,
+	"maintainer": "knot-resolver packagers <knot-resolver@packages.debian.org>",
+	"description": "caching, DNSSEC-validating DNS resolver - binaries",
+	"homepage": "https://www.knot-resolver.cz/",
+	"filename": "pool/main/k/knot-resolver/knot-resolver6_6.0.15-3_amd64.deb",
+	"size": 483856,
+	"md5": "5844212d12315d51409a8b00e567efae",
+	"sha256": "8b8cee40197ce58d6f8fc0e9a800b32e8c4bfde26da77c8e925f293a6a4c3600",
+	"descriptionMd5": "3c5571c7871769e23627f380b607b9f4"
+}]
