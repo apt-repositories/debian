@@ -6,7 +6,7 @@
 	],
 	"package": "librust-ntp-proto-dev",
 	"source": "rust-ntp-proto",
-	"version": "1.6.2-3",
+	"version": "1.6.2-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -27,13 +27,16 @@
 		"librust-zeroize-1+default-dev (>= 1.7-~~)",
 		"librust-rustls-platform-verifier-dev (>= 0.5.3+ds-3)"
 	],
-	"installedSize": 741,
+	"breaks": [
+		"librust-ntpd-dev (<< 1.6.2-2~)"
+	],
+	"installedSize": 742,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Ntpd-rs packet parsing and algorithms - Rust source code",
 	"homepage": "https://github.com/pendulum-project/ntpd-rs",
-	"filename": "pool/main/r/rust-ntp-proto/librust-ntp-proto-dev_1.6.2-3_amd64.deb",
-	"size": 102488,
-	"md5": "ca3d0232b873b9a7d24389ae9194dfec",
-	"sha256": "51e213afeefb330e4705f6fb59206222d560656afd693fd26b2444352f84cdd9",
+	"filename": "pool/main/r/rust-ntp-proto/librust-ntp-proto-dev_1.6.2-4_amd64.deb",
+	"size": 102552,
+	"md5": "a1a45d069942ec5bbe3b1ff968417085",
+	"sha256": "4ad5cc73498583f341c9b95e13dca6ade28133461078512971abe0528a3129fa",
 	"descriptionMd5": "f8e3ce7c61f16f09a5b48ad2ffdf98a4"
 }]
