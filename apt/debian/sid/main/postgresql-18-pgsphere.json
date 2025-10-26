@@ -6,7 +6,7 @@
 	],
 	"package": "postgresql-18-pgsphere",
 	"source": "pgsphere",
-	"version": "1.5.1-3",
+	"version": "1.5.2-1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"libhealpix-cxx4 (>= 3.83.0)",
 		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 1613,
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 1616,
 	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
 	"description": "Spherical data types for PostgreSQL",
 	"homepage": "https://pgsphere.github.io/",
-	"filename": "pool/main/p/pgsphere/postgresql-18-pgsphere_1.5.1-3_amd64.deb",
-	"size": 414148,
-	"md5": "e203234e213016cebcb348a8cd1459ee",
-	"sha256": "11325810f251172c33a924e84037c388854e3feade26cfa01557ebde5a40d48b",
+	"filename": "pool/main/p/pgsphere/postgresql-18-pgsphere_1.5.2-1_amd64.deb",
+	"size": 414668,
+	"md5": "f39e6b4dc1a471ac2f3eede9d0977917",
+	"sha256": "0afad6b60f6499f1c2b4721eb97acdbb51bc68e49ac72e99f04a8bb7b645e1ec",
 	"descriptionMd5": "b5b790b44b5c5fd7b856da395cfb12f9"
 }
