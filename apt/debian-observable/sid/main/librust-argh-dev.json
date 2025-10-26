@@ -6,7 +6,7 @@
 	],
 	"package": "librust-argh-dev",
 	"source": "rust-argh",
-	"version": "0.1.13-1",
+	"version": "0.1.13-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-argh-shared-0.1+serde-dev (>= 0.1.13-~~)",
 		"librust-rust-fuzzy-search-0.1+default-dev (>= 0.1.1-~~)"
 	],
-	"installedSize": 174,
+	"breaks": [
+		"rustc (<< 1.90~)"
+	],
+	"installedSize": 177,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive-based argument parsing optimized for code size - Rust source code",
 	"homepage": "https://github.com/google/argh",
-	"filename": "pool/main/r/rust-argh/librust-argh-dev_0.1.13-1_amd64.deb",
-	"size": 26060,
-	"md5": "acb572feabd57f937199bc6d53e20732",
-	"sha256": "653c71fd340058c108ad9fa8191508ea43a2198b4013884b9760ef0f6c4e1825",
+	"filename": "pool/main/r/rust-argh/librust-argh-dev_0.1.13-2_amd64.deb",
+	"size": 26908,
+	"md5": "ffc24ee6df28208bd4af606cf91b4144",
+	"sha256": "179bcdb1de129b3bfbec1dea26877928cfa504ef5a7828f269dc99c7875ccfca",
 	"descriptionMd5": "a29743506d72b22b57e57063f87f4f7b"
 }]
