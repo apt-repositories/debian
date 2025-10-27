@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-docker-docker-dev",
 	"source": "docker.io",
-	"version": "27.5.1+dfsg3-2",
+	"version": "27.5.1+dfsg3-4",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -60,13 +60,25 @@
 		"golang-github-vishvananda-netlink-dev (>= 1.0.0~)",
 		"golang-github-vishvananda-netns-dev"
 	],
-	"installedSize": 19900,
+	"replaces": [
+		"golang-github-docker-notary-dev"
+	],
+	"breaks": [
+		"docker-compose (<< 2.32)",
+		"golang-github-containers-buildah (<< 1.41.5+ds1-2)",
+		"golang-github-docker-buildx-dev (<< 0.19)",
+		"golang-github-openshift-imagebuilder (<< 1.2.15+ds1-2)"
+	],
+	"conflicts": [
+		"golang-github-docker-notary-dev"
+	],
+	"installedSize": 20515,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "reusable Go packages included with Docker",
 	"homepage": "https://mobyproject.org",
-	"filename": "pool/main/d/docker.io/golang-github-docker-docker-dev_27.5.1+dfsg3-2_all.deb",
-	"size": 2883180,
-	"md5": "636c92ba93be786a7fba8cb001fbdd73",
-	"sha256": "55a2cfb468f4e803efbc3b5a7b8b2b484e4187b55109fd2eb5f3e1261c03ffd7",
+	"filename": "pool/main/d/docker.io/golang-github-docker-docker-dev_27.5.1+dfsg3-4_all.deb",
+	"size": 3001944,
+	"md5": "8c3f5442d00f1a4300a986b6fe789ea5",
+	"sha256": "8ccd78860c1973f3517d2b56c1684d5c3de17d205baaf17a750320b7b39f9a24",
 	"descriptionMd5": "692d023146a024298d2b2f3817f50ca0"
 }]

@@ -6,23 +6,26 @@
 	],
 	"package": "bitlbee-common",
 	"source": "bitlbee",
-	"version": "3.6-1.5",
+	"version": "3.6-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser"
 	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
 	"replaces": [
 		"bitlbee"
 	],
-	"installedSize": 163,
-	"maintainer": "Wilmer van der Gaast <wilmer@gaast.net>",
+	"installedSize": 183,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "IRC to other chat networks gateway (common files/docs)",
-	"homepage": "http://www.bitlbee.org/",
-	"filename": "pool/main/b/bitlbee/bitlbee-common_3.6-1.5_amd64.deb",
-	"size": 70228,
-	"md5": "eb32793226336c8a560859eb9e44051e",
-	"sha256": "1f50a84c1ce29a994d0ea9f5c18553d6cfeb97bf8312b52f54fb70cf8327851e",
+	"homepage": "https://www.bitlbee.org/",
+	"filename": "pool/main/b/bitlbee/bitlbee-common_3.6-2_amd64.deb",
+	"size": 71424,
+	"md5": "ca48f8747f837a3cc50db6776751e0f8",
+	"sha256": "0ff238489698cbfc127b8f885d4e765697f4029105622c904cfdf1bf72d6ff50",
 	"descriptionMd5": "d3354a688316956447ae5786bff4c639"
 }
