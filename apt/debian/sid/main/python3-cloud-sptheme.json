@@ -6,22 +6,29 @@
 	],
 	"package": "python3-cloud-sptheme",
 	"source": "cloud-sptheme",
-	"version": "1.10.1.post20200504175005-7",
+	"version": "1.10.1.post20200504175005-8",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"cloud-sptheme-common (= 1.10.1.post20200504175005-7)",
 		"python3-sphinx",
-		"python3:any"
+		"python3:any",
+		"libjs-sphinxdoc (>= 8.2)"
 	],
-	"installedSize": 146,
+	"replaces": [
+		"cloud-sptheme-common"
+	],
+	"breaks": [
+		"cloud-sptheme-common"
+	],
+	"installedSize": 910,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Cloud Sphinx theme and related extensions (python3 version)",
 	"homepage": "https://cloud-sptheme.readthedocs.io/",
-	"filename": "pool/main/c/cloud-sptheme/python3-cloud-sptheme_1.10.1.post20200504175005-7_all.deb",
-	"size": 36500,
-	"md5": "5745428c87d6847b0f1efe366ea34395",
-	"sha256": "8b2e58542747f8ce33711aeec72290d76d2212db209fe938db1fba23ab20d57e",
-	"descriptionMd5": "684b274896bfcdc57327c674cc63cb2e"
+	"builtUsing": "sphinx (= 8.2.3-8)",
+	"filename": "pool/main/c/cloud-sptheme/python3-cloud-sptheme_1.10.1.post20200504175005-8_all.deb",
+	"size": 141752,
+	"md5": "ea6a16f84af38515169f2add88fdede4",
+	"sha256": "5560afc10cedb0693700dfb3cd473327b511577d800d554a8f076d7a8eb92a93",
+	"descriptionMd5": "ebc8606552e5b8cc5c25e99a9f73d403"
 }

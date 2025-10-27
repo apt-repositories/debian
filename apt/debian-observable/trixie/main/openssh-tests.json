@@ -6,6 +6,38 @@
 	],
 	"package": "openssh-tests",
 	"source": "openssh",
+	"version": "1:10.2p1-2~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openssh-client (= 1:10.2p1-2~bpo13+1)",
+		"openssh-server (= 1:10.2p1-2~bpo13+1)",
+		"openssh-sftp-server (= 1:10.2p1-2~bpo13+1)",
+		"openssl",
+		"putty-tools (>= 0.67-2)",
+		"python3-twisted",
+		"libc6 (>= 2.38)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"installedSize": 7083,
+	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
+	"description": "OpenSSH regression tests",
+	"homepage": "https://www.openssh.com/",
+	"filename": "pool/main/o/openssh/openssh-tests_10.2p1-2~bpo13+1_amd64.deb",
+	"size": 1093856,
+	"sha256": "5e82100c205607a25b926fc209c8ec62809f8a1dc962f313b1d2cda2a123f991",
+	"descriptionMd5": "bb7db5bf0b75d064182f67ac05d849c9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssh-tests",
+	"source": "openssh",
 	"version": "1:10.0p1-7",
 	"section": "net",
 	"priority": "optional",
