@@ -5,32 +5,30 @@
 		"Size"
 	],
 	"package": "libmatekbd-dev",
-	"source": "libmatekbd (1.26.1-1)",
-	"version": "1.26.1-1+b2",
+	"source": "libmatekbd",
+	"version": "1.26.1-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gir1.2-matekbd-1.0 (= 1.26.1-1+b2)",
 		"libglib2.0-dev",
 		"libgtk-3-dev",
-		"libmatekbd4 (= 1.26.1-1+b2)",
+		"libmatekbd4 (= 1.26.1-2)",
 		"libx11-dev",
-		"libxklavier-dev"
+		"libxklavier-dev",
+		"gir1.2-gobject-2.0-dev",
+		"gir1.2-gtk-3.0-dev",
+		"gir1.2-matekbd-1.0 (= 1.26.1-2)",
+		"gir1.2-xkl-1.0-dev",
+		"gir1.2-xlib-2.0-dev"
 	],
-	"replaces": [
-		"gir1.2-matekbd (<< 1.18.2-2~)"
-	],
-	"breaks": [
-		"gir1.2-matekbd (<< 1.18.2-2~)"
-	],
-	"installedSize": 118,
+	"installedSize": 117,
 	"maintainer": "Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>",
 	"description": "MATE library to manage keyboard configuration (development files)",
-	"homepage": "http://www.mate-desktop.org/",
-	"filename": "pool/main/libm/libmatekbd/libmatekbd-dev_1.26.1-1+b2_amd64.deb",
-	"size": 12208,
-	"md5": "6ff71b25e448c65a368f801904c6888d",
-	"sha256": "c47ee4dd2a4eda683e1fa9347968b8eb3ddd73adcd5007748ae99ec150b40539",
+	"homepage": "https://mate-desktop.org/",
+	"filename": "pool/main/libm/libmatekbd/libmatekbd-dev_1.26.1-2_amd64.deb",
+	"size": 12068,
+	"md5": "f54da6c9642aa0e6423ebcfede585abf",
+	"sha256": "ee69f113090101f9cd9fe5cddb62541b9b085358b5622bf3e1ade65a9d7c9f3a",
 	"descriptionMd5": "e93ff714a09bcc1f566662d5ddbcdc7a"
 }]

@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "wireshark-common",
-	"source": "wireshark (4.4.9-1)",
-	"version": "4.4.9-1+b1",
+	"source": "wireshark",
+	"version": "4.6.0-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,6 +15,7 @@
 		"libcap2 (>= 1:2.10)",
 		"libgcrypt20 (>= 1.11.0)",
 		"libglib2.0-0t64 (>= 2.76.0)",
+		"liblz4-1 (>= 1.9.3)",
 		"libmaxminddb0 (>= 1.0.2)",
 		"libnl-3-200 (>= 3.11.0)",
 		"libnl-genl-3-200 (>= 3.11.0)",
@@ -24,16 +25,18 @@
 		"libspeexdsp1 (>= 1.2.1)",
 		"libssh-4 (>= 0.8.0)",
 		"libsystemd0 (>= 246)",
-		"libwireshark18 (>= 4.4.9-1+b1)",
-		"libwiretap15 (>= 4.4.9-1+b1)",
-		"libwsutil16 (>= 4.4.0)",
-		"zlib1g (>= 1:1.1.4)",
+		"libwireshark19 (>= 4.6.0-1)",
+		"libwiretap16 (>= 4.6.0-1)",
+		"libwsutil17 (>= 4.6.0~rc1)",
+		"libxxhash0 (>= 0.7.0)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.2.4)",
 		"debconf (>= 0.5) | debconf-2.0",
 		"debconf",
 		"libcap2-bin"
 	],
 	"recommends": [
-		"wireshark (>= 4.4.9-1+b1) | tshark (>= 4.4.9-1+b1)"
+		"wireshark (>= 4.6.0-1) | tshark (>= 4.6.0-1)"
 	],
 	"replaces": [
 		"wireshark (<< 2.0.0~)",
@@ -44,13 +47,13 @@
 		"wireshark-gtk (<< 3.0.0)",
 		"wireshark-qt (<< 2.0.0~rc3+g841d5e1)"
 	],
-	"installedSize": 1659,
+	"installedSize": 1992,
 	"maintainer": "Balint Reczey <balint@balintreczey.hu>",
 	"description": "network traffic analyzer - common files",
 	"homepage": "https://www.wireshark.org/",
-	"filename": "pool/main/w/wireshark/wireshark-common_4.4.9-1+b1_amd64.deb",
-	"size": 600532,
-	"md5": "83be3e4f9ca12aa938c36cd49a744ce4",
-	"sha256": "9bea403e3d65f9cb4087e4085ee08adc5e2a9565f22cba027da5700f2fe64967",
+	"filename": "pool/main/w/wireshark/wireshark-common_4.6.0-1_amd64.deb",
+	"size": 733484,
+	"md5": "778e10ad4a2d8cbe7af651cbd5cb4637",
+	"sha256": "472f02ba2975f7ba99a24988ac5d029e6722395cf42341908d2b82d8799af652",
 	"descriptionMd5": "b1c29e0c6a4eee149d83574a64f12c2b"
 }]
