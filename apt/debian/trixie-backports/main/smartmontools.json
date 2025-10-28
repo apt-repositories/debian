@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "smartmontools",
+	"version": "7.5-2~bpo13+1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debianutils (>= 2.2)",
+		"sysvinit-utils (>= 3.05-4~)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libgcc-s1 (>= 3.0)",
+		"libselinux1 (>= 3.1~)",
+		"libstdc++6 (>= 11)",
+		"libsystemd0"
+	],
+	"suggests": [
+		"gsmartcontrol",
+		"smart-notifier",
+		"mailx | mailutils",
+		"curl | wget | lynx",
+		"gpg"
+	],
+	"breaks": [
+		"smart-notifier (<= 0.28-8)"
+	],
+	"conflicts": [
+		"smartsuite",
+		"ucsc-smartsuite"
+	],
+	"installedSize": 2455,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "control and monitor storage systems using S.M.A.R.T.",
+	"homepage": "https://www.smartmontools.org/",
+	"filename": "pool/main/s/smartmontools/smartmontools_7.5-2~bpo13+1_amd64.deb",
+	"size": 671144,
+	"sha256": "b44750dd0db999d364708f3c18bc47fe1268bc089a39d5049eeee1e0456b8b79",
+	"descriptionMd5": "ea81561661ccfc1b07aa52e4cc37874a"
+}
