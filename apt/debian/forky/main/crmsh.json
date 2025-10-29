@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "crmsh",
+	"version": "5.0.0-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gawk",
+		"iputils-ping",
+		"pacemaker-cli-utils",
+		"python3-dateutil",
+		"python3-lxml",
+		"python3-packaging",
+		"python3-yaml",
+		"python3:any"
+	],
+	"recommends": [
+		"pacemaker (>= 1.1.12)"
+	],
+	"suggests": [
+		"bash-completion",
+		"cluster-glue",
+		"csync2",
+		"dmidecode",
+		"fdisk | util-linux (<< 2.29.2-3~)",
+		"ocfs2-tools",
+		"openssh-server",
+		"parted",
+		"sbd",
+		"ufw",
+		"vim-addon-manager"
+	],
+	"replaces": [
+		"pacemaker (<< 1.1.12)"
+	],
+	"breaks": [
+		"pacemaker (<< 1.1.12)"
+	],
+	"installedSize": 4473,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>",
+	"description": "CRM shell for the pacemaker cluster manager",
+	"homepage": "https://crmsh.github.io/",
+	"filename": "pool/main/c/crmsh/crmsh_5.0.0-1_all.deb",
+	"size": 1331052,
+	"md5": "a78b118eeedc283fb9eedb4838d0f82a",
+	"sha256": "fb201458492a9e6083e0a6c8991b844fc87cf33ca8819249161d7b7c123635c4",
+	"descriptionMd5": "c5a831ffb32f166ac7366e6706833b86"
+}

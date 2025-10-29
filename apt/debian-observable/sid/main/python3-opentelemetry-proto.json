@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "python3-opentelemetry-proto",
-	"source": "opentelemetry-proto",
-	"version": "1.8.0-1",
+	"source": "python-opentelemetry",
+	"version": "1.35.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,16 @@
 		"python3-protobuf",
 		"python3:any"
 	],
-	"installedSize": 100,
-	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
-	"description": "OpenTelemetry protocol specification and proto files",
-	"homepage": "https://opentelemetry.io/docs/specs/otlp/",
-	"filename": "pool/main/o/opentelemetry-proto/python3-opentelemetry-proto_1.8.0-1_all.deb",
-	"size": 15832,
-	"md5": "45b585e976074b6942c1eadcce918c7f",
-	"sha256": "f813d290fc08ab67226818513a7fe209b6778aa37f474fbc86044fd3134dcbb2",
-	"descriptionMd5": "249fc72047d7bdb8d4e5f458b0c17e55"
+	"suggests": [
+		"python-opentelemetry-doc"
+	],
+	"installedSize": 315,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
+	"description": "OpenTelemetry Python Proto",
+	"homepage": "https://github.com/open-telemetry/opentelemetry-python",
+	"filename": "pool/main/p/python-opentelemetry/python3-opentelemetry-proto_1.35.0-2_all.deb",
+	"size": 57968,
+	"md5": "4fc70eaa99564454a2a0565d44b824f4",
+	"sha256": "6ace7059cec84e4634d36be0a9d14bafa3cffdc059ce746498ff13df5decf04a",
+	"descriptionMd5": "7ef431367ad86bcdf2a0cc909a38c2fc"
 }]
