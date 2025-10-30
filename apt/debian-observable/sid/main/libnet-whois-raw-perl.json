@@ -5,20 +5,27 @@
 		"Size"
 	],
 	"package": "libnet-whois-raw-perl",
-	"version": "2.43-1.1",
+	"version": "2.99042-1",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"perl:any"
+		"perl:any",
+		"libencode-perl",
+		"libhttp-message-perl",
+		"libnet-idn-encode-perl",
+		"libregexp-ipv6-perl",
+		"libtest-simple-perl",
+		"liburi-perl",
+		"libwww-perl"
 	],
-	"installedSize": 134,
-	"maintainer": "Erik Wenzel <erik@debian.org>",
+	"installedSize": 251,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "Perl Module providing an API to access whois database",
 	"homepage": "https://metacpan.org/release/Net-Whois-Raw",
-	"filename": "pool/main/libn/libnet-whois-raw-perl/libnet-whois-raw-perl_2.43-1.1_all.deb",
-	"size": 39292,
-	"md5": "185a4d0802927462c0289481400ef145",
-	"sha256": "edafbcb23e46cfd732ffc928cc1bbf78c27d8a9d7a6488dac229901c91b65d54",
+	"filename": "pool/main/libn/libnet-whois-raw-perl/libnet-whois-raw-perl_2.99042-1_all.deb",
+	"size": 56668,
+	"md5": "94b9d69c0446c13520dd1ef0ad815e64",
+	"sha256": "b9c2c47f8e9f4cf26968cdb75ff279d7f9de09b1f24c8fda12074e2185f3a5d1",
 	"descriptionMd5": "bcc6f5572d82ebe416929ab26a043fad"
 }]

@@ -6,12 +6,12 @@
 	],
 	"package": "quake2",
 	"source": "game-data-packager",
-	"version": "85.1",
+	"version": "86",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"game-data-packager-runtime (>= 85.1)",
+		"game-data-packager-runtime (>= 86)",
 		"quake2-full-data | quake2-demo-data | game-data-packager",
 		"yamagi-quake2 | quake2-engine"
 	],
@@ -23,13 +23,16 @@
 		"quake2-music",
 		"quake2-reckoning"
 	],
+	"breaks": [
+		"yamagi-quake2 (<< 8.30)"
+	],
 	"installedSize": 251,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "classic science-fiction-themed first person shooter",
 	"homepage": "https://wiki.debian.org/Games/GameDataPackager",
-	"filename": "pool/contrib/g/game-data-packager/quake2_85.1_all.deb",
-	"size": 108072,
-	"md5": "5eeb1be6b7984266ffd686bd2d81561a",
-	"sha256": "6411441b744a5e92030bf0b78d93febf836ae8a8a48a0e04f9f98241f18aa5e3",
+	"filename": "pool/contrib/g/game-data-packager/quake2_86_all.deb",
+	"size": 108800,
+	"md5": "2428747a2c52f2213150a391ef210393",
+	"sha256": "4f99012b69087ed055ecae9aad4aa70428e490b661429e6ced39cee06f973a7f",
 	"descriptionMd5": "73a302e08fa7cec5f3d4ce5eaa0d4cfa"
 }]
