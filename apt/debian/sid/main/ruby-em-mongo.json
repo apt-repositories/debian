@@ -5,25 +5,26 @@
 		"Size"
 	],
 	"package": "ruby-em-mongo",
-	"version": "0.5.1-2",
+	"version": "0.6.0-1",
 	"section": "ruby",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"ruby | ruby-interpreter",
-		"ruby-bson",
-		"ruby-eventmachine"
+		"ruby-eventmachine (>= 0.12.10)",
+		"ruby-eventmachine (<< 2.0)",
+		"ruby-bson (>= 1.9.2)",
+		"ruby-bson (<< 2.0)"
 	],
 	"suggests": [
 		"mongodb-server"
 	],
-	"installedSize": 121,
+	"installedSize": 139,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "Ruby EventMachine driver for MongoDB",
 	"homepage": "https://github.com/bcg/em-mongo",
-	"filename": "pool/main/r/ruby-em-mongo/ruby-em-mongo_0.5.1-2_all.deb",
-	"size": 29660,
-	"md5": "bca4328ad0502fddc903c1f45ace813d",
-	"sha256": "ccb004e3efbfe02f315e4526cc6b23d762ceaec9745f05b85d89c9dd57f7ff2e",
+	"filename": "pool/main/r/ruby-em-mongo/ruby-em-mongo_0.6.0-1_all.deb",
+	"size": 33764,
+	"md5": "bab894f239162f2121f431ba01f520f1",
+	"sha256": "bc81edaf113f6cd14d0c40af54fb36b160de65eb975fcef1a5bd8fe7183ba17f",
 	"descriptionMd5": "aeccf739bd1f173afe218d53dcb428ce"
 }
