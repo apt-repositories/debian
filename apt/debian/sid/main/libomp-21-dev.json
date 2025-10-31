@@ -6,12 +6,12 @@
 	],
 	"package": "libomp-21-dev",
 	"source": "llvm-toolchain-21",
-	"version": "1:21.1.4-3",
+	"version": "1:21.1.4-5",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libomp5-21 (= 1:21.1.4-3)",
+		"libomp5 (>= 1:21.1.4-5)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libpython3.13 (>= 3.13.0~rc3)",
@@ -24,18 +24,18 @@
 		"libomp-x.y-dev"
 	],
 	"breaks": [
-		"libiomp-dev (<< 3.7-1)"
+		"libomp-dev (<< 3.7-1)"
 	],
 	"conflicts": [
 		"libomp-x.y-dev"
 	],
-	"installedSize": 1805,
+	"installedSize": 583,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "LLVM OpenMP runtime - dev package",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-21/libomp-21-dev_21.1.4-3_amd64.deb",
-	"size": 326568,
-	"md5": "b476b7e2765a9a622b02734af80ba112",
-	"sha256": "f71e30f27a995b348495b47263e7e0610188cab1bf110e5133a9692a5518a8d2",
+	"filename": "pool/main/l/llvm-toolchain-21/libomp-21-dev_21.1.4-5_amd64.deb",
+	"size": 136080,
+	"md5": "1dce332f27406dc18d02ed1c487adfd9",
+	"sha256": "7f862279d8b055a0706aa8bf2180e4f42852e2eda1607b5b50fc89e15861928a",
 	"descriptionMd5": "6f692a0e089a2d4587b533b4f246db62"
 }

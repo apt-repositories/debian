@@ -1,0 +1,62 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "squid",
+	"version": "6.13-2+deb13u1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libecap3 (>= 1.0.1)",
+		"libgcc-s1 (>= 3.4)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.10+dfsg~)",
+		"libldap2 (>= 2.6.2)",
+		"libltdl7 (>= 2.5.4)",
+		"libnetfilter-conntrack3 (>= 1.0.1)",
+		"libnettle8t64",
+		"libpam0g (>= 0.99.7.1)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libstdc++6 (>= 14)",
+		"libsystemd0",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"netbase",
+		"logrotate (>= 3.5.4-1)",
+		"squid-common (>= 6.13-2+deb13u1)",
+		"libdbi-perl"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"adduser"
+	],
+	"recommends": [
+		"libcap2-bin",
+		"ca-certificates"
+	],
+	"suggests": [
+		"squidclient",
+		"squid-cgi",
+		"squid-purge",
+		"resolvconf (>= 0.40)",
+		"smbclient",
+		"ufw",
+		"winbind",
+		"apparmor"
+	],
+	"installedSize": 8993,
+	"maintainer": "Luigi Gangitano <luigi@debian.org>",
+	"description": "Full featured Web Proxy cache (HTTP proxy GnuTLS flavour)",
+	"homepage": "http://www.squid-cache.org",
+	"filename": "pool/updates/main/s/squid/squid_6.13-2+deb13u1_amd64.deb",
+	"size": 2793720,
+	"sha256": "e8c91c1ddeb4e9440dcfcba1d18cbe001376ede217587829a61f088ac0ece53b",
+	"descriptionMd5": "f75f458cce22198437dad21af036a0a1"
+}

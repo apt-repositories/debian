@@ -6,12 +6,15 @@
 	],
 	"package": "python3-lldb-21",
 	"source": "llvm-toolchain-21",
-	"version": "1:21.1.4-3",
+	"version": "1:21.1.4-5",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"liblldb-21 (= 1:21.1.4-3)"
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"liblldb-21 (= 1:21.1.4-5)"
 	],
 	"replaces": [
 		"python3-lldb-x.y"
@@ -23,9 +26,9 @@
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "Next generation, high-performance debugger, python3 lib",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-21/python3-lldb-21_21.1.4-3_amd64.deb",
-	"size": 181296,
-	"md5": "9f2d4ebfed92065ab700cf88b146c2dc",
-	"sha256": "7318f3a26268451e755c9656d01dd9369b0971512a6939017f038b27e40d738b",
+	"filename": "pool/main/l/llvm-toolchain-21/python3-lldb-21_21.1.4-5_amd64.deb",
+	"size": 183560,
+	"md5": "35efbe579abef8146b8cded9fd1fd8f8",
+	"sha256": "9d910a2a36ff3d988361592a8f64ef835dc99b8012d23389db647f080d0b4342",
 	"descriptionMd5": "0185ffb3cdaadce7edcc313c1e68ae92"
 }]
