@@ -6,13 +6,15 @@
 	],
 	"package": "python3-elasticsearch",
 	"source": "python-elasticsearch",
-	"version": "9.1.1-2",
+	"version": "9.2.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"python3-anyio",
 		"python3-dateutil",
 		"python3-elastic-transport (>= 9.1)",
+		"python3-sniffio",
 		"python3-typing-extensions",
 		"python3:any",
 		"python3-elastic-transport (<< 10)"
@@ -20,13 +22,13 @@
 	"suggests": [
 		"python-elasticsearch-doc"
 	],
-	"installedSize": 5797,
+	"installedSize": 5972,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python client for Elasticsearch (Python3 version)",
 	"homepage": "https://github.com/elasticsearch/elasticsearch-py",
-	"filename": "pool/main/p/python-elasticsearch/python3-elasticsearch_9.1.1-2_all.deb",
-	"size": 339792,
-	"md5": "b4658a7241406716809c6e98e0299afe",
-	"sha256": "44cf0ca89e6732c15cfebd828b55d743b664a1c9a2b581ab992f8ba487c29e5a",
+	"filename": "pool/main/p/python-elasticsearch/python3-elasticsearch_9.2.0-1_all.deb",
+	"size": 348468,
+	"md5": "0e77c970a7a7a5ec2dad91e17ab7c0b0",
+	"sha256": "4611c2320d83b78f2497217e97c230dbe39cd8afc526984d7892848677004924",
 	"descriptionMd5": "6c7f0614651415eaf732c3bb33c7d69b"
 }

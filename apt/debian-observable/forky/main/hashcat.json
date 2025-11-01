@@ -5,30 +5,31 @@
 		"Size"
 	],
 	"package": "hashcat",
-	"version": "6.2.6+ds2-1",
+	"version": "7.1.2+ds1-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"hashcat-data (>= 6.2.6+ds2-1)",
+		"hashcat-data (>= 7.1.2+ds1-3)",
 		"pocl-opencl-icd | opencl-icd",
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libminizip1t64",
 		"libxxhash0 (>= 0.6.5)",
 		"zlib1g (>= 1:1.2.11.dfsg)"
 	],
 	"suggests": [
 		"beignet-opencl-icd",
+		"mesa-opencl-icd",
 		"nvidia-opencl-icd",
-		"mesa-opencl-icd"
+		"python3"
 	],
-	"installedSize": 83083,
+	"installedSize": 122396,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "World's fastest and most advanced password recovery utility",
 	"homepage": "https://hashcat.net/hashcat/",
-	"filename": "pool/main/h/hashcat/hashcat_6.2.6+ds2-1_amd64.deb",
-	"size": 9654832,
-	"md5": "bcaa00c6b08587a5d1ad807535cec4e2",
-	"sha256": "1a5a6a691cd6e42bbe2cb582589c05f3eba2f5dfd0a68f80d21e2431acaf14dc",
-	"descriptionMd5": "f1e089a5d1e0917eeac42f63c095fa76"
+	"filename": "pool/main/h/hashcat/hashcat_7.1.2+ds1-3_amd64.deb",
+	"size": 11622680,
+	"md5": "af861a7ff83a266abffa6a60eb496b97",
+	"sha256": "d55da1644fc2f815e49f16a81907f2d7368930e0eaa6afe7b380e28ddfa33d3d",
+	"descriptionMd5": "318b329349cce953ea35b256bffa240a"
 }]

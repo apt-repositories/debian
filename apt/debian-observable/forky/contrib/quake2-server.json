@@ -6,7 +6,7 @@
 	],
 	"package": "quake2-server",
 	"source": "game-data-packager",
-	"version": "85.1",
+	"version": "86",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "all",
@@ -23,13 +23,16 @@
 		"quake2-groundzero-data",
 		"quake2-reckoning-data"
 	],
-	"installedSize": 166,
+	"breaks": [
+		"yamagi-quake2-core (<< 8.30)"
+	],
+	"installedSize": 168,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "dedicated server for Quake II",
 	"homepage": "https://wiki.debian.org/Games/GameDataPackager",
-	"filename": "pool/contrib/g/game-data-packager/quake2-server_85.1_all.deb",
-	"size": 37428,
-	"md5": "7128014c1de19a68dc1ccc369c622d71",
-	"sha256": "b176c65ad8e28ff064953b9d6222fd0e57f7ce01983c2f5d6ad58fbcd45f6dc0",
+	"filename": "pool/contrib/g/game-data-packager/quake2-server_86_all.deb",
+	"size": 38308,
+	"md5": "a961d35165ecf72acf630fa0900035d8",
+	"sha256": "72545e19f9159c3a74ddf3b5c69066dd4f0c72709c7399326428ea7ed6dda009",
 	"descriptionMd5": "083b1ceafe9ac6ce848313811be0e4de"
 }]
