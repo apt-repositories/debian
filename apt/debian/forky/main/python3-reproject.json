@@ -6,13 +6,12 @@
 	],
 	"package": "python3-reproject",
 	"source": "reproject",
-	"version": "0.15.0-2",
+	"version": "0.18.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"python3 (<< 3.14)",
-		"python3 (>= 3.13~)",
+		"python3 (>= 3~)",
 		"python3-astropy",
 		"python3-astropy-healpix",
 		"python3-dask",
@@ -26,13 +25,16 @@
 		"python3:any",
 		"libc6 (>= 2.14)"
 	],
-	"installedSize": 2997,
+	"suggests": [
+		"python3-shapely"
+	],
+	"installedSize": 2983,
 	"maintainer": "Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>",
 	"description": "Reproject astronomical images with Python 3",
 	"homepage": "https://reproject.readthedocs.org",
-	"filename": "pool/main/r/reproject/python3-reproject_0.15.0-2_amd64.deb",
-	"size": 796528,
-	"md5": "807cea90b023dd82a2b2cdc5a98ddd57",
-	"sha256": "03557e98b1f122413f2ad426d0bbff15917068dc6555eddba8fa3c4c35f6e134",
+	"filename": "pool/main/r/reproject/python3-reproject_0.18.0-1_amd64.deb",
+	"size": 783572,
+	"md5": "d8ab894e5886a082676beeb06881cd05",
+	"sha256": "15d28277e4a01f852bc1405eaa2dacd20510b70d068b3aa0621681bfd06bd941",
 	"descriptionMd5": "cdd4088b40055416ef594e6c7c496963"
 }
