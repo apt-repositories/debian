@@ -6,12 +6,15 @@
 	],
 	"package": "hdf5-plugin-lzf",
 	"source": "h5py",
-	"version": "3.14.0-3",
+	"version": "3.15.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.4)"
+		"libc6 (>= 2.4)",
+		"libhdf5-310 (>= 1.14.3)",
+		"libhdf5-openmpi-310 (>= 1.8.13)",
+		"liblzf1 (>= 1.5)"
 	],
 	"suggests": [
 		"libhdf5-dev | libhdf5-mpi-dev"
@@ -20,9 +23,9 @@
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "hdf5 plugin to lzf compression library",
 	"homepage": "https://www.h5py.org/",
-	"filename": "pool/main/h/h5py/hdf5-plugin-lzf_3.14.0-3_amd64.deb",
-	"size": 13112,
-	"md5": "ee4a5611f473831f4f52e75f5e87051d",
-	"sha256": "918b034934cbb4a46149ca3d217be228970c6cafb28ec0bb66125869a71a734c",
+	"filename": "pool/main/h/h5py/hdf5-plugin-lzf_3.15.1-1_amd64.deb",
+	"size": 13404,
+	"md5": "43460eb823fdb707ba9fa96399a6ba67",
+	"sha256": "dc114f5044c9005dbf8cf4513585deab2e30eeec70f72502b3cfb6578380a5f5",
 	"descriptionMd5": "e97187efff273df88e1d567ee845aba6"
 }

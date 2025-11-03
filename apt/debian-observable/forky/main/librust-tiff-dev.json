@@ -5,22 +5,27 @@
 		"Size"
 	],
 	"package": "librust-tiff-dev",
-	"source": "rust-tiff (0.9.0-1)",
-	"version": "0.9.0-1+b2",
+	"source": "rust-tiff",
+	"version": "0.10.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-fax-0.2+default-dev (>= 0.2.6-~~)",
 		"librust-flate2-1+default-dev (>= 1.0.20-~~)",
-		"librust-jpeg-decoder-0.3-dev",
-		"librust-weezl-0.1+default-dev"
+		"librust-half-2+default-dev (>= 2.4.1-~~)",
+		"librust-quick-error-2+default-dev (>= 2.0.1-~~)",
+		"librust-weezl-0.1+default-dev (>= 0.1.8-~~)",
+		"librust-zstd-0.13+default-dev",
+		"librust-zune-jpeg-0.5+default-dev (>= 0.5.1-~~)"
 	],
-	"installedSize": 1671,
+	"installedSize": 1764,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "TIFF decoding and encoding library in pure Rust - Rust source code",
-	"filename": "pool/main/r/rust-tiff/librust-tiff-dev_0.9.0-1+b2_amd64.deb",
-	"size": 1414820,
-	"md5": "1e91d1d5a13a66dab52d36c5f26c2747",
-	"sha256": "8905886b7f5f84cdd149520e7a93856723b9f730e088fac6aed5be18a3bb6010",
-	"descriptionMd5": "e011caaecffb879e0a5c73047354bbe6"
+	"homepage": "https://github.com/image-rs/image-tiff",
+	"filename": "pool/main/r/rust-tiff/librust-tiff-dev_0.10.3-1_amd64.deb",
+	"size": 1433624,
+	"md5": "ef1ff46901b16818e425fe5c83a8614d",
+	"sha256": "1ecfa095966470639fa14bbc56524771e41bbcfe561330bb71b422d4e1d135a8",
+	"descriptionMd5": "59d3bdf6c9613696948cf99ff132541e"
 }]

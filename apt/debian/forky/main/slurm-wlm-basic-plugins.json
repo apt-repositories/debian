@@ -6,14 +6,14 @@
 	],
 	"package": "slurm-wlm-basic-plugins",
 	"source": "slurm-wlm",
-	"version": "24.11.5-4",
+	"version": "25.05.4-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libdbus-1-3 (>= 1.12)",
-		"libhwloc15 (>= 2.12.0)",
+		"libhwloc15 (>= 2.12.2)",
 		"libjson-c5 (>= 0.15)",
 		"libjwt2 (>= 1.10.1)",
 		"liblua5.1-0 (>= 5.1.3)",
@@ -21,19 +21,19 @@
 		"libnuma1 (>= 2.0.11)",
 		"libyaml-0-2",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"adduser | systemd-sysusers",
+		"systemd-sysusers | adduser",
 		"libpmix2t64"
 	],
 	"recommends": [
-		"slurm-wlm-plugins (= 24.11.5-4)"
+		"slurm-wlm-plugins (= 25.05.4-1)"
 	],
-	"installedSize": 10128,
+	"installedSize": 11177,
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "Slurm basic plugins",
 	"homepage": "http://slurm.schedmd.com",
-	"filename": "pool/main/s/slurm-wlm/slurm-wlm-basic-plugins_24.11.5-4_amd64.deb",
-	"size": 1921916,
-	"md5": "80f90f2da324411a4e96091ccb933ccf",
-	"sha256": "eae21933a82aa3cd3fecd4feba388e392017f8daa5ce5d23bf0b69fb64eaf4fe",
+	"filename": "pool/main/s/slurm-wlm/slurm-wlm-basic-plugins_25.05.4-1_amd64.deb",
+	"size": 2038640,
+	"md5": "f02e3a01861e4bee2b76cae9817eb5a2",
+	"sha256": "29db418bdfd59d5c8df006ef6e6361daa470664040e10a5db4f8afc8384d2290",
 	"descriptionMd5": "c72a31e5e1676a1de0cc863aa2004a4f"
 }
