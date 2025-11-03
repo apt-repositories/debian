@@ -6,19 +6,17 @@
 	],
 	"package": "grub-xen",
 	"source": "grub2",
-	"version": "2.12-9",
+	"version": "2.14~git20250718.0e36779-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
-		"grub-common (= 2.12-9)",
-		"grub2-common (= 2.12-9)",
-		"grub-xen-bin (= 2.12-9)",
+		"grub2-common (= 2.14~git20250718.0e36779-2)",
+		"grub-xen-bin (= 2.14~git20250718.0e36779-2)",
 		"ucf"
 	],
 	"conflicts": [
-		"grub (<< 0.97-54)",
 		"grub-coreboot",
 		"grub-efi-amd64",
 		"grub-efi-ia32",
@@ -26,13 +24,13 @@
 		"grub-legacy",
 		"grub-pc"
 	],
-	"installedSize": 186,
+	"installedSize": 142,
 	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
 	"description": "GRand Unified Bootloader, version 2 (Xen version)",
 	"homepage": "https://www.gnu.org/software/grub/",
-	"filename": "pool/main/g/grub2/grub-xen_2.12-9_amd64.deb",
-	"size": 46600,
-	"md5": "5c5a7e63b4803455f0c673bc35eed5ae",
-	"sha256": "a1ea8b91b1f828813f09939c0a3f4ccc9958898e5b5c9447af95a70905a24e13",
+	"filename": "pool/main/g/grub2/grub-xen_2.14~git20250718.0e36779-2_amd64.deb",
+	"size": 42812,
+	"md5": "6909d0b45d1689232ba4e8bb5906f314",
+	"sha256": "fe67d11608dd912cc8141e2846b5a6d5f0f3d79c0875563aff4f84326036533f",
 	"descriptionMd5": "2eceba62a74d5d7f9e98f3a6f5d2a1d1"
 }
