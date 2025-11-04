@@ -5,17 +5,17 @@
 		"Size"
 	],
 	"package": "email-reminder",
-	"version": "0.8.3-2",
+	"version": "0.8.3-6",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"adduser",
-		"cron",
 		"debconf",
 		"libdate-manip-perl",
 		"libemail-valid-perl",
 		"libxml-dom-perl",
+		"systemd",
 		"python3-defusedxml",
 		"python3-pyside2.qtcore",
 		"python3-pyside2.qtgui",
@@ -25,19 +25,18 @@
 		"python3:any"
 	],
 	"recommends": [
-		"anacron",
 		"default-mta | mail-transport-agent",
 		"libauthen-sasl-perl",
 		"libemail-mime-encodings-perl",
 		"libnet-smtp-ssl-perl"
 	],
-	"installedSize": 189,
+	"installedSize": 197,
 	"maintainer": "Francois Marier <francois@debian.org>",
 	"description": "Send event reminders by email",
 	"homepage": "https://launchpad.net/email-reminder",
-	"filename": "pool/main/e/email-reminder/email-reminder_0.8.3-2_all.deb",
-	"size": 42204,
-	"md5": "440f6e9f65809b2883dca60e8a7a58d4",
-	"sha256": "03b9546c78b39f268a87ef0b0674f003537b8a2ec1ea183a2c89278a3e123e34",
-	"descriptionMd5": "6c7c762521636392c9555f9431302a3a"
+	"filename": "pool/main/e/email-reminder/email-reminder_0.8.3-6_all.deb",
+	"size": 44556,
+	"md5": "5fd708cb4ab0b0bc7a3c23ca9c9ad4ec",
+	"sha256": "5dd2dc1cc02e569032d6194026677a1ede065505cedd968912b89a13ab83e708",
+	"descriptionMd5": "a819b0c9f80cffeffe9a22d352bcf5a8"
 }]

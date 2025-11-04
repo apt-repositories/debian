@@ -6,17 +6,17 @@
 	],
 	"package": "xserver-xorg-video-nvidia-legacy-390xx",
 	"source": "nvidia-graphics-drivers-legacy-390xx",
-	"version": "390.157-13",
+	"version": "390.157-14",
 	"section": "non-free/x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-legacy-390xx-alternative (= 390.157-13)",
+		"nvidia-legacy-390xx-alternative (= 390.157-14)",
 		"nvidia-support",
 		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
 		"xserver-xorg-core (<< 2:21.99)",
 		"libc6 (>= 2.34)",
-		"libnvidia-legacy-390xx-glcore (= 390.157-13)"
+		"libnvidia-legacy-390xx-glcore (= 390.157-14)"
 	],
 	"preDepends": [
 		"nvidia-installer-cleanup"
@@ -24,7 +24,7 @@
 	"recommends": [
 		"nvidia-legacy-390xx-driver (>= 390.157)",
 		"nvidia-legacy-390xx-vdpau-driver (>= 390.157)",
-		"nvidia-legacy-390xx-kernel-dkms (= 390.157-13) | nvidia-legacy-390xx-kernel-390.157",
+		"nvidia-legacy-390xx-kernel-dkms (= 390.157-14) | nvidia-legacy-390xx-kernel-390.157",
 		"nvidia-settings-legacy-390xx (>= 390)"
 	],
 	"suggests": [
@@ -36,13 +36,13 @@
 	"breaks": [
 		"glx-alternative-nvidia (<< 0.6.91)"
 	],
-	"installedSize": 22817,
+	"installedSize": 22818,
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "NVIDIA binary Xorg driver (390xx legacy version)",
 	"homepage": "https://www.nvidia.com",
-	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-390xx/xserver-xorg-video-nvidia-legacy-390xx_390.157-13_amd64.deb",
-	"size": 2435072,
-	"md5": "d594e6848efdd2c594034ca269eaaa28",
-	"sha256": "31b508e5079bbb1ee62f2d0cdc31153df1ad63f8e4bc6c8a8867de197a125ba1",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-390xx/xserver-xorg-video-nvidia-legacy-390xx_390.157-14_amd64.deb",
+	"size": 2439064,
+	"md5": "f5cfe1dd3184c0719261a5bda5a87973",
+	"sha256": "a7201ea297b09487e6147ada1896ee661fc009501bac4c30aea21e68ffa7872a",
 	"descriptionMd5": "c3657281006c717948c04045777c0482"
 }]
