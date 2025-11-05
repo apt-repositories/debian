@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "ruby-docker-api",
-	"version": "2.2.0-2",
+	"version": "2.4.0-1",
 	"section": "ruby",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"ruby",
 		"ruby-minitar",
-		"ruby-excon"
+		"ruby-excon (>= 0.64.0)",
+		"ruby-multi-json"
 	],
 	"recommends": [
 		"podman"
@@ -20,13 +20,13 @@
 	"suggests": [
 		"docker.io"
 	],
-	"installedSize": 95,
+	"installedSize": 94,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "Ruby gem to interact with docker.io remote API",
 	"homepage": "https://github.com/swipely/docker-api",
-	"filename": "pool/main/r/ruby-docker-api/ruby-docker-api_2.2.0-2_all.deb",
-	"size": 28112,
-	"md5": "3ac4b99e14cdcfc28fdb98d660cd2a4b",
-	"sha256": "1d5a6f0679031b36923df18a2b9c6353ae3e238ec37168c6274f78fb2d49dfc6",
+	"filename": "pool/main/r/ruby-docker-api/ruby-docker-api_2.4.0-1_all.deb",
+	"size": 28020,
+	"md5": "b2142d1852e8a90506ba19062d6836f5",
+	"sha256": "bb02b66092e53d6b64d83960ba1f7ce3cad1700f4b4f2c6977b1fad66fa4a4fb",
 	"descriptionMd5": "941133de88304680af86976e2d7b1015"
 }]
