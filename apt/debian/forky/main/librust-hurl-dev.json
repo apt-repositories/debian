@@ -5,14 +5,15 @@
 		"Size"
 	],
 	"package": "librust-hurl-dev",
-	"source": "rust-hurl (6.1.1-1)",
-	"version": "6.1.1-1+b1",
+	"source": "rust-hurl",
+	"version": "6.1.1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-base64-0.22+default-dev (>= 0.22.1-~~)",
-		"librust-brotli-6+default-dev",
+		"librust-brotli+default-dev (<< 9-~~)",
+		"librust-brotli+default-dev (>= 6-~~)",
 		"librust-cc-1+default-dev (>= 1.2.16-~~)",
 		"librust-chrono-0.4+clock-dev (>= 0.4.39-~~)",
 		"librust-clap-4+default-dev (>= 4.5.23-~~)",
@@ -47,13 +48,13 @@
 		"librust-uuid-1+v4-dev (>= 1.10.0-~~)",
 		"librust-xml-rs-0.8+default-dev (>= 0.8.19-~~)"
 	],
-	"installedSize": 1462,
+	"installedSize": 1461,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Run and test HTTP requests - Rust source code",
 	"homepage": "https://hurl.dev",
-	"filename": "pool/main/r/rust-hurl/librust-hurl-dev_6.1.1-1+b1_amd64.deb",
-	"size": 195492,
-	"md5": "f1dfcd8fad16e9633acf4de1359a3bb0",
-	"sha256": "306c4f0eca2c03d256c9215c2be909332da5575655e93da926f889c196c74a0a",
+	"filename": "pool/main/r/rust-hurl/librust-hurl-dev_6.1.1-2_amd64.deb",
+	"size": 195248,
+	"md5": "f5e8247865c7ec6a355e16c933f21258",
+	"sha256": "bb3d29a3ce96a413e9718a00cb5b31277ef7930bd4d4f5cfcd8c57040ce6fa99",
 	"descriptionMd5": "014f5877eb50aba265c0e429bb0e78e7"
 }

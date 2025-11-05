@@ -5,20 +5,25 @@
 		"Size"
 	],
 	"package": "node-supports-color",
-	"version": "8.1.1+~8.1.1-1",
+	"version": "10.2.2+ds-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"node-has-flag"
+		"node-has-flag (>= 5.0.0)"
 	],
-	"installedSize": 26,
+	"breaks": [
+		"jest (<< 29.6.2~ds1+~cs73.45.28-8~)",
+		"node-jest-debbundle (<< 29.6.2~ds1+~cs73.45.28-8~)",
+		"node-jest-worker (<< 29.6.2~ds1+~cs73.45.28-8~)"
+	],
+	"installedSize": 28,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Detect whether a terminal supports color in Node.js",
 	"homepage": "https://github.com/sindresorhus/supports-color",
-	"filename": "pool/main/n/node-supports-color/node-supports-color_8.1.1+~8.1.1-1_all.deb",
-	"size": 6920,
-	"md5": "fa79cadd44cb4dc12906136336f653b9",
-	"sha256": "9763a40876eda02926deb573dbe87044414c891c18b59652265cb9c39ca04565",
+	"filename": "pool/main/n/node-supports-color/node-supports-color_10.2.2+ds-3_all.deb",
+	"size": 6852,
+	"md5": "a429e128da80e9971d9b057dfb3364e1",
+	"sha256": "10e86b60e55ea79693f6e83a6a4b4e86b6549f895b29872e6741f5bae764422f",
 	"descriptionMd5": "573d7633c7d12ba1d08602fa971bcdf5"
 }
