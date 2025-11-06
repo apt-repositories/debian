@@ -6,29 +6,30 @@
 	],
 	"package": "php-symfony-property-info",
 	"source": "symfony",
-	"version": "6.4.25+dfsg-1",
+	"version": "7.4.0~beta2+dfsg-2",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"php-common",
-		"php-symfony-string"
+		"php-symfony-deprecation-contracts",
+		"php-symfony-string",
+		"php-symfony-type-info"
 	],
 	"breaks": [
-		"php-doctrine-annotations (<< 1.12~~)",
 		"php-phpdocumentor-reflection-docblock (<< 5.2~~)",
 		"php-phpdocumentor-type-resolver (<< 1.5.1~~)",
-		"php-symfony-cache (<< 5.4~~)",
+		"php-symfony-cache (<< 6.4~~)",
 		"php-symfony-dependency-injection (<< 6.4~~)",
-		"php-symfony-serializer (<< 5.4~~)"
+		"php-symfony-serializer (<< 6.4~~)"
 	],
-	"installedSize": 177,
+	"installedSize": 202,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "extract information about properties of PHP classes",
-	"homepage": "https://symfony.com/doc/6.4/components/property_info.html",
-	"filename": "pool/main/s/symfony/php-symfony-property-info_6.4.25+dfsg-1_all.deb",
-	"size": 35832,
-	"md5": "0f8543803fc295580d1298fc6c2a1e5b",
-	"sha256": "367a5d9d132f9246aa16de9e445425f694556e79111f671b35867648a427289e",
+	"homepage": "https://symfony.com/doc/7.4/components/property_info.html",
+	"filename": "pool/main/s/symfony/php-symfony-property-info_7.4.0~beta2+dfsg-2_all.deb",
+	"size": 39332,
+	"md5": "11806dff367ad859430e2a677310394d",
+	"sha256": "105b4a09ddc98dbb2bd01f91a3264b3562d2ecd84ac684c048de3c60a7251d2e",
 	"descriptionMd5": "bda4c746bb05428d6e7ac86e28dcd771"
 }]

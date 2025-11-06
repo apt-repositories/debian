@@ -6,20 +6,24 @@
 	],
 	"package": "php-symfony-intl",
 	"source": "symfony",
-	"version": "6.4.25+dfsg-1",
+	"version": "7.4.0~beta2+dfsg-2",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"php-common"
+		"php-common",
+		"php-symfony-deprecation-contracts"
 	],
-	"installedSize": 47637,
+	"breaks": [
+		"php-symfony-string (<< 7.1~~)"
+	],
+	"installedSize": 15938,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "limited replacement layer for the PHP extension intl",
-	"homepage": "https://symfony.com/doc/6.4/components/intl.html",
-	"filename": "pool/main/s/symfony/php-symfony-intl_6.4.25+dfsg-1_all.deb",
-	"size": 4411952,
-	"md5": "596f8dc6c9f151290e137090ad908dce",
-	"sha256": "b7662717ccc26cb32af6903ba80329259e617dfa3a13f483f8e8252f546c4037",
+	"homepage": "https://symfony.com/doc/7.4/components/intl.html",
+	"filename": "pool/main/s/symfony/php-symfony-intl_7.4.0~beta2+dfsg-2_all.deb",
+	"size": 1718268,
+	"md5": "f0b9e17a450dc2d100886abd0bb48a33",
+	"sha256": "2b379f0028d25197d6b002afe41d14ece8126239f1fa49415cacce35e20942b6",
 	"descriptionMd5": "e5f69f9da5edbf6c511b33a98adf8407"
 }]

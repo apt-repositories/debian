@@ -6,20 +6,27 @@
 	],
 	"package": "gnome-settings-daemon-common",
 	"source": "gnome-settings-daemon",
-	"version": "48.1-2",
+	"version": "49.1-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"dconf-gsettings-backend | gsettings-backend"
 	],
-	"installedSize": 5194,
+	"breaks": [
+		"gdm (<< 49~alpha.1)",
+		"gnome-initial-setup (<< 49~alpha)",
+		"gnome-session (<< 49~alpha.1)",
+		"gnome-shell (<< 49~alpha.1)",
+		"ubuntu-session (<< 49~alpha.1)"
+	],
+	"installedSize": 5224,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "daemon handling the GNOME session settings - common files",
 	"homepage": "https://gitlab.gnome.org/GNOME/gnome-settings-daemon",
-	"filename": "pool/main/g/gnome-settings-daemon/gnome-settings-daemon-common_48.1-2_all.deb",
-	"size": 639884,
-	"md5": "72466319484272109549dbc62bc29cf5",
-	"sha256": "32558b7fa7112f4ead21f1885a48fadf0074b81559406cc4747c931e83c5cb68",
+	"filename": "pool/main/g/gnome-settings-daemon/gnome-settings-daemon-common_49.1-2_all.deb",
+	"size": 640060,
+	"md5": "b0329182f266a88087a6ab028e1522c2",
+	"sha256": "af79bce9edd7f74a426487a4e37c521626e035c299a6e4c5b8d3d24f427bf57f",
 	"descriptionMd5": "24223ecc2ddfc19859537b1014c3f5c3"
 }
