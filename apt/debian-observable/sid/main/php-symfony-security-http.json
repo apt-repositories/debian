@@ -6,13 +6,14 @@
 	],
 	"package": "php-symfony-security-http",
 	"source": "symfony",
-	"version": "6.4.25+dfsg-1",
+	"version": "7.4.0~beta2+dfsg-2",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"php-common",
 		"php-symfony-deprecation-contracts",
+		"php-symfony-event-dispatcher",
 		"php-symfony-http-foundation",
 		"php-symfony-http-kernel",
 		"php-mbstring",
@@ -21,19 +22,18 @@
 		"php-symfony-service-contracts"
 	],
 	"breaks": [
-		"php-symfony-clock (<< 6.3~~)",
-		"php-symfony-event-dispatcher (<< 6.0.9~~)",
+		"php-symfony-clock (<< 6.4~~)",
 		"php-symfony-http-client-contracts (<< 3.0~~)",
-		"php-symfony-security-bundle (<< 5.4~~)",
-		"php-symfony-security-csrf (<< 5.4~~)"
+		"php-symfony-security-bundle (<< 6.4~~)",
+		"php-symfony-security-csrf (<< 6.4~~)"
 	],
-	"installedSize": 452,
+	"installedSize": 490,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "infrastructure for authorization systems - HTTP integration",
-	"homepage": "https://symfony.com/doc/6.4/components/security.html",
-	"filename": "pool/main/s/symfony/php-symfony-security-http_6.4.25+dfsg-1_all.deb",
-	"size": 67184,
-	"md5": "2a4d7a6a09bb7f276e9bc302268575af",
-	"sha256": "a9a87f0d60822dd5febae886c20fb3f740afb47d248653331160691e5c006f3c",
+	"homepage": "https://symfony.com/doc/7.4/components/security.html",
+	"filename": "pool/main/s/symfony/php-symfony-security-http_7.4.0~beta2+dfsg-2_all.deb",
+	"size": 73752,
+	"md5": "dcfaa13f155c67ce2da4db8c638ff295",
+	"sha256": "d6e45f0bb733e8c5eb4886efe31bc3fa0d5f83d270b2f77c00eeea99682a2540",
 	"descriptionMd5": "da1542edfad89a40abb8cec26eae7f2b"
 }]

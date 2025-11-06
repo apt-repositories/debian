@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-pglogical",
+	"source": "pglogical",
+	"version": "2.4.6-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libpq5 (>= 9.1~)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 1123,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Logical Replication Extension for PostgreSQL",
+	"homepage": "https://www.2ndquadrant.com/en/resources/pglogical/",
+	"filename": "pool/main/p/pglogical/postgresql-18-pglogical_2.4.6-1_amd64.deb",
+	"size": 354656,
+	"md5": "8fed3b0e81223a213a21be8b6ae70bd4",
+	"sha256": "af5dcedeb023476c0d842cb1d009274042e4902263b046944a1e071fc84325d7",
+	"descriptionMd5": "89747981d1a34b9fdb08e4273681408b"
+}

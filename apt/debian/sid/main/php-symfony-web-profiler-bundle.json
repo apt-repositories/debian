@@ -6,7 +6,7 @@
 	],
 	"package": "php-symfony-web-profiler-bundle",
 	"source": "symfony",
-	"version": "6.4.25+dfsg-1",
+	"version": "7.4.0~beta2+dfsg-2",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,25 +14,28 @@
 		"fonts-jetbrains-mono-web",
 		"php-common",
 		"php-symfony-config",
+		"php-symfony-deprecation-contracts",
 		"php-symfony-framework-bundle",
 		"php-symfony-http-kernel",
 		"php-symfony-routing",
 		"php-symfony-twig-bundle",
-		"php-twig"
+		"php-twig (>= 3.15)",
+		"php-twig (<< 4~~)"
 	],
 	"breaks": [
-		"php-symfony-form (<< 5.4~~)",
-		"php-symfony-mailer (<< 5.4~~)",
-		"php-symfony-messenger (<< 5.4~~)",
-		"php-symfony-twig-bundle (>= 7.0)"
+		"php-symfony-form (<< 6.4~~)",
+		"php-symfony-mailer (<< 6.4~~)",
+		"php-symfony-messenger (<< 6.4~~)",
+		"php-symfony-serializer (<< 7.2~~)",
+		"php-symfony-workflow (<< 7.3~~)"
 	],
-	"installedSize": 593,
+	"installedSize": 1269,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "collect requests information for analysis and debugging",
-	"homepage": "https://symfony.com/doc/6.4/bundles",
-	"filename": "pool/main/s/symfony/php-symfony-web-profiler-bundle_6.4.25+dfsg-1_all.deb",
-	"size": 93680,
-	"md5": "696246817c732507341a70a4be5257ae",
-	"sha256": "0a279a3614178f838b9c6ae201f4838056efba4e8726c3b9c7cc90b361b0dc25",
+	"homepage": "https://symfony.com/doc/7.4/bundles",
+	"filename": "pool/main/s/symfony/php-symfony-web-profiler-bundle_7.4.0~beta2+dfsg-2_all.deb",
+	"size": 265484,
+	"md5": "de86278f6ba1bd41629e5987a7b2d6ae",
+	"sha256": "c2ef99be283804f50753db32c4e262eca27056c1c230149128eb8a6eb62de0ed",
 	"descriptionMd5": "204363f432ac642e05027694f91b814e"
 }

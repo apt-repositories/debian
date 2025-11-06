@@ -6,7 +6,7 @@
 	],
 	"package": "php-symfony-mailchimp-mailer",
 	"source": "symfony",
-	"version": "6.4.25+dfsg-1",
+	"version": "7.4.0~beta2+dfsg-2",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,16 @@
 		"php-common",
 		"php-symfony-mailer"
 	],
-	"installedSize": 76,
+	"breaks": [
+		"php-symfony-webhook (<< 7.2~~)"
+	],
+	"installedSize": 87,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "Symfony Mailchimp Mailer Bridge",
-	"homepage": "https://symfony.com/doc/6.4/components/mailer.html",
-	"filename": "pool/main/s/symfony/php-symfony-mailchimp-mailer_6.4.25+dfsg-1_all.deb",
-	"size": 22500,
-	"md5": "0899b1f389469d6a9a3e4cb1a052fdc6",
-	"sha256": "13900a8bd502ccc808ffff0e8b7af0cd354638582d588f3b16847dc5fc21c014",
+	"homepage": "https://symfony.com/doc/7.4/components/mailer.html",
+	"filename": "pool/main/s/symfony/php-symfony-mailchimp-mailer_7.4.0~beta2+dfsg-2_all.deb",
+	"size": 25316,
+	"md5": "1969281eefe02979648e2872b8f378df",
+	"sha256": "c389a09bf33ecf8c79fe1ad288545bd74f394af2b4c5253d29c347e8782e50f2",
 	"descriptionMd5": "09b37697c6b302c8905fdc1740b0c819"
 }]

@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "tini",
-	"version": "0.19.0-4",
+	"version": "0.19.0-5",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)"
 	],
-	"installedSize": 764,
+	"suggests": [
+		"tini-static"
+	],
+	"installedSize": 38,
 	"maintainer": "ChangZhuo Chen (陳昌倬) <czchen@debian.org>",
 	"description": "tiny but valid init for containers",
 	"homepage": "https://github.com/krallin/tini",
 	"builtUsing": "glibc (= 2.41-12)",
-	"filename": "pool/main/t/tini/tini_0.19.0-4_amd64.deb",
-	"size": 280224,
-	"md5": "8707d936318425f00a72be5964a26c7a",
-	"sha256": "ba129f2d39c942567f147cfe467bd01bd88976068d8b6235c9e1219410bda596",
+	"filename": "pool/main/t/tini/tini_0.19.0-5_amd64.deb",
+	"size": 10148,
+	"md5": "bb0aab8dffb882b121cc0779f3879dc9",
+	"sha256": "cbaaac7447633f7a396e345e71256793720d8abe436cd4261f523f14c93a4ce6",
 	"descriptionMd5": "357ed699f389f83b2e63df42023fdadd"
 }
