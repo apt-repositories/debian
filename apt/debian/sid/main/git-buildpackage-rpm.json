@@ -6,16 +6,16 @@
 	],
 	"package": "git-buildpackage-rpm",
 	"source": "git-buildpackage",
-	"version": "0.9.38",
+	"version": "0.9.39",
 	"section": "vcs",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3:any (>= 3.12~)",
 		"cpio",
-		"git-buildpackage (= 0.9.38)",
+		"git-buildpackage (= 0.9.39)",
 		"python3-rpm (>= 4.16.1)",
-		"rpm (>= 4.16.1)"
+		"rpm (>= 4.16.1)",
+		"python3:any (>= 3.12~)"
 	],
 	"recommends": [
 		"pristine-tar (>= 0.5)"
@@ -23,16 +23,15 @@
 	"suggests": [
 		"python3-notify2",
 		"unzip",
-		"zipmerge",
-		"mock"
+		"zipmerge"
 	],
-	"installedSize": 214,
+	"installedSize": 216,
 	"maintainer": "Guido Günther <agx@sigxcpu.org>",
 	"description": "Suite to help with RPM packages in Git repositories",
 	"homepage": "https://honk.sigxcpu.org/piki/projects/git-buildpackage/",
-	"filename": "pool/main/g/git-buildpackage/git-buildpackage-rpm_0.9.38_all.deb",
-	"size": 65020,
-	"md5": "d3a20c3272804fd0d4c5a1e88dcbb39b",
-	"sha256": "875ce98731d12038e323930da66d323283bf81c8b19460a111cc7aa8596dd512",
+	"filename": "pool/main/g/git-buildpackage/git-buildpackage-rpm_0.9.39_all.deb",
+	"size": 66384,
+	"md5": "d493863e2618592d024b4489d129a15d",
+	"sha256": "6b0e5739497a5b4250cedbeb0bad675d0c53e133b620974f8538ce47f614ead8",
 	"descriptionMd5": "d618510ca8888f32507ce48f1d881128"
 }

@@ -6,28 +6,32 @@
 	],
 	"package": "libunwind-21-dev",
 	"source": "llvm-toolchain-21",
-	"version": "1:21.1.4-5",
+	"version": "1:21.1.4-8",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"llvm-libunwind1 (>= 1:21.1.4-5)"
+		"llvm-libunwind1 (>= 1:21.1.4-8)"
 	],
 	"replaces": [
 		"libunwind-dev",
-		"libunwind-x.y-dev"
+		"libunwind-x.y-dev",
+		"llvm-libunwind1 (<< 1:21.1.4-6)"
+	],
+	"breaks": [
+		"llvm-libunwind1 (<< 1:21.1.4-6)"
 	],
 	"conflicts": [
 		"libunwind-dev",
 		"libunwind-x.y-dev"
 	],
-	"installedSize": 365,
+	"installedSize": 368,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "production-quality unwinder",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-21/libunwind-21-dev_21.1.4-5_amd64.deb",
-	"size": 86692,
-	"md5": "9c09a3fb761a41928fc9867ba107f427",
-	"sha256": "8998491167be88ff2e02551f2501db615728917353d672f05d3e15d4755a4c1f",
+	"filename": "pool/main/l/llvm-toolchain-21/libunwind-21-dev_21.1.4-8_amd64.deb",
+	"size": 87468,
+	"md5": "4ef7db876317514a019e1244abfeeba6",
+	"sha256": "bb8ce2384d7cff890f7c26fb7cd4be1089558e477073a3fca6d007e2f14cf309",
 	"descriptionMd5": "70dd0c847cdef69a0ce9c2191d54b77e"
 }

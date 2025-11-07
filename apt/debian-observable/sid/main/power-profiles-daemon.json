@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "power-profiles-daemon",
-	"version": "0.30-1.1",
+	"version": "0.30-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,17 +17,21 @@
 		"python3:any (>= 3.11~)",
 		"python3-gi"
 	],
+	"replaces": [
+		"tuned-ppd"
+	],
 	"conflicts": [
 		"laptop-mode-tools",
-		"tlp"
+		"tlp",
+		"tuned-ppd"
 	],
 	"installedSize": 186,
 	"maintainer": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>",
-	"description": "Makes power profiles handling available over D-Bus.",
+	"description": "D-Bus service for power profile handling",
 	"homepage": "https://gitlab.freedesktop.org/upower/power-profiles-daemon",
-	"filename": "pool/main/p/power-profiles-daemon/power-profiles-daemon_0.30-1.1_amd64.deb",
-	"size": 55840,
-	"md5": "755aa87656addbcef96e08db7670f8f6",
-	"sha256": "12c94dcb80a772226fe96ac7d88ddfd20bb7c066366427325aa01641e8518851",
-	"descriptionMd5": "213d6c45e73a56a85397e1ed15723d77"
+	"filename": "pool/main/p/power-profiles-daemon/power-profiles-daemon_0.30-2_amd64.deb",
+	"size": 55948,
+	"md5": "b687de323685868808a46988fdeee358",
+	"sha256": "6e544d123ffbf3f99cf5ea64837e23a353a0248effa4993624f3f60a58813eef",
+	"descriptionMd5": "63baecc2d07b12b2e5b6f848cc0bba30"
 }]
