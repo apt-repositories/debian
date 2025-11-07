@@ -6,27 +6,31 @@
 	],
 	"package": "libc++-21-dev",
 	"source": "llvm-toolchain-21",
-	"version": "1:21.1.4-5",
+	"version": "1:21.1.4-8",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc++1 (>= 1:21.1.4-5)",
-		"libc++abi-21-dev (= 1:21.1.4-5)"
+		"libc++1 (>= 1:21.1.4-8)",
+		"libc++abi-21-dev (= 1:21.1.4-8)"
 	],
 	"replaces": [
-		"libc++-x.y-dev"
+		"libc++-x.y-dev",
+		"libc++1 (<< 1:21.1.4-6)"
+	],
+	"breaks": [
+		"libc++1 (<< 1:21.1.4-6)"
 	],
 	"conflicts": [
 		"libc++-x.y-dev"
 	],
-	"installedSize": 17058,
+	"installedSize": 17062,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "LLVM C++ Standard library (development files)",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-21/libc++-21-dev_21.1.4-5_amd64.deb",
-	"size": 1503224,
-	"md5": "8e5ce68471b3763c20ba8cbf066026b5",
-	"sha256": "3996adc852bd42359b254f989f11ef5a80ec7093d3fd7e9837fc0f199730c4cd",
+	"filename": "pool/main/l/llvm-toolchain-21/libc++-21-dev_21.1.4-8_amd64.deb",
+	"size": 1503776,
+	"md5": "1dc85079f656bea52b6bbae92d0f1a4c",
+	"sha256": "7030d9cee7b32d5c103c0dd9372c6cc4d932ee50971c1efa75a2e59c9ee48362",
 	"descriptionMd5": "8cd44d2ae4969ab1c95a30917ddc69e7"
 }]

@@ -5,28 +5,28 @@
 		"Size"
 	],
 	"package": "git-buildpackage",
-	"version": "0.9.38",
+	"version": "0.9.39",
 	"section": "vcs",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-dateutil",
-		"python3:any (>= 3.12~)",
 		"devscripts (>= 2.25.2~)",
 		"git (>= 1:2.40.1-1)",
 		"man-db",
+		"python3-dateutil",
 		"python3-yaml",
-		"sensible-utils"
+		"sensible-utils",
+		"python3:any (>= 3.12~)"
 	],
 	"recommends": [
-		"pristine-tar (>= 1.41)",
 		"cowbuilder | pbuilder | sbuild",
+		"pristine-tar (>= 1.41)",
 		"python3-requests"
 	],
 	"suggests": [
 		"python3-notify2",
-		"unzip",
-		"sudo"
+		"sudo",
+		"unzip"
 	],
 	"breaks": [
 		"dgit (<< 9.16~)"
@@ -35,9 +35,9 @@
 	"maintainer": "Guido Günther <agx@sigxcpu.org>",
 	"description": "Suite to help with Debian packages in Git repositories",
 	"homepage": "https://honk.sigxcpu.org/piki/projects/git-buildpackage/",
-	"filename": "pool/main/g/git-buildpackage/git-buildpackage_0.9.38_all.deb",
-	"size": 824520,
-	"md5": "99aa2e822b83d31acf72441d0ba68841",
-	"sha256": "5bc21731c15102a86a141c2ccc21b092f0a26363a665336968d5baa5b9c1eed8",
+	"filename": "pool/main/g/git-buildpackage/git-buildpackage_0.9.39_all.deb",
+	"size": 826108,
+	"md5": "f739be2d33dd007f748d72f9a991d223",
+	"sha256": "ba6ef3d1793e68b5e9220bdd5705247b9b74295fd0601725b98a01e9770d7513",
 	"descriptionMd5": "89d6bd0b3fedfb757da7a90ca9202b1c"
 }
