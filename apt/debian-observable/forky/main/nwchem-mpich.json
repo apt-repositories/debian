@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nwchem-mpich",
+	"source": "nwchem",
+	"version": "7.3.0-1",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mpich",
+		"nwchem-data (= 7.3.0-1)",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.0)",
+		"libgfortran5 (>= 10)",
+		"liblapack3 | liblapack.so.3",
+		"libmpich12",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libscalapack-mpich2.2 (>= 2.2.2)"
+	],
+	"replaces": [
+		"nwchem (<< 7.2.3-4)"
+	],
+	"breaks": [
+		"nwchem (<< 7.2.3-4)"
+	],
+	"installedSize": 71710,
+	"maintainer": "Debichem Team <debichem-devel@lists.alioth.debian.org>",
+	"description": "High-performance computational chemistry software (MPICH build)",
+	"homepage": "https://nwchemgit.github.io",
+	"filename": "pool/main/n/nwchem/nwchem-mpich_7.3.0-1_amd64.deb",
+	"size": 13743672,
+	"md5": "d0d940412176c31a41240fd71629a176",
+	"sha256": "21c360477d5ab883bb8cc43b27e1bfd20a80a27b57ce7ac06ac2b8e75f5ab391",
+	"descriptionMd5": "1329271868184a66e4abe540c30fd35e"
+}]

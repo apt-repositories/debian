@@ -5,16 +5,16 @@
 		"Size"
 	],
 	"package": "gcc-mingw-w64-x86-64-posix",
-	"source": "gcc-mingw-w64 (27)",
-	"version": "14.2.0-19+27+b1",
+	"source": "gcc-mingw-w64 (28)",
+	"version": "15.2.0-7+28",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"binutils-mingw-w64-x86-64 (>= 2.30~)",
+		"binutils-mingw-w64-x86-64",
 		"mingw-w64-x86-64-dev",
-		"gcc-mingw-w64-x86-64-posix-runtime (= 14.2.0-19+27+b1)",
-		"gcc-mingw-w64-base (= 14.2.0-19+27+b1)",
+		"gcc-mingw-w64-x86-64-posix-runtime (= 15.2.0-7+28)",
+		"gcc-mingw-w64-base (= 15.2.0-7+28)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libgmp10 (>= 2:6.3.0+dfsg)",
@@ -26,7 +26,7 @@
 		"zlib1g (>= 1:1.1.4)"
 	],
 	"suggests": [
-		"gcc-14-locales (>= 14.2.0)"
+		"gcc-15-locales (>= 15.2.0)"
 	],
 	"replaces": [
 		"gcc-mingw-w64-bootstrap"
@@ -34,14 +34,14 @@
 	"conflicts": [
 		"gcc-mingw-w64-bootstrap"
 	],
-	"installedSize": 140965,
+	"installedSize": 153438,
 	"maintainer": "Stephen Kitt <skitt@debian.org>",
 	"description": "GNU C compiler for MinGW-w64, Win64/POSIX",
 	"homepage": "https://www.gnu.org/software/gcc/",
-	"builtUsing": "gcc-14 (= 14.2.0-19)",
-	"filename": "pool/main/g/gcc-mingw-w64/gcc-mingw-w64-x86-64-posix_14.2.0-19+27+b1_amd64.deb",
-	"size": 37567656,
-	"md5": "1358c388d7437134536211422270726a",
-	"sha256": "e32d24cfd1482394f16d9a84c1d0a9f5aa08ee826a79acc383c70cc8c23c4fe5",
+	"builtUsing": "gcc-15 (= 15.2.0-7)",
+	"filename": "pool/main/g/gcc-mingw-w64/gcc-mingw-w64-x86-64-posix_15.2.0-7+28_amd64.deb",
+	"size": 41001552,
+	"md5": "7dd3fc3227adeaa90c6a9f4ec9f6a1c1",
+	"sha256": "712f9da4fa87476cb669ee0cc7a56f386297bd2ca5fd92ea80fe67454fcd7942",
 	"descriptionMd5": "6a3f3e94c5611377c2ca02e8e014ab3a"
 }

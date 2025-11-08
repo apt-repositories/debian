@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.17.7+deb14+1-cloud-amd64",
+	"source": "linux-signed-amd64 (6.17.7+2)",
+	"version": "6.17.7-2",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.17",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.17.7+deb14+1-cloud-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.17.7+deb14+1-cloud-amd64-unsigned"
+	],
+	"installedSize": 35307,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.17.7 for x86-64 cloud (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.17.7-2)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.17.7+deb14+1-cloud-amd64_6.17.7-2_amd64.deb",
+	"size": 34671644,
+	"md5": "78ec34cbe27a9de98474aa4be4cb9a4e",
+	"sha256": "a377a1f824842cffa569a5693bc034e23c00f49ea641bdc3d2902b130fb98709",
+	"descriptionMd5": "9320da2728f0b610bb7f5a7d6464a82b"
+}]

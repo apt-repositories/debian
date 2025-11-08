@@ -6,7 +6,7 @@
 	],
 	"package": "libhsa-runtime64-1",
 	"source": "rocr-runtime",
-	"version": "6.4.3+dfsg-3",
+	"version": "6.4.3+dfsg-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,17 @@
 		"libhsakmt1 (>= 6.4.3)",
 		"libstdc++6 (>= 14)"
 	],
+	"breaks": [
+		"libamdhip64-5",
+		"rocm-opencl-icd (<< 6.4)"
+	],
 	"installedSize": 4127,
 	"maintainer": "Debian ROCm Team <debian-ai@lists.debian.org>",
 	"description": "HSA Runtime API and runtime for ROCm",
 	"homepage": "https://github.com/ROCm/ROCR-Runtime/",
-	"filename": "pool/main/r/rocr-runtime/libhsa-runtime64-1_6.4.3+dfsg-3_amd64.deb",
-	"size": 628088,
-	"md5": "a30d652d08bb90878d75bb6b5d0a1b6b",
-	"sha256": "ed2b5df43e8b8d5b126b7dccfff9c1022ff227d03ff8c8c1cf5e7bbaf0d4935e",
+	"filename": "pool/main/r/rocr-runtime/libhsa-runtime64-1_6.4.3+dfsg-4_amd64.deb",
+	"size": 628012,
+	"md5": "b1ed31d174a6cc21e9b5f9484f04f691",
+	"sha256": "e73688f95e4f96a7cd992af063808702471c0c9ee9431acd3be2d6ebdc58a579",
 	"descriptionMd5": "3b6dc07958d486a817a5f2ac17827c4a"
 }]
