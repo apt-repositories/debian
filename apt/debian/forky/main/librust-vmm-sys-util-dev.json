@@ -6,22 +6,26 @@
 	],
 	"package": "librust-vmm-sys-util-dev",
 	"source": "rust-vmm-sys-util",
-	"version": "0.12.1-2",
+	"version": "0.15.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bitflags-1+default-dev",
-		"librust-libc-0.2+default-dev (>= 0.2.39-~~)",
+		"librust-libc-0.2+default-dev (>= 0.2.127-~~)",
 		"librust-serde-1+default-dev (>= 1.0.27-~~)",
 		"librust-serde-derive-1+default-dev (>= 1.0.27-~~)"
 	],
-	"installedSize": 306,
+	"breaks": [
+		"librust-vhost-dev (<< 0.14.0-2~)"
+	],
+	"installedSize": 322,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "System utility set - Rust source code",
-	"filename": "pool/main/r/rust-vmm-sys-util/librust-vmm-sys-util-dev_0.12.1-2_amd64.deb",
-	"size": 57248,
-	"md5": "a92065db1835d5f1b5b74ee8ae9b2087",
-	"sha256": "b2e8664974ccfed66c9f2a94365dd1c9715c55eb6822c8fb0a9ba915c6eb29ac",
+	"homepage": "https://github.com/rust-vmm/vmm-sys-util",
+	"filename": "pool/main/r/rust-vmm-sys-util/librust-vmm-sys-util-dev_0.15.0-3_amd64.deb",
+	"size": 60424,
+	"md5": "a8cb22db4395f63f395b3bedbba94daa",
+	"sha256": "4c257e03ea7ed0f821faba8b42c92f4040fcbaa545bf07ebb08c6604d538e6e8",
 	"descriptionMd5": "c0f5586323ae2bced9064f8b4d30e434"
 }

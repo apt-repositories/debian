@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.17.7+deb14+1-rt-amd64-unsigned",
+	"source": "linux",
+	"version": "6.17.7-2",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.17",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.17.7+deb14+1-rt-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.17.7+deb14+1-rt-amd64"
+	],
+	"installedSize": 114038,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.17.7 for 64-bit PCs, PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-6.17.7+deb14+1-rt-amd64-unsigned_6.17.7-2_amd64.deb",
+	"size": 113318180,
+	"md5": "31818e0230edaf237a9d4ae8b94f893a",
+	"sha256": "b388f5f481eab3e4e2a29af7df530b12a996aef797f7d15bace43acb7f80570d",
+	"descriptionMd5": "49870d999f18d2e38a21d4135233c5fb"
+}]
