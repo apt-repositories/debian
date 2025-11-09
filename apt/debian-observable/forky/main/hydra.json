@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "hydra",
-	"version": "9.6-1",
+	"version": "9.6-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libapr1t64 (>= 1.2.7)",
+		"libbson2-2 (>= 2.1.2)",
 		"libc6 (>= 2.38)",
 		"libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2)",
 		"libfreerdp3-3 (>= 3.0.0)",
@@ -18,11 +19,14 @@
 		"libidn12 (>= 1.13)",
 		"libmariadb3 (>= 3.0.0)",
 		"libmemcached11t64 (>= 1.1.4)",
+		"libmongoc2-2 (>= 2.1.2)",
 		"libpcre2-8-0 (>= 10.22)",
 		"libpq5",
+		"libsmbclient0 (>= 2:4.1.1)",
 		"libssh-4 (>= 0.8.0)",
 		"libssl3t64 (>= 3.0.0)",
 		"libsvn1 (>= 1.10)",
+		"libsybdb5 (>= 0.63)",
 		"libtinfo6 (>= 6)",
 		"libwinpr3-3 (>= 3.0.0)",
 		"zlib1g (>= 1:1.1.4)"
@@ -30,13 +34,13 @@
 	"recommends": [
 		"wget | curl"
 	],
-	"installedSize": 992,
+	"installedSize": 964,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "very fast network logon cracker",
 	"homepage": "https://github.com/vanhauser-thc/thc-hydra",
-	"filename": "pool/main/h/hydra/hydra_9.6-1_amd64.deb",
-	"size": 284828,
-	"md5": "61ca18f87276997a6c42058d6fec91e9",
-	"sha256": "1f4e0da42bba9103e357d7e2363b0f6c71c47156cba7ecb9ad685fbead3798ee",
+	"filename": "pool/main/h/hydra/hydra_9.6-3_amd64.deb",
+	"size": 278564,
+	"md5": "0724e2950bbde45e7993544ffaf655d3",
+	"sha256": "b995a7405c7d5237f39ce966ebaadffe6735365c03c419027a7b30b3be979605",
 	"descriptionMd5": "c849a0faa8f1b7cb385d4edb63828061"
 }]
