@@ -6,17 +6,17 @@
 	],
 	"package": "xserver-xorg-video-nvidia-tesla-550",
 	"source": "nvidia-graphics-drivers-tesla-550",
-	"version": "550.54.15-2",
+	"version": "550.54.15-3",
 	"section": "non-free/x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-tesla-550-alternative (= 550.54.15-2)",
+		"nvidia-tesla-550-alternative (= 550.54.15-3)",
 		"nvidia-support",
 		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
 		"xserver-xorg-core (<< 2:21.99)",
 		"libc6 (>= 2.34)",
-		"libnvidia-tesla-550-glcore (= 550.54.15-2)"
+		"libnvidia-tesla-550-glcore (= 550.54.15-3)"
 	],
 	"preDepends": [
 		"nvidia-installer-cleanup"
@@ -25,19 +25,19 @@
 		"nvidia-tesla-550-driver (>= 550.54.15)",
 		"nvidia-tesla-550-vdpau-driver (>= 550.54.15)",
 		"nvidia-tesla-550-vulkan-icd (>= 550.54.15)",
-		"nvidia-tesla-550-kernel-dkms (= 550.54.15-2) | nvidia-tesla-550-kernel-550.54.15 | nvidia-open-kernel-550.54.15",
+		"nvidia-tesla-550-kernel-dkms (= 550.54.15-3) | nvidia-tesla-550-kernel-550.54.15 | nvidia-open-kernel-550.54.15",
 		"nvidia-suspend-common"
 	],
 	"suggests": [
 		"nvidia-tesla-550-kernel-dkms (>= 550.54.15) | nvidia-tesla-550-kernel-source (>= 550.54.15) | nvidia-open-kernel-source (>= 550.54.15)"
 	],
-	"installedSize": 20008,
+	"installedSize": 20009,
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "NVIDIA binary Xorg driver (Tesla 550 version)",
 	"homepage": "https://www.nvidia.com",
-	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-550/xserver-xorg-video-nvidia-tesla-550_550.54.15-2_amd64.deb",
-	"size": 2359992,
-	"md5": "30624d008a67ef39befda2361ac2e7ce",
-	"sha256": "39a9abb4d2eed38432964d90743fac14dbbae1440e52b89d828a08be701e53af",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-550/xserver-xorg-video-nvidia-tesla-550_550.54.15-3_amd64.deb",
+	"size": 2400916,
+	"md5": "2368383c3903dfeab3468add85deafae",
+	"sha256": "dddeed3e77a8354e2e6a7472508eeaa8da3a5642e990ade32ed4c4497eb44053",
 	"descriptionMd5": "f4421517964668200a8338c010072c36"
 }]

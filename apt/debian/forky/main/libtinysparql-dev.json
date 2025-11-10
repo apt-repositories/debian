@@ -5,20 +5,23 @@
 		"Size"
 	],
 	"package": "libtinysparql-dev",
-	"source": "tinysparql (3.8.2-7)",
-	"version": "3.8.2-7+b1",
+	"source": "tinysparql",
+	"version": "3.10.1-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gir1.2-tsparql-3.0 (= 3.8.2-7+b1)",
+		"gir1.2-tsparql-3.0 (= 3.10.1-2)",
 		"libglib2.0-dev (>= 2.52.0)",
 		"libicu-dev (>= 4.8.1.1)",
 		"libjson-glib-dev (>= 1.4)",
 		"libsoup-3.0-dev (>= 2.40)",
-		"libsqlite3-dev (>= 3.15.0)",
-		"libtinysparql-3.0-0 (= 3.8.2-7+b1)",
-		"libxml2-dev (>= 2.6)"
+		"libsqlite3-dev (>= 3.24.0)",
+		"libtinysparql-3.0-0 (= 3.10.1-2)",
+		"libxml2-dev (>= 2.6)",
+		"gir1.2-gio-2.0-dev",
+		"gir1.2-glib-2.0-dev",
+		"gir1.2-gobject-2.0-dev"
 	],
 	"suggests": [
 		"libtracker-sparql-doc"
@@ -29,13 +32,13 @@
 	"breaks": [
 		"libtracker-sparql-3.0-dev (<< 3.8.2-4~)"
 	],
-	"installedSize": 463,
+	"installedSize": 459,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "metadata database, indexer and search tool - development files",
 	"homepage": "https://tracker.gnome.org/",
-	"filename": "pool/main/t/tinysparql/libtinysparql-dev_3.8.2-7+b1_amd64.deb",
-	"size": 47116,
-	"md5": "2371fe9fbbb8bd161de7606679da556c",
-	"sha256": "c5217d9c0c2d63486061e01730bf898ba517171d3817e5a8c04789a65095dfaa",
+	"filename": "pool/main/t/tinysparql/libtinysparql-dev_3.10.1-2_amd64.deb",
+	"size": 47168,
+	"md5": "b0b9bd77242755de81d5b33fddfecc30",
+	"sha256": "f02f30bf015101573a130349a6ddb7c50bb9c1959fe35e51848cc38370ef0708",
 	"descriptionMd5": "67907e6a9bb7204264785dacafaf143a"
 }

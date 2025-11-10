@@ -5,23 +5,25 @@
 		"Size"
 	],
 	"package": "librust-gettext-rs-dev",
-	"source": "rust-gettext-rs (0.7.0-3)",
-	"version": "0.7.0-3+b2",
+	"source": "rust-gettext-rs",
+	"version": "0.7.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-gettext-sys-0.21+default-dev",
-		"librust-gettext-sys-0.21+gettext-system-dev",
-		"librust-locale-config-0.3+default-dev | librust-locale-config-0.2+default-dev (>= 0.2.2-~~)"
+		"librust-gettext-sys+default-dev (<< 0.27.0-~~)",
+		"librust-gettext-sys+default-dev (>= 0.21.0-~~)",
+		"librust-gettext-sys+gettext-system-dev (<< 0.27.0-~~)",
+		"librust-gettext-sys+gettext-system-dev (>= 0.21.0-~~)",
+		"librust-locale-config-0.3+default-dev"
 	],
-	"installedSize": 93,
+	"installedSize": 83,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Safe bindings for gettext - Rust source code",
-	"homepage": "https://github.com/Koka/gettext-rs",
-	"filename": "pool/main/r/rust-gettext-rs/librust-gettext-rs-dev_0.7.0-3+b2_amd64.deb",
-	"size": 17988,
-	"md5": "0d20683b87f1f772f812927b807f3ac4",
-	"sha256": "a90f5db2fb78465a41bffbe835033eb70ea65107aa3e7ddae243c587fce1a3bd",
-	"descriptionMd5": "68ce294800e0c0c867836d02e8534efe"
+	"homepage": "https://github.com/gettext-rs/gettext-rs",
+	"filename": "pool/main/r/rust-gettext-rs/librust-gettext-rs-dev_0.7.7-1_amd64.deb",
+	"size": 17192,
+	"md5": "76fb254154fbbf379fc8090b8d195b68",
+	"sha256": "666eebd050cd113cb54c131095bf59996a2e901e6ff7d14274d31a36b16d1559",
+	"descriptionMd5": "25e67ff7331f50eca91baecaf3bd2163"
 }
