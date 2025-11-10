@@ -6,7 +6,7 @@
 	],
 	"package": "python3-azure",
 	"source": "python-azure",
-	"version": "20251014+git-1",
+	"version": "20251104+git-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -31,7 +31,9 @@
 		"python3-msal-extensions",
 		"python3-nltk",
 		"python3-openai",
-		"python3-pandas",
+		"python3-pandas | python3-supported-max (<< 3.13) | python3-supported-min (>= 3.14)",
+		"python3-pandas | python3-supported-max (<< 3.14)",
+		"python3-pandas | python3-supported-min (>= 3.13)",
 		"python3-psutil",
 		"python3-pydash",
 		"python3-ruamel.yaml",
@@ -51,16 +53,16 @@
 		"python3-azure-cosmos"
 	],
 	"breaks": [
-		"python3-azure-cli (<< 2.78.0)",
+		"python3-azure-cli (<< 2.79.0)",
 		"python3-azure-cosmos"
 	],
-	"installedSize": 439474,
+	"installedSize": 441788,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Microsoft Azure SDK for Python 3.x",
 	"homepage": "https://github.com/Azure/azure-sdk-for-python",
-	"filename": "pool/main/p/python-azure/python3-azure_20251014+git-1_all.deb",
-	"size": 14046832,
-	"md5": "6d8a08846cadde8453d1fada94b8197b",
-	"sha256": "2331509465d0e91dfaef0b73822f4d5fe39bcd2832f6de792816377827bb7882",
+	"filename": "pool/main/p/python-azure/python3-azure_20251104+git-1_all.deb",
+	"size": 14167148,
+	"md5": "6ae1abce48a33dc88f995eb03682635a",
+	"sha256": "e2196575bff10ff0b11b53e55578e2d06611fd7f6f2bdf5d700ed33f16bc92b9",
 	"descriptionMd5": "61d4f337f1b510595dc81cb8b71f6098"
 }]
