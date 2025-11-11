@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "wpasupplicant",
-	"source": "wpa (2:2.10-24)",
-	"version": "2:2.10-24+b1",
+	"source": "wpa",
+	"version": "2:2.10-25",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,7 +19,7 @@
 		"libpcsclite1 (>= 1.0.0)",
 		"libreadline8t64 (>= 6.0)",
 		"libssl3t64 (>= 3.0.0)",
-		"adduser"
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"suggests": [
 		"wpagui",
@@ -28,13 +28,13 @@
 	"breaks": [
 		"network-manager (<< 1.36.4-2~)"
 	],
-	"installedSize": 3899,
-	"maintainer": "Debian wpasupplicant Maintainers <wpa@packages.debian.org>",
+	"installedSize": 3900,
+	"maintainer": "Debian Networking Team <team+networking@tracker.debian.org>",
 	"description": "client support for WPA and WPA2 (IEEE 802.11i)",
 	"homepage": "https://w1.fi/wpa_supplicant/",
-	"filename": "pool/main/w/wpa/wpasupplicant_2.10-24+b1_amd64.deb",
-	"size": 1436136,
-	"md5": "394e00f79bf07a3ef88c50e2a7f88d92",
-	"sha256": "d29cd8c8c8f68f516c450c270d21bd02d57eceaeb41b5b5632fb026231f21700",
+	"filename": "pool/main/w/wpa/wpasupplicant_2.10-25_amd64.deb",
+	"size": 1436940,
+	"md5": "aa97cff1dfc30ae1be04b713cea8f743",
+	"sha256": "59833412c62e5bd03749ea9160473e43552f981ed706b92978fe9d277a73380b",
 	"descriptionMd5": "45df452b36e1c438641626b096751680"
 }]
