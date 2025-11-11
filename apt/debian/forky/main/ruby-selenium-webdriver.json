@@ -5,14 +5,17 @@
 		"Size"
 	],
 	"package": "ruby-selenium-webdriver",
-	"version": "4.4.0-1",
+	"version": "4.38.0-1",
 	"section": "ruby",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"ruby-childprocess",
-		"ruby-zip",
-		"ruby-websocket"
+		"ruby-base64 (>= 0.2)",
+		"ruby-logger (>= 1.4)",
+		"ruby-rexml (>= 3.2.5)",
+		"ruby-zip (>= 1.2.2)",
+		"ruby-zip (<< 4.0)",
+		"ruby-websocket (>= 1.0)"
 	],
 	"recommends": [
 		"chromium-driver | chromedriver | phantomjs"
@@ -20,13 +23,13 @@
 	"suggests": [
 		"firefoxdriver (>= 3.14.0)"
 	],
-	"installedSize": 724,
+	"installedSize": 719,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "Browser automation framework and ecosystem",
 	"homepage": "https://github.com/SeleniumHQ/selenium",
-	"filename": "pool/main/r/ruby-selenium-webdriver/ruby-selenium-webdriver_4.4.0-1_all.deb",
-	"size": 119112,
-	"md5": "f5bb6cbca35cd741a781f7c63afc58ae",
-	"sha256": "a419ab924a7f668f87f8538e26d5a6cdcc61f4853c4ffcab56a5d4073efc34f8",
+	"filename": "pool/main/r/ruby-selenium-webdriver/ruby-selenium-webdriver_4.38.0-1_all.deb",
+	"size": 119984,
+	"md5": "dc9ab6283869c48791175b35c3d3a37f",
+	"sha256": "eaa581aec5c20cfaa4a4d57c383ed6e7ca78d65b98306bf30bc9f038493fe8cb",
 	"descriptionMd5": "6295e47edcff78369ad943e492444b3b"
 }

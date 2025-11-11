@@ -6,11 +6,14 @@
 	],
 	"package": "python3-cvxopt",
 	"source": "cvxopt",
-	"version": "1.3.2+dfsg-1",
+	"version": "1.3.2+dfsg-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3:any",
 		"libamd3 (>= 1:7.0.1)",
 		"libblas3 | libblas.so.3",
 		"libc6 (>= 2.29)",
@@ -20,21 +23,18 @@
 		"libglpk40 (>= 4.59)",
 		"libgsl28 (>= 2.8+dfsg)",
 		"liblapack3 | liblapack.so.3",
-		"libumfpack6 (>= 1:7.0.1)",
-		"python3 (<< 3.14)",
-		"python3 (>= 3.13~)",
-		"python3:any"
+		"libumfpack6 (>= 1:7.0.1)"
 	],
 	"suggests": [
 		"python-cvxopt-doc"
 	],
-	"installedSize": 1285,
+	"installedSize": 1286,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Python3 package for convex optimization",
 	"homepage": "https://cvxopt.org/",
-	"filename": "pool/main/c/cvxopt/python3-cvxopt_1.3.2+dfsg-1_amd64.deb",
-	"size": 265608,
-	"md5": "ad2ab2ec4a29c2d039f4a90fc256beca",
-	"sha256": "224c76c53fc1306071d254689869ed2c2d30a7f4eaf9416db566e40092bc69e4",
+	"filename": "pool/main/c/cvxopt/python3-cvxopt_1.3.2+dfsg-2_amd64.deb",
+	"size": 266072,
+	"md5": "0fe7cb997f1d2952524ac557e1ad1179",
+	"sha256": "c2b16ac8046f2aac2eee65f00b0066c8a296d6d584f764010517a21be6594ee3",
 	"descriptionMd5": "c0e935b365e4f8df54576f0262ae6c38"
 }
