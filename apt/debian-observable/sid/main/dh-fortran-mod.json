@@ -5,32 +5,20 @@
 		"Size"
 	],
 	"package": "dh-fortran-mod",
-	"version": "0.55",
+	"source": "dh-fortran",
+	"version": "0.57",
 	"section": "devel",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
-		"perl:any",
-		"debhelper (>= 13)",
-		"python3",
-		"python3-click",
-		"python3:any",
-		"python3-magic",
-		"fortran-fpm",
-		"gfortran | fortran-compiler",
-		"patchelf",
-		"libio-compress-perl",
-		"libfile-libmagic-perl"
+		"dh-fortran"
 	],
-	"enhances": [
-		"debhelper"
-	],
-	"installedSize": 252,
+	"installedSize": 11,
 	"maintainer": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>",
-	"description": "debhelper add-ons for packaging software written in Fortran",
-	"filename": "pool/main/d/dh-fortran-mod/dh-fortran-mod_0.55_amd64.deb",
-	"size": 35232,
-	"md5": "7a85d4d4e825614eb1062bca241d67d8",
-	"sha256": "1daf502c1b1af0374a221377d51a448b740ced537837a1c0b6c76e4cbfbdd940",
-	"descriptionMd5": "f45a3cfa6f4224bacda53eb6753d608f"
+	"description": "transitional package",
+	"filename": "pool/main/d/dh-fortran/dh-fortran-mod_0.57_all.deb",
+	"size": 4716,
+	"md5": "6ea956afc193a7811f8da4550261af5f",
+	"sha256": "1a61335938b1377f6af89830e1ac910e27cf0628c58f3c4b5484a907b4f6cb4e",
+	"descriptionMd5": "bfe8ebc058cce6653c20fea6f85a4246"
 }]

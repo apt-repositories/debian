@@ -6,6 +6,40 @@
 	],
 	"package": "libsmbclient0",
 	"source": "samba",
+	"version": "2:4.23.3+dfsg-1~bpo13+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-libs (= 2:4.23.3+dfsg-1~bpo13+1)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.38)",
+		"libndr6 (>= 2:4.17.2)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0t64 (>= 0.15.0)"
+	],
+	"replaces": [
+		"libsmbclient"
+	],
+	"breaks": [
+		"libsmbclient (<< 2:4.23.3+dfsg-1~bpo13+1)"
+	],
+	"installedSize": 251,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "shared library for communication with SMB/CIFS servers",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/libsmbclient0_4.23.3+dfsg-1~bpo13+1_amd64.deb",
+	"size": 99296,
+	"sha256": "721b7153b68d344939c24db80a6645d062f5cb7fde4d23f7995d86d4f1494510",
+	"descriptionMd5": "483547748179a567c24665e99ab5439e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsmbclient0",
+	"source": "samba",
 	"version": "2:4.22.4+dfsg-1~deb13u1",
 	"section": "libs",
 	"priority": "optional",
