@@ -6,6 +6,41 @@
 	],
 	"package": "samba-dsdb-modules",
 	"source": "samba",
+	"version": "2:4.23.3+dfsg-1~bpo13+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-libs (= 2:4.23.3+dfsg-1~bpo13+1)",
+		"libldb2 (= 2:2.11.0+samba4.23.3+dfsg-1~bpo13+1)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.8.2)",
+		"libgpgme11t64 (>= 1.23.2)",
+		"libndr6 (>= 2:4.20.0~rc1)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtdb1 (>= 1.3.14)",
+		"libtevent0t64 (>= 0.15.0)"
+	],
+	"enhances": [
+		"libldb2"
+	],
+	"installedSize": 1656,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Samba Directory Services Database",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba-dsdb-modules_4.23.3+dfsg-1~bpo13+1_amd64.deb",
+	"size": 343224,
+	"sha256": "fd46c4e678074758e581ede05604753bd9723eb5014b7de10d49e8205ef5f240",
+	"descriptionMd5": "ed8b020cf571b2c155dd3360d7f05bb3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-dsdb-modules",
+	"source": "samba",
 	"version": "2:4.22.4+dfsg-1~deb13u1",
 	"section": "libs",
 	"priority": "optional",
