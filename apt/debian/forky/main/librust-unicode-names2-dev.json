@@ -5,18 +5,23 @@
 		"Size"
 	],
 	"package": "librust-unicode-names2-dev",
-	"source": "rust-unicode-names2 (0.6.0-1)",
-	"version": "0.6.0-1+b3",
+	"source": "rust-unicode-names2",
+	"version": "2.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 2040,
+	"depends": [
+		"librust-phf-0.11-dev (>= 0.11.1-~~)",
+		"librust-unicode-names2-generator-2+default-dev",
+		"librust-unicode-names2-generator-2+timing-dev"
+	],
+	"installedSize": 2252,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Map characters to and from their name given in the Unicode standard - Rust source code",
-	"homepage": "https://github.com/ProgVal/unicode_names2",
-	"filename": "pool/main/r/rust-unicode-names2/librust-unicode-names2-dev_0.6.0-1+b3_amd64.deb",
-	"size": 352156,
-	"md5": "9627fcc0e3af5146dba82522e305ca09",
-	"sha256": "553d53b08ae74f74bb38823c4784fdd768ebb6d3b198680cdd0c4ee2fad83af9",
-	"descriptionMd5": "cbfe2f2d1ce26d2586d372bcb54a3fcf"
+	"homepage": "https://github.com/progval/unicode_names2",
+	"filename": "pool/main/r/rust-unicode-names2/librust-unicode-names2-dev_2.0.0-1_amd64.deb",
+	"size": 209456,
+	"md5": "704684681cc5df8d849700cff1eb94bb",
+	"sha256": "f49add19cc5f71614e54b96a04b1be56718a81d91e64a57deeba68295c34d510",
+	"descriptionMd5": "cc8dd881ca5136dc7928d5aed32a9a0c"
 }
