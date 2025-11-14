@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "openvas-scanner",
-	"version": "23.23.1-1",
+	"version": "23.30.1-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,6 +22,7 @@
 		"libgvm22t64 (>= 22.8.0)",
 		"libjson-glib-1.0-0 (>= 1.5.2)",
 		"libksba8 (>= 1.2.0)",
+		"libmagic1t64 (>= 5.12)",
 		"libpcap0.8t64 (>= 0.9.8)",
 		"libsnmp40t64 (>= 5.9.4+dfsg)",
 		"libssh-4 (>= 0.8.0)",
@@ -29,7 +30,8 @@
 		"redis-server",
 		"adduser",
 		"rsync",
-		"gpg"
+		"gpg",
+		"gpg-agent"
 	],
 	"recommends": [
 		"nmap",
@@ -54,13 +56,13 @@
 		"openvas-plugins",
 		"openvas-server"
 	],
-	"installedSize": 927,
+	"installedSize": 932,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "remote network security auditor - scanner",
 	"homepage": "https://www.greenbone.net/",
-	"filename": "pool/main/o/openvas-scanner/openvas-scanner_23.23.1-1_amd64.deb",
-	"size": 311272,
-	"md5": "e4dc84bb72cc17b0e0c8602b186634f0",
-	"sha256": "3600604d805a1e4eba91d6b9a3f4e0c1ad192d71774f44b2e74af9636a0762cb",
+	"filename": "pool/main/o/openvas-scanner/openvas-scanner_23.30.1-1_amd64.deb",
+	"size": 314692,
+	"md5": "27482901142f137f7c4f7d6be66a38dd",
+	"sha256": "f97bf84b42602fe266da93cf182ac630fc806fadfe48cf37c68fdafee172d094",
 	"descriptionMd5": "c4f3f0ed3bf958b296703555fc8e2a31"
 }

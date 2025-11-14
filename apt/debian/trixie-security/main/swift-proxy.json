@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "swift-proxy",
+	"source": "swift",
+	"version": "2.35.1-0+deb13u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"openstack-pkg-tools",
+		"python3-pastescript",
+		"python3-swift (= 2.35.1-0+deb13u1)",
+		"swift (= 2.35.1-0+deb13u1)",
+		"uwsgi-plugin-python3",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"python3-barbicanclient",
+		"python3-castellan",
+		"python3-keystonemiddleware"
+	],
+	"installedSize": 260,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "distributed virtual object store - proxy server",
+	"homepage": "https://github.com/openstack/swift",
+	"filename": "pool/updates/main/s/swift/swift-proxy_2.35.1-0+deb13u1_all.deb",
+	"size": 114572,
+	"sha256": "3846ae517963ec2a70ad7660c8f1081a244a69e89a0e818d6875ae07cbe61afc",
+	"descriptionMd5": "fa21167c19ef3bb5ad3d841199e8d1d3"
+}
