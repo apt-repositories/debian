@@ -6,7 +6,7 @@
 	],
 	"package": "php-symfony-redis-messenger",
 	"source": "symfony",
-	"version": "6.4.25+dfsg-1",
+	"version": "7.4.0~beta2+dfsg-3",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,13 +15,17 @@
 		"php-redis",
 		"php-symfony-messenger"
 	],
-	"installedSize": 101,
+	"breaks": [
+		"php-redis (<< 6.2~~)",
+		"php-relay (<< 0.12~~)"
+	],
+	"installedSize": 103,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "Symfony Redis extension Messenger Bridge",
-	"homepage": "https://symfony.com/doc/6.4/components/messenger.html",
-	"filename": "pool/main/s/symfony/php-symfony-redis-messenger_6.4.25+dfsg-1_all.deb",
-	"size": 27612,
-	"md5": "b6360c81adb779dbd645ffd14f398e6f",
-	"sha256": "485c3c7e64bcfa41a40076f07e719fd80efb51eecd96e5ef42cf8cfc9f52463f",
+	"homepage": "https://symfony.com/doc/7.4/components/messenger.html",
+	"filename": "pool/main/s/symfony/php-symfony-redis-messenger_7.4.0~beta2+dfsg-3_all.deb",
+	"size": 29160,
+	"md5": "6b2c10fbd4b3043ac683c36fd4146fb5",
+	"sha256": "909b1a05ef24f8d6899a4d6b59c25ef87b187985d65ecb0ffcb3bb77023c04ad",
 	"descriptionMd5": "4d16e440dcf39621461ae4d177f33fb6"
 }
