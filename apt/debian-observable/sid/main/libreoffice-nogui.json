@@ -6,14 +6,14 @@
 	],
 	"package": "libreoffice-nogui",
 	"source": "libreoffice",
-	"version": "4:25.8.2-3",
+	"version": "4:25.8.3-1",
 	"section": "metapackages",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libreoffice-base-nogui",
 		"libreoffice-calc-nogui",
-		"libreoffice-core-nogui (= 4:25.8.2-3)",
+		"libreoffice-core-nogui (= 4:25.8.3-1)",
 		"libreoffice-draw-nogui",
 		"libreoffice-impress-nogui",
 		"libreoffice-math-nogui",
@@ -27,7 +27,10 @@
 		"libreoffice-script-provider-python",
 		"libreoffice-sdbc-mysql",
 		"libreoffice-sdbc-postgresql",
-		"libreoffice-java-common (>= 4:25.8.2~)"
+		"python3-pip",
+		"python3-setuptools",
+		"python3-venv",
+		"libreoffice-java-common (>= 4:25.8.3~)"
 	],
 	"suggests": [
 		"ghostscript",
@@ -35,7 +38,7 @@
 		"gpa",
 		"hunspell-dictionary",
 		"hyphen-hyphenation-patterns",
-		"imagemagick | graphicsmagick-imagemagick-compat",
+		"imagemagick",
 		"libreoffice-grammarcheck",
 		"myspell-dictionary",
 		"mythes-thesaurus",
@@ -43,13 +46,13 @@
 		"unixodbc",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
-	"installedSize": 67,
+	"installedSize": 68,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite (metapackage, no GUI)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-nogui_25.8.2-3_amd64.deb",
-	"size": 44268,
-	"md5": "ff649d1f2a56c225b5539f25b8a15a8d",
-	"sha256": "8af65039970689eb150e44ae056d7a8ab6d9130454c368ec9fb07be6d84a3cc0",
+	"filename": "pool/main/libr/libreoffice/libreoffice-nogui_25.8.3-1_amd64.deb",
+	"size": 44500,
+	"md5": "d8324146fdbb02e20696b1e3f008cc94",
+	"sha256": "2da88071323e77360e092118352c0b24299749a5c6c5e2d7d14015130aea3a43",
 	"descriptionMd5": "b2664061ba9641158b0a41d2c958aa3e"
 }]

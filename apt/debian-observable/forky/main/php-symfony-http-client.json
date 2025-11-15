@@ -6,7 +6,7 @@
 	],
 	"package": "php-symfony-http-client",
 	"source": "symfony",
-	"version": "6.4.25+dfsg-1",
+	"version": "7.4.0~beta2+dfsg-3",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
@@ -18,16 +18,18 @@
 		"php-symfony-service-contracts"
 	],
 	"breaks": [
+		"php-amphp-amp (<< 2.5~~)",
+		"php-amphp-socket (<< 1.1~~)",
 		"php-php-http-discovery (<< 1.15~~)",
-		"php-symfony-http-foundation (<< 6.3~~)"
+		"php-symfony-http-foundation (<< 6.4~~)"
 	],
-	"installedSize": 456,
+	"installedSize": 526,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "methods to fetch HTTP resources synchronously or asynchronously",
-	"homepage": "https://symfony.com/doc/6.4/components/http_client.html",
-	"filename": "pool/main/s/symfony/php-symfony-http-client_6.4.25+dfsg-1_all.deb",
-	"size": 75556,
-	"md5": "d9f9276874fd90906065d17a63655f78",
-	"sha256": "82c4e559b2928bf58d66df7d4e696b4da8c0ec59589a10cf72a29955c2c000d6",
+	"homepage": "https://symfony.com/doc/7.4/components/http_client.html",
+	"filename": "pool/main/s/symfony/php-symfony-http-client_7.4.0~beta2+dfsg-3_all.deb",
+	"size": 84040,
+	"md5": "f6454ab00408a08295e03cde1f84a6e1",
+	"sha256": "808e69e36aa43f46b6ce879721c5cda59c68b3b4a5bbd813f6e61696e2c18d4c",
 	"descriptionMd5": "5e0289887a5a15eb6d84e290ad307181"
 }]
