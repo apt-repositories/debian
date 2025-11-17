@@ -5,14 +5,17 @@
 		"Size"
 	],
 	"package": "pd-iemmatrix",
-	"version": "0.4.2-2",
+	"version": "0.5.0-1",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"puredata | pd | puredata64 | pd64",
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
 		"libfftw3-double3 (>= 3.3.10)",
+		"libfftw3-single3 (>= 3.3.10)",
 		"libgsl28 (>= 2.8+dfsg)",
 		"libsndfile1 (>= 1.0.20)"
 	],
@@ -20,13 +23,13 @@
 		"pd-libdir",
 		"pd64-libdir"
 	],
-	"installedSize": 1446,
+	"installedSize": 1164,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Pd-objects for simple matrix operations",
 	"homepage": "https://git.iem.at/pd/iemmatrix",
-	"filename": "pool/main/p/pd-iemmatrix/pd-iemmatrix_0.4.2-2_amd64.deb",
-	"size": 241564,
-	"md5": "4e06533057d8cd76f1b5af63d0097ebd",
-	"sha256": "8d136a694b43f0bd002c061a2afac5b98e2a13b489a98b5e67ad4bb645fb1272",
+	"filename": "pool/main/p/pd-iemmatrix/pd-iemmatrix_0.5.0-1_amd64.deb",
+	"size": 224008,
+	"md5": "8bf3df4e0b3c9f9f72930abd64d8a91d",
+	"sha256": "28e78f581b21919f9a0cde9a20946f73eac6597319e7d0ac62b6ef53d5019c65",
 	"descriptionMd5": "366e5ff32c1d7f5695c181811d336247"
 }
