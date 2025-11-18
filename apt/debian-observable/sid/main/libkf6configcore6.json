@@ -6,27 +6,33 @@
 	],
 	"package": "libkf6configcore6",
 	"source": "kf6-kconfig",
-	"version": "6.18.0-1",
+	"version": "6.20.0-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libkf6config-data (= 6.18.0-1)",
-		"libc6 (>= 2.14)",
+		"libkf6config-data (= 6.20.0-1)",
+		"libc6 (>= 2.34)",
 		"libqt6core6t64 (>= 6.9.1)",
-		"libqt6dbus6 (>= 6.7.0~)",
+		"libqt6dbus6 (>= 6.8.0~)",
 		"libstdc++6 (>= 5)"
 	],
 	"recommends": [
-		"libkf6config-bin (= 6.18.0-1)"
+		"libkf6config-bin (= 6.20.0-1)"
 	],
-	"installedSize": 585,
+	"replaces": [
+		"libkf6config-bin (<< 6.20.0-1~)"
+	],
+	"breaks": [
+		"libkf6config-bin (<< 6.20.0-1~)"
+	],
+	"installedSize": 642,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "configuration settings framework for Qt",
 	"homepage": "https://invent.kde.org/frameworks/kconfig",
-	"filename": "pool/main/k/kf6-kconfig/libkf6configcore6_6.18.0-1_amd64.deb",
-	"size": 168420,
-	"md5": "1eddbf65afa31ed2b6f14e33b1fc3046",
-	"sha256": "98db966454a53d75146e72f0a74df9ea34f10e9ef06cbd06db892ffd138406ca",
+	"filename": "pool/main/k/kf6-kconfig/libkf6configcore6_6.20.0-1_amd64.deb",
+	"size": 181336,
+	"md5": "f24ed9c6ae6ae2f8dd8323871e3f5683",
+	"sha256": "e925929b9661a70e2443c917987f233ce6e384dbde626202f9409710ddd5ba2b",
 	"descriptionMd5": "76c86f0c7d8f5e4d59bb6039bd65556f"
 }]
