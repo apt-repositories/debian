@@ -5,32 +5,34 @@
 		"Size"
 	],
 	"package": "firebuild",
-	"version": "0.8.4-3",
+	"version": "0.8.5-1",
 	"section": "non-free/devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.41)",
 		"libconfig++11 (>= 1.7.3)",
+		"libelf1t64 (>= 0.144)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libjemalloc2 (>= 5.0.0)",
 		"libstdc++6 (>= 14)",
 		"debconf (>= 0.5) | debconf-2.0",
-		"libfirebuild0 (= 0.8.4-3)"
+		"libfirebuild0 (= 0.8.5-1)"
 	],
 	"preDepends": [
 		"debconf | debconf-2.0"
 	],
 	"suggests": [
-		"node-d3"
+		"node-d3",
+		"qemu-user-interposable"
 	],
-	"installedSize": 1366,
+	"installedSize": 1345,
 	"maintainer": "Balint Reczey <balint@balintreczey.hu>",
 	"description": "Automatic build accelerator cache",
 	"homepage": "https://firebuild.com",
-	"filename": "pool/non-free/f/firebuild/firebuild_0.8.4-3_amd64.deb",
-	"size": 430724,
-	"md5": "c36533c82b337b01e8c7da37baecb3c1",
-	"sha256": "2e70ba61953b2e7f43661f3813ccf509483d8d59e617169726452770a3183204",
+	"filename": "pool/non-free/f/firebuild/firebuild_0.8.5-1_amd64.deb",
+	"size": 432164,
+	"md5": "8206a6c0371460df95e99c1b83c34348",
+	"sha256": "898b74847a8645e8a1e5d098223782465f5132f4d77b9ed0d0218634e4ea43d2",
 	"descriptionMd5": "821df9f130bf6dc04882c929b27eab06"
 }]

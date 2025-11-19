@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amdgcn-tools-21",
+	"version": "21",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"llvm-21",
+		"lld-21"
+	],
+	"replaces": [
+		"amdgcn-tools-18",
+		"gcc-10-offload-amdgcn (<< 10.2.1-6)",
+		"gcc-11-offload-amdgcn (<< 11-20210110-0)",
+		"gcc-snapshot (<< 1:20210110-0~)"
+	],
+	"breaks": [
+		"amdgcn-tools-18",
+		"gcc-10-offload-amdgcn (<< 10.2.1-6)",
+		"gcc-11-offload-amdgcn (<< 11-20210110-0)",
+		"gcc-snapshot (<< 1:20210110-0~)"
+	],
+	"conflicts": [
+		"amdgcn-tools",
+		"amdgcn-tools-19"
+	],
+	"installedSize": 20,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "linker tools for the amdgcn architecture",
+	"filename": "pool/main/a/amdgcn-tools-21/amdgcn-tools-21_21_amd64.deb",
+	"size": 2972,
+	"md5": "d823e599ed646d84645c05247f2186b7",
+	"sha256": "6b493b6a18f2f67bddceef0bf4739a62d3abf0d520caabd77dc38348430c1140",
+	"descriptionMd5": "6772d97a613191b1bf7c8b99061efe8f"
+}]

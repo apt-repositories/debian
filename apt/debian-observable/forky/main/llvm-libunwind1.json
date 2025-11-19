@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "llvm-libunwind1",
+	"source": "llvm-toolchain-21",
+	"version": "1:21.1.5-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"libunwind-21",
+		"libunwind-x.y"
+	],
+	"breaks": [
+		"libunwind-21"
+	],
+	"conflicts": [
+		"libunwind-x.y"
+	],
+	"installedSize": 120,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM unwinder, not compatible with glibc",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-21/llvm-libunwind1_21.1.5-1_amd64.deb",
+	"size": 69916,
+	"md5": "003fca4c5dd892f5e19730199196b07f",
+	"sha256": "3186a72af330a83175df9d97237d5ef310964cbd0b40704e29ca0798cf253c3d",
+	"descriptionMd5": "eb120532210ba0a1aa18eb3464ed08dc"
+}]
