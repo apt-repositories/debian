@@ -5,23 +5,34 @@
 		"Size"
 	],
 	"package": "libc++abi1",
-	"source": "llvm-defaults (0.63)",
-	"version": "1:19.0-63",
+	"source": "llvm-toolchain-21",
+	"version": "1:21.1.5-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc++abi1-19 (>= 19~)"
+		"libc6 (>= 2.18)",
+		"libgcc-s1 (>= 3.0)"
+	],
+	"replaces": [
+		"libc++abi-x.y",
+		"libc++abi1-21"
 	],
 	"breaks": [
-		"libc++abi1-11"
+		"libc++abi1-14",
+		"libc++abi1-19",
+		"libc++abi1-21"
 	],
-	"installedSize": 14,
+	"conflicts": [
+		"libc++abi-x.y"
+	],
+	"installedSize": 323,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "LLVM low level support for a standard C++ library",
-	"filename": "pool/main/l/llvm-defaults/libc++abi1_19.0-63_amd64.deb",
-	"size": 5944,
-	"md5": "6f2a7a0b3cc6eb7a95ee9e04b2f0b93d",
-	"sha256": "55e13dbe44b4a7ba575d55620f9ae7f58153e1ef14941866e64652379a8d26d9",
-	"descriptionMd5": "c4d93f7ffb705e8884d7d8a7f34ed30e"
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-21/libc++abi1_21.1.5-1_amd64.deb",
+	"size": 113488,
+	"md5": "413e6175abbaf9450e4b947e9dfa26c2",
+	"sha256": "ca699394cb54cefe36b9865841d29096737f2411657893399329c9d72f292d26",
+	"descriptionMd5": "6a197f8a8ae8385e801b369ea97886ce"
 }]
