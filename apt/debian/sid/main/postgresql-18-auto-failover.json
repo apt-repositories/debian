@@ -1,0 +1,31 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-auto-failover",
+	"source": "pg-auto-failover",
+	"version": "2.2-3",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"pg-auto-failover-cli (>= 2.2-3)",
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libpq5 (>= 8.4~)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 1115,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Postgres high availability support",
+	"homepage": "https://github.com/citusdata/pg_auto_failover",
+	"filename": "pool/main/p/pg-auto-failover/postgresql-18-auto-failover_2.2-3_amd64.deb",
+	"size": 388216,
+	"md5": "e9c7822f7380e29738a371e055f7db2f",
+	"sha256": "47f9e9380033ca73b555e0df403d7eb909b71f1211422a9ae84330e8c2af7a0a",
+	"descriptionMd5": "78a03e427a51a85e3c326e034fef9437"
+}

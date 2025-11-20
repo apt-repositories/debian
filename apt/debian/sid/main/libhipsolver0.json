@@ -6,25 +6,28 @@
 	],
 	"package": "libhipsolver0",
 	"source": "hipsolver",
-	"version": "5.5.1-8",
+	"version": "6.4.1-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libamdhip64-5 (>= 4.5.2)",
-		"libc6 (>= 2.4)",
+		"libamdhip64-6 (>= 6.1.5)",
+		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
-		"librocblas0 (>= 5.3.3)",
-		"librocsolver0 (>= 5.5.1)",
+		"librocblas4 (>= 6.4.0~)",
+		"librocsolver0 (>= 6.4.3)",
 		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 310,
+	"recommends": [
+		"libcholmod5"
+	],
+	"installedSize": 337,
 	"maintainer": "Debian ROCm Team <debian-ai@lists.debian.org>",
 	"description": "portable interface for GPU LAPACK routines - library",
 	"homepage": "https://github.com/ROCm/hipSOLVER",
-	"filename": "pool/main/h/hipsolver/libhipsolver0_5.5.1-8_amd64.deb",
-	"size": 55732,
-	"md5": "92f15dcebfab54dd4b0f2ee6062cf99f",
-	"sha256": "8c150df10239a39252d364166fcb198b9a2e43d02ccaf33c61c2f89feebf2dc8",
+	"filename": "pool/main/h/hipsolver/libhipsolver0_6.4.1-1_amd64.deb",
+	"size": 67756,
+	"md5": "b28d7c5f39f79ef245e5f0fa43d78ecb",
+	"sha256": "bdb0a4b5b2476a843d4fea7aa75e68838c34b398ef5ec75c20dfc0cd1124f02d",
 	"descriptionMd5": "8b2722aad51062afc889d63c2707289c"
 }
