@@ -6,13 +6,14 @@
 	],
 	"package": "libhipblas-dev",
 	"source": "hipblas",
-	"version": "5.5.1-4",
+	"version": "6.4.3-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libhipblas0 (= 5.5.1-4)",
-		"libamdhip64-dev"
+		"libhipblas2 (= 6.4.3-3)",
+		"libamdhip64-dev",
+		"libhipblas-common-dev"
 	],
 	"recommends": [
 		"librocblas-dev",
@@ -21,13 +22,13 @@
 	"suggests": [
 		"libhipblas-doc"
 	],
-	"installedSize": 972,
+	"installedSize": 2168,
 	"maintainer": "Debian ROCm Team <debian-ai@lists.debian.org>",
 	"description": "portable interface for GPU BLAS - headers",
 	"homepage": "https://github.com/ROCm/hipBLAS",
-	"filename": "pool/main/h/hipblas/libhipblas-dev_5.5.1-4_amd64.deb",
-	"size": 49060,
-	"md5": "f7c8cc0ce05fb9a12fc533f25a952e6c",
-	"sha256": "c1316103de353fbff558ec862ec3240eca02e8b9ef78dd9c29c912f8c9801c64",
+	"filename": "pool/main/h/hipblas/libhipblas-dev_6.4.3-3_amd64.deb",
+	"size": 86360,
+	"md5": "1c9fcd4e16fbcb28700f1d36b351a69d",
+	"sha256": "5eb7f87aec65e9355f0db79bef2cebaab070869862000ae96920004ac26195a0",
 	"descriptionMd5": "d467690005f889c9e7d829b67503ac44"
 }

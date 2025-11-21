@@ -1,0 +1,51 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libfilezilla50",
+	"source": "libfilezilla",
+	"version": "0.52.0-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libfilezilla-common (>= 0.52.0-2)",
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libhogweed6t64",
+		"libnettle8t64",
+		"libstdc++6 (>= 14)"
+	],
+	"replaces": [
+		"libfilezilla0",
+		"libfilezilla11",
+		"libfilezilla19",
+		"libfilezilla21",
+		"libfilezilla42",
+		"libfilezilla48"
+	],
+	"breaks": [
+		"libfilezilla48 (<< 0.52.0-2)"
+	],
+	"conflicts": [
+		"libfilezilla0",
+		"libfilezilla11",
+		"libfilezilla19",
+		"libfilezilla21",
+		"libfilezilla48"
+	],
+	"installedSize": 1158,
+	"maintainer": "Andreas Rönnquist <gusnan@debian.org>",
+	"description": "build high-performing platform-independent programs (runtime lib)",
+	"homepage": "https://lib.filezilla-project.org/",
+	"filename": "pool/main/libf/libfilezilla/libfilezilla50_0.52.0-2_amd64.deb",
+	"size": 359328,
+	"md5": "942a097e4566c9469e6fc16fc2f4ef25",
+	"sha256": "5fd67baa538a9b147ae97c31f37ac107ad8a2b57717baf198bd4df5114380585",
+	"descriptionMd5": "1fdecc8e602cd137efabe2d0a8469850"
+}]

@@ -5,13 +5,15 @@
 		"Size"
 	],
 	"package": "debvm",
-	"version": "0.4.5",
+	"version": "0.5.0",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"dash (>= 0.5.12-7~)",
 		"dpkg-dev",
-		"e2fsprogs",
+		"e2fsprogs (>= 1.47.1~rc1-1~)",
+		"libarchive13t64",
 		"mmdebstrap (>= 1.3.0)",
 		"qemu-system-native | qemu-kvm (>> 1:8.0) | qemu-system-any",
 		"ipxe-qemu"
@@ -19,7 +21,7 @@
 	"recommends": [
 		"uidmap",
 		"qemu-user-binfmt (>= 1:9.1.0+ds-1~) | qemu-user-static (<< 1:9.1.0+ds-1~)",
-		"systemd",
+		"systemd | binfmt-support",
 		"qemu-system",
 		"seabios",
 		"arch-test",
@@ -37,15 +39,16 @@
 		"qemu-efi-aarch64",
 		"qemu-efi-arm",
 		"qemu-efi-riscv64",
-		"qemu-system-gui"
+		"qemu-system-gui",
+		"systemd"
 	],
-	"installedSize": 132,
+	"installedSize": 133,
 	"maintainer": "Helmut Grohne <helmut@subdivi.de>",
 	"description": "create and run virtual machines for various Debian releases and architectures",
 	"homepage": "https://salsa.debian.org/helmutg/debvm/",
-	"filename": "pool/main/d/debvm/debvm_0.4.5_all.deb",
-	"size": 44992,
-	"md5": "488265b1c93e8308b9f9e0faf3dd2878",
-	"sha256": "c9b3ca46c03719c42ed948b19f36b5e2660a0fe98c25a09e955abaed86c20b05",
+	"filename": "pool/main/d/debvm/debvm_0.5.0_all.deb",
+	"size": 45716,
+	"md5": "c368855e319f021407b897474f1f4731",
+	"sha256": "f3835a5f924e80d5c498640250dc062acdfb8a620f625a81d9298e872da8fec0",
 	"descriptionMd5": "69eb9e07cd67454187b7bcecdcfc7511"
 }
