@@ -6,7 +6,7 @@
 	],
 	"package": "librust-debversion-dev",
 	"source": "rust-debversion",
-	"version": "0.5.0-2",
+	"version": "0.5.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-serde-1+default-dev",
 		"librust-sqlx-0.8+postgres-dev (>= 0.8.2-~~)"
 	],
+	"breaks": [
+		"librust-debian-control-dev (<< 2)"
+	],
 	"installedSize": 95,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Debian version parsing, manipulation and comparison - Rust source code",
 	"homepage": "https://github.com/jelmer/debversion-rs",
-	"filename": "pool/main/r/rust-debversion/librust-debversion-dev_0.5.0-2_amd64.deb",
-	"size": 17496,
-	"md5": "4c12e6b7c208f281f7de807d1d62bc83",
-	"sha256": "a65b2bfe3778fede1e26afab2aeb8e78541ee95e17f94674f53fa56744449c2b",
+	"filename": "pool/main/r/rust-debversion/librust-debversion-dev_0.5.0-3_amd64.deb",
+	"size": 17592,
+	"md5": "ab824fbae7e5fdcddac7682614084481",
+	"sha256": "98d552e9d516012577e3fe222fd356ed00b2828779926de39aaa5c6f9852befa",
 	"descriptionMd5": "2065c676f4c00b84d26a31975d2fb72f"
 }

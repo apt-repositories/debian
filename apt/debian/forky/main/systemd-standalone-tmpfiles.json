@@ -6,15 +6,18 @@
 	],
 	"package": "systemd-standalone-tmpfiles",
 	"source": "systemd",
-	"version": "258.1-2",
+	"version": "259~rc1-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libacl1 (>= 2.2.23)",
-		"libc6 (>= 2.38)",
-		"libcap2 (>= 1:2.10)",
-		"libselinux1 (>= 3.1~)"
+		"libc6 (>= 2.38)"
+	],
+	"recommends": [
+		"libacl1",
+		"libblkid1",
+		"libmount1",
+		"libselinux1"
 	],
 	"suggests": [
 		"libcryptsetup12",
@@ -29,13 +32,13 @@
 	"conflicts": [
 		"systemd-tmpfiles"
 	],
-	"installedSize": 488,
+	"installedSize": 480,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "standalone tmpfiles binary for use in non-systemd systems",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-standalone-tmpfiles_258.1-2_amd64.deb",
-	"size": 239864,
-	"md5": "b27c6447a65ef3cb409b35dda65ca91c",
-	"sha256": "763a91c68510d5d04905b032b2f03ce00a0592d3666b672d57e83ecc321921c0",
+	"filename": "pool/main/s/systemd/systemd-standalone-tmpfiles_259~rc1-1_amd64.deb",
+	"size": 239460,
+	"md5": "64d4e482ac341661a0b21ef0cc6bcdfa",
+	"sha256": "a2055e4a3e5016abfa2d34b0bd9ea6d6d56bf089c04e9ef0ca010eb520b50ce5",
 	"descriptionMd5": "e59a151e226689c494584c32d7f05a2c"
 }

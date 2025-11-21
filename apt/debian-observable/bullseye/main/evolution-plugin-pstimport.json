@@ -37,8 +37,52 @@
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "standard plugins for Evolution (pstimport)",
 	"homepage": "https://wiki.gnome.org/Apps/Evolution",
-	"filename": "pool/updates/main/e/evolution/evolution-plugin-pstimport_3.38.3-1+deb11u2_amd64.deb",
+	"filename": "pool/main/e/evolution/evolution-plugin-pstimport_3.38.3-1+deb11u2_amd64.deb",
 	"size": 55720,
+	"md5": "352e0bc676703c235f1a7b99411a3a0d",
 	"sha256": "941f7a3743bac01dc6d79972ac7de5287fdbf37ffba50c58a88f2ae4fd1cf6d0",
+	"descriptionMd5": "235e34cceea2b696a02434f108471df1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "evolution-plugin-pstimport",
+	"source": "evolution",
+	"version": "3.38.3-1+deb11u3",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libcamel-1.2-62 (>= 3.38.3)",
+		"libebook-1.2-20 (>= 3.38.3)",
+		"libebook-contacts-1.2-3 (>= 3.16.2)",
+		"libecal-2.0-1 (>= 3.38.3)",
+		"libedataserver-1.2-25 (>= 3.38.3)",
+		"libevolution (>= 3.38.3)",
+		"libevolution (<< 3.39)",
+		"libglib2.0-0 (>= 2.46.0)",
+		"libgtk-3-0 (>= 3.0.0)",
+		"libical3 (>= 3.0.0)",
+		"libpst4 (>= 0.6.54)",
+		"evolution (= 3.38.3-1+deb11u3)"
+	],
+	"replaces": [
+		"evolution-common (<< 3.25.91)",
+		"libevolution (<< 3.25.91)"
+	],
+	"breaks": [
+		"evolution-common (<< 3.25.91)",
+		"evolution-plugins (<< 3.25.91)"
+	],
+	"installedSize": 120,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "standard plugins for Evolution (pstimport)",
+	"homepage": "https://wiki.gnome.org/Apps/Evolution",
+	"filename": "pool/updates/main/e/evolution/evolution-plugin-pstimport_3.38.3-1+deb11u3_amd64.deb",
+	"size": 55804,
+	"sha256": "be84baf4fe8376e2a8901378a1709debc405a0a6351d46fc66e3ec7d454b4cae",
 	"descriptionMd5": "235e34cceea2b696a02434f108471df1"
 }]

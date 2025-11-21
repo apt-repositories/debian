@@ -5,26 +5,30 @@
 		"Size"
 	],
 	"package": "libvirt-glib-1.0-dev",
-	"source": "libvirt-glib (5.0.0-2)",
-	"version": "5.0.0-2+b5",
+	"source": "libvirt-glib",
+	"version": "5.0.0-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libvirt-glib-1.0-0 (= 5.0.0-2+b5)",
-		"gir1.2-libvirt-glib-1.0 (= 5.0.0-2+b5)",
-		"libvirt-dev"
+		"libvirt-dev",
+		"libvirt-glib-1.0-0 (= 5.0.0-3)",
+		"gir1.2-gio-2.0-dev",
+		"gir1.2-glib-2.0-dev",
+		"gir1.2-gobject-2.0-dev",
+		"gir1.2-libvirt-glib-1.0 (= 5.0.0-3)",
+		"gir1.2-libxml2-2.0-dev"
 	],
 	"recommends": [
-		"pkg-config"
+		"pkgconf"
 	],
-	"installedSize": 2765,
+	"installedSize": 2759,
 	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
 	"description": "Development files for the libvirt-glib library",
 	"homepage": "https://libvirt.org",
-	"filename": "pool/main/libv/libvirt-glib/libvirt-glib-1.0-dev_5.0.0-2+b5_amd64.deb",
-	"size": 154196,
-	"md5": "9658048044185ffcfc77a8200dad6c5b",
-	"sha256": "41bf79997819c427630cb1287031fb96d40bab4eceff403788edd14a1628109f",
+	"filename": "pool/main/libv/libvirt-glib/libvirt-glib-1.0-dev_5.0.0-3_amd64.deb",
+	"size": 153860,
+	"md5": "799592bbdcf5b1cde2040cde69a8d019",
+	"sha256": "53ee71d0907bbce339e0013ddd8c4e4f04811abc4faaa4412a2de49208bc4bec",
 	"descriptionMd5": "53133ae8c31231c4878b9a00e0291850"
 }]

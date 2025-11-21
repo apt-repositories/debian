@@ -6,13 +6,17 @@
 	],
 	"package": "libnss-myhostname",
 	"source": "systemd",
-	"version": "258.1-2",
+	"version": "259~rc1-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)",
-		"libcap2 (>= 1:2.10)"
+		"libc6 (>= 2.38)"
+	],
+	"recommends": [
+		"libblkid1",
+		"libmount1",
+		"libselinux1"
 	],
 	"suggests": [
 		"libcryptsetup12",
@@ -25,9 +29,9 @@
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "nss module providing fallback resolution for the current hostname",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/libnss-myhostname_258.1-2_amd64.deb",
-	"size": 125500,
-	"md5": "221f2c2518f4f9a95f3618c16e1f223a",
-	"sha256": "5591198711deb14ab5c97a7fbfeee296a4c5254378a1840cfa346fc5cd446212",
+	"filename": "pool/main/s/systemd/libnss-myhostname_259~rc1-1_amd64.deb",
+	"size": 125860,
+	"md5": "8559f3ba7d3f784af9a504c4a1117cb5",
+	"sha256": "f2aac935f4407c23c1b1ab8df61fd75de60c420f5ad2a93ebb14f3f534b44974",
 	"descriptionMd5": "0980255dcdd179a9442647b0c4bdcb7c"
 }

@@ -5,18 +5,18 @@
 		"Size"
 	],
 	"package": "python3-simgrid",
-	"source": "simgrid (4.0-1)",
-	"version": "4.0-1+b3",
+	"source": "simgrid",
+	"version": "4.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libsimgrid4.1 (>= 4.1-1)",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
-		"libsimgrid4.0 (>= 4.0-1)",
-		"libstdc++6 (>= 14)",
-		"python3 (<< 3.14)",
-		"python3 (>= 3.13~)"
+		"libstdc++6 (>= 14)"
 	],
 	"replaces": [
 		"simgrid (<< 3.11)"
@@ -24,13 +24,13 @@
 	"breaks": [
 		"simgrid (<< 3.11)"
 	],
-	"installedSize": 1355,
+	"installedSize": 1368,
 	"maintainer": "Martin Quinson <mquinson@debian.org>",
 	"description": "Python3 bindings for the SimGrid Toolkit",
 	"homepage": "https://simgrid.org/",
-	"filename": "pool/main/s/simgrid/python3-simgrid_4.0-1+b3_amd64.deb",
-	"size": 422544,
-	"md5": "cf0436101f4433f7c9cf7c02beffd3c3",
-	"sha256": "34008773c8ed742ce5e6e42c629ab8991e3e72cb409fcdbcd2dbde79da76d7bb",
+	"filename": "pool/main/s/simgrid/python3-simgrid_4.1-1_amd64.deb",
+	"size": 425508,
+	"md5": "93da8b28dc38f3d006604c5d6d965df2",
+	"sha256": "0ede2087af1482f50c01444da0fca92959dd72e28f47989a8b5c943a82a9e010",
 	"descriptionMd5": "b02569d1d127c334a22bac8974dbdb7e"
 }]
