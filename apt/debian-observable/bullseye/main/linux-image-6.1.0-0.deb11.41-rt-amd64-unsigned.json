@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.1.0-0.deb11.41-rt-amd64-unsigned",
+	"source": "linux-6.1",
+	"version": "6.1.158-1~deb11u1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-6.1",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.1.0-0.deb11.41-rt-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.1.0-0.deb11.41-rt-amd64"
+	],
+	"installedSize": 522519,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.1 for 64-bit PCs, PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/updates/main/l/linux-6.1/linux-image-6.1.0-0.deb11.41-rt-amd64-unsigned_6.1.158-1~deb11u1_amd64.deb",
+	"size": 75371192,
+	"sha256": "2af7b8fb95a47b8acc8b77ab0a0aad3df4c64ba84ab1e640a1ba6367b811885b",
+	"descriptionMd5": "bd03ccfc6a2f9556f43d88b2bb1d93d2"
+}]

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "node-glob",
-	"version": "10.2.7+~cs0.4.15-1",
+	"version": "10.3.6+~cs0.4.15-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,15 +15,29 @@
 		"node-minipass"
 	],
 	"breaks": [
+		"node-browserify (<< 17.0.0+ds-6~)",
+		"node-cacache (<< 17.0.3+~cs10.3.7-4~)",
+		"node-envinfo (<< 7.11.0+~cs14.3.0-5~)",
+		"node-file-entry-cache (<< 6.0.1+~3.0.4+~2.0.0+~1.0.0+~2.0.1-2~)",
+		"node-glob-stream (<< 7.0.0+~6.1.1-3~)",
+		"node-gulp-newer (<< 1.4.0-2~)",
+		"node-istanbul (<< 0.4.5+repack10+~cs98.25.59-4~)",
+		"node-read-package-json (<< 5.0.2+~2.0.0-4~)",
+		"node-rimraf (<< 3.0.2-4~)",
+		"node-shelljs (<< 0.8.5+~cs0.8.10-6~)",
+		"node-stylus (<< 0.59.0+~0.48.38-4~)",
 		"node-typescript-types (<< 20201105-1~)"
 	],
-	"installedSize": 585,
+	"conflicts": [
+		"node-bluebird"
+	],
+	"installedSize": 593,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "glob functionality for Node.js",
 	"homepage": "https://github.com/isaacs/node-glob",
-	"filename": "pool/main/n/node-glob/node-glob_10.2.7+~cs0.4.15-1_all.deb",
-	"size": 166488,
-	"md5": "6669398e65a862e8a4087632a859af34",
-	"sha256": "a0a0bf6623ca14a0a583253f8e94717bf042e003fc78b07bd24f2a0bb579f8e2",
+	"filename": "pool/main/n/node-glob/node-glob_10.3.6+~cs0.4.15-3_all.deb",
+	"size": 167408,
+	"md5": "e39e28d7e360045c7d2e1007d50ee6cf",
+	"sha256": "5fbe9998a617c79361907d99b7e0228d47f1adb4656b3b70ed94669f1e17d6fd",
 	"descriptionMd5": "1b036f9676e44c424eb15efe75baf458"
 }
