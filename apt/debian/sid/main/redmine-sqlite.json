@@ -6,25 +6,26 @@
 	],
 	"package": "redmine-sqlite",
 	"source": "redmine",
-	"version": "6.0.6+ds-3",
+	"version": "6.0.6+ds-4",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"dbconfig-sqlite3 | dbconfig-no-thanks",
-		"ruby-sqlite3 (>= 1.7.3~)",
+		"ruby-sqlite3 (>= 1.7.0~)",
+		"ruby-sqlite3 (<< 1.8)",
 		"sqlite3"
 	],
 	"recommends": [
-		"redmine (= 6.0.6+ds-3)"
+		"redmine (= 6.0.6+ds-4)"
 	],
 	"installedSize": 146,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "metapackage providing sqlite dependencies for Redmine",
 	"homepage": "https://www.redmine.org",
-	"filename": "pool/main/r/redmine/redmine-sqlite_6.0.6+ds-3_all.deb",
-	"size": 136336,
-	"md5": "3b800ee9af9e5f7514f2c2819e967615",
-	"sha256": "cd9802d05b7315b2f62ae0b54ea43188f0652207f75ae4281c67977d6b6d9179",
+	"filename": "pool/main/r/redmine/redmine-sqlite_6.0.6+ds-4_all.deb",
+	"size": 136928,
+	"md5": "2c7f4eb22516050d3ef55f559d152f44",
+	"sha256": "0ccd3c1a7fbc4a4c67464d4689f82448e7676c4e0dd2d6f45afe36d4b9e8e3ae",
 	"descriptionMd5": "92a51359a57c7c0c86638eb96a7a1e4e"
 }
