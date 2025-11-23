@@ -6,22 +6,25 @@
 	],
 	"package": "python3-griffe-typingdoc",
 	"source": "python-griffe-typingdoc",
-	"version": "0.2.8-2",
+	"version": "0.3.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-griffe",
+		"python3-griffe (>= 1.15)",
 		"python3-typing-extensions",
 		"python3:any"
 	],
-	"installedSize": 62,
+	"breaks": [
+		"python3-griffe (<< 1.15)"
+	],
+	"installedSize": 63,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Griffe extension for PEP 727 - Documentation Metadata in Typing",
 	"homepage": "https://github.com/mkdocstrings/griffe-typingdoc",
-	"filename": "pool/main/p/python-griffe-typingdoc/python3-griffe-typingdoc_0.2.8-2_all.deb",
-	"size": 11828,
-	"md5": "6368f442a248cf514ad78213ae3a2207",
-	"sha256": "86711cf1ce20db097cde5042d6fcf23e00bf846d18f273d3a61513411d1f029e",
+	"filename": "pool/main/p/python-griffe-typingdoc/python3-griffe-typingdoc_0.3.0-2_all.deb",
+	"size": 12596,
+	"md5": "f25bb427037fccbe8bd698780cc29944",
+	"sha256": "7fe65b96926d5d7658ac528b324eee11cbc4f8e878c4f21ab94804b87740f19f",
 	"descriptionMd5": "557f4a7f894ef24294f42dd6eed40da3"
 }]

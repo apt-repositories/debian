@@ -6,7 +6,7 @@
 	],
 	"package": "clang-19",
 	"source": "llvm-toolchain-19",
-	"version": "1:19.1.7-10.1",
+	"version": "1:19.1.7-16",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,14 +14,14 @@
 		"libc6 (>= 2.34)",
 		"libclang-cpp19 (>= 1:19.1.7)",
 		"libgcc-s1 (>= 3.0)",
-		"libllvm19 (= 1:19.1.7-10.1)",
+		"libllvm19 (= 1:19.1.7-16)",
 		"libstdc++6 (>= 11)",
 		"libstdc++-15-dev",
 		"libgcc-15-dev",
 		"libobjc-15-dev",
-		"libclang-common-19-dev (= 1:19.1.7-10.1)",
-		"llvm-19-linker-tools (= 1:19.1.7-10.1)",
-		"libclang1-19 (= 1:19.1.7-10.1)",
+		"libclang-common-19-dev (= 1:19.1.7-16)",
+		"llvm-19-linker-tools (= 1:19.1.7-16)",
+		"libclang1-19 (= 1:19.1.7-16)",
 		"libc6-dev",
 		"binutils"
 	],
@@ -34,13 +34,19 @@
 		"clang-19-doc",
 		"wasi-libc"
 	],
-	"installedSize": 372,
+	"replaces": [
+		"clang-19 (<< 1:19:1.7-5)"
+	],
+	"breaks": [
+		"clang-19 (<< 1:19:1.7-5)"
+	],
+	"installedSize": 512,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "C, C++ and Objective-C compiler",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-19/clang-19_19.1.7-10.1_amd64.deb",
-	"size": 116600,
-	"md5": "e89ed458f1ec274e6eb57a87154522d1",
-	"sha256": "543ea09bd72e9206237830ce6ac3ff865478c7141f73b397d18d11db35fed784",
+	"filename": "pool/main/l/llvm-toolchain-19/clang-19_19.1.7-16_amd64.deb",
+	"size": 163284,
+	"md5": "bcba85ed2a7ab41a97669901d33e7d75",
+	"sha256": "13c1f9ca5e404126d18a5ccb7fa6bf2ce190635d6e6892e14deb6da67c2b9bd1",
 	"descriptionMd5": "c364160e44345420df0f2e97b3082b69"
 }
