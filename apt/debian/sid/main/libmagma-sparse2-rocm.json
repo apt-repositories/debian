@@ -6,19 +6,19 @@
 	],
 	"package": "libmagma-sparse2-rocm",
 	"source": "magma-rocm",
-	"version": "2.9.0+ds-2",
+	"version": "2.9.0+ds-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libamdhip64-5 (>= 4.5.2)",
+		"libamdhip64-6 (>= 6.1.5)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
-		"libhipblas0 (>= 5.3.3)",
-		"libhipsparse0 (>= 5.3.3)",
+		"libhipblas2 (>= 6.4.3)",
+		"libhipsparse1 (>= 5.3.3)",
 		"libmagma2-rocm (>= 2.9.0+ds)",
 		"libopenblas0",
-		"libstdc++6 (>= 4.1.1)"
+		"libstdc++6 (>= 5)"
 	],
 	"replaces": [
 		"libmagma-sparse2"
@@ -26,13 +26,13 @@
 	"breaks": [
 		"libmagma-sparse2"
 	],
-	"installedSize": 71771,
+	"installedSize": 79903,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Matrix Algebra on GPU and Multicore Architectures (solib, sparse)",
 	"homepage": "https://icl.cs.utk.edu/magma/",
-	"filename": "pool/main/m/magma-rocm/libmagma-sparse2-rocm_2.9.0+ds-2_amd64.deb",
-	"size": 15118120,
-	"md5": "437460cd0e947ba7bf6b474f4e1b24d9",
-	"sha256": "988c7312cbd673e462709777bbcf7034206c8cfc8873abc128a2e24d49e74d73",
+	"filename": "pool/main/m/magma-rocm/libmagma-sparse2-rocm_2.9.0+ds-3_amd64.deb",
+	"size": 15200368,
+	"md5": "43524f6675a6fb288ea0cc00d200652b",
+	"sha256": "15f741264c07bf991362e63c6428206866d215560dd55b3cb8a8fc7fdfc96009",
 	"descriptionMd5": "7750b75e37a1ee879391c8fe2fcf6c2c"
 }

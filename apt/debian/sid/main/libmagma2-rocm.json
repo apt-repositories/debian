@@ -6,20 +6,20 @@
 	],
 	"package": "libmagma2-rocm",
 	"source": "magma-rocm",
-	"version": "2.9.0+ds-2",
+	"version": "2.9.0+ds-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libamdhip64-5 (>= 4.5.2)",
+		"libamdhip64-6 (>= 6.1.5)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libgfortran5 (>= 8)",
-		"libhipblas0 (>= 5.3.3)",
-		"libhipsparse0 (>= 5.3.3)",
+		"libhipblas2 (>= 6.4.3)",
+		"libhipsparse1 (>= 5.3.3)",
 		"libopenblas0",
 		"libquadmath0 (>= 4.6)",
-		"libstdc++6 (>= 4.4)"
+		"libstdc++6 (>= 5)"
 	],
 	"replaces": [
 		"libmagma2"
@@ -27,13 +27,13 @@
 	"breaks": [
 		"libmagma2"
 	],
-	"installedSize": 1189892,
+	"installedSize": 1237584,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Matrix Algebra on GPU and Multicore Architectures (solib)",
 	"homepage": "https://icl.cs.utk.edu/magma/",
-	"filename": "pool/main/m/magma-rocm/libmagma2-rocm_2.9.0+ds-2_amd64.deb",
-	"size": 314669548,
-	"md5": "5638d98ec2df5c5210e73117b06db206",
-	"sha256": "cad6d01492707227c841b2663af396d8d00133e9724a809c19bad690bc897884",
+	"filename": "pool/main/m/magma-rocm/libmagma2-rocm_2.9.0+ds-3_amd64.deb",
+	"size": 310577320,
+	"md5": "a8576aec7304b52bbffcbe17ad87fda8",
+	"sha256": "78790110d632628439f61d1b29fed29fda0da626718d08ff8902416b290b4eed",
 	"descriptionMd5": "2dee2a4f82f3bd3d90833f097f70b636"
 }

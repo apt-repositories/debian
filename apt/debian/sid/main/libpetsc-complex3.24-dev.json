@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpetsc-complex3.24-dev",
+	"source": "petsc",
+	"version": "3.24.1+dfsg1-2",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpetsc-complex3.24 (= 3.24.1+dfsg1-2)",
+		"libpetsc3.24-dev-common (= 3.24.1+dfsg1-2)",
+		"mpi-default-dev",
+		"libopenmpi-dev (>= 5.0.9~)",
+		"libmumps-dev",
+		"gfortran",
+		"valgrind-mpi",
+		"gfortran-15 | gfortran-mod-16",
+		"python3"
+	],
+	"recommends": [
+		"libpetsc3.24-dev-examples",
+		"ksh | mksh | pdksh | zsh"
+	],
+	"suggests": [
+		"petsc-dev",
+		"libpetsc-complex3.24-dbg (= 3.24.1+dfsg1-2)",
+		"petsc3.24-doc",
+		"libluminate-dev"
+	],
+	"conflicts": [
+		"libpetsc-complex-3.6.2-dev (<= 3.6.2.dfsg1-3)",
+		"libpetsc-complex-3.6.3-dev (<< 3.6.3.dfsg2-2)",
+		"libpetsc3.6.2-dev (<= 3.6.2.dfsg1-3)",
+		"libpetsc3.6.3-dev (<< 3.6.3.dfsg2-2)"
+	],
+	"installedSize": 15333,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Static libraries, shared links, header files for PETSc",
+	"homepage": "http://www.mcs.anl.gov/petsc",
+	"filename": "pool/main/p/petsc/libpetsc-complex3.24-dev_3.24.1+dfsg1-2_amd64.deb",
+	"size": 13500448,
+	"md5": "fdd218a3bfb0415220de7c87aaef60cd",
+	"sha256": "5432566be48dfd832ed62215b2d0caa2621f1b8d852d58a591980fbd39e98a1b",
+	"descriptionMd5": "81cc11b289028d0c2dc10b1c44d3903a"
+}
