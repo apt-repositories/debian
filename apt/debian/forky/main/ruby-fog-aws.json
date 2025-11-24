@@ -5,12 +5,14 @@
 		"Size"
 	],
 	"package": "ruby-fog-aws",
-	"version": "3.18.0-2",
+	"version": "3.33.1-1",
 	"section": "ruby",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"ruby-fog-core (>= 2.1)",
+		"ruby-base64 (>= 0.2)",
+		"ruby-base64 (<< 0.4)",
+		"ruby-fog-core (>= 2.6)",
 		"ruby-fog-json (>= 1.1)",
 		"ruby-fog-xml (>= 0.1)"
 	],
@@ -20,13 +22,13 @@
 	"breaks": [
 		"ruby-fog (<< 1.42.0)"
 	],
-	"installedSize": 3720,
+	"installedSize": 3771,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "module for the 'fog' gem to support Amazon Web Services",
 	"homepage": "https://github.com/fog/fog-aws",
-	"filename": "pool/main/r/ruby-fog-aws/ruby-fog-aws_3.18.0-2_all.deb",
-	"size": 370048,
-	"md5": "c07c33f8d9d674e321cc821579423c4f",
-	"sha256": "e5ce8229f7e5c3f69a469b46f50633d6d90c430cca6ee062807b8e83c0917801",
+	"filename": "pool/main/r/ruby-fog-aws/ruby-fog-aws_3.33.1-1_all.deb",
+	"size": 353932,
+	"md5": "3ad38a11ff00d9e01039a51c26b5d2ea",
+	"sha256": "85b193e5ea5e0a1766dd5a88e029f0a3f3117fb997e960cdb8af49327dc99c06",
 	"descriptionMd5": "794cc31c674dcc77909b0573cf15a02b"
 }
