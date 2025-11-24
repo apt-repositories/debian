@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-powa",
+	"source": "powa-archivist",
+	"version": "5.1.0-2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-contrib-18",
+		"postgresql-18",
+		"libc6 (>= 2.17)"
+	],
+	"suggests": [
+		"powa-collector",
+		"powa-web"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 1619,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "PostgreSQL Workload Analyzer -- PostgreSQL 18 extension",
+	"homepage": "https://powa.readthedocs.io/",
+	"filename": "pool/main/p/powa-archivist/postgresql-18-powa_5.1.0-2_amd64.deb",
+	"size": 65016,
+	"md5": "9b8af356ca2f11ce0caa497ea0b0a0a0",
+	"sha256": "3dec405d68d43273c53271eb5b3d9f0df1857e1b9bf7eb03cbf73de6c1c0a025",
+	"descriptionMd5": "c2d7c31904425e96e06e4053fc416f5f"
+}]

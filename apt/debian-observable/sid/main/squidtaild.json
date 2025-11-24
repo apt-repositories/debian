@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "squidtaild",
-	"version": "2.1a6-6.2",
+	"version": "2.1a6-7",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,16 +13,19 @@
 		"perl:any",
 		"libconfigreader-simple-perl"
 	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
 	"recommends": [
 		"squid"
 	],
-	"installedSize": 76,
-	"maintainer": "Alberto Capella Silva <alberkman@gmail.com>",
+	"installedSize": 81,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Squid log monitoring program",
-	"homepage": "http://code.google.com/p/squidtaild/",
-	"filename": "pool/main/s/squidtaild/squidtaild_2.1a6-6.2_all.deb",
-	"size": 14972,
-	"md5": "265917a1fe71b85d7cda58af2659b949",
-	"sha256": "a3ab506a6a1afcd3b35885db86e206654282997b8ba3a35010c66ff0d0fca93c",
+	"homepage": "https://code.google.com/archive/p/squidtaild/",
+	"filename": "pool/main/s/squidtaild/squidtaild_2.1a6-7_all.deb",
+	"size": 14860,
+	"md5": "26f73d941d369f718f4728a93cf22f3a",
+	"sha256": "529ff981383c5500744c92e02a35d37eae9e1d74ce45b079366bf007c392cf78",
 	"descriptionMd5": "388fd808636d30fa53e2cab953f2d9dc"
 }]

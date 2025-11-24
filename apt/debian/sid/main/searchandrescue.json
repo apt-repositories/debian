@@ -5,11 +5,13 @@
 		"Size"
 	],
 	"package": "searchandrescue",
-	"version": "1.7.0+dfsg-1",
+	"version": "1.7.0+dfsg-2",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"searchandrescue-common (= 1.7.0+dfsg-2)",
+		"searchandrescue-data",
 		"libc6 (>= 2.38)",
 		"libgl1",
 		"libglu1-mesa | libglu1",
@@ -17,17 +19,15 @@
 		"libx11-6",
 		"libxext6",
 		"libxpm4",
-		"libxxf86vm1",
-		"searchandrescue-common (= 1.7.0+dfsg-1)",
-		"searchandrescue-data"
+		"libxxf86vm1 (>= 1:1.1.4)"
 	],
-	"installedSize": 972,
+	"installedSize": 977,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "fly aircraft to search (for) and rescue people in distress",
 	"homepage": "http://sourceforge.net/projects/searchandrescue/",
-	"filename": "pool/main/s/searchandrescue/searchandrescue_1.7.0+dfsg-1_amd64.deb",
-	"size": 343704,
-	"md5": "8d11167d1b2dbca64baa037b099fb867",
-	"sha256": "c39d46f88145d0b33744c6d103c77661def95e33c3229853e9c8dc19cbe0d9f7",
+	"filename": "pool/main/s/searchandrescue/searchandrescue_1.7.0+dfsg-2_amd64.deb",
+	"size": 348804,
+	"md5": "f24f02e9b222440c42a8f9263b936131",
+	"sha256": "edc01dfbbfa9d6302ee556df8c355105fe3506a00958b29435c7d8a076b799c7",
 	"descriptionMd5": "fd45eddccebbb833c1001f7fc5db4f6c"
 }
