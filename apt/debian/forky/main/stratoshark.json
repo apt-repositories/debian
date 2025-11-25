@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "stratoshark",
-	"source": "wireshark (4.6.0-1)",
-	"version": "0.9.3-1",
+	"source": "wireshark (4.6.1-2)",
+	"version": "0.9.3-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -30,20 +30,23 @@
 		"libwireshark19 (>= 4.6.0~rc1)",
 		"libwiretap16 (>= 4.6.0)",
 		"libwsutil17 (>= 4.6.0~rc1)",
-		"wireshark-common (>= 4.6.0-1)",
+		"wireshark-common (>= 4.6.1-2)",
 		"libqt6svg6",
 		"qt6-qpa-plugins"
 	],
 	"recommends": [
 		"libqt6multimedia6"
 	],
-	"installedSize": 8994,
+	"suggests": [
+		"falcosecurity-scap-dkms"
+	],
+	"installedSize": 8937,
 	"maintainer": "Balint Reczey <balint@balintreczey.hu>",
 	"description": "system call and log analyzer - graphical and console interfaces",
 	"homepage": "https://www.wireshark.org/",
-	"filename": "pool/main/w/wireshark/stratoshark_0.9.3-1_amd64.deb",
-	"size": 3383296,
-	"md5": "cc5ab515b784ef9bff5caf94eb4c8362",
-	"sha256": "393ad198ef14ca96a87219b74ccde354e20ec2ae7ac9a92ee22a2f8758b9379c",
+	"filename": "pool/main/w/wireshark/stratoshark_0.9.3-2_amd64.deb",
+	"size": 3321740,
+	"md5": "abb8042c9eb6cf7d06c21e135397a259",
+	"sha256": "2d8e16e149ca3c90108ea9998c4577752bf4132e076cc065eea10ba39b3a9684",
 	"descriptionMd5": "ba27e1de101084f35137945feefe69ca"
 }
