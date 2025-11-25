@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libcaribou-gtk3-module",
-	"source": "caribou (0.4.21-10)",
-	"version": "0.4.21-10+b1",
+	"source": "caribou",
+	"version": "0.4.21-11",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,19 @@
 		"libgtk-3-0t64 (>= 3.0.0)",
 		"gsettings-desktop-schemas"
 	],
-	"installedSize": 58,
+	"replaces": [
+		"libcaribou-gtk-modules (<< 0.4.21-11~)"
+	],
+	"breaks": [
+		"libcaribou-gtk-modules (<< 0.4.21-11~)"
+	],
+	"installedSize": 57,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Configurable on screen keyboard with scanning mode (GTK+ 3.0 module)",
 	"homepage": "https://wiki.gnome.org/Projects/Caribou",
-	"filename": "pool/main/c/caribou/libcaribou-gtk3-module_0.4.21-10+b1_amd64.deb",
-	"size": 14136,
-	"md5": "3941d66e7c930e11c5fcf646e5bb35c5",
-	"sha256": "1e4e33fccdd02bc2f7e2647afe98d5f0f39808cbdec7d140d2676df5b31aac03",
+	"filename": "pool/main/c/caribou/libcaribou-gtk3-module_0.4.21-11_amd64.deb",
+	"size": 14052,
+	"md5": "7c355a75aeed4e7b07085763d4db534b",
+	"sha256": "0290e4be1c882c6a617e288226b77cec7e428f90ac7f50367dbbd01e50dc811e",
 	"descriptionMd5": "770686abc3640114778c8bb79a609e03"
 }

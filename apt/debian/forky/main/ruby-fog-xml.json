@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "ruby-fog-xml",
-	"version": "0.1.1-6",
+	"version": "0.1.5-1",
 	"section": "ruby",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"ruby | ruby-interpreter",
 		"ruby-fog-core",
-		"ruby-nokogiri"
+		"ruby-nokogiri (>= 1.5.11)",
+		"ruby-nokogiri (<< 2.0.0)"
 	],
 	"replaces": [
 		"ruby-fog (<< 1.25~)"
@@ -20,13 +20,13 @@
 	"breaks": [
 		"ruby-fog (<< 1.25~)"
 	],
-	"installedSize": 32,
+	"installedSize": 34,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "XML parsing for fog providers",
 	"homepage": "https://github.com/fog/fog-xml",
-	"filename": "pool/main/r/ruby-fog-xml/ruby-fog-xml_0.1.1-6_all.deb",
-	"size": 6228,
-	"md5": "8e89f50b0450fb88197b1822b061aa53",
-	"sha256": "6e9e958a95453e096ad431c37a465c492a0d8718b5df751377014b3079690037",
+	"filename": "pool/main/r/ruby-fog-xml/ruby-fog-xml_0.1.5-1_all.deb",
+	"size": 6756,
+	"md5": "f369a24ff03b0fb90e6d0d4b1cad5df3",
+	"sha256": "b0de84c28ff9b3ccd62ce2f85d4828f2f5f09302cc4dc7c40b7382b9aa6d59b6",
 	"descriptionMd5": "28da2b79fc1ecbdbe878d692a6a3769c"
 }
