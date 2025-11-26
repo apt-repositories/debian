@@ -31,8 +31,46 @@
 	"maintainer": "Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>",
 	"description": "Net-SNMP notification receiver",
 	"homepage": "http://net-snmp.sourceforge.net/",
-	"filename": "pool/updates/main/n/net-snmp/snmptrapd_5.9+dfsg-4+deb11u1_amd64.deb",
+	"filename": "pool/main/n/net-snmp/snmptrapd_5.9+dfsg-4+deb11u1_amd64.deb",
 	"size": 24160,
+	"md5": "ede96e4f17c43e032277b00718dfa430",
 	"sha256": "25a538409d46f2bc32a89dc492ed8b5e2911a75719f481f02cdf55f3f94b5e85",
+	"descriptionMd5": "5813c4c7d76971aa4ce271dad1bfb061"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "snmptrapd",
+	"source": "net-snmp",
+	"version": "5.9+dfsg-4+deb11u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libnetsnmptrapd40 (>= 5.9+dfsg)",
+		"libsnmp40 (= 5.9+dfsg-4+deb11u2)",
+		"libwrap0 (>= 7.6-4~)",
+		"init-system-helpers (>= 1.51)",
+		"snmpd"
+	],
+	"recommends": [
+		"perl"
+	],
+	"replaces": [
+		"snmp (<< 5.7.3+dfsg-2)"
+	],
+	"breaks": [
+		"snmp (<< 5.7.3+dfsg-2)"
+	],
+	"installedSize": 88,
+	"maintainer": "Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>",
+	"description": "Net-SNMP notification receiver",
+	"homepage": "http://net-snmp.sourceforge.net/",
+	"filename": "pool/updates/main/n/net-snmp/snmptrapd_5.9+dfsg-4+deb11u2_amd64.deb",
+	"size": 24200,
+	"sha256": "6b0c3c84142bb55c2f554f7dd005a7b4743a61aed7417f297579c4cc7d686132",
 	"descriptionMd5": "5813c4c7d76971aa4ce271dad1bfb061"
 }]

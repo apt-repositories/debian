@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ironic-conductor",
+	"source": "ironic",
+	"version": "1:32.0.0-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ipmitool",
+		"ipxe",
+		"ironic-common (= 1:32.0.0-4)",
+		"open-iscsi",
+		"pxelinux",
+		"qemu-utils",
+		"tftpd-hpa",
+		"xinetd"
+	],
+	"suggests": [
+		"syslinux",
+		"syslinux-common"
+	],
+	"installedSize": 34,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "bare metal hypervisor API for OpenStack - conductor",
+	"homepage": "https://github.com/openstack/ironic",
+	"filename": "pool/main/i/ironic/ironic-conductor_32.0.0-4_all.deb",
+	"size": 9904,
+	"md5": "73533e881f5ce56374f30c3209456603",
+	"sha256": "c78ebfba1bd932c07bb495a9a064a89060922131c057959a97ed5083de1edada",
+	"descriptionMd5": "d1849ad1f5edfce90602c21f306aad40"
+}
