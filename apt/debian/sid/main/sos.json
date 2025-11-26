@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "sos",
-	"version": "4.10.0-1",
+	"version": "4.10.1-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -18,9 +18,11 @@
 	],
 	"recommends": [
 		"e2fsprogs",
+		"gpg",
 		"lsof",
 		"mount",
-		"python3-boto3"
+		"python3-boto3",
+		"util-linux-extra"
 	],
 	"replaces": [
 		"sosreport (<< 4.8.2-4~)"
@@ -28,13 +30,13 @@
 	"breaks": [
 		"sosreport (<< 4.8.2-4~)"
 	],
-	"installedSize": 2189,
+	"installedSize": 2206,
 	"maintainer": "sosreport Dev Team <sosreport-dev@lists.canonical.com>",
 	"description": "Set of tools to gather troubleshooting data from a system",
 	"homepage": "https://github.com/sosreport/sos",
-	"filename": "pool/main/s/sos/sos_4.10.0-1_all.deb",
-	"size": 371900,
-	"md5": "e86642a760db7a1af51eb6623350bbdd",
-	"sha256": "1482ddfcf761307da7dfd8765e36551b01299fae22b2f5ef31151c476c6dec56",
+	"filename": "pool/main/s/sos/sos_4.10.1-1_all.deb",
+	"size": 375344,
+	"md5": "8f6691e2030e18cbfb573fb35b7af061",
+	"sha256": "7bbdf38bc6d2d9cc47d145adf969602303a10968155f476395cbd996b8877495",
 	"descriptionMd5": "5b3e7a1f7fbde7625dc009697c8ed440"
 }

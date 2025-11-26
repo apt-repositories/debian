@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "runit-services",
-	"version": "0.9.1",
+	"version": "0.10.0",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,7 +14,8 @@
 		"runit (>= 2.1.2-56)"
 	],
 	"recommends": [
-		"runit-run | runit-init"
+		"runit-run | runit-init",
+		"libcap2-bin"
 	],
 	"suggests": [
 		"socklog",
@@ -23,15 +24,16 @@
 	"breaks": [
 		"elogind (<< 255.4.1-1~)",
 		"runit (<< 2.1.2-51~)",
+		"sane-utils (<< 1.4.0~)",
 		"xchpst (<< 0.6.0-1~)"
 	],
-	"installedSize": 379,
+	"installedSize": 404,
 	"maintainer": "Lorenzo Puliti <plorenzo@disroot.org>",
 	"description": "UNIX init scheme with service supervision (services)",
 	"homepage": "https://salsa.debian.org/debian/runit-services",
-	"filename": "pool/main/r/runit-services/runit-services_0.9.1_all.deb",
-	"size": 24920,
-	"md5": "601563431251dc667be7adb355fd351c",
-	"sha256": "d45b3f154537bb903d992cc46cbcbadeb81c7d182df941294ca3fe5a3f975857",
+	"filename": "pool/main/r/runit-services/runit-services_0.10.0_all.deb",
+	"size": 26140,
+	"md5": "1daa1512190873ee3250ed9be44da4da",
+	"sha256": "1b992b8cb7f2ed82d920dacd9367de52f640da60c72ee35f7d4cf5e01cda289f",
 	"descriptionMd5": "2eea38e236e810482cf416349a275373"
 }]
