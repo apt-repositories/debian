@@ -27,8 +27,42 @@
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "Samba winbind client library - development files",
 	"homepage": "http://www.samba.org",
-	"filename": "pool/updates/main/s/samba/libwbclient-dev_4.13.13+dfsg-1~deb11u6_amd64.deb",
+	"filename": "pool/main/s/samba/libwbclient-dev_4.13.13+dfsg-1~deb11u6_amd64.deb",
 	"size": 126044,
+	"md5": "8e755640eb90c75e9120a9d2afe6722e",
 	"sha256": "e896c8b6963764ea3fae449851e2ed2ec47cf058091ff242079407619dd394bb",
+	"descriptionMd5": "2fd42f0ef62fe1cc8cfee6fb03d4b884"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libwbclient-dev",
+	"source": "samba",
+	"version": "2:4.13.13+dfsg-1~deb11u7",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libwbclient0 (= 2:4.13.13+dfsg-1~deb11u7)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6~)"
+	],
+	"replaces": [
+		"samba-dev (<< 2:4.11)"
+	],
+	"breaks": [
+		"samba-dev (<< 2:4.11)",
+		"samba-libs (<< 2:4.11.0+dfsg-1~)"
+	],
+	"installedSize": 199,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Samba winbind client library - development files",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/updates/main/s/samba/libwbclient-dev_4.13.13+dfsg-1~deb11u7_amd64.deb",
+	"size": 126132,
+	"sha256": "af9042be56b66201e8c434d5abc6ffb8522fc35adf58dadfdf8ae20d7f059b62",
 	"descriptionMd5": "2fd42f0ef62fe1cc8cfee6fb03d4b884"
 }]

@@ -27,8 +27,42 @@
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "Samba nameservice integration plugins",
 	"homepage": "http://www.samba.org",
-	"filename": "pool/updates/main/s/samba/libnss-winbind_4.13.13+dfsg-1~deb11u6_amd64.deb",
+	"filename": "pool/main/s/samba/libnss-winbind_4.13.13+dfsg-1~deb11u6_amd64.deb",
 	"size": 123620,
+	"md5": "e4040bc75904ce9d9140f53989282902",
 	"sha256": "190105da6a6e472f4ecb2be58a4ceaed62b3a06f785bc885c6c13a842aa1fd00",
+	"descriptionMd5": "223d38d764a9bb35ad3be4c8d048957d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnss-winbind",
+	"source": "samba",
+	"version": "2:4.13.13+dfsg-1~deb11u7",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common (= 2:4.13.13+dfsg-1~deb11u7)",
+		"winbind:any (= 2:4.13.13+dfsg-1~deb11u7)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.14)",
+		"libwbclient0 (= 2:4.13.13+dfsg-1~deb11u7)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6~)"
+	],
+	"suggests": [
+		"libpam-winbind"
+	],
+	"installedSize": 175,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Samba nameservice integration plugins",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/updates/main/s/samba/libnss-winbind_4.13.13+dfsg-1~deb11u7_amd64.deb",
+	"size": 123716,
+	"sha256": "20c252b8328be548a8345bba16481907c54175ed4bd5af0debec1e096942d603",
 	"descriptionMd5": "223d38d764a9bb35ad3be4c8d048957d"
 }]

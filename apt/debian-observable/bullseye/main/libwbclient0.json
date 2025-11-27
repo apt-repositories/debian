@@ -33,8 +33,48 @@
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "Samba winbind client library",
 	"homepage": "http://www.samba.org",
-	"filename": "pool/updates/main/s/samba/libwbclient0_4.13.13+dfsg-1~deb11u6_amd64.deb",
+	"filename": "pool/main/s/samba/libwbclient0_4.13.13+dfsg-1~deb11u6_amd64.deb",
 	"size": 313588,
+	"md5": "66bc37c865a414834023f543c11bc382",
 	"sha256": "2c68c2c726b243a0b0a10fa83905555399d22304d01167c9664a4d7190a804d8",
+	"descriptionMd5": "16c935b1d482f634b3879c2495e04db8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libwbclient0",
+	"source": "samba",
+	"version": "2:4.13.13+dfsg-1~deb11u7",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.5.0)",
+		"libc6 (>= 2.17)",
+		"libgnutls30 (>= 3.7.0)",
+		"libicu67 (>= 67.1-1~)",
+		"libsystemd0",
+		"libtalloc2 (>= 2.3.1~)",
+		"libtevent0 (>= 0.10.2~)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6~)"
+	],
+	"replaces": [
+		"libsamba-util0 (<< 2:4.0.0)"
+	],
+	"breaks": [
+		"libsamba-util0 (<< 2:4.0.0)",
+		"samba-libs (<< 2:4.11.0+dfsg-1~)"
+	],
+	"installedSize": 833,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Samba winbind client library",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/updates/main/s/samba/libwbclient0_4.13.13+dfsg-1~deb11u7_amd64.deb",
+	"size": 313512,
+	"sha256": "3a8525e860ebbaef1173612e4cfada1fbedb14fce6ba176fda9d4a7e4affbaac",
 	"descriptionMd5": "16c935b1d482f634b3879c2495e04db8"
 }]
