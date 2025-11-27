@@ -35,8 +35,50 @@
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "command-line SMB/CIFS clients for Unix",
 	"homepage": "http://www.samba.org",
-	"filename": "pool/updates/main/s/samba/smbclient_4.13.13+dfsg-1~deb11u6_amd64.deb",
+	"filename": "pool/main/s/samba/smbclient_4.13.13+dfsg-1~deb11u6_amd64.deb",
 	"size": 511888,
+	"md5": "abec759a6318b4e34d87e8b0d01b282e",
 	"sha256": "d86b723c00c4c5c52afbec7af7b93dc0d2c93c6a430fa28d4541b2fc5d0047b6",
+	"descriptionMd5": "476018eed30b7f1e76b02afe22aaf008"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "smbclient",
+	"source": "samba",
+	"version": "2:4.13.13+dfsg-1~deb11u7",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common (= 2:4.13.13+dfsg-1~deb11u7)",
+		"samba-libs (= 2:4.13.13+dfsg-1~deb11u7)",
+		"libarchive13 (>= 3.0.4)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.14)",
+		"libgnutls30 (>= 3.7.0)",
+		"libpopt0 (>= 1.14)",
+		"libreadline8 (>= 6.0)",
+		"libsmbclient (>= 2:4.10.0+dfsg)",
+		"libtalloc2 (>= 2.3.1~)",
+		"libtevent0 (>= 0.10.2~)",
+		"libwbclient0 (= 2:4.13.13+dfsg-1~deb11u7)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6~)"
+	],
+	"suggests": [
+		"cifs-utils",
+		"heimdal-clients"
+	],
+	"installedSize": 2023,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "command-line SMB/CIFS clients for Unix",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/updates/main/s/samba/smbclient_4.13.13+dfsg-1~deb11u7_amd64.deb",
+	"size": 511008,
+	"sha256": "e7f6de90c39b65ab0bc06f4e2112356dc415a0b1b09706d4366fbcae512ae2dd",
 	"descriptionMd5": "476018eed30b7f1e76b02afe22aaf008"
 }]

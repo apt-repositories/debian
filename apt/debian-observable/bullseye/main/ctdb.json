@@ -39,8 +39,54 @@
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "clustered database to store temporary data",
 	"homepage": "http://www.samba.org",
-	"filename": "pool/updates/main/s/samba/ctdb_4.13.13+dfsg-1~deb11u6_amd64.deb",
+	"filename": "pool/main/s/samba/ctdb_4.13.13+dfsg-1~deb11u6_amd64.deb",
 	"size": 746176,
+	"md5": "00a0d3a0a603fb5a697938928136e495",
 	"sha256": "1632e4b7ae293d3c538b595458cca5f251c947e48119c81470b8689b3a243fcb",
+	"descriptionMd5": "83dff66615250b53a0cd3df6fb3b9ea7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ctdb",
+	"source": "samba",
+	"version": "2:4.13.13+dfsg-1~deb11u7",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2",
+		"lsb-base (>= 3.0-6)",
+		"psmisc",
+		"samba-libs (= 2:4.13.13+dfsg-1~deb11u7)",
+		"sudo",
+		"tdb-tools",
+		"time",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.14)",
+		"libpopt0 (>= 1.14)",
+		"libtalloc2 (>= 2.3.1~)",
+		"libtdb1 (>= 1.4.3~)",
+		"libtevent0 (>= 0.10.2~)",
+		"libwbclient0 (= 2:4.13.13+dfsg-1~deb11u7)"
+	],
+	"recommends": [
+		"ethtool",
+		"python3-etcd",
+		"librados2 (>= 0.72.2)"
+	],
+	"suggests": [
+		"logrotate",
+		"lsof"
+	],
+	"installedSize": 3553,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "clustered database to store temporary data",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/updates/main/s/samba/ctdb_4.13.13+dfsg-1~deb11u7_amd64.deb",
+	"size": 745572,
+	"sha256": "82f0fac99929c78a03b34442ef0b440073372f3d73d83b6becf560dc2edc4679",
 	"descriptionMd5": "83dff66615250b53a0cd3df6fb3b9ea7"
 }]

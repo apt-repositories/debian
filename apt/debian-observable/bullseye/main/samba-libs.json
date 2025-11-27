@@ -52,8 +52,67 @@
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "Samba core libraries",
 	"homepage": "http://www.samba.org",
-	"filename": "pool/updates/main/s/samba/samba-libs_4.13.13+dfsg-1~deb11u6_amd64.deb",
+	"filename": "pool/main/s/samba/samba-libs_4.13.13+dfsg-1~deb11u6_amd64.deb",
 	"size": 5778480,
+	"md5": "1f917e38196339609c2ff6cab80c32fb",
 	"sha256": "8a8a86b81415d52e13fbff9c9285d7061547afc1e9b013d8db75b1538cfc82a3",
+	"descriptionMd5": "f4a16aa3f22848793e72b3501c634170"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-libs",
+	"source": "samba",
+	"version": "2:4.13.13+dfsg-1~deb11u7",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libbsd0 (>= 0.5.0)",
+		"libc6 (>= 2.17)",
+		"libcap2 (>= 1:2.10)",
+		"libcups2 (>= 1.7.0)",
+		"libgnutls30 (>= 3.7.0)",
+		"libjansson4 (>= 2.1)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libldb2 (>= 2:2.2.3-2~deb11u2~)",
+		"libnsl2 (>= 1.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpopt0 (>= 1.14)",
+		"libpython3.9 (>= 3.9.1)",
+		"libtalloc2 (>= 2.3.1~)",
+		"libtdb1 (>= 1.4.3~)",
+		"libtevent0 (>= 0.10.2~)",
+		"libwbclient0 (= 2:4.13.13+dfsg-1~deb11u7)",
+		"python3-ldb (>= 2:2.1.0)",
+		"python3-talloc (>= 2.3.1~)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libndr-standard0 (<< 2:4.0.9)",
+		"libsamba-credentials0 (<< 2:4.0.9)",
+		"libsamba-hostconfig0 (<< 2:4.0.9)",
+		"libsamba-util0 (<< 2:4.0.9)",
+		"samba (<< 2:4.3.3+dfsg-1)"
+	],
+	"breaks": [
+		"libndr-standard0 (<< 2:4.0.9)",
+		"libsamba-credentials0 (<< 2:4.0.9)",
+		"libsamba-hostconfig0 (<< 2:4.0.9)",
+		"libsamba-util0 (<< 2:4.0.9)",
+		"sssd-ad-common (<< 2.3.0)"
+	],
+	"installedSize": 24949,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Samba core libraries",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/updates/main/s/samba/samba-libs_4.13.13+dfsg-1~deb11u7_amd64.deb",
+	"size": 5776168,
+	"sha256": "52212ddd0e9eb15ad3a8657d5400410742bb8ae7c726c7c2ffd2c4bedbbc1774",
 	"descriptionMd5": "f4a16aa3f22848793e72b3501c634170"
 }]
