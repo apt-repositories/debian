@@ -5,18 +5,18 @@
 		"Size"
 	],
 	"package": "colplot",
-	"version": "5.2.0-4",
+	"version": "5.2.0-5",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
 		"collectl",
-		"perl",
+		"perl:any",
 		"perl-tk",
 		"libio-socket-ip-perl",
 		"libgetopt-simple-perl",
-		"gnuplot (>= 4.4)",
+		"gnuplot-nox | gnuplot",
 		"ucf"
 	],
 	"recommends": [
@@ -35,9 +35,9 @@
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Utility to plot performance data from collectl",
 	"homepage": "http://collectl-utils.sourceforge.net/colplot.html",
-	"filename": "pool/main/c/colplot/colplot_5.2.0-4_all.deb",
-	"size": 141132,
-	"md5": "9d3fbe221c892f4858e1a65e616e5758",
-	"sha256": "ab6b2ac6d1a71d7c8261409130a42d960cf0bf70aad78cfb9a1b53d5f3d611cc",
+	"filename": "pool/main/c/colplot/colplot_5.2.0-5_all.deb",
+	"size": 141420,
+	"md5": "20e8d62a937549a2d62b4fdff23f0c3e",
+	"sha256": "8be173df1a376bc3cd5a63834eeabaac64ccacc784a3237a38552c9377abe975",
 	"descriptionMd5": "59bebd55e8af90f69db678e99a9da8c1"
 }]

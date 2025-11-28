@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tryton-server-uwsgi",
+	"source": "tryton-server",
+	"version": "7.0.30-1+deb13u1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"tryton-server",
+		"ucf",
+		"uwsgi-plugin-python3",
+		"tryton-server-api-7.0",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"tryton-sao",
+		"tryton-server-postgresql"
+	],
+	"suggests": [
+		"tryton-server-nginx"
+	],
+	"installedSize": 59,
+	"maintainer": "Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>",
+	"description": "Tryton application platform - uWSGI integration",
+	"homepage": "https://www.tryton.org/",
+	"filename": "pool/updates/main/t/tryton-server/tryton-server-uwsgi_7.0.30-1+deb13u1_all.deb",
+	"size": 27932,
+	"sha256": "5bfb101624f84c249d39e83debd117c6617d5aab23e8af156600e6b0bf8d4abc",
+	"descriptionMd5": "f82ac075ced6998aa05ac66d35bdf0b3"
+}

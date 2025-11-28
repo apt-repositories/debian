@@ -24,8 +24,39 @@
 	"maintainer": "Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>",
 	"description": "Tryton application platform - Nginx integration",
 	"homepage": "https://www.tryton.org/",
-	"filename": "pool/updates/main/t/tryton-server/tryton-server-nginx_6.0.29-2+deb12u3_all.deb",
+	"filename": "pool/main/t/tryton-server/tryton-server-nginx_6.0.29-2+deb12u3_all.deb",
 	"size": 24780,
+	"md5": "0d60dadfa1fe025cb0c7d3254f737dfa",
 	"sha256": "3e2d3cd59b7b6519803ccbaecbf22fb61dfc751fdcd8a76c0563b341aee969e1",
+	"descriptionMd5": "813d1ee6392854751801c77efec61a94"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tryton-server-nginx",
+	"source": "tryton-server",
+	"version": "6.0.29-2+deb12u4",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-certbot-nginx | nginx",
+		"tryton-server-uwsgi",
+		"ucf",
+		"tryton-server-api-6.0",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"tryton-server-postgresql"
+	],
+	"installedSize": 50,
+	"maintainer": "Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>",
+	"description": "Tryton application platform - Nginx integration",
+	"homepage": "https://www.tryton.org/",
+	"filename": "pool/updates/main/t/tryton-server/tryton-server-nginx_6.0.29-2+deb12u4_all.deb",
+	"size": 24988,
+	"sha256": "771d0dd639d5e59a657ce2973316a69639a78d7258b43abb556b8347319ecc50",
 	"descriptionMd5": "813d1ee6392854751801c77efec61a94"
 }]

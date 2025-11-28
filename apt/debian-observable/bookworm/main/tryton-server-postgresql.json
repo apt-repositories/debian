@@ -26,8 +26,41 @@
 	"maintainer": "Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>",
 	"description": "Tryton application platform - PostgreSQL integration",
 	"homepage": "https://www.tryton.org/",
-	"filename": "pool/updates/main/t/tryton-server/tryton-server-postgresql_6.0.29-2+deb12u3_all.deb",
+	"filename": "pool/main/t/tryton-server/tryton-server-postgresql_6.0.29-2+deb12u3_all.deb",
 	"size": 22960,
+	"md5": "ed90cc2cf5e11f1f3e7a3e2abf061c3b",
 	"sha256": "80eadc9449e62a75bb0077891fd1f7d6b312bde908353bc53ea481bbde130a97",
+	"descriptionMd5": "60ecb032bdb59672dca42fad6be043d9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tryton-server-postgresql",
+	"source": "tryton-server",
+	"version": "6.0.29-2+deb12u4",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-pgsql | dbconfig-no-thanks",
+		"python3-psycopg2",
+		"tryton-server",
+		"ucf",
+		"tryton-server-api-6.0",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"autopostgresqlbackup",
+		"postgresql"
+	],
+	"installedSize": 53,
+	"maintainer": "Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>",
+	"description": "Tryton application platform - PostgreSQL integration",
+	"homepage": "https://www.tryton.org/",
+	"filename": "pool/updates/main/t/tryton-server/tryton-server-postgresql_6.0.29-2+deb12u4_all.deb",
+	"size": 23164,
+	"sha256": "9fcfe8606f7b7e294b2347f12ef80661d9340ea70ee94aec5939b3fc7a8b2fd5",
 	"descriptionMd5": "60ecb032bdb59672dca42fad6be043d9"
 }]

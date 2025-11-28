@@ -32,8 +32,47 @@
 	"maintainer": "Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>",
 	"description": "Tryton application platform - full installation",
 	"homepage": "https://www.tryton.org/",
-	"filename": "pool/updates/main/t/tryton-server/tryton-server-all-in-one_6.0.29-2+deb12u3_all.deb",
+	"filename": "pool/main/t/tryton-server/tryton-server-all-in-one_6.0.29-2+deb12u3_all.deb",
 	"size": 22956,
+	"md5": "fd7b6638b5993daf308507f62b038d76",
 	"sha256": "535228ac15e4b29fd7d745f815aaee5684ca744d6de88b7f5019e906f670d430",
+	"descriptionMd5": "5f2ea964c69c7e66afcb6930c34ff829"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tryton-server-all-in-one",
+	"source": "tryton-server",
+	"version": "6.0.29-2+deb12u4",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-pycountry",
+		"tryton-modules-country",
+		"tryton-modules-currency",
+		"tryton-proteus",
+		"tryton-server",
+		"tryton-server-nginx",
+		"tryton-server-postgresql",
+		"tryton-server-uwsgi",
+		"tryton-server-api-6.0",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"tryton-client-doc",
+		"tryton-modules-all",
+		"tryton-sao",
+		"tryton-server-doc"
+	],
+	"installedSize": 43,
+	"maintainer": "Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>",
+	"description": "Tryton application platform - full installation",
+	"homepage": "https://www.tryton.org/",
+	"filename": "pool/updates/main/t/tryton-server/tryton-server-all-in-one_6.0.29-2+deb12u4_all.deb",
+	"size": 23144,
+	"sha256": "20ceef66c6fd5832e8c7d1a072c996e80da3b584e99755260ae2d8fb75e7d7b9",
 	"descriptionMd5": "5f2ea964c69c7e66afcb6930c34ff829"
 }]
