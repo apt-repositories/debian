@@ -6,26 +6,34 @@
 	],
 	"package": "librust-serde-dev",
 	"source": "rust-serde",
-	"version": "1.0.219-1",
+	"version": "1.0.228-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-derive-1+default-dev",
-		"librust-serde-derive-1.0+default-dev (<< 1.0.220-~~)",
-		"librust-serde-derive-1.0+default-dev (>= 1.0.219-~~)"
+		"librust-serde-core-1.0+alloc-dev (<< 1.0.229-~~)",
+		"librust-serde-core-1.0+alloc-dev (>= 1.0.228-~~)",
+		"librust-serde-core-1.0+rc-dev (<< 1.0.229-~~)",
+		"librust-serde-core-1.0+rc-dev (>= 1.0.228-~~)",
+		"librust-serde-core-1.0+result-dev (<< 1.0.229-~~)",
+		"librust-serde-core-1.0+result-dev (>= 1.0.228-~~)",
+		"librust-serde-core-1.0+std-dev (<< 1.0.229-~~)",
+		"librust-serde-core-1.0+std-dev (>= 1.0.228-~~)",
+		"librust-serde-core-1.0+unstable-dev (<< 1.0.229-~~)",
+		"librust-serde-core-1.0+unstable-dev (>= 1.0.228-~~)",
+		"librust-serde-derive-1+default-dev"
 	],
 	"breaks": [
 		"librust-cargo-dev (<= 0.43.1-4)",
 		"librust-debcargo-dev (<= 2.4.4-1)"
 	],
-	"installedSize": 547,
+	"installedSize": 583,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generic serialization/deserialization framework - Rust source code",
 	"homepage": "https://serde.rs",
-	"filename": "pool/main/r/rust-serde/librust-serde-dev_1.0.219-1_amd64.deb",
-	"size": 66164,
-	"md5": "64639090a4fd3bb0c0dd93bd1b7487e5",
-	"sha256": "babd0033dc743ef81a972c9838f8378aac9502d49cd7a5b5da43afab494d0b48",
+	"filename": "pool/main/r/rust-serde/librust-serde-dev_1.0.228-2_amd64.deb",
+	"size": 68280,
+	"md5": "3190b9793cdd91b1b70689e1971b0d14",
+	"sha256": "3ccd4dc1aaddb827fd29cb26bdac0633961f3f5d9bab269a51d594b03b4e411a",
 	"descriptionMd5": "4cdfa32a1b83a930e750e8f8d51510af"
 }

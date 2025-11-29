@@ -6,7 +6,7 @@
 	],
 	"package": "clang-tools-19",
 	"source": "llvm-toolchain-19",
-	"version": "1:19.1.7-10.1",
+	"version": "1:19.1.7-18",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,16 +21,22 @@
 		"libz3-4 (>= 4.13.3)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.1.4)",
-		"clang-19 (= 1:19.1.7-10.1)",
+		"clang-19 (= 1:19.1.7-18)",
 		"python3"
 	],
-	"installedSize": 43006,
+	"replaces": [
+		"clang-19 (<< 1:19.1.7-13)"
+	],
+	"breaks": [
+		"clang-19 (<< 1:19.1.7-13)"
+	],
+	"installedSize": 42871,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "clang-based tools for C/C++ developments",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-19/clang-tools-19_19.1.7-10.1_amd64.deb",
-	"size": 8976228,
-	"md5": "69aa4ca4a62075fdc855a8c9dc4556d7",
-	"sha256": "b3d35fa4363548daa04099c1e7a4a9c99f9cff495f9a39a712fedfeea46eb252",
-	"descriptionMd5": "da24a5a87f39211c1ff10f03f06e0a3c"
+	"filename": "pool/main/l/llvm-toolchain-19/clang-tools-19_19.1.7-18_amd64.deb",
+	"size": 8960880,
+	"md5": "61eb2e0c6d9413c80e40da022a74f17b",
+	"sha256": "39f9a3c537d27a224aca7aad7e2f5e772a043f5064fea13c828edb7820b5ae6a",
+	"descriptionMd5": "0ac52908e51dad320be3476963296f5f"
 }]

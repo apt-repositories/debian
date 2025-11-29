@@ -6,13 +6,13 @@
 	],
 	"package": "socklog-run",
 	"source": "socklog",
-	"version": "2.1.1+repack-1",
+	"version": "2.1.2+repack-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"socklog (>= 2.1.0+repack-7~)",
-		"runit-run | runit-init",
+		"runit-run | daemontools-run | runit-init",
 		"runit-helper (>= 2.14.0~)",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
@@ -27,13 +27,13 @@
 		"linux-kernel-log-daemon",
 		"system-log-daemon"
 	],
-	"installedSize": 72,
+	"installedSize": 73,
 	"maintainer": "Mathieu Mirmont <mat@parad0x.org>",
 	"description": "system and kernel logging services - runit services",
 	"homepage": "https://smarden.org/socklog",
-	"filename": "pool/main/s/socklog/socklog-run_2.1.1+repack-1_all.deb",
-	"size": 10956,
-	"md5": "f6acfcca7c5b88e1ff283c7846a29177",
-	"sha256": "1cdaed2b6dcdedbdf3ddcd14314b3d5369c4eec6d8456c3e8ace63f42830299c",
-	"descriptionMd5": "ff83493ae4bcfd2e204e5ecf7b81ee68"
+	"filename": "pool/main/s/socklog/socklog-run_2.1.2+repack-1_all.deb",
+	"size": 11960,
+	"md5": "d08f04add2b70373f509e2ff725e139e",
+	"sha256": "a325f32be178a02b17d3e5b6b11397f4531af2dcd18a47826d8129634806be66",
+	"descriptionMd5": "1a7a0e0989220761ad7884a196c76c7a"
 }]

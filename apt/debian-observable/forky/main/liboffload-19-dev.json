@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liboffload-19-dev",
+	"source": "llvm-toolchain-19",
+	"version": "1:19.1.7-18",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liboffload-19 (= 1:19.1.7-18)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3)",
+		"libllvm19 (>= 1:19.1.0)",
+		"libomp5 (>= 1:19.1)",
+		"libstdc++6 (>= 10.2)",
+		"libz3-4 (>= 4.13.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"liboffload-x.y-dev",
+		"libomp-19-dev (<< 1:20241205084449+66a0a081338d)"
+	],
+	"breaks": [
+		"libomp-19-dev (<< 1:20241205084449+66a0a081338d)"
+	],
+	"conflicts": [
+		"liboffload-x.y-dev"
+	],
+	"installedSize": 33996,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Offload Library - Development Package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-19/liboffload-19-dev_19.1.7-18_amd64.deb",
+	"size": 1104240,
+	"md5": "4febf222cf7196c41d02d7f592100446",
+	"sha256": "28f85a73382f88b333d35a2acaf1bb67a63e5af3c1069b0ee45df6ff90fbd596",
+	"descriptionMd5": "352e5b2eb6f0446d5039b547a7bc6d17"
+}]
