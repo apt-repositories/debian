@@ -6,28 +6,31 @@
 	],
 	"package": "libc++-19-dev",
 	"source": "llvm-toolchain-19",
-	"version": "1:19.1.7-10.1",
+	"version": "1:19.1.7-18",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc++1-19 (= 1:19.1.7-10.1)",
-		"libc++abi-19-dev (= 1:19.1.7-10.1)",
-		"libunwind-19-dev"
+		"libc++1 (>= 1:19.1.7-18)",
+		"libc++abi-19-dev (= 1:19.1.7-18)"
 	],
 	"replaces": [
-		"libc++-x.y-dev"
+		"libc++-x.y-dev",
+		"libc++1 (<< 1:19.1.7-11)"
+	],
+	"breaks": [
+		"libc++1 (<< 1:19.1.7-11)"
 	],
 	"conflicts": [
 		"libc++-x.y-dev"
 	],
-	"installedSize": 11899,
+	"installedSize": 11904,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "LLVM C++ Standard library (development files)",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-19/libc++-19-dev_19.1.7-10.1_amd64.deb",
-	"size": 1287112,
-	"md5": "c2744b25e66ed59491e406341ecbd15a",
-	"sha256": "5e4abba721ee1da9a009043de7c87c49f47e3fcb337ed879349636b7a6585e0f",
+	"filename": "pool/main/l/llvm-toolchain-19/libc++-19-dev_19.1.7-18_amd64.deb",
+	"size": 1288700,
+	"md5": "c2d97c136cc3bd55c8c5d4f9e8ef3d1c",
+	"sha256": "ecd5cd4bbcc0e5421f24b6f4c0cb62d79c81ce2c259e65a780c7d92495b64d6a",
 	"descriptionMd5": "8cd44d2ae4969ab1c95a30917ddc69e7"
 }
