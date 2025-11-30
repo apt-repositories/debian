@@ -1,0 +1,65 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qtbase5-dev",
+	"source": "qtbase-opensource-src",
+	"version": "5.15.2+dfsg-9+deb11u2",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libegl-dev",
+		"libgl-dev",
+		"libglu1-mesa-dev | libglu-dev",
+		"libqt5concurrent5 (= 5.15.2+dfsg-9+deb11u2)",
+		"libqt5core5a (= 5.15.2+dfsg-9+deb11u2)",
+		"libqt5dbus5 (= 5.15.2+dfsg-9+deb11u2)",
+		"libqt5gui5 (= 5.15.2+dfsg-9+deb11u2)",
+		"libqt5network5 (= 5.15.2+dfsg-9+deb11u2)",
+		"libqt5printsupport5 (= 5.15.2+dfsg-9+deb11u2)",
+		"libqt5sql5 (= 5.15.2+dfsg-9+deb11u2)",
+		"libqt5test5 (= 5.15.2+dfsg-9+deb11u2)",
+		"libqt5widgets5 (= 5.15.2+dfsg-9+deb11u2)",
+		"libqt5xml5 (= 5.15.2+dfsg-9+deb11u2)",
+		"libvulkan-dev",
+		"libxext-dev",
+		"qt5-qmake (= 5.15.2+dfsg-9+deb11u2)",
+		"qtbase5-dev-tools (= 5.15.2+dfsg-9+deb11u2)",
+		"qtchooser"
+	],
+	"recommends": [
+		"libqt5opengl5-dev (= 5.15.2+dfsg-9+deb11u2)"
+	],
+	"suggests": [
+		"default-libmysqlclient-dev",
+		"firebird-dev",
+		"libpq-dev",
+		"libsqlite3-dev",
+		"unixodbc-dev"
+	],
+	"replaces": [
+		"qt5-qmake (<< 5.11.3+dfsg-3~)",
+		"qtbase5-dev-tools (<< 5.12.5+dfsg-3~)",
+		"qtbase5-private-dev (<< 5.11.3+dfsg-5~)"
+	],
+	"breaks": [
+		"qt5-default (<< 5.15.1+dfsg-2~)",
+		"qt5-qmake (<< 5.11.3+dfsg-3~)",
+		"qtbase5-dev-tools (<< 5.12.5+dfsg-3~)",
+		"qtbase5-private-dev (<< 5.11.3+dfsg-5~)"
+	],
+	"conflicts": [
+		"qtbase5-gles-dev"
+	],
+	"installedSize": 15404,
+	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
+	"description": "Qt 5 base development files",
+	"homepage": "https://www.qt.io/developers/",
+	"filename": "pool/updates/main/q/qtbase-opensource-src/qtbase5-dev_5.15.2+dfsg-9+deb11u2_amd64.deb",
+	"size": 1151096,
+	"sha256": "24c4b16eac1d6343caecbdc67d3252d8d0954af705d89b62f0057b75dae25c9a",
+	"descriptionMd5": "eb1a5e244bfc7327cfdf56f6aff9cab9"
+}

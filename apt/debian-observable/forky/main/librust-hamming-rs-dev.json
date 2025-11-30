@@ -6,17 +6,20 @@
 	],
 	"package": "librust-hamming-rs-dev",
 	"source": "rust-hamming-rs",
-	"version": "0.2.23-1",
+	"version": "0.2.25-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 109,
+	"depends": [
+		"librust-log-0.4+default-dev (>= 0.4.26-~~)"
+	],
+	"installedSize": 435,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Computes Hamming distance and weight -- if available, uses a highly optimized avx2 implementation - Rust source code",
+	"description": "Computes Hamming distance and weight -- if available and beneficial, uses a highly optimized avx2 implementation - Rust source code",
 	"homepage": "https://github.com/JeWaVe/hamming_rs",
-	"filename": "pool/main/r/rust-hamming-rs/librust-hamming-rs-dev_0.2.23-1_amd64.deb",
-	"size": 51548,
-	"md5": "19dc8b872b7cde59702f05604c936448",
-	"sha256": "f66c64bda5bbcac6df041d528e2222fca588d72502d8713e80e93a13573aecb8",
-	"descriptionMd5": "a34c94d81ca4a23568ea03bf82bccb06"
+	"filename": "pool/main/r/rust-hamming-rs/librust-hamming-rs-dev_0.2.25-1_amd64.deb",
+	"size": 364784,
+	"md5": "9a58ef4a04bede9b07c037b4b367a285",
+	"sha256": "7922be3008354c4cbe08c2c2c884e45035fef5ce05b27ef069acb343eaf4b9e5",
+	"descriptionMd5": "de4ef069f0eb3542b4d482f3c644a60b"
 }]
