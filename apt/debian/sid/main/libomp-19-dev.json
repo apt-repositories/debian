@@ -6,12 +6,12 @@
 	],
 	"package": "libomp-19-dev",
 	"source": "llvm-toolchain-19",
-	"version": "1:19.1.7-18",
+	"version": "1:19.1.7-19",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libomp5 (>= 1:19.1.7-18)",
+		"libomp5 (>= 1:19.1.7-19)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libpython3.13 (>= 3.13.0~rc3)",
@@ -22,22 +22,24 @@
 	],
 	"replaces": [
 		"libomp-x.y-dev",
-		"libomp5 (<< 1:19.1.7-11)"
+		"libomp5 (<< 1:19.1.7-11)",
+		"libomp5-19 (<< 1:19.1.7-11)"
 	],
 	"breaks": [
 		"libomp-dev (<< 3.7-1)",
-		"libomp5 (<< 1:19.1.7-11)"
+		"libomp5 (<< 1:19.1.7-11)",
+		"libomp5-19 (<< 1:19.1.7-11)"
 	],
 	"conflicts": [
 		"libomp-x.y-dev"
 	],
-	"installedSize": 581,
+	"installedSize": 582,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "LLVM OpenMP runtime - dev package",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-19/libomp-19-dev_19.1.7-18_amd64.deb",
-	"size": 134056,
-	"md5": "e80f4d557582faea67a57910cf2522f3",
-	"sha256": "51435c53a76411f7569f61202b5f7b8da0548c3cef1262bd0f4b09c72aca8261",
+	"filename": "pool/main/l/llvm-toolchain-19/libomp-19-dev_19.1.7-19_amd64.deb",
+	"size": 134084,
+	"md5": "b4394b3ab49208d6f700428f8b58f824",
+	"sha256": "ab68f0c24b1ba3fbe76544cd1098d1b9a30ecc6e8689a8c0413ccdc2b50c1d1e",
 	"descriptionMd5": "6f692a0e089a2d4587b533b4f246db62"
 }
