@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "task-lomiri-tablet",
+	"source": "tasksel",
+	"version": "3.85",
+	"section": "tasks",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"tasksel (= 3.85)",
+		"task-desktop",
+		"lomiri",
+		"mir-platform-graphics-gbm-kms | mir-platform-graphics-eglstream-kms | mir-platform-graphics-wayland | mir-platform-graphics-x",
+		"lomiri-desktop-session | lomiri-touch-session",
+		"lightdm",
+		"lomiri-greeter",
+		"debian-lomiri-default-settings",
+		"lomiri-keyboard"
+	],
+	"recommends": [
+		"orca"
+	],
+	"installedSize": 6,
+	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
+	"description": "Lomiri for tablet",
+	"filename": "pool/main/t/tasksel/task-lomiri-tablet_3.85_all.deb",
+	"size": 1048,
+	"md5": "d8f4ae3943cc06fe4c9995a644d4d20e",
+	"sha256": "2e628c9aa9fe6f5f85c613bcbb061bce24d53d962bf782a91c8fe38d9d2f183e",
+	"descriptionMd5": "b9ae9f1de8a3fadc466cdd076c03a847"
+}

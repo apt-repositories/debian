@@ -6,31 +6,33 @@
 	],
 	"package": "libc++abi-19-dev",
 	"source": "llvm-toolchain-19",
-	"version": "1:19.1.7-18",
+	"version": "1:19.1.7-19",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc++abi1 (>= 1:19.1.7-18)"
+		"libc++abi1 (>= 1:19.1.7-19)"
 	],
 	"replaces": [
 		"libc++abi-x.y-dev",
-		"libc++abi1 (<< 1:19.1.7-11)"
+		"libc++abi1 (<< 1:19.1.7-11)",
+		"libc++abi1-19 (<< 1:19.1.7-11)"
 	],
 	"breaks": [
 		"libc++abi-dev (<= 44)",
-		"libc++abi1 (<< 1:19.1.7-11)"
+		"libc++abi1 (<< 1:19.1.7-11)",
+		"libc++abi1-19 (<< 1:19.1.7-11)"
 	],
 	"conflicts": [
 		"libc++abi-x.y-dev"
 	],
-	"installedSize": 703,
+	"installedSize": 704,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "LLVM low level support for a standard C++ library (development files)",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-19/libc++abi-19-dev_19.1.7-18_amd64.deb",
-	"size": 131068,
-	"md5": "1d4b5fb95f0447d32734a863a80786be",
-	"sha256": "1cd15831ca6ac3e9f1fbef6ad7781138535c8b77f712b00fa881a31ed9c0a442",
+	"filename": "pool/main/l/llvm-toolchain-19/libc++abi-19-dev_19.1.7-19_amd64.deb",
+	"size": 131456,
+	"md5": "8f5706b70ada27e8f4b760ffa62449fa",
+	"sha256": "c563d58f6cd9227725e24d3e2475050a1f60b537c430f04e406ec4fc1fc07ee1",
 	"descriptionMd5": "364169ef5dcd81ea07cbcba49d061676"
 }
