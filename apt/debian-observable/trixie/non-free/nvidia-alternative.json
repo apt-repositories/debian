@@ -6,6 +6,51 @@
 	],
 	"package": "nvidia-alternative",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"glx-alternative-nvidia (>= 1.2)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.21)",
+		"nvidia-legacy-check (>= 495)"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia",
+		"nvidia-legacy-304xx-alternative",
+		"nvidia-legacy-340xx-alternative",
+		"nvidia-legacy-390xx-alternative (<< 390.157-2~)",
+		"nvidia-tesla-418-alternative (<< 418.226.00-7~)",
+		"nvidia-tesla-450-alternative",
+		"nvidia-tesla-460-alternative",
+		"nvidia-tesla-470-alternative (<< 470.256.02-5)",
+		"nvidia-tesla-510-alternative",
+		"nvidia-tesla-alternative (<< 525.147.05-8~)"
+	],
+	"installedSize": 212,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "allows the selection of NVIDIA as GLX provider",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-alternative_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 163888,
+	"sha256": "dde37c33a39befae702af87d7aecad19f2e44e742f29bccd18f0eaf62d46ddd7",
+	"descriptionMd5": "43dd859f350d9c1c1f144ab08a1977f6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-alternative",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/libs",
 	"priority": "optional",

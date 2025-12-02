@@ -5,43 +5,25 @@
 		"Size"
 	],
 	"package": "maliit-framework",
-	"source": "maliit-framework (2.3.0-6)",
-	"version": "2.3.0-6+b2",
+	"version": "2.3.0-7",
 	"section": "misc",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"libgcc-s1 (>= 3.3.1)",
-		"libmaliit-plugins2 (>= 2.3.0)",
-		"libqt5core5t64 (>= 5.15.1)",
-		"libqt5dbus5t64 (>= 5.2)",
-		"libqt5gui5t64 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta)",
-		"libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2)",
-		"libqt5waylandclient5 (>= 5.10.1)",
-		"libstdc++6 (>= 14)",
-		"libwayland-client0 (>= 1.20.0)",
-		"qtbase-abi-5-15-17",
-		"qtwayland-client-abi-5-15-17",
-		"qml-module-qtquick-localstorage"
+		"maliit-server-qt5 | maliit-server-qt6"
 	],
 	"recommends": [
-		"maliit-inputmethod-plugin"
+		"maliit-inputcontext-gtk3",
+		"maliit-inputcontext-qt5",
+		"maliit-inputcontext-qt6"
 	],
-	"breaks": [
-		"gir1.2-maliit-1.0 (<< 2.3.0-6)",
-		"libmaliit-glib0 (<< 2.3.0-6)",
-		"libmaliit0 (<< 2.3.0-6)",
-		"maliit-dbus-activation (<< 2.3.0-6)",
-		"maliit-inputcontext-qt4 (<< 2.3.0-6)"
-	],
-	"installedSize": 532,
+	"installedSize": 37,
 	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
 	"description": "Maliit Input Method Framework",
 	"homepage": "https://github.com/maliit/framework",
-	"filename": "pool/main/m/maliit-framework/maliit-framework_2.3.0-6+b2_amd64.deb",
-	"size": 126188,
-	"md5": "f4064ce2ba939c169bac133fc003cfbd",
-	"sha256": "72360b0f543083bca819dccb90e5952543b7f339646d2e54df144ebab4b36b33",
-	"descriptionMd5": "9dded4821f0efcc99e26f74ca71599f2"
+	"filename": "pool/main/m/maliit-framework/maliit-framework_2.3.0-7_all.deb",
+	"size": 9128,
+	"md5": "6c1be31f4d0b77b34971575bf3fb73fa",
+	"sha256": "3ce50d550b4411eff0f9dc69887341d9b049db739e8f160478de08d5409322ed",
+	"descriptionMd5": "e0c28c1f0183a7c1a16451cfc5c27c5a"
 }]

@@ -6,6 +6,34 @@
 	],
 	"package": "nvidia-egl-icd",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-egl-common",
+		"libegl1 (>= 0.2.999) | libegl1-glvnd-nvidia",
+		"libegl-nvidia0 (= 550.163.01-4~bpo13+1)"
+	],
+	"enhances": [
+		"libegl1"
+	],
+	"installedSize": 183,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA EGL installable client driver (ICD)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-egl-icd_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 161648,
+	"sha256": "d02103935c3fdedef6abf6b1536218a9e3be2a97cfafd1c2b15262b1ccb8b24d",
+	"descriptionMd5": "48bb1c6fd6391aad335bab10bc4ab1eb"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-egl-icd",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/libs",
 	"priority": "optional",

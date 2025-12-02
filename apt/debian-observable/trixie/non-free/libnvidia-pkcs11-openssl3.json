@@ -6,6 +6,34 @@
 	],
 	"package": "libnvidia-pkcs11-openssl3",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-alternative (= 550.163.01-4~bpo13+1)",
+		"libc6 (>= 2.2.5)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"conflicts": [
+		"libnvidia-pkcs11-openssl3-550.163.01"
+	],
+	"installedSize": 201,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA PKCS #11 Library (OpenSSL 3)",
+	"homepage": "https://www.nvidia.com/CUDA",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/libnvidia-pkcs11-openssl3_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 165584,
+	"sha256": "6ffe73e5606c30748a464b2574e696ce5657c8b6a2081c4bc5a91f8053ce9c42",
+	"descriptionMd5": "4d17d1e64ba8b70616c9930ae31cac87"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-pkcs11-openssl3",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/libs",
 	"priority": "optional",

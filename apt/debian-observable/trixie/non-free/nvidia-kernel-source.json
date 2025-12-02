@@ -6,6 +6,37 @@
 	],
 	"package": "nvidia-kernel-source",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debhelper-compat (= 13)",
+		"module-assistant"
+	],
+	"recommends": [
+		"firmware-nvidia-gsp (= 550.163.01) | firmware-nvidia-gsp-550.163.01",
+		"nvidia-kernel-support--v1"
+	],
+	"suggests": [
+		"nvidia-driver (>= 550.163.01)"
+	],
+	"installedSize": 40739,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary kernel module source",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-kernel-source_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 41690576,
+	"sha256": "b7bbdd0ad7e0a68d983f0dcfdf7a2d880d5b3ab553e4f8088d4561a8b8316788",
+	"descriptionMd5": "de8286a5d69e22571f183183a6be2b2c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-kernel-source",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/kernel",
 	"priority": "optional",

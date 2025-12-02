@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-mistral-dashboard",
+	"source": "mistral-dashboard",
+	"version": "11.0.0-2+deb11u1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"openstack-dashboard (>= 3:17.1.0)",
+		"python3-django",
+		"python3-django-compressor",
+		"python3-iso8601",
+		"python3-mistralclient",
+		"python3-pbr",
+		"python3-yaml",
+		"python3-django-horizon",
+		"python3:any"
+	],
+	"breaks": [
+		"python3-django-horizon (<< 3:18.6.2-4~)"
+	],
+	"installedSize": 318,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Workflow Service - dashboard plugin",
+	"homepage": "https://github.com/openstack/mistral-dashboard",
+	"filename": "pool/updates/main/m/mistral-dashboard/python3-mistral-dashboard_11.0.0-2+deb11u1_all.deb",
+	"size": 31284,
+	"sha256": "e02a2b48a299c238fbe1eed0f051debec1fe1254f452bd0af6786911feef4081",
+	"descriptionMd5": "67495c06de74cf14822293bc31481e75"
+}

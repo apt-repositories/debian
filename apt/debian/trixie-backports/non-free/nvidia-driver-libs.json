@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-driver-libs",
+	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libgl1-nvidia-glvnd-glx (= 550.163.01-4~bpo13+1)",
+		"nvidia-egl-icd (= 550.163.01-4~bpo13+1)"
+	],
+	"recommends": [
+		"nvidia-driver-libs:i386 (= 550.163.01-4~bpo13+1)",
+		"libopengl0 | libopengl0-glvnd-nvidia",
+		"libglx-nvidia0 (= 550.163.01-4~bpo13+1)",
+		"libgles-nvidia1 (= 550.163.01-4~bpo13+1)",
+		"libgles-nvidia2 (= 550.163.01-4~bpo13+1)",
+		"libnvidia-cfg1 (= 550.163.01-4~bpo13+1)",
+		"libnvidia-encode1 (= 550.163.01-4~bpo13+1)",
+		"nvidia-vulkan-icd (= 550.163.01-4~bpo13+1)",
+		"libnvidia-allocator1 (= 550.163.01-4~bpo13+1)"
+	],
+	"breaks": [
+		"libegl1-nvidia",
+		"libgl1-nvidia-glx",
+		"nvidia-driver-libs-nonglvnd",
+		"nvidia-nonglvnd-vulkan-icd"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia"
+	],
+	"installedSize": 187,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (OpenGL/GLX/EGL/GLES libraries)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-driver-libs_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 161980,
+	"sha256": "a96060f1b741fdf3e225bb878abf61e78342ac5d07654add46f2dc914124d8a9",
+	"descriptionMd5": "316d7881efd72c30ac3f0e1720998a13"
+}

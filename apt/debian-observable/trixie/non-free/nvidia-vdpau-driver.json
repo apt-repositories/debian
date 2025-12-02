@@ -6,6 +6,46 @@
 	],
 	"package": "nvidia-vdpau-driver",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/video",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvdpau1 (>= 0.9)",
+		"nvidia-alternative (= 550.163.01-4~bpo13+1)",
+		"libc6 (>= 2.34)",
+		"libx11-6",
+		"libxext6"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup",
+		"nvidia-legacy-check (>= 495)"
+	],
+	"recommends": [
+		"nvidia-kernel-dkms (= 550.163.01-4~bpo13+1) | nvidia-kernel-550.163.01 | nvidia-open-kernel-550.163.01"
+	],
+	"suggests": [
+		"nvidia-kernel-dkms (>= 550.163.01) | nvidia-kernel-source (>= 550.163.01) | nvidia-open-kernel-source (>= 550.163.01)"
+	],
+	"enhances": [
+		"libvdpau1"
+	],
+	"installedSize": 1010,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "Video Decode and Presentation API for Unix - NVIDIA driver",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-vdpau-driver_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 657480,
+	"sha256": "2a39ac98d94d6358af825790fa5990c2227ac8955d4aa1b89aff5fc07c2fafda",
+	"descriptionMd5": "73ed6c948a111447491083f23dec09c6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-vdpau-driver",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/video",
 	"priority": "optional",

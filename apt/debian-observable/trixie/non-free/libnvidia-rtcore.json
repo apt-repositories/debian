@@ -6,6 +6,33 @@
 	],
 	"package": "libnvidia-rtcore",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.2)"
+	],
+	"conflicts": [
+		"libnvidia-rtcore-550.163.01"
+	],
+	"installedSize": 74739,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary Vulkan ray tracing (rtcore) library",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/libnvidia-rtcore_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 13273248,
+	"sha256": "1daf9369fdecfa3171e06d24611da907157ff8c9c3ed92fb2d78b37de5870800",
+	"descriptionMd5": "cfcfd031f6c6978d63aacfbaa60e8f09"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-rtcore",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/libs",
 	"priority": "optional",
