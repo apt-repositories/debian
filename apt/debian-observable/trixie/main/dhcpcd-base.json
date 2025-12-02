@@ -6,12 +6,12 @@
 	],
 	"package": "dhcpcd-base",
 	"source": "dhcpcd",
-	"version": "1:10.2.4-4~bpo13+1",
+	"version": "1:10.3.0-2~bpo13+1",
 	"section": "net",
 	"priority": "important",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libssl3t64 (>= 3.0.0)",
 		"libudev1 (>= 183)"
@@ -20,18 +20,18 @@
 		"openresolv | resolvconf | systemd-resolved"
 	],
 	"replaces": [
-		"dhcpcd5 (<< 1:10.2.4-4~bpo13+1~)"
+		"dhcpcd5 (<< 1:10.3.0-2~bpo13+1~)"
 	],
 	"breaks": [
-		"dhcpcd5 (<< 1:10.2.4-4~bpo13+1~)"
+		"dhcpcd5 (<< 1:10.3.0-2~bpo13+1~)"
 	],
-	"installedSize": 501,
+	"installedSize": 503,
 	"maintainer": "Martin-Éric Racine <martin-eric.racine@iki.fi>",
 	"description": "DHCPv4 and DHCPv6 dual-stack client (binaries and exit hooks)",
 	"homepage": "https://github.com/NetworkConfiguration/dhcpcd",
-	"filename": "pool/main/d/dhcpcd/dhcpcd-base_10.2.4-4~bpo13+1_amd64.deb",
-	"size": 204456,
-	"sha256": "61ede7d5c2307e6e3430f48c7ef4700dbb9e349f707c08790e5135553d184555",
+	"filename": "pool/main/d/dhcpcd/dhcpcd-base_10.3.0-2~bpo13+1_amd64.deb",
+	"size": 205972,
+	"sha256": "205decfa1005dc6bcf5ae9903e28c68854ac8336b2a3f392d0632b1d5023ea27",
 	"descriptionMd5": "9fabc12c92ee2a93e5fbc5a0e6dcd21c"
 },{
 	"raw": {},

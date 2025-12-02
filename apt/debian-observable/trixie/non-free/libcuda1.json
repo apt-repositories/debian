@@ -6,6 +6,47 @@
 	],
 	"package": "libcuda1",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-support",
+		"nvidia-alternative (= 550.163.01-4~bpo13+1)",
+		"libnvidia-ptxjitcompiler1 (= 550.163.01-4~bpo13+1)",
+		"libnvidia-pkcs11-openssl3 (= 550.163.01-4~bpo13+1)",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"nvidia-legacy-check (>= 495)"
+	],
+	"recommends": [
+		"nvidia-kernel-dkms (= 550.163.01-4~bpo13+1) | nvidia-kernel-550.163.01 | nvidia-open-kernel-550.163.01",
+		"nvidia-smi",
+		"libnvidia-cfg1 (= 550.163.01-4~bpo13+1)",
+		"nvidia-persistenced (>= 550)",
+		"libcuda1:i386 (= 550.163.01-4~bpo13+1)"
+	],
+	"suggests": [
+		"nvidia-cuda-mps",
+		"nvidia-kernel-dkms (>= 550.163.01) | nvidia-kernel-source (>= 550.163.01) | nvidia-open-kernel-source (>= 550.163.01)"
+	],
+	"installedSize": 28256,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA CUDA Driver Library",
+	"homepage": "https://www.nvidia.com/CUDA",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/libcuda1_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 2961452,
+	"sha256": "b50307a9f74e5544147c1b26623085b64c0265776c68e5a44cde77771e488a2b",
+	"descriptionMd5": "d356667499c36180b4bd15722f2e0a93"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcuda1",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/libs",
 	"priority": "optional",

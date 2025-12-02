@@ -6,6 +6,34 @@
 	],
 	"package": "libnvidia-eglcore",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-glvkspirv (= 550.163.01-4~bpo13+1)",
+		"libc6 (>= 2.34)",
+		"libnvidia-gpucomp (= 550.163.01-4~bpo13+1)"
+	],
+	"conflicts": [
+		"libnvidia-eglcore-550.163.01"
+	],
+	"installedSize": 30482,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary EGL core libraries",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/libnvidia-eglcore_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 7794180,
+	"sha256": "dc170c40dfc181b2bd5ec624d174bc2c854164729fd9a34fa284f63e26d07e43",
+	"descriptionMd5": "77f4911a3ecf14f3670337606e22e0a3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-eglcore",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/libs",
 	"priority": "optional",

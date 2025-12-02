@@ -6,6 +6,37 @@
 	],
 	"package": "nvidia-smi",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-alternative (= 550.163.01-4~bpo13+1)",
+		"libnvidia-ml1 (= 550.163.01-4~bpo13+1)",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"nvidia-kernel-dkms (= 550.163.01-4~bpo13+1) | nvidia-kernel-550.163.01 | nvidia-open-kernel-550.163.01"
+	],
+	"suggests": [
+		"nvidia-kernel-dkms (>= 550.163.01) | nvidia-kernel-source (>= 550.163.01) | nvidia-open-kernel-source (>= 550.163.01)"
+	],
+	"installedSize": 1260,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA System Management Interface",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-smi_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 506616,
+	"sha256": "7ea0cee502a1535f77305863e94c756cb63c24899c972799caa316512ada86ac",
+	"descriptionMd5": "b173d400cbd92c511f6abb1c18284f04"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-smi",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/utils",
 	"priority": "optional",

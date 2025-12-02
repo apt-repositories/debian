@@ -6,6 +6,35 @@
 	],
 	"package": "libglx-nvidia0",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-alternative (= 550.163.01-4~bpo13+1)",
+		"libglx0 | libglx0-glvnd-nvidia",
+		"libc6 (>= 2.34)",
+		"libnvidia-eglcore (= 550.163.01-4~bpo13+1)",
+		"libnvidia-glcore (= 550.163.01-4~bpo13+1)",
+		"libx11-6",
+		"libxext6"
+	],
+	"installedSize": 1458,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary GLX library",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/libglx-nvidia0_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 400456,
+	"sha256": "51c9d8710104cd0eca1f7c33ed2459829560c3a39ff83f632e49fbdb29518cce",
+	"descriptionMd5": "ce379c987bbb78e30edc487761a62221"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libglx-nvidia0",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/libs",
 	"priority": "optional",

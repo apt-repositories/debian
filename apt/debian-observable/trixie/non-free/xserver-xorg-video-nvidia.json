@@ -6,6 +6,49 @@
 	],
 	"package": "xserver-xorg-video-nvidia",
 	"source": "nvidia-graphics-drivers",
+	"version": "550.163.01-4~bpo13+1",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-alternative (= 550.163.01-4~bpo13+1)",
+		"nvidia-support",
+		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
+		"xserver-xorg-core (<< 2:21.99)",
+		"libc6 (>= 2.34)",
+		"libnvidia-glcore (= 550.163.01-4~bpo13+1)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup",
+		"nvidia-legacy-check (>= 495)"
+	],
+	"recommends": [
+		"nvidia-driver (>= 550.163.01)",
+		"nvidia-vdpau-driver (>= 550.163.01)",
+		"nvidia-vulkan-icd (>= 550.163.01)",
+		"nvidia-kernel-dkms (= 550.163.01-4~bpo13+1) | nvidia-kernel-550.163.01 | nvidia-open-kernel-550.163.01",
+		"nvidia-suspend-common",
+		"nvidia-settings (>= 550)"
+	],
+	"suggests": [
+		"nvidia-kernel-dkms (>= 550.163.01) | nvidia-kernel-source (>= 550.163.01) | nvidia-open-kernel-source (>= 550.163.01)"
+	],
+	"installedSize": 20011,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary Xorg driver",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_550.163.01-4~bpo13+1_amd64.deb",
+	"size": 2367144,
+	"sha256": "423fd1eb13dc92db85f709656a0b7ddb5f295e7dba3245939dd9dc2e49b5b48b",
+	"descriptionMd5": "df48c17648de96b177f763c07883a7ed"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-nvidia",
+	"source": "nvidia-graphics-drivers",
 	"version": "550.163.01-2",
 	"section": "non-free/x11",
 	"priority": "optional",
