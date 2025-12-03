@@ -5,35 +5,33 @@
 		"Size"
 	],
 	"package": "inetsim",
-	"version": "1.3.2+dfsg.1-1",
+	"version": "1.3.2+dfsg.1-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"perl:any",
-		"libnet-server-perl",
-		"libnet-dns-perl (>= 0.66)",
-		"libipc-shareable-perl",
-		"libdigest-sha-perl",
-		"lsb-base",
 		"adduser",
-		"openssl"
+		"libdigest-sha-perl",
+		"libipc-shareable-perl",
+		"libnet-dns-perl",
+		"libnet-server-perl",
+		"openssl",
+		"perl:any"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
-		"libio-socket-ssl-perl",
-		"libnfqueue-perl",
-		"iptables"
+		"iptables",
+		"libio-socket-ssl-perl"
 	],
-	"installedSize": 1107,
+	"installedSize": 1088,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "Software suite for simulating common internet services",
 	"homepage": "https://www.inetsim.org/index.html",
-	"filename": "pool/main/i/inetsim/inetsim_1.3.2+dfsg.1-1_all.deb",
-	"size": 246640,
-	"md5": "4d0cb071b5b2a7beb025914ebf79dd43",
-	"sha256": "c74bacd212f9cd06cd60687524f499e64aa494bef9a1bd829d8464f5adadc0eb",
+	"filename": "pool/main/i/inetsim/inetsim_1.3.2+dfsg.1-2_all.deb",
+	"size": 230468,
+	"md5": "a8189d6c2d1d7138b4b5c46a724583b6",
+	"sha256": "791bfb6659950a71030682246dfc29b4f41f928c984c810d3b67aed86bc0fdb4",
 	"descriptionMd5": "c836789214e536e09e385702a57500be"
 }

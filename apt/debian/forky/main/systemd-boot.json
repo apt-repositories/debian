@@ -6,17 +6,17 @@
 	],
 	"package": "systemd-boot",
 	"source": "systemd",
-	"version": "259~rc1-1",
+	"version": "259~rc2-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libsystemd-shared (= 259~rc1-1)",
+		"libsystemd-shared (= 259~rc2-1)",
 		"efibootmgr",
-		"systemd (= 259~rc1-1)",
-		"systemd-boot-tools (= 259~rc1-1)",
-		"systemd-boot-efi-signed (>= 259~rc1-1) | systemd-boot-efi (= 259~rc1-1)"
+		"systemd (= 259~rc2-1)",
+		"systemd-boot-tools (= 259~rc2-1)",
+		"systemd-boot-efi-signed (>= 259~rc2-1) | systemd-boot-efi (= 259~rc2-1)"
 	],
 	"recommends": [
 		"shim-signed"
@@ -32,9 +32,9 @@
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "simple UEFI boot manager - integration and services",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-boot_259~rc1-1_amd64.deb",
-	"size": 103272,
-	"md5": "a20d3c594e10079b054a482d3a69d27f",
-	"sha256": "3d6d9a0a023e425c5be0384b0473c87cf3b94ecf0e786047c0b856dffae9a94c",
+	"filename": "pool/main/s/systemd/systemd-boot_259~rc2-1_amd64.deb",
+	"size": 103424,
+	"md5": "9da89640814a674f340c692f6b00b9ae",
+	"sha256": "65b65493fd361cbdba8a36816b18d9f020e9ed0415195f49e7738b52711641e7",
 	"descriptionMd5": "0df90775ace126cb973183972b57f509"
 }
