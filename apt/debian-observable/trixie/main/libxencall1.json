@@ -30,4 +30,35 @@
 	"md5": "3332ee6a3bf7ce49ecfe636eb930960c",
 	"sha256": "5e95047967bf0d689ba7e520393b1b96fd444d19f1cbe0a61bf606844cff1a85",
 	"descriptionMd5": "d1373591e42542257a1d8c9d2a8441b1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxencall1",
+	"source": "xen",
+	"version": "4.20.2+7-g1badcf5035-0+deb13u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libxentoolcore1 (>= 4.20.2+7-g1badcf5035)",
+		"libxentoollog1 (>= 4.20.2+7-g1badcf5035)"
+	],
+	"replaces": [
+		"libxencall1t64"
+	],
+	"breaks": [
+		"libxencall1t64 (<< 4.20.2+7-g1badcf5035-0+deb13u1)"
+	],
+	"installedSize": 84,
+	"maintainer": "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>",
+	"description": "Xen runtime library - libxencall",
+	"homepage": "https://xenproject.org/",
+	"filename": "pool/updates/main/x/xen/libxencall1_4.20.2+7-g1badcf5035-0+deb13u1_amd64.deb",
+	"size": 36864,
+	"sha256": "f3e1d186e7f4221b36e771a9c4392fd1cf69cb2df18312fe9894e41c6faaff82",
+	"descriptionMd5": "d1373591e42542257a1d8c9d2a8441b1"
 }]

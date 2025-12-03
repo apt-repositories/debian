@@ -6,7 +6,7 @@
 	],
 	"package": "python3-azure",
 	"source": "python-azure",
-	"version": "20251118+git-1",
+	"version": "20251202+git-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -31,6 +31,10 @@
 		"python3-msal-extensions",
 		"python3-nltk",
 		"python3-openai",
+		"python3-opentelemetry-api",
+		"python3-opentelemetry-exporter-otlp-proto-grpc",
+		"python3-opentelemetry-exporter-otlp-proto-http",
+		"python3-opentelemetry-sdk",
 		"python3-pandas | python3-supported-max (<< 3.13) | python3-supported-min (>= 3.14)",
 		"python3-pandas | python3-supported-max (<< 3.14)",
 		"python3-pandas | python3-supported-min (>= 3.13)",
@@ -55,16 +59,16 @@
 		"python3-azure-cosmos"
 	],
 	"breaks": [
-		"python3-azure-cli (<< 2.80.0)",
+		"python3-azure-cli (<< 2.81.0)",
 		"python3-azure-cosmos"
 	],
-	"installedSize": 447094,
+	"installedSize": 554047,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Microsoft Azure SDK for Python 3.x",
 	"homepage": "https://github.com/Azure/azure-sdk-for-python",
-	"filename": "pool/main/p/python-azure/python3-azure_20251118+git-1_all.deb",
-	"size": 14299920,
-	"md5": "c1ba3be1020117b903a2a2e20ae8ff3f",
-	"sha256": "5f9d1eec756d7a6be3009ccd0f4a5a3bfc80f2b7bde41ff65275c058fde50ee1",
+	"filename": "pool/main/p/python-azure/python3-azure_20251202+git-1_all.deb",
+	"size": 18074104,
+	"md5": "50bfaaf80cdc91ca79acf4904c439de8",
+	"sha256": "49871716e78cf7849764a54332dec8160e4a423319910af5160cbc5de5fa11fe",
 	"descriptionMd5": "61d4f337f1b510595dc81cb8b71f6098"
 }

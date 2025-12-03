@@ -30,4 +30,35 @@
 	"md5": "ed6d5982abba5caaf4860772332bdc83",
 	"sha256": "d4eca38a94ef9ee574b2e1f9d03f0efb116ffc358f6aa51f0b63b217c7b6c755",
 	"descriptionMd5": "dcbe3ced47522d91b647a027a556a47b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxenforeignmemory1",
+	"source": "xen",
+	"version": "4.20.2+7-g1badcf5035-0+deb13u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libxentoolcore1 (>= 4.20.2+7-g1badcf5035)",
+		"libxentoollog1 (>= 4.20.2+7-g1badcf5035)"
+	],
+	"replaces": [
+		"libxenforeignmemory1t64"
+	],
+	"breaks": [
+		"libxenforeignmemory1t64 (<< 4.20.2+7-g1badcf5035-0+deb13u1)"
+	],
+	"installedSize": 84,
+	"maintainer": "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>",
+	"description": "Xen runtime libraries - libxenforeignmemory",
+	"homepage": "https://xenproject.org/",
+	"filename": "pool/updates/main/x/xen/libxenforeignmemory1_4.20.2+7-g1badcf5035-0+deb13u1_amd64.deb",
+	"size": 37164,
+	"sha256": "1e7979d7d7c33dfb3869834b010e49bff819e0a661b04382d2e92b1bd08a57a6",
+	"descriptionMd5": "dcbe3ced47522d91b647a027a556a47b"
 }]

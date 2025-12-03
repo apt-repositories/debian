@@ -5,37 +5,40 @@
 		"Size"
 	],
 	"package": "flameshot",
-	"version": "12.1.0+ds-4",
+	"version": "13.3.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"hicolor-icon-theme",
-		"libqt5svg5",
-		"libc6 (>= 2.38)",
+		"libqt6svg6",
+		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
-		"libqt5core5t64 (>= 5.15.1)",
-		"libqt5dbus5t64 (>= 5.14.1)",
-		"libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1)",
-		"libqt5network5t64 (>= 5.0.2)",
-		"libqt5widgets5t64 (>= 5.15.1)",
-		"libstdc++6 (>= 14)"
+		"libkdsingleapplication-qt6-1.0 (>= 1.2.0)",
+		"libkf6guiaddons6 (>= 6.0.0)",
+		"libqt-color-widgets2 (>= 3.0.0)",
+		"libqt6core6t64 (>= 6.9.1)",
+		"libqt6dbus6 (>= 6.2)",
+		"libqt6gui6 (>= 6.9.1)",
+		"libqt6widgets6 (>= 6.2)",
+		"libstdc++6 (>= 13)"
 	],
 	"recommends": [
-		"xdg-desktop-portal-gtk | xdg-desktop-portal-gnome | xdg-desktop-portal-kde | xdg-desktop-portal-wlr",
-		"grim"
+		"grim",
+		"xdg-desktop-portal-gtk | xdg-desktop-portal-gnome | xdg-desktop-portal-kde | xdg-desktop-portal-wlr"
 	],
 	"suggests": [
 		"ca-certificates",
-		"openssl"
+		"openssl",
+		"qt6-image-formats-plugins"
 	],
-	"installedSize": 3465,
+	"installedSize": 3507,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Powerful yet simple-to-use screenshot software",
 	"homepage": "https://flameshot.org",
-	"filename": "pool/main/f/flameshot/flameshot_12.1.0+ds-4_amd64.deb",
-	"size": 713832,
-	"md5": "06340051ef416fe75b0a80cf38d5d6d7",
-	"sha256": "341a5bde4ea2798823090dc25fd522e9b07b8f1478eff34adce15e6d68133e9c",
+	"filename": "pool/main/f/flameshot/flameshot_13.3.0-1_amd64.deb",
+	"size": 701232,
+	"md5": "c3d4dd759abce19312673d3f2f61d682",
+	"sha256": "785638f0d469188681b6e62b73f17c5415db7b810f9e13ef901d395a7e92df6e",
 	"descriptionMd5": "d66868c2aa0ae1c1f518d150155a434b"
 }]
