@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libapache2-mod-wsgi-py3",
-	"source": "mod-wsgi",
-	"version": "5.0.2-1",
+	"source": "mod-wsgi (5.0.2-1)",
+	"version": "5.0.2-1+b1",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,20 +14,21 @@
 		"apache2-api-20120211",
 		"apache2-bin (>= 2.4.16)",
 		"python3 (>= 3.13)",
-		"python3 (<< 3.14)",
+		"python3 (<< 3.15)",
 		"libc6 (>= 2.38)",
-		"libpython3.13 (>= 3.13.0~rc3)"
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libpython3.14 (>= 3.14.0)"
 	],
 	"conflicts": [
 		"libapache2-mod-wsgi"
 	],
-	"installedSize": 296,
+	"installedSize": 559,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python 3 WSGI adapter module for Apache",
 	"homepage": "http://www.modwsgi.org/",
-	"filename": "pool/main/m/mod-wsgi/libapache2-mod-wsgi-py3_5.0.2-1_amd64.deb",
-	"size": 99160,
-	"md5": "2500439281602e3ea315349be9ca4946",
-	"sha256": "4f3a5467a9ed12ffc9900af06ada0e7ff598fb2dcef864d81945b94d135c85df",
+	"filename": "pool/main/m/mod-wsgi/libapache2-mod-wsgi-py3_5.0.2-1+b1_amd64.deb",
+	"size": 125976,
+	"md5": "3fbbc050cae5f68c2143834141f14ef2",
+	"sha256": "acaddcacd7f10a6728458e6ff1336a1d3ef1b474050d383cdda4d0a7966a40d5",
 	"descriptionMd5": "9804c7965adca269cbc58c4a8eb236d8"
 }]

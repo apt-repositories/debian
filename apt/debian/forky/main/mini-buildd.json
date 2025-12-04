@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "mini-buildd",
-	"version": "2.4.5",
+	"version": "2.4.7",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
 		"python3:any (>= 3.11~)",
-		"python3-mini-buildd (= 2.4.5)",
+		"python3-mini-buildd (= 2.4.7)",
 		"adduser",
 		"sudo",
 		"gnupg (>= 2.2.26)",
@@ -22,11 +22,11 @@
 		"zstd",
 		"schroot (>= 1.6.10-3~)",
 		"schroot (<< 1.7)",
-		"sbuild (>= 0.72)",
 		"dpkg-dev (>= 1.17.27~)",
 		"devscripts (>= 2.14.5~)"
 	],
 	"preDepends": [
+		"sbuild-schroot | sbuild (>= 0.72)",
 		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
@@ -59,9 +59,9 @@
 	"maintainer": "Stephan Sürken <absurd@debian.org>",
 	"description": "minimal build daemon - daemon",
 	"homepage": "https://mini-buildd.installiert.net/",
-	"filename": "pool/main/m/mini-buildd/mini-buildd_2.4.5_all.deb",
-	"size": 247844,
-	"md5": "e7234e97866455a14e2abe1039b18506",
-	"sha256": "625eeaf264853424fbba10c80f967454abee8b8f92d1e2030a26bc23510ab4b9",
+	"filename": "pool/main/m/mini-buildd/mini-buildd_2.4.7_all.deb",
+	"size": 248040,
+	"md5": "b8eaad303c6b580b339efddebf3cbfb9",
+	"sha256": "c0c93f9130c04995d9b6989baa73637c6e9106acfc1ce0574f6a1acf2f8360ab",
 	"descriptionMd5": "7cac11e68073884d1eeb34486a23c2fe"
 }

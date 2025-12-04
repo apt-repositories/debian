@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "libmariadbd19t64",
-	"source": "mariadb (1:11.8.3-1)",
-	"version": "1:11.8.3-1+b1",
+	"source": "mariadb",
+	"version": "1:11.8.5-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libaio1t64 (>= 0.3.93)",
 		"libc6 (>= 2.38)",
 		"libcrypt1 (>= 1:4.1.0)",
 		"libgcc-s1 (>= 3.0)",
@@ -25,15 +26,15 @@
 		"libmariadbd19"
 	],
 	"breaks": [
-		"libmariadbd19 (<< 1:11.8.3-1)"
+		"libmariadbd19 (<< 1:11.8.5-1)"
 	],
-	"installedSize": 25741,
+	"installedSize": 25754,
 	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
 	"description": "MariaDB embedded database, shared library",
 	"homepage": "https://mariadb.org/",
-	"filename": "pool/main/m/mariadb/libmariadbd19t64_11.8.3-1+b1_amd64.deb",
-	"size": 5650780,
-	"md5": "bc7b05f29a2ef125c4ce71cd69307cb5",
-	"sha256": "f7722490082f00e66a404dfecca15489014c6b542a0805df9232412bbdf2b508",
+	"filename": "pool/main/m/mariadb/libmariadbd19t64_11.8.5-1_amd64.deb",
+	"size": 5689288,
+	"md5": "44d7175456fe637bedc9b38945dae628",
+	"sha256": "7c19bd42b022c48c89c53306973ac5a7fbd475737e163b34141f65232cdaf67e",
 	"descriptionMd5": "a85241d1aa0dccaa3ede8bda094b9117"
 }

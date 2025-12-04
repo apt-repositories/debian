@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "golang-github-containers-common",
-	"version": "0.64.2+ds1-1",
+	"version": "0.66.0+ds2-3",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,15 +17,17 @@
 		"netavark"
 	],
 	"breaks": [
-		"buildah (<< 1.19.2+dfsg1-2~~)"
+		"buildah (<< 1.42)",
+		"podman (<< 5.7)",
+		"skopeo (<< 1.21)"
 	],
-	"installedSize": 110,
+	"installedSize": 112,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Common files for github.com/containers repositories",
 	"homepage": "https://github.com/containers/common",
-	"filename": "pool/main/g/golang-github-containers-common/golang-github-containers-common_0.64.2+ds1-1_all.deb",
-	"size": 47524,
-	"md5": "22a25478f70a8fd69f01407e9718e503",
-	"sha256": "11ef416ee0f02eb7614356ffb4485836e8f3ec6bf688f096dfebada010b6ff47",
+	"filename": "pool/main/g/golang-github-containers-common/golang-github-containers-common_0.66.0+ds2-3_all.deb",
+	"size": 48856,
+	"md5": "565882e2737d24bbcc30b9327c9289f9",
+	"sha256": "8542a8c958241fdfcdbd4ae723238ab995acabf3b1558474dd57506b5508166d",
 	"descriptionMd5": "f120088a791b8a74c2f9215b6732cafe"
 }]
