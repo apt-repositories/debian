@@ -6,29 +6,27 @@
 	],
 	"package": "grub-coreboot-bin",
 	"source": "grub2",
-	"version": "2.12-9",
+	"version": "2.14~git20250718.0e36779-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"grub-common (= 2.12-9)"
+		"grub2-common (= 2.14~git20250718.0e36779-2)"
 	],
 	"replaces": [
-		"grub-common (<= 1.97~beta2-1)",
-		"grub-coreboot (<< 1.99-1)",
 		"grub-linuxbios",
-		"grub2 (<< 2.12-9)"
+		"grub2 (<< 2.14~git20250718.0e36779-2)"
 	],
 	"conflicts": [
-		"grub-linuxbios (<< 2.12-9)"
+		"grub-linuxbios (<< 2.14~git20250718.0e36779-2)"
 	],
-	"installedSize": 1988,
+	"installedSize": 2325,
 	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
 	"description": "GRand Unified Bootloader, version 2 (Coreboot modules)",
 	"homepage": "https://www.gnu.org/software/grub/",
-	"filename": "pool/main/g/grub2/grub-coreboot-bin_2.12-9_amd64.deb",
-	"size": 648572,
-	"md5": "56dc88776d3743451de2d9fef0de3bfe",
-	"sha256": "ea406b9d02b6b879fb77a6719fae17f32169e203919f859c29d3e98ff6f0e37c",
+	"filename": "pool/main/g/grub2/grub-coreboot-bin_2.14~git20250718.0e36779-2_amd64.deb",
+	"size": 748960,
+	"md5": "2401fd8cb8f8d479c721b6972b64379f",
+	"sha256": "568b754f375e7db16c97b9945758b44503dff1545a9745af71c21f8e81ebc29d",
 	"descriptionMd5": "be941282995956a28b42e4848b6d427b"
 }

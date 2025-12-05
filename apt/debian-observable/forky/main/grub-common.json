@@ -6,63 +6,20 @@
 	],
 	"package": "grub-common",
 	"source": "grub2",
-	"version": "2.12-9",
+	"version": "2.14~git20250718.0e36779-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)",
-		"libdevmapper1.02.1 (>= 2:1.02.197)",
-		"libefiboot1t64 (>= 38)",
-		"libefivar1t64 (>= 38)",
-		"libfreetype6 (>= 2.2.1)",
-		"libfuse3-4 (>= 3.17.2)",
-		"liblzma5 (>= 5.1.1alpha+20120614)",
-		"gettext-base"
+		"grub2-common (= 2.14~git20250718.0e36779-2)"
 	],
-	"recommends": [
-		"os-prober (>= 1.33)"
-	],
-	"suggests": [
-		"multiboot-doc",
-		"grub-emu",
-		"mtools",
-		"xorriso (>= 0.5.6.pl00)",
-		"desktop-base (>= 4.0.6)",
-		"console-setup"
-	],
-	"replaces": [
-		"grub-coreboot (<< 2.00-4)",
-		"grub-efi (<< 1.99-1)",
-		"grub-efi-amd64 (<< 2.00-4)",
-		"grub-efi-ia32 (<< 2.00-4)",
-		"grub-efi-ia64 (<< 2.00-4)",
-		"grub-ieee1275 (<< 2.00-4)",
-		"grub-linuxbios (<< 1.96+20080831-1)",
-		"grub-pc (<< 2.00-4)",
-		"grub-yeeloong (<< 2.00-4)",
-		"init-select"
-	],
-	"breaks": [
-		"apport (<< 2.1.1)",
-		"friendly-recovery (<< 0.2.13)",
-		"grub-efi-amd64-signed (<< 1+2.12~rc1)",
-		"grub-efi-arm64-signed (<< 1+2.12~rc1)",
-		"grub-efi-ia32-signed (<< 1+2.12~rc1)",
-		"lupin-support (<< 0.55)",
-		"mdadm (<< 2.6.7-2)"
-	],
-	"conflicts": [
-		"init-select"
-	],
-	"installedSize": 17639,
+	"installedSize": 12,
 	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
-	"description": "GRand Unified Bootloader (common files)",
+	"description": "GRand Unified Bootloader, version 2 (dummy package)",
 	"homepage": "https://www.gnu.org/software/grub/",
-	"builtUsing": "lzo2 (= 2.10-3)",
-	"filename": "pool/main/g/grub2/grub-common_2.12-9_amd64.deb",
-	"size": 2898928,
-	"md5": "094ebea750b1c5bd94166d746456f24a",
-	"sha256": "8ed602eda13469c0f18fb081ca7baf72d13edf97ae9ffaa46b0221f50d7268e8",
-	"descriptionMd5": "9c75036dc0a0792fedbc58df208ed227"
+	"filename": "pool/main/g/grub2/grub-common_2.14~git20250718.0e36779-2_amd64.deb",
+	"size": 2376,
+	"md5": "4a66c82f5fb80255322742fe8bdd88d5",
+	"sha256": "f3b1626addbdfc9f568deda777a0c45c0c76988f09d020a3392b31351de03702",
+	"descriptionMd5": "f0460cd9e7217bd8393b02bdd3c48897"
 }]

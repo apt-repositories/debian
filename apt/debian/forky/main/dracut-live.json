@@ -6,13 +6,14 @@
 	],
 	"package": "dracut-live",
 	"source": "dracut",
-	"version": "109-1",
+	"version": "109-5",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"dmsetup",
-		"dracut-core"
+		"dracut-core",
+		"parted"
 	],
 	"recommends": [
 		"dracut-network"
@@ -28,13 +29,13 @@
 		"dracut-core (<< 050-1)",
 		"dracut-network (<< 050-1)"
 	],
-	"installedSize": 82,
+	"installedSize": 83,
 	"maintainer": "Thomas Lange <lange@debian.org>",
 	"description": "dracut is an event driven initramfs infrastructure (live image modules)",
 	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
-	"filename": "pool/main/d/dracut/dracut-live_109-1_all.deb",
-	"size": 21872,
-	"md5": "bfea68dfe25b61717098ce82cee3cdf1",
-	"sha256": "deed77c9841044a27b8fafe0b5b7e8167f93e34908bf7042ee8adae028934b78",
+	"filename": "pool/main/d/dracut/dracut-live_109-5_all.deb",
+	"size": 22468,
+	"md5": "29b4a10e99971af610f3d51141b7fc37",
+	"sha256": "8a5d365f14e1ecb528fa1ca55921cd1dda65e0ef1c8fc5462b39082ac373f015",
 	"descriptionMd5": "82eda9955b37992c0f2f77558a84b7d8"
 }

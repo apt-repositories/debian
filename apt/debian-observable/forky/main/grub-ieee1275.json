@@ -6,28 +6,25 @@
 	],
 	"package": "grub-ieee1275",
 	"source": "grub2",
-	"version": "2.12-9",
+	"version": "2.14~git20250718.0e36779-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
-		"grub-common (= 2.12-9)",
-		"grub2-common (= 2.12-9)",
-		"grub-ieee1275-bin (= 2.12-9)",
+		"grub2-common (= 2.14~git20250718.0e36779-2)",
+		"grub-ieee1275-bin (= 2.14~git20250718.0e36779-2)",
 		"ucf"
 	],
 	"replaces": [
-		"grub-common (<= 1.97~beta2-1)",
 		"grub-coreboot",
 		"grub-efi-amd64",
 		"grub-efi-ia32",
 		"grub-legacy",
 		"grub-pc",
-		"grub2 (<< 2.12-9)"
+		"grub2 (<< 2.14~git20250718.0e36779-2)"
 	],
 	"conflicts": [
-		"grub (<< 0.97-54)",
 		"grub-coreboot",
 		"grub-efi-amd64",
 		"grub-efi-ia32",
@@ -35,13 +32,13 @@
 		"grub-pc",
 		"grub-xen"
 	],
-	"installedSize": 186,
+	"installedSize": 142,
 	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
 	"description": "GRand Unified Bootloader, version 2 (Open Firmware version)",
 	"homepage": "https://www.gnu.org/software/grub/",
-	"filename": "pool/main/g/grub2/grub-ieee1275_2.12-9_amd64.deb",
-	"size": 46652,
-	"md5": "a6f959746d5d4997ae93ac2a645b41a4",
-	"sha256": "9b9cb35e2e919e8fb3da822ec0e5077273707683884424624a78c420f6f7c794",
+	"filename": "pool/main/g/grub2/grub-ieee1275_2.14~git20250718.0e36779-2_amd64.deb",
+	"size": 42836,
+	"md5": "bb0dc8c6e8b01086896f185efaa3a597",
+	"sha256": "15c7deec2b2d71034f147b9b30a18e3ef185aae7ee452f9a61bedc99e1ffbfbb",
 	"descriptionMd5": "4182e3a83ecc589a21da82d455a9182d"
 }]

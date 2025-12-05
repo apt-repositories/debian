@@ -5,32 +5,34 @@
 		"Size"
 	],
 	"package": "python3-dbus-tests",
-	"source": "dbus-python",
-	"version": "1.4.0-1",
+	"source": "dbus-python (1.4.0-1)",
+	"version": "1.4.0-1+b1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"dbus-daemon",
 		"python3-dbus",
-		"python3 (<< 3.14)",
+		"python3 (<< 3.15)",
 		"python3 (>= 3.13~)",
-		"python3.13:any",
+		"python3.14:any",
 		"python3:any",
+		"python3.13:any",
 		"libc6 (>= 2.34)",
-		"libpython3.13 (>= 3.13.0~rc3)"
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libpython3.14 (>= 3.14.0)"
 	],
 	"recommends": [
 		"gnome-desktop-testing",
 		"python3-gi"
 	],
-	"installedSize": 213,
+	"installedSize": 390,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "simple interprocess messaging system (Python 3 interface - tests)",
 	"homepage": "https://www.freedesktop.org/wiki/Software/DBusBindings#Python",
-	"filename": "pool/main/d/dbus-python/python3-dbus-tests_1.4.0-1_amd64.deb",
-	"size": 33784,
-	"md5": "e3d199cc9ff456017b28d9ea49678aef",
-	"sha256": "1d4b156b0541250faaa9e8f1db822914105533842e869d75c77d3ff74805edb5",
+	"filename": "pool/main/d/dbus-python/python3-dbus-tests_1.4.0-1+b1_amd64.deb",
+	"size": 35196,
+	"md5": "f96b6840abc01a1e0a6e19602f1b1d60",
+	"sha256": "fe4a7c2ee4854a655cb7616248d3f6c4eb4306a8170008e6c9462d60a82f4fdc",
 	"descriptionMd5": "79ffa70594d155e9f0431e4e0a033937"
 }]

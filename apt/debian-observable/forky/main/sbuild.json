@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "sbuild",
-	"version": "0.91.1",
+	"version": "0.91.2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libsbuild-perl (= 0.91.1)",
-		"iproute2",
-		"uidmap",
+		"libsbuild-perl (= 0.91.2)",
+		"iproute2 | sbuild-schroot",
+		"uidmap | sbuild-schroot",
 		"perl:any"
 	],
 	"recommends": [
@@ -26,9 +26,9 @@
 	"installedSize": 158,
 	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
 	"description": "Tool for building Debian binary packages from Debian sources",
-	"filename": "pool/main/s/sbuild/sbuild_0.91.1_all.deb",
-	"size": 76340,
-	"md5": "ef4993e7dc6aba17f0d6cfd058bdc1cc",
-	"sha256": "aaa730a4d8aa9e8838d1650d98ed7b8e2f83450522ad6bd34ef6b799fc8a36dc",
+	"filename": "pool/main/s/sbuild/sbuild_0.91.2_all.deb",
+	"size": 76480,
+	"md5": "ba8295760970bac3c611ae247efbbce1",
+	"sha256": "1db05bd04cd186fb3a592c12a322b0efc30fa3e0f0e964e5837815a478a1aab3",
 	"descriptionMd5": "52a7efe774c1dc4d9d877e9d259442b5"
 }]
