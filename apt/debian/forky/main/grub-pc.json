@@ -6,45 +6,42 @@
 	],
 	"package": "grub-pc",
 	"source": "grub2",
-	"version": "2.12-9",
+	"version": "2.14~git20250718.0e36779-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
-		"grub-common (= 2.12-9)",
-		"grub2-common (= 2.12-9)",
-		"grub-pc-bin (= 2.12-9)",
+		"grub2-common (= 2.14~git20250718.0e36779-2)",
+		"grub-pc-bin (= 2.14~git20250718.0e36779-2)",
 		"ucf"
 	],
 	"replaces": [
 		"grub",
-		"grub-common (<= 1.97~beta2-1)",
 		"grub-coreboot",
 		"grub-efi-amd64",
 		"grub-efi-ia32",
 		"grub-ieee1275",
 		"grub-legacy",
-		"grub2 (<< 2.12-9)"
+		"grub2 (<< 2.14~git20250718.0e36779-2)"
 	],
 	"breaks": [
 		"grub-legacy (<< 0.97-84~)"
 	],
 	"conflicts": [
-		"grub (<< 0.97-54)",
 		"grub-coreboot",
 		"grub-efi-amd64",
 		"grub-efi-ia32",
 		"grub-ieee1275",
 		"grub-xen"
 	],
-	"installedSize": 527,
+	"installedSize": 479,
 	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
 	"description": "GRand Unified Bootloader, version 2 (PC/BIOS version)",
 	"homepage": "https://www.gnu.org/software/grub/",
-	"filename": "pool/main/g/grub2/grub-pc_2.12-9_amd64.deb",
-	"size": 128456,
-	"md5": "120cd3f15c737dceb08d9d89c3d666ae",
-	"sha256": "5b06a59d780f487170736e0720bef033b45d14fc660993eb4162412b87e5767b",
+	"filename": "pool/main/g/grub2/grub-pc_2.14~git20250718.0e36779-2_amd64.deb",
+	"size": 124116,
+	"md5": "431c7f3650ab7eaa2866b505115b6d98",
+	"sha256": "a68dc0463fe21167996549d7f893e50bb70f75a5f4f473ef77068adeccf1d450",
 	"descriptionMd5": "55663e0e8d42f469d665f9cc0013b733"
 }

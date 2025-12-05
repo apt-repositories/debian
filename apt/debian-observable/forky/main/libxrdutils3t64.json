@@ -6,7 +6,7 @@
 	],
 	"package": "libxrdutils3t64",
 	"source": "xrootd",
-	"version": "5.9.0-1",
+	"version": "5.9.1-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,18 +18,20 @@
 		"libsystemd0"
 	],
 	"replaces": [
-		"libxrdutils3"
+		"libxrdutils3",
+		"xrootd-fuse"
 	],
 	"breaks": [
-		"libxrdutils3 (<< 5.9.0-1)"
+		"libxrdutils3 (<< 5.9.1-3)",
+		"xrootd-fuse"
 	],
 	"installedSize": 1224,
 	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
 	"description": "Utilities library for xrootd",
 	"homepage": "https://xrootd.web.cern.ch/",
-	"filename": "pool/main/x/xrootd/libxrdutils3t64_5.9.0-1_amd64.deb",
-	"size": 435420,
-	"md5": "d18c2f780b40de80f9352de56d55ee11",
-	"sha256": "f770c776de07d486a31dfee3e7ec146f97148ea70f3f17f58e8c55df8d7f79d6",
+	"filename": "pool/main/x/xrootd/libxrdutils3t64_5.9.1-3_amd64.deb",
+	"size": 436084,
+	"md5": "29c46e9c43177e00b34b72de06846157",
+	"sha256": "537b695fc09e3b5b7a1c646523d37aefc7a8cf3b44fce22ba706b09a99d16a1c",
 	"descriptionMd5": "df00d1811409e8a067d7f9692e8f817c"
 }]
