@@ -5,12 +5,14 @@
 		"Size"
 	],
 	"package": "python3-zope.proxy",
-	"source": "zope.proxy",
-	"version": "7.1-3",
+	"source": "zope.proxy (7.1-3)",
+	"version": "7.1-3+b1",
 	"section": "zope",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"python3 (<< 3.15)",
+		"python3 (>= 3.13~)",
 		"python3-zope.interface",
 		"python3:any",
 		"libc6 (>= 2.4)"
@@ -18,13 +20,13 @@
 	"conflicts": [
 		"zope3"
 	],
-	"installedSize": 187,
+	"installedSize": 188,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Generic transparent proxies for Python",
 	"homepage": "https://github.com/zopefoundation/zope.proxy",
-	"filename": "pool/main/z/zope.proxy/python3-zope.proxy_7.1-3_amd64.deb",
-	"size": 30072,
-	"md5": "585338cc79ab0be20c389f239f8d6c05",
-	"sha256": "0b2e8ae7a2e9e29565897b93156580ac7741030d9c8ac80545b3f2f0e8814947",
+	"filename": "pool/main/z/zope.proxy/python3-zope.proxy_7.1-3+b1_amd64.deb",
+	"size": 30440,
+	"md5": "17fa686f91769de13a05144ab490c66a",
+	"sha256": "073573632f98c3c98b54619b5a2a2021cf0b6cd5830cac236d5b303b84f0828c",
 	"descriptionMd5": "1bfe7817750902c76dcc3f5e032c6be1"
 }]

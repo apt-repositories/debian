@@ -6,15 +6,14 @@
 	],
 	"package": "openssh-server",
 	"source": "openssh",
-	"version": "1:10.2p1-2",
+	"version": "1:10.2p1-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libpam-modules",
 		"libpam-runtime",
-		"lsb-base",
-		"openssh-client (= 1:10.2p1-2)",
+		"openssh-client (= 1:10.2p1-3)",
 		"openssh-sftp-server",
 		"procps",
 		"ucf",
@@ -49,20 +48,19 @@
 		"ufw"
 	],
 	"replaces": [
-		"openssh-client (<< 1:7.9p1-8)",
 		"ssh",
 		"ssh-krb5"
 	],
 	"breaks": [
 		"runit (<< 2.1.2-51~)"
 	],
-	"installedSize": 3502,
+	"installedSize": 3501,
 	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
 	"description": "secure shell (SSH) server, for secure access from remote machines",
 	"homepage": "https://www.openssh.com/",
-	"filename": "pool/main/o/openssh/openssh-server_10.2p1-2_amd64.deb",
-	"size": 625004,
-	"md5": "523d6f1a02ef3eaab1fc53db2f669475",
-	"sha256": "7a099d6dd15512c591e831f7c3b134e84c9a75b80985378f6b0b4842852244c3",
+	"filename": "pool/main/o/openssh/openssh-server_10.2p1-3_amd64.deb",
+	"size": 624360,
+	"md5": "b2bf2c76d7f6d83293caff42d6d83940",
+	"sha256": "9a96d341a93d3ec09c393cf9b0d45defa8d84a0b1f84b52cdbd221fe05bda901",
 	"descriptionMd5": "842cc998cae371b9d8106c1696373919"
 }
