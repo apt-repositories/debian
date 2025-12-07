@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "gnome-core",
-	"source": "meta-gnome3",
-	"version": "1:49+3.1",
+	"source": "meta-gnome (49+7)",
+	"version": "1:49+7",
 	"section": "metapackages",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -58,6 +58,7 @@
 		"gstreamer1.0-plugins-good (>= 1.24)",
 		"gvfs-backends (>= 1.57)",
 		"gvfs-fuse (>= 1.57)",
+		"ibus",
 		"libatk-adaptor (>= 2.38)",
 		"libcanberra-pulse",
 		"libglib2.0-bin",
@@ -69,14 +70,14 @@
 		"zenity (>= 4)"
 	],
 	"recommends": [
-		"firefox-esr (>= 78) | firefox (>= 78) | chromium | chromium-browser | epiphany-browser | gnome-www-browser",
+		"firefox-esr (>= 78) | firefox (>= 78) | chromium | epiphany-browser | gnome-www-browser",
 		"gnome-remote-desktop (>= 48)",
 		"gnome-tour (>= 48)",
 		"gnome-user-share (>= 48)",
 		"locales-all",
 		"network-manager",
-		"rygel-playbin (>= 0.42)",
-		"rygel-tracker (>= 0.42)"
+		"rygel-localsearch (>= 0.42)",
+		"rygel-playbin (>= 0.42)"
 	],
 	"suggests": [
 		"gnome",
@@ -86,9 +87,9 @@
 	"installedSize": 16,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GNOME Desktop Environment -- essential components",
-	"filename": "pool/main/m/meta-gnome3/gnome-core_49+3.1_amd64.deb",
-	"size": 8808,
-	"md5": "1ae9da98fcb41676278109a5c9603d1c",
-	"sha256": "ee7d80fb4b28ad301f1d39849dbcfba4bb4793781bb817cfeae41c028da28451",
+	"filename": "pool/main/m/meta-gnome/gnome-core_49+7_amd64.deb",
+	"size": 9160,
+	"md5": "2b8cefbff830dcadfa48d5ab36db733a",
+	"sha256": "888df10aa88436ca9bbe053c4e2f6b845ef8e87d707acedcca8345900ddddc19",
 	"descriptionMd5": "fcab6512392d98bcda40d798ee6af273"
 }]
