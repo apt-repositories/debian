@@ -6,7 +6,7 @@
 	],
 	"package": "librust-debian-control-dev",
 	"source": "rust-debian-control",
-	"version": "0.2.10-1",
+	"version": "0.2.10-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -26,13 +26,18 @@
 		"librust-serde-1+default-dev",
 		"librust-url-2+default-dev"
 	],
+	"breaks": [
+		"librust-debian-analyzer-dev (<< 0.160)",
+		"librust-ognibuild-dev (<< 0.2)",
+		"librust-upstream-ontologist-dev (<< 0.3)"
+	],
 	"installedSize": 571,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Parser for Debian control files - Rust source code",
 	"homepage": "https://github.com/jelmer/deb822-lossless",
-	"filename": "pool/main/r/rust-debian-control/librust-debian-control-dev_0.2.10-1_amd64.deb",
-	"size": 90272,
-	"md5": "cd3cca23f2c5e7d21c533bba092efa6c",
-	"sha256": "2d127a124eff1c0125c9d26ea3c6fabb6ad4c221791cfadbf6cff3670d063e14",
+	"filename": "pool/main/r/rust-debian-control/librust-debian-control-dev_0.2.10-2_amd64.deb",
+	"size": 90432,
+	"md5": "3a33b0741bbf59d51a0da20bc5cb8414",
+	"sha256": "3733d6aab8f9037c04fb4b2f21a39b46bfada6ce615859986b656fe7258b418d",
 	"descriptionMd5": "e3b5ebe55b5f4770aede06d556c2c418"
 }]

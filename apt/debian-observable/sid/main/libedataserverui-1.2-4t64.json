@@ -6,11 +6,12 @@
 	],
 	"package": "libedataserverui-1.2-4t64",
 	"source": "evolution-data-server",
-	"version": "3.56.2-4",
+	"version": "3.56.2-5",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"evolution-data-server-common (>= 3.56)",
 		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.2.4)",
 		"libcamel-1.2-64t64 (>= 3.19.92)",
@@ -23,22 +24,21 @@
 		"libnss3 (>= 2:3.13.4-2~)",
 		"libpango-1.0-0 (>= 1.14.0)",
 		"libsoup-3.0-0 (>= 3.1.1)",
-		"libwebkit2gtk-4.1-0 (>= 2.31.1)",
-		"evolution-data-server-common (>= 3.56)"
+		"libwebkit2gtk-4.1-0 (>= 2.31.1)"
 	],
 	"replaces": [
 		"libedataserverui-1.2-4"
 	],
 	"breaks": [
-		"libedataserverui-1.2-4 (<< 3.56.2-4)"
+		"libedataserverui-1.2-4 (<< 3.56.2-5)"
 	],
 	"installedSize": 257,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Utility library for evolution data servers",
 	"homepage": "https://gitlab.gnome.org/GNOME/evolution/-/wikis/home",
-	"filename": "pool/main/e/evolution-data-server/libedataserverui-1.2-4t64_3.56.2-4_amd64.deb",
-	"size": 81172,
-	"md5": "aedab2ee4242ec46821c67c4bb40fd79",
-	"sha256": "97b11a2c848c92f5afa68906fd3c3beade0e3fc9fd213594bcdfbd7eb500102d",
+	"filename": "pool/main/e/evolution-data-server/libedataserverui-1.2-4t64_3.56.2-5_amd64.deb",
+	"size": 81384,
+	"md5": "cb432d350cf06bb7c22b9b8f16acd8f2",
+	"sha256": "485ae9989982961fca0d7cfff342704abe7ea718bbc3dd81ce879e4de38f9d41",
 	"descriptionMd5": "9029e4b9b34817b7416ca538ebbcce0f"
 }]

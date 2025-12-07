@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bluefish",
+	"version": "2.2.19-1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bluefish-data (= 2.2.19-1)",
+		"bluefish-plugins (= 2.2.19-1)",
+		"gvfs-backends",
+		"libc6 (>= 2.38)",
+		"libcairo2 (>= 1.10.0)",
+		"libenchant-2-2 (>= 2.2.3)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0t64 (>= 2.80.0)",
+		"libgtk-3-0t64 (>= 3.21.5)",
+		"libpango-1.0-0 (>= 1.22.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"python3:any"
+	],
+	"suggests": [
+		"csstidy",
+		"dos2unix",
+		"libxml2-utils",
+		"jsbeautifier",
+		"php-codesniffer",
+		"pylint",
+		"tidy",
+		"weblint-perl | weblint",
+		"www-browser"
+	],
+	"replaces": [
+		"bluefish-data (<< 2.2.12-1.1~)"
+	],
+	"breaks": [
+		"bluefish-data (<< 2.2.12-1.1~)"
+	],
+	"installedSize": 813,
+	"maintainer": "Jonathan Carter <jcc@debian.org>",
+	"description": "advanced Gtk+ text editor for web and software development",
+	"homepage": "https://bluefish.openoffice.nl",
+	"filename": "pool/main/b/bluefish/bluefish_2.2.19-1_amd64.deb",
+	"size": 287276,
+	"md5": "d24cc096aa92a6c1dfedfd1a0b6493eb",
+	"sha256": "a2bba97e18512040ca96fbdc1bb97123bf1ce4981e329f764063ca201c3dd359",
+	"descriptionMd5": "2cf908ef001fcc791aee8e7b4a506e74"
+}
