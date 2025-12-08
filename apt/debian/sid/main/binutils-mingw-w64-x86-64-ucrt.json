@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-mingw-w64-x86-64-ucrt",
+	"source": "binutils-mingw-w64 (13)",
+	"version": "2.45.50.20251201-1+13",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.11.dfsg)",
+		"binutils-mingw-w64-base (= 2.45.50.20251201-1+13)",
+		"binutils-common (>= 2.45.50.20251201)"
+	],
+	"replaces": [
+		"binutils-mingw-w64-ucrt64 (<< 2.45.50.20251201-1+13)",
+		"binutils-mingw-w64-x86-64 (<< 2.43.1)"
+	],
+	"breaks": [
+		"binutils-mingw-w64-ucrt64 (<< 2.45.50.20251201-1+13)",
+		"binutils-mingw-w64-x86-64 (<< 2.43.1)"
+	],
+	"installedSize": 26869,
+	"maintainer": "Stephen Kitt <skitt@debian.org>",
+	"description": "Cross-binutils for UCRT Win64 (x64) using MinGW-w64",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"builtUsing": "binutils (= 2.45.50.20251201-1)",
+	"filename": "pool/main/b/binutils-mingw-w64/binutils-mingw-w64-x86-64-ucrt_2.45.50.20251201-1+13_amd64.deb",
+	"size": 3205488,
+	"md5": "6c40e176d5c8b0cadbeac0b5fee0789d",
+	"sha256": "1132c9c8cc68863ae040a27821e55c8170fbff39aa1f15711e579a2af22f5221",
+	"descriptionMd5": "54bcd41be7012f30543c9f1786ddcdf0"
+}
