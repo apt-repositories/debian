@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "dnsdist",
-	"source": "dnsdist (2.0.1-1)",
-	"version": "2.0.1-1+b1",
+	"version": "2.0.2-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,6 +18,7 @@
 		"libedit2 (>= 2.11-20080614-0)",
 		"libfstrm0 (>= 0.4.0)",
 		"libgcc-s1 (>= 4.2)",
+		"libgnutls30t64 (>= 3.8.1)",
 		"liblmdb0 (>= 0.9.7)",
 		"libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty)",
 		"libnghttp2-14 (>= 1.49.0)",
@@ -33,14 +33,17 @@
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 14256,
+	"recommends": [
+		"ca-certificates"
+	],
+	"installedSize": 14263,
 	"maintainer": "dnsdist packagers <dnsdist@packages.debian.org>",
 	"description": "DNS loadbalancer",
 	"homepage": "https://dnsdist.org",
 	"builtUsing": "rustc (= 1.90.0+dfsg1-1)",
-	"filename": "pool/main/d/dnsdist/dnsdist_2.0.1-1+b1_amd64.deb",
-	"size": 3692828,
-	"md5": "0b693d7410a9e0e63ae2a812879eac87",
-	"sha256": "80e001064911d2a939e0939d1660f8cecf526b9a2d6b7e7905287c17717da21e",
+	"filename": "pool/main/d/dnsdist/dnsdist_2.0.2-1_amd64.deb",
+	"size": 3699196,
+	"md5": "5a7f8320884015d27b569c81b127d276",
+	"sha256": "8cb76542737b8da3ea7a786a1ad6f8a081b7dbaac3012aba2c74f5ea557416f0",
 	"descriptionMd5": "a513b049e15ad7501b5fce6d42694c08"
 }]

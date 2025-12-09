@@ -6,17 +6,22 @@
 	],
 	"package": "librust-async-fn-stream-dev",
 	"source": "rust-async-fn-stream",
-	"version": "0.2.2-5",
+	"version": "0.3.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 42,
+	"depends": [
+		"librust-futures-util-0.3+std-dev",
+		"librust-pin-project-lite-0.2+default-dev",
+		"librust-smallvec-1+default-dev"
+	],
+	"installedSize": 64,
 	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
 	"description": "lightweight implementation of async-stream without macros - Rust source code",
 	"homepage": "https://github.com/dmitryvk/async-fn-stream",
-	"filename": "pool/main/r/rust-async-fn-stream/librust-async-fn-stream-dev_0.2.2-5_all.deb",
-	"size": 9168,
-	"md5": "12030aa30067717d0b73b45ace36b45a",
-	"sha256": "a7500acc151ab7730cf77d75114b3db84bae85de2af64a8f7f9251ed367bb46b",
+	"filename": "pool/main/r/rust-async-fn-stream/librust-async-fn-stream-dev_0.3.2-1_all.deb",
+	"size": 13124,
+	"md5": "4b084ab31060707d28f071e65c35fb79",
+	"sha256": "9f79b21416b36d7cd27850d406c68cf9291e018611dabffa55c18712d87a0883",
 	"descriptionMd5": "58159baa095b1688d1c97640d971eab0"
 }]
