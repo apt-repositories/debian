@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.17.11+deb14-amd64-unsigned",
+	"source": "linux",
+	"version": "6.17.11-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.17",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.17.11+deb14-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.17.11+deb14-amd64"
+	],
+	"installedSize": 115773,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.17.11 for 64-bit PCs",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-6.17.11+deb14-amd64-unsigned_6.17.11-1_amd64.deb",
+	"size": 115089036,
+	"md5": "be56ba76ad79488f5e24615785ab015f",
+	"sha256": "f2f9be1d6038dec8e66ec202c872c240fd636bf376bf5ce7a29e1aa0823fed3e",
+	"descriptionMd5": "aaa165ca0f7a020abac8b4d79dde84c2"
+}

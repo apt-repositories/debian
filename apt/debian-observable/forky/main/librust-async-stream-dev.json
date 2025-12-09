@@ -6,21 +6,23 @@
 	],
 	"package": "librust-async-stream-dev",
 	"source": "rust-async-stream",
-	"version": "0.3.4-2",
+	"version": "0.3.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-async-stream-impl-0.3.4+default-dev",
+		"librust-async-stream-impl-0.3+default-dev (<< 0.3.7-~~)",
+		"librust-async-stream-impl-0.3+default-dev (>= 0.3.6-~~)",
 		"librust-futures-core-0.3+default-dev",
 		"librust-pin-project-lite-0.2+default-dev"
 	],
-	"installedSize": 68,
+	"installedSize": 76,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Asynchronous streams using async & await notation - Rust source code",
-	"filename": "pool/main/r/rust-async-stream/librust-async-stream-dev_0.3.4-2_amd64.deb",
-	"size": 11344,
-	"md5": "fc80c60476dd3cec05f2a0241588c7df",
-	"sha256": "a7ad5769f5998c1e8df2e6570894b09c22793ffb39cce96e72e654c6e810aad5",
-	"descriptionMd5": "218a5b43f7ffca7962e0719e0f0fc59b"
+	"homepage": "https://github.com/tokio-rs/async-stream",
+	"filename": "pool/main/r/rust-async-stream/librust-async-stream-dev_0.3.6-1_amd64.deb",
+	"size": 12820,
+	"md5": "492af09bfa94ec4ec77954ae453f039b",
+	"sha256": "9863b08b723a8d2fa2eadc21869771251a8474ccfb997c69d51203e9816a8aba",
+	"descriptionMd5": "050371af9bb29d0c93866a1816e0865c"
 }]

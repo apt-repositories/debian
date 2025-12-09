@@ -5,24 +5,26 @@
 		"Size"
 	],
 	"package": "tayga",
-	"version": "0.9.2-10",
+	"version": "0.9.2-11",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"lsb-base",
-		"libc6 (>= 2.34)"
+		"tayga-core"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 104,
-	"maintainer": "Andrej Shadura <andrewsh@debian.org>",
-	"description": "userspace stateless NAT64",
+	"recommends": [
+		"iptables"
+	],
+	"installedSize": 38,
+	"maintainer": "Debian Networking Team <team+networking@tracker.debian.org>",
+	"description": "Simple, no-fuss userspace IPv6-IPv4 translator - NAT64 service",
 	"homepage": "http://www.litech.org/tayga/",
-	"filename": "pool/main/t/tayga/tayga_0.9.2-10_amd64.deb",
-	"size": 35316,
-	"md5": "f08e3c63e7ce8113bcbe1bf32c6a51db",
-	"sha256": "c22fe2a78f3f5b63eb633789f6f8151e119b9514b667505f0e930c3c79f3fbd7",
-	"descriptionMd5": "63042eb4cc4b285eae21a694d21d00da"
+	"filename": "pool/main/t/tayga/tayga_0.9.2-11_amd64.deb",
+	"size": 8256,
+	"md5": "b024398fe53746396a97cac5b21f00d0",
+	"sha256": "5d9ce2eefc98df889e32ab26072979afeb5059d869ccb2eb17f4d699530c7b9e",
+	"descriptionMd5": "cd9106c577cbadbd40e6a0023f4c1fad"
 }]
