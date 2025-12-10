@@ -6,7 +6,7 @@
 	],
 	"package": "python3-asf-search",
 	"source": "asf-search",
-	"version": "10.2.1-1",
+	"version": "10.3.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -20,13 +20,20 @@
 		"python3-tenacity",
 		"python3:any"
 	],
-	"installedSize": 502,
+	"suggests": [
+		"python3-fsspec",
+		"python3-pandas",
+		"python3-rioxarray",
+		"python3-xarray",
+		"python3-zarr"
+	],
+	"installedSize": 519,
 	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
 	"description": "Python wrapper for ASF's SearchAPI",
 	"homepage": "https://github.com/asfadmin/Discovery-asf_search",
-	"filename": "pool/main/a/asf-search/python3-asf-search_10.2.1-1_all.deb",
-	"size": 98492,
-	"md5": "6bf49913165576aa7b9d0a26c48ed40e",
-	"sha256": "6b2a845ad5b12c8e7acbfc3302e474d27b346b99415cc97594a5b602796da5fd",
+	"filename": "pool/main/a/asf-search/python3-asf-search_10.3.0-1_all.deb",
+	"size": 101464,
+	"md5": "edbe4a226ec61cffe24c7c47f755a5f5",
+	"sha256": "2ee0d0d5b0774d463d4af558ca816abe812ecc665e7994470804d935547b6f1d",
 	"descriptionMd5": "02a15ce196aa2a7d4235ae8ec4d4fd5f"
 }
