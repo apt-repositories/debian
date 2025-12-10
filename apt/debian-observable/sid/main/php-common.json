@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "php-common",
-	"source": "php-defaults (96)",
-	"version": "2:96",
+	"source": "php-defaults (98)",
+	"version": "2:98",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"cron | cron-daemon | anacron | systemd-sysv",
 		"psmisc (>= 22.15-1~)"
 	],
 	"breaks": [
@@ -70,9 +71,9 @@
 	"installedSize": 69,
 	"maintainer": "Debian PHP Maintainers <team+pkg-php@tracker.debian.org>",
 	"description": "Common files for PHP packages",
-	"filename": "pool/main/p/php-defaults/php-common_96_all.deb",
-	"size": 13300,
-	"md5": "03d37a0ce4151813a991696215d22bfa",
-	"sha256": "af4d7780dade0108b9f08f55b3c11fb0ecb9db3bfd05f5bcb915eb85ac2f7cf1",
+	"filename": "pool/main/p/php-defaults/php-common_98_all.deb",
+	"size": 13384,
+	"md5": "7f337c0837137092743b3df8a028bc27",
+	"sha256": "fb4afc223ca0b7dd9b35320a7ec33c74d5dc2affc7b248de6288966ca2cbef91",
 	"descriptionMd5": "d3dbac8bcc4b5fda4235137f8b9f3ade"
 }]
