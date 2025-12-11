@@ -5,25 +5,29 @@
 		"Size"
 	],
 	"package": "activity-aware-firefox",
-	"version": "0.4.2-1",
+	"version": "0.4.2+git20250816.c6082f37-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"firefox | firefox-esr",
 		"gawk",
-		"kdialog"
+		"kdialog",
+		"x11-utils"
+	],
+	"recommends": [
+		"libglib2.0-bin"
 	],
 	"enhances": [
 		"plasma-desktop"
 	],
-	"installedSize": 29,
+	"installedSize": 37,
 	"maintainer": "Debian KDE Extras Team <pkg-kde-extras@alioth-lists.debian.net>",
 	"description": "wrapper to make Firefox aware of Plasma Desktop activities",
 	"homepage": "https://gitlab.com/hook/activity-aware-firefox",
-	"filename": "pool/main/a/activity-aware-firefox/activity-aware-firefox_0.4.2-1_all.deb",
-	"size": 7424,
-	"md5": "7d91332af5213f109811a561574b83d9",
-	"sha256": "e56e03ef1d849141244ef381f6e8032757c09f4331a1de48619d7c22888e7aa0",
+	"filename": "pool/main/a/activity-aware-firefox/activity-aware-firefox_0.4.2+git20250816.c6082f37-1_all.deb",
+	"size": 10324,
+	"md5": "6383c772c67ec8f0ed12b521bfd2bca4",
+	"sha256": "29525f2fa25a7c0614ea6cccc4e97c6e9290e965df90a266ca5a6295b95826a0",
 	"descriptionMd5": "79940870f6ad54bd17a0e469d49baf26"
 }
