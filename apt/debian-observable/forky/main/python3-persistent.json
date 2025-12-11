@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "python3-persistent",
-	"source": "python-persistent (6.3-1)",
-	"version": "6.3-1+b2",
+	"source": "python-persistent",
+	"version": "6.5-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"python3-cffi",
 		"python3 (<< 3.15)",
 		"python3 (>= 3.13~)",
 		"python3-cffi-backend-api-min (<= 9729)",
@@ -18,19 +19,18 @@
 		"python3-zope.deferredimport",
 		"python3-zope.interface",
 		"python3:any",
-		"libc6 (>= 2.4)",
-		"python3-cffi"
+		"libc6 (>= 2.4)"
 	],
 	"suggests": [
 		"python-persistent-doc"
 	],
-	"installedSize": 366,
+	"installedSize": 345,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Automatic persistence for Python objects",
 	"homepage": "https://github.com/zopefoundation/persistent/",
-	"filename": "pool/main/p/python-persistent/python3-persistent_6.3-1+b2_amd64.deb",
-	"size": 71200,
-	"md5": "f6c13b09bd2ad880a29140767b1118c8",
-	"sha256": "25fb6bde94ffcbf4e7ea45d071705ca1e33cb5b196ff5915908445adc36ae064",
+	"filename": "pool/main/p/python-persistent/python3-persistent_6.5-1_amd64.deb",
+	"size": 65836,
+	"md5": "2a66d53aba3be4b61d052384014aa6a8",
+	"sha256": "9062e0c17030614a089ba18358bc5672530f695d36cf6f6b9c8d9b5c3e1bb13b",
 	"descriptionMd5": "137138d4375ea45c61c1f6ca98759339"
 }]

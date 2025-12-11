@@ -6,23 +6,26 @@
 	],
 	"package": "libgctp-2.0.0",
 	"source": "libgctp",
-	"version": "2.0.0-12",
+	"version": "2.0.0-13",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.29)"
 	],
-	"breaks": [
-		"libgctp-dev (<< 2.0.0-9)"
+	"replaces": [
+		"libgctp-dev (<< 2.0.0-13~)"
 	],
-	"installedSize": 152,
+	"breaks": [
+		"libgctp-dev (<< 2.0.0-13~)"
+	],
+	"installedSize": 145,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "General Cartographic Transformation Package Library",
 	"homepage": "https://github.com/OkoSanto/GCTP",
-	"filename": "pool/main/libg/libgctp/libgctp-2.0.0_2.0.0-12_amd64.deb",
-	"size": 49028,
-	"md5": "7dee373a449b3ea8663634b122a46c5e",
-	"sha256": "697e0bb9226c55d611574436304d3e1fb477c872e2081f52da666d825e34c908",
+	"filename": "pool/main/libg/libgctp/libgctp-2.0.0_2.0.0-13_amd64.deb",
+	"size": 45928,
+	"md5": "7cfa608fcd99363063481c72fc467671",
+	"sha256": "3cbe0c4ca46d04643e5ae5770e7a0fc744faac884fc5af823a146c9650ba3f84",
 	"descriptionMd5": "1218ec34e2d45c8fc08d721f71c298e2"
 }
