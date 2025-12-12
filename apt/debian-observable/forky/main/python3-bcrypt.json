@@ -6,7 +6,7 @@
 	],
 	"package": "python3-bcrypt",
 	"source": "python-bcrypt",
-	"version": "5.0.0-2",
+	"version": "5.0.0-3",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 4.2)"
 	],
+	"breaks": [
+		"python3-passlib (<< 1.9.3-1~)"
+	],
 	"installedSize": 1056,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "password hashing library for Python 3",
 	"homepage": "https://github.com/pyca/bcrypt",
-	"filename": "pool/main/p/python-bcrypt/python3-bcrypt_5.0.0-2_amd64.deb",
-	"size": 242648,
-	"md5": "6ff561da3cc0bc4a9e6d2d165839017a",
-	"sha256": "59d44be15f817d76d4757b37f9084020844d1aabc586d329fdcdc6fac37b5eaa",
+	"filename": "pool/main/p/python-bcrypt/python3-bcrypt_5.0.0-3_amd64.deb",
+	"size": 242680,
+	"md5": "3b0d2200cdcbdcd60c25fa232f1b9609",
+	"sha256": "cac3535b97ef1bdf58f785765e28a41805aaffc262c3943d7014ba75c1d371c4",
 	"descriptionMd5": "a1c3c221ea864d0dbfa35b95fba66342"
 }]
