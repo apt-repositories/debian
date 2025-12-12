@@ -6,12 +6,13 @@
 	],
 	"package": "libc6",
 	"source": "glibc",
-	"version": "2.41-12",
+	"version": "2.42-5",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libgcc-s1"
+		"libgcc-s1",
+		"libc-gconv-modules-extra (= 2.42-5)"
 	],
 	"recommends": [
 		"libidn2-0 (>= 2.0.5~)"
@@ -43,10 +44,10 @@
 		"libhiprtc-builtins5 (<< 5.7.1-5+b1)",
 		"librccl1 (<< 5.4.3-3+b1)",
 		"libswupdate0.1 (<< 2024.12.1+dfsg-1+b3)",
-		"locales (<< 2.41)",
-		"locales-all (<< 2.41)",
+		"locales (<< 2.42)",
+		"locales-all (<< 2.42)",
 		"lua-swupdate (<< 2024.12.1+dfsg-1+b3)",
-		"nscd (<< 2.41)",
+		"nscd (<< 2.42)",
 		"pd-scaf (<< 1:0.14.1+darcs20180201-6+b4)",
 		"postgresql-15-pllua (<< 1:2.0.12-4)",
 		"postgresql-17-pllua (<< 1:2.0.12-3+b2)",
@@ -59,13 +60,13 @@
 		"uwsgi-plugin-pypy3 (<< 0.0.2+b1)",
 		"valgrind (<< 1:3.19.0-1~)"
 	],
-	"installedSize": 13232,
+	"installedSize": 5690,
 	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
 	"description": "GNU C Library: Shared libraries",
 	"homepage": "https://www.gnu.org/software/libc/libc.html",
-	"filename": "pool/main/g/glibc/libc6_2.41-12_amd64.deb",
-	"size": 2845840,
-	"md5": "2d994a5bcdf85edfae48262e971f26e9",
-	"sha256": "6cff801097cd0eb2126b60e533f37afdc78456efacdf2bfae62877f00c795d0b",
+	"filename": "pool/main/g/glibc/libc6_2.42-5_amd64.deb",
+	"size": 1888376,
+	"md5": "2608aa43530c94efea38f255c3ad12d3",
+	"sha256": "889e33786174459499c74d9470d3e7aaf75b161942ae094bde37b909f549e8f5",
 	"descriptionMd5": "fc3001b0b90a1c8e6690b283a619d57f"
 }
