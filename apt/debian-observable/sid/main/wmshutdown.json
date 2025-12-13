@@ -5,13 +5,12 @@
 		"Size"
 	],
 	"package": "wmshutdown",
-	"source": "wmshutdown (1.6-2)",
-	"version": "1.6-2+b3",
+	"version": "1.6-3",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dbus",
+		"default-dbus-system-bus | dbus-system-bus",
 		"default-logind | logind",
 		"libc6 (>= 2.34)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
@@ -19,13 +18,13 @@
 		"libgtk-3-0t64 (>= 3.0.0)",
 		"libx11-6"
 	],
-	"installedSize": 67,
+	"installedSize": 66,
 	"maintainer": "Debian Window Maker Team <team+wmaker@tracker.debian.org>",
 	"description": "dockapp to shutdown or reboot your machine",
 	"homepage": "https://www.dockapps.net/wmshutdown",
-	"filename": "pool/main/w/wmshutdown/wmshutdown_1.6-2+b3_amd64.deb",
-	"size": 18200,
-	"md5": "260d8706802fe17a6ec228c9f9b529b5",
-	"sha256": "614db0a7cf3d7c5f15d680cefc37a8f60c6cdb9fe8c5f9a4e9db61bb8f5044e4",
+	"filename": "pool/main/w/wmshutdown/wmshutdown_1.6-3_amd64.deb",
+	"size": 17880,
+	"md5": "3a187c88c051c19d11110d539634ab2e",
+	"sha256": "1fc26a7ffe52206d25c93e6ceea1be0f821923f87274f28d78b478ea7f8fcec7",
 	"descriptionMd5": "52cb04b139633f2ee2f7d3038166ebe7"
 }]

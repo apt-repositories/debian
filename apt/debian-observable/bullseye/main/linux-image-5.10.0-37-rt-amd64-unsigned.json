@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.10.0-37-rt-amd64-unsigned",
+	"source": "linux",
+	"version": "5.10.247-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-5.10",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-5.10.0-37-rt-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)",
+		"xserver-xorg-input-vmmouse (<< 1:13.0.99)"
+	],
+	"conflicts": [
+		"linux-image-5.10.0-37-rt-amd64"
+	],
+	"installedSize": 314092,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 5.10 for 64-bit PCs, PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/updates/main/l/linux/linux-image-5.10.0-37-rt-amd64-unsigned_5.10.247-1_amd64.deb",
+	"size": 57208300,
+	"sha256": "c0bed68c6d4cf890c03a5cafd1d90c15afe08cdd586ad902156724e5adde0c16",
+	"descriptionMd5": "cadd2f4f5feddd0841ad897c9f30d3f2"
+}]

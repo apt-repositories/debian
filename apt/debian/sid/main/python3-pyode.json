@@ -5,18 +5,25 @@
 		"Size"
 	],
 	"package": "python3-pyode",
-	"source": "pyode (1.2.0.dev15-5)",
-	"version": "1.2.0.dev15-5+b4",
+	"source": "pyode",
+	"version": "1.2.0.dev15-6",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 13,
+	"depends": [
+		"python3 (<< 3.15)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libc6 (>= 2.14)",
+		"libode8t64 (>= 2:0.16.6)"
+	],
+	"installedSize": 2009,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "Python bindings for The Open Dynamics Engine",
 	"homepage": "https://github.com/filipeabperes/Py3ODE",
-	"filename": "pool/main/p/pyode/python3-pyode_1.2.0.dev15-5+b4_amd64.deb",
-	"size": 3996,
-	"md5": "53264b47b01a3262e792df4ff6b39abe",
-	"sha256": "baf2fc83bea5a53082549f9fa9a75f3dba423709a31dd0d2577f932d7f1629ee",
+	"filename": "pool/main/p/pyode/python3-pyode_1.2.0.dev15-6_amd64.deb",
+	"size": 370968,
+	"md5": "bc499aaa63f8dbaabb8e719e8d3937c6",
+	"sha256": "7b3705fa4af0ec8a161f6840dda9fa01f5243b85a829fd92707c523ff3d6e37a",
 	"descriptionMd5": "a045c45e947d21d2657b486a72a17b92"
 }

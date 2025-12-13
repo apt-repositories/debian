@@ -6,21 +6,23 @@
 	],
 	"package": "librust-imara-diff-dev",
 	"source": "rust-imara-diff",
-	"version": "0.1.7-1",
+	"version": "0.1.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-ahash-0.8+default-dev",
-		"librust-hashbrown-0.14+inline-more-dev",
-		"librust-hashbrown-0.14+raw-dev"
+		"librust-hashbrown+default-hasher-dev (<< 0.17-~~)",
+		"librust-hashbrown+default-hasher-dev (>= 0.15-~~)",
+		"librust-hashbrown+inline-more-dev (<< 0.17-~~)",
+		"librust-hashbrown+inline-more-dev (>= 0.15-~~)"
 	],
-	"installedSize": 760,
+	"installedSize": 761,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "High performance library for computing diffs - Rust source code",
-	"filename": "pool/main/r/rust-imara-diff/librust-imara-diff-dev_0.1.7-1_amd64.deb",
-	"size": 88944,
-	"md5": "8d9d2253727117dc84a0f6a00e549f37",
-	"sha256": "c70906d75f3cd9dd072fdfa4c6ce559dcdd4bd69ade151cc5eec1000027a4a89",
+	"homepage": "https://github.com/pascalkuthe/imara-diff",
+	"filename": "pool/main/r/rust-imara-diff/librust-imara-diff-dev_0.1.8-1_amd64.deb",
+	"size": 89580,
+	"md5": "495370f08b2ffa32cd1022057132a674",
+	"sha256": "8e5efeaff494cbac6a08f06e7382cd9eace9c932ffa3a26a1d9f67dc39ce4ff5",
 	"descriptionMd5": "09c179df33f71b173754c47924ad56cd"
 }

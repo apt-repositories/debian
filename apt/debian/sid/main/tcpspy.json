@@ -5,19 +5,22 @@
 		"Size"
 	],
 	"package": "tcpspy",
-	"version": "1.7d-16",
+	"version": "1.7d-17",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)"
+		"libc6 (>= 2.38)"
 	],
-	"installedSize": 88,
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 92,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Incoming and Outgoing TCP/IP connections logger",
-	"filename": "pool/main/t/tcpspy/tcpspy_1.7d-16_amd64.deb",
-	"size": 30500,
-	"md5": "abbee29bca8b82fb4395ff0a0f25aba0",
-	"sha256": "bc9e62d48f2dc9d5a683a643e714876d06ff941b38c41a533f1c4163f1ac2313",
+	"filename": "pool/main/t/tcpspy/tcpspy_1.7d-17_amd64.deb",
+	"size": 31348,
+	"md5": "b5934707911bbc8efa46624007597ce5",
+	"sha256": "462f6200197bd8ea05a6c69f7c98381b147e46f7e440abf56782b1d3281ac8da",
 	"descriptionMd5": "e0170b6b2e5d58da58aaac1baa409caf"
 }
