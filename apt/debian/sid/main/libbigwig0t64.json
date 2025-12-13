@@ -6,23 +6,31 @@
 	],
 	"package": "libbigwig0t64",
 	"source": "libbigwig",
-	"version": "0.4.8+dfsg-2",
+	"version": "0.4.8+dfsg-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libcurl3t64-gnutls (>= 7.16.2)",
+		"zlib1g (>= 1:1.2.0)"
+	],
 	"recommends": [
 		"curl"
 	],
 	"replaces": [
 		"libbigwig0"
 	],
-	"installedSize": 10,
+	"conflicts": [
+		"libbigwig0 (<< 0.4.8+dfsg-3)"
+	],
+	"installedSize": 87,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "C library for handling bigWig files",
 	"homepage": "https://github.com/dpryan79/libBigWig/",
-	"filename": "pool/main/libb/libbigwig/libbigwig0t64_0.4.8+dfsg-2_amd64.deb",
-	"size": 3112,
-	"md5": "e2246b470b08e1d9bd4f9f418175ee8f",
-	"sha256": "28c8568312c770d4587e108d9eb1ff55529a11d002af7a3e4a45c5705de6e5fe",
+	"filename": "pool/main/libb/libbigwig/libbigwig0t64_0.4.8+dfsg-3_amd64.deb",
+	"size": 30072,
+	"md5": "6cfab63cb78c27f93e1a79cb823a21d8",
+	"sha256": "6c758da98dad795ff830d58f39830bc4d8b32825edd41acfd5fc182bf0a4538f",
 	"descriptionMd5": "aed5da12885616349016dc50499ba548"
 }
