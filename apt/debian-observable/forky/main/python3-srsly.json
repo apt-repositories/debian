@@ -5,25 +5,27 @@
 		"Size"
 	],
 	"package": "python3-srsly",
-	"source": "python-srsly (2.5.1-1)",
-	"version": "2.5.1-1+b1",
+	"source": "python-srsly",
+	"version": "2.5.2-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"python3 (<< 3.14)",
+		"python3-cloudpickle",
+		"python3-ujson",
+		"python3 (<< 3.15)",
 		"python3 (>= 3.13~)",
 		"python3-catalogue",
 		"python3:any",
-		"libc6 (>= 2.29)"
+		"libc6 (>= 2.14)"
 	],
-	"installedSize": 3244,
+	"installedSize": 3165,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "modern high-performance serialization utilities for Python3",
 	"homepage": "https://github.com/explosion/srsly",
-	"filename": "pool/main/p/python-srsly/python3-srsly_2.5.1-1+b1_amd64.deb",
-	"size": 374448,
-	"md5": "fdc20fe014284bbd5b6a3017832c0326",
-	"sha256": "29573c6b1a7274bd014c854213803b0a85499dfa877e3ee6e85a97f446ddd796",
+	"filename": "pool/main/p/python-srsly/python3-srsly_2.5.2-2_amd64.deb",
+	"size": 335436,
+	"md5": "48d7b67fb6b5688c63f01a7b26a46ea2",
+	"sha256": "fdf7cf9372784d867f534d1ebbfef18d3f261c0e790c6b6f49fad837c94705ad",
 	"descriptionMd5": "96160d932d8e276f9ea5cded50fa7aee"
 }]
