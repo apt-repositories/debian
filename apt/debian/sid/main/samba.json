@@ -5,15 +5,14 @@
 		"Size"
 	],
 	"package": "samba",
-	"source": "samba (2:4.23.3+dfsg-1)",
-	"version": "2:4.23.3+dfsg-1+b1",
+	"version": "2:4.23.4+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"passwd",
 		"samba-common",
-		"samba-common-bin (= 2:4.23.3+dfsg-1+b1)",
+		"samba-common-bin (= 2:4.23.4+dfsg-1)",
 		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
 		"libcups2t64 (>= 1.7.0)",
@@ -28,7 +27,7 @@
 		"libtevent0t64 (>= 0.15.0)",
 		"libtirpc3t64 (>= 1.0.2)",
 		"liburing2 (>= 2.3)",
-		"samba-libs (= 2:4.23.3+dfsg-1+b1)"
+		"samba-libs (= 2:4.23.4+dfsg-1)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -48,17 +47,17 @@
 	],
 	"breaks": [
 		"samba-ad-dc (<< 2:4.20.1+dfsg-2~)",
-		"samba-ad-provision (<< 2:4.23.3+dfsg)",
+		"samba-ad-provision (<< 2:4.23.4+dfsg)",
 		"samba-libs (<< 2:4.19.0~)",
 		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)"
 	],
-	"installedSize": 5010,
+	"installedSize": 5019,
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "SMB/CIFS file, print, and login server for Unix",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/samba_4.23.3+dfsg-1+b1_amd64.deb",
-	"size": 1200320,
-	"md5": "825feebd382634c2c9be66d12930afc0",
-	"sha256": "50c4589a0fbff949313f19a2d48c093cb47a29eb2ef091ddcd718ade625bece2",
+	"filename": "pool/main/s/samba/samba_4.23.4+dfsg-1_amd64.deb",
+	"size": 1201148,
+	"md5": "210dfcd4b18847316e77c3bd186f04f2",
+	"sha256": "7fa8d4d1432075240ad7f2e1fe44acc2974f080ac5cd194df9a8f49c7a7513e5",
 	"descriptionMd5": "c9d307ae5cf3b46be12b53a9f95862f0"
 }
