@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-apt",
+	"source": "python-apt",
+	"version": "2.2.1.1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3 (<< 3.10)",
+		"python3 (>= 3.9~)",
+		"python3:any",
+		"libapt-pkg6.0 (>= 1.9.11~)",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 5.2)",
+		"python-apt-common",
+		"distro-info-data"
+	],
+	"recommends": [
+		"lsb-release",
+		"iso-codes"
+	],
+	"suggests": [
+		"python3-apt-dbg",
+		"python-apt-doc",
+		"apt"
+	],
+	"replaces": [
+		"python-apt (<< 0.7.98+nmu1)"
+	],
+	"breaks": [
+		"apt-xapian-index (<< 0.51~)",
+		"kthresher (<= 1.4.0-1)",
+		"python-apt (<< 0.7.98+nmu1)"
+	],
+	"installedSize": 708,
+	"maintainer": "APT Development Team <deity@lists.debian.org>",
+	"description": "Python 3 interface to libapt-pkg",
+	"filename": "pool/updates/main/p/python-apt/python3-apt_2.2.1.1_amd64.deb",
+	"size": 190128,
+	"sha256": "c27e74575e094f1170adc2ae43ab90d1818db0bc8ba94caa59866b13891765dc",
+	"descriptionMd5": "4e7bf010b1b89e36309ea2f4b7005936"
+}

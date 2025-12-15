@@ -5,20 +5,26 @@
 		"Size"
 	],
 	"package": "xdg-terminal-exec",
-	"version": "0.13.3-2",
+	"version": "0.14.0-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "all",
 	"suggests": [
 		"x-terminal-emulator"
 	],
-	"installedSize": 65,
+	"replaces": [
+		"reform-tools (<< 1.82-3~)"
+	],
+	"breaks": [
+		"reform-tools (<< 1.82-3~)"
+	],
+	"installedSize": 70,
 	"maintainer": "Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>",
 	"description": "user default terminal execution utility",
 	"homepage": "https://github.com/Vladimir-csp/xdg-terminal-exec",
-	"filename": "pool/main/x/xdg-terminal-exec/xdg-terminal-exec_0.13.3-2_all.deb",
-	"size": 22280,
-	"md5": "dca1fbcbc17b8c84e67db7eece19cc64",
-	"sha256": "90ac1aea4e4a627351abe390dad008c742a44e2cf0e0637a3edc6218bc3e6030",
+	"filename": "pool/main/x/xdg-terminal-exec/xdg-terminal-exec_0.14.0-1_all.deb",
+	"size": 22628,
+	"md5": "16ac95a852e430285bdeed1c00329b36",
+	"sha256": "479864aefe27bc9c7ae9b2b851878aa9ab4323ad7aabe939d042020f2160b078",
 	"descriptionMd5": "071bb77b4e01847f2059260934f27aaf"
 }
