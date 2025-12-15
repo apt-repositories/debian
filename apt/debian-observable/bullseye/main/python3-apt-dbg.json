@@ -33,4 +33,38 @@
 	"md5": "8b8779e071071065dd3890b158ef13aa",
 	"sha256": "44a0d9e936d4ee130220e60beae959072fbfaf21aa11ae01de8efd9b634bd719",
 	"descriptionMd5": "9d43d2b6dae33ea4f6ee571da79dbd51"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-apt-dbg",
+	"source": "python-apt",
+	"version": "2.2.1.1",
+	"section": "debug",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-dbg (<< 3.10)",
+		"python3-dbg (>= 3.9~)",
+		"python3-apt (= 2.2.1.1)",
+		"libapt-pkg6.0 (>= 1.9.11~)",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"replaces": [
+		"python-apt (<< 0.7.98+nmu1)"
+	],
+	"breaks": [
+		"python-apt (<< 0.7.98+nmu1)"
+	],
+	"installedSize": 4712,
+	"maintainer": "APT Development Team <deity@lists.debian.org>",
+	"description": "Python 3 interface to libapt-pkg (debug extension)",
+	"filename": "pool/updates/main/p/python-apt/python3-apt-dbg_2.2.1.1_amd64.deb",
+	"size": 1806680,
+	"sha256": "287e619871db069b8fa1919426cb2f10df639040cc8434c87ca795f187c424be",
+	"descriptionMd5": "9d43d2b6dae33ea4f6ee571da79dbd51"
 }]
