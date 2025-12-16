@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "elogind",
-	"version": "255.17-1debian2",
+	"version": "255.17-1debian3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,7 +18,7 @@
 		"libselinux1 (>= 3.1~)",
 		"libudev1",
 		"libsystemd0",
-		"dbus (>= 1.9.14)"
+		"default-dbus-system-bus | dbus-system-bus"
 	],
 	"preDepends": [
 		"debconf",
@@ -34,13 +34,13 @@
 	"conflicts": [
 		"systemd"
 	],
-	"installedSize": 2742,
+	"installedSize": 2746,
 	"maintainer": "Debian Ecosystem Init Diversity Team <debian-init-diversity@chiark.greenend.org.uk>",
 	"description": "user, seat and session management daemon",
 	"homepage": "https://github.com/elogind/elogind",
-	"filename": "pool/main/e/elogind/elogind_255.17-1debian2_amd64.deb",
-	"size": 790176,
-	"md5": "92acc58ba8095f5e116fbe60020942cf",
-	"sha256": "2ae122f8da49390459dc141da806e235101d28236baed3d2ee46654d0d437569",
+	"filename": "pool/main/e/elogind/elogind_255.17-1debian3_amd64.deb",
+	"size": 794704,
+	"md5": "2b3b00658b97b56f1dd1f82ed57ef5c4",
+	"sha256": "2865b5bf14b4d50daa8c347c12dec277334d7a98d001210fe30af4c27c5d2ded",
 	"descriptionMd5": "84bb10fa92dfca9e74b6130a241352df"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-makefile-lossless-dev",
 	"source": "rust-makefile-lossless",
-	"version": "0.2.1-1",
+	"version": "0.3.20-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,18 @@
 		"librust-log-0.4+default-dev",
 		"librust-rowan-0.16+default-dev"
 	],
-	"installedSize": 150,
+	"breaks": [
+		"librust-debian-analyzer-dev (<< 0.160)",
+		"librust-ognibuild-dev (<< 0.2)",
+		"librust-upstream-ontologist-dev (<< 0.3)"
+	],
+	"installedSize": 365,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Lossless Parser for Makefiles - Rust source code",
 	"homepage": "https://github.com/jelmer/makefile-lossless",
-	"filename": "pool/main/r/rust-makefile-lossless/librust-makefile-lossless-dev_0.2.1-1_amd64.deb",
-	"size": 23920,
-	"md5": "e6b2ec22f4c2802d560f917b770a54b2",
-	"sha256": "35ee75c198ef699f762061bb76dee21127a3e61c0a07db9cf38d1ab7b71498f7",
+	"filename": "pool/main/r/rust-makefile-lossless/librust-makefile-lossless-dev_0.3.20-1_amd64.deb",
+	"size": 49704,
+	"md5": "ecabc02b289f926fde0b7e7be071aad1",
+	"sha256": "ad4d99954d8c3eeebbc1a658705407b7b764bcb0bb4e3b7562c1eed48d14d10a",
 	"descriptionMd5": "c42ba2689372a0e9a5301ffbb1b2616e"
 }]
