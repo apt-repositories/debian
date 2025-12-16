@@ -6,26 +6,30 @@
 	],
 	"package": "python3-pytest",
 	"source": "pytest",
-	"version": "8.4.2-1",
+	"version": "9.0.2-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-exceptiongroup | python3-supported-min (>= 3.11)",
 		"python3-iniconfig",
 		"python3-packaging",
 		"python3-pluggy (>= 1.6.0)",
 		"python3-pygments",
-		"python3-tomli | python3-supported-min (>= 3.11)",
 		"python3:any"
 	],
-	"installedSize": 1328,
+	"replaces": [
+		"python3-pytest-subtests (<< 0.15.0+)"
+	],
+	"breaks": [
+		"python3-pytest-subtests (<< 0.15.0+)"
+	],
+	"installedSize": 1379,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Simple, powerful testing in Python3",
 	"homepage": "https://pytest.org/",
-	"filename": "pool/main/p/pytest/python3-pytest_8.4.2-1_all.deb",
-	"size": 265924,
-	"md5": "29c6ddb16363873ca299b6bdd8aee0c9",
-	"sha256": "aa8e3cd6998f5f9f4b00c4cd39124dc8287dbf6203d39964f6adc532228d80a1",
-	"descriptionMd5": "a5dad4d5b22160c775ca39b2d4780244"
+	"filename": "pool/main/p/pytest/python3-pytest_9.0.2-2_all.deb",
+	"size": 274948,
+	"md5": "d89119a823559af16532f26f7d4ddc7e",
+	"sha256": "935618525bdf070a275e0223a718f0068dc0401622ab27a25f010725ff79a888",
+	"descriptionMd5": "8a6fbfc9b15d57207f4e570d482c15ef"
 }]

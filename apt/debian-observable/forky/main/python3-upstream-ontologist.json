@@ -5,18 +5,17 @@
 		"Size"
 	],
 	"package": "python3-upstream-ontologist",
-	"source": "python-upstream-ontologist",
-	"version": "0.2.6-1",
+	"source": "python-upstream-ontologist (0.2.8-1)",
+	"version": "0.2.8-1+b1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"python3 (<< 3.15)",
+		"python3 (>= 3.13~)",
 		"python3-breezy",
 		"python3-debian",
-		"python3-debmutate",
 		"python3-ruamel.yaml",
-		"python3 (<< 3.14)",
-		"python3 (>= 3.13~)",
 		"python3:any",
 		"libc6 (>= 2.39)",
 		"libcurl4t64 (>= 7.16.2)",
@@ -27,27 +26,13 @@
 		"libssl3t64 (>= 3.0.0)",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"recommends": [
-		"perl-doc",
-		"python3-bs4",
-		"python3-distro-info",
-		"python3-docutils",
-		"python3-dulwich",
-		"python3-lxml",
-		"python3-markdown",
-		"python3-setuptools",
-		"python3-tomlkit"
-	],
-	"replaces": [
-		"lintian-brush (<< 0.95)"
-	],
-	"installedSize": 13116,
+	"installedSize": 26731,
 	"maintainer": "Jelmer Vernooĳ <jelmer@debian.org>",
 	"description": "discover metadata about upstream projects",
 	"homepage": "https://github.com/jelmer/upstream-ontologist-py",
-	"filename": "pool/main/p/python-upstream-ontologist/python3-upstream-ontologist_0.2.6-1_amd64.deb",
-	"size": 3443260,
-	"md5": "66933507fbbf5e055c8d3affc2acff08",
-	"sha256": "7c9084ba4246d9d2cf8d2291aa20bbfbf0fdec95f9fd415645d1dec7568ace26",
+	"filename": "pool/main/p/python-upstream-ontologist/python3-upstream-ontologist_0.2.8-1+b1_amd64.deb",
+	"size": 7009108,
+	"md5": "2d78a2dcceaf7d060af9c1af238b8094",
+	"sha256": "d36c0de863d86877835bd0cdf8773fc33bec67d835fa62267a83336f62b43538",
 	"descriptionMd5": "be283f9631a440fda15b4ae848de9a55"
 }]
