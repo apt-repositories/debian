@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "connman",
-	"version": "1.45-2",
+	"version": "1.45-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dbus",
+		"default-dbus-system-bus | dbus-system-bus",
 		"iptables",
 		"libc6 (>= 2.38)",
 		"libdbus-1-3 (>= 1.10)",
@@ -30,13 +30,13 @@
 	"suggests": [
 		"connman-vpn"
 	],
-	"installedSize": 1329,
+	"installedSize": 1337,
 	"maintainer": "Dylan Aïssi <daissi@debian.org>",
 	"description": "Intel Connection Manager daemon",
 	"homepage": "https://git.kernel.org/pub/scm/network/connman/connman.git",
-	"filename": "pool/main/c/connman/connman_1.45-2_amd64.deb",
-	"size": 455144,
-	"md5": "aff8f01fabeaac892a2bda1612856668",
-	"sha256": "f3807813b20b3c838134403c03ef001826155ee95d0c5daa641c867688e36e44",
+	"filename": "pool/main/c/connman/connman_1.45-3_amd64.deb",
+	"size": 459328,
+	"md5": "49defff7df6e923c8ebac62d9e7f2c32",
+	"sha256": "6d3ec2563cfbbd1c0a7eb05b5eb39c87a8e8983e6eb59df39800c98942470ee9",
 	"descriptionMd5": "b19b94709b4d2ff65c954bf81f0bc2a1"
 }]
