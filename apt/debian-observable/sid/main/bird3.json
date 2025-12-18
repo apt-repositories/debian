@@ -5,20 +5,16 @@
 		"Size"
 	],
 	"package": "bird3",
-	"version": "3.1.4-1",
+	"version": "3.1.5-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
-		"ucf",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libreadline8t64 (>= 6.0)",
 		"libssh-4 (>= 0.8.0)",
 		"libtinfo6 (>= 6)"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"suggests": [
 		"bird3-doc"
@@ -27,13 +23,13 @@
 		"bird",
 		"bird2"
 	],
-	"installedSize": 2231,
-	"maintainer": "Jakub Ružička <jru@debian.org>",
+	"installedSize": 1774,
+	"maintainer": "Marco d'Itri <md@linux.it>",
 	"description": "Internet Routing Daemon",
 	"homepage": "https://bird.network.cz/",
-	"filename": "pool/main/b/bird3/bird3_3.1.4-1_amd64.deb",
-	"size": 1061312,
-	"md5": "a43ac7bf2d5da72e3dcdc3132cfcccb5",
-	"sha256": "bcbe27b10ebe4ba70da605f2a4f936498c89ae4aa6f463fff71b2c5a042b970c",
+	"filename": "pool/main/b/bird3/bird3_3.1.5-1_amd64.deb",
+	"size": 604288,
+	"md5": "6cd3c65464503fe555981a735dccc818",
+	"sha256": "568b6d8c0169fa2a04465fb692b6b4d7ad8e420d1765b044530837f3e97b7b32",
 	"descriptionMd5": "874644189b6bd30d36505beb812c9640"
 }]
