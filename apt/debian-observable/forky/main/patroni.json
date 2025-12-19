@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "patroni",
-	"version": "4.0.7-3",
+	"version": "4.1.0-2",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-click (>= 4.1)",
-		"python3-consul (>= 0.7.0) | python3-supported-max (<< 3.9)",
+		"python3-consul (>= 0.7.0)",
 		"python3-dateutil",
 		"python3-prettytable (>= 0.7)",
 		"python3-psutil",
@@ -20,7 +20,6 @@
 		"python3-ydiff",
 		"python3:any",
 		"python3-psycopg2",
-		"python3-etcd (>= 0.4.3) | python3-consul (>= 0.7.0) | python3-kazoo | python3-kubernetes | python3-pysyncobj",
 		"python3-cdiff"
 	],
 	"recommends": [
@@ -33,13 +32,13 @@
 		"haproxy",
 		"patroni-doc"
 	],
-	"installedSize": 1499,
+	"installedSize": 1527,
 	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
 	"description": "PostgreSQL High Availability with ZooKeeper, etcd, Consul, or Kubernetes",
 	"homepage": "https://github.com/zalando/patroni",
-	"filename": "pool/main/p/patroni/patroni_4.0.7-3_all.deb",
-	"size": 282112,
-	"md5": "9e2112cbfb0853aa28b9534c4d311bee",
-	"sha256": "bd62bcb735f8405a00618e142ed3aa67e3403e3529fe02291ec9b1e213f7396c",
+	"filename": "pool/main/p/patroni/patroni_4.1.0-2_all.deb",
+	"size": 287080,
+	"md5": "c99bac743d0b93f4ae95b10bb241d61d",
+	"sha256": "0e1c3fbbad6cd24004556f086afdd855625e50e92e35404aafef88f12a3026ca",
 	"descriptionMd5": "500d92dec4fc214fc4d04ff56b7d221b"
 }]

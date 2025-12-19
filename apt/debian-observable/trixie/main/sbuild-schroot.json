@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sbuild-schroot",
+	"source": "sbuild",
+	"version": "0.91.4~bpo13+1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"sbuild (= 0.91.4~bpo13+1)",
+		"schroot",
+		"perl:any"
+	],
+	"recommends": [
+		"debootstrap"
+	],
+	"suggests": [
+		"e2fsprogs",
+		"kmod",
+		"wget"
+	],
+	"replaces": [
+		"sbuild (<< 0.90.3)"
+	],
+	"breaks": [
+		"sbuild (<< 0.90.3)"
+	],
+	"installedSize": 152,
+	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
+	"description": "Tool for building Debian binary packages from Debian sources (schroot version)",
+	"filename": "pool/main/s/sbuild/sbuild-schroot_0.91.4~bpo13+1_all.deb",
+	"size": 56644,
+	"sha256": "b58f0f36942341ae307c3d0ba58b6701dc91da67996d9bf8d2842ca900c1a1d4",
+	"descriptionMd5": "8a401b1fc28cce2f6e52edfa89fca207"
+}]
