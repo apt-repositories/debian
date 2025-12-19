@@ -6,12 +6,12 @@
 	],
 	"package": "policycoreutils-dbus",
 	"source": "selinux-dbus",
-	"version": "3.9-1",
+	"version": "3.9-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"dbus (>= 1.8)",
+		"default-dbus-system-bus | dbus-system-bus",
 		"gir1.2-glib-2.0",
 		"policycoreutils (>= 3.8.1)",
 		"policycoreutils-python-utils (>= 3.8.1)",
@@ -25,9 +25,9 @@
 	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
 	"description": "SELinux core policy utilities (D-Bus daemon)",
 	"homepage": "https://selinuxproject.org",
-	"filename": "pool/main/s/selinux-dbus/policycoreutils-dbus_3.9-1_all.deb",
-	"size": 6632,
-	"md5": "fd186abfe0234e4b1482d252307fa224",
-	"sha256": "d71c60175c127d04b28ea340c984e9ddd1ed680c20aa5380cef40557684197e7",
+	"filename": "pool/main/s/selinux-dbus/policycoreutils-dbus_3.9-2_all.deb",
+	"size": 6720,
+	"md5": "18a1611e1d57b330f816cf06f6febcc7",
+	"sha256": "9518330b251272c857064e1eccbd195470bd43da515ebd8c45027ee880e9914d",
 	"descriptionMd5": "a9fd585e3d16b666d69c9ef51016e56c"
 }

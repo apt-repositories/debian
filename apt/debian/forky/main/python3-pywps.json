@@ -6,29 +6,30 @@
 	],
 	"package": "python3-pywps",
 	"source": "pywps",
-	"version": "4.6.0-1",
+	"version": "4.7.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-dateutil",
-		"python3-gdal",
+		"python3-fiona",
 		"python3-humanize",
 		"python3-jinja2",
 		"python3-jsonschema",
 		"python3-lxml",
 		"python3-markupsafe",
+		"python3-numpy",
 		"python3-owslib",
 		"python3-requests",
 		"python3-sqlalchemy",
+		"python3-tifffile",
+		"python3-urllib3",
 		"python3-werkzeug",
-		"python3-fiona",
+		"python3-zarr",
 		"python3:any"
 	],
 	"recommends": [
-		"python3-mapscript",
-		"python3-netcdf4",
-		"python3-pyproj"
+		"python3-netcdf4"
 	],
 	"suggests": [
 		"grass-core",
@@ -40,13 +41,13 @@
 	"breaks": [
 		"python-pywps (<< 4.2.1-2~)"
 	],
-	"installedSize": 453,
+	"installedSize": 455,
 	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
 	"description": "Implementation of OGC's Web Processing Service - Python module",
 	"homepage": "https://pywps.org",
-	"filename": "pool/main/p/pywps/python3-pywps_4.6.0-1_all.deb",
-	"size": 75508,
-	"md5": "8aaf9ef3f777f2692be97d656d3a3704",
-	"sha256": "52e78c852592a38153d29e44e47098fde1a43e8889776609dbba261ea63adb41",
+	"filename": "pool/main/p/pywps/python3-pywps_4.7.0-1_all.deb",
+	"size": 75904,
+	"md5": "07a6ebdb3a8e83fb86e3947e7420182c",
+	"sha256": "a7aaf2f7e6304b904bab82493eeb83b9fd5e8c7343c0223e172b95c9c3bd0901",
 	"descriptionMd5": "1c5fac271c9fedc34ad30ec6e48567d4"
 }

@@ -6,6 +6,51 @@
 	],
 	"package": "buildd",
 	"source": "sbuild",
+	"version": "0.91.4~bpo13+1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"cron",
+		"default-mta | mail-transport-agent",
+		"devscripts",
+		"dupload",
+		"libsbuild-perl",
+		"libyaml-tiny-perl",
+		"sbuild (= 0.91.4~bpo13+1)",
+		"sbuild-schroot",
+		"perl:any"
+	],
+	"recommends": [
+		"sudo"
+	],
+	"suggests": [
+		"schroot",
+		"wanna-build"
+	],
+	"replaces": [
+		"sbuild",
+		"ubuntu-dev-tools (<= 0.83)"
+	],
+	"breaks": [
+		"ubuntu-dev-tools (<= 0.83)"
+	],
+	"installedSize": 282,
+	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
+	"description": "Daemon for automatically building Debian binary packages from Debian sources",
+	"filename": "pool/main/s/sbuild/buildd_0.91.4~bpo13+1_all.deb",
+	"size": 77716,
+	"sha256": "fe3a2851dfdf3bfee1770ca306c81d24ba8b6b7a4e8fb8c263a6e5c86da95ef7",
+	"descriptionMd5": "8cc8847a1a7d3580faaf822122f7dcd9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "buildd",
+	"source": "sbuild",
 	"version": "0.89.3+deb13u1",
 	"section": "devel",
 	"priority": "optional",

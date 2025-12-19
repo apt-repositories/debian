@@ -5,6 +5,42 @@
 		"Size"
 	],
 	"package": "sbuild",
+	"version": "0.91.4~bpo13+1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libsbuild-perl (= 0.91.4~bpo13+1)",
+		"iproute2 | sbuild-schroot",
+		"uidmap | sbuild-schroot",
+		"mount | sbuild-schroot",
+		"passwd | sbuild-schroot",
+		"perl:any"
+	],
+	"recommends": [
+		"mmdebstrap (>= 1.4.0)",
+		"sbuild-schroot",
+		"dpkg-dev",
+		"apt-utils"
+	],
+	"suggests": [
+		"autopkgtest",
+		"piuparts"
+	],
+	"installedSize": 157,
+	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
+	"description": "Tool for building Debian binary packages from Debian sources",
+	"filename": "pool/main/s/sbuild/sbuild_0.91.4~bpo13+1_all.deb",
+	"size": 76632,
+	"sha256": "5c4b433eb78c2b3065829c3a8ce755e01e2976ca6f1d45faaf45a4eba98b3c8c",
+	"descriptionMd5": "52a7efe774c1dc4d9d877e9d259442b5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sbuild",
 	"version": "0.89.3+deb13u1",
 	"section": "devel",
 	"priority": "optional",

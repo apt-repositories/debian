@@ -6,21 +6,23 @@
 	],
 	"package": "libnss-mymachines",
 	"source": "systemd",
-	"version": "259~rc3-1",
+	"version": "259-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)",
-		"systemd-container (= 259~rc3-1)"
+		"libc6 (>= 2.38)"
+	],
+	"recommends": [
+		"systemd-container"
 	],
 	"installedSize": 441,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "nss module to resolve hostnames for local container instances",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/libnss-mymachines_259~rc3-1_amd64.deb",
-	"size": 209836,
-	"md5": "eca57e97b8d8caae95c68c70c9d885e9",
-	"sha256": "723aa53474a9bb64f550be2652d0ff1f40cda134dc64e363b8addd21bb33c05d",
+	"filename": "pool/main/s/systemd/libnss-mymachines_259-1_amd64.deb",
+	"size": 209964,
+	"md5": "b925168582704c848980ce0a24d45129",
+	"sha256": "127600cb022ab2a1b169c09b5d3ca6bdff343b57ffb4df3ac810526bcfe73de8",
 	"descriptionMd5": "588342105e1fdd6ff74c093651cb80cc"
 }
