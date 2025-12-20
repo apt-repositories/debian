@@ -61,8 +61,76 @@
 	"maintainer": "MediaWiki packaging team <mediawiki-debian@lists.wikimedia.org>",
 	"description": "website engine for collaborative work",
 	"homepage": "https://www.mediawiki.org/",
-	"filename": "pool/updates/main/m/mediawiki/mediawiki_1.39.13-1~deb12u1_all.deb",
+	"filename": "pool/main/m/mediawiki/mediawiki_1.39.13-1~deb12u1_all.deb",
 	"size": 36457004,
+	"md5": "61e1177a07d19f1576e082520b58f39e",
 	"sha256": "0ec14bd90ab780d4538978fe8e3ea1d6d0e0eacfad1e9a7acb9181f8d7c695c5",
+	"descriptionMd5": "ddcc60dd7124e88ede95f0010ec0906b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mediawiki",
+	"version": "1:1.39.17-1~deb12u1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apache2 | httpd",
+		"php (>= 2:7.4~)",
+		"php-intl",
+		"php-json",
+		"php-mysql | php-pgsql | php-sqlite3 | php-mysqlnd",
+		"php-mbstring",
+		"php-xml",
+		"mediawiki-classes (= 1:1.39.17-1~deb12u1)"
+	],
+	"recommends": [
+		"default-mysql-server | virtual-mysql-server | postgresql-contrib | php-sqlite3",
+		"php-cli",
+		"php-apcu",
+		"php-curl",
+		"php-gmp",
+		"imagemagick | php-gd",
+		"php-readline",
+		"php-yaml",
+		"php-wikidiff2",
+		"python3-pygments",
+		"php-luasandbox | lua5.1"
+	],
+	"suggests": [
+		"memcached",
+		"clamav",
+		"firejail"
+	],
+	"replaces": [
+		"mediawiki-extensions-base",
+		"mediawiki-extensions-confirmedit",
+		"mediawiki-extensions-geshi",
+		"mediawiki-extensions-math (<= 2:1.0+git20120528-8)"
+	],
+	"breaks": [
+		"fusionforge-plugin-mediawiki (<< 5.2~rc1+1~)",
+		"mediawiki-extensions (<< 2.8~)",
+		"mediawiki-extensions-base",
+		"mediawiki-extensions-collection (<< 2.8~)",
+		"mediawiki-extensions-confirmedit",
+		"mediawiki-extensions-fckeditor",
+		"mediawiki-extensions-geshi",
+		"mediawiki-extensions-graphviz (<< 2.8~)",
+		"mediawiki-extensions-ldapauth (<< 2.8~)",
+		"mediawiki-extensions-math (<= 2:1.0+git20120528-8)",
+		"mediawiki-extensions-openid (<< 2.8~)",
+		"mediawiki-skin-greystuff (<< 1.2.5~)"
+	],
+	"installedSize": 231903,
+	"maintainer": "MediaWiki packaging team <mediawiki-debian@lists.wikimedia.org>",
+	"description": "website engine for collaborative work",
+	"homepage": "https://www.mediawiki.org/",
+	"filename": "pool/updates/main/m/mediawiki/mediawiki_1.39.17-1~deb12u1_all.deb",
+	"size": 36788612,
+	"sha256": "0854004b7f281742256e149ce48dcf14c0d6363c154a0df0e6f1569fb91dfe8a",
 	"descriptionMd5": "ddcc60dd7124e88ede95f0010ec0906b"
 }]

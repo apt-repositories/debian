@@ -35,4 +35,40 @@
 	"md5": "60ee257b4d9f466cedf04b7181302a96",
 	"sha256": "bbb1fbec01bc1d18b0308d5cb4005e4b71b753bf4a5e0e89a5b1f496c245ea36",
 	"descriptionMd5": "fd6d59a6fb8335f77ba5a60987d1c735"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dropbear-bin",
+	"source": "dropbear",
+	"version": "2025.89-1~deb13u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libtomcrypt1 (>= 1.18.2)",
+		"libtommath1 (>= 1.2.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"openssh-client"
+	],
+	"replaces": [
+		"dropbear (<< 2015.68-1)"
+	],
+	"breaks": [
+		"dropbear (<< 2015.68-1)"
+	],
+	"installedSize": 693,
+	"maintainer": "Guilhem Moulin <guilhem@debian.org>",
+	"description": "lightweight SSH2 server and client - command line tools",
+	"homepage": "https://matt.ucc.asn.au/dropbear/dropbear.html",
+	"filename": "pool/updates/main/d/dropbear/dropbear-bin_2025.89-1~deb13u1_amd64.deb",
+	"size": 188720,
+	"sha256": "1ddbd76749c7076097fb899eaf55f0a398d6f62799a6000501b32ed7b5d9257b",
+	"descriptionMd5": "fd6d59a6fb8335f77ba5a60987d1c735"
 }]

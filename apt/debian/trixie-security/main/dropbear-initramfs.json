@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dropbear-initramfs",
+	"source": "dropbear",
+	"version": "2025.89-1~deb13u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox | busybox-static",
+		"dropbear-bin (>= 2025.89-1~deb13u1)",
+		"initramfs-tools (>= 0.94)",
+		"udev"
+	],
+	"recommends": [
+		"cryptsetup-initramfs"
+	],
+	"replaces": [
+		"dropbear (<< 2015.68-1)"
+	],
+	"breaks": [
+		"dropbear (<< 2015.68-1)"
+	],
+	"installedSize": 82,
+	"maintainer": "Guilhem Moulin <guilhem@debian.org>",
+	"description": "lightweight SSH2 server and client - initramfs integration",
+	"homepage": "https://matt.ucc.asn.au/dropbear/dropbear.html",
+	"filename": "pool/updates/main/d/dropbear/dropbear-initramfs_2025.89-1~deb13u1_all.deb",
+	"size": 46768,
+	"sha256": "e03e8e99021abfae29c550f7cdf0542b776fbb1c563f47b6411489a505167b93",
+	"descriptionMd5": "5dd10490aa9e4ec06e1152daf8823742"
+}
