@@ -6,23 +6,26 @@
 	],
 	"package": "python3-virt-firmware",
 	"source": "virt-firmware",
-	"version": "25.7.3-1",
+	"version": "25.12-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-cryptography",
 		"python3-pefile",
-		"python3-pkg-resources | python3-supported-min (>= 3.13)",
+		"python3-setuptools | python3-supported-min (>= 3.13)",
 		"python3:any"
 	],
-	"installedSize": 356,
+	"suggests": [
+		"systemd-boot-tools"
+	],
+	"installedSize": 388,
 	"maintainer": "dann frazier <dannf@debian.org>",
 	"description": "Tools for manipulating edk2 (ovmf/qemu-efi) firmware images",
 	"homepage": "https://gitlab.com/kraxel/virt-firmware",
-	"filename": "pool/main/v/virt-firmware/python3-virt-firmware_25.7.3-1_all.deb",
-	"size": 86932,
-	"md5": "f7c6aeb9d3f9d34227041753a8b79b15",
-	"sha256": "2c28cd49abc4d1bd83f7478096549e8ed57be077386ce45f1c4d74606b930fca",
+	"filename": "pool/main/v/virt-firmware/python3-virt-firmware_25.12-1_all.deb",
+	"size": 92596,
+	"md5": "bb1d071a7b7b6481baeb30f94474d513",
+	"sha256": "32db933f24a1d14c6ec309e2d7cf04005107898d5d95f82e888fc2a3a6635a1b",
 	"descriptionMd5": "3c6b3df132780ca9ee7242dd4375e44b"
 }]

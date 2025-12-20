@@ -5,20 +5,20 @@
 		"Size"
 	],
 	"package": "mesa-libgallium",
-	"source": "mesa (25.2.8-2)",
-	"version": "25.2.8-2+b3",
+	"source": "mesa",
+	"version": "25.3.2-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.40)",
 		"libdrm-amdgpu1 (>= 2.4.125-1)",
 		"libdrm-intel1 (>= 2.4.125-1)",
 		"libdrm2 (>= 2.4.125-1)",
 		"libelf1t64 (>= 0.142)",
 		"libexpat1 (>= 2.0.1)",
 		"libgcc-s1 (>= 3.4)",
-		"libllvm19 (>= 1:19.1.0)",
+		"libllvm21 (>= 1:21.1.0)",
 		"libsensors5 (>= 1:3.5.0)",
 		"libstdc++6 (>= 11)",
 		"libx11-xcb1",
@@ -32,13 +32,24 @@
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 43670,
+	"replaces": [
+		"mesa-va-drivers (<< 25.2.8-3)",
+		"mesa-vdpau-drivers (<< 25.2.8-3)"
+	],
+	"enhances": [
+		"libva2"
+	],
+	"breaks": [
+		"mesa-va-drivers (<< 25.2.8-3)",
+		"mesa-vdpau-drivers (<< 25.2.8-3)"
+	],
+	"installedSize": 44035,
 	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
 	"description": "shared infrastructure for Mesa drivers",
 	"homepage": "https://mesa3d.org/",
-	"filename": "pool/main/m/mesa/mesa-libgallium_25.2.8-2+b3_amd64.deb",
-	"size": 10305396,
-	"md5": "b10aacd8e39a6c657cfc0189720c2c6e",
-	"sha256": "7f28b320c4a67a01a74e9a9cc61ec071b3632d34ec86e909f4f8652c229f6052",
+	"filename": "pool/main/m/mesa/mesa-libgallium_25.3.2-2_amd64.deb",
+	"size": 10310092,
+	"md5": "e6792de099c08e598bdaf47843c15a3b",
+	"sha256": "d816a0e5c930e2a4a918b2309e37c15c6b15d4c8816f5492727a7b4ee7d03409",
 	"descriptionMd5": "bbed14c249d6107bdd29c797c354b48e"
 }
