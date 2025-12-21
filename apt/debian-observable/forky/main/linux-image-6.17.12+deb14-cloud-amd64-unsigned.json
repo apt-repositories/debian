@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.17.12+deb14-cloud-amd64-unsigned",
+	"source": "linux",
+	"version": "6.17.12-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.17",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.17.12+deb14-cloud-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.17.12+deb14-cloud-amd64"
+	],
+	"installedSize": 35292,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.17.12 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-6.17.12+deb14-cloud-amd64-unsigned_6.17.12-1_amd64.deb",
+	"size": 34644584,
+	"md5": "ab976a7c2047d91451575b7bb3ec5398",
+	"sha256": "095edc0c8a4bcf9b50124781a5196b48c18ebd03ed5b6e41ea7ff250c55ecf62",
+	"descriptionMd5": "ebcc9145ea097c7226257d381b4418ab"
+}]
