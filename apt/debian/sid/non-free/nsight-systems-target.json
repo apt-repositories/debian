@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "nsight-systems-target",
-	"source": "nvidia-cuda-toolkit (12.4.1-4)",
-	"version": "2023.4.4.54~12.4.1-4+b1",
+	"source": "nvidia-cuda-toolkit (12.4.1-5)",
+	"version": "2023.4.4.54~12.4.1-5",
 	"section": "non-free/devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"python3:any",
 		"libcuda1 (>= 550) | libcuda.so.1 (>= 550) | libcuda-12.4-1",
-		"libc6 (>= 2.34)",
+		"libc6 (>> 2.42)",
+		"libc6 (<< 2.43)",
 		"libcom-err2 (>= 1.43.9)",
 		"libcurl4t64 (>= 7.16.2)",
 		"libelf1t64 (>= 0.144)",
@@ -31,13 +32,13 @@
 	"breaks": [
 		"nsight-systems (<< 10.2.89-3)"
 	],
-	"installedSize": 214003,
+	"installedSize": 214002,
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "NVIDIA Nsight Systems (target specific libraries)",
 	"homepage": "https://developer.nvidia.com/nsight-systems",
-	"filename": "pool/non-free/n/nvidia-cuda-toolkit/nsight-systems-target_2023.4.4.54~12.4.1-4+b1_amd64.deb",
-	"size": 39458176,
-	"md5": "f4771620ba80e8b698afae8a950d1fbd",
-	"sha256": "93d9a638b4d2e8ce952b484a629254243dcbfc58d5b18e76621b355e605c27fe",
+	"filename": "pool/non-free/n/nvidia-cuda-toolkit/nsight-systems-target_2023.4.4.54~12.4.1-5_amd64.deb",
+	"size": 39459696,
+	"md5": "832d873669e0dd9201a0e051543570fd",
+	"sha256": "ce8223dbdf4921b74913fd3326bed49fb263fc3cbfd459c0fc345420e6b987b1",
 	"descriptionMd5": "314a9e91087893dedfe9c4aa99b10e74"
 }

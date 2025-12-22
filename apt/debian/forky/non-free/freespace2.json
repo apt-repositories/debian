@@ -5,15 +5,15 @@
 		"Size"
 	],
 	"package": "freespace2",
-	"version": "24.2.0+repack-1",
+	"version": "24.2.0+repack-3",
 	"section": "non-free/games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libantlr4-runtime4.9 (>= 4.9+dfsg)",
-		"libavcodec61 (>= 7:7.0)",
-		"libavformat61 (>= 7:7.0)",
-		"libavutil59 (>= 7:7.0)",
+		"libavcodec62 (>= 7:8.0)",
+		"libavformat62 (>= 7:8.0)",
+		"libavutil60 (>= 7:8.0)",
 		"libc6 (>= 2.38)",
 		"libfreetype6 (>= 2.2.1)",
 		"libgcc-s1 (>= 3.0)",
@@ -27,27 +27,27 @@
 		"libsdl2-2.0-0 (>= 2.0.14)",
 		"libstb0t64 (>= 0.0~git20180212.15.e6afb9c)",
 		"libstdc++6 (>= 14)",
-		"libswresample5 (>= 7:7.0)",
-		"libswscale8 (>= 7:7.0)",
+		"libswresample6 (>= 7:8.0)",
+		"libswscale9 (>= 7:8.0)",
 		"libx11-6"
 	],
 	"recommends": [
-		"freespace2-launcher",
 		"freespace2-data | game-data-packager",
-		"freespace2-mod-mediavps"
+		"freespace2-launcher"
 	],
 	"suggests": [
-		"joystick",
+		"dpkg-dev",
 		"check-dfsg-status",
-		"dpkg-dev"
+		"freespace2-mod-mediavps",
+		"joystick"
 	],
-	"installedSize": 15612,
-	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"installedSize": 15467,
+	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "open implementation of the Freespace 2 game engine",
 	"homepage": "http://scp.indiegames.us/",
-	"filename": "pool/non-free/f/freespace2/freespace2_24.2.0+repack-1_amd64.deb",
-	"size": 5205136,
-	"md5": "26257f0ae2004b86396924a92dfdda43",
-	"sha256": "bba1d5d0ce4658931c6d8daff3f39f94db294bfc23b10e3900f171ed11d3b4a9",
+	"filename": "pool/non-free/f/freespace2/freespace2_24.2.0+repack-3_amd64.deb",
+	"size": 5215152,
+	"md5": "f9af08ef672844609a9bd70e6a54abae",
+	"sha256": "337b40011b696df5a4be5f4ef21b6dd5eb6bfdfcbf21d20ebb99d97f20edfcfd",
 	"descriptionMd5": "6a95846034add8354b592b24e9d84ecc"
 }

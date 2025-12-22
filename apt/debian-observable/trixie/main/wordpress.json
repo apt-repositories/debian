@@ -43,4 +43,48 @@
 	"md5": "66e63f5982f14ea828093c3ab5bbfb10",
 	"sha256": "36a028f13a0be66e06b15d55da1a004fdee815d41615d582b8ed37e275661f7f",
 	"descriptionMd5": "3558d680fa97c6a3f32c5c5e9f4a182a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wordpress",
+	"version": "6.8.3+dfsg1-0+deb13u1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apache2 | httpd",
+		"libapache2-mod-php | php",
+		"ca-certificates",
+		"default-mysql-client | virtual-mysql-client",
+		"php-gd",
+		"php-mysql | php-mysqlnd",
+		"libjs-cropper (>= 1.2.2)",
+		"libjs-lodash (>= 4.17.21+dfsg+~cs8.31.198.20210220)",
+		"libjs-underscore (>= 1.13.4~dfsg+~1.11.4)",
+		"php-getid3 (>= 1.9.23+dfsg)"
+	],
+	"recommends": [
+		"wordpress-l10n",
+		"wordpress-theme-twentytwentyfive"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server",
+		"php-curl",
+		"php-xml",
+		"php-imagick",
+		"php-mbstring",
+		"php-ssh2",
+		"php-zip"
+	],
+	"installedSize": 59139,
+	"maintainer": "Craig Small <csmall@debian.org>",
+	"description": "weblog manager",
+	"homepage": "https://wordpress.org",
+	"filename": "pool/updates/main/w/wordpress/wordpress_6.8.3+dfsg1-0+deb13u1_all.deb",
+	"size": 8922232,
+	"sha256": "51683e0ced1391108b06f4c2e5e26ff6a4793f204e8d6aa38a42bf207eb351ed",
+	"descriptionMd5": "3558d680fa97c6a3f32c5c5e9f4a182a"
 }]
