@@ -5,12 +5,16 @@
 		"Size"
 	],
 	"package": "openmotor",
-	"version": "0.6.0-3",
+	"version": "0.6.1-1",
 	"section": "science",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
+		"python3-numpy2-abi0 | python3-numpy-abi9",
+		"python3 (<< 3.15)",
+		"python3 (>= 3.13~)",
 		"python3:any",
+		"libc6 (>= 2.14)",
 		"python3-cycler",
 		"python3-decorator",
 		"python3-docopt",
@@ -31,13 +35,13 @@
 		"python3-willow",
 		"python3-yaml"
 	],
-	"installedSize": 489,
+	"installedSize": 880,
 	"maintainer": "Bdale Garbee <bdale@gag.com>",
 	"description": "internal ballistics simulator for rocket motor experimenters",
 	"homepage": "https://github.com/reilleya/openMotor/",
-	"filename": "pool/main/o/openmotor/openmotor_0.6.0-3_all.deb",
-	"size": 118116,
-	"md5": "8726af50008e7e5dea00b3abca6b997e",
-	"sha256": "908825e5c2218c2bae9db040b69fd86cee6dc92763e3eace0ada20ab2c6a3c24",
+	"filename": "pool/main/o/openmotor/openmotor_0.6.1-1_amd64.deb",
+	"size": 218084,
+	"md5": "997cfa02650b3da7a64094b23129b8ca",
+	"sha256": "b17691c6a446538af4233fafad694c279c84dea669dde12babd3f61bc270a809",
 	"descriptionMd5": "a9efda56312b031b9c04b2911f22271e"
 }

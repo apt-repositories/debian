@@ -33,4 +33,38 @@
 	"md5": "3a58e3395efaf7add0935a88d55c21b2",
 	"sha256": "a3f398a8016e5b99ac56c8b496602c39e27088c52a657c57863604a965a96dc0",
 	"descriptionMd5": "9dffe9f3f61ff368673fc5a2dcd65841"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php8.4-xml",
+	"source": "php8.4",
+	"version": "8.4.16-1~deb13u1",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"php-common (>= 2:95~)",
+		"ucf",
+		"php8.4-common (= 8.4.16-1~deb13u1)",
+		"libc6 (>= 2.33)",
+		"libxml2 (>= 2.9.4)",
+		"libxslt1.1 (>= 1.1.27)"
+	],
+	"replaces": [
+		"php8.4-xsl (<< 7.0.3-6~)"
+	],
+	"breaks": [
+		"php8.4-xsl (<< 7.0.3-6~)"
+	],
+	"installedSize": 2380,
+	"maintainer": "Debian PHP Maintainers <team+pkg-php@tracker.debian.org>",
+	"description": "DOM, SimpleXML, XML, and XSL module for PHP",
+	"homepage": "http://www.php.net/",
+	"filename": "pool/updates/main/p/php8.4/php8.4-xml_8.4.16-1~deb13u1_amd64.deb",
+	"size": 543632,
+	"sha256": "2a3018ff963b9770a5c6c6388400b8ba1023b20bf13fe646935e9127ade4238b",
+	"descriptionMd5": "9dffe9f3f61ff368673fc5a2dcd65841"
 }]

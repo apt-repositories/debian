@@ -35,8 +35,50 @@
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "object-relational mapper framework (part of Rails)",
 	"homepage": "https://rubyonrails.org/",
-	"filename": "pool/updates/main/r/rails/ruby-activerecord_6.1.7.10+dfsg-1~deb12u1_all.deb",
+	"filename": "pool/main/r/rails/ruby-activerecord_6.1.7.10+dfsg-1~deb12u1_all.deb",
 	"size": 365332,
+	"md5": "71129216a7b75cbd5d66d66bbd17a729",
 	"sha256": "a1b5ac1e02e6a5042fa8634ebbbc3622e8e2a51ec228aeea1eb980b0dc08a205",
+	"descriptionMd5": "2a656dbeb04f01d1a619f70eccfebc7c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ruby-activerecord",
+	"source": "rails",
+	"version": "2:6.1.7.10+dfsg-1~deb12u2",
+	"section": "ruby",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ruby:any (>= 1:2.5.0)",
+		"ruby-activemodel (= 2:6.1.7.10+dfsg-1~deb12u2)",
+		"ruby-activesupport (= 2:6.1.7.10+dfsg-1~deb12u2)"
+	],
+	"replaces": [
+		"ruby-arel"
+	],
+	"breaks": [
+		"ruby-activerecord-import (<< 1.0.5~)",
+		"ruby-activerecord-nulldb-adapter (<< 0.8.0~)",
+		"ruby-acts-as-taggable-on (<< 6.5~)",
+		"ruby-arel",
+		"ruby-delayed-job-active-record (<< 4.1.6-3~)",
+		"ruby-enumerize (<< 2.4.0~)",
+		"ruby-has-secure-token (<< 1.0.0-3~)",
+		"ruby-joiner (<< 0.6.0~)",
+		"ruby-otr-activerecord (<< 2.0.0~)",
+		"ruby-paranoia (<< 2.4.3~)",
+		"ruby-sidekiq (<< 6.0~)"
+	],
+	"installedSize": 2034,
+	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "object-relational mapper framework (part of Rails)",
+	"homepage": "https://rubyonrails.org/",
+	"filename": "pool/updates/main/r/rails/ruby-activerecord_6.1.7.10+dfsg-1~deb12u2_all.deb",
+	"size": 365780,
+	"sha256": "c703d1c0bb4d21d39801ac000ebec56c6205301c99263141181e57a5036c77fa",
 	"descriptionMd5": "2a656dbeb04f01d1a619f70eccfebc7c"
 }]

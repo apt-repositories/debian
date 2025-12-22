@@ -6,23 +6,28 @@
 	],
 	"package": "gir1.2-gpaste-2",
 	"source": "gpaste",
-	"version": "45.3-2",
+	"version": "45.3-3",
 	"section": "introspection",
 	"priority": "optional",
 	"architecture": "amd64",
-	"replaces": [
-		"gir1.2-gpaste-1.0"
-	],
-	"conflicts": [
-		"gir1.2-gpaste-1.0"
+	"depends": [
+		"gir1.2-adw-1 (>= 1.1.0~)",
+		"gir1.2-gdk-3.0 (>= 3.24.0~)",
+		"gir1.2-gdk-4.0 (>= 4.6.0~)",
+		"gir1.2-gio-2.0",
+		"gir1.2-glib-2.0",
+		"gir1.2-gobject-2.0",
+		"gir1.2-gtk-3.0 (>= 3.24.0~)",
+		"gir1.2-gtk-4.0 (>= 4.6.0~)",
+		"libgpaste-2 (>= 45.3)"
 	],
 	"installedSize": 80,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GObject introspection data for the libgpaste-2 library",
 	"homepage": "https://github.com/Keruspe/GPaste",
-	"filename": "pool/main/g/gpaste/gir1.2-gpaste-2_45.3-2_amd64.deb",
-	"size": 21156,
-	"md5": "61464c7a371197d5d0ccea1fc36d7fad",
-	"sha256": "ad10d985cfcd30c26294c00cbd6d77470738521c1d31a47b5f086b7953cf8fa2",
+	"filename": "pool/main/g/gpaste/gir1.2-gpaste-2_45.3-3_amd64.deb",
+	"size": 21376,
+	"md5": "b2109b1be1ea8a0d1533fd033d75f329",
+	"sha256": "de1539b672251a5b3bc3b5b1d6834c806544d77a88cdc70ebd3f2141dcbc8cb3",
 	"descriptionMd5": "fa2976fdddbeb0def56305005048a361"
 }
