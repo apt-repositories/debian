@@ -6,18 +6,19 @@
 	],
 	"package": "python3-pygraphviz",
 	"source": "python-pygraphviz",
-	"version": "1.14-3",
+	"version": "1.14-5",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"graphviz",
+		"libgvplugin-neato-layout",
 		"python3 (<< 3.15)",
 		"python3 (>= 3.13~)",
 		"python3:any",
 		"libc6 (>= 2.14)",
-		"libcgraph8 (>= 14.0.5)",
-		"libgvc7 (>= 14.0.5)"
+		"libcgraph8 (>= 14.1.1)",
+		"libgvc7 (>= 14.1.1)"
 	],
 	"suggests": [
 		"python-pygraphviz-doc"
@@ -26,9 +27,9 @@
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python interface to the Graphviz graph layout and visualization package (Python 3)",
 	"homepage": "https://pygraphviz.github.io/",
-	"filename": "pool/main/p/python-pygraphviz/python3-pygraphviz_1.14-3_amd64.deb",
-	"size": 87424,
-	"md5": "149a16befb725b0a9ebdf08b40abd431",
-	"sha256": "4e2dd2fc7df41a312c668d77632ad8e4622234b045dca11b5219140c340c62b1",
+	"filename": "pool/main/p/python-pygraphviz/python3-pygraphviz_1.14-5_amd64.deb",
+	"size": 87700,
+	"md5": "fda76d23bbce755020d622797679adfd",
+	"sha256": "ec580e804fdec1abc99196ff4b6884c032afbd99afcef5cd64f0fb035c302fb7",
 	"descriptionMd5": "4804d58b01bdfba1293e780ad3c63b5a"
 }]

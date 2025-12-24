@@ -6,7 +6,7 @@
 	],
 	"package": "liblavfile-2.2-0",
 	"source": "mjpegtools",
-	"version": "1:2.2.1-2",
+	"version": "1:2.2.1-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,19 @@
 		"libdv4t64 (>= 1.0.0)",
 		"libmjpegutils-2.2-0 (>= 1:2.2.1)"
 	],
+	"replaces": [
+		"liblavfile-2.1-0t64 (= 1:2.2.1-1)"
+	],
+	"breaks": [
+		"liblavfile-2.1-0t64 (= 1:2.2.1-1)"
+	],
 	"installedSize": 91,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "MJPEG capture/editing/replay and MPEG encoding toolset (library)",
 	"homepage": "http://mjpeg.sourceforge.net/",
-	"filename": "pool/main/m/mjpegtools/liblavfile-2.2-0_2.2.1-2_amd64.deb",
-	"size": 36772,
-	"md5": "4c42fde1ecdca3d09a856be70d81d6d2",
-	"sha256": "ebcd8bdad503c80b788e118b20e315997e060334cee417d73e8fd2c8b53a1a81",
+	"filename": "pool/main/m/mjpegtools/liblavfile-2.2-0_2.2.1-3_amd64.deb",
+	"size": 37040,
+	"md5": "23dcb3fb75e1e15f4bc0ab2df5c7497a",
+	"sha256": "98086f5cdb8bd1aac53f35242b117426f17e53324624bf10e3219d2e41c1aa92",
 	"descriptionMd5": "38a736e7069b6dfa199186431d6a7cae"
 }]
