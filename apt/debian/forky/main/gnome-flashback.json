@@ -5,17 +5,18 @@
 		"Size"
 	],
 	"package": "gnome-flashback",
-	"version": "3.58.0-1",
+	"version": "3.58.0-3",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gnome-flashback-common (= 3.58.0-1)",
+		"gnome-flashback-common (= 3.58.0-3)",
 		"nautilus (>= 3.37.1.1)",
 		"tecla",
 		"libasound2t64 (>= 1.0.16)",
 		"libatk1.0-0t64 (>= 1.12.4)",
 		"libc6 (>= 2.38)",
+		"libcairo-gobject2 (>= 1.10.0)",
 		"libcairo2 (>= 1.14.0)",
 		"libcanberra-gtk3-0 (>= 0.25)",
 		"libcanberra0 (>= 0.2)",
@@ -26,6 +27,7 @@
 		"libgnome-desktop-3-20t64 (>= 43)",
 		"libgnome-panel3 (>= 3.37.0)",
 		"libgtk-3-0t64 (>= 3.22.0)",
+		"libharfbuzz0b (>= 0.6.0)",
 		"libibus-1.0-5 (>= 1.5.2)",
 		"libpam0g (>= 0.99.7.1)",
 		"libpango-1.0-0 (>= 1.44.6)",
@@ -38,12 +40,14 @@
 		"libx11-6 (>= 2:1.2.99.901)",
 		"libx11-xcb1",
 		"libxcb-randr0 (>= 1.1)",
+		"libxcb1",
 		"libxext6",
 		"libxfixes3",
 		"libxi6 (>= 2:1.2.99.4)",
 		"libxkbfile1 (>= 1:1.1.0)",
 		"libxrandr2 (>= 2:1.5.0)",
-		"libxxf86vm1"
+		"libxxf86vm1 (>= 1:1.1.4)",
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"recommends": [
 		"dbus",
@@ -53,13 +57,13 @@
 	"suggests": [
 		"gnome-power-manager"
 	],
-	"installedSize": 2003,
+	"installedSize": 2007,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "helper application for the GNOME Flashback session",
 	"homepage": "https://wiki.gnome.org/Projects/GnomeFlashback",
-	"filename": "pool/main/g/gnome-flashback/gnome-flashback_3.58.0-1_amd64.deb",
-	"size": 470652,
-	"md5": "65d6a9ac3f348157bcd992d2485fe38d",
-	"sha256": "d05519143edb0e54be8290944a0ecc726fb9b7692052f10d662eb91a8ae22408",
+	"filename": "pool/main/g/gnome-flashback/gnome-flashback_3.58.0-3_amd64.deb",
+	"size": 470500,
+	"md5": "dcdf822b91cbd21cff53466d6313a84d",
+	"sha256": "f2e2498edf270edcefecb408bb7bbc1a8c5882a3d529ba2228b3220430eb2def",
 	"descriptionMd5": "e0cbd47cd86279bdc604be4aea2fc70f"
 }

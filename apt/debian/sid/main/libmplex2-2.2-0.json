@@ -6,7 +6,7 @@
 	],
 	"package": "libmplex2-2.2-0",
 	"source": "mjpegtools",
-	"version": "1:2.2.1-2",
+	"version": "1:2.2.1-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,19 @@
 		"libmjpegutils-2.2-0 (>= 1:2.2.1)",
 		"libstdc++6 (>= 5)"
 	],
+	"replaces": [
+		"libmplex2-2.1-0t64 (= 1:2.2.1-1)"
+	],
+	"breaks": [
+		"libmplex2-2.1-0t64 (= 1:2.2.1-1)"
+	],
 	"installedSize": 144,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "MJPEG capture/editing/replay and MPEG encoding toolset (library)",
 	"homepage": "http://mjpeg.sourceforge.net/",
-	"filename": "pool/main/m/mjpegtools/libmplex2-2.2-0_2.2.1-2_amd64.deb",
-	"size": 50324,
-	"md5": "c8dcc1c6f27da5719803a09453796c0d",
-	"sha256": "e01122817e1ca42754046c3c55e2323322fbb1c0f375502208493b0b87d8c88b",
+	"filename": "pool/main/m/mjpegtools/libmplex2-2.2-0_2.2.1-3_amd64.deb",
+	"size": 50500,
+	"md5": "660e03c5a1304dec5fad7904d73081b9",
+	"sha256": "8def022de269bda5ccba1ddef97b18291b754e377b60b2f23a1610b9e005a2e3",
 	"descriptionMd5": "2bb2239c3582fa2873aa92be9b466c13"
 }

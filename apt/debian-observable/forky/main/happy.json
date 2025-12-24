@@ -5,14 +5,15 @@
 		"Size"
 	],
 	"package": "happy",
-	"version": "1.20.1.1-1",
+	"version": "1.20.1.1-2",
 	"section": "haskell",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libffi8 (>= 3.4)",
-		"libgmp10 (>= 2:6.3.0+dfsg)"
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libnuma1 (>= 2.0.11)"
 	],
 	"suggests": [
 		"haskell-doc",
@@ -21,13 +22,13 @@
 	"replaces": [
 		"ghc-cvs (<< 20031221)"
 	],
-	"installedSize": 2532,
+	"installedSize": 11728,
 	"maintainer": "Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>",
 	"description": "Parser generator for Haskell",
 	"homepage": "https://www.haskell.org/happy/",
-	"filename": "pool/main/h/happy/happy_1.20.1.1-1_amd64.deb",
-	"size": 530320,
-	"md5": "687cbe12b74f590b4113e649611c8302",
-	"sha256": "c6358328baed770ecfa2916f1d70134ec3a87b12aefafeab54b81f2a3a9f0611",
+	"filename": "pool/main/h/happy/happy_1.20.1.1-2_amd64.deb",
+	"size": 1612700,
+	"md5": "1710fa25c784981f0d6f2eeaa30d7f9e",
+	"sha256": "ede7e950e60d550211da6051589c561a52fc680a292bbfba021a776f4acdd4d6",
 	"descriptionMd5": "8b3c15ce0fbcbaad9b1fcb88f5dbaae9"
 }]

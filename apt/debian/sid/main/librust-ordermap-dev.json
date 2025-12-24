@@ -5,21 +5,33 @@
 		"Size"
 	],
 	"package": "librust-ordermap-dev",
-	"source": "rust-ordermap (0.4.2-1)",
-	"version": "0.4.2-1+b2",
+	"source": "rust-ordermap",
+	"version": "1.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"suggests": [
-		"librust-ordermap+serde-dev (= 0.4.2-1+b2)",
-		"librust-ordermap+serde-1-dev (= 0.4.2-1+b2)"
+	"depends": [
+		"librust-arbitrary-1-dev",
+		"librust-borsh-1-dev (>= 1.5.6-~~)",
+		"librust-indexmap-2+arbitrary-dev (>= 2.12.0-~~)",
+		"librust-indexmap-2+rayon-dev (>= 2.12.0-~~)",
+		"librust-indexmap-2+serde-dev (>= 2.12.0-~~)",
+		"librust-indexmap-2+std-dev (>= 2.12.0-~~)",
+		"librust-indexmap-2+sval-dev (>= 2.12.0-~~)",
+		"librust-indexmap-2-dev (>= 2.12.0-~~)",
+		"librust-quickcheck-1-dev",
+		"librust-rayon-1+default-dev (>= 1.9-~~)",
+		"librust-serde-1-dev (>= 1.0.220-~~)",
+		"librust-serde-core-1-dev (>= 1.0.220-~~)",
+		"librust-sval-2-dev"
 	],
-	"installedSize": 187,
+	"installedSize": 401,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Hash table with consistent order and fast iteration - Rust source code",
-	"filename": "pool/main/r/rust-ordermap/librust-ordermap-dev_0.4.2-1+b2_amd64.deb",
-	"size": 33964,
-	"md5": "a653624fc56bdd0d6ab9b06f51ed546c",
-	"sha256": "af991648eb62eb22207909f39953dc9c8b383f4d683fe1c3d52c5d465b93c3f9",
-	"descriptionMd5": "35c23e11707c46e115a1c0b45e256d14"
+	"homepage": "https://github.com/indexmap-rs/ordermap",
+	"filename": "pool/main/r/rust-ordermap/librust-ordermap-dev_1.0.0-1_amd64.deb",
+	"size": 54840,
+	"md5": "47f7bfb23c97467cd343e5528f60a77c",
+	"sha256": "0a342ed615b7e796cc582caa92e6a809510cd19a765ee73beace83934c2fbe51",
+	"descriptionMd5": "315266c60c9c0627457b8cb002389eac"
 }
