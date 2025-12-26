@@ -6,7 +6,7 @@
 	],
 	"package": "qemu-system-s390x",
 	"source": "qemu",
-	"version": "1:10.1.3+ds-1",
+	"version": "1:10.2.0+ds-1",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,12 +17,9 @@
 		"libcapstone5 (>= 5)",
 		"libfuse3-4 (>= 3.17.2)",
 		"libglib2.0-0t64 (>= 2.78.0)",
-		"libgmp10 (>= 2:6.3.0+dfsg)",
 		"libgnutls30t64 (>= 3.8.6)",
-		"libhogweed6t64",
 		"libibverbs1 (>= 1.1.6)",
 		"libjpeg62-turbo (>= 1.3.1)",
-		"libnettle8t64 (>= 3.9~)",
 		"libnuma1 (>= 2.0.15)",
 		"libpixman-1-0 (>= 0.19.6)",
 		"libpmem1 (>= 1.4)",
@@ -36,15 +33,15 @@
 		"libvdeplug2t64 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:10.1.3+ds-1)",
-		"qemu-system-data (>> 1:10.1.3+ds~)"
+		"qemu-system-common (= 1:10.2.0+ds-1)",
+		"qemu-system-data (>> 1:10.2.0+ds~)"
 	],
 	"recommends": [
 		"qemu-utils",
-		"qemu-system-gui (= 1:10.1.3+ds-1)",
-		"qemu-system-modules-spice (= 1:10.1.3+ds-1)",
-		"qemu-system-modules-opengl (= 1:10.1.3+ds-1)",
-		"qemu-block-extra (= 1:10.1.3+ds-1)"
+		"qemu-system-gui (= 1:10.2.0+ds-1)",
+		"qemu-system-modules-spice (= 1:10.2.0+ds-1)",
+		"qemu-system-modules-opengl (= 1:10.2.0+ds-1)",
+		"qemu-block-extra (= 1:10.2.0+ds-1)"
 	],
 	"replaces": [
 		"qemu-system-misc (<< 1:9.1.0+ds-9~)"
@@ -52,13 +49,13 @@
 	"breaks": [
 		"qemu-system-misc (<< 1:9.1.0+ds-9~)"
 	],
-	"installedSize": 13102,
+	"installedSize": 13169,
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (s390x)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-s390x_10.1.3+ds-1_amd64.deb",
-	"size": 3100140,
-	"md5": "dc1f543cfaddffe4188acbe89982df8a",
-	"sha256": "ffa5b87e58dc68ac7a960fd21888b69474ff50e3e152b8ea880b95dc48aec85b",
+	"filename": "pool/main/q/qemu/qemu-system-s390x_10.2.0+ds-1_amd64.deb",
+	"size": 3124528,
+	"md5": "d224054048770d97e8d4862c7081e1c9",
+	"sha256": "63ce73ea5d830446d76224b09bde832920ffa2692e9bc09da43795ee1816b1d7",
 	"descriptionMd5": "3b2939568b438f9e1d0d01baa7cec9f8"
 }]
