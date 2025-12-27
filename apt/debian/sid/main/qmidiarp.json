@@ -5,31 +5,37 @@
 		"Size"
 	],
 	"package": "qmidiarp",
-	"version": "0.7.1+ds-1",
+	"version": "0.7.2+ds-1",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libasound2t64 (>= 1.0.16)",
 		"libc6 (>= 2.38)",
+		"libcairo2 (>= 1.2.4)",
 		"libgcc-s1 (>= 3.0)",
+		"libgl1",
+		"libglib2.0-0t64 (>= 2.12.0)",
 		"libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125",
 		"liblo7 (>= 0.26~repack)",
-		"libqt5core5t64 (>= 5.15.1)",
-		"libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1)",
-		"libqt5widgets5t64 (>= 5.2.0~alpha1)",
-		"libstdc++6 (>= 13.1)"
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libqt6core6t64 (>= 6.9.1)",
+		"libqt6gui6 (>= 6.9.1)",
+		"libqt6widgets6 (>= 6.3.0)",
+		"libstdc++6 (>= 13.1)",
+		"libx11-6"
 	],
 	"recommends": [
 		"jackd"
 	],
-	"installedSize": 1683,
+	"installedSize": 2183,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "MIDI arpeggiator for ALSA",
 	"homepage": "https://qmidiarp.sourceforge.io",
-	"filename": "pool/main/q/qmidiarp/qmidiarp_0.7.1+ds-1_amd64.deb",
-	"size": 354200,
-	"md5": "5d35ef311dec24c87009320543d03ce4",
-	"sha256": "ff77b1b36d4894926c849c162746cc995b2652f7040f09dc48bb7bef5a9b77ae",
+	"filename": "pool/main/q/qmidiarp/qmidiarp_0.7.2+ds-1_amd64.deb",
+	"size": 465900,
+	"md5": "1a34ab373f6564e29b96232900fe2649",
+	"sha256": "b5e57aa786439927f5e9d9a9e0fd114039c3def44c432284535db889872ce91a",
 	"descriptionMd5": "e40c0ec0feb0267a1b5a1afdfd6a59f5"
 }
