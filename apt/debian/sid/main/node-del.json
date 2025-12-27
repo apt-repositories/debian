@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "node-del",
-	"version": "7.1.0-1",
+	"version": "7.1.0-2",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
@@ -16,16 +16,19 @@
 		"node-is-path-cwd",
 		"node-is-path-inside",
 		"node-p-map",
-		"node-rimraf",
+		"node-rimraf (>= 4.0.0)",
 		"node-slash"
 	],
-	"installedSize": 28,
+	"breaks": [
+		"nodejs (<< 18~)"
+	],
+	"installedSize": 27,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Delete files and folders",
 	"homepage": "https://github.com/sindresorhus/del#readme",
-	"filename": "pool/main/n/node-del/node-del_7.1.0-1_all.deb",
-	"size": 8020,
-	"md5": "f22bb672d501ec1c552650dd30dc10b5",
-	"sha256": "6e3ad07c5c3911e5185b3207f9d03988b0f25218bb9139560154f21f5a4a4934",
+	"filename": "pool/main/n/node-del/node-del_7.1.0-2_all.deb",
+	"size": 8076,
+	"md5": "2baa685dd09993d1b74f233ec56f0fac",
+	"sha256": "11d7c6bd4b2a9e04b36e34ad2a8b45eec54916c6b6c2ebbaa4a2d17f8056983f",
 	"descriptionMd5": "64510aefa07d68934532d7804df72236"
 }
