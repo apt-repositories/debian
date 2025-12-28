@@ -6,15 +6,15 @@
 	],
 	"package": "python3-pynvim",
 	"source": "python-pynvim",
-	"version": "0.6.0-1",
+	"version": "0.6.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"python3-greenlet (>= 3.0)",
 		"python3-msgpack (>= 1)",
-		"python3-typing-extensions | python3-supported-min (>= 3.12)",
-		"python3:any",
-		"python3-greenlet (>= 3.0)"
+		"python3-supported-min (>= 3.12) | python3-typing-extensions",
+		"python3:any"
 	],
 	"recommends": [
 		"neovim"
@@ -23,9 +23,9 @@
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python3 library for scripting Neovim processes through its msgpack-rpc API",
 	"homepage": "https://github.com/neovim/pynvim",
-	"filename": "pool/main/p/python-pynvim/python3-pynvim_0.6.0-1_all.deb",
-	"size": 36164,
-	"md5": "b6b76cebc8e51c392693065a0450234c",
-	"sha256": "8775cd07bd98be963ea9cd6047f03b887dda871f7ab2cfd504db989054692486",
+	"filename": "pool/main/p/python-pynvim/python3-pynvim_0.6.0-2_all.deb",
+	"size": 36260,
+	"md5": "62e5937e0d4841ff1379d7ac44a229dd",
+	"sha256": "42ba286e43837f5c2d3a50829ab61b54e8521576cba3fe254815af6849eb1756",
 	"descriptionMd5": "e32cd961b525b767ec5a3869b17a7c63"
 }

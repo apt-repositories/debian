@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "scrcpy",
+	"version": "3.3.2-1",
+	"section": "contrib/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libavcodec62 (>= 7:8.0.1)",
+		"libavdevice62 (>= 7:8.0.1)",
+		"libavformat62 (>= 7:8.0.1)",
+		"libavutil60 (>= 7:8.0.1)",
+		"libc6 (>= 2.38)",
+		"libsdl2-2.0-0 (>= 2.0.12)",
+		"libswresample6 (>= 7:8.0.1)",
+		"libusb-1.0-0 (>= 2:1.0.16)"
+	],
+	"recommends": [
+		"adb",
+		"wget | curl",
+		"ca-certificates"
+	],
+	"replaces": [
+		"scrcpy-server (<< 3.3.2)"
+	],
+	"breaks": [
+		"scrcpy-server (<< 3.3.2)"
+	],
+	"installedSize": 288,
+	"maintainer": "Yangfl <mmyangfl@gmail.com>",
+	"description": "Display and control your Android devices",
+	"homepage": "https://github.com/Genymobile/scrcpy",
+	"filename": "pool/contrib/s/scrcpy/scrcpy_3.3.2-1_amd64.deb",
+	"size": 102888,
+	"md5": "336b058a8096c9a3dc52ef0422cc0d79",
+	"sha256": "6b78546ede0fb1a4aafb43c482d543314126ca55c18d716e6234f3acad19cc18",
+	"descriptionMd5": "80e05c30273377543e0f40a98006d38d"
+}
