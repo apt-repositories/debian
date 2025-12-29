@@ -6,17 +6,21 @@
 	],
 	"package": "libpicard-java",
 	"source": "picard-tools",
-	"version": "3.3.0+dfsg-2",
+	"version": "3.4.0+dfsg-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libhtsjdk-java (>= 3.0.2+dfsg)",
 		"libbarclay-java",
-		"libgkl-java",
+		"libcommons-collections4-java",
+		"libcommons-io-java",
+		"libcommons-lang-java",
 		"libcommons-lang3-java",
 		"libcommons-math3-java",
-		"libgatk-native-bindings-java"
+		"libgkl-java",
+		"libguava-java",
+		"libhtsjdk-java",
+		"libjoptsimple-java"
 	],
 	"recommends": [
 		"r-base-core"
@@ -24,13 +28,13 @@
 	"suggests": [
 		"picard-tools"
 	],
-	"installedSize": 1872,
+	"installedSize": 1880,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "Java library to manipulate SAM and BAM files",
 	"homepage": "https://broadinstitute.github.io/picard/",
-	"filename": "pool/main/p/picard-tools/libpicard-java_3.3.0+dfsg-2_all.deb",
-	"size": 1778080,
-	"md5": "6dd802cc3bcd3e4052c8974c600a8f2a",
-	"sha256": "a358bc0ba0a8fd7050e54389caa6cc820c6cc9f8861fc740f1f58b25b4b0c638",
+	"filename": "pool/main/p/picard-tools/libpicard-java_3.4.0+dfsg-1_all.deb",
+	"size": 1786328,
+	"md5": "e0f8a83a1854bb891fcd073979ac0dd1",
+	"sha256": "1f3da2a5990260dbba8389c53e53fe66edf1bdcb7d92e15a0ad3656cf6fb7766",
 	"descriptionMd5": "fd011bcd3681f58c02bb5072a25e58bc"
 }
