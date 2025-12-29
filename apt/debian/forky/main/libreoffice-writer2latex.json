@@ -6,28 +6,30 @@
 	],
 	"package": "libreoffice-writer2latex",
 	"source": "writer2latex",
-	"version": "1.4-11",
+	"version": "1.6.1-2",
 	"section": "text",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"default-jre | java6-runtime",
+		"default-jre | java8-runtime",
 		"liblibreoffice-java",
 		"libreoffice-core",
 		"libreoffice-java-common",
+		"libandroid-json-java",
+		"libjbibtex-java",
 		"tex-common (>= 6.13)"
 	],
 	"enhances": [
 		"libreoffice-calc",
 		"libreoffice-writer"
 	],
-	"installedSize": 853,
+	"installedSize": 1012,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "Writer/Calc to LaTeX converter extension for LibreOffice",
-	"homepage": "http://writer2latex.sourceforge.net",
-	"filename": "pool/main/w/writer2latex/libreoffice-writer2latex_1.4-11_all.deb",
-	"size": 534584,
-	"md5": "77d7c2eed7c08666feccadd15c5f1af5",
-	"sha256": "d604fafa75172afb9437305327f253a66dbc5308cf965a620ed16a209a251957",
+	"homepage": "https://writer2latex.sourceforge.net",
+	"filename": "pool/main/w/writer2latex/libreoffice-writer2latex_1.6.1-2_all.deb",
+	"size": 586404,
+	"md5": "823cc49bfd04a10ce5e563b4da52b077",
+	"sha256": "e67db6f747972ea81004aede4b6ed916858475e437672cbe79161775ab89e6ae",
 	"descriptionMd5": "01a36593183c136a4133e917d239c25b"
 }
