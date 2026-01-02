@@ -5,15 +5,14 @@
 		"Size"
 	],
 	"package": "liblammps0t64",
-	"source": "lammps (20250204+dfsg.1-2)",
-	"version": "20250204+dfsg.1-2+b2",
+	"source": "lammps",
+	"version": "20251210+dfsg-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libblas3 | libblas.so.3",
 		"libc6 (>= 2.38)",
-		"libcurl4t64 (>= 7.16.2)",
+		"libcurl3t64-gnutls (>= 7.16.2)",
 		"libfftw3-double3 (>= 3.3.10)",
 		"libgcc-s1 (>= 4.0)",
 		"libgomp1 (>= 4.9)",
@@ -22,7 +21,7 @@
 		"libkim-api2 (>= 2.4.1)",
 		"liblapack3 | liblapack.so.3",
 		"libnetcdf22 (>= 4.0.1)",
-		"libopenmpi40 (>= 5.0.8)",
+		"libopenmpi40 (>= 5.0.9)",
 		"libpnetcdf7 (>= 1.14.1)",
 		"libpng16-16t64 (>= 1.6.46)",
 		"libpython3.13 (>= 3.13.0~rc3)",
@@ -36,15 +35,15 @@
 		"liblammps0"
 	],
 	"breaks": [
-		"liblammps0 (<< 20250204+dfsg.1-2)"
+		"liblammps0 (<< 20251210+dfsg-1)"
 	],
-	"installedSize": 30986,
+	"installedSize": 27761,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Molecular Dynamics Simulator (shared library)",
 	"homepage": "https://lammps.sandia.gov/",
-	"filename": "pool/main/l/lammps/liblammps0t64_20250204+dfsg.1-2+b2_amd64.deb",
-	"size": 7611932,
-	"md5": "71f8bbce12c773736af66b1e384a8e6f",
-	"sha256": "fcad19d95475e29f8b5e4dee8fc7f298ec2ed926e2041e83c25c34e18f0e85b5",
+	"filename": "pool/main/l/lammps/liblammps0t64_20251210+dfsg-1_amd64.deb",
+	"size": 6723488,
+	"md5": "452c02e483e8e43c72046b462e0ce20d",
+	"sha256": "b94d2b2c1fc4409d828d44d4c72bed2e98664dd66f338cd557d5b16457581c48",
 	"descriptionMd5": "95a8c59b10a7cfd9e036bde06240f237"
 }

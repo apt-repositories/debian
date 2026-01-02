@@ -6,12 +6,12 @@
 	],
 	"package": "libdolfinx-dev",
 	"source": "fenics-dolfinx",
-	"version": "1:0.10.0.post5-2",
+	"version": "1:0.10.0.post5-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdolfinx-real-dev (>= 1:0.10.0.post5-2) | libdolfinx-complex-dev (>= 1:0.10.0.post5-2)",
+		"libdolfinx-real-dev (>= 1:0.10.0.post5-3) | libdolfinx-complex-dev (>= 1:0.10.0.post5-3)",
 		"libdolfinx-real-dev (<< 1:0.11~) | libdolfinx-complex-dev (<< 1:0.11~)",
 		"cmake",
 		"g++ | c++-compiler",
@@ -37,13 +37,16 @@
 		"python3-ffcx (>= 1:0.10.1~)",
 		"python3-ffcx (<< 1:0.11.0)"
 	],
+	"breaks": [
+		"fenicsx-performance-tests-source (<< 0.10~)"
+	],
 	"installedSize": 1146,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Shared links and header files for DOLFIN",
 	"homepage": "https://fenicsproject.org",
-	"filename": "pool/main/f/fenics-dolfinx/libdolfinx-dev_0.10.0.post5-2_amd64.deb",
-	"size": 227356,
-	"md5": "5752ade2a3bd597b1354e0aa73a5146f",
-	"sha256": "83c39680a428e7c7dcce837b8cdab67c3239f229b57673cb7eebf013f6b8896e",
+	"filename": "pool/main/f/fenics-dolfinx/libdolfinx-dev_0.10.0.post5-3_amd64.deb",
+	"size": 227440,
+	"md5": "c281c698d182a1dd18d083c806b6a57e",
+	"sha256": "2327837390942f5978ea22c972207b6acebfb229bc5400a3b54f1efb9ad265b5",
 	"descriptionMd5": "aa90851252787184d62f28b2cdaa7458"
 }]
