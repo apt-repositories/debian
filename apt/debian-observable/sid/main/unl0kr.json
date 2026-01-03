@@ -5,26 +5,34 @@
 		"Size"
 	],
 	"package": "unl0kr",
-	"version": "2.0.3+dfsg-3",
+	"source": "buffybox",
+	"version": "3.2.0+dfsg-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
 		"libc6 (>= 2.38)",
+		"libdrm2 (>= 2.4.62)",
 		"libinih1 (>= 40)",
 		"libinput10 (>= 0.15.0)",
 		"libudev1 (>= 183)",
 		"libxkbcommon0 (>= 0.5.0)",
 		"cryptsetup-initramfs"
 	],
-	"installedSize": 676,
+	"replaces": [
+		"osk-sdl (<< 0.67.1-4)"
+	],
+	"breaks": [
+		"osk-sdl (<< 0.67.1-4)"
+	],
+	"installedSize": 739,
 	"maintainer": "DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>",
 	"description": "Lightweight framebuffer On-Screen-Keyboard based on LVGL",
-	"homepage": "https://gitlab.com/cherrypicker/unl0kr",
-	"filename": "pool/main/u/unl0kr/unl0kr_2.0.3+dfsg-3_amd64.deb",
-	"size": 244852,
-	"md5": "7c49befeb05a49cf11ceff9d8ba68ab5",
-	"sha256": "e215e686c649f2f91333f4a2838d629105b7e93ed78a5c2daf3219edb9ad04b7",
+	"homepage": "https://gitlab.com/postmarketOS/buffybox",
+	"filename": "pool/main/b/buffybox/unl0kr_3.2.0+dfsg-1_amd64.deb",
+	"size": 272268,
+	"md5": "f97ed36d01be776bc50955023bd7be45",
+	"sha256": "011a1d233fb8bef5f4686ca580136f58066e116f9ef6ab2f72644b39cfa5e254",
 	"descriptionMd5": "04958040862cce9b4166a43d0d51d37e"
 }]

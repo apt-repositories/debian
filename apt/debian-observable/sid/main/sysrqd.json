@@ -5,22 +5,24 @@
 		"Size"
 	],
 	"package": "sysrqd",
-	"version": "14-5",
+	"version": "17-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)"
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 41,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"installedSize": 40,
+	"maintainer": "Emmanuel Arias <eamanu@debian.org>",
 	"description": "small daemon intended to manage Linux SysRq over network",
-	"filename": "pool/main/s/sysrqd/sysrqd_14-5_amd64.deb",
-	"size": 9224,
-	"md5": "b7e91068a5bc973dc1bd4a86eaad2c34",
-	"sha256": "7d711dd97bfe1cc6300d7459303008c8d94c103bca3c8fd9a17fb2b47f9ece05",
+	"homepage": "https://github.com/jd/sysrqd",
+	"filename": "pool/main/s/sysrqd/sysrqd_17-1_amd64.deb",
+	"size": 9736,
+	"md5": "f7dda4c99b3950c221404c87b6db475e",
+	"sha256": "2733ef8008f18b3fa00b0fff0d76f8fd2e2899ab90dc30ddc42f886911114257",
 	"descriptionMd5": "4315934805063646d2f44b304b9cbef5"
 }]
