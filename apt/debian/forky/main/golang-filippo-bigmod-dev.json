@@ -6,20 +6,23 @@
 	],
 	"package": "golang-filippo-bigmod-dev",
 	"source": "golang-filippo-bigmod",
-	"version": "0.0.3-2",
+	"version": "0.1.0-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"golang-golang-x-sys-dev"
 	],
-	"installedSize": 87,
+	"breaks": [
+		"golang-github-openpubkey-openpubkey-dev (<< 0.21.0~)"
+	],
+	"installedSize": 117,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "constant-time library for big integers modulo a prime (Go library)",
 	"homepage": "https://github.com/FiloSottile/bigmod",
-	"filename": "pool/main/g/golang-filippo-bigmod/golang-filippo-bigmod-dev_0.0.3-2_all.deb",
-	"size": 16880,
-	"md5": "995d43ae09fc87abc384f939b777df2c",
-	"sha256": "dcd4a2f90d39a66cd490f6dace34d21623fcb06a747c4df0bd94155505673141",
+	"filename": "pool/main/g/golang-filippo-bigmod/golang-filippo-bigmod-dev_0.1.0-2_all.deb",
+	"size": 24992,
+	"md5": "00a59a0bd020231005c32d8cf804b5f1",
+	"sha256": "85d17fb8ab1c4834a839d64411265d09d2d78e6f5d5a34c38fe067fe078684b6",
 	"descriptionMd5": "a2c87a003c1ceabcadfae055a37a3a4e"
 }

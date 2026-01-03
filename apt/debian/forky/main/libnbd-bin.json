@@ -6,14 +6,16 @@
 	],
 	"package": "libnbd-bin",
 	"source": "libnbd",
-	"version": "1.22.5-1",
+	"version": "1.24.0-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libfuse3-4 (>= 3.17.2)",
-		"libnbd0 (>= 1.22.0)"
+		"libgnutls30t64 (>= 3.7.0)",
+		"libnbd0 (>= 1.24.0)",
+		"python3:any"
 	],
 	"replaces": [
 		"nbdfuse (<< 1.4.0)"
@@ -21,13 +23,13 @@
 	"conflicts": [
 		"nbdfuse (<< 1.4.0)"
 	],
-	"installedSize": 191,
+	"installedSize": 235,
 	"maintainer": "Hilko Bengen <bengen@debian.org>",
 	"description": "Utilities using the Network Block Device client library",
 	"homepage": "https://github.com/libguestfs/libnbd",
-	"filename": "pool/main/libn/libnbd/libnbd-bin_1.22.5-1_amd64.deb",
-	"size": 65008,
-	"md5": "69a7092be510bf695b7f6195c68e9893",
-	"sha256": "677cfe9870da4a6155eabf54e5d7bfb5ca346576ff9c7eae2b3afe8923fcdff9",
-	"descriptionMd5": "c4d0828eadd8a75283f0a15d9a0d0771"
+	"filename": "pool/main/libn/libnbd/libnbd-bin_1.24.0-2_amd64.deb",
+	"size": 74380,
+	"md5": "c11b2f87ada7029c8d2096ebbe6ebdae",
+	"sha256": "09bd9d878b5f81d64001c336cd612fa69274fad5678f95ccae9c2f77d5fec940",
+	"descriptionMd5": "d828962b95ed02ba9a8272638715cda2"
 }
