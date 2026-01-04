@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "lyx",
-	"version": "2.5.0~RC2-1",
+	"version": "2.5.0~RC2-3",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"lyx-common (= 2.5.0~RC2-1)",
+		"lyx-common (= 2.5.0~RC2-3)",
 		"xdg-utils",
 		"libc6 (>= 2.38)",
 		"libenchant-2-2 (>= 2.2.3)",
@@ -60,13 +60,19 @@
 		"writer2latex",
 		"wv"
 	],
-	"installedSize": 18804,
+	"replaces": [
+		"lyx-common (<< 2.5.0~RC2-2)"
+	],
+	"breaks": [
+		"lyx-common (<< 2.5.0~RC2-2)"
+	],
+	"installedSize": 18803,
 	"maintainer": "Dr. Tobias Quathamer <toddy@debian.org>",
 	"description": "document processor",
 	"homepage": "https://www.lyx.org/",
-	"filename": "pool/main/l/lyx/lyx_2.5.0~RC2-1_amd64.deb",
-	"size": 5233688,
-	"md5": "c3c001dca1dda8713823e8883d316faa",
-	"sha256": "29f38143b88f2777e61058147a3669ad6a1e25a0a3cf267c2adc53ab9a008c62",
+	"filename": "pool/main/l/lyx/lyx_2.5.0~RC2-3_amd64.deb",
+	"size": 5234424,
+	"md5": "5a0def27652f0b49c969c5db44979dc1",
+	"sha256": "7f9244aa7e5d406b6ab42fab6f2f350abd7c1a995b5070b20d926e47fdf2b2b1",
 	"descriptionMd5": "cce420c1c680aedda2cc2d6457c68fe5"
 }

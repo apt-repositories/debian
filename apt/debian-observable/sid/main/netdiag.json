@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "netdiag",
-	"version": "1.2-1.3",
+	"version": "1.2-1.4",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.42)",
 		"libncurses6 (>= 6)",
 		"libpcap0.8t64 (>= 0.9.8)",
 		"libtinfo6 (>= 6)",
 		"debconf (>= 0.5) | debconf-2.0",
 		"netbase"
 	],
-	"installedSize": 735,
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 724,
 	"maintainer": "Michael Meskes <meskes@debian.org>",
 	"description": "Net-Diagnostics (trafshow,netwatch,statnet,tcpspray,tcpblast)",
-	"filename": "pool/main/n/netdiag/netdiag_1.2-1.3_amd64.deb",
-	"size": 200932,
-	"md5": "2fc4efc90bb9a3440eee69cd67b87773",
-	"sha256": "4e9876b4510d4d25d114a0f16ab2e6f3fc263e4b80b73798dcadf683169eb9ae",
+	"filename": "pool/main/n/netdiag/netdiag_1.2-1.4_amd64.deb",
+	"size": 191932,
+	"md5": "be66de606108b788f7eab71a56796180",
+	"sha256": "728787d87f4ef6df0982563a59c3823340e2327b94865e57633bc2bbac21e37b",
 	"descriptionMd5": "456b84d82d2d34c71a5f56c8b05b48d4"
 }]
