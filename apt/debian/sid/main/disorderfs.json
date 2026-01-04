@@ -5,24 +5,24 @@
 		"Size"
 	],
 	"package": "disorderfs",
-	"version": "0.6.0-1",
+	"version": "0.6.1-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"fuse",
+		"fuse3 (>= 3.10.1-3) | fuse (<< 3)",
 		"libc6 (>= 2.34)",
-		"libfuse2t64 (>= 2.9)",
+		"libfuse3-4 (>= 3.17.2)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 73,
+	"installedSize": 85,
 	"maintainer": "Reproducible builds folks <reproducible-builds@lists.alioth.debian.org>",
 	"description": "FUSE filesystem that introduces non-determinism",
 	"homepage": "https://reproducible-builds.org/",
-	"filename": "pool/main/d/disorderfs/disorderfs_0.6.0-1_amd64.deb",
-	"size": 23396,
-	"md5": "cec4a1151ccc91b4c4d7f8ade130178b",
-	"sha256": "4328a3c00089139f6cbc50eafa5b56a00719bb3b45269f20fbc1a0c8d0abca55",
+	"filename": "pool/main/d/disorderfs/disorderfs_0.6.1-1_amd64.deb",
+	"size": 29804,
+	"md5": "636daabf1eb4a869d6bc707efd4e97ba",
+	"sha256": "6c1026e6c5aa2008f94dd07496912db49f5213ed16ea350d9f6d283c3e3d1dcf",
 	"descriptionMd5": "dd4d99744c2fc2ef81a3058a88603390"
 }

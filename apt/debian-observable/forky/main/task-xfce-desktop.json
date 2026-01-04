@@ -6,17 +6,18 @@
 	],
 	"package": "task-xfce-desktop",
 	"source": "tasksel",
-	"version": "3.85",
+	"version": "3.86",
 	"section": "tasks",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"tasksel (= 3.85)",
+		"tasksel (= 3.86)",
 		"task-desktop",
 		"xfce4",
 		"lightdm"
 	],
 	"recommends": [
+		"firefox-esr | firefox",
 		"xfce4-screensaver",
 		"xfce4-goodies",
 		"xfce4-power-manager",
@@ -40,14 +41,17 @@
 		"hyphen-en-us",
 		"system-config-printer",
 		"orca",
-		"libreoffice-gtk3"
+		"libreoffice-gtk3",
+		"xorg",
+		"xserver-xorg-video-all",
+		"xserver-xorg-input-all"
 	],
 	"installedSize": 9,
 	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
 	"description": "Xfce",
-	"filename": "pool/main/t/tasksel/task-xfce-desktop_3.85_all.deb",
-	"size": 1304,
-	"md5": "e0cf77daf4308a8f352cd8175be639d8",
-	"sha256": "81e5333be7804a316cd7bebdf0ebb1a657f3e1b187dda203b2f29ca389e63cfc",
+	"filename": "pool/main/t/tasksel/task-xfce-desktop_3.86_all.deb",
+	"size": 1344,
+	"md5": "9ad52fdabb410f299b2edb6ea3c209f6",
+	"sha256": "1620661ebc50c0d3a6d85738eb7c3fbd24bf221353793fd289f4905de94fca29",
 	"descriptionMd5": "08a9ff56c8a18b2ac196e81f91682cf1"
 }]
