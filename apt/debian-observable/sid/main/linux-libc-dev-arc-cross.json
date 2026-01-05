@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "linux-libc-dev-arc-cross",
-	"source": "cross-toolchain-base-ports (75)",
-	"version": "6.17.10-1cross1",
+	"source": "linux",
+	"version": "6.18.3-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 8200,
-	"maintainer": "Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>",
-	"description": "Linux Kernel Headers for development (for cross-compiling)",
-	"builtUsing": "linux (= 6.17.10-1)",
-	"filename": "pool/main/c/cross-toolchain-base-ports/linux-libc-dev-arc-cross_6.17.10-1cross1_all.deb",
-	"size": 2357224,
-	"md5": "2da825287af61eb53e20985f8f726276",
-	"sha256": "2cebe31b37d4092d1e43ae301b7ef275fc9d54963633eb5016b5c766b6075532",
-	"descriptionMd5": "1451bbb6883623d253eaf0cf7565213a"
+	"depends": [
+		"linux-libc-dev (= 6.18.3-1)"
+	],
+	"installedSize": 1063,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux support headers for userspace development (for cross-compiling)",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-libc-dev-arc-cross_6.18.3-1_all.deb",
+	"size": 12244,
+	"md5": "8d43e9d06b6d1f63af06061d339425ea",
+	"sha256": "dbe2770fda640b0211240ed44d1a60e9cbca90aa513d2bf008abfb3e3ebaa55b",
+	"descriptionMd5": "47611235aa48c1c9a05b5de93862bde7"
 }]

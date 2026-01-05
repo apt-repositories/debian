@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "linux-libc-dev-powerpc-cross",
-	"source": "cross-toolchain-base-ports (75)",
-	"version": "6.17.10-1cross1",
+	"source": "linux",
+	"version": "6.18.3-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 8368,
-	"maintainer": "Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>",
-	"description": "Linux Kernel Headers for development (for cross-compiling)",
-	"builtUsing": "linux (= 6.17.10-1)",
-	"filename": "pool/main/c/cross-toolchain-base-ports/linux-libc-dev-powerpc-cross_6.17.10-1cross1_all.deb",
-	"size": 2387760,
-	"md5": "b7bfac9a9416ea2f1a46596400649db6",
-	"sha256": "b5c2657d7357fe4d36a07e85e9b859076f45516689fec4b990803d723a594d4a",
-	"descriptionMd5": "1451bbb6883623d253eaf0cf7565213a"
+	"depends": [
+		"linux-libc-dev (= 6.18.3-1)"
+	],
+	"installedSize": 1083,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux support headers for userspace development (for cross-compiling)",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-libc-dev-powerpc-cross_6.18.3-1_all.deb",
+	"size": 12052,
+	"md5": "94788e71b146969b58cb661a43f2f8b2",
+	"sha256": "3a033cc03a5e798960a82cbf82f849343cba1c3fa7fa7bb9ec55e16f8336c6c2",
+	"descriptionMd5": "47611235aa48c1c9a05b5de93862bde7"
 }]
