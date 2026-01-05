@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "linux-libc-dev-mipsn32-cross",
-	"source": "cross-toolchain-base-mipsen (32)",
-	"version": "6.12.8-1cross1",
+	"source": "linux",
+	"version": "6.18.3-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 8070,
-	"maintainer": "Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>",
-	"description": "Linux Kernel Headers for development (for cross-compiling)",
-	"builtUsing": "linux (= 6.12.8-1)",
-	"filename": "pool/main/c/cross-toolchain-base-mipsen/linux-libc-dev-mipsn32-cross_6.12.8-1cross1_all.deb",
-	"size": 2311012,
-	"md5": "e212ba42a7fb93821aacc13188c07a3e",
-	"sha256": "2e09a2296556e5f8de81f4e2537c5729f16fddd22a961928ab2c788ccd4862da",
-	"descriptionMd5": "1451bbb6883623d253eaf0cf7565213a"
+	"depends": [
+		"linux-libc-dev (= 6.18.3-1)"
+	],
+	"installedSize": 1073,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux support headers for userspace development (for cross-compiling)",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-libc-dev-mipsn32-cross_6.18.3-1_all.deb",
+	"size": 11912,
+	"md5": "a667c17405a445694c82211928eb9921",
+	"sha256": "786b57a8d7f5a1bd3570261cf7b1a0ee4447832b6a9f25295114ec6bf2cc665b",
+	"descriptionMd5": "47611235aa48c1c9a05b5de93862bde7"
 }]
