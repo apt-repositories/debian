@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "luanti",
-	"version": "5.10.0+dfsg-5",
+	"version": "5.14.0+dfsg-1",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"luanti-data (= 5.10.0+dfsg-5)",
+		"luanti-data (= 5.14.0+dfsg-1)",
 		"libc6 (>= 2.38)",
 		"libcurl4t64 (>= 7.66.0)",
 		"libfreetype6 (>= 2.2.1)",
@@ -26,12 +26,12 @@
 		"libpq5 (>= 9.1~)",
 		"libprometheus-cpp-core1.0 (>= 1.0.2)",
 		"libprometheus-cpp-pull1.0 (>= 1.0.2)",
+		"libsdl2-2.0-0 (>= 2.26.0)",
 		"libspatialindex8 (>= 2.1.0)",
 		"libsqlite3-0 (>= 3.5.9)",
+		"libssl3t64 (>= 3.0.0)",
 		"libstdc++6 (>= 14)",
 		"libvorbisfile3 (>= 1.2.0)",
-		"libx11-6 (>= 2:1.2.99.901)",
-		"libxi6 (>= 2:1.2.99.4)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.1.4)"
 	],
@@ -39,25 +39,16 @@
 		"luanti-game-minetest"
 	],
 	"suggests": [
-		"minetest-mod-moreblocks",
-		"minetest-mod-moreores",
-		"minetest-mod-pipeworks",
 		"luanti-server",
 		"minetestmapper"
 	],
-	"replaces": [
-		"minetest (<< 5.10.0+dfsg-1~)"
-	],
-	"breaks": [
-		"minetest (<< 5.10.0+dfsg-1~)"
-	],
-	"installedSize": 9968,
+	"installedSize": 10563,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "Multiplayer infinite-world block sandbox",
 	"homepage": "https://www.luanti.org",
-	"filename": "pool/main/l/luanti/luanti_5.10.0+dfsg-5_amd64.deb",
-	"size": 3571528,
-	"md5": "44fea008d42e847c83d0267190e18d2e",
-	"sha256": "26bf3acf39e3da02682205169855cc397c79bd3c5c75c36acf660d6cdc30a9ec",
+	"filename": "pool/main/l/luanti/luanti_5.14.0+dfsg-1_amd64.deb",
+	"size": 3798976,
+	"md5": "77ec9428ea2ce733c6a9256dbf71d34e",
+	"sha256": "c57b392109ea05037574534f684c356a678ed5673330bba53f77188a68371b71",
 	"descriptionMd5": "46a71236006e09ab84f36f0bce323ecd"
 }
