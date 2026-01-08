@@ -6,7 +6,7 @@
 	],
 	"package": "libdpkg-perl",
 	"source": "dpkg",
-	"version": "1.22.21",
+	"version": "1.23.3",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -33,6 +33,8 @@
 		"bzr"
 	],
 	"breaks": [
+		"debian-keyring (<< 2025.04.25~)",
+		"devuan-keyring (<< 2025.07.30~)",
 		"dgit (<< 3.13~)",
 		"gosop (<< 1.1.0~)",
 		"libsop-java-java (<< 4.0.7~)",
@@ -43,13 +45,13 @@
 		"sqop (<< 0.27.2~)",
 		"sqv (<< 1.3.0~)"
 	],
-	"installedSize": 2089,
+	"installedSize": 2204,
 	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
 	"description": "Dpkg perl modules",
 	"homepage": "https://wiki.debian.org/Teams/Dpkg",
-	"filename": "pool/main/d/dpkg/libdpkg-perl_1.22.21_all.deb",
-	"size": 649716,
-	"md5": "c9c192a77c479402a9a182e824781b00",
-	"sha256": "9e58a91c859751b60e45231520bc59b294999d2b73672f5325f3521e7767cf01",
+	"filename": "pool/main/d/dpkg/libdpkg-perl_1.23.3_all.deb",
+	"size": 657476,
+	"md5": "d0078660d2724076401454ca8119957d",
+	"sha256": "42a3d6b4b5c560f0af53b2da5a35d49cbf828a50baee1904a9e6fd6d51d7fa52",
 	"descriptionMd5": "5011cce9f04b116d18e831b42d79c4a1"
 }]

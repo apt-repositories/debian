@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "speech-dispatcher",
-	"version": "0.12.1-2",
+	"version": "0.12.1-3",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
-		"speech-dispatcher-audio-plugins (= 0.12.1-2)",
+		"speech-dispatcher-audio-plugins (= 0.12.1-3)",
 		"init-system-helpers (>= 1.52)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libdotconf0 (>= 1.0.13)",
 		"libglib2.0-0t64 (>= 2.76.0)",
@@ -45,13 +45,13 @@
 		"speech-dispatcher-ibmtts (<< 0.10.2-1~)",
 		"speech-dispatcher-kali (<< 0.10.2-1~)"
 	],
-	"installedSize": 28505,
+	"installedSize": 28510,
 	"maintainer": "Debian TTS Team <tts-project@alioth-lists.debian.net>",
 	"description": "Common interface to speech synthesizers",
 	"homepage": "http://devel.freebsoft.org/speechd",
-	"filename": "pool/main/s/speech-dispatcher/speech-dispatcher_0.12.1-2_amd64.deb",
-	"size": 3985272,
-	"md5": "0c11f05db871a70aa439f74fac2b0e95",
-	"sha256": "732084134ddca3a6d572869333e6d305dc1a82b492b998d96d3fa93ce568f7d3",
+	"filename": "pool/main/s/speech-dispatcher/speech-dispatcher_0.12.1-3_amd64.deb",
+	"size": 4000464,
+	"md5": "d14629a1458cd20b962a1c5ec493d93d",
+	"sha256": "e783940dd574a867d0ed4b29f7677c6ade108975147074ec1dd421543a581d09",
 	"descriptionMd5": "9726217383c5d7c9454fe7d0db64bda2"
 }]
