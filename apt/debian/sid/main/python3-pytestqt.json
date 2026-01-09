@@ -6,17 +6,18 @@
 	],
 	"package": "python3-pytestqt",
 	"source": "pytest-qt",
-	"version": "4.4.0-1",
+	"version": "4.4.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-pluggy",
 		"python3-pytest",
-		"python3:any"
+		"python3:any",
+		"python3-pyside6.qttest | python3-pyside2.qttest"
 	],
 	"recommends": [
-		"python3-pyqt5 | python3-pyqt4"
+		"python3-pyqt6 | python3-pyqt5 | python3-pyqt4"
 	],
 	"suggests": [
 		"python-pytestqt-doc"
@@ -25,9 +26,9 @@
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "pytest plugin for Qt application testing (Python 3)",
 	"homepage": "https://github.com/pytest-dev/pytest-qt",
-	"filename": "pool/main/p/pytest-qt/python3-pytestqt_4.4.0-1_all.deb",
-	"size": 41772,
-	"md5": "3e413ee02b4f2fbd54f4365093b82cd1",
-	"sha256": "580a532a24bca4aa3d9834678bc061fc9686d411759a3e120da5421687958dc0",
+	"filename": "pool/main/p/pytest-qt/python3-pytestqt_4.4.0-2_all.deb",
+	"size": 42116,
+	"md5": "317d35dabb5c2b15b7093b0304e83f66",
+	"sha256": "6385598925b7b2a07c23b3b2e07cb48c15fcdd7ead80b78b41fe29c7d9c81b6c",
 	"descriptionMd5": "a478c40a60749b4bd37ea666938e02f8"
 }

@@ -6,16 +6,16 @@
 	],
 	"package": "libgimp-3.0-dev",
 	"source": "gimp",
-	"version": "3.2.0~RC2-2",
+	"version": "3.2.0~RC2-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gir1.2-gimp-3.0 (= 3.2.0~RC2-2)",
+		"gir1.2-gimp-3.0 (= 3.2.0~RC2-3)",
 		"libgegl-dev (>= 1:0.4.66)",
 		"libgexiv2-dev (>= 0.14.0)",
-		"libgimp-3.0-0 (= 3.2.0~RC2-2)",
-		"libgimp-3.0-bin (= 3.2.0~RC2-2)",
+		"libgimp-3.0-0 (= 3.2.0~RC2-3)",
+		"libgimp-3.0-bin (= 3.2.0~RC2-3)",
 		"libgtk-3-dev (>= 3.22.29)",
 		"pkgconf",
 		"gir1.2-babl-0.1-dev",
@@ -33,13 +33,19 @@
 	"suggests": [
 		"libgimp-3.0-doc"
 	],
-	"installedSize": 5189,
-	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"replaces": [
+		"gimp (<< 3.2.0~RC2-3~)"
+	],
+	"breaks": [
+		"gimp (<< 3.2.0~RC2-3~)"
+	],
+	"installedSize": 5558,
+	"maintainer": "Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>",
 	"description": "Headers and other files for compiling plugins for GIMP",
 	"homepage": "https://www.gimp.org/",
-	"filename": "pool/main/g/gimp/libgimp-3.0-dev_3.2.0~RC2-2_amd64.deb",
-	"size": 372068,
-	"md5": "899fafd781287055044a3bf38bcb5a93",
-	"sha256": "6d33958d62ce05635da4d61bec42f003a3597b0e4de60556dce08988f72dcc2f",
+	"filename": "pool/main/g/gimp/libgimp-3.0-dev_3.2.0~RC2-3_amd64.deb",
+	"size": 406216,
+	"md5": "21110a4cc4fd136558278547bf48b109",
+	"sha256": "39872eb116a154101b58c1469c212dc0bd17eda512504a01f2c00f5a288d1f23",
 	"descriptionMd5": "9dc8e4f80e3689624c2ada9283cd9ccd"
 }
