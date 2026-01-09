@@ -5,28 +5,20 @@
 		"Size"
 	],
 	"package": "qatengine",
-	"source": "qatengine (2.0.0-4)",
-	"version": "2.0.0-4+b1",
+	"version": "2.0.0-5",
 	"section": "utils",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
-		"libc6 (>= 2.38)",
-		"libcrypto-mb12 (>= 1.2.0)",
-		"libipsec-mb2 (>= 2.0)",
-		"libqat4 (>= 24.02.0)",
-		"libusdm0 (>= 24.02.0)"
+		"openssl-provider-qat"
 	],
-	"recommends": [
-		"qatlib-service"
-	],
-	"installedSize": 376,
+	"installedSize": 12,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
-	"description": "Intel Quickassist Technology (QAT): OpenSSL engine",
+	"description": "Intel Quickassist Technology (QAT): OpenSSL provider (transitional package)",
 	"homepage": "https://github.com/intel/QAT_Engine",
-	"filename": "pool/main/q/qatengine/qatengine_2.0.0-4+b1_amd64.deb",
-	"size": 107868,
-	"md5": "b300910b22d1e08731766822af8da4ec",
-	"sha256": "42af391e3dff0da842dd1cbd0c96242ff3dcf24d649f57bd33570eabd67f4ef5",
-	"descriptionMd5": "194b7e19d54eb9ea859f50ed9c512b8c"
+	"filename": "pool/main/q/qatengine/qatengine_2.0.0-5_all.deb",
+	"size": 3856,
+	"md5": "c5d8edf84709c8064592ffdd7fda05ee",
+	"sha256": "be71cc4f236bff25a0d2ad00c17699f853ae9dad7858faa0b89abdaa9d6ca0e8",
+	"descriptionMd5": "821273596cb093a51a955f08d8de237d"
 }]
