@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "mpv-mpris",
-	"source": "mpv-mpris (0.7.1-1)",
-	"version": "0.7.1-1+b1",
+	"version": "1.2-1",
 	"section": "video",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libavformat62 (>= 7:8.0.1)",
 		"libc6 (>= 2.4)",
-		"libglib2.0-0t64 (>= 2.77.3)"
+		"libglib2.0-0t64 (>= 2.78.0)"
 	],
 	"suggests": [
 		"playerctl"
@@ -20,13 +20,13 @@
 	"enhances": [
 		"mpv"
 	],
-	"installedSize": 47,
-	"maintainer": "Paul Wise <pabs@debian.org>",
+	"installedSize": 54,
+	"maintainer": "Felix Geyer <fgeyer@debian.org>",
 	"description": "MPRIS plugin for mpv",
 	"homepage": "https://github.com/hoyon/mpv-mpris",
-	"filename": "pool/main/m/mpv-mpris/mpv-mpris_0.7.1-1+b1_amd64.deb",
-	"size": 11576,
-	"md5": "9bd88dc760e457ec925e3b076d8850de",
-	"sha256": "5f312e761c9377afa215addaf6cb437319adc58ae1528dae9280fb9cbc830824",
+	"filename": "pool/main/m/mpv-mpris/mpv-mpris_1.2-1_amd64.deb",
+	"size": 13288,
+	"md5": "15a4c04192d700f3df4bc6b16de929e9",
+	"sha256": "0d46941524e43aa962fb770678b88d61ee13c634ef4533de22f4fd363b8f41ee",
 	"descriptionMd5": "bc59570cb6a94332659a3d21cb442902"
 }

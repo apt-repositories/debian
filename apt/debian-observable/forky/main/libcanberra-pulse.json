@@ -6,23 +6,23 @@
 	],
 	"package": "libcanberra-pulse",
 	"source": "libcanberra",
-	"version": "0.30-18",
+	"version": "0.30-19",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libcanberra0 (= 0.30-19)",
+		"pipewire-pulse | pulseaudio",
 		"libc6 (>= 2.4)",
-		"libcanberra0 (= 0.30-18)",
-		"libpulse0 (>= 0.99.1)",
-		"pipewire-pulse | pulseaudio"
+		"libpulse0 (>= 0.99.1)"
 	],
 	"installedSize": 46,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "PulseAudio backend for libcanberra",
 	"homepage": "https://0pointer.de/lennart/projects/libcanberra/",
-	"filename": "pool/main/libc/libcanberra/libcanberra-pulse_0.30-18_amd64.deb",
-	"size": 13840,
-	"md5": "9397092d16fabcc78f1f2deab1e1f533",
-	"sha256": "13526c12d9889ed4010be35ebcfde9f5448433258aa3b8c672efd79145e44573",
+	"filename": "pool/main/libc/libcanberra/libcanberra-pulse_0.30-19_amd64.deb",
+	"size": 13876,
+	"md5": "0d1a97e645d92b7ae8fbf7a45e75bfab",
+	"sha256": "9efe299519aaa2c6677a87696dc3819f9b40d4f730e952cd1a25a214220a9681",
 	"descriptionMd5": "4d30b366834b96439df096fd4f8db59b"
 }]

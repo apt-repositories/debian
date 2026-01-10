@@ -6,6 +6,39 @@
 	],
 	"package": "libyang3",
 	"source": "libyang",
+	"version": "3.13.6-1~bpo13+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libxxhash0 (>= 0.7.0)"
+	],
+	"replaces": [
+		"libyang2",
+		"libyang2t64"
+	],
+	"breaks": [
+		"libyang2",
+		"libyang2t64"
+	],
+	"installedSize": 1472,
+	"maintainer": "Daniel Baumann <daniel@debian.org>",
+	"description": "parser toolkit for IETF YANG data modeling language (library)",
+	"homepage": "https://github.com/CESNET/libyang",
+	"filename": "pool/main/liby/libyang/libyang3_3.13.6-1~bpo13+1_amd64.deb",
+	"size": 510316,
+	"sha256": "3e064480a367efa8654055b85639063b82603dd0dc2fe31fbfe018777c2bd89c",
+	"descriptionMd5": "e5af2b726dd72ca12f90031fa161b6c3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libyang3",
+	"source": "libyang",
 	"version": "3.12.2-1",
 	"section": "libs",
 	"priority": "optional",
