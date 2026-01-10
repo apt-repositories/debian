@@ -6,15 +6,15 @@
 	],
 	"package": "zfsutils-linux",
 	"source": "zfs-linux",
-	"version": "2.3.5-2",
+	"version": "2.4.0-1",
 	"section": "contrib/admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvpair3linux (= 2.3.5-2)",
-		"libuutil3linux (= 2.3.5-2)",
-		"libzfs6linux (= 2.3.5-2)",
-		"libzpool6linux (= 2.3.5-2)",
+		"libnvpair3linux (= 2.4.0-1)",
+		"libuutil3linux (= 2.4.0-1)",
+		"libzfs7linux (= 2.4.0-1)",
+		"libzpool7linux (= 2.4.0-1)",
 		"python3",
 		"libblkid1 (>= 2.16)",
 		"libc6 (>= 2.38)",
@@ -41,21 +41,20 @@
 	"breaks": [
 		"spl (<< 0.7.9-2)",
 		"spl-dkms (<< 0.8.0~rc1)",
-		"zfs-dkms (>> 2.3.5-2...)",
-		"zfs-dkms (<< 2.3.5-2)"
+		"zfs-dkms (>> 2.4.0-1...)",
+		"zfs-dkms (<< 2.4.0-1)"
 	],
 	"conflicts": [
-		"nordugrid-arc-client",
 		"zfs",
 		"zfs-fuse"
 	],
-	"installedSize": 1873,
+	"installedSize": 1891,
 	"maintainer": "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@alioth-lists.debian.net>",
 	"description": "command-line tools to manage OpenZFS filesystems",
 	"homepage": "https://zfsonlinux.org/",
-	"filename": "pool/contrib/z/zfs-linux/zfsutils-linux_2.3.5-2_amd64.deb",
-	"size": 598140,
-	"md5": "ef234f648983cb656dd2c08872cd3c8e",
-	"sha256": "baba2437b565266d76e90e248b4544821094fa56399eab35802768c4340af62b",
+	"filename": "pool/contrib/z/zfs-linux/zfsutils-linux_2.4.0-1_amd64.deb",
+	"size": 608256,
+	"md5": "bab34ee506adc852cd8d68fbb9f1aa0e",
+	"sha256": "039965d2ab4e64acaa56b895ca7dc25107a8fbad656e6a0afff8b889f2a3d617",
 	"descriptionMd5": "e0d1624ff402201471b9a32e9cb71f16"
 }]
