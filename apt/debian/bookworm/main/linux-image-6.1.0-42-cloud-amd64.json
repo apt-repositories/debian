@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.1.0-42-cloud-amd64",
+	"source": "linux-signed-amd64 (6.1.159+1)",
+	"version": "6.1.159-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-6.1",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.1.0-42-cloud-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.1.0-42-cloud-amd64-unsigned"
+	],
+	"installedSize": 104908,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.1 for x86-64 cloud (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.1.159-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.1.0-42-cloud-amd64_6.1.159-1_amd64.deb",
+	"size": 26365052,
+	"md5": "95a04d73f714fbcf9987b297c7f711f4",
+	"sha256": "420cbd2f6cd80412c2bcbccc463083b4b043e6892a502e16a2e58aca914e9050",
+	"descriptionMd5": "e242fc20b020c823e8161e99ef4b93ef"
+}

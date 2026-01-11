@@ -6,6 +6,42 @@
 	],
 	"package": "php-symfony-cache",
 	"source": "symfony",
+	"version": "5.4.23+dfsg-1+deb12u5",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-psr-cache",
+		"php-psr-log",
+		"php-symfony-cache-contracts",
+		"php-symfony-deprecation-contracts",
+		"php-symfony-service-contracts",
+		"php-symfony-var-exporter"
+	],
+	"breaks": [
+		"php-doctrine-dbal (<< 2.13.1~~)",
+		"php-symfony-dependency-injection (<< 4.4~~)",
+		"php-symfony-http-kernel (<< 4.4~~)",
+		"php-symfony-var-dumper (<< 4.4~~)"
+	],
+	"installedSize": 408,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "provides extended PSR-6, PSR-16 (and tags) implementations",
+	"homepage": "https://symfony.com/doc/5.4/components/cache.html",
+	"filename": "pool/main/s/symfony/php-symfony-cache_5.4.23+dfsg-1+deb12u5_all.deb",
+	"size": 64140,
+	"md5": "3dc183f29795ba737641d4387d2b6bd0",
+	"sha256": "77f96ce3f952e16dee84df0d8035646319f946544a426b91f7234db54f4e024a",
+	"descriptionMd5": "bdd8e48e1cf43f29aeb6316c3cc9a0b2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-cache",
+	"source": "symfony",
 	"version": "5.4.23+dfsg-1+deb12u4",
 	"section": "php",
 	"priority": "optional",

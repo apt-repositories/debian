@@ -5,6 +5,43 @@
 		"Size"
 	],
 	"package": "sudo",
+	"version": "1.9.13p3-1+deb12u3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.34)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"zlib1g (>= 1:1.2.0.2)",
+		"libpam-modules"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"sudo-ldap"
+	],
+	"conflicts": [
+		"sudo-ldap"
+	],
+	"installedSize": 6054,
+	"maintainer": "Sudo Maintainers <sudo@packages.debian.org>",
+	"description": "Provide limited super user privileges to specific users",
+	"homepage": "https://www.sudo.ws/",
+	"filename": "pool/main/s/sudo/sudo_1.9.13p3-1+deb12u3_amd64.deb",
+	"size": 1890464,
+	"md5": "b78491afd0687982e03a56284c7f4f2b",
+	"sha256": "a388446755c351aef32bc5130da6bdef45d1921ac43701b42373704adc45d84a",
+	"descriptionMd5": "acd82d558698567df941afe9b1ac35df"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sudo",
 	"version": "1.9.13p3-1+deb12u2",
 	"section": "admin",
 	"priority": "optional",

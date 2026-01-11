@@ -5,6 +5,50 @@
 		"Size"
 	],
 	"package": "unbound",
+	"version": "1.17.1-2+deb12u4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"lsb-base (>= 3.0-6)",
+		"libc6 (>= 2.36)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"libnghttp2-14 (>= 1.3.0)",
+		"libprotobuf-c1 (>= 1.0.1)",
+		"libpython3.11 (>= 3.11.0)",
+		"libssl3 (>= 3.0.0)",
+		"libsystemd0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"dns-root-data"
+	],
+	"suggests": [
+		"apparmor",
+		"openssl"
+	],
+	"enhances": [
+		"munin-node"
+	],
+	"installedSize": 4838,
+	"maintainer": "unbound packagers <unbound@packages.debian.org>",
+	"description": "validating, recursive, caching DNS resolver",
+	"homepage": "https://www.unbound.net/",
+	"filename": "pool/main/u/unbound/unbound_1.17.1-2+deb12u4_amd64.deb",
+	"size": 952056,
+	"md5": "80f092466bdacc8c69c175eb2c245d3d",
+	"sha256": "ff025d2aa8319bccd4c41460293b92eb714b85396ee0b781d37c9ce0bbf8a9db",
+	"descriptionMd5": "fbeecad8349f6b3042087b256bc69b68"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "unbound",
 	"version": "1.17.1-2+deb12u3",
 	"section": "net",
 	"priority": "optional",

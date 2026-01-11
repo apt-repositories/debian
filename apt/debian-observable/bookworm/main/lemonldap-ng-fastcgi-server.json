@@ -6,6 +6,43 @@
 	],
 	"package": "lemonldap-ng-fastcgi-server",
 	"source": "lemonldap-ng",
+	"version": "2.16.1+ds-deb12u7",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"lsb-base",
+		"libfcgi-perl",
+		"libfcgi-procmanager-perl",
+		"liblemonldap-ng-handler-perl (= 2.16.1+ds-deb12u7)",
+		"libplack-perl"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libhttp-parser-xs-perl",
+		"libnginx-mod-http-lua",
+		"nginx-extras | nginx"
+	],
+	"installedSize": 166,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "Lemonldap::NG FastCGI server",
+	"homepage": "https://lemonldap-ng.org/",
+	"filename": "pool/main/l/lemonldap-ng/lemonldap-ng-fastcgi-server_2.16.1+ds-deb12u7_all.deb",
+	"size": 82540,
+	"md5": "51fbd5d72ac95bb63a0b1025e332cc7b",
+	"sha256": "abd8df2c8295e55a3c3fe9b4f37fa7f0eb08f3660d702a69b1d126e910aeb78a",
+	"descriptionMd5": "bc2de4a4fd7d43a3eb12419c5cb1273f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lemonldap-ng-fastcgi-server",
+	"source": "lemonldap-ng",
 	"version": "2.16.1+ds-deb12u6",
 	"section": "web",
 	"priority": "optional",

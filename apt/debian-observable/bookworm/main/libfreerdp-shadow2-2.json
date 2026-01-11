@@ -6,30 +6,32 @@
 	],
 	"package": "libfreerdp-shadow2-2",
 	"source": "freerdp2",
-	"version": "2.10.0+dfsg1-1",
+	"version": "2.11.7+dfsg1-6~deb12u1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.14)",
-		"libfreerdp-server2-2 (= 2.10.0+dfsg1-1)",
+		"libfreerdp-server2-2 (= 2.11.7+dfsg1-6~deb12u1)",
 		"libfreerdp2-2 (>= 2.3.0+dfsg1)",
-		"libwinpr-tools2-2 (= 2.10.0+dfsg1-1)",
+		"libwinpr-tools2-2 (= 2.11.7+dfsg1-6~deb12u1)",
 		"libwinpr2-2 (>= 2.4.1+dfsg1)"
 	],
 	"replaces": [
-		"libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)"
+		"libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)",
+		"libfreerdp-shadow2-2"
 	],
 	"breaks": [
-		"libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)"
+		"libfreerdp-shadow2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)",
+		"libfreerdp-shadow2-2 (<< 2.11.7+dfsg1-6~deb12u1)"
 	],
-	"installedSize": 242,
+	"installedSize": 244,
 	"maintainer": "Debian Remote Maintainers <debian-remote@lists.debian.org>",
 	"description": "FreeRDP Remote Desktop Protocol shadow libraries",
 	"homepage": "https://www.freerdp.com/",
-	"filename": "pool/main/f/freerdp2/libfreerdp-shadow2-2_2.10.0+dfsg1-1_amd64.deb",
-	"size": 75236,
-	"md5": "7fb1ecf307d2864405365d3188354ebe",
-	"sha256": "c4d9a9b49379e0b219bfbcf082b44942c52f4d65b8744735d144b7b7c02c0333",
+	"filename": "pool/main/f/freerdp2/libfreerdp-shadow2-2_2.11.7+dfsg1-6~deb12u1_amd64.deb",
+	"size": 77988,
+	"md5": "0507b4f27c75ed29a1aaca216e1337d6",
+	"sha256": "cc7c0cb574c35e952a61674c8b33cc42df65fa4d428855da177fdbda81fb2005",
 	"descriptionMd5": "49dfefe1574ce260a63ff9685cd6b5a0"
 }]

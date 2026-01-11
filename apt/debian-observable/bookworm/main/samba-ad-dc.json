@@ -30,8 +30,42 @@
 	"homepage": "https://www.samba.org",
 	"filename": "pool/main/s/samba/samba-ad-dc_4.17.12+dfsg-0+deb12u2_all.deb",
 	"size": 30344,
-	"md5": "f7ecddcd87894c80b8fefcbb101e2bbc",
 	"sha256": "26f1dbdf499c4646bdcb158fe4cecb92f8b4201b7972c4f4a51a9ff90aad3ca2",
+	"descriptionMd5": "eba517f15cc7dff6d61d4bf8f68630b3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-ad-dc",
+	"source": "samba",
+	"version": "2:4.17.12+dfsg-0+deb12u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"samba (>= 2:4.17.12+dfsg-0+deb12u3~)",
+		"samba-dsdb-modules",
+		"samba-vfs-modules",
+		"winbind"
+	],
+	"recommends": [
+		"libnss-winbind",
+		"libpam-winbind",
+		"samba-ad-provision"
+	],
+	"breaks": [
+		"samba-ad-provision (<< 2:4.17.12+dfsg)"
+	],
+	"installedSize": 50,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Samba control files to run AD Domain Controller",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba-ad-dc_4.17.12+dfsg-0+deb12u3_all.deb",
+	"size": 30428,
+	"md5": "dc572f4864f4077f9abb0a3018c68435",
+	"sha256": "c1128b1e3c83f31b9d5b807e3a5baef77ecb67462b2a4298937e1e914ae3cbdb",
 	"descriptionMd5": "eba517f15cc7dff6d61d4bf8f68630b3"
 },{
 	"raw": {},

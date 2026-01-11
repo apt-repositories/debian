@@ -6,6 +6,48 @@
 	],
 	"package": "php-symfony-dependency-injection",
 	"source": "symfony",
+	"version": "5.4.23+dfsg-1+deb12u5",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-psr-container (>= 1.1.1)",
+		"php-psr-container (<< 2~~)",
+		"php-symfony-deprecation-contracts",
+		"php-symfony-service-contracts"
+	],
+	"suggests": [
+		"php-symfony-yaml",
+		"php-symfony-config",
+		"php-symfony-finder",
+		"php-symfony-expression-language",
+		"php-symfony-proxy-manager-bridge"
+	],
+	"breaks": [
+		"php-psr",
+		"php-symfony-config (<< 5.3~~)",
+		"php-symfony-finder (<< 4.4~~)",
+		"php-symfony-proxy-manager-bridge (<< 4.4~~)",
+		"php-symfony-yaml (<< 4.4.26~~)"
+	],
+	"installedSize": 900,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "standardize and centralize construction of objects",
+	"homepage": "https://symfony.com/doc/5.4/components/dependency_injection.html",
+	"filename": "pool/main/s/symfony/php-symfony-dependency-injection_5.4.23+dfsg-1+deb12u5_all.deb",
+	"size": 123748,
+	"md5": "6e313d667542fbc4dda1aeaf6c1f3f04",
+	"sha256": "76059644605c27b45e67178b1c3f0d6b242e5a06d26e5f7bc1d61bd338e9bc4c",
+	"descriptionMd5": "cb1e6f96bcc2eeb1aee8acd31b23e2fb"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-dependency-injection",
+	"source": "symfony",
 	"version": "5.4.23+dfsg-1+deb12u4",
 	"section": "php",
 	"priority": "optional",

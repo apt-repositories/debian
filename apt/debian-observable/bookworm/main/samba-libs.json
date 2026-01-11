@@ -47,8 +47,59 @@
 	"homepage": "https://www.samba.org",
 	"filename": "pool/main/s/samba/samba-libs_4.17.12+dfsg-0+deb12u2_amd64.deb",
 	"size": 5655212,
-	"md5": "c985ba35f2514456912212c5ad2df6d8",
 	"sha256": "98d95b349986592a4de76998ce2131be998f1bdc647b9317d023bc4e07202f4c",
+	"descriptionMd5": "306caa16a8faeb0f0052382f8854cd17"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-libs",
+	"source": "samba",
+	"version": "2:4.17.12+dfsg-0+deb12u3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libbsd0 (>= 0.5.0)",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libgnutls30 (>= 3.7.5)",
+		"libicu72 (>= 72.1~rc-1~)",
+		"libjansson4 (>= 2.14)",
+		"libkeyutils1 (>= 1.5.9)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libldb2 (>= 2:2.6.2)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpopt0 (>= 1.14)",
+		"libsystemd0",
+		"libtalloc2 (>= 2.3.4~)",
+		"libtdb1 (>= 1.4.7~)",
+		"libtevent0 (>= 0.13.0)",
+		"libtirpc3 (>= 1.0.2)",
+		"libwbclient0 (>= 2:4.5.0+dfsg)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libwbclient0 (<< 2:4.16.1+dfsg-7~)",
+		"samba (<< 2:4.17.0+dfsg-2~)"
+	],
+	"breaks": [
+		"libwbclient0 (<< 2:4.16.1+dfsg-7~)",
+		"samba (<< 2:4.17.0+dfsg-2~)"
+	],
+	"installedSize": 24612,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Samba core libraries",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba-libs_4.17.12+dfsg-0+deb12u3_amd64.deb",
+	"size": 5657144,
+	"md5": "853c0cec919a4dbe758cd224d23a7e51",
+	"sha256": "8f142b7a613f468b0a2d999a39f29b47b19ce8ce82b80eb6ce5819b9274a372b",
 	"descriptionMd5": "306caa16a8faeb0f0052382f8854cd17"
 },{
 	"raw": {},

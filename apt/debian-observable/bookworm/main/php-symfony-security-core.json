@@ -6,6 +6,49 @@
 	],
 	"package": "php-symfony-security-core",
 	"source": "symfony",
+	"version": "5.4.23+dfsg-1+deb12u5",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-symfony-event-dispatcher-contracts",
+		"php-symfony-service-contracts",
+		"php-symfony-deprecation-contracts",
+		"php-symfony-password-hasher"
+	],
+	"suggests": [
+		"php-psr-container-implementation",
+		"php-symfony-event-dispatcher",
+		"php-symfony-http-foundation",
+		"php-symfony-validator",
+		"php-symfony-expression-language",
+		"php-symfony-ldap"
+	],
+	"breaks": [
+		"php-symfony-event-dispatcher (<< 4.4~~)",
+		"php-symfony-http-foundation (<< 5.3~~)",
+		"php-symfony-ldap (<< 4.4~~)",
+		"php-symfony-security-guard (<< 4.4~~)",
+		"php-symfony-validator (<< 5.2~~)"
+	],
+	"installedSize": 669,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "infrastructure for authorization systems - common features",
+	"homepage": "https://symfony.com/doc/5.4/components/security.html",
+	"filename": "pool/main/s/symfony/php-symfony-security-core_5.4.23+dfsg-1+deb12u5_all.deb",
+	"size": 80272,
+	"md5": "e11a3215a8d9c1e656dd1bbb5c13faa8",
+	"sha256": "257ea73401add85102b4cc4baa2bb0472c2ade0daecf6e0733b418f7167f636a",
+	"descriptionMd5": "a176c359ac7c648e5336fe605fd9b9c1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-security-core",
+	"source": "symfony",
 	"version": "5.4.23+dfsg-1+deb12u4",
 	"section": "php",
 	"priority": "optional",

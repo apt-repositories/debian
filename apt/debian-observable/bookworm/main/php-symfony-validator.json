@@ -6,6 +6,58 @@
 	],
 	"package": "php-symfony-validator",
 	"source": "symfony",
+	"version": "5.4.23+dfsg-1+deb12u5",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-symfony-deprecation-contracts",
+		"php-mbstring",
+		"php-symfony-translation-contracts"
+	],
+	"suggests": [
+		"php-psr-cache-implementation",
+		"php-symfony-http-foundation",
+		"php-symfony-intl",
+		"php-symfony-translation",
+		"php-symfony-yaml",
+		"php-symfony-config",
+		"php-email-validator",
+		"php-symfony-property-access",
+		"php-symfony-property-info",
+		"php-symfony-expression-language"
+	],
+	"breaks": [
+		"php-doctrine-annotations (<< 1.13~~)",
+		"php-doctrine-cache (<< 1.11~~)",
+		"php-doctrine-lexer (<< 1.1~~)",
+		"php-symfony-dependency-injection (<< 4.4~~)",
+		"php-symfony-expression-language (<< 5.1~~)",
+		"php-symfony-http-kernel (<< 4.4~~)",
+		"php-symfony-intl (<< 4.4~~)",
+		"php-symfony-property-info (<< 5.3~~)",
+		"php-symfony-translation (<< 4.4~~)",
+		"php-symfony-yaml (<< 4.4~~)",
+		"phpunit (<< 5.4.3~~)"
+	],
+	"installedSize": 2170,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "tools to validate values",
+	"homepage": "https://symfony.com/doc/5.4/components/validator.html",
+	"filename": "pool/main/s/symfony/php-symfony-validator_5.4.23+dfsg-1+deb12u5_all.deb",
+	"size": 199032,
+	"md5": "7aa3c214a02ecd30b4603ccfbda40965",
+	"sha256": "cd40e04b4a30cee37c23360f32bf0571ad9ed83834a0b6d4ed8fef1a14f02313",
+	"descriptionMd5": "65f84271396524f11a9395150f97e357"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-validator",
+	"source": "symfony",
 	"version": "5.4.23+dfsg-1+deb12u4",
 	"section": "php",
 	"priority": "optional",

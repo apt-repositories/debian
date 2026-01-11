@@ -6,6 +6,46 @@
 	],
 	"package": "sudo-ldap",
 	"source": "sudo",
+	"version": "1.9.13p3-1+deb12u3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.34)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"zlib1g (>= 1:1.2.0.2)",
+		"libnss-sudo",
+		"libpam-modules"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"sudo"
+	],
+	"conflicts": [
+		"sudo"
+	],
+	"installedSize": 6128,
+	"maintainer": "Sudo Maintainers <sudo@packages.debian.org>",
+	"description": "Provide limited super user privileges (with LDAP support)",
+	"homepage": "https://www.sudo.ws/",
+	"filename": "pool/main/s/sudo/sudo-ldap_1.9.13p3-1+deb12u3_amd64.deb",
+	"size": 1927412,
+	"md5": "9e73a9e6fc7afdbdb548ca0e174fbe1a",
+	"sha256": "d7d297e413c11aa4e5f8b35d1cbb1f36c24492acc9bec9b8b6b8583bb0ec36b8",
+	"descriptionMd5": "3318a37fc501904caeaa4a7201f6206e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sudo-ldap",
+	"source": "sudo",
 	"version": "1.9.13p3-1+deb12u2",
 	"section": "admin",
 	"priority": "optional",

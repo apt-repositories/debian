@@ -5,13 +5,15 @@
 		"Size"
 	],
 	"package": "whereami",
-	"version": "0.3.36",
+	"version": "0.3.37",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"perl",
-		"fping | iputils-ping | netbase | dhcp-client | isc-dhcp-client"
+		"fping | iputils-ping",
+		"netbase",
+		"dhcp-client | dhcpcd-base"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -22,7 +24,6 @@
 		"iputils-arping"
 	],
 	"suggests": [
-		"fping",
 		"net-tools",
 		"ifplugd",
 		"ethtool",
@@ -31,9 +32,9 @@
 	"installedSize": 202,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Automatically reconfigure your (laptop) system for a new location",
-	"filename": "pool/main/w/whereami/whereami_0.3.36_all.deb",
-	"size": 49268,
-	"md5": "99610f9158fdfb583203ea202a038142",
-	"sha256": "07095af93ba9f37647e914c8389b693221dcbcd9191c84d88a60c7b48776dbaa",
+	"filename": "pool/main/w/whereami/whereami_0.3.37_all.deb",
+	"size": 49396,
+	"md5": "c195eae3312bd79b1d5f67493a2c7b28",
+	"sha256": "744e602b916b7896d8ead525ea811583d7f428a6bd7ec487ffbf8d3ed2c0a418",
 	"descriptionMd5": "3af57029a22562ecde2e4aa4ce0028b4"
 }]
