@@ -6,7 +6,7 @@
 	],
 	"package": "libfreerdp2-2",
 	"source": "freerdp2",
-	"version": "2.10.0+dfsg1-1",
+	"version": "2.11.7+dfsg1-6~deb12u1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,7 +18,7 @@
 		"libssl3 (>= 3.0.0)",
 		"libswresample4 (>= 7:5.0)",
 		"libswscale6 (>= 7:5.0)",
-		"libwinpr2-2 (= 2.10.0+dfsg1-1)",
+		"libwinpr2-2 (= 2.11.7+dfsg1-6~deb12u1)",
 		"libx11-6",
 		"libxkbfile1 (>= 1:1.1.0)"
 	],
@@ -26,18 +26,20 @@
 		"freerdp2-x11"
 	],
 	"replaces": [
-		"libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)"
+		"libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)",
+		"libfreerdp2-2"
 	],
 	"breaks": [
-		"libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)"
+		"libfreerdp2 (<< 2.0.0~git20170725.1.1648deb+dfsg1-1~)",
+		"libfreerdp2-2 (<< 2.11.7+dfsg1-6~deb12u1)"
 	],
-	"installedSize": 1671,
+	"installedSize": 1693,
 	"maintainer": "Debian Remote Maintainers <debian-remote@lists.debian.org>",
 	"description": "Free Remote Desktop Protocol library (core library)",
 	"homepage": "https://www.freerdp.com/",
-	"filename": "pool/main/f/freerdp2/libfreerdp2-2_2.10.0+dfsg1-1_amd64.deb",
-	"size": 541640,
-	"md5": "d4d9815b3fd59fc1276959b03e414aec",
-	"sha256": "a1985b15436dff6327e875d6cb703ab492d464b9e979d4dded3ab8bc841b1115",
+	"filename": "pool/main/f/freerdp2/libfreerdp2-2_2.11.7+dfsg1-6~deb12u1_amd64.deb",
+	"size": 550936,
+	"md5": "b7c86e2b3ad4747e3b4d3b069ddfea83",
+	"sha256": "3f3fa6b5ce4c8e2f51e7ce99e7cdb14328b56cfc4b6a12389298e7f5b5c33cb4",
 	"descriptionMd5": "43b828fff16d4902fa6931b59f78fe32"
 }]

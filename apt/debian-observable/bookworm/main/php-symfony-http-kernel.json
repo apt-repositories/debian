@@ -6,6 +6,57 @@
 	],
 	"package": "php-symfony-http-kernel",
 	"source": "symfony",
+	"version": "5.4.23+dfsg-1+deb12u5",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-symfony-deprecation-contracts",
+		"php-symfony-error-handler",
+		"php-symfony-event-dispatcher",
+		"php-symfony-http-foundation",
+		"php-psr-log"
+	],
+	"suggests": [
+		"php-symfony-browser-kit",
+		"php-symfony-config",
+		"php-symfony-console",
+		"php-symfony-dependency-injection"
+	],
+	"breaks": [
+		"php-symfony-browser-kit (<< 5.4~~)",
+		"php-symfony-cache (<< 5.0~~)",
+		"php-symfony-config (<< 5.0~~)",
+		"php-symfony-console (<< 4.4~~)",
+		"php-symfony-dependency-injection (<< 5.3~~)",
+		"php-symfony-doctrine-bridge (<< 5.0~~)",
+		"php-symfony-form (<< 5.0~~)",
+		"php-symfony-http-client (<< 5.0~~)",
+		"php-symfony-mailer (<< 5.0~~)",
+		"php-symfony-messenger (<< 5.0~~)",
+		"php-symfony-translation (<< 5.0~~)",
+		"php-symfony-twig-bridge (<< 5.0~~)",
+		"php-symfony-validator (<< 5.0~~)",
+		"php-twig (<< 2.13~~)"
+	],
+	"installedSize": 644,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "building blocks for flexible and fast HTTP-based frameworks",
+	"homepage": "https://symfony.com/doc/5.4/components/http_kernel.html",
+	"filename": "pool/main/s/symfony/php-symfony-http-kernel_5.4.23+dfsg-1+deb12u5_all.deb",
+	"size": 102156,
+	"md5": "3d2cabcea5781d89d89c2b18f76d47a5",
+	"sha256": "27d387702eb8a08f3f833a6bc4852bdfb82cc00945ef5b711b81b562539067b3",
+	"descriptionMd5": "c939e66572524bf5395e9b5e6788d97b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-http-kernel",
+	"source": "symfony",
 	"version": "5.4.23+dfsg-1+deb12u4",
 	"section": "php",
 	"priority": "optional",

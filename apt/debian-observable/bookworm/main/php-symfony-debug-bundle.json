@@ -6,6 +6,42 @@
 	],
 	"package": "php-symfony-debug-bundle",
 	"source": "symfony",
+	"version": "5.4.23+dfsg-1+deb12u5",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-xml",
+		"php-symfony-http-kernel",
+		"php-symfony-twig-bridge",
+		"php-symfony-var-dumper"
+	],
+	"suggests": [
+		"php-symfony-config",
+		"php-symfony-dependency-injection"
+	],
+	"breaks": [
+		"php-symfony-config (<< 4.4~~)",
+		"php-symfony-dependency-injection (<< 5.2~~)"
+	],
+	"installedSize": 85,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "debugging tools for the Symfony framework",
+	"homepage": "https://symfony.com/doc/5.4/bundles",
+	"filename": "pool/main/s/symfony/php-symfony-debug-bundle_5.4.23+dfsg-1+deb12u5_all.deb",
+	"size": 21272,
+	"md5": "5e2a15b9608fec1c4a101e8242ae840f",
+	"sha256": "89eb019514e3b6352195ec402124bc3a5f098c57f7960b599930a4dacc5da724",
+	"descriptionMd5": "e93caabe28c7b25ecd35816f32045804"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-debug-bundle",
+	"source": "symfony",
 	"version": "5.4.23+dfsg-1+deb12u4",
 	"section": "php",
 	"priority": "optional",

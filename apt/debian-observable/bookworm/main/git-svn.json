@@ -6,6 +6,44 @@
 	],
 	"package": "git-svn",
 	"source": "git",
+	"version": "1:2.39.5-0+deb12u3",
+	"section": "vcs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"git (>> 1:2.39.5)",
+		"git (<< 1:2.39.5-.)",
+		"libsvn-perl",
+		"libyaml-perl",
+		"libterm-readkey-perl"
+	],
+	"suggests": [
+		"git-doc",
+		"subversion"
+	],
+	"replaces": [
+		"git (<< 1:1.8.3~rc1-1.)"
+	],
+	"breaks": [
+		"git (<< 1:1.8.3~rc1-1.)"
+	],
+	"installedSize": 1226,
+	"maintainer": "Jonathan Nieder <jrnieder@gmail.com>",
+	"description": "fast, scalable, distributed revision control system (svn interoperability)",
+	"homepage": "https://git-scm.com/",
+	"filename": "pool/main/g/git/git-svn_2.39.5-0+deb12u3_all.deb",
+	"size": 1056908,
+	"md5": "b6df3f3f8667a9a42c30f00ba809ede8",
+	"sha256": "bc7a51ef47821bc657d2a370ba24bedcc941bca8160df0a465c7adb4df429e7a",
+	"descriptionMd5": "fe9279673cf6573640700aabf410ef25"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "git-svn",
+	"source": "git",
 	"version": "1:2.39.5-0+deb12u2",
 	"section": "vcs",
 	"priority": "optional",

@@ -6,6 +6,54 @@
 	],
 	"package": "liblemonldap-ng-manager-perl",
 	"source": "lemonldap-ng",
+	"version": "2.16.1+ds-deb12u7",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libconvert-pem-perl",
+		"libregexp-common-perl",
+		"libcrypt-openssl-rsa-perl",
+		"libemail-date-format-perl",
+		"libjs-angularjs",
+		"libjs-bootstrap",
+		"libjs-es5-shim",
+		"libjs-jquery",
+		"liblemonldap-ng-handler-perl (= 2.16.1+ds-deb12u7)",
+		"libhash-merge-simple-perl",
+		"lemonldap-ng-fastcgi-server (= 2.16.1+ds-deb12u7) | lemonldap-ng-uwsgi-app (= 2.16.1+ds-deb12u7) | apache2 | httpd-cgi"
+	],
+	"preDepends": [
+		"debconf"
+	],
+	"recommends": [
+		"lemonldap-ng-doc (= 2.16.1+ds-deb12u7)",
+		"libxml-libxml-perl",
+		"libxml-libxslt-perl",
+		"libxml-simple-perl"
+	],
+	"suggests": [
+		"libclone-perl",
+		"libregexp-assemble-perl"
+	],
+	"installedSize": 3189,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "Lemonldap::NG manager part",
+	"homepage": "https://lemonldap-ng.org/",
+	"filename": "pool/main/l/lemonldap-ng/liblemonldap-ng-manager-perl_2.16.1+ds-deb12u7_all.deb",
+	"size": 486164,
+	"md5": "bbf7c9a129eaf0c60508a32de3f2c536",
+	"sha256": "b2e97337149f59b99bb8efecf53e5a3b55fa07ba1d8042a8e64f5c06f91d4cef",
+	"descriptionMd5": "ab72e3f536bf2e52dc3ca8f4623dfb67"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liblemonldap-ng-manager-perl",
+	"source": "lemonldap-ng",
 	"version": "2.16.1+ds-deb12u6",
 	"section": "perl",
 	"priority": "optional",

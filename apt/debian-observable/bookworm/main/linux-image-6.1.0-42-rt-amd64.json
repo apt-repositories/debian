@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.1.0-42-rt-amd64",
+	"source": "linux-signed-amd64 (6.1.159+1)",
+	"version": "6.1.159-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-6.1",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.1.0-42-rt-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.1.0-42-rt-amd64-unsigned"
+	],
+	"installedSize": 399760,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.1 for 64-bit PCs, PREEMPT_RT (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.1.159-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.1.0-42-rt-amd64_6.1.159-1_amd64.deb",
+	"size": 70114904,
+	"md5": "6b03e82b6b6661c02581325ef503b2cf",
+	"sha256": "bd016686bad28711851907e0c89fcf5ed15244fc76ffc8bf47988bf11b936454",
+	"descriptionMd5": "13d930b82f9ee59ba93802293a9c893c"
+}]

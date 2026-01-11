@@ -32,8 +32,44 @@
 	"homepage": "https://www.samba.org",
 	"filename": "pool/main/s/samba/samba-dev_4.17.12+dfsg-0+deb12u2_amd64.deb",
 	"size": 246844,
-	"md5": "767d0fdf778c8d8fc19c774976f9a841",
 	"sha256": "b8b8309782a1b0e7e78861e7a2bb7febb50bffecefbeb47e4db1746928e5623d",
+	"descriptionMd5": "c8352d732d47c05669c4910ec031f562"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-dev",
+	"source": "samba",
+	"version": "2:4.17.12+dfsg-0+deb12u3",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6-dev",
+		"libldb-dev (>= 2:2)",
+		"libpopt-dev",
+		"libtalloc-dev",
+		"libtdb-dev",
+		"libtevent-dev",
+		"libwbclient-dev",
+		"samba-libs (= 2:4.17.12+dfsg-0+deb12u3)"
+	],
+	"replaces": [
+		"libwbclient-dev (<< 2:4.16.1+dfsg-7~)"
+	],
+	"breaks": [
+		"libwbclient-dev (<< 2:4.16.1+dfsg-7~)"
+	],
+	"installedSize": 1802,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "tools for extending Samba",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba-dev_4.17.12+dfsg-0+deb12u3_amd64.deb",
+	"size": 247036,
+	"md5": "6a000f6635b7b2887957380456e66a8d",
+	"sha256": "a35efecb9e39d7f896a7d00ae11e114373c240c9f7990e47b80617d61ec3844f",
 	"descriptionMd5": "c8352d732d47c05669c4910ec031f562"
 },{
 	"raw": {},

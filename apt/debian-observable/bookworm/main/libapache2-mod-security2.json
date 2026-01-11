@@ -6,6 +6,42 @@
 	],
 	"package": "libapache2-mod-security2",
 	"source": "modsecurity-apache",
+	"version": "2.9.7-1+deb12u2",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libxml2 (>= 2.9.14)",
+		"libapr1 (>= 1.2.7)",
+		"libaprutil1 (>= 1.4.0)",
+		"libc6 (>= 2.34)",
+		"libcurl3-gnutls (>= 7.16.2)",
+		"liblua5.1-0",
+		"libpcre2-8-0 (>= 10.32)",
+		"libyajl2 (>= 2.0.4)",
+		"apache2-api-20120211",
+		"apache2-bin (>= 2.4.16)"
+	],
+	"recommends": [
+		"modsecurity-crs"
+	],
+	"installedSize": 1086,
+	"maintainer": "Alberto Gonzalez Iniesta <agi@inittab.org>",
+	"description": "Tighten web applications security for Apache",
+	"homepage": "https://github.com/SpiderLapbs/ModSecurity",
+	"filename": "pool/main/m/modsecurity-apache/libapache2-mod-security2_2.9.7-1+deb12u2_amd64.deb",
+	"size": 257880,
+	"md5": "e2d48dbd7f1b9a58018c736685e44bcf",
+	"sha256": "a139ddf0cf978b6b4c7ee8205c9ed3ce79dd66ac563b49bf9ad504b2e1469763",
+	"descriptionMd5": "198ee1322fd8f21e7b0987f6dfb5edc3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libapache2-mod-security2",
+	"source": "modsecurity-apache",
 	"version": "2.9.7-1+deb12u1",
 	"section": "httpd",
 	"priority": "optional",

@@ -6,6 +6,41 @@
 	],
 	"package": "php-symfony-mailer",
 	"source": "symfony",
+	"version": "5.4.23+dfsg-1+deb12u5",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-email-validator",
+		"php-psr-event-dispatcher (>= 1)",
+		"php-psr-event-dispatcher (<< 2~~)",
+		"php-psr-log",
+		"php-symfony-deprecation-contracts",
+		"php-symfony-event-dispatcher",
+		"php-symfony-mime",
+		"php-symfony-service-contracts"
+	],
+	"breaks": [
+		"php-symfony-http-kernel (<< 4.4~~)"
+	],
+	"installedSize": 203,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "help sending emails",
+	"homepage": "https://symfony.com/doc/5.4/components/mailer.html",
+	"filename": "pool/main/s/symfony/php-symfony-mailer_5.4.23+dfsg-1+deb12u5_all.deb",
+	"size": 36348,
+	"md5": "2af5c203345aba06bf44507c2458d6b2",
+	"sha256": "99fcf3821731caeeb79c5d51e173cde4add4074c8bfae564a3877a965dbcce57",
+	"descriptionMd5": "4025081749f53af1b72394425800796b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-mailer",
+	"source": "symfony",
 	"version": "5.4.23+dfsg-1+deb12u4",
 	"section": "php",
 	"priority": "optional",

@@ -5,6 +5,68 @@
 		"Size"
 	],
 	"package": "git",
+	"version": "1:2.39.5-0+deb12u3",
+	"section": "vcs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcurl3-gnutls (>= 7.56.1)",
+		"libexpat1 (>= 2.0.1)",
+		"libpcre2-8-0 (>= 10.34)",
+		"zlib1g (>= 1:1.2.2)",
+		"perl",
+		"liberror-perl",
+		"git-man (>> 1:2.39.5)",
+		"git-man (<< 1:2.39.5-.)"
+	],
+	"recommends": [
+		"ca-certificates",
+		"patch",
+		"less",
+		"ssh-client"
+	],
+	"suggests": [
+		"gettext-base",
+		"git-daemon-run | git-daemon-sysvinit",
+		"git-doc",
+		"git-email",
+		"git-gui",
+		"gitk",
+		"gitweb",
+		"git-cvs",
+		"git-mediawiki",
+		"git-svn"
+	],
+	"breaks": [
+		"bash-completion (<< 1:1.90-1)",
+		"cogito (<= 0.18.2+)",
+		"dgit (<< 5.1~)",
+		"git-buildpackage (<< 0.6.5)",
+		"git-el (<< 1:2.32.0~rc2-1~)",
+		"gitosis (<< 0.2+20090917-7)",
+		"gitpkg (<< 0.15)",
+		"guilt (<< 0.33)",
+		"openssh-client (<< 1:6.8)",
+		"stgit (<< 0.15)",
+		"stgit-contrib (<< 0.15)"
+	],
+	"installedSize": 44890,
+	"maintainer": "Jonathan Nieder <jrnieder@gmail.com>",
+	"description": "fast, scalable, distributed revision control system",
+	"homepage": "https://git-scm.com/",
+	"filename": "pool/main/g/git/git_2.39.5-0+deb12u3_amd64.deb",
+	"size": 7264380,
+	"md5": "b493c1ad123361900c2e3686921c8f39",
+	"sha256": "637a85ddd6247fab13bdd0592f2f39aff04ce4dbf0655d3ab553ac359a38ce6f",
+	"descriptionMd5": "c1f968556452a190fe359bffd151c012"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "git",
 	"version": "1:2.39.5-0+deb12u2",
 	"section": "vcs",
 	"priority": "optional",

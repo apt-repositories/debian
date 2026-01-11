@@ -6,6 +6,48 @@
 	],
 	"package": "php-symfony-console",
 	"source": "symfony",
+	"version": "5.4.23+dfsg-1+deb12u5",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-symfony-deprecation-contracts",
+		"php-mbstring",
+		"php-symfony-service-contracts",
+		"php-symfony-string"
+	],
+	"suggests": [
+		"php-symfony-event-dispatcher",
+		"php-symfony-lock",
+		"php-symfony-process",
+		"php-psr-log"
+	],
+	"breaks": [
+		"php-psr-log (>= 3)",
+		"php-symfony-dependency-injection (<< 4.4~~)",
+		"php-symfony-dotenv (<< 5.1~~)",
+		"php-symfony-event-dispatcher (<< 4.4~~)",
+		"php-symfony-lock (<< 4.4~~)",
+		"php-symfony-process (<< 4.4~~)"
+	],
+	"installedSize": 599,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "run tasks from the command line",
+	"homepage": "https://symfony.com/doc/5.4/components/console.html",
+	"filename": "pool/main/s/symfony/php-symfony-console_5.4.23+dfsg-1+deb12u5_all.deb",
+	"size": 93184,
+	"md5": "ca3b482765b65f76afc95facdec8f8fa",
+	"sha256": "8a8c49a23146c2eff3c402f1f66ee467a456c33b2b5cf2a3bf14a51faba016b2",
+	"descriptionMd5": "1569b7c3031ce5cf720dddb0ed7582d9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-console",
+	"source": "symfony",
 	"version": "5.4.23+dfsg-1+deb12u4",
 	"section": "php",
 	"priority": "optional",
