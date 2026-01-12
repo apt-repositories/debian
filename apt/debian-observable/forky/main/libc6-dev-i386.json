@@ -6,16 +6,19 @@
 	],
 	"package": "libc6-dev-i386",
 	"source": "glibc",
-	"version": "2.42-6",
+	"version": "2.42-7",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6-i386 (= 2.42-6)",
-		"libc6-dev (= 2.42-6)"
+		"libc6-i386 (= 2.42-7)",
+		"libc6-dev (= 2.42-7)"
 	],
 	"recommends": [
 		"gcc-multilib"
+	],
+	"breaks": [
+		"libdpkg-perl (<< 1.23.0)"
 	],
 	"conflicts": [
 		"libc6-dev-amd64",
@@ -30,13 +33,13 @@
 		"libc6-dev-sparc64",
 		"libc6-dev-x32:i386"
 	],
-	"installedSize": 7207,
+	"installedSize": 7208,
 	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
 	"description": "GNU C Library: 32-bit development libraries for AMD64",
 	"homepage": "https://www.gnu.org/software/libc/libc.html",
-	"filename": "pool/main/g/glibc/libc6-dev-i386_2.42-6_amd64.deb",
-	"size": 1453424,
-	"md5": "6342632e67f398e69a26bba1ef7f92df",
-	"sha256": "cb58cdaaeb3807cdd90cd9ab14c91cc72e6a5cbcb940e08554a94c1a6e8930a3",
+	"filename": "pool/main/g/glibc/libc6-dev-i386_2.42-7_amd64.deb",
+	"size": 1453820,
+	"md5": "4bd29ae2b9e86d094ab4f58e455f4c48",
+	"sha256": "bfd27577ed776e27c4b9c7d66b323d5c8176f698d1411d0e9510c9f9af6d21f9",
 	"descriptionMd5": "50cf6ae98f9a3cdef9c53b186287325f"
 }]
