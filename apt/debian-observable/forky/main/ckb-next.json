@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "ckb-next",
-	"version": "0.6.2+dfsg-0.2",
+	"version": "0.6.2+dfsg-0.3",
 	"section": "electronics",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,25 +15,29 @@
 		"libgcc-s1 (>= 3.0)",
 		"libpulse0 (>= 0.99.1)",
 		"libqt5core5t64 (>= 5.15.1)",
-		"libqt5dbus5t64 (>= 5.5.1)",
+		"libqt5dbus5t64 (>= 5.6.0~beta)",
 		"libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1)",
 		"libqt5network5t64 (>= 5.5.1)",
 		"libqt5widgets5t64 (>= 5.15.1)",
 		"libqt5x11extras5 (>= 5.6.0)",
-		"libquazip5-1t64 (>= 0.7.3)",
+		"libquazip5-1t64 (>= 0.9.1)",
 		"libstdc++6 (>= 14)",
 		"libudev1 (>= 183)",
 		"libxcb-ewmh2 (>= 0.4.2)",
 		"libxcb-screensaver0",
-		"libxcb1"
+		"libxcb1",
+		"gpg-from-sq | gpg"
 	],
-	"installedSize": 3426,
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 3427,
 	"maintainer": "Stewart Ferguson <stew@ferg.aero>",
 	"description": "driver for Corsair keyboards and mice",
 	"homepage": "https://github.com/ckb-next/ckb-next",
-	"filename": "pool/main/c/ckb-next/ckb-next_0.6.2+dfsg-0.2_amd64.deb",
-	"size": 1332056,
-	"md5": "035437b8f12607beabe46cbbaa97251e",
-	"sha256": "13a9068f67c9bb6cbcccc5d007bcf546807d340cf3ce0ac5084b75772040e509",
+	"filename": "pool/main/c/ckb-next/ckb-next_0.6.2+dfsg-0.3_amd64.deb",
+	"size": 1333880,
+	"md5": "dc1d2598b91975c1fe91a635d5b00ecf",
+	"sha256": "689a07acaf3123cebf2e1c34e9c78cd1cf7a587cff74eb6e0d695695cfb1debc",
 	"descriptionMd5": "3ae573810d61a5eebaaa863a2be5f572"
 }]

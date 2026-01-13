@@ -32,4 +32,37 @@
 	"md5": "c144810aad0a4d5db8202bb80803c813",
 	"sha256": "c5abd498276413ce13ea3483bdd9910a0a1cef3783d0ada9aa26a8efc5091144",
 	"descriptionMd5": "5ee88a696b0fa001f969ddb758d70f1f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsnmp-perl",
+	"source": "net-snmp",
+	"version": "5.9.4+dfsg-2+deb13u1",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"perl (>= 5.40.1-6)",
+		"perlapi-5.40.1",
+		"libc6 (>= 2.38)",
+		"libnetsnmptrapd40t64 (>= 5.9.4+dfsg)",
+		"libsnmp40t64 (>= 5.9.4+dfsg)"
+	],
+	"replaces": [
+		"libsnmp-dev (= 5.9+dfsg-1)"
+	],
+	"breaks": [
+		"libsnmp-dev (= 5.9+dfsg-1)"
+	],
+	"installedSize": 2168,
+	"maintainer": "Craig Small <csmall@debian.org>",
+	"description": "SNMP (Simple Network Management Protocol) Perl5 support",
+	"homepage": "https://net-snmp.sourceforge.net/",
+	"filename": "pool/updates/main/n/net-snmp/libsnmp-perl_5.9.4+dfsg-2+deb13u1_amd64.deb",
+	"size": 1748692,
+	"sha256": "a5524fed048a87ccfd87df820bbb63fb161cda35bd06cd809a7186be40204c69",
+	"descriptionMd5": "5ee88a696b0fa001f969ddb758d70f1f"
 }]
