@@ -31,4 +31,36 @@
 	"md5": "9b1b97e9c48eb75615b7055dfb0d9bd7",
 	"sha256": "7ed5f156d4a4001f12a65af5825e808c6f10d6c6986a3ea22b34bbd876deeb1f",
 	"descriptionMd5": "da6a8feb8243410498d5be17f4bc4c36"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnetsnmptrapd40",
+	"source": "net-snmp",
+	"version": "5.9.3+dfsg-2+deb12u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libmariadb3 (>= 3.0.0)",
+		"libsnmp40 (= 5.9.3+dfsg-2+deb12u1)",
+		"libsnmp-base"
+	],
+	"replaces": [
+		"libsnmp40 (<= 5.9+dfsg-1)"
+	],
+	"breaks": [
+		"libsnmp40 (<= 5.9+dfsg-1)"
+	],
+	"installedSize": 70,
+	"maintainer": "Craig Small <csmall@debian.org>",
+	"description": "SNMP (Simple Network Management Protocol) trap library",
+	"homepage": "https://net-snmp.sourceforge.net/",
+	"filename": "pool/updates/main/n/net-snmp/libnetsnmptrapd40_5.9.3+dfsg-2+deb12u1_amd64.deb",
+	"size": 22748,
+	"sha256": "29e3ade3d616d8c9bddd5eff8b39b7d46b844cf11bf1d867468e797aa74158a2",
+	"descriptionMd5": "da6a8feb8243410498d5be17f4bc4c36"
 }]
