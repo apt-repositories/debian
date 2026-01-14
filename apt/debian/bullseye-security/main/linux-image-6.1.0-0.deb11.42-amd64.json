@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.1.0-0.deb11.42-amd64",
+	"source": "linux-signed-6.1-amd64 (6.1.159+1~deb11u1)",
+	"version": "6.1.159-1~deb11u1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-6.1",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.1.0-0.deb11.42-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.1.0-0.deb11.42-amd64-unsigned"
+	],
+	"installedSize": 503209,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.1 for 64-bit PCs (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux-6.1 (= 6.1.159-1~deb11u1)",
+	"filename": "pool/updates/main/l/linux-signed-6.1-amd64/linux-image-6.1.0-0.deb11.42-amd64_6.1.159-1~deb11u1_amd64.deb",
+	"size": 74471908,
+	"sha256": "df64d3b63a60760f8b03250c51e830bb15d92eb7f1b6e1bae66c1fa94a9c1329",
+	"descriptionMd5": "eaf7b81be84ec12eb25fe90a4bac0f60"
+}

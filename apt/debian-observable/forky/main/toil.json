@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "toil",
-	"version": "9.1.0-1",
+	"version": "9.1.2-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
@@ -25,7 +25,7 @@
 		"python3-urllib3",
 		"python3-yaml",
 		"python3:any",
-		"cwltool (>= 3.1.20240112164112)",
+		"cwltool (>= 3.1.20250715140722)",
 		"python3-schema-salad",
 		"python3-boto3"
 	],
@@ -34,15 +34,17 @@
 	],
 	"suggests": [
 		"podman | docker.io | singularity-container | docker-ce",
-		"python3-idna"
+		"python3-idna",
+		"condor",
+		"python3-kubernetes"
 	],
-	"installedSize": 4632,
+	"installedSize": 4634,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "cross-platform workflow engine",
-	"homepage": "https://github.com/BD2KGenomics/toil",
-	"filename": "pool/main/t/toil/toil_9.1.0-1_all.deb",
-	"size": 1097240,
-	"md5": "50b0fffb87075fe7a48d576bbcb9da3a",
-	"sha256": "45a4cd5fd41884b702f0ed5751b3cdaf8ac8bc9d4f489121ea85ced9e4d23dd0",
+	"homepage": "https://github.com/DataBiosphere/toil",
+	"filename": "pool/main/t/toil/toil_9.1.2-1_all.deb",
+	"size": 1098176,
+	"md5": "1d44325dcc7172011b2d1f83c4e48a49",
+	"sha256": "494e3d442739fcf7a7856f1cf1dd8352e27748d950305deb2ba24b40117c6760",
 	"descriptionMd5": "be04c7b7e5f339860cab15c0630008b8"
 }]
