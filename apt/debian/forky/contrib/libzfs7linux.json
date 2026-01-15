@@ -4,9 +4,9 @@
 		"Filename",
 		"Size"
 	],
-	"package": "libzfs6linux",
+	"package": "libzfs7linux",
 	"source": "zfs-linux",
-	"version": "2.3.5-2",
+	"version": "2.4.0-1",
 	"section": "contrib/libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -26,20 +26,22 @@
 	"replaces": [
 		"libzfs2",
 		"libzfs4",
-		"libzfs4linux"
+		"libzfs4linux",
+		"libzfs6linux"
 	],
 	"breaks": [
 		"libzfs2",
 		"libzfs4",
-		"libzfs4linux"
+		"libzfs4linux",
+		"libzfs6linux"
 	],
-	"installedSize": 680,
+	"installedSize": 688,
 	"maintainer": "Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@alioth-lists.debian.net>",
 	"description": "OpenZFS filesystem library for Linux - general support",
 	"homepage": "https://zfsonlinux.org/",
-	"filename": "pool/contrib/z/zfs-linux/libzfs6linux_2.3.5-2_amd64.deb",
-	"size": 239756,
-	"md5": "685ea1acf07c3cb2d1c827130cb660be",
-	"sha256": "66363dfbb401fc982eb3fb48f243ef4225b1b77a6b04ee6f7adc3419a72a9a80",
+	"filename": "pool/contrib/z/zfs-linux/libzfs7linux_2.4.0-1_amd64.deb",
+	"size": 241728,
+	"md5": "52ff5994548fab3762e51df62da8d193",
+	"sha256": "6eb8790496694fb01dd949b27613039326a8db48f83641322de0fd5b4adaaf24",
 	"descriptionMd5": "68404c691e40434a1c18cb823bdc6f84"
 }
