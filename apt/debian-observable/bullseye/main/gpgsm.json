@@ -32,8 +32,47 @@
 	"maintainer": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
 	"description": "GNU privacy guard - S/MIME version",
 	"homepage": "https://www.gnupg.org/",
-	"filename": "pool/updates/main/g/gnupg2/gpgsm_2.2.27-2+deb11u2_amd64.deb",
+	"filename": "pool/main/g/gnupg2/gpgsm_2.2.27-2+deb11u2_amd64.deb",
 	"size": 645244,
+	"md5": "082e10935798981e68544e9e40585941",
 	"sha256": "d50dd7c49277542edd4291f41e080fe7dfe09cf3676227c386f0cb9666dd2cbf",
+	"descriptionMd5": "d09741caa0bbe13153a4e4c54325393d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpgsm",
+	"source": "gnupg2",
+	"version": "2.2.27-2+deb11u3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gpgconf (= 2.2.27-2+deb11u3)",
+		"libassuan0 (>= 2.5.0)",
+		"libc6 (>= 2.25)",
+		"libgcrypt20 (>= 1.8.0)",
+		"libgpg-error0 (>= 1.38)",
+		"libksba8 (>= 1.5.0)",
+		"libreadline8 (>= 6.0)"
+	],
+	"recommends": [
+		"gnupg (= 2.2.27-2+deb11u3)"
+	],
+	"replaces": [
+		"gnupg2 (<< 2.1.10-2)"
+	],
+	"breaks": [
+		"gnupg2 (<< 2.1.10-2)"
+	],
+	"installedSize": 951,
+	"maintainer": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
+	"description": "GNU privacy guard - S/MIME version",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/updates/main/g/gnupg2/gpgsm_2.2.27-2+deb11u3_amd64.deb",
+	"size": 645320,
+	"sha256": "da56668487cb9b51b83e126c27c5d4db34b8139fb144eca68bd8e01e64f6491d",
 	"descriptionMd5": "d09741caa0bbe13153a4e4c54325393d"
 }]

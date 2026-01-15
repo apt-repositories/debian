@@ -53,8 +53,68 @@
 	"maintainer": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
 	"description": "GNU privacy guard - a free PGP replacement",
 	"homepage": "https://www.gnupg.org/",
-	"filename": "pool/updates/main/g/gnupg2/gnupg_2.2.27-2+deb11u2_all.deb",
+	"filename": "pool/main/g/gnupg2/gnupg_2.2.27-2+deb11u2_all.deb",
 	"size": 824944,
+	"md5": "65a26196bcacba2b67ca6ea38ce24aa3",
 	"sha256": "a89ecdc6fc8e39f74a27b9b9823fc2fb22103b5965212d54eea86f9f16769042",
+	"descriptionMd5": "2421c574774486effdededa540cfb1c7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnupg",
+	"source": "gnupg2",
+	"version": "2.2.27-2+deb11u3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dirmngr (<< 2.2.27-2+deb11u3.1~)",
+		"dirmngr (>= 2.2.27-2+deb11u3)",
+		"gnupg-l10n (= 2.2.27-2+deb11u3)",
+		"gnupg-utils (<< 2.2.27-2+deb11u3.1~)",
+		"gnupg-utils (>= 2.2.27-2+deb11u3)",
+		"gpg (<< 2.2.27-2+deb11u3.1~)",
+		"gpg (>= 2.2.27-2+deb11u3)",
+		"gpg-agent (<< 2.2.27-2+deb11u3.1~)",
+		"gpg-agent (>= 2.2.27-2+deb11u3)",
+		"gpg-wks-client (<< 2.2.27-2+deb11u3.1~)",
+		"gpg-wks-client (>= 2.2.27-2+deb11u3)",
+		"gpg-wks-server (<< 2.2.27-2+deb11u3.1~)",
+		"gpg-wks-server (>= 2.2.27-2+deb11u3)",
+		"gpgsm (<< 2.2.27-2+deb11u3.1~)",
+		"gpgsm (>= 2.2.27-2+deb11u3)",
+		"gpgv (<< 2.2.27-2+deb11u3.1~)",
+		"gpgv (>= 2.2.27-2+deb11u3)"
+	],
+	"suggests": [
+		"parcimonie",
+		"xloadimage"
+	],
+	"replaces": [
+		"gnupg2 (<< 2.1.11-7+exp1)"
+	],
+	"breaks": [
+		"debsig-verify (<< 0.15)",
+		"dirmngr (<< 2.2.27-2+deb11u3)",
+		"gnupg2 (<< 2.1.11-7+exp1)",
+		"libgnupg-interface-perl (<< 0.52-3)",
+		"libgnupg-perl (<= 0.19-1)",
+		"libmail-gnupg-perl (<= 0.22-1)",
+		"monkeysphere (<< 0.38~)",
+		"php-crypt-gpg (<= 1.4.1-1)",
+		"python-apt (<= 1.1.0~beta4)",
+		"python-gnupg (<< 0.3.8-3)",
+		"python3-apt (<= 1.1.0~beta4)"
+	],
+	"installedSize": 864,
+	"maintainer": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
+	"description": "GNU privacy guard - a free PGP replacement",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/updates/main/g/gnupg2/gnupg_2.2.27-2+deb11u3_all.deb",
+	"size": 825432,
+	"sha256": "5b7e432b1d8e726b0201926708cc42ce1188cb2912c5e95d8c3435a3cd5321db",
 	"descriptionMd5": "2421c574774486effdededa540cfb1c7"
 }]

@@ -33,8 +33,48 @@
 	"maintainer": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
 	"description": "GNU privacy guard - signature verification tool",
 	"homepage": "https://www.gnupg.org/",
-	"filename": "pool/updates/main/g/gnupg2/gpgv_2.2.27-2+deb11u2_amd64.deb",
+	"filename": "pool/main/g/gnupg2/gpgv_2.2.27-2+deb11u2_amd64.deb",
 	"size": 625824,
+	"md5": "54d6bfca6d24510795a371f4d842ecb1",
 	"sha256": "52a3a5092d9723ff12dc9b3012b8b92dbbeb33d36286731a7ef0dd9e90e4fb9b",
+	"descriptionMd5": "4ea8f4f4d6a0a387a4a3aeba3e6cc888"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpgv",
+	"source": "gnupg2",
+	"version": "2.2.27-2+deb11u3",
+	"section": "utils",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.25)",
+		"libgcrypt20 (>= 1.8.0)",
+		"libgpg-error0 (>= 1.38)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnupg"
+	],
+	"replaces": [
+		"gnupg2 (<< 2.0.21-2)",
+		"gpgv2 (<< 2.1.11-7+exp1)"
+	],
+	"breaks": [
+		"gnupg2 (<< 2.0.21-2)",
+		"gpgv2 (<< 2.1.11-7+exp1)",
+		"python-debian (<< 0.1.29)"
+	],
+	"installedSize": 882,
+	"maintainer": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
+	"description": "GNU privacy guard - signature verification tool",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/updates/main/g/gnupg2/gpgv_2.2.27-2+deb11u3_amd64.deb",
+	"size": 626116,
+	"sha256": "76e24278cfd73486f9c71f04e8784f65719a1060ec2534846d4be51f7c1f3a6c",
 	"descriptionMd5": "4ea8f4f4d6a0a387a4a3aeba3e6cc888"
 }]
