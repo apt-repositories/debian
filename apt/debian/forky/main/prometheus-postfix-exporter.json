@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "prometheus-postfix-exporter",
-	"version": "0.17.0-1",
+	"version": "0.18.0-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,19 +13,19 @@
 		"adduser",
 		"daemon | systemd-sysv",
 		"postfix",
-		"rsyslog | system-log-daemon",
+		"rsyslog | systemd-sysv | system-log-daemon",
 		"libc6 (>= 2.34)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 14453,
+	"installedSize": 14457,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Prometheus exporter for Postfix mail servers",
 	"homepage": "https://github.com/hsn723/postfix_exporter",
-	"filename": "pool/main/p/prometheus-postfix-exporter/prometheus-postfix-exporter_0.17.0-1_amd64.deb",
-	"size": 4228344,
-	"md5": "31a0479cad7ea290ce4e93466472df99",
-	"sha256": "b1246f419bf0e98ff0985ff3fe4ba6abe807a3b25f46a9d69a3f40d5c9ac64d1",
+	"filename": "pool/main/p/prometheus-postfix-exporter/prometheus-postfix-exporter_0.18.0-1_amd64.deb",
+	"size": 4230892,
+	"md5": "a8fb9287a251d18450ac4034a715f409",
+	"sha256": "885e8aa5dd2ccebe149921f3a90474a4cd5cf371eaca5b9ca17589b3fd42e16d",
 	"descriptionMd5": "92f62f3099317ef85acdc460a769f51d"
 }

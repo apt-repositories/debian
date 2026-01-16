@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "python3-adios2-mpi",
-	"source": "adios2 (2.10.2+dfsg1-5)",
-	"version": "2.10.2+dfsg1-5+b2",
+	"source": "adios2",
+	"version": "2.11.0+dfsg1-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"python3 (<< 3.15)",
 		"python3 (>= 3.13~)",
-		"libadios2-mpi-core-2.10 (>= 2.10.2+dfsg1)",
+		"python3:any",
+		"libadios2-mpi-core-2.11 (>= 2.11.0+dfsg1)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 14)"
@@ -21,13 +22,13 @@
 	"recommends": [
 		"python3-adios2"
 	],
-	"installedSize": 1690,
+	"installedSize": 1824,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "ADIOS2 Adaptable IO system for simulations - Python bindings (MPI)",
 	"homepage": "https://github.com/ornladios/ADIOS2",
-	"filename": "pool/main/a/adios2/python3-adios2-mpi_2.10.2+dfsg1-5+b2_amd64.deb",
-	"size": 289576,
-	"md5": "13253e85b1932d66e8c99caa61157b1d",
-	"sha256": "b707d591e00cc1747b7d0a997a4ee2ae2a9098b674291ba3843b4d96a230d519",
+	"filename": "pool/main/a/adios2/python3-adios2-mpi_2.11.0+dfsg1-2_amd64.deb",
+	"size": 329480,
+	"md5": "b69bae97e63738ce928ae06c2d28de35",
+	"sha256": "581168af50deba9616bc625ad9f2a2147d929c6eea02e954a51fb2c91572ddfc",
 	"descriptionMd5": "d9139203cc98934b023fd627c0087a56"
 }
