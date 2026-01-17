@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libguestfs0t64",
-	"source": "libguestfs (1:1.54.1-3.1)",
-	"version": "1:1.54.1-3.1+b2",
+	"source": "libguestfs",
+	"version": "1:1.56.2-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,8 +15,9 @@
 		"libaugeas0 (>= 1.8.0)",
 		"libc6 (>= 2.42)",
 		"libcap2 (>= 1:2.10)",
+		"libfuse3-4 (>= 3.17.2)",
 		"libhivex0 (>= 1.3.14)",
-		"libjansson4 (>= 2.14)",
+		"libjson-c5 (>= 0.15)",
 		"libpcre2-8-0 (>= 10.22)",
 		"librpm10 (>= 4.14.0+dfsg1)",
 		"libselinux1 (>= 3.1~)",
@@ -39,6 +40,7 @@
 		"bsdextrautils",
 		"btrfs-progs",
 		"bzip2",
+		"clevis-luks",
 		"cpio",
 		"cryptsetup-bin",
 		"dash",
@@ -53,6 +55,7 @@
 		"file",
 		"gawk",
 		"gdisk",
+		"gostsum",
 		"grub2-common",
 		"iproute2 | iproute",
 		"kmod | module-init-tools",
@@ -84,7 +87,6 @@
 	],
 	"recommends": [
 		"libguestfs-hfsplus",
-		"libguestfs-reiserfs",
 		"libguestfs-xfs"
 	],
 	"suggests": [
@@ -92,22 +94,21 @@
 		"libguestfs-jfs",
 		"libguestfs-nilfs",
 		"libguestfs-rescue",
-		"libguestfs-rsync",
-		"libguestfs-zfs"
+		"libguestfs-rsync"
 	],
 	"replaces": [
 		"libguestfs0"
 	],
 	"breaks": [
-		"libguestfs0 (<< 1:1.54.1-3.1)"
+		"libguestfs0 (<< 1:1.56.2-4)"
 	],
-	"installedSize": 5227,
+	"installedSize": 5253,
 	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
 	"description": "guest disk image management system - shared library",
 	"homepage": "http://libguestfs.org",
-	"filename": "pool/main/libg/libguestfs/libguestfs0t64_1.54.1-3.1+b2_amd64.deb",
-	"size": 3358220,
-	"md5": "bfa6308cf353203f2263c63ec40b101e",
-	"sha256": "81abea280c614c415fe08e170d99306fe60aeea42125904e79540ac463c743f9",
+	"filename": "pool/main/libg/libguestfs/libguestfs0t64_1.56.2-4_amd64.deb",
+	"size": 3379568,
+	"md5": "54e9071986ecd0a94fcd90e36a09f03d",
+	"sha256": "6ca5e388b3e9e3016b44780474cb48c33733be12733dfe5a653db3e7f83b871b",
 	"descriptionMd5": "09eb4589f8a971622769ace74830dcb3"
 }]

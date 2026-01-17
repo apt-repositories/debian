@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libonnxruntime1.23",
+	"source": "onnxruntime",
+	"version": "1.23.2+dfsg-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcpuinfo0 (>= 0.0~git20240830.fa1c679)",
+		"libgcc-s1 (>= 4.0)",
+		"libonnx1t64 (>= 1.20.0)",
+		"libprotobuf32t64 (>= 3.21.12)",
+		"libpthreadpool0 (>= 0.0~git20200423.6acde9c)",
+		"libre2-11-absl20240722",
+		"libstdc++6 (>= 14)",
+		"libxnnpack0.20241108 (>= 0.0~git20241108.4ea82e5)",
+		"libonnxruntime-providers (= 1.23.2+dfsg-2)"
+	],
+	"replaces": [
+		"libonnxruntime-dev (<< 1.20.1+dfsg-1~exp2~)",
+		"libonnxruntime1.19.2",
+		"libonnxruntime1.20.1"
+	],
+	"breaks": [
+		"libonnxruntime-dev (<< 1.20.1+dfsg-1~exp2~)"
+	],
+	"conflicts": [
+		"libonnxruntime1.19.2",
+		"libonnxruntime1.20.1"
+	],
+	"installedSize": 20125,
+	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
+	"description": "cross-platform inference and training ML accelerator (shared lib)",
+	"homepage": "https://github.com/microsoft/onnxruntime",
+	"filename": "pool/main/o/onnxruntime/libonnxruntime1.23_1.23.2+dfsg-2_amd64.deb",
+	"size": 5345440,
+	"md5": "3e837e308fd3207538c459345ae17107",
+	"sha256": "5ec635717e68934a2cc4e2106e91b6b6c4502890fc70c943e9eaf21ac6a12aa6",
+	"descriptionMd5": "552d4cb5b759776d4c1e450cf6be2235"
+}

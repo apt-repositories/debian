@@ -1,0 +1,66 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "jenkins-debian-glue-buildenv",
+	"source": "jenkins-debian-glue",
+	"version": "0.23.6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"build-essential",
+		"cowbuilder",
+		"devscripts",
+		"dpkg-dev",
+		"eatmydata",
+		"fakeroot",
+		"file",
+		"git-buildpackage",
+		"gnupg",
+		"jenkins-debian-glue",
+		"lintian",
+		"parallel | moreutils",
+		"piuparts",
+		"pristine-tar",
+		"quilt",
+		"reprepro | freight",
+		"rsync",
+		"ruby",
+		"subversion-tools (<= 1.6.18dfsg-1) | svn2cl"
+	],
+	"recommends": [
+		"curl",
+		"libperl-critic-perl",
+		"pycodestyle",
+		"qemu-user-static",
+		"shellcheck"
+	],
+	"replaces": [
+		"jenkins-debian-glue-buildenv-git",
+		"jenkins-debian-glue-buildenv-lintian",
+		"jenkins-debian-glue-buildenv-piuparts",
+		"jenkins-debian-glue-buildenv-slave",
+		"jenkins-debian-glue-buildenv-svn",
+		"jenkins-debian-glue-buildenv-taptools"
+	],
+	"conflicts": [
+		"jenkins-debian-glue-buildenv-git",
+		"jenkins-debian-glue-buildenv-lintian",
+		"jenkins-debian-glue-buildenv-piuparts",
+		"jenkins-debian-glue-buildenv-slave",
+		"jenkins-debian-glue-buildenv-svn",
+		"jenkins-debian-glue-buildenv-taptools"
+	],
+	"installedSize": 12,
+	"maintainer": "Michael Prokop <mika@debian.org>",
+	"description": "Jenkins Debian glue scripts - dependency package",
+	"homepage": "https://github.com/mika/jenkins-debian-glue",
+	"filename": "pool/main/j/jenkins-debian-glue/jenkins-debian-glue-buildenv_0.23.6_all.deb",
+	"size": 5692,
+	"md5": "911f66828748b705e92df46b18eda268",
+	"sha256": "6cd113920c6e3875128a5e927d1b9587569bc5c8effd8048568c871b44ac3481",
+	"descriptionMd5": "52268246a2cf4404e99f0227a4db77d1"
+}
