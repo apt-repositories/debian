@@ -5,6 +5,38 @@
 		"Size"
 	],
 	"package": "dovecot-fts-xapian",
+	"version": "1.9.3-1~bpo13+1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-abi-2.4.abiv1",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libicu76 (>= 76.1-1~)",
+		"libsqlite3-0 (>= 3.5.9)",
+		"libstdc++6 (>= 13)",
+		"libxapian30 (>= 1.4.28~)"
+	],
+	"enhances": [
+		"dovecot-imapd",
+		"dovecot-pop3d"
+	],
+	"installedSize": 170,
+	"maintainer": "Joseph Nahmias <jello@debian.org>",
+	"description": "full-text search for dovecot using xapian",
+	"homepage": "https://github.com/grosjo/fts-xapian",
+	"filename": "pool/main/d/dovecot-fts-xapian/dovecot-fts-xapian_1.9.3-1~bpo13+1_amd64.deb",
+	"size": 55316,
+	"sha256": "a6955c2fe4d4223631f43ebd8d8b6bb3ac8fe3a2e4158852c5cc17d05798bb93",
+	"descriptionMd5": "679ee87b25baa61c565c18572e0991c9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-fts-xapian",
 	"version": "1.9.1-1.1",
 	"section": "mail",
 	"priority": "optional",
