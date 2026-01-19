@@ -5,24 +5,21 @@
 		"Size"
 	],
 	"package": "qemu-system-s390x",
-	"source": "qemu (1:10.1.2+ds-3)",
-	"version": "1:10.1.2+ds-3+b1",
+	"source": "qemu",
+	"version": "1:10.2.0+ds-2",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libaio1t64 (>= 0.3.93)",
 		"libbpf1 (>= 1:0.0.8)",
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.42)",
 		"libcapstone5 (>= 5)",
 		"libfuse3-4 (>= 3.17.2)",
 		"libglib2.0-0t64 (>= 2.78.0)",
-		"libgmp10 (>= 2:6.3.0+dfsg)",
 		"libgnutls30t64 (>= 3.8.6)",
-		"libhogweed6t64",
 		"libibverbs1 (>= 1.1.6)",
 		"libjpeg62-turbo (>= 1.3.1)",
-		"libnettle8t64 (>= 3.9~)",
 		"libnuma1 (>= 2.0.15)",
 		"libpixman-1-0 (>= 0.19.6)",
 		"libpmem1 (>= 1.4)",
@@ -36,15 +33,15 @@
 		"libvdeplug2t64 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:10.1.2+ds-3+b1)",
-		"qemu-system-data (>> 1:10.1.2+ds~)"
+		"qemu-system-common (= 1:10.2.0+ds-2)",
+		"qemu-system-data (>> 1:10.2.0+ds~)"
 	],
 	"recommends": [
 		"qemu-utils",
-		"qemu-system-gui (= 1:10.1.2+ds-3+b1)",
-		"qemu-system-modules-spice (= 1:10.1.2+ds-3+b1)",
-		"qemu-system-modules-opengl (= 1:10.1.2+ds-3+b1)",
-		"qemu-block-extra (= 1:10.1.2+ds-3+b1)"
+		"qemu-system-gui (= 1:10.2.0+ds-2)",
+		"qemu-system-modules-spice (= 1:10.2.0+ds-2)",
+		"qemu-system-modules-opengl (= 1:10.2.0+ds-2)",
+		"qemu-block-extra (= 1:10.2.0+ds-2)"
 	],
 	"replaces": [
 		"qemu-system-misc (<< 1:9.1.0+ds-9~)"
@@ -52,13 +49,13 @@
 	"breaks": [
 		"qemu-system-misc (<< 1:9.1.0+ds-9~)"
 	],
-	"installedSize": 13098,
+	"installedSize": 13169,
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (s390x)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-s390x_10.1.2+ds-3+b1_amd64.deb",
-	"size": 3104004,
-	"md5": "3aafb5ee82baebc84c764588a6fde8a5",
-	"sha256": "fcd3e5ba138d1e7db920951d551936b5fba06f6bb919833ce061ee83de1781e5",
+	"filename": "pool/main/q/qemu/qemu-system-s390x_10.2.0+ds-2_amd64.deb",
+	"size": 3122788,
+	"md5": "71fbfe2233a172380f7a593b3c357aee",
+	"sha256": "3a3a7b2639b63ff4e2002cc8b0d6020720cb4caabbe616c62984fe57ea9c545f",
 	"descriptionMd5": "3b2939568b438f9e1d0d01baa7cec9f8"
 }]

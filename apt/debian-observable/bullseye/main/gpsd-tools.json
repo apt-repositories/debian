@@ -40,4 +40,45 @@
 	"md5": "9e0b23d287bdfd63b8ba59fcb5eb77b8",
 	"sha256": "d09ed78d7b6f2abcfa64e83fb7b6fa7624434d2789c4b4955c58a1b9ef84ffc0",
 	"descriptionMd5": "da9f6daf6778e6e0a948a3325d56bd44"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpsd-tools",
+	"source": "gpsd",
+	"version": "3.22-4+deb11u1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbluetooth3 (>= 4.91)",
+		"libc6 (>= 2.29)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libncurses6 (>= 6)",
+		"libtinfo6 (>= 6)",
+		"libusb-1.0-0 (>= 2:1.0.8)",
+		"libgps28 (= 3.22-4+deb11u1)"
+	],
+	"suggests": [
+		"gpsd"
+	],
+	"replaces": [
+		"gpsd-clients (<< 3.20-10)",
+		"python-gps"
+	],
+	"breaks": [
+		"gpsd (<< 3.20-9)",
+		"gpsd-clients (<< 3.20-10)",
+		"python-gps"
+	],
+	"installedSize": 819,
+	"maintainer": "Bernd Zeimetz <bzed@debian.org>",
+	"description": "Global Positioning System - tools",
+	"homepage": "http://www.catb.org/gpsd/",
+	"filename": "pool/updates/main/g/gpsd/gpsd-tools_3.22-4+deb11u1_amd64.deb",
+	"size": 311760,
+	"sha256": "92ed86e40602669a249e7c1ce29ed67ac4586f6971ecaef30f33572bb652c5f8",
+	"descriptionMd5": "da9f6daf6778e6e0a948a3325d56bd44"
 }]
