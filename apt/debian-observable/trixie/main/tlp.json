@@ -5,6 +5,45 @@
 		"Size"
 	],
 	"package": "tlp",
+	"version": "1.9.1-1~bpo13+1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"hdparm",
+		"iw",
+		"pciutils",
+		"rfkill",
+		"usbutils"
+	],
+	"recommends": [
+		"tlp-pd",
+		"tlp-rdw",
+		"ethtool"
+	],
+	"suggests": [
+		"tp-smapi-dkms",
+		"smartmontools"
+	],
+	"conflicts": [
+		"laptop-mode-tools",
+		"tuned"
+	],
+	"installedSize": 909,
+	"maintainer": "Raphaël Halimi <raphael.halimi@gmail.com>",
+	"description": "Optimize laptop battery life",
+	"homepage": "https://linrunner.de/tlp",
+	"filename": "pool/main/t/tlp/tlp_1.9.1-1~bpo13+1_all.deb",
+	"size": 118664,
+	"sha256": "f78da3b9922c90c7967dd09a65f33165fc3c61d11a083d4174a958cdc96462cf",
+	"descriptionMd5": "cb4da4fa6473d20c924b4a2752c50948"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tlp",
 	"version": "1.8.0-1",
 	"section": "utils",
 	"priority": "optional",

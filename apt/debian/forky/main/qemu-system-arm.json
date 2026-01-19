@@ -5,25 +5,22 @@
 		"Size"
 	],
 	"package": "qemu-system-arm",
-	"source": "qemu (1:10.1.2+ds-3)",
-	"version": "1:10.1.2+ds-3+b1",
+	"source": "qemu",
+	"version": "1:10.2.0+ds-2",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libaio1t64 (>= 0.3.93)",
 		"libbpf1 (>= 1:0.0.8)",
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.42)",
 		"libcapstone5 (>= 5)",
 		"libfdt1 (>= 1.7.2)",
 		"libfuse3-4 (>= 3.17.2)",
 		"libglib2.0-0t64 (>= 2.78.0)",
-		"libgmp10 (>= 2:6.3.0+dfsg)",
 		"libgnutls30t64 (>= 3.8.6)",
-		"libhogweed6t64",
 		"libibverbs1 (>= 1.1.6)",
 		"libjpeg62-turbo (>= 1.3.1)",
-		"libnettle8t64 (>= 3.9~)",
 		"libnuma1 (>= 2.0.15)",
 		"libpixman-1-0 (>= 0.30.0)",
 		"libpmem1 (>= 1.4)",
@@ -37,8 +34,8 @@
 		"libvdeplug2t64 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:10.1.2+ds-3+b1)",
-		"qemu-system-data (>> 1:10.1.2+ds~)"
+		"qemu-system-common (= 1:10.2.0+ds-2)",
+		"qemu-system-data (>> 1:10.2.0+ds~)"
 	],
 	"recommends": [
 		"qemu-utils",
@@ -46,23 +43,23 @@
 		"seabios",
 		"qemu-efi-aarch64",
 		"qemu-efi-arm",
-		"qemu-system-gui (= 1:10.1.2+ds-3+b1)",
-		"qemu-system-modules-spice (= 1:10.1.2+ds-3+b1)",
-		"qemu-system-modules-opengl (= 1:10.1.2+ds-3+b1)",
-		"qemu-block-extra (= 1:10.1.2+ds-3+b1)"
+		"qemu-system-gui (= 1:10.2.0+ds-2)",
+		"qemu-system-modules-spice (= 1:10.2.0+ds-2)",
+		"qemu-system-modules-opengl (= 1:10.2.0+ds-2)",
+		"qemu-block-extra (= 1:10.2.0+ds-2)"
 	],
 	"suggests": [
 		"samba",
 		"vde2",
 		"passt"
 	],
-	"installedSize": 67391,
+	"installedSize": 67559,
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (arm)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-arm_10.1.2+ds-3+b1_amd64.deb",
-	"size": 9779000,
-	"md5": "420ade46c201d84df8e0c3f170988698",
-	"sha256": "150426d5ca665fab97d497800b10a82a067d5f08534441ad3b258687a52b5949",
+	"filename": "pool/main/q/qemu/qemu-system-arm_10.2.0+ds-2_amd64.deb",
+	"size": 9868668,
+	"md5": "a9dac0bbff0665a80b5527229e09d864",
+	"sha256": "7c81795b286a533a31d816f9192f85a1afe06da6184bd999ee5773a6487f5331",
 	"descriptionMd5": "83d726eaed5d7e2ff1d8f100e85c8a47"
 }

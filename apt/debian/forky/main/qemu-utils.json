@@ -5,20 +5,17 @@
 		"Size"
 	],
 	"package": "qemu-utils",
-	"source": "qemu (1:10.1.2+ds-3)",
-	"version": "1:10.1.2+ds-3+b1",
+	"source": "qemu",
+	"version": "1:10.2.0+ds-2",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libaio1t64 (>= 0.3.93)",
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.42)",
 		"libfuse3-4 (>= 3.17.2)",
 		"libglib2.0-0t64 (>= 2.78.0)",
-		"libgmp10 (>= 2:6.3.0+dfsg)",
 		"libgnutls30t64 (>= 3.8.2)",
-		"libhogweed6t64",
-		"libnettle8t64 (>= 3.9~)",
 		"libnuma1 (>= 2.0.11)",
 		"libselinux1 (>= 3.1~)",
 		"liburing2 (>= 2.3)",
@@ -26,7 +23,7 @@
 		"zlib1g (>= 1:1.1.4)"
 	],
 	"recommends": [
-		"qemu-block-extra (= 1:10.1.2+ds-3+b1)"
+		"qemu-block-extra (= 1:10.2.0+ds-2)"
 	],
 	"replaces": [
 		"qemu-system-common (<< 1:8.0+dfsg-5~)"
@@ -34,13 +31,13 @@
 	"breaks": [
 		"qemu-system-common (<< 1:8.0+dfsg-5~)"
 	],
-	"installedSize": 12206,
+	"installedSize": 12161,
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU utilities",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-utils_10.1.2+ds-3+b1_amd64.deb",
-	"size": 1975156,
-	"md5": "012dbb22eb6e156b1117eb1e3e8541d6",
-	"sha256": "a90a867bd23387183f47389cbb58f8793946101ba5ab7c0d74daf9eebfda301f",
+	"filename": "pool/main/q/qemu/qemu-utils_10.2.0+ds-2_amd64.deb",
+	"size": 1972120,
+	"md5": "999c6a8d214bc90aa036af6c475ee092",
+	"sha256": "eac54073298abfed984f490303223c0ff9f378deba861c8fb9625c63ae6303dd",
 	"descriptionMd5": "e9a53dad71a4086bf8884b2795d9f180"
 }
