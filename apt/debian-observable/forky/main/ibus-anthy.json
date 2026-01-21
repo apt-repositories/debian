@@ -5,26 +5,27 @@
 		"Size"
 	],
 	"package": "ibus-anthy",
-	"version": "1.5.17-1",
+	"version": "1.5.17-3",
 	"section": "utils",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
 		"anthy (>= 1:0.3-6)",
 		"ibus (>= 1.5.22-2~)",
+		"gir1.2-anthy-9000 (>= 1.5.17-3)",
+		"gir1.2-anthy-9000 (<< 1.5.17-3.1~)",
+		"libanthygobject-1.0-5 (>= 1.5.17-3)",
+		"libanthygobject-1.0-5 (<< 1.5.17-3.1~)",
 		"dconf-gsettings-backend | gsettings-backend",
-		"python3:any",
-		"libanthy1t64",
-		"libc6 (>= 2.4)",
-		"libglib2.0-0t64 (>= 2.80.0)"
+		"python3:any"
 	],
-	"installedSize": 8900,
+	"installedSize": 8867,
 	"maintainer": "Debian Input Method Team <debian-input-method@lists.debian.org>",
 	"description": "anthy engine for IBus",
 	"homepage": "https://github.com/fujiwarat/ibus-anthy/wiki",
-	"filename": "pool/main/i/ibus-anthy/ibus-anthy_1.5.17-1_amd64.deb",
-	"size": 775928,
-	"md5": "da361cf1c1bdced1e02dec4fe03f6aa0",
-	"sha256": "78472b69f678d1e331696cda2ad9770292cfab6590f5d747ceb13728f5a0aa51",
+	"filename": "pool/main/i/ibus-anthy/ibus-anthy_1.5.17-3_all.deb",
+	"size": 774552,
+	"md5": "1c0a7216a2213cb30c3d52ffabbcfa02",
+	"sha256": "f3a24d708eb9c3bfba04611e7dddb264f8d7a9ad7dda0782715f8da6b41279b4",
 	"descriptionMd5": "505c94c7454cb60018e66638b33fc6c0"
 }]
