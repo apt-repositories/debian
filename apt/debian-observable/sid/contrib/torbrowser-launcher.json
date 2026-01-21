@@ -5,14 +5,13 @@
 		"Size"
 	],
 	"package": "torbrowser-launcher",
-	"version": "0.3.7-3",
+	"version": "0.3.9-1",
 	"section": "contrib/python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"python3-gpg",
 		"python3-packaging",
-		"python3-pyqt5",
 		"python3-requests",
 		"python3-socks",
 		"python3:any",
@@ -20,7 +19,10 @@
 		"gnupg",
 		"libasound2",
 		"libdbus-glib-1-2",
-		"libgtk-3-0"
+		"libgtk-3-0",
+		"python3-pyside6.qtcore",
+		"python3-pyside6.qtgui",
+		"python3-pyside6.qtwidgets"
 	],
 	"recommends": [
 		"tor"
@@ -28,13 +30,13 @@
 	"suggests": [
 		"apparmor"
 	],
-	"installedSize": 242,
+	"installedSize": 247,
 	"maintainer": "Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>",
 	"description": "helps download and run the Tor Browser Bundle",
 	"homepage": "https://github.com/micahflee/torbrowser-launcher",
-	"filename": "pool/contrib/t/torbrowser-launcher/torbrowser-launcher_0.3.7-3_amd64.deb",
-	"size": 54872,
-	"md5": "3d1cc953556becb7be97f7224c5db08f",
-	"sha256": "a70a9da89b4ea3adf4542de27595ab3d8e6914c5efd66ecbded627157f3b5274",
+	"filename": "pool/contrib/t/torbrowser-launcher/torbrowser-launcher_0.3.9-1_amd64.deb",
+	"size": 57124,
+	"md5": "882f788f864dc38f9ad85d04d864af63",
+	"sha256": "1d5c44a689f0296f669932300090770935e907ee000052f988a30efbbd164d33",
 	"descriptionMd5": "b0854a8ad502dfc5674b1beee27762fe"
 }]
