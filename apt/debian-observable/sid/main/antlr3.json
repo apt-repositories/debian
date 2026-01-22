@@ -5,28 +5,24 @@
 		"Size"
 	],
 	"package": "antlr3",
-	"version": "3.5.3-3",
+	"version": "3.5.3-4",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"default-jre-headless | java7-runtime-headless",
-		"libantlr3-runtime-java (= 3.5.3-3)",
+		"libantlr3-runtime-java (>= 3.5.3-4)",
+		"ant",
+		"libstringtemplate-java",
 		"libstringtemplate4-java"
 	],
-	"recommends": [
-		"libstringtemplate-java"
-	],
-	"breaks": [
-		"jython (<< 2.5.3-7~)"
-	],
-	"installedSize": 1216,
+	"installedSize": 1214,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "language tool for constructing recognizers, compilers etc",
 	"homepage": "https://www.antlr3.org",
-	"filename": "pool/main/a/antlr3/antlr3_3.5.3-3_all.deb",
-	"size": 1151820,
-	"md5": "80bb1d022d273d20b652bd1784c5aee5",
-	"sha256": "9c5a1ed89f0e55333264259582fc8324237027b4c2afa47cc98bfb6356f7abf2",
+	"filename": "pool/main/a/antlr3/antlr3_3.5.3-4_all.deb",
+	"size": 1151244,
+	"md5": "b36365e469d97669db363299b082e603",
+	"sha256": "bc593f7506e2e877bf14967d6c7d63a07c685e32e1804770ee95870841758147",
 	"descriptionMd5": "21a2d2105df695e242797a7829b2c9b5"
 }]
