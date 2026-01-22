@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "i3-wm",
-	"version": "4.24-1",
+	"version": "4.25-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"dex",
 		"i3status",
+		"perl:any",
 		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.10.0)",
 		"libev4t64 (>= 1:4.04)",
@@ -22,7 +23,7 @@
 		"libstartup-notification0 (>= 0.10)",
 		"libxcb-cursor0 (>= 0.0.99)",
 		"libxcb-icccm4 (>= 0.4.2)",
-		"libxcb-keysyms1 (>= 0.4.0)",
+		"libxcb-keysyms1 (>= 0.4.1)",
 		"libxcb-randr0 (>= 1.12)",
 		"libxcb-shape0",
 		"libxcb-util1 (>= 0.4.0)",
@@ -32,23 +33,22 @@
 		"libxcb1 (>= 1.6)",
 		"libxkbcommon-x11-0 (>= 0.5.0)",
 		"libxkbcommon0 (>= 0.5.0)",
-		"libyajl2 (>= 2.0.4)",
-		"perl:any"
+		"libyajl2 (>= 2.0.4)"
 	],
 	"recommends": [
-		"xfonts-base",
 		"fonts-dejavu-core",
 		"libanyevent-i3-perl",
 		"libjson-xs-perl",
-		"rxvt-unicode | x-terminal-emulator"
+		"rxvt-unicode | x-terminal-emulator",
+		"xfonts-base"
 	],
-	"installedSize": 2577,
+	"installedSize": 2560,
 	"maintainer": "Debian i3 maintainers <team+i3@tracker.debian.org>",
 	"description": "improved dynamic tiling window manager",
 	"homepage": "https://i3wm.org/",
-	"filename": "pool/main/i/i3-wm/i3-wm_4.24-1_amd64.deb",
-	"size": 1029356,
-	"md5": "d123ba22c09382372b63bc0ecac16fbf",
-	"sha256": "e355c57fe5188b1f5401f9ab48a02e41feaeecbadcade22ceda75b89154a897a",
+	"filename": "pool/main/i/i3-wm/i3-wm_4.25-1_amd64.deb",
+	"size": 1024780,
+	"md5": "8c51027b32b2120b48c963a698980a20",
+	"sha256": "5d3f26e99c880af3c6332248d0cbf4adff9ab9f2227d60af680ce49807284c44",
 	"descriptionMd5": "2be7e62f455351435b1e055745d3e81c"
 }]

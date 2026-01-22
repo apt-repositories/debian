@@ -5,27 +5,27 @@
 		"Size"
 	],
 	"package": "sox",
-	"source": "sox (14.4.2+git20190427-5)",
-	"version": "14.4.2+git20190427-5+b3",
+	"source": "sox-ng",
+	"version": "14.7.0.4+ds1-4",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libsox-fmt-alsa (= 14.4.2+git20190427-5+b3) | libsox-fmt-ao (= 14.4.2+git20190427-5+b3) | libsox-fmt-oss (= 14.4.2+git20190427-5+b3) | libsox-fmt-pulse (= 14.4.2+git20190427-5+b3)",
-		"libsox-fmt-base (= 14.4.2+git20190427-5+b3)",
-		"libsox3 (= 14.4.2+git20190427-5+b3)",
-		"libc6 (>= 2.34)"
+		"libsox-fmt-base (= 14.7.0.4+ds1-4)",
+		"libsox-ng3 (= 14.7.0.4+ds1-4)",
+		"libc6 (>= 2.38)"
 	],
 	"suggests": [
-		"libsox-fmt-all"
+		"libsox-fmt-all",
+		"libsox-fmt-alsa (= 14.7.0.4+ds1-4) | libsox-fmt-oss (= 14.7.0.4+ds1-4)"
 	],
-	"installedSize": 216,
+	"installedSize": 230,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Swiss army knife of sound processing",
-	"homepage": "https://sox.sourceforge.io/",
-	"filename": "pool/main/s/sox/sox_14.4.2+git20190427-5+b3_amd64.deb",
-	"size": 133428,
-	"md5": "f6b116924b8b2c5b4fd742d5ba7b4a56",
-	"sha256": "918cef8e8675b2de562af0266b2dab1b9c4609c24590bcdfe8e39ce7e8e8aacb",
-	"descriptionMd5": "333cd274ebee7570f357dafba9b6461d"
+	"homepage": "https://codeberg.org/sox_ng/sox_ng",
+	"filename": "pool/main/s/sox-ng/sox_14.7.0.4+ds1-4_amd64.deb",
+	"size": 147100,
+	"md5": "2bdc70b317e09e0eb4d65a668d9986eb",
+	"sha256": "cff6cd4f1d1c7b248a84ec4d189ff4f232a17904723c091ef3cce455f14daba3",
+	"descriptionMd5": "78530018aa93bf8310a27cc801dfcdaf"
 }]

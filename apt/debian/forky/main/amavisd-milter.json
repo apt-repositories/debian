@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amavisd-milter",
+	"version": "1.7.2-3",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libmilter1.0.1",
+		"amavisd-new",
+		"lsb-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"sendmail | postfix"
+	],
+	"replaces": [
+		"amavisd-new-milter (<= 1:2.6.4-2)"
+	],
+	"breaks": [
+		"amavisd-new-milter (<= 1:2.6.4-2)"
+	],
+	"installedSize": 90,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "amavisd-new interface for milter-capable MTAs",
+	"homepage": "https://github.com/prehor/amavisd-milter",
+	"filename": "pool/main/a/amavisd-milter/amavisd-milter_1.7.2-3_amd64.deb",
+	"size": 30884,
+	"md5": "af9b167ae3be5ccbf99dbac3f2d89614",
+	"sha256": "fd3c3009d2176b6df162abe63bf1c2fa513f5bab7e2b9d682da811b79023f327",
+	"descriptionMd5": "5aa8c00571da46088afa733d6b6dc007"
+}
