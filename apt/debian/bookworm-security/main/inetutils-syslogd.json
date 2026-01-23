@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-syslogd",
+	"source": "inetutils",
+	"version": "2:2.4-2+deb12u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"sysvinit-utils (>= 3.05-4~)",
+		"netbase"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"syslogd"
+	],
+	"conflicts": [
+		"linux-kernel-log-daemon",
+		"system-log-daemon"
+	],
+	"installedSize": 167,
+	"maintainer": "Guillem Jover <guillem@debian.org>",
+	"description": "system logging daemon",
+	"homepage": "https://www.gnu.org/software/inetutils/",
+	"filename": "pool/updates/main/i/inetutils/inetutils-syslogd_2.4-2+deb12u2_amd64.deb",
+	"size": 84328,
+	"sha256": "83f16b838552d9212b725e0ec820b47168075d6f87a0c6a5d0c390702f31cd6e",
+	"descriptionMd5": "2114d87f02896f73b904f74e7b55d1af"
+}

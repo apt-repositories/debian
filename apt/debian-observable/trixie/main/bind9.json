@@ -51,8 +51,66 @@
 	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
 	"description": "Internet Domain Name Server",
 	"homepage": "https://www.isc.org/downloads/bind/",
-	"filename": "pool/updates/main/b/bind9/bind9_9.20.15-1~deb13u1_amd64.deb",
+	"filename": "pool/main/b/bind9/bind9_9.20.15-1~deb13u1_amd64.deb",
 	"size": 254108,
+	"md5": "3a8a3d9695ebb22f1b32f75b6825d368",
 	"sha256": "2aeafae43fe8aa9baf1761d3a0cd39563016c8d0c9fa96d8a4d552688a97cabc",
+	"descriptionMd5": "2cdf89d501b5ca6fe55e945de47cc047"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9",
+	"version": "1:9.20.18-1~deb13u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"bind9-libs (= 1:9.20.18-1~deb13u1)",
+		"bind9-utils (= 1:9.20.18-1~deb13u1)",
+		"debconf | debconf-2.0",
+		"dns-root-data",
+		"iproute2",
+		"netbase",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libfstrm0 (>= 0.2.0)",
+		"libjemalloc2 (>= 3.5.0)",
+		"libjson-c5 (>= 0.15)",
+		"liblmdb0 (>= 0.9.7)",
+		"libmaxminddb0 (>= 1.3.0)",
+		"libnghttp2-14 (>= 1.3.0)",
+		"libprotobuf-c1 (>= 1.0.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"liburcu8t64 (>= 0.13.0)",
+		"libuv1t64 (>= 1.18.0)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"bind9-doc",
+		"bind9-dnsutils",
+		"resolvconf",
+		"ufw"
+	],
+	"replaces": [
+		"bind (<< 1:9.13.6~)"
+	],
+	"breaks": [
+		"bind (<< 1:9.13.6~)"
+	],
+	"installedSize": 892,
+	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
+	"description": "Internet Domain Name Server",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/updates/main/b/bind9/bind9_9.20.18-1~deb13u1_amd64.deb",
+	"size": 254520,
+	"sha256": "92dcdf10e2bca12146953a9a9bf6d91b17b6a43f151a3003bd4cd900ef41220b",
 	"descriptionMd5": "2cdf89d501b5ca6fe55e945de47cc047"
 }]
