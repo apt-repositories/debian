@@ -6,23 +6,25 @@
 	],
 	"package": "python3-rich",
 	"source": "rich",
-	"version": "13.9.4-1",
+	"version": "13.9.4-1.2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-markdown-it",
-		"python3-pygments (>= 2.14.0)",
-		"python3-typing-extensions (>= 3.7.4) | python3-supported-min (>= 3.11)",
+		"python3-pygments (>= 2.19.0)",
 		"python3:any"
+	],
+	"breaks": [
+		"python3-textual (<< 2.1.2-1.1~)"
 	],
 	"installedSize": 1072,
 	"maintainer": "Sandro Tosi <morph@debian.org>",
 	"description": "render rich text, tables, progress bars, syntax highlighting, markdown and more",
 	"homepage": "https://github.com/Textualize/rich",
-	"filename": "pool/main/r/rich/python3-rich_13.9.4-1_all.deb",
-	"size": 202836,
-	"md5": "bb0c9294ff5a42df3aa234acfbeaeda3",
-	"sha256": "745296dd316038317da3ea305052f16b6e2da40c1e7454c4d55f483830b98188",
+	"filename": "pool/main/r/rich/python3-rich_13.9.4-1.2_all.deb",
+	"size": 203060,
+	"md5": "efdb8c3c9e8bc55f8d35b38e3eb54437",
+	"sha256": "cc724b157dd0a802b5b7bd9234129bb40453f2dc4934f1c58cb72a90c6133f38",
 	"descriptionMd5": "0de6cad197d4560bd282be425a011767"
 }

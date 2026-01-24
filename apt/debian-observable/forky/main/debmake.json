@@ -5,13 +5,15 @@
 		"Size"
 	],
 	"package": "debmake",
-	"version": "4.5.4",
+	"version": "5.0.2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"devscripts",
 		"dpkg-dev",
+		"devscripts",
+		"licensecheck",
+		"licenserecon",
 		"python3-debian",
 		"rsync",
 		"python3:any"
@@ -22,14 +24,14 @@
 		"wget | curl"
 	],
 	"suggests": [
+		"dh-autoreconf",
+		"dh-python",
+		"dh-sequence-single-binary",
 		"autotools-dev",
 		"ccache",
 		"cmake",
 		"debmake-doc",
 		"dgit",
-		"dh-autoreconf",
-		"dh-python",
-		"dh-sequence-single-binary",
 		"eatmydata",
 		"gem2deb",
 		"git",
@@ -44,13 +46,13 @@
 		"rpm2cpio",
 		"sbuild"
 	],
-	"installedSize": 477,
+	"installedSize": 329,
 	"maintainer": "Osamu Aoki <osamu@debian.org>",
 	"description": "helper script to make the Debian source package",
 	"homepage": "https://salsa.debian.org/debian/debmake",
-	"filename": "pool/main/d/debmake/debmake_4.5.4_all.deb",
-	"size": 80956,
-	"md5": "b7916f35403f37cc15ad643444ef3df9",
-	"sha256": "b34821404fa04eec1fd9a1c83472a3180fd2632b0448fc6f9c7e5b7ef2cfb2fd",
+	"filename": "pool/main/d/debmake/debmake_5.0.2_all.deb",
+	"size": 55552,
+	"md5": "92122e273e73ae7a6d2f4c4642c0d6bf",
+	"sha256": "4c1438ffbb2bb8e918830d852621a15a4d8addfe89a00a349e192de090840d37",
 	"descriptionMd5": "550de7d58ffad3a8525f1ae19db5cc54"
 }]

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libmail-message-perl",
-	"version": "4.01-1",
+	"version": "4.02-1",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -27,13 +27,16 @@
 		"libmime-tools-perl",
 		"libtext-autoformat-perl"
 	],
+	"breaks": [
+		"libmail-box-perl (<< 4~)"
+	],
 	"installedSize": 1218,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "generic class representing mail messages (perl library)",
 	"homepage": "https://metacpan.org/release/Mail-Message",
-	"filename": "pool/main/libm/libmail-message-perl/libmail-message-perl_4.01-1_all.deb",
-	"size": 416252,
-	"md5": "c777aaf196930421ca39f3936cbd0051",
-	"sha256": "3a3f0abdeece815f7d6c1a913a5a3fba4b626a32c6cad0e4107dc9f5cef68472",
+	"filename": "pool/main/libm/libmail-message-perl/libmail-message-perl_4.02-1_all.deb",
+	"size": 416596,
+	"md5": "6eba3d23a1aa444fa19e5a9a84c2ee91",
+	"sha256": "47b9deae2ae61a77b9520a4163312968221450dcf9570349c8b0d8eaebb2cb18",
 	"descriptionMd5": "be34bfbdc1e3cf069b92fc771e12bbf3"
 }

@@ -5,15 +5,20 @@
 		"Size"
 	],
 	"package": "libf77dcl7",
-	"source": "dcl (7.5.2-1)",
-	"version": "7.5.2-1+b1",
+	"source": "dcl",
+	"version": "7.5.2-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.35)",
+		"libc6 (>= 2.38)",
+		"libcairo2 (>= 1.6.0)",
 		"libgcc-s1 (>= 4.0)",
-		"libgfortran5 (>= 10)"
+		"libgfortran5 (>= 10)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libgtk-3-0t64 (>= 3.2.1)",
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)"
 	],
 	"replaces": [
 		"libf77dcl5 (<< 7)",
@@ -23,13 +28,13 @@
 		"libf77dcl5 (<< 7)",
 		"libf77dcl6 (<< 7)"
 	],
-	"installedSize": 2734,
+	"installedSize": 2537,
 	"maintainer": "Youhei SASAKI <uwabami@gfd-dennou.org>",
 	"description": "GFD-DENNOU Club Library (DCL) - shared library",
 	"homepage": "https://www.gfd-dennou.org/arch/dcl/",
-	"filename": "pool/main/d/dcl/libf77dcl7_7.5.2-1+b1_amd64.deb",
-	"size": 722592,
-	"md5": "99b98778842c8a67a542cb8cf6c2fd6e",
-	"sha256": "3cfd61209f026d772c3168af5045b3feadbd480c7f2eadecb055a980664f77b6",
+	"filename": "pool/main/d/dcl/libf77dcl7_7.5.2-3_amd64.deb",
+	"size": 694992,
+	"md5": "c276b6fc9b52f955b7e22212d87f89c6",
+	"sha256": "885e12266f51a277634dc61119656b49bbe082fe80e4d343544628e23603e0b1",
 	"descriptionMd5": "ee2c7761ef80d7d438389536da8877e5"
 }]
