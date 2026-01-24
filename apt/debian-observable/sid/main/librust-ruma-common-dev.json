@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-ruma-common-dev",
-	"source": "rust-ruma-common (0.14.1+ds-6)",
-	"version": "0.17.1+0.14.1+ds-6",
+	"source": "rust-ruma-common (0.14.1+ds-7)",
+	"version": "0.17.1+0.14.1+ds-7",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "all",
@@ -74,13 +74,19 @@
 		"librust-wildmatch-2+default-dev",
 		"librust-zeroize-1+default-dev"
 	],
+	"breaks": [
+		"librust-ruma-identifiers-validation-dev (<< 0.9.0-2++)",
+		"librust-ruma-macros-dev (<< 0.10.5-1++)",
+		"librust-ruma-push-gateway-api-dev (<< 0.6.0-1++)",
+		"librust-ruma-state-res-dev (<< 0.8.0-5++)"
+	],
 	"installedSize": 4990,
 	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
 	"description": "Matrix chat network libraries - Rust source code",
 	"homepage": "https://www.ruma.io/",
-	"filename": "pool/main/r/rust-ruma-common/librust-ruma-common-dev_0.17.1+0.14.1+ds-6_all.deb",
-	"size": 555196,
-	"md5": "3d6249ac53a2ef00ee1eb231e18121e6",
-	"sha256": "e2b1bf2d8a667d778ddb8f7934307b9dd3b6368da05380d73f95a4c4e0c9f88b",
+	"filename": "pool/main/r/rust-ruma-common/librust-ruma-common-dev_0.17.1+0.14.1+ds-7_all.deb",
+	"size": 555288,
+	"md5": "4378ac98e122d6ee363245b318a895db",
+	"sha256": "e20ac1c5a3bcf72c6b378f9c83d2a16b4064094130393908e3d1ba8d56e94431",
 	"descriptionMd5": "fe442760b1261c63950e3e415768a414"
 }]
