@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libmodule-starter-perl",
-	"version": "1.800+dfsg-1",
+	"version": "1.800+dfsg-2",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,13 +15,16 @@
 		"libmodule-runtime-perl",
 		"libsoftware-license-perl"
 	],
+	"breaks": [
+		"libmodule-starter-smart-perl (<< 0.0.9-3~)"
+	],
 	"installedSize": 113,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "simple starter kit for Perl modules",
 	"homepage": "https://metacpan.org/release/Module-Starter",
-	"filename": "pool/main/libm/libmodule-starter-perl/libmodule-starter-perl_1.800+dfsg-1_all.deb",
-	"size": 44452,
-	"md5": "184ca50f29ae5c9ad1e29bb169029b4c",
-	"sha256": "4ce07fc7598116a1f4bcf74b3013539fccdbc9dc2c5213b9184568a1da4fff5e",
+	"filename": "pool/main/libm/libmodule-starter-perl/libmodule-starter-perl_1.800+dfsg-2_all.deb",
+	"size": 44544,
+	"md5": "72d1f3bf492c87d94f9b722a35689536",
+	"sha256": "b8c89c9b2ae6ee42e59a10b15d2b744270a3f1adeb4795ebb6bcd5f52fa09f55",
 	"descriptionMd5": "50f4c2a62ee9044d7a70aaf3a959f7bc"
 }]

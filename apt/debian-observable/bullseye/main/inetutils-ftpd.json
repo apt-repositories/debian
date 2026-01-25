@@ -30,4 +30,35 @@
 	"md5": "732bf2023c1b71e0bce67d51d10a2756",
 	"sha256": "f4e1b17fc9af6dbe9ac2a00548eb333001461ca79f01b0054b2788bd99ceb947",
 	"descriptionMd5": "ab797b9be2c2043f3a1cccfcbbd951f0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-ftpd",
+	"source": "inetutils",
+	"version": "2:2.0-1+deb11u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.27)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libwrap0 (>= 7.6-4~)",
+		"inetutils-syslogd | system-log-daemon",
+		"netbase"
+	],
+	"conflicts": [
+		"ftp-server"
+	],
+	"installedSize": 360,
+	"maintainer": "Guillem Jover <guillem@debian.org>",
+	"description": "File Transfer Protocol server",
+	"homepage": "https://www.gnu.org/software/inetutils/",
+	"filename": "pool/updates/main/i/inetutils/inetutils-ftpd_2.0-1+deb11u3_amd64.deb",
+	"size": 262120,
+	"sha256": "9256a1a5bdf1885d0903a3933743941dc51f7e266e1174b38ab5c0e2951c87f9",
+	"descriptionMd5": "ab797b9be2c2043f3a1cccfcbbd951f0"
 }]

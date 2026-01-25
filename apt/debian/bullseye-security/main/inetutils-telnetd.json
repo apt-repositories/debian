@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-telnetd",
+	"source": "inetutils",
+	"version": "2:2.0-1+deb11u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.6.dfsg.2)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libtinfo6 (>= 6)",
+		"inetutils-inetd | inet-superserver",
+		"inetutils-syslogd | system-log-daemon",
+		"netbase"
+	],
+	"conflicts": [
+		"telnet-server"
+	],
+	"installedSize": 360,
+	"maintainer": "Guillem Jover <guillem@debian.org>",
+	"description": "telnet server",
+	"homepage": "https://www.gnu.org/software/inetutils/",
+	"filename": "pool/updates/main/i/inetutils/inetutils-telnetd_2.0-1+deb11u3_amd64.deb",
+	"size": 261204,
+	"sha256": "0570f54d33ea47bd247e16749936af955561d2b98cb5361ccfb35a5ff3ce6ab3",
+	"descriptionMd5": "307eb7852949929b7d82313556f3dc78"
+}
