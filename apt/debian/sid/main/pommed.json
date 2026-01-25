@@ -5,29 +5,31 @@
 		"Size"
 	],
 	"package": "pommed",
-	"source": "pommed (1.39~dfsg-5.2)",
-	"version": "1.39~dfsg-5.2+b1",
+	"version": "1.39~dfsg-5.3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libasound2t64 (>= 1.0.16)",
 		"libaudiofile1 (>= 0.3.6)",
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libconfuse2 (>= 3.2.1~)",
-		"libdbus-1-3 (>= 1.9.14)",
-		"libpci3 (>= 1:3.8.0)",
+		"libdbus-1-3 (>= 1.10)",
+		"libpci3 (>= 1:3.13.0)",
 		"eject"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"dbus"
 	],
-	"installedSize": 142,
+	"installedSize": 146,
 	"maintainer": "Debian Mactel <team+pkg-mactel-devel@tracker.debian.org>",
 	"description": "Apple laptops hotkeys event handler",
-	"filename": "pool/main/p/pommed/pommed_1.39~dfsg-5.2+b1_amd64.deb",
-	"size": 51796,
-	"md5": "705b6aa9279457bcf37eec747c0fff3b",
-	"sha256": "ed533ae3f349bb5438efeabe562b3709fa95618d1f1c29472eefc0ac3aef38be",
+	"filename": "pool/main/p/pommed/pommed_1.39~dfsg-5.3_amd64.deb",
+	"size": 52556,
+	"md5": "4d0b93c211c9533ef1891a77d4a4f99a",
+	"sha256": "b73395244673e62f63aa4e45480f6c6acdbc37a7bd61e2556397962c5692d25e",
 	"descriptionMd5": "3e96cd8901dd06e6946be0ab88e18977"
 }

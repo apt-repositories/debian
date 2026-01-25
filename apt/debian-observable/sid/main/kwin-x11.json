@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "kwin-x11",
-	"version": "4:6.5.4-1",
+	"version": "4:6.5.4-2",
 	"section": "kde",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"hwdata",
 		"kwin-common",
-		"kwin-x11-data (= 4:6.5.4-1)",
+		"kwin-x11-data (= 4:6.5.4-2)",
 		"xauth",
 		"xinit",
 		"xkb-data",
@@ -69,25 +69,29 @@
 		"libxcb1 (>= 1.6)",
 		"libxkbcommon-x11-0 (>= 0.5.0)",
 		"libxkbcommon0 (>= 0.7.0~)",
-		"qt6-base-private-abi (= 6.9.2)"
+		"qt6-base-private-abi (= 6.9.2)",
+		"qt6-declarative-private-abi (= 6.9.2)",
+		"qt6-waylandclient-private-abi (= 6.9.2)"
 	],
 	"recommends": [
 		"kde-style-breeze",
 		"kwin-style-aurorae"
 	],
 	"replaces": [
-		"kwin-common (<< 4:6.4.0~)"
+		"kwin-common (<< 4:6.4.0~)",
+		"kwin-data (<< 4:6.4.91-1~)"
 	],
 	"breaks": [
-		"kwin-common (<< 4:6.4.0~)"
+		"kwin-common (<< 4:6.4.0~)",
+		"kwin-data (<< 4:6.4.91-1~)"
 	],
 	"installedSize": 5931,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "KDE window manager, X11 version",
 	"homepage": "https://invent.kde.org/plasma/kwin-x11",
-	"filename": "pool/main/k/kwin-x11/kwin-x11_6.5.4-1_amd64.deb",
-	"size": 1160992,
-	"md5": "5d11f597ac73c01a7741c0aa193d8826",
-	"sha256": "8c7ec55600529d65055c9f202c78abc619246cacc0bf0640bac638d35d5be21e",
+	"filename": "pool/main/k/kwin-x11/kwin-x11_6.5.4-2_amd64.deb",
+	"size": 1160756,
+	"md5": "778b848fdb61a192d8b1110152c3d0e2",
+	"sha256": "da22187047d67f6a60920ba34321bcf42b661b5df207169232662f429d89d227",
 	"descriptionMd5": "09e9d67f4d096a99b79365df6d188f93"
 }]
