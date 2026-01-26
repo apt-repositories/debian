@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "python3-mwparserfromhell",
-	"source": "mwparserfromhell (0.6.6-1)",
-	"version": "0.6.6-1+b4",
+	"source": "mwparserfromhell",
+	"version": "0.6.6-1.1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"python3:any"
+		"python3 (<< 3.15)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libc6 (>= 2.38)"
 	],
-	"installedSize": 253,
+	"installedSize": 396,
 	"maintainer": "Kunal Mehta <legoktm@debian.org>",
 	"description": "Outrageously powerful parser for MediaWiki wikicode (Python 3)",
 	"homepage": "https://github.com/earwig/mwparserfromhell",
-	"filename": "pool/main/m/mwparserfromhell/python3-mwparserfromhell_0.6.6-1+b4_amd64.deb",
-	"size": 45968,
-	"md5": "9b8e75edbfe08c7303fabbfb0692bfa6",
-	"sha256": "72a4391858901d42299968db967241e4783e3eb0e6c8892ea2c2e76f01ea1df6",
+	"filename": "pool/main/m/mwparserfromhell/python3-mwparserfromhell_0.6.6-1.1_amd64.deb",
+	"size": 77624,
+	"md5": "3d9996abfe2f95c6d68e6e870b5bba1c",
+	"sha256": "13245537355652f4ce630ddafc02f544a92d303c02c3b16d94cfd2030099d79f",
 	"descriptionMd5": "d0873b25f6ff81281cae023612066ab8"
 }]
