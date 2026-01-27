@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "librust-versions-dev",
-	"source": "rust-versions (6.3.2-1)",
-	"version": "6.3.2-1+b2",
+	"source": "rust-versions",
+	"version": "6.3.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-itertools-0.13+default-dev",
+		"librust-itertools+default-dev (<< 0.15-~~)",
+		"librust-itertools+default-dev (>= 0.13-~~)",
 		"librust-nom-7+default-dev (>= 7.1-~~)",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev"
 	],
-	"installedSize": 121,
+	"installedSize": 124,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Parsing and comparing software version numbers - Rust source code",
 	"homepage": "https://github.com/fosskers/rs-versions",
-	"filename": "pool/main/r/rust-versions/librust-versions-dev_6.3.2-1+b2_amd64.deb",
-	"size": 24076,
-	"md5": "18062ba86619d32a7de3cedf9d6e54b0",
-	"sha256": "9ca0bfb7d00120c3a8ff582ed44dd7ddac3df211ceaa7b7c4e61bf69511c65ea",
+	"filename": "pool/main/r/rust-versions/librust-versions-dev_6.3.2-2_amd64.deb",
+	"size": 24100,
+	"md5": "1b998d5d25b2178c83d620979c7f1319",
+	"sha256": "b216c21ac6f2d14e199ff84936a3f1784904773a61958ee61a0ffb345372a87e",
 	"descriptionMd5": "140a596dce2bc42578a0c51531348b5f"
 }]

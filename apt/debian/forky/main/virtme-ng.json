@@ -5,17 +5,20 @@
 		"Size"
 	],
 	"package": "virtme-ng",
-	"version": "1.38-2",
+	"version": "1.40-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-argcomplete",
-		"python3-pkg-resources",
-		"python3-requests",
-		"python3:any",
+		"busybox-static",
 		"file",
-		"kmod"
+		"iproute2",
+		"kbd",
+		"kmod",
+		"util-linux-extra",
+		"python3-argcomplete",
+		"python3-requests",
+		"python3:any"
 	],
 	"recommends": [
 		"qemu-system-x86"
@@ -33,13 +36,13 @@
 	"conflicts": [
 		"virtme"
 	],
-	"installedSize": 293,
+	"installedSize": 340,
 	"maintainer": "Ricardo Ribalda Delgado <ribalda@debian.org>",
 	"description": "Helper scripts to test kernel code on qemu",
 	"homepage": "https://github.com/arighi/virtme-ng",
-	"filename": "pool/main/v/virtme-ng/virtme-ng_1.38-2_all.deb",
-	"size": 73472,
-	"md5": "a15f09ead350f023891c53b1b3cfae57",
-	"sha256": "c59c09d52a34a18c478e12a8cfee7ceb6c39ec241efa71a68c1b567d795fdfb9",
+	"filename": "pool/main/v/virtme-ng/virtme-ng_1.40-2_all.deb",
+	"size": 83716,
+	"md5": "48f92b725e47312ca791e582c9b6f477",
+	"sha256": "b0c5f38beedbd79da43ebb071c63ca95ada8555d9d5f6f60488083717d55d922",
 	"descriptionMd5": "9ff77950bac691c5dd8aaa69fbef616d"
 }
