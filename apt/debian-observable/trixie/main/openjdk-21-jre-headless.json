@@ -52,8 +52,67 @@
 	"maintainer": "OpenJDK Team <openjdk-21@packages.debian.org>",
 	"description": "OpenJDK Java runtime, using Hotspot JIT (headless)",
 	"homepage": "https://openjdk.java.net/",
-	"filename": "pool/updates/main/o/openjdk-21/openjdk-21-jre-headless_21.0.9+10-1~deb13u1_amd64.deb",
+	"filename": "pool/main/o/openjdk-21/openjdk-21-jre-headless_21.0.9+10-1~deb13u1_amd64.deb",
 	"size": 41818132,
+	"md5": "0dc2a2f603272920adaef0da245559a9",
 	"sha256": "d0cbb681f46508b173d60cf937b6dd5d8196f6689bffb296e9d1496c62a2a2e5",
+	"descriptionMd5": "62c2c9689e617c48cc4480926d2ca785"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-21-jre-headless",
+	"source": "openjdk-21",
+	"version": "21.0.10+7-1~deb13u1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ca-certificates-java (>= 20190405~)",
+		"java-common (>= 0.28)",
+		"liblcms2-2 (>= 2.8)",
+		"libjpeg62-turbo (>= 1.3.1)",
+		"libnss3 (>= 2:3.17.1)",
+		"util-linux (>= 2.26.2-4)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libpcsclite1 (>= 1.3.0)",
+		"libstdc++6 (>= 5)",
+		"zlib1g (>= 1:1.2.2)"
+	],
+	"recommends": [
+		"libcups2t64",
+		"libfontconfig1",
+		"libfreetype6 (>= 2.3.5)",
+		"libharfbuzz0b (>= 1.2.6)",
+		"libasound2t64 (>= 1.0.16)"
+	],
+	"suggests": [
+		"libnss-mdns",
+		"fonts-dejavu-extra",
+		"fonts-ipafont-gothic",
+		"fonts-ipafont-mincho",
+		"fonts-wqy-microhei | fonts-wqy-zenhei",
+		"fonts-indic"
+	],
+	"replaces": [
+		"openjdk-11-jdk-headless (<< 11~18-2)"
+	],
+	"breaks": [
+		"clojure1.8 (<= 1.8.0-7ubuntu1~)"
+	],
+	"conflicts": [
+		"openjdk-11-jdk-headless (<< 11~18-2)",
+		"oracle-java11-installer"
+	],
+	"installedSize": 198322,
+	"maintainer": "OpenJDK Team <openjdk-21@packages.debian.org>",
+	"description": "OpenJDK Java runtime, using Hotspot JIT (headless)",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/updates/main/o/openjdk-21/openjdk-21-jre-headless_21.0.10+7-1~deb13u1_amd64.deb",
+	"size": 41831340,
+	"sha256": "74187f9cff343cb5f7c7b5daf8c4f841570ab005ba72db0a3e2ccf188b5af687",
 	"descriptionMd5": "62c2c9689e617c48cc4480926d2ca785"
 }]
