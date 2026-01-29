@@ -6,21 +6,23 @@
 	],
 	"package": "python3-paraview",
 	"source": "paraview",
-	"version": "5.13.2+dfsg-3.1",
+	"version": "6.0.1+dfsg1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"paraview (= 5.13.2+dfsg-3.1)",
+		"paraview (= 6.0.1+dfsg1-1)",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.13~)",
 		"python3:any (<< 3.14)",
 		"python3:any (>= 3.13~)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
-		"libopenmpi40 (>= 5.0.9)",
+		"libjsoncpp26 (>= 1.9.6)",
 		"libpython3.13 (>= 3.13.0~rc3)",
-		"libstdc++6 (>= 13.1)"
+		"libstdc++6 (>= 13.1)",
+		"libtbb12 (>= 2021.4.0)",
+		"libvtk9.5 (>= 9.5.2+dfsg3)"
 	],
 	"replaces": [
 		"paraview-python"
@@ -28,16 +30,13 @@
 	"breaks": [
 		"paraview-python"
 	],
-	"conflicts": [
-		"python3-vtk9"
-	],
-	"installedSize": 132109,
+	"installedSize": 18382,
 	"maintainer": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Parallel Visualization Application. python-support",
 	"homepage": "https://www.paraview.org/",
-	"filename": "pool/main/p/paraview/python3-paraview_5.13.2+dfsg-3.1_amd64.deb",
-	"size": 12918312,
-	"md5": "148f79eecbf0705ab722d4efe92db51a",
-	"sha256": "3a29dcf66ee245a2d1fde9490cb53cb33cb6bd43f1fb5110d965bf88d85ffd4e",
+	"filename": "pool/main/p/paraview/python3-paraview_6.0.1+dfsg1-1_amd64.deb",
+	"size": 2430480,
+	"md5": "7c7ddf666714572891a1c6a2d6af5c67",
+	"sha256": "8b5d556370c1cc07fe4757ecf48cdb7fd80f083a8627e1026ca0901ccfe0484a",
 	"descriptionMd5": "22f1a0e82172ee811a05b35f38dad1a6"
 }

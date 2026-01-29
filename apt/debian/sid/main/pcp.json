@@ -5,23 +5,23 @@
 		"Size"
 	],
 	"package": "pcp",
-	"version": "7.0.5-1",
+	"version": "7.1.0-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.42)",
 		"libdrm-amdgpu1 (>= 2.4.80)",
 		"libdrm2 (>= 2.4.65)",
 		"libncursesw6 (>= 6)",
-		"libpcp-archive1 (= 7.0.5-1)",
+		"libpcp-archive1 (= 7.1.0-1)",
 		"libpcp-gui2",
 		"libpcp-import1",
-		"libpcp-mmv1 (= 7.0.5-1)",
-		"libpcp-pmda3 (= 7.0.5-1)",
+		"libpcp-mmv1 (= 7.1.0-1)",
+		"libpcp-pmda3 (= 7.1.0-1)",
 		"libpcp-trace2",
-		"libpcp-web1 (= 7.0.5-1)",
-		"libpcp4 (= 7.0.5-1)",
+		"libpcp-web1 (= 7.1.0-1)",
+		"libpcp4 (= 7.1.0-1)",
 		"libpfm4 (>= 4.9)",
 		"libreadline8t64 (>= 6.0)",
 		"libssl3t64 (>= 3.0.0)",
@@ -29,12 +29,13 @@
 		"libtinfo6 (>= 6)",
 		"libuv1t64 (>= 1.18.0)",
 		"zlib1g (>= 1:1.1.4)",
+		"perl:any",
 		"gawk",
 		"procps",
 		"zstd",
 		"python3-pcp",
 		"python3",
-		"pcp-conf (= 7.0.5-1)"
+		"pcp-conf (= 7.1.0-1)"
 	],
 	"recommends": [
 		"libpcp-pmda-perl"
@@ -42,14 +43,17 @@
 	"suggests": [
 		"pcp-gui",
 		"libpcp-import-perl",
+		"redis-server",
 		"bpftrace (>= 0.9.2)",
-		"python3-bpfcc",
-		"redis-server"
+		"python3-bpfcc"
 	],
 	"replaces": [
 		"dstat",
 		"pcp-manager",
 		"pcp-webapi"
+	],
+	"breaks": [
+		"pcp-doc (<< 7.1.0)"
 	],
 	"conflicts": [
 		"dstat",
@@ -57,13 +61,13 @@
 		"pcp-webapi",
 		"pgpool2"
 	],
-	"installedSize": 14939,
+	"installedSize": 15004,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "System level performance monitoring and performance management",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/pcp_7.0.5-1_amd64.deb",
-	"size": 3071500,
-	"md5": "1face03a6cdfc01e403fbad23e3d3302",
-	"sha256": "748a397ca3b6ba3c41e67f5ee8922a86ed11e285c54b6cde1d16a91d1ce8fd74",
+	"filename": "pool/main/p/pcp/pcp_7.1.0-1_amd64.deb",
+	"size": 3093736,
+	"md5": "98279b5285d1341b86259b4237c67a3d",
+	"sha256": "cf908817b24e4d5cabd257f27833406a1715f654c7566c38828d9858c5e7933c",
 	"descriptionMd5": "cf73bbf0bd78441a37224ae34c61d9a9"
 }

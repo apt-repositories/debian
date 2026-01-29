@@ -4,9 +4,9 @@
 		"Filename",
 		"Size"
 	],
-	"package": "libgusb2",
+	"package": "libgusb2a",
 	"source": "libgusb",
-	"version": "0.4.9-5",
+	"version": "0.4.9-7",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,19 @@
 	"recommends": [
 		"usb.ids"
 	],
-	"installedSize": 125,
+	"replaces": [
+		"libgusb2 (<< 0.4.9-6~)"
+	],
+	"breaks": [
+		"libgusb2 (<< 0.4.9-6~)"
+	],
+	"installedSize": 128,
 	"maintainer": "Debian UEFI Maintainers <debian-efi@lists.debian.org>",
 	"description": "GLib wrapper around libusb1",
 	"homepage": "https://github.com/hughsie/libgusb",
-	"filename": "pool/main/libg/libgusb/libgusb2_0.4.9-5_amd64.deb",
-	"size": 37756,
-	"md5": "190fc2173c5d4b74342860e3319d9deb",
-	"sha256": "f29976b31d00dc043c0860d0a634dc03c8398c439ac5bd626712467c9b4edcf7",
+	"filename": "pool/main/libg/libgusb/libgusb2a_0.4.9-7_amd64.deb",
+	"size": 38220,
+	"md5": "1a25086d5c31b9e4bc6d0f8597ee1f96",
+	"sha256": "e6fab725e1cf1f308d02d95b3945a32fba8491d3953f8087af7906b5e5c49b53",
 	"descriptionMd5": "41f01b17b9ed8d44b92d29d701dc060f"
 }]
