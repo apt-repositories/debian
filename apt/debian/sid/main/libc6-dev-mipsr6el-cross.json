@@ -5,28 +5,21 @@
 		"Size"
 	],
 	"package": "libc6-dev-mipsr6el-cross",
-	"source": "cross-toolchain-base-mipsen (32)",
-	"version": "2.40-5cross1",
+	"source": "cross-toolchain-base-mipsen (33)",
+	"version": "2.42-11cross1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libc6-mipsr6el-cross (= 2.40-5cross1)",
+		"libc6-mipsr6el-cross (= 2.42-11cross1)",
 		"linux-libc-dev-mipsr6el-cross"
-	],
-	"replaces": [
-		"libc6-mipsr6el-cross (<= 2.32-1)"
-	],
-	"conflicts": [
-		"libc0.3-dev-mipsr6el-cross",
-		"libc6.1-dev-mipsr6el-cross"
 	],
 	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
 	"description": "GNU C Library: Development Libraries and Header Files (for cross-compiling)",
-	"builtUsing": "binutils (= 2.43.50.20241230-1), linux (= 6.12.8-1), gcc-14 (= 14.2.0-12), glibc (= 2.40-5)",
-	"filename": "pool/main/c/cross-toolchain-base-mipsen/libc6-dev-mipsr6el-cross_2.40-5cross1_all.deb",
-	"size": 1651180,
-	"md5": "f6619de9451201f9dd7b4e772d20bcaf",
-	"sha256": "f61235fe7b2a5cc509e450ca5e457df5bcc6cd774aa76e43f2217f72ecb4879b",
+	"builtUsing": "binutils (= 2.45.90.20260125-1), linux (= 6.18.5-1), gcc-15 (= 15.2.0-12), glibc (= 2.42-11)",
+	"filename": "pool/main/c/cross-toolchain-base-mipsen/libc6-dev-mipsr6el-cross_2.42-11cross1_all.deb",
+	"size": 1710356,
+	"md5": "afbe557b6994c97dee62f66bf17e1df3",
+	"sha256": "8772af5312b87d75c031a0ab413a37e058597d4849619532a27ee907827c696f",
 	"descriptionMd5": "fc7d1124da33f2f1ca4b4e0833019db4"
 }
