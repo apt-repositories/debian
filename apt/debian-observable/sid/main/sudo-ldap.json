@@ -6,40 +6,20 @@
 	],
 	"package": "sudo-ldap",
 	"source": "sudo",
-	"version": "1.9.17p2-1",
+	"version": "1.9.17p2-2",
 	"section": "admin",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
-		"debconf (>= 1.4.69) | cdebconf (>= 0.39)",
-		"libnss-sudo",
-		"libpam-modules",
-		"debconf (>= 0.5) | debconf-2.0",
-		"libapparmor1 (>= 2.7.0~beta1+bzr1772)",
-		"libaudit1 (>= 1:2.2.1)",
-		"libc6 (>= 2.38)",
-		"libldap2 (>= 2.6.2)",
-		"libpam0g (>= 0.99.7.1)",
-		"libselinux1 (>= 3.1~)",
-		"libssl3t64 (>= 3.0.0)",
-		"zlib1g (>= 1:1.2.0.2)"
+		"sudo (>= 1.9.17p2-2)"
 	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
-	],
-	"replaces": [
-		"sudo"
-	],
-	"conflicts": [
-		"sudo"
-	],
-	"installedSize": 6865,
+	"installedSize": 706,
 	"maintainer": "Debian Sudo Maintainers <sudo@packages.debian.org>",
-	"description": "Provide limited super user privileges (with LDAP support, deprecated)",
+	"description": "Transitional Package - sudo-ldap has been removed",
 	"homepage": "https://www.sudo.ws/",
-	"filename": "pool/main/s/sudo/sudo-ldap_1.9.17p2-1_amd64.deb",
-	"size": 2105096,
-	"md5": "4b3beaa2ecc6771802c87f58a3526b5a",
-	"sha256": "09bfca1c773c78db2855c8e4c4b01bd68e2a63f5c9274a36711708aa0a797e2d",
-	"descriptionMd5": "3d662a246a212baef449ed058d929680"
+	"filename": "pool/main/s/sudo/sudo-ldap_1.9.17p2-2_all.deb",
+	"size": 703712,
+	"md5": "c7bc39f9a47d1bb59a8139909bd9e278",
+	"sha256": "e4e352ee5bc1bd0f13e4fb434f55aff2aafe7f306eb57d6ba2fec5230722c9e5",
+	"descriptionMd5": "2cc5b830f3c5567c1bb294eedfcd70e9"
 }]
