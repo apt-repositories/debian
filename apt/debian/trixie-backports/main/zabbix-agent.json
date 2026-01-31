@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-agent",
+	"source": "zabbix",
+	"version": "1:7.0.22+dfsg-1~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.16.2)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libldap2 (>= 2.6.2)",
+		"libmodbus5 (>= 3.0.2)",
+		"libpcre2-8-0 (>= 10.22)",
+		"zlib1g (>= 1:1.2.0)",
+		"ucf",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)",
+		"pciutils"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"usbutils",
+		"zabbix-sender"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"installedSize": 1364,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "network monitoring solution - agent",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/main/z/zabbix/zabbix-agent_7.0.22+dfsg-1~bpo13+1_amd64.deb",
+	"size": 799512,
+	"sha256": "c5361e0d89f8d38c18238fa942fc505fe81e520102a88ced56a5f2599514dc0c",
+	"descriptionMd5": "eac02cc4af79b30caae8c4f8fb05e53b"
+}

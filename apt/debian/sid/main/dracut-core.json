@@ -6,7 +6,7 @@
 	],
 	"package": "dracut-core",
 	"source": "dracut",
-	"version": "109-9",
+	"version": "109-10",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -28,26 +28,31 @@
 	"suggests": [
 		"cryptsetup",
 		"dmsetup",
+		"isomd5sum",
 		"kpartx",
 		"lvm2",
 		"mdadm",
+		"parted",
+		"squashfs-tools",
 		"systemd-cryptsetup"
 	],
 	"replaces": [
-		"dracut-live (<< 059-2)",
-		"dracut-network (<< 057+157-2)"
+		"dracut-live (<< 109-10~)",
+		"dracut-network (<< 057+157-2)",
+		"dracut-squash"
 	],
 	"breaks": [
-		"dracut-live (<< 059-2)",
-		"dracut-network (<< 057+157-2)"
+		"dracut-live (<< 109-10~)",
+		"dracut-network (<< 057+157-2)",
+		"dracut-squash"
 	],
-	"installedSize": 1188,
+	"installedSize": 1249,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "dracut is an event driven initramfs infrastructure (core tools)",
 	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
-	"filename": "pool/main/d/dracut/dracut-core_109-9_amd64.deb",
-	"size": 315312,
-	"md5": "79fdce1f4652b5a1861078ac38ea6886",
-	"sha256": "ca83d32877e3cc145952bb86cd7c5d9aff185222eee8d314a9fe20ed8ae83946",
-	"descriptionMd5": "e406aeff68e5d5052162d2536e974a68"
+	"filename": "pool/main/d/dracut/dracut-core_109-10_amd64.deb",
+	"size": 324468,
+	"md5": "a389c08e54e45ac5149b97b78aa3a9b3",
+	"sha256": "8a67596c5ec32fb0fcb83723bfbea4f64b1c213b79257174962be28fd3074ea6",
+	"descriptionMd5": "85208e115299ec0ab2b6173761a71ced"
 }
