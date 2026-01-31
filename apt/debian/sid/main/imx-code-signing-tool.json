@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "imx-code-signing-tool",
-	"version": "3.4.1+dfsg-6",
+	"version": "4.0.1+dfsg-1",
 	"section": "electronics",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,14 +16,20 @@
 		"python3",
 		"python3-cryptography",
 		"libc6 (>= 2.34)",
+		"libhidapi-libusb0 (>= 0.8.0~rc1+git20140201.3a66d4e+dfsg)",
+		"libjson-c5 (>= 0.15)",
 		"libssl3t64 (>= 3.0.0)"
 	],
-	"installedSize": 3487,
+	"recommends": [
+		"libengine-pkcs11-openssl",
+		"p11-kit"
+	],
+	"installedSize": 940,
 	"maintainer": "Collabora Team <team+collabora@tracker.debian.org>",
 	"description": "code signing tool for i.MX platform",
-	"filename": "pool/main/i/imx-code-signing-tool/imx-code-signing-tool_3.4.1+dfsg-6_amd64.deb",
-	"size": 3207660,
-	"md5": "bf587af3512ff3265920fd467ae33ed3",
-	"sha256": "7487c78f9cd4e021133c4e0b11c85864bec2008f1c9c47c3245d6d04a49b7f72",
+	"filename": "pool/main/i/imx-code-signing-tool/imx-code-signing-tool_4.0.1+dfsg-1_amd64.deb",
+	"size": 182812,
+	"md5": "8c6f8f300daa6cbda33d23783835a442",
+	"sha256": "54b1784ba35f3083f38a21a18a32abc9c60f64881f7991a88c7bf73e6683c5e1",
 	"descriptionMd5": "63a6ce0dbc4128e084864b940319d223"
 }

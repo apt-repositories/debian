@@ -6,6 +6,41 @@
 	],
 	"package": "zabbix-agent2",
 	"source": "zabbix",
+	"version": "1:7.0.22+dfsg-1~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libsqlite3-0 (>= 3.36.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"zlib1g (>= 1:1.2.0)",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"installedSize": 18119,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "Zabbix network monitoring solution - agent2",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/main/z/zabbix/zabbix-agent2_7.0.22+dfsg-1~bpo13+1_amd64.deb",
+	"size": 5798076,
+	"sha256": "764c4aa13d4027f44e77a0b050dd76d1982b91a2bba89e24eff395f32311eb7a",
+	"descriptionMd5": "db1b49ffc8ec518a053c82282dc73763"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-agent2",
+	"source": "zabbix",
 	"version": "1:7.0.10+dfsg-2",
 	"section": "net",
 	"priority": "optional",

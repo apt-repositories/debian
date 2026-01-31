@@ -6,6 +6,43 @@
 	],
 	"package": "zabbix-frontend-php",
 	"source": "zabbix",
+	"version": "1:7.0.22+dfsg-1~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"fonts-dejavu-core (>= 2.37)",
+		"ucf",
+		"php",
+		"php-bcmath",
+		"php-gd",
+		"php-mbstring",
+		"php-xml",
+		"php-pgsql | php-mysql | php-sqlite3"
+	],
+	"recommends": [
+		"apache2 (>= 2.4.6-4~) | nginx | httpd",
+		"php-curl",
+		"php-ldap",
+		"libapache2-mod-php | php-fpm",
+		"php-php-gettext"
+	],
+	"installedSize": 88292,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "network monitoring solution - PHP front-end",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/main/z/zabbix/zabbix-frontend-php_7.0.22+dfsg-1~bpo13+1_all.deb",
+	"size": 22120348,
+	"sha256": "087ef26d9e6fc189e8706c3399441fe7814abeaac1a8dfabaeffd325bef3db51",
+	"descriptionMd5": "36c43ced4bb30be0a5c7f387cab96480"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-frontend-php",
+	"source": "zabbix",
 	"version": "1:7.0.10+dfsg-2",
 	"section": "net",
 	"priority": "optional",
