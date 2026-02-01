@@ -5,21 +5,22 @@
 		"Size"
 	],
 	"package": "linux-image-cloud-amd64-dbg",
-	"source": "linux",
-	"version": "6.17.13-1",
+	"source": "linux-signed-amd64 (6.18.5+1)",
+	"version": "6.18.5-1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-image-6.17.13+deb14-cloud-amd64-dbg (= 6.17.13-1)"
+		"linux-base-cloud-amd64 (= 6.18.5-1)",
+		"linux-image-6.18.5+deb14-cloud-amd64-dbg (= 6.18.5-1)"
 	],
 	"installedSize": 10,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "Debugging symbols for Linux cloud-amd64 configuration (meta-package)",
 	"homepage": "https://www.kernel.org/",
-	"filename": "pool/main/l/linux/linux-image-cloud-amd64-dbg_6.17.13-1_amd64.deb",
-	"size": 1176,
-	"md5": "115d2ab25c80fac5d874a8366401ab8e",
-	"sha256": "e95d285abf22fe2d293fd9a8bd2aa45b67ef781b242a31df5eb6434bbb873e29",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-cloud-amd64-dbg_6.18.5-1_amd64.deb",
+	"size": 1184,
+	"md5": "07faf0fff63e475b8b9b527af6f0b09d",
+	"sha256": "896d4b1a639463fb804da6e5df191f91a9803cc1a96933d929a45f2c455b3d3a",
 	"descriptionMd5": "5480348a5b148364715ed73b4b7d00ea"
 }

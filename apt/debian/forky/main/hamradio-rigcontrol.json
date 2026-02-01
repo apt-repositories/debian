@@ -6,12 +6,12 @@
 	],
 	"package": "hamradio-rigcontrol",
 	"source": "debian-hamradio",
-	"version": "0.10",
+	"version": "0.11",
 	"section": "metapackages",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"hamradio-tasks (= 0.10)"
+		"hamradio-tasks (= 0.11)"
 	],
 	"recommends": [
 		"chirp",
@@ -21,22 +21,24 @@
 		"icom",
 		"kappanhang",
 		"libhamlib-utils",
-		"python3-meshtastic",
+		"m2kcli",
 		"qdmr",
 		"qttinysa",
 		"remotetrx",
-		"tk2",
-		"tk5",
 		"tmd710-tncsetup",
 		"wfview"
+	],
+	"suggests": [
+		"tk2",
+		"tk5"
 	],
 	"installedSize": 21,
 	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
 	"description": "Debian Hamradio Rig Control Packages",
 	"homepage": "https://wiki.debian.org/DebianHams",
-	"filename": "pool/main/d/debian-hamradio/hamradio-rigcontrol_0.10_all.deb",
-	"size": 5208,
-	"md5": "ef097361517f3886374c5ec7467694b7",
-	"sha256": "a6ce8139741e08ad5a650d097e613ffb605d026a9a063e842f0f433e3de077d9",
+	"filename": "pool/main/d/debian-hamradio/hamradio-rigcontrol_0.11_all.deb",
+	"size": 5392,
+	"md5": "a9b956294af7c734c99f961bcf5cf483",
+	"sha256": "9fed3d3e0c73b39693a319251c2725f14d68472c8ecb7182cafd751504fca3a5",
 	"descriptionMd5": "a934d1712d7d64b855de372f4d145516"
 }
