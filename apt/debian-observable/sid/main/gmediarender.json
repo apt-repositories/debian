@@ -6,35 +6,33 @@
 	],
 	"package": "gmediarender",
 	"source": "gmrender-resurrect",
-	"version": "0.3-2",
+	"version": "0.3-3",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"lsb-base",
 		"libc6 (>= 2.38)",
 		"libglib2.0-0t64 (>= 2.28.0)",
 		"libgstreamer1.0-0 (>= 1.0.0)",
 		"libixml11t64 (>= 1:1.14.0)",
 		"libupnp17t64 (>= 1:1.14.0)"
 	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
-	],
 	"recommends": [
-		"gstreamer1.0-plugins-good"
+		"gstreamer1.0-plugins-good",
+		"gstreamer1.0-plugins-base",
+		"gstreamer1.0-alsa"
 	],
 	"suggests": [
 		"gstreamer1.0-plugins-ugly",
 		"gstreamer1.0-plugins-bad"
 	],
-	"installedSize": 167,
+	"installedSize": 175,
 	"maintainer": "Tobias Frost <tobi@debian.org>",
 	"description": "Small headless UPnP media renderer",
 	"homepage": "https://github.com/hzeller/gmrender-resurrect",
-	"filename": "pool/main/g/gmrender-resurrect/gmediarender_0.3-2_amd64.deb",
-	"size": 72088,
-	"md5": "bda4886084d317318d72680af909bdd4",
-	"sha256": "06e71b39305338d47d4d3a820b5c66b248324d6650d3dd336fd1611f46fa2e3d",
+	"filename": "pool/main/g/gmrender-resurrect/gmediarender_0.3-3_amd64.deb",
+	"size": 73680,
+	"md5": "373e06933e129e44ac568c11be42e68f",
+	"sha256": "030947b6d86a946c70b78db2589bb1c0f4a4d330609a790b34b75cfd3faa06ea",
 	"descriptionMd5": "22bc7578d815e1e0f92e4c3af8a98477"
 }]

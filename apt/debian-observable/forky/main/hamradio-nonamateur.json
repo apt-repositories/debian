@@ -6,15 +6,16 @@
 	],
 	"package": "hamradio-nonamateur",
 	"source": "debian-hamradio",
-	"version": "0.10",
+	"version": "0.11",
 	"section": "metapackages",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"hamradio-tasks (= 0.10)"
+		"hamradio-tasks (= 0.11)"
 	],
 	"recommends": [
 		"dablin",
+		"dump1090-mutability",
 		"fccexam",
 		"gnss-sdr",
 		"gnuais",
@@ -22,10 +23,13 @@
 		"gr-air-modes",
 		"gr-gsm",
 		"gr-rds",
+		"gtk-meshtastic-client",
 		"hacktv",
+		"mlat-client-adsbfi",
 		"odr-dabmod",
 		"odr-dabmux",
 		"odr-padenc",
+		"python3-meshtastic",
 		"radioclk",
 		"rtl-433",
 		"rtl-ais",
@@ -33,16 +37,15 @@
 		"welle.io"
 	],
 	"suggests": [
-		"dump1090-mutability",
 		"odr-audioenc"
 	],
 	"installedSize": 21,
 	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
 	"description": "Debian Hamradio Non-Amateur Modes Packages",
 	"homepage": "https://wiki.debian.org/DebianHams",
-	"filename": "pool/main/d/debian-hamradio/hamradio-nonamateur_0.10_all.deb",
-	"size": 5272,
-	"md5": "48a677ab994d17c75b97cef2ae91320b",
-	"sha256": "3a1703ca2de95f3eaa7115ba053d6039bde393c4688ce2582df1f590e910d792",
+	"filename": "pool/main/d/debian-hamradio/hamradio-nonamateur_0.11_all.deb",
+	"size": 5512,
+	"md5": "f2e16c9e3e91e573f4168330d766f147",
+	"sha256": "7e6e92aafd7410aaed4f2f3a1ef213f6776d036b0398daca0d0a0d6320d1d458",
 	"descriptionMd5": "49353e7189c160ff96c6384950ef8a6c"
 }]
