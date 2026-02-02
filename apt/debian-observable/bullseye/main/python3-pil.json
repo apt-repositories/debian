@@ -47,8 +47,62 @@
 	"maintainer": "Matthias Klose <doko@debian.org>",
 	"description": "Python Imaging Library (Python3)",
 	"homepage": "http://python-pillow.github.io/",
-	"filename": "pool/updates/main/p/pillow/python3-pil_8.1.2+dfsg-0.3+deb11u2_amd64.deb",
+	"filename": "pool/main/p/pillow/python3-pil_8.1.2+dfsg-0.3+deb11u2_amd64.deb",
 	"size": 445652,
+	"md5": "cad5ad80a4a033d52da912c31e5e1d82",
 	"sha256": "3facb165fb539f4a0fe702a6f2549f04480de658b17e895382e09c6fb215ed1d",
+	"descriptionMd5": "159039260b5a620ec3a8b13546dd140a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-pil",
+	"source": "pillow",
+	"version": "8.1.2+dfsg-0.3+deb11u3",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3 (<< 3.10)",
+		"python3 (>= 3.9~)",
+		"python3:any",
+		"mime-support | python3-pil.imagetk",
+		"libc6 (>= 2.14)",
+		"libfreetype6 (>= 2.10.1)",
+		"libimagequant0 (>= 2.11.10)",
+		"libjpeg62-turbo (>= 1.3.1)",
+		"liblcms2-2 (>= 2.7)",
+		"libtiff5 (>= 4.0.3)",
+		"libwebp6 (>= 0.5.1)",
+		"libwebpdemux2 (>= 0.5.1)",
+		"libwebpmux3 (>= 0.6.1-2.1+deb11u2)",
+		"libxcb1",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"python3-olefile"
+	],
+	"suggests": [
+		"python-pil-doc",
+		"python3-pil-dbg"
+	],
+	"replaces": [
+		"python3-imaging (<< 1.1.7+2.0.0-1.1)"
+	],
+	"breaks": [
+		"python3-imaging (<< 1.1.7+2.0.0-1.1)"
+	],
+	"conflicts": [
+		"python3-imaging (<< 1.1.7+2.0.0-1.1)"
+	],
+	"installedSize": 1598,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "Python Imaging Library (Python3)",
+	"homepage": "http://python-pillow.github.io/",
+	"filename": "pool/updates/main/p/pillow/python3-pil_8.1.2+dfsg-0.3+deb11u3_amd64.deb",
+	"size": 445864,
+	"sha256": "18ebd437507e43e8a3cc1da86b152ba39f876082f4321db096aeebc4e1ca7ed4",
 	"descriptionMd5": "159039260b5a620ec3a8b13546dd140a"
 }]

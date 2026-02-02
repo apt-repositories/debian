@@ -35,8 +35,50 @@
 	"maintainer": "Matthias Klose <doko@debian.org>",
 	"description": "Python Imaging Library (Python3 debug extension)",
 	"homepage": "http://python-pillow.github.io/",
-	"filename": "pool/updates/main/p/pillow/python3-pil-dbg_8.1.2+dfsg-0.3+deb11u2_amd64.deb",
+	"filename": "pool/main/p/pillow/python3-pil-dbg_8.1.2+dfsg-0.3+deb11u2_amd64.deb",
 	"size": 1164548,
+	"md5": "dd6944721fbf2aa1f558cceee9b559c4",
 	"sha256": "ebfcb0298fe0c19fb933f91fb13c9cccd27d7b16dce3786243258b994ca43ea7",
+	"descriptionMd5": "5fc4836e54ac545a1fd0918d16f207b1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-pil-dbg",
+	"source": "pillow",
+	"version": "8.1.2+dfsg-0.3+deb11u3",
+	"section": "debug",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-pil (= 8.1.2+dfsg-0.3+deb11u3)",
+		"python3-dbg",
+		"libc6 (>= 2.14)",
+		"libfreetype6 (>= 2.10.1)",
+		"libimagequant0 (>= 2.11.10)",
+		"libjpeg62-turbo (>= 1.3.1)",
+		"liblcms2-2 (>= 2.7)",
+		"libtiff5 (>= 4.0.3)",
+		"libwebp6 (>= 0.5.1)",
+		"libwebpdemux2 (>= 0.5.1)",
+		"libwebpmux3 (>= 0.6.1-2.1+deb11u2)",
+		"libxcb1",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"python3-imaging-dbg (<< 1.1.7+2.0.0-1.1)"
+	],
+	"breaks": [
+		"python3-imaging-dbg (<< 1.1.7+2.0.0-1.1)"
+	],
+	"installedSize": 2926,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "Python Imaging Library (Python3 debug extension)",
+	"homepage": "http://python-pillow.github.io/",
+	"filename": "pool/updates/main/p/pillow/python3-pil-dbg_8.1.2+dfsg-0.3+deb11u3_amd64.deb",
+	"size": 1164588,
+	"sha256": "c4725d863d9d5b316953030ef42884f6e279302b38db2f1f7debd0ee7a902074",
 	"descriptionMd5": "5fc4836e54ac545a1fd0918d16f207b1"
 }]

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "wims",
-	"version": "2:4.30+dfsg1-1",
+	"version": "2:4.31+dfsg1-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,10 +15,10 @@
 		"libgcc-s1 (>= 3.0)",
 		"libgd3 (>= 2.1.0~alpha~)",
 		"libstdc++6 (>= 5.2)",
-		"imagemagick (>= 4:5.4.4.5-1) | graphicsmagick-imagemagick-compat",
+		"imagemagick | graphicsmagick-imagemagick-compat",
 		"pari-gp",
-		"gnuplot",
-		"maxima (>= 5.26.0)",
+		"gnuplot-nox",
+		"maxima",
 		"maxima-share",
 		"octave",
 		"fortunes",
@@ -27,14 +27,14 @@
 		"texlive-latex-base",
 		"texlive-fonts-recommended",
 		"mailutils | mailx",
-		"units-filter (>= 3.5)",
-		"chemeq (>= 2.12)",
+		"units-filter",
+		"chemeq",
 		"graphviz",
 		"ldap-utils",
 		"libapache2-mod-fcgid",
 		"qrencode",
 		"libwebservice-validator-html-w3c-perl",
-		"wims-modules (>= 2:4.30+dfsg1-1)"
+		"wims-modules (>= 2:4.31+dfsg1-1)"
 	],
 	"preDepends": [
 		"adduser"
@@ -51,12 +51,12 @@
 	"breaks": [
 		"wims-java-applets (<< 4.05b~dfsg1-4)"
 	],
-	"installedSize": 39271,
+	"installedSize": 39469,
 	"maintainer": "Georges Khaznadar <georgesk@debian.org>",
 	"description": "server for educational content: courses, exercises, and exams",
-	"filename": "pool/main/w/wims/wims_4.30+dfsg1-1_amd64.deb",
-	"size": 15303856,
-	"md5": "bd76282ac675a928b88b3039c949706e",
-	"sha256": "6bef9a66ab1ba16e2c2963756eb1796fbbf8986a54cca99e67f9b93a0ac447ae",
+	"filename": "pool/main/w/wims/wims_4.31+dfsg1-1_amd64.deb",
+	"size": 15380196,
+	"md5": "9ecc104564905d4f336a81857acc8165",
+	"sha256": "ad2b7de20c3ca6640cf9029791ab76d4bebb7601ffe26b6c68e4a5e8019a8e5d",
 	"descriptionMd5": "0d669d4703fcf31fdf92745b0aaaf7b6"
 }]
