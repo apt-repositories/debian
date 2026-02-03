@@ -5,18 +5,23 @@
 		"Size"
 	],
 	"package": "python3-dulwich",
-	"source": "dulwich (0.24.10-1)",
-	"version": "0.24.10-1+b1",
+	"source": "dulwich",
+	"version": "1.0.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"python3-urllib3 (>= 1.25)",
-		"python3-typing-extensions | python3-supported-min (>= 3.12)",
-		"python3:any"
+		"python3 (<< 3.15)",
+		"python3 (>= 3.13~)",
+		"python3-supported-min (>= 3.12) | python3-typing-extensions",
+		"python3:any",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.2)"
 	],
 	"recommends": [
-		"python3-fastimport"
+		"python3-fastimport",
+		"python3-sshsig"
 	],
 	"suggests": [
 		"python3-gpg"
@@ -24,13 +29,13 @@
 	"breaks": [
 		"python3-breezy (<< 3.0.0~bzr7268)"
 	],
-	"installedSize": 2409,
+	"installedSize": 5621,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python Git library - Python3 module",
 	"homepage": "https://www.dulwich.io/",
-	"filename": "pool/main/d/dulwich/python3-dulwich_0.24.10-1+b1_amd64.deb",
-	"size": 411148,
-	"md5": "9572f9cef159e2b5367f9e71e53e29e1",
-	"sha256": "8fdf9a1954e94d66c7ee09494bf9368ce3942b973486c4db1c6bdf1c0845da19",
+	"filename": "pool/main/d/dulwich/python3-dulwich_1.0.0-2_amd64.deb",
+	"size": 832612,
+	"md5": "93416838bf3487ec509b46ae0520f8f8",
+	"sha256": "8bcddbe582cf53092702b703371f51a9371b69aa92f774c620a4d18b023d3eb6",
 	"descriptionMd5": "0e652fa6210d2be4be4c8bcbadddd180"
 }]
