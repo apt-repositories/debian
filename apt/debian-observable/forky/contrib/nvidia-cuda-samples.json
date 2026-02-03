@@ -5,20 +5,22 @@
 		"Size"
 	],
 	"package": "nvidia-cuda-samples",
-	"version": "12.5~dfsg-1",
+	"version": "12.5~dfsg-2",
 	"section": "contrib/devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"libboost-dev",
 		"libdrm-dev",
-		"libfreeimage-dev",
 		"libglfw3-dev",
 		"libglut-dev",
 		"libglvnd-dev",
 		"libvulkan-dev",
 		"mpi-default-dev",
 		"pkgconf"
+	],
+	"recommends": [
+		"libfreeimage-dev"
 	],
 	"suggests": [
 		"nvidia-cuda-toolkit"
@@ -30,9 +32,9 @@
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "Samples which demonstrate features in NVIDIA CUDA Toolkit",
 	"homepage": "https://github.com/NVIDIA/cuda-samples",
-	"filename": "pool/contrib/n/nvidia-cuda-samples/nvidia-cuda-samples_12.5~dfsg-1_all.deb",
-	"size": 87618208,
-	"md5": "49880aebdafadaba93883cfbe5eaf723",
-	"sha256": "acd3026f3af502e301d5ee58bc00ba2b813900a8150c7b2ac05e6073746ea65f",
+	"filename": "pool/contrib/n/nvidia-cuda-samples/nvidia-cuda-samples_12.5~dfsg-2_all.deb",
+	"size": 87632616,
+	"md5": "edb12bfc97a3f19778950e0b5298d578",
+	"sha256": "3c6cafc2c3e4d731b64e834491681eb0b87e6f6b1938a70011ad5337aafb8a63",
 	"descriptionMd5": "6bcda9b3af467cc806bdb6777effa812"
 }]
