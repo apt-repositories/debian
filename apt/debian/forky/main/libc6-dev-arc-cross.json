@@ -5,28 +5,21 @@
 		"Size"
 	],
 	"package": "libc6-dev-arc-cross",
-	"source": "cross-toolchain-base-ports (75)",
-	"version": "2.42-4cross1",
+	"source": "cross-toolchain-base-ports (76)",
+	"version": "2.42-10cross1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libc6-arc-cross (= 2.42-4cross1)",
+		"libc6-arc-cross (= 2.42-10cross1)",
 		"linux-libc-dev-arc-cross"
-	],
-	"replaces": [
-		"libc6-arc-cross (<= 2.32-1)"
-	],
-	"conflicts": [
-		"libc0.3-dev-arc-cross",
-		"libc6.1-dev-arc-cross"
 	],
 	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
 	"description": "GNU C Library: Development Libraries and Header Files (for cross-compiling)",
-	"builtUsing": "binutils (= 2.45.50.20251201-1), linux (= 6.17.10-1), gcc-14 (= 14.3.0-10), glibc (= 2.42-4)",
-	"filename": "pool/main/c/cross-toolchain-base-ports/libc6-dev-arc-cross_2.42-4cross1_all.deb",
-	"size": 1302488,
-	"md5": "9b3db4ca64280dcef50938b0103a992a",
-	"sha256": "266e9e651a60e0ae7226c70203df01bb532205b6932a6e9a917b3d66ffb79f64",
+	"builtUsing": "binutils (= 2.45.50.20260119-1), linux (= 6.18.5-1), gcc-15 (= 15.2.0-12), glibc (= 2.42-10)",
+	"filename": "pool/main/c/cross-toolchain-base-ports/libc6-dev-arc-cross_2.42-10cross1_all.deb",
+	"size": 1300872,
+	"md5": "d976418245b164693b03177cc2aecd42",
+	"sha256": "32abeeeab442da2470240559055b662c6fb2e15842ddec4456ab7d6aa8d5f0c4",
 	"descriptionMd5": "fc7d1124da33f2f1ca4b4e0833019db4"
 }

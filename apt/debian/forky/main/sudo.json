@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "sudo",
-	"version": "1.9.17p2-1",
+	"version": "1.9.17p2-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,7 +13,7 @@
 		"libpam-modules",
 		"libapparmor1 (>= 2.7.0~beta1+bzr1772)",
 		"libaudit1 (>= 1:2.2.1)",
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.42)",
 		"libpam0g (>= 0.99.7.1)",
 		"libselinux1 (>= 3.1~)",
 		"libssl3t64 (>= 3.0.0)",
@@ -23,18 +23,18 @@
 		"init-system-helpers (>= 1.54~)"
 	],
 	"replaces": [
-		"sudo-ldap"
+		"sudo-ldap (<< 1.9.17p2-1exp1)"
 	],
-	"conflicts": [
-		"sudo-ldap"
+	"breaks": [
+		"sudo-ldap (<< 1.9.17p2-1exp1)"
 	],
-	"installedSize": 6768,
+	"installedSize": 6773,
 	"maintainer": "Debian Sudo Maintainers <sudo@packages.debian.org>",
 	"description": "Provide limited super user privileges to specific users",
 	"homepage": "https://www.sudo.ws/",
-	"filename": "pool/main/s/sudo/sudo_1.9.17p2-1_amd64.deb",
-	"size": 2061100,
-	"md5": "173aea9da6ec276ea2909791f2b2d709",
-	"sha256": "faa9fd05349a67db2c99e5753cb15de4e533d44d57dce82ed350a15a35da6801",
-	"descriptionMd5": "acd82d558698567df941afe9b1ac35df"
+	"filename": "pool/main/s/sudo/sudo_1.9.17p2-3_amd64.deb",
+	"size": 2064524,
+	"md5": "446441b6316a869bb598d80526e326a6",
+	"sha256": "a110ec94dab978cfee6cc234cce525dee19bce110ba6fc0a4a6febec53c51e7a",
+	"descriptionMd5": "b73cb2c4db765dbce361c075c621f47b"
 }

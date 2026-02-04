@@ -5,28 +5,21 @@
 		"Size"
 	],
 	"package": "libc6-dev-arm64-cross",
-	"source": "cross-toolchain-base (78)",
-	"version": "2.42-4cross1",
+	"source": "cross-toolchain-base (79)",
+	"version": "2.42-10cross1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libc6-arm64-cross (= 2.42-4cross1)",
+		"libc6-arm64-cross (= 2.42-10cross1)",
 		"linux-libc-dev-arm64-cross"
-	],
-	"replaces": [
-		"libc6-arm64-cross (<= 2.32-1)"
-	],
-	"conflicts": [
-		"libc0.3-dev-arm64-cross",
-		"libc6.1-dev-arm64-cross"
 	],
 	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
 	"description": "GNU C Library: Development Libraries and Header Files (for cross-compiling)",
-	"builtUsing": "binutils (= 2.45.50.20251201-1), linux (= 6.17.10-1), gcc-14 (= 14.3.0-10), glibc (= 2.42-4)",
-	"filename": "pool/main/c/cross-toolchain-base/libc6-dev-arm64-cross_2.42-4cross1_all.deb",
-	"size": 1692444,
-	"md5": "b2486a83056dae71254e6603ac4305e5",
-	"sha256": "84f531757dbdc04ca91045d13b5b71819aa21dac0ad361b673aecb94dcb62652",
+	"builtUsing": "binutils (= 2.45.50.20260119-1), linux (= 6.18.5-1), gcc-15 (= 15.2.0-12), glibc (= 2.42-10)",
+	"filename": "pool/main/c/cross-toolchain-base/libc6-dev-arm64-cross_2.42-10cross1_all.deb",
+	"size": 1633416,
+	"md5": "507f4ae78ef87863e63feae82e914f18",
+	"sha256": "45c838ad57e59dc12adc1ef6e4b32eaa529ec69a70e73faf4738cf0835db618a",
 	"descriptionMd5": "fc7d1124da33f2f1ca4b4e0833019db4"
 }
