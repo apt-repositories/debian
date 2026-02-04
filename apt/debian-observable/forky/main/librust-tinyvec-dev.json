@@ -5,22 +5,23 @@
 		"Size"
 	],
 	"package": "librust-tinyvec-dev",
-	"source": "rust-tinyvec (1.6.0-2)",
-	"version": "1.6.0-2+b2",
+	"source": "rust-tinyvec",
+	"version": "1.10.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"suggests": [
-		"librust-tinyvec+arbitrary-dev (= 1.6.0-2+b2)",
-		"librust-tinyvec+serde-dev (= 1.6.0-2+b2)",
-		"librust-tinyvec+tinyvec-macros-dev (= 1.6.0-2+b2)"
+	"depends": [
+		"librust-arbitrary-1+default-dev",
+		"librust-serde-1-dev",
+		"librust-tinyvec-macros-0.1+default-dev"
 	],
-	"installedSize": 433,
+	"installedSize": 251,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "`tinyvec` provides 100% safe vec-like data structures - Rust source code",
-	"filename": "pool/main/r/rust-tinyvec/librust-tinyvec-dev_1.6.0-2+b2_amd64.deb",
-	"size": 38216,
-	"md5": "d5a649dd73099f279f0e0ec67d608471",
-	"sha256": "52fd76e6675b2d3c7792d96a750c491359310dbdb78a6e9f2de910dcf55c8f8f",
-	"descriptionMd5": "4a29ba60217a1e276018f9dbdc6c6453"
+	"homepage": "https://github.com/Lokathor/tinyvec",
+	"filename": "pool/main/r/rust-tinyvec/librust-tinyvec-dev_1.10.0-1_amd64.deb",
+	"size": 41000,
+	"md5": "025528e5660406e24f57db73f3d19e6c",
+	"sha256": "0393baa7e21284212547435c80d7aee4a398a3b342e4c797d4bf8ef5f83b2897",
+	"descriptionMd5": "8b549a47b0555a7c32d02aaa4574ef02"
 }]

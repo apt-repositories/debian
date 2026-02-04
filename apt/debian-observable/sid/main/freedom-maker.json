@@ -5,13 +5,12 @@
 		"Size"
 	],
 	"package": "freedom-maker",
-	"version": "0.34",
+	"version": "0.35",
 	"section": "utils",
 	"priority": "extra",
 	"architecture": "all",
 	"depends": [
 		"python3:any",
-		"binfmt-support | systemd",
 		"btrfs-progs",
 		"debootstrap",
 		"dmsetup",
@@ -21,24 +20,22 @@
 		"kpartx",
 		"parted",
 		"psmisc",
-		"qemu-user-static",
+		"qemu-user-binfmt",
 		"qemu-utils",
 		"sshpass",
 		"sudo",
+		"systemd",
 		"systemd-resolved",
 		"u-boot-tools",
 		"xz-utils"
 	],
-	"suggests": [
-		"virtualbox"
-	],
-	"installedSize": 228,
+	"installedSize": 223,
 	"maintainer": "FreedomBox Packaging Team <team+freedombox@tracker.debian.org>",
 	"description": "FreedomBox image builder",
 	"homepage": "https://freedombox.org",
-	"filename": "pool/main/f/freedom-maker/freedom-maker_0.34_all.deb",
-	"size": 51348,
-	"md5": "89f2be5329203aab23d1f98a0261b503",
-	"sha256": "f1111eaf40ad043e75ac635c357b808c28e4c9dc17ef1c0fd4048dfe5ca1a5ac",
+	"filename": "pool/main/f/freedom-maker/freedom-maker_0.35_all.deb",
+	"size": 51272,
+	"md5": "5ef6c9dc7b460ebc14c36bdcda9893bc",
+	"sha256": "762456597077c3edddff965351b0a9337c9492432bc147118f45d4c60756e27a",
 	"descriptionMd5": "f50a45a80368bfd371fcf05cdf43742c"
 }]

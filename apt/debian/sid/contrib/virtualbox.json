@@ -5,16 +5,16 @@
 		"Size"
 	],
 	"package": "virtualbox",
-	"version": "7.2.4-dfsg-3",
+	"version": "7.2.6-dfsg-2",
 	"section": "contrib/misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
 		"iproute2",
-		"libfuse2",
+		"libfuse3-4",
 		"procps",
-		"virtualbox-dkms (>= 7.2.4-dfsg-3) | virtualbox-source (>= 7.2.4-dfsg-3) | virtualbox-modules",
+		"virtualbox-dkms (>= 7.2.6-dfsg-2) | virtualbox-source (>= 7.2.6-dfsg-2) | virtualbox-modules",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.13~)",
 		"python3-packaging",
@@ -28,12 +28,15 @@
 		"libjpeg62-turbo (>= 1.3.1)",
 		"liblzf1 (>= 1.5)",
 		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libogg0 (>= 1.0rc3)",
 		"libpng16-16t64 (>= 1.6.46)",
 		"libsdl2-2.0-0 (>= 2.0.12)",
 		"libssl3t64 (>= 3.0.0)",
 		"libstdc++6 (>= 14)",
 		"libtpms0 (>= 0.8.0~dev1)",
 		"libvncserver1 (>= 0.9.10)",
+		"libvorbis0a (>= 1.2.3)",
+		"libvorbisenc2 (>= 1.1.2)",
 		"libvpx11 (>= 1.12.0)",
 		"libx11-6",
 		"libxml2-16 (>= 2.14.1)",
@@ -41,7 +44,7 @@
 		"zlib1g (>= 1:1.1.4)"
 	],
 	"recommends": [
-		"virtualbox-qt (= 7.2.4-dfsg-3)"
+		"virtualbox-qt (= 7.2.6-dfsg-2)"
 	],
 	"suggests": [
 		"vde2",
@@ -67,13 +70,13 @@
 		"virtualbox-7.1",
 		"virtualbox-7.2"
 	],
-	"installedSize": 154064,
+	"installedSize": 151524,
 	"maintainer": "Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>",
 	"description": "x86 virtualization solution - base binaries",
 	"homepage": "https://www.virtualbox.org",
-	"filename": "pool/contrib/v/virtualbox/virtualbox_7.2.4-dfsg-3_amd64.deb",
-	"size": 29857564,
-	"md5": "9fa331cf2fb67fbbbe3f901bca012592",
-	"sha256": "c1cda6a8b4965690fb5240ff43fd81a09a8a380e40462de5ad8b368d2f0c39cc",
+	"filename": "pool/contrib/v/virtualbox/virtualbox_7.2.6-dfsg-2_amd64.deb",
+	"size": 29817020,
+	"md5": "1b5efb35ca8409f324e08fca99c308d6",
+	"sha256": "86f20584b6d3751b91d483122628e4848e06c16efafd283dc7a68161dfc21cd2",
 	"descriptionMd5": "30f96d22c1a6ca04db16bdc1e79ad965"
 }

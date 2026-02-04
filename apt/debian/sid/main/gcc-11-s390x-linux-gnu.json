@@ -5,17 +5,17 @@
 		"Size"
 	],
 	"package": "gcc-11-s390x-linux-gnu",
-	"source": "gcc-11-cross (24)",
-	"version": "11.5.0-7cross1",
+	"source": "gcc-11-cross (25)",
+	"version": "11.5.0-8cross1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"cpp-11-s390x-linux-gnu (= 11.5.0-7cross1)",
-		"gcc-11-s390x-linux-gnu-base (= 11.5.0-7cross1)",
+		"cpp-11-s390x-linux-gnu (= 11.5.0-8cross1)",
+		"gcc-11-s390x-linux-gnu-base (= 11.5.0-8cross1)",
 		"libcc1-0 (>= 11)",
-		"binutils-s390x-linux-gnu (>= 2.45)",
-		"libgcc-11-dev-s390x-cross (>= 11.5.0-7cross1)",
+		"binutils-s390x-linux-gnu (>= 2.45.90.20260201)",
+		"libgcc-11-dev-s390x-cross (>= 11.5.0-8cross1)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libgmp10 (>= 2:6.3.0+dfsg)",
@@ -30,7 +30,6 @@
 		"libc6-dev-s390x-cross (>= 2.23-1~)"
 	],
 	"suggests": [
-		"gcc-11-multilib-s390x-linux-gnu",
 		"gcc-11-doc (>= 11)",
 		"gcc-11-locales (>= 11)"
 	],
@@ -40,14 +39,14 @@
 	"conflicts": [
 		"gcc-multilib"
 	],
-	"installedSize": 43864,
+	"installedSize": 43860,
 	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
 	"description": "GNU C compiler (cross compiler for s390x architecture)",
 	"homepage": "http://gcc.gnu.org/",
-	"builtUsing": "gcc-11 (= 11.5.0-7)",
-	"filename": "pool/main/g/gcc-11-cross/gcc-11-s390x-linux-gnu_11.5.0-7cross1_amd64.deb",
-	"size": 14035156,
-	"md5": "55f622270e7aad87a34509f1fe7835e0",
-	"sha256": "a536da6096d55750f4965046923ffb7f00d239111afc696fba9869c8a7cd7374",
+	"builtUsing": "gcc-11 (= 11.5.0-8)",
+	"filename": "pool/main/g/gcc-11-cross/gcc-11-s390x-linux-gnu_11.5.0-8cross1_amd64.deb",
+	"size": 14035604,
+	"md5": "416abf221723a8a4580c4bdb05a646c8",
+	"sha256": "aa55cbdb599459aaff1f704d78c52e82050951ef7ee8ffc9599b76d2bf137d03",
 	"descriptionMd5": "7061b5561490b87818d8a46702f2fd78"
 }

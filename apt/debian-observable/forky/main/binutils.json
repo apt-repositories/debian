@@ -5,22 +5,21 @@
 		"Size"
 	],
 	"package": "binutils",
-	"source": "binutils (2.45.50.20251209-1)",
-	"version": "2.45.50.20251209-1+b1",
+	"version": "2.45.90.20260201-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libbinutils (= 2.45.50.20251209-1+b1)",
+		"libbinutils (= 2.45.90.20260201-1)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libgprofng0 (>= 2.45.50)",
 		"libstdc++6 (>= 13.1)",
-		"binutils-common (= 2.45.50.20251209-1+b1)",
-		"binutils-x86-64-linux-gnu (= 2.45.50.20251209-1+b1)"
+		"binutils-common (= 2.45.90.20260201-1)",
+		"binutils-x86-64-linux-gnu (= 2.45.90.20260201-1)"
 	],
 	"suggests": [
-		"binutils-doc (>= 2.45.50.20251209-1)",
+		"binutils-doc (>= 2.45.90.20260201-1)",
 		"gprofng-gui",
 		"binutils-gold"
 	],
@@ -35,7 +34,8 @@
 		"binutils-aarch64-linux-gnu (<< 2.43.90)",
 		"binutils-i686-linux-gnu (<< 2.43.90)",
 		"binutils-riscv64-linux-gnu (<< 2.43.90)",
-		"binutils-x86-64-linux-gnu (<< 2.43.90)"
+		"binutils-x86-64-linux-gnu (<< 2.43.90)",
+		"libc6-dev (<< 2.42-10)"
 	],
 	"conflicts": [
 		"binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3)",
@@ -47,9 +47,9 @@
 	"maintainer": "Matthias Klose <doko@debian.org>",
 	"description": "GNU assembler, linker and binary utilities",
 	"homepage": "https://www.gnu.org/software/binutils/",
-	"filename": "pool/main/b/binutils/binutils_2.45.50.20251209-1+b1_amd64.deb",
-	"size": 281644,
-	"md5": "014707884e77fa72cc2af3c8e1bf6a03",
-	"sha256": "57fd796d05e0bd833d41040acd570e5cec0b52bc235d669742a83cbb71d54943",
+	"filename": "pool/main/b/binutils/binutils_2.45.90.20260201-1_amd64.deb",
+	"size": 281824,
+	"md5": "a1cb4ddd6892485bfe6a9dba5541f0dd",
+	"sha256": "5eb9cdb34b0926072c72d769011ff14a93980df317807a02554aa4bcc95ecc18",
 	"descriptionMd5": "fde49b4cfeaad346a6e094f973da28d7"
 }]
