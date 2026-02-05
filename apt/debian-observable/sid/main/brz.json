@@ -5,22 +5,23 @@
 		"Size"
 	],
 	"package": "brz",
-	"source": "breezy (3.3.17-3)",
-	"version": "3.3.17-3+b1",
+	"source": "breezy",
+	"version": "3.3.21-1",
 	"section": "vcs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"python3-breezy (<= 3.3.17-3.1~)",
-		"python3-breezy (>= 3.3.17-3)",
 		"python3",
+		"python3-breezy (<= 3.3.21-1.1~)",
+		"python3-breezy (>= 3.3.21-1)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 4.2)",
 		"libpython3.13 (>= 3.13.0~rc3)"
 	],
 	"recommends": [
-		"python3-gpg",
-		"python3-dulwich (>= 0.21.6)"
+		"python3-dulwich (<< 2)",
+		"python3-dulwich (>= 0.25.0)",
+		"python3-gpg"
 	],
 	"suggests": [
 		"brz-doc",
@@ -32,13 +33,13 @@
 		"bzr-git (<< 0.6.13+bzr1650+brz1)",
 		"git-remote-bzr"
 	],
-	"installedSize": 617,
+	"installedSize": 613,
 	"maintainer": "Debian Breezy Maintainers <pkg-bazaar-maint@lists.alioth.debian.org>",
 	"description": "easy to use distributed version control system",
 	"homepage": "https://www.breezy-vcs.org/",
-	"filename": "pool/main/b/breezy/brz_3.3.17-3+b1_amd64.deb",
-	"size": 236588,
-	"md5": "67369d85d040432d0f1abf9cd55c07ad",
-	"sha256": "2fc2a2af905d1f2d35b0838c22b2bde6b8cf09d3dd43317ab70c5520010d5cfa",
+	"filename": "pool/main/b/breezy/brz_3.3.21-1_amd64.deb",
+	"size": 236336,
+	"md5": "0fbea3d82f547a725498adc689a93c56",
+	"sha256": "54e3b6ff140629eee9278284637de9453fb17f45333cb12bdb8da8b7dda02747",
 	"descriptionMd5": "4daa260c32bc7524a58f92196d3808bc"
 }]

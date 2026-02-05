@@ -5,20 +5,21 @@
 		"Size"
 	],
 	"package": "python3-breezy",
-	"source": "breezy (3.3.17-3)",
-	"version": "3.3.17-3+b1",
+	"source": "breezy",
+	"version": "3.3.21-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"python3-configobj (>= 4.7.2+ds-2)",
+		"python3-dulwich (<< 2)",
+		"python3-dulwich (>= 0.25.0)",
 		"python3-fastbencode",
 		"python3-merge3",
 		"python3-tzlocal",
 		"python3-yaml",
 		"python3 (<< 3.15)",
 		"python3 (>= 3.13~)",
-		"python3-dulwich (>= 0.21.6)",
 		"python3-patiencediff",
 		"python3-urllib3",
 		"python3:any",
@@ -27,10 +28,10 @@
 	],
 	"recommends": [
 		"ca-certificates",
-		"python3-launchpadlib",
 		"python3-github",
-		"ssh-client | python3-paramiko",
-		"python3-gpg"
+		"python3-gpg",
+		"python3-launchpadlib",
+		"ssh-client | python3-paramiko"
 	],
 	"suggests": [
 		"python3-breezy-dbg",
@@ -41,16 +42,15 @@
 		"xdg-utils"
 	],
 	"conflicts": [
-		"python3-dulwich (<< 0.19.11)",
 		"python3-paramiko (<< 1.14.1)"
 	],
-	"installedSize": 18235,
+	"installedSize": 18252,
 	"maintainer": "Debian Breezy Maintainers <pkg-bazaar-maint@lists.alioth.debian.org>",
 	"description": "distributed version control system - Python 3 library",
 	"homepage": "https://www.breezy-vcs.org/",
-	"filename": "pool/main/b/breezy/python3-breezy_3.3.17-3+b1_amd64.deb",
-	"size": 2895284,
-	"md5": "ddd0a8fca9cce2030390fc28d29efe35",
-	"sha256": "1eeaa3100284b54ea0a617afff5ba8a17e7780e3192541afc9a0e3ad0667f6ee",
+	"filename": "pool/main/b/breezy/python3-breezy_3.3.21-1_amd64.deb",
+	"size": 2893328,
+	"md5": "2dbd794da5262ee74c5e82f85befe265",
+	"sha256": "e609b6eda5ec487b3e64d5ce31d7177a64482ff34a3b0bd70002a768e1161797",
 	"descriptionMd5": "90082b54332cb2e9520ec69a203ad9c4"
 }

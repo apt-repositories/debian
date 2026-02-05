@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.18.8+deb14-rt-amd64-unsigned",
+	"source": "linux",
+	"version": "6.18.8-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"kmod",
+		"linux-base-6.18.8+deb14-rt-amd64 (= 6.18.8-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-6.18"
+	],
+	"replaces": [
+		"linux-image-6.18.8+deb14-rt-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.18.8+deb14-rt-amd64"
+	],
+	"installedSize": 111721,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.18.8 for 64-bit PCs, PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-6.18.8+deb14-rt-amd64-unsigned_6.18.8-1_amd64.deb",
+	"size": 111050600,
+	"md5": "da6c399d3adf0099bf155c0470b30543",
+	"sha256": "512e4b269dc64dd75bac992b4e39518cdd7e0e2b42a025229a8c2547285bd63d",
+	"descriptionMd5": "2b305936617654b2bc12176f14a40bef"
+}]
