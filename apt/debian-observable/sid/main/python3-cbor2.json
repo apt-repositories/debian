@@ -6,23 +6,26 @@
 	],
 	"package": "python3-cbor2",
 	"source": "cbor2",
-	"version": "5.8.0-1",
+	"version": "5.8.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"python3:any"
+		"python3 (<< 3.15)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libc6 (>= 2.38)"
 	],
 	"suggests": [
 		"python-cbor2-doc"
 	],
-	"installedSize": 113,
+	"installedSize": 403,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Implements Concise Binary Object Representation (Python 3)",
 	"homepage": "https://github.com/agronholm/cbor2",
-	"filename": "pool/main/c/cbor2/python3-cbor2_5.8.0-1_amd64.deb",
-	"size": 21480,
-	"md5": "ee3e3591492c19f086fccc32fda0408b",
-	"sha256": "653980d8117e9b911e85a31bec93e80cc502c0f68d9110ea61ed2d62fad3fdc1",
+	"filename": "pool/main/c/cbor2/python3-cbor2_5.8.0-2_amd64.deb",
+	"size": 75832,
+	"md5": "3525e455cd0689b2fd16e244a42f95f0",
+	"sha256": "5f784f504efe2964477bc1fb9066d49a4eefc8b178e0f634eec89d650d353dd3",
 	"descriptionMd5": "1b7fcdbdd4a3c5e324a062f8d6310fb2"
 }]

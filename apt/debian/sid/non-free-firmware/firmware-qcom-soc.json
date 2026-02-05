@@ -6,10 +6,13 @@
 	],
 	"package": "firmware-qcom-soc",
 	"source": "firmware-nonfree",
-	"version": "20251111-1",
+	"version": "20251125-1",
 	"section": "non-free-firmware/kernel",
 	"priority": "optional",
 	"architecture": "all",
+	"depends": [
+		"firmware-qcom-dsp (>= 0~20251125-1~)"
+	],
 	"recommends": [
 		"firmware-atheros"
 	],
@@ -22,13 +25,13 @@
 	"breaks": [
 		"firmware-qcom-media (<< 20200421-1~)"
 	],
-	"installedSize": 423527,
+	"installedSize": 87312,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "Binary firmware for Qualcomm SoCs",
 	"homepage": "https://gitlab.com/kernel-firmware/linux-firmware",
-	"filename": "pool/non-free-firmware/f/firmware-nonfree/firmware-qcom-soc_20251111-1_all.deb",
-	"size": 144618944,
-	"md5": "5068d5d0dd487ddc1e38ab9464304b27",
-	"sha256": "f3d771c0e43302ed655299bb97cb92a302496e96964fe0e647cb684ee1b54f93",
+	"filename": "pool/non-free-firmware/f/firmware-nonfree/firmware-qcom-soc_20251125-1_all.deb",
+	"size": 23290424,
+	"md5": "96ced20902c424153808b216e40f7e51",
+	"sha256": "af41c99226759b357d3b2260a29a65594766d359bc80ed7b3cd98243acb561cb",
 	"descriptionMd5": "68436301ac5b7d11cf012b19969a98b5"
 }

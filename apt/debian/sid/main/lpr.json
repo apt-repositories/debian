@@ -5,13 +5,17 @@
 		"Size"
 	],
 	"package": "lpr",
-	"version": "1:2008.05.17.3+nmu3.1",
+	"version": "1:2008.05.17.4",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)",
-		"netbase"
+		"libc6 (>= 2.42)",
+		"netbase",
+		"logrotate"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
 	],
 	"suggests": [
 		"magicfilter | apsfilter",
@@ -20,15 +24,12 @@
 	"replaces": [
 		"logcheck-database"
 	],
-	"conflicts": [
-		"suidmanager (<< 0.50)"
-	],
-	"installedSize": 364,
-	"maintainer": "Adam Majer <adamm@zombino.com>",
+	"installedSize": 378,
+	"maintainer": "Michael Tokarev <mjt@tls.msk.ru>",
 	"description": "BSD lpr/lpd line printer spooling system",
-	"filename": "pool/main/l/lpr/lpr_2008.05.17.3+nmu3.1_amd64.deb",
-	"size": 92000,
-	"md5": "45ff8f657d4cfb5f0c01d8673be16cad",
-	"sha256": "f3a068d5ab4d75119c74de4eabbc31041e5736f6ac22840684fd4ff846ef1524",
+	"filename": "pool/main/l/lpr/lpr_2008.05.17.4_amd64.deb",
+	"size": 95284,
+	"md5": "8cc42647aeced95f1731a3857e3bc3fb",
+	"sha256": "f502b9605182a9cd10fb66437d1f5f4503cf59f035e0b09a45633fa55f7c2b69",
 	"descriptionMd5": "dda80fd521c8858f31b8d27c8900a20d"
 }
