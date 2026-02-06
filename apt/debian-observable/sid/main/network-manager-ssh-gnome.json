@@ -5,33 +5,28 @@
 		"Size"
 	],
 	"package": "network-manager-ssh-gnome",
-	"source": "network-manager-ssh (1.2.11-1.1)",
-	"version": "1.2.11-1.1+b1",
+	"source": "network-manager-ssh",
+	"version": "1.4.2-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"network-manager-ssh (= 1.2.11-1.1+b1)",
-		"libc6 (>= 2.34)",
+		"network-manager-ssh (= 1.4.2-1)",
+		"libc6 (>= 2.38)",
 		"libglib2.0-0t64 (>= 2.32.0)",
-		"libgtk-3-0t64 (>= 3.4)",
-		"libnm0 (>= 1.14.4)",
-		"libnma0 (>= 1.8.18)",
-		"libsecret-1-0 (>= 0.18)"
+		"libgtk-3-0t64 (>= 3.9.10)",
+		"libgtk-4-1 (>= 4.0.0)",
+		"libnm0 (>= 1.2.0)",
+		"libnma0 (>= 1.1.90)",
+		"libsecret-1-0 (>= 0.7)"
 	],
-	"replaces": [
-		"network-manager-ssh-gnome (<< 1.2.0-1~)"
-	],
-	"breaks": [
-		"network-manager-ssh (<< 1.2.0-1~)"
-	],
-	"installedSize": 357,
-	"maintainer": "Lennart Weller <lhw@ring0.de>",
+	"installedSize": 533,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "network management framework (SSH plugin GNOME GUI)",
 	"homepage": "https://github.com/danfruehauf/NetworkManager-ssh/",
-	"filename": "pool/main/n/network-manager-ssh/network-manager-ssh-gnome_1.2.11-1.1+b1_amd64.deb",
-	"size": 46000,
-	"md5": "ca00281ea5b277fcd21f1cf58069685e",
-	"sha256": "f9d2888466c00331b1e42f7700fc3b2ce126d761e515fac751217db4b83ab63c",
+	"filename": "pool/main/n/network-manager-ssh/network-manager-ssh-gnome_1.4.2-1_amd64.deb",
+	"size": 58576,
+	"md5": "ec334a91b3f1590fc8fe791ff38fa798",
+	"sha256": "5206f950b3fd77827c0058181b15005b7589db61fd4135bac1ce848d795655a0",
 	"descriptionMd5": "9c68395f1c234b64b0417829ef590b38"
 }]
