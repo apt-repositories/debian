@@ -6,27 +6,29 @@
 	],
 	"package": "slurmctld",
 	"source": "slurm-wlm",
-	"version": "25.05.4-2",
+	"version": "25.11.2-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"slurm-client (= 25.05.4-2)",
-		"slurm-wlm-basic-plugins (= 25.05.4-2)",
-		"ucf",
-		"munge"
+		"slurm-client (= 25.11.2-1)",
+		"slurm-wlm-basic-plugins (= 25.11.2-1)",
+		"ucf"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 1435,
+	"recommends": [
+		"munge"
+	],
+	"installedSize": 1479,
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "Slurm central management daemon",
 	"homepage": "http://slurm.schedmd.com",
-	"filename": "pool/main/s/slurm-wlm/slurmctld_25.05.4-2_amd64.deb",
-	"size": 518584,
-	"md5": "279dd606cdd4b18705eb780d660675de",
-	"sha256": "e46fc613ebc8f027346f7b656b912dccce23837adfe21edc156d829283946707",
+	"filename": "pool/main/s/slurm-wlm/slurmctld_25.11.2-1_amd64.deb",
+	"size": 535520,
+	"md5": "ba151bcd76f0747470d8068e782a26e8",
+	"sha256": "4d1a8fb2fff5563ba1f9b03510e478e0f3d543d3ddd36bca0746ed4d2a128962",
 	"descriptionMd5": "e04abc7871bdeee2cc83ef6ed8923c45"
 }

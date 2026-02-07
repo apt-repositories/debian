@@ -5,12 +5,15 @@
 		"Size"
 	],
 	"package": "python3-vispy",
-	"source": "python-vispy (0.15.2-1)",
-	"version": "0.15.2-1+b1",
+	"source": "python-vispy",
+	"version": "0.16.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"fontconfig",
+		"fonts-open-sans",
+		"libgl1",
 		"python3 (<< 3.15)",
 		"python3 (>= 3.13~)",
 		"python3-freetype",
@@ -20,10 +23,7 @@
 		"python3-numpy2-abi0 | python3-numpy-abi9",
 		"python3-packaging",
 		"python3:any",
-		"libc6 (>= 2.14)",
-		"fontconfig",
-		"fonts-open-sans",
-		"libgl1"
+		"libc6 (>= 2.14)"
 	],
 	"suggests": [
 		"ipython3",
@@ -33,13 +33,13 @@
 		"python3-pyside",
 		"python3-sdl2"
 	],
-	"installedSize": 3593,
+	"installedSize": 3619,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "interactive visualization in Python 3",
 	"homepage": "https://vispy.org/",
-	"filename": "pool/main/p/python-vispy/python3-vispy_0.15.2-1+b1_amd64.deb",
-	"size": 652504,
-	"md5": "ceadcfab02b8004081375b886039e43d",
-	"sha256": "7474749503a2594c0241a4029e28fd5a509d07f871e7f1d709675041e4585425",
+	"filename": "pool/main/p/python-vispy/python3-vispy_0.16.1-1_amd64.deb",
+	"size": 656808,
+	"md5": "f464ab86fcd62177f5d0e6daef87ce92",
+	"sha256": "6f8a8e3b5985572ff9a1d855e82874e5db01682a0be37c2480905afec8a640e5",
 	"descriptionMd5": "55d7d61f130348be9ddefff91d07509e"
 }]

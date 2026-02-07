@@ -6,11 +6,13 @@
 	],
 	"package": "linux-perf",
 	"source": "linux",
-	"version": "6.17.13-1~bpo13+1",
+	"version": "6.18.5-1~bpo13+1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"perl:any",
+		"python3:any",
 		"libbabeltrace1 (>= 1.5.4)",
 		"libc6 (>= 2.38)",
 		"libdebuginfod1t64 (>= 0.180)",
@@ -19,32 +21,29 @@
 		"liblzma5 (>= 5.1.1alpha+20120614)",
 		"libnuma1 (>= 2.0.11)",
 		"libopencsd1 (>= 1.5.5)",
-		"libperl5.40 (>= 5.40.0)",
 		"libpython3.13 (>= 3.13.0~rc3)",
 		"libslang2 (>= 2.2.4)",
 		"libstdc++6 (>= 4.1.1)",
 		"libtraceevent1 (>= 1:1.3.0)",
 		"libzstd1 (>= 1.5.5)",
-		"zlib1g (>= 1:1.2.3.3)",
-		"perl:any",
-		"python3:any"
+		"zlib1g (>= 1:1.2.3.3)"
 	],
 	"suggests": [
-		"linux-doc-6.17"
+		"linux-doc-6.18"
 	],
 	"replaces": [
-		"linux-tools-6.17"
+		"linux-tools-6.18"
 	],
 	"conflicts": [
-		"linux-tools-6.17"
+		"linux-tools-6.18"
 	],
-	"installedSize": 22358,
+	"installedSize": 22238,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "Performance analysis tools for Linux",
 	"homepage": "https://www.kernel.org/",
-	"filename": "pool/main/l/linux/linux-perf_6.17.13-1~bpo13+1_amd64.deb",
-	"size": 4632504,
-	"sha256": "93ed70b0d259d0e11afb7f2ca7e9476964a85920e207589063a90cb4266b38e7",
+	"filename": "pool/main/l/linux/linux-perf_6.18.5-1~bpo13+1_amd64.deb",
+	"size": 4542740,
+	"sha256": "f5a7dfc9f89c4a5fcc4e700a74cca9035f47021195155e93a26cd761305af8b2",
 	"descriptionMd5": "66624a7d9f3cd31d269d28992a5cfa64"
 },{
 	"raw": {},

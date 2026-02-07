@@ -5,30 +5,32 @@
 		"Size"
 	],
 	"package": "libreoffice-writer2xhtml",
-	"source": "writer2latex",
-	"version": "1.6.1-4~bpo13+1",
+	"source": "writer2xhtml",
+	"version": "1.7.1-8~bpo13+1",
 	"section": "text",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"default-jre | java8-runtime",
+		"default-jre | java11-runtime",
 		"liblibreoffice-java",
 		"libreoffice-core",
-		"libreoffice-java-common",
-		"tex-common (>= 6.13)"
+		"libreoffice-java-common"
+	],
+	"recommends": [
+		"libreoffice-writer"
 	],
 	"enhances": [
 		"libreoffice-calc",
 		"libreoffice-writer"
 	],
-	"installedSize": 1080,
+	"installedSize": 853,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "Writer/Calc to XHTML converter extension for LibreOffice",
-	"homepage": "https://writer2latex.sourceforge.net",
-	"filename": "pool/main/w/writer2latex/libreoffice-writer2xhtml_1.6.1-4~bpo13+1_all.deb",
-	"size": 596776,
-	"sha256": "ecbba18fca2abf0455cd67980fbd458f8fd968c07fed262c3e1fc676026f8646",
-	"descriptionMd5": "db68508b3db03d26eca489282f55f27a"
+	"homepage": "https://writer2latex.sourceforge.net/writer2xhtml.html",
+	"filename": "pool/main/w/writer2xhtml/libreoffice-writer2xhtml_1.7.1-8~bpo13+1_all.deb",
+	"size": 468096,
+	"sha256": "f09990239c26919e1c122dba2ab2e5c073cec7c0c727134ea88ca8fe312902bf",
+	"descriptionMd5": "9889cd2e88785ecbdfba03d50f77d835"
 },{
 	"raw": {},
 	"required": [
