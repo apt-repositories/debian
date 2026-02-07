@@ -6,27 +6,29 @@
 	],
 	"package": "slurmdbd",
 	"source": "slurm-wlm",
-	"version": "25.05.4-2",
+	"version": "25.11.2-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"slurm-wlm-basic-plugins (= 25.05.4-2)",
-		"slurm-wlm-mysql-plugin (= 25.05.4-2)",
-		"munge",
+		"slurm-wlm-basic-plugins (= 25.11.2-1)",
+		"slurm-wlm-mysql-plugin (= 25.11.2-1)",
 		"ucf"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 261,
+	"recommends": [
+		"munge"
+	],
+	"installedSize": 260,
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "Secure enterprise-wide interface to a database for Slurm",
 	"homepage": "http://slurm.schedmd.com",
-	"filename": "pool/main/s/slurm-wlm/slurmdbd_25.05.4-2_amd64.deb",
-	"size": 71908,
-	"md5": "042452c162f09375b393fe355b6e83bd",
-	"sha256": "d631bdaaf9ed6b0e24968611bc867e3c01732e3c1066eb47399af21b2e5b0494",
+	"filename": "pool/main/s/slurm-wlm/slurmdbd_25.11.2-1_amd64.deb",
+	"size": 72780,
+	"md5": "560efb44d48e03957002a56084ebb08d",
+	"sha256": "1652a9c03db1ac4f701ec248cc0449f201f009777801890559aaebe0019f65af",
 	"descriptionMd5": "12414cec2d4629f45386e342015ae60c"
 }]
