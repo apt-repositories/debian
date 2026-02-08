@@ -5,20 +5,21 @@
 		"Size"
 	],
 	"package": "linux-image-amd64-dbg",
-	"source": "linux",
-	"version": "6.17.13-1~bpo13+1",
+	"source": "linux-signed-amd64 (6.18.5+1~bpo13+1)",
+	"version": "6.18.5-1~bpo13+1",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-image-6.17.13+deb13-amd64-dbg (= 6.17.13-1~bpo13+1)"
+		"linux-base-amd64 (= 6.18.5-1~bpo13+1)",
+		"linux-image-6.18.5+deb13-amd64-dbg (= 6.18.5-1~bpo13+1)"
 	],
 	"installedSize": 10,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "Debugging symbols for Linux amd64 configuration (meta-package)",
 	"homepage": "https://www.kernel.org/",
-	"filename": "pool/main/l/linux/linux-image-amd64-dbg_6.17.13-1~bpo13+1_amd64.deb",
-	"size": 1176,
-	"sha256": "9513ed810c37c15e4081c3eb2b83c46eba8e015806a007f866f08d2908daee63",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-amd64-dbg_6.18.5-1~bpo13+1_amd64.deb",
+	"size": 1180,
+	"sha256": "399b74978fe0b83c6258ef560a0efd912a76d02058580892b19328ad95796ab3",
 	"descriptionMd5": "cef66019bff5137491f4d86a25f6417d"
 }

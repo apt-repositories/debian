@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sssd-ad",
+	"source": "sssd",
+	"version": "2.11.1-2.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libcap2-bin",
+		"libsss-idmap0 (= 2.11.1-2.1)",
+		"sssd-ad-common (= 2.11.1-2.1)",
+		"sssd-common (= 2.11.1-2.1)",
+		"sssd-krb5-common (= 2.11.1-2.1)",
+		"libc6 (>= 2.34)",
+		"libdhash1t64 (>= 0.4.0)",
+		"libini-config5t64 (>= 0.4.0)",
+		"libldap2 (>= 2.6.2)",
+		"libldb2 (>= 0.9.21)",
+		"libndr6 (>= 2:4.20.0~rc1)",
+		"libpopt0 (>= 1.14)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libsmbclient0 (>= 2:4.0.3+dfsg1)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0t64 (>= 0.15.0)",
+		"samba-libs (>> 2:4.23.5+dfsg-1~)"
+	],
+	"suggests": [
+		"adcli"
+	],
+	"installedSize": 406,
+	"maintainer": "Debian SSSD Team <pkg-sssd-devel@alioth-lists.debian.net>",
+	"description": "System Security Services Daemon -- Active Directory back end",
+	"homepage": "https://github.com/SSSD/sssd",
+	"filename": "pool/main/s/sssd/sssd-ad_2.11.1-2.1_amd64.deb",
+	"size": 139076,
+	"md5": "8d01257e9541c2b52782952fddea3f6f",
+	"sha256": "bf98bfe4d6376f0325ee35a141cdfe69ab0213dc4328035bb571f11c961ee7f2",
+	"descriptionMd5": "4273ee06e2ffa001b1fbe0a4de26f278"
+}

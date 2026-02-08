@@ -5,14 +5,15 @@
 		"Size"
 	],
 	"package": "librust-cargo-lock-dev",
-	"source": "rust-cargo-lock (10.1.0-1)",
-	"version": "10.1.0-1+b1",
+	"source": "rust-cargo-lock",
+	"version": "10.1.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-gumdrop-0.8+default-dev",
-		"librust-petgraph-0.6+default-dev",
+		"librust-petgraph+default-dev (<< 0.9-~~)",
+		"librust-petgraph+default-dev (>= 0.6-~~)",
 		"librust-semver-1+default-dev (>= 1.0.23-~~)",
 		"librust-semver-1+serde-dev (>= 1.0.23-~~)",
 		"librust-serde-1+default-dev",
@@ -20,13 +21,13 @@
 		"librust-toml-0.8+default-dev",
 		"librust-url-2+default-dev"
 	],
-	"installedSize": 229,
+	"installedSize": 230,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Self-contained Cargo.lock parser - Rust source code",
 	"homepage": "https://rustsec.org",
-	"filename": "pool/main/r/rust-cargo-lock/librust-cargo-lock-dev_10.1.0-1+b1_amd64.deb",
-	"size": 40304,
-	"md5": "ddb1d6489d45dd891a38cbf1818612da",
-	"sha256": "244265a2f08c5e2570fae9e6feea92eb68012dc85cc455a8d0c9fe18f8e3cab0",
+	"filename": "pool/main/r/rust-cargo-lock/librust-cargo-lock-dev_10.1.0-2_amd64.deb",
+	"size": 40240,
+	"md5": "7cbef0d735456e4a585a23a7bf11eba7",
+	"sha256": "1b6a334fd5d966716b725de4cae1fd567082f3655dbda464c5eb62e93633c11a",
 	"descriptionMd5": "a6d36cb87c28e86359fcd54082fc60ef"
 }]

@@ -6,34 +6,30 @@
 	],
 	"package": "openmpi-doc",
 	"source": "openmpi",
-	"version": "5.0.9-1",
+	"version": "5.0.9-3",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libjs-jquery-ui",
-		"libjs-jquery",
+		"libjs-jquery (>= 3.6.0)",
+		"libjs-sphinxdoc (>= 7.2.2)",
+		"sphinx-rtd-theme-common (>= 3.1.0+dfsg)",
+		"node-mathjax-full",
 		"fonts-font-awesome"
-	],
-	"replaces": [
-		"libopenmpi-dev (<< 4.1.2~rc1-4)"
-	],
-	"breaks": [
-		"libopenmpi-dev (<< 4.1.2~rc1-4)"
 	],
 	"conflicts": [
 		"lam-mpidoc",
 		"lam4-dev",
-		"mpi-doc",
-		"openmpi-doc"
+		"mpi-doc"
 	],
-	"installedSize": 69599,
+	"installedSize": 66093,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "high performance message passing library -- man pages",
 	"homepage": "https://www.open-mpi.org/",
-	"filename": "pool/main/o/openmpi/openmpi-doc_5.0.9-1_all.deb",
-	"size": 8611676,
-	"md5": "25ea456930cbb8774d02a66251ad0734",
-	"sha256": "df496e3ba4213b2bf0a29cc9d48f1ae13853c4a9e0e914b30a5e5afee7e7d7e0",
+	"builtUsing": "sphinx (= 8.2.3-12)",
+	"filename": "pool/main/o/openmpi/openmpi-doc_5.0.9-3_all.deb",
+	"size": 5762632,
+	"md5": "21c5a08f0326040ee0f2b3f4764be421",
+	"sha256": "b9e30d005a19a361b61d32456a91043d6675f0bc20bc7e711ca66fd41a3180d5",
 	"descriptionMd5": "430b4b29fb2456337a6cdb19e1a4a64b"
 }]
