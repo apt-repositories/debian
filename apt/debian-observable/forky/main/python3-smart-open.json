@@ -6,7 +6,7 @@
 	],
 	"package": "python3-smart-open",
 	"source": "smart-open",
-	"version": "7.5.0-1",
+	"version": "7.5.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,10 +15,10 @@
 		"python3:any"
 	],
 	"recommends": [
+		"python3-backports.zstd | python3-supported-min (>= 3.14)",
 		"python3-boto3",
 		"python3-paramiko",
-		"python3-requests",
-		"python3-zstandard"
+		"python3-requests"
 	],
 	"suggests": [
 		"python3-azure",
@@ -28,9 +28,9 @@
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "utils for streaming large files",
 	"homepage": "https://github.com/piskvorky/smart_open",
-	"filename": "pool/main/s/smart-open/python3-smart-open_7.5.0-1_all.deb",
-	"size": 68156,
-	"md5": "e12ce9fdd6da5afe182e0f499c400ff2",
-	"sha256": "99dfafe333a4a1733937130e830365667ae9cc85ff0cc0644690545a6586d7f6",
+	"filename": "pool/main/s/smart-open/python3-smart-open_7.5.0-2_all.deb",
+	"size": 68268,
+	"md5": "65177cca294527df8489828efbc09b73",
+	"sha256": "0a3b50f528a19e7c82dc52572f0f4dcda4ad15ea768ff3f8e0106601c00d5539",
 	"descriptionMd5": "63fdc10351ef40cb60c7347074ab20db"
 }]

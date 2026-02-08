@@ -5,29 +5,25 @@
 		"Size"
 	],
 	"package": "evince",
-	"source": "evince (48.1-4)",
-	"version": "48.1-4+b1",
+	"version": "49~alpha-1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"evince-common (>= 48.1-4)",
+		"evince-common (>= 49~alpha-1)",
 		"gsettings-desktop-schemas",
-		"libevdocument3-4t64 (= 48.1-4+b1)",
-		"libevview3-3t64 (= 48.1-4+b1)",
+		"libevdocument-4.0-6 (= 49~alpha-1)",
+		"libevview-4.0-5 (= 49~alpha-1)",
 		"shared-mime-info",
 		"dconf-gsettings-backend | gsettings-backend",
-		"libatk1.0-0t64 (>= 1.12.4)",
+		"libadwaita-1-0 (>= 1.2~alpha)",
 		"libc6 (>= 2.34)",
-		"libcairo-gobject2 (>= 1.10.0)",
 		"libcairo2 (>= 1.14.0)",
 		"libgdk-pixbuf-2.0-0 (>= 2.40)",
 		"libglib2.0-0t64 (>= 2.83.0)",
-		"libgnome-desktop-3-20t64 (>= 3.17.92)",
-		"libgtk-3-0t64 (>= 3.22.0)",
-		"libhandy-1-0 (>= 1.5.90)",
-		"libpango-1.0-0 (>= 1.44.6)",
-		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libgnome-desktop-4-2t64 (>= 3.17.92)",
+		"libgtk-4-1 (>= 4.12.0)",
+		"libpango-1.0-0 (>= 1.14.0)",
 		"libsecret-1-0 (>= 0.7)"
 	],
 	"recommends": [
@@ -36,24 +32,19 @@
 	"suggests": [
 		"gvfs",
 		"nautilus-sendto",
-		"poppler-data"
-	],
-	"replaces": [
-		"libevdocument3-4t64 (<< 3.29.91-2~)"
+		"poppler-data",
+		"unrar"
 	],
 	"enhances": [
 		"nautilus"
 	],
-	"breaks": [
-		"libevdocument3-4t64 (<< 3.29.91-2~)"
-	],
-	"installedSize": 968,
+	"installedSize": 926,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Document (PostScript, PDF) viewer",
 	"homepage": "https://apps.gnome.org/Evince/",
-	"filename": "pool/main/e/evince/evince_48.1-4+b1_amd64.deb",
-	"size": 288224,
-	"md5": "57b702dbedf5f9691e3a651738f7b5f1",
-	"sha256": "52285a200c3c003e061a5a33237be7871b905aa7ebe6d4bf1d35362fc4c68caa",
+	"filename": "pool/main/e/evince/evince_49~alpha-1_amd64.deb",
+	"size": 281472,
+	"md5": "eb671455a29359d17d7d0945cbb1295c",
+	"sha256": "837f92dd465f218d6d0c6d7724e0594cae54e55dcfe5654b04759d7a484367a2",
 	"descriptionMd5": "531974388dc5701b9dbc2f5d96f92ec6"
 }
