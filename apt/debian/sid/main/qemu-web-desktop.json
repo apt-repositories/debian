@@ -5,21 +5,18 @@
 		"Size"
 	],
 	"package": "qemu-web-desktop",
-	"version": "26.01.08+ds1-1",
+	"version": "26.02.08+ds1-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"apache2",
-		"libapache2-mod-perl2",
-		"libapache2-mpm-itk",
-		"websockify",
-		"qemu-system-x86",
 		"bridge-utils",
-		"iptables",
+		"confget | crudini",
 		"dnsmasq",
 		"guestfs-tools",
+		"iptables",
+		"libapache2-mod-perl2",
+		"libapache2-mpm-itk",
 		"libcgi-pm-perl",
 		"libemail-valid-perl",
 		"libjson-perl",
@@ -31,13 +28,15 @@
 		"libnet-ssh2-perl",
 		"libproc-background-perl",
 		"libproc-processtable-perl",
-		"libsys-cpuload-perl",
 		"libsys-cpu-perl",
+		"libsys-cpuload-perl",
 		"libsys-meminfo-perl",
 		"libtext-qrcode-perl",
 		"novnc",
-		"confget",
-		"adduser"
+		"qemu-system-x86",
+		"websockify",
+		"wget",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"recommends": [
 		"apache2 (>= 2.4.6-4~) | httpd"
@@ -45,13 +44,13 @@
 	"suggests": [
 		"qemu-system"
 	],
-	"installedSize": 1860,
+	"installedSize": 2029,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Remote desktop service with virtual machines in a browser (DARTS).",
 	"homepage": "https://gitlab.com/soleil-data-treatment/soleil-software-projects/remote-desktop",
-	"filename": "pool/main/q/qemu-web-desktop/qemu-web-desktop_26.01.08+ds1-1_amd64.deb",
-	"size": 1681648,
-	"md5": "390792565ac9e2fb18e4882483e8e03c",
-	"sha256": "56724280d42bfd9ea1057adcd18dc49fbf70424b8ed2fdcd12707f27998ba742",
-	"descriptionMd5": "8dcef6fd5204b8073db6ea567eed175c"
+	"filename": "pool/main/q/qemu-web-desktop/qemu-web-desktop_26.02.08+ds1-1_amd64.deb",
+	"size": 1842948,
+	"md5": "8a1fe11e4182ee87358f3c18fb7530e6",
+	"sha256": "067686a4e7dde46820abec52716273b727c716a3541f588acb4bd58b2d43aae9",
+	"descriptionMd5": "0e4058f6f883e0c0f77017c116a7e4bc"
 }
