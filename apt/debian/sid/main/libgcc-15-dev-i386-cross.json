@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-15-dev-i386-cross",
+	"source": "gcc-15-cross (13)",
+	"version": "15.2.0-13cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-15-cross-base (>= 15.2.0-13)",
+		"libgcc-s1-i386-cross (>= 15.2.0-13cross1)",
+		"libgomp1-i386-cross (>= 15.2.0-13cross1)",
+		"libitm1-i386-cross (>= 15.2.0-13cross1)",
+		"libatomic1-i386-cross (>= 15.2.0-13cross1)",
+		"libasan8-i386-cross (>= 15.2.0-13cross1)",
+		"libubsan1-i386-cross (>= 15.2.0-13cross1)",
+		"libquadmath0-i386-cross (>= 15.2.0-13cross1)"
+	],
+	"recommends": [
+		"libc6-dev-i386-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-i386-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-i386-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 11833,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-13)",
+	"filename": "pool/main/g/gcc-15-cross/libgcc-15-dev-i386-cross_15.2.0-13cross1_all.deb",
+	"size": 2621116,
+	"md5": "94e5eab430ab7cac3afb2519ffc908dd",
+	"sha256": "72c5d1a50f3e0e9656dffda838021bf9dcd3ca684c928d20c155f808250b2800",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}
