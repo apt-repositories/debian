@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "binutils-riscv64-unknown-elf",
-	"source": "binutils-riscv64-unknown-elf (7)",
-	"version": "2.45.50.20251125-1+7+b2",
+	"source": "binutils-embedded (28)",
+	"version": "2.46-1+28",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,14 +15,17 @@
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.11.dfsg)"
 	],
-	"installedSize": 20680,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"breaks": [
+		"gcc-riscv64-unknown-elf (<< 15.2.0)"
+	],
+	"installedSize": 21005,
+	"maintainer": "Keith Packard <keithp@keithp.com>",
 	"description": "GNU assembler, linker and binary utilities for Risc-V processors",
 	"homepage": "https://sourceware.org/binutils/",
-	"builtUsing": "binutils (= 2.45.50.20251125-1)",
-	"filename": "pool/main/b/binutils-riscv64-unknown-elf/binutils-riscv64-unknown-elf_2.45.50.20251125-1+7+b2_amd64.deb",
-	"size": 3044252,
-	"md5": "8bc3b1a8693887ca7fb966aad8594944",
-	"sha256": "5b2795d885058a2de953182de3a311cd0b4c8e59924368ca43f736dde1351b5f",
-	"descriptionMd5": "dfeb2f410bf26deac5f5c6fc0696e0d4"
+	"builtUsing": "binutils (= 2.46-1)",
+	"filename": "pool/main/b/binutils-embedded/binutils-riscv64-unknown-elf_2.46-1+28_amd64.deb",
+	"size": 3075316,
+	"md5": "7265c5dab2bf49cb147029e38fd9dc2f",
+	"sha256": "f61de793e7224eaaab59122a0dd5d65765fdc9e90c64090bba66084ab860ade7",
+	"descriptionMd5": "a03bdf3e9e53b00ab0e0416908c7198d"
 }]
