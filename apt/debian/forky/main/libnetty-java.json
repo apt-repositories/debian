@@ -6,12 +6,14 @@
 	],
 	"package": "libnetty-java",
 	"source": "netty",
-	"version": "1:4.1.48-14",
+	"version": "1:4.1.48-16",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libjctools-java"
+		"libjctools-java",
+		"libnetty-common-java (= 1:4.1.48-16)",
+		"libnetty-buffer-java (= 1:4.1.48-16)"
 	],
 	"suggests": [
 		"libbcpkix-java (>= 1.80)",
@@ -23,13 +25,13 @@
 		"libprotobuf-java",
 		"libslf4j-java (>= 1.7.32)"
 	],
-	"installedSize": 4430,
+	"installedSize": 3501,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Java NIO client/server socket framework",
 	"homepage": "https://netty.io/",
-	"filename": "pool/main/n/netty/libnetty-java_4.1.48-14_all.deb",
-	"size": 3679700,
-	"md5": "695d65f78925f6e1736b064dc676073b",
-	"sha256": "8b3fd35c0e79115531ece8f80c850a3683f48cc3f8f15f91e67b328e6d684165",
+	"filename": "pool/main/n/netty/libnetty-java_4.1.48-16_all.deb",
+	"size": 2864168,
+	"md5": "8e856038302a579ff6b57de8a4ccd7cb",
+	"sha256": "db5c595a4a45b0edef3bf9607a7422ce6cafafe1100a4487a69c4a39f59fbccb",
 	"descriptionMd5": "4e808a51970b88a65d2691382ec76d52"
 }
