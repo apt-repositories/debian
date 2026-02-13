@@ -41,4 +41,46 @@
 	"md5": "56ad5122032babac0647c8fe33746a7d",
 	"sha256": "6f2ce92f54b58ed5fe19e53479795a49f6c1c0bdd625c5e593aee58083f64f97",
 	"descriptionMd5": "e85c58ee97847a5147d2960542e84a35"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-core",
+	"source": "nginx",
+	"version": "1.22.1-9+deb12u4",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libnginx-mod-http-geoip (>= 1.22.1-9+deb12u4)",
+		"libnginx-mod-http-geoip (<< 1.22.1-9+deb12u4.1~)",
+		"libnginx-mod-http-image-filter (>= 1.22.1-9+deb12u4)",
+		"libnginx-mod-http-image-filter (<< 1.22.1-9+deb12u4.1~)",
+		"libnginx-mod-http-xslt-filter (>= 1.22.1-9+deb12u4)",
+		"libnginx-mod-http-xslt-filter (<< 1.22.1-9+deb12u4.1~)",
+		"libnginx-mod-mail (>= 1.22.1-9+deb12u4)",
+		"libnginx-mod-mail (<< 1.22.1-9+deb12u4.1~)",
+		"libnginx-mod-stream (>= 1.22.1-9+deb12u4)",
+		"libnginx-mod-stream (<< 1.22.1-9+deb12u4.1~)",
+		"libnginx-mod-stream-geoip (>= 1.22.1-9+deb12u4)",
+		"libnginx-mod-stream-geoip (<< 1.22.1-9+deb12u4.1~)",
+		"nginx (>= 1.22.1-9+deb12u4)",
+		"nginx (<< 1.22.1-9+deb12u4.1~)"
+	],
+	"replaces": [
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"breaks": [
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"installedSize": 91,
+	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
+	"description": "nginx web/proxy server (standard version)",
+	"homepage": "https://nginx.org",
+	"filename": "pool/updates/main/n/nginx/nginx-core_1.22.1-9+deb12u4_all.deb",
+	"size": 80060,
+	"sha256": "75ff7825cd4ff9462f4b9dca35fd6926506adbaca1d1282fca4b10a33ff078bb",
+	"descriptionMd5": "e85c58ee97847a5147d2960542e84a35"
 }]

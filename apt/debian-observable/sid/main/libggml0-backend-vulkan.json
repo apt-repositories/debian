@@ -6,24 +6,28 @@
 	],
 	"package": "libggml0-backend-vulkan",
 	"source": "ggml",
-	"version": "0.9.6-3",
+	"version": "0.9.6-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libggml0 (= 0.9.6-3)",
+		"libggml0 (= 0.9.6-4)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 13.1)",
 		"libvulkan1 (>= 1.2.131.2)"
 	],
+	"suggests": [
+		"mesa-vulkan-drivers",
+		"nvidia-vulkan-icd"
+	],
 	"installedSize": 54916,
 	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
 	"description": "Tensor library for machine learning - Vulkan backend",
 	"homepage": "https://github.com/ggml-org/ggml",
-	"filename": "pool/main/g/ggml/libggml0-backend-vulkan_0.9.6-3_amd64.deb",
-	"size": 5118144,
-	"md5": "425952a59a16ca911b254589ce73cedd",
-	"sha256": "bb2785afbfb1dfeb65b6aa692616c5c1ec16391f06eada3d0cfef20f6861f614",
+	"filename": "pool/main/g/ggml/libggml0-backend-vulkan_0.9.6-4_amd64.deb",
+	"size": 5122544,
+	"md5": "dc82df5221b44c90fcc3ecf9ecffcdaa",
+	"sha256": "a2da868f0a4270341feca8aa3febaa1aa3eb2fc146a91509c9e2d6e0e0af868a",
 	"descriptionMd5": "66a49e8b7cab1148e8b321efb59a1e0f"
 }]

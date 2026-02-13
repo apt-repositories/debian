@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "linux-libc-dev-m68k-cross",
-	"source": "cross-toolchain-base-ports (76)",
-	"version": "6.18.5-1cross1",
+	"source": "linux",
+	"version": "6.18.9-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 8272,
-	"maintainer": "Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>",
-	"description": "Linux Kernel Headers for development (for cross-compiling)",
-	"builtUsing": "linux (= 6.18.5-1)",
-	"filename": "pool/main/c/cross-toolchain-base-ports/linux-libc-dev-m68k-cross_6.18.5-1cross1_all.deb",
-	"size": 2352580,
-	"md5": "f4d8207e40fc0e5b533fea51ca97e15b",
-	"sha256": "e61a83c9945a2e1111dd0d374446a5e2b0d4f121abf8b3bb59e2603baa62897d",
-	"descriptionMd5": "1451bbb6883623d253eaf0cf7565213a"
+	"depends": [
+		"linux-libc-dev (= 6.18.9-1)"
+	],
+	"installedSize": 1070,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux support headers for userspace development (for cross-compiling)",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-libc-dev-m68k-cross_6.18.9-1_all.deb",
+	"size": 12152,
+	"md5": "a304eb85bf9fa8df8bb780560b736208",
+	"sha256": "4069d47c42c9c6e3c109e93f564153e8e6adb06403700987c444a6992681fa2e",
+	"descriptionMd5": "47611235aa48c1c9a05b5de93862bde7"
 }
