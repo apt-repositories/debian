@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.18.10+deb14-rt-amd64",
+	"source": "linux-signed-amd64 (6.18.10+1)",
+	"version": "6.18.10-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"kmod",
+		"linux-base-6.18.10+deb14-rt-amd64 (= 6.18.10-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-6.18"
+	],
+	"replaces": [
+		"linux-image-6.18.10+deb14-rt-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.18.10+deb14-rt-amd64-unsigned"
+	],
+	"installedSize": 111736,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.18.10 for 64-bit PCs (signed), PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.18.10-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.18.10+deb14-rt-amd64_6.18.10-1_amd64.deb",
+	"size": 111054964,
+	"md5": "a6abac802c6c3ad780b7adc2a297b39f",
+	"sha256": "4fab29d6b7aab7d37e07dbfa5a74acc02a369469589827af69383eb4b752113a",
+	"descriptionMd5": "3271b01906b67ca0f1c044fd88e9e28d"
+}

@@ -6,15 +6,14 @@
 	],
 	"package": "dracut-network",
 	"source": "dracut",
-	"version": "109-11",
+	"version": "110-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"dracut-core",
 		"iproute2",
-		"iputils-arping",
-		"network-manager | systemd | connman | isc-dhcp-client"
+		"network-manager | systemd | connman"
 	],
 	"recommends": [
 		"curl",
@@ -23,7 +22,8 @@
 		"open-iscsi"
 	],
 	"suggests": [
-		"iscsiuio"
+		"iscsiuio",
+		"systemd-container"
 	],
 	"replaces": [
 		"dracut-core (<< 105)",
@@ -33,13 +33,13 @@
 		"dracut-core (<< 105)",
 		"dracut-live (<< 109-10~)"
 	],
-	"installedSize": 311,
+	"installedSize": 258,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "dracut is an event driven initramfs infrastructure (network modules)",
 	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
-	"filename": "pool/main/d/dracut/dracut-network_109-11_all.deb",
-	"size": 62924,
-	"md5": "b7a937215184e4fe10d92b2517a6689e",
-	"sha256": "280cfc7d8601fb41a9fab4b4f9495115bc8037d7f3ce93a8dd59e4af8ca080ba",
-	"descriptionMd5": "35b333bb5f6987592870eaf905d6c38d"
+	"filename": "pool/main/d/dracut/dracut-network_110-1_all.deb",
+	"size": 53588,
+	"md5": "65c96d567314794837e9477d52a22dd5",
+	"sha256": "955c92015e713589873f28dee8a3dee59f705b52f9553a781e0918c59f8077a5",
+	"descriptionMd5": "c09b83ff6e1955bb91504f6ae1ab656c"
 }]
