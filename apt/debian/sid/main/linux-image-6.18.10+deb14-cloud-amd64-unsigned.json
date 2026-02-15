@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.18.10+deb14-cloud-amd64-unsigned",
+	"source": "linux",
+	"version": "6.18.10-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"kmod",
+		"linux-base-6.18.10+deb14-cloud-amd64 (= 6.18.10-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-6.18"
+	],
+	"replaces": [
+		"linux-image-6.18.10+deb14-cloud-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.18.10+deb14-cloud-amd64"
+	],
+	"installedSize": 34269,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.18.10 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-6.18.10+deb14-cloud-amd64-unsigned_6.18.10-1_amd64.deb",
+	"size": 33589316,
+	"md5": "7e6aaace5e38e202633409765568e582",
+	"sha256": "1e6d8063b11ef91619f86a8f6b557cff4153d2fd38bc348a4f47673151bd7bf6",
+	"descriptionMd5": "f540b2d99ebf44e39dcf13c70329ca06"
+}
