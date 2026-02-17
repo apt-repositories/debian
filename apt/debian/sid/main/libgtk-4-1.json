@@ -6,7 +6,7 @@
 	],
 	"package": "libgtk-4-1",
 	"source": "gtk4",
-	"version": "4.20.3+ds-3",
+	"version": "4.21.5+ds-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -29,7 +29,7 @@
 		"libgraphene-1.0-0 (>= 1.10.0)",
 		"libgstreamer-gl1.0-0 (>= 1.14.0)",
 		"libgstreamer-plugins-base1.0-0 (>= 1.23.1)",
-		"libgstreamer1.0-0 (>= 1.10.0)",
+		"libgstreamer1.0-0 (>= 1.14.0)",
 		"libharfbuzz-subset0 (>= 8.4.0)",
 		"libharfbuzz0b (>= 8.4.0)",
 		"libjpeg62-turbo (>= 1.3.1)",
@@ -37,7 +37,6 @@
 		"libpangocairo-1.0-0 (>= 1.56.0)",
 		"libpangoft2-1.0-0 (>= 1.56.0)",
 		"libpng16-16t64 (>= 1.6.46-2~)",
-		"librsvg2-2 (>= 2.52.5)",
 		"libtiff6 (>= 4.0.3)",
 		"libvulkan1 (>= 1.2.131.2)",
 		"libwayland-client0 (>= 1.24.0)",
@@ -52,7 +51,7 @@
 		"libxkbcommon0 (>= 0.7.0)",
 		"libxrandr2 (>= 2:1.5.0)",
 		"libgles2",
-		"libgtk-4-common (>= 4.20.3+ds-3)"
+		"libgtk-4-common (>= 4.21.5+ds-4)"
 	],
 	"recommends": [
 		"libgtk-4-bin",
@@ -67,15 +66,17 @@
 		"libgtk-4-media-gstreamer (<< 4.19.2)"
 	],
 	"breaks": [
-		"libgtk-4-media-gstreamer (<< 4.19.2)"
+		"gnome-control-center (<< 50~)",
+		"libgtk-4-media-gstreamer (<< 4.19.2)",
+		"xdg-desktop-portal-gnome (<< 50~)"
 	],
-	"installedSize": 11724,
+	"installedSize": 12565,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GTK graphical user interface library",
 	"homepage": "https://www.gtk.org/",
-	"filename": "pool/main/g/gtk4/libgtk-4-1_4.20.3+ds-3_amd64.deb",
-	"size": 3286904,
-	"md5": "6d3425603a5680d8cfa4d6c9469ca74a",
-	"sha256": "3e231a5ec84b1f080b8ed8f5ed7c6387cb65acf4d8e9f494851a3da8f0382f80",
+	"filename": "pool/main/g/gtk4/libgtk-4-1_4.21.5+ds-4_amd64.deb",
+	"size": 3388452,
+	"md5": "8fec94dcb53c65ec0431a1d301013afd",
+	"sha256": "a81d32b7fcf4d035fcf180464a6dd23fefaa7f311f6af3cae0af5914d39aa841",
 	"descriptionMd5": "02e4be37fe9843eb98242e33800e4fb6"
 }
