@@ -6,25 +6,25 @@
 	],
 	"package": "postgresql-18-pgauditlogtofile",
 	"source": "pgauditlogtofile",
-	"version": "1.7.6-1",
+	"version": "1.7.7-1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"postgresql-18-pgaudit",
 		"postgresql-18",
-		"libc6 (>= 2.34)"
+		"libc6 (>= 2.38)"
 	],
 	"breaks": [
-		"postgresql-18-jit-llvm (<< 19)"
+		"postgresql-18-jit-llvm (<< 21)"
 	],
-	"installedSize": 171,
+	"installedSize": 165,
 	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
 	"description": "PostgreSQL pgAudit Add-On to redirect audit logs",
 	"homepage": "https://github.com/fmbiete/pgauditlogtofile",
-	"filename": "pool/main/p/pgauditlogtofile/postgresql-18-pgauditlogtofile_1.7.6-1_amd64.deb",
-	"size": 50916,
-	"md5": "5015deb50abd282c1f6e18305f9d5674",
-	"sha256": "822636d1d1c690a895670a9772f24308e060e9240eb820cdb9d8ca8114d340ca",
+	"filename": "pool/main/p/pgauditlogtofile/postgresql-18-pgauditlogtofile_1.7.7-1_amd64.deb",
+	"size": 51584,
+	"md5": "31d0bbf9d69cdd4bcd349cc890dd42bf",
+	"sha256": "c5ec67bc0497b230dbb553536feb31b9cc57b533a831a74e769ce761b9e56705",
 	"descriptionMd5": "6af0f791937d1ab651d525293ad6435a"
 }]
