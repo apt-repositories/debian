@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "nbdkit",
-	"version": "1.42.9-1",
+	"version": "1.46.2-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -26,7 +26,10 @@
 		"libstdc++6 (>= 13.1)",
 		"libtorrent-rasterbar2.0t64 (>= 2.0.11)",
 		"libzstd1 (>= 1.5.5)",
-		"zlib1g (>= 1:1.1.4)"
+		"ocl-icd-libopencl1 | libopencl1",
+		"ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1",
+		"ocl-icd-libopencl1 (>= 2.2.0) | libopencl-2.0-1",
+		"zlib1g (>= 1:1.2.3.4)"
 	],
 	"suggests": [
 		"nbdkit-plugin-guestfs",
@@ -44,13 +47,13 @@
 	"breaks": [
 		"nbdkit-plugin-perl (<< 1.22)"
 	],
-	"installedSize": 2657,
+	"installedSize": 2863,
 	"maintainer": "Hilko Bengen <bengen@debian.org>",
 	"description": "toolkit for creating NBD servers",
 	"homepage": "https://gitlab.com/nbdkit/nbdkit",
-	"filename": "pool/main/n/nbdkit/nbdkit_1.42.9-1_amd64.deb",
-	"size": 742184,
-	"md5": "8d375026005532d10f490e9d5dd53580",
-	"sha256": "a798f344f0bab73a9473d8eaf38a063eb8d8b1f07b882a324982bb660acb7237",
+	"filename": "pool/main/n/nbdkit/nbdkit_1.46.2-1_amd64.deb",
+	"size": 797388,
+	"md5": "7760edf18ed3e675a7bb545548515c96",
+	"sha256": "b33dea9d44682107b2f1806b296e7ff25c6cf876dfb15618c7796bbad905437a",
 	"descriptionMd5": "c7a861cc6e7a0f4d763c7d5feb686a79"
 }]

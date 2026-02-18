@@ -5,11 +5,13 @@
 		"Size"
 	],
 	"package": "fragments",
-	"version": "3.0.1-11",
+	"version": "3.0.1-12",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"transmission-daemon",
+		"dconf-gsettings-backend | gsettings-backend",
 		"libadwaita-1-0 (>= 1.7)",
 		"libc6 (>= 2.39)",
 		"libcairo2 (>= 1.2.4)",
@@ -18,17 +20,15 @@
 		"libglib2.0-0t64 (>= 2.76)",
 		"libgtk-4-1 (>= 4.15.3)",
 		"libpango-1.0-0 (>= 1.14.0)",
-		"libssl3t64 (>= 3.0.0)",
-		"dconf-gsettings-backend | gsettings-backend",
-		"transmission-daemon"
+		"libssl3t64 (>= 3.0.0)"
 	],
-	"installedSize": 12543,
+	"installedSize": 12545,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "modern BitTorrent client for GNOME",
 	"homepage": "https://apps.gnome.org/Fragments/",
-	"filename": "pool/main/f/fragments/fragments_3.0.1-11_amd64.deb",
-	"size": 3207508,
-	"md5": "2c1903f1676d43074104305d34be5a13",
-	"sha256": "3eaaf21224365b7ca00af670c945d97644179b98dfba1d59e3dd03e8aa4ceadb",
+	"filename": "pool/main/f/fragments/fragments_3.0.1-12_amd64.deb",
+	"size": 3232412,
+	"md5": "0dd9261cc6d56740327bc524fb4358cb",
+	"sha256": "30d010f79d1593096015f3e03b56806d155d0412e404f0efa8bfa86f566d2371",
 	"descriptionMd5": "8c73c40b6283d2e3216565d3eb0bec29"
 }]
