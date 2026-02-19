@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "gnome-text-editor",
-	"version": "49.1-1",
+	"version": "50~beta-1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"dconf-gsettings-backend | gsettings-backend",
 		"libadwaita-1-0 (>= 1.8~alpha)",
 		"libc6 (>= 2.34)",
 		"libeditorconfig0 (>= 0.11.0)",
@@ -17,16 +18,15 @@
 		"libgtk-4-1 (>= 4.19.4)",
 		"libgtksourceview-5-0 (>= 5.15.0)",
 		"libpango-1.0-0 (>= 1.14.0)",
-		"libspelling-1-2 (>= 0.4.0)",
-		"dconf-gsettings-backend | gsettings-backend"
+		"libspelling-1-2 (>= 0.3.0)"
 	],
-	"installedSize": 2912,
+	"installedSize": 2918,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "simple text editor for GNOME",
 	"homepage": "https://apps.gnome.org/TextEditor/",
-	"filename": "pool/main/g/gnome-text-editor/gnome-text-editor_49.1-1_amd64.deb",
-	"size": 621176,
-	"md5": "02388f71724e3cdf9834fba02b7c1b5e",
-	"sha256": "0c3aaec51a707ee017f49eb55fe5be15ba84ce9f5db4667b40ba365525208d8f",
+	"filename": "pool/main/g/gnome-text-editor/gnome-text-editor_50~beta-1_amd64.deb",
+	"size": 622804,
+	"md5": "d4d8cd192e0054ebe95f34b0a5b30f02",
+	"sha256": "7739d429ac789bc993ffbbe519fd21351eb222c37d1036f6f5bb16f3292ae547",
 	"descriptionMd5": "8d6c5dc2b6078d693c2f43a7ba908b43"
 }

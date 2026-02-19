@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libprrte-bin",
+	"source": "prrte",
+	"version": "3.0.13-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libhwloc15 (>= 2.13.0)",
+		"libpmix2t64 (>= 6.0.0+really5.0.9)",
+		"libprrte3 (= 3.0.13-1)"
+	],
+	"recommends": [
+		"libpmix-dev"
+	],
+	"replaces": [
+		"openmpi-bin (<< 5.0.9-5)"
+	],
+	"breaks": [
+		"openmpi-bin (<< 5.0.9-5)"
+	],
+	"installedSize": 377,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "PMix Reference Run Time Environment - Tools",
+	"homepage": "https://github.com/pmix/prrte",
+	"filename": "pool/main/p/prrte/libprrte-bin_3.0.13-1_amd64.deb",
+	"size": 51688,
+	"md5": "319b8d4f6b9c9b80072c78eb918c0c85",
+	"sha256": "71c9cf5bc5f05086e998c1cb13e873dbee8bc2688b37b2de453ff357fabee81e",
+	"descriptionMd5": "87eb017588000bd6b1d9bb09b965df3e"
+}
