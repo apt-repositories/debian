@@ -6,14 +6,14 @@
 	],
 	"package": "openssh-server",
 	"source": "openssh",
-	"version": "1:10.2p1-3",
+	"version": "1:10.2p1-4",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libpam-modules",
 		"libpam-runtime",
-		"openssh-client (= 1:10.2p1-3)",
+		"openssh-client (= 1:10.2p1-4)",
 		"openssh-sftp-server",
 		"procps",
 		"ucf",
@@ -21,9 +21,8 @@
 		"runit-helper (>= 2.14.0~)",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libaudit1 (>= 1:2.2.1)",
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.42)",
 		"libcom-err2 (>= 1.43.9)",
-		"libcrypt1 (>= 1:4.1.0)",
 		"libgssapi-krb5-2 (>= 1.17)",
 		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
 		"libpam0g (>= 0.99.7.1)",
@@ -39,6 +38,7 @@
 	"recommends": [
 		"default-logind | logind | libpam-systemd",
 		"ncurses-term",
+		"passwd",
 		"xauth"
 	],
 	"suggests": [
@@ -54,13 +54,13 @@
 	"breaks": [
 		"runit (<< 2.1.2-51~)"
 	],
-	"installedSize": 3501,
+	"installedSize": 3502,
 	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
 	"description": "secure shell (SSH) server, for secure access from remote machines",
 	"homepage": "https://www.openssh.com/",
-	"filename": "pool/main/o/openssh/openssh-server_10.2p1-3_amd64.deb",
-	"size": 624360,
-	"md5": "b2bf2c76d7f6d83293caff42d6d83940",
-	"sha256": "9a96d341a93d3ec09c393cf9b0d45defa8d84a0b1f84b52cdbd221fe05bda901",
+	"filename": "pool/main/o/openssh/openssh-server_10.2p1-4_amd64.deb",
+	"size": 624236,
+	"md5": "e08fcbe1ce39f971924b37007ecb1404",
+	"sha256": "3f79123336d788a414ad3f881f950d774f66194e7dd150670f1b40b80d02f810",
 	"descriptionMd5": "842cc998cae371b9d8106c1696373919"
 }]
