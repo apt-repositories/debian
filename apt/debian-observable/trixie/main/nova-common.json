@@ -36,4 +36,41 @@
 	"md5": "807782108056e1b59afcf6b1b46f6280",
 	"sha256": "ee0bb7c164d6a35594423f5521e0f67c7562b05612bd7957d97486ea2b137309",
 	"descriptionMd5": "be810e37c9753e37e3fa1e6827c879cf"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-common",
+	"source": "nova",
+	"version": "2:31.0.0-6+deb13u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"bridge-utils",
+		"dbconfig-common",
+		"iproute2 | iproute",
+		"python3-configobj",
+		"python3-iso8601",
+		"python3-nova (= 2:31.0.0-6+deb13u2)",
+		"python3-openstackclient",
+		"q-text-as-data",
+		"sqlite3",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any"
+	],
+	"suggests": [
+		"python3-pysqlite2 | python3-mysqldb | python3-psycopg2"
+	],
+	"installedSize": 833,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - common files",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/updates/main/n/nova/nova-common_31.0.0-6+deb13u2_all.deb",
+	"size": 138720,
+	"sha256": "41e26da1bd49310366f72231b5d207afc665f3f3aa4eb78c24b9ffcbc305a813",
+	"descriptionMd5": "be810e37c9753e37e3fa1e6827c879cf"
 }]

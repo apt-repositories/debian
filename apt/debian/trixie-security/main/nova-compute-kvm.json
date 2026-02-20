@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-kvm",
+	"source": "nova",
+	"version": "2:31.0.0-6+deb13u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dpkg-dev",
+		"libvirt-daemon-system",
+		"libvirt-daemon-driver-storage-rbd",
+		"nova-common (= 2:31.0.0-6+deb13u2)",
+		"nova-compute (= 2:31.0.0-6+deb13u2)",
+		"python3-libvirt",
+		"qemu-block-extra",
+		"qemu-system-x86",
+		"swtpm",
+		"swtpm-tools"
+	],
+	"recommends": [
+		"guestmount"
+	],
+	"conflicts": [
+		"nova-compute-ironic",
+		"nova-compute-lxc",
+		"nova-compute-qemu",
+		"nova-compute-xen"
+	],
+	"installedSize": 24,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - compute node (KVM)",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/updates/main/n/nova/nova-compute-kvm_31.0.0-6+deb13u2_all.deb",
+	"size": 11032,
+	"sha256": "c8ef5ef0d4a8c3785082ca35b7a3457c87701a1a62ab24dc57480c5b62386b0a",
+	"descriptionMd5": "634d4d8c048cf45b3a85a76d49728fa6"
+}

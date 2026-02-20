@@ -32,8 +32,47 @@
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "OpenStack Compute - compute node (Ironic)",
 	"homepage": "http://www.openstack.org/software/openstack-compute/",
-	"filename": "pool/updates/main/n/nova/nova-compute-ironic_26.2.2-1~deb12u3_all.deb",
+	"filename": "pool/main/n/nova/nova-compute-ironic_26.2.2-1~deb12u3_all.deb",
 	"size": 8988,
+	"md5": "645d74d56d40fb3d5f314381f4afcd3a",
 	"sha256": "79637d1a231e72a39ca96d0500743af330828dbcf01b0dd645083a3942331fc6",
+	"descriptionMd5": "5831d0390e765e41a636fe4f9697285d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-ironic",
+	"source": "nova",
+	"version": "2:26.2.2-1~deb12u4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dpkg-dev",
+		"nova-common",
+		"nova-compute",
+		"python3-ironicclient",
+		"python3-libvirt"
+	],
+	"recommends": [
+		"guestmount"
+	],
+	"conflicts": [
+		"nova-baremetal",
+		"nova-compute-kvm",
+		"nova-compute-lxc",
+		"nova-compute-qemu",
+		"nova-compute-xen"
+	],
+	"installedSize": 21,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Compute - compute node (Ironic)",
+	"homepage": "http://www.openstack.org/software/openstack-compute/",
+	"filename": "pool/updates/main/n/nova/nova-compute-ironic_26.2.2-1~deb12u4_all.deb",
+	"size": 9196,
+	"sha256": "6be237f4ea788585a523568c70d3f9e9dcf73da20c3fe6ecb42d9697ee1d20c0",
 	"descriptionMd5": "5831d0390e765e41a636fe4f9697285d"
 }]
