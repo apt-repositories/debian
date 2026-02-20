@@ -5,15 +5,15 @@
 		"Size"
 	],
 	"package": "knot",
-	"version": "3.5.3-1",
+	"version": "3.5.3-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
-		"libdnssec10 (= 3.5.3-1)",
-		"libknot16 (= 3.5.3-1)",
-		"libzscanner5 (= 3.5.3-1)",
+		"libdnssec10 (= 3.5.3-2)",
+		"libknot16 (= 3.5.3-2)",
+		"libzscanner5 (= 3.5.3-2)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libcap-ng0 (>= 0.7.9)",
 		"libedit2 (>= 2.11-20080614-0)",
@@ -32,13 +32,13 @@
 	"suggests": [
 		"systemd"
 	],
-	"installedSize": 3427,
+	"installedSize": 3431,
 	"maintainer": "knot packagers <knot@packages.debian.org>",
 	"description": "Authoritative DNS server",
 	"homepage": "https://www.knot-dns.cz/",
-	"filename": "pool/main/k/knot/knot_3.5.3-1_amd64.deb",
-	"size": 633624,
-	"md5": "9d1f0caea5e166c9d5d5e1119f6fcbce",
-	"sha256": "e2f7eb6f7a72ad44d1fc4a94dce704363ff3c0e60a9589f5de319de08b19f799",
+	"filename": "pool/main/k/knot/knot_3.5.3-2_amd64.deb",
+	"size": 633696,
+	"md5": "b289a6c77d2704adf899445fbe8d6e8e",
+	"sha256": "21a5609866bd024230ff845a95b91f33b502b60ada85e85b69165f9f1114f72e",
 	"descriptionMd5": "58f68942353ff022636609aab850a171"
 }]
