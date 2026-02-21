@@ -5,25 +5,26 @@
 		"Size"
 	],
 	"package": "profile-sync-daemon",
-	"version": "6.55-1",
+	"version": "7.00-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"rsync",
+		"fuse-overlayfs",
 		"init-system-helpers (>= 1.52)"
 	],
 	"suggests": [
 		"libpam-systemd",
 		"systemd-sysv"
 	],
-	"installedSize": 117,
+	"installedSize": 110,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Symlink and sync browser profile directories into RAM",
 	"homepage": "https://github.com/graysky2/profile-sync-daemon",
-	"filename": "pool/main/p/profile-sync-daemon/profile-sync-daemon_6.55-1_all.deb",
-	"size": 23244,
-	"md5": "44a3820e6aac4a9b04ae3477c2b4fbb6",
-	"sha256": "476be68026093cd3b2af5bd2fdacf3d9b58809ed4ecd720785f5cf20097368f9",
+	"filename": "pool/main/p/profile-sync-daemon/profile-sync-daemon_7.00-1_all.deb",
+	"size": 20992,
+	"md5": "45b96e448563989b66a4d1845671c7fe",
+	"sha256": "0c3ade154836e69c618caf9870c180c496448dd4379b7dcf5038e07b51faa2cf",
 	"descriptionMd5": "bf9f50fa1cdaf4d82370e129c3d86fbd"
 }

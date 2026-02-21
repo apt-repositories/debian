@@ -6,7 +6,7 @@
 	],
 	"package": "librust-ntp-proto-dev",
 	"source": "rust-ntp-proto",
-	"version": "1.6.2-4",
+	"version": "1.7.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,10 +19,13 @@
 		"librust-rustls-0.23+logging-dev (>= 0.23.16-~~)",
 		"librust-rustls-0.23+ring-dev (>= 0.23.16-~~)",
 		"librust-rustls-0.23+std-dev (>= 0.23.16-~~)",
-		"librust-rustls-0.23+tls12-dev (>= 0.23.16-~~)",
 		"librust-rustls-platform-verifier-0.6+default-dev",
 		"librust-serde-1+default-dev (>= 1.0.145-~~)",
 		"librust-serde-1+derive-dev (>= 1.0.145-~~)",
+		"librust-tokio-1+default-dev (>= 1.32-~~)",
+		"librust-tokio-1+io-util-dev (>= 1.32-~~)",
+		"librust-tokio-rustls-0.26+default-dev",
+		"librust-tokio-rustls-0.26+logging-dev",
 		"librust-tracing-0.1+default-dev (>= 0.1.37-~~)",
 		"librust-zeroize-1+default-dev (>= 1.7-~~)",
 		"librust-rustls-platform-verifier-dev (>= 0.5.3+ds-3)"
@@ -30,13 +33,13 @@
 	"breaks": [
 		"librust-ntpd-dev (<< 1.6.2-2~)"
 	],
-	"installedSize": 742,
+	"installedSize": 816,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Ntpd-rs packet parsing and algorithms - Rust source code",
 	"homepage": "https://github.com/pendulum-project/ntpd-rs",
-	"filename": "pool/main/r/rust-ntp-proto/librust-ntp-proto-dev_1.6.2-4_amd64.deb",
-	"size": 102552,
-	"md5": "a1a45d069942ec5bbe3b1ff968417085",
-	"sha256": "4ad5cc73498583f341c9b95e13dca6ade28133461078512971abe0528a3129fa",
+	"filename": "pool/main/r/rust-ntp-proto/librust-ntp-proto-dev_1.7.1-1_amd64.deb",
+	"size": 102824,
+	"md5": "82cb6a1a44a9c74f92272273b0106c5a",
+	"sha256": "15289aa2bf30f87eb229aa82854aea079c758a123c8f9b89cb3fd5b4b8fd9395",
 	"descriptionMd5": "f8e3ce7c61f16f09a5b48ad2ffdf98a4"
 }]
