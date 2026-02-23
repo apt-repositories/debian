@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "openvpn",
+	"version": "2.7.0-1~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"liblz4-1 (>= 0.0~r113)",
+		"liblzo2-2 (>= 2.02)",
+		"libnl-3-200 (>= 3.2.7)",
+		"libnl-genl-3-200 (>= 3.2.21)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpkcs11-helper1t64 (>= 1.28)",
+		"libssl3t64 (>= 3.4.0)",
+		"libsystemd0"
+	],
+	"recommends": [
+		"easy-rsa"
+	],
+	"suggests": [
+		"openssl",
+		"openvpn-systemd-resolved",
+		"resolvconf"
+	],
+	"installedSize": 1841,
+	"maintainer": "OpenVPN Maintainers <openvpn@packages.debian.org>",
+	"description": "virtual private network daemon",
+	"homepage": "https://openvpn.net/community/",
+	"filename": "pool/main/o/openvpn/openvpn_2.7.0-1~bpo13+1_amd64.deb",
+	"size": 682324,
+	"sha256": "486aaa999cae518b88830275ef3e1323c731a57e2b6b32d03e0e05253d9937c8",
+	"descriptionMd5": "2ebe91e411d46309a61861db507e5c2f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvpn",
 	"version": "2.6.14-1+deb13u1",
 	"section": "net",
 	"priority": "optional",

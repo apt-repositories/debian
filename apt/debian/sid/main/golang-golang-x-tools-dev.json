@@ -6,7 +6,7 @@
 	],
 	"package": "golang-golang-x-tools-dev",
 	"source": "golang-golang-x-tools",
-	"version": "1:0.42.0+ds-1",
+	"version": "1:0.42.0+ds-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -16,13 +16,19 @@
 		"golang-golang-x-net-dev (>= 1:0.27.0)",
 		"golang-golang-x-sync-dev (>= 0.7.0)"
 	],
+	"breaks": [
+		"golang-github-shurcool-httpfs-dev (<= 0.0~git20230704.f1e31cf-1)",
+		"golang-github-shurcool-httpgzip-dev (<= 0.0~git20190516.1c7afaa-4)",
+		"golang-honnef-go-tools-dev (<= 2024.1-1)",
+		"golang-k8s-kube-openapi-dev (<= 0.0~git20241212.2c72e55-2)"
+	],
 	"installedSize": 8212,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "supplementary Go tools (development files)",
 	"homepage": "https://golang.org/x/tools",
-	"filename": "pool/main/g/golang-golang-x-tools/golang-golang-x-tools-dev_0.42.0+ds-1_all.deb",
-	"size": 1422524,
-	"md5": "ef5922228c52dd2476b7820c6f93d0d1",
-	"sha256": "f93145d45fd38ec73106941d401f9931968fc6ab9133300403f2f88ec04d6a3a",
+	"filename": "pool/main/g/golang-golang-x-tools/golang-golang-x-tools-dev_0.42.0+ds-2_all.deb",
+	"size": 1422668,
+	"md5": "daeb2955593b81c5199708c0dfa6681e",
+	"sha256": "b4693bff8830e0d5912c4662bf76426136e9fed64f4adcfbd3cc3350f43929c5",
 	"descriptionMd5": "848b14f59fde001d69fac7c7123ed46c"
 }

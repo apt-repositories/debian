@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "metalog",
-	"version": "20260105-1",
+	"version": "20260221-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"runit-helper (>= 2.14.0~)",
 		"libc6 (>= 2.38)",
 		"libpcre2-8-0 (>= 10.22)",
 		"zlib1g (>= 1:1.1.4)"
@@ -17,17 +18,21 @@
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
+	"breaks": [
+		"runit (<< 2.1.2-51~)",
+		"xchpst (<< 0.8.1-1)"
+	],
 	"conflicts": [
 		"linux-kernel-log-daemon",
 		"system-log-daemon"
 	],
-	"installedSize": 108,
+	"installedSize": 123,
 	"maintainer": "Andrew Bower <andrew@bower.uk>",
 	"description": "Syslog replacement that allows regular expression matching",
 	"homepage": "https://metalog.sourceforge.net/",
-	"filename": "pool/main/m/metalog/metalog_20260105-1_amd64.deb",
-	"size": 40892,
-	"md5": "0e81cd5c53ffa16e288fddb38c646427",
-	"sha256": "ddb255964a4a99e4d5820f53f5e2b90dae493b6d367a84288d87b801ee136d8b",
+	"filename": "pool/main/m/metalog/metalog_20260221-1_amd64.deb",
+	"size": 42084,
+	"md5": "5c7e3629676e587303124eec39932167",
+	"sha256": "ff32c6df467f9a22bdc3ee1f59bd4451accc4f2bd770a0fb534c8ace453f5d11",
 	"descriptionMd5": "7a2b001692803c3254283e21dd2c105e"
 }]
