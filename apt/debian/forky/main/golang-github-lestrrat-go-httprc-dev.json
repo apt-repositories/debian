@@ -6,22 +6,26 @@
 	],
 	"package": "golang-github-lestrrat-go-httprc-dev",
 	"source": "golang-github-lestrrat-go-httprc",
-	"version": "1.0.6-2",
+	"version": "3.0.2-1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"golang-github-lestrrat-go-blackmagic-dev",
 		"golang-github-lestrrat-go-httpcc-dev",
-		"golang-github-lestrrat-go-option-dev",
+		"golang-github-lestrrat-go-option-dev (>= 2.0.0)",
 		"golang-github-stretchr-testify-dev"
 	],
-	"installedSize": 56,
+	"breaks": [
+		"golang-github-lestrrat-go-jwx-dev (<< 3.0.0)"
+	],
+	"installedSize": 162,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Quasi Up-to-date HTTP In-memory Cache (library)",
 	"homepage": "https://github.com/lestrrat-go/httprc",
-	"filename": "pool/main/g/golang-github-lestrrat-go-httprc/golang-github-lestrrat-go-httprc-dev_1.0.6-2_all.deb",
-	"size": 13684,
-	"md5": "0f83abc6d99f6668a91afdf79732ea03",
-	"sha256": "b1609d36a7faaa09c3fa3b8a36f2628b7baa6fab36e7a7dd9c4d1ca1e524bc60",
+	"filename": "pool/main/g/golang-github-lestrrat-go-httprc/golang-github-lestrrat-go-httprc-dev_3.0.2-1_all.deb",
+	"size": 28536,
+	"md5": "b3761f67bb9949fef21a010140bfe551",
+	"sha256": "506c52f6a9a2d0cc0379ba1d80a43100620f9e04cc9f46f23018f77aca6be825",
 	"descriptionMd5": "0947d1c92be252e3227ae64eb32ec4a7"
 }

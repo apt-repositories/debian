@@ -5,13 +5,25 @@
 		"Size"
 	],
 	"package": "libuhd-dev",
-	"source": "uhd (4.9.0.0+ds1-1)",
-	"version": "4.9.0.0+ds1-1+b1",
+	"source": "uhd",
+	"version": "4.9.0.0+ds1-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libuhd4.9.0 (= 4.9.0.0+ds1-1+b1)"
+		"libboost-chrono-dev",
+		"libboost-date-time-dev",
+		"libboost-dev",
+		"libboost-exception-dev",
+		"libboost-filesystem-dev",
+		"libboost-program-options-dev",
+		"libboost-python-dev",
+		"libboost-regex-dev",
+		"libboost-serialization-dev",
+		"libboost-system-dev",
+		"libboost-test-dev",
+		"libboost-thread-dev",
+		"libuhd4.9.0 (= 4.9.0.0+ds1-3)"
 	],
 	"recommends": [
 		"gnuradio-dev",
@@ -24,9 +36,9 @@
 	"maintainer": "A. Maitland Bottoms <bottoms@debian.org>",
 	"description": "universal hardware driver for Ettus Research products - headers",
 	"homepage": "https://www.ettus.com/sdr-software/uhd-usrp-hardware-driver/",
-	"filename": "pool/main/u/uhd/libuhd-dev_4.9.0.0+ds1-1+b1_amd64.deb",
-	"size": 259012,
-	"md5": "e63959fa529b8a3bc9bbe6d545f367c6",
-	"sha256": "b135033346ce67f3ce93eb191c817bdd1320ecd7198b69f69ec11a5b885934ee",
+	"filename": "pool/main/u/uhd/libuhd-dev_4.9.0.0+ds1-3_amd64.deb",
+	"size": 259912,
+	"md5": "b1110014c24e4e88f69d24906daed596",
+	"sha256": "5af4878cc1552105c5188139a6946b74869ed1ff0535d7e572525fb0ad0a3a26",
 	"descriptionMd5": "edbe3132d8c8d86055aefaf2c1ec7b35"
 }]

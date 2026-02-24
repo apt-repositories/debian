@@ -6,20 +6,26 @@
 	],
 	"package": "golang-github-lestrrat-go-option-dev",
 	"source": "golang-github-lestrrat-go-option",
-	"version": "1.0.1-2",
+	"version": "2.0.0-3",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"golang-github-lestrrat-go-blackmagic-dev",
 		"golang-github-stretchr-testify-dev"
 	],
-	"installedSize": 18,
+	"breaks": [
+		"golang-github-lestrrat-go-backoff-dev (<= 2.0.8-5~)",
+		"golang-github-lestrrat-go-httprc-dev (<< 3.0.0)",
+		"golang-github-lestrrat-go-jwx-dev (<< 3.0.0~)"
+	],
+	"installedSize": 23,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Implementation of the \"Optional Parameters Pattern\" (library)",
 	"homepage": "https://github.com/lestrrat-go/option",
-	"filename": "pool/main/g/golang-github-lestrrat-go-option/golang-github-lestrrat-go-option-dev_1.0.1-2_all.deb",
-	"size": 3744,
-	"md5": "8dd6fb7c15e08bc0c22e22df11243c65",
-	"sha256": "7848c40a12619a2df78f94a9078dec7520cffeb91573ee06f0f43d37fcdb1239",
+	"filename": "pool/main/g/golang-github-lestrrat-go-option/golang-github-lestrrat-go-option-dev_2.0.0-3_all.deb",
+	"size": 5392,
+	"md5": "029c7a064eb46c038a4cbfeed9ad3dfe",
+	"sha256": "1ea2967b8db947e51c50cc25c5298111c1b3237692582ee07e80d69c8ae3aa24",
 	"descriptionMd5": "0281099fc9d7503a50fbceafc4fd50c6"
 }]
