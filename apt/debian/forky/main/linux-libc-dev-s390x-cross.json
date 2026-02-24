@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "linux-libc-dev-s390x-cross",
-	"source": "cross-toolchain-base (79)",
-	"version": "6.18.5-1cross1",
+	"source": "linux",
+	"version": "6.18.12-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 8443,
-	"maintainer": "Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>",
-	"description": "Linux Kernel Headers for development (for cross-compiling)",
-	"builtUsing": "linux (= 6.18.5-1)",
-	"filename": "pool/main/c/cross-toolchain-base/linux-libc-dev-s390x-cross_6.18.5-1cross1_all.deb",
-	"size": 2385552,
-	"md5": "10427dd75a6ccfb667f77177d356a864",
-	"sha256": "fb27ffe6b9fcc4239cda1d0e28458097d18b267c616c22a1f7c0e772f504b968",
-	"descriptionMd5": "1451bbb6883623d253eaf0cf7565213a"
+	"depends": [
+		"linux-libc-dev (= 6.18.12-1)"
+	],
+	"installedSize": 1091,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux support headers for userspace development (for cross-compiling)",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-libc-dev-s390x-cross_6.18.12-1_all.deb",
+	"size": 12152,
+	"md5": "5961000df2152bd28fb7a4c80d29c80f",
+	"sha256": "677ad4640255ae58f72342d6b59e296f21840808ab12c79562339852095d3fc3",
+	"descriptionMd5": "47611235aa48c1c9a05b5de93862bde7"
 }

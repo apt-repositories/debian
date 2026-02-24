@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgloo-rocm-0",
+	"source": "gloo-rocm",
+	"version": "0.0~git20250912.d97133a-2+rocm1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libamdhip64-6 (>= 6.1.5)",
+		"libc6 (>= 2.42)",
+		"libgcc-s1 (>= 3.0)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"libibverbs1 (>= 1.1.6)",
+		"libopenmpi40 (>= 5.0.9)",
+		"libstdc++6 (>= 13.1)",
+		"libuv1t64 (>= 1.18.0)"
+	],
+	"replaces": [
+		"libgloo-cuda-0",
+		"libgloo0"
+	],
+	"conflicts": [
+		"libgloo-cuda-0",
+		"libgloo0"
+	],
+	"installedSize": 4318,
+	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
+	"description": "Collective communications library (shared object)",
+	"homepage": "https://github.com/pytorch/gloo",
+	"filename": "pool/main/g/gloo-rocm/libgloo-rocm-0_0.0~git20250912.d97133a-2+rocm1_amd64.deb",
+	"size": 480612,
+	"md5": "77899524008eed99fe5446c3c3a80059",
+	"sha256": "db1b5ee44e75154f734408f3325a944a0618351af307f5b142768fa18ccf94c0",
+	"descriptionMd5": "11fe5b4bb9197845522ecac87176ae15"
+}

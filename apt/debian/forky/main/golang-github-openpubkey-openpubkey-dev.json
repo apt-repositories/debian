@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-openpubkey-openpubkey-dev",
 	"source": "golang-github-openpubkey-openpubkey",
-	"version": "0.21.0-1",
+	"version": "0.22.0-1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,20 +15,23 @@
 		"golang-github-awnumar-memguard-dev",
 		"golang-github-go-webauthn-webauthn-dev",
 		"golang-github-google-uuid-dev",
-		"golang-github-lestrrat-go-jwx-dev",
+		"golang-github-lestrrat-go-jwx-dev (>= 3.0.0)",
 		"golang-github-stretchr-testify-dev",
 		"golang-github-zitadel-oidc-dev",
 		"golang-golang-x-crypto-dev",
 		"golang-golang-x-exp-dev",
 		"golang-logrus-dev"
 	],
-	"installedSize": 617,
+	"breaks": [
+		"opkssh (<= 0.10.0-3)"
+	],
+	"installedSize": 645,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "OpenPubkey library to bind OpenIDs to public keys (library)",
 	"homepage": "https://github.com/openpubkey/openpubkey",
-	"filename": "pool/main/g/golang-github-openpubkey-openpubkey/golang-github-openpubkey-openpubkey-dev_0.21.0-1_all.deb",
-	"size": 100468,
-	"md5": "10947a8ae38c3ea75d50ecec01490e19",
-	"sha256": "2ca05b1c7fe6ad897987c2904e08f8101e1fd30b169e06f00c0a6d0f684cbe9d",
+	"filename": "pool/main/g/golang-github-openpubkey-openpubkey/golang-github-openpubkey-openpubkey-dev_0.22.0-1_all.deb",
+	"size": 104204,
+	"md5": "4c3c658dde8d077651a53613a9f5adea",
+	"sha256": "29b695490fb84a2f74b4081891e9382a061b616eb50cb4b969147ca29373400f",
 	"descriptionMd5": "220181ac9d2d01ea29f3e178833f9cf4"
 }

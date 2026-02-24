@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "xrdp",
-	"version": "0.10.1-4.1",
+	"version": "0.10.5-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,6 +14,7 @@
 		"sysvinit-utils (>= 3.06-4)",
 		"ssl-cert",
 		"libc6 (>= 2.38)",
+		"libfuse3-4 (>= 3.17.2)",
 		"libjpeg62-turbo (>= 1.3.1)",
 		"libopus0 (>= 1.1)",
 		"libpam0g (>= 0.99.7.1)",
@@ -26,15 +27,19 @@
 		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
+		"fuse",
 		"xorgxrdp"
 	],
-	"installedSize": 4502,
+	"suggests": [
+		"guacamole"
+	],
+	"installedSize": 4671,
 	"maintainer": "Debian Remote Maintainers <debian-remote@lists.debian.org>",
 	"description": "Remote Desktop Protocol (RDP) server",
 	"homepage": "https://www.xrdp.org/",
-	"filename": "pool/main/x/xrdp/xrdp_0.10.1-4.1_amd64.deb",
-	"size": 614220,
-	"md5": "e72d91a4ee0d03345a075f340c9599de",
-	"sha256": "f1cefc7b8f1ad0c381e0a480174e57ae9616dc41af3e503cfc98ca6a6e7da16b",
+	"filename": "pool/main/x/xrdp/xrdp_0.10.5-3_amd64.deb",
+	"size": 648384,
+	"md5": "c7738f2c9b58be628d93624072a89860",
+	"sha256": "38db63c8edbdcf18a3113a7dcf5b06a072cf9329a7e83a516c20725c7885b485",
 	"descriptionMd5": "330bdf2ad3e2031a5164fd15aa25e2e9"
 }
