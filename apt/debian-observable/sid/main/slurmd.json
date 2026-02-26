@@ -6,32 +6,29 @@
 	],
 	"package": "slurmd",
 	"source": "slurm-wlm",
-	"version": "25.11.2-1",
+	"version": "25.11.2-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libhwloc15 (>= 2.12.2)",
+		"libhwloc15 (>= 2.13.0)",
 		"liblz4-1 (>= 0.0~r130)",
 		"libnuma1 (>= 2.0.11)",
 		"libpam0g (>= 0.99.7.1)",
-		"slurm-wlm-basic-plugins (= 25.11.2-1)",
+		"slurm-wlm-basic-plugins (= 25.11.2-2)",
 		"ucf"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"munge"
 	],
-	"installedSize": 795,
+	"installedSize": 793,
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "Slurm compute node daemon",
 	"homepage": "http://slurm.schedmd.com",
-	"filename": "pool/main/s/slurm-wlm/slurmd_25.11.2-1_amd64.deb",
-	"size": 257264,
-	"md5": "bacaf9a8cea7a268631d1684f46f386d",
-	"sha256": "d6dd2dc896019593296aad571d031645b3bf76bb9872e1054be5e8f0ba9f4b03",
+	"filename": "pool/main/s/slurm-wlm/slurmd_25.11.2-2_amd64.deb",
+	"size": 255200,
+	"md5": "00ba11b092c42ab323fdc159dc19edeb",
+	"sha256": "608dcf6d0c149f041bb7d84d107b402485689022cca3196a1b69efe4ac6e4293",
 	"descriptionMd5": "c0b71b00caae130250a7d5fa4f22251c"
 }]

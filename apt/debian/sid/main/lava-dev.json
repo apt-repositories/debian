@@ -6,14 +6,13 @@
 	],
 	"package": "lava-dev",
 	"source": "lava",
-	"version": "2026.01-2",
+	"version": "2026.01-3",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"build-essential",
 		"ca-certificates",
-		"debhelper (>= 12)",
 		"debootstrap",
 		"devscripts",
 		"dh-python",
@@ -47,7 +46,7 @@
 		"xsltproc"
 	],
 	"recommends": [
-		"img2simg",
+		"android-sdk-libsparse-utils",
 		"lxc | lava-lxc-mocker",
 		"nfs-kernel-server",
 		"python3-django-extensions",
@@ -55,7 +54,6 @@
 		"python3-pytest-cov",
 		"rpcbind",
 		"sbuild",
-		"simg2img",
 		"telnet | telnet-client",
 		"tftpd-hpa",
 		"u-boot-tools"
@@ -66,13 +64,13 @@
 		"python3-django-debug-toolbar",
 		"radon"
 	],
-	"installedSize": 82,
+	"installedSize": 60,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Linaro Automated Validation Architecture developer support",
 	"homepage": "https://www.lavasoftware.org/",
-	"filename": "pool/main/l/lava/lava-dev_2026.01-2_all.deb",
-	"size": 32536,
-	"md5": "6b2db05024193485b5b8ed4986ba9b22",
-	"sha256": "7b7fa55dfe949ebf8ad8d4aa2b7339d5acb124c6586e92d6d2b562486990fa44",
-	"descriptionMd5": "d11c6c4dbc24176addf35c016169c2a7"
+	"filename": "pool/main/l/lava/lava-dev_2026.01-3_all.deb",
+	"size": 12588,
+	"md5": "97fc630cbc7d4a0a5466fb398d6db3f5",
+	"sha256": "5b998922d725729083581ae4cd7b569c30d345d2cb51a9f07a701b0efa5b4b07",
+	"descriptionMd5": "9c8c6f15467bb65d2a670a076f03595f"
 }

@@ -6,15 +6,15 @@
 	],
 	"package": "lava-server",
 	"source": "lava",
-	"version": "2026.01-2",
+	"version": "2026.01-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"adduser",
 		"gunicorn (>= 19.9.0-4) | gunicorn3",
-		"lava-common (= 2026.01-2)",
-		"lava-server-doc (= 2026.01-2)",
+		"lava-common (= 2026.01-3)",
+		"lava-server-doc (= 2026.01-3)",
 		"libjs-bootstrap",
 		"libjs-jquery",
 		"libjs-jquery-flot",
@@ -44,15 +44,15 @@
 		"python3-whitenoise",
 		"python3-yaml",
 		"python3-zmq",
-		"python3:any (>= 3.6~)"
+		"python3:any"
 	],
 	"preDepends": [
 		"debconf | debconf-2.0"
 	],
 	"recommends": [
 		"apache2",
-		"lava-coordinator (= 2026.01-2)",
-		"lava-dispatcher (= 2026.01-2)",
+		"lava-coordinator (= 2026.01-3)",
+		"lava-dispatcher (= 2026.01-3)",
 		"openssh-client",
 		"postgresql",
 		"postgresql-client",
@@ -62,13 +62,13 @@
 		"lavacli",
 		"rabbitmq-server | redis-server"
 	],
-	"installedSize": 2798,
+	"installedSize": 2779,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Linaro Automated Validation Architecture server",
 	"homepage": "https://www.lavasoftware.org/",
-	"filename": "pool/main/l/lava/lava-server_2026.01-2_all.deb",
-	"size": 470860,
-	"md5": "073ded8c79f93f1fbbdc209e0760b574",
-	"sha256": "8f4301cc535ba89d4a40e885d1077eb8b30b138a9176b137b76f08cf59b1e921",
-	"descriptionMd5": "66925985ca4790b8d1bef765f8ec014a"
+	"filename": "pool/main/l/lava/lava-server_2026.01-3_all.deb",
+	"size": 450980,
+	"md5": "28e836ca943fd86956f97534b674c63c",
+	"sha256": "ef0e243b971cf32e5f12aa23064e6521101691147ecd991a115613aca66dd48c",
+	"descriptionMd5": "f8a76d2dd3fb7707cca0e0752a76a0f2"
 }]

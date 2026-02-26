@@ -6,12 +6,13 @@
 	],
 	"package": "libtss2-fapi1t64",
 	"source": "tpm2-tss",
-	"version": "4.1.3-4",
+	"version": "4.1.3-5",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"tpm-udev",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libcurl4t64 (>= 7.80.0)",
 		"libjson-c5 (>= 0.15)",
@@ -27,15 +28,15 @@
 	],
 	"breaks": [
 		"libtss2-esys0 (<< 3.0.1-2)",
-		"libtss2-fapi1 (<< 4.1.3-4)"
+		"libtss2-fapi1 (<< 4.1.3-5)"
 	],
-	"installedSize": 1135,
+	"installedSize": 1133,
 	"maintainer": "Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>",
 	"description": "TPM2 Software stack library - TSS and TCTI libraries",
 	"homepage": "https://github.com/tpm2-software/tpm2-tss",
-	"filename": "pool/main/t/tpm2-tss/libtss2-fapi1t64_4.1.3-4_amd64.deb",
-	"size": 365024,
-	"md5": "cdf6d12c2c273eb3a12a6fa43b1b5824",
-	"sha256": "f0bc6fdf1446c2f1048eea11203b31eaf01bb4108543d21b7aa6d1f2f992474b",
+	"filename": "pool/main/t/tpm2-tss/libtss2-fapi1t64_4.1.3-5_amd64.deb",
+	"size": 363108,
+	"md5": "263eba20813cd7c807e216ade23430db",
+	"sha256": "778f92c7b56d8e2f5f2052cedb1c245da62abec75c06901861f638f469b86f87",
 	"descriptionMd5": "e5e8a6774e551d97002dac8a808b4fd7"
 }

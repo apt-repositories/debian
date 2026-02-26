@@ -5,20 +5,22 @@
 		"Size"
 	],
 	"package": "tpm-udev",
-	"version": "0.6+nmu1",
+	"version": "0.7",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
+		"libtss2-fapi1t64 (>= 4.1.3-2~)"
+	],
+	"enhances": [
 		"udev"
 	],
-	"installedSize": 18,
+	"installedSize": 14,
 	"maintainer": "Ying-Chun Liu (PaulLiu) <paulliu@debian.org>",
 	"description": "udev rules for TPM modules",
-	"filename": "pool/main/t/tpm-udev/tpm-udev_0.6+nmu1_all.deb",
-	"size": 3244,
-	"md5": "d34dbd5a315a3a11698779a137545b9b",
-	"sha256": "103aaad530acac082222d8530586041cf2b78098d077ccf1d9418b2866d164af",
+	"filename": "pool/main/t/tpm-udev/tpm-udev_0.7_all.deb",
+	"size": 3152,
+	"md5": "2e1d0cb6b26e2b268d7531f8443592f6",
+	"sha256": "7b4cc8c375e09457a5106f16b87385c0dabcb228562df2ab472017e4f34dbbad",
 	"descriptionMd5": "177673d3e47a0342273bf45f68d48423"
 }
