@@ -5,15 +5,14 @@
 		"Size"
 	],
 	"package": "condor",
-	"source": "condor (23.9.6+dfsg-2.1)",
-	"version": "23.9.6+dfsg-2.1+b7",
+	"version": "25.6.1+dfsg-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
 		"libdate-manip-perl",
-		"python3 (<< 3.14)",
+		"python3",
 		"python3-cryptography",
 		"python3-requests",
 		"libcom-err2",
@@ -23,24 +22,21 @@
 		"libkrb5support0",
 		"libmunge2",
 		"net-tools",
+		"cryptsetup",
 		"libjs-bootstrap",
 		"libjs-jquery",
+		"jq",
 		"libscitokens0t64",
 		"libssl3t64 (>= 3.0.0)",
 		"libvomsapi1t64",
-		"condor-upgrade-checks",
 		"perl:any",
-		"python3 (>= 3.13~)",
 		"python3:any",
-		"libboost-python1.83.0 (>= 1.83.0)",
-		"libboost-python1.83.0-py313",
 		"libc6 (>= 2.38)",
 		"libcurl4t64 (>= 7.16.2)",
 		"libexpat1 (>= 2.0.1)",
 		"libgcc-s1 (>= 3.0)",
 		"libgomp1 (>= 4.9)",
 		"libpcre2-8-0 (>= 10.22)",
-		"libpython3.13 (>= 3.13.0~rc3)",
 		"libsqlite3-0 (>= 3.5.9)",
 		"libstdc++6 (>= 14)",
 		"libuuid1 (>= 2.16)"
@@ -56,24 +52,24 @@
 		"slurm-client"
 	],
 	"replaces": [
-		"htcondor (<< 23.9.6+dfsg-2.1+b7)",
-		"libclassad16"
+		"condor-upgrade-checks",
+		"htcondor"
 	],
 	"breaks": [
-		"htcondor (<< 23.9.6+dfsg-2.1+b7)",
-		"libclassad16"
+		"condor-upgrade-checks",
+		"htcondor"
 	],
 	"conflicts": [
-		"htcondor (<< 23.9.6+dfsg-2.1+b7)",
-		"libclassad16"
+		"condor-upgrade-checks",
+		"htcondor"
 	],
-	"installedSize": 32002,
+	"installedSize": 32834,
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "distributed workload management system",
 	"homepage": "https://htcondor.org/",
-	"filename": "pool/main/c/condor/condor_23.9.6+dfsg-2.1+b7_amd64.deb",
-	"size": 9262872,
-	"md5": "d299e3c38d2817b8c3dcea0301901971",
-	"sha256": "eac9d5d2a955c447defebe22c3bd03871f7115ba3c613a7712fa20d6f82c18ee",
+	"filename": "pool/main/c/condor/condor_25.6.1+dfsg-1_amd64.deb",
+	"size": 9747756,
+	"md5": "09cdf130d2d483362751e05d32510b1b",
+	"sha256": "94a8efdbf8e1083a4b6b075b521fecd93c479362fb35915a4ebdb7f3e5aa43f5",
 	"descriptionMd5": "903f297977fa999b1736134b3022d178"
 }
