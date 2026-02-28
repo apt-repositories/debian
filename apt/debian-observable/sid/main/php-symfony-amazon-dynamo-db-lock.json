@@ -6,7 +6,7 @@
 	],
 	"package": "php-symfony-amazon-dynamo-db-lock",
 	"source": "symfony",
-	"version": "7.4.5+dfsg-1",
+	"version": "7.4.6+dfsg-1",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,21 +14,17 @@
 		"php-common",
 		"php-async-aws-core (>= 1.7)",
 		"php-async-aws-core (<< 2~~)",
+		"php-async-aws-dynamo-db (>= 3.0)",
+		"php-async-aws-dynamo-db (<< 4~~)",
 		"php-symfony-lock"
 	],
-	"replaces": [
-		"php-async-aws-dynamo-db (<< 3.8.0-2)"
-	],
-	"breaks": [
-		"php-async-aws-dynamo-db (<< 3.8.0-2)"
-	],
-	"installedSize": 909,
+	"installedSize": 69,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "Symfony Amazon DynamoDb extension Lock Bridge",
 	"homepage": "https://symfony.com/doc/7.4/components/lock.html",
-	"filename": "pool/main/s/symfony/php-symfony-amazon-dynamo-db-lock_7.4.5+dfsg-1_all.deb",
-	"size": 85236,
-	"md5": "9ce7b4d0f952c6aedb930ce7d564ad2c",
-	"sha256": "21d96f68e9c802ced1f98429df607f14ab6f3d88fcfe44c3945b5c52f835070e",
+	"filename": "pool/main/s/symfony/php-symfony-amazon-dynamo-db-lock_7.4.6+dfsg-1_all.deb",
+	"size": 19520,
+	"md5": "1cbd39b5d6d47e4d0422341eb00c010d",
+	"sha256": "4e7acfde7952b08460b878431c4385e4c8f1fee6e73674ae9c7ee05955f90ada",
 	"descriptionMd5": "b78025a3b84b31b8a6f8b9f30f0961b2"
 }]
