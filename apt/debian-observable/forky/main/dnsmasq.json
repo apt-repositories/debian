@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "dnsmasq",
-	"version": "2.92-1",
+	"version": "2.92-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"netbase",
 		"dnsmasq-base",
+		"netbase",
 		"runit-helper (>= 2.14.0~)"
 	],
 	"preDepends": [
@@ -24,16 +24,15 @@
 		"runit (<< 2.1.2-51~)"
 	],
 	"conflicts": [
-		"resolvconf (<< 1.15)",
 		"runit (<< 2.1.2-51~)"
 	],
 	"installedSize": 156,
 	"maintainer": "Simon Kelley <simon@thekelleys.org.uk>",
 	"description": "Small caching DNS proxy and DHCP/TFTP server - system daemon",
 	"homepage": "https://www.thekelleys.org.uk/dnsmasq/doc.html",
-	"filename": "pool/main/d/dnsmasq/dnsmasq_2.92-1_all.deb",
-	"size": 71220,
-	"md5": "017044bca57687f361f321dff564c868",
-	"sha256": "44a0b9c59be8bafdb7c7259e74025775f1561a804bc6e5f7e42aff5b7d603810",
+	"filename": "pool/main/d/dnsmasq/dnsmasq_2.92-3_all.deb",
+	"size": 71644,
+	"md5": "56efbf803979dba44a050e19d19fec58",
+	"sha256": "01886e8d35089f3f92760a20eac1632dc7b83bc1e3130d80f62f4ee9a0a119b3",
 	"descriptionMd5": "7b36911676b04203658c6857a166934f"
 }]

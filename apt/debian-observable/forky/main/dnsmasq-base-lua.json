@@ -6,42 +6,35 @@
 	],
 	"package": "dnsmasq-base-lua",
 	"source": "dnsmasq",
-	"version": "2.92-1",
+	"version": "2.92-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"passwd",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libdbus-1-3 (>= 1.10)",
 		"libgmp10 (>= 2:6.3.0+dfsg)",
-		"libhogweed6t64 (>= 2.4-3)",
+		"libhogweed6t64",
 		"libidn2-0 (>= 2.0.0)",
 		"liblua5.4-0 (>= 5.4.6)",
 		"libnetfilter-conntrack3 (>= 1.0.1)",
-		"libnettle8t64 (>= 2.4-3)",
+		"libnettle8t64",
 		"libnftables1 (>= 1.0.2)"
 	],
 	"recommends": [
 		"dns-root-data"
 	],
-	"replaces": [
-		"dnsmasq (<< 2.63-1~)",
-		"dnsmasq-base"
-	],
-	"breaks": [
-		"dnsmasq (<< 2.63-1~)"
-	],
 	"conflicts": [
 		"dnsmasq-base"
 	],
-	"installedSize": 1260,
+	"installedSize": 1262,
 	"maintainer": "Simon Kelley <simon@thekelleys.org.uk>",
 	"description": "Small caching DNS proxy and DHCP/TFTP server - executable, Lua-enabled",
 	"homepage": "https://www.thekelleys.org.uk/dnsmasq/doc.html",
-	"filename": "pool/main/d/dnsmasq/dnsmasq-base-lua_2.92-1_amd64.deb",
-	"size": 581648,
-	"md5": "6cd062c2df4d6dbc1126d5ceede372ba",
-	"sha256": "7e6c33b54be7f584f9565fd8ee937cb263eb8feb318e26f31a66f9105adc53cf",
+	"filename": "pool/main/d/dnsmasq/dnsmasq-base-lua_2.92-3_amd64.deb",
+	"size": 581504,
+	"md5": "83834c6260b3f8fe17f0f122a83e1848",
+	"sha256": "2c25d5b12e0ee355ed0d55dfc4c63f0c0c516fe96854fda7572bd52e371502f6",
 	"descriptionMd5": "5caf1f894b363ec915dba1cc68921dc9"
 }]

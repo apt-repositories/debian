@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.18.14+deb14-amd64-unsigned",
+	"source": "linux",
+	"version": "6.18.14-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"kmod",
+		"linux-base-6.18.14+deb14-amd64 (= 6.18.14-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-6.18"
+	],
+	"replaces": [
+		"linux-image-6.18.14+deb14-amd64"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.18.14+deb14-amd64"
+	],
+	"installedSize": 113688,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.18.14 for 64-bit PCs",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux/linux-image-6.18.14+deb14-amd64-unsigned_6.18.14-1_amd64.deb",
+	"size": 113051888,
+	"md5": "548f2ca4d2f78d3ab6109808195e51f4",
+	"sha256": "e6d156ffa1cfce66865be9234e18e3dfae3f11adec547529e92eb65e5a639d4b",
+	"descriptionMd5": "00bfac19b895507ea011629cf43fdf33"
+}
