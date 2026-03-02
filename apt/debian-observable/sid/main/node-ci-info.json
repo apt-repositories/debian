@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "node-ci-info",
-	"version": "4.0.0+~cs1.1.0-1",
+	"version": "4.4.0+~cs8.2.0-2",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
-	"breaks": [
-		"mocha (<< 9.1.0~)"
+	"replaces": [
+		"node-jest-debbundle (<< 29.6.2~ds2+~cs73.45.28-1~)"
 	],
-	"installedSize": 38,
+	"breaks": [
+		"mocha (<< 9.1.0~)",
+		"node-jest-debbundle (<< 29.6.2~ds2+~cs73.45.28-1~)"
+	],
+	"installedSize": 59,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Get details about the current Continuous Integration environment",
 	"homepage": "https://github.com/watson/ci-info",
-	"filename": "pool/main/n/node-ci-info/node-ci-info_4.0.0+~cs1.1.0-1_all.deb",
-	"size": 12512,
-	"md5": "168c4df061532f07ba9b076079263ff8",
-	"sha256": "4cc653a89dee298ca322a020b049566c0a3d02abc04f2c5a0f85a9511960e14a",
-	"descriptionMd5": "1e108dc8d3ea57789b98231b15db1d59"
+	"filename": "pool/main/n/node-ci-info/node-ci-info_4.4.0+~cs8.2.0-2_all.deb",
+	"size": 15108,
+	"md5": "b995fc870e47c6d6d464f38aa3aa06e4",
+	"sha256": "a6b0c0d478f4aa1b2d570984bc291591a8a2e3df98285a82030cced2be4706f2",
+	"descriptionMd5": "61c58a0cb07cadef78d2ee3cd13854d7"
 }]

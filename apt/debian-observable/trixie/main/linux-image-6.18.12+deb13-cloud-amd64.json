@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.18.12+deb13-cloud-amd64",
+	"source": "linux-signed-amd64 (6.18.12+1~bpo13+1)",
+	"version": "6.18.12-1~bpo13+1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"kmod",
+		"linux-base-6.18.12+deb13-cloud-amd64 (= 6.18.12-1~bpo13+1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-6.18"
+	],
+	"replaces": [
+		"linux-image-6.18.12+deb13-cloud-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.18.12+deb13-cloud-amd64-unsigned"
+	],
+	"installedSize": 49283,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.18.12 for x86-64 cloud (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.18.12-1~bpo13+1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.18.12+deb13-cloud-amd64_6.18.12-1~bpo13+1_amd64.deb",
+	"size": 49127068,
+	"sha256": "c5d56922f7a68b73c87250461bc97409fed9b810c17ea8f03ab7d50ec2b78601",
+	"descriptionMd5": "d45dca8fc319911a4dee1878fca1e9e0"
+}]
