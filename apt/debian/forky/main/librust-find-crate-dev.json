@@ -5,20 +5,23 @@
 		"Size"
 	],
 	"package": "librust-find-crate-dev",
-	"source": "rust-find-crate (0.6.3-1)",
-	"version": "0.6.3-1+b3",
+	"source": "rust-find-crate",
+	"version": "0.7.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-toml-0.5+default-dev (>= 0.5.2-~~)"
+		"librust-toml-0.9+parse-dev",
+		"librust-toml-0.9+serde-dev",
+		"librust-toml-0.9+std-dev"
 	],
-	"installedSize": 72,
+	"installedSize": 86,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Find the crate name from the current Cargo.toml - Rust source code",
-	"filename": "pool/main/r/rust-find-crate/librust-find-crate-dev_0.6.3-1+b3_amd64.deb",
-	"size": 14884,
-	"md5": "519ea75d11b71aece8ed8b547f6ce977",
-	"sha256": "8a47c3a099f6f11a3a767292a43c2f048415d43a00f1df605b034fe53ca3a712",
-	"descriptionMd5": "d55de98c9c55e69eb0a5c47e9cbca4ce"
+	"homepage": "https://github.com/taiki-e/find-crate",
+	"filename": "pool/main/r/rust-find-crate/librust-find-crate-dev_0.7.1-1_amd64.deb",
+	"size": 17412,
+	"md5": "8542fdc81864d108917694db5d723c79",
+	"sha256": "d5177137a83c28f77057b255c4c66f7bc05312d01fff901990e0705bfbd72bb6",
+	"descriptionMd5": "c56e8de2373c672efa676247ea17642b"
 }
