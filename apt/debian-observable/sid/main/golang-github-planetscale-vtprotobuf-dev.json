@@ -6,20 +6,26 @@
 	],
 	"package": "golang-github-planetscale-vtprotobuf-dev",
 	"source": "golang-github-planetscale-vtprotobuf",
-	"version": "0.6.0-1",
+	"version": "0.6.0-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"golang-google-protobuf-dev"
 	],
+	"replaces": [
+		"golang-github-docker-docker-dev (<< 28.5)"
+	],
+	"conflicts": [
+		"golang-github-docker-docker-dev (<< 28.5)"
+	],
 	"installedSize": 2566,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "optimized Protocol Buffer support library for Go (library)",
 	"homepage": "https://github.com/planetscale/vtprotobuf",
-	"filename": "pool/main/g/golang-github-planetscale-vtprotobuf/golang-github-planetscale-vtprotobuf-dev_0.6.0-1_all.deb",
-	"size": 116840,
-	"md5": "f06d19bb617b14ccdc9b91811d4068aa",
-	"sha256": "7206dbcb08165cf89af8a383ef140b9f61cdac88646fa7d3fbd07694c01b5981",
+	"filename": "pool/main/g/golang-github-planetscale-vtprotobuf/golang-github-planetscale-vtprotobuf-dev_0.6.0-2_all.deb",
+	"size": 116940,
+	"md5": "7675a9455fd525a496125c83735a8f88",
+	"sha256": "75318a9871459332fcdc4b08c33176055356be907183f8f03bcde8b8164ce4e7",
 	"descriptionMd5": "c16064ea6017daa824ddfe47d02271bd"
 }]

@@ -5,17 +5,20 @@
 		"Size"
 	],
 	"package": "obs-studio",
-	"version": "30.2.3+dfsg-3.2",
+	"version": "32.0.4+ds1-1",
 	"section": "video",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"obs-studio-common (<< 32.0.4+ds1+1~)",
+		"obs-studio-common (>= 32.0.4+ds1-1)",
 		"qt6-image-formats-plugins",
+		"qt6-svg-plugins",
 		"qt6-wayland",
-		"python3:any",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.13~)",
 		"python3.13",
+		"python3:any",
 		"libavcodec62 (>= 7:8.0.1)",
 		"libavdevice62 (>= 7:8.0.1)",
 		"libavformat62 (>= 7:8.0.1)",
@@ -32,7 +35,7 @@
 		"libmbedcrypto16 (>= 3.6.0)",
 		"libmbedtls21 (>= 3.6.0)",
 		"libmbedx509-7 (>= 3.6.0)",
-		"libobs0t64 (= 30.2.3+dfsg-3.2)",
+		"libobs0t64 (= 32.0.4+ds1-1)",
 		"libopengl0",
 		"libpci3 (>= 1:3.13.0)",
 		"libpulse0 (>= 0.99.1)",
@@ -54,6 +57,7 @@
 		"libv4l-0t64 (>= 0.5.0)",
 		"libva-drm2 (>= 1.1.0)",
 		"libva2 (>= 2.2.0)",
+		"libvpl2 (>= 1:2.15.0)",
 		"libx11-6",
 		"libx264-165 (>= 2:0.165.3222+gitb35605ac)",
 		"libxcb-composite0",
@@ -65,10 +69,10 @@
 		"libxkbcommon0 (>= 0.5.0)"
 	],
 	"recommends": [
-		"obs-plugins (= 30.2.3+dfsg-3.2)"
+		"obs-plugins (= 32.0.4+ds1-1)"
 	],
 	"suggests": [
-		"pkexec | policykit-1",
+		"pkexec | polkitd",
 		"v4l2loopback-dkms"
 	],
 	"replaces": [
@@ -77,13 +81,13 @@
 	"breaks": [
 		"obs-websocket (<< 4.9.0-2.1~)"
 	],
-	"installedSize": 23112,
+	"installedSize": 13938,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "recorder and streamer for live video content",
 	"homepage": "https://obsproject.com",
-	"filename": "pool/main/o/obs-studio/obs-studio_30.2.3+dfsg-3.2_amd64.deb",
-	"size": 6000736,
-	"md5": "b7d8a4ae5ab1836650ec4424738f6701",
-	"sha256": "aff463614593590d72d75eeb243610bdf8e27776196a605cc695e610bb00b1da",
+	"filename": "pool/main/o/obs-studio/obs-studio_32.0.4+ds1-1_amd64.deb",
+	"size": 3418540,
+	"md5": "694ccb4cfdebfd3f261a0e26185cb5b2",
+	"sha256": "aba681805c75bfed968fbddc790bbe31f895801eb8a1f7056ebda2bf50b6188e",
 	"descriptionMd5": "cbfc110806d932e7f3e83ac87b6bfc7e"
 }
