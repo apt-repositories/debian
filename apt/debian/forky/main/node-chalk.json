@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "node-chalk",
-	"version": "5.6.0-1",
+	"version": "5.6.2+dfsg-4",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"node-ansi-styles",
-		"node-escape-string-regexp",
-		"node-supports-color",
-		"nodejs:any (>= 14)"
+		"node-supports-color"
 	],
-	"installedSize": 79,
+	"breaks": [
+		"jest (<< 29.6.2~ds1+~cs73.45.28-11~)",
+		"node-jest-debbundle (<< 29.6.2~ds1+~cs73.45.28-11~)",
+		"node-jest-worker (<< 29.6.2~ds1+~cs73.45.28-11~)"
+	],
+	"installedSize": 47,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Terminal string styling for Node.js",
 	"homepage": "https://github.com/chalk/chalk#readme",
-	"filename": "pool/main/n/node-chalk/node-chalk_5.6.0-1_all.deb",
-	"size": 18692,
-	"md5": "0199c1e2e76a922ceea4f73f555d674c",
-	"sha256": "b5541afed1248ad7e446481c617534b65cecebc6f8064bb51886cc7bb62904b1",
+	"filename": "pool/main/n/node-chalk/node-chalk_5.6.2+dfsg-4_all.deb",
+	"size": 13644,
+	"md5": "1337165450ea47011dbdddaa2e305365",
+	"sha256": "6bd00eb0ec67724f38ca0ae8ee333a9ad0f5314156cceaebd30b136a3fc1b42f",
 	"descriptionMd5": "b9999751fb5319d62b7304c93bead8d6"
 }
