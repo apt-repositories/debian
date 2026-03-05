@@ -6,13 +6,14 @@
 	],
 	"package": "dracut-install",
 	"source": "dracut",
-	"version": "110-1",
+	"version": "110-3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libkmod2 (>= 33~)"
+		"libkmod2 (>= 33~)",
+		"libsystemd0 (>= 257~rc1)"
 	],
 	"replaces": [
 		"dracut-core (<< 060+5-7~)"
@@ -20,13 +21,13 @@
 	"breaks": [
 		"dracut-core (<< 060+5-7~)"
 	],
-	"installedSize": 116,
+	"installedSize": 118,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "dracut is an event driven initramfs infrastructure (dracut-install)",
 	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
-	"filename": "pool/main/d/dracut/dracut-install_110-1_amd64.deb",
-	"size": 46352,
-	"md5": "cb8b5163e0dbf647ef1d176c5e8985b0",
-	"sha256": "5c16999fb2fdc60e1065512b450840feb98a5ace97c6cb551af9b8dca1eb5043",
+	"filename": "pool/main/d/dracut/dracut-install_110-3_amd64.deb",
+	"size": 47320,
+	"md5": "01652305bcad2d602a4bfda3e04d97e4",
+	"sha256": "58b4df72e8a81b07e9d84b8839d75d442ef28f5115be778b322133c4da84effc",
 	"descriptionMd5": "bee7fbb3b186a4a78e8728d317c6259f"
 }]
