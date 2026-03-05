@@ -6,26 +6,31 @@
 	],
 	"package": "libzxing-dev",
 	"source": "zxing-cpp",
-	"version": "2.3.0-5",
+	"version": "3.0.2+ds-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libzxing3 (= 2.3.0-5)"
+		"libzxing4 (= 3.0.2+ds-1)"
+	],
+	"suggests": [
+		"qt6-base-dev",
+		"qt6-declarative-dev",
+		"qt6-multimedia-dev"
 	],
 	"replaces": [
-		"libzxingcore-dev (<< 1.3.0~)"
+		"libzxingcore-dev"
 	],
 	"breaks": [
-		"libzxingcore-dev (<< 1.3.0~)"
+		"libzxingcore-dev"
 	],
-	"installedSize": 133,
+	"installedSize": 149,
 	"maintainer": "Boyuan Yang <byang@debian.org>",
 	"description": "C++ port of ZXing library (development files)",
 	"homepage": "https://github.com/zxing-cpp/zxing-cpp",
-	"filename": "pool/main/z/zxing-cpp/libzxing-dev_2.3.0-5_amd64.deb",
-	"size": 35456,
-	"md5": "bc6fca4a0c33e29bce9481a36adce9df",
-	"sha256": "aaa4e522681ffa70b2ab1d8d59a19e776cfda568b75a36f056a1428da7bea89a",
-	"descriptionMd5": "8a222793b83816d84c1f64ee160a0cbf"
+	"filename": "pool/main/z/zxing-cpp/libzxing-dev_3.0.2+ds-1_amd64.deb",
+	"size": 38492,
+	"md5": "1cc878192ca70c07bc9bdfb07e96b3ff",
+	"sha256": "0bdb979c188c040b0136bd3c29b0831e9ffa812c48ac855c1fb764137c748b00",
+	"descriptionMd5": "3ceca99428cefabce1c53e64a3482ce7"
 }]
