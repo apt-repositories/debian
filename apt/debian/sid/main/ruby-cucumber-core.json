@@ -5,20 +5,25 @@
 		"Size"
 	],
 	"package": "ruby-cucumber-core",
-	"version": "1.5.0-3",
+	"version": "16.2.0-1",
 	"section": "ruby",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"ruby-gherkin (>= 4.0)"
+		"ruby-cucumber-gherkin (>> 36)",
+		"ruby-cucumber-gherkin (<< 40)",
+		"ruby-cucumber-messages (>> 31)",
+		"ruby-cucumber-messages (<< 33)",
+		"ruby-cucumber-tag-expressions (>> 6)",
+		"ruby-cucumber-tag-expressions (<< 9)"
 	],
-	"installedSize": 133,
+	"installedSize": 131,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "core library for the Cucumber application",
 	"homepage": "http://cukes.info",
-	"filename": "pool/main/r/ruby-cucumber-core/ruby-cucumber-core_1.5.0-3_all.deb",
-	"size": 23512,
-	"md5": "b91e41a9c9bb028eea73bf911be96f03",
-	"sha256": "f3148897a5252186b928b7be059be2f48b4cd588b1763fd31130e1645d1228bf",
+	"filename": "pool/main/r/ruby-cucumber-core/ruby-cucumber-core_16.2.0-1_all.deb",
+	"size": 23688,
+	"md5": "626748ba6428780df57ef744b5ac055b",
+	"sha256": "d15683983cc392b1f196b60d008e8cbdf53771a6383a8f332ee619e7cf6c8415",
 	"descriptionMd5": "3920e60d677299de6f53bdf5198f101f"
 }

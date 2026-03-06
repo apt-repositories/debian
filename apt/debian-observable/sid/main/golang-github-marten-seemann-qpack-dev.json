@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-marten-seemann-qpack-dev",
 	"source": "golang-github-marten-seemann-qpack",
-	"version": "0.6.0-1",
+	"version": "0.6.0-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,16 @@
 		"golang-github-stretchr-testify-dev (>= 1.9.0)",
 		"golang-golang-x-net-dev"
 	],
+	"breaks": [
+		"golang-github-lucas-clemente-quic-go-dev (<< 0.59.0~)"
+	],
 	"installedSize": 66,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "minimal QPACK implementation in Go",
 	"homepage": "https://github.com/quic-go/qpack",
-	"filename": "pool/main/g/golang-github-marten-seemann-qpack/golang-github-marten-seemann-qpack-dev_0.6.0-1_all.deb",
-	"size": 12864,
-	"md5": "d89930746fa81dfcbd69e67c58dbbc9a",
-	"sha256": "e16fd7d565f264db21c8b1d28cb108a643a34f5f793fc275e548157128a5a31b",
+	"filename": "pool/main/g/golang-github-marten-seemann-qpack/golang-github-marten-seemann-qpack-dev_0.6.0-2_all.deb",
+	"size": 12856,
+	"md5": "31a0edda520ffc9697b0371a42f2b169",
+	"sha256": "0c3decba7a1674cedc703768a0c92d683936080ee0743df7192b835c95d19f27",
 	"descriptionMd5": "b36a446f772d6560a2bb60db6f5e61e3"
 }]
