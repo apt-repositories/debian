@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lava-dispatcher-host",
+	"source": "lava",
+	"version": "2026.01-5",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"lava-common (= 2026.01-5)",
+		"base-files (<< 11.1) | python3-bpfcc (>= 0.21)",
+		"base-files (<< 11.1) | linux-headers-amd64 | linux-headers-arm64 | linux-headers-generic",
+		"base-files (<< 11.1) | bpftool | linux-tools-generic",
+		"python3",
+		"python3-jinja2",
+		"python3-requests",
+		"python3-pyudev"
+	],
+	"recommends": [
+		"docker.io"
+	],
+	"suggests": [
+		"udev"
+	],
+	"installedSize": 103,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
+	"description": "LAVA dispatcher host tools",
+	"homepage": "https://www.lavasoftware.org/",
+	"filename": "pool/main/l/lava/lava-dispatcher-host_2026.01-5_all.deb",
+	"size": 18832,
+	"md5": "e8bf559c7bfa6c321ceadda849328b54",
+	"sha256": "0711c54a8dffbc209aa228bbc8b727c415b1a0661fe2e97166f7f3dd90f2580e",
+	"descriptionMd5": "0ab3290455525453cfd5adfebb0e1518"
+}]
