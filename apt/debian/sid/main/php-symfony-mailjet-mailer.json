@@ -6,7 +6,7 @@
 	],
 	"package": "php-symfony-mailjet-mailer",
 	"source": "symfony",
-	"version": "7.4.6+dfsg-2",
+	"version": "7.4.7+dfsg-1",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,16 @@
 		"php-common",
 		"php-symfony-mailer"
 	],
+	"breaks": [
+		"php-symfony-mime (<< 6.2~~)"
+	],
 	"installedSize": 77,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "Symfony Mailjet Mailer Bridge",
 	"homepage": "https://symfony.com/doc/7.4/components/mailer.html",
-	"filename": "pool/main/s/symfony/php-symfony-mailjet-mailer_7.4.6+dfsg-2_all.deb",
-	"size": 20892,
-	"md5": "a263ed079df6070f4e0c3044d50f193f",
-	"sha256": "723bcf15980f6f4a75c01b0fce8b74691720cd14c47f9d56ef9da7baa3321ce4",
+	"filename": "pool/main/s/symfony/php-symfony-mailjet-mailer_7.4.7+dfsg-1_all.deb",
+	"size": 20976,
+	"md5": "0036acc0aa297179731b0a5eb4f4269f",
+	"sha256": "9f0aa7d52c9731cf6051da66bbbab58d37d05bb091b599e15d79e0f2b512ac12",
 	"descriptionMd5": "10d9acb70cd7686ffe33c1ae6a1ae101"
 }

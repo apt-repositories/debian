@@ -6,13 +6,14 @@
 	],
 	"package": "python3-opentelemetry-exporter-otlp-proto-grpc",
 	"source": "python-opentelemetry",
-	"version": "1.39.1-2",
+	"version": "1.40.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-googleapis-common-protos",
-		"python3-grpcio | python3-supported-max (<< 3.13)",
+		"python3-grpcio | python3-supported-max (<< 3.13) | python3-supported-min (>= 3.14)",
+		"python3-grpcio | python3-supported-max (<< 3.14)",
 		"python3-opentelemetry-api",
 		"python3-opentelemetry-exporter-otlp-proto-common",
 		"python3-opentelemetry-proto",
@@ -24,13 +25,13 @@
 	"suggests": [
 		"python-opentelemetry-doc"
 	],
-	"installedSize": 97,
+	"installedSize": 101,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "OpenTelemetry Collector Protobuf over gRPC Exporter",
 	"homepage": "https://github.com/open-telemetry/opentelemetry-python",
-	"filename": "pool/main/p/python-opentelemetry/python3-opentelemetry-exporter-otlp-proto-grpc_1.39.1-2_all.deb",
-	"size": 36940,
-	"md5": "e5ad7fb840959ee14a78a6b603b8461d",
-	"sha256": "1e0a9d58b9d087bd74bdede5086778de6cafd75329bd71b14930db6549c67d27",
+	"filename": "pool/main/p/python-opentelemetry/python3-opentelemetry-exporter-otlp-proto-grpc_1.40.0-1_all.deb",
+	"size": 38408,
+	"md5": "bf8d4b7418a83ea48bc4ab1340e8f6c1",
+	"sha256": "09698d2593438e1969773ffd5d202eec002bf3abf162e4e28017fb951e233a90",
 	"descriptionMd5": "ca972453af33957cf2c908878bc5c767"
 }

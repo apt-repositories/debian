@@ -6,12 +6,12 @@
 	],
 	"package": "libtss2-tcti-mssim0t64",
 	"source": "tpm2-tss",
-	"version": "4.1.3-5",
+	"version": "4.1.3-6",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"tpm-udev",
+		"tpm-udev (>= 4.1.3-6)",
 		"libc6 (>= 2.38)",
 		"libtss2-mu-4.0.1-0t64 (>= 3.0.1)"
 	],
@@ -21,15 +21,15 @@
 	],
 	"breaks": [
 		"libtss2-esys0 (<< 3.0.1-2)",
-		"libtss2-tcti-mssim0 (<< 4.1.3-5)"
+		"libtss2-tcti-mssim0 (<< 4.1.3-6)"
 	],
-	"installedSize": 74,
+	"installedSize": 75,
 	"maintainer": "Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>",
 	"description": "TPM2 Software stack library - TSS and TCTI libraries",
 	"homepage": "https://github.com/tpm2-software/tpm2-tss",
-	"filename": "pool/main/t/tpm2-tss/libtss2-tcti-mssim0t64_4.1.3-5_amd64.deb",
-	"size": 35560,
-	"md5": "f5c8256211e4f30db77b1c5de5184904",
-	"sha256": "3cb865fb2be97142aabb1eb5d315e03adde3f08cfc84c790b70c172c34d11cf2",
+	"filename": "pool/main/t/tpm2-tss/libtss2-tcti-mssim0t64_4.1.3-6_amd64.deb",
+	"size": 35736,
+	"md5": "8d275884e35e77f884775f5ead66600e",
+	"sha256": "6a3745905fca830a0f4e880088ffa80d31804db3f26dc688dbb305b9f8f2207e",
 	"descriptionMd5": "e69c978fde9f4aaf62351f857df353c7"
 }

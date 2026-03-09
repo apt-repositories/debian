@@ -6,23 +6,26 @@
 	],
 	"package": "zookeeperd",
 	"source": "zookeeper",
-	"version": "3.9.4-1",
+	"version": "3.9.4-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"zookeeper (= 3.9.4-1)"
+		"zookeeper (= 3.9.4-2)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 33,
+	"recommends": [
+		"logback-java"
+	],
+	"installedSize": 36,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Init control scripts for zookeeper",
 	"homepage": "https://zookeeper.apache.org",
-	"filename": "pool/main/z/zookeeper/zookeeperd_3.9.4-1_all.deb",
-	"size": 9792,
-	"md5": "21f627c1ccc8197b036cc471777b678b",
-	"sha256": "e5d01d8bf74d237ce83af2fe450b81841d8fd0f8a3adc15c6ab828552f9e2575",
+	"filename": "pool/main/z/zookeeper/zookeeperd_3.9.4-2_all.deb",
+	"size": 8408,
+	"md5": "5c87686f0c27e9bb1b416b1d3ff90ba2",
+	"sha256": "0275370e41a4ac038f22017d6753987e7257f0bc3a3897d2e6eb0ef99b78a8c5",
 	"descriptionMd5": "6d3e9e37f1bdfe054bad45084d910d36"
 }]
