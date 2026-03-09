@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "iverilog",
-	"version": "12.0-3",
+	"version": "13.0-1",
 	"section": "electronics",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,7 +15,8 @@
 		"libgcc-s1 (>= 3.0)",
 		"libreadline8t64 (>= 6.0)",
 		"libstdc++6 (>= 13.1)",
-		"zlib1g (>= 1:1.2.0)"
+		"zlib1g (>= 1:1.2.0)",
+		"libjs-sphinxdoc (>= 8.2)"
 	],
 	"suggests": [
 		"gtkwave"
@@ -26,13 +27,14 @@
 	"breaks": [
 		"verilog (<< 10.2-1.1~)"
 	],
-	"installedSize": 7163,
+	"installedSize": 8557,
 	"maintainer": "Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>",
 	"description": "Icarus verilog compiler",
-	"homepage": "http://iverilog.icarus.com",
-	"filename": "pool/main/i/iverilog/iverilog_12.0-3_amd64.deb",
-	"size": 2101524,
-	"md5": "e72c01db77f320776f33a1d619348561",
-	"sha256": "50b32f6a6c25733d05b74b447f7c7ea1e402eca6c044d9a32a65f85789029cb2",
+	"homepage": "https://github.com/steveicarus/iverilog",
+	"builtUsing": "alabaster (= 1.0.0-1), sphinx (= 8.2.3-12)",
+	"filename": "pool/main/i/iverilog/iverilog_13.0-1_amd64.deb",
+	"size": 2329668,
+	"md5": "a1c6c3460b913093a77e219de60943f9",
+	"sha256": "63891a2814ac16fadefc4725fc25b078dae164840a94079fbf6583fbffd129ea",
 	"descriptionMd5": "8d6c25d1601b4e55eb201717e035adb9"
 }]

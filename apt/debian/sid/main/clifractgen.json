@@ -6,12 +6,12 @@
 	],
 	"package": "clifractgen",
 	"source": "fractgen",
-	"version": "3.0.6-1",
+	"version": "3.0.7-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"fractgen-common (>= 3.0.6-1)",
+		"fractgen-common (>= 3.0.7-1)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 4.0)",
 		"libqt6core6t64 (>= 6.9.1)",
@@ -20,17 +20,19 @@
 		"libqt6xml6 (>= 6.6.0)",
 		"libstdc++6 (>= 13.1)"
 	],
+	"recommends": [
+		"fractgen-examples (>= 3.0.7-1)"
+	],
 	"suggests": [
-		"fractgen-examples (>= 3.0.6-1)",
 		"rsplib-tools"
 	],
-	"installedSize": 128,
-	"maintainer": "Debian Math Team <team+math@tracker.debian.org>",
-	"description": "fractal images calculation application (command-line version)",
+	"installedSize": 130,
+	"maintainer": "Thomas Dreibholz <thomas.dreibholz@gmail.com>",
+	"description": "Fractal images calculation application (command-line version)",
 	"homepage": "https://www.nntb.no/~dreibh/fractalgenerator/",
-	"filename": "pool/main/f/fractgen/clifractgen_3.0.6-1_amd64.deb",
-	"size": 56348,
-	"md5": "24924dd4adddb7f772195ef57ca7696e",
-	"sha256": "0854d15fb6f2a0b71378da52b013b321d4dc459a4ae52a514fab6ea3d2db06b7",
-	"descriptionMd5": "376edc5d1cf0863a04d304010b7f8f00"
+	"filename": "pool/main/f/fractgen/clifractgen_3.0.7-1_amd64.deb",
+	"size": 58284,
+	"md5": "81c5c247f27b3a224e8fcc77a96c8dd9",
+	"sha256": "ff235f7e520984de062c588a872819b085dbd32d7b887a2a37163908b342cd13",
+	"descriptionMd5": "7cc748243717d7f66570c2726320fe01"
 }

@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "percona-toolkit",
-	"version": "3.2.1-1",
+	"version": "3.7.1-2",
 	"section": "utils",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
+		"libc6 (>= 2.34)",
 		"perl:any",
 		"libdbi-perl",
 		"libdbd-mysql-perl",
@@ -23,13 +24,13 @@
 	"conflicts": [
 		"maatkit"
 	],
-	"installedSize": 7631,
-	"maintainer": "Dario Minnucci <midget@debian.org>",
+	"installedSize": 77195,
+	"maintainer": "Lena Voytek <lena@voytek.dev>",
 	"description": "Command-line tools for MySQL and system tasks",
 	"homepage": "https://www.percona.com/software/database-tools/percona-toolkit",
-	"filename": "pool/main/p/percona-toolkit/percona-toolkit_3.2.1-1_all.deb",
-	"size": 914992,
-	"md5": "f1f84268082a2759eeb108a03637a872",
-	"sha256": "23931702493ebd9cb95433087eff7db694a67d05843ea81407cb4531a1212f6a",
+	"filename": "pool/main/p/percona-toolkit/percona-toolkit_3.7.1-2_amd64.deb",
+	"size": 21123892,
+	"md5": "0cfcd408523aa8f399bc08ca3e45db3e",
+	"sha256": "d5f9f16ba3e9dc09a610a6fc9c2eac04497d236923151ce0a4cccecf931dd921",
 	"descriptionMd5": "fce380dfcf83d3da9c5380e7d11cf899"
 }
