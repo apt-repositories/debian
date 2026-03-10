@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-16-dev-sh4-cross",
+	"source": "gcc-16-cross-ports (6)",
+	"version": "16-20260308-1cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base-ports (= 16-20260308-1cross1)",
+		"libgcc-s1-sh4-cross (>= 16-20260308-1cross1)",
+		"libgomp1-sh4-cross (>= 16-20260308-1cross1)",
+		"libitm1-sh4-cross (>= 16-20260308-1cross1)",
+		"libatomic1-sh4-cross (>= 16-20260308-1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-sh4-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-sh4-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-sh4-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 1069,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16-20260308-1)",
+	"filename": "pool/main/g/gcc-16-cross-ports/libgcc-16-dev-sh4-cross_16-20260308-1cross1_all.deb",
+	"size": 285468,
+	"md5": "639a09dca48209c0d61b72883f9a5043",
+	"sha256": "0aeaa484fdfa2889cb5e859c7474abe6aaae904e885162162ff3e1ffbfa1c96e",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

@@ -6,17 +6,23 @@
 	],
 	"package": "owncloud-client-data",
 	"source": "owncloud-client",
-	"version": "5.3.2.15463+dfsg-1",
+	"version": "6.0.3.18040+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 286,
+	"replaces": [
+		"owncloud-client (<< 6.0.3.18040+dfsg-1)"
+	],
+	"breaks": [
+		"owncloud-client (<< 6.0.3.18040+dfsg-1)"
+	],
+	"installedSize": 169,
 	"maintainer": "ownCloud for Debian maintainers <pkg-owncloud-maintainers@lists.alioth.debian.org>",
 	"description": "ownCloudSync folder synchronization - shared data",
 	"homepage": "https://owncloud.org/sync-clients/",
-	"filename": "pool/main/o/owncloud-client/owncloud-client-data_5.3.2.15463+dfsg-1_all.deb",
-	"size": 196188,
-	"md5": "769118c21424251b0362a5fcd21f34d0",
-	"sha256": "bc873b58dde80cfb42b5f47720e616c3183a3689fa819a914b583567a8bc133f",
+	"filename": "pool/main/o/owncloud-client/owncloud-client-data_6.0.3.18040+dfsg-1_all.deb",
+	"size": 137808,
+	"md5": "a07d0e33478f3ae33ba53b9901e932df",
+	"sha256": "0d5d914abf1c3f24b90ee60994023463f08e9c21228ac259f2e966a4bad42284",
 	"descriptionMd5": "db479d2c6ebc6d79b3d4940817520d7d"
 }]
