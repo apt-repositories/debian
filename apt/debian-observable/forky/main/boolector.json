@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "boolector",
-	"version": "1.5.118.6b56be4.121013-1.3",
+	"version": "3.2.4-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)"
+		"libbtor2parser0 (>= 1.0.2~git20250507.fb69ee3)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 4.1.1)",
+		"minisat (>= 1:2.2.1)"
 	],
-	"installedSize": 786,
-	"maintainer": "Michael Tautschnig <mt@debian.org>",
+	"installedSize": 1691,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "SMT solver for bit-vectors and arrays",
-	"homepage": "http://fmv.jku.at/boolector/",
-	"filename": "pool/main/b/boolector/boolector_1.5.118.6b56be4.121013-1.3_amd64.deb",
-	"size": 309044,
-	"md5": "88676c267bf495b66d7254ec95149412",
-	"sha256": "dc4ddcd9688bd8fd6529ded9411b23491682eb90f662d2e6a359709e5c39d34e",
+	"homepage": "https://boolector.github.io/",
+	"filename": "pool/main/b/boolector/boolector_3.2.4-1_amd64.deb",
+	"size": 533452,
+	"md5": "2d945d50e40749e8a1c24c1d0c2bb314",
+	"sha256": "9404bdcdaff7adb284765eeeb2287a327bc99b6e8ebdbe41e05f5b44365fa531",
 	"descriptionMd5": "3ffdf2573adbbaeee22ada3c1789353d"
 }]

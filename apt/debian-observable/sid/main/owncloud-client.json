@@ -5,13 +5,15 @@
 		"Size"
 	],
 	"package": "owncloud-client",
-	"version": "6.0.3.18040+dfsg-1",
+	"version": "6.0.3.18040+dfsg-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libowncloudsync0t64 (= 6.0.3.18040+dfsg-1)",
+		"libowncloudsync0t64 (= 6.0.3.18040+dfsg-2)",
 		"libqt6sql6-sqlite",
+		"qml6-module-qtquick-controls",
+		"qml6-module-qtquick-layouts",
 		"qt6-svg-plugins",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
@@ -23,18 +25,18 @@
 		"libstdc++6 (>= 13.1)"
 	],
 	"replaces": [
-		"libowncloudsync0t64 (<< 6.0.3.18040+dfsg-1)"
+		"libowncloudsync0t64 (<< 6.0.3.18040+dfsg-2)"
 	],
 	"breaks": [
-		"libowncloudsync0t64 (<< 6.0.3.18040+dfsg-1)"
+		"libowncloudsync0t64 (<< 6.0.3.18040+dfsg-2)"
 	],
 	"installedSize": 673,
 	"maintainer": "ownCloud for Debian maintainers <pkg-owncloud-maintainers@lists.alioth.debian.org>",
 	"description": "folder synchronization with an ownCloud server - GUI",
 	"homepage": "https://owncloud.org/sync-clients/",
-	"filename": "pool/main/o/owncloud-client/owncloud-client_6.0.3.18040+dfsg-1_amd64.deb",
-	"size": 182332,
-	"md5": "f6172eff6d6e0e422162011b15abcd63",
-	"sha256": "b2b6cadabd540dd5af05d9fdf7e11135c727e780f20fe5a058fdc52a2863f72e",
+	"filename": "pool/main/o/owncloud-client/owncloud-client_6.0.3.18040+dfsg-2_amd64.deb",
+	"size": 182536,
+	"md5": "9b01042ca06dd7d1f7ce8090cc82cdef",
+	"sha256": "db9c4cdf25c3b164a1ff5f5a3eacc1fd16b7543a58ccd623d64b8484981e341f",
 	"descriptionMd5": "a754a2b9b06d1c7c880afd05aa24e101"
 }]
