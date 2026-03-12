@@ -5,19 +5,19 @@
 		"Size"
 	],
 	"package": "totem-video-thumbnailer",
-	"source": "totem (43.2-9)",
-	"version": "43.2-9+b1",
+	"source": "totem",
+	"version": "43.2-10",
 	"section": "video",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"gstreamer1.0-plugins-base",
 		"libc6 (>= 2.34)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
-		"libglib2.0-0t64 (>= 2.72.0)",
+		"libglib2.0-0t64 (>= 2.32.0)",
 		"libgstreamer-plugins-base1.0-0 (>= 1.0.0)",
 		"libgstreamer1.0-0 (>= 1.4.0)",
-		"libtotem-plparser18 (>= 3.26.0)",
-		"gstreamer1.0-plugins-base"
+		"libtotem-plparser18 (>= 3.26.0)"
 	],
 	"replaces": [
 		"totem (<< 43.2-4~)",
@@ -27,13 +27,13 @@
 		"totem (<< 43.2-4~)",
 		"totem-common (<< 43.2-4~)"
 	],
-	"installedSize": 58,
+	"installedSize": 56,
 	"maintainer": "Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>",
 	"description": "Video thumbnailer provided by the Totem media player",
 	"homepage": "https://gitlab.gnome.org/GNOME/totem",
-	"filename": "pool/main/t/totem/totem-video-thumbnailer_43.2-9+b1_amd64.deb",
-	"size": 20484,
-	"md5": "518f96c05ec552d1267e13cced6f8696",
-	"sha256": "672c3c0696959311788faf58812a3b75b9a523ec58b562d7c348cb81576b472a",
+	"filename": "pool/main/t/totem/totem-video-thumbnailer_43.2-10_amd64.deb",
+	"size": 18616,
+	"md5": "f04da819b19586338f9a2da0caef15ca",
+	"sha256": "c70f3393259c5a5f3c9f1c99c12172b046cb22fbf86f151b6f1011e0b3a5dbba",
 	"descriptionMd5": "0e5e51ed7ce230c54782d431fbd73be9"
 }]
