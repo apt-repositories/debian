@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "nfs-ganesha",
-	"version": "6.5-8",
+	"version": "7.0-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,27 +19,29 @@
 		"libcap2 (>= 1:2.10)",
 		"libcom-err2 (>= 1.43.9)",
 		"libdbus-1-3 (>= 1.10)",
+		"libgcc-s1 (>= 3.0)",
 		"libgssapi-krb5-2 (>= 1.17)",
 		"libkrb5-3 (>= 1.6.dfsg.2)",
-		"libnfsidmap1 (>= 1:2.8.4)",
-		"libntirpc6.3 (>= 6.3)",
+		"libnfsidmap1 (>= 1:2.8.5)",
+		"libntirpc7.0 (>= 7.0)",
+		"libstdc++6 (>= 11)",
 		"liburcu8t64 (>= 0.13.0)",
 		"libuuid1 (>= 2.16)",
 		"libwbclient0 (>= 2:4.0.3+dfsg1)"
 	],
 	"replaces": [
-		"python3-nfs-ganesha (<< 6.5-1)"
+		"python3-nfs-ganesha (<< 7.0-1)"
 	],
 	"breaks": [
-		"python3-nfs-ganesha (<< 6.5-1)"
+		"python3-nfs-ganesha (<< 7.0-1)"
 	],
-	"installedSize": 2187,
+	"installedSize": 2408,
 	"maintainer": "Christoph Martin <chrism@debian.org>",
 	"description": "NFS server in User Space",
 	"homepage": "https://github.com/nfs-ganesha/nfs-ganesha",
-	"filename": "pool/main/n/nfs-ganesha/nfs-ganesha_6.5-8_amd64.deb",
-	"size": 738976,
-	"md5": "842fb35102044add5e4aeac61d977bc5",
-	"sha256": "2303490a715ade26349451341d25a71807b7978673f568629e935ae74e15abc2",
+	"filename": "pool/main/n/nfs-ganesha/nfs-ganesha_7.0-2_amd64.deb",
+	"size": 803948,
+	"md5": "89a2ac391ec186765fe4bee10775855a",
+	"sha256": "6f986ef1874a270ad03f5dd47476bdbbeb0bad719d74848aa1fad216a8a18f1c",
 	"descriptionMd5": "f71229d779c48b29a16d7e09c4979e7b"
 }]
