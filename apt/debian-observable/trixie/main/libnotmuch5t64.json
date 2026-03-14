@@ -6,6 +6,42 @@
 	],
 	"package": "libnotmuch5t64",
 	"source": "notmuch",
+	"version": "0.40-1~bpo13+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libgmime-3.0-0t64 (>= 3.0.4)",
+		"libsexp2 (>= 1.3.1)",
+		"libstdc++6 (>= 13.1)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libxapian30 (>= 1.4.28~)"
+	],
+	"replaces": [
+		"libnotmuch5"
+	],
+	"breaks": [
+		"libnotmuch5 (<< 0.40-1~bpo13+1)"
+	],
+	"installedSize": 323,
+	"maintainer": "Carl Worth <cworth@debian.org>",
+	"description": "thread-based email index, search and tagging (runtime)",
+	"homepage": "https://notmuchmail.org/",
+	"filename": "pool/main/n/notmuch/libnotmuch5t64_0.40-1~bpo13+1_amd64.deb",
+	"size": 111364,
+	"sha256": "337e5353efb68995798c60d9ae02ef4c3b682bc1764de2ebf2f207e997a25e32",
+	"descriptionMd5": "5d8978b625dc63ed37692e47885061fb"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnotmuch5t64",
+	"source": "notmuch",
 	"version": "0.39-1",
 	"section": "libs",
 	"priority": "optional",

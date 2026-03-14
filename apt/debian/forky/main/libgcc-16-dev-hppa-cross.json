@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-16-dev-hppa-cross",
+	"source": "gcc-16-cross-ports (6)",
+	"version": "16-20260308-1cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base-ports (= 16-20260308-1cross1)",
+		"libgcc-s4-hppa-cross (>= 16-20260308-1cross1)",
+		"libgomp1-hppa-cross (>= 16-20260308-1cross1)",
+		"libatomic1-hppa-cross (>= 16-20260308-1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-hppa-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-hppa-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-hppa-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 1125,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16-20260308-1)",
+	"filename": "pool/main/g/gcc-16-cross-ports/libgcc-16-dev-hppa-cross_16-20260308-1cross1_all.deb",
+	"size": 282208,
+	"md5": "a3223aacf7111fd3a64c3989b0796f50",
+	"sha256": "78e34df1dcd0fa7150509d03e0a914ea3f0cf30700deb1b9629eea988f908cee",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}
