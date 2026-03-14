@@ -5,6 +5,36 @@
 		"Size"
 	],
 	"package": "stayrtr",
+	"version": "0.6.3-1~bpo13+2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
+	],
+	"recommends": [
+		"rpki-client"
+	],
+	"conflicts": [
+		"gortr"
+	],
+	"installedSize": 27401,
+	"maintainer": "Marco d'Itri <md@linux.it>",
+	"description": "RPKI to Router server",
+	"homepage": "https://github.com/bgp/stayrtr",
+	"builtUsing": "golang-1.24 (= 1.24.4-1), golang-github-beorn7-perks (= 1.0.1-3), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-klauspost-compress (= 1.18.0+ds1-1), golang-github-munnerz-goautoneg (= 0.0~git20191010.a7dc8b6-2), golang-github-prometheus-client-golang (= 1.21.1-1), golang-github-prometheus-client-model (= 0.6.0-1), golang-github-prometheus-common (= 0.62.0-3), golang-github-prometheus-procfs (= 0.15.1-1), golang-go.crypto (= 1:0.25.0-1), golang-golang-x-sync (= 0.7.0-1), golang-golang-x-sys (= 0.22.0-1), golang-google-protobuf (= 1.36.5-1), golang-logrus (= 1.9.0-1)",
+	"filename": "pool/main/s/stayrtr/stayrtr_0.6.3-1~bpo13+2_amd64.deb",
+	"size": 8070276,
+	"sha256": "5078babaadee18c572b03c55bb0863782df1c1219ab857343355024812ad9b90",
+	"descriptionMd5": "2520a5b621cea320d0ed84aa091954fc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "stayrtr",
 	"source": "stayrtr (0.6.2-1)",
 	"version": "0.6.2-1+b2",
 	"section": "net",
