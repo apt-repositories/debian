@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libconfig-model-perl",
-	"version": "2.155-1",
+	"version": "2.159-1",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,7 +15,6 @@
 		"libcarp-assert-more-perl",
 		"libfile-homedir-perl",
 		"libhash-merge-perl",
-		"libjson-perl",
 		"liblist-moreutils-perl",
 		"liblog-log4perl-perl",
 		"libmouse-perl",
@@ -24,8 +23,7 @@
 		"libparse-recdescent-perl",
 		"libpath-tiny-perl",
 		"libpod-pom-perl",
-		"libregexp-common-perl",
-		"libyaml-tiny-perl"
+		"libregexp-common-perl"
 	],
 	"recommends": [
 		"bash-completion",
@@ -38,19 +36,19 @@
 	"suggests": [
 		"libconfig-model-dpkg-perl",
 		"libconfig-model-openssh-perl",
-		"libterm-readline-perl-perl | libterm-readline-gnu-perl"
+		"libconfig-ini-perl",
+		"libjson-perl",
+		"libterm-readline-perl-perl | libterm-readline-gnu-perl",
+		"libtoml-tiny-perl",
+		"libyaml-pp-perl"
 	],
-	"breaks": [
-		"cme (<< 1.036)",
-		"libconfig-model-dpkg-perl (<< 2.162)"
-	],
-	"installedSize": 1204,
+	"installedSize": 1207,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "module for describing and editing configuration data",
 	"homepage": "https://github.com/dod38fr/config-model/wiki",
-	"filename": "pool/main/libc/libconfig-model-perl/libconfig-model-perl_2.155-1_all.deb",
-	"size": 397912,
-	"md5": "c820a140b5f0fc7407dd696c14297b71",
-	"sha256": "c97285abd67ddbb2aad455ae31d9cca712ed93d36934a8829b8fe0596f7b10ec",
+	"filename": "pool/main/libc/libconfig-model-perl/libconfig-model-perl_2.159-1_all.deb",
+	"size": 399956,
+	"md5": "55488d8265bf19abf0881199bee65dd1",
+	"sha256": "03b1b715918f62c1fe2de016c5746841b7965e42e3e0eb5be4778e7a0fb63d66",
 	"descriptionMd5": "89e63c35ca19a8c95f63d3bbd320b6ed"
 }]

@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.18.15+deb13-rt-amd64",
+	"source": "linux-signed-amd64 (6.18.15+1~bpo13+1)",
+	"version": "6.18.15-1~bpo13+1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"kmod",
+		"linux-base-6.18.15+deb13-rt-amd64 (= 6.18.15-1~bpo13+1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-6.18"
+	],
+	"replaces": [
+		"linux-image-6.18.15+deb13-rt-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.18.15+deb13-rt-amd64-unsigned"
+	],
+	"installedSize": 170247,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.18.15 for 64-bit PCs (signed), PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 6.18.15-1~bpo13+1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.18.15+deb13-rt-amd64_6.18.15-1~bpo13+1_amd64.deb",
+	"size": 171649192,
+	"sha256": "fefe48cdbfe89b6aea1c1eb435d44002c719d1dbc4cc59cb13814ac1fcdfe005",
+	"descriptionMd5": "df390495f6afd3affe09e42d4e906b8d"
+}]

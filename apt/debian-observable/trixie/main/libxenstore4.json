@@ -6,6 +6,37 @@
 	],
 	"package": "libxenstore4",
 	"source": "xen",
+	"version": "4.20.2+37-g61ff35323e-0+deb13u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libxentoolcore1 (>= 4.20.2+37-g61ff35323e)"
+	],
+	"replaces": [
+		"libxenstore4t64"
+	],
+	"breaks": [
+		"libxenstore4t64 (<< 4.20.2+37-g61ff35323e-0+deb13u1)"
+	],
+	"installedSize": 106,
+	"maintainer": "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>",
+	"description": "Xen runtime libraries - libxenstore",
+	"homepage": "https://xenproject.org/",
+	"filename": "pool/main/x/xen/libxenstore4_4.20.2+37-g61ff35323e-0+deb13u1_amd64.deb",
+	"size": 43432,
+	"md5": "41256d0663eeaef9b919cb002aaece7b",
+	"sha256": "ee709d935cc53ad187848cafdae522896e555456022eaf117342750aae69dc6c",
+	"descriptionMd5": "da0c7baa0e5240359f0489e50b89b477"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxenstore4",
+	"source": "xen",
 	"version": "4.20.2+7-g1badcf5035-0+deb13u1",
 	"section": "libs",
 	"priority": "optional",
