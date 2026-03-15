@@ -6,6 +6,38 @@
 	],
 	"package": "libxenevtchn1",
 	"source": "xen",
+	"version": "4.20.2+37-g61ff35323e-0+deb13u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.7)",
+		"libxentoolcore1 (>= 4.20.2+37-g61ff35323e)",
+		"libxentoollog1 (>= 4.20.2+37-g61ff35323e)"
+	],
+	"replaces": [
+		"libxenevtchn1t64"
+	],
+	"breaks": [
+		"libxenevtchn1t64 (<< 4.20.2+37-g61ff35323e-0+deb13u1)"
+	],
+	"installedSize": 84,
+	"maintainer": "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>",
+	"description": "Xen runtime libraries - libxenevtchn",
+	"homepage": "https://xenproject.org/",
+	"filename": "pool/main/x/xen/libxenevtchn1_4.20.2+37-g61ff35323e-0+deb13u1_amd64.deb",
+	"size": 35348,
+	"md5": "e0a01ed8c6452dc222a05aefa0a8f083",
+	"sha256": "62099845052d91475be78349f18114ff5297e7717fce2059a1bbba80b3b31694",
+	"descriptionMd5": "10cc34c727d27fc4482c211091e25f1c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxenevtchn1",
+	"source": "xen",
 	"version": "4.20.2+7-g1badcf5035-0+deb13u1",
 	"section": "libs",
 	"priority": "optional",

@@ -5,18 +5,23 @@
 		"Size"
 	],
 	"package": "libvali-dev",
-	"source": "vali",
-	"version": "0.1.0-1",
+	"source": "vali (0.1.1-1)",
+	"version": "0.1.1-1+b1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 25,
+	"depends": [
+		"libvali1 (= 0.1.1-1+b1)",
+		"libjson-c-dev",
+		"libaml-dev"
+	],
+	"installedSize": 26,
 	"maintainer": "Birger Schacht <birger@debian.org>",
 	"description": "Varlink \"vali\" C implementation -- development files",
 	"homepage": "https://gitlab.freedesktop.org/emersion/vali",
-	"filename": "pool/main/v/vali/libvali-dev_0.1.0-1_amd64.deb",
-	"size": 4656,
-	"md5": "62ed708a9e7e21c47964b22ebb52766f",
-	"sha256": "0f18df51cda0ab90ec6cdf45ad627a984e19ccc0acef3624ac4ffd42cc2d0f8f",
-	"descriptionMd5": "e823fb994e1de9abd3031e3a1d26dcff"
+	"filename": "pool/main/v/vali/libvali-dev_0.1.1-1+b1_amd64.deb",
+	"size": 5328,
+	"md5": "c13859dd282c0a1395b0318325192852",
+	"sha256": "59f9e14786d0f701cd48d69a0c00b0de32984c50de83cc33662f5c6de2ab6260",
+	"descriptionMd5": "d14ff2528a4e7f89d6b4a6541603bfaf"
 }]
