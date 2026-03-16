@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "glances",
-	"version": "4.3.3+dfsg-1",
+	"version": "4.5.1+dfsg-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,13 +15,12 @@
 		"python3-orjson",
 		"python3-fastapi",
 		"python3-defusedxml",
+		"python3-jinja2",
 		"python3-packaging",
 		"python3-psutil (>= 2.0.0)",
+		"python3-pyinstrument",
 		"python3-shtab",
 		"python3:any"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"lm-sensors",
@@ -31,22 +30,20 @@
 		"python3-netifaces",
 		"python3-pysnmp4",
 		"python3-pystache",
-		"python-fastapi",
-		"python3-uvicorn",
-		"python3-jinja2"
+		"python3-uvicorn"
 	],
 	"suggests": [
 		"glances-doc",
 		"python3-pynvml",
 		"python3-paho-mqtt"
 	],
-	"installedSize": 1734,
+	"installedSize": 1852,
 	"maintainer": "Daniel Echeverri <epsilon@debian.org>",
 	"description": "Curses-based monitoring tool",
 	"homepage": "https://github.com/nicolargo/glances",
-	"filename": "pool/main/g/glances/glances_4.3.3+dfsg-1_all.deb",
-	"size": 351396,
-	"md5": "96af753804f570b5f40f639ec565b72b",
-	"sha256": "a79e8409bdbf53e2f556cf8687b6d3cd236cb2183f8ab38eb0de335b3c5ea77f",
+	"filename": "pool/main/g/glances/glances_4.5.1+dfsg-1_all.deb",
+	"size": 388920,
+	"md5": "f4bfd8cca0c10803ea2aadfc28bf76cc",
+	"sha256": "5f2fe50dc8627eb97e507295f2573f83ab28dd8380aa8d9dcd460e4caf29a16b",
 	"descriptionMd5": "b985e0253103aa5027d5b25058344340"
 }
