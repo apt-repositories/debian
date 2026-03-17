@@ -6,23 +6,23 @@
 	],
 	"package": "python3-apycula",
 	"source": "apycula",
-	"version": "0.31+dfsg1-1",
+	"version": "0.31+dfsg1-2",
 	"section": "electronics",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-msgspec",
+		"python3-msgspec | python3-msgpack",
+		"python3-msgspec | python3-cattr",
 		"python3-numpy",
-		"python3:any",
-		"python3-crc"
+		"python3:any"
 	],
-	"installedSize": 4095,
+	"installedSize": 4096,
 	"maintainer": "Debian Electronics Team <pkg-electronics-devel@lists.alioth.debian.org>",
 	"description": "Tools to generate Gowin FPGA bitstreams",
 	"homepage": "https://github.com/YosysHQ/apicula",
-	"filename": "pool/main/a/apycula/python3-apycula_0.31+dfsg1-1_all.deb",
-	"size": 3470708,
-	"md5": "405c1eb2ce84471b3908419e78cbd396",
-	"sha256": "d1f352de0d8f0886fefad0693703e93fcdfdef4b9b215d00331c7e77deb3d607",
+	"filename": "pool/main/a/apycula/python3-apycula_0.31+dfsg1-2_all.deb",
+	"size": 3470776,
+	"md5": "bd8dd5eec67a3d0683fe9e1befa38383",
+	"sha256": "67c65bc9ad0472811414575d73f8869b2794464a4bf4227b909b77d371cb013b",
 	"descriptionMd5": "397eaca9dc48f4cafe86fd6437b04611"
 }

@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "batik",
+	"version": "1.19-1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"default-jre-headless (>= 1:1.8) | java8-runtime-headless",
+		"fop",
+		"java-wrappers",
+		"libbatik-java (>= 1.19-1)",
+		"rhino"
+	],
+	"replaces": [
+		"libbatik-java (<< 1.19-1~)"
+	],
+	"breaks": [
+		"libbatik-java (<< 1.19-1~)"
+	],
+	"installedSize": 72,
+	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
+	"description": "Apache Batik SVG Toolkit (tools)",
+	"homepage": "https://xmlgraphics.apache.org/batik/",
+	"filename": "pool/main/b/batik/batik_1.19-1_all.deb",
+	"size": 41032,
+	"md5": "31badb19d54df73dfd1b8f8cc5c9883d",
+	"sha256": "44ba87f05c78a811f7c3ce0a7e327b475a8bee72c5c5308d62aaacf35f31beb6",
+	"descriptionMd5": "d5c07f217865eaf10c6413c485e880e3"
+}

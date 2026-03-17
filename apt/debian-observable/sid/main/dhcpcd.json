@@ -5,36 +5,35 @@
 		"Size"
 	],
 	"package": "dhcpcd",
-	"version": "1:10.3.0-7",
+	"version": "1:10.3.1-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"dhcpcd-base (>= 1:10.3.0-7~)",
-		"sysvinit-utils (>= 3.05-4~) | lsb-base"
+		"dhcpcd-base (>= 1:10.3.1-1~)"
 	],
 	"recommends": [
-		"wpasupplicant | iwd | wireless-tools"
+		"wpasupplicant"
 	],
 	"suggests": [
 		"dhcpcd-gtk"
 	],
 	"replaces": [
-		"dhcpcd5 (<< 1:10.3.0-7~)"
+		"dhcpcd5 (<< 1:10.3.1-1~)"
 	],
 	"breaks": [
-		"dhcpcd5 (<< 1:10.3.0-7~)"
+		"dhcpcd5 (<< 1:10.3.1-1~)"
 	],
 	"conflicts": [
 		"network-manager"
 	],
-	"installedSize": 40,
+	"installedSize": 37,
 	"maintainer": "Martin-Éric Racine <martin-eric.racine@iki.fi>",
 	"description": "DHCPv4 and DHCPv6 dual-stack client (init.d script & systemd unit)",
 	"homepage": "https://github.com/NetworkConfiguration/dhcpcd",
-	"filename": "pool/main/d/dhcpcd/dhcpcd_10.3.0-7_all.deb",
-	"size": 15480,
-	"md5": "87295acf2b56f8ddf220f8826923bee0",
-	"sha256": "3ee7e4fe44ae7ef194b3e11c2a1e708fd07d3b5cb605e4683bbb1b350d9b3488",
+	"filename": "pool/main/d/dhcpcd/dhcpcd_10.3.1-1_all.deb",
+	"size": 12268,
+	"md5": "df5ad2db9c8a2a6a89d4a8a6586b7332",
+	"sha256": "978d02b46ae5c287df6d7b0d6a5b891a17757542e5398923a121944970c60918",
 	"descriptionMd5": "7c507ef2d2f059330587e6607810d7de"
 }]

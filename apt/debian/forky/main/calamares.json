@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "calamares",
-	"version": "3.3.14-6",
+	"version": "3.4.2-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,6 +14,7 @@
 		"libc6 (>= 2.34)",
 		"libcrypt1 (>= 1:4.1.0)",
 		"libgcc-s1 (>= 3.0)",
+		"libicu78 (>= 78.1-1~)",
 		"libkf6coreaddons6 (>= 6.0.0)",
 		"libkf6crash6 (>= 6.0.0)",
 		"libkf6parts6 (>= 6.0.0)",
@@ -36,7 +37,8 @@
 	],
 	"recommends": [
 		"btrfs-progs",
-		"squashfs-tools"
+		"squashfs-tools",
+		"qml6-module-qtquick-window"
 	],
 	"replaces": [
 		"calamares-extensions (<< 3.3.12-1)"
@@ -44,13 +46,13 @@
 	"breaks": [
 		"calamares-extensions (<< 3.3.12-1)"
 	],
-	"installedSize": 11245,
+	"installedSize": 11585,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "distribution-independent installer framework",
 	"homepage": "https://github.com/calamares/calamares",
-	"filename": "pool/main/c/calamares/calamares_3.3.14-6_amd64.deb",
-	"size": 4261088,
-	"md5": "005c04c8b92a0718c113b5b196df58aa",
-	"sha256": "60de8f1aaf22c71b1916da56b9b0f0e8280b4f609dd9ecc2d994e26eece68632",
+	"filename": "pool/main/c/calamares/calamares_3.4.2-1_amd64.deb",
+	"size": 4516068,
+	"md5": "217116fb5c74da2a11ffb5ddd373026d",
+	"sha256": "c6df943b6a9c66b8ab28145d9dccb0fe0c88e21f87f8fdca494ab1941005891b",
 	"descriptionMd5": "4d5b78b9b4c9dcb910431a58e1938ff8"
 }
