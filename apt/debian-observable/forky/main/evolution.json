@@ -5,34 +5,33 @@
 		"Size"
 	],
 	"package": "evolution",
-	"version": "3.56.2-8",
+	"version": "3.56.2-9",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"evolution-common (= 3.56.2-9)",
+		"evolution-data-server (<< 3.57)",
+		"evolution-data-server (>= 3.56.2)",
+		"psmisc",
 		"libc6 (>= 2.38)",
 		"libcamel-1.2-64t64 (>= 3.56.2)",
 		"libecal-2.0-3 (>= 3.56.2)",
 		"libedataserver-1.2-27t64 (>= 3.56.2)",
 		"libevolution (>= 3.56.2)",
 		"libevolution (<< 3.57)",
-		"libglib2.0-0t64 (>= 2.70)",
-		"libgtk-3-0t64 (>= 3.10.0)",
+		"libglib2.0-0t64 (>= 2.66.0)",
+		"libgtk-3-0t64 (>= 3.0.0)",
 		"libical3t64 (>= 3.0.0)",
 		"libnotify4 (>= 0.7.0)",
 		"libwebkit2gtk-4.1-0 (>= 2.5.3)",
-		"libxml2-16 (>= 2.14.1)",
-		"evolution-common (= 3.56.2-8)",
-		"evolution-data-server (>= 3.56.2)",
-		"evolution-data-server (<< 3.57)",
-		"default-dbus-system-bus | dbus-system-bus",
-		"psmisc"
+		"libxml2-16 (>= 2.14.1)"
 	],
 	"recommends": [
 		"evolution-ews",
-		"evolution-plugins",
 		"evolution-plugin-bogofilter | evolution-plugin-spamassassin",
 		"evolution-plugin-pstimport",
+		"evolution-plugins",
 		"yelp"
 	],
 	"suggests": [
@@ -40,13 +39,13 @@
 		"gnupg",
 		"network-manager"
 	],
-	"installedSize": 492,
+	"installedSize": 489,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "groupware suite with mail client and organizer",
 	"homepage": "https://gitlab.gnome.org/GNOME/evolution/-/wikis/home",
-	"filename": "pool/main/e/evolution/evolution_3.56.2-8_amd64.deb",
-	"size": 325896,
-	"md5": "0eb2c0d4f77a33255fa6a49de63b6b9b",
-	"sha256": "3f9d4948a42845e3cd1fd4a618fcff8ececb98a14ec868502968415d2df11aec",
+	"filename": "pool/main/e/evolution/evolution_3.56.2-9_amd64.deb",
+	"size": 322728,
+	"md5": "d9ae7edebfe79b82c17016ebcb3a9628",
+	"sha256": "49bbdd3387e21cb7af6cf44ad4b9a3471dd2ca9a6aa4d62f754ccd5380849407",
 	"descriptionMd5": "91491c7b9cec72bd791625b7538ddba3"
 }]

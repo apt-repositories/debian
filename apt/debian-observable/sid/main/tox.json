@@ -5,31 +5,35 @@
 		"Size"
 	],
 	"package": "tox",
-	"version": "4.33.0-1",
+	"version": "4.49.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3",
 		"python3-cachetools",
-		"python3-chardet",
 		"python3-colorama",
 		"python3-filelock",
-		"python3-packaging",
-		"python3-platformdirs (>= 4.5.1)",
+		"python3-packaging (>= 26.0-1~)",
+		"python3-platformdirs (>= 4.9.4)",
 		"python3-pluggy",
 		"python3-pyproject-api",
+		"python3-tomli-w",
 		"python3-virtualenv",
-		"python3:any",
-		"libjs-sphinxdoc (>= 8.2)"
+		"python3:any"
 	],
-	"installedSize": 2696,
+	"recommends": [
+		"libjs-sphinxdoc (>= 8.2)",
+		"libjs-d3"
+	],
+	"installedSize": 3401,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "virtualenv-based automation of test activities",
 	"homepage": "https://tox.wiki/",
-	"filename": "pool/main/t/tox/tox_4.33.0-1_all.deb",
-	"size": 411876,
-	"md5": "9d4b30e52db150d34035ba325f59b256",
-	"sha256": "1939434773b736f11b9f5137b83b5b9b5a0d6e23df1c0318c5827e93635c3fd7",
+	"builtUsing": "sphinx (= 8.2.3-12)",
+	"filename": "pool/main/t/tox/tox_4.49.1-1_all.deb",
+	"size": 517812,
+	"md5": "6cc6a0c10034b95e115edbd32f343cd7",
+	"sha256": "2863828e4735319c7300b985ce0d99e10d0ab751643995555fba0267e4023801",
 	"descriptionMd5": "2394e1addc0c1b241fb7f524a7ef85be"
 }]
