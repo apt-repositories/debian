@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-pyarrow",
+	"source": "apache-arrow",
+	"version": "23.0.1-8",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libarrow-acero2300 (>= 23.0.1)",
+		"libarrow-dataset2300 (>= 23.0.1)",
+		"libarrow-flight2300 (>= 23.0.1)",
+		"libarrow2300 (= 23.0.1-8)",
+		"libc6 (>= 2.32)",
+		"libgandiva2300 (>= 23.0.1)",
+		"libgcc-s1 (>= 3.0)",
+		"libparquet2300 (>= 23.0.1)",
+		"libstdc++6 (>= 14)",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3-numpy2-abi0 | python3-numpy-abi9",
+		"python3:any"
+	],
+	"replaces": [
+		"libarrow-python-flight2300 (<< 23.0.1-2)",
+		"libarrow-python2300 (<< 23.0.1-2)"
+	],
+	"breaks": [
+		"libarrow-python-flight2300 (<< 23.0.1-2)",
+		"libarrow-python2300 (<< 23.0.1-2)"
+	],
+	"installedSize": 22130,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@alioth-lists.debian.net>",
+	"description": "Python interface to the Arrow C++ libraries",
+	"homepage": "https://arrow.apache.org/",
+	"filename": "pool/main/a/apache-arrow/python3-pyarrow_23.0.1-8_amd64.deb",
+	"size": 3758552,
+	"md5": "7da38e2b27b0fb3a428190af2ecc33d2",
+	"sha256": "5565182e5e832d2b1e681d37de215694f2810b39759f5a3f976879383c92ca75",
+	"descriptionMd5": "e4063ed5e886338a14dc494313ccd08b"
+}]

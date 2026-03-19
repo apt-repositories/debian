@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "wims",
-	"version": "2:4.31+dfsg1-2",
+	"version": "3:4.31b+dfsg1-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -31,32 +31,32 @@
 		"chemeq",
 		"graphviz",
 		"ldap-utils",
-		"libapache2-mod-fcgid",
 		"qrencode",
 		"libwebservice-validator-html-w3c-perl",
-		"wims-modules (>= 2:4.31+dfsg1-2)"
+		"yui-compressor"
 	],
 	"preDepends": [
-		"adduser"
+		"adduser",
+		"apache2",
+		"libapache2-mod-fcgid"
 	],
 	"recommends": [
 		"apache2 (>= 2.4.6-4~) | httpd",
 		"yacas",
-		"gap",
-		"wims-help"
+		"gap"
 	],
 	"replaces": [
-		"wims-java-applets (<< 4.05b~dfsg1-4)"
+		"wims-modules"
 	],
-	"breaks": [
-		"wims-java-applets (<< 4.05b~dfsg1-4)"
+	"conflicts": [
+		"wims-modules (<= 2:4.31+dfsg1-2)"
 	],
-	"installedSize": 39469,
+	"installedSize": 98247,
 	"maintainer": "Georges Khaznadar <georgesk@debian.org>",
 	"description": "server for educational content: courses, exercises, and exams",
-	"filename": "pool/main/w/wims/wims_4.31+dfsg1-2_amd64.deb",
-	"size": 15379056,
-	"md5": "fa50e18134c633bc4c94c3f4a5800a42",
-	"sha256": "c43f8c29259f43d40d93e8bd5266c17d4d1c0dd30139bc8a51a2eb515eb2e135",
+	"filename": "pool/main/w/wims/wims_4.31b+dfsg1-1_amd64.deb",
+	"size": 30802656,
+	"md5": "96867c0778aa2a5efbb6ef8431dff423",
+	"sha256": "a099dcb1e90673e6f7bb0a8139e5b0c8ebdae27dd88831b33f07cc6095d3f4ee",
 	"descriptionMd5": "0d669d4703fcf31fdf92745b0aaaf7b6"
 }]
