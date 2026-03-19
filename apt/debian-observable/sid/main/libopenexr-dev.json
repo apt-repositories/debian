@@ -6,13 +6,15 @@
 	],
 	"package": "libopenexr-dev",
 	"source": "openexr",
-	"version": "3.4.6+ds-2",
+	"version": "3.4.6+ds-4",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libimath-dev (>= 3.1.2)",
-		"libopenexr-3-1-30 (= 3.4.6+ds-2)",
+		"libdeflate-dev",
+		"libopenexr-3-4-33 (= 3.4.6+ds-4)",
+		"libopenjph-dev",
 		"zlib1g-dev"
 	],
 	"replaces": [
@@ -25,9 +27,9 @@
 	"maintainer": "Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>",
 	"description": "development files for the OpenEXR image library",
 	"homepage": "https://www.openexr.com",
-	"filename": "pool/main/o/openexr/libopenexr-dev_3.4.6+ds-2_amd64.deb",
-	"size": 232732,
-	"md5": "6aff9852643d73ae7ee0694f14163902",
-	"sha256": "94e5c3e7282822053ddb5e90c320b5762c8a86341e9871379e62d2fd5ca6a3ca",
+	"filename": "pool/main/o/openexr/libopenexr-dev_3.4.6+ds-4_amd64.deb",
+	"size": 232816,
+	"md5": "63d321971d8b1ae9d07f190d80afa44b",
+	"sha256": "00007622c9f60ad720cc0a2dbb69a933b201aa78a42def348b256390283d3166",
 	"descriptionMd5": "8e2ac9ae29f1c1eb2cc160c36be0dd18"
 }]
