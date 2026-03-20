@@ -34,4 +34,39 @@
 	"md5": "69276638ab14146dd76723c384077eae",
 	"sha256": "22ed1aae1b76a5931f4962aed999cd4a43c8ee75a102ba8375ea7dbacffea69f",
 	"descriptionMd5": "4e2039368200982b12534d16d0792845"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-rbd",
+	"source": "libvirt",
+	"version": "7.0.0-3+deb11u4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-daemon (= 7.0.0-3+deb11u4)",
+		"libvirt0 (= 7.0.0-3+deb11u4)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0 (>= 2.24.0)",
+		"librados2 (>= 14.2.0)",
+		"librbd1 (>= 14.2.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 3.7.0-3~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 3.7.0-3~)"
+	],
+	"installedSize": 159,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "Virtualization daemon RBD storage driver",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/updates/main/libv/libvirt/libvirt-daemon-driver-storage-rbd_7.0.0-3+deb11u4_amd64.deb",
+	"size": 119876,
+	"sha256": "4174d370e580e73a15fa0332c4d1e56d7eabc64687093f7d65abfb7e878d60ff",
+	"descriptionMd5": "4e2039368200982b12534d16d0792845"
 }]

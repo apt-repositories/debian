@@ -6,7 +6,7 @@
 	],
 	"package": "node-jest-debbundle",
 	"source": "node-jest",
-	"version": "29.6.2~ds2+~cs73.45.28-3",
+	"version": "29.6.2~ds3+~cs73.45.28-2",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
@@ -18,21 +18,23 @@
 		"node-pkg-dir",
 		"node-resolve-cwd",
 		"node-strip-ansi",
-		"node-supports-color (>= 9.0~)"
+		"node-supports-color (>= 9.0~)",
+		"node-char-regex"
 	],
 	"replaces": [
 		"jest (<< 28.1.2~)"
 	],
 	"breaks": [
-		"jest (<< 28.1.2~)"
+		"jest (<< 28.1.2~)",
+		"node-ansi-regex (<< 6.2.2+~cs4.0.2-1~)"
 	],
-	"installedSize": 386,
+	"installedSize": 370,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "various ittle Node.js modules needed by jest",
 	"homepage": "https://jestjs.io",
-	"filename": "pool/main/n/node-jest/node-jest-debbundle_29.6.2~ds2+~cs73.45.28-3_all.deb",
-	"size": 128508,
-	"md5": "69cbe83172352ea3fd0dd99d277e53b4",
-	"sha256": "dd8e11d818d7eec34c6b0835d9c840a4abf77677258104c7961578252caeae25",
-	"descriptionMd5": "7d09892b55c0d1eab3058332550af163"
+	"filename": "pool/main/n/node-jest/node-jest-debbundle_29.6.2~ds3+~cs73.45.28-2_all.deb",
+	"size": 126408,
+	"md5": "08f50d3afc1314253dcf49af45b3d042",
+	"sha256": "cd8169c653c63dfa765e4ca0112dbd96cc239170792ea232e75c4e2bd47a3d0a",
+	"descriptionMd5": "0ba97627559d83e69943663c7cfebb9f"
 }]

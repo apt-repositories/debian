@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "node-ansi-regex",
-	"version": "6.2.2-2",
+	"version": "6.2.2+~cs4.0.2-1",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
-	"breaks": [
-		"jest (<< 29.6.2~ds1+~cs73.45.28-10~)",
-		"node-jest-debbundle (<< 29.6.2~ds1+~cs73.45.28-10~)",
-		"node-jest-worker (<< 29.6.2~ds1+~cs73.45.28-10~)"
+	"replaces": [
+		"node-jest-debbundle (<< 29.6.2~ds3~)"
 	],
-	"installedSize": 21,
+	"breaks": [
+		"jest (<< 29.6.2~ds3~)",
+		"node-jest-debbundle (<< 29.6.2~ds3~)",
+		"node-jest-worker (<< 29.6.2~ds3~)"
+	],
+	"installedSize": 43,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "regular expression for matching ANSI escape codes",
 	"homepage": "https://github.com/sindresorhus/ansi-regex",
-	"filename": "pool/main/n/node-ansi-regex/node-ansi-regex_6.2.2-2_all.deb",
-	"size": 5260,
-	"md5": "3ed29f30e72044dd54f799ea6f6a769e",
-	"sha256": "94bdffee39e6c9f9a511f801bf7f616f622069f51641aaabef9dccf3b1d4f2c3",
-	"descriptionMd5": "46311597c68dce90593747cc5eb6102a"
+	"filename": "pool/main/n/node-ansi-regex/node-ansi-regex_6.2.2+~cs4.0.2-1_all.deb",
+	"size": 7648,
+	"md5": "416402920a3ea6e79a1e935c70007bae",
+	"sha256": "aceb8d36996a4f1512793e27f7c2a718f6ea33d0143977ddb1a43f4de62cb8b7",
+	"descriptionMd5": "80aee3e50f44a20b93f648fb83196a31"
 }
