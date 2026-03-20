@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-sanlock",
+	"source": "libvirt",
+	"version": "7.0.0-3+deb11u4",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"augeas-tools",
+		"libvirt0 (= 7.0.0-3+deb11u4)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0 (>= 2.16.0)",
+		"libsanlock-client1 (>= 3.6.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 6.9.0-2~)"
+	],
+	"installedSize": 181,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "Sanlock plugin for virtlockd",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/updates/main/libv/libvirt/libvirt-sanlock_7.0.0-3+deb11u4_amd64.deb",
+	"size": 121576,
+	"sha256": "be89d12c8702316a2889c24c7d73641ce7cd2afa1925a3652e4895ee114ea2a7",
+	"descriptionMd5": "b7c793f838fe9e323ae4910fd5c1fa9e"
+}

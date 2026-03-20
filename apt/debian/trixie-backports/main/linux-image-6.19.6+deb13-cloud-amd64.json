@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.19.6+deb13-cloud-amd64",
+	"source": "linux-signed-amd64 (6.19.6+2~bpo13+1)",
+	"version": "6.19.6-2~bpo13+1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"kmod",
+		"linux-base-6.19.6+deb13-cloud-amd64 (= 6.19.6-2~bpo13+1)",
+		"linux-binary-6.19.6+deb13-cloud-amd64 (= 6.19.6-2~bpo13+1)",
+		"linux-modules-6.19.6+deb13-cloud-amd64 (= 6.19.6-2~bpo13+1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-6.19"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 16,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.19.6 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.19.6+deb13-cloud-amd64_6.19.6-2~bpo13+1_amd64.deb",
+	"size": 2060,
+	"sha256": "1c1884382e3a1149ddb0408c9b9a272a71962e467b9bf9706e4aef487b4b8212",
+	"descriptionMd5": "7f7bbc952fe5af69fe19cf160c3c033c"
+}
