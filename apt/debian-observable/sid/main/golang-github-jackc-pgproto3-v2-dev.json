@@ -6,22 +6,25 @@
 	],
 	"package": "golang-github-jackc-pgproto3-v2-dev",
 	"source": "golang-github-jackc-pgproto3",
-	"version": "2.3.2-1",
+	"version": "2.3.3-1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"golang-github-stretchr-testify-dev",
 		"golang-github-jackc-chunkreader-v2-dev",
-		"golang-github-jackc-pgio-dev"
+		"golang-github-jackc-pgio-dev",
+		"golang-github-stretchr-testify-dev"
 	],
-	"installedSize": 170,
+	"breaks": [
+		"golang-github-jackc-pgconn (<< 1.14.3~)"
+	],
+	"installedSize": 175,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "encoder and decoder of the PostgreSQL wire protocol version 3",
 	"homepage": "https://github.com/jackc/pgproto3",
-	"filename": "pool/main/g/golang-github-jackc-pgproto3/golang-github-jackc-pgproto3-v2-dev_2.3.2-1_all.deb",
-	"size": 22112,
-	"md5": "302ad767dd40b716f55a14f8f2f51f9e",
-	"sha256": "6b5cd9d83fbd71c0cd7ebdab248a0eaafcd3cdef77e765b81ef0433be1708270",
+	"filename": "pool/main/g/golang-github-jackc-pgproto3/golang-github-jackc-pgproto3-v2-dev_2.3.3-1_all.deb",
+	"size": 23044,
+	"md5": "07f56c2f6c6408a91979a9f6ed50729e",
+	"sha256": "917c799af6f1ef8d13a216d023a07f2313c2c713621b3ab651d3526f98a52e75",
 	"descriptionMd5": "8f729241882f7b7cdbaaf36aeb1b5790"
 }]
