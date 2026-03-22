@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "suricata",
-	"version": "1:8.0.3-1~bpo13+1",
+	"version": "1:8.0.4-1~bpo13+1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -33,7 +33,8 @@
 		"libpcap0.8t64 (>= 1.0.0)",
 		"libpcre2-8-0 (>= 10.22)",
 		"librte-eal25 (>= 23.11)",
-		"librte-ethdev25 (>= 23.11)",
+		"librte-ethdev25 (>= 24.11~rc1)",
+		"librte-kvargs25 (>= 23.11)",
 		"librte-log25 (>= 23.11)",
 		"librte-mbuf25 (>= 23.11)",
 		"librte-mempool25 (>= 23.11)",
@@ -56,13 +57,13 @@
 	"conflicts": [
 		"suricata-hyperscan"
 	],
-	"installedSize": 16900,
-	"maintainer": "Pierre Chifflier <pollux@debian.org>",
+	"installedSize": 16964,
+	"maintainer": "Sascha Steinbiss <satta@debian.org>",
 	"description": "Next Generation Intrusion Detection and Prevention Tool",
 	"homepage": "https://suricata.io",
-	"filename": "pool/main/s/suricata/suricata_8.0.3-1~bpo13+1_amd64.deb",
-	"size": 4400836,
-	"sha256": "9152af2628b0f72d283c8dd3b38a95d8611bce5c3bb95ba72d261fd8b081e4cb",
+	"filename": "pool/main/s/suricata/suricata_8.0.4-1~bpo13+1_amd64.deb",
+	"size": 4420008,
+	"sha256": "10dd14b73495f1cdbc43ed2ad87d381578856f43c9c52e9b191374a1b4595d34",
 	"descriptionMd5": "d75d723de9cd9ee5828c14e079cfc931"
 },{
 	"raw": {},
