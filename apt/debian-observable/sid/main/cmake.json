@@ -5,20 +5,19 @@
 		"Size"
 	],
 	"package": "cmake",
-	"version": "4.2.3-2",
+	"version": "4.3.0-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"cmake-data (= 4.2.3-2)",
 		"procps",
-		"libarchive13t64 (>= 3.3.3)",
+		"libarchive13t64 (>= 3.8.2)",
 		"libc6 (>= 2.38)",
 		"libcurl4t64 (>= 7.16.2)",
 		"libexpat1 (>= 2.0.1)",
 		"libgcc-s1 (>= 3.0)",
 		"libjsoncpp26 (>= 1.9.6)",
-		"librhash1 (>= 1.2.6)",
+		"librhash1 (>= 1.4.5)",
 		"libstdc++6 (>= 14)",
 		"libuv1t64 (>= 1.38.0)",
 		"zlib1g (>= 1:1.1.4)"
@@ -33,13 +32,19 @@
 		"elpa-cmake-mode",
 		"ninja-build"
 	],
-	"installedSize": 44267,
+	"replaces": [
+		"cmake-data (<< 4.3)"
+	],
+	"breaks": [
+		"cmake-data (<< 4.3)"
+	],
+	"installedSize": 59689,
 	"maintainer": "Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>",
 	"description": "cross-platform, open-source make system",
 	"homepage": "https://cmake.org/",
-	"filename": "pool/main/c/cmake/cmake_4.2.3-2_amd64.deb",
-	"size": 13015476,
-	"md5": "9fac7ea0f98a60a55e79a9c1e5afa729",
-	"sha256": "046b72b51e99262536f15a2e485d418660072ba69d2422dd7133a47b60a0ff21",
+	"filename": "pool/main/c/cmake/cmake_4.3.0-1_amd64.deb",
+	"size": 16187188,
+	"md5": "b0b7e6f4fa701c7c66aaedf6000b93f9",
+	"sha256": "c7dc5a09eb9124a667a655906d8fd807896d32d7fb34b3523cf916241330f9c7",
 	"descriptionMd5": "b60d0479b91d22665e465b5cec287c83"
 }]
