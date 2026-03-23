@@ -6,7 +6,7 @@
 	],
 	"package": "libhydrasdr1",
 	"source": "hydrasdr-host",
-	"version": "1.1.0-2",
+	"version": "1.1.0-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,19 @@
 		"libc6 (>= 2.38)",
 		"libusb-1.0-0 (>= 2:1.0.9)"
 	],
+	"replaces": [
+		"libhydrasdr0 (<< 1.1.0)"
+	],
+	"breaks": [
+		"libhydrasdr0 (<< 1.1.0)"
+	],
 	"installedSize": 141,
 	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
 	"description": "HydraSDR RFOne software defined radio receiver - library",
 	"homepage": "https://hydrasdr.com",
-	"filename": "pool/main/h/hydrasdr-host/libhydrasdr1_1.1.0-2_amd64.deb",
-	"size": 41320,
-	"md5": "182d1e22f1a8e5acde8bc1fc8504cbff",
-	"sha256": "9e79297dbc90fb8ded312ef5439a5382b9f99627f6d22082d00b5664f11f4299",
+	"filename": "pool/main/h/hydrasdr-host/libhydrasdr1_1.1.0-3_amd64.deb",
+	"size": 41424,
+	"md5": "c7215fbb87675fd3d77763204a5a42d5",
+	"sha256": "53694eaaccc5745e62d161bf8a0bde4b2ebedf052b09eda5d0d278c5b65b5f8c",
 	"descriptionMd5": "3ad34c6279932016eb5193e5c5ac4aac"
 }
