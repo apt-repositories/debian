@@ -27,8 +27,42 @@
 	"maintainer": "strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>",
 	"description": "strongSwan plugin to interact with NetworkManager",
 	"homepage": "http://www.strongswan.org",
-	"filename": "pool/updates/main/s/strongswan/strongswan-nm_5.9.8-5+deb12u2_amd64.deb",
+	"filename": "pool/main/s/strongswan/strongswan-nm_5.9.8-5+deb12u2_amd64.deb",
 	"size": 91420,
+	"md5": "39eaa2e6ff7db44663c517158798fa4b",
 	"sha256": "7830b41b3e15b53319c930c87ea90e6c29801ae7fdc0e2cc23ef750f3b67f442",
+	"descriptionMd5": "fe4e82468fec86f66c41601086865ec7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "strongswan-nm",
+	"source": "strongswan",
+	"version": "5.9.8-5+deb12u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libglib2.0-0 (>= 2.37.3)",
+		"libnm0 (>= 1.2.0)",
+		"libstrongswan (>= 5.9.8)",
+		"strongswan-libcharon (>= 5.9.8)"
+	],
+	"recommends": [
+		"network-manager-strongswan"
+	],
+	"replaces": [
+		"network-manager-strongswan (<= 1.4.1-1~)"
+	],
+	"installedSize": 199,
+	"maintainer": "strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>",
+	"description": "strongSwan plugin to interact with NetworkManager",
+	"homepage": "http://www.strongswan.org",
+	"filename": "pool/updates/main/s/strongswan/strongswan-nm_5.9.8-5+deb12u3_amd64.deb",
+	"size": 91464,
+	"sha256": "b19949711b860da02bcfa4cec85177726f248361d7a5aab5e657d95b094a5d4d",
 	"descriptionMd5": "fe4e82468fec86f66c41601086865ec7"
 }]

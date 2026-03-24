@@ -6,26 +6,35 @@
 	],
 	"package": "golang-github-azure-azure-sdk-for-go-dev",
 	"source": "golang-github-azure-azure-sdk-for-go",
-	"version": "68.0.0-2",
+	"version": "68.0.0+git20231220.f497335+dfsg1-5",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"golang-github-azure-go-autorest-dev (>= 14.1.1~)",
+		"golang-github-dnaeon-go-vcr-dev",
 		"golang-github-gofrs-uuid-dev",
 		"golang-github-shopspring-decimal-dev",
-		"golang-golang-x-crypto-dev"
+		"golang-golang-x-crypto-dev",
+		"golang-golang-x-net-dev",
+		"golang-github-azuread-microsoft-authentication-library-for-go-dev",
+		"golang-github-azuread-microsoft-authentication-extensions-for-go-dev",
+		"golang-opentelemetry-otel-dev",
+		"golang-github-azure-go-amqp-dev",
+		"golang-github-golang-mock-dev"
 	],
 	"breaks": [
+		"golang-github-hashicorp-go-azure-helpers-dev (<< 0.16.0-1~)",
+		"golang-github-tombuildsstuff-giovanni (<< 0.20.0-2~)",
 		"golang-github-tombuildsstuff-giovanni-dev (<< 0.20.0-1~)"
 	],
-	"installedSize": 513251,
+	"installedSize": 202884,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Microsoft Azure SDK for Go",
 	"homepage": "https://github.com/Azure/azure-sdk-for-go",
-	"filename": "pool/main/g/golang-github-azure-azure-sdk-for-go/golang-github-azure-azure-sdk-for-go-dev_68.0.0-2_all.deb",
-	"size": 11324704,
-	"md5": "a33d4ec732b8e25ccc456cef45f0a73b",
-	"sha256": "812a16306478ba98db4d19da063ec664e64e78747720940f5007ec5bf182428c",
+	"filename": "pool/main/g/golang-github-azure-azure-sdk-for-go/golang-github-azure-azure-sdk-for-go-dev_68.0.0+git20231220.f497335+dfsg1-5_all.deb",
+	"size": 10183008,
+	"md5": "97d516543d68c09b2b2e787f9b863198",
+	"sha256": "52a31cbd0d751124fe554fa0ca011ba30cd8815c3e6afafa0bcca62d33826032",
 	"descriptionMd5": "9ed3d8fdc9f72643807d1c69013a5594"
 }
