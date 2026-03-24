@@ -5,13 +5,12 @@
 		"Size"
 	],
 	"package": "cinnamon-settings-daemon",
-	"source": "cinnamon-settings-daemon (6.4.3-1)",
-	"version": "6.4.3-1+b1",
+	"version": "6.6.3-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"cinnamon-desktop-data (>= 6.4~)",
+		"cinnamon-desktop-data (>= 6.6~)",
 		"colord",
 		"dconf-gsettings-backend | gsettings-backend",
 		"gir1.2-cvc-1.0",
@@ -19,14 +18,13 @@
 		"libcairo2 (>= 1.2.4)",
 		"libcanberra-gtk3-0 (>= 0.25)",
 		"libcanberra0 (>= 0.2)",
-		"libcinnamon-desktop4t64 (>= 6.4.1)",
+		"libcinnamon-desktop4t64 (>= 6.6~)",
 		"libcolord2 (>= 1.4.3)",
 		"libcups2t64 (>= 1.6.0)",
-		"libcvc0t64 (>= 6.4~)",
+		"libcvc0t64 (>= 6.6~)",
 		"libfontconfig1 (>= 2.12.6)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
 		"libglib2.0-0t64 (>= 2.83.0)",
-		"libgnomekbd8 (>= 3.6.0)",
 		"libgtk-3-0t64 (>= 3.21.4)",
 		"libgudev-1.0-0 (>= 146)",
 		"liblcms2-2 (>= 2.2+git20110628)",
@@ -41,25 +39,25 @@
 		"libwacom9 (>= 2.0.0)",
 		"libx11-6",
 		"libxext6",
-		"libxi6 (>= 2:1.2.99.4)",
-		"libxklavier16 (>= 5.0)"
+		"libxi6 (>= 2:1.2.99.4)"
 	],
 	"recommends": [
-		"cinnamon-l10n (>= 6.4~)",
+		"cinnamon-l10n (>= 6.6~)",
 		"pipewire-pulse | pulseaudio"
 	],
 	"breaks": [
-		"cinnamon (<< 6.4~)",
+		"cinnamon (<< 6.6~)",
 		"cinnamon-control-center (<< 6.0~)",
-		"cinnamon-core (<< 5.4~)"
+		"cinnamon-core (<< 5.4~)",
+		"cinnamon-settings-daemon-dev (<< 6.6)"
 	],
-	"installedSize": 2235,
+	"installedSize": 2188,
 	"maintainer": "Debian Cinnamon Team <debian-cinnamon@lists.debian.org>",
 	"description": "daemon handling the Cinnamon session settings",
 	"homepage": "https://github.com/linuxmint/cinnamon-settings-daemon",
-	"filename": "pool/main/c/cinnamon-settings-daemon/cinnamon-settings-daemon_6.4.3-1+b1_amd64.deb",
-	"size": 444296,
-	"md5": "88f6432ebee0563dd71b3ce1f06096ee",
-	"sha256": "355ec60895b1e185770ef890c03f651f83b6d37e5da78b404b6404d5712b8f5d",
+	"filename": "pool/main/c/cinnamon-settings-daemon/cinnamon-settings-daemon_6.6.3-1_amd64.deb",
+	"size": 428040,
+	"md5": "b937ab7a0af77cde4f52314c72340d3d",
+	"sha256": "e7852d0ac9c32b61da1254d4019755991ccc1d7542264e329e30063db6dd5d0d",
 	"descriptionMd5": "3756e02ea22b0a676b6feb8d986f801c"
 }
