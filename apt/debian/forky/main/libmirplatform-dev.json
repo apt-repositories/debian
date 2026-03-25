@@ -5,30 +5,34 @@
 		"Size"
 	],
 	"package": "libmirplatform-dev",
-	"source": "mir (2.20.2-2)",
-	"version": "2.20.2-2+b1",
+	"source": "mir",
+	"version": "2.25.2-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libmirplatform30 (= 2.20.2-2+b1)",
-		"libmircommon-dev (= 2.20.2-2+b1)",
 		"libboost-program-options-dev",
-		"libgbm-dev"
+		"libgbm-dev",
+		"libmircommon-dev (= 2.25.2-3)",
+		"libmirplatform34 (= 2.25.2-3)"
 	],
 	"replaces": [
-		"libmirplatform (<< 0.6)"
+		"libmirplatform (<< 0.6)",
+		"libmirrenderer-dev (<< 2.24)",
+		"mir-renderer-gl-dev (<< 2.24)"
 	],
 	"breaks": [
-		"libmirplatform (<< 0.6)"
+		"libmirplatform (<< 0.6)",
+		"libmirrenderer-dev (<< 2.24)",
+		"mir-renderer-gl-dev (<< 2.24)"
 	],
-	"installedSize": 317,
+	"installedSize": 354,
 	"maintainer": "Debian Mir Team <team+mir@tracker.debian.org>",
 	"description": "Mir Display Server - platform library - development headers",
 	"homepage": "https://mir-server.io/",
-	"filename": "pool/main/m/mir/libmirplatform-dev_2.20.2-2+b1_amd64.deb",
-	"size": 51004,
-	"md5": "fcd766c4610d4be1fddf2d2cc494fd95",
-	"sha256": "71766f014e5dec3f1700eb76026eeda431f3d1ef19fb27a54eb0d6139fcf8c27",
+	"filename": "pool/main/m/mir/libmirplatform-dev_2.25.2-3_amd64.deb",
+	"size": 52524,
+	"md5": "f11f573e25953cc38ec97679ca93dfe4",
+	"sha256": "a8c04d88e3692b69f584ad5ffbe474c9eae3d3ef5a6b71c5f2ac0c3fbc0ef937",
 	"descriptionMd5": "655d1f596b349ea259ab7c18e083e374"
 }
