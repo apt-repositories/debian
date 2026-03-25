@@ -5,21 +5,23 @@
 		"Size"
 	],
 	"package": "libmiral7",
-	"source": "mir (2.20.2-2)",
-	"version": "5.2.0.2.20.2-2+b1",
+	"source": "mir (2.25.2-3)",
+	"version": "5.6.0.2.25.2-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.32)",
+		"libc6 (>= 2.34)",
+		"libfreetype6 (>= 2.2.1)",
 		"libgcc-s1 (>= 4.3)",
 		"libglib2.0-0t64 (>= 2.26.0)",
-		"libmircommon11 (>= 2.20.2)",
-		"libmircore2t64 (>= 2.20.2)",
-		"libmirplatform30 (>= 2.20.2)",
-		"libmirserver63 (>= 2.20.2)",
+		"libmircommon11 (>= 2.25.2)",
+		"libmircore2t64 (>= 2.25.2)",
+		"libmirplatform34 (>= 2.25.2)",
+		"libmirserver66 (>= 2.25.2)",
 		"libstdc++6 (>= 13.1)",
-		"libwayland-client0 (>= 1.0.2)",
+		"libwayland-client0 (>= 1.20.0)",
+		"libwayland-server0 (>= 1.0.2)",
 		"libyaml-cpp0.8 (>= 0.7.0)"
 	],
 	"replaces": [
@@ -27,16 +29,16 @@
 		"libmiral5t64"
 	],
 	"breaks": [
-		"libmiral5 (<< 2.20.2-2)",
-		"libmiral5t64 (<< 2.20.2-2)"
+		"libmiral5 (<< 2.25.2-3)",
+		"libmiral5t64 (<< 2.25.2-3)"
 	],
-	"installedSize": 1199,
+	"installedSize": 1681,
 	"maintainer": "Debian Mir Team <team+mir@tracker.debian.org>",
 	"description": "Mir Display Server - ABI preserving abstraction layer",
 	"homepage": "https://mir-server.io/",
-	"filename": "pool/main/m/mir/libmiral7_5.2.0.2.20.2-2+b1_amd64.deb",
-	"size": 358632,
-	"md5": "f6f12bcfa110f2c3283554ae873eefe0",
-	"sha256": "7d7778d4c4630011bef522527c335883989484da7d7c4b820164f2543eaa16a0",
+	"filename": "pool/main/m/mir/libmiral7_5.6.0.2.25.2-3_amd64.deb",
+	"size": 483864,
+	"md5": "5b899254938fa4f886180189eb0f0974",
+	"sha256": "e4f5751eb8fc89dc984c9685b6c887f980d0d5b1d8c188caba628ce6777797f1",
 	"descriptionMd5": "465eac6987f0a67531c854f7802152b4"
 }]

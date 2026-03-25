@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "wims",
-	"version": "2:4.30+dfsg1-1",
+	"version": "3:4.31b+dfsg1-3",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,10 +15,10 @@
 		"libgcc-s1 (>= 3.0)",
 		"libgd3 (>= 2.1.0~alpha~)",
 		"libstdc++6 (>= 5.2)",
-		"imagemagick (>= 4:5.4.4.5-1) | graphicsmagick-imagemagick-compat",
+		"imagemagick | graphicsmagick-imagemagick-compat",
 		"pari-gp",
-		"gnuplot",
-		"maxima (>= 5.26.0)",
+		"gnuplot-nox",
+		"maxima",
 		"maxima-share",
 		"octave",
 		"fortunes",
@@ -27,36 +27,49 @@
 		"texlive-latex-base",
 		"texlive-fonts-recommended",
 		"mailutils | mailx",
-		"units-filter (>= 3.5)",
-		"chemeq (>= 2.12)",
+		"units-filter",
+		"chemeq",
 		"graphviz",
 		"ldap-utils",
-		"libapache2-mod-fcgid",
 		"qrencode",
 		"libwebservice-validator-html-w3c-perl",
-		"wims-modules (>= 2:4.30+dfsg1-1)"
+		"yui-compressor",
+		"fonts-font-awesome",
+		"libjs-jquery",
+		"libjs-jquery-ui",
+		"libjs-jquery-ui-theme-smoothness",
+		"libjs-mootools",
+		"libjs-prototype",
+		"libjs-asciimathml",
+		"libjs-codemirror",
+		"libjs-edit-area",
+		"node-normalize.css",
+		"node-mathjax-full",
+		"jsxgraph"
 	],
 	"preDepends": [
-		"adduser"
+		"adduser",
+		"apache2",
+		"libapache2-mod-fcgid"
 	],
 	"recommends": [
 		"apache2 (>= 2.4.6-4~) | httpd",
 		"yacas",
 		"gap",
-		"wims-help"
+		"ckeditor"
 	],
 	"replaces": [
-		"wims-java-applets (<< 4.05b~dfsg1-4)"
+		"wims-modules"
 	],
-	"breaks": [
-		"wims-java-applets (<< 4.05b~dfsg1-4)"
+	"conflicts": [
+		"wims-modules (<= 2:4.31+dfsg1-2)"
 	],
-	"installedSize": 39271,
+	"installedSize": 96404,
 	"maintainer": "Georges Khaznadar <georgesk@debian.org>",
 	"description": "server for educational content: courses, exercises, and exams",
-	"filename": "pool/main/w/wims/wims_4.30+dfsg1-1_amd64.deb",
-	"size": 15303856,
-	"md5": "bd76282ac675a928b88b3039c949706e",
-	"sha256": "6bef9a66ab1ba16e2c2963756eb1796fbbf8986a54cca99e67f9b93a0ac447ae",
+	"filename": "pool/main/w/wims/wims_4.31b+dfsg1-3_amd64.deb",
+	"size": 29386200,
+	"md5": "6541962d8bdf3c3a559f0923100e7f36",
+	"sha256": "9f9087f2be00fc2a2195cecf2b686a6f2de70dd26ef705eaf0b9739472b3914b",
 	"descriptionMd5": "0d669d4703fcf31fdf92745b0aaaf7b6"
 }
