@@ -6,7 +6,7 @@
 	],
 	"package": "bluez-obexd",
 	"source": "bluez",
-	"version": "5.84-1",
+	"version": "5.85-4",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,19 +17,21 @@
 		"libebook-contacts-1.2-4t64 (>= 3.16.2)",
 		"libedataserver-1.2-27t64 (>= 3.17)",
 		"libglib2.0-0t64 (>= 2.78.0)",
-		"libsystemd0",
-		"init-system-helpers (>= 1.52)"
+		"libsystemd0"
 	],
 	"recommends": [
 		"dbus-user-session"
 	],
-	"installedSize": 751,
+	"suggests": [
+		"evolution-data-server"
+	],
+	"installedSize": 753,
 	"maintainer": "Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>",
 	"description": "bluez obex daemon",
 	"homepage": "http://www.bluez.org",
-	"filename": "pool/main/b/bluez/bluez-obexd_5.84-1_amd64.deb",
-	"size": 257796,
-	"md5": "74b4421b4613d8775071a2a07c4bead7",
-	"sha256": "0804af2c9fb6441bebcdbd5d1e631708bdc50f519d784044659b71ce958e6e74",
+	"filename": "pool/main/b/bluez/bluez-obexd_5.85-4_amd64.deb",
+	"size": 256672,
+	"md5": "9909f6b0ff7a708849906e8501269f91",
+	"sha256": "8969d9ffaa6caee18faf1f1eb1f73f90de927e63ae5edb9107cb53697e6e7a26",
 	"descriptionMd5": "d1b91faa837143659c30c276d90596da"
 }]
