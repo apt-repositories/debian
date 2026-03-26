@@ -6,7 +6,7 @@
 	],
 	"package": "python3-proton-vpn-gtk-app",
 	"source": "proton-vpn-gtk-app",
-	"version": "4.15.0-1",
+	"version": "4.15.0-3",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -19,15 +19,24 @@
 		"python3-proton-core",
 		"python3-proton-vpn-api-core",
 		"python3-requests",
-		"python3:any"
+		"python3:any",
+		"gir1.2-gtk-4.0",
+		"gir1.2-nm-1.0",
+		"gir1.2-notify-0.7",
+		"librsvg2-common",
+		"python3-gi-cairo"
+	],
+	"suggests": [
+		"gir1.2-ayatanaappindicator3-0.1",
+		"libayatana-appindicator3-1"
 	],
 	"installedSize": 1161,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Proton VPN GTK app",
 	"homepage": "https://github.com/ProtonVPN/proton-vpn-gtk-app",
-	"filename": "pool/main/p/proton-vpn-gtk-app/python3-proton-vpn-gtk-app_4.15.0-1_all.deb",
-	"size": 191272,
-	"md5": "ec691a6e8c4b4f14c5868c1340e689f8",
-	"sha256": "70ffa148d2d13ea0bc44f45f3cfbf796cc03a1992dab1f4eaf09b59fac67c679",
+	"filename": "pool/main/p/proton-vpn-gtk-app/python3-proton-vpn-gtk-app_4.15.0-3_all.deb",
+	"size": 191548,
+	"md5": "3dd1f6ef562828bceec2f5204de37ab5",
+	"sha256": "3ac11385a8b4f36ee9949e4ac840bfbde0825b0acae4db541f9326a6041b1c13",
 	"descriptionMd5": "656cd3b346627a6359489d740c9533c3"
 }]
