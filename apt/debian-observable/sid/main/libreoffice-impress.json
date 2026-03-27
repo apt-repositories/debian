@@ -5,24 +5,24 @@
 		"Size"
 	],
 	"package": "libreoffice-impress",
-	"source": "libreoffice (4:26.2.1-1)",
-	"version": "4:26.2.1-1+b2",
+	"source": "libreoffice",
+	"version": "4:26.2.2.2-3",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:26.2.1-1+b2)",
-		"libreoffice-draw (= 4:26.2.1-1+b2)",
-		"libreoffice-uiconfig-impress (= 4:26.2.1-1)",
+		"libreoffice-core (= 4:26.2.2.2-3)",
+		"libreoffice-draw (= 4:26.2.2.2-3)",
+		"libreoffice-uiconfig-impress (= 4:26.2.2.2-3)",
 		"libbox2d2 (>= 2.4.1)",
 		"libc6 (>= 2.38)",
 		"libepoxy0 (>= 1.0)",
 		"libetonyek-0.1-1",
 		"libgcc-s1 (>= 3.3.1)",
-		"libmwaw-0.3-3",
+		"libmwaw-0.3-3 (>= 0.3.22)",
 		"libodfgen-0.1-1",
-		"libreoffice-sal-private-abi (= 26.2.1)",
+		"libreoffice-sal-private-abi (= 26.2.2)",
 		"librevenge-0.0-0",
 		"libstaroffice-0.0-0 (>= 0.0.7)",
 		"libstdc++6 (>= 13.1)",
@@ -40,7 +40,8 @@
 		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
 	],
 	"breaks": [
-		"libreoffice-common (<< 1:6.4.2~rc1~)"
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-texmaths (<< 0.52.6~)"
 	],
 	"conflicts": [
 		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
@@ -49,9 +50,9 @@
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- presentation",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-impress_26.2.1-1+b2_amd64.deb",
-	"size": 716424,
-	"md5": "9cc31f9849bb310972b65ea718e0ffbd",
-	"sha256": "04a673bf589f373a6edb9377b74f34be5ccd34d06faaa75168e9888d3009dc4a",
+	"filename": "pool/main/libr/libreoffice/libreoffice-impress_26.2.2.2-3_amd64.deb",
+	"size": 716376,
+	"md5": "4809a156e492f529f5fa4ed77fd511ec",
+	"sha256": "11004a667a20845a9a8285bda432213ccf917121d1cccd89a51f13cf0b821027",
 	"descriptionMd5": "472668fa8a618a3bed701d2301185f86"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-containerd-cgroups-dev",
 	"source": "golang-github-containerd-cgroups",
-	"version": "3.0.5-4",
+	"version": "3.0.5-5",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -22,13 +22,16 @@
 		"golang-golang-x-sys-dev",
 		"golang-google-protobuf-dev"
 	],
+	"breaks": [
+		"golang-github-containerd-nydus-snapshotter-dev (<< 0.13.4-3)"
+	],
 	"installedSize": 382,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "cgroups package for Go",
 	"homepage": "https://github.com/containerd/cgroups",
-	"filename": "pool/main/g/golang-github-containerd-cgroups/golang-github-containerd-cgroups-dev_3.0.5-4_all.deb",
-	"size": 60000,
-	"md5": "e065da6e73aea626dd53316da8000cef",
-	"sha256": "afe393a510c5b19ceaa500d8b0f862978f74f0dc982c210942f7b5bb129eaef8",
+	"filename": "pool/main/g/golang-github-containerd-cgroups/golang-github-containerd-cgroups-dev_3.0.5-5_all.deb",
+	"size": 60112,
+	"md5": "2b69b50c0cf96721c0f47eab94a15407",
+	"sha256": "3b89ee33a9edc7dcf277fc15ee8b81ae6a1349a3c787c61ce61466e9bdd50708",
 	"descriptionMd5": "02918fbd0db650abb748067c96da01a2"
 }]

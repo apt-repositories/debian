@@ -6,7 +6,7 @@
 	],
 	"package": "python3-pint",
 	"source": "python-pint",
-	"version": "0.25.2-2",
+	"version": "0.25.3-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,13 +17,21 @@
 		"python3-typing-extensions",
 		"python3:any"
 	],
-	"installedSize": 1201,
+	"suggests": [
+		"python3-dask",
+		"python3-matplotlib",
+		"python3-numpy",
+		"python3-scipy",
+		"python3-uncertainties",
+		"python3-xarray"
+	],
+	"installedSize": 1206,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "define, operate and manipulate physical quantities - Python 3.x",
 	"homepage": "https://github.com/hgrecco/pint",
-	"filename": "pool/main/p/python-pint/python3-pint_0.25.2-2_all.deb",
-	"size": 230416,
-	"md5": "221a468b31356d1c32a935afaf6e5ba8",
-	"sha256": "c3cc11baa06e9b944f2aa99cd19c8d5cfa53ac9a918df962da17a2e6c4a2d610",
+	"filename": "pool/main/p/python-pint/python3-pint_0.25.3-1_all.deb",
+	"size": 230636,
+	"md5": "a323567d613fcf5a481725de5d7f6e66",
+	"sha256": "6b04489bb793a1abc4232e4dd552461981daf146c8d29f35ada177f85cfa1705",
 	"descriptionMd5": "7309d5b97c12d7555c34940e586a009a"
 }]
