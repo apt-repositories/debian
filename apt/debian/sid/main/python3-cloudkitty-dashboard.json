@@ -6,12 +6,12 @@
 	],
 	"package": "python3-cloudkitty-dashboard",
 	"source": "cloudkitty-dashboard",
-	"version": "21.0.0-2",
+	"version": "22.0.0~rc1-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"openstack-dashboard",
+		"openstack-dashboard (>= 3:25.7.0)",
 		"python3-cloudkittyclient",
 		"python3-pbr",
 		"python3-xstatic-d3",
@@ -19,16 +19,13 @@
 		"python3-django-horizon",
 		"python3:any"
 	],
-	"breaks": [
-		"python3-django-horizon (<< 3:19.2.0-2~)"
-	],
-	"installedSize": 768,
+	"installedSize": 771,
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "OpenStack data processing cluster as a service - dashboard plugin",
 	"homepage": "https://github.com/openstack/cloudkitty-dashboard",
-	"filename": "pool/main/c/cloudkitty-dashboard/python3-cloudkitty-dashboard_21.0.0-2_all.deb",
-	"size": 126828,
-	"md5": "7391c9bd8b57a0de33893f808433479e",
-	"sha256": "afa7e70a0dcef5c7af96e380e2e9717b2d39498cc6d35fe1b5c55aebf389b433",
+	"filename": "pool/main/c/cloudkitty-dashboard/python3-cloudkitty-dashboard_22.0.0~rc1-2_all.deb",
+	"size": 126472,
+	"md5": "ca812dc500ae07f3c5b10bd82c212e14",
+	"sha256": "f3cdb0a77ab0ca5ceae7a3cca3c8ff485194066b5fca7cdad58a9dde08471e96",
 	"descriptionMd5": "23a4f35413084f84cfdbecc517fbb9ab"
 }

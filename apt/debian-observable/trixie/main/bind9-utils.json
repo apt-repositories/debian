@@ -24,8 +24,39 @@
 	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
 	"description": "Utilities for BIND 9",
 	"homepage": "https://www.isc.org/downloads/bind/",
-	"filename": "pool/updates/main/b/bind9/bind9-utils_9.20.18-1~deb13u1_amd64.deb",
+	"filename": "pool/main/b/bind9/bind9-utils_9.20.18-1~deb13u1_amd64.deb",
 	"size": 184200,
+	"md5": "2357b1e006564a27f4ed34abddf290c5",
 	"sha256": "fc0db281d64eb5f09e7a74c1f23e6a8607d7a53d4b74356b42bfa13cf01d80eb",
+	"descriptionMd5": "c30ede916daac07ed6c19887e9f7d3f2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-utils",
+	"source": "bind9",
+	"version": "1:9.20.21-1~deb13u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-libs (= 1:9.20.21-1~deb13u1)",
+		"libc6 (>= 2.38)",
+		"libjemalloc2 (>= 3.5.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"liburcu8t64 (>= 0.13.0)"
+	],
+	"breaks": [
+		"freeipa"
+	],
+	"installedSize": 723,
+	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
+	"description": "Utilities for BIND 9",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/updates/main/b/bind9/bind9-utils_9.20.21-1~deb13u1_amd64.deb",
+	"size": 184228,
+	"sha256": "c1e81d6c154c1003d95c9812191ec3abb978f91fd11d23877a7450483bf6c556",
 	"descriptionMd5": "c30ede916daac07ed6c19887e9f7d3f2"
 }]
