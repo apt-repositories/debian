@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.19.10+deb14-cloud-amd64",
+	"source": "linux-signed-amd64 (6.19.10+1)",
+	"version": "6.19.10-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"kmod",
+		"linux-base-6.19.10+deb14-cloud-amd64 (= 6.19.10-1)",
+		"linux-binary-6.19.10+deb14-cloud-amd64 (= 6.19.10-1)",
+		"linux-modules-6.19.10+deb14-cloud-amd64 (= 6.19.10-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-6.19"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 16,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.19.10 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.19.10+deb14-cloud-amd64_6.19.10-1_amd64.deb",
+	"size": 2072,
+	"md5": "6b2910d4f0427fe596d05ac6c3618f31",
+	"sha256": "4a8765201aa8fc812d07393239466a0692c1d8bc6dad229fe5b042e75efad119",
+	"descriptionMd5": "ea23df4f6bb337f92445c06e3c8854b6"
+}

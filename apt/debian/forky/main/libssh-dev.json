@@ -5,14 +5,15 @@
 		"Size"
 	],
 	"package": "libssh-dev",
-	"source": "libssh (0.11.3-1)",
-	"version": "0.11.3-1+b1",
+	"source": "libssh",
+	"version": "0.12.0-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libssh-4 (= 0.11.3-1+b1)",
+		"libssh-4 (= 0.12.0-3)",
 		"libssl-dev",
+		"krb5-multidev",
 		"zlib1g-dev"
 	],
 	"suggests": [
@@ -21,13 +22,13 @@
 	"conflicts": [
 		"libssh-gcrypt-dev"
 	],
-	"installedSize": 1299,
+	"installedSize": 1555,
 	"maintainer": "Laurent Bigonville <bigon@debian.org>",
 	"description": "tiny C SSH library - Development files (OpenSSL flavor)",
 	"homepage": "https://www.libssh.org/",
-	"filename": "pool/main/libs/libssh/libssh-dev_0.11.3-1+b1_amd64.deb",
-	"size": 267556,
-	"md5": "2a1a98083e5faf2243b131672b51f2e0",
-	"sha256": "8513f51d2b3cfb2ed18b1bcf6bb767507cd817aee2c48b039346094a6c57a0cf",
+	"filename": "pool/main/libs/libssh/libssh-dev_0.12.0-3_amd64.deb",
+	"size": 319828,
+	"md5": "addeb478f8ff01b2452e3832bf5267ca",
+	"sha256": "d633aaa61132e9704f6004699fb2dd23ab869e4081c997845dcc73c64e188e51",
 	"descriptionMd5": "8bc2b35aa9045e1356b9f5fab5b5210e"
 }

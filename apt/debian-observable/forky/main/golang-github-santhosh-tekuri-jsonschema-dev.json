@@ -6,20 +6,25 @@
 	],
 	"package": "golang-github-santhosh-tekuri-jsonschema-dev",
 	"source": "golang-github-santhosh-tekuri-jsonschema",
-	"version": "5.3.1-2",
+	"version": "6.0.2-3",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"golang-gopkg-yaml.v3-dev"
+		"golang-gopkg-yaml.v3-dev",
+		"golang-golang-x-text-dev",
+		"golang-github-spf13-pflag-dev"
 	],
-	"installedSize": 234,
+	"breaks": [
+		"golang-github-opencontainers-image-spec-dev (<< 1.1.1-2~)"
+	],
+	"installedSize": 303,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "JSONSchema Validation using Go (library)",
 	"homepage": "https://github.com/santhosh-tekuri/jsonschema",
-	"filename": "pool/main/g/golang-github-santhosh-tekuri-jsonschema/golang-github-santhosh-tekuri-jsonschema-dev_5.3.1-2_all.deb",
-	"size": 35916,
-	"md5": "26558fa8c1df2598a9da11cfca30c5ed",
-	"sha256": "93c1fe4f77139cf41de461df10f70267dc1b4712ebfbfa622fcb93c9a59f15d1",
+	"filename": "pool/main/g/golang-github-santhosh-tekuri-jsonschema/golang-github-santhosh-tekuri-jsonschema-dev_6.0.2-3_all.deb",
+	"size": 45828,
+	"md5": "1716786029828a8be1e4f808e2a006fd",
+	"sha256": "8c6a61b34f428df06fa54144a32e176304627cc60247c59b3f9f2de849654c8e",
 	"descriptionMd5": "f6a2d918e0ceded2b351c6f7888049bf"
 }]
