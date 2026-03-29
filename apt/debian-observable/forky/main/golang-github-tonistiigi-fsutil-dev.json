@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-tonistiigi-fsutil-dev",
 	"source": "golang-github-tonistiigi-fsutil",
-	"version": "0.0~git20240925.a340068-2",
+	"version": "0.0~git20251211.a2aa163-3",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,20 +15,23 @@
 		"golang-github-moby-patternmatcher-dev",
 		"golang-github-opencontainers-go-digest-dev",
 		"golang-github-pkg-errors-dev",
-		"golang-google-protobuf-dev",
+		"golang-github-planetscale-vtprotobuf-dev",
+		"golang-github-tonistiigi-dchapes-mode-dev",
 		"golang-golang-x-sync-dev",
-		"golang-golang-x-sys-dev"
+		"golang-golang-x-sys-dev",
+		"golang-google-protobuf-dev"
 	],
 	"breaks": [
+		"docker-buildx (<< 0.29.1+ds1)",
 		"golang-github-docker-docker-dev (<< 27.5.1)"
 	],
-	"installedSize": 276,
+	"installedSize": 327,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Incremental file directory sync tools (library)",
 	"homepage": "https://github.com/tonistiigi/fsutil",
-	"filename": "pool/main/g/golang-github-tonistiigi-fsutil/golang-github-tonistiigi-fsutil-dev_0.0~git20240925.a340068-2_all.deb",
-	"size": 45624,
-	"md5": "dc3c5a9ea45c1faa1dd2e8b64af8760d",
-	"sha256": "68ec471a86d9a37fb8c5ea4f8c741cc2e7b7813c97da7811b9ce669272eb6d58",
+	"filename": "pool/main/g/golang-github-tonistiigi-fsutil/golang-github-tonistiigi-fsutil-dev_0.0~git20251211.a2aa163-3_all.deb",
+	"size": 51708,
+	"md5": "3e7118f02fba8b0b25fdab41442f7d24",
+	"sha256": "3dacf3012a1492a60ab4638643ea064a7ea4d27851cd189c97e2f729d033885d",
 	"descriptionMd5": "22f1781d53510d812458ce7921421269"
 }]

@@ -6,30 +6,27 @@
 	],
 	"package": "python3-watcher-dashboard",
 	"source": "watcher-dashboard",
-	"version": "14.0.0-2",
+	"version": "15.0.0~rc2-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"openstack-dashboard (>= 3:20.0.0+git2020.09.21.27036cc0eb)",
+		"openstack-dashboard (>= 3:25.6.0)",
 		"python3-httplib2",
 		"python3-keystoneclient",
-		"python3-watcherclient",
+		"python3-watcherclient (>= 4.9.0)",
 		"python3-yaml",
 		"python3-django-horizon",
 		"python3-pbr",
 		"python3:any"
 	],
-	"breaks": [
-		"python3-django-horizon (<< 3:19.2.0-2~)"
-	],
-	"installedSize": 348,
+	"installedSize": 406,
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "OpenStack Optimization as a service - dashboard plugin",
 	"homepage": "https://github.com/openstack/watcher-dashboard",
-	"filename": "pool/main/w/watcher-dashboard/python3-watcher-dashboard_14.0.0-2_all.deb",
-	"size": 43268,
-	"md5": "0aa0fdc68c7cbc7ce41ffa50156ff99c",
-	"sha256": "e9695f3732d26a164460d3f49feb8e97ca4eeaad1d13d3745979ece0ad22f1e7",
+	"filename": "pool/main/w/watcher-dashboard/python3-watcher-dashboard_15.0.0~rc2-2_all.deb",
+	"size": 51964,
+	"md5": "df2831e1bee6bdb2835146414b6a4f09",
+	"sha256": "10cd627bebaf0b0236958cfadc37f1d1db2e10d3d7904d8184c451c42369bdad",
 	"descriptionMd5": "719e2fcf21ff5a6da38b61ce6fc9bd59"
 }

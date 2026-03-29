@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "containerd",
-	"version": "1.7.24~ds1-10",
+	"version": "2.1.4~ds2-8",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,16 +16,22 @@
 	"suggests": [
 		"containernetworking-plugins"
 	],
+	"replaces": [
+		"containerd"
+	],
 	"breaks": [
 		"docker.io (<< 1.12)"
 	],
-	"installedSize": 122171,
+	"conflicts": [
+		"containerd"
+	],
+	"installedSize": 102677,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "open and reliable container runtime",
 	"homepage": "https://containerd.io/",
-	"filename": "pool/main/c/containerd/containerd_1.7.24~ds1-10_amd64.deb",
-	"size": 33565340,
-	"md5": "0f46f6735468005022f2c7a3f2e85647",
-	"sha256": "a8d6833d88ac60746e9745ad1abdd4c5b692519a02841139effe57a746667efa",
-	"descriptionMd5": "4bc30f4adbe6943e8488d804ccad7e89"
+	"filename": "pool/main/c/containerd/containerd_2.1.4~ds2-8_amd64.deb",
+	"size": 27765832,
+	"md5": "d63c56c38b519e6a29a0e9bedb402cc8",
+	"sha256": "d9fea5c1098a07b63952e79a5192e1181fe93e46afc9b3473afb727d39286473",
+	"descriptionMd5": "7008465d89cdbba60afba1362412c464"
 }

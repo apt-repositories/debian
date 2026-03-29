@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "lxqt-panel",
-	"source": "lxqt-panel (2.3.2-1)",
-	"version": "2.3.2-1+b1",
+	"version": "2.3.2-2",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -64,13 +63,19 @@
 		"lxqt | lxqt-core",
 		"qtxdg-tools"
 	],
-	"installedSize": 3591,
+	"replaces": [
+		"lxqt-branding-debian (<< 0.14.0.8)"
+	],
+	"breaks": [
+		"lxqt-branding-debian (<< 0.14.0.8)"
+	],
+	"installedSize": 3590,
 	"maintainer": "LXQt Packaging Team <team+lxqt@tracker.debian.org>",
 	"description": "LXQt desktop panel",
 	"homepage": "https://github.com/lxqt/lxqt-panel",
-	"filename": "pool/main/l/lxqt-panel/lxqt-panel_2.3.2-1+b1_amd64.deb",
-	"size": 885368,
-	"md5": "03a8e802f95e1ac4c518bd534f35aba8",
-	"sha256": "cc3089b73a1c87b2433f15c34f6877f55327775d2fa4755f403d24677982010b",
+	"filename": "pool/main/l/lxqt-panel/lxqt-panel_2.3.2-2_amd64.deb",
+	"size": 885760,
+	"md5": "dc85047ff474b01513da850770ae7cfa",
+	"sha256": "c099861497ed080c245450a4d98f4235fb1efe3dd2f60b0f11eefa9cc25d61c5",
 	"descriptionMd5": "3b460a97fd0c005bd9f473b2bc344856"
 }
