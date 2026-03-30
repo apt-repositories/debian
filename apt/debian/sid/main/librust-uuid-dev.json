@@ -6,7 +6,7 @@
 	],
 	"package": "librust-uuid-dev",
 	"source": "rust-uuid",
-	"version": "1.21.0-4",
+	"version": "1.21.0-5",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,15 +19,18 @@
 		"librust-wasm-bindgen-0.2+std-dev"
 	],
 	"recommends": [
-		"librust-uuid+features-dev (= 1.21.0-4)"
+		"librust-uuid+features-dev (= 1.21.0-5)"
+	],
+	"breaks": [
+		"librust-tempfile-dev (<< 3.24.0-2)"
 	],
 	"installedSize": 315,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generate and parse UUIDs - Rust source code",
 	"homepage": "https://github.com/uuid-rs/uuid",
-	"filename": "pool/main/r/rust-uuid/librust-uuid-dev_1.21.0-4_amd64.deb",
-	"size": 48544,
-	"md5": "4b79fe70ed7b2e672c0464df5fb3969b",
-	"sha256": "6fa2f72f86fb3bd3a498f2c26a0d721dfe338798af118c70b61d6346b5f95fa6",
+	"filename": "pool/main/r/rust-uuid/librust-uuid-dev_1.21.0-5_amd64.deb",
+	"size": 48604,
+	"md5": "65d551bbc64c461099037a5fdd0bef29",
+	"sha256": "a4a054ef336ef83864e37b7b4a7bb2b1f495de5b6fa803d5d173196e773642c4",
 	"descriptionMd5": "1feb0b73f80f1d5c4dca4626ca1e832b"
 }
