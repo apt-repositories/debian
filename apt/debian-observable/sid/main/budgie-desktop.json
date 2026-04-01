@@ -5,22 +5,27 @@
 		"Size"
 	],
 	"package": "budgie-desktop",
-	"version": "10.9.3-1",
+	"version": "10.10.2-2",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"budgie-control-center",
-		"budgie-core",
-		"dconf-cli",
 		"blueman",
-		"dconf-gsettings-backend | gsettings-backend",
-		"network-manager-applet",
-		"xdotool"
+		"budgie-control-center",
+		"budgie-core (>= 10.10.2-2)",
+		"dconf-cli",
+		"network-manager-gnome",
+		"notification-daemon",
+		"python3-psutil",
+		"xdotool",
+		"wdisplays",
+		"wlr-randr",
+		"budgie-desktop-services",
+		"mesa-utils",
+		"dconf-gsettings-backend | gsettings-backend"
 	],
 	"recommends": [
-		"gir1.2-budgie-1.0",
-		"gir1.2-budgieraven-1.0",
+		"xdg-desktop-portal-wlr",
 		"budgie-desktop-view"
 	],
 	"suggests": [
@@ -28,13 +33,13 @@
 		"gnome-terminal",
 		"nautilus"
 	],
-	"installedSize": 97,
+	"installedSize": 48,
 	"maintainer": "David Mohammed <fossfreedom@ubuntu.com>",
 	"description": "Desktop package for budgie-desktop",
 	"homepage": "https://github.com/buddiesofbudgie/budgie-desktop",
-	"filename": "pool/main/b/budgie-desktop/budgie-desktop_10.9.3-1_all.deb",
-	"size": 54540,
-	"md5": "90f1551ea8c3f11b424383f249f2d038",
-	"sha256": "b2067e3397ea4a7fac4778cca9e547217144705f656a287fcb929d637f9932bc",
-	"descriptionMd5": "9de31ae02cfa40990014bc962d7f3e6c"
+	"filename": "pool/main/b/budgie-desktop/budgie-desktop_10.10.2-2_all.deb",
+	"size": 36216,
+	"md5": "dda4092a12aaba1d1dd1bf2292f58436",
+	"sha256": "961fa6475a5757d921ce18e2aa6bc246e61836e5138b67a9ca44176c3370eca7",
+	"descriptionMd5": "88866905fd799f44c6b20c14c40f66ec"
 }]
