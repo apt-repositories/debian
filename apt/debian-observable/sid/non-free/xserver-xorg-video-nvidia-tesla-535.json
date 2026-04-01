@@ -6,17 +6,17 @@
 	],
 	"package": "xserver-xorg-video-nvidia-tesla-535",
 	"source": "nvidia-graphics-drivers-tesla-535",
-	"version": "535.274.02-1",
+	"version": "535.274.02-2",
 	"section": "non-free/x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-tesla-535-alternative (= 535.274.02-1)",
+		"nvidia-tesla-535-alternative (= 535.274.02-2)",
 		"nvidia-support",
 		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
 		"xserver-xorg-core (<< 2:21.99)",
 		"libc6 (>= 2.34)",
-		"libnvidia-tesla-535-glcore (= 535.274.02-1)"
+		"libnvidia-tesla-535-glcore (= 535.274.02-2)"
 	],
 	"preDepends": [
 		"nvidia-installer-cleanup"
@@ -25,20 +25,20 @@
 		"nvidia-tesla-535-driver (>= 535.274.02)",
 		"nvidia-tesla-535-vdpau-driver (>= 535.274.02)",
 		"nvidia-tesla-535-vulkan-icd (>= 535.274.02)",
-		"nvidia-tesla-535-kernel-dkms (= 535.274.02-1) | nvidia-tesla-535-kernel-535.274.02 | nvidia-open-kernel-535.274.02",
+		"nvidia-tesla-535-kernel-dkms (= 535.274.02-2) | nvidia-tesla-535-kernel-535.274.02 | nvidia-open-kernel-535.274.02",
 		"nvidia-suspend-common",
 		"nvidia-settings-tesla-535 (>= 535)"
 	],
 	"suggests": [
 		"nvidia-tesla-535-kernel-dkms (>= 535.274.02) | nvidia-tesla-535-kernel-source (>= 535.274.02) | nvidia-open-kernel-source (>= 535.274.02)"
 	],
-	"installedSize": 18927,
+	"installedSize": 18891,
 	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
 	"description": "NVIDIA binary Xorg driver (Tesla 535 version)",
 	"homepage": "https://www.nvidia.com",
-	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-535/xserver-xorg-video-nvidia-tesla-535_535.274.02-1_amd64.deb",
-	"size": 2277140,
-	"md5": "6d8cf05615271a175be4c00c4ed275c8",
-	"sha256": "cb200cda02674894389e77adb9b2f4d4acfacc440665334660f9f1659d9f3226",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-535/xserver-xorg-video-nvidia-tesla-535_535.274.02-2_amd64.deb",
+	"size": 2282060,
+	"md5": "db1f1abfe65459b324d226369cc395e2",
+	"sha256": "66fa5be654c990bad776a04bbfbc0d27f05580119af28adadbd00fa8db9bb833",
 	"descriptionMd5": "c42ca38869c00bf7d1546f13ce003e4d"
 }]
