@@ -5,28 +5,38 @@
 		"Size"
 	],
 	"package": "libqt6waylandclient6",
-	"source": "qt6-wayland",
-	"version": "6.9.2-3",
+	"source": "qt6-base",
+	"version": "6.10.2+dfsg-6",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.14)",
-		"libqt6core6t64 (>= 6.9.2+dfsg~)",
-		"libqt6gui6 (>= 6.9.2+dfsg~)",
+		"libc6 (>= 2.34)",
+		"libegl1",
+		"libopengl0",
+		"libqt6core6t64 (>= 6.10.2)",
+		"libqt6gui6 (>= 6.9.1)",
+		"libqt6opengl6 (>= 6.1.2)",
 		"libstdc++6 (>= 12)",
 		"libwayland-client0 (>= 1.20.0)",
 		"libwayland-cursor0 (>= 1.8.1)",
+		"libwayland-egl1 (>= 1.15.0)",
 		"libxkbcommon0 (>= 0.5.0)",
-		"qt6-base-private-abi (= 6.9.2)"
+		"qt6-base-private-abi (= 6.10.2)"
 	],
-	"installedSize": 1369,
+	"replaces": [
+		"qt6-wayland (<< 6.10.2~)"
+	],
+	"breaks": [
+		"qt6-wayland (<< 6.10.2~)"
+	],
+	"installedSize": 1809,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
-	"description": "Qt 6 Wayland Client library",
+	"description": "Qt 6 Wayland client module",
 	"homepage": "https://www.qt.io/developers/",
-	"filename": "pool/main/q/qt6-wayland/libqt6waylandclient6_6.9.2-3_amd64.deb",
-	"size": 286996,
-	"md5": "8408f1a2664666fdb2c573a1d021b52f",
-	"sha256": "77e0a6f5152f2cffaea4e0b983327d0b32366b8287b5fa000697db5d90d0ab16",
-	"descriptionMd5": "30a8af942cc525f464197e2120885f0f"
+	"filename": "pool/main/q/qt6-base/libqt6waylandclient6_6.10.2+dfsg-6_amd64.deb",
+	"size": 355964,
+	"md5": "f85b2f355607952f0b866ed1c93ae833",
+	"sha256": "42412ef3bdeb7799c6658ffcefbdc8d56ea0764f2516e2b4c45502829bfc61e8",
+	"descriptionMd5": "8df898cc6a24d03adc4416d181f3227a"
 }

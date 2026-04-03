@@ -6,7 +6,7 @@
 	],
 	"package": "python3-fonttools",
 	"source": "fonttools",
-	"version": "4.62.1-2",
+	"version": "4.62.1-4",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,7 +19,6 @@
 		"python3-ufolib2 (>= 0.18.1) | python3-defcon",
 		"python3-uharfbuzz",
 		"python3-unicodedata2 (>= 15.1.0) | python3-all (>= 3.11.0)",
-		"python3-skia-pathops",
 		"python3-zopfli",
 		"unicode-data (>= 16)",
 		"python3 (<< 3.15)",
@@ -27,13 +26,16 @@
 		"python3:any",
 		"libc6 (>= 2.29)"
 	],
-	"installedSize": 12600,
+	"recommends": [
+		"python3-skia-pathops"
+	],
+	"installedSize": 12597,
 	"maintainer": "Debian Fonts Task Force <debian-fonts@lists.debian.org>",
 	"description": "Converts OpenType and TrueType fonts to and from XML (Python 3 Library)",
 	"homepage": "https://github.com/fonttools/fonttools",
-	"filename": "pool/main/f/fonttools/python3-fonttools_4.62.1-2_amd64.deb",
-	"size": 1680684,
-	"md5": "a5c7de50b8dec1a46a641a912c2d9699",
-	"sha256": "7b798eb035d7269adde8b34919c146dddab8fe6f8330d0a718b941603c235f99",
+	"filename": "pool/main/f/fonttools/python3-fonttools_4.62.1-4_amd64.deb",
+	"size": 1681620,
+	"md5": "0ae5cd835ee1734f8abc3b4a04a3c99b",
+	"sha256": "0ae52624b58c9d1b79d0545273e090e596849c3c9bb05d6305be791c3dc5260e",
 	"descriptionMd5": "9692c4b2675bf033fc7ef3a1d2778405"
 }
