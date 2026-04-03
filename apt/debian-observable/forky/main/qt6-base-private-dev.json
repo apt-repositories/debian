@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "qt6-base-private-dev",
-	"source": "qt6-base (6.9.2+dfsg-4)",
-	"version": "6.9.2+dfsg-4+b1",
+	"source": "qt6-base",
+	"version": "6.10.2+dfsg-6",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,15 +14,23 @@
 		"libfontconfig-dev",
 		"libinput-dev",
 		"libxkbcommon-dev",
-		"qt6-base-dev (= 6.9.2+dfsg-4+b1)"
+		"qt6-base-dev (= 6.10.2+dfsg-6)"
 	],
-	"installedSize": 4865,
+	"replaces": [
+		"qt6-base-dev (<< 6.10.2+dfsg-1~)",
+		"qt6-wayland-private-dev (<< 6.10.2~)"
+	],
+	"breaks": [
+		"qt6-base-dev (<< 6.10.2+dfsg-1~)",
+		"qt6-wayland-private-dev (<< 6.10.2~)"
+	],
+	"installedSize": 6479,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Qt 6 base private development files",
 	"homepage": "https://www.qt.io/developers/",
-	"filename": "pool/main/q/qt6-base/qt6-base-private-dev_6.9.2+dfsg-4+b1_amd64.deb",
-	"size": 737260,
-	"md5": "537dbefa891cf679c27d080bf0b06cb9",
-	"sha256": "7a8fd0c4f1e036de26a79338531a0447228ae78858f6b543281f4fabab49a774",
+	"filename": "pool/main/q/qt6-base/qt6-base-private-dev_6.10.2+dfsg-6_amd64.deb",
+	"size": 892300,
+	"md5": "593b7e69f3ec74edad99d0804884886b",
+	"sha256": "e180be9b9fad23fbba90f273ce0193a13b13677585455c47e2dae76a1a2a2dde",
 	"descriptionMd5": "9c080a5ddebf3c0e2f58a5440a9ec5dc"
 }]

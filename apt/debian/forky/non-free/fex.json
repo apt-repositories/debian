@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "fex",
-	"version": "20160919-2",
+	"version": "20200429-1",
 	"section": "non-free/web",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,26 +13,27 @@
 		"debconf (>= 0.5) | debconf-2.0",
 		"perl:any",
 		"adduser",
-		"xinetd | inet-superserver",
+		"systemd | xinetd | inet-superserver",
 		"libdigest-md5-file-perl",
 		"ucf",
 		"libjs-jquery",
-		"exim4 | postfix | mail-transport-agent"
+		"default-mta | exim4 | postfix | mail-transport-agent"
 	],
 	"recommends": [
 		"perl",
 		"libnet-dns-perl",
 		"fex-utils",
 		"libsocket6-perl",
-		"wget"
+		"wget",
+		"p7zip-full"
 	],
-	"installedSize": 2109,
+	"installedSize": 3867,
 	"maintainer": "Kilian Krause <kilian@debian.org>",
 	"description": "web service for transferring very large files",
-	"homepage": "http://fex.rus.uni-stuttgart.de/",
-	"filename": "pool/non-free/f/fex/fex_20160919-2_all.deb",
-	"size": 274212,
-	"md5": "b77629eda14da745b3a07698a4dfe534",
-	"sha256": "77c0fa0a70321d31635856fbdf1a3d821913286cc511818b8aa3a98a6fda38a0",
+	"homepage": "https://fex.belwue.de/",
+	"filename": "pool/non-free/f/fex/fex_20200429-1_all.deb",
+	"size": 647316,
+	"md5": "309ca106a396d84da116519ab92217bb",
+	"sha256": "d084dcc9c8f4a6f649dac818f74206c9da809f4c668cdba40bda377c2398a274",
 	"descriptionMd5": "df618fdd29cce7704c27a17b6bf059a9"
 }

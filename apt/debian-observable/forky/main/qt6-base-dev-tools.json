@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "qt6-base-dev-tools",
-	"source": "qt6-base (6.9.2+dfsg-4)",
-	"version": "6.9.2+dfsg-4+b1",
+	"source": "qt6-base",
+	"version": "6.10.2+dfsg-6",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,22 +14,28 @@
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libpcre2-16-0 (>= 10.22)",
-		"libqt6core6t64 (>= 6.9.1)",
+		"libqt6core6t64 (>= 6.10.2)",
 		"libqt6dbus6 (>= 6.7.2)",
 		"libstdc++6 (>= 13.1)",
 		"libzstd1 (>= 1.5.5)",
-		"qt6-base-private-abi (= 6.9.2)"
+		"qt6-base-private-abi (= 6.10.2)"
 	],
 	"suggests": [
 		"cmake"
 	],
-	"installedSize": 4675,
+	"replaces": [
+		"qt6-wayland-dev-tools (<< 6.10.2~)"
+	],
+	"breaks": [
+		"qt6-wayland-dev-tools (<< 6.10.2~)"
+	],
+	"installedSize": 4665,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Qt 6 base development programs",
 	"homepage": "https://www.qt.io/developers/",
-	"filename": "pool/main/q/qt6-base/qt6-base-dev-tools_6.9.2+dfsg-4+b1_amd64.deb",
-	"size": 1078520,
-	"md5": "cfadf0c7d05a950403635c124266a1ba",
-	"sha256": "2193111cdcf4f24cb36e4d25bffe58de17d34be1f96a2ef92d434a63f1c26aae",
+	"filename": "pool/main/q/qt6-base/qt6-base-dev-tools_6.10.2+dfsg-6_amd64.deb",
+	"size": 1082792,
+	"md5": "4586eeaab8ea5751fe2ab317e8095d8b",
+	"sha256": "4fc6762d7ef0840b8dcb71353444a0c544cd0b39022ce2fcb8ae34b80b101efe",
 	"descriptionMd5": "03c8816affbc4104348354220270f2af"
 }]

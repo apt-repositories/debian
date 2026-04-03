@@ -5,21 +5,28 @@
 		"Size"
 	],
 	"package": "libqwt-headers",
-	"source": "qwt (6.1.4-2)",
-	"version": "6.1.4-2+b1",
+	"source": "qwt",
+	"version": "6.3.0-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
-	"depends": [
-		"libqwt-qt5-dev"
+	"suggests": [
+		"libqwt-qt5-dev",
+		"libqwt-qt6-dev"
 	],
-	"installedSize": 16,
+	"replaces": [
+		"libqwt-qt5-dev (<< 6.2.0-1~)"
+	],
+	"breaks": [
+		"libqwt-qt5-dev (<< 6.2.0-1~)"
+	],
+	"installedSize": 701,
 	"maintainer": "Gudjon I. Gudjonsson <gudjon@gudjon.org>",
 	"description": "Qt widgets library for technical applications (header files)",
-	"homepage": "http://qwt.sourceforge.net",
-	"filename": "pool/main/q/qwt/libqwt-headers_6.1.4-2+b1_amd64.deb",
-	"size": 6908,
-	"md5": "2f7e472bdf26af0d704b80e49534251e",
-	"sha256": "eb93f7193750b2c6425031555b85bcb35d0bd26829f6be486bb59192057338ea",
-	"descriptionMd5": "c860fa7816e8365b8ec1b7d7bb94041d"
+	"homepage": "https://qwt.sourceforge.net",
+	"filename": "pool/main/q/qwt/libqwt-headers_6.3.0-3_amd64.deb",
+	"size": 87232,
+	"md5": "111e620e0439221ad202d66e4c04e342",
+	"sha256": "6535f7f05f27f3a6d4817f29f0d83ba1470ecf0c9c15641f7018f27e5aa07d1e",
+	"descriptionMd5": "5d60a1487a3510c897c01d8f087d5bb9"
 }]
