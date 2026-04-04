@@ -5,23 +5,25 @@
 		"Size"
 	],
 	"package": "kamailio-tls-modules",
-	"source": "kamailio (6.0.5-1)",
-	"version": "6.0.5-1+b1",
+	"source": "kamailio",
+	"version": "6.1.1-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"kamailio (= 6.0.5-1+b1)",
-		"libc6 (>= 2.34)",
-		"libssl3t64 (>= 3.0.0)"
+		"kamailio (= 6.1.1-2)",
+		"libc6 (>= 2.38)",
+		"libssl3t64 (>= 3.2.0)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 784,
+	"installedSize": 8505,
 	"maintainer": "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>",
 	"description": "TLS support for the Kamailio SIP server (authentication, transport)",
 	"homepage": "https://www.kamailio.org/",
-	"filename": "pool/main/k/kamailio/kamailio-tls-modules_6.0.5-1+b1_amd64.deb",
-	"size": 392756,
-	"md5": "d7306888c28971aa872e1eee7dc05a2b",
-	"sha256": "d844ea5e16624ce900436e48096c9a0ecd639a8505a64b10136cd750fdd75ad4",
+	"filename": "pool/main/k/kamailio/kamailio-tls-modules_6.1.1-2_amd64.deb",
+	"size": 2469520,
+	"md5": "ffe06e9c8202da4b705875e290f26491",
+	"sha256": "2ef7ae15e1559e8bd29909e2189aee7474343738536668a18568615fd1d40acf",
 	"descriptionMd5": "36c06a49af2355c47ed5760d80991cd8"
 }
