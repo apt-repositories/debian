@@ -5,29 +5,27 @@
 		"Size"
 	],
 	"package": "node-readable-stream",
-	"version": "3.6.0+~cs3.0.0-4",
+	"version": "4.7.0+~cs9.0.2-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"node-inherits",
-		"node-core-util-is",
-		"node-string-decoder",
-		"node-safe-buffer",
-		"node-process-nextick-args",
-		"node-util-deprecate",
-		"node-isarray"
+		"node-process",
+		"node-string-decoder"
 	],
 	"breaks": [
-		"node-libs-browser (<< 2.2.1-3)"
+		"node-browserify (<< 17.0.1+ds-2~)",
+		"node-fs-write-stream-atomic (<< 1.0.10-7~)",
+		"node-libs-browser (<< 2.2.1-3)",
+		"node-websocket-stream (<< 5.4.0-6~)"
 	],
-	"installedSize": 149,
+	"installedSize": 680,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "stream compatibility library for Node.js and browser",
 	"homepage": "https://github.com/nodejs/readable-stream#readme",
-	"filename": "pool/main/n/node-readable-stream/node-readable-stream_3.6.0+~cs3.0.0-4_all.deb",
-	"size": 32044,
-	"md5": "321b16bb47edb593c6ccb51d424ef49c",
-	"sha256": "dd4f2d17325e5a40c80926a02ec40a427598f3c51a53cb288f45b72802db9c72",
+	"filename": "pool/main/n/node-readable-stream/node-readable-stream_4.7.0+~cs9.0.2-3_all.deb",
+	"size": 84856,
+	"md5": "6b55d159a48db097bb752b983cb04ebb",
+	"sha256": "c108343f496e8ba39d22547e54ade2306ba2843d964d6566db370eb0286b36af",
 	"descriptionMd5": "4a9c680d05ac60758201b0a620491fc4"
 }]

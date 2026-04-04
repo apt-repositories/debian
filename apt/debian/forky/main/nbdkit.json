@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "nbdkit",
-	"version": "1.46.2-1",
+	"version": "1.46.2-4",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -24,12 +24,15 @@
 		"libssh-4 (>= 0.8.0)",
 		"libssl3t64 (>= 3.0.0)",
 		"libstdc++6 (>= 13.1)",
-		"libtorrent-rasterbar2.0t64 (>= 2.0.11)",
+		"libtorrent-rasterbar2.0t64 (>= 2.0.12)",
 		"libzstd1 (>= 1.5.5)",
 		"ocl-icd-libopencl1 | libopencl1",
 		"ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1",
 		"ocl-icd-libopencl1 (>= 2.2.0) | libopencl-2.0-1",
 		"zlib1g (>= 1:1.2.3.4)"
+	],
+	"recommends": [
+		"e2fsprogs"
 	],
 	"suggests": [
 		"nbdkit-plugin-guestfs",
@@ -47,13 +50,13 @@
 	"breaks": [
 		"nbdkit-plugin-perl (<< 1.22)"
 	],
-	"installedSize": 2863,
+	"installedSize": 2862,
 	"maintainer": "Hilko Bengen <bengen@debian.org>",
 	"description": "toolkit for creating NBD servers",
 	"homepage": "https://gitlab.com/nbdkit/nbdkit",
-	"filename": "pool/main/n/nbdkit/nbdkit_1.46.2-1_amd64.deb",
-	"size": 797388,
-	"md5": "7760edf18ed3e675a7bb545548515c96",
-	"sha256": "b33dea9d44682107b2f1806b296e7ff25c6cf876dfb15618c7796bbad905437a",
+	"filename": "pool/main/n/nbdkit/nbdkit_1.46.2-4_amd64.deb",
+	"size": 795552,
+	"md5": "9d789d0b98637c95162dabc96a576dab",
+	"sha256": "7aa46ef1b96bab039561de598281e9c45063c50ebb71c18a3e89c92b20e74d67",
 	"descriptionMd5": "c7a861cc6e7a0f4d763c7d5feb686a79"
 }
