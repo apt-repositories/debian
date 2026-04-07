@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "llvm-21",
+	"source": "llvm-toolchain-21",
+	"version": "1:21.1.8-3~bpo13+1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"llvm-21-runtime (= 1:21.1.8-3~bpo13+1)",
+		"llvm-21-linker-tools (= 1:21.1.8-3~bpo13+1)",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libgcc-s1 (>= 4.3)",
+		"libllvm21",
+		"libpfm4",
+		"libstdc++6 (>= 12)",
+		"libz3-4 (>= 4.13.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"recommends": [
+		"llvm-21-dev"
+	],
+	"suggests": [
+		"llvm-21-doc"
+	],
+	"installedSize": 87138,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Modular compiler and toolchain technologies",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-21/llvm-21_21.1.8-3~bpo13+1_amd64.deb",
+	"size": 18645192,
+	"sha256": "957dbdcabeb23d87312fb016287b9818d6b16e6828b3924be6c1a4e87e8415cd",
+	"descriptionMd5": "07d463911771b9679a5f0131f40992d4"
+}

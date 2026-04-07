@@ -5,6 +5,39 @@
 		"Size"
 	],
 	"package": "libomp5",
+	"source": "llvm-toolchain-21",
+	"version": "1:21.1.8-3~bpo13+1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)"
+	],
+	"replaces": [
+		"libomp-x.y",
+		"libomp5-21"
+	],
+	"breaks": [
+		"libomp5-21"
+	],
+	"conflicts": [
+		"libomp-x.y"
+	],
+	"installedSize": 1311,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM OpenMP runtime",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-21/libomp5_21.1.8-3~bpo13+1_amd64.deb",
+	"size": 434640,
+	"sha256": "117f1ac43fd57f1ea72ffcbae125ad8652c5efefb7fcb667dfed618a4ae86b3c",
+	"descriptionMd5": "e28f50eb4beb8e316b69da2c1c0194c3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libomp5",
 	"source": "llvm-defaults (0.63)",
 	"version": "1:19.0-63",
 	"section": "libs",
