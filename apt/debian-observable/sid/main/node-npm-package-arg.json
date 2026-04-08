@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "node-npm-package-arg",
-	"version": "10.0.0+~3.0.0-2",
+	"version": "13.0.2+~6.1.0-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,13 +15,16 @@
 		"node-semver",
 		"node-validate-npm-package-name"
 	],
-	"installedSize": 40,
+	"breaks": [
+		"npm (<< 11.12.1~ds1-1~)"
+	],
+	"installedSize": 47,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Parse the things that can be arguments to npm install",
 	"homepage": "https://github.com/npm/npm-package-arg",
-	"filename": "pool/main/n/node-npm-package-arg/node-npm-package-arg_10.0.0+~3.0.0-2_all.deb",
-	"size": 11356,
-	"md5": "cbe7ab666ce8a95e2e0bf08965310bdb",
-	"sha256": "ae557b5ce3c5b1c01f1b4b8f31a65c5e106d5e7d5fb7af756ef52dad57dda0e2",
+	"filename": "pool/main/n/node-npm-package-arg/node-npm-package-arg_13.0.2+~6.1.0-3_all.deb",
+	"size": 15832,
+	"md5": "44e576a36c34240748bacfef419b8118",
+	"sha256": "372b1aa403275b09c04f1af8b2dc38720a2f903fe619605842b592da67819646",
 	"descriptionMd5": "90c66d4b33548cc2755605f02c29229f"
 }]

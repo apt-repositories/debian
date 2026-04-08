@@ -6,13 +6,18 @@
 	],
 	"package": "node-vue",
 	"source": "vue.js",
-	"version": "2.6.14+dfsg1-3",
+	"version": "2.7.16+dfsg1-2",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"node-babel7",
 		"node-de-indent",
-		"node-he"
+		"node-he",
+		"node-lru-cache",
+		"node-css-loader",
+		"node-postcss",
+		"node-source-map-js"
 	],
 	"recommends": [
 		"node-escodegen",
@@ -26,13 +31,13 @@
 	"breaks": [
 		"node-vue-template-compiler (<< 2.6.11+dfsg-1~)"
 	],
-	"installedSize": 4468,
+	"installedSize": 5642,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Core library of the Vue JavaScript framework",
 	"homepage": "https://github.com/vuejs/vue",
-	"filename": "pool/main/v/vue.js/node-vue_2.6.14+dfsg1-3_all.deb",
-	"size": 324316,
-	"md5": "e88b60092de69a63c5e5c906fab484c3",
-	"sha256": "1c9a56ea4fa8e942aa2cb22affd9a56c44ce6f5cd0344335d08a6541bcd830a1",
+	"filename": "pool/main/v/vue.js/node-vue_2.7.16+dfsg1-2_all.deb",
+	"size": 480880,
+	"md5": "8dd4c0e9268235d1c2650cd6fc71daaa",
+	"sha256": "6776cf432f6bd6cc77f01d2f4e81d00706ad00378018bb1a737041bcc1a00559",
 	"descriptionMd5": "fa3554f1e8798599c8c072024864fb2b"
 }]
