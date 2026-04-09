@@ -6,27 +6,28 @@
 	],
 	"package": "debci-worker",
 	"source": "debci",
-	"version": "3.14.1",
+	"version": "4.0.1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"debci (= 3.14.1)",
+		"debci (= 4.0.1)",
 		"inotify-tools",
 		"autodep8 (>= 0.2~)",
 		"autopkgtest (>= 5.29~)",
 		"time-daemon"
 	],
 	"recommends": [
-		"lxc"
+		"lxc | incus | lxd",
+		"distro-info"
 	],
 	"installedSize": 30,
 	"maintainer": "Debian CI team <team+ci@tracker.debian.org>",
 	"description": "continuous integration system for Debian (worker daemon)",
 	"homepage": "http://ci.debian.net/",
-	"filename": "pool/main/d/debci/debci-worker_3.14.1_all.deb",
-	"size": 9100,
-	"md5": "f720b31340969a2f20cee97d9aab0b5a",
-	"sha256": "3b15d7c6ad5ee1286a63e9bbaf276c5156add507eff9fb3a5c4c650101675f3b",
+	"filename": "pool/main/d/debci/debci-worker_4.0.1_all.deb",
+	"size": 9764,
+	"md5": "62c39ad312ad573fdc738fd519476de4",
+	"sha256": "43046f4226037244611c5c186bf30642374c26d9bb77b1126539bb5e5d19c164",
 	"descriptionMd5": "6ea2307dc1e2980b7e8904c22f5f015d"
 }

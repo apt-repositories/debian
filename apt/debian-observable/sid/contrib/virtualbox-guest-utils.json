@@ -6,19 +6,19 @@
 	],
 	"package": "virtualbox-guest-utils",
 	"source": "virtualbox",
-	"version": "7.2.6-dfsg-3.2",
+	"version": "7.2.6-dfsg-4",
 	"section": "contrib/misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"pciutils",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libpam0g (>= 0.99.7.1)",
 		"zlib1g (>= 1:1.1.4)"
 	],
 	"suggests": [
-		"virtualbox-guest-x11 (= 7.2.6-dfsg-3.2)"
+		"virtualbox-guest-x11 (= 7.2.6-dfsg-4)"
 	],
 	"replaces": [
 		"virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)"
@@ -26,13 +26,13 @@
 	"breaks": [
 		"virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)"
 	],
-	"installedSize": 1952,
+	"installedSize": 1955,
 	"maintainer": "Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>",
 	"description": "x86 virtualization solution - non-X11 guest utilities",
 	"homepage": "https://www.virtualbox.org",
-	"filename": "pool/contrib/v/virtualbox/virtualbox-guest-utils_7.2.6-dfsg-3.2_amd64.deb",
-	"size": 422836,
-	"md5": "fa9a77f7b00f007da786589955a54d48",
-	"sha256": "90ce5d4dd5a3ae81fd14f92bb869f6fa1cec29db1ecc0249fe82620993b963a0",
+	"filename": "pool/contrib/v/virtualbox/virtualbox-guest-utils_7.2.6-dfsg-4_amd64.deb",
+	"size": 422956,
+	"md5": "04cb602f6cccf55ac4a32a3fc3d433f0",
+	"sha256": "5117ca3d46b60e1b88c3665e26de4c79f234ae738dfa0403d9dd8a75722309c9",
 	"descriptionMd5": "0c420aa026ad03a572b15c6e38dbebf7"
 }]
