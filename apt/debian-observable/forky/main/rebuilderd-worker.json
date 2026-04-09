@@ -5,27 +5,31 @@
 		"Size"
 	],
 	"package": "rebuilderd-worker",
-	"source": "rust-rebuilderd-worker (0.25.0-2)",
-	"version": "0.25.0-2+b1",
+	"source": "rust-rebuilderd-worker",
+	"version": "0.26.0-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.39)",
-		"libgcc-s1 (>= 4.2)"
+		"libgcc-s1 (>= 4.2)",
+		"libzstd1 (>= 1.5.5)",
+		"devscripts",
+		"mmdebstrap",
+		"sbuild"
 	],
 	"recommends": [
-		"devscripts",
 		"diffoscope"
 	],
-	"installedSize": 6924,
+	"installedSize": 7017,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Worker agent for rebuilderd server",
 	"homepage": "https://github.com/kpcyrd/rebuilderd",
-	"builtUsing": "rust-colored (= 3.0.0-3), rust-hyper-rustls (= 0.27.7-2), rust-nix (= 0.30.1-3), rust-rebuilderd-common (= 0.25.0-2), rust-rustls (= 0.23.35+ds-1), rust-rustls-native-certs (= 0.8.1-5), rust-rustls-pki-types (= 1.13.1-1), rust-rustls-webpki (= 0.103.7-1), rustc (= 1.90.0+dfsg1-1)",
-	"filename": "pool/main/r/rust-rebuilderd-worker/rebuilderd-worker_0.25.0-2+b1_amd64.deb",
-	"size": 2197292,
-	"md5": "b98b8d3c6f78d0b54a4a42808fd5d4a7",
-	"sha256": "ab64181c9990c184186175cdc158b663668deb361db4d64ddb565337da7f08de",
+	"builtUsing": "rust-colored (= 3.1.1-1), rust-hyper-rustls (= 0.27.7-2), rust-nix (= 0.30.1-3), rust-rebuilderd-common (= 0.26.0-1), rust-rustls (= 0.23.37+ds-3), rust-rustls-native-certs (= 0.8.3-1), rust-rustls-pki-types (= 1.14.0+ds-1), rust-rustls-platform-verifier (= 0.6.2-1), rust-rustls-webpki (= 0.103.9+ds-2), rustc (= 1.92.0+dfsg1-2)",
+	"filename": "pool/main/r/rust-rebuilderd-worker/rebuilderd-worker_0.26.0-1_amd64.deb",
+	"size": 2212596,
+	"md5": "cbe7c92e7fc1e331bb883ad8aaf1e617",
+	"sha256": "ec5a72e750f4ca5cd8ebcc46c2aed4aa09ef4aae6490a6a5537d56b092c07636",
 	"descriptionMd5": "cc02607b7b2849137a3ed88b13a820e1"
 }]

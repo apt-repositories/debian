@@ -5,29 +5,38 @@
 		"Size"
 	],
 	"package": "sddm-theme-debian-breeze",
-	"source": "plasma-desktop (4:6.5.4-2)",
-	"version": "4:6.5.4-2+b1",
+	"source": "plasma-desktop",
+	"version": "4:6.6.3-7",
 	"section": "kde",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"plasma-desktoptheme",
-		"plasma-workspace",
 		"qt6-svg-plugins",
-		"sddm-theme-breeze"
+		"sddm-theme-breeze",
+		"plasma-version-base-6.6",
+		"plasma-desktoptheme",
+		"qml6-module-org-kde-breeze-components",
+		"qml6-module-org-kde-kirigami",
+		"qml6-module-org-kde-plasma-workspace",
+		"qml6-module-qt5compat-graphicaleffects",
+		"qml6-module-qtquick",
+		"qml6-module-qtquick-controls",
+		"qml6-module-qtquick-layouts"
 	],
 	"recommends": [
 		"desktop-base",
-		"qt6-virtualkeyboard-plugin",
+		"qt6-virtualkeyboard-plugin"
+	],
+	"enhances": [
 		"sddm"
 	],
 	"installedSize": 209,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Debian Breeze SDDM theme",
 	"homepage": "https://invent.kde.org/plasma/plasma-desktop",
-	"filename": "pool/main/p/plasma-desktop/sddm-theme-debian-breeze_6.5.4-2+b1_amd64.deb",
-	"size": 145836,
-	"md5": "b2be2f7b2fa2fa6b58c84525d3058ce1",
-	"sha256": "2a90787cd3a06da8703315311bd36d97d6ede9908dbfdeecfe1c3be6e237312d",
-	"descriptionMd5": "0f91f37ff46ae23c93068df243310d4b"
+	"filename": "pool/main/p/plasma-desktop/sddm-theme-debian-breeze_6.6.3-7_amd64.deb",
+	"size": 146520,
+	"md5": "64b98f015240c6db2dfeaa24d10b8993",
+	"sha256": "bf06157baaa28d9905ed437652c0085e02b16269e9bc3d3edf06d25315616642",
+	"descriptionMd5": "4ee6d49379d5abb52b907d0d53f711ac"
 }

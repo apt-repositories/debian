@@ -6,24 +6,25 @@
 	],
 	"package": "rebuilderd",
 	"source": "rust-rebuilderd",
-	"version": "0.25.0+dfsg-1",
+	"version": "0.26.0+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.39)",
 		"libgcc-s1 (>= 4.2)",
 		"libsqlite3-0 (>= 3.20.0)",
 		"libzstd1 (>= 1.5.5)"
 	],
-	"installedSize": 9632,
+	"installedSize": 10393,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Monitor and reproduce binary packages from source - Reproducible Builds",
 	"homepage": "https://github.com/kpcyrd/rebuilderd",
-	"builtUsing": "rustc (= 1.92.0+dfsg1-1)",
-	"filename": "pool/main/r/rust-rebuilderd/rebuilderd_0.25.0+dfsg-1_amd64.deb",
-	"size": 2797100,
-	"md5": "6d59c75d5495cc01fe6d6bcaf83b994c",
-	"sha256": "f34723bc5da5fa992ed37e63c1b9f2bd173a04a6ba764bf3a10539d42460fa68",
-	"descriptionMd5": "cc802645a6bf4cf80ca7340a02a582e9"
+	"builtUsing": "rustc (= 1.92.0+dfsg1-2)",
+	"filename": "pool/main/r/rust-rebuilderd/rebuilderd_0.26.0+dfsg-1_amd64.deb",
+	"size": 2942012,
+	"md5": "168c2584469f04c49c7b020b53bd4c55",
+	"sha256": "1c769c88b703d2c460cdac45cac714e139c34013fa03ec1a995ba8e22e16780d",
+	"descriptionMd5": "0422c820cbaf82d1c8a9192a1ea4dec6"
 }]

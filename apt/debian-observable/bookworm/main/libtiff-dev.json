@@ -37,8 +37,52 @@
 	"maintainer": "Laszlo Boszormenyi (GCS) <gcs@debian.org>",
 	"description": "Tag Image File Format library (TIFF), development files",
 	"homepage": "https://libtiff.gitlab.io/libtiff/",
-	"filename": "pool/updates/main/t/tiff/libtiff-dev_4.5.0-6+deb12u3_amd64.deb",
+	"filename": "pool/main/t/tiff/libtiff-dev_4.5.0-6+deb12u3_amd64.deb",
 	"size": 456240,
+	"md5": "4611ba2c8b08a300cef8b2c1752916ef",
 	"sha256": "8b17c6a14b4aa4e6b70b68f6053c00858ac51aa9bbef5a401f154ec2855dcb5b",
+	"descriptionMd5": "9da8bcdaa4c04ca6ee4ae233236c1927"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libtiff-dev",
+	"source": "tiff",
+	"version": "4.5.0-6+deb12u4",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6-dev | libc-dev",
+		"libjbig-dev",
+		"libjpeg-dev",
+		"liblzma-dev",
+		"libzstd-dev",
+		"libwebp-dev",
+		"libtiff6 (= 4.5.0-6+deb12u4)",
+		"libtiffxx6 (= 4.5.0-6+deb12u4)",
+		"zlib1g-dev",
+		"libdeflate-dev",
+		"liblerc-dev"
+	],
+	"replaces": [
+		"libtiff4-dev (<< 4.0.3-6~)",
+		"libtiff5-alt-dev (<< 4.0.3-6~)",
+		"libtiff5-dev (<< 4.0.10-1~)"
+	],
+	"breaks": [
+		"libtiff4-dev (<< 4.0.3-6~)",
+		"libtiff5-alt-dev (<< 4.0.3-6~)",
+		"libtiff5-dev (<< 4.0.10-1~)"
+	],
+	"installedSize": 1277,
+	"maintainer": "Laszlo Boszormenyi (GCS) <gcs@debian.org>",
+	"description": "Tag Image File Format library (TIFF), development files",
+	"homepage": "https://libtiff.gitlab.io/libtiff/",
+	"filename": "pool/updates/main/t/tiff/libtiff-dev_4.5.0-6+deb12u4_amd64.deb",
+	"size": 456336,
+	"sha256": "3872494f724cfd3cef0f99377629ca4057c59b15e5699f1612ad78591aa6a6a2",
 	"descriptionMd5": "9da8bcdaa4c04ca6ee4ae233236c1927"
 }]
