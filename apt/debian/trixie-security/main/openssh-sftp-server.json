@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssh-sftp-server",
+	"source": "openssh",
+	"version": "1:10.0p1-7+deb13u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openssh-client (= 1:10.0p1-7+deb13u2)",
+		"libc6 (>= 2.38)"
+	],
+	"recommends": [
+		"openssh-server | ssh-server"
+	],
+	"replaces": [
+		"openssh-server (<< 1:6.5p1-5)"
+	],
+	"enhances": [
+		"openssh-server",
+		"ssh-server"
+	],
+	"breaks": [
+		"openssh-server (<< 1:6.5p1-5)"
+	],
+	"installedSize": 173,
+	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
+	"description": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
+	"homepage": "https://www.openssh.com/",
+	"filename": "pool/updates/main/o/openssh/openssh-sftp-server_10.0p1-7+deb13u2_amd64.deb",
+	"size": 65320,
+	"sha256": "ceafc87f74e71d2b8346f7715064bfee197bdf2848e0a425e370e5cc4317d1f4",
+	"descriptionMd5": "b9a6d4f71758c154615deaec42e8415d"
+}

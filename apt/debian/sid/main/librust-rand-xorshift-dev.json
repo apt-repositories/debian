@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rand-xorshift-dev",
 	"source": "rust-rand-xorshift",
-	"version": "0.5.0-2",
+	"version": "0.5.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,17 @@
 		"librust-rand-core-0.10+default-dev",
 		"librust-serde-1+derive-dev (>= 1.0.118)"
 	],
+	"breaks": [
+		"librust-async-std-dev (<< 1.13.2-3)",
+		"librust-par-core-dev (<< 2.0.0+0+20250621-4)"
+	],
 	"installedSize": 49,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Xorshift random number generator - Rust source code",
 	"homepage": "https://rust-random.github.io/book",
-	"filename": "pool/main/r/rust-rand-xorshift/librust-rand-xorshift-dev_0.5.0-2_amd64.deb",
-	"size": 12176,
-	"md5": "cd82b3409b0fb83e0e353739e88f0ab4",
-	"sha256": "4ea03eec7dd14307e4a22a9a36ce4b43c51b0b6a6fe2a44d9b7a3d2dace8389f",
+	"filename": "pool/main/r/rust-rand-xorshift/librust-rand-xorshift-dev_0.5.0-3_amd64.deb",
+	"size": 12248,
+	"md5": "15559252dee011813d5111edd663437c",
+	"sha256": "979d2059e770fec2a690f9c2766006442beb30101166b0f1993c5dd06cf1a4df",
 	"descriptionMd5": "e148814d382222d1edc105a4e6345cb3"
 }
