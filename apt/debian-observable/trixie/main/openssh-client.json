@@ -100,4 +100,56 @@
 	"md5": "7773b0b2eb5a02a7d514aadb02b909e7",
 	"sha256": "16d61bcceb4ad8c7c1b4957f7a9796f47c974f7ea9da553d60b6d6b4c84982e4",
 	"descriptionMd5": "8cde3280ebad71c16b3e8c661dae6c6d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssh-client",
+	"source": "openssh",
+	"version": "1:10.0p1-7+deb13u2",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"init-system-helpers (>= 1.66~)",
+		"passwd",
+		"libc6 (>= 2.38)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libfido2-1 (>= 1.8.0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"xauth"
+	],
+	"suggests": [
+		"keychain",
+		"libpam-ssh",
+		"monkeysphere",
+		"ssh-askpass"
+	],
+	"replaces": [
+		"openssh-sk-helper",
+		"ssh",
+		"ssh-krb5"
+	],
+	"breaks": [
+		"openssh-sk-helper"
+	],
+	"conflicts": [
+		"sftp"
+	],
+	"installedSize": 4998,
+	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
+	"description": "secure shell (SSH) client, for secure access to remote machines",
+	"homepage": "https://www.openssh.com/",
+	"filename": "pool/updates/main/o/openssh/openssh-client_10.0p1-7+deb13u2_amd64.deb",
+	"size": 985740,
+	"sha256": "e6bbb079e06539ecebd598b74f7725299ba61cebd64a2cfb09f2bab8fbe25d18",
+	"descriptionMd5": "8cde3280ebad71c16b3e8c661dae6c6d"
 }]

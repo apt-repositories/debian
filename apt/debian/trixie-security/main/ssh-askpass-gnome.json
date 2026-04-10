@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ssh-askpass-gnome",
+	"source": "openssh",
+	"version": "1:10.0p1-7+deb13u2",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openssh-client | ssh (>= 1:1.2pre7-4)",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libgtk-3-0t64 (>= 3.19.12)"
+	],
+	"replaces": [
+		"ssh (<< 1:3.5p1-3)"
+	],
+	"installedSize": 190,
+	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
+	"description": "interactive X program to prompt users for a passphrase for ssh-add",
+	"homepage": "https://www.openssh.com/",
+	"filename": "pool/updates/main/o/openssh/ssh-askpass-gnome_10.0p1-7+deb13u2_amd64.deb",
+	"size": 156608,
+	"sha256": "a3c58732a6c0e44b1a75d2c14371c9830f2e26e13ac92aeab44ba0d1b95119a9",
+	"descriptionMd5": "e888e7e8e5a6ee7b30f000dc22ed083f"
+}
