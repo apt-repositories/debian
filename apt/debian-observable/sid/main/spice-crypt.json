@@ -5,20 +5,23 @@
 		"Size"
 	],
 	"package": "spice-crypt",
-	"version": "2.0.2-1",
+	"version": "2.0.2-2",
 	"section": "electronics",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"python3:any"
+		"python3",
+		"python3:any",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.2)"
 	],
-	"installedSize": 210,
+	"installedSize": 720,
 	"maintainer": "Debian Electronics Team <pkg-electronics-devel@lists.alioth.debian.org>",
 	"description": "tool to decrypt encrypted SPICE model files",
 	"homepage": "https://github.com/jtsylve/spice-crypt",
-	"filename": "pool/main/s/spice-crypt/spice-crypt_2.0.2-1_all.deb",
-	"size": 52068,
-	"md5": "10fde06501a54dc32573670d07787109",
-	"sha256": "9b216df823d12f9c3a5173b435ebdb5b1818a3ab80307dedd18f3e32e3710140",
+	"filename": "pool/main/s/spice-crypt/spice-crypt_2.0.2-2_amd64.deb",
+	"size": 253188,
+	"md5": "a9991250f6f9b0187dfe79ff2b21c03a",
+	"sha256": "bbdcdf965d393d67a6514fade3bf85ab25cd821d6cc59ea88eaa3592e09afc15",
 	"descriptionMd5": "2fc189b759ffa8db6b2b70c39d409cf6"
 }]
