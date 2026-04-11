@@ -5,15 +5,15 @@
 		"Size"
 	],
 	"package": "cups-daemon",
-	"source": "cups",
-	"version": "2.4.16-1",
+	"source": "cups (2.4.16-1)",
+	"version": "2.4.16-1+b1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
 		"bc",
-		"libcups2t64 (= 2.4.16-1)",
+		"libcups2t64 (= 2.4.16-1+b1)",
 		"lsb-base",
 		"procps",
 		"ssl-cert",
@@ -26,9 +26,6 @@
 		"libpaper2 (>= 2.2.5)",
 		"libsystemd0"
 	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
-	],
 	"recommends": [
 		"avahi-daemon",
 		"colord",
@@ -38,7 +35,7 @@
 	"suggests": [
 		"cups",
 		"cups-bsd",
-		"cups-client (>= 2.4.16-1)",
+		"cups-client (>= 2.4.16-1+b1)",
 		"cups-common (>= 2.4.16-1)",
 		"cups-filters",
 		"cups-pdf",
@@ -56,13 +53,13 @@
 	"breaks": [
 		"cups (<< 2.1.0-6~)"
 	],
-	"installedSize": 887,
+	"installedSize": 883,
 	"maintainer": "Debian Printing Team <debian-printing@lists.debian.org>",
 	"description": "Common UNIX Printing System(tm) - daemon",
 	"homepage": "https://github.com/OpenPrinting/cups/",
-	"filename": "pool/main/c/cups/cups-daemon_2.4.16-1_amd64.deb",
-	"size": 365012,
-	"md5": "c07afd2b112d96baf98f690425261f4a",
-	"sha256": "8a2d804a7800562e126df5516927bdfd923e7878d9003d1744f243cd163a09ca",
+	"filename": "pool/main/c/cups/cups-daemon_2.4.16-1+b1_amd64.deb",
+	"size": 360868,
+	"md5": "34970eec74e179f3f598c3e77e158222",
+	"sha256": "426950eea6976ac4548d575222a4a51a0bd0800c819bf61d4244c35c86e6e189",
 	"descriptionMd5": "559bf8b849cd67e4ad13a2a638aea615"
 }
