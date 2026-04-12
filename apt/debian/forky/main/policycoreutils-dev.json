@@ -6,20 +6,20 @@
 	],
 	"package": "policycoreutils-dev",
 	"source": "selinux-python",
-	"version": "3.9-2",
+	"version": "3.10-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"binutils",
-		"policycoreutils (>= 3.9)",
-		"python3-selinux (>= 3.9)",
-		"python3-sepolgen (= 3.9-2)",
-		"python3-sepolicy (= 3.9-2)",
-		"semodule-utils (>= 3.9)",
+		"policycoreutils (>= 3.10)",
+		"python3-selinux (>= 3.10)",
+		"python3-sepolgen (= 3.10-1)",
+		"python3-sepolicy (= 3.10-1)",
+		"semodule-utils (>= 3.10)",
 		"python3:any",
 		"libc6 (>= 2.34)",
-		"libselinux1 (>= 3.9)"
+		"libselinux1 (>= 3.1~)"
 	],
 	"replaces": [
 		"policycoreutils (<< 2.4)",
@@ -32,14 +32,14 @@
 	"conflicts": [
 		"selinux-gui (<< 3.7-2)"
 	],
-	"installedSize": 372,
+	"installedSize": 382,
 	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
 	"description": "SELinux core policy utilities (development utilities)",
 	"homepage": "https://selinuxproject.org",
-	"builtUsing": "libsepol (= 3.9-2)",
-	"filename": "pool/main/s/selinux-python/policycoreutils-dev_3.9-2_amd64.deb",
-	"size": 126956,
-	"md5": "0c681efb427cb0a6719e17fb0c58ed8c",
-	"sha256": "d88d0bcc864f686402b920dc0d019af19e60f9b20adc1877862b466e07b29c7c",
+	"builtUsing": "libsepol (= 3.10-1)",
+	"filename": "pool/main/s/selinux-python/policycoreutils-dev_3.10-1_amd64.deb",
+	"size": 128516,
+	"md5": "c087b444c5eefb30ed6b86feff8f5715",
+	"sha256": "6f01828a8aa69c894f56872c31f14493f21386d8161720df2f6df8e928886721",
 	"descriptionMd5": "530fe6be5f801e94cbd1e8e451e87359"
 }

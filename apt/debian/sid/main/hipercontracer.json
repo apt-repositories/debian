@@ -5,33 +5,47 @@
 		"Size"
 	],
 	"package": "hipercontracer",
-	"version": "1.6.10-1",
+	"version": "2.1.12-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libhipercontracer1 (= 1.6.10-1)",
-		"libboost-log1.83.0 (>= 1.83.0)",
-		"libboost-program-options1.83.0 (>= 1.83.0)",
-		"libc6 (>= 2.34)",
+		"hipercontracer-common",
+		"iproute2",
+		"libhipercontracer2 (= 2.1.12-1)",
+		"libboost-log1.90.0 (>= 1.90.0)",
+		"libboost-program-options1.90.0 (>= 1.90.0)",
+		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
-		"libstdc++6 (>= 13.1)"
+		"libhpctio2 (>= 2.1.12)",
+		"libstdc++6 (>= 14)"
 	],
 	"recommends": [
-		"hipercontracer-trigger",
-		"python3",
-		"python3-geoip",
-		"python3-psycopg2",
-		"python3-pymongo",
-		"python3-urllib3"
+		"ethtool",
+		"hipercontracer-examples",
+		"hipercontracer-viewer"
 	],
-	"installedSize": 451,
-	"maintainer": "Thomas Dreibholz <thomas.dreibholz@gmail.com>",
-	"description": "Command-line programs for HiPerConTracer",
+	"suggests": [
+		"hipercontracer-collector",
+		"hipercontracer-dbeaver-tools",
+		"hipercontracer-dbshell",
+		"hipercontracer-importer",
+		"hipercontracer-node",
+		"hipercontracer-query",
+		"hipercontracer-results",
+		"hipercontracer-sync",
+		"hipercontracer-trigger",
+		"hipercontracer-udp-echo-server",
+		"netperfmeter",
+		"td-system-info"
+	],
+	"installedSize": 523,
+	"maintainer": "Thomas Dreibholz <dreibh@simula.no>",
+	"description": "High-Performance Connectivity Tracer (HiPerConTracer)",
 	"homepage": "https://www.nntb.no/~dreibh/hipercontracer/",
-	"filename": "pool/main/h/hipercontracer/hipercontracer_1.6.10-1_amd64.deb",
-	"size": 141568,
-	"md5": "8ba0c5cfa2524e9c55ef3769dfee62fa",
-	"sha256": "319d207c967253e1a7859205e28159940c0f6056f410a03096ec92fc91e6ba32",
-	"descriptionMd5": "d07b6c04d19ee579e6c2bb3f34143eab"
+	"filename": "pool/main/h/hipercontracer/hipercontracer_2.1.12-1_amd64.deb",
+	"size": 231168,
+	"md5": "299ed369633b326c118222febc80392c",
+	"sha256": "f3ccba2f32128a9ded0d4856cced1f6efd42b39d176f2ea266ff3693dea3d3c0",
+	"descriptionMd5": "0a3087c76cc15efe5c1a42a93b4713d3"
 }

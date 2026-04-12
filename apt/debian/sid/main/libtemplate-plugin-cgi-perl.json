@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libtemplate-plugin-cgi-perl",
-	"version": "3.101-2",
+	"version": "3.101-3",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,13 +13,19 @@
 		"perl:any",
 		"libcgi-pm-perl"
 	],
+	"replaces": [
+		"libtemplate-perl (<< 3.100)"
+	],
+	"breaks": [
+		"libtemplate-perl (<< 3.100)"
+	],
 	"installedSize": 22,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
-	"description": "Simple Template Toolkit plugin interfacing to the CGI.pm module",
+	"description": "simple Template Toolkit plugin interfacing to the CGI.pm module",
 	"homepage": "https://metacpan.org/release/Template-Plugin-CGI",
-	"filename": "pool/main/libt/libtemplate-plugin-cgi-perl/libtemplate-plugin-cgi-perl_3.101-2_all.deb",
-	"size": 6116,
-	"md5": "6d27d3aa5dc09e2dc8576fadc9e7bc6f",
-	"sha256": "fdb0baa894b8ef4e218fc94f7aad2dd04c9b4d601043479813c98d84fa8efa95",
-	"descriptionMd5": "b017ac9f292997512e7ca39845c8703d"
+	"filename": "pool/main/libt/libtemplate-plugin-cgi-perl/libtemplate-plugin-cgi-perl_3.101-3_all.deb",
+	"size": 6320,
+	"md5": "e950501b1030965c0910a3e404a4120c",
+	"sha256": "55e0173000dadc67dd48ffb6ce765f6efd34e6763baeaf1dce54ca22219aa210",
+	"descriptionMd5": "3f41b2e6186048504521fd0156b8e6dd"
 }

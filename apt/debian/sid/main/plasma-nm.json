@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "plasma-nm",
-	"version": "4:6.6.3-2",
+	"version": "4:6.6.3-3",
 	"section": "kde",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,20 +13,17 @@
 		"mobile-broadband-provider-info",
 		"network-manager",
 		"plasma-desktoptheme",
-		"qml6-module-org-kde-config",
+		"plasma-version-base-6.6",
 		"qml6-module-org-kde-coreaddons",
-		"qml6-module-org-kde-kcmutils",
 		"qml6-module-org-kde-kirigami",
-		"qml6-module-org-kde-kquickcontrolsaddons",
+		"qml6-module-org-kde-kirigamiaddons-formcard",
 		"qml6-module-org-kde-ksvg",
 		"qml6-module-org-kde-networkmanager",
-		"qml6-module-org-kde-prison",
 		"qml6-module-org-kde-quickcharts",
 		"qml6-module-qtquick",
 		"qml6-module-qtquick-controls",
-		"qml6-module-qtquick-dialogs",
 		"qml6-module-qtquick-layouts",
-		"plasma-version-base-6.6",
+		"qml6-module-qtquick-window",
 		"kio6",
 		"kwallet6",
 		"libc6 (>= 2.14)",
@@ -85,13 +82,19 @@
 		"network-manager-strongswan",
 		"network-manager-vpnc"
 	],
-	"installedSize": 14349,
+	"replaces": [
+		"plasma-mobile (<< 6.6~)"
+	],
+	"breaks": [
+		"plasma-mobile (<< 6.6~)"
+	],
+	"installedSize": 14400,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Plasma network connections management",
 	"homepage": "https://invent.kde.org/plasma/plasma-nm",
-	"filename": "pool/main/p/plasma-nm/plasma-nm_6.6.3-2_amd64.deb",
-	"size": 1904584,
-	"md5": "9e6cfc00219af69c072f1379e682d71c",
-	"sha256": "a609add85b11c0ae7270c2b374996232cf1a2fd855e792e92f6878f33a3fb8f5",
+	"filename": "pool/main/p/plasma-nm/plasma-nm_6.6.3-3_amd64.deb",
+	"size": 1909372,
+	"md5": "a1265a7e4a2bf88ea43bb0589bfe1410",
+	"sha256": "f41c3afed6b01fb8e15927cea60348fe48f4613cad4bf2c433fab5f835ab74a0",
 	"descriptionMd5": "5b69e791c531a8effeb4e7a37b16cd62"
 }

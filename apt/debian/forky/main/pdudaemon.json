@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "pdudaemon",
-	"version": "1.1.0-2",
+	"version": "1.1.1-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"python3-aiohttp",
 		"python3-hid",
 		"python3-paramiko",
@@ -27,13 +28,13 @@
 		"openssh-client",
 		"telnet | telnet-client"
 	],
-	"installedSize": 255,
+	"installedSize": 263,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "daemon for controlling PDUs",
 	"homepage": "http://github.com/pdudaemon",
-	"filename": "pool/main/p/pdudaemon/pdudaemon_1.1.0-2_all.deb",
-	"size": 37284,
-	"md5": "5a589040a16e803de1b7f78bcfb201ee",
-	"sha256": "8a4c16f39ae1de4066c7e4bdab70362731de8cc1a2c817d529bcac598df8baf8",
+	"filename": "pool/main/p/pdudaemon/pdudaemon_1.1.1-1_all.deb",
+	"size": 37916,
+	"md5": "2f9a92139100903b0b2d228c2ebe6067",
+	"sha256": "b3768f6ae58f20ab1ea485caf6e77623fc4217823372d6073ebefbbff85a9d58",
 	"descriptionMd5": "b36e427f64b5ab1830fe61038dc8bca7"
 }
