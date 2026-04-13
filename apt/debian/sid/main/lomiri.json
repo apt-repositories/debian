@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "lomiri",
-	"version": "0.5.0-8",
+	"version": "0.5.0-9",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -41,9 +41,9 @@
 		"lomiri-system-settings (>= 1.2.0-1~)",
 		"lomiri-url-dispatcher",
 		"lomiri-launcher-impl-13",
-		"lomiri-common (>= 0.5.0-8)",
-		"lomiri-common (<< 0.5.0-8.1~)",
-		"liblomiri-private0 (= 0.5.0-8)",
+		"lomiri-common (>= 0.5.0-9)",
+		"lomiri-common (<< 0.5.0-9.1~)",
+		"liblomiri-private0 (= 0.5.0-9)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
 		"liblomiri-connectivity-qt1-1 (>= 1.1.2)",
@@ -68,21 +68,18 @@
 		"mir-platform-graphics-gbm-kms | mir-platform-graphics-eglstream-kms | mir-platform-graphics-wayland | mir-platform-graphics-x",
 		"lomiri-desktop-session | lomiri-touch-session",
 		"lomiri-greeter",
-		"lomiri-greeter-session-broadcast",
 		"lomiri-indicator-transfer",
 		"lomiri-indicator-location",
 		"lomiri-polkit-agent",
 		"lomiri-keyboard"
 	],
 	"replaces": [
-		"lomiri-scope-tool",
-		"lomiri-touch-session (<< 0.82~)"
+		"lomiri-scope-tool"
 	],
 	"breaks": [
 		"indicator-network (<< 0.5.1+14.10.20141014)",
 		"lomiri-keyboard (<< 0.100)",
-		"lomiri-scope-tool",
-		"lomiri-touch-session (<< 0.107)"
+		"lomiri-scope-tool"
 	],
 	"conflicts": [
 		"lomiri-system-settings-wizard"
@@ -91,9 +88,9 @@
 	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
 	"description": "Shell of the Lomiri Operating Environment",
 	"homepage": "https://gitlab.com/ubports/development/core/lomiri",
-	"filename": "pool/main/l/lomiri/lomiri_0.5.0-8_amd64.deb",
-	"size": 566216,
-	"md5": "d4f470dcbea53e934ed6a798017db973",
-	"sha256": "fbea9d329a8c509cf4a569098273e01b9c3517401f78bffc11dff92d17e60fce",
+	"filename": "pool/main/l/lomiri/lomiri_0.5.0-9_amd64.deb",
+	"size": 566284,
+	"md5": "dd7f11c1953794c066d2f1e456e2bef6",
+	"sha256": "4b75fc106d862b9f515d9b8a5c3aed88e24979ca11202892a360467bfe4104b9",
 	"descriptionMd5": "89314b23acb88f5e486e3d3b4f041663"
 }
