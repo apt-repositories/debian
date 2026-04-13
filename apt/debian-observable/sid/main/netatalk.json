@@ -5,26 +5,27 @@
 		"Size"
 	],
 	"package": "netatalk",
-	"version": "4.2.3~ds-2.1",
+	"version": "4.4.1~ds-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"avahi-daemon",
 		"dbus",
-		"libatalk (= 4.2.3~ds-2.1)",
-		"localsearch",
+		"libatalk (= 4.4.1~ds-1)",
 		"libpam-modules",
+		"localsearch",
 		"netbase",
 		"libacl1 (>= 2.2.23)",
 		"libavahi-client3 (>= 0.6.16)",
 		"libavahi-common3 (>= 0.6.16)",
+		"libbstring1 (>= 1.1.0~ds)",
 		"libc6 (>= 2.38)",
 		"libcrack2 (>= 2.8.12)",
 		"libcrypt1 (>= 1:4.1.0)",
 		"libdb5.3t64",
 		"libevent-2.1-7t64 (>= 2.1.8-stable)",
-		"libgcrypt20 (>= 1.11.0)",
+		"libgcrypt20 (>= 1.12.0)",
 		"libglib2.0-0t64 (>= 2.32.0)",
 		"libgssapi-krb5-2 (>= 1.14+dfsg)",
 		"libiniparser4 (>= 4.0)",
@@ -33,9 +34,6 @@
 		"libtalloc2 (>= 2.0.4~git20101213)",
 		"libtinysparql-3.0-0 (>= 3.8.1)",
 		"libtirpc3t64 (>= 1.0.2)"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"a2boot",
@@ -49,13 +47,13 @@
 		"netatalk-doc",
 		"quota"
 	],
-	"installedSize": 814,
+	"installedSize": 833,
 	"maintainer": "Debian Netatalk team <pkg-netatalk-devel@lists.alioth.debian.org>",
 	"description": "Apple Filing Protocol service",
-	"homepage": "https://github.com/Netatalk/netatalk",
-	"filename": "pool/main/n/netatalk/netatalk_4.2.3~ds-2.1_amd64.deb",
-	"size": 263152,
-	"md5": "00c9a80414112f70b76a38c2fe7f8909",
-	"sha256": "ea8f6a334c1cba5aac7412de4ad202c006f0d42f3d20ce3d443563854e82fcb0",
+	"homepage": "https://netatalk.io",
+	"filename": "pool/main/n/netatalk/netatalk_4.4.1~ds-1_amd64.deb",
+	"size": 270452,
+	"md5": "71e5798a7be46e2f9555816930724fcc",
+	"sha256": "86ce9ed166afe1cb1ea6e3c8c8ba89985c4eb280c7cb3e3e0bac0a14dd199576",
 	"descriptionMd5": "21928dafe6d4a150ce968fcba05e0958"
 }]
