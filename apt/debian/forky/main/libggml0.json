@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libggml0",
+	"source": "ggml",
+	"version": "0.9.11-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgomp1 (>= 4.9)",
+		"libstdc++6 (>= 11)"
+	],
+	"suggests": [
+		"libggml0-backend-blas",
+		"libggml0-backend-cuda",
+		"libggml0-backend-hip",
+		"libggml0-backend-vulkan"
+	],
+	"replaces": [
+		"libggml",
+		"libggml0-backend-cpu"
+	],
+	"breaks": [
+		"libggml",
+		"libggml0-backend-cpu"
+	],
+	"installedSize": 12094,
+	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
+	"description": "Tensor library for machine learning - libraries",
+	"homepage": "https://github.com/ggml-org/ggml",
+	"filename": "pool/main/g/ggml/libggml0_0.9.11-1_amd64.deb",
+	"size": 1279412,
+	"md5": "8047da90a64215f6458ec0e4c2fdf147",
+	"sha256": "b896e811665f3b9faa4c1d820bf954b49b3382ac88ebdd740d39450af8f91871",
+	"descriptionMd5": "8cdd01a598ece87f49f838b00eb1d142"
+}
