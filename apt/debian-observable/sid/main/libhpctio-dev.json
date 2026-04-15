@@ -6,7 +6,7 @@
 	],
 	"package": "libhpctio-dev",
 	"source": "hipercontracer",
-	"version": "2.1.12-1",
+	"version": "2.1.12-1.1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,19 +16,22 @@
 		"libboost-iostreams-dev",
 		"libboost-log-dev",
 		"libboost-thread-dev",
-		"libhpctio2 (= 2.1.12-1)"
+		"libhpctio2 (= 2.1.12-1.1)"
+	],
+	"replaces": [
+		"libhipercontracer-dev (<< 2.1.12-1)"
 	],
 	"breaks": [
-		"libhipercontracer-dev (<< 2.1.12-1)",
-		"libuniversalimporter-dev (<< 2.1.12-1)"
+		"libhipercontracer-dev (<< 2.1.12-1.1)",
+		"libuniversalimporter-dev (<< 2.1.12-1.1)"
 	],
 	"installedSize": 2001,
 	"maintainer": "Thomas Dreibholz <dreibh@simula.no>",
 	"description": "Development files for the HiPerConTracer I/O library",
 	"homepage": "https://www.nntb.no/~dreibh/hipercontracer/",
-	"filename": "pool/main/h/hipercontracer/libhpctio-dev_2.1.12-1_amd64.deb",
-	"size": 315840,
-	"md5": "4e5cf98dba9c5b9c8b45823648b15ac9",
-	"sha256": "d57017869ac22d5ea093858d3cd421cb8ccab5240e8abdb5c1f6b27f99e3c604",
+	"filename": "pool/main/h/hipercontracer/libhpctio-dev_2.1.12-1.1_amd64.deb",
+	"size": 315620,
+	"md5": "edfbf7dd66ed68ec440783ce72495769",
+	"sha256": "31f1dde0db7153bd6d9dbba38e6cd5821713586fe229a5edccc831b4b2553baa",
 	"descriptionMd5": "f3805b0ed439697bfeb4cf65751ed028"
 }]

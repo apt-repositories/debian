@@ -6,16 +6,18 @@
 	],
 	"package": "libatalk",
 	"source": "netatalk",
-	"version": "4.2.3~ds-2.1",
+	"version": "4.4.1~ds-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libacl1 (>= 2.2.23)",
+		"libbstring1 (>= 1.1.0~ds)",
 		"libc6 (>= 2.38)",
 		"libiniparser4 (>= 4.0)",
 		"libldap2 (>= 2.6.2)",
 		"libmariadb3 (>= 3.0.0)",
+		"libsqlite3-0 (>= 3.6.0)",
 		"libtalloc2 (>= 2.0.4~git20101213)",
 		"libtirpc3t64 (>= 1.0.2)",
 		"libwrap0 (>= 7.6-4~)"
@@ -23,13 +25,14 @@
 	"breaks": [
 		"netatalk (<< 4.0.0~ds-1)"
 	],
-	"installedSize": 516,
+	"installedSize": 518,
 	"maintainer": "Debian Netatalk team <pkg-netatalk-devel@lists.alioth.debian.org>",
 	"description": "Apple Filing Protocol service (shared library)",
-	"homepage": "https://github.com/Netatalk/netatalk",
-	"filename": "pool/main/n/netatalk/libatalk_4.2.3~ds-2.1_amd64.deb",
-	"size": 192780,
-	"md5": "38cce50baa0a8db08b66e1273811fd39",
-	"sha256": "17800a2eb0e7c90739f6fa2b49d136d8bea5661c2b2116b10c35e56afe39ad6b",
+	"homepage": "https://netatalk.io",
+	"builtUsing": "unicode-data (= 17.0.0-2)",
+	"filename": "pool/main/n/netatalk/libatalk_4.4.1~ds-1_amd64.deb",
+	"size": 187824,
+	"md5": "524b8d34f42d17858b6887abd325fc48",
+	"sha256": "480e56a38fcf7ea6ddbf0d46f981d963749cc3c7f7ffe6800e12d7f57ae2d662",
 	"descriptionMd5": "7fdbef3a53456a47725aa861b90694cf"
 }]
