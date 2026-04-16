@@ -6,7 +6,7 @@
 	],
 	"package": "qml6-module-org-kde-akonadi",
 	"source": "akonadi",
-	"version": "4:25.12.3-1",
+	"version": "4:25.12.3-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -30,19 +30,26 @@
 		"libkpim6akonadicore6-25.12",
 		"libkpim6akonadiwidgets6 (>= 4:25.12.3)",
 		"libkpim6akonadiwidgets6-25.12",
-		"libqt6core6t64 (>= 6.9.1)",
+		"libqt6core6t64 (>= 6.10.2)",
 		"libqt6gui6 (>= 6.8.0~)",
-		"libqt6qml6 (>= 6.9.1)",
+		"libqt6qml6 (>= 6.10.2)",
 		"libqt6widgets6 (>= 6.8.0~)",
-		"libstdc++6 (>= 5)"
+		"libstdc++6 (>= 5)",
+		"qt6-declarative-private-abi (= 6.10.2)"
 	],
-	"installedSize": 505,
+	"replaces": [
+		"merkuro (<< 25.08.3-1~)"
+	],
+	"breaks": [
+		"merkuro (<< 25.08.3-1~)"
+	],
+	"installedSize": 555,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "QML module for akonadi",
 	"homepage": "https://invent.kde.org/pim/akonadi",
-	"filename": "pool/main/a/akonadi/qml6-module-org-kde-akonadi_25.12.3-1_amd64.deb",
-	"size": 115300,
-	"md5": "0ca72fd3c877a9c89b6f00c5c3eeb4d3",
-	"sha256": "01da1c84d8f0353422b28445feb11be01f8510a2a7fe69086d81535b3b194b74",
+	"filename": "pool/main/a/akonadi/qml6-module-org-kde-akonadi_25.12.3-2_amd64.deb",
+	"size": 121532,
+	"md5": "c254fb10cda8bc620f2f3c414d9821d2",
+	"sha256": "49ce3224780d24556b8639fd2ec07b8bdce70829cc22da46a96e01578f4dfef7",
 	"descriptionMd5": "1af447780b694d77e66e15fa52a97c7e"
 }

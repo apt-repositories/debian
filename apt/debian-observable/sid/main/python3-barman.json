@@ -6,15 +6,20 @@
 	],
 	"package": "python3-barman",
 	"source": "barman",
-	"version": "3.17.0-1",
+	"version": "3.18.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-dateutil",
+		"python3-looseversion",
 		"python3-psycopg2",
-		"python3-setuptools",
 		"python3:any"
+	],
+	"recommends": [
+		"python3-snappy",
+		"python3-zstandard",
+		"python3-lz4"
 	],
 	"replaces": [
 		"barman (<< 2.8~~)",
@@ -24,13 +29,13 @@
 		"barman (<< 2.8~~)",
 		"barman-cli (<< 2.8~~)"
 	],
-	"installedSize": 1722,
+	"installedSize": 1823,
 	"maintainer": "Marco Nenciarini <mnencia@debian.org>",
 	"description": "Backup and Recovery Manager for PostgreSQL - Python modules",
 	"homepage": "https://www.pgbarman.org",
-	"filename": "pool/main/b/barman/python3-barman_3.17.0-1_all.deb",
-	"size": 270816,
-	"md5": "39f07aeb8580e73a0c24b6f00353f644",
-	"sha256": "97e69fdf320a63c89497c4fcad535eb5fb505b2d5c4b67c6d57e8460c8aef894",
+	"filename": "pool/main/b/barman/python3-barman_3.18.0-1_all.deb",
+	"size": 285940,
+	"md5": "c07fb952da8a95c308a0dda14df2ef13",
+	"sha256": "7c77d2f9a2611fb86463838bf5090210430c0f82a8379664ca94fe83253e9f5e",
 	"descriptionMd5": "57e98a13f3a710d7739fa1ccb65deb0e"
 }]
