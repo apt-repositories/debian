@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "barman",
-	"version": "3.18.0-1",
+	"version": "3.18.0-2",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-barman (= 3.18.0-1)",
+		"python3-barman (= 3.18.0-2)",
 		"adduser",
 		"file",
 		"rsync",
@@ -26,13 +26,19 @@
 		"barman-cli",
 		"repmgr"
 	],
-	"installedSize": 166,
+	"replaces": [
+		"barman-cli (<< 3.18~)"
+	],
+	"breaks": [
+		"barman-cli (<< 3.18~)"
+	],
+	"installedSize": 168,
 	"maintainer": "Marco Nenciarini <mnencia@debian.org>",
 	"description": "Backup and Recovery Manager for PostgreSQL",
-	"homepage": "https://www.pgbarman.org",
-	"filename": "pool/main/b/barman/barman_3.18.0-1_all.deb",
-	"size": 117580,
-	"md5": "65d9835c6ad9a78360d6e58a8f298cdd",
-	"sha256": "2326e24394e66b3bf692a70ae114dff442450fd39d5ab30b1932e876ca3871a2",
+	"homepage": "https://pgbarman.org",
+	"filename": "pool/main/b/barman/barman_3.18.0-2_all.deb",
+	"size": 119024,
+	"md5": "0fc3285775d1323d68954a2dd21a793d",
+	"sha256": "34ce389ff4881f29ee8ed37877cc5bfd84d154edbbe9021bb99c8d1be45192c3",
 	"descriptionMd5": "c01daa785e513f09a6935c6fe6b4365b"
 }

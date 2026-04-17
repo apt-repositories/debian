@@ -6,13 +6,13 @@
 	],
 	"package": "libatlas-ecmwf0d",
 	"source": "atlas-ecmwf",
-	"version": "0.46.0-1",
+	"version": "0.46.0-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libeckit0d (>= 2.0.4)",
+		"libeckit0d (>= 2.0.7)",
 		"libectrans-0 (>= 1.7.0)",
 		"libfckit0d (>= 0.14.2)",
 		"libfftw3-double3 (>= 3.3.10)",
@@ -25,13 +25,19 @@
 		"libqhullcpp8.0 (>= 2020.1)",
 		"libstdc++6 (>= 14)"
 	],
+	"replaces": [
+		"libatlas-ecmwf-0"
+	],
+	"breaks": [
+		"libatlas-ecmwf-0"
+	],
 	"installedSize": 13319,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Numerical weather prediction and climate modelling library",
 	"homepage": "https://github.com/ecmwf/atlas",
-	"filename": "pool/main/a/atlas-ecmwf/libatlas-ecmwf0d_0.46.0-1_amd64.deb",
-	"size": 3136920,
-	"md5": "e23c27f9c66b885252bbd2d9d5fd1812",
-	"sha256": "5a82b757b0c5e483c4ae4d0acd36a6f8a26f5dbed0ba91fa5735dd4dda033d1a",
+	"filename": "pool/main/a/atlas-ecmwf/libatlas-ecmwf0d_0.46.0-2_amd64.deb",
+	"size": 3135552,
+	"md5": "79887a5862eb37fcfee03267c7b7fd85",
+	"sha256": "e39556f63981755ec875566ce741b09255605bbb682f574eec5e7ba298c6da46",
 	"descriptionMd5": "3f3d1da0cfaae3a94da83cac725356fe"
 }]
