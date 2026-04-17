@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxmlsec1-openssl10310",
+	"source": "xmlsec1",
+	"version": "1.3.10-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libssl3t64 (>= 3.4.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"libxmlsec1-10310 (>= 1.3.10-1)"
+	],
+	"replaces": [
+		"libxmlsec1-openssl",
+		"libxmlsec1t64-openssl"
+	],
+	"breaks": [
+		"libxmlsec1-openssl (<< 1.3.10-2)",
+		"libxmlsec1t64-openssl (<< 1.3.10-2)"
+	],
+	"conflicts": [
+		"libxmlsec1-openssl",
+		"libxmlsec1t64-openssl"
+	],
+	"installedSize": 492,
+	"maintainer": "Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>",
+	"description": "Openssl engine for the XML security library",
+	"homepage": "https://www.aleksey.com/xmlsec/",
+	"filename": "pool/main/x/xmlsec1/libxmlsec1-openssl10310_1.3.10-2_amd64.deb",
+	"size": 110740,
+	"md5": "2a582d3d783164f16cc4d368d02c8786",
+	"sha256": "506f02af3fbd085fcc6eaaf7cc0b5294989fa154bc998394965bcf2ca41293b8",
+	"descriptionMd5": "30c12fdc67557c1a789481f24b208a77"
+}

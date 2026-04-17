@@ -6,26 +6,32 @@
 	],
 	"package": "libmirserver-internal-dev",
 	"source": "mir",
-	"version": "2.25.2-4",
+	"version": "2.25.2-5",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libglm-dev",
-		"libmirserver66 (= 2.25.2-4)",
-		"libmirplatform-dev (= 2.25.2-4)",
-		"libmircommon-dev (= 2.25.2-4)",
-		"libmircore-dev (= 2.25.2-4)",
-		"libmirserver-dev (= 2.25.2-4)",
+		"libmirserver66 (= 2.25.2-5)",
+		"libmirplatform-dev (= 2.25.2-5)",
+		"libmircommon-dev (= 2.25.2-5)",
+		"libmircore-dev (= 2.25.2-5)",
+		"libmirserver-dev (= 2.25.2-5)",
 		"uuid-dev"
+	],
+	"replaces": [
+		"libmircommon-internal-dev (<< 2.25.2-1~)"
+	],
+	"breaks": [
+		"libmircommon-internal-dev (<< 2.25.2-1~)"
 	],
 	"installedSize": 517,
 	"maintainer": "Debian Mir Team <team+mir@tracker.debian.org>",
 	"description": "Mir Display Server - internal server development headers",
 	"homepage": "https://mir-server.io/",
-	"filename": "pool/main/m/mir/libmirserver-internal-dev_2.25.2-4_amd64.deb",
-	"size": 65628,
-	"md5": "21731002f4bd6a56c64472be6ea2855c",
-	"sha256": "8c4cbd4e6c3e90cf77dd85422abfdfdbf2dcc5ed8c3ac553151be181cea8f654",
+	"filename": "pool/main/m/mir/libmirserver-internal-dev_2.25.2-5_amd64.deb",
+	"size": 65724,
+	"md5": "d364faaf7613d9953d0e2ccd9cbb8680",
+	"sha256": "12cb4ee07714b44644093b5c5e27d71bd3148e3b407388476be37f8624e80619",
 	"descriptionMd5": "c08a545f18ccfa3078ec20ccc687abac"
 }]

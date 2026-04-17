@@ -6,7 +6,7 @@
 	],
 	"package": "qjs",
 	"source": "quickjs-ng",
-	"version": "0.14.0-1",
+	"version": "0.14.0-2",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,19 @@
 	"recommends": [
 		"qjs-doc"
 	],
-	"installedSize": 93,
+	"replaces": [
+		"quickjs"
+	],
+	"conflicts": [
+		"quickjs"
+	],
+	"installedSize": 95,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>",
 	"description": "small and embeddable Javascript engine - cli",
 	"homepage": "https://quickjs-ng.github.io/quickjs/",
-	"filename": "pool/main/q/quickjs-ng/qjs_0.14.0-1_amd64.deb",
-	"size": 32352,
-	"md5": "70bc94fa7b0b851bd17bbc21d76e6a47",
-	"sha256": "dc1d18381ad1cda415992552bccf7d0638c192f9f3c1a906cfe4c394ba357b0c",
+	"filename": "pool/main/q/quickjs-ng/qjs_0.14.0-2_amd64.deb",
+	"size": 32612,
+	"md5": "ab5a46b56b04c3f38411d8bc80ad83c4",
+	"sha256": "d3346207a08f48007a1e0ceb0810b1a616e4a28b3e4dd1cc063ff9f8880d0fdf",
 	"descriptionMd5": "3ce5304eacf9accc044fe8ffca9f2ebc"
 }
