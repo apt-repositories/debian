@@ -6,7 +6,7 @@
 	],
 	"package": "liborthancframework1",
 	"source": "orthanc",
-	"version": "1.12.11+dfsg-2",
+	"version": "1.12.11+dfsg-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -34,15 +34,18 @@
 		"dcmtk-data (>= 3.7.0+really3.7.0-1)"
 	],
 	"breaks": [
-		"orthanc-webviewer (<= 2.10+dfsg-1)"
+		"orthanc-mysql (<= 5.0+dfsg-3)",
+		"orthanc-postgresql (<= 5.0+dfsg-5)",
+		"orthanc-webviewer (<= 2.10+dfsg-1)",
+		"orthanc-wsi (<= 3.3+dfsg-2)"
 	],
 	"installedSize": 16474,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "Orthanc Framework library",
 	"homepage": "https://www.orthanc-server.com/",
-	"filename": "pool/main/o/orthanc/liborthancframework1_1.12.11+dfsg-2_amd64.deb",
-	"size": 2172168,
-	"md5": "865f1e91e8b82907c217ef70f171d212",
-	"sha256": "aa3778a0d4686720fa55e5e9f0910342348c4f9cc1578585b23a36d1f32124bf",
+	"filename": "pool/main/o/orthanc/liborthancframework1_1.12.11+dfsg-3_amd64.deb",
+	"size": 2172568,
+	"md5": "e1a45cd6b5ceeddcf982d9e36d8bf138",
+	"sha256": "fec31e7c332da4c37f5eb6858604be8b20de91050d23b833fec80393ae75b92c",
 	"descriptionMd5": "392aa2993031dd44d8b8826b01ed8365"
 }]

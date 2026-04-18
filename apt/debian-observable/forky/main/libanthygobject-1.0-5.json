@@ -6,7 +6,7 @@
 	],
 	"package": "libanthygobject-1.0-5",
 	"source": "ibus-anthy",
-	"version": "1.5.18-2",
+	"version": "1.5.18-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,16 +15,19 @@
 		"libc6 (>= 2.4)",
 		"libglib2.0-0t64 (>= 2.80.0)"
 	],
+	"replaces": [
+		"ibus-anthy (<< 1.5.18-3)"
+	],
 	"breaks": [
-		"ibus-anthy (<< 1.5.18-2)"
+		"ibus-anthy (<< 1.5.18-3)"
 	],
 	"installedSize": 33,
 	"maintainer": "Debian Input Method Team <debian-input-method@lists.debian.org>",
 	"description": "anthy engine for IBus - shared library",
 	"homepage": "https://github.com/fujiwarat/ibus-anthy/wiki",
-	"filename": "pool/main/i/ibus-anthy/libanthygobject-1.0-5_1.5.18-2_amd64.deb",
-	"size": 6604,
-	"md5": "29012abcc2149dbc27bbe988de13d689",
-	"sha256": "8523443c0d5d183e4f123bd09c15948cceec88d426313c83c3fe7c148456f610",
+	"filename": "pool/main/i/ibus-anthy/libanthygobject-1.0-5_1.5.18-3_amd64.deb",
+	"size": 6660,
+	"md5": "f08e0b50779dcc186f41a3f990971553",
+	"sha256": "6a8ce282801fbe75a1b546d1c85284d73893bacfdd42f513c4c6fd480af93552",
 	"descriptionMd5": "30068ce593d4f43f5cc86a83d2472dc4"
 }]

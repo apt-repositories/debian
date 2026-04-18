@@ -6,7 +6,7 @@
 	],
 	"package": "hatari-binfmt",
 	"source": "hatari",
-	"version": "2.6.1+dfsg-2",
+	"version": "2.6.1+dfsg-3",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,19 @@
 		"hatari",
 		"systemd | binfmt-support"
 	],
-	"installedSize": 21,
+	"replaces": [
+		"hatari (<< 2.6.1+dfsg-1)"
+	],
+	"breaks": [
+		"hatari (<< 2.6.1+dfsg-1)"
+	],
+	"installedSize": 20,
 	"maintainer": "Teemu Hukkanen <tjhukkan@iki.fi>",
 	"description": "Register hatari as the interpreter for Atari TOS executables",
 	"homepage": "http://www.hatari-emu.org/",
-	"filename": "pool/main/h/hatari/hatari-binfmt_2.6.1+dfsg-2_all.deb",
-	"size": 5928,
-	"md5": "551e9e8fd3699e8ccc758061245fa4e4",
-	"sha256": "cd85bb1f7a3339b1e588de0db937e75a92a81db62d188dfee2e4ec12b3174fd7",
+	"filename": "pool/main/h/hatari/hatari-binfmt_2.6.1+dfsg-3_all.deb",
+	"size": 5144,
+	"md5": "61d1629f375c60a26fe4a46afa58ae60",
+	"sha256": "66f5ff423251b77962dd96c79fe599397f5b2a03dcca8913b7c8711eef55a711",
 	"descriptionMd5": "ac3ee6a90afe38671e4f8b9a92844c02"
 }

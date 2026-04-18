@@ -5,22 +5,27 @@
 		"Size"
 	],
 	"package": "wxmaxima",
-	"version": "26.01.0+ds-7",
+	"version": "26.01.0+ds-8",
 	"section": "math",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"maxima",
+		"maxima-share",
+		"maxima-doc",
+		"fonts-libertinus | fonts-lmodern | fonts-stix",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 14)",
 		"libwxbase3.2-1t64 (>= 3.2.9+dfsg)",
 		"libwxgtk-webview3.2-1t64 (>= 3.2.9+dfsg)",
-		"libwxgtk3.2-1t64 (>= 3.2.9+dfsg)",
-		"maxima"
+		"libwxgtk3.2-1t64 (>= 3.2.9+dfsg)"
 	],
 	"recommends": [
-		"maxima-doc",
 		"gnuplot",
+		"fonts-texgyre-math",
+		"fonts-texgyre",
+		"fonts-noto",
 		"fonts-recommended"
 	],
 	"suggests": [
@@ -32,9 +37,9 @@
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "GUI for the computer algebra system Maxima",
 	"homepage": "https://wxmaxima-developers.github.io/wxmaxima/",
-	"filename": "pool/main/w/wxmaxima/wxmaxima_26.01.0+ds-7_amd64.deb",
-	"size": 3502148,
-	"md5": "d71468bf39894225533fbf583661a60c",
-	"sha256": "c5a4aff6b5c62d5d6c7caf27dcb734cc0f50de02221af82283a9d8b6f86524f8",
+	"filename": "pool/main/w/wxmaxima/wxmaxima_26.01.0+ds-8_amd64.deb",
+	"size": 3502308,
+	"md5": "6abf117653b5e3a810200934289b2d3d",
+	"sha256": "8edc7b7ea66cbd6ca2882d35084c2e47a6ac6588f7cc02576263c12e2f4ea4f3",
 	"descriptionMd5": "e087de202a57faa38caffc7d9707d0b2"
 }]

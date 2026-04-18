@@ -6,25 +6,28 @@
 	],
 	"package": "ibus-anthy-dev",
 	"source": "ibus-anthy",
-	"version": "1.5.18-2",
+	"version": "1.5.18-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libanthygobject-1.0-5 (= 1.5.18-2)",
-		"gir1.2-anthy-9000 (= 1.5.18-2)",
+		"libanthygobject-1.0-5 (= 1.5.18-3)",
+		"gir1.2-anthy-9000 (= 1.5.18-3)",
 		"gir1.2-gobject-2.0-dev"
 	],
+	"replaces": [
+		"ibus-anthy (<< 1.5.18-3)"
+	],
 	"breaks": [
-		"ibus-anthy (<< 1.5.18-2)"
+		"ibus-anthy (<< 1.5.18-3)"
 	],
 	"installedSize": 55,
 	"maintainer": "Debian Input Method Team <debian-input-method@lists.debian.org>",
 	"description": "anthy engine for IBus (development files)",
 	"homepage": "https://github.com/fujiwarat/ibus-anthy/wiki",
-	"filename": "pool/main/i/ibus-anthy/ibus-anthy-dev_1.5.18-2_amd64.deb",
-	"size": 6696,
-	"md5": "27f56460adbefda9aa34e2bb432ef186",
-	"sha256": "9217e610b3b1c252840f00b30687367c48fd0e994b3ca7ed2a3edb78ef169b18",
+	"filename": "pool/main/i/ibus-anthy/ibus-anthy-dev_1.5.18-3_amd64.deb",
+	"size": 6764,
+	"md5": "fe575d865b40adfc75790ead73529a98",
+	"sha256": "119173ebdaf234a408f30d46665aad28cded392f805be1e51a17c6e26afbac96",
 	"descriptionMd5": "d793c72f518cddd1e2e82e8f23664b53"
 }]
