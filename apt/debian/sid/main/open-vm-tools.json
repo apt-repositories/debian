@@ -5,7 +5,8 @@
 		"Size"
 	],
 	"package": "open-vm-tools",
-	"version": "2:13.0.10-1",
+	"source": "open-vm-tools (2:13.0.10-1)",
+	"version": "2:13.0.10-1+b1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,14 +21,11 @@
 		"libtirpc3t64 (>= 1.0.2)",
 		"libudev1 (>= 183)",
 		"libxml2-16 (>= 2.14.1)",
-		"libxmlsec1-1 (>= 1.2.31)",
-		"libxmlsec1-openssl1 (>= 1.2.31)",
+		"libxmlsec1-10310 (>= 1.2.31)",
+		"libxmlsec1-openssl10310 (>= 1.2.31)",
 		"pciutils",
 		"iproute2",
 		"lsb-release"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"ethtool",
@@ -46,13 +44,13 @@
 	"breaks": [
 		"open-vm-tools-sdmp (<< 2:12.1.0-2~)"
 	],
-	"installedSize": 3163,
+	"installedSize": 3158,
 	"maintainer": "Bernd Zeimetz <bzed@debian.org>",
 	"description": "Open VMware Tools for virtual machines hosted on VMware (CLI)",
 	"homepage": "https://github.com/vmware/open-vm-tools",
-	"filename": "pool/main/o/open-vm-tools/open-vm-tools_13.0.10-1_amd64.deb",
-	"size": 684668,
-	"md5": "808aadfc2e28cd705157b5e57f927991",
-	"sha256": "7e270f0b073acb9243a6f0684fcdeb5af013beaf160a5612f8b6f1a1ace85205",
+	"filename": "pool/main/o/open-vm-tools/open-vm-tools_13.0.10-1+b1_amd64.deb",
+	"size": 678892,
+	"md5": "4acb3fe913eee9c4e792094eeaa8dd54",
+	"sha256": "b44f3d8bcd73fc9478b70171a7ac95dbd7da0d02c2d67d1e1483d497fcba7beb",
 	"descriptionMd5": "a6ea22fad449711c4296720ce1ebe6b4"
 }

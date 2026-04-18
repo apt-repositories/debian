@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "libdtk6core-bin",
-	"source": "dtk6core (6.0.50-1)",
-	"version": "6.0.50-1+b1",
+	"source": "dtk6core",
+	"version": "6.0.50-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdtk6core6 (= 6.0.50-1+b1)",
+		"libdtk6core6 (= 6.0.50-2)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
 		"libqt6core6t64 (>= 6.10.2)",
@@ -20,13 +20,19 @@
 		"libstdc++6 (>= 13.1)",
 		"qt6-base-private-abi (= 6.10.2)"
 	],
-	"installedSize": 757,
+	"replaces": [
+		"libdtkcore5-bin (<< 5.7.12-2~)"
+	],
+	"breaks": [
+		"libdtkcore5-bin (<< 5.7.12-2~)"
+	],
+	"installedSize": 756,
 	"maintainer": "Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>",
 	"description": "Deepin Qt6 Tool Kit Core library (utilities)",
 	"homepage": "https://github.com/linuxdeepin/dtk6core",
-	"filename": "pool/main/d/dtk6core/libdtk6core-bin_6.0.50-1+b1_amd64.deb",
-	"size": 318084,
-	"md5": "c53e2724ce38194b6f324d86d16e790c",
-	"sha256": "8e9a1e81de72e0e771651c29d617135b69b4e9536b70ff1d12cdc81cb25e9daf",
+	"filename": "pool/main/d/dtk6core/libdtk6core-bin_6.0.50-2_amd64.deb",
+	"size": 317744,
+	"md5": "e1043ac3ba8db303b02dc345750661ce",
+	"sha256": "cf92883f9fc3e972bc7ffc7e430edbc318d554b6b8efc6f722895346f3a1128b",
 	"descriptionMd5": "af451dc961aebdef7dee0a7c0eb349ac"
 }
