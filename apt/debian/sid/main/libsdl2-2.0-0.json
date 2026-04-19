@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "libsdl2-2.0-0",
-	"source": "libsdl2 (2.32.10+dfsg-6)",
-	"version": "2.32.10+dfsg-6+b1",
+	"source": "sdl2-compat",
+	"version": "2.32.66+ds-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libsdl2-classic (= 2.32.10+dfsg-6+b1)"
+		"libsdl3-0 (>= 3.2.12)",
+		"libc6 (>= 2.34)"
 	],
 	"replaces": [
 		"libsdl-1.3-0"
@@ -19,13 +20,13 @@
 	"conflicts": [
 		"libsdl-1.3-0"
 	],
-	"installedSize": 103,
+	"installedSize": 478,
 	"maintainer": "Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>",
-	"description": "Simple DirectMedia Layer",
-	"homepage": "https://www.libsdl.org/",
-	"filename": "pool/main/libs/libsdl2/libsdl2-2.0-0_2.32.10+dfsg-6+b1_amd64.deb",
-	"size": 42372,
-	"md5": "0b00a634e71380c66cf6408669faf22c",
-	"sha256": "3537b358b713ce7d3cd1323e3b3fa8e0f745d30c59ebf5cfb0936aac30f2b1f1",
-	"descriptionMd5": "26f7cbe08cc86299b86d628b34d924b6"
+	"description": "SDL 2 binary compatibility library wrapping SDL 3",
+	"homepage": "https://github.com/libsdl-org/sdl2-compat",
+	"filename": "pool/main/s/sdl2-compat/libsdl2-2.0-0_2.32.66+ds-2_amd64.deb",
+	"size": 118828,
+	"md5": "06d776f2a5210f63eb48f945458dd440",
+	"sha256": "615ebe7d499cb130bd72ff7284a3ff02b612e7df109f407413bc3b9304bfa490",
+	"descriptionMd5": "7f1aa26c81b05ca1bacf93fcf3ba83f2"
 }
