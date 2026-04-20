@@ -5,18 +5,18 @@
 		"Size"
 	],
 	"package": "node-js-beautify",
-	"version": "1.15.4+dfsg+~cs1.31.6-1",
+	"version": "1.15.4+dfsg+~cs1.31.6-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"nodejs:any",
 		"node-config-chain",
 		"node-glob",
-		"node-lru-cache",
+		"node-lru-cache (>= 11)",
 		"node-nopt",
 		"node-semver",
-		"node-sigmund",
-		"nodejs:any"
+		"node-sigmund"
 	],
 	"recommends": [
 		"node-commander"
@@ -27,13 +27,13 @@
 	"breaks": [
 		"jsbeautifier (<< 1.14.2~)"
 	],
-	"installedSize": 1697,
+	"installedSize": 1696,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "JavaScript, CSS and HTML unobfuscator and beautifier",
 	"homepage": "https://beautifier.io/",
-	"filename": "pool/main/n/node-js-beautify/node-js-beautify_1.15.4+dfsg+~cs1.31.6-1_all.deb",
-	"size": 160212,
-	"md5": "4075fec47a928b705eebe8256813663b",
-	"sha256": "255439a692cdb08ed7117841595edbccd22a2b85be31e8be8acee89c22b06174",
+	"filename": "pool/main/n/node-js-beautify/node-js-beautify_1.15.4+dfsg+~cs1.31.6-3_all.deb",
+	"size": 159072,
+	"md5": "3796eafb5a9bd587e542619e1acf8c4b",
+	"sha256": "bcbef1f3bd8e2b1d704af8ed39306d0d2c995a0d4bdbb949ca37803c99103e62",
 	"descriptionMd5": "f8d5209b07452a4711d6f20b37172338"
 }
