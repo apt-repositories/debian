@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "os-autoinst",
-	"version": "5.1768577300.b85e4864-1~bpo13+1",
+	"version": "5.1775744546.1ee50c6b-3~bpo13+1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -28,7 +28,6 @@
 		"qemu-utils",
 		"optipng",
 		"git",
-		"tesseract-ocr-all",
 		"python3",
 		"libmojolicious-perl (>= 5.60)",
 		"libcarp-always-perl",
@@ -68,15 +67,18 @@
 		"jq",
 		"iproute2"
 	],
+	"suggests": [
+		"tesseract-ocr-eng | tesseract-ocr-all"
+	],
 	"enhances": [
 		"openqa"
 	],
-	"installedSize": 948,
+	"installedSize": 972,
 	"maintainer": "Philip Hands <phil@hands.com>",
 	"description": "automated testing of Operating Systems",
 	"homepage": "http://open.qa",
-	"filename": "pool/main/o/os-autoinst/os-autoinst_5.1768577300.b85e4864-1~bpo13+1_amd64.deb",
-	"size": 234240,
-	"sha256": "09e5e8973eb147b7b99b5a80425341efb8aec43f75e0e3c8abd4a89cdeb8885f",
+	"filename": "pool/main/o/os-autoinst/os-autoinst_5.1775744546.1ee50c6b-3~bpo13+1_amd64.deb",
+	"size": 249388,
+	"sha256": "5aa6ac2c3484081859e1487626e4c1a4f71e4238accb9fbb00a94d91c6fcb532",
 	"descriptionMd5": "79248344378908d7be7c47060c26ab61"
 }
