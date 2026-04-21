@@ -6,7 +6,7 @@
 	],
 	"package": "python3-xrt",
 	"source": "xrt",
-	"version": "1:2.21.75+dfsg-5",
+	"version": "1:2.21.75+dfsg-6",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,18 +15,24 @@
 		"libgcc-s1 (>= 3.3.1)",
 		"libstdc++6 (>= 14)",
 		"libuuid1 (>= 2.16)",
-		"libxrt2 (= 1:2.21.75+dfsg-5)",
+		"libxrt2 (= 1:2.21.75+dfsg-6)",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.13~)",
 		"python3:any"
+	],
+	"replaces": [
+		"libxrt-utils (<< 1:2.21.75+dfsg-6)"
+	],
+	"breaks": [
+		"libxrt-utils (<< 1:2.21.75+dfsg-6)"
 	],
 	"installedSize": 729,
 	"maintainer": "Debian Xilinx Package Maintainers <team+pkg-xilinx@tracker.debian.org>",
 	"description": "Xilinx Runtime (XRT) - Python bindings",
 	"homepage": "https://www.xilinx.com/products/design-tools/vitis/xrt.html",
-	"filename": "pool/main/x/xrt/python3-xrt_2.21.75+dfsg-5_amd64.deb",
-	"size": 195276,
-	"md5": "0a71ccc1b67604dbcae359441ef08017",
-	"sha256": "13a4bc99181924741c43e5cdbe76b5d59219bddafe93ca5d71d0d6c5bb94b4a4",
+	"filename": "pool/main/x/xrt/python3-xrt_2.21.75+dfsg-6_amd64.deb",
+	"size": 195484,
+	"md5": "0c471eabfeba0fee7f8e9c7a8f3203e9",
+	"sha256": "dadc75f63ca4528726bfd33ba2da4eac1a4433033c6b7f0298857044a20c9c3d",
 	"descriptionMd5": "c60680271716ae88b80d2c4d1178539e"
 }

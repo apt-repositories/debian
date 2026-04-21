@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "wims",
-	"version": "3:4.31b+dfsg1-4",
+	"version": "3:4.31b+dfsg1-5",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -46,7 +46,7 @@
 		"node-normalize.css",
 		"node-mathjax-full",
 		"jsxgraph",
-		"wims-modules (>= 3:4.31b+dfsg1-4)"
+		"wims-modules (>= 3:4.31b+dfsg1-5)"
 	],
 	"preDepends": [
 		"adduser",
@@ -59,12 +59,18 @@
 		"gap",
 		"ckeditor"
 	],
+	"replaces": [
+		"wims-modules (<< 3:4.31b+dfsg1-1~)"
+	],
+	"breaks": [
+		"wims-modules (<< 3:4.31b+dfsg1-1~)"
+	],
 	"installedSize": 96404,
 	"maintainer": "Georges Khaznadar <georgesk@debian.org>",
 	"description": "server for educational content: courses, exercises, and exams",
-	"filename": "pool/main/w/wims/wims_4.31b+dfsg1-4_amd64.deb",
-	"size": 29380244,
-	"md5": "b30bb94e39d211cbd9dd10e015caf893",
-	"sha256": "5f7167c782b4c30f516465fbdd065ad4f2a7a7f3df547074196030ff16916075",
+	"filename": "pool/main/w/wims/wims_4.31b+dfsg1-5_amd64.deb",
+	"size": 29387708,
+	"md5": "0e17d9dfc4d9f797e9da13bb2feb7f1f",
+	"sha256": "e79cfc254e9a39f0e0f2fc71db90416f0b5f31608f1b8bc297a1684d7788886e",
 	"descriptionMd5": "0d669d4703fcf31fdf92745b0aaaf7b6"
 }]
