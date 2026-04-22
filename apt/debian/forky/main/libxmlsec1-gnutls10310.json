@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxmlsec1-gnutls10310",
+	"source": "xmlsec1",
+	"version": "1.3.10-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgnutls30t64 (>= 3.8.3)",
+		"libxml2-16 (>= 2.14.1)",
+		"libxmlsec1-10310 (>= 1.3.10-1)"
+	],
+	"replaces": [
+		"libxmlsec1-gnutls",
+		"libxmlsec1t64-gnutls"
+	],
+	"breaks": [
+		"libxmlsec1-gnutls (<< 1.3.10-2)",
+		"libxmlsec1t64-gnutls (<< 1.3.10-2)"
+	],
+	"conflicts": [
+		"libxmlsec1-gnutls",
+		"libxmlsec1t64-gnutls"
+	],
+	"installedSize": 390,
+	"maintainer": "Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>",
+	"description": "Gnutls engine for the XML security library",
+	"homepage": "https://www.aleksey.com/xmlsec/",
+	"filename": "pool/main/x/xmlsec1/libxmlsec1-gnutls10310_1.3.10-2_amd64.deb",
+	"size": 89076,
+	"md5": "c76a92178148b607ac0530c9476efc42",
+	"sha256": "25fc123500f891dc6356d4b5e4a70ad09175e3dc3b1109c3fa2d2a496035ddb2",
+	"descriptionMd5": "515f1742a7e72884fb58fb676b160576"
+}

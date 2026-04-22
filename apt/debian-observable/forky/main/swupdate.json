@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "swupdate",
-	"version": "2025.12+dfsg-6",
+	"version": "2025.12+dfsg-7",
 	"section": "embedded",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -24,8 +24,10 @@
 		"liblua5.5-0 (>= 5.5.0)",
 		"liblzma5 (>= 5.1.1alpha+20120614)",
 		"libmbedcrypto16 (>= 3.6.0)",
+		"libmbedtls21 (>= 3.6.0)",
+		"libmbedx509-7 (>= 3.6.0)",
+		"libp11-kit0 (>= 0.25.0)",
 		"librsync2t64 (>= 1.0.0)",
-		"libssl3t64 (>= 3.0.0)",
 		"libswupdate0.1 (>= 2025.12)",
 		"libsystemd0",
 		"libubootenv0.1 (>= 0.3.5)",
@@ -41,14 +43,14 @@
 	"recommends": [
 		"libebgenv0"
 	],
-	"installedSize": 1411,
+	"installedSize": 1399,
 	"maintainer": "Bastian Germann <bage@debian.org>",
 	"description": "Software update framework for embedded systems",
 	"homepage": "https://sbabic.github.io/swupdate",
 	"builtUsing": "mtd-utils (= 1:2.3.0-1)",
-	"filename": "pool/main/s/swupdate/swupdate_2025.12+dfsg-6_amd64.deb",
-	"size": 452640,
-	"md5": "aead3e73318f067930cc57e771ded6b4",
-	"sha256": "69f8edacbce735174f83a72070dee8319d27ce6abbe6181b2b0f3ae527872b38",
+	"filename": "pool/main/s/swupdate/swupdate_2025.12+dfsg-7_amd64.deb",
+	"size": 449824,
+	"md5": "7c37a860b63d7fdce6a0a769cf38e6ca",
+	"sha256": "9794da54efef49bf284257de7b206866e07a04ba14751d7d09700a3dc49e933f",
 	"descriptionMd5": "0e333f079171328229549df4556353f8"
 }]

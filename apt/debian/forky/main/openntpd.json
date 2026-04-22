@@ -5,16 +5,15 @@
 		"Size"
 	],
 	"package": "openntpd",
-	"source": "openntpd (1:6.2p3-4.2)",
-	"version": "1:6.2p3-4.2+b2",
+	"version": "1:6.8p1-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.36)",
 		"adduser",
-		"lsb-base (>= 3.0-6)",
-		"netbase"
+		"netbase",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.38)"
 	],
 	"suggests": [
 		"apparmor"
@@ -23,20 +22,17 @@
 		"ntp",
 		"time-daemon"
 	],
-	"breaks": [
-		"apparmor-profiles-extra (<< 1.8)"
-	],
 	"conflicts": [
 		"ntp",
 		"time-daemon"
 	],
-	"installedSize": 145,
+	"installedSize": 154,
 	"maintainer": "Ulises Vitulli <dererk@debian.org>",
 	"description": "OpenBSD NTP daemon",
-	"homepage": "http://www.openntpd.org",
-	"filename": "pool/main/o/openntpd/openntpd_6.2p3-4.2+b2_amd64.deb",
-	"size": 49656,
-	"md5": "c27daef42533fe65baef113c5b6d0917",
-	"sha256": "a67689c0d1dff497fc17e899bfcc802d0c6b9ab97d571d6808bca507b3f2084c",
+	"homepage": "https://www.openntpd.org/",
+	"filename": "pool/main/o/openntpd/openntpd_6.8p1-1_amd64.deb",
+	"size": 55056,
+	"md5": "10e363c32b93896bda63c75b4df7a080",
+	"sha256": "c46daa72e18b2ab73091ec6a7735fc1c25f84a22d28ef3dc78c716cc421148de",
 	"descriptionMd5": "4e4924a4bc4b10b5f382ae2c8b1824c5"
 }
