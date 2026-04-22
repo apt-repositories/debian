@@ -6,23 +6,29 @@
 	],
 	"package": "libxrt-dev",
 	"source": "xrt",
-	"version": "1:2.21.75+dfsg-4",
+	"version": "1:2.21.75+dfsg-6",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"python3-xrt (= 1:2.21.75+dfsg-4)",
-		"libxrt2 (= 1:2.21.75+dfsg-4)",
-		"libxrt-npu2 (= 1:2.21.75+dfsg-4)",
-		"libxrt-alveo2 (= 1:2.21.75+dfsg-4)"
+		"python3-xrt (= 1:2.21.75+dfsg-6)",
+		"libxrt2 (= 1:2.21.75+dfsg-6)",
+		"libxrt-npu2 (= 1:2.21.75+dfsg-6)",
+		"libxrt-alveo2 (= 1:2.21.75+dfsg-6)"
 	],
-	"installedSize": 28638,
+	"replaces": [
+		"libxrt1 (<< 1:2.21.75+dfsg-4)"
+	],
+	"breaks": [
+		"libxrt1 (<< 1:2.21.75+dfsg-4)"
+	],
+	"installedSize": 28684,
 	"maintainer": "Debian Xilinx Package Maintainers <team+pkg-xilinx@tracker.debian.org>",
 	"description": "Xilinx Runtime (XRT) - development files",
 	"homepage": "https://www.xilinx.com/products/design-tools/vitis/xrt.html",
-	"filename": "pool/main/x/xrt/libxrt-dev_2.21.75+dfsg-4_amd64.deb",
-	"size": 3139104,
-	"md5": "cfc920658de4b6e74ad02b8a2db11d0c",
-	"sha256": "d79ce5cee8a5c46c58feee175e5f9e59ed79b39a768d9d6bf6f68379cf96aa31",
+	"filename": "pool/main/x/xrt/libxrt-dev_2.21.75+dfsg-6_amd64.deb",
+	"size": 3132036,
+	"md5": "f22c853e29207581b12f4838a539ba25",
+	"sha256": "a57eb1bb281a7d6492d00870202c79b6fe0f749d9a81ca80f3b7d1965f6325b5",
 	"descriptionMd5": "24499a11e7a87cd50954046e244f8c39"
 }]
