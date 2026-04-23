@@ -5,30 +5,27 @@
 		"Size"
 	],
 	"package": "shellinabox",
-	"version": "2.21+really2.21-1",
+	"version": "2.21+really2.21-2",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.42)",
 		"libpam0g (>= 0.99.7.1)",
 		"libssl3t64 (>= 3.0.0)",
-		"zlib1g (>= 1:1.1.4)",
-		"systemd | systemd-standalone-sysusers | systemd-sysusers"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"suggests": [
 		"openssl"
 	],
-	"installedSize": 525,
+	"installedSize": 528,
 	"maintainer": "Package Salvaging Team <team+salvage@tracker.debian.org>",
 	"description": "publish command line shell through AJAX interface",
 	"homepage": "https://github.com/shellinabox/shellinabox",
-	"filename": "pool/main/s/shellinabox/shellinabox_2.21+really2.21-1_amd64.deb",
-	"size": 132024,
-	"md5": "cd3e620478b05a37c0f15bd72d60fd65",
-	"sha256": "584eb0c8a792f213f32639127316653c7d4b9744ea08d6ffbc44584799776a56",
+	"filename": "pool/main/s/shellinabox/shellinabox_2.21+really2.21-2_amd64.deb",
+	"size": 131872,
+	"md5": "3fe191fd344b22ae7e0a8006dbae5e96",
+	"sha256": "f17339fb2044cf5ff272b1527eb3fb79f5853f8a1babb886d8e038169a7a2881",
 	"descriptionMd5": "7a3e617a326194514167e07a217dea8e"
 }
