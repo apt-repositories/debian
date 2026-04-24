@@ -6,6 +6,39 @@
 	],
 	"package": "kea-dhcp-ddns-server",
 	"source": "isc-kea",
+	"version": "3.0.3-1~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kea-common (= 3.0.3-1~bpo13+1)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"kea-doc"
+	],
+	"installedSize": 1085,
+	"maintainer": "Kea <isc-kea@packages.debian.org>",
+	"description": "DHCP Dynamic DNS service",
+	"homepage": "http://kea.isc.org/",
+	"filename": "pool/main/i/isc-kea/kea-dhcp-ddns-server_3.0.3-1~bpo13+1_amd64.deb",
+	"size": 444624,
+	"sha256": "5545153d8d2aee07134e3e143dc55f43896c6a47754cc783485a13ec04e52b19",
+	"descriptionMd5": "c4d6ed49c68fe3b01b02ecf43ced7560"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "kea-dhcp-ddns-server",
+	"source": "isc-kea",
 	"version": "2.6.3-1",
 	"section": "net",
 	"priority": "optional",

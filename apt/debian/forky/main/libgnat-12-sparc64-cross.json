@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "libgnat-12-sparc64-cross",
-	"source": "gcc-12-cross-ports (22)",
-	"version": "12.5.0-8cross1",
+	"source": "gcc-12-cross-ports (23)",
+	"version": "12.5.0-9cross1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"gcc-12-cross-base-ports (= 12.5.0-8cross1)",
+		"gcc-12-cross-base-ports (= 12.5.0-9cross1)",
+		"libatomic1-sparc64-cross",
 		"libc6-sparc64-cross (>= 2.42)",
 		"libgcc-s1-sparc64-cross"
 	],
@@ -19,10 +20,10 @@
 	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
 	"description": "runtime for applications compiled with GNAT (shared library)",
 	"homepage": "http://gcc.gnu.org/",
-	"builtUsing": "gcc-12 (= 12.5.0-8)",
-	"filename": "pool/main/g/gcc-12-cross-ports/libgnat-12-sparc64-cross_12.5.0-8cross1_all.deb",
-	"size": 1031976,
-	"md5": "d476880ee8258293e53cef36858eff32",
-	"sha256": "681ddefa4341e8a84b69a6170c2f1f029271df2a4102a2c6cf6cc0c2d70516ef",
+	"builtUsing": "gcc-12 (= 12.5.0-9)",
+	"filename": "pool/main/g/gcc-12-cross-ports/libgnat-12-sparc64-cross_12.5.0-9cross1_all.deb",
+	"size": 1033248,
+	"md5": "d05316a5ae3ed469d2e6769dda5d65f8",
+	"sha256": "791447a65d76ed99d81432116f800eba685ca55fd41a55058cc65c989e4c65f3",
 	"descriptionMd5": "27cdab3b846cfe71a546e1fbdc98570c"
 }
