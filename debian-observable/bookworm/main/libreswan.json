@@ -1,0 +1,57 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreswan",
+	"version": "4.10-2+deb12u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dns-root-data",
+		"host",
+		"iproute2 | iproute (>= 20071016)",
+		"iptables",
+		"libnss3-tools",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.34)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libcurl3-nss (>= 7.23.1)",
+		"libevent-core-2.1-7 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7 (>= 2.1.8-stable)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libldns3 (>= 1.7.1)",
+		"libnspr4 (>= 2:4.9-2~)",
+		"libnss3 (>= 2:3.38)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"libsystemd0",
+		"libunbound8 (>= 1.8.0)"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"recommends": [
+		"python3"
+	],
+	"replaces": [
+		"ike-server"
+	],
+	"conflicts": [
+		"ike-server",
+		"strongswan-libcharon",
+		"strongswan-starter"
+	],
+	"installedSize": 6177,
+	"maintainer": "Daniel Kahn Gillmor <dkg@fifthhorseman.net>",
+	"description": "Internet Key Exchange daemon",
+	"homepage": "https://libreswan.org/",
+	"filename": "pool/main/libr/libreswan/libreswan_4.10-2+deb12u1_amd64.deb",
+	"size": 1263848,
+	"md5": "fc2903bcc86aa7b30368f8a641197ff5",
+	"sha256": "fb19a0992a00180e06c031f59e0b15efb504e64b0c7e49feee5e6740937fb1e8",
+	"descriptionMd5": "85f11a75b91fd863b98f3e219668ec8a"
+}]

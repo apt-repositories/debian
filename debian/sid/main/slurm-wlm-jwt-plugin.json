@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-jwt-plugin",
+	"source": "slurm-wlm",
+	"version": "25.11.4-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libjwt2 (>= 1.10.1)",
+		"slurm-wlm-basic-plugins (= 25.11.4-1)"
+	],
+	"replaces": [
+		"slurm-wlm-basic-plugins (<< 24.11.5-4)"
+	],
+	"breaks": [
+		"slurm-wlm-basic-plugins (<< 24.11.5-4)"
+	],
+	"installedSize": 86,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Slurm JWT authentication plugins",
+	"homepage": "https://slurm.schedmd.com",
+	"filename": "pool/main/s/slurm-wlm/slurm-wlm-jwt-plugin_25.11.4-1_amd64.deb",
+	"size": 22176,
+	"md5": "db30288c535d39a6b50d372db9e90240",
+	"sha256": "bad858f4dc6270ba1d2a5275696d0cb38ad8910ea7844fede0cd50ca16a40158",
+	"descriptionMd5": "6ff906b649b8b5d759b20956c55222ee"
+}

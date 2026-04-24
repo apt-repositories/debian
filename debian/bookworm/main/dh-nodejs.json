@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dh-nodejs",
+	"source": "pkg-js-tools",
+	"version": "0.15.12",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"debhelper",
+		"libdebian-copyright-perl",
+		"libdebian-source-perl",
+		"libdpkg-perl",
+		"libgraph-perl",
+		"libipc-run-perl",
+		"libjson-perl",
+		"libyaml-perl",
+		"nodejs:any | nodejs (<< 12.22.5~dfsg-4~)"
+	],
+	"suggests": [
+		"pkg-js-tools",
+		"node-rollup-plugin-commonjs",
+		"node-rollup-plugin-node-resolve",
+		"rollup"
+	],
+	"replaces": [
+		"pkg-js-tools (<< 0.14.0~)"
+	],
+	"breaks": [
+		"nodejs-dev (<< 10.15.0~dfsg-10)"
+	],
+	"conflicts": [
+		"pkg-js-tools (<< 0.14.0~)"
+	],
+	"installedSize": 188,
+	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
+	"description": "debhelper addon to build Node.js modules",
+	"homepage": "https://salsa.debian.org/js-team/pkg-js-tools",
+	"filename": "pool/main/p/pkg-js-tools/dh-nodejs_0.15.12_all.deb",
+	"size": 59140,
+	"md5": "d281e7668ec234be299b627351282b2f",
+	"sha256": "c95c44fe8a45d4eeb6881ce37771aa94eef3023ab135629ed2f12325a9b91275",
+	"descriptionMd5": "390387a99cb876cbf2c70552a733a985"
+}

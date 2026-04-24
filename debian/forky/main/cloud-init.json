@@ -1,0 +1,58 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cloud-init",
+	"version": "26.1-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"eject",
+		"fdisk | util-linux (<< 2.29.2-3~)",
+		"gdisk",
+		"dhcpcd-base | udhcpc | isc-dhcp-client",
+		"locales",
+		"lsb-release",
+		"netcat-openbsd",
+		"procps",
+		"python3-configobj",
+		"python3-jinja2",
+		"python3-jsonpatch",
+		"python3-jsonschema",
+		"python3-oauthlib",
+		"python3-requests",
+		"python3-yaml",
+		"python3:any"
+	],
+	"recommends": [
+		"cloud-guest-utils",
+		"eatmydata",
+		"python3-passlib",
+		"sudo"
+	],
+	"suggests": [
+		"btrfs-progs",
+		"e2fsprogs",
+		"ssh-import-id",
+		"xfsprogs"
+	],
+	"replaces": [
+		"cloud-init-22.4.2"
+	],
+	"conflicts": [
+		"cloud-init-22.4.2",
+		"firewalld"
+	],
+	"installedSize": 3240,
+	"maintainer": "Debian Cloud Team <debian-cloud@lists.debian.org>",
+	"description": "initialization system for infrastructure cloud instances",
+	"homepage": "https://launchpad.net/cloud-init",
+	"filename": "pool/main/c/cloud-init/cloud-init_26.1-1_all.deb",
+	"size": 686036,
+	"md5": "7ce20c58d6ddbd24cc83406ff19c8463",
+	"sha256": "858d45e8b2982c282f821644e455236b6acaf80c744888bb56b8a0037e5cc1cb",
+	"descriptionMd5": "7a24c8b28bb6e73e97d38e2f4129f075"
+}

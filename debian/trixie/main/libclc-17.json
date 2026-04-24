@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclc-17",
+	"source": "llvm-toolchain-17",
+	"version": "1:17.0.6-22",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libclc-17-dev (= 1:17.0.6-22)",
+		"libclang-common-17-dev"
+	],
+	"replaces": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600",
+		"libclc-x.y"
+	],
+	"breaks": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600"
+	],
+	"conflicts": [
+		"libclc-x.y"
+	],
+	"installedSize": 76730,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "OpenCL C language implementation - platform support",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-17/libclc-17_17.0.6-22_all.deb",
+	"size": 9865272,
+	"md5": "81bfd381ab80977788a9ccc9300752b4",
+	"sha256": "8817cba2c0c853173c10ca87ae975441cc59f532826261d9a77b7e6c9e6f4fd4",
+	"descriptionMd5": "73bf1c1e61845108c59b363de4fd901a"
+}

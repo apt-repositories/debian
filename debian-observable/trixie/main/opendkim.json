@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opendkim",
+	"source": "opendkim (2.11.0~beta2-9.1)",
+	"version": "2.11.0~beta2-9.1+b1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libopendkim11 (= 2.11.0~beta2-9.1+b1)",
+		"libc6 (>= 2.38)",
+		"libdb5.3t64",
+		"libldap2 (>= 2.6.2)",
+		"liblua5.3-0",
+		"libmemcached11t64 (>= 1.1.4)",
+		"libmilter1.0.1 (>= 8.14.1)",
+		"libopendbx1t64 (>= 1.4.6)",
+		"librbl1 (>= 2.7.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)",
+		"libvbr2 (>= 2.7.2)",
+		"adduser",
+		"dns-root-data"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"opendkim-tools"
+	],
+	"installedSize": 451,
+	"maintainer": "David Bürgin <dbuergin@gluet.ch>",
+	"description": "DomainKeys Identified Mail (DKIM) signing and verifying milter",
+	"homepage": "http://www.opendkim.org/",
+	"filename": "pool/main/o/opendkim/opendkim_2.11.0~beta2-9.1+b1_amd64.deb",
+	"size": 205100,
+	"md5": "9b21359fe30e834ddc824fba90e700db",
+	"sha256": "97caff5d7af4571d69125ae2b1c3149b2bf6d24a552a6049172bda74ae510457",
+	"descriptionMd5": "882aafa9ace1e957a7791e001e5251c3"
+}]

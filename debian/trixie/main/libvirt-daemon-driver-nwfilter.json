@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-nwfilter",
+	"source": "libvirt",
+	"version": "11.3.0-3+deb13u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iptables",
+		"libvirt-common (= 11.3.0-3+deb13u2)",
+		"libvirt-daemon (= 11.3.0-3+deb13u2)",
+		"libvirt0 (= 11.3.0-3+deb13u2)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.26.0)",
+		"libpcap0.8t64 (>= 1.5.1)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 140,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - network filter (nwfilter) driver",
+	"homepage": "https://libvirt.org/formatnwfilter.html",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-nwfilter_11.3.0-3+deb13u2_amd64.deb",
+	"size": 45900,
+	"md5": "ba7eec6f9d0af157a845b194361c1cfb",
+	"sha256": "b490ff24cc0c696ec0b4120c822eff793c3ebfe8b9942386ef07a1408480aa0b",
+	"descriptionMd5": "211faace7cd952e8e4630b34c07f41f4"
+}

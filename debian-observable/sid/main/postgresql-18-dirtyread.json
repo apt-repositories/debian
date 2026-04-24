@@ -1,0 +1,28 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-dirtyread",
+	"source": "pg-dirtyread",
+	"version": "2.7-3",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 63,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Read dead but unvacuumed tuples from a PostgreSQL relation",
+	"filename": "pool/main/p/pg-dirtyread/postgresql-18-dirtyread_2.7-3_amd64.deb",
+	"size": 21556,
+	"md5": "a3312de3ed492305b0d124018794367c",
+	"sha256": "96f63a9e723c1856e7d3405914168d186d3055829f98e1bc1c8f09629ce9fe27",
+	"descriptionMd5": "39ad00b580d7bff9552d041959a7cfe6"
+}]

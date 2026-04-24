@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-p11",
+	"source": "pam-p11",
+	"version": "0.6.1-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libp11-3t64 (>= 0.4.4)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"replaces": [
+		"libpam-opensc"
+	],
+	"conflicts": [
+		"libpam-opensc"
+	],
+	"installedSize": 63,
+	"maintainer": "Debian OpenSC Maintainers <pkg-opensc-maint@lists.alioth.debian.org>",
+	"description": "PAM module for using PKCS#11 smart cards",
+	"homepage": "https://github.com/OpenSC/pam_p11",
+	"filename": "pool/main/p/pam-p11/libpam-p11_0.6.1-1_amd64.deb",
+	"size": 17784,
+	"md5": "69be62ac47ef1a5bff6337d650d5e932",
+	"sha256": "58f036c69f674e0a6e06916bbeefe3201dfaab175606223924f7a2511a4347c9",
+	"descriptionMd5": "e786ad7783aa69643c0ff5dc4425cabb"
+}]

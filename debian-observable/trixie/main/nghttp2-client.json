@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nghttp2-client",
+	"source": "nghttp2",
+	"version": "1.64.0-1.1",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnghttp2-14 (= 1.64.0-1.1)",
+		"libc6 (>= 2.34)",
+		"libev4t64 (>= 1:4.04)",
+		"libgcc-s1 (>= 3.0)",
+		"libjansson4 (>= 2.14)",
+		"libjemalloc2 (>= 5.3.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"nghttp2 (<< 1.3.4-2~)"
+	],
+	"breaks": [
+		"nghttp2 (<< 1.3.4-2~)"
+	],
+	"installedSize": 639,
+	"maintainer": "Tomasz Buchert <tomasz@debian.org>",
+	"description": "client implementing HTTP/2 protocol",
+	"homepage": "https://nghttp2.org/",
+	"filename": "pool/main/n/nghttp2/nghttp2-client_1.64.0-1.1_amd64.deb",
+	"size": 190788,
+	"md5": "7d13a9daf5bb8bf0fae70e258a0c76e3",
+	"sha256": "a7b47ad6ad0d9f4f047812136fa1895de654a863eabd603806c50603afd1ab9e",
+	"descriptionMd5": "c9f9eea931674bd2c6a88fff60dc43ef"
+}]

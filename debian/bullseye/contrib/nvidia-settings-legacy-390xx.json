@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-settings-legacy-390xx",
+	"version": "390.144-1",
+	"section": "contrib/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-legacy-390xx-alternative",
+		"libc6 (>= 2.29)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0 (>= 2.16.0)",
+		"libgtk-3-0 (>= 3.0.0)",
+		"libjansson4 (>= 2.3)",
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libx11-6 (>= 2:1.4.99.1)",
+		"libxext6",
+		"libxxf86vm1"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"libgl1-nvidia-legacy-390xx-glvnd-glx | libgl1-nvidia-legacy-390xx-glx",
+		"nvidia-legacy-390xx-vdpau-driver",
+		"libnvidia-legacy-390xx-ml1"
+	],
+	"conflicts": [
+		"nvidia-settings-gtk-390.144"
+	],
+	"installedSize": 1799,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "tool for configuring the NVIDIA graphics driver (390xx legacy version)",
+	"homepage": "https://download.nvidia.com/XFree86/nvidia-settings/",
+	"filename": "pool/contrib/n/nvidia-settings-legacy-390xx/nvidia-settings-legacy-390xx_390.144-1_amd64.deb",
+	"size": 845308,
+	"md5": "d2fdb6cd9ffa4ff97e6a28303436dc67",
+	"sha256": "426d8720925dc20cd30363d39fc8969460f5e2b3d357b0004a722b7c3d898cc1",
+	"descriptionMd5": "f75c396d9a17806d0f24ca39c18a71e4"
+}

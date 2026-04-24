@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-core",
+	"source": "nginx",
+	"version": "1.26.3-3+deb13u2",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libnginx-mod-http-geoip (>= 1.26.3-3+deb13u2)",
+		"libnginx-mod-http-geoip (<< 1.26.3-3+deb13u2.1~)",
+		"libnginx-mod-http-image-filter (>= 1.26.3-3+deb13u2)",
+		"libnginx-mod-http-image-filter (<< 1.26.3-3+deb13u2.1~)",
+		"libnginx-mod-http-xslt-filter (>= 1.26.3-3+deb13u2)",
+		"libnginx-mod-http-xslt-filter (<< 1.26.3-3+deb13u2.1~)",
+		"libnginx-mod-mail (>= 1.26.3-3+deb13u2)",
+		"libnginx-mod-mail (<< 1.26.3-3+deb13u2.1~)",
+		"libnginx-mod-stream (>= 1.26.3-3+deb13u2)",
+		"libnginx-mod-stream (<< 1.26.3-3+deb13u2.1~)",
+		"libnginx-mod-stream-geoip (>= 1.26.3-3+deb13u2)",
+		"libnginx-mod-stream-geoip (<< 1.26.3-3+deb13u2.1~)",
+		"nginx (>= 1.26.3-3+deb13u2)",
+		"nginx (<< 1.26.3-3+deb13u2.1~)"
+	],
+	"replaces": [
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"breaks": [
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"installedSize": 89,
+	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
+	"description": "nginx web/proxy server (standard version)",
+	"homepage": "https://nginx.org",
+	"filename": "pool/updates/main/n/nginx/nginx-core_1.26.3-3+deb13u2_all.deb",
+	"size": 83304,
+	"sha256": "f317615eef19e56e893a27ac31aa8377399e454be9ef8f9b43c76ba5bd7725f0",
+	"descriptionMd5": "e85c58ee97847a5147d2960542e84a35"
+}

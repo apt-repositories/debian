@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsasl2-modules",
+	"source": "cyrus-sasl2",
+	"version": "2.1.28+dfsg1-9",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"suggests": [
+		"libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal",
+		"libsasl2-modules-ldap",
+		"libsasl2-modules-otp",
+		"libsasl2-modules-sql"
+	],
+	"replaces": [
+		"libsasl2-modules-gssapi-mit (<< 2.1.28+dfsg-4)"
+	],
+	"breaks": [
+		"libsasl2-modules-gssapi-mit (<< 2.1.28+dfsg-4)"
+	],
+	"installedSize": 282,
+	"maintainer": "Debian Cyrus Team <team+cyrus@tracker.debian.org>",
+	"description": "Cyrus SASL - pluggable authentication modules",
+	"homepage": "https://www.cyrusimap.org/sasl/",
+	"filename": "pool/main/c/cyrus-sasl2/libsasl2-modules_2.1.28+dfsg1-9_amd64.deb",
+	"size": 66712,
+	"md5": "3a36a36e924fea6dd7128138f8cc131b",
+	"sha256": "cfb73ce3c26bb8637da0e625ed0d9a8050e994c0c496c00c49ab0cc188ab9ffb",
+	"descriptionMd5": "1c79646c25958ae1e2788bc07a1b1804"
+}

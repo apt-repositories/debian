@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tpm-udev",
+	"source": "tpm2-tss",
+	"version": "4.1.3-6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
+	],
+	"replaces": [
+		"libtss2-fapi1t64 (<< 4.1.3-6)"
+	],
+	"enhances": [
+		"udev"
+	],
+	"breaks": [
+		"libtss2-fapi1t64 (<< 4.1.3-6)"
+	],
+	"installedSize": 66,
+	"maintainer": "Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>",
+	"description": "TPM2 Software stack library - udev rules for TPM modules",
+	"homepage": "https://github.com/tpm2-software/tpm2-tss",
+	"filename": "pool/main/t/tpm2-tss/tpm-udev_4.1.3-6_all.deb",
+	"size": 27416,
+	"md5": "1f28504e00fd9dd054abee368d027cab",
+	"sha256": "38e21eeb553f5d752b09ca04dd9db8f9b10c8b6c1aed3364e09f7682ab7079ef",
+	"descriptionMd5": "6a03c4bd001effe7f817805e7c964f26"
+}

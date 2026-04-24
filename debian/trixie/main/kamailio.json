@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "kamailio",
+	"version": "6.0.1-1+deb13u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"python3",
+		"libc6 (>= 2.38)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libreadline8t64 (>= 6.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"kamailio-berkeley-modules",
+		"kamailio-cpl-modules",
+		"kamailio-ldap-modules",
+		"kamailio-lua-modules",
+		"kamailio-mysql-modules",
+		"kamailio-perl-modules",
+		"kamailio-postgres-modules",
+		"kamailio-presence-modules",
+		"kamailio-python3-modules",
+		"kamailio-radius-modules",
+		"kamailio-redis-modules",
+		"kamailio-snmpstats-modules",
+		"kamailio-tls-modules",
+		"kamailio-unixodbc-modules",
+		"kamailio-xml-modules",
+		"kamailio-xmpp-modules",
+		"stun-server | turn-server"
+	],
+	"replaces": [
+		"kamailio-carrierroute-modules"
+	],
+	"installedSize": 26344,
+	"maintainer": "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>",
+	"description": "very fast, dynamic and configurable SIP server",
+	"homepage": "https://www.kamailio.org/",
+	"filename": "pool/main/k/kamailio/kamailio_6.0.1-1+deb13u1_amd64.deb",
+	"size": 9171640,
+	"md5": "745df5e761110edab0bdbadb41916c49",
+	"sha256": "01c66ca833876b924489e5c5aba560f9d0e97008fa814ad3d0fa28d5eb43c5c3",
+	"descriptionMd5": "3b9808665d86120a31874a338e582585"
+}

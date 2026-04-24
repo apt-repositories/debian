@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "iwatch",
+	"version": "0.2.2-12",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"default-mta | mail-transport-agent",
+		"libevent-perl",
+		"liblinux-inotify2-perl",
+		"libmail-sendmail-perl",
+		"libxml-simpleobject-libxml-perl"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"sendxmpp",
+		"telegram-send"
+	],
+	"installedSize": 65,
+	"maintainer": "Joao Eriberto Mota Filho <eriberto@debian.org>",
+	"description": "realtime filesystem monitoring program using inotify",
+	"homepage": "http://iwatch.sf.net",
+	"filename": "pool/main/i/iwatch/iwatch_0.2.2-12_all.deb",
+	"size": 20500,
+	"md5": "8cb28b865f19d520855e4a942532deac",
+	"sha256": "3511b13a79bc4d89f06b59308322e6eae4d602e670ad501f4c228c99a13a854a",
+	"descriptionMd5": "49b4897758920155ab191aa43e96dc56"
+}

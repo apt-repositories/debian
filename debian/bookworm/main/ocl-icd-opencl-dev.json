@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ocl-icd-opencl-dev",
+	"source": "ocl-icd",
+	"version": "2.3.1-1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"opencl-c-headers | opencl-headers",
+		"opencl-clhpp-headers | opencl-headers",
+		"ocl-icd-libopencl1 (= 2.3.1-1)"
+	],
+	"recommends": [
+		"libgl-dev"
+	],
+	"replaces": [
+		"amd-libopencl1 (<< 1:13.4-4~)",
+		"opencl-dev"
+	],
+	"breaks": [
+		"amd-libopencl1 (<< 1:13.4-4~)"
+	],
+	"conflicts": [
+		"opencl-dev"
+	],
+	"installedSize": 23,
+	"maintainer": "Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>",
+	"description": "OpenCL development files",
+	"homepage": "https://github.com/OCL-dev/ocl-icd",
+	"filename": "pool/main/o/ocl-icd/ocl-icd-opencl-dev_2.3.1-1_amd64.deb",
+	"size": 11620,
+	"md5": "035d3f279383daa3ca5eb8946dcc5b93",
+	"sha256": "7b99ff593eed41f42882e663fe6b841fb81a24434e01d9eec762225cb0722638",
+	"descriptionMd5": "8af8228760b2fe7855ca83f0ba976060"
+}

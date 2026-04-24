@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++1-17t64",
+	"source": "llvm-toolchain-17 (1:17.0.6-22)",
+	"version": "1:17.0.6-22+b2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++abi1-17t64 (>= 1:17.0.6)",
+		"libc6 (>= 2.38)",
+		"libunwind-17t64 (>= 1:17.0.6)"
+	],
+	"suggests": [
+		"clang"
+	],
+	"replaces": [
+		"libc++-x.y",
+		"libc++1-17"
+	],
+	"breaks": [
+		"libc++1 (<< 44)",
+		"libc++1-17 (<< 1:17.0.6-22)"
+	],
+	"conflicts": [
+		"libc++-x.y"
+	],
+	"installedSize": 1084,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM C++ Standard library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-17/libc++1-17t64_17.0.6-22+b2_amd64.deb",
+	"size": 298924,
+	"md5": "70c1c8341fbfdb2b45283af23901e4bc",
+	"sha256": "4d55bf7045385963407e1760f94da4c06b05848fc0336e3ef8d9289dcb8f6720",
+	"descriptionMd5": "3e11b80d657dd5ed05ee027e3cba65ca"
+}

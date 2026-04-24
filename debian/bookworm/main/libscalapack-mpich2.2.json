@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libscalapack-mpich2.2",
+	"source": "scalapack (2.2.1-2)",
+	"version": "2.2.1-2+b1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mpi-default-bin",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.29)",
+		"libgcc-s1 (>= 4.0)",
+		"libgfortran5 (>= 8)",
+		"liblapack3 | liblapack.so.3",
+		"libmpich12 (>= 4.0.2-3+b1)"
+	],
+	"suggests": [
+		"scalapack-doc"
+	],
+	"replaces": [
+		"libscalapack-mpi1 (<< 1.8.0-9.1)",
+		"scalapack1-mpich"
+	],
+	"breaks": [
+		"libscalapack-mpi1 (<< 1.8.0-9.1)"
+	],
+	"conflicts": [
+		"scalapack2-mpich"
+	],
+	"installedSize": 5714,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Scalable Linear Algebra Package - Shared libs for MPICH",
+	"homepage": "http://www.netlib.org/scalapack/",
+	"filename": "pool/main/s/scalapack/libscalapack-mpich2.2_2.2.1-2+b1_amd64.deb",
+	"size": 1554916,
+	"md5": "12955d424c70837957540d7aeed29662",
+	"sha256": "30cc1a29ca8266164b0d787aa959f85ed88f0a44fc34ab7663ab5dfb1dd42f82",
+	"descriptionMd5": "b31a0092a02c5a68725ec03655de6969"
+}

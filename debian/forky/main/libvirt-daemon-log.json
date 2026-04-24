@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-log",
+	"source": "libvirt",
+	"version": "12.0.0-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1)",
+		"libvirt0 (= 12.0.0-1)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libtirpc3t64 (>= 1.0.2)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 155,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - logging daemon",
+	"homepage": "https://libvirt.org/daemons.html#logging-daemon",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-log_12.0.0-1_amd64.deb",
+	"size": 38624,
+	"md5": "34972d4547a74ba8fe6997787995ade4",
+	"sha256": "17027d3ed8f31ebebd0529d0d540f8a7955e9273ffff126958ccfbef946e0f9b",
+	"descriptionMd5": "afd91141bcf26ffc0373ea746dccdca9"
+}

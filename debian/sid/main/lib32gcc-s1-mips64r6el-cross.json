@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lib32gcc-s1-mips64r6el-cross",
+	"source": "gcc-15-cross-mipsen (1+c1)",
+	"version": "15.2.0-12cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-15-cross-base-mipsen (= 15.2.0-12cross1)",
+		"libc6-mips32-mips64r6el-cross (>= 2.42)"
+	],
+	"replaces": [
+		"lib32gcc1-mips64r6el-cross (<< 1:10)"
+	],
+	"breaks": [
+		"lib32gcc1-mips64r6el-cross (<< 1:10)"
+	],
+	"conflicts": [
+		"libc6-i386 (<< 2.9-22)"
+	],
+	"installedSize": 276,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (32 bit Version)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-12)",
+	"filename": "pool/main/g/gcc-15-cross-mipsen/lib32gcc-s1-mips64r6el-cross_15.2.0-12cross1_all.deb",
+	"size": 53344,
+	"md5": "75086f9c1d3d8906b826fe274c49b667",
+	"sha256": "1fbaab8bd8cd9d7ca1063c08d2d0a3326c400fae6bd4db4c8c2eb542de66e1b6",
+	"descriptionMd5": "3c1b2732c88f8a437c0d2899a25a2e6c"
+}

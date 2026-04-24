@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ngircd",
+	"version": "27-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.8.2)",
+		"libident0 (>= 0.32-3)",
+		"libpam0g (>= 0.99.7.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"ircd"
+	],
+	"conflicts": [
+		"ircd-hybrid",
+		"ircd-irc2",
+		"ircd-ircu"
+	],
+	"installedSize": 492,
+	"maintainer": "Christoph Biedl <debian.axhn@manchmal.in-ulm.de>",
+	"description": "lightweight Internet Relay Chat server",
+	"homepage": "https://ngircd.barton.de/",
+	"filename": "pool/main/n/ngircd/ngircd_27-2_amd64.deb",
+	"size": 240036,
+	"md5": "f76cf51a12892d5df770deeb58e57b20",
+	"sha256": "558c6e779ea10134bce41c8b3e3ca688a2ce5547b735a66ad4fcb9dfa966640a",
+	"descriptionMd5": "9557bc98ae745839812f591b703c9730"
+}]

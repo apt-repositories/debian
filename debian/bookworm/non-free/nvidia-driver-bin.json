@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-driver-bin",
+	"source": "nvidia-graphics-drivers",
+	"version": "535.261.03-1",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-alternative (= 535.261.03-1)",
+		"libc6 (>= 2.2.5)",
+		"libnvidia-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)"
+	],
+	"recommends": [
+		"nvidia-driver"
+	],
+	"conflicts": [
+		"nvidia-driver-bin-535.261.03"
+	],
+	"installedSize": 387,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA driver support binaries",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/nvidia-driver-bin_535.261.03-1_amd64.deb",
+	"size": 221988,
+	"md5": "497877e2b069e6f528679d8a66800f3d",
+	"sha256": "16c1ae0092e93e6242be79be968ab5bee5fb42f02ae6d55f2241a78cfbdef52b",
+	"descriptionMd5": "d0118daed7fe8c1a550944b8cecc8a53"
+}

@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnupg-utils",
+	"source": "gnupg2",
+	"version": "2.4.9-4",
+	"section": "utils",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libgcrypt20 (>= 1.11.1)",
+		"libgpg-error0 (>= 1.50)",
+		"libksba8 (>= 1.6.3)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"gpg",
+		"gpg-agent",
+		"gpgconf",
+		"gpgsm"
+	],
+	"replaces": [
+		"gnupg (<< 2.1.21-4)",
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"breaks": [
+		"gnupg (<< 2.1.21-4)",
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"installedSize": 740,
+	"maintainer": "Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>",
+	"description": "GNU privacy guard - utility programs",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/gnupg-utils_2.4.9-4_amd64.deb",
+	"size": 191620,
+	"md5": "e886c4f09d78e7d320f3833e7e46ca34",
+	"sha256": "fdd381d55dd44209ec66fe68d42dc6b60e24dd4f11625e0d42afbccb892749e7",
+	"descriptionMd5": "ce8039d6b7bf19d87f5f661d482c78b4"
+}]

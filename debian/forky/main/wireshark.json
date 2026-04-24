@@ -1,0 +1,59 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wireshark",
+	"version": "4.6.4-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgcrypt20 (>= 1.11.0)",
+		"libglib2.0-0t64 (>= 2.76.0)",
+		"libminizip1t64",
+		"libnl-3-200 (>= 3.11.0)",
+		"libnl-genl-3-200 (>= 3.11.0)",
+		"libnl-route-3-200 (>= 3.11.0)",
+		"libpcap0.8t64 (>= 1.5.1)",
+		"libqt6core5compat6 (>= 6.6.0)",
+		"libqt6core6t64 (>= 6.9.1)",
+		"libqt6dbus6 (>= 6.3.0)",
+		"libqt6gui6 (>= 6.9.1)",
+		"libqt6multimedia6 (>= 6.6.1)",
+		"libqt6printsupport6 (>= 6.1.2)",
+		"libqt6widgets6 (>= 6.8.2)",
+		"libspeexdsp1 (>= 1.2.1)",
+		"libstdc++6 (>= 14)",
+		"libwireshark19 (>= 4.6.0~rc1)",
+		"libwiretap16 (>= 4.6.0)",
+		"libwsutil17 (>= 4.6.0~rc1)",
+		"wireshark-common (= 4.6.4-1)",
+		"libqt6svg6",
+		"qt6-qpa-plugins"
+	],
+	"replaces": [
+		"libwireshark-data (<< 4.4.3-2~)",
+		"wireshark-gtk (<< 3.0.0~)",
+		"wireshark-qt (<< 4.4~)"
+	],
+	"breaks": [
+		"libwireshark-data (<< 4.4.3-2~)"
+	],
+	"conflicts": [
+		"wireshark-gtk (<< 3.0.0~)",
+		"wireshark-qt (<< 4.4~)"
+	],
+	"installedSize": 11263,
+	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
+	"description": "network traffic analyzer - graphical interface",
+	"homepage": "https://www.wireshark.org/",
+	"filename": "pool/main/w/wireshark/wireshark_4.6.4-1_amd64.deb",
+	"size": 4432148,
+	"md5": "43577dbed8c544e9a5886cdadc814e3a",
+	"sha256": "9aabc9d5be5159305aae771d72ea10999e4a4a610cfed313faf991b85e8238ca",
+	"descriptionMd5": "1bd0e02c3e760c49351c9f2bd07e1757"
+}

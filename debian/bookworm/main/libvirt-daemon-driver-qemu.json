@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-qemu",
+	"source": "libvirt",
+	"version": "9.0.0-4+deb12u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt0 (= 9.0.0-4+deb12u2)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0 (>= 2.43.2)",
+		"libgnutls30 (>= 3.7.0)",
+		"libselinux1 (>= 3.1~)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"recommends": [
+		"swtpm",
+		"swtpm-tools"
+	],
+	"replaces": [
+		"libvirt-clients (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)"
+	],
+	"installedSize": 2098,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "Virtualization daemon QEMU connection driver",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-qemu_9.0.0-4+deb12u2_amd64.deb",
+	"size": 780828,
+	"md5": "cb2bddfa84e3042fae48acc7d7b688dd",
+	"sha256": "8559d4b17056ae3308e1c67f6600326aac9fcad1a9eb1d40d9556e968b15b5b7",
+	"descriptionMd5": "ccb5ee8b1a53290fdedfd923601bb4e0"
+}

@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-tesla-550-cuda1",
+	"source": "nvidia-graphics-drivers-tesla-550",
+	"version": "550.54.15-4",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-support",
+		"nvidia-tesla-550-alternative (= 550.54.15-4)",
+		"libnvidia-tesla-550-ptxjitcompiler1 (= 550.54.15-4)",
+		"libnvidia-tesla-550-pkcs11-openssl3 (= 550.54.15-4)",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"nvidia-tesla-550-kernel-dkms (= 550.54.15-4) | nvidia-tesla-550-kernel-550.54.15 | nvidia-open-kernel-550.54.15",
+		"nvidia-tesla-550-smi",
+		"libnvidia-tesla-550-cfg1 (= 550.54.15-4)",
+		"nvidia-persistenced (>= 550)",
+		"libnvidia-tesla-550-cuda1:i386 (= 550.54.15-4)"
+	],
+	"suggests": [
+		"nvidia-cuda-mps",
+		"nvidia-tesla-550-kernel-dkms (>= 550.54.15) | nvidia-tesla-550-kernel-source (>= 550.54.15) | nvidia-open-kernel-source (>= 550.54.15)"
+	],
+	"installedSize": 27911,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA CUDA Driver Library (Tesla 550 version)",
+	"homepage": "https://www.nvidia.com/CUDA",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-550/libnvidia-tesla-550-cuda1_550.54.15-4_amd64.deb",
+	"size": 2894624,
+	"md5": "e7f95bbc19bd95a72d5382d47175c6e5",
+	"sha256": "8c1e93b3b5a9e33672a5d830cee8fd665f7d3e2d44af0c66d7045905b00a85c0",
+	"descriptionMd5": "53c71586348c674eb159295c6852394b"
+}

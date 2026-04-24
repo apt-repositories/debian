@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lomiri-thumbnailer-service",
+	"source": "lomiri-thumbnailer",
+	"version": "3.0.1-1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dconf-cli",
+		"dconf-gsettings-backend | gsettings-backend",
+		"libapparmor1 (>= 2.8.94)",
+		"libboost-filesystem1.74.0 (>= 1.74.0+ds1)",
+		"libc6 (>= 2.34)",
+		"libexif12 (>= 0.6.21-1~)",
+		"libgcc-s1 (>= 3.0)",
+		"libgdk-pixbuf-2.0-0 (>= 2.31.1)",
+		"libglib2.0-0 (>= 2.39.4)",
+		"libgstreamer-plugins-base1.0-0 (>= 1.0.0)",
+		"libgstreamer1.0-0 (>= 1.4.0)",
+		"libleveldb1d (>= 1.23)",
+		"liblomiri-api0 (>= 0.1.0)",
+		"libqt5core5a (>= 5.15.1)",
+		"libqt5dbus5 (>= 5.0.2)",
+		"libqt5network5 (>= 5.0.2)",
+		"libstdc++6 (>= 11)",
+		"libtag1v5 (>= 1.11)"
+	],
+	"replaces": [
+		"libthumbnailer0",
+		"thumbnailer-common"
+	],
+	"conflicts": [
+		"libthumbnailer0",
+		"thumbnailer-common"
+	],
+	"installedSize": 825,
+	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
+	"description": "D-Bus service for out of process thumbnailing",
+	"homepage": "https://gitlab.com/ubports/development/core/lomiri-thumbnailer",
+	"filename": "pool/main/l/lomiri-thumbnailer/lomiri-thumbnailer-service_3.0.1-1_amd64.deb",
+	"size": 276072,
+	"md5": "bb63bc428691588a3cf417e7ff69c460",
+	"sha256": "ea1fd9cc28030ed873a4939042fa82336d200614e095438b7564267ac82be3a3",
+	"descriptionMd5": "8a6bfd248ce60644880fa594ef9e1c74"
+}

@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fai-client",
+	"source": "fai",
+	"version": "6.4.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl",
+		"file",
+		"libfile-lchown-perl",
+		"iproute2",
+		"debconf-utils",
+		"procps",
+		"zstd"
+	],
+	"recommends": [
+		"fdisk | util-linux (<< 2.29.2-3~)"
+	],
+	"suggests": [
+		"logtail",
+		"libgraph-perl"
+	],
+	"replaces": [
+		"fai-nfsroot (<< 5.2)"
+	],
+	"breaks": [
+		"fai-nfsroot (<< 5.2)"
+	],
+	"installedSize": 303,
+	"maintainer": "Thomas Lange <lange@debian.org>",
+	"description": "Fully Automatic Installation client package",
+	"homepage": "https://fai-project.org",
+	"filename": "pool/main/f/fai/fai-client_6.4.3_all.deb",
+	"size": 99576,
+	"md5": "7f444bae55dbf8c498422bc79c9a4e6f",
+	"sha256": "17dc58ba441f353c21f6fe5973f83aa04d5c71d5cf0c1bd38795cd58e270b773",
+	"descriptionMd5": "d510270ba6a996cf1844db50b57d18b3"
+}

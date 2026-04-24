@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-fd",
+	"source": "bacula",
+	"version": "15.0.3-5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common (= 15.0.3-5)",
+		"sysvinit-utils (>= 3.05-1)",
+		"ucf",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.38)",
+		"liblzo2-2 (>= 2.02)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"bacula-common (<< 9.6.4-1)"
+	],
+	"breaks": [
+		"bacula-common (<< 9.6.4-1)"
+	],
+	"installedSize": 452,
+	"maintainer": "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>",
+	"description": "network backup service - file daemon",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-fd_15.0.3-5_amd64.deb",
+	"size": 146412,
+	"md5": "093cfb3e4cce7bb2332f070858263323",
+	"sha256": "d1e4ac64c05b683edec18cc24885bc9a525b2bedb6ee7fafd761870eaef1d68d",
+	"descriptionMd5": "3f35bd3a108c70141218cdf190a0ec97"
+}]

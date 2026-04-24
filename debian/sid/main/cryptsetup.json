@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cryptsetup",
+	"version": "2:2.8.6-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cryptsetup-bin (>= 2:2.7.2-1)",
+		"dmsetup",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)"
+	],
+	"suggests": [
+		"cryptsetup-initramfs",
+		"dosfstools",
+		"keyutils",
+		"liblocale-gettext-perl"
+	],
+	"conflicts": [
+		"cryptsetup-nuke-password (<< 5~)"
+	],
+	"installedSize": 462,
+	"maintainer": "Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>",
+	"description": "disk encryption support - startup scripts",
+	"homepage": "https://gitlab.com/cryptsetup/cryptsetup",
+	"filename": "pool/main/c/cryptsetup/cryptsetup_2.8.6-1_amd64.deb",
+	"size": 227876,
+	"md5": "aaac6ee8db10db9a52aaab162c5de73c",
+	"sha256": "d9fb6c0a27dcbc2a91811178bcef0595580a26cbc3bcb651a43830a1615d76de",
+	"descriptionMd5": "109c1fbecc9a2c070cf7023e889b3839"
+}

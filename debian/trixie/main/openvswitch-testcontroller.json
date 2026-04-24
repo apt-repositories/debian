@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvswitch-testcontroller",
+	"source": "openvswitch (3.5.0-1)",
+	"version": "3.5.0-1+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openvswitch-common (= 3.5.0-1+b1)",
+		"openvswitch-pki (= 3.5.0-1)",
+		"libbpf1 (>= 1:0.7.0)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libnuma1 (>= 2.0.11)",
+		"libssl3t64 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)",
+		"libxdp1 (>= 1.4.3~)"
+	],
+	"replaces": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"breaks": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"installedSize": 2558,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "Simple controller for testing OpenFlow setups",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/main/o/openvswitch/openvswitch-testcontroller_3.5.0-1+b1_amd64.deb",
+	"size": 817796,
+	"md5": "cab675241c7919a426a1dcaa8491a315",
+	"sha256": "6345a62652fe194fc2e10a7aa9031844504677b7e7b88fe0ce512425ba6b13ae",
+	"descriptionMd5": "55827d9f036c6bc8e9b4979e18054a4e"
+}

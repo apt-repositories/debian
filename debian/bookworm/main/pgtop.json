@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pgtop",
+	"version": "4.0.0-2",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.7.0)",
+		"libc6 (>= 2.14)",
+		"libpq5 (>= 9.0~)",
+		"libtinfo6 (>= 6)"
+	],
+	"replaces": [
+		"ptop (<< 3.7.0-1~)"
+	],
+	"enhances": [
+		"postgresql"
+	],
+	"breaks": [
+		"ptop (<< 3.7.0-1~)"
+	],
+	"installedSize": 137,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "PostgreSQL performance monitoring tool akin to top",
+	"homepage": "https://gitlab.com/pg_top/pg_top",
+	"filename": "pool/main/p/pgtop/pgtop_4.0.0-2_amd64.deb",
+	"size": 50524,
+	"md5": "6c56b32236b187915f44e90c7aa147a7",
+	"sha256": "4fe7050cb8476f73dc3980f46edcd57a90365bff02a4bae0cd550082c6fbf87b",
+	"descriptionMd5": "974adf64ae44280d7907b3f0258eac37"
+}

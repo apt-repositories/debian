@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "live-boot-initramfs-tools",
+	"source": "live-boot",
+	"version": "1:20210208",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox | busybox-initramfs",
+		"initramfs-tools",
+		"udev"
+	],
+	"replaces": [
+		"live-boot-backend"
+	],
+	"conflicts": [
+		"live-boot-backend"
+	],
+	"installedSize": 52,
+	"maintainer": "Debian Live Maintainers <debian-live@lists.debian.org>",
+	"description": "Live System Boot Components (initramfs-tools backend)",
+	"homepage": "https://wiki.debian.org/DebianLive",
+	"filename": "pool/main/l/live-boot/live-boot-initramfs-tools_20210208_all.deb",
+	"size": 33436,
+	"md5": "33fc87d4c8ec37249e64da25ea2e4223",
+	"sha256": "f1a72ed11e6e1848423d4c800e3b9c7dd23ad40ac215bd366c953d3d51062d0b",
+	"descriptionMd5": "ab3c4051182e0b5d42b09b8d8e1db73d"
+}]

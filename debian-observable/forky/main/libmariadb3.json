@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmariadb3",
+	"source": "mariadb",
+	"version": "1:11.8.6-6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-common",
+		"libc6 (>= 2.34)",
+		"libssl3t64 (>= 3.0.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libmariadbclient18"
+	],
+	"breaks": [
+		"libmariadbclient18"
+	],
+	"conflicts": [
+		"mariadb-galera-server-10.0",
+		"mariadb-galera-server-5.5",
+		"mariadb-server-10.0",
+		"mariadb-server-5.1",
+		"mariadb-server-5.2",
+		"mariadb-server-5.3",
+		"mariadb-server-5.5"
+	],
+	"installedSize": 580,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "MariaDB database client library",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/main/m/mariadb/libmariadb3_11.8.6-6_amd64.deb",
+	"size": 179820,
+	"md5": "6a497d593e2d4649c0b4ee23ce137dac",
+	"sha256": "c997262427678605a027089ad4c9e79aca41474cf6b800ca4b60511894de99c9",
+	"descriptionMd5": "c48685b906f3842ee48fd71db5681868"
+}]

@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rstatd",
+	"source": "rstatd (4.0.1-11)",
+	"version": "4.0.1-11+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"netbase",
+		"rpcbind | netbase (<< 4.00)",
+		"update-inetd",
+		"openbsd-inetd | inet-superserver",
+		"libc6 (>= 2.34)",
+		"libtirpc3 (>= 1.0.2)"
+	],
+	"replaces": [
+		"netstd"
+	],
+	"installedSize": 60,
+	"maintainer": "Anibal Monsalve Salazar <anibal@debian.org>",
+	"description": "displays uptime information for remote machines",
+	"homepage": "http://rstatd.sourceforge.net/",
+	"filename": "pool/main/r/rstatd/rstatd_4.0.1-11+b1_amd64.deb",
+	"size": 16732,
+	"md5": "272d0824f2520a325c758f06be31d2f2",
+	"sha256": "5fda369be462cdfa3935e3dc4130a0c43f3d394574a69f7eaa6e185227a42193",
+	"descriptionMd5": "fe5226d01db8b3af4b27e7f85d40d4b7"
+}]

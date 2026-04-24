@@ -1,0 +1,64 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-osd",
+	"source": "ceph",
+	"version": "14.2.21-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 14.2.21-1)",
+		"lvm2",
+		"smartmontools (>= 7.0)",
+		"sudo",
+		"python3:any",
+		"libaio1 (>= 0.3.93)",
+		"libblkid1 (>= 2.17.2)",
+		"libboost-iostreams1.74.0 (>= 1.74.0)",
+		"libboost-program-options1.74.0 (>= 1.74.0)",
+		"libboost-thread1.74.0 (>= 1.74.0)",
+		"libc6 (>= 2.30)",
+		"libfuse2 (>= 2.8)",
+		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4",
+		"libibverbs1 (>= 1.1.6)",
+		"libleveldb1d",
+		"liblz4-1 (>= 0.0~r130)",
+		"libnspr4 (>= 2:4.9-2~)",
+		"libnss3 (>= 2:3.13.4-2~)",
+		"librados2 (>= 12.1.4)",
+		"librdmacm1 (>= 1.0.15)",
+		"libsnappy1v5 (>= 1.1.8)",
+		"libssl1.1 (>= 1.1.0)",
+		"libstdc++6 (>= 9)",
+		"libudev1 (>= 183)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"ceph-common (= 14.2.21-1)"
+	],
+	"suggests": [
+		"nvme-cli"
+	],
+	"replaces": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)"
+	],
+	"breaks": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)"
+	],
+	"installedSize": 53204,
+	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
+	"description": "OSD server for the ceph storage system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-osd_14.2.21-1_amd64.deb",
+	"size": 15458504,
+	"md5": "fccbd742abca3f1b66e5b4795dd88e77",
+	"sha256": "de53bef1fb985ebf36414640bf4d4cdadd750020bce6fa7f448a4fbb88336f69",
+	"descriptionMd5": "fb08b00d788b505eb4bb23072221ce43"
+}

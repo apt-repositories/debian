@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "keepalived",
+	"source": "keepalived (1:2.2.7-1)",
+	"version": "1:2.2.7-1+b2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0 (>= 2.26.0)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnftnl11 (>= 1.1.2)",
+		"libnl-3-200 (>= 3.2.27)",
+		"libnl-genl-3-200 (>= 3.2.7)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libsnmp40 (>= 5.9.3+dfsg)",
+		"libssl3 (>= 3.0.0)",
+		"libsystemd0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ipvsadm"
+	],
+	"installedSize": 1364,
+	"maintainer": "Vincent Bernat <bernat@debian.org>",
+	"description": "Failover and monitoring daemon for LVS clusters",
+	"homepage": "http://keepalived.org",
+	"filename": "pool/main/k/keepalived/keepalived_2.2.7-1+b2_amd64.deb",
+	"size": 569660,
+	"md5": "e548530ceb4d79b47afe8ba72bcb1f7f",
+	"sha256": "171b3bcb759a6b96f97ef5a06f02d14320bcb9e918d5163414daca7534c6b2ca",
+	"descriptionMd5": "74717abb13e7dbfe48bbecb41cae323b"
+}

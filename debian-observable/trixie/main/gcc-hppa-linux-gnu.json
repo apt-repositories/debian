@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-hppa-linux-gnu",
+	"source": "gcc-defaults-ports (1.220)",
+	"version": "4:14.2.0-1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-hppa-linux-gnu (= 4:14.2.0-1)",
+		"gcc-14-hppa-linux-gnu (>= 14.2.0-6~)"
+	],
+	"recommends": [
+		"libc6-dev-hppa-cross | libc-dev-hppa-cross"
+	],
+	"suggests": [
+		"make",
+		"manpages-dev",
+		"autoconf",
+		"automake",
+		"libtool",
+		"flex",
+		"bison",
+		"gdb-hppa-linux-gnu",
+		"gcc-doc"
+	],
+	"replaces": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"breaks": [
+		"gcc (<< 4:13.2.0-3)"
+	],
+	"installedSize": 23,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU C compiler for the hppa architecture",
+	"filename": "pool/main/g/gcc-defaults-ports/gcc-hppa-linux-gnu_14.2.0-1_amd64.deb",
+	"size": 1444,
+	"md5": "5a2d36db601397f0faa83dd51070ee7c",
+	"sha256": "abc4b225979136181dfe9a4bc5a3c632cc5b6c007624fd288c14e0447b00d3e9",
+	"descriptionMd5": "9b4cc0d6ef3204d23b1dfbb24fbea4a0"
+}]

@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-common",
+	"version": "290",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"debconf (>= 0.5.00) | debconf-2.0",
+		"libjson-perl",
+		"sysvinit-utils (>= 3.05-4~) | lsb-base",
+		"postgresql-client-common (= 290)",
+		"ssl-cert (>= 1.0.11)",
+		"ucf",
+		"perl:any"
+	],
+	"recommends": [
+		"e2fsprogs",
+		"logrotate"
+	],
+	"breaks": [
+		"postgresql-9.1 (<< 9.1.1-3~)"
+	],
+	"installedSize": 346,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "PostgreSQL database-cluster manager",
+	"filename": "pool/main/p/postgresql-common/postgresql-common_290_all.deb",
+	"size": 105244,
+	"md5": "47469c600c98eebff1d3066a9a1174ba",
+	"sha256": "633cafcca93116ebeec11448476e3efdbf3415eb9e6022c41b27cbda24076ba3",
+	"descriptionMd5": "1baa00ede83212202318224f2d18d771"
+}

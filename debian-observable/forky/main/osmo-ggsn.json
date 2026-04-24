@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "osmo-ggsn",
+	"source": "osmo-ggsn (1.13.0-2)",
+	"version": "1.13.0-2+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgtp11 (>= 1.13.0)",
+		"libosmocore22 (>= 1.11.0)",
+		"libosmoctrl0 (>= 1.9.2)",
+		"libosmogsm20 (>= 1.9.2)",
+		"libosmovty13 (>= 1.9.2)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"lsb-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"openggsn"
+	],
+	"breaks": [
+		"openggsn"
+	],
+	"installedSize": 275,
+	"maintainer": "Debian Mobcom Maintainers <Debian-mobcom-maintainers@lists.alioth.debian.org>",
+	"description": "Osmocom Gateway GPRS Support Node (GGSN)",
+	"homepage": "https://projects.osmocom.org/projects/openggsn",
+	"filename": "pool/main/o/osmo-ggsn/osmo-ggsn_1.13.0-2+b1_amd64.deb",
+	"size": 85300,
+	"md5": "9201cae463ed2de35e70b9feda0458be",
+	"sha256": "b27caaa8b98a860759b73861b4fc278d3dc1f1dbd5a2bb672eca7a424dc1cd5a",
+	"descriptionMd5": "8496aea9df82da67a7d2e4292d200a40"
+}]

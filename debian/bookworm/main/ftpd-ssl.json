@@ -1,0 +1,32 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ftpd-ssl",
+	"source": "linux-ftpd-ssl",
+	"version": "0.17.36+really0.17-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openbsd-inetd | inet-superserver",
+		"libpam-modules",
+		"openssl",
+		"libc6 (>= 2.34)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl3 (>= 3.0.0)"
+	],
+	"conflicts": [
+		"ftp-server"
+	],
+	"installedSize": 162,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "FTP server with SSL encryption support",
+	"filename": "pool/main/l/linux-ftpd-ssl/ftpd-ssl_0.17.36+really0.17-2_amd64.deb",
+	"size": 64964,
+	"md5": "af85cae72052a5f92f56ab3c036817db",
+	"sha256": "169c03763f75d27b056ad69ad6592e7e556cfbafb68cc836e8f086cf03c77873",
+	"descriptionMd5": "ba2bf4433c602ddae15cc6958f4d117e"
+}

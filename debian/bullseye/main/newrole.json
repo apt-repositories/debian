@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "newrole",
+	"source": "policycoreutils",
+	"version": "3.1-3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libcap2-bin",
+		"policycoreutils (= 3.1-3)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.15)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1)"
+	],
+	"replaces": [
+		"policycoreutils (<< 2.4)"
+	],
+	"breaks": [
+		"policycoreutils (<< 2.4)"
+	],
+	"installedSize": 115,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "SELinux core policy utilities (newrole application for RBAC/MLS)",
+	"homepage": "https://selinuxproject.org",
+	"filename": "pool/main/p/policycoreutils/newrole_3.1-3_amd64.deb",
+	"size": 46116,
+	"md5": "1be1dbf642854569a69194809e6cf578",
+	"sha256": "e8efc7a7d69e379221e1536857a3ac0ae214170c154f130f24ede832dfe41fe0",
+	"descriptionMd5": "2bc7c38448c1271bb1b11fcd9d04a91b"
+}

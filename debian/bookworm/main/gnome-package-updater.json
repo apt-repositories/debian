@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnome-package-updater",
+	"source": "gnome-packagekit",
+	"version": "43.0-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gnome-packagekit-common (>= 43.0-1)",
+		"packagekit",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0 (>= 2.55.1)",
+		"libgtk-3-0 (>= 3.21.5)",
+		"libpackagekit-glib2-18 (>= 0.9.4)",
+		"libpolkit-gobject-1-0 (>= 0.101)"
+	],
+	"recommends": [
+		"software-properties-gtk"
+	],
+	"replaces": [
+		"gnome-packagekit (<< 3.32.0-4)"
+	],
+	"breaks": [
+		"gnome-packagekit (<< 3.32.0-4)",
+		"update-notifier (<< 3.24)"
+	],
+	"installedSize": 207,
+	"maintainer": "Matthias Klumpp <mak@debian.org>",
+	"description": "Software package updater for GNOME",
+	"homepage": "https://help.gnome.org/users/gnome-packagekit/stable/",
+	"filename": "pool/main/g/gnome-packagekit/gnome-package-updater_43.0-1_amd64.deb",
+	"size": 63952,
+	"md5": "7fe3049c64938a5d6ec52cd66f794239",
+	"sha256": "0cbad8152461c66294acb7a1b2d7ca455cf5c553fe0c9f7b4921a2e3413e315f",
+	"descriptionMd5": "5ca10abc0fe74590d992f39125accd77"
+}

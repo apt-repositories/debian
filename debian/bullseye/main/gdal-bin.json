@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gdal-bin",
+	"source": "gdal",
+	"version": "3.2.2+dfsg-2+deb11u2",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-gdal (= 3.2.2+dfsg-2+deb11u2)",
+		"python3-numpy (>= 1:1.16.0~rc1)",
+		"python3-numpy-abi9",
+		"python3:any",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libgdal28 (>= 3.1.0)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"suggests": [
+		"libgdal-grass"
+	],
+	"replaces": [
+		"python-gdal (<< 2.4.3~)"
+	],
+	"breaks": [
+		"gdal-bin (<< 1.10.0-0~)",
+		"python-gdal (<< 2.4.3~)"
+	],
+	"installedSize": 1269,
+	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
+	"description": "Geospatial Data Abstraction Library - Utility programs",
+	"homepage": "http://www.gdal.org/",
+	"filename": "pool/main/g/gdal/gdal-bin_3.2.2+dfsg-2+deb11u2_amd64.deb",
+	"size": 523304,
+	"md5": "f5f8e495454ea247dd4d95faf6789654",
+	"sha256": "6f5a8bbe85d01f5f198ae99fb50e8856974b3310079d2707f1ae2171ba149a9c",
+	"descriptionMd5": "9b991dff688fb509bc873ba688a660b5"
+}

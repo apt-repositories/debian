@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-runtime",
+	"source": "pam",
+	"version": "1.4.0-9+deb11u2",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"debconf (>= 1.5.19) | cdebconf",
+		"libpam-modules (>= 1.0.1-6)"
+	],
+	"replaces": [
+		"libpam0g-dev",
+		"libpam0g-util"
+	],
+	"conflicts": [
+		"libpam0g-util"
+	],
+	"installedSize": 966,
+	"maintainer": "Steve Langasek <vorlon@debian.org>",
+	"description": "Runtime support for the PAM library",
+	"homepage": "http://www.linux-pam.org/",
+	"filename": "pool/updates/main/p/pam/libpam-runtime_1.4.0-9+deb11u2_all.deb",
+	"size": 207736,
+	"sha256": "af07fd507e549d2ebf3698b6562ed002abe7a1fbe1759bbd5b81524fc60b39bf",
+	"descriptionMd5": "bc15ddbf92ee7965a8588141c54bb5a1"
+}

@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opendnssec-signer",
+	"source": "opendnssec",
+	"version": "1:2.1.7-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"opendnssec-common (= 1:2.1.7-2)",
+		"runit-helper (>= 2.10.0~)",
+		"libc6 (>= 2.17)",
+		"libgcc-s1 (>= 4.2)",
+		"libldns3 (>= 1.7.1)",
+		"libreadline8 (>= 6.0)",
+		"libssl1.1 (>= 1.1.0)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"opendnssec",
+		"opendnssec-enforcer",
+		"softhsm2"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-36~)"
+	],
+	"conflicts": [
+		"runit (<< 2.1.2-36~)"
+	],
+	"installedSize": 556,
+	"maintainer": "Mathieu Mirmont <mat@parad0x.org>",
+	"description": "daemon to sign DNS zone files periodically",
+	"homepage": "https://www.opendnssec.org/",
+	"filename": "pool/main/o/opendnssec/opendnssec-signer_2.1.7-2_amd64.deb",
+	"size": 186464,
+	"md5": "51c2941336013c65603137946098bce9",
+	"sha256": "6471422339a5547edb0cb586a4dce066979b5cb78030d1b98bd181332cbfd30b",
+	"descriptionMd5": "83118e821dd444e5d9a75fa1a5bf9a28"
+}

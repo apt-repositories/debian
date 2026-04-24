@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclc-15",
+	"source": "llvm-toolchain-15",
+	"version": "1:15.0.6-4",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libclc-15-dev (= 1:15.0.6-4)",
+		"libclang-common-15-dev"
+	],
+	"replaces": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600",
+		"libclc-x.y"
+	],
+	"breaks": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600"
+	],
+	"conflicts": [
+		"libclc-x.y"
+	],
+	"installedSize": 77554,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "OpenCL C language implementation - platform support",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-15/libclc-15_15.0.6-4_all.deb",
+	"size": 10140344,
+	"md5": "3142435cd3964d8a2081466888136c83",
+	"sha256": "eec852790a4187105ebbfc15da99585dab232b2ed542ab8eb31321325b39f388",
+	"descriptionMd5": "73bf1c1e61845108c59b363de4fd901a"
+}]

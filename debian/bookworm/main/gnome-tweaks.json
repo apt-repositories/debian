@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnome-tweaks",
+	"version": "42~beta-4",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"dconf-gsettings-backend | gsettings-backend",
+		"gsettings-desktop-schemas (>= 42)",
+		"gnome-settings-daemon",
+		"gnome-shell-common (>= 3.24)",
+		"mutter-common",
+		"python3-gi (>= 3.10)",
+		"gir1.2-gtk-3.0 (>= 3.12)",
+		"gir1.2-gnomedesktop-3.0 (>= 3.30)",
+		"gir1.2-handy-1 (>= 1.5.90)",
+		"gir1.2-notify-0.7",
+		"gir1.2-glib-2.0 (>= 1.58)",
+		"gir1.2-pango-1.0"
+	],
+	"suggests": [
+		"gnome-shell-extension-prefs | gnome-shell-extension-manager"
+	],
+	"replaces": [
+		"gnome-tweak-tool (<= 3.27.4)"
+	],
+	"breaks": [
+		"gnome-tweak-tool (<= 3.27.4)"
+	],
+	"installedSize": 1200,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "tool to adjust advanced configuration settings for GNOME",
+	"homepage": "https://wiki.gnome.org/Apps/Tweaks",
+	"filename": "pool/main/g/gnome-tweaks/gnome-tweaks_42~beta-4_all.deb",
+	"size": 195544,
+	"md5": "8bada48e97cc306864307195c2c93700",
+	"sha256": "81c93af5af1939fe9da066470265ea20e6539ff6e48f9d0b344caff4fd6af601",
+	"descriptionMd5": "941073ce1ecfd5c85f09b1ba2d0728f3"
+}

@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rheolef",
+	"version": "7.1-6",
+	"section": "math",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libboost-iostreams1.74.0 (>= 1.74.0)",
+		"libboost-mpi1.74.0 (>= 1.74.0)",
+		"libc6 (>= 2.17)",
+		"libcholmod3 (>= 1:4.5.2)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10",
+		"libmumps-ptscotch-5.3 (>= 5.3.5)",
+		"libopenmpi3 (>= 4.1.0)",
+		"libptscotch-6.1 (>= 6.1.0)",
+		"librheolef1",
+		"libstdc++6 (>= 5.2)",
+		"libumfpack5 (>= 1:4.5.2)",
+		"librheolef-dev (= 7.1-6)",
+		"rheolef-doc (= 7.1-6)"
+	],
+	"recommends": [
+		"gmsh",
+		"gnuplot-x11",
+		"paraview",
+		"python3-paraview | paraview-python"
+	],
+	"replaces": [
+		"librheolef-dev (<< 7.1-6~)"
+	],
+	"breaks": [
+		"librheolef-dev (<< 7.1-6~)"
+	],
+	"installedSize": 2978,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "efficient Finite Element environment",
+	"homepage": "http://ljk.imag.fr/membres/Pierre.Saramito/rheolef",
+	"filename": "pool/main/r/rheolef/rheolef_7.1-6_amd64.deb",
+	"size": 789780,
+	"md5": "cef7eb4a7fd7304839be8e4495bd858e",
+	"sha256": "f496ea56f5f972348edd548552b036ff4e5f659a6bfcad5236326ceecb352a36",
+	"descriptionMd5": "9a98070bd1b6efef2dd49e84533fc36e"
+}

@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rustc-web",
+	"version": "1.85.0+dfsg3-1~deb11u1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libstd-rust-web-dev (= 1.85.0+dfsg3-1~deb11u1)",
+		"gcc",
+		"libc-dev",
+		"binutils (>= 2.26)"
+	],
+	"recommends": [
+		"cargo-web (= 1.85.0+dfsg3-1~deb11u1)"
+	],
+	"replaces": [
+		"libstd-rust-dev (<< 1.25.0+dfsg1-2~~)",
+		"rustc",
+		"rustc-mozilla"
+	],
+	"breaks": [
+		"libstd-rust-dev (<< 1.25.0+dfsg1-2~~)"
+	],
+	"conflicts": [
+		"rustc",
+		"rustc-mozilla",
+		"rustup"
+	],
+	"installedSize": 12739,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Rust systems programming language",
+	"homepage": "http://www.rust-lang.org/",
+	"filename": "pool/updates/main/r/rustc-web/rustc-web_1.85.0+dfsg3-1~deb11u1_amd64.deb",
+	"size": 3853536,
+	"sha256": "69aad75ce74ecbfd64bb4ce73a7186facf4e24e871cdb35249de8d1dc83d3326",
+	"descriptionMd5": "67ca6080eea53dc7f3cdf73bc6b8521e"
+}

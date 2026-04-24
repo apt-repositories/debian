@@ -1,0 +1,32 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-legacy-340xx-kernel-dkms",
+	"source": "nvidia-graphics-drivers-legacy-340xx",
+	"version": "340.108-27",
+	"section": "non-free/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-legacy-340xx-kernel-support--v1",
+		"dkms (>= 2.1.0.0)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-legacy-340xx-driver (>= 340.108) | libnvidia-legacy-340xx-cuda1 (>= 340.108)"
+	],
+	"installedSize": 15630,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary kernel module DKMS source (340xx legacy version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-340xx/nvidia-legacy-340xx-kernel-dkms_340.108-27_amd64.deb",
+	"size": 4020324,
+	"md5": "d68129e9615433ae32f5256fad2a8d67",
+	"sha256": "079801d526ae8b741d89c9fa050a8c595e2aab23945785a645a5695dc615aa96",
+	"descriptionMd5": "a1d38c172e5988852259939c2aaf983e"
+}]

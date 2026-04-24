@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xinetd",
+	"source": "xinetd (1:2.3.15.3-1)",
+	"version": "1:2.3.15.3-1+b1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libselinux1 (>= 3.1~)",
+		"libtirpc3 (>= 1.0.2)",
+		"libwrap0 (>= 7.6-4~)",
+		"netbase",
+		"lsb-base (>= 3.0-6)"
+	],
+	"recommends": [
+		"rsyslog | system-log-daemon",
+		"logrotate",
+		"update-inetd"
+	],
+	"conflicts": [
+		"inet-superserver"
+	],
+	"installedSize": 324,
+	"maintainer": "Salvo 'LtWorf' Tomaselli <tiposchi@tiscali.it>",
+	"description": "replacement for inetd with many enhancements",
+	"homepage": "https://github.com/openSUSE/xinetd",
+	"filename": "pool/main/x/xinetd/xinetd_2.3.15.3-1+b1_amd64.deb",
+	"size": 134404,
+	"md5": "8ca1c2f9a78270ed63963bcd56962b26",
+	"sha256": "b1d55de87555ed201febd3c902fa4824bf6f5305a8417efded262f805718c9ff",
+	"descriptionMd5": "dc305c474ff901c52b71c07c0ec109d0"
+}]

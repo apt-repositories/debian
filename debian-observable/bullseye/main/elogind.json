@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "elogind",
+	"version": "246.9.1-1+debian1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.30)",
+		"libcap2 (>= 1:2.10)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"libudev1",
+		"libelogind0 (= 246.9.1-1+debian1)",
+		"lsb-base (>= 3.1)",
+		"dbus (>= 1.9.14)"
+	],
+	"preDepends": [
+		"debconf",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libpam-elogind",
+		"policykit-1"
+	],
+	"conflicts": [
+		"systemd"
+	],
+	"installedSize": 2242,
+	"maintainer": "Debian Ecosystem Init Diversity Team <debian-init-diversity@chiark.greenend.org.uk>",
+	"description": "user, seat and session management daemon",
+	"homepage": "https://github.com/elogind/elogind",
+	"filename": "pool/main/e/elogind/elogind_246.9.1-1+debian1_amd64.deb",
+	"size": 656420,
+	"md5": "e20576300c2ef18572b157195d972765",
+	"sha256": "996c35cae3b588d1db44f736cc12c35ecd99b954e5700727c7d68020c1a099ee",
+	"descriptionMd5": "84bb10fa92dfca9e74b6130a241352df"
+}]

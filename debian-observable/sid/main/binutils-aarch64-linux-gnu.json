@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-aarch64-linux-gnu",
+	"source": "binutils",
+	"version": "2.46-3",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.46-3)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe3 (>= 2.45.50)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.46-3)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 13225,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities, for aarch64-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-aarch64-linux-gnu_2.46-3_amd64.deb",
+	"size": 1760452,
+	"md5": "cba6564bea482475d2a48fd6afa25d4c",
+	"sha256": "f5116b7af951f996217673aed0f0f5eacc48cde2b018ccbae5fc0e3e984693ad",
+	"descriptionMd5": "b1fa078aa1b7251d4f6c406e117f03f9"
+}]

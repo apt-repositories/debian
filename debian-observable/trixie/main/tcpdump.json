@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tcpdump",
+	"version": "4.99.5-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.38)",
+		"libpcap0.8t64 (>= 1.9.1)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"suggests": [
+		"apparmor (>= 2.3)"
+	],
+	"replaces": [
+		"apparmor-profiles-extra (<< 1.12~)"
+	],
+	"breaks": [
+		"apparmor-profiles-extra (<< 1.12~)"
+	],
+	"installedSize": 1343,
+	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
+	"description": "command-line network traffic analyzer",
+	"homepage": "https://www.tcpdump.org/",
+	"filename": "pool/main/t/tcpdump/tcpdump_4.99.5-2_amd64.deb",
+	"size": 471048,
+	"md5": "a7b3fec43a5ebbdb8c27004327ef49d0",
+	"sha256": "c35a180eb0ee118976c4648473de0beb36788dc2ec6986ab880722f5a9868ba6",
+	"descriptionMd5": "f01841bfda357d116d7ff7b7a47e8782"
+}]

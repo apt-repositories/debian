@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dkimpy-milter",
+	"version": "1.2.2-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"python3-authres (>= 1.1)",
+		"python3-dkim (>= 1.0)",
+		"python3-dnspython (>= 1.16.0) | python3-dns",
+		"python3-milter",
+		"python3-nacl",
+		"python3-pkg-resources",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"lsb-base",
+		"sendmail | postfix"
+	],
+	"enhances": [
+		"postfix",
+		"sendmail"
+	],
+	"installedSize": 146,
+	"maintainer": "Scott Kitterman <scott@kitterman.com>",
+	"description": "DomainKeys Identified Mail (DKIM) milter in Python",
+	"homepage": "https://launchpad.net/dkimpy-milter",
+	"filename": "pool/main/d/dkimpy-milter/dkimpy-milter_1.2.2-1_all.deb",
+	"size": 47712,
+	"md5": "e37f486d9a8d7f36312cdb8ac69404ac",
+	"sha256": "3dac27b9fadbc126d090a0c57d948685e79641bec6fd73b3818a81850f7e3e28",
+	"descriptionMd5": "1d25a611d39c4d24586f7913bc1cf202"
+}]

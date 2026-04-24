@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dkms",
+	"version": "2.8.4-3",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"kmod | kldutils",
+		"gcc | c-compiler",
+		"dpkg-dev",
+		"make | build-essential",
+		"coreutils (>= 7.4)",
+		"patch",
+		"dctrl-tools"
+	],
+	"preDepends": [
+		"lsb-release"
+	],
+	"recommends": [
+		"fakeroot",
+		"sudo",
+		"linux-headers-686-pae | linux-headers-amd64 | linux-headers-generic | linux-headers"
+	],
+	"suggests": [
+		"menu",
+		"e2fsprogs"
+	],
+	"installedSize": 295,
+	"maintainer": "Dynamic Kernel Modules Support Team <dkms@packages.debian.org>",
+	"description": "Dynamic Kernel Module Support Framework",
+	"homepage": "https://github.com/dell-oss/dkms",
+	"filename": "pool/main/d/dkms/dkms_2.8.4-3_all.deb",
+	"size": 78240,
+	"md5": "a89a700dd0c1758a86713ebb7be5fea1",
+	"sha256": "34f45872c4c164e838092ddfb098b800d9fd38c25aaf7a262481d6c8b87dffdf",
+	"descriptionMd5": "b7b6bb6a6b083b2245e0648e7752a459"
+}]

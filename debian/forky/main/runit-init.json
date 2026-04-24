@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "runit-init",
+	"source": "runit",
+	"version": "2.3.0-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"runit (>= 2.1.2-60~)",
+		"getty-run",
+		"insserv",
+		"initscripts",
+		"mount"
+	],
+	"recommends": [
+		"runit-services"
+	],
+	"replaces": [
+		"finit-sysv",
+		"systemd-sysv",
+		"sysvinit-core"
+	],
+	"conflicts": [
+		"bfh-container (<< 20211009-24~)",
+		"finit-sysv",
+		"libnss-systemd",
+		"molly-guard (<< 0.8.3~)",
+		"progress-linux-container (<< 20221002-12~)",
+		"systemd-sysv",
+		"sysvinit-core"
+	],
+	"installedSize": 105,
+	"maintainer": "Lorenzo Puliti <plorenzo@disroot.org>",
+	"description": "system-wide service supervision (as init system)",
+	"homepage": "http://smarden.org/runit/",
+	"filename": "pool/main/r/runit/runit-init_2.3.0-1_amd64.deb",
+	"size": 41000,
+	"md5": "2c2a6cb1871233d1a33e1d1a0f590f3e",
+	"sha256": "fc36ca3e8f5223d795f82af504a74559430f43ea6ee428a07b72ef410fa2c7bb",
+	"descriptionMd5": "41eb3ed3f391bc35d1cbabcb0ecf227c"
+}

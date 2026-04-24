@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xspice",
+	"source": "xserver-xorg-video-qxl",
+	"version": "0.1.6-1.1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libspice-server1 (>= 0.13.2)",
+		"libxfont2 (>= 1:2.0.1)",
+		"python3:any",
+		"xserver-xorg",
+		"xorg-video-abi-25",
+		"xserver-xorg-core (>= 2:21.1.1)"
+	],
+	"replaces": [
+		"xserver-xorg-video-qxl (<< 0.1.4-2~)"
+	],
+	"breaks": [
+		"xserver-xorg-video-qxl (<< 0.1.4-2~)"
+	],
+	"installedSize": 319,
+	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
+	"description": "Xspice X server",
+	"homepage": "https://www.spice-space.org/",
+	"filename": "pool/main/x/xserver-xorg-video-qxl/xserver-xspice_0.1.6-1.1_amd64.deb",
+	"size": 162176,
+	"md5": "267473891dac423db32f297e580b1c20",
+	"sha256": "9b312f9077858b3e399f2f296b67da9c1eee41ed5eeda91af4d87e49caef6039",
+	"descriptionMd5": "67b8ba3a04acd461e301e3ba4a166346"
+}

@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lxsession",
+	"version": "0.5.6-3",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libglib2.0-0t64 (>= 2.80.0)",
+		"libgtk-3-0t64 (>= 3.0.0)",
+		"libx11-6",
+		"laptop-detect",
+		"lxpolkit | polkit-1-auth-agent",
+		"lxsession-data",
+		"lxsession-logout"
+	],
+	"recommends": [
+		"lxde-session",
+		"lxsession-default-apps | lxsession-edit",
+		"openssh-client | ssh-client"
+	],
+	"suggests": [
+		"gpicview",
+		"lxpanel",
+		"pcmanfm",
+		"pkexec",
+		"consolekit | libpam-systemd"
+	],
+	"replaces": [
+		"lxsession-data (<< 0.5.3-1)"
+	],
+	"breaks": [
+		"lxsession-data (<< 0.5.3-1)"
+	],
+	"installedSize": 426,
+	"maintainer": "Debian LXDE Maintainers <team+lxde@tracker.debian.org>",
+	"description": "LXDE default session manager",
+	"homepage": "https://github.com/lxde/lxsession",
+	"filename": "pool/main/l/lxsession/lxsession_0.5.6-3_amd64.deb",
+	"size": 114400,
+	"md5": "5ba64963fd0f0a149ee73424f391ec54",
+	"sha256": "1047871b6ce2098d16a85af09b0a04ef1baaf9c8fe635e2147925bee08748f59",
+	"descriptionMd5": "b1c7a3a2017d1b5ecb4aee1adb2da870"
+}]

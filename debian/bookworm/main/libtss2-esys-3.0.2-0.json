@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libtss2-esys-3.0.2-0",
+	"source": "tpm2-tss",
+	"version": "3.2.1-3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libtss2-tcti-cmd0",
+		"libtss2-tcti-device0",
+		"libtss2-tcti-mssim0",
+		"libtss2-tcti-swtpm0",
+		"tpm-udev",
+		"libc6 (>= 2.34)",
+		"libssl3 (>= 3.0.0)",
+		"libtss2-mu0 (>= 3.0.1)",
+		"libtss2-sys1 (>= 3.1.0)"
+	],
+	"replaces": [
+		"libtss2-esys0 (<< 3.0.2-1)"
+	],
+	"breaks": [
+		"libtss2-esys0 (<< 3.0.2-1)"
+	],
+	"installedSize": 643,
+	"maintainer": "Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>",
+	"description": "TPM2 Software stack library - TSS and TCTI libraries",
+	"homepage": "https://github.com/tpm2-software/tpm2-tss",
+	"filename": "pool/main/t/tpm2-tss/libtss2-esys-3.0.2-0_3.2.1-3_amd64.deb",
+	"size": 157824,
+	"md5": "f1b98badfd39c98e1875959301efb99c",
+	"sha256": "63b101c1498f48e043fa18160f657c4bfc30d97bb29f1ca9277f0255930722db",
+	"descriptionMd5": "9e20226c7400d5aa686619ed9719d1cd"
+}

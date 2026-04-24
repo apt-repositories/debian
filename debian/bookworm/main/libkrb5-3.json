@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libkrb5-3",
+	"source": "krb5",
+	"version": "1.20.1-2+deb12u4",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.20)",
+		"libkeyutils1 (>= 1.5.9)",
+		"libkrb5support0 (= 1.20.1-2+deb12u4)",
+		"libssl3 (>= 3.0.0)"
+	],
+	"recommends": [
+		"krb5-locales"
+	],
+	"suggests": [
+		"krb5-doc",
+		"krb5-user"
+	],
+	"breaks": [
+		"libapache2-mod-auth-kerb (<= 5.4-2.4)",
+		"libsmbclient (<= 2:3.6.1-2)",
+		"sssd (<= 1.2.1-4.3)"
+	],
+	"installedSize": 1077,
+	"maintainer": "Sam Hartman <hartmans@debian.org>",
+	"description": "MIT Kerberos runtime libraries",
+	"homepage": "https://web.mit.edu/kerberos/",
+	"filename": "pool/main/k/krb5/libkrb5-3_1.20.1-2+deb12u4_amd64.deb",
+	"size": 333928,
+	"md5": "366f752c020f6a01d0677e3ef292e86b",
+	"sha256": "af14ab652a7e8579c67c846dd95b987a4332c05165c8eec9790028f5aea6c2b0",
+	"descriptionMd5": "07bb931a85fb24c6a0ef0f62a94bb26c"
+}

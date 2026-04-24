@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libofficebean-java",
+	"source": "libreoffice",
+	"version": "4:26.2.2.2-3~bpo13+1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liblibreoffice-java",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre",
+		"ure",
+		"libc6 (>= 2.4)"
+	],
+	"recommends": [
+		"libreoffice-core-nogui | libreoffice-core"
+	],
+	"replaces": [
+		"libreoffice-officebean (<< 1:6.4.0~rc2-1)"
+	],
+	"breaks": [
+		"libreoffice-officebean (<< 1:6.4.0~rc2-1)"
+	],
+	"installedSize": 143,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "generic Java Bean wrapper for LibreOffice components",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/libofficebean-java_26.2.2.2-3~bpo13+1_amd64.deb",
+	"size": 85488,
+	"sha256": "7165bdf4aeb082e4ed913ff2fd47558f604a2a897ff3e14dd5493da369ed0cd2",
+	"descriptionMd5": "e07555977ea770bba6aa36e951ee2753"
+}

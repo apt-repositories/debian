@@ -1,0 +1,76 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wims",
+	"version": "3:4.31b+dfsg1-5",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libgd3 (>= 2.1.0~alpha~)",
+		"libstdc++6 (>= 5.2)",
+		"imagemagick | graphicsmagick-imagemagick-compat",
+		"pari-gp",
+		"gnuplot-nox",
+		"maxima",
+		"maxima-share",
+		"octave",
+		"fortunes",
+		"cpp",
+		"texlive-base",
+		"texlive-latex-base",
+		"texlive-fonts-recommended",
+		"mailutils | mailx",
+		"units-filter",
+		"chemeq",
+		"graphviz",
+		"ldap-utils",
+		"qrencode",
+		"libwebservice-validator-html-w3c-perl",
+		"yui-compressor",
+		"fonts-font-awesome",
+		"libjs-jquery",
+		"libjs-jquery-ui",
+		"libjs-jquery-ui-theme-smoothness",
+		"libjs-mootools",
+		"libjs-prototype",
+		"libjs-asciimathml",
+		"libjs-codemirror",
+		"libjs-edit-area",
+		"node-normalize.css",
+		"node-mathjax-full",
+		"jsxgraph",
+		"wims-modules (>= 3:4.31b+dfsg1-5)"
+	],
+	"preDepends": [
+		"adduser",
+		"apache2",
+		"libapache2-mod-fcgid"
+	],
+	"recommends": [
+		"apache2 (>= 2.4.6-4~) | httpd",
+		"yacas",
+		"gap",
+		"ckeditor"
+	],
+	"replaces": [
+		"wims-modules (<< 3:4.31b+dfsg1-1~)"
+	],
+	"breaks": [
+		"wims-modules (<< 3:4.31b+dfsg1-1~)"
+	],
+	"installedSize": 96404,
+	"maintainer": "Georges Khaznadar <georgesk@debian.org>",
+	"description": "server for educational content: courses, exercises, and exams",
+	"filename": "pool/main/w/wims/wims_4.31b+dfsg1-5_amd64.deb",
+	"size": 29387708,
+	"md5": "0e17d9dfc4d9f797e9da13bb2feb7f1f",
+	"sha256": "e79cfc254e9a39f0e0f2fc71db90416f0b5f31608f1b8bc297a1684d7788886e",
+	"descriptionMd5": "0d669d4703fcf31fdf92745b0aaaf7b6"
+}]

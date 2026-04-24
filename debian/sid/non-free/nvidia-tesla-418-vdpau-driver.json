@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-418-vdpau-driver",
+	"source": "nvidia-graphics-drivers-tesla-418",
+	"version": "418.226.00-21",
+	"section": "non-free/video",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvdpau1 (>= 0.9)",
+		"nvidia-tesla-418-alternative (= 418.226.00-21)",
+		"libc6 (>= 2.2.5)",
+		"libx11-6",
+		"libxext6"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-tesla-418-kernel-dkms (= 418.226.00-21) | nvidia-tesla-418-kernel-418.226.00"
+	],
+	"suggests": [
+		"nvidia-tesla-418-kernel-dkms (>= 418.226.00) | nvidia-tesla-418-kernel-source (>= 418.226.00)"
+	],
+	"enhances": [
+		"libvdpau1"
+	],
+	"installedSize": 1151,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "Video Decode and Presentation API for Unix - NVIDIA driver (Tesla 418)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-418/nvidia-tesla-418-vdpau-driver_418.226.00-21_amd64.deb",
+	"size": 788476,
+	"md5": "5c5d96383d83676d1bc5a52ea29fa1ef",
+	"sha256": "b3d95670cb33016e7a82e6cb4852d8f39a2c3345a95b9ec4dd2f7ecf57da9c3a",
+	"descriptionMd5": "b5fe103e7d843379e6f5d804cfde2b3d"
+}

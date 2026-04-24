@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "swi-prolog-core",
+	"source": "swi-prolog",
+	"version": "9.0.4+dfsg-2",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgmp10 (>= 2:6.2.1+dfsg1)",
+		"libtcmalloc-minimal4 (>= 2.10)",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"debhelper"
+	],
+	"suggests": [
+		"elpa-ediprolog",
+		"swi-prolog-core-packages (= 9.0.4+dfsg-2)",
+		"swi-prolog-doc",
+		"swi-prolog-java (= 9.0.4+dfsg-2)",
+		"swi-prolog-odbc (= 9.0.4+dfsg-2)",
+		"swi-prolog-bdb (= 9.0.4+dfsg-2)"
+	],
+	"replaces": [
+		"swi-prolog-nox (<< 8.1.30+dfsg-1)"
+	],
+	"breaks": [
+		"libppl-swi (<< 1:1.2-8.1+b1)",
+		"logol-bin (<< 1.7.9+dfsg-6)",
+		"swi-prolog-nox (<< 8.1.30+dfsg-1)"
+	],
+	"installedSize": 5511,
+	"maintainer": "Lev Lamberov <dogsleg@debian.org>",
+	"description": "ISO/Edinburgh-style Prolog interpreter - core system",
+	"homepage": "https://www.swi-prolog.org",
+	"filename": "pool/main/s/swi-prolog/swi-prolog-core_9.0.4+dfsg-2_amd64.deb",
+	"size": 1447560,
+	"md5": "09f786ded8a956908a3d7ee9464c3961",
+	"sha256": "6a6cf6baf16a912311badee31b184d5678f5a8b223fe71601ce6d96853da9c70",
+	"descriptionMd5": "ed44eaf49fd4e7fc65f2f52593ff7119"
+}

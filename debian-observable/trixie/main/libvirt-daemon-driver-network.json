@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-network",
+	"source": "libvirt",
+	"version": "11.3.0-3+deb13u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dnsmasq-base",
+		"iptables | nftables",
+		"libvirt-common (= 11.3.0-3+deb13u2)",
+		"libvirt-daemon (= 11.3.0-3+deb13u2)",
+		"libvirt0 (= 11.3.0-3+deb13u2)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.26.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 199,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - network driver",
+	"homepage": "https://libvirt.org/formatnetwork.html",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-network_11.3.0-3+deb13u2_amd64.deb",
+	"size": 58368,
+	"md5": "7602cb7b9282af77df27998bf460d882",
+	"sha256": "f2d5efac635312d70b228d6b5cf1600ce511c00baa7f271a6917470e04e62386",
+	"descriptionMd5": "8f63c17d339e7dc70326bc5879a130df"
+}]

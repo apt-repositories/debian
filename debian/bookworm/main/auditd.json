@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "auditd",
+	"source": "audit",
+	"version": "1:3.0.9-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaudit1 (= 1:3.0.9-1)",
+		"libauparse0 (= 1:3.0.9-1)",
+		"mawk | gawk",
+		"libc6 (>= 2.34)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libwrap0 (>= 7.6-4~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"audispd-plugins"
+	],
+	"breaks": [
+		"audispd-plugins (<< 1:3.0~)"
+	],
+	"installedSize": 745,
+	"maintainer": "Laurent Bigonville <bigon@debian.org>",
+	"description": "User space tools for security auditing",
+	"homepage": "https://people.redhat.com/sgrubb/audit/",
+	"filename": "pool/main/a/audit/auditd_3.0.9-1_amd64.deb",
+	"size": 217588,
+	"md5": "ce6c1591ec98c9b520eb403bd5d969b9",
+	"sha256": "0d5a20ad6a0348a183fa3f2b58aff06ecd0e475cd9322c8bd4443db3e6454cd1",
+	"descriptionMd5": "77aaff86394a1a8da0659fa99413f455"
+}

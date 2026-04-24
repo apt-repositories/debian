@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-logical",
+	"source": "libvirt",
+	"version": "12.2.0-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.2.0-1)",
+		"libvirt-daemon (= 12.2.0-1)",
+		"libvirt-daemon-driver-storage (= 12.2.0-1)",
+		"libvirt0 (= 12.2.0-1)",
+		"lvm2",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.30.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 41,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - Logical Volume Manager (LVM) storage driver",
+	"homepage": "https://libvirt.org/storage.html#logical-volume-pool",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-storage-logical_12.2.0-1_amd64.deb",
+	"size": 10460,
+	"md5": "ca1d1fce0cc6de0f583680cd138bc6ac",
+	"sha256": "768fc49c3b8f3a0b61a46bd4368be295c3da4fa25f9e6f56e366104da9139796",
+	"descriptionMd5": "55fe494f52a7e3aab7337faabc21a71f"
+}

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-plugin-sanlock",
+	"source": "libvirt",
+	"version": "11.3.0-3+deb13u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"augeas-tools",
+		"libvirt-common (= 11.3.0-3+deb13u2)",
+		"libvirt0 (= 11.3.0-3+deb13u2)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.16.0)",
+		"libsanlock-client1 (>= 3.6.0)"
+	],
+	"recommends": [
+		"libvirt-daemon (= 11.3.0-3+deb13u2)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-sanlock (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-sanlock (<< 10.6.0-2~)"
+	],
+	"installedSize": 83,
+	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
+	"description": "virtualization daemon - locking plugin (sanlock)",
+	"homepage": "https://libvirt.org/kbase/locking-sanlock.html",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-plugin-sanlock_11.3.0-3+deb13u2_amd64.deb",
+	"size": 17980,
+	"md5": "24bbedf92ed8e4cbd9a2208a58b18859",
+	"sha256": "f78cd9ebc4d9131873e4ed330537147eb7147a847509dfe7da3e4c1e1650e6d7",
+	"descriptionMd5": "f627862f19b542c7c85ec382f95e254c"
+}

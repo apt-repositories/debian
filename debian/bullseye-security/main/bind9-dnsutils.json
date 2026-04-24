@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-dnsutils",
+	"source": "bind9",
+	"version": "1:9.16.50-1~deb11u5",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-host | host",
+		"bind9-libs (= 1:9.16.50-1~deb11u5)",
+		"libc6 (>= 2.14)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libidn2-0 (>= 2.0.0)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libprotobuf-c1 (>= 1.0.0)"
+	],
+	"breaks": [
+		"bind-dnsutils (<< 1:9.13.6~)",
+		"dnsutils (<< 1:9.13.6~)"
+	],
+	"conflicts": [
+		"bind-dnsutils (<< 1:9.13.6~)",
+		"dnsutils (<< 1:9.13.6~)"
+	],
+	"installedSize": 736,
+	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
+	"description": "Clients provided with BIND 9",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/updates/main/b/bind9/bind9-dnsutils_9.16.50-1~deb11u5_amd64.deb",
+	"size": 408696,
+	"sha256": "12a0d6a1bea1b41d8d66d8e2e899ddb0d4871d2e134de95e4c20ba46b3a9fc85",
+	"descriptionMd5": "41cc23046dad427af742ed10a4568530"
+}

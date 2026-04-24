@@ -1,0 +1,51 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fcitx-modules",
+	"source": "fcitx",
+	"version": "1:4.2.9.8-3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libjson-c5 (>= 0.15)",
+		"libuuid1 (>= 2.16)",
+		"libxkbcommon0 (>= 0.5.0)",
+		"libpresage1v5 (>= 0.9~)",
+		"libenchant-2-2 (>= 2.2.7~)"
+	],
+	"recommends": [
+		"fcitx",
+		"fcitx-module-dbus",
+		"fcitx-module-kimpanel",
+		"fcitx-module-lua",
+		"fcitx-module-x11",
+		"fcitx5-module-quickphrase-editor"
+	],
+	"replaces": [
+		"fcitx (<< 1:4.2.9.8)",
+		"fcitx-keyboard",
+		"fcitx-module-quickphrase-editor",
+		"fcitx-modules-x11 (<< 1:4.2.7)"
+	],
+	"breaks": [
+		"fcitx (<< 1:4.2.9.8)",
+		"fcitx-keyboard",
+		"fcitx-module-quickphrase-editor",
+		"fcitx-modules-x11 (<< 1:4.2.7)"
+	],
+	"installedSize": 5610,
+	"maintainer": "Debian Input Method Team <debian-input-method@lists.debian.org>",
+	"description": "Flexible Input Method Framework - core modules",
+	"homepage": "https://github.com/fcitx/fcitx",
+	"filename": "pool/main/f/fcitx/fcitx-modules_4.2.9.8-3_amd64.deb",
+	"size": 1471324,
+	"md5": "b318fac26961299b54a16dd223957992",
+	"sha256": "acf06e9c8b0f76675256b00ba97547bdea348e10eb1e5c90101cfc8eae91ce4d",
+	"descriptionMd5": "714628719488a68058d871c98b097e51"
+}]

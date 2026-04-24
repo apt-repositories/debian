@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openafs-client",
+	"source": "openafs",
+	"version": "1.8.13.2-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libhcrypto5t64-heimdal (>= 1.4.0+git20110226)",
+		"libkrb5-26t64-heimdal (>= 1.4.0+git20110226)",
+		"libncurses6 (>= 6)",
+		"libroken19t64-heimdal (>= 1.7~git20150920)",
+		"libtinfo6 (>= 6)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"lsof",
+		"openafs-modules-dkms (>= 1.8.13.2-1) | openafs-modules-source (>= 1.8.13.2-1) | openafs-modules3"
+	],
+	"suggests": [
+		"openafs-doc",
+		"openafs-krb5"
+	],
+	"breaks": [
+		"openafs-modules1",
+		"openafs-modules2"
+	],
+	"conflicts": [
+		"arla"
+	],
+	"installedSize": 8481,
+	"maintainer": "Benjamin Kaduk <kaduk@mit.edu>",
+	"description": "AFS distributed filesystem client support",
+	"homepage": "http://www.openafs.org/",
+	"filename": "pool/main/o/openafs/openafs-client_1.8.13.2-1_amd64.deb",
+	"size": 1877300,
+	"md5": "3d42b21de8ffa1d22eb4b30fffd0a278",
+	"sha256": "214b7849ff7a9b595fb46856dc08070211a43c4845799e42b5b74cd64246e0bc",
+	"descriptionMd5": "2d948f9c8a661ee8bc5d31e3f8cd9962"
+}]

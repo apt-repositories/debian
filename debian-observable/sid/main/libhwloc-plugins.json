@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libhwloc-plugins",
+	"source": "hwloc",
+	"version": "2.13.0-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpciaccess0",
+		"libx11-6",
+		"libxml2-16 (>= 2.14.1)",
+		"libxnvctrl0",
+		"libze1 (>= 1.27.0)",
+		"ocl-icd-libopencl1 | libopencl1",
+		"libhwloc15 (>= 2.13.0~)",
+		"libhwloc15 (<< 2.13.0A)"
+	],
+	"replaces": [
+		"libhwloc-contrib-plugins (<< 2.1.0+dfsg-3~)"
+	],
+	"breaks": [
+		"libhwloc-contrib-plugins (<< 2.1.0+dfsg-3~)"
+	],
+	"installedSize": 111,
+	"maintainer": "Samuel Thibault <sthibault@debian.org>",
+	"description": "Hierarchical view of the machine - plugins",
+	"homepage": "https://www.open-mpi.org/projects/hwloc/",
+	"filename": "pool/main/h/hwloc/libhwloc-plugins_2.13.0-2_amd64.deb",
+	"size": 23532,
+	"md5": "c5a6016137399da508952d3ab81cfac3",
+	"sha256": "6eabc320986d01c12d0d18025cf6ef758c501a730b10fa8c9e82ebbe61aa7e6e",
+	"descriptionMd5": "f9e5608207d0a4ad31da5436aaaacb4b"
+}]

@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libquazip5-1t64",
+	"source": "libquazip",
+	"version": "0.9.1-5",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libqt5core5t64 (>= 5.15.1)",
+		"libstdc++6 (>= 4.1.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"libquazip-doc"
+	],
+	"replaces": [
+		"libquazip-qt5-1",
+		"libquazip1-qt5",
+		"libquazip5-1"
+	],
+	"breaks": [
+		"libquazip1-qt5"
+	],
+	"conflicts": [
+		"libquazip5-1 (<< 0.9.1-5)"
+	],
+	"installedSize": 273,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "C++ wrapper for ZIP/UNZIP",
+	"homepage": "https://github.com/stachenov/quazip",
+	"filename": "pool/main/libq/libquazip/libquazip5-1t64_0.9.1-5_amd64.deb",
+	"size": 84748,
+	"md5": "64d31f5b463ffcc9f46b2c4ab69dc079",
+	"sha256": "54f53e4ca499d7e9006720b5b552ef61ee10eb6473aa79a4a7bc7bc47bd5fcd0",
+	"descriptionMd5": "fbc8c4bb8f18179535c27ab56b2114be"
+}]

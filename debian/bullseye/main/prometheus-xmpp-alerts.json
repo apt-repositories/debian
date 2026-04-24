@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "prometheus-xmpp-alerts",
+	"version": "0.4.2-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-aiohttp",
+		"python3-prometheus-client",
+		"python3-slixmpp",
+		"python3-yaml",
+		"python3:any"
+	],
+	"suggests": [
+		"prometheus-alertmanager"
+	],
+	"enhances": [
+		"prometheus-alertmanager"
+	],
+	"installedSize": 40,
+	"maintainer": "Jelmer Vernooĳ <jelmer@debian.org>",
+	"description": "web hook that forwards prometheus alerts over XMPP",
+	"homepage": "https://jelmer.uk/code/prometheus-xmpp-alerts",
+	"filename": "pool/main/p/prometheus-xmpp-alerts/prometheus-xmpp-alerts_0.4.2-1_all.deb",
+	"size": 7228,
+	"md5": "57f117818181f4b95c76db8376bdabb8",
+	"sha256": "c3013630300d2dad272418cbe4333b8873cc8739dfc8288b7449e7181a3350c7",
+	"descriptionMd5": "ef25cdc74cc26235cbd03313de447e61"
+}

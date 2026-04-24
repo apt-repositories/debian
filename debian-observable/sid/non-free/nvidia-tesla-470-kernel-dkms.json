@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-470-kernel-dkms",
+	"source": "nvidia-graphics-drivers-tesla-470",
+	"version": "470.256.02-9",
+	"section": "non-free/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"firmware-nvidia-tesla-470-gsp (= 470.256.02) | firmware-nvidia-gsp-470.256.02",
+		"nvidia-tesla-470-kernel-support--v1",
+		"dkms (>= 2.1.0.0)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-tesla-470-driver (>= 470.256.02) | libnvidia-tesla-470-cuda1 (>= 470.256.02)"
+	],
+	"installedSize": 49533,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary kernel module DKMS source (Tesla 470 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-kernel-dkms_470.256.02-9_amd64.deb",
+	"size": 25609292,
+	"md5": "341607fee86505fe8b6c449de3b7e18a",
+	"sha256": "4700facc2c9f83524e3d33c5d9f14fe983e0f3958f9f549e8fbc6c2e8ec03ffc",
+	"descriptionMd5": "d7eac4b88ea98960c021f4d685c7c1df"
+}]

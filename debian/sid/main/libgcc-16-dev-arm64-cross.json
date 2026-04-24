@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-16-dev-arm64-cross",
+	"source": "gcc-16-cross (9)",
+	"version": "16-20260322-1cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base (>= 16-20260322-1)",
+		"libgcc-s1-arm64-cross (>= 16-20260322-1cross1)",
+		"libgomp1-arm64-cross (>= 16-20260322-1cross1)",
+		"libitm1-arm64-cross (>= 16-20260322-1cross1)",
+		"libatomic1-arm64-cross (>= 16-20260322-1cross1)",
+		"libasan8-arm64-cross (>= 16-20260322-1cross1)",
+		"liblsan0-arm64-cross (>= 16-20260322-1cross1)",
+		"libtsan2-arm64-cross (>= 16-20260322-1cross1)",
+		"libubsan1-arm64-cross (>= 16-20260322-1cross1)",
+		"libhwasan0-arm64-cross (>= 16-20260322-1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-arm64-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-arm64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-arm64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 25066,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16-20260322-1)",
+	"filename": "pool/main/g/gcc-16-cross/libgcc-16-dev-arm64-cross_16-20260322-1cross1_all.deb",
+	"size": 2572620,
+	"md5": "4f4e7c3e78c32b9c2f9321794971902d",
+	"sha256": "8957f0437f304008bda6f9bcb5ece301f392280817029daab7654e7d03c081e2",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

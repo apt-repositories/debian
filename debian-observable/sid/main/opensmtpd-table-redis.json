@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opensmtpd-table-redis",
+	"source": "opensmtpd-table-redis (1.0.1-1)",
+	"version": "1.0.1-1+b1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"opensmtpd (>= 7.6.0)",
+		"libc6 (>= 2.38)",
+		"libhiredis1.1.0 (>= 1.2.0)"
+	],
+	"replaces": [
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"enhances": [
+		"opensmtpd"
+	],
+	"breaks": [
+		"opensmtpd (<< 7.6.0)",
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"installedSize": 55,
+	"maintainer": "Ryan Kavanagh <rak@debian.org>",
+	"description": "lookup OpenSMTPD users in Redis tables",
+	"homepage": "https://opensmtpd.org/",
+	"filename": "pool/main/o/opensmtpd-table-redis/opensmtpd-table-redis_1.0.1-1+b1_amd64.deb",
+	"size": 15372,
+	"md5": "2ee3bfba04bb953e514eed7cc3f057ca",
+	"sha256": "7d1df1e515ddbad7a9927659b587b0d54fb55007fc9ec77c36aceaa09fbc469c",
+	"descriptionMd5": "7cdddb03fac9840c7253259695e5f3ae"
+}]

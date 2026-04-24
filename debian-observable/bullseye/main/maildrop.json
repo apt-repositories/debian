@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "maildrop",
+	"source": "maildrop (2.9.3-2)",
+	"version": "2.9.3-2+b1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"courier-authlib (>= 0.66.4-5~)",
+		"libc6 (>= 2.15)",
+		"libcourier-unicode4 (>= 1.4)",
+		"libgcc1 (>= 1:3.0)",
+		"libgdbm6 (>= 1.16)",
+		"libpcre3",
+		"libstdc++6 (>= 5.2)"
+	],
+	"recommends": [
+		"exim4 | mail-transport-agent"
+	],
+	"replaces": [
+		"courier-base (<= 0.58.0-1)",
+		"courier-maildrop (<< 2.8.3+0.75.0-15~)"
+	],
+	"breaks": [
+		"courier-maildrop (<< 2.8.3+0.75.0-15~)"
+	],
+	"installedSize": 1141,
+	"maintainer": "Josip Rodin <joy-packages@debian.org>",
+	"description": "mail delivery agent with filtering abilities (set-GID=mail)",
+	"homepage": "http://www.courier-mta.org/maildrop/",
+	"filename": "pool/main/m/maildrop/maildrop_2.9.3-2+b1_amd64.deb",
+	"size": 342856,
+	"md5": "7891a4b76c1724159fc1533e7b1c146e",
+	"sha256": "90372e5351149acba647e4ad148115dd70a7402a39f27d02df1d1d7bd3748266",
+	"descriptionMd5": "eda875822ffffaedfbf2564b0e457648"
+}]

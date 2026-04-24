@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libatlas3-base",
+	"source": "atlas",
+	"version": "3.10.3-10",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libgcc-s1 (>= 4.0)",
+		"libgfortran5 (>= 8)"
+	],
+	"replaces": [
+		"libcblas3"
+	],
+	"breaks": [
+		"libatlas-base-dev (<< 3.10.3-4~)",
+		"libblas3 (<< 3.7.1-2~)",
+		"liblapack3 (<< 3.7.1-2~)",
+		"libopenblas-base (<< 0.2.20+ds-3~)"
+	],
+	"conflicts": [
+		"libcblas3"
+	],
+	"installedSize": 11737,
+	"maintainer": "Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Automatically Tuned Linear Algebra Software, generic shared",
+	"homepage": "http://math-atlas.sourceforge.net/",
+	"filename": "pool/main/a/atlas/libatlas3-base_3.10.3-10_amd64.deb",
+	"size": 3120160,
+	"md5": "3ae79822e75c758b31c8943bcc441d95",
+	"sha256": "598c8823aa907dc0e5d8429ad775b6d59d8807fd70c324408759bb53c862da51",
+	"descriptionMd5": "f80833178f9c0623b9b635b55ecafa8d"
+}]

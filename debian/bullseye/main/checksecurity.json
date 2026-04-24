@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "checksecurity",
+	"version": "2.0.16+nmu2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"cron (>= 3.0pl1-74) | anacron | fcron",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl (>= 5.8.0)",
+		"util-linux (>= 2.15~rc1-1)"
+	],
+	"recommends": [
+		"tiger",
+		"logcheck",
+		"tripwire | integrit | aide | samhain | fcheck",
+		"debsecan"
+	],
+	"suggests": [
+		"apt-watch | cron-apt",
+		"lockfile-progs"
+	],
+	"replaces": [
+		"cron"
+	],
+	"conflicts": [
+		"lockfile-progs (<< 0.1.7)"
+	],
+	"installedSize": 82,
+	"maintainer": "Javier Fernández-Sanguino Peña <jfs@computer.org>",
+	"description": "basic system security checks",
+	"filename": "pool/main/c/checksecurity/checksecurity_2.0.16+nmu2_all.deb",
+	"size": 26448,
+	"md5": "8a54321fc387bd1a0196af146ca7fd5c",
+	"sha256": "8526ac01103d327ed3d3ffaee6d2ccb0a15f6a6ddcdecd17e1e91cfb3ade054b",
+	"descriptionMd5": "81ea96b9f33049c4587fcadd8e3ec385"
+}

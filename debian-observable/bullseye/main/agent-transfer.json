@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "agent-transfer",
+	"source": "monkeysphere",
+	"version": "0.43-3.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gnupg-agent (>= 2.1.0)",
+		"libassuan0 (>= 2.0.1)",
+		"libc6 (>= 2.14)",
+		"libgcrypt20 (>= 1.8.0)",
+		"libgpg-error0 (>= 1.14)"
+	],
+	"recommends": [
+		"openssh-client",
+		"pinentry-curses | pinentry"
+	],
+	"enhances": [
+		"openssh-client",
+		"openssh-server"
+	],
+	"installedSize": 56,
+	"maintainer": "Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>",
+	"description": "copy a secret key from GnuPG's gpg-agent to OpenSSH's ssh-agent",
+	"homepage": "https://web.monkeysphere.info/",
+	"filename": "pool/main/m/monkeysphere/agent-transfer_0.43-3.1_amd64.deb",
+	"size": 23752,
+	"md5": "849fa2e0080c4c7096aae57dd9babaa0",
+	"sha256": "b5e5a91cb10ec00834face11f23d9aacc8874f96c9a76841e0e4f02890a43ae9",
+	"descriptionMd5": "e317278d37b6d2652243a33e0e9da5e7"
+}]

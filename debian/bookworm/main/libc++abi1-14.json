@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++abi1-14",
+	"source": "llvm-toolchain-14",
+	"version": "1:14.0.6-12",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libunwind-14 (>= 1:14.0.6)"
+	],
+	"replaces": [
+		"libc++abi-x.y"
+	],
+	"breaks": [
+		"libc++abi1 (<< 44)"
+	],
+	"conflicts": [
+		"libc++abi-x.y"
+	],
+	"installedSize": 272,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM low level support for a standard C++ library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-14/libc++abi1-14_14.0.6-12_amd64.deb",
+	"size": 86980,
+	"md5": "ea78e8c42df48bf5c9d777827057483b",
+	"sha256": "36f947832ba07ae944543dcab6f5a6c1cc1b02741aad2a2165834f35121b88fb",
+	"descriptionMd5": "6a197f8a8ae8385e801b369ea97886ce"
+}

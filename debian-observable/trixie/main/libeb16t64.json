@@ -1,0 +1,54 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libeb16t64",
+	"source": "eb",
+	"version": "4.4.3-14.3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"libeb16-dev",
+		"eb-utils",
+		"eb-doc"
+	],
+	"replaces": [
+		"libeb",
+		"libeb12",
+		"libeb13",
+		"libeb16",
+		"libeb4",
+		"libeb5",
+		"libeb6",
+		"libeb7"
+	],
+	"breaks": [
+		"libeb16 (<< 4.4.3-14.3)"
+	],
+	"conflicts": [
+		"eb-utils (<= 4.3-1)",
+		"libeb",
+		"libeb12",
+		"libeb13",
+		"libeb4",
+		"libeb5",
+		"libeb6",
+		"libeb7"
+	],
+	"installedSize": 283,
+	"maintainer": "Tatsuya Kinoshita <tats@debian.org>",
+	"description": "C library for accessing electronic books (runtime files)",
+	"homepage": "https://www.mistys-internet.website/eb/index-en.html",
+	"filename": "pool/main/e/eb/libeb16t64_4.4.3-14.3_amd64.deb",
+	"size": 94252,
+	"md5": "ec95a6016a349ad76051223a6d187cc7",
+	"sha256": "90fc2b3eba65e8a47b4da746c31d32d601bd008859b9fa216077da5ae6889eed",
+	"descriptionMd5": "ef3d59afc86c5ba1446132c71a86882a"
+}]

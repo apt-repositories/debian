@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-settings-tesla-460",
+	"source": "nvidia-settings-tesla-460 (460.91.03-4)",
+	"version": "460.91.03-4+b1",
+	"section": "contrib/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-tesla-460-alternative",
+		"libc6 (>= 2.34)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0t64 (>= 2.16.0)",
+		"libgtk-3-0t64 (>= 3.0.0)",
+		"libjansson4 (>= 2.14)",
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libx11-6 (>= 2:1.4.99.1)",
+		"libxext6",
+		"libxxf86vm1"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"libgl1-nvidia-tesla-460-glvnd-glx",
+		"nvidia-tesla-460-vdpau-driver",
+		"libnvidia-tesla-460-ml1"
+	],
+	"conflicts": [
+		"nvidia-settings-gtk-460.91.03"
+	],
+	"installedSize": 1617,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "tool for configuring the NVIDIA graphics driver (Tesla 460 version)",
+	"homepage": "https://download.nvidia.com/XFree86/nvidia-settings/",
+	"filename": "pool/contrib/n/nvidia-settings-tesla-460/nvidia-settings-tesla-460_460.91.03-4+b1_amd64.deb",
+	"size": 752464,
+	"md5": "e5d62e68c8659d7ddcf050f010041b79",
+	"sha256": "6255bddd73ddd5d50f758144b84d5419311c569d4141ca9a1e4328d3dd4d51bd",
+	"descriptionMd5": "7336d3188b32c77ec9f47d29b9bd95b8"
+}]

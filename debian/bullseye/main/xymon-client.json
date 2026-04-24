@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xymon-client",
+	"source": "xymon",
+	"version": "4.3.30-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"lsb-base",
+		"net-tools",
+		"procps",
+		"libc6 (>= 2.28)"
+	],
+	"preDepends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"xymon-plugins | hobbit-plugins"
+	],
+	"replaces": [
+		"hobbit-client (<< 4.2.2)"
+	],
+	"breaks": [
+		"hobbit (<= 4.2.0-1)",
+		"hobbit-client (<< 4.2.2)",
+		"hobbit-plugins (<< 20140519~)",
+		"xymon (<< 4.3.7-1~)"
+	],
+	"installedSize": 1219,
+	"maintainer": "Christoph Berg <myon@debian.org>",
+	"description": "client for the Xymon network monitor",
+	"homepage": "http://xymon.sourceforge.net/",
+	"filename": "pool/main/x/xymon/xymon-client_4.3.30-1_amd64.deb",
+	"size": 296692,
+	"md5": "0f95c0a947ce9387987a91cce5f20c05",
+	"sha256": "942f00520d2b8ace7d7241f4f653295fa950cde17ef8bb5adc0b7b93a2b0949d",
+	"descriptionMd5": "aecf1eddbb24018dd8eecc814af80e94"
+}

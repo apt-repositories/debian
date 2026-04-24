@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "iptables",
+	"version": "1.8.13-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libip4tc2 (= 1.8.13-1)",
+		"libip6tc2 (= 1.8.13-1)",
+		"libxtables12 (= 1.8.13-1)",
+		"netbase (>= 6.0)",
+		"libc6 (>= 2.38)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnetfilter-conntrack3 (>= 1.0.6)",
+		"libnfnetlink0 (>= 1.0.2)",
+		"libnftnl11 (>= 1.2.6)"
+	],
+	"recommends": [
+		"nftables"
+	],
+	"suggests": [
+		"firewalld",
+		"kmod"
+	],
+	"installedSize": 2408,
+	"maintainer": "Debian Netfilter Packaging Team <team+pkg-netfilter-team@tracker.debian.org>",
+	"description": "administration tools for packet filtering and NAT",
+	"homepage": "https://www.netfilter.org/",
+	"filename": "pool/main/i/iptables/iptables_1.8.13-1_amd64.deb",
+	"size": 360768,
+	"md5": "33a98446ab42b0969394962fb0fa5579",
+	"sha256": "188a26c3ae2a431018ab769897f82c1ac40a25d902186f17d31f00d103a78f71",
+	"descriptionMd5": "dc4b91f4ed9a9f9fb4896c64ab1f7992"
+}

@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "axfrdns",
+	"source": "djbdns",
+	"version": "1:1.05-13+deb11u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.51)",
+		"runit-helper (>= 2.10.0~)",
+		"sysuser-helper (<< 1.4)",
+		"libc6 (>= 2.4)",
+		"ucspi-tcp",
+		"tinydns"
+	],
+	"recommends": [
+		"daemon",
+		"runit"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-36~)"
+	],
+	"installedSize": 137,
+	"maintainer": "Peter Pentchev <roam@debian.org>",
+	"description": "DNS zone-transfer server",
+	"homepage": "http://cr.yp.to/djbdns.html",
+	"filename": "pool/main/d/djbdns/axfrdns_1.05-13+deb11u1_amd64.deb",
+	"size": 40832,
+	"md5": "09d4a18a49a69cda05562741adce7be0",
+	"sha256": "6530a19454c20a321503e29e40e36ca8c59d3f86051bb7a211043d7f0ff67d35",
+	"descriptionMd5": "0a5bf7de0ffa01d7762d606048bddb73"
+}

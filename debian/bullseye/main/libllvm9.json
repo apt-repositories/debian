@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libllvm9",
+	"source": "llvm-toolchain-9",
+	"version": "1:9.0.1-16.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libffi7 (>= 3.3~20180313)",
+		"libgcc-s1 (>= 3.3)",
+		"libstdc++6 (>= 9)",
+		"libtinfo6 (>= 6)",
+		"libz3-4 (>= 4.8.10)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"libllvm3.9v4"
+	],
+	"breaks": [
+		"libllvm3.9v4"
+	],
+	"installedSize": 68945,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Modular compiler and toolchain technologies, runtime library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-9/libllvm9_9.0.1-16.1_amd64.deb",
+	"size": 14926700,
+	"md5": "4b962aae596307e2b2410edc52686a43",
+	"sha256": "747697f517e6419ef0392b57cd64221421977b18ee63b2b114ce98c1d4234d3f",
+	"descriptionMd5": "a8854f4edf76a8c14ce34dc209bd1d11"
+}

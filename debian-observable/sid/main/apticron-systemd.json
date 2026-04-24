@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apticron-systemd",
+	"source": "apticron",
+	"version": "1.2.11",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"bsd-mailx | mailx",
+		"apt (>= 1.1~exp9)",
+		"systemd",
+		"bzip2"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.7.2)"
+	],
+	"recommends": [
+		"apt-listchanges",
+		"iproute2",
+		"gpg"
+	],
+	"conflicts": [
+		"apticron"
+	],
+	"installedSize": 48,
+	"maintainer": "Tiago Bortoletto Vaz <tiago@debian.org>",
+	"description": "Simple tool to mail about pending package updates - systemd version",
+	"filename": "pool/main/a/apticron/apticron-systemd_1.2.11_all.deb",
+	"size": 10556,
+	"md5": "c6236104771096a606d273ebc3f7fa08",
+	"sha256": "d04b566e157c874fdbe9f2b303e265df5a4c4ace7d96352bd187a60f25cca28f",
+	"descriptionMd5": "ec7d80bc9e810358bcc5d154b03beb8a"
+}]

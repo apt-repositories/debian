@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dh-autoreconf",
+	"version": "22",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"autoconf",
+		"automake",
+		"autopoint",
+		"libdebhelper-perl | debhelper (<< 12.6~)",
+		"libtool (>= 2.4.2)",
+		"perl:any"
+	],
+	"enhances": [
+		"debhelper"
+	],
+	"breaks": [
+		"quilt (<< 0.63-8.2~)"
+	],
+	"installedSize": 37,
+	"maintainer": "dh-autoreconf maintainers <dh-autoreconf@packages.debian.org>",
+	"description": "debhelper add-on to call autoreconf and clean up after the build",
+	"filename": "pool/main/d/dh-autoreconf/dh-autoreconf_22_all.deb",
+	"size": 12160,
+	"md5": "a0c2512dd4a32f0628e3efa029f99055",
+	"sha256": "2ffdf463452639a30a8716f3e88624c2e986aa3c02607bb12fe04f1f83edf4b0",
+	"descriptionMd5": "bc58f25d0a5095a5497173c28d2871b3"
+}

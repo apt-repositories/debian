@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-samba",
+	"source": "samba",
+	"version": "2:4.24.1+dfsg-1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-ldb (= 2:2.11.0+samba4.24.1+dfsg-1)",
+		"samba-libs (= 2:4.24.1+dfsg-1)",
+		"python3-tdb",
+		"python3-cryptography",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.34)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libldb2 (>= 2:2.10.0)",
+		"libndr6 (>= 2:4.22.0~rc1)",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0t64 (>= 0.15.0)",
+		"python3-talloc (>= 2.3.0)"
+	],
+	"recommends": [
+		"tdb-tools"
+	],
+	"replaces": [
+		"samba (<< 2:4.20.1+dfsg-2~)",
+		"samba-common-bin (<< 2:4.20.1+dfsg-2~)"
+	],
+	"breaks": [
+		"samba (<< 2:4.20.1+dfsg-2~)",
+		"samba-common-bin (<< 2:4.20.1+dfsg-2~)"
+	],
+	"installedSize": 20667,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Python 3 bindings for Samba",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/python3-samba_4.24.1+dfsg-1_amd64.deb",
+	"size": 2884852,
+	"md5": "4789fd60b492f44b08bb93ff3176b0e9",
+	"sha256": "1acc90b14c9d9d85c744443f83d6f5122fc0219f1f524c7f4eaf27252a85e40d",
+	"descriptionMd5": "7593355c9f194d3f84df6ce15717d93f"
+}

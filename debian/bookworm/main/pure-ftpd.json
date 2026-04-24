@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pure-ftpd",
+	"source": "pure-ftpd (1.0.50-2.1)",
+	"version": "1.0.50-2.1+b2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.2-14)",
+		"openbsd-inetd | inet-superserver",
+		"pure-ftpd-common (= 1.0.50-2.1)",
+		"libc6 (>= 2.33)",
+		"libcap2 (>= 1:2.10)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsodium23 (>= 1.0.10)",
+		"libssl3 (>= 3.0.0)"
+	],
+	"replaces": [
+		"ftp-server"
+	],
+	"conflicts": [
+		"ftp-server"
+	],
+	"installedSize": 654,
+	"maintainer": "Stefan Hornburg (Racke) <racke@linuxia.de>",
+	"description": "Secure and efficient FTP server",
+	"homepage": "https://www.pureftpd.org/project/pure-ftpd/",
+	"filename": "pool/main/p/pure-ftpd/pure-ftpd_1.0.50-2.1+b2_amd64.deb",
+	"size": 173112,
+	"md5": "13535949089aaed6fce28520f2696478",
+	"sha256": "5bfe75882dcef5fa52d06da6c97599fe2b32e7ae76644dbf84623503decacdcd",
+	"descriptionMd5": "c224dc177bd93932c8270a67cd35b6aa"
+}

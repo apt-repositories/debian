@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-hdf5-plugin",
+	"source": "slurm-wlm",
+	"version": "24.11.5-4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libhdf5-310 (>= 1.14.3)",
+		"libhdf5-hl-310 (>= 1.8.13)",
+		"slurm-wlm-basic-plugins (= 24.11.5-4)"
+	],
+	"replaces": [
+		"slurm-client (<< 22.05.7-1)",
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"breaks": [
+		"slurm-client (<< 22.05.7-1)",
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"installedSize": 144,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Slurm HDF5 plugin",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/main/s/slurm-wlm/slurm-wlm-hdf5-plugin_24.11.5-4_amd64.deb",
+	"size": 38768,
+	"md5": "dff22c884e0e0c151c0c215cd9ee4b7f",
+	"sha256": "6719baf3cacbe33933a4ee06c0dd2fdafa3499fc48138a7a2091ae2f11de6972",
+	"descriptionMd5": "a8bbdd24e4e112c35314584a6ef5a3eb"
+}]

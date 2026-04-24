@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pure-ftpd-ldap",
+	"source": "pure-ftpd",
+	"version": "1.0.49-4.1+deb11u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.2-14)",
+		"pure-ftpd-common (= 1.0.49-4.1+deb11u1)",
+		"libc6 (>= 2.15)",
+		"libcap2 (>= 1:2.10)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsodium23 (>= 1.0.10)",
+		"libssl1.1 (>= 1.1.0)",
+		"openbsd-inetd | inet-superserver"
+	],
+	"replaces": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"conflicts": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"installedSize": 673,
+	"maintainer": "Stefan Hornburg (Racke) <racke@linuxia.de>",
+	"description": "Secure and efficient FTP server with LDAP user authentication",
+	"homepage": "http://www.pureftpd.org/",
+	"filename": "pool/updates/main/p/pure-ftpd/pure-ftpd-ldap_1.0.49-4.1+deb11u1_amd64.deb",
+	"size": 185620,
+	"sha256": "a16ffcf4bd38d94ee7a113187047bfeb8a5b2ea9382538502d6c5c8b582fe714",
+	"descriptionMd5": "477968a296072683c2fab03f6540b60e"
+}

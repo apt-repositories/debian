@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "di-netboot-assistant",
+	"version": "0.82",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"binutils",
+		"bsdextrautils",
+		"ca-certificates",
+		"gpgv",
+		"wget | curl"
+	],
+	"recommends": [
+		"tftpd-hpa | atftpd | dnsmasq"
+	],
+	"suggests": [
+		"dnsmasq | kea | isc-dhcp-server | udhcpd",
+		"syslinux",
+		"vim-addon-manager"
+	],
+	"installedSize": 175,
+	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
+	"description": "Debian-Installer netboot assistant",
+	"homepage": "https://wiki.debian.org/DebianInstaller/NetbootAssistant",
+	"filename": "pool/main/d/di-netboot-assistant/di-netboot-assistant_0.82_all.deb",
+	"size": 40012,
+	"md5": "bb2506f271768fa59728511d2c7be894",
+	"sha256": "0b8e6cd1f2d5095054a99e4b5bc5836d1739e799c805a37b2032e8360f8c7259",
+	"descriptionMd5": "7cec50d96a813f436c4b0bfa50531181"
+}]

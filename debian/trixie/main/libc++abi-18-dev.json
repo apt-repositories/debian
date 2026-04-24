@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++abi-18-dev",
+	"source": "llvm-toolchain-18 (1:18.1.8-18)",
+	"version": "1:18.1.8-18+b1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++abi1-18 (= 1:18.1.8-18+b1)"
+	],
+	"replaces": [
+		"libc++abi-x.y-dev"
+	],
+	"breaks": [
+		"libc++abi-dev (<= 44)"
+	],
+	"conflicts": [
+		"libc++abi-x.y-dev"
+	],
+	"installedSize": 700,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM low level support for a standard C++ library (development files)",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-18/libc++abi-18-dev_18.1.8-18+b1_amd64.deb",
+	"size": 127808,
+	"md5": "19093c4a8488179f034d9a73cba41ae6",
+	"sha256": "bfc188ea47b2b6a2ca646538e25dd7dc7606014966048248330bf4059107c164",
+	"descriptionMd5": "364169ef5dcd81ea07cbcba49d061676"
+}

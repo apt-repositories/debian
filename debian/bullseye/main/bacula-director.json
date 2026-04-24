@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-director",
+	"source": "bacula",
+	"version": "9.6.7-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common (= 9.6.7-3)",
+		"bacula-director-pgsql (= 9.6.7-3) | bacula-director-mysql (= 9.6.7-3) | bacula-director-sqlite3 (= 9.6.7-3)",
+		"bsd-mailx | mailx",
+		"lsb-base (>= 3.0-6)",
+		"ucf",
+		"libc6 (>= 2.14)",
+		"libstdc++6 (>= 5)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"bacula-doc"
+	],
+	"replaces": [
+		"bacula-common (<< 9.6.4-1)",
+		"bacula-director-mysql (<< 7.4.3+dfsg-7)",
+		"bacula-director-pgsql (<< 7.4.3+dfsg-7)",
+		"bacula-director-sqlite3 (<< 7.4.3+dfsg-7)"
+	],
+	"breaks": [
+		"bacula-common (<< 9.6.4-1)",
+		"bacula-director-mysql (<< 7.4.3+dfsg-7)",
+		"bacula-director-pgsql (<< 7.4.3+dfsg-7)",
+		"bacula-director-sqlite3 (<< 7.4.3+dfsg-7)"
+	],
+	"installedSize": 1164,
+	"maintainer": "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>",
+	"description": "network backup service - Director daemon",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-director_9.6.7-3_amd64.deb",
+	"size": 326716,
+	"md5": "154dfb68b8684f4bf447f057053b53e5",
+	"sha256": "042e3095e2d58138d5fd9213de72668a114daf142f8d47e2450f5c307c61f00a",
+	"descriptionMd5": "6f0024bae002141382406db5c20bf965"
+}

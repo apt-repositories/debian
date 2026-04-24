@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ocsinventory-server",
+	"version": "2.8.1+dfsg1-1+deb11u1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libapache-dbi-perl",
+		"libapache2-mod-perl2",
+		"libarchive-zip-perl",
+		"libdbd-mysql-perl",
+		"libdbi-perl",
+		"libnet-ip-perl",
+		"libsoap-lite-perl",
+		"libswitch-perl",
+		"libxml-simple-perl"
+	],
+	"recommends": [
+		"apache2 (>= 2.4.6-4~) | httpd",
+		"ocsinventory-reports"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server",
+		"nmap",
+		"ocsinventory-agent",
+		"samba-common"
+	],
+	"installedSize": 495,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "Hardware and software inventory tool (Communication Server)",
+	"homepage": "https://www.ocsinventory-ng.org/",
+	"filename": "pool/main/o/ocsinventory-server/ocsinventory-server_2.8.1+dfsg1-1+deb11u1_all.deb",
+	"size": 90332,
+	"md5": "203fc3778b51c1b8c96e02df27fd3b19",
+	"sha256": "c002f21091f7491a6e4af1035cb271c29c2b20d327802d2ab9e20ad803766390",
+	"descriptionMd5": "a7fb9a04b349bbab052f183add58153c"
+}

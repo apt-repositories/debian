@@ -1,0 +1,71 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpdk",
+	"source": "dpdk (25.11-2)",
+	"version": "25.11-2+b1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"pci.ids | hwdata",
+		"pciutils",
+		"procps",
+		"sse4.2-support",
+		"python3:any"
+	],
+	"recommends": [
+		"librte-mempool26",
+		"librte-mempool-ring26",
+		"librte-net-af-packet26",
+		"librte-net-bond26",
+		"librte-net-e1000-26",
+		"librte-net-fm10k26",
+		"librte-net-i40e26",
+		"librte-net-ixgbe26",
+		"librte-net-mlx4-26",
+		"librte-net-mlx5-26",
+		"librte-net-netvsc26",
+		"librte-net-pcap26",
+		"librte-net-tap26",
+		"librte-net-thunderx26",
+		"librte-net-vdev-netvsc26",
+		"librte-net-vhost26",
+		"librte-net-virtio26",
+		"librte-net-vmxnet3-26",
+		"python3-pyelftools"
+	],
+	"suggests": [
+		"dpdk-doc",
+		"dpdk-kmods-dkms",
+		"librte-meta-baseband",
+		"librte-meta-bus",
+		"librte-meta-common",
+		"librte-meta-compress",
+		"librte-meta-crypto",
+		"librte-meta-dma",
+		"librte-meta-event",
+		"librte-meta-mempool",
+		"librte-meta-net",
+		"librte-meta-raw",
+		"librte-meta-allpmds"
+	],
+	"replaces": [
+		"dpdk-dev (<< 24.11~rc1-1)"
+	],
+	"breaks": [
+		"dpdk-dev (<< 24.11~rc1-1)"
+	],
+	"installedSize": 139,
+	"maintainer": "Debian DPDK Maintainers <pkg-dpdk-devel@lists.alioth.debian.org>",
+	"description": "Data Plane Development Kit (runtime)",
+	"homepage": "https://www.dpdk.org",
+	"filename": "pool/main/d/dpdk/dpdk_25.11-2+b1_amd64.deb",
+	"size": 34092,
+	"md5": "677c87a9bac19ea3a8f0f7b52d6bbeef",
+	"sha256": "f04cbf2873ab841166ac0f0520ac6ed0b676104a7f2282cd336ff353d71a4fe5",
+	"descriptionMd5": "cb8a15fa900de86d21d3a722f3b66d95"
+}

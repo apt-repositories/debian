@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postfixadmin",
+	"version": "3.3.13-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf",
+		"dbconfig-common",
+		"wwwconfig-common",
+		"apache2 | lighttpd | httpd",
+		"libapache2-mod-php | php-cgi | php-fpm | php",
+		"php-imap",
+		"php-mysql | php-mysqlnd | php-pgsql | php-sqlite3",
+		"php-mbstring",
+		"default-mysql-client | postgresql-client | mariadb-client",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"postfix-mysql | postfix-pgsql",
+		"virtual-mysql-server | postgresql | sqlite3 | mariadb-server",
+		"zendframework",
+		"dovecot-core | courier-authlib-mysql | courier-authlib-postgresql",
+		"php-cli"
+	],
+	"installedSize": 6205,
+	"maintainer": "Norman Messtorff <normes@normes.org>",
+	"description": "Virtual mail hosting interface for Postfix",
+	"homepage": "http://postfixadmin.sourceforge.net",
+	"filename": "pool/main/p/postfixadmin/postfixadmin_3.3.13-1_all.deb",
+	"size": 1393816,
+	"md5": "9677da9b54ffb2499329ad0ed6601dea",
+	"sha256": "3f029cf3dae920aae0998ff21ab4fcc4de89bf9f30f1a9dfb6a460e24870339f",
+	"descriptionMd5": "59d711f81f23a7e2d8610f58174d1858"
+}

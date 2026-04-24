@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libbinutils",
+	"source": "binutils",
+	"version": "2.46-3",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libsframe3",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.11.dfsg)",
+		"binutils-common (= 2.46-3)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)"
+	],
+	"installedSize": 2392,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities (private shared library)",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/libbinutils_2.46-3_amd64.deb",
+	"size": 548012,
+	"md5": "6e4c3d31a3da993ef38e0ff284365ec2",
+	"sha256": "a8a47ac81dfd77fbaf685a801ce446f13efe487f1710bee141288124d0e97b0f",
+	"descriptionMd5": "4b87c5b499514b3b039e5d7ef54f2682"
+}]

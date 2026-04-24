@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "redmine-pgsql",
+	"source": "redmine",
+	"version": "6.0.6+ds-6",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-pgsql | dbconfig-no-thanks",
+		"postgresql-client",
+		"ruby-pg (>= 1.6.2~)",
+		"ruby-pg (<< 1.7)"
+	],
+	"recommends": [
+		"redmine (= 6.0.6+ds-6)"
+	],
+	"suggests": [
+		"postgresql"
+	],
+	"installedSize": 147,
+	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "metapackage providing PostgreSQL dependencies for Redmine",
+	"homepage": "https://www.redmine.org",
+	"filename": "pool/main/r/redmine/redmine-pgsql_6.0.6+ds-6_all.deb",
+	"size": 137156,
+	"md5": "343f2c3b77247d4eebbf490d23a8ac63",
+	"sha256": "9987b253a9f91d2050af498535b97d11aae28f644d708c56779d9e3ab1783a72",
+	"descriptionMd5": "f308cd100ee4983a5adb6ff3370520bf"
+}]

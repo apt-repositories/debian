@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fence-agents-kubevirt",
+	"source": "fence-agents",
+	"version": "4.17.0-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"fence-agents-common (>= 4.17.0-1)",
+		"python3-kubernetes",
+		"python3-openshift"
+	],
+	"replaces": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"breaks": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"installedSize": 24,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "Fence Agents for Red Hat Cluster - KubeVirt agent",
+	"homepage": "https://github.com/ClusterLabs/fence-agents",
+	"filename": "pool/main/f/fence-agents/fence-agents-kubevirt_4.17.0-1_all.deb",
+	"size": 8808,
+	"md5": "ff29d6e7a3b91c37ff9b8c0ad1634684",
+	"sha256": "93ebacffaccd4c1fe8b311552ba0085dda334412fb417f593b7092dfb33d4832",
+	"descriptionMd5": "6af69117a339bb269fca55369602a7b9"
+}

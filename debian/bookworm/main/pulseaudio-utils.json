@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pulseaudio-utils",
+	"source": "pulseaudio (16.1+dfsg1-2)",
+	"version": "16.1+dfsg1-2+b1",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libpulse0 (= 16.1+dfsg1-2+b1)",
+		"libsndfile1 (>= 1.0.20)",
+		"libx11-6",
+		"libx11-xcb1 (>= 2:1.8.1)",
+		"libxcb1",
+		"libpulsedsp"
+	],
+	"suggests": [
+		"avahi-daemon",
+		"pulseaudio"
+	],
+	"replaces": [
+		"pulseaudio (<< 14.2-3~)"
+	],
+	"breaks": [
+		"pulseaudio (<< 14.2-3~)"
+	],
+	"installedSize": 334,
+	"maintainer": "Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>",
+	"description": "Command line tools for the PulseAudio sound server",
+	"homepage": "https://www.pulseaudio.org",
+	"filename": "pool/main/p/pulseaudio/pulseaudio-utils_16.1+dfsg1-2+b1_amd64.deb",
+	"size": 88768,
+	"md5": "a23357f4e4c4e475bd8f90ab48d684d7",
+	"sha256": "37a95bfadbb751bb0193ef131d7b47d7a82407cfd2ea443d549b707f62bf8051",
+	"descriptionMd5": "d8d6ff926bb9214bc0212fd3318ba0e6"
+}

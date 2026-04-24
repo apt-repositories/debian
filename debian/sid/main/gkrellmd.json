@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gkrellmd",
+	"source": "gkrellm",
+	"version": "2.5.1-2",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0t64 (>= 2.36.0)",
+		"libsensors5 (>= 1:3.5.0)"
+	],
+	"replaces": [
+		"gkrellm-common (<= 2.2.7-5)"
+	],
+	"breaks": [
+		"gkrellm (<= 2.2.7-8)",
+		"gkrellm-common (<= 2.2.7-5)"
+	],
+	"installedSize": 195,
+	"maintainer": "Sandro Tosi <morph@debian.org>",
+	"description": "GNU Krell Monitors Server",
+	"homepage": "https://gkrellm.srcbox.net/",
+	"filename": "pool/main/g/gkrellm/gkrellmd_2.5.1-2_amd64.deb",
+	"size": 81840,
+	"md5": "149f64c37b41d1f8a8713195f983c797",
+	"sha256": "ae9cf3971e322d3a77b3857fad26f14f38c05515080eef329e56f806f6cd82db",
+	"descriptionMd5": "08607ba309948e20134f4aded447b339"
+}

@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "vsftpd",
+	"source": "vsftpd (3.0.3-13)",
+	"version": "3.0.3-13+b2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl3 (>= 3.0.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"adduser",
+		"libpam-modules",
+		"lsb-base (>= 3.0-6)",
+		"netbase",
+		"procps",
+		"sysvinit-utils (>= 2.96)"
+	],
+	"recommends": [
+		"logrotate",
+		"ssl-cert"
+	],
+	"replaces": [
+		"ftp-server"
+	],
+	"conflicts": [
+		"ftp-server"
+	],
+	"installedSize": 343,
+	"maintainer": "Keng-Yu Lin <kengyu@debian.org>",
+	"description": "lightweight, efficient FTP server written for security",
+	"homepage": "http://vsftpd.beasts.org/",
+	"filename": "pool/main/v/vsftpd/vsftpd_3.0.3-13+b2_amd64.deb",
+	"size": 142200,
+	"md5": "f2de2bdc1b76c8074a3cc5020b20434e",
+	"sha256": "41c2acd8170541a79eb764093fa3ec7b203d619053fb539dba2101115c4ace30",
+	"descriptionMd5": "81386f72ac91a5ea48f8db0b023f3f9b"
+}]

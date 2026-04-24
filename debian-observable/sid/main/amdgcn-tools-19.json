@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amdgcn-tools-19",
+	"version": "19.3",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"llvm-19",
+		"lld-19"
+	],
+	"replaces": [
+		"amdgcn-tools-18",
+		"gcc-10-offload-amdgcn (<< 10.2.1-6)",
+		"gcc-11-offload-amdgcn (<< 11-20210110-0)",
+		"gcc-snapshot (<< 1:20210110-0~)"
+	],
+	"breaks": [
+		"amdgcn-tools-18",
+		"gcc-10-offload-amdgcn (<< 10.2.1-6)",
+		"gcc-11-offload-amdgcn (<< 11-20210110-0)",
+		"gcc-snapshot (<< 1:20210110-0~)"
+	],
+	"conflicts": [
+		"amdgcn-tools"
+	],
+	"installedSize": 20,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "linker tools for the amdgcn architecture",
+	"filename": "pool/main/a/amdgcn-tools-19/amdgcn-tools-19_19.3_amd64.deb",
+	"size": 2872,
+	"md5": "5fe5bd5ed389998580d9534b99452043",
+	"sha256": "d6e2c5665ca4e15516bd46db6f151d274535d1b2c140b2ce76bf17e124da09ed",
+	"descriptionMd5": "6772d97a613191b1bf7c8b99061efe8f"
+}]

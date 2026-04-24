@@ -1,0 +1,28 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-prefix",
+	"source": "prefix",
+	"version": "1.2.10-4",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.14)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 117,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Prefix Range module for PostgreSQL",
+	"filename": "pool/main/p/prefix/postgresql-18-prefix_1.2.10-4_amd64.deb",
+	"size": 41112,
+	"md5": "bc70fb151d383256e04c389cfa4aff35",
+	"sha256": "833b3bb9495f0d794cd9c8c742fff01a80b994577225c496df6a718013b4b306",
+	"descriptionMd5": "ef8894298a9eabf59628ac197059a3ac"
+}

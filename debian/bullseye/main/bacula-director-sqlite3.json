@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-director-sqlite3",
+	"source": "bacula",
+	"version": "9.6.7-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"bacula-common-sqlite3 (<< 9.6.7-3.1~)",
+		"bacula-common-sqlite3 (>= 9.6.7-3)",
+		"dbconfig-sqlite3 | dbconfig-no-thanks",
+		"file",
+		"sqlite3",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"gawk"
+	],
+	"replaces": [
+		"bacula-director-database"
+	],
+	"conflicts": [
+		"bacula-director-database"
+	],
+	"installedSize": 269,
+	"maintainer": "Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>",
+	"description": "network backup service - SQLite 3 storage for Director",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-director-sqlite3_9.6.7-3_all.deb",
+	"size": 141872,
+	"md5": "467ddf0dd6dd0044b6b87c1f3d1e3db9",
+	"sha256": "b557ecfaa1f5d9d7968bd51749a42856273ae2fa09e1ed2cb974a955e85ae23c",
+	"descriptionMd5": "ca500032cad106223f9840f1e7d2fcab"
+}

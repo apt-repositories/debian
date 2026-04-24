@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "leafnode",
+	"version": "1.11.11-3",
+	"section": "news",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"netbase",
+		"openbsd-inetd | inet-superserver",
+		"tcpd",
+		"logrotate",
+		"libc6 (>= 2.14)",
+		"libpcre3",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"slrn | news-reader",
+		"perl:any"
+	],
+	"conflicts": [
+		"news-transport-system",
+		"newsx"
+	],
+	"installedSize": 811,
+	"maintainer": "Moritz Muehlenhoff <jmm@debian.org>",
+	"description": "NNTP server for small sites",
+	"homepage": "http://leafnode.org/",
+	"filename": "pool/main/l/leafnode/leafnode_1.11.11-3_amd64.deb",
+	"size": 240460,
+	"md5": "ff01da5290a434bcadd447adfbc1848e",
+	"sha256": "df8319871e224151bacacc673fb1a597fd8543dfd763d9cea29185600c5f74e2",
+	"descriptionMd5": "559161eccec0dbb468c8cf3d27e40d42"
+}]

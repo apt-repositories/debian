@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnumed-server",
+	"version": "22.15-1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"postgresql",
+		"postgresql-client",
+		"debconf",
+		"bsd-mailx | mail-reader",
+		"openssl",
+		"bzip2",
+		"cron | anacron",
+		"sudo",
+		"gnupg | gnupg2",
+		"rsync",
+		"python3-psycopg2"
+	],
+	"recommends": [
+		"barman"
+	],
+	"suggests": [
+		"postgresql-contrib",
+		"postgresql-12-plr | postgresql-plr",
+		"bacula-console",
+		"postgresql-filedump",
+		"orthanc-postgresql | orthanc",
+		"orthanc-webviewer"
+	],
+	"installedSize": 40893,
+	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
+	"description": "medical practice management - server",
+	"homepage": "https://www.gnumed.de",
+	"filename": "pool/main/g/gnumed-server/gnumed-server_22.15-1_all.deb",
+	"size": 13305384,
+	"md5": "83a0be2ca1895baa079e5b1eafc034a3",
+	"sha256": "d186c4b4588b6529e75e16b525b568c62a7538b76faf8af8f002b4b15fb681d9",
+	"descriptionMd5": "6b105eb03a84d12565345f40d5335620"
+}

@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-12-dev-sparc64-cross",
+	"source": "gcc-12-cross-ports (23)",
+	"version": "12.5.0-9cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base-ports (= 12.5.0-9cross1)",
+		"libgcc-s1-sparc64-cross (>= 12.5.0-9cross1)",
+		"libgomp1-sparc64-cross (>= 12.5.0-9cross1)",
+		"libitm1-sparc64-cross (>= 12.5.0-9cross1)",
+		"libatomic1-sparc64-cross (>= 12.5.0-9cross1)",
+		"libasan8-sparc64-cross (>= 12.5.0-9cross1)",
+		"libubsan1-sparc64-cross (>= 12.5.0-9cross1)"
+	],
+	"recommends": [
+		"libc6-dev-sparc64-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-sparc64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-sparc64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 5909,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.5.0-9)",
+	"filename": "pool/main/g/gcc-12-cross-ports/libgcc-12-dev-sparc64-cross_12.5.0-9cross1_all.deb",
+	"size": 640924,
+	"md5": "6c4bfe83018ed92cdb5842d9906e1952",
+	"sha256": "b488c2b60032b0b0fd9448fa95ae1e6f0d12312e22639bedbd19edd08fcd239b",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++1",
+	"source": "llvm-toolchain-21 (1:21.1.8-3)",
+	"version": "1:21.1.8-3+b1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++abi1 (>= 1:21.1.8-3+b1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)"
+	],
+	"suggests": [
+		"clang"
+	],
+	"replaces": [
+		"libc++-x.y",
+		"libc++1-21"
+	],
+	"breaks": [
+		"libc++1-14",
+		"libc++1-19",
+		"libc++1-21",
+		"libc++abi1-14",
+		"libc++abi1-19"
+	],
+	"conflicts": [
+		"libc++-x.y"
+	],
+	"installedSize": 1254,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM C++ Standard library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-21/libc++1_21.1.8-3+b1_amd64.deb",
+	"size": 340828,
+	"md5": "ca1c3ce766441e6f8faf95f495d1f768",
+	"sha256": "42a90dbfbafdec2cf5a0f04ab5ff02be98f96926fcf457ca667540c1865ac5fd",
+	"descriptionMd5": "3e11b80d657dd5ed05ee027e3cba65ca"
+}]

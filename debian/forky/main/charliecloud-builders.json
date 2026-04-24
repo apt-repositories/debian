@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "charliecloud-builders",
+	"source": "charliecloud",
+	"version": "0.43-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"charliecloud-common (= 0.43-2)",
+		"python3",
+		"python3-lark",
+		"python3-requests",
+		"squashfs-tools"
+	],
+	"recommends": [
+		"git",
+		"rsync"
+	],
+	"suggests": [
+		"charliecloud-doc (= 0.43-2)",
+		"charliecloud-runtime (= 0.43-2)",
+		"pigz",
+		"pv"
+	],
+	"replaces": [
+		"charliecloud (<< 0.16-1)"
+	],
+	"breaks": [
+		"charliecloud (<< 0.16-1)"
+	],
+	"installedSize": 126,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "user-defined software stacks (UDSS) for HPC centers (builders)",
+	"homepage": "https://hpc.github.io/charliecloud/",
+	"filename": "pool/main/c/charliecloud/charliecloud-builders_0.43-2_amd64.deb",
+	"size": 67012,
+	"md5": "79b4a893478177acf8998eea30cc3860",
+	"sha256": "70ecd1f549a11f8fa859a2cd973cf2d15864eafb100b16c9e52724c33272f48b",
+	"descriptionMd5": "b7dc89814676ae204f1fc0bb2df35902"
+}

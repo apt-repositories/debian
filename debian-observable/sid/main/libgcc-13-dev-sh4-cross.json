@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-13-dev-sh4-cross",
+	"source": "gcc-13-cross-ports (25)",
+	"version": "13.4.0-10cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-13-cross-base-ports (= 13.4.0-10cross1)",
+		"libgcc-s1-sh4-cross (>= 13.4.0-10cross1)",
+		"libgomp1-sh4-cross (>= 13.4.0-10cross1)",
+		"libitm1-sh4-cross (>= 13.4.0-10cross1)",
+		"libatomic1-sh4-cross (>= 13.4.0-10cross1)"
+	],
+	"recommends": [
+		"libc6-dev-sh4-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-sh4-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-sh4-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 1005,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-10)",
+	"filename": "pool/main/g/gcc-13-cross-ports/libgcc-13-dev-sh4-cross_13.4.0-10cross1_all.deb",
+	"size": 267196,
+	"md5": "6b5b1d9400e397630ec140590a177e36",
+	"sha256": "62ffc42c76303b3444c1f4b8db54b4eeaf3e01abe534bc0e7e25764827924109",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

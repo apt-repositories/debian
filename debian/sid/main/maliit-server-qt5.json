@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "maliit-server-qt5",
+	"source": "maliit-framework",
+	"version": "2.3.0-10",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmaliit-plugins2 (= 2.3.0-10)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libqt5core5t64 (>= 5.15.1)",
+		"libqt5gui5t64 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta)",
+		"libstdc++6 (>= 4.1.1)"
+	],
+	"recommends": [
+		"maliit-framework (>= 2.3.0-10)"
+	],
+	"replaces": [
+		"maliit-framework (<< 2.3.0-7~)"
+	],
+	"breaks": [
+		"gir1.2-maliit-1.0 (<< 2.3.0-10)",
+		"libmaliit-glib0 (<< 2.3.0-10)",
+		"libmaliit0 (<< 2.3.0-10)",
+		"maliit-dbus-activation (<< 2.3.0-10)",
+		"maliit-framework (<< 2.3.0-7~)",
+		"maliit-inputcontext-qt4 (<< 2.3.0-10)"
+	],
+	"installedSize": 46,
+	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
+	"description": "Maliit Input Method Framework Server (Qt5 version)",
+	"homepage": "https://github.com/maliit/framework",
+	"filename": "pool/main/m/maliit-framework/maliit-server-qt5_2.3.0-10_amd64.deb",
+	"size": 10888,
+	"md5": "8dd2ee0ff0a1f22f3fd606f86318559b",
+	"sha256": "2f6d5a80901110b69fba7a4656ff8c1b96293f908a2c292b6134d135a7ca04bb",
+	"descriptionMd5": "f926466e455967db2400dc5e933921ed"
+}

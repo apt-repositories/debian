@@ -1,0 +1,51 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nmh",
+	"version": "1.8-3",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libdb5.3t64",
+		"liblockfile1 (>= 1.0)",
+		"libreadline8t64 (>= 6.0)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libtinfo6 (>= 6)",
+		"netbase (>= 3.16-1)",
+		"mailcap",
+		"sensible-utils",
+		"libsasl2-modules"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent"
+	],
+	"suggests": [
+		"exmh",
+		"mh-e",
+		"mh-book",
+		"par",
+		"libmime-tools-perl",
+		"libmailtools-perl"
+	],
+	"replaces": [
+		"mh"
+	],
+	"conflicts": [
+		"mh"
+	],
+	"installedSize": 7732,
+	"maintainer": "Alexander Zangerl <az@debian.org>",
+	"description": "set of electronic mail handling programs",
+	"filename": "pool/main/n/nmh/nmh_1.8-3_amd64.deb",
+	"size": 1494040,
+	"md5": "9075d3352e0ba973d27edf1d9d22a146",
+	"sha256": "97f4b34b8c4795004eb601cff13f66864cb23876a573f4f127c4038d88c1920a",
+	"descriptionMd5": "0fe4ac62551f8d845ccba50fec7f0625"
+}]

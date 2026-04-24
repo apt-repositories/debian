@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpkg",
+	"version": "1.23.7",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"tar (>= 1.28-1)"
+	],
+	"preDepends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"liblzma5 (>= 5.4.0)",
+		"libmd0 (>= 0.0.0)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"apt",
+		"debsig-verify"
+	],
+	"breaks": [
+		"libapt-pkg5.0 (<< 1.7~b)",
+		"lsb-base (<< 10.2019031300)"
+	],
+	"installedSize": 6399,
+	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
+	"description": "Debian package management system",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/main/d/dpkg/dpkg_1.23.7_amd64.deb",
+	"size": 1530608,
+	"md5": "73b0a31797e906a41ad06f8268b5b71b",
+	"sha256": "bd38e459c02f0d64c8094fb6c73811323f006e5af36034ab3e1d670726345fef",
+	"descriptionMd5": "2f156c6a30cc39895ad3487111e8c190"
+}

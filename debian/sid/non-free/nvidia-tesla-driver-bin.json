@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-driver-bin",
+	"source": "nvidia-graphics-drivers-tesla",
+	"version": "525.147.05-18",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-tesla-alternative (= 525.147.05-18)",
+		"libc6 (>= 2.2.5)",
+		"libnvidia-tesla-ml1 (>= 319) | libnvidia-ml.so.1 (>= 319)"
+	],
+	"recommends": [
+		"nvidia-tesla-driver"
+	],
+	"conflicts": [
+		"nvidia-driver-bin-525.147.05"
+	],
+	"installedSize": 336,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA driver support binaries (Tesla version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla/nvidia-tesla-driver-bin_525.147.05-18_amd64.deb",
+	"size": 181472,
+	"md5": "bc59d1a134c98acd6c33843f26789665",
+	"sha256": "28ca7705cb0d0370c0340fadfcd9db39842fdac708e057de17b3e218466d0e95",
+	"descriptionMd5": "db526e5cabae0e7d93d517b315fdbc08"
+}

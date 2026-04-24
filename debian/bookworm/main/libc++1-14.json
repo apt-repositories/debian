@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++1-14",
+	"source": "llvm-toolchain-14",
+	"version": "1:14.0.6-12",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++abi1-14 (>= 1:14.0.6)",
+		"libc6 (>= 2.34)",
+		"libunwind-14 (>= 1:14.0.6)"
+	],
+	"suggests": [
+		"clang"
+	],
+	"replaces": [
+		"libc++-x.y"
+	],
+	"breaks": [
+		"libc++1 (<< 44)"
+	],
+	"conflicts": [
+		"libc++-x.y"
+	],
+	"installedSize": 1050,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM C++ Standard library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-14/libc++1-14_14.0.6-12_amd64.deb",
+	"size": 288136,
+	"md5": "43f8d06f7ff3e55ebb45149161684c62",
+	"sha256": "e25732a2aeb5ea0a3b0e069dfefac201659a9b96ad572693c1e22fd85c90abbf",
+	"descriptionMd5": "3e11b80d657dd5ed05ee027e3cba65ca"
+}

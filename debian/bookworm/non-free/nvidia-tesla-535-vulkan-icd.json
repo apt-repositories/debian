@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-535-vulkan-icd",
+	"source": "nvidia-graphics-drivers-tesla-535",
+	"version": "535.216.03-3~deb12u1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-vulkan-common",
+		"libvulkan1 (>= 1.0.42)",
+		"libglx-nvidia-tesla-535-0 (= 535.216.03-3~deb12u1)",
+		"libnvidia-tesla-535-rtcore (= 535.216.03-3~deb12u1)"
+	],
+	"suggests": [
+		"vulkan-tools"
+	],
+	"enhances": [
+		"libvulkan1"
+	],
+	"conflicts": [
+		"nvidia-tesla-535-nonglvnd-vulkan-icd"
+	],
+	"installedSize": 180,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA Vulkan installable client driver (ICD) (Tesla 535 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-535/nvidia-tesla-535-vulkan-icd_535.216.03-3~deb12u1_amd64.deb",
+	"size": 157092,
+	"md5": "8cf9dc345a9a4db599133011925ca214",
+	"sha256": "4dcbbe1eb846be7b16831597a03f20eb59a64f27de9edf996c28f91d008029f9",
+	"descriptionMd5": "3324ba12c259ba8713979706e62fb71c"
+}

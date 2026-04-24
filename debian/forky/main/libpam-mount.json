@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-mount",
+	"version": "2.22-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpam-runtime",
+		"libc6 (>= 2.38)",
+		"libcryptsetup12 (>= 2:2.4)",
+		"libhx43t64 (>= 5.2)",
+		"libmount1 (>= 2.19.1)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3t64 (>= 3.0.0)",
+		"libxml2-16 (>= 2.14.1)"
+	],
+	"recommends": [
+		"libpam-mount-bin"
+	],
+	"suggests": [
+		"cifs-utils",
+		"davfs2",
+		"fuse",
+		"lsof",
+		"openssl",
+		"psmisc",
+		"sshfs",
+		"xfsprogs",
+		"hxtools"
+	],
+	"installedSize": 182,
+	"maintainer": "Jochen Sprickerhof <jspricke@debian.org>",
+	"description": "PAM module that can mount volumes for a user session",
+	"homepage": "https://inai.de/projects/pam_mount/",
+	"filename": "pool/main/libp/libpam-mount/libpam-mount_2.22-3_amd64.deb",
+	"size": 59388,
+	"md5": "4054efe87f2cac6ee03c13d41ae19bd1",
+	"sha256": "4e4706a32c454756ec71b93d71642b692f11e77bb7d83a0cbaffe3c5d14d7089",
+	"descriptionMd5": "104628c783f5ce09f73179478f9d2431"
+}

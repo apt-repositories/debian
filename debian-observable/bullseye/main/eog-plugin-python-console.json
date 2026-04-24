@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "eog-plugin-python-console",
+	"source": "eog-plugins",
+	"version": "3.26.5-1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dconf-gsettings-backend | gsettings-backend",
+		"python3:any",
+		"eog (>= 3.20.3-1~)",
+		"eog-plugins-common (>= 3.26.5-1)",
+		"gir1.2-glib-2.0",
+		"gir1.2-gtk-3.0",
+		"gir1.2-pango-1.0",
+		"gir1.2-peas-1.0",
+		"python3-gi",
+		"gsettings-desktop-schemas"
+	],
+	"replaces": [
+		"eog-plugins (<< 3.16.6-2~)"
+	],
+	"enhances": [
+		"eog"
+	],
+	"breaks": [
+		"eog-plugins (<< 3.16.6-2~)"
+	],
+	"installedSize": 111,
+	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"description": "Python Console plugin for GNOME Image Viewer",
+	"homepage": "https://wiki.gnome.org/Apps/EyeOfGnome/Plugins",
+	"filename": "pool/main/e/eog-plugins/eog-plugin-python-console_3.26.5-1_amd64.deb",
+	"size": 58912,
+	"md5": "d2b76cd61d1838c716c72f892538ead2",
+	"sha256": "9cc471c5ce6e951b6470ca5a673996de4969861258fcad37f51c9df3b7614cb7",
+	"descriptionMd5": "e5b59e45b1e73632d88a8dc65a09b4df"
+}]

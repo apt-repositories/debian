@@ -1,0 +1,63 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "game-data-packager",
+	"version": "67",
+	"section": "contrib/games",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dpkg (>= 1.19.0) | fakeroot",
+		"python3-debian",
+		"python3-yaml",
+		"python3:any"
+	],
+	"recommends": [
+		"game-data-packager-runtime (>= 67)"
+	],
+	"suggests": [
+		"arj",
+		"binutils",
+		"cabextract",
+		"cdparanoia",
+		"dynamite (>= 0.1.1-2)",
+		"gcc",
+		"gdebi | gdebi-kde",
+		"gir1.2-gdkpixbuf-2.0",
+		"innoextract (>= 1.5)",
+		"lgc-pg",
+		"lgogdownloader",
+		"lhasa | jlha-utils | lzh-archiver",
+		"make",
+		"p7zip-full",
+		"python3-gi",
+		"python3-omg",
+		"python3-pil",
+		"steam",
+		"steamcmd",
+		"unace-nonfree",
+		"unar",
+		"unrar",
+		"unshield",
+		"unzip",
+		"vorbis-tools",
+		"xdelta",
+		"xdelta3"
+	],
+	"breaks": [
+		"game-data-packager-runtime (<< 67)",
+		"lgogdownloader (<< 2.26-1~)"
+	],
+	"installedSize": 6043,
+	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
+	"description": "Installer for game data files",
+	"homepage": "https://wiki.debian.org/Games/GameDataPackager",
+	"filename": "pool/contrib/g/game-data-packager/game-data-packager_67_all.deb",
+	"size": 5611136,
+	"md5": "1f499b0797bf135e0e0d9ff744c39a0b",
+	"sha256": "8501a030e574e941f1bcf94358e3d73470387d25bcfda1223d401835374c189b",
+	"descriptionMd5": "8f27605f1299a55531edcc4b1205f8d4"
+}]

@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libggml0-backend-cuda",
+	"source": "ggml-cuda",
+	"version": "0.9.6-4",
+	"section": "contrib/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libggml0 (>= 0.9.6)",
+		"libggml0 (<< 0.9.7)",
+		"libc6 (>= 2.38)",
+		"libcublas12",
+		"libcuda1 (>= 440) | libcuda.so.1 (>= 440)",
+		"libcudart12",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"conflicts": [
+		"libggml0-backend-vulkan"
+	],
+	"installedSize": 442091,
+	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
+	"description": "Tensor library for machine learning - CUDA backend",
+	"homepage": "https://github.com/ggml-org/ggml",
+	"filename": "pool/contrib/g/ggml-cuda/libggml0-backend-cuda_0.9.6-4_amd64.deb",
+	"size": 82182324,
+	"md5": "8400d24c4a6a85fc0c0834d10c20d5fc",
+	"sha256": "b28c8a2c51fbaa8e9006c5dc055729604eb865d63d89360777930c68a0c7cd4b",
+	"descriptionMd5": "56db844880e610d6c8401c92a13f05dd"
+}]

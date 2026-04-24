@@ -1,0 +1,62 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "smokeping",
+	"version": "2.8.2+ds-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libwww-perl",
+		"libsnmp-session-perl",
+		"librrds-perl (>= 1.2)",
+		"liburi-perl",
+		"fping",
+		"libcgi-fast-perl",
+		"adduser",
+		"libdigest-hmac-perl",
+		"ucf",
+		"libconfig-grammar-perl",
+		"libjs-cropper",
+		"libjs-scriptaculous",
+		"libjs-prototype",
+		"default-mta | mail-transport-agent"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"apache2 | httpd-cgi",
+		"libsocket6-perl",
+		"dnsutils",
+		"echoping",
+		"apache2 (>= 2.4.6-4~) | apache2 | httpd"
+	],
+	"suggests": [
+		"curl",
+		"libauthen-radius-perl",
+		"libnet-ldap-perl",
+		"libnet-dns-perl",
+		"openssh-client",
+		"libio-socket-ssl-perl",
+		"libnet-telnet-perl",
+		"libnet-openssh-perl",
+		"libio-pty-perl",
+		"libpath-tiny-perl",
+		"libinfluxdb-lineprotocol-perl",
+		"libobject-result-perl"
+	],
+	"installedSize": 1118,
+	"maintainer": "Gabriel Filion <gabster@lelutin.ca>",
+	"description": "latency logging and graphing system",
+	"homepage": "https://smokeping.org/",
+	"filename": "pool/main/s/smokeping/smokeping_2.8.2+ds-1_all.deb",
+	"size": 434916,
+	"md5": "1a7eb06c667352cccf75aeda9aac9a54",
+	"sha256": "8caa745d8dfd72d6cecf115b3cd48491393aa2a135a14e016ad573c21bf79618",
+	"descriptionMd5": "80bc07eda8a87e163f2ece5eb196d505"
+}]

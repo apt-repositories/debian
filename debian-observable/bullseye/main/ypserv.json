@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ypserv",
+	"version": "4.1-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgdbm6 (>= 1.16)",
+		"libnsl2 (>= 1.0.2)",
+		"libsystemd0",
+		"libtirpc3 (>= 1.0.2)",
+		"make",
+		"rpcbind | portmap",
+		"lsb-base (>= 3.0-6)",
+		"hostname (>= 2.98)",
+		"ucf"
+	],
+	"recommends": [
+		"yp-tools"
+	],
+	"suggests": [
+		"ypbind-mt",
+		"krb5-kdc"
+	],
+	"replaces": [
+		"nis (<< 4)"
+	],
+	"breaks": [
+		"nis (<< 4)"
+	],
+	"conflicts": [
+		"nis (<< 4)"
+	],
+	"installedSize": 431,
+	"maintainer": "Francesco Paolo Lovergine <frankie@debian.org>",
+	"description": "Server daemon for working with Network Information System (NIS)",
+	"homepage": "http://www.linux-nis.org/",
+	"filename": "pool/main/y/ypserv/ypserv_4.1-2_amd64.deb",
+	"size": 113312,
+	"md5": "ff8edfc9346cfb74f11d6161ce453fd9",
+	"sha256": "612ce1b31a5301661bcee9f2ae069d00aba8e2b94352fe923935c1c0161f4755",
+	"descriptionMd5": "fd22f18a1b86b37e50c43fad96d3f0a5"
+}]

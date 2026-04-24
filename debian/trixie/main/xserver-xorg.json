@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg",
+	"source": "xorg",
+	"version": "1:7.7+24+deb13u1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"xserver-xorg-core",
+		"xserver-xorg-video-all | xorg-driver-video",
+		"xserver-xorg-input-all | xorg-driver-input",
+		"xkb-data",
+		"x11-xkb-utils"
+	],
+	"recommends": [
+		"libgl1-mesa-dri",
+		"xserver-xorg-legacy"
+	],
+	"installedSize": 203,
+	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
+	"description": "X.Org X server",
+	"homepage": "https://www.x.org/",
+	"filename": "pool/main/x/xorg/xserver-xorg_7.7+24+deb13u1_amd64.deb",
+	"size": 58444,
+	"md5": "bb5e2fea27687ae7673d55c791ce9faa",
+	"sha256": "62dd6087e6553dcdd12ce55e84dfa107a69539078f10caa2e5a45a946b28c8e6",
+	"descriptionMd5": "3d8c1d268e8af6b69f54d86fbd5a3939"
+}

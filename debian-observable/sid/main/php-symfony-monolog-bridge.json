@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-monolog-bridge",
+	"source": "symfony",
+	"version": "7.4.8+dfsg-1",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-monolog (>= 3)",
+		"php-monolog (<< 4~~)",
+		"php-symfony-deprecation-contracts",
+		"php-symfony-service-contracts",
+		"php-symfony-http-kernel"
+	],
+	"breaks": [
+		"php-symfony-console (<< 6.4~~)",
+		"php-symfony-http-foundation (<< 6.4~~)",
+		"php-symfony-security-core (<< 6.4~~)"
+	],
+	"installedSize": 127,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "integration for Monolog with Symfony Components",
+	"homepage": "https://symfony.com/",
+	"filename": "pool/main/s/symfony/php-symfony-monolog-bridge_7.4.8+dfsg-1_all.deb",
+	"size": 29528,
+	"md5": "2569fea2596be6a4134220ea0df94997",
+	"sha256": "de118f6179dcc179f59000c70c65a75413279023347caa3a50edc0a7ef7da110",
+	"descriptionMd5": "e8af508e1bdfc95599356d67791b5d95"
+}]

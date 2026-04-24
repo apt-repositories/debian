@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-host",
+	"source": "bind9",
+	"version": "1:9.20.22-1",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-libs (= 1:9.20.22-1)",
+		"libc6 (>= 2.38)",
+		"libidn2-0 (>= 2.0.0)"
+	],
+	"replaces": [
+		"bind-host (<< 1:9.13.6~)"
+	],
+	"breaks": [
+		"bind-host (<< 1:9.13.6~)"
+	],
+	"installedSize": 136,
+	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
+	"description": "DNS Lookup Utility",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/bind9-host_9.20.22-1_amd64.deb",
+	"size": 51056,
+	"md5": "fb21da27b39232066f93b72a9ffd6cf1",
+	"sha256": "8f14614a4794b79c459372096d4c6afbcb1182bdc8d775bc500cd40e0b1e2a76",
+	"descriptionMd5": "2dd2359e6a96f700ef352e6924685162"
+}

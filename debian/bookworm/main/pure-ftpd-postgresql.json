@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pure-ftpd-postgresql",
+	"source": "pure-ftpd (1.0.50-2.1)",
+	"version": "1.0.50-2.1+b2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.2-14)",
+		"pure-ftpd-common (= 1.0.50-2.1)",
+		"libc6 (>= 2.33)",
+		"libcap2 (>= 1:2.10)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpq5",
+		"libsodium23 (>= 1.0.10)",
+		"libssl3 (>= 3.0.0)",
+		"openbsd-inetd | inet-superserver"
+	],
+	"replaces": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"conflicts": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"installedSize": 688,
+	"maintainer": "Stefan Hornburg (Racke) <racke@linuxia.de>",
+	"description": "Secure and efficient FTP server with PostgreSQL user authentication",
+	"homepage": "https://www.pureftpd.org/project/pure-ftpd/",
+	"filename": "pool/main/p/pure-ftpd/pure-ftpd-postgresql_1.0.50-2.1+b2_amd64.deb",
+	"size": 177756,
+	"md5": "81c5c7df71bacde670ab8d80c81e44e4",
+	"sha256": "c49fc2b7ac4bdc1b038eff21683abd55eae2a41eff4af8ecb6ff031f524325b7",
+	"descriptionMd5": "10ce8669d0de227b915f7794f62f9f07"
+}

@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-418-nonglvnd-vulkan-icd",
+	"source": "nvidia-graphics-drivers-tesla-418",
+	"version": "418.226.00-6~deb11u2",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-nonglvnd-vulkan-common",
+		"libvulkan1 (>= 1.0.42)",
+		"libgl1-nvidia-tesla-418-glx (= 418.226.00-6~deb11u2)",
+		"libnvidia-tesla-418-glvkspirv (= 418.226.00-6~deb11u2)"
+	],
+	"recommends": [
+		"libnvidia-tesla-418-cbl (= 418.226.00-6~deb11u2)",
+		"libnvidia-tesla-418-rtcore (= 418.226.00-6~deb11u2)"
+	],
+	"suggests": [
+		"vulkan-utils"
+	],
+	"enhances": [
+		"libvulkan1"
+	],
+	"conflicts": [
+		"nvidia-tesla-418-vulkan-icd"
+	],
+	"installedSize": 224,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA Vulkan ICD (non-GLVND variant) (Tesla 418 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-418/nvidia-tesla-418-nonglvnd-vulkan-icd_418.226.00-6~deb11u2_amd64.deb",
+	"size": 211344,
+	"md5": "24e532fd2a545bb725ba8b11dc234253",
+	"sha256": "6fb91bf35972dabca1532672040ab4945f7cb061071809a7e29fd6534f956612",
+	"descriptionMd5": "dc9a78f6400c105c889749d5ff87ea2e"
+}

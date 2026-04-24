@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clang-21",
+	"source": "llvm-toolchain-21 (1:21.1.8-7)",
+	"version": "1:21.1.8-7+b1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libclang-cpp21 (>= 1:21.1.8)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm21 (= 1:21.1.8-7+b1)",
+		"libstdc++6 (>= 11)",
+		"libstdc++-15-dev",
+		"libgcc-15-dev",
+		"libobjc-15-dev",
+		"libclang-common-21-dev (= 1:21.1.8-7+b1)",
+		"llvm-21-linker-tools (= 1:21.1.8-7+b1)",
+		"libclang1-21 (= 1:21.1.8-7+b1)",
+		"libc6-dev",
+		"binutils"
+	],
+	"recommends": [
+		"llvm-21-dev",
+		"python3",
+		"clang-tools-21"
+	],
+	"suggests": [
+		"clang-21-doc",
+		"wasi-libc"
+	],
+	"replaces": [
+		"clang-tools-21 (<< 1:21.1.4-4)"
+	],
+	"breaks": [
+		"clang-tools-21 (<< 1:21.1.4-4)"
+	],
+	"installedSize": 493,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "C, C++ and Objective-C compiler",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-21/clang-21_21.1.8-7+b1_amd64.deb",
+	"size": 138392,
+	"md5": "6270c6b301c065a1ed7884f08e0eb801",
+	"sha256": "8f31e7f58b0bff098c25350411e2df2e86e041515ad287f06619260acc3188ef",
+	"descriptionMd5": "c364160e44345420df0f2e97b3082b69"
+}

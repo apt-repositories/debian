@@ -1,0 +1,59 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "jabberd2",
+	"version": "2.7.0-8",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libdb5.3t64",
+		"libexpat1 (>= 2.1~beta3)",
+		"libgsasl18 (>= 1.1)",
+		"libhttp-parser2.9 (>= 2.1)",
+		"libidn12 (>= 1.13)",
+		"libldap2 (>= 2.6.2)",
+		"libmariadb3 (>= 3.0.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpq5",
+		"libsqlite3-0 (>= 3.5.9)",
+		"libssl3t64 (>= 3.0.0)",
+		"libudns0t64 (>= 0.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"adduser (>= 3.145)",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"jabberd2-bdb",
+		"jabberd2-ldap-bdb",
+		"jabberd2-ldap-mysql",
+		"jabberd2-ldap-pgsql",
+		"jabberd2-mysql",
+		"jabberd2-pgsql"
+	],
+	"conflicts": [
+		"jabberd2-bdb",
+		"jabberd2-ldap-bdb",
+		"jabberd2-ldap-mysql",
+		"jabberd2-ldap-pgsql",
+		"jabberd2-mysql",
+		"jabberd2-pgsql"
+	],
+	"installedSize": 2169,
+	"maintainer": "Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>",
+	"description": "Jabber instant messenger server",
+	"homepage": "https://jabberd2.org/",
+	"filename": "pool/main/j/jabberd2/jabberd2_2.7.0-8_amd64.deb",
+	"size": 367264,
+	"md5": "a276916e3b80520c77d8e02b75bcf0e3",
+	"sha256": "5058932ab9f5c0b67366f8e89d41255cdc4e1d718c50acee978c4b77bfdc0a06",
+	"descriptionMd5": "e73b33867c7220d068eac469d8a52925"
+}

@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "podman",
+	"source": "libpod",
+	"version": "3.0.1+dfsg1-3+deb11u5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.52)",
+		"libc6 (>= 2.15)",
+		"libdevmapper1.02.1 (>= 2:1.02.97)",
+		"libgpgme11 (>= 1.4.1)",
+		"libseccomp2 (>= 2.4.1)",
+		"conmon (>= 2.0.18~)",
+		"containernetworking-plugins (>= 0.8.7)",
+		"golang-github-containers-common",
+		"crun | runc (>= 1.0.0~rc92~)",
+		"iptables"
+	],
+	"recommends": [
+		"buildah (>= 1.10.1-6~)",
+		"fuse-overlayfs (>= 1.0.0~)",
+		"slirp4netns (>= 0.4.1~)",
+		"catatonit | tini | dumb-init",
+		"uidmap",
+		"golang-github-containernetworking-plugin-dnsname"
+	],
+	"suggests": [
+		"containers-storage",
+		"docker-compose"
+	],
+	"breaks": [
+		"buildah (<< 1.10.1-6)",
+		"fuse-overlayfs (<< 0.7.1)",
+		"slirp4netns (<< 0.4.1)"
+	],
+	"installedSize": 36416,
+	"maintainer": "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>",
+	"description": "engine to run OCI-based containers in Pods",
+	"homepage": "https://github.com/containers/podman",
+	"builtUsing": "containerd (= 1.4.13~ds1-1~deb11u4), continuity (= 0.0~git20201208.1805252-2), docker-registry (= 2.7.1+ds2-7+deb11u1), docker.io (= 20.10.5+dfsg1-1+deb11u2), golang-1.15 (= 1.15.15-1~deb11u4), golang-dbus (= 5.0.3-2), golang-fsnotify (= 1.4.9-2), golang-ginkgo (= 1.14.2-1), golang-github-acarl005-stripansi (= 0.0~git20180116.5a71ef0-2), golang-github-appc-cni (= 0.8.1-1), golang-github-beorn7-perks (= 1.0.1-1), golang-github-blang-semver (= 3.6.1-2), golang-github-buger-goterm (= 0.0+git20181115.c206103-2), golang-github-cespare-xxhash (= 2.1.1-1), golang-github-checkpoint-restore-go-criu (= 4.1.0-3), golang-github-chzyer-readline (= 1.4.39.g2972be2-1), golang-github-containernetworking-plugins (= 0.9.0-1), golang-github-containers-buildah (= 1.19.6+dfsg1-1), golang-github-containers-common (= 0.33.4+ds1-1+deb11u2), golang-github-containers-image (= 5.10.3-1), golang-github-containers-ocicrypt (= 1.0.3-1), golang-github-containers-psgo (= 1.5.2-1+deb11u1), golang-github-containers-storage (= 1.24.8+dfsg1-1+deb11u1), golang-github-coreos-bbolt (= 1.3.5-1), golang-github-coreos-go-iptables (= 0.5.0-1), golang-github-coreos-go-systemd (= 22.1.0-3), golang-github-cyphar-filepath-securejoin (= 0.2.2-2), golang-github-davecgh-go-spew (= 1.1.1-2), golang-github-docker-docker-credential-helpers (= 0.6.3-1), golang-github-docker-go-connections (= 0.4.0-3), golang-github-docker-go-metrics (= 0.0.1-1), golang-github-docker-go-units (= 0.4.0-3), golang-github-docker-libtrust (= 0.0~git20150526.0.9cbd2a1-3.1), golang-github-docker-spdystream (= 0.2.0-1), golang-github-fsouza-go-dockerclient (= 1.6.6-1), golang-github-fullsailor-pkcs7 (= 0.0~git20190404.d7302db-2), golang-github-ghodss-yaml (= 1.0.0-1.1), golang-github-google-gofuzz (= 1.2.0-1), golang-github-google-shlex (= 0.0~git20191202.e7afc7f-1), golang-github-google-uuid (= 1.2.0-1), golang-github-gorilla-mux (= 1.7.4-1), golang-github-hashicorp-errwrap (= 1.1.0-1), golang-github-hashicorp-go-multierror (= 1.1.0-1), golang-github-influxdata-tail (= 1.0.0+git20180327.c434825-4), golang-github-ishidawataru-sctp (= 0.0+git20190723.7c296d4-3), golang-github-json-iterator-go (= 1.1.10-2), golang-github-juju-ansiterm (= 0.0~git20161107.35c59b9-3), golang-github-klauspost-compress (= 1.11.7-2), golang-github-klauspost-pgzip (= 1.2.5-1), golang-github-lunixbochs-vtclean (= 1.0.0-1), golang-github-manifoldco-promptui (= 0.8.0-2), golang-github-mattn-go-colorable (= 0.1.7-1), golang-github-mattn-go-isatty (= 0.0.12-1), golang-github-moby-sys (= 0.0~git20201113.5a29239-1), golang-github-moby-term (= 0.0~git20201110.bea5bbe-1), golang-github-modern-go-concurrent (= 1.0.3-1.1), golang-github-modern-go-reflect2 (= 1.0.1-1), golang-github-morikuni-aec (= 1.0.0-2), golang-github-opencontainers-go-digest (= 1.0.0-1), golang-github-opencontainers-image-spec (= 1.0.1-5), golang-github-opencontainers-runtime-tools (= 0.9.0+dfsg-2), golang-github-opencontainers-selinux (= 1.8.0-1), golang-github-opencontainers-specs (= 1.0.2.41.g7413a7f-1+deb11u1), golang-github-openshift-imagebuilder (= 1.1.6-2), golang-github-opentracing-opentracing-go (= 1.2.0-1), golang-github-pkg-errors (= 0.9.1-1), golang-github-pmezard-go-difflib (= 1.0.0-3), golang-github-pquerna-ffjson (= 0.0~git20181028.e517b90-1.1), golang-github-proglottis-gpgme (= 0.1.1-1), golang-github-prometheus-client-golang (= 1.9.0-2), golang-github-prometheus-client-model (= 0.2.0-2), golang-github-prometheus-common (= 0.15.0-2), golang-github-prometheus-procfs (= 0.3.0-2), golang-github-safchain-ethtool (= 0.0~git20201023.874930c-1), golang-github-spf13-cobra (= 1.1.2-1), golang-github-spf13-pflag (= 1.0.5-2), golang-github-ulikunitz-xz (= 0.5.6-2), golang-github-vbatts-tar-split (= 0.11.1-2), golang-github-vbauerster-mpb (= 5.0.3-2), golang-github-vishvananda-netlink (= 1.1.0-2), golang-github-vishvananda-netns (= 0.0~git20200728.db3c7e5-1), golang-github-vividcortex-ewma (= 1.1.1-2), golang-github-willf-bitset (= 1.1.11-1), golang-github-xeipuuv-gojsonpointer (= 0.0~git20190905.02993c4-1), golang-github-xeipuuv-gojsonreference (= 0.0~git20180127.bd5ef7b-2), golang-github-xeipuuv-gojsonschema (= 1.2.0-1), golang-go-patricia (= 2.2.6-5), golang-go-zfs (= 2.1.1.49.gf784269-1), golang-go.crypto (= 1:0.0~git20201221.eec23a3-1), golang-go.uber-atomic (= 1.4.0-1), golang-gocapability-dev (= 0.0+git20200815.42c35b4-1), golang-gogoprotobuf (= 1.3.2-1), golang-golang-x-net (= 1:0.0+git20210119.5f4716e+dfsg-4), golang-golang-x-oauth2 (= 0.0~git20190604.0f29369-2), golang-golang-x-sync (= 0.0~git20210220.036812b-1), golang-golang-x-sys (= 0.0~git20210124.22da62e-1), golang-golang-x-term (= 0.0~git20201210.2321bbc-1), golang-golang-x-text (= 0.3.6-1), golang-golang-x-time (= 0.0+git20200630.3af7569-1), golang-golang-x-xerrors (= 0.0~git20191204.9bdfabe-1), golang-gomega (= 1.10.3-1), golang-google-genproto (= 0.0~git20200413.b5235f6-1), golang-google-grpc (= 1.27.1-1), golang-gopkg-inf.v0 (= 0.9.1-1), golang-gopkg-square-go-jose.v2 (= 2.5.1-2), golang-gopkg-tomb.v1 (= 0.0~git20141024.0.dd63297-7), golang-goprotobuf (= 1.3.4-2), golang-k8s-sigs-structured-merge-diff (= 4.0.2+ds1-2), golang-k8s-sigs-yaml (= 1.2.0-3), golang-logrus (= 1.7.0-2), golang-protobuf-extensions (= 1.0.1-1), golang-toml (= 0.3.1-1), golang-yaml.v2 (= 2.4.0-1), rootlesskit (= 0.14.2-1), runc (= 1.0.0~rc93+ds1-5+deb11u2)",
+	"filename": "pool/main/libp/libpod/podman_3.0.1+dfsg1-3+deb11u5_amd64.deb",
+	"size": 9519460,
+	"md5": "f1395a503a64507e64a76558a3d37878",
+	"sha256": "bd6bfe24003090a7d2167ff40ed837ec9d345a65c18df59d8020372cbc9df4cc",
+	"descriptionMd5": "5e601f54db60d5a494eef41932519387"
+}]

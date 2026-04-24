@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcrypt-cbc-perl",
+	"version": "3.07-1",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libcrypt-pbkdf2-perl",
+		"libcrypt-rijndael-perl | libcrypt-blowfish-perl | libcrypt-des-perl | libcrypt-des-ede3-perl | libcrypt-cast5-perl",
+		"libcrypt-urandom-perl",
+		"libcryptx-perl"
+	],
+	"recommends": [
+		"libmath-int128-perl"
+	],
+	"breaks": [
+		"libdancer-session-cookie-perl (<< 0.30-3~)",
+		"libsession-storage-secure-perl (<< 1.000)"
+	],
+	"installedSize": 103,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "implementation of cipher block chaining (CBC) mode",
+	"homepage": "https://metacpan.org/release/Crypt-CBC",
+	"filename": "pool/main/libc/libcrypt-cbc-perl/libcrypt-cbc-perl_3.07-1_all.deb",
+	"size": 38000,
+	"md5": "9d6a0ad68930dc871ea6f7e7a88cc71c",
+	"sha256": "909958c9267ef91c94d4369175bd378cca17a93837d9de2e08a34c3a8fa7fedf",
+	"descriptionMd5": "68a81a5da23746b3b6ee87d5ff707047"
+}]

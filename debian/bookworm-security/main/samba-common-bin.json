@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-common-bin",
+	"source": "samba",
+	"version": "2:4.17.12+dfsg-0+deb12u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3",
+		"python3-samba",
+		"samba-common (= 2:4.17.12+dfsg-0+deb12u1)",
+		"samba-libs (= 2:4.17.12+dfsg-0+deb12u1)",
+		"python3:any",
+		"libbsd0 (>= 0.3.0)",
+		"libc6 (>= 2.34)",
+		"libcups2 (>= 1.7.0)",
+		"libgnutls30 (>= 3.7.0)",
+		"libjansson4 (>= 2.14)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libncurses6 (>= 6)",
+		"libpopt0 (>= 1.14)",
+		"libreadline8 (>= 6.0)",
+		"libtalloc2 (>= 2.3.4~)",
+		"libtdb1 (>= 1.4.7~)",
+		"libtevent0 (>= 0.13.0~)",
+		"libtinfo6 (>= 6)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)"
+	],
+	"recommends": [
+		"samba-dsdb-modules"
+	],
+	"suggests": [
+		"heimdal-clients",
+		"python3-markdown",
+		"python3-dnspython"
+	],
+	"replaces": [
+		"samba (<< 2:4.16.2+dfsg-1~)"
+	],
+	"breaks": [
+		"samba (<< 2:4.16.2+dfsg-1~)"
+	],
+	"installedSize": 4435,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Samba common files used by both the server and the client",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/updates/main/s/samba/samba-common-bin_4.17.12+dfsg-0+deb12u1_amd64.deb",
+	"size": 1178928,
+	"sha256": "e63f7978ef3b3a22c8bf12ce03c266856b8c1754e35fb1bca205d9ae707a0b7c",
+	"descriptionMd5": "775fda307dffd7f9b9d7ea36ffdb4a79"
+}

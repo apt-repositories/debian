@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-legacy-390xx-vdpau-driver",
+	"source": "nvidia-graphics-drivers-legacy-390xx",
+	"version": "390.157-1~deb11u1",
+	"section": "non-free/video",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvdpau1 (>= 0.9)",
+		"nvidia-legacy-390xx-alternative (= 390.157-1~deb11u1)",
+		"libc6 (>= 2.2.5)",
+		"libx11-6",
+		"libxext6"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-legacy-390xx-kernel-dkms (= 390.157-1~deb11u1) | nvidia-legacy-390xx-kernel-390.157"
+	],
+	"suggests": [
+		"nvidia-legacy-390xx-kernel-dkms (>= 390.157) | nvidia-legacy-390xx-kernel-source (>= 390.157)"
+	],
+	"enhances": [
+		"libvdpau1"
+	],
+	"installedSize": 1246,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "Video Decode and Presentation API for Unix - NVIDIA driver (390xx legacy)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-legacy-390xx/nvidia-legacy-390xx-vdpau-driver_390.157-1~deb11u1_amd64.deb",
+	"size": 847128,
+	"md5": "496c0199197385ef94eb2a23fac6dad2",
+	"sha256": "e9e19b4f4dfdbe3d694ee106c6fd82f474c1b689b90a5b5870d0cf8ef3879f35",
+	"descriptionMd5": "2ecd24f81031aa31236c382e26c97088"
+}

@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nfs-ganesha",
+	"version": "9.6-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"default-dbus-system-bus | dbus-system-bus",
+		"nfs-common",
+		"rpcbind",
+		"libacl1 (>= 2.2.23)",
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libdbus-1-3 (>= 1.10)",
+		"libgcc-s1 (>= 3.0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libnfsidmap1 (>= 1:2.9.1)",
+		"libntirpc7.2 (>= 7.2)",
+		"libstdc++6 (>= 11)",
+		"liburcu8t64 (>= 0.13.0)",
+		"libuuid1 (>= 2.16)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)"
+	],
+	"replaces": [
+		"python3-nfs-ganesha (<< 7.0-1)"
+	],
+	"breaks": [
+		"python3-nfs-ganesha (<< 7.0-1)"
+	],
+	"installedSize": 2747,
+	"maintainer": "Christoph Martin <chrism@debian.org>",
+	"description": "NFS server in User Space",
+	"homepage": "https://github.com/nfs-ganesha/nfs-ganesha",
+	"filename": "pool/main/n/nfs-ganesha/nfs-ganesha_9.6-1_amd64.deb",
+	"size": 897160,
+	"md5": "780c95618e2dac2ff8433be33e83ba58",
+	"sha256": "892989b24b248a6563f1fdcbb4d3d56d1d5b303240647f6e3c87abb2269b18b9",
+	"descriptionMd5": "f71229d779c48b29a16d7e09c4979e7b"
+}

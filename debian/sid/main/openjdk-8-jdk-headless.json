@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-8-jdk-headless",
+	"source": "openjdk-8",
+	"version": "8u482-ga-1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-8-jre-headless (= 8u482-ga-1)",
+		"libc6 (>= 2.34)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"openjdk-8-demo",
+		"openjdk-8-source"
+	],
+	"replaces": [
+		"openjdk-8-jdk (<< 8u72-b15-4)",
+		"openjdk-8-jre-headless (<< 8u232-b07-1)"
+	],
+	"breaks": [
+		"openjdk-8-jre-headless (<< 8u232-b07-1)"
+	],
+	"installedSize": 38852,
+	"maintainer": "Java Maintenance <pkg-java-maintainers@lists.alioth.debian.org>",
+	"description": "OpenJDK Development Kit (JDK) (headless)",
+	"homepage": "https://openjdk.org/projects/jdk8u/",
+	"filename": "pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u482-ga-1_amd64.deb",
+	"size": 8214680,
+	"md5": "232aa625fe5f951670f33c79c3f1835d",
+	"sha256": "fe9602572176c83ffdaf1e9cde4df00e4960df268de6b577519ed27c52bac5ae",
+	"descriptionMd5": "8728353da59d7b1608e908f191d9b820"
+}

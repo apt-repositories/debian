@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-sh4-linux-gnu",
+	"source": "binutils",
+	"version": "2.40-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.40-2)",
+		"libbinutils (>= 2.39.50)",
+		"libc6 (>= 2.34)",
+		"libjansson4 (>= 2.14)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.40-2)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 5077,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities, for sh4-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-sh4-linux-gnu_2.40-2_amd64.deb",
+	"size": 1263492,
+	"md5": "3955220af6c844f2abe3f174d4c5af6b",
+	"sha256": "8489b313488bce6734403ba148d58a81e09cbb74c9c6fbc1940a3f052439c677",
+	"descriptionMd5": "e61f3b77cc63b27f48701208c29346bc"
+}]

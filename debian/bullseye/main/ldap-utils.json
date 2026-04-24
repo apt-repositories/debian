@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ldap-utils",
+	"source": "openldap",
+	"version": "2.4.57+dfsg-3+deb11u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libldap-2.4-2 (= 2.4.57+dfsg-3+deb11u1)",
+		"libsasl2-2 (>= 2.1.27+dfsg)"
+	],
+	"suggests": [
+		"libsasl2-modules",
+		"libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal"
+	],
+	"replaces": [
+		"openldap-utils",
+		"openldapd",
+		"slapd (<< 2.2.23-0.pre6)"
+	],
+	"conflicts": [
+		"ldap-client",
+		"openldap-utils",
+		"umich-ldap-utils"
+	],
+	"installedSize": 719,
+	"maintainer": "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>",
+	"description": "OpenLDAP utilities",
+	"homepage": "https://www.openldap.org/",
+	"filename": "pool/main/o/openldap/ldap-utils_2.4.57+dfsg-3+deb11u1_amd64.deb",
+	"size": 206480,
+	"md5": "6cbeff879329a14f66532155612da19c",
+	"sha256": "d38d74ca34058dfc08b401b05419e54d455c6de8d2426b9c0553fc7d71a00871",
+	"descriptionMd5": "f5d300156245ae8fa5972cf30bf60206"
+}

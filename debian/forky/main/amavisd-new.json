@@ -1,0 +1,80 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amavisd-new",
+	"version": "1:2.13.0-7",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf | debconf-2.0",
+		"file",
+		"libarchive-tar-perl",
+		"libarchive-zip-perl",
+		"libberkeleydb-perl",
+		"libconvert-tnef-perl",
+		"libconvert-uulib-perl",
+		"libdigest-md5-perl",
+		"libio-stringy-perl",
+		"libmail-dkim-perl",
+		"libmailtools-perl",
+		"libmime-base64-perl",
+		"libmime-tools-perl",
+		"libnet-libidn-perl",
+		"libnet-server-perl",
+		"libtime-hires-perl",
+		"libunix-syslog-perl",
+		"libnet-snmp-perl",
+		"pax",
+		"perl | libcompress-raw-zlib-perl",
+		"init-system-helpers (>= 1.51)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"perl:any"
+	],
+	"recommends": [
+		"altermime",
+		"libnet-patricia-perl"
+	],
+	"suggests": [
+		"apt-listchanges",
+		"arj",
+		"cabextract",
+		"clamav",
+		"clamav-daemon",
+		"cpio",
+		"dspam",
+		"lhasa",
+		"libauthen-sasl-perl",
+		"libdbi-perl",
+		"libjson-perl",
+		"liblwp-protocol-https-perl",
+		"libnet-ldap-perl",
+		"libnet-ssleay-perl",
+		"libsnmp-perl",
+		"libwww-perl",
+		"lzop",
+		"nomarch",
+		"7zip",
+		"rpm",
+		"spamassassin",
+		"unrar"
+	],
+	"replaces": [
+		"amavis"
+	],
+	"conflicts": [
+		"amavis"
+	],
+	"installedSize": 2770,
+	"maintainer": "Brian May <bam@debian.org>",
+	"description": "Interface between MTA and virus scanner/content filters",
+	"homepage": "https://www.ijs.si/software/amavisd/",
+	"filename": "pool/main/a/amavisd-new/amavisd-new_2.13.0-7_all.deb",
+	"size": 922632,
+	"md5": "3287f1c2b1228e88aa0eb49e356cd69c",
+	"sha256": "4afa07f9b58ac2252dadca2127c46c58484642afbc7f2e7b8e3b0283e6181b52",
+	"descriptionMd5": "d95fd9c270e69763b2674a7c7629b731"
+}

@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-cron",
+	"source": "pg-cron",
+	"version": "1.6.7-2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libpq5 (>= 9.0~)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 228,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Run periodic jobs in PostgreSQL",
+	"homepage": "https://github.com/citusdata/pg_cron",
+	"filename": "pool/main/p/pg-cron/postgresql-18-cron_1.6.7-2_amd64.deb",
+	"size": 91716,
+	"md5": "7ccc063aa4b4c4199d0fda57c85bbd2f",
+	"sha256": "523d0164abfbfae7c129cb522bc15588028188156f04a86bd606ecb2c0ab58a5",
+	"descriptionMd5": "b733e29764720cd3b047e4ca93764fb2"
+}

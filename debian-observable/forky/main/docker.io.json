@@ -1,0 +1,54 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "docker.io",
+	"version": "28.5.2+dfsg3-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libsystemd0",
+		"adduser",
+		"containerd (>= 1.4~)",
+		"iptables",
+		"sysvinit-utils (>= 3.05-4~)",
+		"runc (>= 1.0.0~rc8~)",
+		"tini-static"
+	],
+	"recommends": [
+		"apparmor",
+		"ca-certificates",
+		"dbus-user-session",
+		"docker-cli",
+		"git",
+		"needrestart (>= 3.1~)",
+		"xz-utils"
+	],
+	"suggests": [
+		"docker-doc",
+		"btrfs-progs",
+		"debootstrap",
+		"e2fsprogs",
+		"rinse",
+		"rootlesskit",
+		"xfsprogs",
+		"zfs-fuse | zfsutils-linux"
+	],
+	"conflicts": [
+		"docker-ce",
+		"docker-ce-rootless-extras"
+	],
+	"installedSize": 79023,
+	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
+	"description": "Linux container runtime",
+	"homepage": "https://mobyproject.org",
+	"filename": "pool/main/d/docker.io/docker.io_28.5.2+dfsg3-2_amd64.deb",
+	"size": 18525264,
+	"md5": "9b0c9c96c60c607e93a07decb18e7858",
+	"sha256": "462fcffd13770fed9e5eecbcd1831b7945df245bb5283c737c482d0a197e8bad",
+	"descriptionMd5": "4a03492da69539298aabee83f66e8533"
+}]

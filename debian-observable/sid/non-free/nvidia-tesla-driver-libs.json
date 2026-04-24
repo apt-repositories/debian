@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-driver-libs",
+	"source": "nvidia-graphics-drivers-tesla",
+	"version": "525.147.05-18",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-driver-libs"
+	],
+	"breaks": [
+		"libegl1-nvidia-tesla",
+		"libgl1-nvidia-tesla-glx",
+		"nvidia-tesla-driver-libs-nonglvnd",
+		"nvidia-tesla-nonglvnd-vulkan-icd"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia"
+	],
+	"installedSize": 136,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (OpenGL/GLX/EGL/GLES libraries) (Tesla version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla/nvidia-tesla-driver-libs_525.147.05-18_amd64.deb",
+	"size": 114976,
+	"md5": "678a3416b3e387d01f135abd3cc64196",
+	"sha256": "1e0be879a01a5c0bbf880e0871c6293e321177f277587a7977d06a1c0334f22f",
+	"descriptionMd5": "5dbf12877f7afc02100aa32633555d69"
+}]

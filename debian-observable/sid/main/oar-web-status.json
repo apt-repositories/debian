@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "oar-web-status",
+	"source": "oar",
+	"version": "2.6.1-1",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apache2 | httpd-cgi",
+		"perl:any",
+		"libdbi-perl",
+		"libdbd-mysql-perl | libdbd-pg-perl",
+		"libtie-ixhash-perl",
+		"libappconfig-perl",
+		"libsort-naturally-perl",
+		"libutf8-all-perl",
+		"libcgi-fast-perl",
+		"php",
+		"php-mysql | php-pgsql"
+	],
+	"suggests": [
+		"oar-doc"
+	],
+	"installedSize": 251,
+	"maintainer": "Pierre Neyron <pierre.neyron@free.fr>",
+	"description": "OAR batch scheduler visualization tool package",
+	"homepage": "http://oar.imag.fr/",
+	"filename": "pool/main/o/oar/oar-web-status_2.6.1-1_all.deb",
+	"size": 59580,
+	"md5": "e2769b9edba995089d30636b3751affc",
+	"sha256": "ea0cb3cb516be552f6dd138e26d9c16fca0e86fd04444308a739a3a24d070751",
+	"descriptionMd5": "2caa2e99cfc3ef4c1f7f073f7c114bb2"
+}]

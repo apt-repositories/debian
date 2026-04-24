@@ -1,0 +1,54 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mon",
+	"source": "etbemon",
+	"version": "1.3.5-6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mon-client (>= 1.2.0)",
+		"libtime-period-perl",
+		"adduser",
+		"libc6 (>= 2.4)"
+	],
+	"recommends": [
+		"fping",
+		"libauthen-pam-perl",
+		"libfilesys-df-perl",
+		"libnet-perl",
+		"libnet-dns-perl",
+		"libnet-ldap-perl",
+		"libnet-telnet-perl",
+		"libsnmp-perl",
+		"libstatistics-descriptive-perl",
+		"libtime-parsedate-perl",
+		"libcrypt-ssleay-perl",
+		"libmail-imapclient-perl",
+		"libtimedate-perl",
+		"swaks",
+		"libcgi-pm-perl",
+		"bc",
+		"libproc-processtable-perl",
+		"libsys-filesystem-perl"
+	],
+	"suggests": [
+		"mon-contrib"
+	],
+	"conflicts": [
+		"mon-contrib (<= 1.0+dfsg-3+nmu1)"
+	],
+	"installedSize": 1080,
+	"maintainer": "Debian Mon Maintainers <pkg-monitoring-maintainers@lists.alioth.debian.org>",
+	"description": "monitor hosts/services/whatever and alert about problems",
+	"homepage": "https://doc.coker.com.au/projects/etbe-mon/",
+	"filename": "pool/main/e/etbemon/mon_1.3.5-6_amd64.deb",
+	"size": 293768,
+	"md5": "e2be702167e54802868ff5b50293cf99",
+	"sha256": "90f1da3f44c015598428d71767dd904523d326e851ba5be848171829d811c789",
+	"descriptionMd5": "40263012d1b466f3789ea2f3dff1fcd9"
+}]

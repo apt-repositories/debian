@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "llvm-19-dev",
+	"source": "llvm-toolchain-19",
+	"version": "1:19.1.7-3~deb11u1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.2.5)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm19 (= 1:19.1.7-3~deb11u1)",
+		"libstdc++6 (>= 4.1.1)",
+		"libffi-dev",
+		"llvm-19 (= 1:19.1.7-3~deb11u1)",
+		"libncurses-dev",
+		"llvm-19-tools (= 1:19.1.7-3~deb11u1)",
+		"libclang-cpp19 (= 1:19.1.7-3~deb11u1)",
+		"libxml2-dev"
+	],
+	"replaces": [
+		"libllvm19 (<< 1:19.1.0-4)"
+	],
+	"breaks": [
+		"libllvm19 (<< 1:19.1.0-4)"
+	],
+	"installedSize": 356598,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Modular compiler and toolchain technologies, libraries and headers",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/updates/main/l/llvm-toolchain-19/llvm-19-dev_19.1.7-3~deb11u1_amd64.deb",
+	"size": 44330872,
+	"sha256": "4fc3b626ad93fa57509ad7769359432b229de8d4ee07761338d07ec6f35924d9",
+	"descriptionMd5": "29f654aa391c01f742a2023c872d7a49"
+}]

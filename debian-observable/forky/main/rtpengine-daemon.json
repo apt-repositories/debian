@@ -1,0 +1,66 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rtpengine-daemon",
+	"source": "rtpengine",
+	"version": "13.5.1.9-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libavcodec62 (>= 7:8.1)",
+		"libavformat62 (>= 7:8.1)",
+		"libavutil60 (>= 7:8.1)",
+		"libbcg729-0 (>= 1.0.0)",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libglib2.0-0t64 (>= 2.76.0)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"libip4tc2 (>= 1.8.3)",
+		"libip6tc2 (>= 1.8.3)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
+		"libmariadb3 (>= 3.0.0)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libmosquitto1 (>= 1.6)",
+		"libnftnl11 (>= 1.1.2)",
+		"libopus0 (>= 1.1)",
+		"libpcap0.8t64 (>= 0.9.8)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libspandsp2t64 (>= 0.0.6)",
+		"libssl3t64 (>= 3.0.0)",
+		"libswresample6 (>= 7:8.1)",
+		"libsystemd0",
+		"liburing2 (>= 2.3)",
+		"libwebsockets19t64 (>= 2.4.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"recommends": [
+		"rtpengine-perftest",
+		"rtpengine-recording-daemon",
+		"rtpengine-utils"
+	],
+	"replaces": [
+		"rtpengine-iptables"
+	],
+	"conflicts": [
+		"ngcp-rtpengine-daemon",
+		"rtpengine-iptables"
+	],
+	"installedSize": 1784,
+	"maintainer": "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>",
+	"description": "proxy for RTP and media streams used in NGCP, userspace part",
+	"homepage": "https://github.com/sipwise/rtpengine/",
+	"filename": "pool/main/r/rtpengine/rtpengine-daemon_13.5.1.9-1_amd64.deb",
+	"size": 608604,
+	"md5": "b2ca12904f05faca429638e8b892876c",
+	"sha256": "d4279f2d742ef6923bd82ff6248a202230447ce7ec9332bfd0242ea9ff281633",
+	"descriptionMd5": "385824689e327542f7397f02667ac52d"
+}]

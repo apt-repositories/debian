@@ -1,0 +1,74 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sbuild",
+	"version": "0.91.5~bpo13+1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libsbuild-perl (= 0.91.5~bpo13+1)",
+		"iproute2 | sbuild-schroot",
+		"uidmap | sbuild-schroot",
+		"mount | sbuild-schroot",
+		"passwd | sbuild-schroot",
+		"perl:any"
+	],
+	"recommends": [
+		"mmdebstrap (>= 1.4.0)",
+		"sbuild-schroot",
+		"dpkg-dev",
+		"apt-utils"
+	],
+	"suggests": [
+		"autopkgtest",
+		"piuparts"
+	],
+	"installedSize": 157,
+	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
+	"description": "Tool for building Debian binary packages from Debian sources",
+	"filename": "pool/main/s/sbuild/sbuild_0.91.5~bpo13+1_all.deb",
+	"size": 76652,
+	"sha256": "5338b31584b337173156d7b3d37144f34621ad944c1ad49fec41d96e4fc6782b",
+	"descriptionMd5": "52a7efe774c1dc4d9d877e9d259442b5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sbuild",
+	"version": "0.89.3+deb13u4",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"libsbuild-perl (= 0.89.3+deb13u4)",
+		"perl:any"
+	],
+	"recommends": [
+		"autopkgtest (>= 4.0.4)",
+		"debootstrap",
+		"schroot (>= 1.6.0)",
+		"uidmap",
+		"mmdebstrap (>= 1.4.0)",
+		"iproute2"
+	],
+	"suggests": [
+		"e2fsprogs",
+		"kmod",
+		"wget"
+	],
+	"installedSize": 285,
+	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
+	"description": "Tool for building Debian binary packages from Debian sources",
+	"filename": "pool/main/s/sbuild/sbuild_0.89.3+deb13u4_all.deb",
+	"size": 113192,
+	"md5": "24823bae8be22b91b457218534b5cf0c",
+	"sha256": "544ca6dc2201741bb639a2ab52664d7d181e35877feecb743d54b80c55eb0b3f",
+	"descriptionMd5": "9e15ceda32607c62e78e4f4d946f038e"
+}]

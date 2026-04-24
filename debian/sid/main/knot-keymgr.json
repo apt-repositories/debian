@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "knot-keymgr",
+	"source": "knot",
+	"version": "3.5.4-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libdnssec10 (= 3.5.4-2)",
+		"libknot16 (= 3.5.4-2)",
+		"libzscanner5 (= 3.5.4-2)",
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"liblmdb0 (>= 0.9.7)",
+		"libsystemd0 (>= 234)",
+		"liburcu8t64 (>= 0.13.0)"
+	],
+	"replaces": [
+		"knot (<< 3.5.0-1)"
+	],
+	"breaks": [
+		"knot (<< 3.5.0-1)"
+	],
+	"installedSize": 899,
+	"maintainer": "knot packagers <knot@packages.debian.org>",
+	"description": "Knot DNS key management utility",
+	"homepage": "https://www.knot-dns.cz/",
+	"filename": "pool/main/k/knot/knot-keymgr_3.5.4-2_amd64.deb",
+	"size": 374412,
+	"md5": "94afee17eb38dfe980d03030c94eac2a",
+	"sha256": "d1be49d251fdcbfb8a9ce82cd2e763e0aca6ea05a6247e887b654ee1294ebe76",
+	"descriptionMd5": "21510d55b8707474a634c8fc579fb46a"
+}

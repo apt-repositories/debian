@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "moosefs-gui",
+	"source": "moosefs",
+	"version": "4.58.1-1~bpo13+1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"python3:any",
+		"moosefs-cli",
+		"sysvinit-utils (>= 3.05-4~)",
+		"moosefs-common (>= 4.58.1-1~bpo13+1)"
+	],
+	"replaces": [
+		"moosefs-cgi",
+		"moosefs-cgiserv"
+	],
+	"breaks": [
+		"moosefs-cgi",
+		"moosefs-cgiserv"
+	],
+	"installedSize": 928,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "MooseFS - web-based GUI",
+	"homepage": "http://moosefs.org/",
+	"filename": "pool/main/m/moosefs/moosefs-gui_4.58.1-1~bpo13+1_amd64.deb",
+	"size": 210520,
+	"sha256": "acb5b875e3ec8daa9a7a9f4998328dd1ce0d49dad4b2fc0df21a9589fa8fdf37",
+	"descriptionMd5": "297f5a552c24e444cb26099ea34dce16"
+}

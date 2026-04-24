@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-sender",
+	"source": "zabbix",
+	"version": "1:7.0.22+dfsg-1~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libpcre2-8-0 (>= 10.22)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"zabbix-agent (<< 1:7.0.0)"
+	],
+	"breaks": [
+		"zabbix-agent (<< 1:7.0.0)"
+	],
+	"installedSize": 885,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "Zabbix network monitoring solution - sender",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/main/z/zabbix/zabbix-sender_7.0.22+dfsg-1~bpo13+1_amd64.deb",
+	"size": 632792,
+	"sha256": "e161eca2dd6399426af4c6ae7b8c7304ce4b648c73fea902e73e6b6b29bc0355",
+	"descriptionMd5": "1b25290a2fb5301c4064fdf7e75b5e54"
+}

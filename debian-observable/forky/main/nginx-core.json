@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-core",
+	"source": "nginx",
+	"version": "1.30.0-2",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libnginx-mod-http-geoip2",
+		"libnginx-mod-http-image-filter (>= 1.30.0-2)",
+		"libnginx-mod-http-image-filter (<< 1.30.0-2.1~)",
+		"libnginx-mod-http-xslt-filter (>= 1.30.0-2)",
+		"libnginx-mod-http-xslt-filter (<< 1.30.0-2.1~)",
+		"libnginx-mod-mail (>= 1.30.0-2)",
+		"libnginx-mod-mail (<< 1.30.0-2.1~)",
+		"libnginx-mod-stream (>= 1.30.0-2)",
+		"libnginx-mod-stream (<< 1.30.0-2.1~)",
+		"libnginx-mod-stream-geoip2",
+		"nginx (>= 1.30.0-2)",
+		"nginx (<< 1.30.0-2.1~)"
+	],
+	"replaces": [
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"breaks": [
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"installedSize": 87,
+	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
+	"description": "nginx web/proxy server (standard version)",
+	"homepage": "https://nginx.org",
+	"filename": "pool/main/n/nginx/nginx-core_1.30.0-2_all.deb",
+	"size": 81744,
+	"md5": "2ad5e8aea553165e6739ac494ef805e8",
+	"sha256": "668f4539392eb84675a20148ebaaf6456634d099fa45ce25c62d16bdc8238bc6",
+	"descriptionMd5": "e85c58ee97847a5147d2960542e84a35"
+}]

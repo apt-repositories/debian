@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsasl2-modules-gssapi-mit",
+	"source": "cyrus-sasl2",
+	"version": "2.1.27+dfsg-2.1+deb11u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libsasl2-modules (= 2.1.27+dfsg-2.1+deb11u1)",
+		"libc6 (>= 2.14)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libssl1.1 (>= 1.1.0)"
+	],
+	"conflicts": [
+		"libsasl2-modules-gssapi-heimdal"
+	],
+	"installedSize": 199,
+	"maintainer": "Debian Cyrus Team <team+cyrus@tracker.debian.org>",
+	"description": "Cyrus SASL - pluggable authentication modules (GSSAPI)",
+	"homepage": "https://www.cyrusimap.org/sasl/",
+	"filename": "pool/updates/main/c/cyrus-sasl2/libsasl2-modules-gssapi-mit_2.1.27+dfsg-2.1+deb11u1_amd64.deb",
+	"size": 93276,
+	"sha256": "bb75925c43cb0debae9a869f02dbf8fddbf80f63078769eeafa33a9a3010c75f",
+	"descriptionMd5": "b1eb80e47fbc2a5ec747847f924fba48"
+}

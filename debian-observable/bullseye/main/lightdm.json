@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lightdm",
+	"version": "1.26.0-7",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"dbus",
+		"libpam-systemd | logind",
+		"lightdm-gtk-greeter | lightdm-greeter",
+		"lsb-base (>= 3.0-6)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.14)",
+		"libgcrypt20 (>= 1.7.0)",
+		"libglib2.0-0 (>= 2.39.4)",
+		"libpam0g (>= 0.99.7.1)",
+		"libxcb1",
+		"libxdmcp6"
+	],
+	"recommends": [
+		"xserver-xorg"
+	],
+	"suggests": [
+		"accountsservice",
+		"upower",
+		"xserver-xephyr"
+	],
+	"installedSize": 832,
+	"maintainer": "Debian Xfce Maintainers <debian-xfce@lists.debian.org>",
+	"description": "simple display manager",
+	"homepage": "https://launchpad.net/lightdm",
+	"filename": "pool/main/l/lightdm/lightdm_1.26.0-7_amd64.deb",
+	"size": 172184,
+	"md5": "6cc3f9708fff4d3828fd92a771a5964d",
+	"sha256": "2a045ee9d0a23aeafd571f063a9fca9719062637ea8ec8f5b5d92f09bce0f657",
+	"descriptionMd5": "ae12e7dfa730e4fc1223ec3527168706"
+}]

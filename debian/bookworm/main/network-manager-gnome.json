@@ -1,0 +1,62 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "network-manager-gnome",
+	"source": "network-manager-applet",
+	"version": "1.30.0-2",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libatk1.0-0 (>= 1.12.4)",
+		"libayatana-appindicator3-1 (>= 0.4.90)",
+		"libc6 (>= 2.34)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0 (>= 2.43.2)",
+		"libgtk-3-0 (>= 3.21.6)",
+		"libjansson4 (>= 2.14)",
+		"libmm-glib0 (>= 0.7.991)",
+		"libnm0 (>= 1.16.0)",
+		"libnma0 (>= 1.8.36)",
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libsecret-1-0 (>= 0.18)",
+		"libselinux1 (>= 3.1~)",
+		"dconf-gsettings-backend | gsettings-backend",
+		"network-manager",
+		"policykit-1-gnome | polkit-1-auth-agent",
+		"default-dbus-session-bus | dbus-session-bus"
+	],
+	"recommends": [
+		"notification-daemon",
+		"gnome-keyring",
+		"gnome-icon-theme",
+		"mobile-broadband-provider-info",
+		"iso-codes"
+	],
+	"suggests": [
+		"network-manager-openconnect-gnome",
+		"network-manager-openvpn-gnome",
+		"network-manager-vpnc-gnome",
+		"network-manager-pptp-gnome"
+	],
+	"replaces": [
+		"libnma-common (<< 1.10.4)"
+	],
+	"breaks": [
+		"libnma-common (<< 1.10.4)"
+	],
+	"installedSize": 5570,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
+	"description": "network management framework (GNOME frontend)",
+	"homepage": "https://www.gnome.org/projects/NetworkManager/",
+	"filename": "pool/main/n/network-manager-applet/network-manager-gnome_1.30.0-2_amd64.deb",
+	"size": 894460,
+	"md5": "23db1019ff8b6f907a5ae5cf79ee2bc6",
+	"sha256": "18fced34a84e8271f225b93c9fbdbad3b136299670d4a820088afb228de7765c",
+	"descriptionMd5": "bdee3234d21720f04895a1051744f5d1"
+}

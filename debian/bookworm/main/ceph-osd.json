@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-osd",
+	"source": "ceph",
+	"version": "16.2.15+ds-0+deb12u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 16.2.15+ds-0+deb12u1)",
+		"lvm2",
+		"sudo",
+		"python3-ceph",
+		"python3:any",
+		"libaio1 (>= 0.3.93)",
+		"libblkid1 (>= 2.17.2)",
+		"libboost-iostreams1.74.0 (>= 1.74.0+ds1)",
+		"libboost-program-options1.74.0 (>= 1.74.0+ds1)",
+		"libboost-thread1.74.0 (>= 1.74.0+ds1)",
+		"libc6 (>= 2.34)",
+		"libfmt9 (>= 9.1.0+ds1)",
+		"libfuse2 (>= 2.8)",
+		"libgcc-s1 (>= 3.4)",
+		"libibverbs1 (>= 1.1.6)",
+		"libleveldb1d (>= 1.23)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libpmem1 (>= 1.4)",
+		"librados2 (>= 16.2.15+ds)",
+		"librdmacm1 (>= 1.0.15)",
+		"libsnappy1v5 (>= 1.1.9)",
+		"libssl3 (>= 3.0.0)",
+		"libstdc++6 (>= 12)",
+		"libudev1 (>= 183)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"ceph-common (= 16.2.15+ds-0+deb12u1)"
+	],
+	"suggests": [
+		"nvme-cli"
+	],
+	"installedSize": 58486,
+	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
+	"description": "OSD server for the ceph storage system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-osd_16.2.15+ds-0+deb12u1_amd64.deb",
+	"size": 16754380,
+	"md5": "428538192ca3ec26eeaf321419904a64",
+	"sha256": "03054b4a44a64e4fb3d0c45b08aea236f9805465ad47366e9d5177cac54d3abd",
+	"descriptionMd5": "fb08b00d788b505eb4bb23072221ce43"
+}

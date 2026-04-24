@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "osm2pgsql",
+	"version": "2.2.0+ds-1~bpo13+1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-psycopg2",
+		"python3-pyosmium",
+		"python3:any",
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc-s1 (>= 3.0)",
+		"liblua5.3-0",
+		"libopencv-core410 (>= 4.10.0+dfsg)",
+		"libopencv-imgcodecs410 (>= 4.10.0+dfsg)",
+		"libopencv-imgproc410 (>= 4.10.0+dfsg)",
+		"libpotrace0",
+		"libpq5 (>= 9.0~)",
+		"libproj25 (>= 6.1.0)",
+		"libstdc++6 (>= 14)",
+		"zlib1g (>= 1:1.2.6)"
+	],
+	"recommends": [
+		"postgis"
+	],
+	"installedSize": 5373,
+	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
+	"description": "OpenStreetMap data to PostgreSQL converter",
+	"homepage": "https://osm2pgsql.org/",
+	"filename": "pool/main/o/osm2pgsql/osm2pgsql_2.2.0+ds-1~bpo13+1_amd64.deb",
+	"size": 1066220,
+	"sha256": "24344868e53cef3dfc86859fb808dfa5ed12ab95a84aaf68c9550e2ffde26ac1",
+	"descriptionMd5": "90d71a17cb11022105b2ed19601badf4"
+}

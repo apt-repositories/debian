@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "u-boot-tools",
+	"source": "u-boot",
+	"version": "2025.01-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.7.3)",
+		"libssl3t64 (>= 3.0.0)",
+		"libtinfo6 (>= 6)"
+	],
+	"recommends": [
+		"device-tree-compiler",
+		"libubootenv-tool"
+	],
+	"replaces": [
+		"u-boot (<< 2010.12-2)",
+		"uboot-envtools (<< 20081215-3~)",
+		"uboot-mkimage (<= 0.4build1)"
+	],
+	"breaks": [
+		"u-boot (<< 2010.12-2)",
+		"uboot-envtools (<< 20081215-3~)",
+		"uboot-mkimage (<= 0.4build1)"
+	],
+	"installedSize": 1731,
+	"maintainer": "Vagrant Cascadian <vagrant@debian.org>",
+	"description": "companion tools for Das U-Boot bootloader",
+	"homepage": "https://www.denx.de/wiki/U-Boot/",
+	"filename": "pool/main/u/u-boot/u-boot-tools_2025.01-3_amd64.deb",
+	"size": 338656,
+	"md5": "2e2e77eeea8cc0e256d94b7b6588d5a8",
+	"sha256": "11c1ba6f45d1e056fdfeb8822962e115df76ad054da3269b46ccafcac7d81484",
+	"descriptionMd5": "3db761b210d4c694ba67e5f3a6107e32"
+}]

@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libspdlog1.10",
+	"source": "spdlog",
+	"version": "1:1.10.0+ds-0.4",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libfmt9 (>= 9.0.0+ds1)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 12)"
+	],
+	"replaces": [
+		"libspdlog1 (<< 1:1.10.0+ds-0.3)"
+	],
+	"breaks": [
+		"bear (<< 3.0.5-1)",
+		"libear (<< 3.0.5-1)",
+		"libpurify2.0 (<< 2.0.0-5+b2)",
+		"libspdlog1 (<< 1:1.10.0+ds-0.3)",
+		"nheko (<< 0.7.2-3+b1)",
+		"purify (<< 2.0.0-5+b2)"
+	],
+	"installedSize": 539,
+	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
+	"description": "Very fast C++ logging library",
+	"homepage": "https://github.com/gabime/spdlog",
+	"filename": "pool/main/s/spdlog/libspdlog1.10_1.10.0+ds-0.4_amd64.deb",
+	"size": 129640,
+	"md5": "e6ddf22ecf13e8991bab39560526583c",
+	"sha256": "b723ebad9456a5186f594db67e9ea0f995f74f514d75e3decfa4c73dd1c98fcd",
+	"descriptionMd5": "b2d503aa303f67bc884a02e53e082428"
+}]

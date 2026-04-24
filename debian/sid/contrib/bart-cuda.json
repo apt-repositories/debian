@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bart-cuda",
+	"source": "bart-cuda (0.8.00-2)",
+	"version": "0.8.00-2+b1",
+	"section": "contrib/science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.34)",
+		"libcublas12",
+		"libcudart12",
+		"libcufft11",
+		"libfftw3-single3 (>= 3.3.10)",
+		"libgomp1 (>= 4.9)",
+		"liblapacke (>= 3.11.0)",
+		"libpng16-16 (>= 1.6.2-1)",
+		"libstdc++6 (>= 4.1.1)"
+	],
+	"suggests": [
+		"octave-bart"
+	],
+	"replaces": [
+		"bart"
+	],
+	"conflicts": [
+		"bart"
+	],
+	"installedSize": 2643,
+	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
+	"description": "tools for computational magnetic resonance imaging",
+	"homepage": "https://mrirecon.github.io/bart/",
+	"filename": "pool/contrib/b/bart-cuda/bart-cuda_0.8.00-2+b1_amd64.deb",
+	"size": 906748,
+	"md5": "0c44a5e54d2d98af674603bc82619d29",
+	"sha256": "1fd8741a2f2031168ef855c4a510e39a91bb1e63a98bbdddcb8a514ee8bb43a8",
+	"descriptionMd5": "e45b2047d3b3de23995919c1dfefbcb5"
+}

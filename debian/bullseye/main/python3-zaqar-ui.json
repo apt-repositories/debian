@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-zaqar-ui",
+	"source": "zaqar-ui",
+	"version": "8.0.0-2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"openstack-dashboard (>= 3:17.1.0)",
+		"python3-babel",
+		"python3-django",
+		"python3-django-babel",
+		"python3-pbr",
+		"python3-zaqarclient",
+		"python3-django-horizon",
+		"python3:any"
+	],
+	"breaks": [
+		"python3-django-horizon (<< 3:18.6.2-4~)"
+	],
+	"installedSize": 248,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Queueing as a Service - Dashboard plugin",
+	"homepage": "https://github.com/openstack/zaqar-ui",
+	"filename": "pool/main/z/zaqar-ui/python3-zaqar-ui_8.0.0-2_all.deb",
+	"size": 28584,
+	"md5": "27a459a7a52c2c543b77c9c28e64b35e",
+	"sha256": "21d3eeafc5c6703430833cebb8c0ad2fdd4aba712cb50809be54f046a9b33a6d",
+	"descriptionMd5": "a431cd0059a8a988e704053d21b0ba78"
+}

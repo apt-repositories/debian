@@ -1,0 +1,29 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-tablelog",
+	"source": "tablelog",
+	"version": "0.6.4-4",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 19)"
+	],
+	"installedSize": 128,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "log changes on tables and restore tables to point in time",
+	"homepage": "https://github.com/df7cb/table_log",
+	"filename": "pool/main/t/tablelog/postgresql-18-tablelog_0.6.4-4_amd64.deb",
+	"size": 46164,
+	"md5": "db5e5403629c110df5ddb6bedf37c45d",
+	"sha256": "a4926995726189efbdf960e612ea2c40607b62333c006b9ed2fcba0de68854b9",
+	"descriptionMd5": "3065deca97dbf1fab687ee4e7f856da7"
+}

@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-armhf-cross",
+	"source": "gcc-11-cross (17)",
+	"version": "11.3.0-11cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base (>= 11.3.0-11)",
+		"libgcc-s1-armhf-cross (>= 11.3.0-11cross1)",
+		"libgomp1-armhf-cross (>= 11.3.0-11cross1)",
+		"libatomic1-armhf-cross (>= 11.3.0-11cross1)",
+		"libasan6-armhf-cross (>= 11.3.0-11cross1)",
+		"libubsan1-armhf-cross (>= 11.3.0-11cross1)"
+	],
+	"recommends": [
+		"libc6-dev-armhf-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan0-armhf-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-armhf-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 6988,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.3.0-11)",
+	"filename": "pool/main/g/gcc-11-cross/libgcc-11-dev-armhf-cross_11.3.0-11cross1_all.deb",
+	"size": 708080,
+	"md5": "6cdb86bcfe3076aece80140c909f6983",
+	"sha256": "9ffc7f5efa360b3dbae62f4efc975d071a0f3b21644ce49843c91fe0813653a9",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "texlive-latex-recommended",
+	"source": "texlive-base",
+	"version": "2024.20250309-1",
+	"section": "tex",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"tex-common (>= 6.13)",
+		"texlive-base (>= 2022.20220405)",
+		"texlive-binaries (>= 2024.20240313)",
+		"texlive-latex-base (>= 2024.20240401)"
+	],
+	"suggests": [
+		"texlive-latex-recommended-doc",
+		"texlive-luatex",
+		"texlive-pstricks"
+	],
+	"replaces": [
+		"texlive-latex-base (<< 2019.20191208)",
+		"texlive-latex-extra (<< 2019.20191208)"
+	],
+	"breaks": [
+		"texlive-base (<< 2022.20220405)",
+		"texlive-latex-base (<< 2024.20250309)",
+		"texlive-latex-extra (<< 2019.20191208)"
+	],
+	"installedSize": 26098,
+	"maintainer": "Debian TeX Task Force <debian-tex-maint@lists.debian.org>",
+	"description": "TeX Live: LaTeX recommended packages",
+	"homepage": "http://www.tug.org/texlive/",
+	"filename": "pool/main/t/texlive-base/texlive-latex-recommended_2024.20250309-1_all.deb",
+	"size": 8745148,
+	"md5": "69efe0ba31dbdcd3d692e340c2d5e31d",
+	"sha256": "6eb7e1f3cfbe4993817757bc68132a4d7171bdd500084eea9b4d0040c7477d96",
+	"descriptionMd5": "deb3d785de36101cf6b1e6118c6091d6"
+}

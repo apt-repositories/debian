@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-nvidia",
+	"source": "nvidia-graphics-drivers",
+	"version": "470.256.02-2",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-alternative (= 470.256.02-2)",
+		"nvidia-support",
+		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
+		"xserver-xorg-core (<< 2:21.99)",
+		"libc6 (>= 2.7)",
+		"libnvidia-glcore (= 470.256.02-2)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup",
+		"nvidia-legacy-check (>= 396)"
+	],
+	"recommends": [
+		"nvidia-driver (>= 470.256.02)",
+		"nvidia-vdpau-driver (>= 470.256.02)",
+		"nvidia-vulkan-icd (>= 470.256.02)",
+		"nvidia-kernel-dkms (= 470.256.02-2) | nvidia-kernel-470.256.02",
+		"nvidia-settings (>= 470)"
+	],
+	"suggests": [
+		"nvidia-kernel-dkms (>= 470.256.02) | nvidia-kernel-source (>= 470.256.02)"
+	],
+	"installedSize": 19119,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary Xorg driver",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_470.256.02-2_amd64.deb",
+	"size": 2430304,
+	"md5": "637a79900be5c8f4a569c1fb90653db0",
+	"sha256": "40d9df501a875681c7eb3673686aa68f7f4e220fb58b3f3163bb324da53a91fa",
+	"descriptionMd5": "1b40df4700eefbbbe7857dfd4bad6d6f"
+}

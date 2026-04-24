@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "atheme-services",
+	"version": "7.2.11-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libssl1.1 (>= 1.1.0)",
+		"lsb-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"libmowgli-2-0"
+	],
+	"enhances": [
+		"ircd"
+	],
+	"breaks": [
+		"libmowgli-2-0"
+	],
+	"installedSize": 7907,
+	"maintainer": "Antoine Beaupré <anarcat@debian.org>",
+	"description": "modular IRC services daemon",
+	"homepage": "https://atheme.github.io/atheme.html",
+	"filename": "pool/main/a/atheme-services/atheme-services_7.2.11-1_amd64.deb",
+	"size": 1039052,
+	"md5": "66c23bcc14cf85f7533ace97aeb7877d",
+	"sha256": "23fd768423ca7b9ef5be4b1c5c3547f7343ad591da32cfb1555f4df4faba05e1",
+	"descriptionMd5": "d2e42cf829c1539e7632d45390fec88b"
+}

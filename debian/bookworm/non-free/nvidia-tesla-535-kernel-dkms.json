@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-535-kernel-dkms",
+	"source": "nvidia-graphics-drivers-tesla-535",
+	"version": "535.216.03-3~deb12u1",
+	"section": "non-free/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"firmware-nvidia-tesla-535-gsp (= 535.216.03) | firmware-nvidia-gsp-535.216.03",
+		"nvidia-tesla-535-kernel-support--v1",
+		"dkms (>= 3.0.3-4~)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-tesla-535-driver (>= 535.216.03) | libnvidia-tesla-535-cuda1 (>= 535.216.03)"
+	],
+	"installedSize": 72869,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary kernel module DKMS source (Tesla 535 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-535/nvidia-tesla-535-kernel-dkms_535.216.03-3~deb12u1_amd64.deb",
+	"size": 44936564,
+	"md5": "cf7fac98f54a595cacb8b5b3cd5f4998",
+	"sha256": "46b3735d3da19a887b53c11fae00ce20cbb567ddb1c850d8a6e7e2d2836b6116",
+	"descriptionMd5": "f73b4e8b34ff5aa5e7598dacb7e9cf10"
+}

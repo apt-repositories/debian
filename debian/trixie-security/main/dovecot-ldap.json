@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-ldap",
+	"source": "dovecot",
+	"version": "1:2.4.1+dfsg1-6+deb13u4",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-core (= 1:2.4.1+dfsg1-6+deb13u4)",
+		"ucf",
+		"libc6 (>= 2.4)",
+		"libldap2 (>= 2.6.2)"
+	],
+	"replaces": [
+		"dovecot-core (<< 1:2.2.26.0-1~)"
+	],
+	"breaks": [
+		"dovecot-core (<< 1:2.2.26.0-1~)"
+	],
+	"installedSize": 212,
+	"maintainer": "Dovecot Maintainers <dovecot@packages.debian.org>",
+	"description": "secure POP3/IMAP server - LDAP support",
+	"homepage": "https://dovecot.org/",
+	"filename": "pool/updates/main/d/dovecot/dovecot-ldap_2.4.1+dfsg1-6+deb13u4_amd64.deb",
+	"size": 53544,
+	"sha256": "9e133dd87ebcac484ced9e86f03091d7fd9241f37ea47f72c8d9bd6a51038e26",
+	"descriptionMd5": "cf9a560992c979e66145b609891e191d"
+}

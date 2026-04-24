@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "open-infrastructure-service-tools",
+	"version": "20221223-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apache2-data",
+		"apache2-api-20120211",
+		"apache2-bin (>= 2.4.16)"
+	],
+	"replaces": [
+		"open-infrastructure-apache-tools"
+	],
+	"enhances": [
+		"apache2"
+	],
+	"breaks": [
+		"open-infrastructure-apache-tools (<< 20221108-2)"
+	],
+	"installedSize": 330,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "additional tools to ease system administration and integration",
+	"homepage": "https://open-infrastructure.net/software/service-tools",
+	"filename": "pool/main/o/open-infrastructure-service-tools/open-infrastructure-service-tools_20221223-2_all.deb",
+	"size": 60436,
+	"md5": "f82cb126d1e9dc97ec8fd047c7c99d23",
+	"sha256": "9a7619f5537db88e4996c509f02e725ff3c654a6bdd504aff1167a1d3de576e1",
+	"descriptionMd5": "1586d0f19008c037b81dc0138397e6d8"
+}

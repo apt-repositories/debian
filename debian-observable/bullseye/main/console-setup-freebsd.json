@@ -1,0 +1,39 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "console-setup-freebsd",
+	"source": "console-setup",
+	"version": "1.205",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"vidcontrol",
+		"kbdcontrol",
+		"keyboard-configuration (= 1.205)",
+		"init-system-helpers (>= 1.29~) | initscripts"
+	],
+	"suggests": [
+		"console-setup"
+	],
+	"replaces": [
+		"console-setup (<< 1.71)"
+	],
+	"breaks": [
+		"console-setup (<< 1.71)"
+	],
+	"conflicts": [
+		"console-setup-linux"
+	],
+	"installedSize": 1385,
+	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
+	"description": "FreeBSD specific part of console-setup",
+	"filename": "pool/main/c/console-setup/console-setup-freebsd_1.205_all.deb",
+	"size": 124244,
+	"md5": "23acbea2da7426b46f00d6289e9e8293",
+	"sha256": "b29d4c41b0e6f93f1a98f72450c94bef28ce9658efd9ab230bcec782eab6998f",
+	"descriptionMd5": "cd542f45d64a83113e5c37b3bd674c5a"
+}]

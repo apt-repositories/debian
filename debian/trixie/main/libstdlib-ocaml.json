@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libstdlib-ocaml",
+	"source": "ocaml",
+	"version": "5.3.0-3",
+	"section": "ocaml",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libzstd1 (>= 1.5.5)"
+	],
+	"replaces": [
+		"libfindlib-ocaml (<< 1.9.6-3~)",
+		"ocaml (<< 4.13.1-5~)",
+		"ocaml-base (<< 4.13.1-5~)",
+		"ocaml-compiler-libs (<< 4.13.1-5~)"
+	],
+	"breaks": [
+		"dh-ocaml (<< 2)",
+		"libfindlib-ocaml (<< 1.9.6-3~)",
+		"ocaml (<< 4.13.1-5~)",
+		"ocaml-base (<< 4.13.1-5~)",
+		"ocaml-compiler-libs (<< 4.13.1-5~)"
+	],
+	"installedSize": 1720,
+	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
+	"description": "OCaml standard library (runtime files)",
+	"homepage": "https://ocaml.org/",
+	"filename": "pool/main/o/ocaml/libstdlib-ocaml_5.3.0-3_amd64.deb",
+	"size": 604824,
+	"md5": "d3465290c9cebcb7022907b3db1812e0",
+	"sha256": "5334efd10830ee37210e87a7ade0f74009192e6e77446f062dc3ca15f95c1043",
+	"descriptionMd5": "a73fc39a4d621bac488212b1f0069a41"
+}

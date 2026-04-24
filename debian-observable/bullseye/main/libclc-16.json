@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclc-16",
+	"source": "llvm-toolchain-16",
+	"version": "1:16.0.6-15~deb11u2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libclc-16-dev (= 1:16.0.6-15~deb11u2)",
+		"libclang-common-16-dev"
+	],
+	"replaces": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600",
+		"libclc-x.y"
+	],
+	"breaks": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600"
+	],
+	"conflicts": [
+		"libclc-x.y"
+	],
+	"installedSize": 72103,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "OpenCL C language implementation - platform support",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-16/libclc-16_16.0.6-15~deb11u2_all.deb",
+	"size": 8384592,
+	"md5": "6e8e9afbd20b018fa5d0dedb6a4a012b",
+	"sha256": "77543ac4aa1d0142d4fb6e162b20ce25ec9f9cbe5791d99922d1b7a1e25dcda2",
+	"descriptionMd5": "73bf1c1e61845108c59b363de4fd901a"
+}]

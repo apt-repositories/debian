@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "printcore",
+	"source": "printrun",
+	"version": "2.0.0~rc7-1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"printrun-common (= 2.0.0~rc7-1)",
+		"python3-dbus",
+		"python3-psutil",
+		"python3-serial",
+		"python3 (<< 3.10)",
+		"python3 (>= 3.9~)",
+		"python3:any",
+		"libc6 (>= 2.4)"
+	],
+	"replaces": [
+		"printrun (<< 2)"
+	],
+	"breaks": [
+		"printrun (<< 2)"
+	],
+	"installedSize": 83,
+	"maintainer": "Debian 3-D Printing Packages <3dprinter-general@lists.alioth.debian.org>",
+	"description": "3D printer host core commands",
+	"homepage": "http://www.pronterface.com",
+	"filename": "pool/main/p/printrun/printcore_2.0.0~rc7-1_amd64.deb",
+	"size": 25172,
+	"md5": "5cd913b7d19aaa1b8de4310e1150480d",
+	"sha256": "db6c3705a5d022aa04d1b998aec4c4b9040013c3392251c944371d253ccef808",
+	"descriptionMd5": "92c40cd52fe490cc44206756ee99d8e7"
+}

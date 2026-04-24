@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-coredump",
+	"source": "systemd",
+	"version": "252.38-1~deb12u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"liblz4-1 (>= 0.0~r130)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libsystemd-shared (= 252.38-1~deb12u1)",
+		"libzstd1 (>= 1.5.2)",
+		"systemd"
+	],
+	"recommends": [
+		"libdw1"
+	],
+	"replaces": [
+		"core-dump-handler"
+	],
+	"conflicts": [
+		"core-dump-handler"
+	],
+	"installedSize": 253,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "tools for storing and retrieving coredumps",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/updates/main/s/systemd/systemd-coredump_252.38-1~deb12u1_amd64.deb",
+	"size": 97704,
+	"sha256": "08be9641146f8fded27b30c1e72653e0c78ae19492dc703d2578f8a7a3c9d01e",
+	"descriptionMd5": "149b22bdf2366b7d731957d1b710e54f"
+}

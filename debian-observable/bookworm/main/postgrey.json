@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgrey",
+	"version": "1.37-2",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"ucf",
+		"libberkeleydb-perl",
+		"libnetaddr-ip-perl",
+		"libnet-dns-perl",
+		"libnet-server-perl",
+		"perl:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libnet-rblclient-perl",
+		"libparse-syslog-perl",
+		"postfix | exim4"
+	],
+	"installedSize": 157,
+	"maintainer": "Jordi Mallach <jordi@debian.org>",
+	"description": "greylisting implementation for Postfix",
+	"homepage": "http://postgrey.schweikert.ch/",
+	"filename": "pool/main/p/postgrey/postgrey_1.37-2_all.deb",
+	"size": 50932,
+	"md5": "fcffd9e88076053be65f2eb30054353d",
+	"sha256": "a4f88a48c2750e412865b8e9cf173d0c32903bf3d5a9ce85d8961562d1097e5c",
+	"descriptionMd5": "441f663c8b671c35a058be05ae5b4e09"
+}]

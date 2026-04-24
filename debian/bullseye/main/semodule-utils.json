@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "semodule-utils",
+	"version": "3.1-1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libsepol1 (>= 3.1)"
+	],
+	"replaces": [
+		"policycoreutils-dev (<< 2.7~)",
+		"policycoreutils-python-utils (<< 2.7~)"
+	],
+	"breaks": [
+		"policycoreutils-dev (<< 2.7~)",
+		"policycoreutils-python-utils (<< 2.7~)"
+	],
+	"installedSize": 104,
+	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
+	"description": "SELinux core policy utilities (modules utilities)",
+	"homepage": "http://userspace.selinuxproject.org/",
+	"filename": "pool/main/s/semodule-utils/semodule-utils_3.1-1_amd64.deb",
+	"size": 37828,
+	"md5": "79c0de9b0d4861f83a5efd75b25d3c7a",
+	"sha256": "14c0fafb7ec45bb046c6fc291fd0bf1a290e3430c4731830aa8004cf9e3943dc",
+	"descriptionMd5": "13e71e2e1a7e23908c56e2c10d0a767b"
+}

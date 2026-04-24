@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.10.0-30-amd64",
+	"source": "linux-signed-amd64 (5.10.218+1)",
+	"version": "5.10.218-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-5.10",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-5.10.0-30-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)",
+		"xserver-xorg-input-vmmouse (<< 1:13.0.99)"
+	],
+	"conflicts": [
+		"linux-image-5.10.0-30-amd64-unsigned"
+	],
+	"installedSize": 310356,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 5.10 for 64-bit PCs (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 5.10.218-1)",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-5.10.0-30-amd64_5.10.218-1_amd64.deb",
+	"size": 55688836,
+	"md5": "f0f4881bcca3b855e1860edf8610a5c7",
+	"sha256": "b9f8df30f94a8fcd0f42e55771c2d3d699ea36a8084e2ade7303d6c692f20f63",
+	"descriptionMd5": "1af6678f9cbe4bf666a011aba66cc91f"
+}

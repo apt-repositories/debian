@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "chromium-common",
+	"source": "chromium",
+	"version": "120.0.6099.224-1~deb11u1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.30)",
+		"libjsoncpp24 (>= 1.9.4)",
+		"libstdc++6 (>= 9)",
+		"libx11-6",
+		"libxnvctrl0",
+		"zlib1g (>= 1:1.2.2)",
+		"x11-utils",
+		"xdg-utils"
+	],
+	"recommends": [
+		"upower",
+		"libu2f-udev",
+		"libgl1-mesa-dri",
+		"chromium-sandbox",
+		"fonts-liberation",
+		"notification-daemon",
+		"system-config-printer"
+	],
+	"replaces": [
+		"chromium (<< 120.0.6099.224-1~deb11u1)"
+	],
+	"breaks": [
+		"chromium (<< 120.0.6099.224-1~deb11u1)"
+	],
+	"installedSize": 17371,
+	"maintainer": "Debian Chromium Team <chromium@packages.debian.org>",
+	"description": "web browser - common resources used by the chromium packages",
+	"homepage": "http://www.chromium.org/Home",
+	"filename": "pool/updates/main/c/chromium/chromium-common_120.0.6099.224-1~deb11u1_amd64.deb",
+	"size": 5012784,
+	"sha256": "154b4c481fe6ba61bf6165e8aabd577695b2a173e6c5dff0ae4940f8348e527e",
+	"descriptionMd5": "6f8b66c61b0d01bc4c6ea3fa84a5ff38"
+}

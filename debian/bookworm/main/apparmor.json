@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apparmor",
+	"version": "3.0.8-3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.36)"
+	],
+	"suggests": [
+		"apparmor-profiles-extra",
+		"apparmor-utils"
+	],
+	"replaces": [
+		"fcitx-data (<< 1:4.2.9.1-1ubuntu2)"
+	],
+	"breaks": [
+		"apparmor-profiles-extra (<< 1.21)",
+		"fcitx-data (<< 1:4.2.9.1-1ubuntu2)",
+		"snapd (<< 2.44.3+20.04~)"
+	],
+	"installedSize": 2567,
+	"maintainer": "Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>",
+	"description": "user-space parser utility for AppArmor",
+	"homepage": "https://apparmor.net/",
+	"filename": "pool/main/a/apparmor/apparmor_3.0.8-3_amd64.deb",
+	"size": 616144,
+	"md5": "f65975a0aeccb2b663a5a3179246b9fb",
+	"sha256": "8185d7f9c14618bca0e0230f71b33f87a316182e35f569b4f25e1159904778b2",
+	"descriptionMd5": "9fdfbb456943ca7bfea9e5fd580a5b7f"
+}

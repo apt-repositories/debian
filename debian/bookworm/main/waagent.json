@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "waagent",
+	"version": "2.7.3.0-4.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-distro",
+		"python3:any",
+		"python3-pkg-resources",
+		"ca-certificates",
+		"openssl"
+	],
+	"suggests": [
+		"cloud-init",
+		"eject",
+		"fdisk | util-linux (<< 2.29.2-3~)",
+		"iptables",
+		"openssh-server",
+		"parted",
+		"sudo"
+	],
+	"conflicts": [
+		"network-manager",
+		"walinuxagent"
+	],
+	"installedSize": 1235,
+	"maintainer": "Bastian Blank <bastian.blank@credativ.de>",
+	"description": "Windows Azure Linux Agent",
+	"homepage": "https://github.com/Azure/WALinuxAgent",
+	"filename": "pool/main/w/waagent/waagent_2.7.3.0-4.1_all.deb",
+	"size": 206860,
+	"md5": "f4731112e24c4c8fe005e678c7d72d81",
+	"sha256": "728b84bf2f676461d25d2c495ea8db3fac2ff0fe29a21f17a23fce20e9c33e42",
+	"descriptionMd5": "52a64514caa9835c9c54226deb712964"
+}

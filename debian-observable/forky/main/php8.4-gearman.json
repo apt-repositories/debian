@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php8.4-gearman",
+	"source": "php-gearman",
+	"version": "2.1.4-1",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"php8.4-common",
+		"phpapi-20240924",
+		"libc6 (>= 2.14)",
+		"libgearman8t64 (>= 1.1.13)"
+	],
+	"preDepends": [
+		"php-common (>= 2:69~)"
+	],
+	"suggests": [
+		"gearman-server"
+	],
+	"replaces": [
+		"php-gearman (<< 2.1.4~)"
+	],
+	"breaks": [
+		"php-gearman (<< 2.1.4~)"
+	],
+	"installedSize": 141,
+	"maintainer": "Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>",
+	"description": "PHP wrapper to libgearman",
+	"homepage": "https://pecl.php.net/package/gearman",
+	"filename": "pool/main/p/php-gearman/php8.4-gearman_2.1.4-1_amd64.deb",
+	"size": 27836,
+	"md5": "e778cac5def396cc5db5e4bce4090bdd",
+	"sha256": "49cb3b0b2fefd4cf037183497bd8a2cd09686bed14e1ca4e00f5b0ddebb8afd8",
+	"descriptionMd5": "1ef55b03e1d417f0d32c9a3f0093d948"
+}]

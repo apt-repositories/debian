@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "hylafax-server",
+	"source": "hylafax",
+	"version": "3:6.0.7-11.1",
+	"section": "comm",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"hylafax-client (= 3:6.0.7-11.1)",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libjbig0 (>= 2.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libstdc++6 (>= 5)",
+		"libtiff6 (>= 4.0.3)",
+		"zlib1g (>= 1:1.1.4)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"init-system-helpers (>= 1.51)",
+		"libtiff-tools (>= 4.5.0-1)",
+		"bsd-mailx | mailx",
+		"psmisc",
+		"sed (>= 4.1.2)",
+		"ghostscript",
+		"adduser",
+		"sysvinit-utils (>= 3.06-4)",
+		"default-mta | exim4-daemon-light | mail-transport-agent",
+		"systemd (>> 235-3)"
+	],
+	"suggests": [
+		"mgetty",
+		"psrip"
+	],
+	"conflicts": [
+		"capi4hylafax (<< 1:01.02.03-4)",
+		"mgetty-fax"
+	],
+	"installedSize": 3869,
+	"maintainer": "Giuseppe Sacco <eppesuig@debian.org>",
+	"description": "Flexible client/server fax software - server daemons",
+	"homepage": "http://www.hylafax.org",
+	"filename": "pool/main/h/hylafax/hylafax-server_6.0.7-11.1_amd64.deb",
+	"size": 759260,
+	"md5": "44aaba62f13bdc0b7798f5392fe18f37",
+	"sha256": "8becc4f81de0411b00b21d2f1cba4098c3b55dfe611142ab931a0bf8136c3788",
+	"descriptionMd5": "f6d21a82d4c9a54d7b8f613296b12eae"
+}

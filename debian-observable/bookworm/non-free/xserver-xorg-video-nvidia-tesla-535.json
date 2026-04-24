@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-nvidia-tesla-535",
+	"source": "nvidia-graphics-drivers-tesla-535",
+	"version": "535.216.03-3~deb12u1",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-tesla-535-alternative (= 535.216.03-3~deb12u1)",
+		"nvidia-support",
+		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
+		"xserver-xorg-core (<< 2:21.99)",
+		"libc6 (>= 2.34)",
+		"libnvidia-tesla-535-glcore (= 535.216.03-3~deb12u1)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-tesla-535-driver (>= 535.216.03)",
+		"nvidia-tesla-535-vdpau-driver (>= 535.216.03)",
+		"nvidia-tesla-535-vulkan-icd (>= 535.216.03)",
+		"nvidia-tesla-535-kernel-dkms (= 535.216.03-3~deb12u1) | nvidia-tesla-535-kernel-535.216.03 | nvidia-open-kernel-535.216.03",
+		"nvidia-suspend-common"
+	],
+	"suggests": [
+		"nvidia-tesla-535-kernel-dkms (>= 535.216.03) | nvidia-tesla-535-kernel-source (>= 535.216.03) | nvidia-open-kernel-source (>= 535.216.03)"
+	],
+	"installedSize": 18926,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary Xorg driver (Tesla 535 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-535/xserver-xorg-video-nvidia-tesla-535_535.216.03-3~deb12u1_amd64.deb",
+	"size": 2320588,
+	"md5": "4dbbdf4c18ecd9460c7d6bf644316602",
+	"sha256": "9eaa20fa18a709c458077b3611a05fcd08c292dc5e5bdfe17a33b86559c0b739",
+	"descriptionMd5": "1c41c831d19aadc58af87d34da495978"
+}]

@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "glusterfs-common",
+	"source": "glusterfs",
+	"version": "11.2-3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libaio1t64 (>= 0.3.93)",
+		"libc6 (>= 2.38)",
+		"libgfapi0 (>= 11.2)",
+		"libgfchangelog0 (>= 11.2)",
+		"libgfrpc0 (>= 11.2)",
+		"libgfxdr0 (>= 11.2)",
+		"libglusterfs0 (>= 11.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"libtirpc3t64 (>= 1.1.4)",
+		"liburcu8t64 (>= 0.13.0)",
+		"libuuid1 (>= 2.16)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.1.4)",
+		"python3:any",
+		"python3-prettytable",
+		"python3-requests",
+		"python3-jwt",
+		"attr",
+		"adduser",
+		"xfsprogs",
+		"e2fsprogs",
+		"psmisc"
+	],
+	"replaces": [
+		"glusterfs-server (<< 3.4.0~qa5)"
+	],
+	"breaks": [
+		"glusterfs-server (<< 3.4.0~qa5)"
+	],
+	"installedSize": 12988,
+	"maintainer": "Patrick Matthäi <pmatthaei@debian.org>",
+	"description": "GlusterFS common libraries and translator modules",
+	"homepage": "https://www.gluster.org/",
+	"filename": "pool/main/g/glusterfs/glusterfs-common_11.2-3_amd64.deb",
+	"size": 2515232,
+	"md5": "850f9ab0f8313ccd3703b3d526906080",
+	"sha256": "368a102f56979233609e4ff874e863f85a0b4a447487a970fef2da455d22c163",
+	"descriptionMd5": "14fb61656fcb482fb70b2a8d7b3de9e4"
+}]

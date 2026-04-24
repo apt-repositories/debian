@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dhcp-helper",
+	"version": "1.2-3.3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"netbase",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"conflicts": [
+		"dhcp3-relay",
+		"dhcp3-server",
+		"isc-dhcp-relay",
+		"isc-dhcp-server",
+		"udhcpd"
+	],
+	"installedSize": 49,
+	"maintainer": "Simon Kelley <simon@thekelleys.org.uk>",
+	"description": "A DHCP relay agent",
+	"filename": "pool/main/d/dhcp-helper/dhcp-helper_1.2-3.3_amd64.deb",
+	"size": 11368,
+	"md5": "61317182796a2f21cb7b3fb60cd78ad1",
+	"sha256": "f185dcd195b8fa4c244b24bcfc4ecbda6b7be731b22b0b65dd56eec4900ac358",
+	"descriptionMd5": "3f0d81b105ba1a53061098aecf217692"
+}]

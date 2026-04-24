@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "initramfs-tools",
+	"version": "0.142+deb12u3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"initramfs-tools-core (= 0.142+deb12u3)",
+		"linux-base"
+	],
+	"suggests": [
+		"bash-completion"
+	],
+	"breaks": [
+		"e2fsprogs (<< 1.42.13)",
+		"initscripts (<< 2.88dsf-59.3~)",
+		"upstart"
+	],
+	"conflicts": [
+		"linux-initramfs-tool",
+		"usplash (<< 0.5.50)"
+	],
+	"installedSize": 58,
+	"maintainer": "Debian kernel team <debian-kernel@lists.debian.org>",
+	"description": "generic modular initramfs generator (automation)",
+	"filename": "pool/main/i/initramfs-tools/initramfs-tools_0.142+deb12u3_all.deb",
+	"size": 16028,
+	"md5": "e166c411262b8053445d09bfbc29bafb",
+	"sha256": "6d2fc5c238d48add823e3551af8574011e12fa11f9429a356f9c4d9d1e1ece57",
+	"descriptionMd5": "f406a6ad4452bdc36e9957a711143c2e"
+}

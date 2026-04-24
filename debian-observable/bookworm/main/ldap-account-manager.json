@@ -1,0 +1,51 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ldap-account-manager",
+	"version": "8.3-1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php (>= 7.4)",
+		"php-ldap",
+		"php-gd | php-imagick",
+		"php-json",
+		"php-curl",
+		"php-zip",
+		"php-xml",
+		"php-gmp",
+		"php-mbstring",
+		"libapache2-mod-php | libapache2-mod-fcgid | php-fpm",
+		"apache2 (>= 2.4.0) | httpd",
+		"gettext",
+		"fonts-dejavu",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"php-opcache"
+	],
+	"suggests": [
+		"ldap-server",
+		"php-mcrypt",
+		"ldap-account-manager-lamdaemon",
+		"perl"
+	],
+	"conflicts": [
+		"libapache2-mod-php5",
+		"php5",
+		"php5-fpm"
+	],
+	"installedSize": 81110,
+	"maintainer": "Roland Gruber <post@rolandgruber.de>",
+	"description": "webfrontend for managing accounts in an LDAP directory",
+	"homepage": "https://www.ldap-account-manager.org/",
+	"filename": "pool/main/l/ldap-account-manager/ldap-account-manager_8.3-1_all.deb",
+	"size": 23468208,
+	"md5": "c0d7c2acb5f086c9feb892b876fc6c41",
+	"sha256": "8adaf3c130318aba40d7cc886f768a1fd7c9992dacffc806f94e9cce0eb7346a",
+	"descriptionMd5": "61468742e97fa96991fdf7b005a516ce"
+}]

@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-535-driver-libs",
+	"source": "nvidia-graphics-drivers-tesla-535",
+	"version": "535.274.02-1~deb13u1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libgl1-nvidia-tesla-535-glvnd-glx (= 535.274.02-1~deb13u1)",
+		"nvidia-tesla-535-egl-icd (= 535.274.02-1~deb13u1)"
+	],
+	"recommends": [
+		"nvidia-tesla-535-driver-libs:i386 (= 535.274.02-1~deb13u1)",
+		"libopengl0 | libopengl0-glvnd-nvidia",
+		"libglx-nvidia-tesla-535-0 (= 535.274.02-1~deb13u1)",
+		"libgles-nvidia-tesla-535-1 (= 535.274.02-1~deb13u1)",
+		"libgles-nvidia-tesla-535-2 (= 535.274.02-1~deb13u1)",
+		"libnvidia-tesla-535-cfg1 (= 535.274.02-1~deb13u1)",
+		"libnvidia-tesla-535-encode1 (= 535.274.02-1~deb13u1)",
+		"nvidia-tesla-535-vulkan-icd (= 535.274.02-1~deb13u1)",
+		"libnvidia-tesla-535-allocator1 (= 535.274.02-1~deb13u1)"
+	],
+	"breaks": [
+		"libegl1-nvidia-tesla-535",
+		"libgl1-nvidia-tesla-535-glx",
+		"nvidia-tesla-535-driver-libs-nonglvnd",
+		"nvidia-tesla-535-nonglvnd-vulkan-icd"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia"
+	],
+	"installedSize": 186,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (OpenGL/GLX/EGL/GLES libraries) (Tesla 535 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-535/nvidia-tesla-535-driver-libs_535.274.02-1~deb13u1_amd64.deb",
+	"size": 159436,
+	"md5": "98d6d9540f80f9f82e02f5eac92552a4",
+	"sha256": "228f5426fa4fc2b61be9adf58e7f1b16ffc7920d0ccd94043c98b5e3683e3ea6",
+	"descriptionMd5": "49ffe6aab2b3fd0681725f897a48730a"
+}]

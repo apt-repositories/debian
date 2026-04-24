@@ -1,0 +1,72 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fwupd",
+	"version": "1.5.7-4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libcurl3-gnutls (>= 7.63.0)",
+		"libefiboot1 (>= 37)",
+		"libelf1 (>= 0.142)",
+		"libflashrom1",
+		"libfwupd2 (>= 1.5.6)",
+		"libfwupdplugin1 (>= 1.5.7)",
+		"libglib2.0-0 (>= 2.63.3)",
+		"libgnutls30 (>= 3.7.0)",
+		"libgudev-1.0-0 (>= 146)",
+		"libgusb2 (>= 0.3.5)",
+		"libjcat1 (>= 0.1.3)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
+		"libpolkit-gobject-1-0 (>= 0.99)",
+		"libsmbios-c2",
+		"libsqlite3-0 (>= 3.6.1)",
+		"libsystemd0",
+		"libtss2-esys-3.0.2-0 (>= 2.3.1)",
+		"libxmlb1 (>= 0.1.13)",
+		"shared-mime-info"
+	],
+	"recommends": [
+		"python3",
+		"bolt",
+		"dbus",
+		"secureboot-db",
+		"udisks2",
+		"fwupd-signed"
+	],
+	"suggests": [
+		"gir1.2-fwupd-2.0"
+	],
+	"replaces": [
+		"fwupdate (<< 12-7)",
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"conflicts": [
+		"fwupdate-amd64-signed",
+		"fwupdate-arm64-signed",
+		"fwupdate-armhf-signed",
+		"fwupdate-i386-signed"
+	],
+	"installedSize": 5818,
+	"maintainer": "Debian EFI <debian-efi@lists.debian.org>",
+	"description": "Firmware update daemon",
+	"homepage": "https://github.com/fwupd/fwupd",
+	"filename": "pool/main/f/fwupd/fwupd_1.5.7-4_amd64.deb",
+	"size": 1962108,
+	"md5": "8f44da00d9cc98ab43dd24a05bd6d135",
+	"sha256": "26a8dcc4a83a7508ad747631293a177ccc89a09549b2c0d9472848868260670e",
+	"descriptionMd5": "cdd6fee34520bc38e3f317c22bf0694b"
+}]

@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gyoto-bin",
+	"source": "gyoto (1.4.4-8)",
+	"version": "1.4.4-8+b2",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libboost-mpi1.74.0 (>= 1.74.0+ds1)",
+		"libc6 (>= 2.34)",
+		"libcfitsio10 (>= 4.2.0~)",
+		"libgcc-s1 (>= 3.0)",
+		"libgyoto8 (>= 1.4.4)",
+		"libopenmpi3 (>= 4.1.4)",
+		"libstdc++6 (>= 5.2)",
+		"libxerces-c3.2"
+	],
+	"recommends": [
+		"mpi-default-bin",
+		"python3-gyoto",
+		"python3-opencv"
+	],
+	"replaces": [
+		"gyoto (<< 1.1.0~)"
+	],
+	"breaks": [
+		"gyoto (<< 1.1.0~)"
+	],
+	"installedSize": 207,
+	"maintainer": "Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>",
+	"description": "General relativistic ray-tracing command-line interface",
+	"homepage": "http://gyoto.obspm.fr",
+	"filename": "pool/main/g/gyoto/gyoto-bin_1.4.4-8+b2_amd64.deb",
+	"size": 126500,
+	"md5": "f998328c8a0889a879f8f4482fdbd3df",
+	"sha256": "1e6740324c16beea98c16668582e34a2909e58c3b79ff4c7d54c8782be15873a",
+	"descriptionMd5": "fb9e88c91468d7e196d13f4494bd0a42"
+}

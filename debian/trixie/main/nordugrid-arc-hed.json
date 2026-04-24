@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nordugrid-arc-hed",
+	"source": "nordugrid-arc",
+	"version": "7.0.0-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libarccommon4 (= 7.0.0-3)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libglibmm-2.4-1t64 (>= 2.66.8)",
+		"libsigc++-2.0-0v5 (>= 2.2.0)",
+		"libstdc++6 (>= 13.1)",
+		"libsystemd0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"nordugrid-arc-client (<< 1.0.1~rc2~)"
+	],
+	"breaks": [
+		"nordugrid-arc-client (<< 1.0.1~rc2~)"
+	],
+	"installedSize": 180,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "ARC Hosting Environment Daemon",
+	"homepage": "http://www.nordugrid.org",
+	"filename": "pool/main/n/nordugrid-arc/nordugrid-arc-hed_7.0.0-3_amd64.deb",
+	"size": 44584,
+	"md5": "0bc944d6ae4eb8500d34c38a06b5beb0",
+	"sha256": "d95e1287062bd13dd7a49915bd7ffc49b6d1207035303261f5b4c1cb1f6fe36b",
+	"descriptionMd5": "40545887ed24ff3927717d7dccf7eb85"
+}

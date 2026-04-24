@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ruby-fog-core",
+	"version": "2.1.0-3.1",
+	"section": "ruby",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ruby | ruby-interpreter",
+		"ruby-builder",
+		"ruby-excon (>= 0.58~)",
+		"ruby-formatador",
+		"ruby-mime-types",
+		"ruby-net-scp",
+		"ruby-net-ssh"
+	],
+	"replaces": [
+		"ruby-fog (<< 1.42.0-3)"
+	],
+	"breaks": [
+		"ruby-fog (<< 1.42.0-3)",
+		"ruby-fog-aliyun (<< 0.3.2-1)",
+		"ruby-fog-aws (<< 3.3.0-1)",
+		"ruby-fog-azure (<= 0.0.2-1)",
+		"ruby-fog-google (<< 1.8.2-1)",
+		"ruby-fog-libvirt (<< 0.6.0-1)",
+		"ruby-fog-openstack (<< 1.0.8-1)"
+	],
+	"installedSize": 197,
+	"maintainer": "Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "shared classes and tests for fog providers and services",
+	"homepage": "https://github.com/fog/fog-core",
+	"filename": "pool/main/r/ruby-fog-core/ruby-fog-core_2.1.0-3.1_all.deb",
+	"size": 36320,
+	"md5": "27d28292f73bd03536a0e3cb808ca14d",
+	"sha256": "07ca444b763182d9897cea112a81de6ce18c5a3b2ff89d5ad40ac1d8e65d8864",
+	"descriptionMd5": "52292290a8dd3dbca2039613e2dd67d3"
+}

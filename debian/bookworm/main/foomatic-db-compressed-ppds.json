@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "foomatic-db-compressed-ppds",
+	"source": "foomatic-db",
+	"version": "20230202-1",
+	"section": "text",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"xz-utils"
+	],
+	"recommends": [
+		"cups",
+		"cups-client",
+		"cups-filters | foomatic-filters",
+		"ghostscript"
+	],
+	"suggests": [
+		"cups-filters",
+		"hplip",
+		"hplip-cups",
+		"openprinting-ppds",
+		"printer-driver-all"
+	],
+	"replaces": [
+		"foomatic-db",
+		"foomatic-db-hpijs"
+	],
+	"breaks": [
+		"foomatic-db"
+	],
+	"conflicts": [
+		"foomatic-db",
+		"foomatic-db-hpijs"
+	],
+	"installedSize": 649,
+	"maintainer": "Debian Printing Group <debian-printing@lists.debian.org>",
+	"description": "OpenPrinting printer support - Compressed PPDs derived from the database",
+	"homepage": "https://www.openprinting.org/",
+	"filename": "pool/main/f/foomatic-db/foomatic-db-compressed-ppds_20230202-1_all.deb",
+	"size": 543680,
+	"md5": "fef712168a99df3ce2362c5dca473f20",
+	"sha256": "8bb60b53e9008b51d715ed2e2edad803613697e2b63ca38def73436da049c79e",
+	"descriptionMd5": "fb3b03f43036d62b4dc6ed630144d256"
+}

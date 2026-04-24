@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "plymouth-themes",
+	"source": "plymouth",
+	"version": "24.004.60-5",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"fontconfig",
+		"fontconfig-config",
+		"fonts-cantarell",
+		"fonts-dejavu-core",
+		"plymouth (= 24.004.60-5)",
+		"plymouth-label (= 24.004.60-5)",
+		"libc6 (>= 2.38)",
+		"libplymouth5 (>= 23.360.11)"
+	],
+	"replaces": [
+		"plymouth-drm (<< 0.9.0-6~)",
+		"plymouth-themes-all",
+		"plymouth-themes-fade-in",
+		"plymouth-themes-glow",
+		"plymouth-themes-script",
+		"plymouth-themes-solar",
+		"plymouth-themes-spinfinity",
+		"plymouth-themes-spinner"
+	],
+	"breaks": [
+		"libfontconfig1 (<< 2.13.0-5~)",
+		"plymouth-drm (<< 0.9.0-6~)"
+	],
+	"conflicts": [
+		"plymouth-themes-all",
+		"plymouth-themes-fade-in",
+		"plymouth-themes-glow",
+		"plymouth-themes-script",
+		"plymouth-themes-solar",
+		"plymouth-themes-spinfinity",
+		"plymouth-themes-spinner"
+	],
+	"installedSize": 1129,
+	"maintainer": "Laurent Bigonville <bigon@debian.org>",
+	"description": "boot animation, logger and I/O multiplexer - themes",
+	"homepage": "https://www.freedesktop.org/wiki/Software/Plymouth",
+	"filename": "pool/main/p/plymouth/plymouth-themes_24.004.60-5_amd64.deb",
+	"size": 787340,
+	"md5": "69f60f318943e3701fd255b28af07e69",
+	"sha256": "d9aeb1c0334d5700f9c7fce4e7eb7fb626a2f62d8883d69ab6a4c83f718c8471",
+	"descriptionMd5": "a82ebfe71db843f20f9eb0546c2b1832"
+}

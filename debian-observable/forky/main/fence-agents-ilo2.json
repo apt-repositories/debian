@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fence-agents-ilo2",
+	"source": "fence-agents",
+	"version": "4.17.0-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"fence-agents-common (>= 4.17.0-1)",
+		"gnutls-bin",
+		"python3-pexpect",
+		"python3-xmlschema"
+	],
+	"replaces": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"breaks": [
+		"fence-agents (<< 4.12.1-2~exp1)"
+	],
+	"installedSize": 30,
+	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
+	"description": "Fence Agents for Red Hat Cluster - HP iLO2 agent",
+	"homepage": "https://github.com/ClusterLabs/fence-agents",
+	"filename": "pool/main/f/fence-agents/fence-agents-ilo2_4.17.0-1_all.deb",
+	"size": 10852,
+	"md5": "66da4932eaef398ea33a92186709b8a0",
+	"sha256": "6c969f48249b41e39026d8c69f8962157bca16c1fa1a97d64edb0cc1e3483b9b",
+	"descriptionMd5": "a632a4770fbd0beee0df234fe04db3f3"
+}]

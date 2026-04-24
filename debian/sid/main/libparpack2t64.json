@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libparpack2t64",
+	"source": "arpack (3.9.1-6)",
+	"version": "3.9.1-6+b2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libarpack2t64 (>= 3.9.1)",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.29)",
+		"libgcc-s1 (>= 3.0)",
+		"libgfortran5 (>= 8)",
+		"liblapack3 | liblapack.so.3",
+		"libopenmpi40 (>= 5.0.10)"
+	],
+	"replaces": [
+		"libparpack2"
+	],
+	"breaks": [
+		"libparpack2 (<< 3.9.1-6)"
+	],
+	"installedSize": 321,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Parallel subroutines to solve large scale eigenvalue problems",
+	"homepage": "https://github.com/opencollab/arpack-ng",
+	"filename": "pool/main/a/arpack/libparpack2t64_3.9.1-6+b2_amd64.deb",
+	"size": 100888,
+	"md5": "68c69e0713baf87ac8fdb1bdd83a9009",
+	"sha256": "69d2ce81f4d58df7c568d52d7865ab66cf9e3de3ae43527ead19db410ab6164b",
+	"descriptionMd5": "bc61facdca0e5843df473acefb3f632d"
+}

@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openhpi-plugin-ilo2-ribcl",
+	"source": "openhpi",
+	"version": "3.8.0-2.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libglib2.0-0 (>= 2.31.8)",
+		"libopenhpi3 (= 3.8.0-2.1)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"replaces": [
+		"libopenhpi",
+		"libopenhpi2",
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"breaks": [
+		"libopenhpi3 (<< 3.8.0-2~)"
+	],
+	"conflicts": [
+		"libopenhpi",
+		"libopenhpi2"
+	],
+	"installedSize": 429,
+	"maintainer": "Mohan Devarajulu <mohan.devarajulu@hpe.com>",
+	"description": "OpenHPI plugin module for HP's ProLiant rackmount servers",
+	"homepage": "http://openhpi.org",
+	"filename": "pool/main/o/openhpi/openhpi-plugin-ilo2-ribcl_3.8.0-2.1_amd64.deb",
+	"size": 350244,
+	"md5": "9a37d2dbd84746684f232a13306c5489",
+	"sha256": "a5ed388266bea704f06828943f679d80c178d1f078dfc7f034e15a9172a0997c",
+	"descriptionMd5": "ff79dc7dbdfc688194ef0a55203cd048"
+}

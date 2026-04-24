@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debvm",
+	"version": "0.2.10+deb12u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"e2fsprogs",
+		"genext2fs",
+		"mmdebstrap (>= 1.3.0)",
+		"passwd",
+		"qemu-kvm | qemu-system-arm | qemu-system-mips | qemu-system-misc | qemu-system-ppc | qemu-system-sparc | qemu-system-x86",
+		"ipxe-qemu"
+	],
+	"recommends": [
+		"arch-test",
+		"file",
+		"systemd | binfmt-support",
+		"openssh-client",
+		"qemu-system",
+		"qemu-user-static",
+		"seabios",
+		"uidmap | fakeroot",
+		"uidmap | fakechroot"
+	],
+	"suggests": [
+		"qemu-system-gui"
+	],
+	"installedSize": 76,
+	"maintainer": "Helmut Grohne <helmut@subdivi.de>",
+	"description": "create and run virtual machines for various Debian releases and architectures",
+	"homepage": "https://salsa.debian.org/helmutg/debvm/",
+	"filename": "pool/main/d/debvm/debvm_0.2.10+deb12u1_all.deb",
+	"size": 27108,
+	"md5": "3c3d7150d36d48aaabffc91c9c6d2662",
+	"sha256": "02c787c2c867fc463248c8b656d02495162e15f3e7cf9347286cfd0c0e88c57a",
+	"descriptionMd5": "69eb9e07cd67454187b7bcecdcfc7511"
+}]

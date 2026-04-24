@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gccgo-13-alpha-linux-gnu",
+	"source": "gcc-13-cross-ports (25)",
+	"version": "13.4.0-10cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-alpha-linux-gnu-base (= 13.4.0-10cross1)",
+		"gcc-13-alpha-linux-gnu (= 13.4.0-10cross1)",
+		"libgo-13-dev-alpha-cross (>= 13)",
+		"libc6.1-dev-alpha-cross (>= 2.23-1~)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gccgo-13-doc"
+	],
+	"replaces": [
+		"gccgo-13 (<< 13.2.0-11)",
+		"libgo12-alpha-cross (<< 8-20171209-2)"
+	],
+	"breaks": [
+		"gccgo-13 (<< 13.2.0-11)",
+		"libgo12-alpha-cross (<< 8-20171209-2)"
+	],
+	"conflicts": [
+		"golang-go (<< 2:1.3.3-1ubuntu2)"
+	],
+	"installedSize": 23926,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Go compiler for the alpha-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-10)",
+	"filename": "pool/main/g/gcc-13-cross-ports/gccgo-13-alpha-linux-gnu_13.4.0-10cross1_amd64.deb",
+	"size": 8316284,
+	"md5": "61e0e55fcb21728e8c2f4704a5c44836",
+	"sha256": "d24e46ab16edde40e9bf5ba80f6ee930211df170d0dabfa5bb45ed62ebdefa11",
+	"descriptionMd5": "a6c6b84ea8876070c50e0de90bf5103d"
+}

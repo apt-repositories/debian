@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-13-aarch64-linux-gnu",
+	"source": "gcc-13-cross (18)",
+	"version": "13.3.0-16cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-aarch64-linux-gnu-base (= 13.3.0-16cross1)",
+		"gcc-13-aarch64-linux-gnu (>= 13)",
+		"libgnat-13-arm64-cross (>= 13.3.0-16cross1)",
+		"libc6-dev-arm64-cross (>= 2.23-1~)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-13-doc",
+		"ada-reference-manual-2012"
+	],
+	"replaces": [
+		"gnat-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gnat-13 (<< 13.2.0-11)"
+	],
+	"conflicts": [
+		"gnat-10-aarch64-linux-gnu",
+		"gnat-11-aarch64-linux-gnu",
+		"gnat-12-aarch64-linux-gnu",
+		"gnat-4.9",
+		"gnat-5-aarch64-linux-gnu",
+		"gnat-6-aarch64-linux-gnu",
+		"gnat-7-aarch64-linux-gnu",
+		"gnat-8-aarch64-linux-gnu",
+		"gnat-9-aarch64-linux-gnu"
+	],
+	"installedSize": 98456,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GNU Ada compiler for the aarch64-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-16)",
+	"filename": "pool/main/g/gcc-13-cross/gnat-13-aarch64-linux-gnu_13.3.0-16cross1_amd64.deb",
+	"size": 18738880,
+	"md5": "fd434d430c02f006ee81f8ce8e1f5d23",
+	"sha256": "114713d266d9641053dd2c4d4a386d72fcec212c7394517d70f116f7c9abd50e",
+	"descriptionMd5": "726b837fa2e33796406f1db6ec3b5d32"
+}

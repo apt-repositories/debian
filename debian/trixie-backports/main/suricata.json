@@ -1,0 +1,68 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "suricata",
+	"version": "1:8.0.4-1~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3:any",
+		"libbpf1 (>= 1:0.7.0)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.39)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libgcc-s1 (>= 4.2)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"libhwloc15 (>= 2.12.0)",
+		"libhyperscan5 (>= 5.4.2)",
+		"libjansson4 (>= 2.14)",
+		"liblz4-1 (>= 0.0~r127)",
+		"libmagic1t64 (>= 5.12)",
+		"libmaxminddb0 (>= 1.0.2)",
+		"libnet1 (>= 1.1.5)",
+		"libnetfilter-log1 (>= 0.0.13)",
+		"libnetfilter-queue1 (>= 1.0.2)",
+		"libnfnetlink0 (>= 1.0.2)",
+		"libnuma1 (>= 2.0.11)",
+		"libpcap0.8t64 (>= 1.0.0)",
+		"libpcre2-8-0 (>= 10.22)",
+		"librte-eal25 (>= 23.11)",
+		"librte-ethdev25 (>= 24.11~rc1)",
+		"librte-kvargs25 (>= 23.11)",
+		"librte-log25 (>= 23.11)",
+		"librte-mbuf25 (>= 23.11)",
+		"librte-mempool25 (>= 23.11)",
+		"librte-net-bond25 (>= 24.11~rc2)",
+		"libunwind8",
+		"libxdp1 (>= 1.2.0)",
+		"libyaml-0-2",
+		"zlib1g (>= 1:1.2.3.4)"
+	],
+	"recommends": [
+		"python3",
+		"suricata-update"
+	],
+	"suggests": [
+		"libtcmalloc-minimal4"
+	],
+	"replaces": [
+		"suricata-hyperscan"
+	],
+	"conflicts": [
+		"suricata-hyperscan"
+	],
+	"installedSize": 16964,
+	"maintainer": "Sascha Steinbiss <satta@debian.org>",
+	"description": "Next Generation Intrusion Detection and Prevention Tool",
+	"homepage": "https://suricata.io",
+	"filename": "pool/main/s/suricata/suricata_8.0.4-1~bpo13+1_amd64.deb",
+	"size": 4420008,
+	"sha256": "10dd14b73495f1cdbc43ed2ad87d381578856f43c9c52e9b191374a1b4595d34",
+	"descriptionMd5": "d75d723de9cd9ee5828c14e079cfc931"
+}

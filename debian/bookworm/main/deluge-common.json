@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "deluge-common",
+	"source": "deluge",
+	"version": "2.0.3-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-chardet",
+		"python3-mako",
+		"python3-openssl",
+		"python3-pil",
+		"python3-pyasn1",
+		"python3-rencode",
+		"python3-setproctitle",
+		"python3-six",
+		"python3-twisted (>= 11.1)",
+		"python3-xdg",
+		"python3-zope.interface",
+		"python3:any",
+		"python3-pkg-resources"
+	],
+	"recommends": [
+		"python3-geoip",
+		"geoip-database",
+		"python3-dbus"
+	],
+	"replaces": [
+		"deluge-core (<< 1.2.0~rc1-1)",
+		"deluge-torrent (<< 1.0.7.dfsg-1)",
+		"deluge-torrent-common (<< 1.0.7.dfsg-1)"
+	],
+	"breaks": [
+		"deluge-core (<< 1.2.0~rc1-1)",
+		"deluge-torrent (<< 1.0.7.dfsg-1)",
+		"deluge-torrent-common (<< 1.0.7.dfsg-1)"
+	],
+	"installedSize": 3673,
+	"maintainer": "Daniel Baumann <daniel.baumann@progress-linux.org>",
+	"description": "bittorrent client written in Python/PyGTK (common files)",
+	"homepage": "https://www.deluge-torrent.org/",
+	"filename": "pool/main/d/deluge/deluge-common_2.0.3-4_all.deb",
+	"size": 614836,
+	"md5": "77a1d082887eb3640a408cefa0625178",
+	"sha256": "5e76b5371a082e8e479a80cebdd50d160e50e3f0065ff2007a3828b7d58a9e47",
+	"descriptionMd5": "fda95b1a3c5d8042a9fcefb1948c4537"
+}

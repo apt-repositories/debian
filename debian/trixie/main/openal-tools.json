@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openal-tools",
+	"source": "openal-soft",
+	"version": "1:1.24.2-1",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libopenal1 (= 1:1.24.2-1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.0)",
+		"libmysofa1 (>= 0.6~)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"replaces": [
+		"libopenal-dev-bin (<< 1:1.15.1-5~)",
+		"makemhr (<< 1:1.23.1-1~)",
+		"openal-info (<< 1:1.23.1-1~)"
+	],
+	"breaks": [
+		"libopenal-dev-bin (<< 1:1.15.1-5~)",
+		"makemhr (<< 1:1.23.1-1~)",
+		"openal-info (<< 1:1.23.1-1~)"
+	],
+	"installedSize": 320,
+	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
+	"description": "Utilities for the OpenAL audio API",
+	"homepage": "https://github.com/kcat/openal-soft",
+	"filename": "pool/main/o/openal-soft/openal-tools_1.24.2-1_amd64.deb",
+	"size": 131836,
+	"md5": "eafc745be4023cb3271af370d3c8c0ec",
+	"sha256": "f4d9c3a80481030814557b79a12d1967637ffc71bf011bf075e8673301fbe247",
+	"descriptionMd5": "72e48984773700c1850d582069079462"
+}

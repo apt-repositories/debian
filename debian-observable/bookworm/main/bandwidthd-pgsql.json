@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bandwidthd-pgsql",
+	"source": "bandwidthd",
+	"version": "2.0.1+cvs20090917-14",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dbconfig-common",
+		"postgresql-client",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)",
+		"libgd3 (>= 2.1.0~alpha~)",
+		"libpcap0.8 (>= 0.9.8)",
+		"libpq5",
+		"lsb-base"
+	],
+	"recommends": [
+		"php",
+		"php-gd",
+		"php-pgsql"
+	],
+	"suggests": [
+		"apache2",
+		"postgresql"
+	],
+	"conflicts": [
+		"apache2 (<< 2.4)",
+		"bandwidthd"
+	],
+	"installedSize": 241,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "Tracks usage of TCP/IP and builds html files with graphs",
+	"homepage": "http://bandwidthd.sourceforge.net/",
+	"filename": "pool/main/b/bandwidthd/bandwidthd-pgsql_2.0.1+cvs20090917-14_amd64.deb",
+	"size": 77860,
+	"md5": "f0c0f7a2614b12b4e3bc4a64da04c9af",
+	"sha256": "9ed2d469f5dddf7c27f02dffb49040be50664198fc21b0c770f71a85a377f4e9",
+	"descriptionMd5": "b4120e22362bbb25d4cf0cf5697efb1c"
+}]

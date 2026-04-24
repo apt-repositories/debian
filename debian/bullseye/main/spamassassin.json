@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "spamassassin",
+	"version": "3.4.6-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl",
+		"libhtml-parser-perl",
+		"libsocket6-perl",
+		"adduser",
+		"libsys-hostname-long-perl",
+		"libarchive-tar-perl",
+		"libnet-dns-perl",
+		"libnetaddr-ip-perl",
+		"libhttp-date-perl",
+		"libmail-dkim-perl",
+		"lsb-base (>= 3.0-6)",
+		"libwww-perl | curl | w3m",
+		"init-system-helpers (>= 1.51)"
+	],
+	"recommends": [
+		"spamc",
+		"sa-compile",
+		"libmail-spf-perl",
+		"libsys-syslog-perl",
+		"gnupg",
+		"libio-socket-inet6-perl"
+	],
+	"suggests": [
+		"razor",
+		"libio-socket-ssl-perl",
+		"libdbi-perl",
+		"pyzor",
+		"libcompress-zlib-perl",
+		"libencode-detect-perl",
+		"libgeoip2-perl",
+		"libnet-patricia-perl",
+		"libbsd-resource-perl"
+	],
+	"installedSize": 4715,
+	"maintainer": "Noah Meyerhans <noahm@debian.org>",
+	"description": "Perl-based spam filter using text analysis",
+	"homepage": "https://spamassassin.apache.org/",
+	"filename": "pool/main/s/spamassassin/spamassassin_3.4.6-1_all.deb",
+	"size": 1256180,
+	"md5": "e4c0bb54106330ced8626a8b56668dec",
+	"sha256": "30490767d8b545ad65a27e1629a4db75e7e8cb77b7ae3b12235b2b555f8d9d88",
+	"descriptionMd5": "dc09f4668ebbf8e10ef779ed26e5716c"
+}

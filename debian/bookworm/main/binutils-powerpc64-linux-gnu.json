@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-powerpc64-linux-gnu",
+	"source": "binutils",
+	"version": "2.40-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.40-2)",
+		"libbinutils (>= 2.39.50)",
+		"libc6 (>= 2.36)",
+		"libgcc-s1 (>= 4.2)",
+		"libjansson4 (>= 2.14)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.40-2)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 16060,
+	"maintainer": "Matthias Klose <doko@debian.org>",
+	"description": "GNU binary utilities, for powerpc64-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-powerpc64-linux-gnu_2.40-2_amd64.deb",
+	"size": 2757588,
+	"md5": "7d517dc540f6ec31c3bb69041083ac89",
+	"sha256": "da557fb1d7c4d456b67fcac2714cc502a1db3e30d1f95a70a5a54ef51d9a069d",
+	"descriptionMd5": "b81ec509fee3e6fb3b2c79536d67b5a8"
+}

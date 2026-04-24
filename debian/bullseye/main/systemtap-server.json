@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemtap-server",
+	"source": "systemtap",
+	"version": "4.4-2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnss3-tools",
+		"avahi-utils",
+		"unzip",
+		"zip",
+		"systemtap (= 4.4-2)",
+		"systemtap-client (= 4.4-2)",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libc6 (>= 2.27)",
+		"libgcc-s1 (>= 3.0)",
+		"libnspr4 (>= 2:4.9-2~)",
+		"libnss3 (>= 2:3.13.4-2~)",
+		"libstdc++6 (>= 5.2)",
+		"net-tools"
+	],
+	"replaces": [
+		"systemtap-client (<< 0.0.20090523~)"
+	],
+	"breaks": [
+		"systemtap-client (<< 0.0.20090523~)"
+	],
+	"installedSize": 694,
+	"maintainer": "Emanuele Rocca <ema@debian.org>",
+	"description": "instrumentation system for Linux (compile server)",
+	"homepage": "http://sourceware.org/systemtap/",
+	"filename": "pool/main/s/systemtap/systemtap-server_4.4-2_amd64.deb",
+	"size": 161192,
+	"md5": "663ec99d89f841536e8ead84e1bd0d61",
+	"sha256": "85df515685d97bdea999c92c5fdd9a5d7f3d616a8179a7f2adc270167cbce60f",
+	"descriptionMd5": "b06185466bc2c394362abf8236e40c53"
+}

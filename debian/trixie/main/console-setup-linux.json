@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "console-setup-linux",
+	"source": "console-setup",
+	"version": "1.242~deb13u1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"kbd (>= 0.99-12) | console-tools (>= 1:0.2.3-16)",
+		"keyboard-configuration (= 1.242~deb13u1)",
+		"init-system-helpers (>= 1.29~) | initscripts"
+	],
+	"suggests": [
+		"console-setup"
+	],
+	"replaces": [
+		"console-setup (<< 1.71)",
+		"console-terminus"
+	],
+	"breaks": [
+		"console-cyrillic (<= 0.9-11)",
+		"console-setup (<< 1.71)",
+		"console-terminus"
+	],
+	"installedSize": 7283,
+	"maintainer": "Debian Install System Team <debian-boot@lists.debian.org>",
+	"description": "Linux specific part of console-setup",
+	"filename": "pool/main/c/console-setup/console-setup-linux_1.242~deb13u1_all.deb",
+	"size": 6207256,
+	"md5": "471548863efd4aeb77f0ae8e9442768d",
+	"sha256": "c96eb9386cd8d65dceb0a58726dcef7cf7a0aedca7f514139c225ab391baca27",
+	"descriptionMd5": "344215f6cd3c78235b14195ca3b44ec5"
+}

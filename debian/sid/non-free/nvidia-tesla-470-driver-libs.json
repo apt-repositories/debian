@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-tesla-470-driver-libs",
+	"source": "nvidia-graphics-drivers-tesla-470",
+	"version": "470.256.02-9",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libgl1-nvidia-tesla-470-glvnd-glx (= 470.256.02-9)",
+		"nvidia-tesla-470-egl-icd (= 470.256.02-9)"
+	],
+	"recommends": [
+		"nvidia-tesla-470-driver-libs:i386 (= 470.256.02-9)",
+		"libopengl0 | libopengl0-glvnd-nvidia",
+		"libglx-nvidia-tesla-470-0 (= 470.256.02-9)",
+		"libgles-nvidia-tesla-470-1 (= 470.256.02-9)",
+		"libgles-nvidia-tesla-470-2 (= 470.256.02-9)",
+		"libnvidia-tesla-470-cfg1 (= 470.256.02-9)",
+		"libnvidia-tesla-470-encode1 (= 470.256.02-9)",
+		"nvidia-tesla-470-vulkan-icd (= 470.256.02-9)"
+	],
+	"breaks": [
+		"libegl1-nvidia-tesla-470",
+		"libgl1-nvidia-tesla-470-glx",
+		"nvidia-tesla-470-driver-libs-nonglvnd",
+		"nvidia-tesla-470-nonglvnd-vulkan-icd"
+	],
+	"conflicts": [
+		"libegl1-glvnd-nvidia",
+		"libgl1-glvnd-nvidia-glx",
+		"libgl1-nvidia-tesla-470-glx-i386",
+		"libgles1-glvnd-nvidia",
+		"libgles2-glvnd-nvidia",
+		"libglvnd0-nvidia",
+		"libglx0-glvnd-nvidia",
+		"libopengl0-glvnd-nvidia"
+	],
+	"installedSize": 130,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage (OpenGL/GLX/EGL/GLES libraries) (Tesla 470 version)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/non-free/n/nvidia-graphics-drivers-tesla-470/nvidia-tesla-470-driver-libs_470.256.02-9_amd64.deb",
+	"size": 109528,
+	"md5": "95865700500a16e3fc671c6cfcd88625",
+	"sha256": "1ca9a956e9bf67b3e89a8991bff7a6d5a71c6d9e5b5c4c3cd72c60b997b7109b",
+	"descriptionMd5": "fd12997a1d112b44e78d93d467644a0c"
+}

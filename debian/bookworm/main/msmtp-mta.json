@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "msmtp-mta",
+	"source": "msmtp",
+	"version": "1.8.23-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libsecret-1-0 (>= 0.7)",
+		"msmtp (= 1.8.23-1)",
+		"adduser"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libsecret-tools | keepassxc | seahorse | kwalletmanager"
+	],
+	"replaces": [
+		"mail-transport-agent"
+	],
+	"conflicts": [
+		"mail-transport-agent"
+	],
+	"installedSize": 124,
+	"maintainer": "Emmanuel Bouthenot <kolter@debian.org>",
+	"description": "light SMTP client with support for server profiles - the regular MTA",
+	"homepage": "https://marlam.de/msmtp/",
+	"filename": "pool/main/m/msmtp/msmtp-mta_1.8.23-1_amd64.deb",
+	"size": 64768,
+	"md5": "6cded237fee0167e15cddd56b88d35d7",
+	"sha256": "2d952481355fc7a2cd938dc02070cc118b7515a2a7e48119f6450ded0dfa037d",
+	"descriptionMd5": "92a76bed20d7385fc7d78445076c37fc"
+}

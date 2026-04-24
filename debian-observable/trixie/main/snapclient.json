@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "snapclient",
+	"source": "snapcast",
+	"version": "0.31.0-1",
+	"section": "sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libasound2t64 (>= 1.0.18)",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libc6 (>= 2.38)",
+		"libflac14 (>= 1.5.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libogg0 (>= 1.0rc3)",
+		"libopus0 (>= 1.1)",
+		"libpulse0 (>= 0.99.1)",
+		"libsoxr0 (>= 0.1.0)",
+		"libstdc++6 (>= 14)",
+		"libvorbis0a (>= 1.1.2)",
+		"adduser"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"avahi-daemon"
+	],
+	"installedSize": 1145,
+	"maintainer": "Felix Geyer <fgeyer@debian.org>",
+	"description": "Snapcast client",
+	"homepage": "https://github.com/badaix/snapcast",
+	"filename": "pool/main/s/snapcast/snapclient_0.31.0-1_amd64.deb",
+	"size": 363512,
+	"md5": "086e41e6d92c512e499722d6b87fa695",
+	"sha256": "03816dd0ac3a21919ab1ccd658e6b2c277ffc8568e1a54cd1b7bec816529c4cf",
+	"descriptionMd5": "79d6c33e4c9aa960f8a24d5a63281c77"
+}]
