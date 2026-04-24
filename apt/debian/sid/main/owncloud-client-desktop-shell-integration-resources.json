@@ -5,17 +5,23 @@
 		"Size"
 	],
 	"package": "owncloud-client-desktop-shell-integration-resources",
-	"version": "1.0.0-2",
+	"version": "1.0.0-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
+	"replaces": [
+		"owncloud-client-data (<< 6.0.3.18040+dfsg-3)"
+	],
+	"breaks": [
+		"owncloud-client-data (<< 6.0.3.18040+dfsg-3)"
+	],
 	"installedSize": 229,
 	"maintainer": "ownCloud for Debian maintainers <pkg-owncloud-maintainers@lists.alioth.debian.org>",
 	"description": "ownCloud integration resources for shells",
 	"homepage": "https://github.com/owncloud/client-desktop-shell-integration-resources",
-	"filename": "pool/main/o/owncloud-client-desktop-shell-integration-resources/owncloud-client-desktop-shell-integration-resources_1.0.0-2_amd64.deb",
-	"size": 134540,
-	"md5": "605997eac15b67950a17403bfdbad4b0",
-	"sha256": "165423a0140c6fb5329feff312d4a5468294f4cb37a7988e36d04b45ad4ce91a",
+	"filename": "pool/main/o/owncloud-client-desktop-shell-integration-resources/owncloud-client-desktop-shell-integration-resources_1.0.0-3_amd64.deb",
+	"size": 134696,
+	"md5": "a7488c9c9744d7d42963c5f35115710c",
+	"sha256": "9f0d06eb457e160731fe756468c9f45dfceea9d928569370464d31bbdb10e37b",
 	"descriptionMd5": "5065ecc091f09ebc3a82b445b6b79275"
 }
