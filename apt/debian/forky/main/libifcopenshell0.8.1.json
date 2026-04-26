@@ -6,7 +6,7 @@
 	],
 	"package": "libifcopenshell0.8.1",
 	"source": "ifcopenshell",
-	"version": "0.8.1+dfsg1-2",
+	"version": "0.8.1+dfsg1-5",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,18 +14,26 @@
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libmpfr6 (>= 3.1.3)",
 		"libocct-foundation-7.9 (>= 7.9.2+dfsg)",
 		"libocct-modeling-algorithms-7.9 (>= 7.9.2+dfsg)",
 		"libocct-modeling-data-7.9 (>= 7.9.2+dfsg)",
-		"libstdc++6 (>= 14)"
+		"libstdc++6 (>= 14)",
+		"libxml2-16 (>= 2.14.1)"
 	],
-	"installedSize": 112830,
+	"replaces": [
+		"libifcopenshell-dev (<< 0.8.1+dfsg1-3)"
+	],
+	"breaks": [
+		"libifcopenshell-dev (<< 0.8.1+dfsg1-3)"
+	],
+	"installedSize": 127673,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Library for working with Industry Foundation Classes (IFC) data",
 	"homepage": "https://ifcopenshell.org/",
-	"filename": "pool/main/i/ifcopenshell/libifcopenshell0.8.1_0.8.1+dfsg1-2_amd64.deb",
-	"size": 13823444,
-	"md5": "2aca4037bf2c7fb58c7374655deb19bf",
-	"sha256": "8cbc5d63b8a43a5a5055740b13d0ce92b494f434c55214cfc3876f0e2809a58a",
+	"filename": "pool/main/i/ifcopenshell/libifcopenshell0.8.1_0.8.1+dfsg1-5_amd64.deb",
+	"size": 16851376,
+	"md5": "975b2e99ffb637001c1854097313321f",
+	"sha256": "adb8d1b3ca4eceefe59006c355116b772ab98922efa4caab15270ee05a8562a3",
 	"descriptionMd5": "48b2a2f8985c3c3ed0defbe450c3240a"
 }
