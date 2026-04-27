@@ -6,17 +6,22 @@
 	],
 	"package": "libfortran-shlex-0",
 	"source": "fortran-shlex",
-	"version": "2.0.1-2",
+	"version": "2.0.1-5",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 12,
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgfortran5 (>= 10)"
+	],
+	"installedSize": 1437,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Fortran command line argument parser library",
 	"homepage": "https://github.com/perazz/fortran-shlex",
-	"filename": "pool/main/f/fortran-shlex/libfortran-shlex-0_2.0.1-2_amd64.deb",
-	"size": 2648,
-	"md5": "124f23211b686f8463294d356496b52e",
-	"sha256": "9a24cf487af59ec3a8651e6a8dd9f4b37a4f1443263a1c58dc3592071e84f13f",
+	"filename": "pool/main/f/fortran-shlex/libfortran-shlex-0_2.0.1-5_amd64.deb",
+	"size": 278920,
+	"md5": "b34bb6b1f46121287c04f6538f4cee14",
+	"sha256": "70d907ba4643e4b17f68bf9fe407567196fc43c65adf2f9eef46463cffc24d3c",
 	"descriptionMd5": "45ed4c8757b8b80cac9bd693f2c3781c"
 }
