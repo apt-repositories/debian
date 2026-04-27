@@ -6,16 +6,16 @@
 	],
 	"package": "exim4-base",
 	"source": "exim4",
-	"version": "4.99.1-1",
+	"version": "4.99.1-5",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"cron | cron-daemon | anacron | systemd-sysv",
 		"exim4-config (>= 4.94) | exim4-config-2",
 		"libfile-fcntllock-perl",
 		"netbase",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"debconf (>= 0.5) | debconf-2.0",
 		"perl:any",
 		"libc6 (>= 2.38)",
@@ -31,7 +31,6 @@
 		"file",
 		"gnutls-bin | openssl",
 		"mail-reader",
-		"spf-tools-perl",
 		"swaks"
 	],
 	"replaces": [
@@ -39,24 +38,26 @@
 		"exim-tls",
 		"exim4-daemon-custom",
 		"exim4-daemon-heavy",
-		"exim4-daemon-light"
+		"exim4-daemon-light",
+		"exim4-daemon-mod"
 	],
 	"breaks": [
 		"exim4-daemon-custom (<< 4.99.1)",
 		"exim4-daemon-heavy (<< 4.99.1)",
-		"exim4-daemon-light (<< 4.99.1)"
+		"exim4-daemon-light (<< 4.99.1)",
+		"exim4-daemon-mod (<< 4.99.1)"
 	],
 	"conflicts": [
 		"exim",
 		"exim-tls"
 	],
-	"installedSize": 1646,
+	"installedSize": 1633,
 	"maintainer": "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>",
 	"description": "support files for all Exim MTA (v4) packages",
 	"homepage": "https://www.exim.org/",
-	"filename": "pool/main/e/exim4/exim4-base_4.99.1-1_amd64.deb",
-	"size": 1104072,
-	"md5": "5a16feef592b4b4680386d7292d32b75",
-	"sha256": "3a8b916e2c4a658d37492d3e41904bacd322177da58aaa31e283ea43ab9105ee",
-	"descriptionMd5": "ab23a802a5e7dee33641329abf2b6565"
+	"filename": "pool/main/e/exim4/exim4-base_4.99.1-5_amd64.deb",
+	"size": 1091052,
+	"md5": "1e39a8ef8eb739fd267fbc5f495193a5",
+	"sha256": "ebbb8ce07195608d4af1f36ab3cbebd88be6ca1f1104c546ea6be53696844e1a",
+	"descriptionMd5": "2126f768eceb27ad2d1038e6ba790076"
 }]
