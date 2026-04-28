@@ -6,11 +6,12 @@
 	],
 	"package": "python3-buildstream",
 	"source": "buildstream",
-	"version": "2.7.0-1",
+	"version": "2.7.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"buildbox",
 		"python3 (<< 3.15)",
 		"python3 (>= 3.13~)",
 		"python3-click",
@@ -25,23 +26,18 @@
 		"python3-ruamel.yaml.clib",
 		"python3-ujson",
 		"python3:any",
-		"libc6 (>= 2.14)",
-		"bubblewrap",
-		"buildbox",
-		"fuse3",
-		"git",
-		"patch"
+		"libc6 (>= 2.14)"
 	],
-	"suggests": [
+	"recommends": [
 		"lzip"
 	],
-	"installedSize": 4325,
+	"installedSize": 4326,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Python library for BuildStream toolset",
 	"homepage": "https://buildstream.build/",
-	"filename": "pool/main/b/buildstream/python3-buildstream_2.7.0-1_amd64.deb",
-	"size": 775648,
-	"md5": "df5598db5c6c9ee245915f8c12daba77",
-	"sha256": "4eaed29e972766e3d266874a427f8daacf1a5d655906b8d2b9c722a0036a0f6f",
+	"filename": "pool/main/b/buildstream/python3-buildstream_2.7.0-2_amd64.deb",
+	"size": 776608,
+	"md5": "4dfd3e2a3172bc0920e0057ebee199ab",
+	"sha256": "edb081d276d6e90bdd15bba489d238b104760342d84dd76d53db4b1ec5cb56b2",
 	"descriptionMd5": "8ddd147aea3ba2a0b38e086c90f4e243"
 }
