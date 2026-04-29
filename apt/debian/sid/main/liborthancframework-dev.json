@@ -6,12 +6,12 @@
 	],
 	"package": "liborthancframework-dev",
 	"source": "orthanc",
-	"version": "1.12.11+dfsg-5",
+	"version": "1.12.11+dfsg-6",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"liborthancframework1.12.11 (= 1.12.11+dfsg-5)",
+		"liborthancframework1.12.11 (= 1.12.11+dfsg-6)",
 		"libboost-all-dev",
 		"libcivetweb-dev",
 		"libcurl4-openssl-dev | libcurl4-dev",
@@ -26,13 +26,19 @@
 		"libssl-dev",
 		"uuid-dev"
 	],
-	"installedSize": 14225,
+	"replaces": [
+		"liborthancframework1 (<< 1.12.11+dfsg-5)"
+	],
+	"breaks": [
+		"liborthancframework1 (<< 1.12.11+dfsg-5)"
+	],
+	"installedSize": 14226,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "Orthanc Framework development files",
 	"homepage": "https://www.orthanc-server.com/",
-	"filename": "pool/main/o/orthanc/liborthancframework-dev_1.12.11+dfsg-5_amd64.deb",
-	"size": 1549852,
-	"md5": "e6a2c2501eb3f00999d1c5eed4fba659",
-	"sha256": "8ab1ffb25fa8c88295cf719dd14218a77be944cc6bdb58702df8b6829447ff9c",
+	"filename": "pool/main/o/orthanc/liborthancframework-dev_1.12.11+dfsg-6_amd64.deb",
+	"size": 1549176,
+	"md5": "7b297cccc81dbbabc7dba9eb9d885945",
+	"sha256": "d4d48a3fda1f6e4b4ab99d5b38e5d2179724ba933c9fea4302fc4b8abfefd5ef",
 	"descriptionMd5": "1ad384e36625bbb7e2cb8d2a3684c759"
 }
