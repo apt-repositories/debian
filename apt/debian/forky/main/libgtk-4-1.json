@@ -6,19 +6,21 @@
 	],
 	"package": "libgtk-4-1",
 	"source": "gtk4",
-	"version": "4.22.2+ds-2",
+	"version": "4.22.3+ds-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adwaita-icon-theme",
 		"hicolor-icon-theme",
+		"libgles2",
+		"libgtk-4-common (>= 4.22.3+ds-1)",
 		"shared-mime-info",
 		"libc6 (>= 2.38)",
 		"libcairo-gobject2 (>= 1.18.2)",
 		"libcairo-script-interpreter2 (>= 1.18.2)",
 		"libcairo2 (>= 1.18.2)",
-		"libcloudproviders0 (>= 0.3.1)",
+		"libcloudproviders0 (>= 0.2.5)",
 		"libcolord2 (>= 0.1.10)",
 		"libcups2t64 (>= 1.7.0)",
 		"libepoxy0 (>= 1.5.2)",
@@ -28,7 +30,7 @@
 		"libglib2.0-0t64 (>= 2.87.3)",
 		"libgraphene-1.0-0 (>= 1.10.0)",
 		"libgstreamer-gl1.0-0 (>= 1.14.0)",
-		"libgstreamer-plugins-bad1.0-0 (>= 1.28.1)",
+		"libgstreamer-plugins-bad1.0-0 (>= 1.28.2)",
 		"libgstreamer-plugins-base1.0-0 (>= 1.23.1)",
 		"libgstreamer1.0-0 (>= 1.14.0)",
 		"libharfbuzz-subset0 (>= 8.4.0)",
@@ -50,14 +52,12 @@
 		"libxi6 (>= 2:1.2.99.4)",
 		"libxinerama1 (>= 2:1.1.4)",
 		"libxkbcommon0 (>= 0.7.0)",
-		"libxrandr2 (>= 2:1.5.0)",
-		"libgles2",
-		"libgtk-4-common (>= 4.22.2+ds-2)"
+		"libxrandr2 (>= 2:1.5.0)"
 	],
 	"recommends": [
-		"libgtk-4-bin",
 		"ibus-gtk4",
 		"iso-codes",
+		"libgtk-4-bin",
 		"librsvg2-common (>= 2.48)"
 	],
 	"suggests": [
@@ -71,13 +71,13 @@
 		"libgtk-4-media-gstreamer (<< 4.19.2)",
 		"xdg-desktop-portal-gnome (<< 50~)"
 	],
-	"installedSize": 12525,
+	"installedSize": 12528,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GTK graphical user interface library",
 	"homepage": "https://www.gtk.org/",
-	"filename": "pool/main/g/gtk4/libgtk-4-1_4.22.2+ds-2_amd64.deb",
-	"size": 3370168,
-	"md5": "ea64d60d7643224833ddf0fbdc1f1f8e",
-	"sha256": "0f522c5118f0cd64c27caef8e9f5eccf15d66a4e8cf3a9f4db8abd93e6cb7480",
+	"filename": "pool/main/g/gtk4/libgtk-4-1_4.22.3+ds-1_amd64.deb",
+	"size": 3370616,
+	"md5": "98945e029be82f70d8424377702505e0",
+	"sha256": "a2a91772484afb9da1f059281c53eb673b48c42f3aac3dacc3cb2ade12269b05",
 	"descriptionMd5": "02e4be37fe9843eb98242e33800e4fb6"
 }
