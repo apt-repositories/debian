@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "librust-wildmatch-dev",
-	"source": "rust-wildmatch (2.1.1-1)",
-	"version": "2.1.1-1+b2",
+	"source": "rust-wildmatch",
+	"version": "2.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 47,
+	"depends": [
+		"librust-serde-1+derive-dev"
+	],
+	"installedSize": 54,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Simple string matching  with questionmark and star wildcard operator - Rust source code",
-	"filename": "pool/main/r/rust-wildmatch/librust-wildmatch-dev_2.1.1-1+b2_amd64.deb",
-	"size": 8476,
-	"md5": "f95aa40a30233566fd64760909c206b3",
-	"sha256": "b55577577dafdeb945830a054c322ec981e12eddb2a17978568c1ff48eaf8a35",
-	"descriptionMd5": "d1c29c9528e6fae3306385de3e6346dc"
+	"description": "Simple string matching with single- and multi-character wildcard operator - Rust source code",
+	"homepage": "https://github.com/becheran/wildmatch",
+	"filename": "pool/main/r/rust-wildmatch/librust-wildmatch-dev_2.6.1-1_amd64.deb",
+	"size": 9764,
+	"md5": "adc3d940bfbaf49e2458f753dbf805b3",
+	"sha256": "450ab7302e854ac16b027490a61666b1c863b2e7b68617d574df3d24815ab7ee",
+	"descriptionMd5": "d4ab3a2bee1fdd4eefa8599ab2af7fcf"
 }]
