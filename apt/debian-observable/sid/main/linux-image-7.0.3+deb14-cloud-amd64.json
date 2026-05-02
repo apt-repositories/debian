@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.3+deb14-cloud-amd64",
+	"source": "linux-signed-amd64 (7.0.3+1)",
+	"version": "7.0.3-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.0.3+deb14-cloud-amd64 (= 7.0.3-1)",
+		"linux-binary-7.0.3+deb14-cloud-amd64 (= 7.0.3-1)",
+		"linux-modules-7.0.3+deb14-cloud-amd64 (= 7.0.3-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.0"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.0.3 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.0.3+deb14-cloud-amd64_7.0.3-1_amd64.deb",
+	"size": 1916,
+	"md5": "1a8396999327f750fad1d65fcd9616f9",
+	"sha256": "e65f8a65aa06d6245092446956a85ae231b46db2c66669f01f8e818935c22e1d",
+	"descriptionMd5": "9945ee08fef2815fe2f9fc1e2f9dea98"
+}]
