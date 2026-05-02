@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.3+deb14-amd64",
+	"source": "linux-signed-amd64 (7.0.3+1)",
+	"version": "7.0.3-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.0.3+deb14-amd64 (= 7.0.3-1)",
+		"linux-binary-7.0.3+deb14-amd64 (= 7.0.3-1)",
+		"linux-modules-7.0.3+deb14-amd64 (= 7.0.3-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.0"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.0.3 for 64-bit PCs",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.0.3+deb14-amd64_7.0.3-1_amd64.deb",
+	"size": 1892,
+	"md5": "f6f71a4568bb1a34355e6bc9f72ff4e2",
+	"sha256": "7ea703a1cf982376a1a4ba771039c4e4181e5c671fdacea389d371e835e813cc",
+	"descriptionMd5": "f3be19165bc9c494f9fc9f17e7162caf"
+}

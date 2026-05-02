@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "node-read-pkg",
-	"version": "5.2.0-2",
+	"version": "10.1.0+~5.4.4-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,13 +13,16 @@
 		"node-parse-json",
 		"node-normalize-package-data (>= 3.0.0)"
 	],
-	"installedSize": 103,
+	"breaks": [
+		"node-read-pkg-up (<< 12.0.0-1~)"
+	],
+	"installedSize": 575,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Read a package.json file",
 	"homepage": "https://github.com/sindresorhus/read-pkg",
-	"filename": "pool/main/n/node-read-pkg/node-read-pkg_5.2.0-2_all.deb",
-	"size": 23988,
-	"md5": "26cf2e968709a8b525aedb1707d82ccc",
-	"sha256": "82e708394429a854c3de0957dc6575aa7384f4bed939bd0669e7c0f90abf80bd",
+	"filename": "pool/main/n/node-read-pkg/node-read-pkg_10.1.0+~5.4.4-3_all.deb",
+	"size": 98792,
+	"md5": "aeac50cf1cb2cfbe2c786150b389f71c",
+	"sha256": "5a7c27ccf41b175f9f5d33aeff11dcd2839f2a3855f8752cb94ce03dbb19dcce",
 	"descriptionMd5": "d1146cee50f0f6191f4886f72dda0cc7"
 }

@@ -5,19 +5,18 @@
 		"Size"
 	],
 	"package": "education-highschool",
-	"source": "debian-edu (2.13.5)",
-	"version": "2.13.5+b1",
+	"source": "debian-edu",
+	"version": "2.13.6",
 	"section": "metapackages",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"education-tasks (= 2.13.5+b1)"
+		"education-tasks (= 2.13.6)"
 	],
 	"recommends": [
 		"calibre",
 		"cantor",
 		"carmetal",
-		"chemtool",
 		"education-menus",
 		"fritzing",
 		"inkscape",
@@ -32,13 +31,16 @@
 		"step",
 		"yorick"
 	],
-	"installedSize": 26,
+	"suggests": [
+		"chemtool"
+	],
+	"installedSize": 25,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "Debian Edu applications for high school level",
 	"homepage": "https://blends.debian.org/edu",
-	"filename": "pool/main/d/debian-edu/education-highschool_2.13.5+b1_amd64.deb",
-	"size": 6612,
-	"md5": "7daf4275615c00565032c7ec782fca53",
-	"sha256": "77bd1ebc2933055930b632a6089cc96469561deae3ed68812eb079d8260d7b39",
+	"filename": "pool/main/d/debian-edu/education-highschool_2.13.6_amd64.deb",
+	"size": 6676,
+	"md5": "c526556970c47e13d655daf93323fdf5",
+	"sha256": "e5e067fd62a62a7c93ecb2d2ce06a83930157848038647ce1e543978df0682b4",
 	"descriptionMd5": "50b882a14ee218c420b80fac1fde2fb0"
 }]
