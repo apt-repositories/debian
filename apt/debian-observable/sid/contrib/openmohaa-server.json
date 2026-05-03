@@ -6,32 +6,29 @@
 	],
 	"package": "openmohaa-server",
 	"source": "openmohaa",
-	"version": "0.82.1+dfsg-2",
+	"version": "0.82.1+dfsg-3",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 6)",
 		"zlib1g (>= 1:1.1.4)",
-		"openmohaa-common (= 0.82.1+dfsg-2)",
-		"adduser",
+		"openmohaa-common (= 0.82.1+dfsg-3)",
 		"mohaa-data | game-data-packager"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"suggests": [
 		"game-data-packager-runtime (>= 81~)"
 	],
-	"installedSize": 1083,
+	"installedSize": 1089,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "dedicated server for \"Medal of Honor: Allied Assault\"",
 	"homepage": "https://www.openmohaa.org",
-	"filename": "pool/contrib/o/openmohaa/openmohaa-server_0.82.1+dfsg-2_amd64.deb",
-	"size": 347896,
-	"md5": "e9ac614967f553cbc8752039ac9350c2",
-	"sha256": "6964baec9e5bccaea6abc4c659970cac06eff4680b4c468ef8941f8014e65e5a",
+	"filename": "pool/contrib/o/openmohaa/openmohaa-server_0.82.1+dfsg-3_amd64.deb",
+	"size": 348504,
+	"md5": "7968526012fc0bd3a5b9ea88c36b2776",
+	"sha256": "cd6699a67482a9d0b0d519407c301c9ce95997db15765b064c1db248ef6ba71b",
 	"descriptionMd5": "cff1d2a5380a1015411ea2f8c354e64e"
 }]
