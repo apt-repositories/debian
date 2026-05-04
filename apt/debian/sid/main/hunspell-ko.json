@@ -5,25 +5,24 @@
 		"Size"
 	],
 	"package": "hunspell-ko",
-	"source": "libreoffice-dictionaries",
-	"version": "1:26.2.2-3",
+	"source": "hunspell-dict-ko",
+	"version": "2:0.7.94-3",
 	"section": "text",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"dictionaries-common"
+		"dictionaries-common (>= 1.0)"
 	],
-	"suggests": [
-		"hunspell",
-		"libreoffice-writer"
+	"breaks": [
+		"libhunspell-1.2-0 (<< 1.2.14)"
 	],
-	"installedSize": 26136,
-	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"installedSize": 25796,
+	"maintainer": "Debian Korean L10N <debian-l10n-korean@lists.debian.org>",
 	"description": "Korean dictionary for hunspell",
-	"homepage": "https://wiki.documentfoundation.org/Language_support_of_LibreOffice",
-	"filename": "pool/main/libr/libreoffice-dictionaries/hunspell-ko_26.2.2-3_all.deb",
-	"size": 1413084,
-	"md5": "477a613c921d7318f14573fcb6d75748",
-	"sha256": "464b3e4856ab0bc0101d273ae4d202ceb0fac77e68ff5004772f39ca86a7d1e4",
-	"descriptionMd5": "49e691f46c2cc784af06c4a9b24bf13f"
+	"homepage": "https://spellcheck-ko.github.io/",
+	"filename": "pool/main/h/hunspell-dict-ko/hunspell-ko_0.7.94-3_all.deb",
+	"size": 1169764,
+	"md5": "746c720a610b79cbde51fabd7ac8431d",
+	"sha256": "92f5485773a93b4548be019f57bf3895f2d26d062581169ce5fd4a23017e0f2e",
+	"descriptionMd5": "01c94e8fc992a0cac0d9d33290ea2643"
 }

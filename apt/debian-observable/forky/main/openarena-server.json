@@ -6,12 +6,11 @@
 	],
 	"package": "openarena-server",
 	"source": "openarena",
-	"version": "0.8.8+dfsg-11",
+	"version": "0.8.8+dfsg-12",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"ioquake3-server",
 		"openarena-081-maps",
 		"openarena-081-misc",
@@ -21,21 +20,24 @@
 		"openarena-085-data",
 		"openarena-088-data",
 		"openarena-data (<< 0.8.6~)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"suggests": [
 		"openarena-oacmp1"
 	],
-	"installedSize": 1702,
+	"breaks": [
+		"opensysusers (<< 0.7.3-5.1~)",
+		"systemd (<< 257)",
+		"systemd-standalone-sysusers (<< 257)"
+	],
+	"installedSize": 1705,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "server and game logic for the game OpenArena",
 	"homepage": "https://openarena.ws/",
-	"filename": "pool/main/o/openarena/openarena-server_0.8.8+dfsg-11_amd64.deb",
-	"size": 429080,
-	"md5": "8a6887fde3c9d5092cf7b1fdd3262f45",
-	"sha256": "80c60cdc733ef9cc6b1f474af6adfde892f609f81fdbd14051c889397f47be35",
+	"filename": "pool/main/o/openarena/openarena-server_0.8.8+dfsg-12_amd64.deb",
+	"size": 428688,
+	"md5": "ba46b3fd6d8f26557311a92545ad2547",
+	"sha256": "8cb71454cda679b8cb494c4c44f2b02988b80833ab9f0419ce97ec37b10f24b4",
 	"descriptionMd5": "b5aee37b93113cab3fd625b8fc9b2625"
 }]

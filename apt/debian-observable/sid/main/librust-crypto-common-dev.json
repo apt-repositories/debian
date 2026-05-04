@@ -6,24 +6,24 @@
 	],
 	"package": "librust-crypto-common-dev",
 	"source": "rust-crypto-common",
-	"version": "0.1.6-5",
+	"version": "0.2.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-generic-array-0.14+default-dev (>= 0.14.4-~~)",
-		"librust-generic-array-0.14+more-lengths-dev (>= 0.14.4-~~)",
-		"librust-rand-core-0.6+default-dev",
-		"librust-rand-core-0.6+getrandom-dev",
-		"librust-typenum-1+default-dev (>= 1.14-~~)"
+		"librust-getrandom-0.4+default-dev",
+		"librust-getrandom-0.4+sys-rng-dev",
+		"librust-hybrid-array-0.4+default-dev (>= 0.4.7)",
+		"librust-hybrid-array-0.4+zeroize-dev (>= 0.4.7)",
+		"librust-rand-core-0.10+default-dev"
 	],
-	"installedSize": 46,
+	"installedSize": 62,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Common cryptographic traits - Rust source code",
+	"description": "Common traits used by cryptographic algorithms - Rust source code",
 	"homepage": "https://github.com/RustCrypto/traits",
-	"filename": "pool/main/r/rust-crypto-common/librust-crypto-common-dev_0.1.6-5_amd64.deb",
-	"size": 11380,
-	"md5": "c6536a7c11d4641d8cab42b6fc924661",
-	"sha256": "d3ba7f0c6547f21b278545a0b9e1cb88999367cab5f7deceb87b23cf3f514968",
-	"descriptionMd5": "87a723555e6c35ef4ffed6da089d7d48"
+	"filename": "pool/main/r/rust-crypto-common/librust-crypto-common-dev_0.2.1-1_amd64.deb",
+	"size": 14984,
+	"md5": "9c055dece6e4ad622fa76bacc6e8d523",
+	"sha256": "36fa314b7e1f67799e251e231438cd5e312159a1b73c4f4c9e898dd535b8aded",
+	"descriptionMd5": "87fdd9ef4da85454a97d9e58eaf3afd2"
 }]
