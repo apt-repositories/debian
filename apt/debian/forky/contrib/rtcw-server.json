@@ -6,26 +6,23 @@
 	],
 	"package": "rtcw-server",
 	"source": "iortcw",
-	"version": "1.51.c+dfsg1-8",
+	"version": "1.51.c+dfsg1-9",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
-		"rtcw-common (= 1.51.c+dfsg1-8)",
+		"rtcw-common (= 1.51.c+dfsg1-9)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
-	],
-	"installedSize": 756,
+	"installedSize": 762,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "standalone server for Return to Castle Wolfenstein",
 	"homepage": "https://github.com/iortcw/iortcw/",
-	"filename": "pool/contrib/i/iortcw/rtcw-server_1.51.c+dfsg1-8_amd64.deb",
-	"size": 303412,
-	"md5": "6b60a2e2d5afdbfbe475042fe0b72434",
-	"sha256": "47356bdb63cf425eac937cafca1cdd378e40b7f86a569e24e82b63d233b16457",
+	"filename": "pool/contrib/i/iortcw/rtcw-server_1.51.c+dfsg1-9_amd64.deb",
+	"size": 302824,
+	"md5": "c0df417c758cc344442e698e270950b8",
+	"sha256": "e87a2ec6dc74509e86c2a0360ed7524c9e12559a895168132ae1ce2803facc80",
 	"descriptionMd5": "d3756cb8ff76af7f83fdf3421c74ca3b"
 }

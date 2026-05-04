@@ -5,26 +5,26 @@
 		"Size"
 	],
 	"package": "vdradmin-am",
-	"version": "3.6.14-1",
+	"version": "3.6.15-1",
 	"section": "video",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"perl:any",
-		"libio-compress-perl",
-		"libtemplate-perl",
-		"liburi-perl",
-		"libio-socket-inet6-perl",
-		"libsocket6-perl",
-		"liblocale-gettext-perl | libintl-perl",
-		"libwww-perl",
 		"adduser",
+		"libcgi-pm-perl",
+		"libio-compress-perl",
+		"libio-socket-inet6-perl",
+		"liblocale-gettext-perl | libintl-perl",
+		"libsocket6-perl",
+		"libtemplate-perl",
 		"libtemplate-plugin-javascript-perl",
-		"libcgi-pm-perl"
+		"liburi-perl",
+		"libwww-perl",
+		"perl:any"
 	],
 	"suggests": [
-		"vdr (>= 1.7.15)",
 		"libauthen-sasl-perl",
+		"vdr (>= 1.7.15)",
 		"vdr-plugin-epgsearch (>= 0.9.23)"
 	],
 	"replaces": [
@@ -33,13 +33,13 @@
 	"conflicts": [
 		"vdradmin"
 	],
-	"installedSize": 1378,
+	"installedSize": 1383,
 	"maintainer": "Debian VDR Team <pkg-vdr-dvb-devel@lists.alioth.debian.org>",
 	"description": "Web-based administration tool for vdr",
-	"homepage": "http://andreas.vdr-developer.org/vdradmin-am/index.html",
-	"filename": "pool/main/v/vdradmin-am/vdradmin-am_3.6.14-1_all.deb",
-	"size": 287588,
-	"md5": "6a1c0dc7b43d2ee95ddc9d4a9957e883",
-	"sha256": "b8729b09e97a926ee227944b66f07c0b56e46364222a088ae98b32cd16fcdd4d",
+	"homepage": "https://github.com/vdr-projects/vdradmin-am",
+	"filename": "pool/main/v/vdradmin-am/vdradmin-am_3.6.15-1_all.deb",
+	"size": 289344,
+	"md5": "af9c7faed2dd4a0f2982d31c864fb7e7",
+	"sha256": "98e4e0d3c1005deafffc672e00514604eba3d351394baf62ff6f3c56675b55ea",
 	"descriptionMd5": "8b6373c8bf4cf5c720125d96bc9a7a9d"
 }

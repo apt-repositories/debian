@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "kaidan",
-	"source": "kaidan (0.15.0-1)",
-	"version": "0.15.0-1+b2",
+	"version": "0.15.0-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -31,7 +30,7 @@
 		"libglib2.0-0t64 (>= 2.16.0)",
 		"libgstreamer1.0-0 (>= 1.0.0)",
 		"libicu78 (>= 78.1-1~)",
-		"libkdsingleapplication-qt6-1.0 (>= 1.2.0)",
+		"libkdsingleapplication-qt6-1.0 (>= 1.2.1)",
 		"libkf6coreaddons6 (>= 6.0.0)",
 		"libkf6crash6 (>= 6.11.0~)",
 		"libkf6kiocore6 (>= 6.11.0~)",
@@ -55,13 +54,16 @@
 		"libstdc++6 (>= 11)",
 		"qt6-base-private-abi (= 6.10.2)"
 	],
-	"installedSize": 7312,
+	"recommends": [
+		"qt6-location-plugins"
+	],
+	"installedSize": 7311,
 	"maintainer": "Debian KDE Extras Team <pkg-kde-extras@alioth-lists.debian.net>",
 	"description": "Simple and user-friendly Jabber/XMPP client",
 	"homepage": "https://www.kaidan.im/",
-	"filename": "pool/main/k/kaidan/kaidan_0.15.0-1+b2_amd64.deb",
-	"size": 1586148,
-	"md5": "ba63705bcd908ada4a689748cd75d700",
-	"sha256": "0d0294bfb2f2e4455ceb97ba2d3fce18dd7ee2ddbe0fb2d860714d761582e4fc",
+	"filename": "pool/main/k/kaidan/kaidan_0.15.0-2_amd64.deb",
+	"size": 1586548,
+	"md5": "dd9150b4bdfc06912d2579d19a20594d",
+	"sha256": "b0dc340cb88ef994debb90c55b81ed07dd85682967cc0e5f0cb0a73938d9d965",
 	"descriptionMd5": "aa3b8ee165becbd05d8947772613cb05"
 }
