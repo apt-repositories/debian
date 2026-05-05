@@ -5,19 +5,18 @@
 		"Size"
 	],
 	"package": "chkrootkit",
-	"source": "chkrootkit (0.58b-6)",
-	"version": "0.58b-6+b1",
+	"version": "0.59-1",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"binutils",
+		"iproute2 | net-tools",
 		"procps",
 		"libc6 (>= 2.38)"
 	],
 	"recommends": [
 		"default-mta | mail-transport-agent",
-		"iproute2 | net-tools",
 		"mailx",
 		"systemd-sysv | cron | anacron | cron-daemon"
 	],
@@ -36,6 +35,7 @@
 		"esmtp-run",
 		"exim4-daemon-heavy",
 		"exim4-daemon-light",
+		"exim4-daemon-mod",
 		"fetchmail",
 		"findutils",
 		"fingerd",
@@ -78,14 +78,14 @@
 		"util-linux",
 		"wtmpdb"
 	],
-	"installedSize": 978,
+	"installedSize": 987,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "rootkit detector",
 	"homepage": "https://www.chkrootkit.org/",
-	"builtUsing": "glibc (= 2.42-13)",
-	"filename": "pool/main/c/chkrootkit/chkrootkit_0.58b-6+b1_amd64.deb",
-	"size": 323624,
-	"md5": "54dadbec7ffc88692a93b4a377abfb68",
-	"sha256": "681ea3839a616aac86772c2ed43391a335da688248e360adccd0882d68f44a25",
+	"builtUsing": "glibc (= 2.42-15)",
+	"filename": "pool/main/c/chkrootkit/chkrootkit_0.59-1_amd64.deb",
+	"size": 328688,
+	"md5": "460f85a57a338987d2c4ac120859d289",
+	"sha256": "7200f4a9b5da54b0c95093a78f0ea5c09434b91497a8c4458834db24990ed661",
 	"descriptionMd5": "f02a67f0ef476e80255f1f6b3491753f"
 }

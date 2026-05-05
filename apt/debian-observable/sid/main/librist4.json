@@ -6,22 +6,25 @@
 	],
 	"package": "librist4",
 	"source": "librist",
-	"version": "0.2.14+dfsg-1",
+	"version": "0.2.14+dfsg-1.1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.42)",
 		"libcjson1 (>= 1.7.5)",
-		"libmbedcrypto16 (>= 3.6.0)"
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libhogweed6t64",
+		"libnettle8t64"
 	],
-	"installedSize": 210,
+	"installedSize": 202,
 	"maintainer": "Florian Ernst <florian@debian.org>",
 	"description": "Reliable Internet Stream Transport -- shared library",
 	"homepage": "https://code.videolan.org/rist/librist",
-	"filename": "pool/main/libr/librist/librist4_0.2.14+dfsg-1_amd64.deb",
-	"size": 84092,
-	"md5": "5f24b9f4b5076ed01b3ad767bbb73734",
-	"sha256": "dbc0cde819f1e69118a97cf96ee2f7ba3ab336b4d763f7df6da46ad6590d8e3b",
+	"filename": "pool/main/libr/librist/librist4_0.2.14+dfsg-1.1_amd64.deb",
+	"size": 84228,
+	"md5": "c7be7bfc68a02d9a2fae24941b38a07a",
+	"sha256": "8d01d1205499ba6de84ea434fb483cefde43362e4dd99f45ad596e9437c4d667",
 	"descriptionMd5": "0bf2f47b5cbee6438a188bd12233e1bc"
 }]
