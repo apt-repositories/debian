@@ -6,17 +6,21 @@
 	],
 	"package": "libfortran-regex-0d",
 	"source": "fortran-regex",
-	"version": "1.1.2-8",
+	"version": "1.1.2-9",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 12,
+	"depends": [
+		"libc6 (>= 2.38)",
+		"liblfortran-runtime0 (>= 0.63.0)"
+	],
+	"installedSize": 1444,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Fortran regular expression library",
 	"homepage": "https://github.com/perazz/fortran-regex",
-	"filename": "pool/main/f/fortran-regex/libfortran-regex-0d_1.1.2-8_amd64.deb",
-	"size": 2784,
-	"md5": "936037fae9bd408a56ca5959a836bd6c",
-	"sha256": "cd682e72a1892cc08fe267de7705cc73f68d9749d2305cb42e2dc9fa98270825",
+	"filename": "pool/main/f/fortran-regex/libfortran-regex-0d_1.1.2-9_amd64.deb",
+	"size": 266348,
+	"md5": "4f324efd43ff7d63cf73ede1fed5f2da",
+	"sha256": "6d86080dc6b2123ec50d7243b0a7193efad164db549d805edc5a9f188d7c4091",
 	"descriptionMd5": "9417e72b7f36349a449d0b35be69808c"
 }

@@ -5,25 +5,25 @@
 		"Size"
 	],
 	"package": "openbgpd",
-	"version": "9.0-1~bpo13+1",
+	"version": "9.1-1~bpo13+1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libevent-2.1-7t64 (>= 2.1.8-stable)",
-		"libmnl0 (>= 1.0.4-1~)",
-		"systemd | systemd-standalone-sysusers | systemd-sysusers"
+		"libmnl0 (>= 1.0.4-1~)"
 	],
 	"recommends": [
 		"rpki-client"
 	],
-	"installedSize": 774,
+	"installedSize": 789,
 	"maintainer": "Marco d'Itri <md@linux.it>",
 	"description": "OpenBSD BGP daemon",
 	"homepage": "https://www.openbgpd.org/",
-	"filename": "pool/main/o/openbgpd/openbgpd_9.0-1~bpo13+1_amd64.deb",
-	"size": 289200,
-	"sha256": "f48c92bdfa7b75326c542b32aaadfad49d64ba37adf06b82dbdfc38a3be02ae9",
+	"filename": "pool/main/o/openbgpd/openbgpd_9.1-1~bpo13+1_amd64.deb",
+	"size": 292328,
+	"sha256": "af3560382a99fe07865a6536250bb94d4e1d8607ae723cc33f09151f94179574",
 	"descriptionMd5": "acc92ba0ca3821ff82802f79fe7a1874"
 }
