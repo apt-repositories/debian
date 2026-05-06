@@ -6,16 +6,22 @@
 	],
 	"package": "libgroonga0t64",
 	"source": "groonga",
-	"version": "16.0.0+dfsg-1",
+	"version": "16.0.1+dfsg-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libarrow2300 (>= 23.0.1)",
+		"libblosc2-7 (>= 2.22.0)",
 		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
 		"libgcc-s1 (>= 3.0)",
+		"libh3-1",
+		"libllama0 (>= 9009+dfsg)",
 		"liblz4-1 (>= 0.0~r130)",
 		"libmsgpack-c2 (>= 2.1.0)",
-		"libstdc++6 (>= 5.2)",
+		"libsimdjson33 (>= 4.6.3)",
+		"libstdc++6 (>= 13.1)",
 		"libxxhash0 (>= 0.8.0)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)"
@@ -26,15 +32,15 @@
 	],
 	"breaks": [
 		"libgroonga (<< 1.2.0-1)",
-		"libgroonga0 (<< 16.0.0+dfsg-1)"
+		"libgroonga0 (<< 16.0.1+dfsg-1)"
 	],
-	"installedSize": 19512,
+	"installedSize": 20208,
 	"maintainer": "Kentaro Hayashi <kenhys@xdump.org>",
 	"description": "Library files for Groonga",
 	"homepage": "https://groonga.org/",
-	"filename": "pool/main/g/groonga/libgroonga0t64_16.0.0+dfsg-1_amd64.deb",
-	"size": 1944080,
-	"md5": "edd68c3f1a5716b3e46f332c2cec6144",
-	"sha256": "8ade24794702ccef9757f5b4b4661f21808b0afbacf724ad72c70aae31918248",
+	"filename": "pool/main/g/groonga/libgroonga0t64_16.0.1+dfsg-1_amd64.deb",
+	"size": 2162628,
+	"md5": "f85d57abb822468593c5cbe9ae2d0b0c",
+	"sha256": "8df8b073d230f4ae46771e7997630402ad3386e6fde3fd30b03f759f1ef2cbe3",
 	"descriptionMd5": "7130db3779a21e99fc1a1f8f5c49d817"
 }

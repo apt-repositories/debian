@@ -5,27 +5,27 @@
 		"Size"
 	],
 	"package": "rpki-client",
-	"version": "9.7-1~bpo13+1",
+	"version": "9.8-1~bpo13+1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"rsync",
+		"rpki-trust-anchors",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libexpat1 (>= 2.0.1)",
 		"libssl3t64 (>= 3.0.0)",
 		"libtls28t64 (>= 3.5.0)",
-		"zlib1g (>= 1:1.1.4)",
-		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"rsync",
-		"rpki-trust-anchors"
+		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 492,
+	"installedSize": 488,
 	"maintainer": "Marco d'Itri <md@linux.it>",
 	"description": "OpenBSD RPKI validator",
 	"homepage": "https://rpki-client.org/",
-	"filename": "pool/main/r/rpki-client/rpki-client_9.7-1~bpo13+1_amd64.deb",
-	"size": 160404,
-	"sha256": "69bab6a14fdcc05d02908d9cfea8be8abff8c87a494031bf68728941a651f877",
+	"filename": "pool/main/r/rpki-client/rpki-client_9.8-1~bpo13+1_amd64.deb",
+	"size": 159328,
+	"sha256": "c6a60e4b7e461e954d5306ff1bd72cf274495ec84eafaf0cfee43919ee6bb0f9",
 	"descriptionMd5": "7fd033d9d48604dc78700e4369903059"
 },{
 	"raw": {},

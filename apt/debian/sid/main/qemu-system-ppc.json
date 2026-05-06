@@ -6,7 +6,7 @@
 	],
 	"package": "qemu-system-ppc",
 	"source": "qemu",
-	"version": "1:11.0.0+ds-1",
+	"version": "1:11.0.0+ds-2",
 	"section": "otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -34,17 +34,17 @@
 		"libvdeplug2t64 (>= 4.0.1)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:11.0.0+ds-1)",
-		"qemu-system-data (>> 1:11.0.0+ds~)"
+		"qemu-system-common (= 1:11.0.0+ds-2)",
+		"qemu-system-data (>> 1:11.0.0+ds~)",
+		"seabios",
+		"ipxe-qemu"
 	],
 	"recommends": [
 		"qemu-utils",
-		"seabios",
-		"ipxe-qemu",
-		"qemu-system-gui (= 1:11.0.0+ds-1)",
-		"qemu-system-modules-spice (= 1:11.0.0+ds-1)",
-		"qemu-system-modules-opengl (= 1:11.0.0+ds-1)",
-		"qemu-block-extra (= 1:11.0.0+ds-1)"
+		"qemu-system-gui (= 1:11.0.0+ds-2)",
+		"qemu-system-modules-spice (= 1:11.0.0+ds-2)",
+		"qemu-system-modules-opengl (= 1:11.0.0+ds-2)",
+		"qemu-block-extra (= 1:11.0.0+ds-2)"
 	],
 	"suggests": [
 		"samba",
@@ -55,9 +55,9 @@
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "QEMU full system emulation binaries (ppc)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/main/q/qemu/qemu-system-ppc_11.0.0+ds-1_amd64.deb",
-	"size": 8100172,
-	"md5": "a1b7b5c1546f9a2849c98481fe3b9f14",
-	"sha256": "c9a9dfb783ccbf4876322e23ca9a2284e9cec1f1ca975f1706ddda1ac5143182",
+	"filename": "pool/main/q/qemu/qemu-system-ppc_11.0.0+ds-2_amd64.deb",
+	"size": 8087748,
+	"md5": "546874fa65a0b577c9283bc81e6b79c0",
+	"sha256": "20c4a0deb51a7df46f8bb43d662fd381775ec4a8cd3ec2cf847caf70b2fff209",
 	"descriptionMd5": "6de7fb1b3ea7c425b426d46d14ef28d5"
 }
