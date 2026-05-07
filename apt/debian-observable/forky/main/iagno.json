@@ -5,35 +5,29 @@
 		"Size"
 	],
 	"package": "iagno",
-	"version": "1:50~alpha-2",
+	"version": "1:50.0-1",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"dconf-gsettings-backend | gsettings-backend",
 		"libadwaita-1-0 (>= 1.7)",
 		"libc6 (>= 2.38)",
-		"libcairo2 (>= 1.2.4)",
 		"libglib2.0-0t64 (>= 2.78.0)",
-		"libgtk-4-1 (>= 4.13.5)",
-		"librsvg2-2 (>= 2.56.0)",
-		"dconf-gsettings-backend | gsettings-backend"
+		"libglycin-2-0 (>= 2.0~beta)",
+		"libglycin-gtk4-2-0 (>= 2.0~beta)",
+		"libgtk-4-1 (>= 4.13.5)"
 	],
 	"recommends": [
 		"yelp"
 	],
-	"replaces": [
-		"gnome-accessibility-themes (<< 3.14.0)"
-	],
-	"breaks": [
-		"gnome-accessibility-themes (<< 3.14.0)"
-	],
-	"installedSize": 3243,
-	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
+	"installedSize": 3320,
+	"maintainer": "Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>",
 	"description": "popular Othello game for GNOME",
-	"homepage": "https://wiki.gnome.org/Apps/Iagno",
-	"filename": "pool/main/i/iagno/iagno_50~alpha-2_amd64.deb",
-	"size": 650780,
-	"md5": "21c981e57112b6dafbd64bdddc88ad68",
-	"sha256": "c505334baf5a9153d3e9b2e5e9384ab1d35337563f55d842ed1fb6fea1d81088",
+	"homepage": "https://gitlab.gnome.org/GNOME/iagno",
+	"filename": "pool/main/i/iagno/iagno_50.0-1_amd64.deb",
+	"size": 656432,
+	"md5": "49a6a64e5a7cecfa7d13a84064d81893",
+	"sha256": "285ad8b567472b606e09b86bde90fdc5c6d0e0ab84d972aa6e86efe439783a6e",
 	"descriptionMd5": "77bb1b331a5b9f7eb131817d3a49683a"
 }]

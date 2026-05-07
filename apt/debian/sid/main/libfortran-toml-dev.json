@@ -6,24 +6,26 @@
 	],
 	"package": "libfortran-toml-dev",
 	"source": "fortran-toml",
-	"version": "0.4.3-4",
+	"version": "0.4.3-5",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"lfortran | lfortran-mod-0",
+		"flang-21 | flang-22 | flang-23 | flang-new-17 | flang-new-18 | flang-new-19 | flang-new-20 | flang-mod-1",
 		"gfortran-15 | gfortran-16 | gfortran-mod-16",
-		"libfortran-toml-0 (= 0.4.3-4)"
+		"libfortran-toml-0 (= 0.4.3-5)"
 	],
 	"recommends": [
 		"pkgconf"
 	],
-	"installedSize": 831,
+	"installedSize": 9287,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Fortran TOML parser library - devel files",
 	"homepage": "https://github.com/toml-f/toml-f",
-	"filename": "pool/main/f/fortran-toml/libfortran-toml-dev_0.4.3-4_amd64.deb",
-	"size": 439892,
-	"md5": "ac4c8110b722cf7e1f11a6961c08eccf",
-	"sha256": "20cdd985a7131d2e983893a95b5af120df96a6e2b416407e108f4f9f23a20851",
+	"filename": "pool/main/f/fortran-toml/libfortran-toml-dev_0.4.3-5_amd64.deb",
+	"size": 1060588,
+	"md5": "1fa3e21466a8d0751aa4eaddba86d81b",
+	"sha256": "a86b16df1dcabc719f22b1d3fb34f9f1c9e88d42bf128ea1966087d0d4768fb9",
 	"descriptionMd5": "43263f4cfe8535e0a651e47ffd187974"
 }

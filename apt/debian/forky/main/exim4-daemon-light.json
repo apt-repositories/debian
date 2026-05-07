@@ -6,12 +6,12 @@
 	],
 	"package": "exim4-daemon-light",
 	"source": "exim4",
-	"version": "4.99.1-1",
+	"version": "4.99.2-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"exim4-base (>= 4.99.1)",
+		"exim4-base (>= 4.99.2)",
 		"debconf (>= 0.5) | debconf-2.0",
 		"libc6 (>= 2.38)",
 		"libcrypt1 (>= 1:4.1.0)",
@@ -19,7 +19,6 @@
 		"libgnutls30t64 (>= 3.8.6)",
 		"libidn12 (>= 1.13)",
 		"libidn2-0 (>= 0.6)",
-		"libnsl2 (>= 1.0)",
 		"libpcre2-8-0 (>= 10.22)",
 		"libsqlite3-0 (>= 3.5.9)"
 	],
@@ -28,15 +27,16 @@
 		"mail-transport-agent"
 	],
 	"conflicts": [
-		"mail-transport-agent"
+		"mail-transport-agent",
+		"rmail"
 	],
-	"installedSize": 1649,
+	"installedSize": 1637,
 	"maintainer": "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>",
 	"description": "lightweight Exim MTA (v4) daemon",
 	"homepage": "https://www.exim.org/",
-	"filename": "pool/main/e/exim4/exim4-daemon-light_4.99.1-1_amd64.deb",
-	"size": 646984,
-	"md5": "a8d3a1c54fc3ac48936a0bd3abb3e6c0",
-	"sha256": "ef3281fb7cbbdf325437fdd695b654b13ad6b1cf3ad49d44cc6c927805c582ad",
+	"filename": "pool/main/e/exim4/exim4-daemon-light_4.99.2-1_amd64.deb",
+	"size": 633800,
+	"md5": "08ffc4a2ebb1e79136f8880d72f17215",
+	"sha256": "7f8a11762f2bc8a058ee01c8f090ace7817394086048301564448a181e69da6d",
 	"descriptionMd5": "3f5190a801cb3e11718c951f768c4d54"
 }

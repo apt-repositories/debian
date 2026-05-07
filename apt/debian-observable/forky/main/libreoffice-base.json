@@ -5,20 +5,20 @@
 		"Size"
 	],
 	"package": "libreoffice-base",
-	"source": "libreoffice (4:26.2.2.2-3)",
-	"version": "4:26.2.2.2-3+b2",
+	"source": "libreoffice",
+	"version": "4:26.2.3.2-2",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:26.2.2.2-3+b2)",
-		"libreoffice-base-drivers (= 4:26.2.2.2-3+b2)",
+		"libreoffice-base-core (= 4:26.2.3.2-2)",
+		"libreoffice-base-drivers (= 4:26.2.3.2-2)",
 		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:26.2.2.2-3+b2)",
-		"libreoffice-uiconfig-base (= 4:26.2.2.2-3)",
+		"libreoffice-core (= 4:26.2.3.2-2)",
+		"libreoffice-uiconfig-base (= 4:26.2.3.2-2)",
 		"libc6 (>= 2.35)",
 		"libgcc-s1 (>= 3.3.1)",
-		"libreoffice-sal-private-abi (= 26.2.2)",
+		"libreoffice-sal-private-abi (= 26.2.3)",
 		"libstdc++6 (>= 11)",
 		"libuno-cppu3t64 (>= 4.4.0~alpha)",
 		"libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha)",
@@ -28,10 +28,11 @@
 	],
 	"recommends": [
 		"libreoffice-writer",
-		"libreoffice-java-common (>= 4:26.2.2.2~)",
+		"libreoffice-java-common (>= 4:26.2.3.2~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"suggests": [
+		"access2base-doc",
 		"libreoffice-report-builder",
 		"python3-access2base",
 		"unixodbc"
@@ -42,13 +43,13 @@
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 4986,
+	"installedSize": 4984,
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- database",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-base_26.2.2.2-3+b2_amd64.deb",
-	"size": 1387700,
-	"md5": "704427d75d7f4ce417dfd18e70c75790",
-	"sha256": "404804fc6f4c9cd3a79ea5b4215830126a0cf9c2a1851920c8203dedaf4bc030",
+	"filename": "pool/main/libr/libreoffice/libreoffice-base_26.2.3.2-2_amd64.deb",
+	"size": 1388216,
+	"md5": "eb234ddffd0ea6ab1ce5819749d1942f",
+	"sha256": "b91d76b41dcd86d9481a406e207ead749e6b1f69ddafbfc6287f9d5218291697",
 	"descriptionMd5": "5529fff5c628ca6b70284749063daea4"
 }]
