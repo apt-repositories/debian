@@ -6,17 +6,21 @@
 	],
 	"package": "libfortran-toml-0",
 	"source": "fortran-toml",
-	"version": "0.4.3-4",
+	"version": "0.4.3-5",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 12,
+	"depends": [
+		"libc6 (>= 2.38)",
+		"liblfortran-runtime0 (>= 0.63.0)"
+	],
+	"installedSize": 3566,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Fortran TOML parser library",
 	"homepage": "https://github.com/toml-f/toml-f",
-	"filename": "pool/main/f/fortran-toml/libfortran-toml-0_0.4.3-4_amd64.deb",
-	"size": 2860,
-	"md5": "5093bf4c7c8ba9e54f44ad5fff28ff7d",
-	"sha256": "3d6f2502dc62b3160d9beb16f162ba5e1475d4b01953482c1b2a35a9ef811d6c",
+	"filename": "pool/main/f/fortran-toml/libfortran-toml-0_0.4.3-5_amd64.deb",
+	"size": 585912,
+	"md5": "d8310962a9490c4dc630e37ecd5f647b",
+	"sha256": "10c273079495035b855b37bf91b565a802f5132b2e659e96c815492404ef17bc",
 	"descriptionMd5": "9438281b4023e1567dad49b53f80a295"
 }

@@ -6,23 +6,26 @@
 	],
 	"package": "libfortran-testdrive-dev",
 	"source": "fortran-testdrive",
-	"version": "0.5.0-8",
+	"version": "0.5.0-9",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libfortran-testdrive-0 (= 0.5.0-8)"
+		"gfortran-15 | gfortran-16 | gfortran-mod-16",
+		"flang-21 | flang-22 | flang-23 | flang-new-17 | flang-new-18 | flang-new-19 | flang-new-20 | flang-mod-1",
+		"lfortran | lfortran-mod-0",
+		"libfortran-testdrive-0 (= 0.5.0-9)"
 	],
 	"recommends": [
 		"pkgconf"
 	],
-	"installedSize": 22,
+	"installedSize": 569,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Simple Fortran testing framework - devel files",
 	"homepage": "https://github.com/fortran-lang/test-drive",
-	"filename": "pool/main/f/fortran-testdrive/libfortran-testdrive-dev_0.5.0-8_amd64.deb",
-	"size": 8244,
-	"md5": "d576be3aa18d8496e57abae047ea836d",
-	"sha256": "68f02255ba6ec9bd5aacdbeb3193eb9fb3e21518a2a72ae7af6c368e0e477f41",
+	"filename": "pool/main/f/fortran-testdrive/libfortran-testdrive-dev_0.5.0-9_amd64.deb",
+	"size": 86236,
+	"md5": "360d58f2a2aeaafc9075db91b70428c4",
+	"sha256": "13f90c2458df44cdb96eb83917923d6b8ecfe1355db28cf055ad9cb5d72a2660",
 	"descriptionMd5": "bb0b0cbdb41941aef6e2fefc0267c8de"
 }
