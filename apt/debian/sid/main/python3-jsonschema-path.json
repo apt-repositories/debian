@@ -6,7 +6,7 @@
 	],
 	"package": "python3-jsonschema-path",
 	"source": "python-jsonschema-path",
-	"version": "0.4.5-1",
+	"version": "0.4.5-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -16,13 +16,17 @@
 		"python3-yaml",
 		"python3:any"
 	],
+	"breaks": [
+		"python3-openapi-core (<< 0.23.1)",
+		"python3-openapi-spec-validator (<< 0.8.0)"
+	],
 	"installedSize": 63,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python module for object-oriented JSONSchema",
 	"homepage": "https://github.com/p1c2u/jsonschema-path",
-	"filename": "pool/main/p/python-jsonschema-path/python3-jsonschema-path_0.4.5-1_all.deb",
-	"size": 12980,
-	"md5": "c3dac531f55824d0cc9bdd029a6c09ad",
-	"sha256": "e0b98e6cb9541c6d888391709245de4352b7c0a4f012a880e5e1e83669db313d",
+	"filename": "pool/main/p/python-jsonschema-path/python3-jsonschema-path_0.4.5-2_all.deb",
+	"size": 13112,
+	"md5": "c7029a2a5f79a7dc73614b11a1906e2b",
+	"sha256": "a7ce0889cc2681f63ee046352179517f4a55b2162d32e2182c9b800448434064",
 	"descriptionMd5": "68f831d0226fac4dc00c46d731560d2d"
 }

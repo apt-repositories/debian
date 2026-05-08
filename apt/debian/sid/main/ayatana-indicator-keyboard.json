@@ -5,33 +5,30 @@
 		"Size"
 	],
 	"package": "ayatana-indicator-keyboard",
-	"version": "24.7.2-5",
+	"version": "24.7.2-7",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"ayatana-indicator-common",
+		"matekbd-keyboard-display | tecla",
+		"dconf-gsettings-backend | gsettings-backend",
 		"libaccountsservice0 (>= 0.6.8)",
 		"libayatana-common0 (>= 0.9.11)",
 		"libc6 (>= 2.34)",
 		"libglib2.0-0t64 (>= 2.80.0)",
 		"libudev1 (>= 183)",
 		"libx11-6",
-		"libxkbregistry0 (>= 1.0.3)",
-		"libxklavier16 (>= 5.3)",
-		"dconf-gsettings-backend | gsettings-backend",
-		"init-system-helpers (>= 1.52)",
-		"ayatana-indicator-common"
+		"libxkbregistry0 (>= 1.0.0)",
+		"libxklavier16 (>= 5.0)"
 	],
-	"suggests": [
-		"matekbd-keyboard-display | tecla | gkbd-capplet"
-	],
-	"installedSize": 1041,
+	"installedSize": 1036,
 	"maintainer": "Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>",
 	"description": "Ayatana Indicator for managing keyboard layout and desktop language",
 	"homepage": "https://github.com/AyatanaIndicators/ayatana-indicator-keyboard",
-	"filename": "pool/main/a/ayatana-indicator-keyboard/ayatana-indicator-keyboard_24.7.2-5_amd64.deb",
-	"size": 68684,
-	"md5": "9ef16d03171c0c6c5982cef3076c295b",
-	"sha256": "993eedb1aa48607efde96c9c3224026c2c6a411d09c0a61e2d4361a00405ed25",
+	"filename": "pool/main/a/ayatana-indicator-keyboard/ayatana-indicator-keyboard_24.7.2-7_amd64.deb",
+	"size": 68068,
+	"md5": "6b6054a4e26c9bc3e51b4a49e4d30888",
+	"sha256": "2dfe95365dae6f67df54e16b31ca8ac1839d577efd8816a00f37d661e9a2641b",
 	"descriptionMd5": "07d92d7a5950b17a2180af0957debee0"
 }

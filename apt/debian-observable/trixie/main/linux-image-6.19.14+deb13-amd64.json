@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.19.14+deb13-amd64",
+	"source": "linux-signed-amd64 (6.19.14+1~bpo13+1)",
+	"version": "6.19.14-1~bpo13+1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"kmod",
+		"linux-base-6.19.14+deb13-amd64 (= 6.19.14-1~bpo13+1)",
+		"linux-binary-6.19.14+deb13-amd64 (= 6.19.14-1~bpo13+1)",
+		"linux-modules-6.19.14+deb13-amd64 (= 6.19.14-1~bpo13+1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-6.19"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 16,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.19.14 for 64-bit PCs",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-6.19.14+deb13-amd64_6.19.14-1~bpo13+1_amd64.deb",
+	"size": 2052,
+	"sha256": "b1c4767d4f9133aa0f19a91f9e3d9068d186aaafb7bde2bd97b49d28453c665e",
+	"descriptionMd5": "22809dd9ed76cc40a552da4903e3d0aa"
+}]
