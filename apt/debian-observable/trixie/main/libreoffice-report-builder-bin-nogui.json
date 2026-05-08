@@ -76,4 +76,42 @@
 	"md5": "968e21287a5277df021d852edd8c15d2",
 	"sha256": "d57b31df0ea19f5afa4f36a053a95760ff0463482d2345f3b44bab3d1dd7f3d8",
 	"descriptionMd5": "6d5263ac65fb4d1c4c7caf8eb713944d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-report-builder-bin-nogui",
+	"source": "libreoffice",
+	"version": "4:25.2.3-2+deb13u4",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-base-nogui | libreoffice-base",
+		"libreoffice-core-nogui | libreoffice-core",
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"replaces": [
+		"libreoffice-report-builder-bin"
+	],
+	"conflicts": [
+		"libreoffice-report-builder-bin"
+	],
+	"installedSize": 1869,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "LibreOffice component for building database reports -- libraries (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/updates/main/libr/libreoffice/libreoffice-report-builder-bin-nogui_25.2.3-2+deb13u4_amd64.deb",
+	"size": 466660,
+	"sha256": "615a3e4976c2a9a13b16e0a563779ea2c004738a93364c7a8c0ef792bebbd727",
+	"descriptionMd5": "6d5263ac65fb4d1c4c7caf8eb713944d"
 }]

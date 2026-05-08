@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "fetchmail",
-	"version": "6.6.3-2",
+	"version": "6.6.3-3",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,8 +14,8 @@
 		"libcom-err2 (>= 1.43.9)",
 		"libgssapi-krb5-2 (>= 1.17)",
 		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
-		"libssl3t64 (>= 3.1.4)",
-		"adduser"
+		"libssl3t64 (>= 3.0.0)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"recommends": [
 		"ca-certificates"
@@ -36,13 +36,13 @@
 	"conflicts": [
 		"fetchmail-common"
 	],
-	"installedSize": 1866,
+	"installedSize": 1867,
 	"maintainer": "Laszlo Boszormenyi (GCS) <gcs@debian.org>",
 	"description": "SSL enabled POP3, APOP, IMAP mail gatherer/forwarder",
 	"homepage": "https://www.fetchmail.info",
-	"filename": "pool/main/f/fetchmail/fetchmail_6.6.3-2_amd64.deb",
-	"size": 548784,
-	"md5": "28bfd17e7fa5914849a0d8163dedba3e",
-	"sha256": "1b8ae17b101ecc4026db52a71f711fd63437feb6f26e42469687c5c53addb9c9",
+	"filename": "pool/main/f/fetchmail/fetchmail_6.6.3-3_amd64.deb",
+	"size": 549412,
+	"md5": "9e23c7baf26ebdb4df2de862ef4e7a00",
+	"sha256": "cfb3886f18203b2980bd6ef1729aa08f82ce51aa2384c71a058f9809d0111bba",
 	"descriptionMd5": "05cb6c758ac9e6de53b36438f8f52a45"
 }]

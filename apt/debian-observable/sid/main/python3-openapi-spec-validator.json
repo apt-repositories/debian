@@ -6,7 +6,7 @@
 	],
 	"package": "python3-openapi-spec-validator",
 	"source": "python-openapi-spec-validator",
-	"version": "0.8.4-1",
+	"version": "0.8.4-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -22,13 +22,16 @@
 	"suggests": [
 		"python-openapi-spec-validator-doc"
 	],
+	"breaks": [
+		"python3-openapi-core (<< 0.23.1)"
+	],
 	"installedSize": 314,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Validates OpenAPI Specs against 2.0, 3.0 and 3.1 standards (Python 3)",
 	"homepage": "https://github.com/python-openapi/openapi-spec-validator",
-	"filename": "pool/main/p/python-openapi-spec-validator/python3-openapi-spec-validator_0.8.4-1_all.deb",
-	"size": 33608,
-	"md5": "ea3c41719cf91236e26a927a5b4e766c",
-	"sha256": "53ec825609e1fae9be9ab6399a3380c265468d6b3689e80330206fd3a335be88",
+	"filename": "pool/main/p/python-openapi-spec-validator/python3-openapi-spec-validator_0.8.4-2_all.deb",
+	"size": 33672,
+	"md5": "eaeb412721152cf08781f0e8069823f9",
+	"sha256": "d94a9e3bbad83583ec9db49dc3acf14ff359a88a9eb6bb730cfe188694e5f791",
 	"descriptionMd5": "260c0c8ca95facfe85fc822e9b758aa2"
 }]

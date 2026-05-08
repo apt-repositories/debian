@@ -5,32 +5,29 @@
 		"Size"
 	],
 	"package": "jetty9",
-	"version": "9.4.58-1",
+	"version": "9.4.58-2",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"apache2-utils",
 		"default-jre-headless (>= 2:1.8) | java8-runtime-headless",
 		"libeclipse-jdt-core-java",
-		"libjetty9-extra-java (>= 9.4.58-1)",
-		"libjetty9-java (>= 9.4.58-1)",
-		"sysvinit-utils (>= 3.05-4~)"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
+		"libjetty9-extra-java (>= 9.4.58-2)",
+		"libjetty9-java (>= 9.4.58-2)",
+		"sysvinit-utils (>= 3.05-4~)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"recommends": [
 		"authbind"
 	],
-	"installedSize": 748,
+	"installedSize": 749,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Java servlet engine and webserver",
 	"homepage": "http://www.eclipse.org/jetty/",
-	"filename": "pool/main/j/jetty9/jetty9_9.4.58-1_all.deb",
-	"size": 272840,
-	"md5": "792c1901993cfbf7aa7b49d329ef278f",
-	"sha256": "5056bcf474db63f614654f57549fe8e95d9fba753b17b45f3d0d13232e4fb0c7",
+	"filename": "pool/main/j/jetty9/jetty9_9.4.58-2_all.deb",
+	"size": 271004,
+	"md5": "dc8894fd8362537a1b3d5f6963c06ffc",
+	"sha256": "f8edd7d48047eec2f8d9daf5d48180cd8a60ab6f63478bb4d058c5ab9fab665f",
 	"descriptionMd5": "6145995b8766cbb4600d50bf0658018e"
 }]

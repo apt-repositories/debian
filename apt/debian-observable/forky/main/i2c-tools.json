@@ -5,14 +5,13 @@
 		"Size"
 	],
 	"package": "i2c-tools",
-	"source": "i2c-tools (4.4-2)",
-	"version": "4.4-2+b1",
+	"version": "4.4-3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"udev",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"perl:any",
 		"libc6 (>= 2.38)",
 		"libi2c0 (>= 4.0)"
@@ -24,13 +23,13 @@
 		"libi2c-dev",
 		"python3-smbus"
 	],
-	"installedSize": 321,
+	"installedSize": 322,
 	"maintainer": "Aurelien Jarno <aurel32@debian.org>",
 	"description": "heterogeneous set of I2C tools for Linux",
 	"homepage": "https://www.kernel.org/pub/software/utils/i2c-tools/",
-	"filename": "pool/main/i/i2c-tools/i2c-tools_4.4-2+b1_amd64.deb",
-	"size": 80064,
-	"md5": "925e47a39603b8aec28e6230aba9f0a8",
-	"sha256": "8e8f22f99864e28265f9647da537f7bfa42046cea9d4385212263061a8af64f9",
+	"filename": "pool/main/i/i2c-tools/i2c-tools_4.4-3_amd64.deb",
+	"size": 79680,
+	"md5": "4302d771efc1456e7181a219f06ddc79",
+	"sha256": "9367c13e4d29da0a89ccb33feeb3695c9df3188fd36ba2d794722efec78e936a",
 	"descriptionMd5": "675f45359e19feae2eb165a5b0b5bdd7"
 }]
