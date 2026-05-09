@@ -6,24 +6,26 @@
 	],
 	"package": "libfortran-jonquil-dev",
 	"source": "fortran-jonquil",
-	"version": "0.3.0-5",
+	"version": "0.3.0-6",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"lfortran | lfortran-mod-0",
 		"gfortran-15 | gfortran-16 | gfortran-mod-16",
-		"libfortran-jonquil-0 (= 0.3.0-5)"
+		"flang-21 | flang-22 | flang-23 | flang-new-17 | flang-new-18 | flang-new-19 | flang-new-20 | flang-mod-1",
+		"libfortran-jonquil-0 (= 0.3.0-6)"
 	],
 	"recommends": [
 		"pkgconf"
 	],
-	"installedSize": 167,
+	"installedSize": 1832,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Fortran library to add TOML features to JSON - devel files",
 	"homepage": "https://github.com/toml-f/jonquil",
-	"filename": "pool/main/f/fortran-jonquil/libfortran-jonquil-dev_0.3.0-5_amd64.deb",
-	"size": 96968,
-	"md5": "fffd8046dab61517ac1dfc3fa96794b2",
-	"sha256": "64018971e5d6426667b28b257a4d0455e70a626a4a7a30ba123e22f0dc8e626a",
+	"filename": "pool/main/f/fortran-jonquil/libfortran-jonquil-dev_0.3.0-6_amd64.deb",
+	"size": 245388,
+	"md5": "9ab21271f28777574e42d5c958340113",
+	"sha256": "dd8ab7d5f8d413646b6b885b66ac6621785394436d4fe99300bf2330c4c30771",
 	"descriptionMd5": "7200009d186ddb214ec21a11c93df937"
 }

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "matrix-synapse",
-	"version": "1.146.0-3",
+	"version": "1.152.1-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,12 +13,12 @@
 		"adduser",
 		"libjs-jquery",
 		"python3-bleach",
-		"python3-cffi (>= 1.15.0~)",
 		"python3-jinja2 (>= 3.0~)",
 		"python3-lxml",
 		"python3-psycopg2 (>= 2.8)",
 		"python3-systemd",
 		"python3-twisted (>= 21.2.0~)",
+		"python3-pytz",
 		"debconf (>= 0.5) | debconf-2.0",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 4.2)",
@@ -26,8 +26,6 @@
 		"python3-attr (>= 19.2.0~)",
 		"python3-bcrypt",
 		"python3-canonicaljson (>= 2.0.0~)",
-		"python3-cffi-backend-api-min (<= 9729)",
-		"python3-cffi-backend-api-max (>= 9729)",
 		"python3-cryptography (>= 3.4.7)",
 		"python3-ijson (>= 3.1.4)",
 		"python3-immutabledict (>= 2.0.0)",
@@ -55,32 +53,33 @@
 		"python3-sortedcontainers",
 		"python3-supported-min (>= 3.14.0) | python3-pydantic",
 		"python3-treq",
-		"python3-typing-extensions (>= 4.1~)",
+		"python3-typing-extensions (>= 4.14.1~)",
 		"python3-unpaddedbase64 (>= 2.1.0~)",
 		"python3-urllib3",
 		"python3-yaml",
 		"python3-zope.interface (>= 5.2)",
 		"python3:any"
 	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
-	],
 	"recommends": [
-		"python3-pympler",
+		"logrotate",
+		"python3-pympler (>= 1.0)",
 		"matrix-synapse-ldap3"
 	],
 	"suggests": [
 		"python3-jwt",
 		"python3-authlib (>= 0.15.1)"
 	],
-	"installedSize": 21076,
+	"breaks": [
+		"python3-pympler (<< 1.0~)"
+	],
+	"installedSize": 21251,
 	"maintainer": "Matrix Packaging Team <pkg-matrix-maintainers@lists.alioth.debian.org>",
 	"description": "Matrix reference homeserver",
 	"homepage": "https://github.com/element-hq/synapse",
-	"builtUsing": "rust-hyper-rustls (= 0.27.7-2), rust-rustls (= 0.23.36+ds-1), rust-rustls-native-certs (= 0.8.3-1), rust-rustls-pki-types (= 1.14.0+ds-1), rust-rustls-webpki (= 0.103.9+ds-2), rustc (= 1.91.1+dfsg1-1)",
-	"filename": "pool/main/m/matrix-synapse/matrix-synapse_1.146.0-3_amd64.deb",
-	"size": 6177580,
-	"md5": "b53792a22e8c10e81e6f87a41a4e504b",
-	"sha256": "e93027fe892f17ffe5d4e8b22b880b5976895a51236db90ff5a8a1d82d0cebc9",
+	"builtUsing": "rust-hyper-rustls (= 0.27.8+ds-1), rust-rustls (= 0.23.40+ds-1), rust-rustls-native-certs (= 0.8.3-1), rust-rustls-pki-types (= 1.14.1+ds-1), rust-rustls-webpki (= 0.103.13+ds-1), rust-ulid (= 1.2.1-4), rustc (= 1.94.1+dfsg1-1)",
+	"filename": "pool/main/m/matrix-synapse/matrix-synapse_1.152.1-1_amd64.deb",
+	"size": 6223392,
+	"md5": "61d8729a5c0cf8b7d93044240f7de73d",
+	"sha256": "67dbc8f6672c5fb5eb233b823b0428021b5beb3751bc528282b25051e2561f5f",
 	"descriptionMd5": "723156d5171151f424efdaaa23158f63"
 }]
