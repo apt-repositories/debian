@@ -5,12 +5,11 @@
 		"Size"
 	],
 	"package": "labwc",
-	"version": "0.9.6-1",
+	"version": "0.9.7-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"xwayland",
 		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.14.0)",
 		"libglib2.0-0t64 (>= 2.12.0)",
@@ -30,6 +29,9 @@
 		"libxkbcommon0 (>= 1.0.0)",
 		"libxml2-16 (>= 2.14.1)"
 	],
+	"recommends": [
+		"xwayland"
+	],
 	"suggests": [
 		"foot | alacritty | x-terminal-emulator",
 		"kanshi",
@@ -42,9 +44,9 @@
 	"maintainer": "Lab Wayland Compositor Team <team+labwc@tracker.debian.org>",
 	"description": "window-stacking Wayland compositor",
 	"homepage": "https://labwc.github.io/",
-	"filename": "pool/main/l/labwc/labwc_0.9.6-1_amd64.deb",
-	"size": 315356,
-	"md5": "29120595a580c21cc683d541696214a8",
-	"sha256": "703e8fed5186ece6e970d02c76c6ea25b403dba637a82196a14e5136a93b359d",
+	"filename": "pool/main/l/labwc/labwc_0.9.7-1_amd64.deb",
+	"size": 315976,
+	"md5": "7c6dde4f361554822657f055418af7fe",
+	"sha256": "39cb6af1850a0e7a8007fd7b19cd9fec03d5d5272394d1407ea86725f246b84e",
 	"descriptionMd5": "1d974199c8404ad1fce58dde87ea7ac6"
 }]

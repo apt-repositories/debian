@@ -6,17 +6,22 @@
 	],
 	"package": "librust-cidr-dev",
 	"source": "rust-cidr",
-	"version": "0.3.2-1",
+	"version": "0.3.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
+	"depends": [
+		"librust-bitstring-0.2+default-dev",
+		"librust-bitstring-0.2+net-dev",
+		"librust-serde-1-dev (>= 1.0.210)"
+	],
 	"installedSize": 236,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "IP network and IP host within network types - Rust source code",
 	"homepage": "https://github.com/stbuehler/rust-cidr",
-	"filename": "pool/main/r/rust-cidr/librust-cidr-dev_0.3.2-1_amd64.deb",
-	"size": 30436,
-	"md5": "1996d1032168b3e01b28fedcd1797023",
-	"sha256": "76633527e9c954c564d101f3a2f2e613b0240b792914fe255200f83e6d804a17",
+	"filename": "pool/main/r/rust-cidr/librust-cidr-dev_0.3.2-2_amd64.deb",
+	"size": 30768,
+	"md5": "3aed0a5d8dc3cfe2875fc3a48f5d8074",
+	"sha256": "d64e7737c1957d09f9f36be8842e992f49ce0e899b28686c2291ab2f8abb09f3",
 	"descriptionMd5": "d3e7c8a835c8f3c53e0c507861ffce11"
 }
