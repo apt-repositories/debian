@@ -6,17 +6,24 @@
 	],
 	"package": "librust-auth-git2-dev",
 	"source": "rust-auth-git2",
-	"version": "0.5.8-5",
+	"version": "0.5.8-6",
 	"section": "rust",
 	"priority": "optional",
-	"architecture": "all",
-	"installedSize": 75,
+	"architecture": "amd64",
+	"depends": [
+		"librust-dirs-6+default-dev",
+		"librust-git2-dev (<< 21.0)",
+		"librust-git2-dev (>= 0.15)",
+		"librust-log-0.4+default-dev (>= 0.4.19)",
+		"librust-terminal-prompt-0.2+default-dev (>= 0.2.2)"
+	],
+	"installedSize": 92,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
-	"description": "Authentication for git - Rust source code",
+	"description": "Authentication for `git2` - Rust source code",
 	"homepage": "https://github.com/de-vri-es/auth-git2-rs",
-	"filename": "pool/main/r/rust-auth-git2/librust-auth-git2-dev_0.5.8-5_all.deb",
-	"size": 16880,
-	"md5": "0576dc8443c0ccf9d9daaeebb4926bfb",
-	"sha256": "e52dbd461b6fb9d868faa4f81f295dcfa9f256869d7523ffd61317f33c2efd92",
-	"descriptionMd5": "a94933d5d5e0fad413b9edaec2007973"
+	"filename": "pool/main/r/rust-auth-git2/librust-auth-git2-dev_0.5.8-6_amd64.deb",
+	"size": 18768,
+	"md5": "f4074c818f92b787016019354aae6ec9",
+	"sha256": "50358ce366a986cf1f0f03bd5971a150cb4bd12d3b229189b9a1d11afa5ac50a",
+	"descriptionMd5": "3fdcebac80987be838100346cac2f2b2"
 }]
