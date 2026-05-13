@@ -6,22 +6,24 @@
 	],
 	"package": "glew-utils",
 	"source": "glew",
-	"version": "2.3.1-6",
+	"version": "2.3.1+dfsg2-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libglew2.3 (= 2.3.1-6)",
+		"libglew2.3 (= 2.3.1+dfsg2-2)",
 		"libc6 (>= 2.38)",
-		"libegl1"
+		"libglx0",
+		"libopengl0",
+		"libx11-6"
 	],
-	"installedSize": 679,
+	"installedSize": 670,
 	"maintainer": "Alastair McKinstry <mckinstry@debian.org>",
-	"description": "OpenGL Extension Wrangler - utilities",
+	"description": "OpenGL Extension Wrangler (X11 version) - utilities",
 	"homepage": "http://glew.sourceforge.net",
-	"filename": "pool/main/g/glew/glew-utils_2.3.1-6_amd64.deb",
-	"size": 147556,
-	"md5": "73871721eb95ab6177ed72b507961858",
-	"sha256": "0e35b2e7d561bf4217699d43896c1205c2a35675b6dc4413225da2492c8d058d",
-	"descriptionMd5": "15c5e8926747f3fed8892dfd11b341af"
+	"filename": "pool/main/g/glew/glew-utils_2.3.1+dfsg2-2_amd64.deb",
+	"size": 145788,
+	"md5": "25f83ca6e6a6bde63a7425ba4d56ed17",
+	"sha256": "e60163078a6db02ff53f6175f16f4f10ed24568879d3ceebcfa8dae3a44b8e51",
+	"descriptionMd5": "48d89ffbea1aeb8009735394d770c861"
 }

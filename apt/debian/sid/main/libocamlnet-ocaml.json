@@ -6,24 +6,29 @@
 	],
 	"package": "libocamlnet-ocaml",
 	"source": "ocamlnet",
-	"version": "4.1.9-8",
+	"version": "4.1.9-9",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libfindlib-ocaml-23mt7",
 		"libstdlib-ocaml-kjuo1",
 		"libzip-ocaml-t69w4",
 		"ocaml-base-5.4.0",
 		"libc6 (>= 2.34)"
 	],
-	"installedSize": 136,
+	"replaces": [
+		"libocamlnet-ocaml-dev (<< 4.1.9-9~)"
+	],
+	"breaks": [
+		"libocamlnet-ocaml-dev (<< 4.1.9-9~)"
+	],
+	"installedSize": 20885,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "OCaml application-level Internet libraries - core runtime libraries",
 	"homepage": "http://projects.camlcity.org/projects/ocamlnet.html",
-	"filename": "pool/main/o/ocamlnet/libocamlnet-ocaml_4.1.9-8_amd64.deb",
-	"size": 43620,
-	"md5": "127c83bab99d45053c83291cdd16ae67",
-	"sha256": "9070e9b2e1642bf17cb310ca45c91a45bc7ad6b5f618185bb45e6e4356bf49ce",
+	"filename": "pool/main/o/ocamlnet/libocamlnet-ocaml_4.1.9-9_amd64.deb",
+	"size": 5932392,
+	"md5": "6abd1bb20a98f8a4b16a3dc43ed88337",
+	"sha256": "b7d23f55ea40669fcb883df0351c2daac9c65ca1923b0f4638c2298bb867fd49",
 	"descriptionMd5": "33181c622e82fb74e3c7f57d4257a6c3"
 }
