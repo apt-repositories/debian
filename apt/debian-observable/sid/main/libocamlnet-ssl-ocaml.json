@@ -6,25 +6,31 @@
 	],
 	"package": "libocamlnet-ssl-ocaml",
 	"source": "ocamlnet",
-	"version": "4.1.9-8",
+	"version": "4.1.9-9",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libocamlnet-ocaml-w49c4",
+		"libocamlnet-ocaml-zhh35",
 		"libstdlib-ocaml-kjuo1",
 		"ocaml-base-5.4.0",
 		"libc6 (>= 2.14)",
 		"libgnutls30t64 (>= 3.8.6)",
 		"libnettle8t64"
 	],
-	"installedSize": 189,
+	"replaces": [
+		"libocamlnet-ssl-ocaml-dev (<< 4.1.9-9~)"
+	],
+	"breaks": [
+		"libocamlnet-ssl-ocaml-dev (<< 4.1.9-9~)"
+	],
+	"installedSize": 573,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "OCaml application-level Internet libraries - SSL runtime libraries",
 	"homepage": "http://projects.camlcity.org/projects/ocamlnet.html",
-	"filename": "pool/main/o/ocamlnet/libocamlnet-ssl-ocaml_4.1.9-8_amd64.deb",
-	"size": 49388,
-	"md5": "90f0a378649d5371884ab01e2f1ec7af",
-	"sha256": "d28be7a4cff5a07629fe21a281323ec0aaa90610c98a49604235c40c54f4bbdc",
+	"filename": "pool/main/o/ocamlnet/libocamlnet-ssl-ocaml_4.1.9-9_amd64.deb",
+	"size": 158484,
+	"md5": "c9e52e61175c4fd78dcbd22a9771b779",
+	"sha256": "da73a77c30322c89df939b71187d2b6e0a6e23fda1b7967441202e279534f65f",
 	"descriptionMd5": "ed0ae7ccad1bbc2001396f11bfc91b1d"
 }]
