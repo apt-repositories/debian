@@ -6,12 +6,11 @@
 	],
 	"package": "ocsinventory-reports",
 	"source": "ocsinventory-server",
-	"version": "2.8.1+dfsg1+~2.11.1-1",
+	"version": "2.8.1+dfsg1+~2.11.1-2",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"perl:any",
 		"default-mysql-client | virtual-mysql-client",
 		"ieee-data",
 		"javascript-common",
@@ -36,25 +35,26 @@
 		"php-soap",
 		"php-xml",
 		"php-zip",
-		"phpqrcode"
+		"phpqrcode",
+		"perl:any"
 	],
 	"recommends": [
-		"apache2 (>= 2.4.6-4~) | httpd",
 		"libdbd-mysql-perl",
 		"libdbi-perl",
 		"libnet-ip-perl",
 		"libxml-simple-perl",
 		"nmap",
 		"ocsinventory-server",
-		"samba-common"
+		"samba-common",
+		"apache2 (>= 2.4.6-4~) | httpd"
 	],
-	"installedSize": 20084,
+	"installedSize": 20086,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "Hardware and software inventory tool (Administration Console)",
 	"homepage": "https://www.ocsinventory-ng.org/",
-	"filename": "pool/main/o/ocsinventory-server/ocsinventory-reports_2.8.1+dfsg1+~2.11.1-1_all.deb",
-	"size": 2362088,
-	"md5": "58eed1d95e27d837368ad529d40f37d7",
-	"sha256": "6711dfe69b154195968260ea124debaaa0ef1c700f650b381529bbc6869da462",
+	"filename": "pool/main/o/ocsinventory-server/ocsinventory-reports_2.8.1+dfsg1+~2.11.1-2_all.deb",
+	"size": 2362096,
+	"md5": "391cc76cabeeeac338927fba2774431f",
+	"sha256": "add9065f46ad79a2143fb15b43599a11152224d23b0087c2a3d59c679fd62eaf",
 	"descriptionMd5": "828f52b11c31b23ecfc12ae4a16fed8c"
 }]

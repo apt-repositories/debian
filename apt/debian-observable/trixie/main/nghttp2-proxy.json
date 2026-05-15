@@ -38,4 +38,43 @@
 	"md5": "02e9434a89a8257831f67da5b080ad95",
 	"sha256": "20309a013c41521388acb8acbd3a9d3693bf1f4bda1d63ab96c5ea7adb7177fb",
 	"descriptionMd5": "8e735de4aa891e6f34f1f0121d726cb0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nghttp2-proxy",
+	"source": "nghttp2",
+	"version": "1.64.0-1.1+deb13u1",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnghttp2-14 (= 1.64.0-1.1+deb13u1)",
+		"openssl",
+		"python3",
+		"libc6 (>= 2.34)",
+		"libcares2 (>= 1.16.0)",
+		"libev4t64 (>= 1:4.04)",
+		"libgcc-s1 (>= 3.0)",
+		"libjemalloc2 (>= 5.3.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"libsystemd0"
+	],
+	"replaces": [
+		"nghttp2 (<< 1.3.4-2~)"
+	],
+	"breaks": [
+		"nghttp2 (<< 1.3.4-2~)"
+	],
+	"installedSize": 1210,
+	"maintainer": "Tomasz Buchert <tomasz@debian.org>",
+	"description": "reverse proxy implementing HTTP/2 protocol",
+	"homepage": "https://nghttp2.org/",
+	"filename": "pool/updates/main/n/nghttp2/nghttp2-proxy_1.64.0-1.1+deb13u1_amd64.deb",
+	"size": 429588,
+	"sha256": "a0608c185fa851e6cbb8a47f90ab260f1626b47848d2f7f7cc4a1387d71500b2",
+	"descriptionMd5": "8e735de4aa891e6f34f1f0121d726cb0"
 }]
