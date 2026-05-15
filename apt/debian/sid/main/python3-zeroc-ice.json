@@ -6,13 +6,13 @@
 	],
 	"package": "python3-zeroc-ice",
 	"source": "zeroc-ice",
-	"version": "3.8.1-1",
+	"version": "3.8.1-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libzeroc-ice3.8 (= 3.8.1-1)",
-		"zeroc-ice-slice (= 3.8.1-1)",
+		"libzeroc-ice3.8 (= 3.8.1-2)",
+		"zeroc-ice-slice (= 3.8.1-2)",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.13~)",
 		"python3:any",
@@ -21,13 +21,19 @@
 		"libmcpp0",
 		"libstdc++6 (>= 13.1)"
 	],
+	"replaces": [
+		"zeroc-ice-compilers (<< 3.8)"
+	],
+	"breaks": [
+		"zeroc-ice-compilers (<< 3.8)"
+	],
 	"installedSize": 5934,
 	"maintainer": "José Gutiérrez de la Concha <jose@zeroc.com>",
 	"description": "Python 3 extension for Ice",
 	"homepage": "https://zeroc.com",
-	"filename": "pool/main/z/zeroc-ice/python3-zeroc-ice_3.8.1-1_amd64.deb",
-	"size": 1488032,
-	"md5": "e2fd44c316e15ffba2df5be9312bd218",
-	"sha256": "cf22b0f5cc6fe8f34dbebf814fbc0b064c245387196629a9fdeeabe2bfdd24bf",
+	"filename": "pool/main/z/zeroc-ice/python3-zeroc-ice_3.8.1-2_amd64.deb",
+	"size": 1488184,
+	"md5": "ebd226ace0150320c82b6f9519471199",
+	"sha256": "9be12a73ace200b519ee6e69e27fa762ee58ed97646c2939a6e47b6274fc8a97",
 	"descriptionMd5": "07983db6d93b05052b0607ae176ae061"
 }

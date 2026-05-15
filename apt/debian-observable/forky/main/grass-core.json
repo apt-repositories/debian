@@ -6,7 +6,7 @@
 	],
 	"package": "grass-core",
 	"source": "grass",
-	"version": "8.4.2-1",
+	"version": "8.5.0-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -25,13 +25,13 @@
 		"libgl1",
 		"libglu1-mesa | libglu1",
 		"libgomp1 (>= 6)",
-		"liblapack3 | liblapack.so.3",
+		"liblapacke (>= 3.12.1)",
 		"libmariadb3 (>= 3.0.0)",
 		"libnetcdf22 (>= 3.6.1)",
 		"libodbc2 (>= 2.3.1)",
 		"libpng16-16t64 (>= 1.6.46)",
 		"libpq5",
-		"libproj25 (>= 6.1.0)",
+		"libproj25 (>= 7.0.0)",
 		"libreadline8t64 (>= 6.0)",
 		"libsqlite3-0 (>= 3.6.0)",
 		"libstdc++6 (>= 13.1)",
@@ -59,19 +59,13 @@
 		"python3-termcolor",
 		"subversion"
 	],
-	"replaces": [
-		"grass (<< 6.4.2-1~)"
-	],
-	"breaks": [
-		"grass (<< 6.4.2-1~)"
-	],
-	"installedSize": 31078,
+	"installedSize": 34999,
 	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
 	"description": "GRASS GIS core components",
 	"homepage": "https://grass.osgeo.org/",
-	"filename": "pool/main/g/grass/grass-core_8.4.2-1_amd64.deb",
-	"size": 6229464,
-	"md5": "7c4c09d44958ce7233b59256d374d989",
-	"sha256": "486de7cab0b9adcb4d220d8ea900a10b260673fea6f90b7d0598218f80c60f43",
+	"filename": "pool/main/g/grass/grass-core_8.5.0-1_amd64.deb",
+	"size": 7071060,
+	"md5": "8f5286747df1cb6707834747c0b7dc1f",
+	"sha256": "760eb84de4f8a560b665239a399e7823e346801d25e4f333f0a50663189a9423",
 	"descriptionMd5": "33e9934554fa4350e5e0a1f805667d00"
 }]

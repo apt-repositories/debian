@@ -5,15 +5,15 @@
 		"Size"
 	],
 	"package": "cups-client",
-	"source": "cups (2.4.16-1)",
-	"version": "2.4.16-1+b1",
+	"source": "cups",
+	"version": "2.4.18-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
-		"cups-common (>= 2.4.16-1)",
-		"libcups2t64 (= 2.4.16-1+b1)",
+		"cups-common (>= 2.4.18-1)",
+		"libcups2t64 (= 2.4.18-1)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)"
 	],
 	"suggests": [
@@ -28,9 +28,9 @@
 	"maintainer": "Debian Printing Team <debian-printing@lists.debian.org>",
 	"description": "Common UNIX Printing System(tm) - client programs (SysV)",
 	"homepage": "https://github.com/OpenPrinting/cups/",
-	"filename": "pool/main/c/cups/cups-client_2.4.16-1+b1_amd64.deb",
-	"size": 160244,
-	"md5": "83562b5829e224f0f8306c45a299117b",
-	"sha256": "ba15cd9089771d9769cfdf46d3bfdf622dd2de068754743be9e2ee3b9e1b4284",
+	"filename": "pool/main/c/cups/cups-client_2.4.18-1_amd64.deb",
+	"size": 161196,
+	"md5": "f8a405f15520c1182e7e062e93ff5c38",
+	"sha256": "17e584b25ee6b0e889a2c9aa5d5362a59400d76a21229c57067f610703583be9",
 	"descriptionMd5": "49064ce8151bc5cfbb65936322a4e2ce"
 }
