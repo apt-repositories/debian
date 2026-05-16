@@ -6,7 +6,7 @@
 	],
 	"package": "localsearch-extractor-office",
 	"source": "localsearch",
-	"version": "3.11.1-2",
+	"version": "3.11.1-3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,19 @@
 		"libtinysparql-3.0-0 (>= 3.11~)",
 		"libzip5 (>= 1.0)"
 	],
+	"replaces": [
+		"tracker-extract (<< 3.11~)"
+	],
+	"breaks": [
+		"tracker-extract (<< 3.11~)"
+	],
 	"installedSize": 131,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Extractors for some compressed office file formats",
 	"homepage": "https://tracker.gnome.org/",
-	"filename": "pool/main/l/localsearch/localsearch-extractor-office_3.11.1-2_amd64.deb",
-	"size": 26672,
-	"md5": "fe245b1037064f5b48628f395fb4d5b6",
-	"sha256": "bd48af0fae1111cdbaa8d2bf2caf407bcf7176263abeede623615adb3a2b7478",
+	"filename": "pool/main/l/localsearch/localsearch-extractor-office_3.11.1-3_amd64.deb",
+	"size": 26744,
+	"md5": "c023940b077bf6b9e64c8b1e566eea8e",
+	"sha256": "86dcc54206eef5982eb744dc92f43c17549003e8395dafa0debcf1c6a5b52cd6",
 	"descriptionMd5": "196ea07bbb3ae6283d1aa5a04546f089"
 }]

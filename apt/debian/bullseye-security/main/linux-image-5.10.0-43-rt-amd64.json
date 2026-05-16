@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.10.0-43-rt-amd64",
+	"source": "linux-signed-amd64 (5.10.251+5)",
+	"version": "5.10.251-5",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-5.10",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-5.10.0-43-rt-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)",
+		"xserver-xorg-input-vmmouse (<< 1:13.0.99)"
+	],
+	"conflicts": [
+		"linux-image-5.10.0-43-rt-amd64-unsigned"
+	],
+	"installedSize": 314159,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 5.10 for 64-bit PCs, PREEMPT_RT (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 5.10.251-5)",
+	"filename": "pool/updates/main/l/linux-signed-amd64/linux-image-5.10.0-43-rt-amd64_5.10.251-5_amd64.deb",
+	"size": 57223560,
+	"sha256": "d699ac656145a89f27dc93b608a2d6e36ba63a7fe7a96311d9f8406bf45e4ed5",
+	"descriptionMd5": "19f9b250a2cc30446550553503bacd09"
+}

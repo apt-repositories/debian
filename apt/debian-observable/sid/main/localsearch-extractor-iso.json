@@ -6,7 +6,7 @@
 	],
 	"package": "localsearch-extractor-iso",
 	"source": "localsearch",
-	"version": "3.11.1-2",
+	"version": "3.11.1-3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,19 @@
 		"libosinfo-1.0-0 (>= 0.2.9)",
 		"libtinysparql-3.0-0 (>= 3.11~)"
 	],
+	"replaces": [
+		"tracker-extract (<< 3.11~)"
+	],
+	"breaks": [
+		"tracker-extract (<< 3.11~)"
+	],
 	"installedSize": 59,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Extractor for ISO files",
 	"homepage": "https://tracker.gnome.org/",
-	"filename": "pool/main/l/localsearch/localsearch-extractor-iso_3.11.1-2_amd64.deb",
-	"size": 14104,
-	"md5": "58b655ef3d2a7e2da1f6eeb483ff16a4",
-	"sha256": "7472560185ff433e53a9357dab1309d0a496cbdb2246dc35cb1c492cee1ffb2c",
+	"filename": "pool/main/l/localsearch/localsearch-extractor-iso_3.11.1-3_amd64.deb",
+	"size": 14188,
+	"md5": "ebae0f0cfc61e45980a672b1a4e9550d",
+	"sha256": "4d2b6ce1552e68c2e398652ebe11b76bb32c910da24230ba4f05d54b5b348d8b",
 	"descriptionMd5": "e8cc676f6f2a5f31c66a8a1f8c37a0bc"
 }]
