@@ -31,4 +31,36 @@
 	"md5": "8262a06f37399bb2d4512d59e50b8ccd",
 	"sha256": "bc0325ea0ce788bb85f2f2e8eb41ee9084ffdaf6e71d6a57c6e2dc0c1d371b28",
 	"descriptionMd5": "5afa12d72ab835df2e19149b8ff31d51"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libopenjpip-viewer",
+	"source": "openjpeg2",
+	"version": "2.5.3-2.1~deb13u2",
+	"section": "graphics",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libopenjpip-dec-server",
+		"default-jre | java8-runtime | java9-runtime | java10-runtime | java11-runtime",
+		"jarwrapper (>= 0.5)",
+		"libxerces2-java"
+	],
+	"suggests": [
+		"libopenjp2-tools"
+	],
+	"conflicts": [
+		"openjpip-viewer"
+	],
+	"installedSize": 99,
+	"maintainer": "Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>",
+	"description": "JPEG 2000 java based viewer for advanced remote JPIP access",
+	"homepage": "https://www.openjpeg.org",
+	"filename": "pool/updates/main/o/openjpeg2/libopenjpip-viewer_2.5.3-2.1~deb13u2_all.deb",
+	"size": 62084,
+	"sha256": "69217180ebc63133771959439286cc3a54f48ad9052b638ec16b3e6fd70ca437",
+	"descriptionMd5": "5afa12d72ab835df2e19149b8ff31d51"
 }]
