@@ -6,6 +6,40 @@
 	],
 	"package": "xserver-xorg-legacy",
 	"source": "xorg-server",
+	"version": "2:21.1.7-3+deb12u12",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"xserver-common (>= 2:21.1.7-3+deb12u12)",
+		"libc6 (>= 2.34)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"replaces": [
+		"x11-common (<< 1:7.7+10~)",
+		"xserver-xorg-core (<< 2:1.17.2-3~)"
+	],
+	"breaks": [
+		"x11-common (<< 1:7.7+10~)",
+		"xserver-xorg-core (<< 2:1.17.2-3~)"
+	],
+	"installedSize": 2475,
+	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
+	"description": "setuid root Xorg server wrapper",
+	"homepage": "https://www.x.org/",
+	"filename": "pool/main/x/xorg-server/xserver-xorg-legacy_21.1.7-3+deb12u12_amd64.deb",
+	"size": 2389020,
+	"md5": "1fb5f6bbdb33d518514ca0b639095a98",
+	"sha256": "8571473ffda635aa4c86079f0636929f780a991fd6646473c23df9f2032aef51",
+	"descriptionMd5": "a49fa8443df84effdf1fd36e26ad0f94"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-legacy",
+	"source": "xorg-server",
 	"version": "2:21.1.7-3+deb12u11",
 	"section": "x11",
 	"priority": "optional",

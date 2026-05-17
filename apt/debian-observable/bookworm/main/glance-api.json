@@ -6,6 +6,43 @@
 	],
 	"package": "glance-api",
 	"source": "glance",
+	"version": "2:25.1.0-2+deb12u3",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"debconf",
+		"glance-common (= 2:25.1.0-2+deb12u3)",
+		"python3-keystoneclient",
+		"python3-openstackclient",
+		"python3-pastescript",
+		"q-text-as-data",
+		"uwsgi-plugin-python3",
+		"debconf (>= 0.5) | debconf-2.0",
+		"lsb-base (>= 3.0-6)",
+		"python3:any"
+	],
+	"recommends": [
+		"python3-glanceclient"
+	],
+	"installedSize": 175,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack Image Registry and Delivery Service - API server",
+	"homepage": "https://github.com/openstack/glance",
+	"filename": "pool/main/g/glance/glance-api_25.1.0-2+deb12u3_all.deb",
+	"size": 37764,
+	"md5": "3f3f4e247a7a71dd4b3da4bb7a8d2981",
+	"sha256": "b166737733d838f6b25927f3dc9bdc07850f5d1321bf36816f723937656bd736",
+	"descriptionMd5": "6934137c9887a7101b06d29edb1c70d9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "glance-api",
+	"source": "glance",
 	"version": "2:25.1.0-2+deb12u1",
 	"section": "python",
 	"priority": "optional",

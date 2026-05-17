@@ -6,20 +6,26 @@
 	],
 	"package": "libglew-common-dev",
 	"source": "glew",
-	"version": "2.3.1+dfsg2-4",
+	"version": "2.3.1+dfsg2-5",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libgl-dev"
 	],
+	"replaces": [
+		"libglew-dev (<< 2.3.1+dfsg2-4)"
+	],
+	"breaks": [
+		"libglew-dev (<< 2.3.1+dfsg2-4)"
+	],
 	"installedSize": 1351,
 	"maintainer": "Alastair McKinstry <mckinstry@debian.org>",
 	"description": "OpenGL Extension Wrangler - common files",
 	"homepage": "http://glew.sourceforge.net",
-	"filename": "pool/main/g/glew/libglew-common-dev_2.3.1+dfsg2-4_amd64.deb",
-	"size": 143492,
-	"md5": "92c0f2e473599ba33b09a9088a110d69",
-	"sha256": "91d70cfa05905800fda83196a0b3356bb58884ed8ae3d89ff61aab6d648e6ce6",
+	"filename": "pool/main/g/glew/libglew-common-dev_2.3.1+dfsg2-5_amd64.deb",
+	"size": 143560,
+	"md5": "ee4641e84b1b88bd2b46e649e7adaf7c",
+	"sha256": "a79938c5078c780c62ffe9858d0ecdee9f1932076dc036e13264af3c17c1d626",
 	"descriptionMd5": "a6e388749f6f0d5d21c8f711f72d2704"
 }
