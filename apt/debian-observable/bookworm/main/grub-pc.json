@@ -6,6 +6,53 @@
 	],
 	"package": "grub-pc",
 	"source": "grub2",
+	"version": "2.06-13+deb12u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-common (= 2.06-13+deb12u2)",
+		"grub2-common (= 2.06-13+deb12u2)",
+		"grub-pc-bin (= 2.06-13+deb12u2)",
+		"ucf"
+	],
+	"replaces": [
+		"grub",
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub2 (<< 2.06-13+deb12u2)"
+	],
+	"conflicts": [
+		"grub (<< 0.97-54)",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-xen"
+	],
+	"installedSize": 551,
+	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
+	"description": "GRand Unified Bootloader, version 2 (PC/BIOS version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-pc_2.06-13+deb12u2_amd64.deb",
+	"size": 136516,
+	"md5": "8cbac759585d9d480ea6bfa35700756e",
+	"sha256": "9e1ab02f7793fa139de24e1432e62f0b643767b424678edc7d6528433e3ac1fa",
+	"descriptionMd5": "55663e0e8d42f469d665f9cc0013b733"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-pc",
+	"source": "grub2",
 	"version": "2.06-13+deb12u1",
 	"section": "admin",
 	"priority": "optional",

@@ -6,6 +6,39 @@
 	],
 	"package": "grub-efi-amd64-bin",
 	"source": "grub2",
+	"version": "2.06-13+deb12u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"grub-common (= 2.06-13+deb12u2)"
+	],
+	"recommends": [
+		"grub-efi-amd64-signed",
+		"efibootmgr"
+	],
+	"replaces": [
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-efi-amd64 (<< 1.99-1)",
+		"grub2 (<< 2.06-13+deb12u2)"
+	],
+	"installedSize": 18169,
+	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
+	"description": "GRand Unified Bootloader, version 2 (EFI-AMD64 modules)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-efi-amd64-bin_2.06-13+deb12u2_amd64.deb",
+	"size": 1577400,
+	"md5": "b8e2486c375f0187f81afccb8f5a3a89",
+	"sha256": "c04786d9f64fbf7cd181013266a8af52b463599cc54189915d03f1459e743135",
+	"descriptionMd5": "f6ad99c32640061c96401d0bc70e2f8a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-efi-amd64-bin",
+	"source": "grub2",
 	"version": "2.06-13+deb12u1",
 	"section": "admin",
 	"priority": "optional",

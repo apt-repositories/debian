@@ -6,6 +6,43 @@
 	],
 	"package": "grub-xen",
 	"source": "grub2",
+	"version": "2.06-13+deb12u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-common (= 2.06-13+deb12u2)",
+		"grub2-common (= 2.06-13+deb12u2)",
+		"grub-xen-bin (= 2.06-13+deb12u2)",
+		"ucf"
+	],
+	"conflicts": [
+		"grub (<< 0.97-54)",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-pc"
+	],
+	"installedSize": 176,
+	"maintainer": "GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>",
+	"description": "GRand Unified Bootloader, version 2 (Xen version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-xen_2.06-13+deb12u2_amd64.deb",
+	"size": 45616,
+	"md5": "4789b214a63b3f15f6e4060d8e2c34d3",
+	"sha256": "c38ab43e877d0f85318983baf079df4858ccc08c691f035ffe02eeef7c20fef4",
+	"descriptionMd5": "2eceba62a74d5d7f9e98f3a6f5d2a1d1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-xen",
+	"source": "grub2",
 	"version": "2.06-13+deb12u1",
 	"section": "admin",
 	"priority": "optional",
