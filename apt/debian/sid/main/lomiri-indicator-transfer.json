@@ -5,32 +5,37 @@
 		"Size"
 	],
 	"package": "lomiri-indicator-transfer",
-	"source": "lomiri-indicator-transfer (1.2.0-2)",
-	"version": "1.2.0-2+b2",
+	"version": "1.2.0-4",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"liblomiri-indicator-transfer1 (= 1.2.0-4)",
+		"lomiri-indicator-transfer-common (>= 1.2.0-4)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
-		"libglib2.0-0t64 (>= 2.35.4)",
-		"liblomiri-indicator-transfer1 (= 1.2.0-2+b2)",
-		"libstdc++6 (>= 13.1)",
-		"lomiri-indicator-transfer-common (>= 1.2.0-2)"
+		"libglib2.0-0t64 (>= 2.34.0)",
+		"libstdc++6 (>= 13.1)"
 	],
 	"recommends": [
 		"indicator-applet | indicator-renderer",
 		"lomiri-content-hub",
 		"lomiri-download-manager",
-		"lomiri-indicator-transfer-download-manager (>= 1.2.0-2+b2)"
+		"lomiri-indicator-transfer-download-manager (>= 1.2.0-4)"
+	],
+	"replaces": [
+		"indicator-transfer (<< 1.1.0)"
+	],
+	"breaks": [
+		"indicator-transfer (<< 1.1.0)"
 	],
 	"installedSize": 58,
 	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
 	"description": "Lomiri Indicator showing transfers",
 	"homepage": "https://gitlab.com/ubports/development/core/lomiri-indicator-transfer",
-	"filename": "pool/main/l/lomiri-indicator-transfer/lomiri-indicator-transfer_1.2.0-2+b2_amd64.deb",
-	"size": 20436,
-	"md5": "540def968a320f2afbea6819bae9ae94",
-	"sha256": "c9191f4437b0df556245478a6dead487bd0d090db373a9b910069588e61c4cee",
+	"filename": "pool/main/l/lomiri-indicator-transfer/lomiri-indicator-transfer_1.2.0-4_amd64.deb",
+	"size": 20540,
+	"md5": "423472ce94a6617891496fdce1bd367d",
+	"sha256": "a49fce364307b773ee4859f916e241d26d4149a46f5d50814f7a287b4c204661",
 	"descriptionMd5": "ea125a129409c5e1fd30090424fb61e7"
 }

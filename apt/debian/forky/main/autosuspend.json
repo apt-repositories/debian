@@ -5,36 +5,37 @@
 		"Size"
 	],
 	"package": "autosuspend",
-	"version": "9.0.1-1",
+	"version": "10.1.0-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-portalocker",
+		"python3-dbus",
+		"python3-gi",
 		"python3-psutil",
 		"python3:any",
-		"libjs-sphinxdoc (>= 8.2)"
+		"libjs-sphinxdoc (>= 9.0)",
+		"python3-portalocker"
 	],
 	"recommends": [
 		"python3-mpd",
 		"python3-requests",
 		"python3-lxml",
 		"xprintidle",
-		"python3-dbus",
 		"python3-icalendar",
 		"python3-dateutil",
 		"python3-tzlocal",
 		"python3-requests-file",
 		"iputils-ping"
 	],
-	"installedSize": 936,
+	"installedSize": 971,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "daemon to suspend a system in case of inactivity",
 	"homepage": "https://github.com/languitar/autosuspend",
-	"builtUsing": "sphinx (= 8.2.3-12)",
-	"filename": "pool/main/a/autosuspend/autosuspend_9.0.1-1_all.deb",
-	"size": 108696,
-	"md5": "cf090f3fda0f78c79f6f509168c589d2",
-	"sha256": "3e08fa975224086315f816474a9f80c9c0ac2a9b332e5d43fb78536d726465a4",
+	"builtUsing": "sphinx (= 9.1.0-2)",
+	"filename": "pool/main/a/autosuspend/autosuspend_10.1.0-1_all.deb",
+	"size": 111140,
+	"md5": "950afe051e027856bf8b174dccbccbf2",
+	"sha256": "1460b8746ab243dbe946dac9e690309de74b4a2824186ea5b62199398a859e83",
 	"descriptionMd5": "a685c5b8875392f83bcb0a0d75b7bbee"
 }

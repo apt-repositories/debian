@@ -5,23 +5,28 @@
 		"Size"
 	],
 	"package": "librust-derive-builder-dev",
-	"source": "rust-derive-builder (0.20.1-2)",
-	"version": "0.20.1-2+b1",
+	"source": "rust-derive-builder",
+	"version": "0.20.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-derive-builder-macro-0.20.1+alloc-dev",
-		"librust-derive-builder-macro-0.20.1+clippy-dev",
-		"librust-derive-builder-macro-0.20.1+default-dev",
-		"librust-derive-builder-macro-0.20.1+lib-has-std-dev"
+		"librust-derive-builder-macro-0.20+alloc-dev (<< 0.20.3)",
+		"librust-derive-builder-macro-0.20+alloc-dev (>= 0.20.2)",
+		"librust-derive-builder-macro-0.20+clippy-dev (<< 0.20.3)",
+		"librust-derive-builder-macro-0.20+clippy-dev (>= 0.20.2)",
+		"librust-derive-builder-macro-0.20+default-dev (<< 0.20.3)",
+		"librust-derive-builder-macro-0.20+default-dev (>= 0.20.2)",
+		"librust-derive-builder-macro-0.20+lib-has-std-dev (<< 0.20.3)",
+		"librust-derive-builder-macro-0.20+lib-has-std-dev (>= 0.20.2)"
 	],
 	"installedSize": 200,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust macro to automatically implement the builder pattern for arbitrary structs - Rust source code",
-	"filename": "pool/main/r/rust-derive-builder/librust-derive-builder-dev_0.20.1-2+b1_amd64.deb",
-	"size": 39116,
-	"md5": "3bfd4e9e8e1380bbb40ae7f935caa362",
-	"sha256": "58b2981f571a5d6542e54c806ea72c8c01e4f70a0350235f82a361ba4885b8d5",
+	"homepage": "https://github.com/colin-kiegel/rust-derive-builder",
+	"filename": "pool/main/r/rust-derive-builder/librust-derive-builder-dev_0.20.2-1_amd64.deb",
+	"size": 39076,
+	"md5": "945abb1cc6c07e9bd5618ee25cfdb23d",
+	"sha256": "60cd36a385244e890ced27ef7eede39b5740f6724728bc99e19cf17aa677d735",
 	"descriptionMd5": "60010f0e48f9ceae2522a4f6279e5514"
 }
