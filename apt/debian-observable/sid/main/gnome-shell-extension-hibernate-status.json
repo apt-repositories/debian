@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "gnome-shell-extension-hibernate-status",
-	"version": "1.15+20260407-1",
+	"version": "1.16~rc1+20260407-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"gnome-shell (>= 49~)",
+		"gnome-shell (<< 51~)",
+		"gnome-shell (>= 45~)",
 		"dconf-gsettings-backend | gsettings-backend"
 	],
 	"recommends": [
@@ -28,10 +29,10 @@
 	"installedSize": 185,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "adds a hibernate/hybrid suspend button in status menu (GNOME)",
-	"homepage": "https://github.com/jbradaric/disable-workspace-switcher",
-	"filename": "pool/main/g/gnome-shell-extension-hibernate-status/gnome-shell-extension-hibernate-status_1.15+20260407-1_all.deb",
-	"size": 24692,
-	"md5": "892d1adda74c2c472697e26cd5fe21d2",
-	"sha256": "15d4063686fcfaa2f911296b853cebd76d62bf0f00e00b5e427f674313fdf62b",
+	"homepage": "https://github.com/arelange/gnome-shell-extension-hibernate-status",
+	"filename": "pool/main/g/gnome-shell-extension-hibernate-status/gnome-shell-extension-hibernate-status_1.16~rc1+20260407-2_all.deb",
+	"size": 25004,
+	"md5": "119089e7044d3c97d358d66ba273c291",
+	"sha256": "1ce80eeb453872b2ff74b7bb820704e82d52819094a5dfff59b8f69e1b3e542a",
 	"descriptionMd5": "3eebdc02df5bdc2551732352ca673578"
 }]
