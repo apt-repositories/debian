@@ -6,7 +6,7 @@
 	],
 	"package": "librust-html5ever-dev",
 	"source": "rust-html5ever",
-	"version": "0.35.0+dfsg-1",
+	"version": "0.35.0+dfsg-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,18 @@
 		"librust-markup5ever-0.35+default-dev",
 		"librust-match-token-0.35+default-dev"
 	],
+	"breaks": [
+		"librust-ruma-common-dev (<< 0.14.1+ds-13)",
+		"librust-scraper-dev (<< 0.20.0-2)",
+		"librust-select-dev (<< 0.6.0+dfsg-1)"
+	],
 	"installedSize": 348,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "High-performance browser-grade HTML5 parser - Rust source code",
 	"homepage": "https://github.com/servo/html5ever",
-	"filename": "pool/main/r/rust-html5ever/librust-html5ever-dev_0.35.0+dfsg-1_amd64.deb",
-	"size": 57828,
-	"md5": "cc4ae705ef46ca1e34008d3e85133fd7",
-	"sha256": "7ce8049f1751e39b977270f3209299dd18d920ef3849aea4aee231a6be6e30cb",
+	"filename": "pool/main/r/rust-html5ever/librust-html5ever-dev_0.35.0+dfsg-2_amd64.deb",
+	"size": 57836,
+	"md5": "5fce9916e5a5adaa9099523003a160f3",
+	"sha256": "647550352f84487f9e2700bce833be43f2101843a4f7475a2bfd711ddd99b3e2",
 	"descriptionMd5": "7f9b68095317f334b4222644fb0fe209"
 }]

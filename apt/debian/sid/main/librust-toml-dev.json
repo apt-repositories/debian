@@ -6,7 +6,7 @@
 	],
 	"package": "librust-toml-dev",
 	"source": "rust-toml",
-	"version": "1.1.2-2",
+	"version": "1.1.2-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -33,13 +33,16 @@
 		"librust-winnow-dev (<< 2)",
 		"librust-winnow-dev (>= 0.7.13)"
 	],
+	"breaks": [
+		"librust-toml-edit-dev (<< 0.25)"
+	],
 	"installedSize": 350,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Native encoder and decoder of TOML-formatted data - Rust source code",
 	"homepage": "https://github.com/toml-rs/toml",
-	"filename": "pool/main/r/rust-toml/librust-toml-dev_1.1.2-2_amd64.deb",
-	"size": 46436,
-	"md5": "b84796301a936f8fec69106dc4d62544",
-	"sha256": "2cf79a474ce28739d38f2d4f1899eba43b7d7446a8044ec298583f1a7804d020",
+	"filename": "pool/main/r/rust-toml/librust-toml-dev_1.1.2-4_amd64.deb",
+	"size": 46516,
+	"md5": "19b2704dba9b611861752168332083fc",
+	"sha256": "d42fd05397301173f5fd1a3271285315e32aa889bb46bfb89f5ddf8796f409ec",
 	"descriptionMd5": "d61e3cbe8a03a386a0b1b1f19ec5db1a"
 }

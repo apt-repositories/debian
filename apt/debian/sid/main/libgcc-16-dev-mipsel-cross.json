@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-16-dev-mipsel-cross",
+	"source": "gcc-16-cross-mipsen (1+c1)",
+	"version": "16.1.0-1cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base-mipsen (= 16.1.0-1cross1)",
+		"libgcc-s1-mipsel-cross (>= 16.1.0-1cross1)",
+		"libgomp1-mipsel-cross (>= 16.1.0-1cross1)",
+		"libatomic1-mipsel-cross (>= 16.1.0-1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-mipsel-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-mipsel-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-mipsel-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 2890,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16.1.0-1)",
+	"filename": "pool/main/g/gcc-16-cross-mipsen/libgcc-16-dev-mipsel-cross_16.1.0-1cross1_all.deb",
+	"size": 314140,
+	"md5": "beab4c34ee585616f9c5fab530bba912",
+	"sha256": "48183dff9c214b93f78a0e6f711b08f5007ad75f132430d26fad34c744b76717",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}
