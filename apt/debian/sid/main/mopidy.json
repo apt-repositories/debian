@@ -5,12 +5,11 @@
 		"Size"
 	],
 	"package": "mopidy",
-	"version": "3.4.2-7",
+	"version": "3.4.2-8",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"debconf",
 		"gir1.2-gst-plugins-base-1.0",
 		"gir1.2-gstreamer-1.0",
@@ -19,6 +18,7 @@
 		"python3-gst-1.0",
 		"python3-tornado (>= 4.4)",
 		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"python3-pykka (>= 2.0.1)",
 		"python3-requests",
 		"python3:any"
@@ -31,13 +31,13 @@
 	"suggests": [
 		"mopidy-doc"
 	],
-	"installedSize": 504,
+	"installedSize": 502,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "extensible music server",
 	"homepage": "https://mopidy.com/",
-	"filename": "pool/main/m/mopidy/mopidy_3.4.2-7_all.deb",
-	"size": 102872,
-	"md5": "10aad42caafb5e2f8492c8f8abd774de",
-	"sha256": "7c72d5f8d284e860d854b91397be9dd7ebd6dc1f08f6bac6fc29bc440ff932cf",
+	"filename": "pool/main/m/mopidy/mopidy_3.4.2-8_all.deb",
+	"size": 102932,
+	"md5": "06837a9f85e0fc1f98b2f3366ad2be07",
+	"sha256": "631facca5969896357f2ecd1269bb3a9d9e2026051f3f1b9a71d06b73339bbaa",
 	"descriptionMd5": "72560d4cd04b5a15f8be0cfe54877dc3"
 }

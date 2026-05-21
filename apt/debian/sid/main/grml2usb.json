@@ -5,17 +5,18 @@
 		"Size"
 	],
 	"package": "grml2usb",
-	"version": "0.20.13",
+	"version": "0.20.14",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"grub-efi-amd64-signed | grub-efi-amd64-bin | grub-common",
+		"grub-pc-bin | grub-common",
 		"kmod",
 		"mtools",
 		"python3",
 		"python3-parted",
-		"rsync",
-		"syslinux | grub-common"
+		"rsync"
 	],
 	"recommends": [
 		"isolinux (>= 3:6.03+dfsg-5+deb8u1~)",
@@ -23,13 +24,13 @@
 		"syslinux-utils",
 		"xorriso | genisoimage"
 	],
-	"installedSize": 275,
+	"installedSize": 276,
 	"maintainer": "Grml Team <team@grml.org>",
 	"description": "install Grml system / ISO to USB device",
 	"homepage": "https://grml.org/grml2usb/",
-	"filename": "pool/main/g/grml2usb/grml2usb_0.20.13_all.deb",
-	"size": 205776,
-	"md5": "a8dbecfd475f93c3ed275918a9cdc464",
-	"sha256": "82566b17a8c719c13398159d70e0a5ed37cad1228aa0feb6b675103a4a8a6f43",
+	"filename": "pool/main/g/grml2usb/grml2usb_0.20.14_all.deb",
+	"size": 206036,
+	"md5": "25121850de39d13ef6fe6b4ff930c557",
+	"sha256": "9e69eee2c8169fdfe14339c9e54a2f919987fa17e89d80d6aa2cd264056828f9",
 	"descriptionMd5": "47f5dcfcba5f5a348ddd10ff68785fee"
 }
