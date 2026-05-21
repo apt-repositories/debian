@@ -25,8 +25,40 @@
 	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
 	"description": "DNS Lookup Utility",
 	"homepage": "https://www.isc.org/downloads/bind/",
-	"filename": "pool/updates/main/b/bind9/bind9-host_9.20.21-1~deb13u1_amd64.deb",
+	"filename": "pool/main/b/bind9/bind9-host_9.20.21-1~deb13u1_amd64.deb",
 	"size": 55640,
+	"md5": "b819ed24c5fc289a274e5bae19421e4f",
 	"sha256": "6ac680b696b0d8531ab32318797c0f912afa40a6915720f30c556bd16c287ced",
+	"descriptionMd5": "2dd2359e6a96f700ef352e6924685162"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-host",
+	"source": "bind9",
+	"version": "1:9.20.23-1~deb13u1",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-libs (= 1:9.20.23-1~deb13u1)",
+		"libc6 (>= 2.38)",
+		"libidn2-0 (>= 2.0.0)"
+	],
+	"replaces": [
+		"bind-host (<< 1:9.13.6~)"
+	],
+	"breaks": [
+		"bind-host (<< 1:9.13.6~)"
+	],
+	"installedSize": 140,
+	"maintainer": "Debian DNS Team <team+dns@tracker.debian.org>",
+	"description": "DNS Lookup Utility",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/updates/main/b/bind9/bind9-host_9.20.23-1~deb13u1_amd64.deb",
+	"size": 55992,
+	"sha256": "ecf2910833b1c369bbc71039f7eb16f34565ce9d60015aeeafd2ff6872c18860",
 	"descriptionMd5": "2dd2359e6a96f700ef352e6924685162"
 }]
