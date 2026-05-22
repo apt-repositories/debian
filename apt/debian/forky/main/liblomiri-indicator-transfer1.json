@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "liblomiri-indicator-transfer1",
-	"source": "lomiri-indicator-transfer (1.2.0-2)",
-	"version": "1.2.0-2+b2",
+	"source": "lomiri-indicator-transfer",
+	"version": "1.2.0-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,19 @@
 		"libglib2.0-0t64 (>= 2.38.0)",
 		"libstdc++6 (>= 14)"
 	],
-	"installedSize": 240,
+	"replaces": [
+		"liblomiri-indicator-transfer0"
+	],
+	"breaks": [
+		"liblomiri-indicator-transfer0"
+	],
+	"installedSize": 239,
 	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
 	"description": "Shared library used by Lomiri's Transfer Indicator and plugins",
 	"homepage": "https://gitlab.com/ubports/development/core/lomiri-indicator-transfer",
-	"filename": "pool/main/l/lomiri-indicator-transfer/liblomiri-indicator-transfer1_1.2.0-2+b2_amd64.deb",
-	"size": 65296,
-	"md5": "18df993572e7ac9b3158eed4f1c92b66",
-	"sha256": "46f829467cd9422942fdea3ec26e4dacda7a32042f3d8c9601c8d3fed9aa2c70",
+	"filename": "pool/main/l/lomiri-indicator-transfer/liblomiri-indicator-transfer1_1.2.0-4_amd64.deb",
+	"size": 65504,
+	"md5": "77bd8ef9bfdf1e34eb5d192f13dab2e5",
+	"sha256": "70b185e5b1d7b41cb65d2034a31d9df9c50e0f0f5413a10ab45e32c8070083cc",
 	"descriptionMd5": "3e8ce0c5a9bbf1ba1860eeeea822617f"
 }
