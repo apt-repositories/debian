@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "buildbox",
-	"source": "buildbox (1.4.1-1)",
-	"version": "1.4.1-1+b1",
+	"version": "1.4.5-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"bubblewrap",
+		"fuse3",
 		"libabsl20260107 (>= 20260107.0-0~)",
 		"libc6 (>= 2.38)",
 		"libcurl4t64 (>= 7.16.2)",
@@ -21,17 +22,15 @@
 		"libprotobuf32t64 (>= 3.21.12)",
 		"libssl3t64 (>= 3.0.0)",
 		"libstdc++6 (>= 14)",
-		"libuuid1 (>= 2.16)",
-		"bubblewrap",
-		"fuse3"
+		"libuuid1 (>= 2.16)"
 	],
-	"installedSize": 46014,
+	"installedSize": 46445,
 	"maintainer": "Theodore Tucker <theodore@tti0.net>",
 	"description": "suite of tools for remote build execution",
 	"homepage": "https://buildgrid.gitlab.io/buildbox/buildbox/index.html",
-	"filename": "pool/main/b/buildbox/buildbox_1.4.1-1+b1_amd64.deb",
-	"size": 6777904,
-	"md5": "a5c8478b067384984729b85c3196d15d",
-	"sha256": "acfd17bc5cf5d47a6ba9a7c2abc400aa893026e10d384a2b4a574a2b5ae3511b",
+	"filename": "pool/main/b/buildbox/buildbox_1.4.5-1_amd64.deb",
+	"size": 6844536,
+	"md5": "20f04cf7035416a37b57c19b4e8ce336",
+	"sha256": "e030c6e3426d6476eae14bd88a80be8515971c9554f21ec423381146ae0d7097",
 	"descriptionMd5": "059f0fa62a815d2a4d99050bc7d70383"
 }

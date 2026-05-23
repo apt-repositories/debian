@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libkadm5clnt-mit12",
+	"source": "krb5",
+	"version": "1.21.3-5+deb13u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcom-err2 (>= 1.43.9)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libgssrpc4t64 (>= 1.6.dfsg.2)",
+		"libk5crypto3 (>= 1.6.dfsg.2)",
+		"libkrb5-3 (>= 1.15~beta1)",
+		"libkrb5support0 (= 1.21.3-5+deb13u1)"
+	],
+	"suggests": [
+		"krb5-doc",
+		"krb5-user"
+	],
+	"breaks": [
+		"krb5-user (<< 1.21)"
+	],
+	"conflicts": [
+		"libkdb5-8"
+	],
+	"installedSize": 176,
+	"maintainer": "Sam Hartman <hartmans@debian.org>",
+	"description": "MIT Kerberos runtime libraries - Administration Clients",
+	"homepage": "https://web.mit.edu/kerberos/",
+	"filename": "pool/updates/main/k/krb5/libkadm5clnt-mit12_1.21.3-5+deb13u1_amd64.deb",
+	"size": 42648,
+	"sha256": "9d1271f9ef8d3d308e1d9373cccc59de0e2b2b62b0ddd39cffd76cb18af24bb2",
+	"descriptionMd5": "8b2bac04328bfaffc8a1b6b57144cc9b"
+}

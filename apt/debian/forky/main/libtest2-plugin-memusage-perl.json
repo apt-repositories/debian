@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "libtest2-plugin-memusage-perl",
-	"version": "0.002003-2",
+	"version": "0.002006-1",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"perl:any",
-		"libtest-simple-perl (>= 1.302165)"
+		"libtest-simple-perl"
 	],
-	"installedSize": 20,
+	"recommends": [
+		"libbsd-resource-perl"
+	],
+	"installedSize": 25,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "Perl module to collect and display memory usage information",
 	"homepage": "https://metacpan.org/release/Test2-Plugin-MemUsage",
-	"filename": "pool/main/libt/libtest2-plugin-memusage-perl/libtest2-plugin-memusage-perl_0.002003-2_all.deb",
-	"size": 5272,
-	"md5": "5814c91b81fd9488f2e4b638f9664697",
-	"sha256": "5874052645238cf2d55652c38ca77a64be3aa7c78e01952882ff273999e153d6",
+	"filename": "pool/main/libt/libtest2-plugin-memusage-perl/libtest2-plugin-memusage-perl_0.002006-1_all.deb",
+	"size": 8892,
+	"md5": "318b31791d9ee6a6a3ae60363b54ba96",
+	"sha256": "5d2a7779c9999b520d79250ca2133a19434542b616495d43b5a955acc32899a0",
 	"descriptionMd5": "5f79ed460057205fb519bb6f11fc53cc"
 }

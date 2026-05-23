@@ -6,22 +6,22 @@
 	],
 	"package": "tango-common",
 	"source": "tango",
-	"version": "10.1.2+dfsg1-3",
+	"version": "10.1.2+dfsg1-4",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"opentelemetry-cpp",
-		"debconf (>= 0.5) | debconf-2.0"
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
-	"installedSize": 28,
+	"installedSize": 32,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "TANGO distributed control system - common files",
 	"homepage": "https://www.tango-controls.org",
-	"filename": "pool/main/t/tango/tango-common_10.1.2+dfsg1-3_all.deb",
-	"size": 7812,
-	"md5": "e1d1303952330b508196ac0bf5c1f541",
-	"sha256": "90a6f926d5a657fc26d298bafa1e6599cb63fbf7a29d3c4f3752002960d8e00c",
+	"filename": "pool/main/t/tango/tango-common_10.1.2+dfsg1-4_all.deb",
+	"size": 7592,
+	"md5": "47c4323fee8fde8826640695c9941ca6",
+	"sha256": "eb2ea880e8a450b9f04054755f36c48feed9ca8a61f3d7e888d84261ed89df54",
 	"descriptionMd5": "abe68002b5c0074a5b3403547a332b83"
 }]
