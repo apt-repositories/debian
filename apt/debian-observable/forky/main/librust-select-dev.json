@@ -5,23 +5,25 @@
 		"Size"
 	],
 	"package": "librust-select-dev",
-	"source": "rust-select (0.6.0-3)",
-	"version": "0.6.0-3+b1",
+	"source": "rust-select",
+	"version": "0.6.0+dfsg-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bit-set-0.8+default-dev",
-		"librust-html5ever-0.27+default-dev",
-		"librust-markup5ever-rcdom-0.3+default-dev"
+		"librust-html5ever+default-dev (<< 0.36)",
+		"librust-html5ever+default-dev (>= 0.26)",
+		"librust-markup5ever-rcdom+default-dev (<< 0.36)",
+		"librust-markup5ever-rcdom+default-dev (>= 0.2)"
 	],
-	"installedSize": 319,
+	"installedSize": 318,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Extract useful data from HTML documents, suitable for web scraping - Rust source code",
 	"homepage": "https://github.com/utkarshkukreti/select.rs",
-	"filename": "pool/main/r/rust-select/librust-select-dev_0.6.0-3+b1_amd64.deb",
-	"size": 30416,
-	"md5": "449cb1543fc6a72e1591a7b95b3a06fa",
-	"sha256": "693abeab3375fbcf082e4ca7bfd564d9326831fa6ed6cf10beff506bed513cf8",
+	"filename": "pool/main/r/rust-select/librust-select-dev_0.6.0+dfsg-2_amd64.deb",
+	"size": 30268,
+	"md5": "940735d73cbfe68a679e72147c561ae9",
+	"sha256": "c3e5da2fbdd1f6f3c5e09c8e5c883c496e04a5ed396abb941547b0bc28896778",
 	"descriptionMd5": "1672277968f26202ad58b4ecc67d01f1"
 }]

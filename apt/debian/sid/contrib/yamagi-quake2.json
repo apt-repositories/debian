@@ -6,15 +6,17 @@
 	],
 	"package": "yamagi-quake2",
 	"source": "yquake2",
-	"version": "8.60+dfsg-1",
+	"version": "8.70+dfsg-1",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libgl1",
-		"yamagi-quake2-core (= 8.60+dfsg-1)",
+		"yamagi-quake2-core (= 8.70+dfsg-1)",
 		"libc6 (>= 2.38)",
-		"libsdl3-0 (>= 3.2.0)"
+		"libminizip1t64",
+		"libsdl3-0 (>= 3.2.0)",
+		"zlib1g (>= 1:1.2.0)"
 	],
 	"recommends": [
 		"libopenal1",
@@ -23,13 +25,13 @@
 	"suggests": [
 		"libcurl4t64 | libcurl3t64-gnutls"
 	],
-	"installedSize": 1504,
+	"installedSize": 1467,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "enhanced version of id Software's Quake II - client",
 	"homepage": "https://www.yamagi.org/quake2/",
-	"filename": "pool/contrib/y/yquake2/yamagi-quake2_8.60+dfsg-1_amd64.deb",
-	"size": 520124,
-	"md5": "a391c9fd6107684f8afaeebe40350419",
-	"sha256": "177477555c3c01f46f7d4a28b6791a1167f4ca11e7f86677ec49f16ec1e968df",
+	"filename": "pool/contrib/y/yquake2/yamagi-quake2_8.70+dfsg-1_amd64.deb",
+	"size": 502176,
+	"md5": "798628eb096d2ff0915f4de0425622ce",
+	"sha256": "ca6b7ec6fd29cb0895f40d1b11ea682ec9e4d33f50b2cecbae05e13a80b0974b",
 	"descriptionMd5": "096b3001c48d6dd59088246be1310434"
 }

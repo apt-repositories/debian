@@ -6,21 +6,24 @@
 	],
 	"package": "clevis-initramfs",
 	"source": "clevis",
-	"version": "22-1",
+	"version": "23-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"clevis-luks (= 22-1)",
+		"clevis-luks (= 23-1)",
 		"initramfs-tools-core"
 	],
-	"installedSize": 32,
+	"suggests": [
+		"trousers"
+	],
+	"installedSize": 38,
 	"maintainer": "Christoph Biedl <debian.axhn@manchmal.in-ulm.de>",
 	"description": "Clevis initramfs integration",
 	"homepage": "https://github.com/latchset/clevis",
-	"filename": "pool/main/c/clevis/clevis-initramfs_22-1_amd64.deb",
-	"size": 7412,
-	"md5": "d26f2c55517294ce19ed2a36dbe7fc01",
-	"sha256": "cf492230f17a4f304dc9f6d23138696014b5854f5a913e4c61280a3aa5217564",
+	"filename": "pool/main/c/clevis/clevis-initramfs_23-1_amd64.deb",
+	"size": 8276,
+	"md5": "72d52a32cb222bd8977bd2eae634a715",
+	"sha256": "b949cc7de6922a673d55d942bcbcbad9d270eb40b198e6095459f15ca421795b",
 	"descriptionMd5": "29475e00d4696ecf0834875981692d86"
 }
