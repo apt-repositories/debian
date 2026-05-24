@@ -6,7 +6,7 @@
 	],
 	"package": "libatd-ocaml",
 	"source": "ocaml-atd",
-	"version": "4.1.0-1",
+	"version": "4.2.0-1",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,19 @@
 	"recommends": [
 		"ocaml-findlib"
 	],
-	"installedSize": 2281,
+	"replaces": [
+		"atdts (<< 4.2.0)"
+	],
+	"breaks": [
+		"atdts (<< 4.2.0)"
+	],
+	"installedSize": 2283,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "syntax for cross-language data types in OCaml - plugins",
 	"homepage": "https://github.com/ahrefs/atd",
-	"filename": "pool/main/o/ocaml-atd/libatd-ocaml_4.1.0-1_amd64.deb",
-	"size": 588000,
-	"md5": "1d7c44391e9eacabdb7073e88003a47f",
-	"sha256": "cfcfbec678de5dd80637cff15a883e68e42e4f35efdb812842f7a9ed913dfaf6",
+	"filename": "pool/main/o/ocaml-atd/libatd-ocaml_4.2.0-1_amd64.deb",
+	"size": 588344,
+	"md5": "afc90202882b4004903c4c69275e5ac1",
+	"sha256": "8a0aa716ac9280bb668320c3c916fe5f60856c7815b8fa58c5e2decf9ba35b4e",
 	"descriptionMd5": "d6cc4a5eb0bf6a8e4945516eef4b6271"
 }

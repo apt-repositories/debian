@@ -5,29 +5,29 @@
 		"Size"
 	],
 	"package": "samba",
-	"version": "2:4.23.6+dfsg-2~bpo13+1",
+	"version": "2:4.24.2+dfsg-1~bpo13+1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"passwd",
 		"samba-common",
-		"samba-common-bin (= 2:4.23.6+dfsg-2~bpo13+1)",
+		"samba-common-bin (= 2:4.24.2+dfsg-1~bpo13+1)",
 		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
 		"libcups2t64 (>= 1.7.0)",
 		"libdbus-1-3 (>= 1.10)",
 		"libgnutls30t64 (>= 3.7.0)",
 		"libldap2 (>= 2.6.2)",
-		"libldb2 (>= 2:2.6.1)",
+		"libldb2 (>= 2:2.10.0)",
 		"libndr6 (>= 2:4.20.0~rc1)",
 		"libpopt0 (>= 1.14)",
-		"libtalloc2 (>= 2.4.0)",
-		"libtdb1 (>= 1.2.7+git20101214)",
+		"libtalloc2 (>= 2:2.4.4)",
+		"libtdb1 (>= 1.2.7+git20101215)",
 		"libtevent0t64 (>= 0.15.0)",
 		"libtirpc3t64 (>= 1.0.2)",
 		"liburing2 (>= 2.3)",
-		"samba-libs (= 2:4.23.6+dfsg-2~bpo13+1)"
+		"samba-libs (= 2:4.24.2+dfsg-1~bpo13+1)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -47,17 +47,17 @@
 	],
 	"breaks": [
 		"samba-ad-dc (<< 2:4.20.1+dfsg-2~)",
-		"samba-ad-provision (<< 2:4.23.6+dfsg)",
+		"samba-ad-provision (<< 2:4.24.2+dfsg)",
 		"samba-libs (<< 2:4.19.0~)",
 		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)"
 	],
-	"installedSize": 5012,
+	"installedSize": 5062,
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "SMB/CIFS file, print, and login server for Unix",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/samba_4.23.6+dfsg-2~bpo13+1_amd64.deb",
-	"size": 1197572,
-	"sha256": "777e816a92eae2e97260bd7e4a41ba8740902cbb668deb7560e91f72c4f24f5f",
+	"filename": "pool/main/s/samba/samba_4.24.2+dfsg-1~bpo13+1_amd64.deb",
+	"size": 1216572,
+	"sha256": "8c5c097b718ec5c4a8b57a4ffec924fd249caa05adc9f5802e24a66439dd9102",
 	"descriptionMd5": "c9d307ae5cf3b46be12b53a9f95862f0"
 },{
 	"raw": {},

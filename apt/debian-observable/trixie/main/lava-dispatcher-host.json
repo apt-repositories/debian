@@ -6,13 +6,12 @@
 	],
 	"package": "lava-dispatcher-host",
 	"source": "lava",
-	"version": "2026.04-2~bpo13+1",
+	"version": "2026.04-5~bpo13+1",
 	"section": "net",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"lava-common (= 2026.04-2~bpo13+1)",
-		"base-files (<< 11.1) | python3-bpfcc (>= 0.21)",
+		"lava-common (= 2026.04-5~bpo13+1)",
 		"base-files (<< 11.1) | linux-headers-amd64 | linux-headers-arm64 | linux-headers-generic",
 		"base-files (<< 11.1) | bpftool | linux-tools-generic",
 		"python3",
@@ -21,7 +20,8 @@
 		"python3-pyudev"
 	],
 	"recommends": [
-		"docker.io"
+		"docker.io",
+		"python3-bpfcc"
 	],
 	"suggests": [
 		"udev"
@@ -30,8 +30,8 @@
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "LAVA dispatcher host tools",
 	"homepage": "https://www.lavasoftware.org/",
-	"filename": "pool/main/l/lava/lava-dispatcher-host_2026.04-2~bpo13+1_all.deb",
-	"size": 41556,
-	"sha256": "20d8b80a5ae3142d4d5246282a54d986aa209725a687630925b150873eb7402d",
+	"filename": "pool/main/l/lava/lava-dispatcher-host_2026.04-5~bpo13+1_amd64.deb",
+	"size": 41712,
+	"sha256": "f115cba9c1e6e1ae9119899bcb8f62d9215f31338a81d6816d8ba346bdd58059",
 	"descriptionMd5": "0ab3290455525453cfd5adfebb0e1518"
 }]
