@@ -5,20 +5,22 @@
 		"Size"
 	],
 	"package": "dh-rebar",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"debhelper",
-		"rebar"
+		"rebar (>= 2.6.4-5~)",
+		"rebar3",
+		"erlang-base"
 	],
-	"installedSize": 36,
+	"installedSize": 38,
 	"maintainer": "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>",
-	"description": "helper tools for maintaining Erlang packages that are built by rebar",
-	"filename": "pool/main/d/dh-rebar/dh-rebar_0.0.6_all.deb",
-	"size": 7820,
-	"md5": "8009764bda4992337c8c83fb1afc74df",
-	"sha256": "638ac4666c361171198c898999c03c5fedc2d1d89a1b94bb741db31158898ebd",
-	"descriptionMd5": "7094f2523da0de25781a631f2dfff951"
+	"description": "Helper tools for maintaining Erlang packages that are built by rebar",
+	"filename": "pool/main/d/dh-rebar/dh-rebar_0.0.7_all.deb",
+	"size": 7072,
+	"md5": "8b2a2909d59406200cea8a8d3f05d430",
+	"sha256": "9fec8c4cfc5695011ba0e39f4f57fe0c19bb0b494367b8b2ac4ab496fdc60317",
+	"descriptionMd5": "7ef9dd5bf083ccb456e4b34799637604"
 }]
