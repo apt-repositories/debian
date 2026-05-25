@@ -6,20 +6,23 @@
 	],
 	"package": "libfortran-julienne0",
 	"source": "fortran-julienne",
-	"version": "3.6.2-6",
+	"version": "3.6.2-10",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)"
+		"libc6 (>= 2.34)",
+		"libfortran-assert0 (>= 3.1.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libgfortran5 (>= 10)"
 	],
-	"installedSize": 1660,
+	"installedSize": 679,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Idiomatic Correctness Checking for Fortran 2023 - library",
 	"homepage": "https://github.com/berkeleylab/julienne",
-	"filename": "pool/main/f/fortran-julienne/libfortran-julienne0_3.6.2-6_amd64.deb",
-	"size": 325272,
-	"md5": "d822079aabbc77072cb4ad287fa6860d",
-	"sha256": "ba8c89f781c44b0f23a9a1023c7df412e1ba1fe3d8362e19fa39444abb6636b1",
+	"filename": "pool/main/f/fortran-julienne/libfortran-julienne0_3.6.2-10_amd64.deb",
+	"size": 175900,
+	"md5": "c83a0b8a4f1ae4f262c1633d50c5eefc",
+	"sha256": "cbd93eec014333200f89d40110d3830b035f25b56ed65693a1ed81cfd6da1b96",
 	"descriptionMd5": "cdb2bdc4718aa511162e5bf477d5935b"
 }]

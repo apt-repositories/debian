@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libodoc-ocaml",
-	"source": "ocaml-odoc (3.1.0-2)",
-	"version": "3.1.0-2+b1",
+	"source": "ocaml-odoc",
+	"version": "3.2.1-2",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,19 @@
 		"libtyxml-ocaml-ms1f2",
 		"ocaml-base-5.4.0"
 	],
-	"installedSize": 5293,
+	"replaces": [
+		"libodoc-ocaml-dev (<< 3.2.1)"
+	],
+	"breaks": [
+		"libodoc-ocaml-dev (<< 3.2.1)"
+	],
+	"installedSize": 14376,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "documentation generator for OCaml (runtime libraries)",
 	"homepage": "https://github.com/ocaml/odoc",
-	"filename": "pool/main/o/ocaml-odoc/libodoc-ocaml_3.1.0-2+b1_amd64.deb",
-	"size": 1511468,
-	"md5": "fc4f96f3cbaa494faccba71d80cb1135",
-	"sha256": "d5d7aaad9837c6f610a1f91d990886149dff9e12188c92b4a80b0a61dc8d9ef0",
+	"filename": "pool/main/o/ocaml-odoc/libodoc-ocaml_3.2.1-2_amd64.deb",
+	"size": 3823624,
+	"md5": "7516b50822fb07fc098e10ad949f71f8",
+	"sha256": "55c98e541a189f760ed74c0a95b13643ec91c94f30132df846713cbcbbe78ff7",
 	"descriptionMd5": "c335bf33ba137a409ce130f6b46f3777"
 }]

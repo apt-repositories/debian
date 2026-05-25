@@ -5,20 +5,23 @@
 		"Size"
 	],
 	"package": "librust-signal-hook-registry-dev",
-	"source": "rust-signal-hook-registry (1.4.0-1)",
-	"version": "1.4.0-1+b2",
+	"source": "rust-signal-hook-registry",
+	"version": "1.4.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-errno+default-dev (<< 0.4)",
+		"librust-errno+default-dev (>= 0.2)",
 		"librust-libc-0.2+default-dev"
 	],
-	"installedSize": 74,
+	"installedSize": 83,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Backend crate for signal-hook - Rust source code",
-	"filename": "pool/main/r/rust-signal-hook-registry/librust-signal-hook-registry-dev_1.4.0-1+b2_amd64.deb",
-	"size": 19164,
-	"md5": "1c3a3bebcfc8fa3f8060bfaa78d27711",
-	"sha256": "931afeef5dd8e187cd6695006e623358fc337def2949097f4f966f5028fe31e6",
-	"descriptionMd5": "50f673c9cf0c3eff18f0ecbf125f5aa6"
+	"homepage": "https://github.com/vorner/signal-hook",
+	"filename": "pool/main/r/rust-signal-hook-registry/librust-signal-hook-registry-dev_1.4.8-1_amd64.deb",
+	"size": 21388,
+	"md5": "dc0896e3e30869c3272540194820f522",
+	"sha256": "ce2101a964d45855807df1de428486f6b06e1a47467cce166fdbcab0a7e31dbb",
+	"descriptionMd5": "f6cd7610eefe6110697f09dc26613f6d"
 }
