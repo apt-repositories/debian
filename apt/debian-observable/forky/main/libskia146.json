@@ -6,7 +6,7 @@
 	],
 	"package": "libskia146",
 	"source": "libskia",
-	"version": "146.20260414~git.ef5f213+dfsg-3",
+	"version": "146.20260414~git.ef5f213+dfsg-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -26,13 +26,16 @@
 		"libwebpmux3 (>= 1.5.0)",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 7422,
+	"breaks": [
+		"storm-lang-ui (<< 0.7.9+dfsg-1)"
+	],
+	"installedSize": 7354,
 	"maintainer": "Debian Fonts Task Force <debian-fonts@lists.debian.org>",
 	"description": "2D graphics library",
 	"homepage": "https://skia.org/",
-	"filename": "pool/main/libs/libskia/libskia146_146.20260414~git.ef5f213+dfsg-3_amd64.deb",
-	"size": 2577068,
-	"md5": "74d4eb6146b7d84f3709d1aad8e4380d",
-	"sha256": "98dbb446ff1114097d274710556b3666f124477c2abae64c5585bdebb8a12874",
+	"filename": "pool/main/libs/libskia/libskia146_146.20260414~git.ef5f213+dfsg-4_amd64.deb",
+	"size": 2562608,
+	"md5": "6a573d4c08a2636bfdd4c1991cc659f9",
+	"sha256": "8fdf5bd13328cef01aaf3c127bb675af49318283ae7526c971bbc47484fcaba6",
 	"descriptionMd5": "336ebb0155582dd0c209ba196ece5a69"
 }]
