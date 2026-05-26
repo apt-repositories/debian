@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "stunnel",
+	"version": "3:5.78-4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"netbase",
+		"openssl",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"perl:any",
+		"libc6 (>= 2.38)",
+		"libssl3t64 (>= 3.6.0)",
+		"libsystemd0",
+		"libwrap0 (>= 7.6-4~)"
+	],
+	"suggests": [
+		"logcheck-database"
+	],
+	"replaces": [
+		"stunnel4 (<< 3:5.78-3~)"
+	],
+	"breaks": [
+		"stunnel4 (<< 3:5.78-3~)"
+	],
+	"installedSize": 545,
+	"maintainer": "Peter Pentchev <roam@debian.org>",
+	"description": "Universal SSL tunnel for network daemons",
+	"homepage": "https://www.stunnel.org/",
+	"filename": "pool/main/s/stunnel/stunnel_5.78-4_amd64.deb",
+	"size": 213032,
+	"md5": "3a69f30d745ba0fb5f1f6166d0621338",
+	"sha256": "66260f06dcd7c8614247cd820c83cd2c3d6aa1963aff003fed9ac1b6b8f2f779",
+	"descriptionMd5": "a9bd9f53bcb49101cf9d050b080d160c"
+}]

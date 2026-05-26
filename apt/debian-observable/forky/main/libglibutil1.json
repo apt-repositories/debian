@@ -6,7 +6,7 @@
 	],
 	"package": "libglibutil1",
 	"source": "libglibutil",
-	"version": "1.0.81+ds-2",
+	"version": "1.0.81+ds-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,19 @@
 		"libc6 (>= 2.14)",
 		"libglib2.0-0t64 (>= 2.32.0)"
 	],
+	"replaces": [
+		"libglibutil"
+	],
+	"breaks": [
+		"libglibutil"
+	],
 	"installedSize": 101,
 	"maintainer": "Seyed Mohamad Amin Modaresi <modaresisofthard@proton.me>",
 	"description": "Library of glib utilities",
 	"homepage": "https://github.com/sailfishos/libglibutil",
-	"filename": "pool/main/libg/libglibutil/libglibutil1_1.0.81+ds-2_amd64.deb",
-	"size": 28840,
-	"md5": "e2542168b95bad907d0f32970e02abfb",
-	"sha256": "d2bdb5c4b8bba6152531baa3cc9ededd8aa18518254c59a0302b5ad080d1f448",
+	"filename": "pool/main/libg/libglibutil/libglibutil1_1.0.81+ds-3_amd64.deb",
+	"size": 29096,
+	"md5": "d3aad0c561ada249940db5ea81a482b8",
+	"sha256": "c5d608a849e15d95c16c6dcdaf7c4ddc7f8e3b2b71296268b244b1f4e2aaf977",
 	"descriptionMd5": "2d0c7fe14775786db49a1abc1b715ce6"
 }]

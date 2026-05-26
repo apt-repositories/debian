@@ -6,16 +6,16 @@
 	],
 	"package": "libben-ocaml",
 	"source": "ben",
-	"version": "1.20",
+	"version": "1.21",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libangstrom-ocaml-8let3",
 		"libbigstringaf-ocaml-ua232",
+		"libdomainslib-ocaml-glmi0",
 		"libextlib-ocaml-wnfd4",
 		"liblwt-ocaml-tvxr7",
-		"libparmap-ocaml-pyyq6",
 		"libpostgresql-ocaml-gi7q2",
 		"libppx-yojson-conv-lib-ocaml-aern3",
 		"libstdlib-ocaml-kjuo1",
@@ -25,13 +25,21 @@
 		"ocaml-base-5.4.0",
 		"libc6 (>= 2.3)"
 	],
-	"installedSize": 632,
+	"replaces": [
+		"ben (<< 1.21~)",
+		"libben-ocaml-dev (<< 1.21~)"
+	],
+	"breaks": [
+		"ben (<< 1.21~)",
+		"libben-ocaml-dev (<< 1.21~)"
+	],
+	"installedSize": 1898,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "OCaml libraries for Debian maintainers (runtime package)",
 	"homepage": "https://debian.pages.debian.net/ben/",
-	"filename": "pool/main/b/ben/libben-ocaml_1.20_amd64.deb",
-	"size": 160200,
-	"md5": "b4d41ea2f386f28bfdd03c3812fbf2cb",
-	"sha256": "1b61db8cdc4350516cac8d0050b41fc9b68dbe0aa63d297a4e87331b2c2fc049",
+	"filename": "pool/main/b/ben/libben-ocaml_1.21_amd64.deb",
+	"size": 480704,
+	"md5": "81e0bcec0d26c4dc52b2af81281ce461",
+	"sha256": "da8a5b2fae127af2eec396c019e3f2a9f430c7f0f8f4ce251ec5860c81864342",
 	"descriptionMd5": "3b0d493e6c0a2a3a4820db20159a9fc9"
 }
