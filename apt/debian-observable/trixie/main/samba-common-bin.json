@@ -6,7 +6,7 @@
 	],
 	"package": "samba-common-bin",
 	"source": "samba",
-	"version": "2:4.24.2+dfsg-1~bpo13+1",
+	"version": "2:4.24.3+dfsg-1~bpo13+1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -28,7 +28,7 @@
 		"libtevent0t64 (>= 0.15.0)",
 		"libtinfo6 (>= 6)",
 		"libwbclient0 (>= 2:4.0.3+dfsg1)",
-		"samba-libs (= 2:4.24.2+dfsg-1~bpo13+1)"
+		"samba-libs (= 2:4.24.3+dfsg-1~bpo13+1)"
 	],
 	"recommends": [
 		"python3-samba"
@@ -46,13 +46,13 @@
 		"samba-libs (<< 2:4.19.0~)",
 		"winexe (<< 2:4.21.1+dfsg-3~)"
 	],
-	"installedSize": 5223,
+	"installedSize": 5236,
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "Samba common files used by both the server and the client",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/samba-common-bin_4.24.2+dfsg-1~bpo13+1_amd64.deb",
-	"size": 1375324,
-	"sha256": "76d23b16567bf8866950abc862dcecb42560bdb77fc988cb473f714eba3c82ac",
+	"filename": "pool/main/s/samba/samba-common-bin_4.24.3+dfsg-1~bpo13+1_amd64.deb",
+	"size": 1376428,
+	"sha256": "63487a6b04c99678561bab6b32781e37b1a562872f01d09528c404d6738918bd",
 	"descriptionMd5": "ed41b644031f2092e31e4cc4802a5fe3"
 },{
 	"raw": {},
@@ -110,5 +110,61 @@
 	"size": 1331504,
 	"md5": "3e228c843513303031d60bd13755467d",
 	"sha256": "1c50b545a381c894b583ff1cf49a48bf23771ba279641f3cbf5200ef42943226",
+	"descriptionMd5": "ed41b644031f2092e31e4cc4802a5fe3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-common-bin",
+	"source": "samba",
+	"version": "2:4.22.8+dfsg-0+deb13u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common",
+		"libbsd0 (>= 0.4.0)",
+		"libc6 (>= 2.38)",
+		"libcups2t64 (>= 1.7.0)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libjansson4 (>= 2.14)",
+		"libldap2 (>= 2.6.2)",
+		"libncurses6 (>= 6)",
+		"libndr6 (>= 2:4.20.0~rc1)",
+		"libpopt0 (>= 1.14)",
+		"libreadline8t64 (>= 6.0)",
+		"libsmbldap2 (>= 2:4.16.6)",
+		"libtalloc2 (>= 2.4.0)",
+		"libtdb1 (>= 1.2.7+git20101215)",
+		"libtevent0t64 (>= 0.15.0)",
+		"libtinfo6 (>= 6)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)",
+		"samba-libs (= 2:4.22.8+dfsg-0+deb13u2)"
+	],
+	"recommends": [
+		"python3-samba"
+	],
+	"suggests": [
+		"heimdal-clients"
+	],
+	"replaces": [
+		"samba (<< 2:4.20.1+dfsg-2~)",
+		"samba-libs (<< 2:4.19.0~)",
+		"winexe (<< 2:4.21.1+dfsg-3~)"
+	],
+	"breaks": [
+		"samba (<< 2:4.20.1+dfsg-2~)",
+		"samba-libs (<< 2:4.19.0~)",
+		"winexe (<< 2:4.21.1+dfsg-3~)"
+	],
+	"installedSize": 4993,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Samba common files used by both the server and the client",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/updates/main/s/samba/samba-common-bin_4.22.8+dfsg-0+deb13u2_amd64.deb",
+	"size": 1333996,
+	"sha256": "f37459e47ca05a9298142553422037c6d5bbd44d8b154d5d01d35c6f1afd9fe9",
 	"descriptionMd5": "ed41b644031f2092e31e4cc4802a5fe3"
 }]

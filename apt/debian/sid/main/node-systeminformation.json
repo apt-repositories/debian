@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "node-systeminformation",
-	"version": "5.31.6-2",
+	"version": "5.31.6-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"nodejs:any"
 	],
+	"replaces": [
+		"jupyterlab (<< 4.0.11+ds4+~cs11.25.27-4~)"
+	],
 	"breaks": [
-		"jupyterlab (<< 4.0.11+ds3~)"
+		"jupyterlab (<< 4.0.11+ds4+~cs11.25.27-4~)"
 	],
 	"installedSize": 763,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "System and OS information library",
 	"homepage": "https://systeminformation.io",
-	"filename": "pool/main/n/node-systeminformation/node-systeminformation_5.31.6-2_all.deb",
-	"size": 146680,
-	"md5": "1352675be8ff3685cda37a49cac7d845",
-	"sha256": "45735c3488e370c150dc235ec7b724d529dde5809e18ca113abdf78b829bb39c",
+	"filename": "pool/main/n/node-systeminformation/node-systeminformation_5.31.6-3_all.deb",
+	"size": 146780,
+	"md5": "7c322918c9da20d212b0f34bddf8340c",
+	"sha256": "a7367ef2fc5dcef1e9c693556acc921d6cf9df400df2021e9cf4c5c5deb47ecd",
 	"descriptionMd5": "b77279f6a671ea53df82cf1d944d9531"
 }

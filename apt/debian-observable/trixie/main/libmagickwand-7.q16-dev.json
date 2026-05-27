@@ -32,8 +32,47 @@
 	"maintainer": "ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>",
 	"description": "image manipulation library - development files (Q16)",
 	"homepage": "https://www.imagemagick.org/",
-	"filename": "pool/updates/main/i/imagemagick/libmagickwand-7.q16-dev_7.1.1.43+dfsg1-1+deb13u8_amd64.deb",
+	"filename": "pool/main/i/imagemagick/libmagickwand-7.q16-dev_7.1.1.43+dfsg1-1+deb13u8_amd64.deb",
 	"size": 358072,
+	"md5": "89d5d672fb63630ef47efacc8d1520a0",
 	"sha256": "b617d818097f3067ad581c011f478da638cde920d970048af5666172e3a679da",
+	"descriptionMd5": "6e42d2139f5f25e467dea8208c50f942"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmagickwand-7.q16-dev",
+	"source": "imagemagick",
+	"version": "8:7.1.1.43+dfsg1-1+deb13u9",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmagickwand-7-headers (= 8:7.1.1.43+dfsg1-1+deb13u9)",
+		"libmagickwand-7.q16-10 (= 8:7.1.1.43+dfsg1-1+deb13u9)",
+		"libmagickcore-7.q16-10-extra (= 8:7.1.1.43+dfsg1-1+deb13u9)",
+		"libmagickcore-7.q16-dev (= 8:7.1.1.43+dfsg1-1+deb13u9)",
+		"pkgconf"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.11)"
+	],
+	"replaces": [
+		"libmagickwand-6.q16-dev",
+		"libmagickwand-dev (<< 8:6.8.3.10-1~)"
+	],
+	"breaks": [
+		"libmagickwand-6.q16-dev",
+		"libmagickwand-dev (<< 8:6.8.3.10-1~)"
+	],
+	"installedSize": 2930,
+	"maintainer": "ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>",
+	"description": "image manipulation library - development files (Q16)",
+	"homepage": "https://www.imagemagick.org/",
+	"filename": "pool/updates/main/i/imagemagick/libmagickwand-7.q16-dev_7.1.1.43+dfsg1-1+deb13u9_amd64.deb",
+	"size": 359772,
+	"sha256": "0bc8c42d32cf8ee8ad397d20d8d26edaa3ca707cf29a33391aee002f1319d1fa",
 	"descriptionMd5": "6e42d2139f5f25e467dea8208c50f942"
 }]

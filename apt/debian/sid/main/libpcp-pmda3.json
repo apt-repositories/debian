@@ -6,17 +6,21 @@
 	],
 	"package": "libpcp-pmda3",
 	"source": "pcp",
-	"version": "7.1.4-1",
+	"version": "7.1.5-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 131,
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpcp4"
+	],
+	"installedSize": 243,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Performance Co-Pilot Domain Agent library",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/libpcp-pmda3_7.1.4-1_amd64.deb",
-	"size": 127076,
-	"md5": "b1fe832f2d8f1d246833d8a13e408383",
-	"sha256": "c933f3113b2ca74ae2accdefe942ab9dee82c6f26d183bf7faa8533a6eed5f94",
+	"filename": "pool/main/p/pcp/libpcp-pmda3_7.1.5-1_amd64.deb",
+	"size": 167484,
+	"md5": "c306289e37bd6d8b03af9ebf0a564a49",
+	"sha256": "4c81e704c9ce47311cb6ded523e283016a4e0c35a3bed83d55a386bd1134c618",
 	"descriptionMd5": "6ab4805d4d7a5e730db5fd41bd7a47d7"
 }

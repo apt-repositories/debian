@@ -6,13 +6,13 @@
 	],
 	"package": "smbclient",
 	"source": "samba",
-	"version": "2:4.24.2+dfsg-1~bpo13+1",
+	"version": "2:4.24.3+dfsg-1~bpo13+1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"samba-common",
-		"samba-libs (= 2:4.24.2+dfsg-1~bpo13+1)",
+		"samba-libs (= 2:4.24.3+dfsg-1~bpo13+1)",
 		"libarchive13t64 (>= 3.0.4)",
 		"libbsd0 (>= 0.0)",
 		"libc6 (>= 2.38)",
@@ -28,13 +28,13 @@
 		"cifs-utils",
 		"heimdal-clients"
 	],
-	"installedSize": 2102,
+	"installedSize": 2103,
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "command-line SMB/CIFS clients for Unix",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/smbclient_4.24.2+dfsg-1~bpo13+1_amd64.deb",
-	"size": 481784,
-	"sha256": "f68e305da69988cb68b3939c832d33c0663751b001b705a721a1fbe8dabd448c",
+	"filename": "pool/main/s/samba/smbclient_4.24.3+dfsg-1~bpo13+1_amd64.deb",
+	"size": 482236,
+	"sha256": "9f078f88639d13133d6dae7e37b9649e1eda2233e313e1419f24a7370f6781fa",
 	"descriptionMd5": "476018eed30b7f1e76b02afe22aaf008"
 },{
 	"raw": {},
@@ -74,5 +74,43 @@
 	"size": 501740,
 	"md5": "faa4d12bf8fe06491ffd88ca74cd4330",
 	"sha256": "8f0575854342370a6bbd11d0a1a1003efb41430a0fd884f222310d8d37a362ed",
+	"descriptionMd5": "476018eed30b7f1e76b02afe22aaf008"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "smbclient",
+	"source": "samba",
+	"version": "2:4.22.8+dfsg-0+deb13u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common",
+		"samba-libs (= 2:4.22.8+dfsg-0+deb13u2)",
+		"libarchive13t64 (>= 3.0.4)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libndr6 (>= 2:4.20.0~rc1)",
+		"libpopt0 (>= 1.14)",
+		"libreadline8t64 (>= 6.0)",
+		"libsmbclient0 (>= 2:4.10.0+dfsg)",
+		"libtalloc2 (>= 2.4.0)",
+		"libtevent0t64 (>= 0.15.0)"
+	],
+	"suggests": [
+		"cifs-utils",
+		"heimdal-clients"
+	],
+	"installedSize": 2172,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "command-line SMB/CIFS clients for Unix",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/updates/main/s/samba/smbclient_4.22.8+dfsg-0+deb13u2_amd64.deb",
+	"size": 502096,
+	"sha256": "d6d9149111e093e8927393fc739b82d4d3a11197a604e3f2ca24098383495671",
 	"descriptionMd5": "476018eed30b7f1e76b02afe22aaf008"
 }]
