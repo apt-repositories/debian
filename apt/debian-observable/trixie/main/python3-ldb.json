@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "python3-ldb",
-	"source": "samba (2:4.24.2+dfsg-1~bpo13+1)",
-	"version": "2:2.11.0+samba4.24.2+dfsg-1~bpo13+1",
+	"source": "samba (2:4.24.3+dfsg-1~bpo13+1)",
+	"version": "2:2.11.0+samba4.24.3+dfsg-1~bpo13+1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libldb2 (= 2:2.11.0+samba4.24.2+dfsg-1~bpo13+1)",
+		"libldb2 (= 2:2.11.0+samba4.24.3+dfsg-1~bpo13+1)",
 		"python3 (<< 3.14)",
 		"python3 (>= 3.13~)",
 		"python3:any",
@@ -26,13 +26,13 @@
 	"breaks": [
 		"python3-ldb-dev"
 	],
-	"installedSize": 194,
+	"installedSize": 195,
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "Python 3 bindings for LDB",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/python3-ldb_2.11.0+samba4.24.2+dfsg-1~bpo13+1_amd64.deb",
-	"size": 77700,
-	"sha256": "3017ac805c7d463f40a27ad7c2e690a361501643c4bae6fa1eddcb084a7dea80",
+	"filename": "pool/main/s/samba/python3-ldb_2.11.0+samba4.24.3+dfsg-1~bpo13+1_amd64.deb",
+	"size": 78428,
+	"sha256": "525ca84e6397c7cb3bb150312cd0321af4830ab8bd1008733c782a6cd6fb6fc6",
 	"descriptionMd5": "27d17d077a8174ae6fbe9499e8df3eca"
 },{
 	"raw": {},
@@ -70,5 +70,41 @@
 	"size": 76680,
 	"md5": "5610ab7bf3590f0418c326f4cb11016a",
 	"sha256": "07cb9a54a4afcd97e316d0b59a936562a628709c78ea37f28dc2a0ceafcb5414",
+	"descriptionMd5": "27d17d077a8174ae6fbe9499e8df3eca"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-ldb",
+	"source": "samba (2:4.22.8+dfsg-0+deb13u2)",
+	"version": "2:2.11.0+samba4.22.8+dfsg-0+deb13u2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libldb2 (= 2:2.11.0+samba4.22.8+dfsg-0+deb13u2)",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libc6 (>= 2.25)",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libtalloc2 (>= 2.0.4~git20101213)"
+	],
+	"replaces": [
+		"python3-ldb-dev",
+		"python3-samba (= 2:4.21.2+dfsg-1)"
+	],
+	"breaks": [
+		"python3-ldb-dev"
+	],
+	"installedSize": 193,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "Python 3 bindings for LDB",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/updates/main/s/samba/python3-ldb_2.11.0+samba4.22.8+dfsg-0+deb13u2_amd64.deb",
+	"size": 77016,
+	"sha256": "def62ee0acc8a256edbbfdb28ab115fab08c73ac81020bad84f1e8074115cf89",
 	"descriptionMd5": "27d17d077a8174ae6fbe9499e8df3eca"
 }]

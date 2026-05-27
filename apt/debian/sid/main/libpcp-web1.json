@@ -6,17 +6,31 @@
 	],
 	"package": "libpcp-web1",
 	"source": "pcp",
-	"version": "7.1.4-1",
+	"version": "7.1.5-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 131,
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libinih1 (>= 40)",
+		"libpcp-mmv1",
+		"libpcp-pmda3",
+		"libpcp4",
+		"libuv1t64 (>= 1.4.2)"
+	],
+	"replaces": [
+		"pcp (<< 7.1.5)"
+	],
+	"breaks": [
+		"pcp (<< 7.1.5)"
+	],
+	"installedSize": 711,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Performance Co-Pilot data import library",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/libpcp-web1_7.1.4-1_amd64.deb",
-	"size": 127112,
-	"md5": "1c394c0b89325dd903c575ec89f75535",
-	"sha256": "3d5bfdbbdf22908cd2f0e8253259a1da7428665882dd1b09c5522986ba8512d6",
+	"filename": "pool/main/p/pcp/libpcp-web1_7.1.5-1_amd64.deb",
+	"size": 338244,
+	"md5": "041bf57f9a185c279b888453c368d306",
+	"sha256": "94588c34fec31844541735cd47bae53469cc0fb4dc2cf63653d05fb47e7766ca",
 	"descriptionMd5": "e8bf26728de690a193091bd6f713efbb"
 }

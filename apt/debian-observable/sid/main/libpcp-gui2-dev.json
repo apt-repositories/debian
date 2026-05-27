@@ -6,24 +6,30 @@
 	],
 	"package": "libpcp-gui2-dev",
 	"source": "pcp",
-	"version": "7.1.4-1",
+	"version": "7.1.5-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libpcp-gui2 (= 7.1.4-1)",
-		"libpcp4 (= 7.1.4-1)"
+		"libpcp-gui2 (= 7.1.5-1)",
+		"libpcp4 (= 7.1.5-1)"
+	],
+	"replaces": [
+		"pcp (<< 7.1.5)"
+	],
+	"breaks": [
+		"pcp (<< 7.1.5)"
 	],
 	"conflicts": [
 		"libpcp-gui1-dev"
 	],
-	"installedSize": 139,
+	"installedSize": 178,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Performance Co-Pilot graphical client tools library and headers",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/libpcp-gui2-dev_7.1.4-1_amd64.deb",
-	"size": 128756,
-	"md5": "0c03dabd24ca7233d4beb9427af74f87",
-	"sha256": "242aece3f89acdf8909eb02c75faef4aa3c6c25fe895f96023ad4ac228f4b458",
+	"filename": "pool/main/p/pcp/libpcp-gui2-dev_7.1.5-1_amd64.deb",
+	"size": 137920,
+	"md5": "24058508fc293e952a8181f36de4c8d8",
+	"sha256": "4428d17c659da07f7970ff67971c82e2a39c04e624d4a8600cb9486755a8a2a7",
 	"descriptionMd5": "9ca30fe7380049e48ee83b4e62201a43"
 }]

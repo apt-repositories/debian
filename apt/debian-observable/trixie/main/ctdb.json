@@ -6,13 +6,13 @@
 	],
 	"package": "ctdb",
 	"source": "samba",
-	"version": "2:4.24.2+dfsg-1~bpo13+1",
+	"version": "2:4.24.3+dfsg-1~bpo13+1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"iproute2",
-		"samba-libs (= 2:4.24.2+dfsg-1~bpo13+1)",
+		"samba-libs (= 2:4.24.3+dfsg-1~bpo13+1)",
 		"tdb-tools",
 		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
@@ -31,13 +31,13 @@
 		"librados2 (>= 18.2.7+ds)",
 		"samba-vfs-ceph"
 	],
-	"installedSize": 4359,
+	"installedSize": 4360,
 	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
 	"description": "clustered database to store temporary data",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/main/s/samba/ctdb_4.24.2+dfsg-1~bpo13+1_amd64.deb",
-	"size": 783516,
-	"sha256": "af8c4ab88a4172ca1a90b12b38d36088d66b43250a3d0c31590ed2a0f2add38d",
+	"filename": "pool/main/s/samba/ctdb_4.24.3+dfsg-1~bpo13+1_amd64.deb",
+	"size": 784816,
+	"sha256": "46fcf37969429bcd497c9cbca36de17dc6df88fd23a8a112fffcfb036de56d5a",
 	"descriptionMd5": "83dff66615250b53a0cd3df6fb3b9ea7"
 },{
 	"raw": {},
@@ -83,5 +83,49 @@
 	"size": 778956,
 	"md5": "4d58a7a2c06c31a7ea4cf28dbd937c97",
 	"sha256": "079abdf325aa97036b4d345b395dcc09b6a4ed18f583cda3e97cd78b317614f7",
+	"descriptionMd5": "83dff66615250b53a0cd3df6fb3b9ea7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ctdb",
+	"source": "samba",
+	"version": "2:4.22.8+dfsg-0+deb13u2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2",
+		"psmisc",
+		"samba-libs (= 2:4.22.8+dfsg-0+deb13u2)",
+		"sudo",
+		"tdb-tools",
+		"time",
+		"libbsd0 (>= 0.6.0)",
+		"libc6 (>= 2.38)",
+		"libpopt0 (>= 1.14)",
+		"libtalloc2 (>= 2.1.0)",
+		"libtdb1 (>= 1.3.11)",
+		"libtevent0t64 (>= 0.15.0)"
+	],
+	"recommends": [
+		"ethtool",
+		"python3:any",
+		"python3-etcd"
+	],
+	"suggests": [
+		"lsof",
+		"librados2 (>= 18.2.7+ds)",
+		"samba-vfs-ceph"
+	],
+	"installedSize": 4296,
+	"maintainer": "Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>",
+	"description": "clustered database to store temporary data",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/updates/main/s/samba/ctdb_4.22.8+dfsg-0+deb13u2_amd64.deb",
+	"size": 778320,
+	"sha256": "5f6f71f27fc0c1a102063df8aaafc95f8dfccb9a46a1db4c55963abb96f0f76a",
 	"descriptionMd5": "83dff66615250b53a0cd3df6fb3b9ea7"
 }]
