@@ -5,18 +5,24 @@
 		"Size"
 	],
 	"package": "libkysdk-desktop-dev",
-	"source": "libkysdk-desktop (3.0.1.0-1)",
-	"version": "3.0.1.0-1+b1",
+	"source": "libkysdk-desktop",
+	"version": "3.0.1.0-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 74,
+	"replaces": [
+		"libkysdk-applications-dev (<< 3.0.1.1-1)"
+	],
+	"breaks": [
+		"libkysdk-applications-dev (<< 3.0.1.1-1)"
+	],
+	"installedSize": 73,
 	"maintainer": "Kylin Team <team+kylin@tracker.debian.org>",
 	"description": "development for libkysdk-desktop",
 	"homepage": "https://gitee.com/openkylin/libkysdk-desktop",
-	"filename": "pool/main/libk/libkysdk-desktop/libkysdk-desktop-dev_3.0.1.0-1+b1_amd64.deb",
-	"size": 13176,
-	"md5": "82729d764b568a2a1f156823942f72f3",
-	"sha256": "cb1b87bb3769d05017677daefbe1d9c1bdf68e4c43892072b85ebcebdc60c3c4",
+	"filename": "pool/main/libk/libkysdk-desktop/libkysdk-desktop-dev_3.0.1.0-2_amd64.deb",
+	"size": 13184,
+	"md5": "03768bac09bc9f5310f8180b38e4723c",
+	"sha256": "30a453c96fc8adb928a133fe807fbe737e37b4bb02d8fdb56bf3dde79b18a068",
 	"descriptionMd5": "f1ba3507423ac1c8bb04c454786648ae"
 }

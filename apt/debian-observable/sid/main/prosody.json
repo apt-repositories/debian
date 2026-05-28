@@ -5,12 +5,11 @@
 		"Size"
 	],
 	"package": "prosody",
-	"version": "13.0.5-1",
+	"version": "13.0.6-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"lua-expat (>= 1.2.0)",
 		"lua-filesystem (>= 1.4.2-3~)",
 		"lua5.4",
@@ -20,6 +19,7 @@
 		"lua5.4-sec",
 		"lua5.4-socket",
 		"ssl-cert",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libicu78 (>= 78.1-1~)",
 		"libssl3t64 (>= 3.0.0)"
@@ -38,13 +38,13 @@
 	"conflicts": [
 		"prosody-modules (<< 0.0~hg20220330.b45c23ce24ba+dfsg-1)"
 	],
-	"installedSize": 2444,
+	"installedSize": 2445,
 	"maintainer": "Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>",
 	"description": "Lightweight Jabber/XMPP server",
 	"homepage": "http://www.prosody.im/",
-	"filename": "pool/main/p/prosody/prosody_13.0.5-1_amd64.deb",
-	"size": 458028,
-	"md5": "f929fd80d8053c89d7b572f2e67ae718",
-	"sha256": "b841ac23fcbd26b939d4d71b0d1653c5e6f89593d8e7375893eba1b3746cf98d",
+	"filename": "pool/main/p/prosody/prosody_13.0.6-1_amd64.deb",
+	"size": 457552,
+	"md5": "237ad8ed8f6f4dff5556eabdab3aa5db",
+	"sha256": "9f523fff20b9a66566bc8127550576658e2abbc69d259e8767bf5e11976323a7",
 	"descriptionMd5": "12d4cb414b879c7a9ec6762a4708b10c"
 }]
