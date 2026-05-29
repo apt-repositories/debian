@@ -6,39 +6,49 @@
 	],
 	"package": "pcp-testsuite",
 	"source": "pcp",
-	"version": "7.1.4-1",
+	"version": "7.1.5-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libpcp-pmda3",
+		"libpcp4",
 		"libqt5core5t64 (>= 5.15.1)",
 		"libqt5widgets5t64 (>= 5.6.0~beta)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.0.0)",
 		"libstdc++6 (>= 5)",
-		"pcp (= 7.1.4-1)",
+		"libsystemd0",
 		"perl:any",
 		"time",
+		"pcp (= 7.1.5-1)",
 		"python3"
 	],
 	"suggests": [
 		"valgrind"
 	],
 	"replaces": [
+		"pcp (<< 7.1.5)",
 		"pcp-gui-testsuite",
 		"pcpqa"
+	],
+	"breaks": [
+		"pcp (<< 7.1.5)"
 	],
 	"conflicts": [
 		"pcp-gui-testsuite",
 		"pcpqa"
 	],
-	"installedSize": 83718,
+	"installedSize": 86430,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Performance Co-Pilot (PCP) Test Suite",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/pcp-testsuite_7.1.4-1_amd64.deb",
-	"size": 9665376,
-	"md5": "cdb0107d3924a4610484800ab00d5854",
-	"sha256": "68b83ecce6154a54d82338208655d31c4d05258b41b0ef30479e378d4ed3b964",
+	"filename": "pool/main/p/pcp/pcp-testsuite_7.1.5-1_amd64.deb",
+	"size": 10077168,
+	"md5": "d47c74bfc3cc875359393ba2151b2cec",
+	"sha256": "8910cff2c723517d2a9df7e2aa3a32a1f19983f6cf7f52b33805b461dd5f1420",
 	"descriptionMd5": "5bdb83208b81ad57ac913ab0daefa470"
 }]

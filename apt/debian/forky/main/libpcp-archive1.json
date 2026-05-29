@@ -6,20 +6,27 @@
 	],
 	"package": "libpcp-archive1",
 	"source": "pcp",
-	"version": "7.1.4-1",
+	"version": "7.1.5-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"breaks": [
-		"pcp (<< 6.0.1)"
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libpcp4"
 	],
-	"installedSize": 131,
+	"replaces": [
+		"pcp (<< 7.1.5)"
+	],
+	"breaks": [
+		"pcp (<< 7.1.5)"
+	],
+	"installedSize": 162,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Performance Co-Pilot archive writing library",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/libpcp-archive1_7.1.4-1_amd64.deb",
-	"size": 127136,
-	"md5": "cbf85fc574c82049ea797e88f0897b8d",
-	"sha256": "e2125d448d8a76754207bf014e95e451f99bff90d221a7fb20ffaeae517e6eea",
+	"filename": "pool/main/p/pcp/libpcp-archive1_7.1.5-1_amd64.deb",
+	"size": 134660,
+	"md5": "f1ce71e965f53098f1c217c60183d77e",
+	"sha256": "a75f9b7d226f1ef97d9e0097ce03d623ca84a6e3ba16e1614fc99756b6b35371",
 	"descriptionMd5": "418ab3edf4e1a16b156d8bbbba060a4e"
 }

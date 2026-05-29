@@ -6,17 +6,27 @@
 	],
 	"package": "libpcp-trace2",
 	"source": "pcp",
-	"version": "7.1.4-1",
+	"version": "7.1.5-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 131,
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpcp4"
+	],
+	"replaces": [
+		"pcp (<< 7.1.5)"
+	],
+	"breaks": [
+		"pcp (<< 7.1.5)"
+	],
+	"installedSize": 170,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Performance Co-Pilot application tracing library",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/libpcp-trace2_7.1.4-1_amd64.deb",
-	"size": 127144,
-	"md5": "5c066525bfe20de45734edad15f47720",
-	"sha256": "43379f0719e534449ef9cee690edf7848997689469b1bccf6b52b047ed19da41",
+	"filename": "pool/main/p/pcp/libpcp-trace2_7.1.5-1_amd64.deb",
+	"size": 140472,
+	"md5": "1fef3e030148709ea1f33847f4f25b78",
+	"sha256": "9558f65a100d4d089f7854562b0a4973ada6d8c900a72aa2e7f9fe1cd37aa2da",
 	"descriptionMd5": "711ef2309ae5bf7bb95712491a6f5ebb"
 }
