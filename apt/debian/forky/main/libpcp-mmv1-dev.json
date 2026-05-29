@@ -6,21 +6,27 @@
 	],
 	"package": "libpcp-mmv1-dev",
 	"source": "pcp",
-	"version": "7.1.4-1",
+	"version": "7.1.5-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libpcp-mmv1 (= 7.1.4-1)",
-		"libpcp4 (= 7.1.4-1)"
+		"libpcp-mmv1 (= 7.1.5-1)",
+		"libpcp4 (= 7.1.5-1)"
 	],
-	"installedSize": 169,
+	"replaces": [
+		"pcp (<< 7.1.5)"
+	],
+	"breaks": [
+		"pcp (<< 7.1.5)"
+	],
+	"installedSize": 199,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Performance Co-Pilot Memory Mapped Value library and headers",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/libpcp-mmv1-dev_7.1.4-1_amd64.deb",
-	"size": 141580,
-	"md5": "7ecf7c51079420ff9c3362dbfeee7968",
-	"sha256": "84c58e6e0adef43bd44b636e6c19b26f8d3f56897068f45f1ed1f33ca559e4f6",
+	"filename": "pool/main/p/pcp/libpcp-mmv1-dev_7.1.5-1_amd64.deb",
+	"size": 150968,
+	"md5": "29b87b529c381cb29a1397d86581b2d2",
+	"sha256": "0623632cfb4b700ddc006726076a4f5305ee729e4f5f58462781103f905a3378",
 	"descriptionMd5": "0d580434d25d883c60bac406b6a0aad6"
 }

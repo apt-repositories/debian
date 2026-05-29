@@ -6,27 +6,27 @@
 	],
 	"package": "pdns-backend-mysql",
 	"source": "pdns",
-	"version": "5.0.5-1",
+	"version": "5.0.5-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"pdns-server (= 5.0.5-1)",
+		"pdns-server (= 5.0.5-2)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
 		"libmariadb3 (>= 3.0.0)",
 		"libstdc++6 (>= 13.1)"
 	],
 	"suggests": [
-		"default-mysql-server"
+		"mariadb-server | mysql-server"
 	],
 	"installedSize": 200,
 	"maintainer": "pdns packagers <pdns@packages.debian.org>",
-	"description": "MySQL backend for PowerDNS",
+	"description": "MySQL/MariaDB backend for PowerDNS",
 	"homepage": "https://www.powerdns.com/",
-	"filename": "pool/main/p/pdns/pdns-backend-mysql_5.0.5-1_amd64.deb",
-	"size": 49440,
-	"md5": "ef7fcbbc46cca75ac5ef4d44c8d38e1d",
-	"sha256": "f191b8b0e5ca3512130ec390b67039971ae174de1cb5ef24796f8b48aa5bc356",
-	"descriptionMd5": "2408f9d9ae1d9b880b7db925e7e4e956"
+	"filename": "pool/main/p/pdns/pdns-backend-mysql_5.0.5-2_amd64.deb",
+	"size": 49540,
+	"md5": "e951246fb6c913156e3ab8ced9e24572",
+	"sha256": "ef0bea45963ab6ca083636b562e811d0f2757e2209a935b77439b2732b1f6b44",
+	"descriptionMd5": "dec0cfa6eb84be89f2b4440359c9d32a"
 }]

@@ -5,20 +5,21 @@
 		"Size"
 	],
 	"package": "putty",
-	"version": "0.83-3",
+	"version": "0.84-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"putty-tools",
-		"libc6 (>= 2.38)",
-		"libcairo2 (>= 1.14.0)",
+		"libc6 (>= 2.42)",
+		"libcairo2 (>= 1.10.0)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
 		"libglib2.0-0t64 (>= 2.28.0)",
 		"libgtk-3-0t64 (>= 3.21.5)",
 		"libpango-1.0-0 (>= 1.14.0)",
 		"libpangocairo-1.0-0 (>= 1.14.0)",
-		"libx11-6"
+		"libx11-6",
+		"libxrender1 (>= 1:0.9.12)"
 	],
 	"suggests": [
 		"putty-doc"
@@ -29,13 +30,13 @@
 	"breaks": [
 		"putty-tools (<< 0.68-2~)"
 	],
-	"installedSize": 1946,
+	"installedSize": 1977,
 	"maintainer": "Colin Watson <cjwatson@debian.org>",
 	"description": "Telnet/SSH client for X",
 	"homepage": "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
-	"filename": "pool/main/p/putty/putty_0.83-3_amd64.deb",
-	"size": 549488,
-	"md5": "55d5b69117e98be4d640c5d63cbdb74a",
-	"sha256": "eb780a496e891d4b7a4e178e31bca7c29888e4fd3e89950260ae54af472d9575",
+	"filename": "pool/main/p/putty/putty_0.84-1_amd64.deb",
+	"size": 554780,
+	"md5": "cfce4387f1be431799743d42fabdf3c8",
+	"sha256": "75d6c3d02c4b1eee1baeead43bc36f27993797aa8fde67e2492727f65bc21368",
 	"descriptionMd5": "66d775d58e68e927fea5c45675a7cf4a"
 }

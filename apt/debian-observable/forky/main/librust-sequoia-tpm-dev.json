@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "librust-sequoia-tpm-dev",
-	"source": "rust-sequoia-tpm (0.1.1-1)",
-	"version": "0.1.1-1+b1",
+	"source": "rust-sequoia-tpm",
+	"version": "0.1.1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-hex-0.4+default-dev (>= 0.4.3-~~)",
+		"librust-hex-0.4+default-dev (>= 0.4.3)",
 		"librust-serde-1+default-dev",
 		"librust-tss-esapi-7+default-dev",
-		"librust-tss-esapi-sys-0.5+default-dev"
+		"librust-tss-esapi-sys+default-dev (<< 0.7)",
+		"librust-tss-esapi-sys+default-dev (>= 0.5)"
 	],
-	"installedSize": 122,
+	"installedSize": 125,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Machinery for working with TPM from Sequoia - Rust source code",
 	"homepage": "https://sequoia-pgp.org/",
-	"filename": "pool/main/r/rust-sequoia-tpm/librust-sequoia-tpm-dev_0.1.1-1+b1_amd64.deb",
+	"filename": "pool/main/r/rust-sequoia-tpm/librust-sequoia-tpm-dev_0.1.1-2_amd64.deb",
 	"size": 31720,
-	"md5": "a0a5995a3795b4d39fe1a2fe798e09c3",
-	"sha256": "57a5c0e74d5cb818220740b99d77be3a736fccd59ad3a96f81ac60b24377ed9a",
+	"md5": "c5066042c23240a6ebb9becae5eb0f74",
+	"sha256": "cc35ef18f9d4d0b36818c6e96409159d7fe53cdea44ec194a5c056d57fd50860",
 	"descriptionMd5": "7398da93142ce49fa27ada03fd2f659e"
 }]

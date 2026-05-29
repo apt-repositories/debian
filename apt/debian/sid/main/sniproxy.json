@@ -5,28 +5,26 @@
 		"Size"
 	],
 	"package": "sniproxy",
-	"version": "0.6.1+git20240321-0.2",
+	"version": "0.7.0-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libev4t64 (>= 1:4.04)",
-		"libpcre2-8-0 (>= 10.22)"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
+		"libpcre2-8-0 (>= 10.22)",
+		"libudns0t64 (>= 0.4)"
 	],
 	"recommends": [
 		"logrotate"
 	],
-	"installedSize": 121,
-	"maintainer": "Jan Dittberner <jandd@debian.org>",
+	"installedSize": 125,
+	"maintainer": "Sniproxy Maintainers <sniproxy@packages.debian.org>",
 	"description": "Transparent TLS and HTTP layer 4 proxy with SNI support",
 	"homepage": "https://github.com/dlundquist/sniproxy",
-	"filename": "pool/main/s/sniproxy/sniproxy_0.6.1+git20240321-0.2_amd64.deb",
-	"size": 39796,
-	"md5": "5fd5865087bc3a9af8ddf2b7a50667a3",
-	"sha256": "e11871f4fb2cd589b331b2ee1a08f43f1359c6a35ac3212c1e4f280adc7d9c38",
-	"descriptionMd5": "4124f85582aa6704d623bae64e3ff35f"
+	"filename": "pool/main/s/sniproxy/sniproxy_0.7.0-1_amd64.deb",
+	"size": 42780,
+	"md5": "0738d88bad7ed1a51cd14c4ab16aaa27",
+	"sha256": "dc828f522147f161b18da282f66b23c072ffe018c833b4551d9e5cb733944563",
+	"descriptionMd5": "4e75aa5d4337d9be5e0282a1e4c19a91"
 }

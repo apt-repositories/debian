@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "pcp",
-	"version": "7.1.4-1",
+	"version": "7.1.5-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,12 +13,17 @@
 		"libc6 (>= 2.42)",
 		"libdrm-amdgpu1 (>= 2.4.80)",
 		"libdrm2 (>= 2.4.65)",
-		"libinih1 (>= 40)",
-		"liblzma5 (>= 5.1.1alpha+20120614)",
 		"libncursesw6 (>= 6)",
+		"libpcp-archive1 (= 7.1.5-1)",
+		"libpcp-gui2",
+		"libpcp-import1",
+		"libpcp-mmv1 (= 7.1.5-1)",
+		"libpcp-pmda3 (= 7.1.5-1)",
+		"libpcp-trace2",
+		"libpcp-web1 (= 7.1.5-1)",
+		"libpcp4 (= 7.1.5-1)",
 		"libpfm4 (>= 4.9)",
 		"libreadline8t64 (>= 6.0)",
-		"libsasl2-2 (>= 2.1.28+dfsg1)",
 		"libssl3t64 (>= 3.0.0)",
 		"libsystemd0",
 		"libtinfo6 (>= 6)",
@@ -30,12 +35,7 @@
 		"zstd",
 		"python3-pcp",
 		"python3",
-		"libpcp-pmda3 (= 7.1.4-1)",
-		"libpcp-mmv1 (= 7.1.4-1)",
-		"libpcp-web1 (= 7.1.4-1)",
-		"libpcp-archive1 (= 7.1.4-1)",
-		"libpcp4 (= 7.1.4-1)",
-		"pcp-conf (= 7.1.4-1)"
+		"pcp-conf (= 7.1.5-1)"
 	],
 	"recommends": [
 		"libpcp-pmda-perl"
@@ -59,13 +59,13 @@
 		"pcp-manager",
 		"pcp-webapi"
 	],
-	"installedSize": 23146,
+	"installedSize": 15157,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "System level performance monitoring and performance management",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/pcp_7.1.4-1_amd64.deb",
-	"size": 4481732,
-	"md5": "64b58dc9479704ca510a91d9532daf83",
-	"sha256": "7d868ebf61a819a488e41be67e1db94eccb179d472101d3a08dd38de64a41e29",
+	"filename": "pool/main/p/pcp/pcp_7.1.5-1_amd64.deb",
+	"size": 3161676,
+	"md5": "da4085382320655e29446e09d3ab5c9b",
+	"sha256": "7f08e5f02543f2390ef95f20f5674b4d04615ae6e3ecafabcd33fe5be8210136",
 	"descriptionMd5": "cf73bbf0bd78441a37224ae34c61d9a9"
 }]

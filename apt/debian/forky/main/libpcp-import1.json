@@ -6,17 +6,27 @@
 	],
 	"package": "libpcp-import1",
 	"source": "pcp",
-	"version": "7.1.4-1",
+	"version": "7.1.5-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 131,
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpcp4"
+	],
+	"replaces": [
+		"pcp (<< 7.1.5)"
+	],
+	"breaks": [
+		"pcp (<< 7.1.5)"
+	],
+	"installedSize": 174,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Performance Co-Pilot data import library",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/libpcp-import1_7.1.4-1_amd64.deb",
-	"size": 127144,
-	"md5": "607975a67b001fa1ff233fcbef681aec",
-	"sha256": "e63266c00a90a388885d78b67fd58ad06ed92387c87176ac6024a857af362ee3",
+	"filename": "pool/main/p/pcp/libpcp-import1_7.1.5-1_amd64.deb",
+	"size": 140716,
+	"md5": "9f4bd892256437f84e99b08e4c01158e",
+	"sha256": "a875e0e35b35242c45561216f8c9d5feafb568dca018b7a1aa95cb3dc9362633",
 	"descriptionMd5": "be362d0fdf7fe36048f4c77cd47e315d"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "texlive-xetex",
 	"source": "texlive-base",
-	"version": "2026.20260328-4",
+	"version": "2026.20260527-1",
 	"section": "tex",
 	"priority": "optional",
 	"architecture": "all",
@@ -22,21 +22,27 @@
 	"recommends": [
 		"lmodern"
 	],
+	"replaces": [
+		"texlive-lang-chinese (<< 2026.20260527)",
+		"texlive-lang-english (<< 2026.20260527)"
+	],
 	"breaks": [
 		"texlive-base (<< 2022.20220405)",
 		"texlive-lang-arabic (<< 2020.20200519)",
+		"texlive-lang-chinese (<< 2026.20260527)",
 		"texlive-lang-cjk (<< 2021.20220204)",
+		"texlive-lang-english (<< 2026.20260527)",
 		"texlive-lang-german (<< 2020.20200519)",
 		"texlive-latex-extra (<< 2026.20260328)",
 		"texlive-latex-extra-doc (<< 2026.20260328)"
 	],
-	"installedSize": 15970,
+	"installedSize": 24172,
 	"maintainer": "Debian TeX Task Force <debian-tex-maint@lists.debian.org>",
 	"description": "TeX Live: XeTeX and packages",
 	"homepage": "http://www.tug.org/texlive/",
-	"filename": "pool/main/t/texlive-base/texlive-xetex_2026.20260328-4_all.deb",
-	"size": 11216788,
-	"md5": "e706c370618bea50113581b83b01660a",
-	"sha256": "17b50420f57f44a12707df8f3ac30f55bdce5695c819043e207182a6efb069af",
-	"descriptionMd5": "72cf382401528f3c7a35a3bf891cadb4"
+	"filename": "pool/main/t/texlive-base/texlive-xetex_2026.20260527-1_all.deb",
+	"size": 17140684,
+	"md5": "dd4bc54db7e5163d8a8c6fb29fd836ad",
+	"sha256": "a671f1f4cba8c30f28f888a427251c140e05c9796673574bce21d99b8473eeda",
+	"descriptionMd5": "f31de4a84f576553be4d3c3babbbd41a"
 }]
