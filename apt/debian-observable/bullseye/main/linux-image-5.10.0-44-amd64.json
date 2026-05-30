@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.10.0-44-amd64",
+	"source": "linux-signed-amd64 (5.10.257+1)",
+	"version": "5.10.257-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.3~)",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"recommends": [
+		"firmware-linux-free",
+		"apparmor"
+	],
+	"suggests": [
+		"linux-doc-5.10",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-5.10.0-44-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)",
+		"xserver-xorg-input-vmmouse (<< 1:13.0.99)"
+	],
+	"conflicts": [
+		"linux-image-5.10.0-44-amd64-unsigned"
+	],
+	"installedSize": 311624,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 5.10 for 64-bit PCs (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux (= 5.10.257-1)",
+	"filename": "pool/updates/main/l/linux-signed-amd64/linux-image-5.10.0-44-amd64_5.10.257-1_amd64.deb",
+	"size": 56939652,
+	"sha256": "f093d45903c6a353e5151306fda7ab11cc59bebf91912a2284f2e6212f455fb8",
+	"descriptionMd5": "1af6678f9cbe4bf666a011aba66cc91f"
+}]

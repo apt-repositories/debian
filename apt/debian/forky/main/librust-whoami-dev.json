@@ -5,18 +5,22 @@
 		"Size"
 	],
 	"package": "librust-whoami-dev",
-	"source": "rust-whoami (1.5.2-1)",
-	"version": "1.5.2-1+b1",
+	"source": "rust-whoami",
+	"version": "2.1.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 167,
+	"depends": [
+		"librust-libc-0.2+std-dev (>= 0.2.186)",
+		"librust-libc-0.2-dev (>= 0.2.186)"
+	],
+	"installedSize": 187,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Retrieve the current user and environment - Rust source code",
-	"homepage": "https://github.com/ardaku/whoami/blob/v1/CHANGELOG.md",
-	"filename": "pool/main/r/rust-whoami/librust-whoami-dev_1.5.2-1+b1_amd64.deb",
-	"size": 31588,
-	"md5": "4ea626edec6f94d35610e26e4ba103d0",
-	"sha256": "38aa4f790ac7c4ec8df41aff0c860c501e7d7cd732abbb1c615c7683598ce2cb",
-	"descriptionMd5": "00c5eb0997584cefa1b3922236702d8d"
+	"description": "Getting information about the current user and environment - Rust source code",
+	"homepage": "https://github.com/ardaku/whoami/releases",
+	"filename": "pool/main/r/rust-whoami/librust-whoami-dev_2.1.2-2_amd64.deb",
+	"size": 35116,
+	"md5": "e86f657b8b95e4ceb1890837aaea5cb0",
+	"sha256": "03da760f21caa320d1be805172ca45c195c2e71e99a91e21e1a6b0c12f135633",
+	"descriptionMd5": "93d2eca587af7180fdca70551500e747"
 }

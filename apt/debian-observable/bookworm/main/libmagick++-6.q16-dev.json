@@ -30,8 +30,45 @@
 	"maintainer": "ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>",
 	"description": "C++ interface to ImageMagick - development files (Q16)",
 	"homepage": "https://www.imagemagick.org/",
-	"filename": "pool/updates/main/i/imagemagick/libmagick++-6.q16-dev_6.9.11.60+dfsg-1.6+deb12u9_amd64.deb",
+	"filename": "pool/main/i/imagemagick/libmagick++-6.q16-dev_6.9.11.60+dfsg-1.6+deb12u9_amd64.deb",
 	"size": 243240,
+	"md5": "e926e07af06b2f5c9aa92acefbb0595b",
 	"sha256": "5fe5a6cf097e2f9d90b399c3149d712c49978e293b33d28ed50c7ef18ec1d43b",
+	"descriptionMd5": "c3c989aa362d5214cb2ded85b4ac9299"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmagick++-6.q16-dev",
+	"source": "imagemagick",
+	"version": "8:6.9.11.60+dfsg-1.6+deb12u10",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmagick++-6-headers (= 8:6.9.11.60+dfsg-1.6+deb12u10)",
+		"libmagick++-6.q16-8 (= 8:6.9.11.60+dfsg-1.6+deb12u10)",
+		"libmagickcore-6.q16-dev (= 8:6.9.11.60+dfsg-1.6+deb12u10)",
+		"libmagickwand-6.q16-dev (= 8:6.9.11.60+dfsg-1.6+deb12u10)",
+		"pkg-config"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.11)"
+	],
+	"replaces": [
+		"libmagick++-dev (<< 8:6.8.3.10-1~)"
+	],
+	"breaks": [
+		"libmagick++-dev (<< 8:6.8.3.10-1~)"
+	],
+	"installedSize": 1202,
+	"maintainer": "ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>",
+	"description": "C++ interface to ImageMagick - development files (Q16)",
+	"homepage": "https://www.imagemagick.org/",
+	"filename": "pool/updates/main/i/imagemagick/libmagick++-6.q16-dev_6.9.11.60+dfsg-1.6+deb12u10_amd64.deb",
+	"size": 244032,
+	"sha256": "cad7d1ad328b5ac331bcd3260e82372c349f40af6e57523723dfb15be351baff",
 	"descriptionMd5": "c3c989aa362d5214cb2ded85b4ac9299"
 }]

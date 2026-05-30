@@ -5,40 +5,48 @@
 		"Size"
 	],
 	"package": "shairport-sync",
-	"version": "4.3.7-1",
+	"version": "5.1~dev~git20260518-1",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
 		"avahi-daemon",
-		"libasound2t64 (>= 1.0.17)",
+		"libasound2t64 (>= 1.0.27)",
 		"libavahi-client3 (>= 0.6.16)",
 		"libavahi-common3 (>= 0.6.16)",
-		"libc6 (>= 2.34)",
+		"libavcodec62 (>= 7:8.1.1)",
+		"libavutil60 (>= 7:8.1.1)",
+		"libc6 (>= 2.38)",
 		"libconfig11 (>= 1.7.3)",
 		"libdaemon0 (>= 0.14)",
 		"libgcc-s1 (>= 3.0)",
+		"libgcrypt20 (>= 1.12.0)",
 		"libglib2.0-0t64 (>= 2.83.0)",
 		"libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125",
 		"libmosquitto1 (>= 1.0)",
+		"libpipewire-0.3-0t64 (>= 1.0.4)",
+		"libplist-2.0-4 (>= 2.3.0)",
 		"libpopt0 (>= 1.14)",
 		"libpulse0 (>= 0.99.1)",
 		"libsndfile1 (>= 1.0.20)",
+		"libsodium26 (>= 1.0.8)",
 		"libsoxr0 (>= 0.1.0)",
 		"libssl3t64 (>= 3.0.0)",
-		"libstdc++6 (>= 4.1.1)"
+		"libstdc++6 (>= 12)",
+		"libswresample6 (>= 7:8.1.1)",
+		"libuuid1 (>= 2.31.1)"
 	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
+	"recommends": [
+		"nqptp"
 	],
-	"installedSize": 674,
+	"installedSize": 977,
 	"maintainer": "Chris Boot <bootc@debian.org>",
 	"description": "AirPlay audio player",
 	"homepage": "https://github.com/mikebrady/shairport-sync",
-	"filename": "pool/main/s/shairport-sync/shairport-sync_4.3.7-1_amd64.deb",
-	"size": 254896,
-	"md5": "d70d1a4acb1167dd97b1cdd36d7906e8",
-	"sha256": "fd7bfea952cb6f0673454ff025bdbcb9f5131ff49c29450d3866187a80cef55b",
-	"descriptionMd5": "c285144019784ecbc41c3cedc8661a97"
+	"filename": "pool/main/s/shairport-sync/shairport-sync_5.1~dev~git20260518-1_amd64.deb",
+	"size": 375088,
+	"md5": "575f11fdba70efaf9ea21d3a6ee6e48c",
+	"sha256": "527368e63f94814326206361cff9217f5ca5aa9c46ad649130dda8cc989a5080",
+	"descriptionMd5": "fda9ac0f38a4cd92bdde52b97edc4c34"
 }]

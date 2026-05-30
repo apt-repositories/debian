@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "docker.io",
-	"version": "28.5.2+dfsg4-1",
+	"version": "28.5.2+dfsg4-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
 		"libc6 (>= 2.34)",
 		"libsystemd0",
 		"adduser",
@@ -42,13 +43,13 @@
 		"docker-ce",
 		"docker-ce-rootless-extras"
 	],
-	"installedSize": 79377,
+	"installedSize": 80409,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Linux container runtime",
 	"homepage": "https://mobyproject.org",
-	"filename": "pool/main/d/docker.io/docker.io_28.5.2+dfsg4-1_amd64.deb",
-	"size": 18579760,
-	"md5": "066061db549b90204feafb7d46152040",
-	"sha256": "dd9132924cb5974172a2144f638989dba598770309e8202f8012ceb4005ea940",
+	"filename": "pool/main/d/docker.io/docker.io_28.5.2+dfsg4-2_amd64.deb",
+	"size": 18811756,
+	"md5": "2bfcbcd8d40dc2c05ff9b660584620c7",
+	"sha256": "5728df40474a405b3989de1fda94f69b40519046f8b1df5ecc178e136de3b357",
 	"descriptionMd5": "4a03492da69539298aabee83f66e8533"
 }
