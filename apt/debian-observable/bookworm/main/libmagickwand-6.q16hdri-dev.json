@@ -30,8 +30,45 @@
 	"maintainer": "ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>",
 	"description": "image manipulation library - development files (Q16HDRI)",
 	"homepage": "https://www.imagemagick.org/",
-	"filename": "pool/updates/main/i/imagemagick/libmagickwand-6.q16hdri-dev_6.9.11.60+dfsg-1.6+deb12u9_amd64.deb",
+	"filename": "pool/main/i/imagemagick/libmagickwand-6.q16hdri-dev_6.9.11.60+dfsg-1.6+deb12u9_amd64.deb",
 	"size": 412740,
+	"md5": "9621d45bcfa746e91d0ab4f5bc3b20d6",
 	"sha256": "22a0a17f6cf547627c5c087d76c0c99996500fbb37c905daf22f54abe89a3b22",
+	"descriptionMd5": "129fb0c8f9aeae8e8d848457773b5c4e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmagickwand-6.q16hdri-dev",
+	"source": "imagemagick",
+	"version": "8:6.9.11.60+dfsg-1.6+deb12u10",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmagickwand-6-headers (= 8:6.9.11.60+dfsg-1.6+deb12u10)",
+		"libmagickwand-6.q16hdri-6 (= 8:6.9.11.60+dfsg-1.6+deb12u10)",
+		"libmagickcore-6.q16hdri-6-extra (= 8:6.9.11.60+dfsg-1.6+deb12u10)",
+		"libmagickcore-6.q16hdri-dev (= 8:6.9.11.60+dfsg-1.6+deb12u10)",
+		"pkg-config"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.11)"
+	],
+	"replaces": [
+		"libmagickwand-dev (<< 8:6.8.3.10-1~)"
+	],
+	"breaks": [
+		"libmagickwand-dev (<< 8:6.8.3.10-1~)"
+	],
+	"installedSize": 2656,
+	"maintainer": "ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>",
+	"description": "image manipulation library - development files (Q16HDRI)",
+	"homepage": "https://www.imagemagick.org/",
+	"filename": "pool/updates/main/i/imagemagick/libmagickwand-6.q16hdri-dev_6.9.11.60+dfsg-1.6+deb12u10_amd64.deb",
+	"size": 414472,
+	"sha256": "5477bb5f39e775a053e29473803d6e26c99adfba5a7b3b51502e51dc07724dcf",
 	"descriptionMd5": "129fb0c8f9aeae8e8d848457773b5c4e"
 }]

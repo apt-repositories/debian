@@ -6,6 +6,36 @@
 	],
 	"package": "wireguard-tools",
 	"source": "wireguard",
+	"version": "1.0.20250521-1~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)"
+	],
+	"recommends": [
+		"nftables | iptables",
+		"wireguard-modules (>= 0.0.20171001) | wireguard-dkms (>= 0.0.20191219)"
+	],
+	"suggests": [
+		"openresolv | resolvconf"
+	],
+	"installedSize": 318,
+	"maintainer": "Daniel Gröber <dxld@debian.org>",
+	"description": "fast, modern, secure kernel VPN tunnel (userland utilities)",
+	"homepage": "https://www.wireguard.com",
+	"filename": "pool/main/w/wireguard/wireguard-tools_1.0.20250521-1~bpo13+1_amd64.deb",
+	"size": 85220,
+	"sha256": "1faf72546f7d8ea7e1b20a542616c1f5f3efac41ad43e09a659f2afbc227d9a8",
+	"descriptionMd5": "a758c2cb66a089ccfb3c6f0639ffeb3c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wireguard-tools",
+	"source": "wireguard",
 	"version": "1.0.20210914-3",
 	"section": "net",
 	"priority": "optional",
