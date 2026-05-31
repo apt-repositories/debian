@@ -6,22 +6,25 @@
 	],
 	"package": "libfortran-assert-dev",
 	"source": "fortran-assert",
-	"version": "3.1.0-11",
+	"version": "3.1.0-15",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gfortran-15 | gfortran-16 | gfortran-mod-16",
-		"flang-21 | flang-22 | flang-23 | flang-new-17 | flang-new-18 | flang-new-19 | flang-new-20 | flang-mod-1",
-		"libfortran-assert0 (= 3.1.0-11)"
+		"gfortran-15 | gfortran-mod-16",
+		"libfortran-assert0 (= 3.1.0-15)"
 	],
-	"installedSize": 57,
+	"recommends": [
+		"lfortran | lfortran-mod-0",
+		"flang-22 | flang-mod-22"
+	],
+	"installedSize": 111,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Fortran utility for asserts - devel files",
 	"homepage": "https://github.com/berkeleylab/assert",
-	"filename": "pool/main/f/fortran-assert/libfortran-assert-dev_3.1.0-11_amd64.deb",
-	"size": 17348,
-	"md5": "2a3fb3cfbd763f215cb46d5b49efeaa6",
-	"sha256": "b20f48e6fbaa36e8bcc395e0075ee8a5a8b31b23f7c7053a3b4472c1739772ae",
+	"filename": "pool/main/f/fortran-assert/libfortran-assert-dev_3.1.0-15_amd64.deb",
+	"size": 24672,
+	"md5": "f0a0306f0c67ef816ae5259f99051dfe",
+	"sha256": "ef3f10eb65757bb12712687931cc1dee8ae331f16c613debc90242b0a364287a",
 	"descriptionMd5": "75bb797ce32596b53d48b61115c3254f"
 }]
