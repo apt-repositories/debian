@@ -6,14 +6,14 @@
 	],
 	"package": "akonadi-backend-mysql",
 	"source": "akonadi",
-	"version": "4:25.12.3-2",
+	"version": "4:25.12.3-3",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"default-mysql-client-core | virtual-mysql-client-core",
-		"default-mysql-server-core | virtual-mysql-server-core",
-		"libqt6sql6-mysql"
+		"libqt6sql6-mysql",
+		"mariadb-client-core | virtual-mysql-client-core",
+		"mariadb-server-core | virtual-mysql-server-core"
 	],
 	"recommends": [
 		"akonadi-server"
@@ -22,9 +22,9 @@
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "MySQL storage backend for Akonadi",
 	"homepage": "https://invent.kde.org/pim/akonadi",
-	"filename": "pool/main/a/akonadi/akonadi-backend-mysql_25.12.3-2_all.deb",
-	"size": 11828,
-	"md5": "8f8873d5c3a2a74582d142742eede44b",
-	"sha256": "81e371fa35e7694e9cc6c3310cf50706de64b1ef7f6504f9934871ff2921ff8c",
+	"filename": "pool/main/a/akonadi/akonadi-backend-mysql_25.12.3-3_all.deb",
+	"size": 11888,
+	"md5": "120621328dbb9f86b09acf66f450ae9e",
+	"sha256": "1a681e5574b7925e49650f2f295fab0dd62799740cf8385a85c26ebbef34bb5b",
 	"descriptionMd5": "44bbff2187bd34b353f73253edf50334"
 }]
