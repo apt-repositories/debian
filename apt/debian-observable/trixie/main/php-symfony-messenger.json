@@ -33,4 +33,38 @@
 	"md5": "bf2e227abdb4cbd1f843dc881d64f5a3",
 	"sha256": "e303f4bd313fe82444a44243bdb8cc45a627176b7ca733fbc802d697f8d15f49",
 	"descriptionMd5": "7278cb93ab652fbcd91802004a71ae83"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-messenger",
+	"source": "symfony",
+	"version": "6.4.41+dfsg-0+deb13u1",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-psr-log",
+		"php-symfony-clock",
+		"php-symfony-deprecation-contracts"
+	],
+	"breaks": [
+		"php-symfony-console (<< 6.3~~)",
+		"php-symfony-event-dispatcher (<< 5.4~~)",
+		"php-symfony-event-dispatcher-contracts (<< 2.5~~)",
+		"php-symfony-framework-bundle (<< 5.4~~)",
+		"php-symfony-http-kernel (<< 5.4~~)",
+		"php-symfony-serializer (<< 5.4~~)"
+	],
+	"installedSize": 435,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "send and receive messages",
+	"homepage": "https://symfony.com/doc/6.4/components/messenger.html",
+	"filename": "pool/updates/main/s/symfony/php-symfony-messenger_6.4.41+dfsg-0+deb13u1_all.deb",
+	"size": 71604,
+	"sha256": "503923a61b36334e1a522e55d0871c3b46a74a15917cc2bd114b7892cf4be602",
+	"descriptionMd5": "7278cb93ab652fbcd91802004a71ae83"
 }]

@@ -6,6 +6,35 @@
 	],
 	"package": "libmimalloc3",
 	"source": "mimalloc",
+	"version": "3.3.2+ds-1~bpo13+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"libmimalloc2.0 (<< 3.0.1+ds-2)"
+	],
+	"breaks": [
+		"libmimalloc2.0 (<< 3.0.1+ds-2)"
+	],
+	"installedSize": 217,
+	"maintainer": "Alex Myczko <tar@debian.org>",
+	"description": "compact general purpose allocator with excellent performance",
+	"homepage": "https://github.com/microsoft/mimalloc",
+	"filename": "pool/main/m/mimalloc/libmimalloc3_3.3.2+ds-1~bpo13+1_amd64.deb",
+	"size": 69964,
+	"sha256": "e305ce834daa66cdc71fc635f3094a1aa9993c150ca0194a6982bc0facf05143",
+	"descriptionMd5": "253dc8dd3e88071fe117429fd469c99b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmimalloc3",
+	"source": "mimalloc",
 	"version": "3.0.1+ds-2.1",
 	"section": "libs",
 	"priority": "optional",

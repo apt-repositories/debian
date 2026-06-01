@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "phpunit-comparator",
-	"version": "8.2.1+ds-1",
+	"version": "8.2.1+ds-2",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
@@ -21,13 +21,16 @@
 	"suggests": [
 		"php-bcmath"
 	],
+	"breaks": [
+		"phpunit (<< 13.1)"
+	],
 	"installedSize": 93,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "functionality to compare PHP values for equality - PHPUnit component",
 	"homepage": "https://github.com/sebastianbergmann/comparator",
-	"filename": "pool/main/p/phpunit-comparator/phpunit-comparator_8.2.1+ds-1_all.deb",
-	"size": 16672,
-	"md5": "c6f90c7d6d0b824a07d1c479dd900809",
-	"sha256": "6d7368afeca0a4a7cb936297bfa625ff9086d8a3ac822aa8fc605a0d16a4535e",
+	"filename": "pool/main/p/phpunit-comparator/phpunit-comparator_8.2.1+ds-2_all.deb",
+	"size": 16724,
+	"md5": "cb658f34869e049b26336214b02308d0",
+	"sha256": "23153c968678a92187488e96ed3a854ccb7761e862431527dfc111e423217d6f",
 	"descriptionMd5": "5e16a100ec8bde1b07e6bcaee2e4764a"
 }]
