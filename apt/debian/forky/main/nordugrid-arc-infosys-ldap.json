@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nordugrid-arc-infosys-ldap",
+	"source": "nordugrid-arc",
+	"version": "7.1.2-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"slapd",
+		"glue-schema (>= 2.0.10)",
+		"bdii",
+		"nordugrid-arc-arcctl-service (= 7.1.2-1)"
+	],
+	"replaces": [
+		"nordugrid-arc-aris (<< 6.0.0~)",
+		"nordugrid-arc-ldap-egiis (<< 6.0.0~)",
+		"nordugrid-arc-ldap-infosys (<< 6.0.0~)"
+	],
+	"conflicts": [
+		"nordugrid-arc-aris (<< 6.0.0~)",
+		"nordugrid-arc-ldap-egiis (<< 6.0.0~)",
+		"nordugrid-arc-ldap-infosys (<< 6.0.0~)"
+	],
+	"installedSize": 118,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "ARC LDAP-based information services",
+	"homepage": "https://www.nordugrid.org",
+	"filename": "pool/main/n/nordugrid-arc/nordugrid-arc-infosys-ldap_7.1.2-1_all.deb",
+	"size": 19060,
+	"md5": "90beb8a9574415c7eb7eb9a401a026ea",
+	"sha256": "7c1210bb0e977478afb9e4a93989622bf6b7d68153d41182a4e08f6abd52c8b4",
+	"descriptionMd5": "038fcb4cbd40f6ec7ee5c5b89c989c4b"
+}
