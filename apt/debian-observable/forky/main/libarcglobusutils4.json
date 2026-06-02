@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libarcglobusutils4",
+	"source": "nordugrid-arc",
+	"version": "7.1.2-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libarccommon4 (= 7.1.2-1)",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libglobus-common0t64 (>= 17)",
+		"libglobus-gsi-callback0t64 (>= 4)",
+		"libglobus-gssapi-gsi4t64 (>= 13)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"replaces": [
+		"libarcglobusutils3",
+		"libarcglobusutils3t64",
+		"nordugrid-arc-plugins-globus (<< 6.5.0~)"
+	],
+	"breaks": [
+		"libarcglobusutils3",
+		"libarcglobusutils3t64",
+		"nordugrid-arc-plugins-globus (<< 6.5.0~)"
+	],
+	"installedSize": 64,
+	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
+	"description": "ARC Globus plugins common libraries",
+	"homepage": "https://www.nordugrid.org",
+	"filename": "pool/main/n/nordugrid-arc/libarcglobusutils4_7.1.2-1_amd64.deb",
+	"size": 18000,
+	"md5": "5432cffdbcedefbc77e16900eaa4f17e",
+	"sha256": "9caac688828446db298626dafc9fff122cd835df17a00d6f8100552a78ddb832",
+	"descriptionMd5": "c1af8ec320c56fa6f09d86e8a033ebd2"
+}]
