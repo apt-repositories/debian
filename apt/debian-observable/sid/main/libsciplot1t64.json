@@ -5,16 +5,18 @@
 		"Size"
 	],
 	"package": "libsciplot1t64",
-	"source": "sciplot (1.36-19)",
-	"version": "1.36-19+b1",
+	"source": "sciplot",
+	"version": "1.37-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.35)",
-		"libx11-6",
-		"libxm4 (>= 2.3.4)",
-		"libxt6t64"
+		"libcairo2 (>= 1.2.4)",
+		"libglib2.0-0t64 (>= 2.80.0)",
+		"libgtk-4-1 (>= 4.0.0)",
+		"libpango-1.0-0 (>= 1.22.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)"
 	],
 	"replaces": [
 		"libsciplot1",
@@ -22,18 +24,18 @@
 		"sciplot1"
 	],
 	"breaks": [
-		"libsciplot1 (<< 1.36-19)"
+		"libsciplot1 (<< 1.37-1)"
 	],
 	"conflicts": [
 		"sciplot",
 		"sciplot1"
 	],
-	"installedSize": 97,
+	"installedSize": 95,
 	"maintainer": "Barak A. Pearlmutter <bap@debian.org>",
 	"description": "widget for scientific plotting",
-	"filename": "pool/main/s/sciplot/libsciplot1t64_1.36-19+b1_amd64.deb",
-	"size": 32896,
-	"md5": "2cb4f0f2eef121a3364d944b951fd8da",
-	"sha256": "b55233eb2ce1ca2ddffca1143650b06341cddc9518f5e0e4b92dd22da16de597",
-	"descriptionMd5": "44ff3dfceaf495ed9c41f1c9d35c52b6"
+	"filename": "pool/main/s/sciplot/libsciplot1t64_1.37-1_amd64.deb",
+	"size": 31204,
+	"md5": "99a8e2714685e791d5a0663c08c58a69",
+	"sha256": "a151fee32e4e23824f5268d5d4f85ed4b7009044affe72263a1d3d35b21b1a12",
+	"descriptionMd5": "182a33304ea3521bbe81844e854a8949"
 }]

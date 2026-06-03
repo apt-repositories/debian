@@ -6,7 +6,7 @@
 	],
 	"package": "golang-golang-x-net-dev",
 	"source": "golang-golang-x-net",
-	"version": "1:0.53.0-2",
+	"version": "1:0.55.0-1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,14 +17,17 @@
 		"golang-golang-x-text-dev (>= 0.31.0)",
 		"golang-golang-x-tools"
 	],
-	"installedSize": 7306,
+	"breaks": [
+		"golang-github-andybalholm-cascadia-dev (<< 1.3.3-2~)"
+	],
+	"installedSize": 6312,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Supplementary Go networking libraries",
 	"homepage": "https://golang.org/x/net",
-	"builtUsing": "publicsuffix (= 20260309.0823-1)",
-	"filename": "pool/main/g/golang-golang-x-net/golang-golang-x-net-dev_0.53.0-2_all.deb",
-	"size": 972708,
-	"md5": "c6054c2dbea63347d069c348e555446f",
-	"sha256": "3386994be027ba0f9188783451dd5c7ace21cb2d5bd31b5f7e2392e33f6fa129",
+	"builtUsing": "publicsuffix (= 20260428.1050-1)",
+	"filename": "pool/main/g/golang-golang-x-net/golang-golang-x-net-dev_0.55.0-1_all.deb",
+	"size": 962152,
+	"md5": "fb71439f7a04b597a8f7fb502782a454",
+	"sha256": "e5cce57380b37e04616d6c90b10a2f9fd0ad8b03cad6127c150340c3a755d02e",
 	"descriptionMd5": "0141b003411a3ab7b2a442b2a1d6c9ab"
 }
