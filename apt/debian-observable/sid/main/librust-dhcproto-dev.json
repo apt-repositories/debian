@@ -6,11 +6,13 @@
 	],
 	"package": "librust-dhcproto-dev",
 	"source": "rust-dhcproto",
-	"version": "0.12.0-3",
+	"version": "0.12.0-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-critical-section-1+default-dev",
+		"librust-critical-section-1+std-dev",
 		"librust-dhcproto-macros-0.1+default-dev",
 		"librust-hex-0.4+default-dev (>= 0.4.3)",
 		"librust-hickory-proto-0.25+serde-dev",
@@ -28,9 +30,9 @@
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "DHCP parser and encoder for DHCPv4/DHCPv6 - Rust source code",
 	"homepage": "https://github.com/bluecatengineering/dhcproto",
-	"filename": "pool/main/r/rust-dhcproto/librust-dhcproto-dev_0.12.0-3_amd64.deb",
-	"size": 45180,
-	"md5": "99b225cf1a57c5453ad92e4372cd5338",
-	"sha256": "07b20d6cacf27ffacbd00cc15af339133c0176ab386f284665e6b0a31cc8dd86",
+	"filename": "pool/main/r/rust-dhcproto/librust-dhcproto-dev_0.12.0-4_amd64.deb",
+	"size": 45416,
+	"md5": "6fbdb26426df0ae8b66d559c3b1564c5",
+	"sha256": "59b9b83c336b0718c04adb37e9c274b3c8cf3e0d19e303eabd1fd26680f66a85",
 	"descriptionMd5": "ff1dc6ba2e87e6dfb81e4de86b51b2a6"
 }]

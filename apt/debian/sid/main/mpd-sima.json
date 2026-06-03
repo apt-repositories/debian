@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "mpd-sima",
-	"version": "0.18.2-4",
+	"version": "0.18.2-5",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"python3-musicpd (>= 0.7.0)",
 		"python3-requests",
 		"python3:any"
@@ -21,13 +21,13 @@
 	"enhances": [
 		"mpd"
 	],
-	"installedSize": 312,
+	"installedSize": 309,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Automagically add titles to MPD playlist",
 	"homepage": "https://kaliko.me/mpd-sima/",
-	"filename": "pool/main/m/mpd-sima/mpd-sima_0.18.2-4_all.deb",
-	"size": 66212,
-	"md5": "711f94393ecc941721830cea96194d44",
-	"sha256": "170425af72a2a366350040b1c9c8fbdfac1eb72e7a0893932a22776d774047be",
+	"filename": "pool/main/m/mpd-sima/mpd-sima_0.18.2-5_all.deb",
+	"size": 65628,
+	"md5": "d80a7aa6d284a7210d1d01514791e7f4",
+	"sha256": "68ca2acac78f9144e8665552c0e03b5a3ba24b69604e3f8b09b87b31d5511416",
 	"descriptionMd5": "cdd936e9a04ce177d78b581823bdfbc1"
 }
