@@ -35,4 +35,40 @@
 	"md5": "82f5e56b6c118412a59713d288f1be42",
 	"sha256": "a91227f4f7f5c05f314ebc2ab8366dda253937f039e684974296520dd71edd7f",
 	"descriptionMd5": "76ec9efc7e6e0d4aa49f8158d74a7c3b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-mgr-modules-core",
+	"source": "ceph",
+	"version": "18.2.7+ds-1+deb13u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-cherrypy3",
+		"python3-dateutil",
+		"python3-natsort",
+		"python3-openssl",
+		"python3-packaging",
+		"python3-pecan",
+		"python3-requests",
+		"python3-werkzeug"
+	],
+	"replaces": [
+		"ceph-mgr (<< 15.1.0)"
+	],
+	"breaks": [
+		"ceph-mgr (<< 15.1.0)"
+	],
+	"installedSize": 1676,
+	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
+	"description": "ceph manager modules which are always enabled",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/updates/main/c/ceph/ceph-mgr-modules-core_18.2.7+ds-1+deb13u1_all.deb",
+	"size": 256948,
+	"sha256": "6e47ae514539151071c2468b38875361849cd8ec2c0c1f045e84f1a2ae31a19c",
+	"descriptionMd5": "76ec9efc7e6e0d4aa49f8158d74a7c3b"
 }]
