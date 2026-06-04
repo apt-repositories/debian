@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "frr",
-	"version": "10.6.1-1",
+	"version": "10.6.1-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,6 +13,7 @@
 		"iproute2",
 		"logrotate",
 		"lsof",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libcap2 (>= 1:2.10)",
 		"libcares2 (>= 1.16.0)",
@@ -30,16 +31,21 @@
 	"suggests": [
 		"frr-doc"
 	],
+	"breaks": [
+		"opensysusers (<< 0.7.3-5.1~)",
+		"systemd (<< 257)",
+		"systemd-standalone-sysusers (<< 257)"
+	],
 	"conflicts": [
 		"pimd"
 	],
-	"installedSize": 38926,
+	"installedSize": 38928,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "FRRouting Internet routing protocol suite",
 	"homepage": "https://github.com/FRRouting/frr",
-	"filename": "pool/main/f/frr/frr_10.6.1-1_amd64.deb",
-	"size": 6047040,
-	"md5": "3e50eb7ab438b1684dfb0e38bf7b9729",
-	"sha256": "87b9eabf8c30018fe2d675f2b491e0fe9b9d876262dec262890b488f4a05fe29",
+	"filename": "pool/main/f/frr/frr_10.6.1-2_amd64.deb",
+	"size": 6019908,
+	"md5": "6692c80f59ff9a206aa284971ad7a4b6",
+	"sha256": "a80e0d5bf3bf500338d106bc13a9eb8b0f275fd95e409d76dfad0de8b883273a",
 	"descriptionMd5": "58ed4dac82af494ba1b1feb66fdc5d16"
 }]
