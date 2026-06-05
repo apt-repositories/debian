@@ -1,0 +1,29 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-stat-log",
+	"source": "pg-stat-log",
+	"version": "0.1-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.14)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 21)"
+	],
+	"installedSize": 111,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "track PostgreSQL log messages",
+	"homepage": "https://github.com/fabriziomello/pg_stat_log",
+	"filename": "pool/main/p/pg-stat-log/postgresql-18-stat-log_0.1-1_amd64.deb",
+	"size": 42696,
+	"md5": "278591f0e82990cf1218865f619e35ff",
+	"sha256": "bafbb7a3db22fc490efe86db79e1ca02f6df6c988236abe45f27d6f6c67e78e2",
+	"descriptionMd5": "ec1245001fc18d925404a0cec98bff5e"
+}

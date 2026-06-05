@@ -6,13 +6,17 @@
 	],
 	"package": "systemd-cryptsetup",
 	"source": "systemd",
-	"version": "261~rc2-1",
+	"version": "261~rc3-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libsystemd-shared (= 261~rc2-1)"
+		"libsystemd-shared (= 261~rc3-1)",
+		"libcryptsetup12"
+	],
+	"recommends": [
+		"libssl3t64"
 	],
 	"conflicts": [
 		"systemd (<< 256-2~)"
@@ -21,9 +25,9 @@
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "Provides cryptsetup, integritysetup and veritysetup utilities",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-cryptsetup_261~rc2-1_amd64.deb",
-	"size": 153212,
-	"md5": "8b3c44adecb4e3cac7a23cb13af6dfcd",
-	"sha256": "e52929902be95f7480012011befd551c7fcff361e07f6956c99cbf8d983191cb",
+	"filename": "pool/main/s/systemd/systemd-cryptsetup_261~rc3-1_amd64.deb",
+	"size": 153652,
+	"md5": "a2f966d4f8879e1ab755794589b21bf6",
+	"sha256": "44b02ada524dc1efed1c5a76e457e28ca24f645f31f79297b6f771337204d976",
 	"descriptionMd5": "e998662f4ed5c59ecb7053ea5d8389a9"
 }]
