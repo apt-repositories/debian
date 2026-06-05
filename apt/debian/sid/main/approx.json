@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "approx",
-	"version": "5.13-2",
+	"version": "5.13-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.42)",
-		"adduser",
 		"bzip2",
 		"curl",
 		"xz-utils"
@@ -19,13 +19,13 @@
 	"suggests": [
 		"libconfig-model-approx-perl"
 	],
-	"installedSize": 8310,
+	"installedSize": 8315,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "caching proxy server for Debian archive files",
 	"homepage": "https://salsa.debian.org/ocaml-team/approx",
-	"filename": "pool/main/a/approx/approx_5.13-2_amd64.deb",
-	"size": 1754608,
-	"md5": "d615f8c2d60fab90a71e634d4447aeed",
-	"sha256": "2601d442b199c7b9071356ff43851ed0dbd62fb44596046a08343011763ae410",
+	"filename": "pool/main/a/approx/approx_5.13-3_amd64.deb",
+	"size": 1744072,
+	"md5": "998fbf3706028b01cf3c5a03f4acb292",
+	"sha256": "d7c1e24e288135e630afa4385ae1c5d781a9f4dec4f0310ce12688ccb31ffc79",
 	"descriptionMd5": "2f5350f98dbadffdaa97201d17cbf419"
 }

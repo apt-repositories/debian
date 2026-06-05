@@ -6,13 +6,20 @@
 	],
 	"package": "systemd-repart",
 	"source": "systemd",
-	"version": "261~rc2-1",
+	"version": "261~rc3-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libsystemd-shared (= 261~rc2-1)"
+		"libsystemd-shared (= 261~rc3-1)",
+		"libblkid1",
+		"libfdisk1",
+		"libmount1"
+	],
+	"recommends": [
+		"libcryptsetup12",
+		"libssl3t64"
 	],
 	"conflicts": [
 		"systemd (<< 256-2~)"
@@ -21,9 +28,9 @@
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "Provides the systemd-repart and systemd-sbsign utilities",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-repart_261~rc2-1_amd64.deb",
-	"size": 186308,
-	"md5": "7784f4a84ff3ee285c4daa9cb0c4dd41",
-	"sha256": "49761f63cb02d068823f5cfda92cb511636098e837f2f6e65db208bdd4261bb1",
+	"filename": "pool/main/s/systemd/systemd-repart_261~rc3-1_amd64.deb",
+	"size": 187056,
+	"md5": "e463a339a5107c196b8b585742743f43",
+	"sha256": "d73105174a5a47269fcf9f09a159ab1bef1da425ef9d97c6ba6e53a64ae907e7",
 	"descriptionMd5": "6033d83496890808246e2de4437b8865"
 }]
