@@ -6,21 +6,24 @@
 	],
 	"package": "libfortran-cli2-dev",
 	"source": "fortran-cli2",
-	"version": "3.2.0-6",
+	"version": "3.2.0-13",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libfortran-cli2-1 (= 3.2.0-6)",
-		"gfortran-16 | gfortran-15 | gfortran-mod-16"
+		"libfortran-cli2-1 (= 3.2.0-13)",
+		"gfortran-15 | gfortran-mod-16"
 	],
-	"installedSize": 1069,
+	"recommends": [
+		"flang-22 | flang-mod-22"
+	],
+	"installedSize": 673,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Fortran command line argument parser library - devel files",
 	"homepage": "https://github.com/urbanjost/M_CLI2",
-	"filename": "pool/main/f/fortran-cli2/libfortran-cli2-dev_3.2.0-6_amd64.deb",
-	"size": 103880,
-	"md5": "51d8ca1d0fa895f7e235894b53cac3ec",
-	"sha256": "28f2b144576e86729f8164df22596d4a260b867a4c2c72576bc2e1463f5c9b48",
+	"filename": "pool/main/f/fortran-cli2/libfortran-cli2-dev_3.2.0-13_amd64.deb",
+	"size": 164824,
+	"md5": "8a130638e19a40c903f2dee2b8061532",
+	"sha256": "c734aaeeb3f4d7380c7d986381764253c051d567c3cc042f9a817ac16b31bc49",
 	"descriptionMd5": "f12660c1f8bd795386a0959bec65e095"
 }
