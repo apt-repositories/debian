@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "gdm3",
-	"version": "49.2-4",
+	"version": "50.1-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,14 +16,14 @@
 		"dbus-bin | systemd-sysv",
 		"default-dbus-system-bus | dbus-system-bus",
 		"default-logind | logind",
-		"gir1.2-gdm-1.0 (= 49.2-4)",
+		"gir1.2-gdm-1.0 (= 50.1-2)",
 		"gnome-session | x-session-manager | x-window-manager | x-terminal-emulator",
-		"gnome-session-bin (>= 49)",
-		"gnome-session-common (>= 49)",
+		"gnome-session-bin (>= 50~alpha)",
+		"gnome-session-common (>= 50~alpha)",
 		"gnome-settings-daemon (>= 3.37.0)",
-		"gnome-shell (>= 3.37.90)",
+		"gnome-shell (>= 50~alpha)",
 		"gsettings-desktop-schemas",
-		"libgdm1 (= 49.2-4)",
+		"libgdm1 (= 50.1-2)",
 		"libglib2.0-bin (>= 2.35.0)",
 		"libnss-systemd (>= 258.1-2~)",
 		"libpam-modules (>= 0.72-1)",
@@ -44,10 +44,10 @@
 		"libjson-glib-1.0-0 (>= 1.5.2)",
 		"libkeyutils1 (>= 1.5.9)",
 		"libpam0g (>= 0.99.7.1)",
+		"libpolkit-gobject-1-0 (>= 0.99)",
 		"libselinux1 (>= 3.1~)",
-		"libsystemd0 (>= 257)",
-		"libxau6 (>= 1:1.0.11)",
-		"libxcb1"
+		"libsystemd0 (>= 259)",
+		"libxau6 (>= 1:1.0.11)"
 	],
 	"recommends": [
 		"at-spi2-core",
@@ -63,13 +63,16 @@
 		"libpam-pkcs11",
 		"libpam-gnome-keyring"
 	],
-	"installedSize": 5624,
+	"breaks": [
+		"gnome-remote-desktop (<< 50~rc)"
+	],
+	"installedSize": 5858,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GNOME Display Manager",
 	"homepage": "https://wiki.gnome.org/Projects/GDM/",
-	"filename": "pool/main/g/gdm3/gdm3_49.2-4_amd64.deb",
-	"size": 812552,
-	"md5": "36eb0d70191de63c15b16e95b27fb961",
-	"sha256": "62b056e6deb7f2e5796b722cdab126c3efb45b46cc06569f58b4489e921dfd3f",
+	"filename": "pool/main/g/gdm3/gdm3_50.1-2_amd64.deb",
+	"size": 834144,
+	"md5": "3e91171f5e6cd2a967d6eec84b13a6d7",
+	"sha256": "c0d5bbf9d1f5add885fba2edca73e71cf48703df81fedf68519711707e383e94",
 	"descriptionMd5": "9be0fb38ba2581f623b79242c9c7918d"
 }]

@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "votca",
-	"version": "2026-2",
+	"version": "2026-3",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"votca-data (= 2026-2)",
+		"votca-data (= 2026-3)",
 		"libboost-program-options1.90.0 (>= 1.90.0)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
@@ -21,18 +21,22 @@
 		"libvotca-2026 (>= 2026)"
 	],
 	"recommends": [
-		"python3:any"
+		"python3:any",
+		"python3-h5py",
+		"python3-lxml",
+		"python3-rdkit"
 	],
 	"suggests": [
-		"votca-tutorials"
+		"votca-tutorials",
+		"python3-numpy"
 	],
 	"installedSize": 2971,
 	"maintainer": "Debichem Team <debichem-devel@lists.alioth.debian.org>",
 	"description": "Molecular dynamics analysis - coarse-graining and charge transport",
 	"homepage": "https://www.votca.org/",
-	"filename": "pool/main/v/votca/votca_2026-2_amd64.deb",
-	"size": 588884,
-	"md5": "85dd5f59a8436d0452ce9e3fd2ffda73",
-	"sha256": "f5eec18650f89955b71711fd7ad4fb0506ed39d9523881d8961dc7afdd685ea8",
+	"filename": "pool/main/v/votca/votca_2026-3_amd64.deb",
+	"size": 588908,
+	"md5": "0b8f9e1a1f79776eb8cba262a91a89c1",
+	"sha256": "3d20decf37ebf9378a69b4b50320f58ef77daf3dd41678991b5506eed6895ab9",
 	"descriptionMd5": "8ab80a12f7c57898d20a874949567f82"
 }]

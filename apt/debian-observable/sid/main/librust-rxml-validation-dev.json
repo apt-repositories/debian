@@ -5,21 +5,22 @@
 		"Size"
 	],
 	"package": "librust-rxml-validation-dev",
-	"source": "rust-rxml-validation (0.11.0-2)",
-	"version": "0.11.0-2+b1",
+	"source": "rust-rxml-validation",
+	"version": "0.12.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"recommends": [
-		"librust-rxml-validation+compact-str-dev (= 0.11.0-2+b1)"
+	"depends": [
+		"librust-compact-str-0.9+std-dev",
+		"librust-compact-str-0.9-dev"
 	],
-	"installedSize": 79,
+	"installedSize": 75,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Plumbing crate for rxml and rxml_proc crates - Rust source code",
 	"homepage": "https://codeberg.org/jssfr/rxml",
-	"filename": "pool/main/r/rust-rxml-validation/librust-rxml-validation-dev_0.11.0-2+b1_amd64.deb",
-	"size": 14952,
-	"md5": "8f11cd8a0bb8156e6d3b48bee1a02caa",
-	"sha256": "2d9c8db976ac85a8cd7019c67055eec78fbef54039d92b12174ff3f142a37a88",
+	"filename": "pool/main/r/rust-rxml-validation/librust-rxml-validation-dev_0.12.0-1_amd64.deb",
+	"size": 14332,
+	"md5": "993efabcc7e530820e149282ba345d46",
+	"sha256": "2377e8c5eadfd454ccbf3f58cbd27724af8693df3af77690fcb7629fbabf4897",
 	"descriptionMd5": "0418a80f0ecea024b894dc429390a8ba"
 }]
