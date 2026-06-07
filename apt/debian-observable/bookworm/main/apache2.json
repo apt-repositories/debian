@@ -33,8 +33,48 @@
 	"maintainer": "Debian Apache Maintainers <debian-apache@lists.debian.org>",
 	"description": "Apache HTTP Server",
 	"homepage": "https://httpd.apache.org/",
-	"filename": "pool/updates/main/a/apache2/apache2_2.4.67-1~deb12u2_amd64.deb",
+	"filename": "pool/main/a/apache2/apache2_2.4.67-1~deb12u2_amd64.deb",
 	"size": 230788,
+	"md5": "648426fd3e9138d0fac1502423022788",
 	"sha256": "3e7746d800d7ae37ea199260f61a52c98ab3e8fe76b970e5a4b26c222d11e6e2",
+	"descriptionMd5": "d02426bc360345e5acd45367716dc35c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apache2",
+	"version": "2.4.67-1~deb12u3",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"apache2-bin (= 2.4.67-1~deb12u3)",
+		"apache2-data (= 2.4.67-1~deb12u3)",
+		"apache2-utils (= 2.4.67-1~deb12u3)",
+		"lsb-base",
+		"media-types",
+		"perl:any",
+		"procps"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ssl-cert"
+	],
+	"suggests": [
+		"apache2-doc",
+		"apache2-suexec-pristine | apache2-suexec-custom",
+		"www-browser"
+	],
+	"installedSize": 582,
+	"maintainer": "Debian Apache Maintainers <debian-apache@lists.debian.org>",
+	"description": "Apache HTTP Server",
+	"homepage": "https://httpd.apache.org/",
+	"filename": "pool/updates/main/a/apache2/apache2_2.4.67-1~deb12u3_amd64.deb",
+	"size": 231036,
+	"sha256": "1fffd7c6f68f82e47d20607254fe9fb9a1fec463475e981a4a50d652eb9f289b",
 	"descriptionMd5": "d02426bc360345e5acd45367716dc35c"
 }]
