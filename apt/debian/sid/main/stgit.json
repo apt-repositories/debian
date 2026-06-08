@@ -5,21 +5,28 @@
 		"Size"
 	],
 	"package": "stgit",
-	"version": "0.19-2",
+	"version": "2.6.0-1",
 	"section": "vcs",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
 		"git",
-		"python3:any"
+		"libc6 (>= 2.39)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libgcc-s1 (>= 4.2)"
 	],
-	"installedSize": 604,
+	"recommends": [
+		"git-email",
+		"quilt",
+		"gnupg"
+	],
+	"installedSize": 6181,
 	"maintainer": "Maximiliano Curia <maxy@debian.org>",
 	"description": "manage stacks of patches in a git repository",
-	"homepage": "http://www.procode.org/stgit/",
-	"filename": "pool/main/s/stgit/stgit_0.19-2_all.deb",
-	"size": 104824,
-	"md5": "049c4d7c599ef3cfcf25b2e8a97ade62",
-	"sha256": "65a9cf4b7181ac32952f7cba511ba4843a02219cd6ab5f464f0bd4d03b5ec321",
+	"homepage": "https://github.com/stacked-git/stgit",
+	"filename": "pool/main/s/stgit/stgit_2.6.0-1_amd64.deb",
+	"size": 1882788,
+	"md5": "9f6bb60a9ec5b64cafae8c6e856d1b1a",
+	"sha256": "327cfbf95b8d6ced0d4995d5408a4ed4a31f65c289bdc1a310785e53ace2fa3b",
 	"descriptionMd5": "d6e7c4f9aa71542e1a733da8f87ae3b7"
 }

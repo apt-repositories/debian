@@ -6,25 +6,27 @@
 	],
 	"package": "python3-treetime",
 	"source": "python-treetime",
-	"version": "0.11.4-1",
+	"version": "0.12.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-biopython",
-		"python3-matplotlib",
+		"python3:any",
 		"python3-numpy",
-		"python3-pandas",
 		"python3-scipy",
-		"python3:any"
+		"python3-biopython",
+		"python3-pandas"
 	],
-	"installedSize": 1780,
+	"recommends": [
+		"python3-matplotlib"
+	],
+	"installedSize": 1782,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "inference of time stamped phylogenies and ancestral reconstruction (Python 3)",
 	"homepage": "https://github.com/neherlab/treetime",
-	"filename": "pool/main/p/python-treetime/python3-treetime_0.11.4-1_all.deb",
-	"size": 937892,
-	"md5": "8eab8f4076d3d8e0d70d6e84dd557096",
-	"sha256": "10aec845899811419c75679132640e01611635cfd52bff0adb8232b4974193cb",
+	"filename": "pool/main/p/python-treetime/python3-treetime_0.12.1-1_all.deb",
+	"size": 934776,
+	"md5": "5fcb82816639fc9ad1fb96f87330a3af",
+	"sha256": "fb0c3029fa411c9858d180d42061b33139db77d338c00ea9a7b584daa81ff5e3",
 	"descriptionMd5": "08684c07bc46e3c9a45e193598335689"
 }
