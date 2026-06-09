@@ -6,25 +6,24 @@
 	],
 	"package": "libnginx-mod-http-image-filter",
 	"source": "nginx",
-	"version": "1.30.1-3",
+	"version": "1.30.1-4",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"nginx (>= 1.30.1-4)",
+		"nginx (<< 1.30.1-4.1~)",
 		"nginx-abi-1.30.1-1",
 		"libc6 (>= 2.14)",
 		"libgd3 (>= 2.1.0~alpha~)"
-	],
-	"recommends": [
-		"nginx"
 	],
 	"installedSize": 124,
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "HTTP image filter module for Nginx",
 	"homepage": "https://nginx.org",
-	"filename": "pool/main/n/nginx/libnginx-mod-http-image-filter_1.30.1-3_amd64.deb",
-	"size": 91416,
-	"md5": "4f0ff4fcddbd0d6be16853b72ef17d7a",
-	"sha256": "f73b45c59664c3f8982f3e8fb6756fdbb4107b830732f1351d30bc69529506e9",
+	"filename": "pool/main/n/nginx/libnginx-mod-http-image-filter_1.30.1-4_amd64.deb",
+	"size": 91756,
+	"md5": "57613db269f5e5cedb0ea8224b239bc9",
+	"sha256": "744b5bdca890667e5c54376494cfbfdd4282bd0242eaf3207b84f19c123bd2f5",
 	"descriptionMd5": "535a70647715aa7261dd5afba363a14e"
 }]

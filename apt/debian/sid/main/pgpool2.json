@@ -5,15 +5,15 @@
 		"Size"
 	],
 	"package": "pgpool2",
-	"source": "pgpool2 (4.7.1-1)",
-	"version": "4.7.1-1+b1",
+	"version": "4.7.2-1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libpgpoolpcp3 (= 4.7.1-1+b1)",
+		"libpgpoolpcp3 (= 4.7.2-1)",
 		"postgresql-common",
 		"ucf",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.42)",
 		"libcrypt1 (>= 1:4.1.0)",
 		"libldap2 (>= 2.6.2)",
@@ -25,13 +25,13 @@
 	"enhances": [
 		"postgresql"
 	],
-	"installedSize": 7346,
+	"installedSize": 7398,
 	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
 	"description": "connection pool server and replication proxy for PostgreSQL",
 	"homepage": "https://www.pgpool.net/mediawiki/index.php/Main_Page",
-	"filename": "pool/main/p/pgpool2/pgpool2_4.7.1-1+b1_amd64.deb",
-	"size": 1324828,
-	"md5": "4420fb647f0746abc614f1267606012d",
-	"sha256": "62d8b522fd7fe63f451f54428d49df1b94f972d27a6a73872c7d77acd43e5233",
+	"filename": "pool/main/p/pgpool2/pgpool2_4.7.2-1_amd64.deb",
+	"size": 1327184,
+	"md5": "017b081463ed13017297af5ef6c88200",
+	"sha256": "a5895f2d1525b44d19eaba452cb612257bdee7414bb462a52346b3790d420e84",
 	"descriptionMd5": "db1da7136cd7647f1ce4a0a590fc0046"
 }

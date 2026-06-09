@@ -6,20 +6,26 @@
 	],
 	"package": "libsyncmlcommon5-dev",
 	"source": "buteo-sync-plugins",
-	"version": "0.8.36-2",
+	"version": "0.8.36-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libsyncmlcommon5-1 (= 0.8.36-2)"
+		"libsyncmlcommon5-1 (= 0.8.36-3)"
+	],
+	"replaces": [
+		"buteo-sync-plugins-qt5-dev"
+	],
+	"breaks": [
+		"buteo-sync-plugins-qt5-dev"
 	],
 	"installedSize": 53,
 	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
 	"description": "Development files for libsyncmlcommon5",
 	"homepage": "https://github.com/sailfishos/buteo-sync-plugins",
-	"filename": "pool/main/b/buteo-sync-plugins/libsyncmlcommon5-dev_0.8.36-2_amd64.deb",
-	"size": 9276,
-	"md5": "14484b036ddefe8650b3e501be2c13ec",
-	"sha256": "830517860d45020f3668e064f16f0fec86d99abcd39eb37a1cf7fadb5130cb63",
+	"filename": "pool/main/b/buteo-sync-plugins/libsyncmlcommon5-dev_0.8.36-3_amd64.deb",
+	"size": 9524,
+	"md5": "7a7789e051fd2cd76082b1df36a4a244",
+	"sha256": "0c981f7fcc1c29e070f21e75bf7e00f4a9b4bac8dd0305e909a7a452b5eacb1c",
 	"descriptionMd5": "97ef6b3fcf05ab937e87a73e365a4c10"
 }

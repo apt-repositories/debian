@@ -5,15 +5,20 @@
 		"Size"
 	],
 	"package": "xwpe",
-	"version": "1.6.2-1",
+	"version": "1.6.3-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
+		"libcairo2 (>= 1.10.0)",
 		"libfontconfig1 (>= 2.12.6)",
+		"libfreetype6 (>= 2.2.1)",
+		"libglib2.0-0t64 (>= 2.12.0)",
 		"libgpm2 (>= 1.20.7)",
 		"libncursesw6 (>= 6)",
+		"libpango-1.0-0 (>= 1.14.0)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
 		"libtinfo6 (>= 6)",
 		"libx11-6",
 		"libxft2 (>> 2.1.1)"
@@ -24,15 +29,16 @@
 		"info",
 		"python3",
 		"texlive-latex-base",
-		"fonts-noto-color-emoji"
+		"fonts-noto-color-emoji",
+		"fonts-terminus"
 	],
-	"installedSize": 629,
+	"installedSize": 771,
 	"maintainer": "Debian Commons <xwpe@packages.debian.org>",
 	"description": "Programming environment and editor for console and X11",
 	"homepage": "https://codeberg.org/mendezr/xwpe",
-	"filename": "pool/main/x/xwpe/xwpe_1.6.2-1_amd64.deb",
-	"size": 282404,
-	"md5": "72729c13c8811b45406ea4b2701c33f6",
-	"sha256": "31e7a789678e12654bce901807a267d052b1cb3ee8c7abd34e9dc42c93da497e",
+	"filename": "pool/main/x/xwpe/xwpe_1.6.3-1_amd64.deb",
+	"size": 348200,
+	"md5": "43978753f2175e121e290d687a33b219",
+	"sha256": "116555691144a8bd89fe4c01c9684847f1de7b2569c21ce9d2e86fc724ea2b67",
 	"descriptionMd5": "793a89f7df892c7934be6c2353a6f0f9"
 }]
