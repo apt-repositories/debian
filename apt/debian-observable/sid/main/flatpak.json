@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "flatpak",
-	"version": "1.16.6-1",
+	"version": "1.18.0-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"bubblewrap (>= 0.10.0~)",
 		"fuse3",
 		"xdg-dbus-proxy (>= 0.1.0)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libappstream5 (>= 1.0.0)",
 		"libarchive13t64 (>= 3.0.4)",
 		"libc6 (>= 2.38)",
@@ -22,7 +23,7 @@
 		"libfuse3-4 (>= 3.17.2)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
 		"libglib2.0-0t64 (>= 2.83.0)",
-		"libgpgme45 (>= 1.23.2)",
+		"libgpgme45 (>= 1.1.8)",
 		"libjson-glib-1.0-0 (>= 1.5.2)",
 		"libmalcontent-0-0 (>= 0.6.0)",
 		"libostree-1-1 (>= 2020.8)",
@@ -59,13 +60,13 @@
 	"conflicts": [
 		"xdg-app"
 	],
-	"installedSize": 8319,
+	"installedSize": 9080,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "Application deployment framework for desktop apps",
 	"homepage": "https://flatpak.org/",
-	"filename": "pool/main/f/flatpak/flatpak_1.16.6-1_amd64.deb",
-	"size": 1537008,
-	"md5": "dd5ae4c4f6be575e060b7dd9b1d4dbaf",
-	"sha256": "7da71bfbf249042cee2e3b24c088ff1e03aae961c8e54fc8334c2eb05515b73b",
+	"filename": "pool/main/f/flatpak/flatpak_1.18.0-1_amd64.deb",
+	"size": 1649968,
+	"md5": "39026a996232417eb01567fa69f2cda9",
+	"sha256": "62ab162dbcf781cbd89baaa1d4e90efdab3996d540923670a097abd8ef388e87",
 	"descriptionMd5": "f91acb1d2880527b2759bc5e2d99fbff"
 }]

@@ -6,19 +6,16 @@
 	],
 	"package": "autofs",
 	"source": "autofs (5.1.9-1.2)",
-	"version": "5.1.9-1.2+b2",
+	"version": "5.1.9-1.2+b3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libnsl2 (>= 1.0)",
+		"libnsl3 (>= 2.0)",
 		"libtirpc3t64 (>= 1.0.2)",
 		"libxml2-16 (>= 2.14.1)",
 		"ucf"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"nfs-common",
@@ -31,13 +28,13 @@
 	"breaks": [
 		"autofs5 (<< 5.0.6-1~)"
 	],
-	"installedSize": 930,
+	"installedSize": 898,
 	"maintainer": "Mike Gabriel <sunweaver@debian.org>",
 	"description": "kernel-based automounter for Linux",
 	"homepage": "https://www.kernel.org/pub/linux/daemons/autofs/v5/",
-	"filename": "pool/main/a/autofs/autofs_5.1.9-1.2+b2_amd64.deb",
-	"size": 289908,
-	"md5": "5ca55d980f079353374eb3b9aee388f3",
-	"sha256": "e0131c58968e1aef95cc8f95188cc3b1a3160bbcd97728758d5571bc636f5d57",
+	"filename": "pool/main/a/autofs/autofs_5.1.9-1.2+b3_amd64.deb",
+	"size": 286200,
+	"md5": "cd234262419a0f3ab042e76d2041451e",
+	"sha256": "f4deee38766c6239fcd8fc7e82d81b85f94274e91b3dc4b5b890161d79197ade",
 	"descriptionMd5": "c2943d4026686519e74f5ea404af6a90"
 }

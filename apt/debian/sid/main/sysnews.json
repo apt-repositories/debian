@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "sysnews",
-	"version": "0.9+ds.1-4",
+	"version": "0.9+ds.1-5",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)"
 	],
 	"replaces": [
@@ -18,13 +19,13 @@
 	"conflicts": [
 		"news"
 	],
-	"installedSize": 56,
+	"installedSize": 57,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "program to display system news",
 	"homepage": "https://www.ibiblio.org/pub/Linux/system/admin/login/",
-	"filename": "pool/main/s/sysnews/sysnews_0.9+ds.1-4_amd64.deb",
-	"size": 12712,
-	"md5": "43f42f90cdf3a3f464e4a872984b6c94",
-	"sha256": "33e5ef92c746814b869d457b9707a194927eb67a9faf0009ee203ede5a4edcd2",
+	"filename": "pool/main/s/sysnews/sysnews_0.9+ds.1-5_amd64.deb",
+	"size": 12952,
+	"md5": "d29d844251303708faa2830e6fb6cd01",
+	"sha256": "b24f214ab30b8b1fd1ab5fc7c287aa0e3e1f95cd3417d4b05e46d208df2cc8b2",
 	"descriptionMd5": "c282863a7fd634b63360a2517069518c"
 }

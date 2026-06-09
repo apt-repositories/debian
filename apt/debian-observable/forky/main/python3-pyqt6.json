@@ -6,7 +6,7 @@
 	],
 	"package": "python3-pyqt6",
 	"source": "pyqt6",
-	"version": "6.11.0-1",
+	"version": "6.11.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -30,13 +30,19 @@
 		"libstdc++6 (>= 5)",
 		"qt6-base-private-abi (= 6.10.2)"
 	],
-	"installedSize": 17685,
+	"replaces": [
+		"pyqt6-dev-tools (<< 6.11.0-2~)"
+	],
+	"breaks": [
+		"pyqt6-dev-tools (<< 6.11.0-2~)"
+	],
+	"installedSize": 17877,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python bindings for Qt 6",
 	"homepage": "https://riverbankcomputing.com/software/pyqt/intro",
-	"filename": "pool/main/p/pyqt6/python3-pyqt6_6.11.0-1_amd64.deb",
-	"size": 2632648,
-	"md5": "275231ce8aefea496250961f65939a16",
-	"sha256": "cbff26541c395d7f68a53faca49430ff52e322c6fa7ded667db289f28242e6e0",
-	"descriptionMd5": "23232b5989429e3958f385f59188e22c"
+	"filename": "pool/main/p/pyqt6/python3-pyqt6_6.11.0-2_amd64.deb",
+	"size": 2659884,
+	"md5": "e5484b6678fa954b94dd503f52db7b8d",
+	"sha256": "4cab1c99d95431a0a76b7c6a77062343fea48d0d23f36b3966c55f6c9515fcc9",
+	"descriptionMd5": "820a08ae2fbf2101cd85baf197d42f92"
 }]

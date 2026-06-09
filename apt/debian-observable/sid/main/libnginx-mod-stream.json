@@ -6,24 +6,23 @@
 	],
 	"package": "libnginx-mod-stream",
 	"source": "nginx",
-	"version": "1.30.1-3",
+	"version": "1.30.1-4",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"nginx (>= 1.30.1-4)",
+		"nginx (<< 1.30.1-4.1~)",
 		"nginx-abi-1.30.1-1",
 		"libc6 (>= 2.33)"
-	],
-	"recommends": [
-		"nginx"
 	],
 	"installedSize": 313,
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "Stream module for Nginx",
 	"homepage": "https://nginx.org",
-	"filename": "pool/main/n/nginx/libnginx-mod-stream_1.30.1-3_amd64.deb",
-	"size": 158804,
-	"md5": "f78c0e80f97e5a099b7908f82d7d23a7",
-	"sha256": "eeb6f1577d9de3bde9776e43620833185897bcc8ab0100f30f9205a99fb29e28",
+	"filename": "pool/main/n/nginx/libnginx-mod-stream_1.30.1-4_amd64.deb",
+	"size": 159084,
+	"md5": "47c61ecc4eed2c68f9b4fbc7d3493c9e",
+	"sha256": "ff028e4ae3e13502c890072b4170116fb84692d9fab65cb434542558d7be1cb8",
 	"descriptionMd5": "ba1a6cc2e678c099e6cc2d0f828a0706"
 }]

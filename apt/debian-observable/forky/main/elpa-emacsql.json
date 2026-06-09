@@ -6,7 +6,7 @@
 	],
 	"package": "elpa-emacsql",
 	"source": "emacsql",
-	"version": "4.3.6-1",
+	"version": "4.3.6-2",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,16 +17,26 @@
 	"recommends": [
 		"emacs"
 	],
+	"replaces": [
+		"elpa-emacsql-mysql (<< 4.3.6-2)",
+		"elpa-emacsql-psql (<< 4.3.6-2)",
+		"elpa-emacsql-sqlite (<< 4.3.6-2)"
+	],
 	"enhances": [
 		"emacs"
 	],
-	"installedSize": 71,
+	"breaks": [
+		"elpa-emacsql-mysql (<< 4.3.6-2)",
+		"elpa-emacsql-psql (<< 4.3.6-2)",
+		"elpa-emacsql-sqlite (<< 4.3.6-2)"
+	],
+	"installedSize": 111,
 	"maintainer": "Debian Emacsen team <debian-emacsen@lists.debian.org>",
 	"description": "high level SQL database frontend for Emacs (abstractions)",
 	"homepage": "https://github.com/magit/emacsql",
-	"filename": "pool/main/e/emacsql/elpa-emacsql_4.3.6-1_all.deb",
-	"size": 20600,
-	"md5": "8b8308f7a28f9de9cac88523f0662239",
-	"sha256": "35c45f7f917d8861a3178dd61b0f74ca4515f865d5d321511fc3e95a413ed18f",
-	"descriptionMd5": "4b93b3a2418c8a8e822c52200efd8e69"
+	"filename": "pool/main/e/emacsql/elpa-emacsql_4.3.6-2_all.deb",
+	"size": 29144,
+	"md5": "59cbe06abadbbd6107570bd97151f367",
+	"sha256": "0993f905714ae314249a9f0b78f1ad838bf955b2e1669a1e923129559ad2d4f4",
+	"descriptionMd5": "473b939194a006e8e07071ce4511082c"
 }]
