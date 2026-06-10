@@ -6,7 +6,7 @@
 	],
 	"package": "librust-breezyshim-dev",
 	"source": "rust-breezyshim",
-	"version": "0.7.18-1",
+	"version": "0.7.23-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -50,13 +50,16 @@
 		"python3-breezy",
 		"brz-debian"
 	],
-	"installedSize": 772,
+	"breaks": [
+		"rustc (<< 1.83~)"
+	],
+	"installedSize": 774,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust shim around the Breezy Python API - Rust source code",
 	"homepage": "https://www.breezy-vcs.org/",
-	"filename": "pool/main/r/rust-breezyshim/librust-breezyshim-dev_0.7.18-1_amd64.deb",
-	"size": 104664,
-	"md5": "374a5480d2a53a37bf6e86b7bcbe4e3c",
-	"sha256": "b179a93ca5d4906cdcf213fbbf9ba2c46c6112dcbe0c891256c1e27c47b52e97",
+	"filename": "pool/main/r/rust-breezyshim/librust-breezyshim-dev_0.7.23-1_amd64.deb",
+	"size": 105008,
+	"md5": "7eed3ac3c8279e1e07837f3cb9767322",
+	"sha256": "aedd5db7d7e4ff25024e84be2fc397dcf747eeb5d39c912177ec3fdf6769acc2",
 	"descriptionMd5": "e9c71818fbf2d1c3254b7edd221049a8"
 }

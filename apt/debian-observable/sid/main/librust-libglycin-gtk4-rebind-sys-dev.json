@@ -6,7 +6,7 @@
 	],
 	"package": "librust-libglycin-gtk4-rebind-sys-dev",
 	"source": "rust-libglycin-gtk4-rebind-sys",
-	"version": "0.1.0-2",
+	"version": "0.1.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,15 +18,18 @@
 		"librust-libc-0.2+default-dev",
 		"librust-libglycin-rebind-sys-0.1+default-dev",
 		"librust-system-deps-7+default-dev",
-		"libglycin-gtk4-2-dev"
+		"libglycin-gtk4-2-dev (>= 2.1.2)"
+	],
+	"breaks": [
+		"librust-libglycin-gtk4-rebind-dev (<< 0.1.0)"
 	],
 	"installedSize": 22,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings for libglycin-gtk4 - Rust source code",
 	"homepage": "https://gnome.pages.gitlab.gnome.org/glycin/",
-	"filename": "pool/main/r/rust-libglycin-gtk4-rebind-sys/librust-libglycin-gtk4-rebind-sys-dev_0.1.0-2_amd64.deb",
-	"size": 4656,
-	"md5": "e43e412f16716be0bf6b9b662c7174f8",
-	"sha256": "119769671ac47505e3bad2909b43a9890ccf4b748c36a4c3eedb2538783dd7bc",
+	"filename": "pool/main/r/rust-libglycin-gtk4-rebind-sys/librust-libglycin-gtk4-rebind-sys-dev_0.1.0-3_amd64.deb",
+	"size": 4816,
+	"md5": "09bd3124b50570e417c9344987dffe51",
+	"sha256": "5604193781eb54d9129e2dc696f28b59594555f5a86178b2b20f0769d0776710",
 	"descriptionMd5": "04a61d31e7e015c378fb5ae59beb70e5"
 }]

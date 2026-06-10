@@ -1,0 +1,59 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpetsc-complex3.25",
+	"source": "petsc",
+	"version": "3.25.1+dfsg1-2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libamd3 (>= 1:7.0.1)",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.38)",
+		"libcholmod5 (>= 1:7.3.1)",
+		"libfftw3-double3 (>= 3.3.11)",
+		"libfftw3-mpi3 (>= 3.3.11)",
+		"libgcc-s1 (>= 4.0)",
+		"libgfortran5 (>= 10)",
+		"libhdf5-openmpi-310 (>= 1.12.0)",
+		"libklu2 (>= 1:7.0.1)",
+		"liblapack3 | liblapack.so.3",
+		"libmumps-5.9 (>= 5.9.0)",
+		"libopenmpi40 (>= 5.0.10)",
+		"libptscotch-7.0c (>= 7.0.11)",
+		"libscalapack-openmpi2.2 (>= 2.2.3)",
+		"libscotch-7.0c (>= 7.0.11)",
+		"libspqr4 (>= 1:7.12.2+dfsg)",
+		"libsuperlu-dist9 (>= 9.2.1+dfsg1)",
+		"libsuperlu7 (>= 7.0.1+dfsg1)",
+		"libumfpack6 (>= 1:7.0.1)",
+		"libx11-6",
+		"libyaml-0-2",
+		"ocl-icd-libopencl1 | libopencl1"
+	],
+	"replaces": [
+		"libpetsc-complex-3.6 (<< 3.6.2.dfsg1-4)"
+	],
+	"breaks": [
+		"libpetsc-complex3.10",
+		"libpetsc3.10-dev-common",
+		"libpetsc3.10-dev-examples",
+		"libslepc-complex3.10"
+	],
+	"conflicts": [
+		"libpetsc-complex-3.6 (<< 3.6.2.dfsg1-4)"
+	],
+	"installedSize": 29985,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Shared libraries for version 3.25 of PETSc with Complex Numbers",
+	"homepage": "http://www.mcs.anl.gov/petsc",
+	"filename": "pool/main/p/petsc/libpetsc-complex3.25_3.25.1+dfsg1-2_amd64.deb",
+	"size": 8199124,
+	"md5": "482f3e26beb68e4bec74e8de423986e0",
+	"sha256": "362f88a321b70d6506129094cb46b6cf2ef0ff2165df4b319022446a455bd626",
+	"descriptionMd5": "ccc2e67542adf6df9ade7e57c61aa8c0"
+}
