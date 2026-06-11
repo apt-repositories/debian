@@ -6,12 +6,13 @@
 	],
 	"package": "podman-docker",
 	"source": "podman",
-	"version": "5.8.2+ds1-2",
+	"version": "5.8.2+ds1-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"podman"
+		"podman",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"recommends": [
 		"docker-compose"
@@ -31,9 +32,9 @@
 	"maintainer": "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>",
 	"description": "tool to manage containers and pods (Docker CLI)",
 	"homepage": "https://github.com/containers/podman",
-	"filename": "pool/main/p/podman/podman-docker_5.8.2+ds1-2_amd64.deb",
-	"size": 26980,
-	"md5": "11ac84ca86767d0b8d430a460e71989b",
-	"sha256": "eaf0e6eac0e0351688b5eee5f2042e12d6f86fb98827ab15087b0152aa03aa19",
+	"filename": "pool/main/p/podman/podman-docker_5.8.2+ds1-3_amd64.deb",
+	"size": 27040,
+	"md5": "1c4f02b409145bc1ec0a0a088fcab169",
+	"sha256": "f21aba3f759c735f704185b5cc2329d90033f568ae92451c03005293145f977c",
 	"descriptionMd5": "86932255b02c6ae469890a2a3d83ec62"
 }]

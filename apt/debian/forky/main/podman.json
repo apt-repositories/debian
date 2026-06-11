@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "podman",
-	"version": "5.8.2+ds1-2",
+	"version": "5.8.2+ds1-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,6 +14,7 @@
 		"crun | runc",
 		"golang-github-containers-common",
 		"netavark",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libgpgme45 (>= 1.23.2)",
 		"libseccomp2 (>= 2.5.0)",
@@ -27,6 +28,7 @@
 		"containers-storage",
 		"criu",
 		"dbus-user-session",
+		"gvproxy",
 		"libcriu2",
 		"passt",
 		"slirp4netns",
@@ -37,13 +39,13 @@
 		"docker-compose",
 		"iptables"
 	],
-	"installedSize": 84712,
+	"installedSize": 84758,
 	"maintainer": "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>",
 	"description": "tool to manage containers and pods",
 	"homepage": "https://github.com/containers/podman",
-	"filename": "pool/main/p/podman/podman_5.8.2+ds1-2_amd64.deb",
-	"size": 24694504,
-	"md5": "4919936269bd5193509168df03400f75",
-	"sha256": "aed0866f3e6978a757282672386ad6bf17270cf78a823636bf8ccf3f3fd2409f",
+	"filename": "pool/main/p/podman/podman_5.8.2+ds1-3_amd64.deb",
+	"size": 24706000,
+	"md5": "5dd4550c998b28a45985eb38cbda7543",
+	"sha256": "12323174d983f55be9a0067e794c44c5896b373caebf1f61529ed872c3c656ab",
 	"descriptionMd5": "8aac015280e967d04c60ed695058cd99"
 }
