@@ -6,14 +6,15 @@
 	],
 	"package": "hamradio-sdr",
 	"source": "debian-hamradio",
-	"version": "0.11",
+	"version": "0.12",
 	"section": "metapackages",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"hamradio-tasks (= 0.11)"
+		"hamradio-tasks (= 0.12)"
 	],
 	"recommends": [
+		"aethersdr",
 		"airspy",
 		"airspyhf",
 		"bladerf",
@@ -34,6 +35,8 @@
 		"qthid-fcd-controller",
 		"quisk",
 		"rtl-sdr",
+		"sdrangel",
+		"sdrpp",
 		"soapyremote-server",
 		"soapysdr-module-airspy",
 		"soapysdr-module-audio",
@@ -53,13 +56,13 @@
 	"suggests": [
 		"soapysdr-module-rfspace"
 	],
-	"installedSize": 21,
+	"installedSize": 20,
 	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
 	"description": "Debian Hamradio Software Defined Radio Packages",
 	"homepage": "https://wiki.debian.org/DebianHams",
-	"filename": "pool/main/d/debian-hamradio/hamradio-sdr_0.11_all.deb",
-	"size": 5564,
-	"md5": "3db7a004d3b80b20f69fd05b9a1bfbc8",
-	"sha256": "624bc8b226c7b95bbad26f3c578b957ad31dbb13d8071220534bec36c27906f5",
+	"filename": "pool/main/d/debian-hamradio/hamradio-sdr_0.12_all.deb",
+	"size": 5064,
+	"md5": "be6ffb761f379b577212a84ba2d421a1",
+	"sha256": "1141da65c9850e49166ccc3314c288f3f43008f3a9c5d9079cdefcace1768ad9",
 	"descriptionMd5": "7f17ec19ac66e7883ea2f4a3f7764d34"
 }

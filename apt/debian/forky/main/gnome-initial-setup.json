@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "gnome-initial-setup",
-	"version": "49.0-4",
+	"version": "50.0-1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"gnome-settings-daemon (>= 3.24)",
+		"pkexec (>= 0.103)",
 		"polkitd (>= 0.103)",
 		"tecla (>= 45~rc)",
 		"desktop-base",
@@ -37,27 +38,27 @@
 		"libpango-1.0-0 (>= 1.32.5)",
 		"libpolkit-gobject-1-0 (>= 0.103)",
 		"libpwquality1 (>= 1.1.0)",
-		"libwebkitgtk-6.0-4 (>= 2.5.3)"
+		"libwebkitgtk-6.0-4 (>= 2.37.1)"
 	],
 	"recommends": [
 		"accountsservice",
 		"geoclue-2.0 (>= 2.6.0)",
-		"gnome-keyring",
 		"malcontent"
 	],
 	"suggests": [
 		"gdm3"
 	],
 	"breaks": [
-		"gnome-session-bin (<< 49)"
+		"gnome-session-bin (<< 49)",
+		"gnome-shell-common (<< 50~)"
 	],
-	"installedSize": 2169,
+	"installedSize": 2201,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Initial GNOME system setup helper",
 	"homepage": "https://git.gnome.org/browse/gnome-initial-setup/",
-	"filename": "pool/main/g/gnome-initial-setup/gnome-initial-setup_49.0-4_amd64.deb",
-	"size": 499148,
-	"md5": "fcc9aabfcb1850907798e026f0f723a1",
-	"sha256": "7dc198a0623d94e2a1f6c81c77640f0849221aa5c74ce425839dbf3325b13e4a",
+	"filename": "pool/main/g/gnome-initial-setup/gnome-initial-setup_50.0-1_amd64.deb",
+	"size": 503548,
+	"md5": "79165a9a685999b3d5b5ff106b654d4d",
+	"sha256": "55ae99cd2ed1d5601912e604dacf36a6f9622d50ae6f2bc31b97d7c5142c4878",
 	"descriptionMd5": "fc98a3077374329ffb2ad48a472c3672"
 }

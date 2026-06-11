@@ -5,13 +5,12 @@
 		"Size"
 	],
 	"package": "gnome-remote-desktop",
-	"version": "49.2-4",
+	"version": "50.1-5",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"fuse3",
-		"libmutter-17-0",
 		"pipewire (>= 1.2.0)",
 		"systemd | systemd-sysusers",
 		"systemd | systemd-tmpfiles",
@@ -19,16 +18,18 @@
 		"dconf-gsettings-backend | gsettings-backend",
 		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.10.0)",
+		"libdrm2 (>= 2.4.99)",
 		"libei1 (>= 1.3.901)",
 		"libepoxy0 (>= 1.4.3)",
 		"libfreerdp-server3-3 (>= 3.0.0)",
-		"libfreerdp3-3 (>= 3.0.0)",
+		"libfreerdp3-3 (>= 3.22.0)",
 		"libfuse3-4 (>= 3.17.2)",
 		"libglib2.0-0t64 (>= 2.83.0)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
 		"libnotify4 (>= 0.7.0)",
 		"libopus0 (>= 1.1)",
 		"libpipewire-0.3-0t64 (>= 1.2.0)",
-		"libpolkit-gobject-1-0 (>= 122)",
+		"libpolkit-gobject-1-0 (>= 0.101)",
 		"libsecret-1-0 (>= 0.7)",
 		"libsystemd0",
 		"libtss2-esys-3.0.2-0t64 (>= 2.3.1)",
@@ -41,16 +42,19 @@
 		"libwinpr3-3 (>= 3.0.0)",
 		"libxkbcommon0 (>= 1.0.0)"
 	],
-	"breaks": [
-		"gnome-control-center (<< 1:42)"
+	"recommends": [
+		"libmutter-17-0 | libmutter-18-0"
 	],
-	"installedSize": 2208,
+	"breaks": [
+		"gdm3 (<< 50~rc)"
+	],
+	"installedSize": 2444,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Remote desktop daemon for GNOME using PipeWire",
 	"homepage": "https://wiki.gnome.org/Projects/Mutter/RemoteDesktop",
-	"filename": "pool/main/g/gnome-remote-desktop/gnome-remote-desktop_49.2-4_amd64.deb",
-	"size": 409464,
-	"md5": "f4bc726ff410a46decf6bc8a9bbf48a9",
-	"sha256": "148fc69a60306c62bbdd0d877e4a799e53aa014425d0d05221ea8f9951f1ffe7",
+	"filename": "pool/main/g/gnome-remote-desktop/gnome-remote-desktop_50.1-5_amd64.deb",
+	"size": 464340,
+	"md5": "6524f1f0a71cd507973f2c4459450073",
+	"sha256": "37d239a73bd21bbae7bc8fa8930c7b90c86387525fcc84299434d11dca4c3c2c",
 	"descriptionMd5": "207751ad94eed32ddf42c55308e4a5d7"
 }]

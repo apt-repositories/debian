@@ -6,12 +6,13 @@
 	],
 	"package": "transmission-daemon",
 	"source": "transmission",
-	"version": "4.1.1+dfsg-1~bpo13+1",
+	"version": "4.1.2+dfsg-1~bpo13+1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"transmission-common (= 4.1.1+dfsg-1~bpo13+1)",
+		"transmission-common (= 4.1.2+dfsg-1~bpo13+1)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libb64-0d (>= 1.2)",
 		"libc6 (>= 2.38)",
 		"libcurl4t64 (>= 7.28.0)",
@@ -27,8 +28,7 @@
 		"libsystemd0"
 	],
 	"preDepends": [
-		"init-system-helpers (>= 1.54~)",
-		"adduser"
+		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"transmission-cli"
@@ -36,12 +36,12 @@
 	"suggests": [
 		"transmission-remote-gtk | transgui | tremotesf"
 	],
-	"installedSize": 3338,
+	"installedSize": 3346,
 	"maintainer": "Leo Antunes <costela@debian.org>",
 	"description": "lightweight BitTorrent client (daemon)",
 	"homepage": "https://transmissionbt.com/",
-	"filename": "pool/main/t/transmission/transmission-daemon_4.1.1+dfsg-1~bpo13+1_amd64.deb",
-	"size": 898864,
-	"sha256": "3423cbd8973a627d9ea088b16f89668287ee7e1b62842cf849ce1710a688377d",
+	"filename": "pool/main/t/transmission/transmission-daemon_4.1.2+dfsg-1~bpo13+1_amd64.deb",
+	"size": 900804,
+	"sha256": "c9b467e4fa5567723e96f57b030bcc711ad797fee1d4e92a8fefd6fd93618e24",
 	"descriptionMd5": "b7604622d41410393e6f900722d76b3c"
 }

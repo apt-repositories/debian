@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-sigstore-gitsign-dev",
 	"source": "gitsign",
-	"version": "0.13.0-4",
+	"version": "0.16.0-1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,20 +15,22 @@
 		"golang-github-go-git-go-git-dev (>> 5.13.1~)",
 		"golang-github-go-openapi-runtime-dev",
 		"golang-github-go-openapi-strfmt-dev",
-		"golang-github-in-toto-in-toto-golang-dev",
 		"golang-github-mattn-go-tty-dev",
 		"golang-github-patrickmn-go-cache-dev",
-		"golang-github-sigstore-cosign-dev (>> 2.6.2~)",
+		"golang-github-sigstore-cosign-dev (>> 3.0.5~)",
 		"golang-github-sigstore-rekor-dev",
 		"golang-github-sigstore-sigstore-dev"
 	],
-	"installedSize": 530,
+	"breaks": [
+		"golang-github-gittuf-gittuf-dev (<< 0.13.0~)"
+	],
+	"installedSize": 624,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Keyless Git signing using Sigstore (library)",
 	"homepage": "https://github.com/sigstore/gitsign",
-	"filename": "pool/main/g/gitsign/golang-github-sigstore-gitsign-dev_0.13.0-4_all.deb",
-	"size": 130884,
-	"md5": "8ec6ce89a08db158f69f4900e9a74ea7",
-	"sha256": "d3aa7cda493f995c376f633d88e664d4bc5ece7604b82880ef5cd53f81d60861",
+	"filename": "pool/main/g/gitsign/golang-github-sigstore-gitsign-dev_0.16.0-1_all.deb",
+	"size": 146948,
+	"md5": "ad0d5148af9e08ae42597a54104e70dc",
+	"sha256": "892ef8c3e756acc4bf2e1df8760f34106eb6efcc52e022c0b5421a64869477dd",
 	"descriptionMd5": "18b89a70b8584b94539e72b562ce660c"
 }

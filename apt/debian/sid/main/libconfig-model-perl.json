@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libconfig-model-perl",
-	"version": "2.162-1",
+	"version": "2.163-1",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
@@ -41,13 +41,16 @@
 		"libtoml-tiny-perl",
 		"libyaml-pp-perl"
 	],
-	"installedSize": 1207,
+	"breaks": [
+		"libconfig-model-itself-perl (<< 2.031)"
+	],
+	"installedSize": 1214,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "module for describing and editing configuration data",
 	"homepage": "https://github.com/dod38fr/config-model/wiki",
-	"filename": "pool/main/libc/libconfig-model-perl/libconfig-model-perl_2.162-1_all.deb",
-	"size": 400256,
-	"md5": "4b46a1eb3170aa4bb08f840b7fb6b820",
-	"sha256": "9ce8210351a535f790a139d1e99dbd62d496f990673f37bc7d5cd50215a92ba4",
+	"filename": "pool/main/libc/libconfig-model-perl/libconfig-model-perl_2.163-1_all.deb",
+	"size": 402712,
+	"md5": "069f9d63fb3611d73aebdca2aab4dff3",
+	"sha256": "4d289b353bb7827d07304702a4de1d832636dfc1d9899c4bbff29f56036e594d",
 	"descriptionMd5": "e788254f169bda1bf3ee56f7b08ff72f"
 }

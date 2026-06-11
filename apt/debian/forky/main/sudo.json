@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "sudo",
-	"version": "1.9.17p2-6",
+	"version": "1.9.17p2-7",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libpam-modules",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libapparmor1 (>= 2.7.0~beta1+bzr1772)",
 		"libaudit1 (>= 1:2.2.1)",
 		"libc6 (>= 2.42)",
@@ -29,9 +30,9 @@
 	"maintainer": "Debian Sudo Maintainers <sudo@packages.debian.org>",
 	"description": "Provide limited super user privileges to specific users",
 	"homepage": "https://www.sudo.ws/",
-	"filename": "pool/main/s/sudo/sudo_1.9.17p2-6_amd64.deb",
-	"size": 2060300,
-	"md5": "fcb3576be29561b9ac9c23a6f122f3b6",
-	"sha256": "7de3faf8f6c19832910bb418493ce210ae744f99f3f2a116830bfe3c6eeb2a45",
+	"filename": "pool/main/s/sudo/sudo_1.9.17p2-7_amd64.deb",
+	"size": 2061744,
+	"md5": "0081e7849b54969160acced4c74d4fb1",
+	"sha256": "f6756c83a7932523e3a52c71069f4b5a8872605e56a92cf6d015d8d4e5b3c3e9",
 	"descriptionMd5": "b73cb2c4db765dbce361c075c621f47b"
 }

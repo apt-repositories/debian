@@ -6,14 +6,15 @@
 	],
 	"package": "bzflag-server",
 	"source": "bzflag",
-	"version": "2.4.30-3",
+	"version": "2.4.30-4",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libcares2 (>= 1.16.0)",
-		"libcurl3t64-gnutls (>= 7.16.2)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
 		"libgcc-s1 (>= 3.0)",
 		"libncurses6 (>= 6)",
 		"libstdc++6 (>= 13.1)",
@@ -23,13 +24,13 @@
 	"enhances": [
 		"bzflag-client"
 	],
-	"installedSize": 4127,
+	"installedSize": 4124,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "3D first person tank battle game -- server",
 	"homepage": "https://www.bzflag.org/",
-	"filename": "pool/main/b/bzflag/bzflag-server_2.4.30-3_amd64.deb",
-	"size": 1105004,
-	"md5": "58e68bfa9f8e42e6b045bec1c67cfa50",
-	"sha256": "3aec9b3967c04709cbd6f0d66e5de11b6c42cb68c60178f0eaed6ea99c57d177",
+	"filename": "pool/main/b/bzflag/bzflag-server_2.4.30-4_amd64.deb",
+	"size": 1104444,
+	"md5": "206c6568a8b06618f071f068592ebdfa",
+	"sha256": "b062abe4b5a6af3d9d23f1d5cbb9bee1eb111ed15cc9b6289ee2dd2b6162c115",
 	"descriptionMd5": "029282d17f4701a2726858e1ad73784a"
 }
