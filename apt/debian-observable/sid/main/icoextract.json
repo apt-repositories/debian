@@ -5,21 +5,23 @@
 		"Size"
 	],
 	"package": "icoextract",
-	"version": "0.2.0-3",
+	"version": "0.3.0-2",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3:any (>= 3.9~)",
-		"python3-icoextract"
+		"python3-icoextract (= 0.3.0-2)"
 	],
-	"installedSize": 17,
+	"recommends": [
+		"icoextract-thumbnailer (= 0.3.0-2)"
+	],
+	"installedSize": 11,
 	"maintainer": "James Lu <jlu@debian.org>",
-	"description": "icon extraction library for Windows PE files (utilities)",
+	"description": "icon extractor for Windows executables (metapackage)",
 	"homepage": "https://github.com/jlu5/icoextract",
-	"filename": "pool/main/i/icoextract/icoextract_0.2.0-3_all.deb",
-	"size": 5388,
-	"md5": "0bf8a4a53397d035579d8e881dfc744e",
-	"sha256": "b65f47c74e89a88f1022bf31a076458cc60efe743a0efe6e7684f72c646b9472",
-	"descriptionMd5": "13531fdf591a38706e495d94b47bf095"
+	"filename": "pool/main/i/icoextract/icoextract_0.3.0-2_all.deb",
+	"size": 4396,
+	"md5": "d413f13025a6539dd099417fa498508d",
+	"sha256": "01af7fe1429bbb8ec0dcb9953e22a5eb197c09d8339484cedd4073b391a21cfe",
+	"descriptionMd5": "3aecdd47c02515cde3c39708a4035e51"
 }]

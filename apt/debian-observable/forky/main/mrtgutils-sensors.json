@@ -6,7 +6,7 @@
 	],
 	"package": "mrtgutils-sensors",
 	"source": "mrtgutils",
-	"version": "0.8.4-2",
+	"version": "0.8.4-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,15 +17,18 @@
 	"suggests": [
 		"mrtgutils"
 	],
-	"conflicts": [
+	"replaces": [
 		"mrtgutils (<= 0.7)"
 	],
-	"installedSize": 30,
+	"breaks": [
+		"mrtgutils (<= 0.7)"
+	],
+	"installedSize": 29,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Utilities to generate statistics for mrtg (from lm-sensors)",
-	"filename": "pool/main/m/mrtgutils/mrtgutils-sensors_0.8.4-2_amd64.deb",
-	"size": 9288,
-	"md5": "a2abe4b193f3a1ef8794feee53c79de0",
-	"sha256": "6f94a087353e7c2e3b6b064572f057228bcfedf82d52046d0b23e55e2d33d062",
+	"filename": "pool/main/m/mrtgutils/mrtgutils-sensors_0.8.4-3_amd64.deb",
+	"size": 9096,
+	"md5": "20b06a06ed7f1a97630a81a680646b35",
+	"sha256": "e1416ca5d7bcb5c5147216390ba9f51e077f1c6215fca741adb7371d0cece72c",
 	"descriptionMd5": "122d619b71d60894c3fb4272d0fc83de"
 }]
