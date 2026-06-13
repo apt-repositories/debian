@@ -6,6 +6,36 @@
 	],
 	"package": "golang-github-ovh-go-ovh-dev",
 	"source": "golang-github-ovh-go-ovh",
+	"version": "1.9.0-1~bpo13+1",
+	"section": "golang",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"golang-github-jarcoal-httpmock-dev",
+		"golang-github-maxatome-go-testdeep-dev",
+		"golang-golang-x-oauth2-dev",
+		"golang-gopkg-ini.v1-dev"
+	],
+	"breaks": [
+		"golang-github-prometheus-prometheus-dev (<< 2.53.5+ds1-5)",
+		"golang-github-xenolf-lego-dev (<< 4.35.2-1)"
+	],
+	"installedSize": 98,
+	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
+	"description": "Simple go wrapper for the OVH API",
+	"homepage": "https://github.com/ovh/go-ovh",
+	"filename": "pool/main/g/golang-github-ovh-go-ovh/golang-github-ovh-go-ovh-dev_1.9.0-1~bpo13+1_all.deb",
+	"size": 19516,
+	"sha256": "980110a65aa5ddf6dfe4379354b0a93a847aae4e2e7e79a58a404e509c62f9f1",
+	"descriptionMd5": "ac794a29489464d369459a520cc8f158"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "golang-github-ovh-go-ovh-dev",
+	"source": "golang-github-ovh-go-ovh",
 	"version": "1.1.0-2",
 	"section": "golang",
 	"priority": "optional",

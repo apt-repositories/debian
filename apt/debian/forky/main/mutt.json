@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "mutt",
-	"source": "mutt (2.2.13-1)",
-	"version": "2.2.13-1+b1",
+	"version": "2.3.2-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,6 +18,7 @@
 		"libgssapi-krb5-2 (>= 1.17)",
 		"libidn2-0 (>= 2.0.0)",
 		"libncursesw6 (>= 6)",
+		"libsqlite3-0 (>= 3.20.0)",
 		"libtinfo6 (>= 6)",
 		"libtokyocabinet9t64 (>= 1.4.47)",
 		"zlib1g (>= 1:1.1.4)"
@@ -29,20 +29,20 @@
 		"sensible-utils"
 	],
 	"suggests": [
-		"default-mta | mail-transport-agent",
-		"urlview",
 		"aspell | ispell",
+		"ca-certificates",
+		"default-mta | mail-transport-agent",
 		"gnupg",
 		"openssl",
-		"ca-certificates"
+		"urlview"
 	],
-	"installedSize": 7118,
+	"installedSize": 7291,
 	"maintainer": "Mutt maintainers <mutt@packages.debian.org>",
 	"description": "text-based mailreader supporting MIME, GPG, PGP and threading",
 	"homepage": "http://www.mutt.org/",
-	"filename": "pool/main/m/mutt/mutt_2.2.13-1+b1_amd64.deb",
-	"size": 1880012,
-	"md5": "f19bb1f963e2ecfe5ba96d9e385149c4",
-	"sha256": "67801cf5ca695d2277770fa8e7eda5978dda1e2e96e6c67a302bcc5cd1f48871",
+	"filename": "pool/main/m/mutt/mutt_2.3.2-1_amd64.deb",
+	"size": 1911636,
+	"md5": "2add6d4dddabd2ed39486893567afc4a",
+	"sha256": "e2bf73b4754ff9aaba849e7ee36a2264d832364ccf4b476821f6aa68fb3f77d3",
 	"descriptionMd5": "14c29b7cb02b614c08865f8fb8a0ac39"
 }

@@ -6,26 +6,25 @@
 	],
 	"package": "libnginx-mod-stream-geoip",
 	"source": "nginx",
-	"version": "1.30.1-3",
+	"version": "1.30.1-4",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libnginx-mod-stream",
+		"nginx (>= 1.30.1-4)",
+		"nginx (<< 1.30.1-4.1~)",
 		"nginx-abi-1.30.1-1",
 		"libc6 (>= 2.14)",
-		"libgeoip1t64 (>= 1.6.12)",
-		"libnginx-mod-stream (= 1.30.1-3)"
-	],
-	"recommends": [
-		"nginx"
+		"libgeoip1t64 (>= 1.6.12)"
 	],
 	"installedSize": 117,
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "GeoIP Stream module for Nginx",
 	"homepage": "https://nginx.org",
-	"filename": "pool/main/n/nginx/libnginx-mod-stream-geoip_1.30.1-3_amd64.deb",
-	"size": 86928,
-	"md5": "600fab7108d656fa7d06ffac6a11867a",
-	"sha256": "b867409fb1fd8e5fe4225a47d930d8d0bff499d54f943dd72f02b991ad31ad97",
+	"filename": "pool/main/n/nginx/libnginx-mod-stream-geoip_1.30.1-4_amd64.deb",
+	"size": 87272,
+	"md5": "444de3c3ccdd1227c4c6ce5827bdd08a",
+	"sha256": "c8d6b14a5c63c841a94f5188a14d5f1e63bb5363c28eeb15e370d0b73f400df1",
 	"descriptionMd5": "39b7da5ef1607467992a06519853ebe5"
 }

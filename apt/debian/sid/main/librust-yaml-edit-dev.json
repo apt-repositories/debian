@@ -6,7 +6,7 @@
 	],
 	"package": "librust-yaml-edit-dev",
 	"source": "rust-yaml-edit",
-	"version": "0.2.1-1",
+	"version": "0.2.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,16 @@
 		"librust-regex-1+default-dev",
 		"librust-rowan-0.16+default-dev"
 	],
-	"installedSize": 12235,
+	"breaks": [
+		"rustc (<< 1.70~)"
+	],
+	"installedSize": 12279,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Lossless parser and editor for YAML files - Rust source code",
 	"homepage": "https://github.com/jelmer/yaml-edit",
-	"filename": "pool/main/r/rust-yaml-edit/librust-yaml-edit-dev_0.2.1-1_amd64.deb",
-	"size": 404352,
-	"md5": "b2230ed0ba5adb221f5d0654a708e414",
-	"sha256": "8855815c2092c6f30eb38495b6ac8d525fd2f5c3a61f3f492c7eacc26bb8e768",
+	"filename": "pool/main/r/rust-yaml-edit/librust-yaml-edit-dev_0.2.2-1_amd64.deb",
+	"size": 411364,
+	"md5": "7e02e09b4ca9ad4015b212d3049e821d",
+	"sha256": "c8f99120669288278e414a035f54372cbbca80b3a01bb9111a05b79b276ee64a",
 	"descriptionMd5": "b123555c51d1b23a7d6112a578eaeef2"
 }
