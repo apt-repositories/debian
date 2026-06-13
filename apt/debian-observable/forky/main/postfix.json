@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "postfix",
-	"version": "3.11.2-4",
+	"version": "3.11.3-2",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,12 +13,13 @@
 		"netbase",
 		"debconf (>= 0.5) | debconf-2.0",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libcdb1 (>= 0.76)",
 		"libdb5.3t64",
 		"libicu78 (>= 78.1-1~)",
 		"liblmdb0 (>= 0.9.11)",
-		"libnsl2 (>= 1.0)",
+		"libnsl3 (>= 2.0)",
 		"libsasl2-2 (>= 2.1.28+dfsg1)",
 		"libssl3t64 (>= 3.2.0)",
 		"libtlsrpt0 (>= 0.5.0rc1)"
@@ -72,9 +73,9 @@
 	"maintainer": "Debian Postfix Team <team+postfix@tracker.debian.org>",
 	"description": "High-performance mail transport agent",
 	"homepage": "https://www.postfix.org",
-	"filename": "pool/main/p/postfix/postfix_3.11.2-4_amd64.deb",
-	"size": 1676804,
-	"md5": "3348140e09fd57159446f541e37acd83",
-	"sha256": "b77754928408d556b1fac7a99dcc9b8d144b65882ca740193c4ab595b3be779e",
+	"filename": "pool/main/p/postfix/postfix_3.11.3-2_amd64.deb",
+	"size": 1677244,
+	"md5": "a088536bbc4fe0b8d9436ecbb6289e8f",
+	"sha256": "f8ab4bd628b69805a7bf2dbbc7d9ab145d6350148b2ced9b2f74a665c3330b04",
 	"descriptionMd5": "d1e5b8a8efc0139e26e8e2264b919364"
 }]
