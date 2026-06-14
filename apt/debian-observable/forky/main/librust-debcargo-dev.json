@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-debcargo-dev",
-	"source": "rust-debcargo (2.8.2-3)",
-	"version": "2.8.2-3+b1",
+	"source": "rust-debcargo",
+	"version": "2.8.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -44,17 +44,20 @@
 		"librust-tar-0.4+default-dev",
 		"librust-tempfile-3+default-dev",
 		"librust-textwrap-0.16+default-dev",
-		"librust-toml+default-dev (<< 2)",
-		"librust-toml+default-dev (>= 0.9)",
+		"librust-toml-1+default-dev",
+		"librust-toml-edit-0.25+default-dev",
 		"librust-walkdir-2+default-dev"
 	],
-	"installedSize": 1018,
+	"breaks": [
+		"rustc (<< 1.58~)"
+	],
+	"installedSize": 1272,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Create a Debian package from a Cargo crate - Rust source code",
 	"homepage": "https://salsa.debian.org/rust-team/debcargo",
-	"filename": "pool/main/r/rust-debcargo/librust-debcargo-dev_2.8.2-3+b1_amd64.deb",
-	"size": 99660,
-	"md5": "75b02e9189f03caa9bf7d70f7d0a11be",
-	"sha256": "9ba68db5eefa6a05fd3e0cec380d71c1fe0cc57699410c8d324a6a79899b192c",
+	"filename": "pool/main/r/rust-debcargo/librust-debcargo-dev_2.8.3-1_amd64.deb",
+	"size": 116168,
+	"md5": "02c6e801dc2a4ba8175c762eecdddb2d",
+	"sha256": "74fe65dd99e2dc7d226eef0693be13c5b5df9accf6e8c205ff61a83b8510d252",
 	"descriptionMd5": "e3d5b919249739cbd1a2875b20d4c69f"
 }]

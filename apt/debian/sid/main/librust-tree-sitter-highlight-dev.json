@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-tree-sitter-highlight-dev",
-	"source": "tree-sitter (0.25.9-7)",
-	"version": "0.25.9-7+b1",
+	"source": "tree-sitter",
+	"version": "0.26.8-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-regex-1+default-dev (>= 1.11.1-~~)",
-		"librust-streaming-iterator-0.1+default-dev (>= 0.1.9-~~)",
-		"librust-thiserror-2+default-dev (>= 2.0.11-~~)",
-		"librust-tree-sitter-0.25+default-dev (>= 0.25.1-~~)"
+		"librust-regex-1+default-dev (>= 1.11.3)",
+		"librust-streaming-iterator-0.1+default-dev (>= 0.1.9)",
+		"librust-thiserror-2+default-dev (>= 2.0.17)",
+		"librust-tree-sitter-0.26+default-dev (>= 0.26.8)"
 	],
-	"installedSize": 94,
+	"breaks": [
+		"rustc (<< 1.84)"
+	],
+	"installedSize": 95,
 	"maintainer": "Tree-sitter Maintainers <team+tree-sitter@tracker.debian.org>",
 	"description": "perform syntax highlighting with tree-sitter - Rust source code",
 	"homepage": "https://tree-sitter.github.io/tree-sitter/",
-	"filename": "pool/main/t/tree-sitter/librust-tree-sitter-highlight-dev_0.25.9-7+b1_amd64.deb",
-	"size": 20548,
-	"md5": "be7c2ce98a012af48be3f3d9252f8bdb",
-	"sha256": "66ee193fa454b9097893a78cc412d443c61c3aa1e665ba2f1bf000e79c91230b",
+	"filename": "pool/main/t/tree-sitter/librust-tree-sitter-highlight-dev_0.26.8-4_amd64.deb",
+	"size": 21608,
+	"md5": "a5547cf75e256d551208d11c3ceebf06",
+	"sha256": "95375e1f59eb33e20e57d5cc8cda03cf8666fb10475d89b9c1842f1cd3a0a434",
 	"descriptionMd5": "3cb1bf0c52dafd6fc2f43adf34b2fde7"
 }
