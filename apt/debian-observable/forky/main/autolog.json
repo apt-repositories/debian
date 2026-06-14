@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "autolog",
-	"version": "0.42.2-4",
+	"version": "0.42.2-5",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"cron | cron-daemon"
 	],
 	"recommends": [
 		"default-mta | mail-transport-agent"
 	],
-	"installedSize": 87,
+	"installedSize": 89,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "Log out idle users",
 	"homepage": "https://github.com/JKDingwall/autolog",
-	"filename": "pool/main/a/autolog/autolog_0.42.2-4_amd64.deb",
-	"size": 28256,
-	"md5": "2650e3ee9729fee403b0982b5ee260f8",
-	"sha256": "1971c9f3cbd7f7d41ceab603c74b8e1a7fa57f9198e2a651cf1826885bbe464a",
+	"filename": "pool/main/a/autolog/autolog_0.42.2-5_amd64.deb",
+	"size": 28392,
+	"md5": "a3bf5eeaa07573e6c5cc39d73d9d643a",
+	"sha256": "98166935fba61b01f6ee56663b922977d8a05725306174a88ba8d1c4246f5c63",
 	"descriptionMd5": "20236d7e336740b03e756c970a0d3a77"
 }]

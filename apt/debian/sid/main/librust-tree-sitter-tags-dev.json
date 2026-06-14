@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-tree-sitter-tags-dev",
-	"source": "tree-sitter (0.25.9-7)",
-	"version": "0.25.9-7+b1",
+	"source": "tree-sitter",
+	"version": "0.26.8-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-memchr-2+default-dev (>= 2.7.4-~~)",
-		"librust-regex-1+default-dev (>= 1.11.1-~~)",
-		"librust-streaming-iterator-0.1+default-dev (>= 0.1.9-~~)",
-		"librust-thiserror-2+default-dev (>= 2.0.11-~~)",
-		"librust-tree-sitter-0.25+default-dev (>= 0.25.1-~~)"
+		"librust-memchr-2+default-dev (>= 2.7.6)",
+		"librust-regex-1+default-dev (>= 1.11.3)",
+		"librust-streaming-iterator-0.1+default-dev (>= 0.1.9)",
+		"librust-thiserror-2+default-dev (>= 2.0.17)",
+		"librust-tree-sitter-0.26+default-dev (>= 0.26.8)"
 	],
-	"installedSize": 69,
+	"breaks": [
+		"rustc (<< 1.84)"
+	],
+	"installedSize": 71,
 	"maintainer": "Tree-sitter Maintainers <team+tree-sitter@tracker.debian.org>",
 	"description": "library for extracting tag information - Rust source code",
 	"homepage": "https://tree-sitter.github.io/tree-sitter/",
-	"filename": "pool/main/t/tree-sitter/librust-tree-sitter-tags-dev_0.25.9-7+b1_amd64.deb",
-	"size": 15336,
-	"md5": "084e6890c8adf5e052e2e35d09f1f13c",
-	"sha256": "d176d9a1deb98881b9ad35b9fd37891add5bde9e9cfd20bc5866fe0941d6c235",
+	"filename": "pool/main/t/tree-sitter/librust-tree-sitter-tags-dev_0.26.8-4_amd64.deb",
+	"size": 16364,
+	"md5": "8d40e0a625b4a398c82eb6291bd14ca4",
+	"sha256": "3dd6dc3aab034e9c81130ac186ef2ee0e9da56f1e20fbd1d54bc12ffacac59ff",
 	"descriptionMd5": "cbd70a176096114f102b9ecbe050bee5"
 }

@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.12+deb14.1-cloud-amd64",
+	"source": "linux-signed-amd64 (7.0.12+2)",
+	"version": "7.0.12-2",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.0.12+deb14.1-cloud-amd64 (= 7.0.12-2)",
+		"linux-binary-7.0.12+deb14.1-cloud-amd64 (= 7.0.12-2)",
+		"linux-modules-7.0.12+deb14.1-cloud-amd64 (= 7.0.12-2)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.0"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.0.12 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.0.12+deb14.1-cloud-amd64_7.0.12-2_amd64.deb",
+	"size": 1924,
+	"md5": "2baa32c3e6edb46bba63f8c564f7e582",
+	"sha256": "bd03e53973fe6356bdadfb272c6b0dbc41a6dad02102ddbdbc3b69c416dac255",
+	"descriptionMd5": "751cd9ac34cc24fb718fc9f14d19b71d"
+}
