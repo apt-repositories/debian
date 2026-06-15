@@ -6,20 +6,23 @@
 	],
 	"package": "librust-tree-sitter-iter-dev",
 	"source": "rust-tree-sitter-iter",
-	"version": "1.24.1-1",
+	"version": "1.25.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-tree-sitter-0.25+default-dev"
+		"librust-tree-sitter-0.26+default-dev (>= 0.26.8)"
 	],
-	"installedSize": 27,
+	"breaks": [
+		"rustc (<< 1.88.0~)"
+	],
+	"installedSize": 23,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Very simple pre-order iterator for tree-sitter CSTs - Rust source code",
 	"homepage": "https://docs.zizmor.sh",
-	"filename": "pool/main/r/rust-tree-sitter-iter/librust-tree-sitter-iter-dev_1.24.1-1_amd64.deb",
-	"size": 5492,
-	"md5": "cd8563b87bf7c43e2676351f83cd6cb1",
-	"sha256": "9b96b71dfe51ac330817d24d2affd2a8f845a4552d854901bd57f79edf919a3c",
+	"filename": "pool/main/r/rust-tree-sitter-iter/librust-tree-sitter-iter-dev_1.25.2-1_amd64.deb",
+	"size": 5364,
+	"md5": "8633f0ea86d47c3d2215eed16c15e864",
+	"sha256": "9d717b03b2cb1101281e8543e7486264a77b592c46d0e1b695dec281193b5780",
 	"descriptionMd5": "ce068d1fb9d741b372493afe012ed95a"
 }
