@@ -5,16 +5,17 @@
 		"Size"
 	],
 	"package": "wmweather",
-	"version": "2.4.8-3",
+	"version": "2.4.9-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"libcurl3t64-gnutls (>= 7.16.2)",
+		"libc6 (>= 2.38)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
 		"libx11-6",
 		"libxext6",
-		"libxpm4"
+		"libxpm4",
+		"procps"
 	],
 	"recommends": [
 		"x11-utils"
@@ -25,10 +26,10 @@
 	"installedSize": 124,
 	"maintainer": "Martin A. Godisch <godisch@debian.org>",
 	"description": "WindowMaker dockapp that shows your current weather",
-	"homepage": "http://people.debian.org/~godisch/wmweather/",
-	"filename": "pool/main/w/wmweather/wmweather_2.4.8-3_amd64.deb",
-	"size": 31252,
-	"md5": "d4684f35ca762c78e14dc6d26ced14cc",
-	"sha256": "15b68f97a4f5b566e8dbeb961d1df036ffbe93b8176f60176766b78030f9d4b6",
+	"homepage": "https://codeberg.org/godisch/wmweather",
+	"filename": "pool/main/w/wmweather/wmweather_2.4.9-1_amd64.deb",
+	"size": 31680,
+	"md5": "37af65898938dbb3fd5bdd5b55b92efa",
+	"sha256": "2542cbf98b15925523a56109289b4e284b455dcedc2161d84053d3f8b30d3899",
 	"descriptionMd5": "29ad44e4a23f3bb201e9b55e5040ea4d"
 }]

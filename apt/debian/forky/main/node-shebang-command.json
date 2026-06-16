@@ -5,20 +5,23 @@
 		"Size"
 	],
 	"package": "node-shebang-command",
-	"version": "2.0.0-2",
+	"version": "2.0.0+~cs4.0.0-1",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
-	"depends": [
-		"node-shebang-regex"
+	"replaces": [
+		"node-shebang-regex (<< 4.0.0~)"
 	],
-	"installedSize": 14,
+	"breaks": [
+		"node-shebang-regex (<< 4.0.0~)"
+	],
+	"installedSize": 24,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Get the command from a shebang",
 	"homepage": "https://github.com/kevva/shebang-command",
-	"filename": "pool/main/n/node-shebang-command/node-shebang-command_2.0.0-2_all.deb",
-	"size": 3944,
-	"md5": "1406e998102b3ff4512c771c7c3ab706",
-	"sha256": "7c9dac5d0493b6674bfd204b8884c1f89d8fb417b214ff931537cd2a91b65f42",
+	"filename": "pool/main/n/node-shebang-command/node-shebang-command_2.0.0+~cs4.0.0-1_all.deb",
+	"size": 5180,
+	"md5": "40452f29b99009f06a690caef6f1ba56",
+	"sha256": "b45fb47d8c29098a9db956ec6db35c175fa5c4d01af320d90e3747117a364f59",
 	"descriptionMd5": "4eb53afca63ca116d050faddcc9fac74"
 }

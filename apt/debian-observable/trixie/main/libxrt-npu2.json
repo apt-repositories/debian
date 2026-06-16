@@ -6,7 +6,7 @@
 	],
 	"package": "libxrt-npu2",
 	"source": "xrt",
-	"version": "1:2.21.75+dfsg-2~bpo13+1",
+	"version": "1:2.21.75+dfsg-9~bpo13+1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,15 +17,19 @@
 		"libuuid1 (>= 2.16)",
 		"libxrt2 (>= 1:2.21.75+dfsg)"
 	],
+	"replaces": [
+		"libxrt1 (<< 1:2.21.75+dfsg-4)"
+	],
 	"breaks": [
+		"libxrt1 (<< 1:2.21.75+dfsg-4)",
 		"libxrt2 (<< 202520.2.20.172-1)"
 	],
-	"installedSize": 4296,
+	"installedSize": 4281,
 	"maintainer": "Debian Xilinx Package Maintainers <team+pkg-xilinx@tracker.debian.org>",
 	"description": "Xilinx Runtime (XRT) NPU - runtime libraries",
 	"homepage": "https://www.xilinx.com/products/design-tools/vitis/xrt.html",
-	"filename": "pool/main/x/xrt/libxrt-npu2_2.21.75+dfsg-2~bpo13+1_amd64.deb",
-	"size": 1032512,
-	"sha256": "4d1ce7ee622593fb45e703136edd1997950cd511270debc8f6a28bd0a7ecf72f",
+	"filename": "pool/main/x/xrt/libxrt-npu2_2.21.75+dfsg-9~bpo13+1_amd64.deb",
+	"size": 1027904,
+	"sha256": "38b96114a652548dc4c75b8d65ebffcc58e82f9b015518b0572f329e44a72445",
 	"descriptionMd5": "ca0cecc3b069a1c1d34c259496a970a7"
 }]

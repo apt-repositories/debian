@@ -6,7 +6,7 @@
 	],
 	"package": "libmulticore-magic-ocaml",
 	"source": "ocaml-multicore-magic",
-	"version": "2.3.2-2",
+	"version": "2.3.2-3",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,19 @@
 		"libstdlib-ocaml-kjuo1",
 		"ocaml-base-5.4.0"
 	],
+	"replaces": [
+		"libmulticore-magic-ocaml-dev (<< 2.3.2-2~)"
+	],
+	"breaks": [
+		"libmulticore-magic-ocaml-dev (<< 2.3.2-2~)"
+	],
 	"installedSize": 136,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "extract the best possible performance from multicore OCaml -- runtime files",
 	"homepage": "https://github.com/ocaml-multicore/multicore-magic",
-	"filename": "pool/main/o/ocaml-multicore-magic/libmulticore-magic-ocaml_2.3.2-2_amd64.deb",
-	"size": 31420,
-	"md5": "10cec485cdeddff485670598fbad2056",
-	"sha256": "0fbb21b0fe3ce4d737b0200da683803d5804a4197e3ee2b60fd557f6d2b7c139",
+	"filename": "pool/main/o/ocaml-multicore-magic/libmulticore-magic-ocaml_2.3.2-3_amd64.deb",
+	"size": 31492,
+	"md5": "c91403675546a7c8f0d44da6cd331b14",
+	"sha256": "10df2f1ec973476412dab0d6dd098a90095d2e7ca5fff809b5afc4aca1a51ba8",
 	"descriptionMd5": "d52d939b53922eea393a2fd77618308f"
 }]

@@ -72,8 +72,50 @@
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "(embedded) Firebird SDBC driver for LibreOffice",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/updates/main/libr/libreoffice/libreoffice-sdbc-firebird_25.2.3-2+deb13u4_amd64.deb",
+	"filename": "pool/main/libr/libreoffice/libreoffice-sdbc-firebird_25.2.3-2+deb13u4_amd64.deb",
 	"size": 182364,
+	"md5": "6bbae0379a764b5e3f07fce6a8792072",
 	"sha256": "44a2be707821987330331e64889fc57d6cf30614af2c1c53092cc3008df4bc0a",
+	"descriptionMd5": "17d206d15f4a6fbda10fa8da477a3e8c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-sdbc-firebird",
+	"source": "libreoffice",
+	"version": "4:25.2.3-2+deb13u5",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core-nogui | libreoffice-core",
+		"firebird4.0-server-core",
+		"libc6 (>= 2.14)",
+		"libfbclient2 (>= 4.0.5~)",
+		"libfbclient2 (<< 5.0~)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha)",
+		"libuno-sal3t64 (>= 5.3.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"enhances": [
+		"libreoffice-base-drivers"
+	],
+	"installedSize": 642,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "(embedded) Firebird SDBC driver for LibreOffice",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/updates/main/libr/libreoffice/libreoffice-sdbc-firebird_25.2.3-2+deb13u5_amd64.deb",
+	"size": 182672,
+	"sha256": "fbd2544129bdfaedd2f5649cb0e0b4276645843ac1a00dea76cfb5ffb95a7d69",
 	"descriptionMd5": "17d206d15f4a6fbda10fa8da477a3e8c"
 }]

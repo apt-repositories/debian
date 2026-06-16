@@ -6,24 +6,25 @@
 	],
 	"package": "nethack-common",
 	"source": "nethack",
-	"version": "3.6.7-3",
+	"version": "3.6.7-4",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)"
 	],
 	"recommends": [
 		"nethack-console | nethack-x11"
 	],
-	"installedSize": 2325,
+	"installedSize": 2323,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "dungeon crawl game - common files",
 	"homepage": "https://www.nethack.org",
-	"filename": "pool/main/n/nethack/nethack-common_3.6.7-3_amd64.deb",
-	"size": 617636,
-	"md5": "97a0f6c1aa2af1acf70d11ba388bd676",
-	"sha256": "5df2b99e289fc1cadaef80ebba5fd9734beea4a1824b48a5f23b5539794e2385",
+	"filename": "pool/main/n/nethack/nethack-common_3.6.7-4_amd64.deb",
+	"size": 617872,
+	"md5": "24c8fed867c9455010a4c8e80d63a3bd",
+	"sha256": "e423406780d7a09fa9b481e57074d2bd24b82cd682c08feffaf6dbf05b1d0c02",
 	"descriptionMd5": "e8d27f3cd829327876364f7ae1e5ce6f"
 }]

@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "phalanx",
-	"version": "25-1.1",
+	"version": "25-1.2",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"debconf (>= 0.5) | debconf-2.0"
+		"libc6 (>= 2.38)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"suggests": [
 		"xboard | x-terminal-emulator"
@@ -23,13 +24,13 @@
 		"scid",
 		"xboard"
 	],
-	"installedSize": 490,
+	"installedSize": 493,
 	"maintainer": "Jose G. López <josgalo@jglopez.name>",
 	"description": "Chess playing program",
 	"homepage": "https://sourceforge.net/projects/phalanx",
-	"filename": "pool/main/p/phalanx/phalanx_25-1.1_amd64.deb",
-	"size": 290640,
-	"md5": "981e2e32a1a19beed79a98fe8f5d1cd1",
-	"sha256": "e4ffc08d0edb7bc534757de7c5eea59f4df8b34da4ea3a3d0b5457219af99531",
+	"filename": "pool/main/p/phalanx/phalanx_25-1.2_amd64.deb",
+	"size": 291688,
+	"md5": "6c6620736953f7aca0cfd57d292e1d93",
+	"sha256": "28d72e15e6525fa68a49ad50cab9e35323bdfac65c37fe8165d99b3d7b98b011",
 	"descriptionMd5": "909ed67cb7e8de223d222acf2e98619e"
 }]
