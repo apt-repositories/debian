@@ -5,27 +5,33 @@
 		"Size"
 	],
 	"package": "libukui-log4qt1",
-	"source": "ukui-interface (1.0.1-3)",
-	"version": "1.0.1-3+b1",
+	"source": "ukui-interface",
+	"version": "4.10.0.0-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libglib2.0-bin",
+		"dconf-gsettings-backend | gsettings-backend",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
-		"libgsettings-qt1 (>= 1.1.1)",
-		"libqt5core5t64 (>= 5.15.1)",
-		"libstdc++6 (>= 14)",
-		"dconf-gsettings-backend | gsettings-backend",
-		"libglib2.0-bin"
+		"libgsettings-qt6-1 (>= 1.1.1)",
+		"libqt6core6t64 (>= 6.10.2)",
+		"libstdc++6 (>= 14)"
 	],
-	"installedSize": 556,
+	"replaces": [
+		"libukui-log4qt0"
+	],
+	"breaks": [
+		"libukui-log4qt0"
+	],
+	"installedSize": 678,
 	"maintainer": "Kylin Team <team+kylin@tracker.debian.org>",
-	"description": "log4qt module",
-	"homepage": "https://github.com/ukui/ukui-interface",
-	"filename": "pool/main/u/ukui-interface/libukui-log4qt1_1.0.1-3+b1_amd64.deb",
-	"size": 163616,
-	"md5": "db5b10e7c638c043211f497f44343756",
-	"sha256": "62d28a77eda785617abaa1a4651e75a9eb8b51aedee01c40f7d2d4a75c531dae",
-	"descriptionMd5": "8dc071cca99f24e100ae34e0d9088d9e"
+	"description": "UKUI Qt logging library",
+	"homepage": "https://gitee.com/openkylin/ukui-interface",
+	"filename": "pool/main/u/ukui-interface/libukui-log4qt1_4.10.0.0-1_amd64.deb",
+	"size": 192456,
+	"md5": "3501387f05b464c535a59964c1054b3c",
+	"sha256": "b9655406c56584d8feffb800f3e01b0a9df4f0bd19655c67d0f55fdf374bd2ae",
+	"descriptionMd5": "d6e9fa1bd88fc841719192224dcf6dc8"
 }]

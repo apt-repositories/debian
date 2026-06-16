@@ -68,8 +68,46 @@
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "LibreOffice UNO runtime environment -- private libraries used by public ones",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/updates/main/libr/libreoffice/uno-libs-private_25.2.3-2+deb13u4_amd64.deb",
+	"filename": "pool/main/libr/libreoffice/uno-libs-private_25.2.3-2+deb13u4_amd64.deb",
 	"size": 238220,
+	"md5": "7be1ea27b117b7257e21cd2d3a1d2744",
 	"sha256": "7e12b35c3efb07a4f8d3fb5403b0466233760a3efdc0e2387524c8f11302a624",
+	"descriptionMd5": "e2b126a07040410322c2e32e97809c88"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "uno-libs-private",
+	"source": "libreoffice",
+	"version": "4:25.2.3-2+deb13u5",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 3.6)",
+		"libuno-sal3t64 (>= 5.3.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)"
+	],
+	"replaces": [
+		"uno-libs3"
+	],
+	"breaks": [
+		"libreoffice-core (<< 4:7.5.0~)",
+		"libreoffice-core-nogui (<< 4:7.5.0~)",
+		"libuno-cppuhelpergcc3-3 (<< 4:7.5.0~)",
+		"uno-libs3"
+	],
+	"installedSize": 692,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "LibreOffice UNO runtime environment -- private libraries used by public ones",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/updates/main/libr/libreoffice/uno-libs-private_25.2.3-2+deb13u5_amd64.deb",
+	"size": 238156,
+	"sha256": "7da23e4c0217d4bdbf36c25b5eeede0dab9c23ec89a2bcf5875be466d55fbe69",
 	"descriptionMd5": "e2b126a07040410322c2e32e97809c88"
 }]

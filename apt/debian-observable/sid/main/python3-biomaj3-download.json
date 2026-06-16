@@ -6,11 +6,12 @@
 	],
 	"package": "python3-biomaj3-download",
 	"source": "biomaj3-download",
-	"version": "3.2.12-3",
+	"version": "3.2.12-4",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"python3-bcrypt",
 		"python3-biomaj3-core",
 		"python3-biomaj3-zipkin",
@@ -33,13 +34,13 @@
 		"python3-gunicorn",
 		"redis-server"
 	],
-	"installedSize": 214,
+	"installedSize": 217,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "BioMAJ download management library",
 	"homepage": "https://github.com/genouest/biomaj-download",
-	"filename": "pool/main/b/biomaj3-download/python3-biomaj3-download_3.2.12-3_all.deb",
-	"size": 49196,
-	"md5": "011cc5eb1f483d0021e861c419d1f53d",
-	"sha256": "fa74c9bfb3ffdb5df410786203c63ff7ffb15ef84f07d1c8be5d99a036cb6b31",
+	"filename": "pool/main/b/biomaj3-download/python3-biomaj3-download_3.2.12-4_all.deb",
+	"size": 49688,
+	"md5": "d0ec57ba555b6150b355153efe901b0c",
+	"sha256": "0dc832a7659268f853911e55534261651eb28d35c88d80feb801a83eb8b167a6",
 	"descriptionMd5": "aada8ee47195cf3aed12eb5b704e37df"
 }]

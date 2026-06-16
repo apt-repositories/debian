@@ -133,8 +133,79 @@
 	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
 	"description": "office productivity suite -- word processor (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/updates/main/libr/libreoffice/libreoffice-writer-nogui_25.2.3-2+deb13u4_amd64.deb",
+	"filename": "pool/main/libr/libreoffice/libreoffice-writer-nogui_25.2.3-2+deb13u4_amd64.deb",
 	"size": 9147192,
+	"md5": "f9c11f661e06f51d425c18f0aed01374",
 	"sha256": "1545437a75a04526d9919916903acd7c2b133bd067cc3a3a0bce944957904dee",
+	"descriptionMd5": "963dc225bb14f9e5974345a7995f16a7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-writer-nogui",
+	"source": "libreoffice",
+	"version": "4:25.2.3-2+deb13u5",
+	"section": "editors",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-base-core (= 4:25.2.3-2+deb13u5)",
+		"libreoffice-core-nogui (= 4:25.2.3-2+deb13u5) | libreoffice-core (= 4:25.2.3-2+deb13u5)",
+		"libabw-0.1-1",
+		"libc6 (>= 2.38)",
+		"libe-book-0.1-1",
+		"libepubgen-0.1-1",
+		"libetonyek-0.1-1",
+		"libgcc-s1 (>= 3.3.1)",
+		"libicu76 (>= 76.1-1~)",
+		"libmwaw-0.3-3",
+		"libodfgen-0.1-1",
+		"librevenge-0.0-0",
+		"libstaroffice-0.0-0",
+		"libstdc++6 (>= 13.1)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"libwpd-0.10-10",
+		"libwpg-0.3-3",
+		"libwps-0.4-4",
+		"libxml2 (>= 2.7.4)",
+		"uno-libs-private",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"recommends": [
+		"libreoffice-math-nogui"
+	],
+	"suggests": [
+		"fonts-crosextra-caladea",
+		"fonts-crosextra-carlito",
+		"libreoffice-base",
+		"libreoffice-java-common (>= 4:25.2.3~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-writer"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"conflicts": [
+		"libreoffice-writer"
+	],
+	"installedSize": 30171,
+	"maintainer": "Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>",
+	"description": "office productivity suite -- word processor (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/updates/main/libr/libreoffice/libreoffice-writer-nogui_25.2.3-2+deb13u5_amd64.deb",
+	"size": 9152016,
+	"sha256": "1a4a150efa2edb604050a98eb8f13bf544a3900ffb9f2d423f1366c9048e2adc",
 	"descriptionMd5": "963dc225bb14f9e5974345a7995f16a7"
 }]

@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "myproxy-server",
-	"source": "myproxy (6.2.20-1)",
-	"version": "6.2.20-1+b1",
+	"source": "myproxy",
+	"version": "6.2.20-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libmyproxy6t64 (= 6.2.20-1+b1)",
+		"libmyproxy6t64 (= 6.2.20-2)",
 		"libbsd0 (>= 0.2.0)",
 		"libc6 (>= 2.38)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"adduser"
 	],
-	"installedSize": 137,
+	"installedSize": 136,
 	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
 	"description": "Credential Management Service Server",
 	"homepage": "http://grid.ncsa.illinois.edu/myproxy/",
-	"filename": "pool/main/m/myproxy/myproxy-server_6.2.20-1+b1_amd64.deb",
-	"size": 40772,
-	"md5": "f5da6319b5c143b7cada194b174176d3",
-	"sha256": "6f6828f8f4ed0a1af9036111fa78db6f9cd7ef612817ec1cbf90aed99d899850",
+	"filename": "pool/main/m/myproxy/myproxy-server_6.2.20-2_amd64.deb",
+	"size": 40576,
+	"md5": "034c694cdd992fe83850bcc4ab458a5c",
+	"sha256": "6829d5cc777c2cd91a33f911b6b0d009a011ccdea045cd121a633045e6f035b2",
 	"descriptionMd5": "da41e674f852e4c491088184aa3135c4"
 }]
