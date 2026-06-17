@@ -6,7 +6,7 @@
 	],
 	"package": "librust-futures-util-dev",
 	"source": "rust-futures-util",
-	"version": "0.3.32-1",
+	"version": "0.3.32-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -29,15 +29,19 @@
 		"librust-pin-project-lite-0.2+default-dev (>= 0.2.6)",
 		"librust-slab-0.4+std-dev (>= 0.4.7)",
 		"librust-slab-0.4-dev (>= 0.4.7)",
-		"librust-spin-0.9+default-dev"
+		"librust-spin+default-dev (<< 0.13)",
+		"librust-spin+default-dev (>= 0.9.8)"
 	],
-	"installedSize": 952,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 951,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Common utilities for the futures-rs library - Rust source code - Rust source code",
 	"homepage": "https://rust-lang.github.io/futures-rs",
-	"filename": "pool/main/r/rust-futures-util/librust-futures-util-dev_0.3.32-1_amd64.deb",
-	"size": 128912,
-	"md5": "53f4c6abc4e43c6cd79dcb983559e6ef",
-	"sha256": "f099aa1e9740e33157c78cf3c0092d125276499753bbff7be78881963c68bfb3",
+	"filename": "pool/main/r/rust-futures-util/librust-futures-util-dev_0.3.32-3_amd64.deb",
+	"size": 128928,
+	"md5": "66a34879babe7e4892a3ea0ddceabc0c",
+	"sha256": "dd4946fa977368a35961eeb112e2adadbe1ea857bf83caf23330ed52cfbd4fb7",
 	"descriptionMd5": "11af644094c4242852607920d1bebf2b"
 }

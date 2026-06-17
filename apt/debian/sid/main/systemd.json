@@ -5,20 +5,22 @@
 		"Size"
 	],
 	"package": "systemd",
-	"version": "261~rc3-1",
+	"version": "261~rc4-1",
 	"section": "admin",
 	"priority": "important",
 	"architecture": "amd64",
 	"depends": [
 		"libblkid1",
+		"libcryptsetup12",
 		"libcurl4t64",
+		"libmount1",
 		"libssl3t64",
-		"libsystemd0 (= 261~rc3-1)",
+		"libsystemd0 (= 261~rc4-1)",
 		"mount"
 	],
 	"preDepends": [
 		"libc6 (>= 2.34)",
-		"libsystemd-shared (= 261~rc3-1)"
+		"libsystemd-shared (= 261~rc4-1)"
 	],
 	"recommends": [
 		"default-dbus-system-bus | dbus-system-bus",
@@ -28,8 +30,6 @@
 		"systemd-cryptsetup",
 		"libacl1",
 		"libbpf1",
-		"libcryptsetup12",
-		"libmount1",
 		"libpam0g",
 		"libseccomp2",
 		"libselinux1"
@@ -56,13 +56,13 @@
 		"systemctl",
 		"systemd-shim"
 	],
-	"installedSize": 11695,
+	"installedSize": 11758,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "system and service manager",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd_261~rc3-1_amd64.deb",
-	"size": 3497592,
-	"md5": "773dbdcb642518da9b9b81969048d117",
-	"sha256": "71d9320aa3f1562e2e11ce9c545c774d086a0a87a0180a7e884e526f6d23bbbe",
+	"filename": "pool/main/s/systemd/systemd_261~rc4-1_amd64.deb",
+	"size": 3503056,
+	"md5": "76634d95165c272bd5aad278db324eae",
+	"sha256": "0e95aaf43bb1f9d22ee66a92959fb5ba5af61111c11784c19c9f2ce21d39b1e0",
 	"descriptionMd5": "2728f00e9cb47f195aa39097a3afbc42"
 }

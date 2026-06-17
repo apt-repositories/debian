@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "gnome-kiosk",
-	"version": "50.0-2",
+	"version": "50.1-1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"gnome-settings-daemon",
 		"gsettings-desktop-schemas",
+		"init-system-helpers (>= 1.66~)",
 		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.14.0)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
@@ -24,16 +25,16 @@
 		"libsystemd0"
 	],
 	"recommends": [
-		"gnome-kiosk-search-appliance (= 50.0-2)",
-		"gnome-kiosk-script-session (= 50.0-2)"
+		"gnome-kiosk-script-session (= 50.1-1)",
+		"gnome-kiosk-search-appliance (= 50.1-1)"
 	],
-	"installedSize": 400,
+	"installedSize": 403,
 	"maintainer": "Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>",
 	"description": "mutter based compositor for kiosks",
 	"homepage": "https://gitlab.gnome.org/GNOME/gnome-kiosk",
-	"filename": "pool/main/g/gnome-kiosk/gnome-kiosk_50.0-2_amd64.deb",
-	"size": 98172,
-	"md5": "cdf96d1ac208b98d4fbbbf38d7cebd65",
-	"sha256": "14af66c2f86ffecde90ad6766d16bc870afb06820107b6c21b069b0947b723f9",
+	"filename": "pool/main/g/gnome-kiosk/gnome-kiosk_50.1-1_amd64.deb",
+	"size": 98784,
+	"md5": "0d7ee878466e1ec304a4bd73d9b29fa3",
+	"sha256": "aaed69b169204ac58ca1cabe2e231594c1b544bcecf9b38cdee1393d0d8a2335",
 	"descriptionMd5": "51ef43472e2f64a72611af0788332a4f"
 }]
