@@ -5,20 +5,22 @@
 		"Size"
 	],
 	"package": "librust-lazy-static-dev",
-	"source": "rust-lazy-static (1.5.0-1)",
-	"version": "1.5.0-1+b1",
+	"source": "rust-lazy-static",
+	"version": "1.5.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-spin-0.9+once-dev (>= 0.9.8-~~)"
+		"librust-spin+once-dev (<< 0.13)",
+		"librust-spin+once-dev (>= 0.9.8)"
 	],
-	"installedSize": 69,
+	"installedSize": 71,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Macro for declaring lazily evaluated statics - Rust source code",
-	"filename": "pool/main/r/rust-lazy-static/librust-lazy-static-dev_1.5.0-1+b1_amd64.deb",
-	"size": 14156,
-	"md5": "34e62cc1721590cc19d41016b897d316",
-	"sha256": "f0efbfc1bcffe71a8501eddf8acc3ee94cb50959e15d9cb514345af23f8adff2",
+	"homepage": "https://github.com/rust-lang-nursery/lazy-static.rs",
+	"filename": "pool/main/r/rust-lazy-static/librust-lazy-static-dev_1.5.0-3_amd64.deb",
+	"size": 14312,
+	"md5": "367ab194d4cbd3b888fc9b1ac1b4fb74",
+	"sha256": "93b075c40a8f86aa3329563e99e85273c7d29f1508bc71b2cbbc8457e3bf60fc",
 	"descriptionMd5": "afe599dfcdf98b40f4d05c80922ecf8f"
 }]

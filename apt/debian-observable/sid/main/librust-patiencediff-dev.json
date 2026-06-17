@@ -5,18 +5,24 @@
 		"Size"
 	],
 	"package": "librust-patiencediff-dev",
-	"source": "rust-patiencediff (0.1.2-1)",
-	"version": "0.1.2-1+b2",
+	"source": "rust-patiencediff",
+	"version": "0.3.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 67,
+	"depends": [
+		"librust-clap-4+default-dev",
+		"librust-clap-4+derive-dev",
+		"librust-patchkit+default-dev (<< 0.4)",
+		"librust-patchkit+default-dev (>= 0.1.9)"
+	],
+	"installedSize": 81,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The patiencediff algorithm - Rust source code",
 	"homepage": "https://github.com/breezy-team/patiencediff-rs",
-	"filename": "pool/main/r/rust-patiencediff/librust-patiencediff-dev_0.1.2-1+b2_amd64.deb",
-	"size": 15432,
-	"md5": "83b3292cb1d25cdc6081a3046e990557",
-	"sha256": "9ff3f0c546af1f6c8ab2755b617e9d38cbfe57e4efe3ccef90696f2090cf03a1",
+	"filename": "pool/main/r/rust-patiencediff/librust-patiencediff-dev_0.3.0-1_amd64.deb",
+	"size": 17896,
+	"md5": "4b61719e170207c88fdec62def006ecc",
+	"sha256": "5eebf6a8e52ef07570cf4f8dfd724d0ba662d4a53cfcd64dab9376bfb94c5288",
 	"descriptionMd5": "f96612dbd71d868b0f7806a74c35f0f5"
 }]
