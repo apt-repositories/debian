@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "byobu",
-	"version": "5.133-1.2",
+	"version": "7.13-1",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
 		"python3:any",
+		"bc",
 		"gettext-base",
 		"iproute2",
 		"python3",
+		"python3-cryptography",
 		"python3-newt",
-		"tmux (>= 1.5)",
+		"python3-tornado",
+		"tmux",
 		"gawk"
 	],
 	"recommends": [
@@ -52,13 +55,13 @@
 		"screen-profiles (<< 2.0)",
 		"screen-profiles-extras (<< 2.0)"
 	],
-	"installedSize": 625,
+	"installedSize": 1153,
 	"maintainer": "Dustin Kirkland <kirkland@ubuntu.com>",
 	"description": "text window manager, shell multiplexer, integrated DevOps environment",
 	"homepage": "https://www.byobu.org",
-	"filename": "pool/main/b/byobu/byobu_5.133-1.2_all.deb",
-	"size": 172696,
-	"md5": "ae738aa30a56b7c2c7a0cebe6ca10b58",
-	"sha256": "ffd9b41a10f8f09464271b4d8c5d2b0ca01c9937a8b1258ff2703bc3ae482c50",
+	"filename": "pool/main/b/byobu/byobu_7.13-1_all.deb",
+	"size": 369528,
+	"md5": "b65670e35cc70477341dca8492a357a6",
+	"sha256": "c6a491bb31bd1afbcc1137e88bcca323dd3bf59e7806428d99a6ba9b43e3b25e",
 	"descriptionMd5": "0d3627a1db464b5d00445f2b25b3e914"
 }]

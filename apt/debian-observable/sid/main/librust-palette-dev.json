@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-palette-dev",
-	"source": "rust-palette (0.7.6-2)",
-	"version": "0.7.6-2+b1",
+	"source": "rust-palette",
+	"version": "0.7.6-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,22 +15,25 @@
 		"librust-approx-0.5-dev",
 		"librust-bytemuck-1+default-dev",
 		"librust-fast-srgb8-1+default-dev",
-		"librust-libm-0.2-dev (>= 0.2.1-~~)",
-		"librust-palette-derive-0.7+default-dev (>= 0.7.6-~~)",
-		"librust-palette-derive-0.7+find-crate-dev (>= 0.7.6-~~)",
+		"librust-libm-0.2-dev (>= 0.2.1)",
+		"librust-palette-derive-0.7+default-dev (>= 0.7.6)",
+		"librust-palette-derive-0.7+find-crate-dev (>= 0.7.6)",
 		"librust-phf-0.11+macros-dev",
 		"librust-rand-0.8-dev",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+serde-derive-dev",
-		"librust-wide-0.7-dev (>= 0.7.3-~~)"
+		"librust-wide-1-dev"
 	],
-	"installedSize": 1433,
+	"breaks": [
+		"rustc (<< 1.60.0~)"
+	],
+	"installedSize": 1435,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Convert and manage colors with a focus on correctness, flexibility and ease of use - Rust source code",
 	"homepage": "https://github.com/Ogeon/palette",
-	"filename": "pool/main/r/rust-palette/librust-palette-dev_0.7.6-2+b1_amd64.deb",
-	"size": 175500,
-	"md5": "77aaf5c939468179420536adc59a2552",
-	"sha256": "566334233eadd9626fdf8d2431f7b4b4375eccd2dbc07c7c4402b2ed117a0a2a",
+	"filename": "pool/main/r/rust-palette/librust-palette-dev_0.7.6-3_amd64.deb",
+	"size": 175596,
+	"md5": "4effd0d86e35ee7555be71c3f206c4ca",
+	"sha256": "bf2baaec0323df8cb2b781aa44ce8474f7e4dfe4679f0f4b177568fed38391b7",
 	"descriptionMd5": "05313cb55915aa402fc1ea4fdc7e52fb"
 }]

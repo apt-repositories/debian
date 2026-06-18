@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libclapper-gtk-0.0-0",
-	"source": "clapper (0.8.0-3)",
-	"version": "0.8.0-3+b1",
+	"source": "clapper",
+	"version": "0.10.0-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,19 @@
 		"libgstreamer1.0-0 (>= 1.16.0)",
 		"libgtk-4-1 (>= 4.7.2)"
 	],
-	"installedSize": 343,
+	"replaces": [
+		"clapper (<< 0.8.0-3~)"
+	],
+	"breaks": [
+		"clapper (<< 0.8.0-3~)"
+	],
+	"installedSize": 364,
 	"maintainer": "Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>",
 	"description": "GTK integration library used by Clapper",
 	"homepage": "https://rafostar.github.io/clapper",
-	"filename": "pool/main/c/clapper/libclapper-gtk-0.0-0_0.8.0-3+b1_amd64.deb",
-	"size": 79532,
-	"md5": "5b23ebcf693d3cd0e7047d6cfdc3e23a",
-	"sha256": "a0ce2e2be28122eea9dda209aecbe9af7f707649e4e2df27079fafba1b4cd324",
+	"filename": "pool/main/c/clapper/libclapper-gtk-0.0-0_0.10.0-1_amd64.deb",
+	"size": 83472,
+	"md5": "b251428eb9452b2052828b98d460c859",
+	"sha256": "b2f6728cec04c0c0eb96f76f8c56c0b00617a8fc523fecbfd4a742331452d24b",
 	"descriptionMd5": "5c5852431d23773b13ead071b16bb9d6"
 }]
