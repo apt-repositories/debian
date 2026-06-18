@@ -5,26 +5,32 @@
 		"Size"
 	],
 	"package": "gir1.2-clappergtk-0.0",
-	"source": "clapper (0.8.0-3)",
-	"version": "0.8.0-3+b1",
+	"source": "clapper",
+	"version": "0.10.0-1",
 	"section": "introspection",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gir1.2-clapper-0.0 (= 0.8.0-3+b1)",
+		"gir1.2-clapper-0.0 (= 0.10.0-1)",
 		"gir1.2-glib-2.0",
 		"gir1.2-gobject-2.0",
 		"gir1.2-gst-1.0",
 		"gir1.2-gtk-4.0",
-		"libclapper-gtk-0.0-0 (>= 0.8.0)"
+		"libclapper-gtk-0.0-0 (>= 0.10.0)"
 	],
-	"installedSize": 27,
+	"replaces": [
+		"clapper (<< 0.8.0-3~)"
+	],
+	"breaks": [
+		"clapper (<< 0.8.0-3~)"
+	],
+	"installedSize": 28,
 	"maintainer": "Debian GNOME Extras Maintainers <pkg-gnome-extras-maintainers@lists.alioth.debian.org>",
 	"description": "GObject introspection data for the clapper-gtk library",
 	"homepage": "https://rafostar.github.io/clapper",
-	"filename": "pool/main/c/clapper/gir1.2-clappergtk-0.0_0.8.0-3+b1_amd64.deb",
-	"size": 7180,
-	"md5": "2a04a5a9f5d76cba5f31ac2180f4c2fc",
-	"sha256": "98e899ab12b04e3e64776b057a6a3017872365ca8c61961619e00dee8a6d7800",
+	"filename": "pool/main/c/clapper/gir1.2-clappergtk-0.0_0.10.0-1_amd64.deb",
+	"size": 7340,
+	"md5": "17c20250bf595c66038983ded00646e1",
+	"sha256": "1a53a356c3e28c97da0ff2f1f9094fa6717f6e23e94383b1de0bbc8f24866194",
 	"descriptionMd5": "04d9f32a6e3bcf243c68b0f6891d2de1"
 }]

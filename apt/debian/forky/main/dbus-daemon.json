@@ -5,19 +5,20 @@
 		"Size"
 	],
 	"package": "dbus-daemon",
-	"source": "dbus",
-	"version": "1.16.2-5",
+	"source": "dbus (1.16.2-5)",
+	"version": "1.16.2-5+b1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dbus-bin (= 1.16.2-5)",
+		"dbus-bin (= 1.16.2-5+b1)",
 		"dbus-session-bus-common (>= 1.16.2-5)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libapparmor1 (>= 2.8.94)",
 		"libaudit1 (>= 1:2.2.1)",
 		"libc6 (>= 2.34)",
 		"libcap-ng0 (>= 0.7.9)",
-		"libdbus-1-3 (= 1.16.2-5)",
+		"libdbus-1-3 (= 1.16.2-5+b1)",
 		"libexpat1 (>= 2.1~beta3)",
 		"libselinux1 (>= 3.1~)",
 		"libsystemd0"
@@ -28,13 +29,13 @@
 	"breaks": [
 		"dbus (<< 1.13.18-2~)"
 	],
-	"installedSize": 349,
+	"installedSize": 350,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "simple interprocess messaging system (reference message bus)",
 	"homepage": "https://dbus.freedesktop.org/",
-	"filename": "pool/main/d/dbus/dbus-daemon_1.16.2-5_amd64.deb",
-	"size": 155884,
-	"md5": "77aecca87c84b70466589d4f62858d83",
-	"sha256": "af25e1e7bcdb1b602a8898af26cc82c63a0ede4eb23c4820a2ecd9a19dc360c1",
+	"filename": "pool/main/d/dbus/dbus-daemon_1.16.2-5+b1_amd64.deb",
+	"size": 156100,
+	"md5": "09346eb4ef19dc8fac915627a364ef1d",
+	"sha256": "59a186f925ace3f3b5517c9d4d204df7d18b02124e1618300b3d8c5eba0ba592",
 	"descriptionMd5": "e4a95da24915a6ba2421c56a99e0f414"
 }

@@ -5,26 +5,27 @@
 		"Size"
 	],
 	"package": "arpwatch",
-	"version": "2.1a15-10",
+	"version": "2.1a15-11",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"gawk",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libpcap0.8t64 (>= 0.9.8)"
 	],
 	"recommends": [
 		"ieee-data"
 	],
-	"installedSize": 153,
+	"installedSize": 159,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "Ethernet/FDDI station activity monitor",
 	"homepage": "https://ee.lbl.gov/",
-	"filename": "pool/main/a/arpwatch/arpwatch_2.1a15-10_amd64.deb",
-	"size": 42668,
-	"md5": "6e00e4e8bd50119ac933fc24818455ab",
-	"sha256": "d405aefd81be895ec9b7cae944c36045a67a3f01f08d9f634a4b3c9740e8114d",
+	"filename": "pool/main/a/arpwatch/arpwatch_2.1a15-11_amd64.deb",
+	"size": 42400,
+	"md5": "512f6baf4014bc29bf6c61cb6472907e",
+	"sha256": "ce53946c02fd0163b6dcfce801223a4aa5bbbe062767ed3ea551846fbe8df0b6",
 	"descriptionMd5": "753ca5b7573526eab8dbf15e803ec534"
 }

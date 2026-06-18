@@ -6,17 +6,21 @@
 	],
 	"package": "golang-go.yaml-yaml-v4-dev",
 	"source": "golang-go.yaml-yaml-v4",
-	"version": "4.0.0~rc4-1",
+	"version": "4.0.0~rc5-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 826,
+	"breaks": [
+		"golang-github-lxc-incus-dev (<< 7.0.0-3~)",
+		"yq-go (<< 4.53.3+ds-1~)"
+	],
+	"installedSize": 971,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "YAML org maintained fork of go-yaml/yaml",
 	"homepage": "https://github.com/yaml/go-yaml",
-	"filename": "pool/main/g/golang-go.yaml-yaml-v4/golang-go.yaml-yaml-v4-dev_4.0.0~rc4-1_all.deb",
-	"size": 136400,
-	"md5": "3f62c3be5963aad5ba7ae6bab4651562",
-	"sha256": "5c698d8dfafaac8dcd7f477e9d2967faaa647531fec9b78c888371300a6890e4",
+	"filename": "pool/main/g/golang-go.yaml-yaml-v4/golang-go.yaml-yaml-v4-dev_4.0.0~rc5-2_all.deb",
+	"size": 157292,
+	"md5": "195d29487cf65b010b79798746e26ce6",
+	"sha256": "293a8dda9170e8ff08b8243287f2d6046865401bb2443e6569ce4c627bb99b16",
 	"descriptionMd5": "8afb2d5f4e7ea0f07d332bfe70cf5545"
 }]

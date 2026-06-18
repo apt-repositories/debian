@@ -5,27 +5,28 @@
 		"Size"
 	],
 	"package": "ident2",
-	"version": "1.07-5",
+	"version": "1.07-6",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"netbase",
 		"openbsd-inetd | inet-superserver",
 		"update-inetd",
-		"libc6 (>= 2.34)"
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"libc6 (>= 2.38)"
 	],
 	"conflicts": [
 		"ident-server"
 	],
-	"installedSize": 54,
+	"installedSize": 59,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
-	"description": "An advanced ident daemon",
+	"description": "advanced ident daemon",
 	"homepage": "https://github.com/mbacarella/ident2",
-	"filename": "pool/main/i/ident2/ident2_1.07-5_amd64.deb",
-	"size": 18352,
-	"md5": "d0c4ce6b8dd674d82a29a7381e71dcd8",
-	"sha256": "8b03563321a0935b33e80c19bf9c752497274a7879cd3957cc4cd50c5bded4a5",
-	"descriptionMd5": "c3df7c3fcf7671dd47da06d6dfe9cf9a"
+	"filename": "pool/main/i/ident2/ident2_1.07-6_amd64.deb",
+	"size": 18600,
+	"md5": "655061583ac3a92d74b10dec61e8247a",
+	"sha256": "d8f433a4fe78013646503b166106787f818502645fee8a78f4aeb492c827da09",
+	"descriptionMd5": "616493fe2fe626b6cd2a2581ef5a5d51"
 }
