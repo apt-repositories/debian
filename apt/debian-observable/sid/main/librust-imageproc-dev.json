@@ -6,7 +6,7 @@
 	],
 	"package": "librust-imageproc-dev",
 	"source": "rust-imageproc",
-	"version": "0.26.1-2",
+	"version": "0.27.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,20 +17,23 @@
 		"librust-image-0.25+rayon-dev (>= 0.25.8)",
 		"librust-image-0.25-dev (>= 0.25.8)",
 		"librust-itertools-0.14+use-std-dev",
-		"librust-nalgebra-0.34+std-dev",
+		"librust-nalgebra-0.35+std-dev",
 		"librust-num-0.4-dev",
 		"librust-rand-0.10+thread-rng-dev",
 		"librust-rand-distr-0.6-dev",
 		"librust-rayon-1-dev (>= 1.10.0)",
 		"librust-rustdct-0.7+default-dev (>= 0.7.1)"
 	],
-	"installedSize": 751,
+	"breaks": [
+		"rustc (<< 1.87.0~)"
+	],
+	"installedSize": 800,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Image processing operations - Rust source code",
 	"homepage": "https://github.com/image-rs/imageproc",
-	"filename": "pool/main/r/rust-imageproc/librust-imageproc-dev_0.26.1-2_amd64.deb",
-	"size": 116592,
-	"md5": "d05a3d8c4a425e7652a8d60afa2eb86d",
-	"sha256": "259d615bd3f9566d7574ce893d1d0c1ec0c9b9a3703b8c7abb2e8b4fe2feb634",
+	"filename": "pool/main/r/rust-imageproc/librust-imageproc-dev_0.27.0-2_amd64.deb",
+	"size": 122376,
+	"md5": "3344e246b812363c6f56a946bd2b41e1",
+	"sha256": "f089cabfcc3b126441be9fe3a22d2ee509c9cca23a6748266a0026350f7f32bf",
 	"descriptionMd5": "9f565774651f37769468b0ee46535da0"
 }]
