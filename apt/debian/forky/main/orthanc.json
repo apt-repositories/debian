@@ -5,16 +5,17 @@
 		"Size"
 	],
 	"package": "orthanc",
-	"version": "1.12.11+dfsg-7",
+	"version": "1.12.11+dfsg-8",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"locales",
 		"libcivetweb1 (>= 1)",
 		"tzdata",
 		"libssl-dev",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libboost-filesystem1.90.0 (>= 1.90.0)",
 		"libboost-iostreams1.90.0 (>= 1.90.0)",
 		"libboost-locale1.90.0 (>= 1.90.0)",
@@ -34,15 +35,15 @@
 		"libstdc++6 (>= 14)",
 		"libuuid1 (>= 2.16)",
 		"zlib1g (>= 1:1.2.0)",
-		"dcmtk-data (>= 3.7.0+really3.7.0-1)"
+		"dcmtk-data (>= 3.7.0+really3.7.0-5)"
 	],
-	"installedSize": 12120,
+	"installedSize": 12118,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "Lightweight, RESTful DICOM server for medical imaging",
 	"homepage": "https://www.orthanc-server.com/",
-	"filename": "pool/main/o/orthanc/orthanc_1.12.11+dfsg-7_amd64.deb",
-	"size": 2946360,
-	"md5": "d3c6a8d09439d6037284b2f23919e033",
-	"sha256": "62f5cbd676660a63289cb64af47c68d9c175169b7e6a354608da6fbd710977da",
+	"filename": "pool/main/o/orthanc/orthanc_1.12.11+dfsg-8_amd64.deb",
+	"size": 2944608,
+	"md5": "217f27545b5f61d80bc4203d09494262",
+	"sha256": "64d3721b1d6976775b78c103922c432805a6a8c65c6be49e67c3d0d168d7a27f",
 	"descriptionMd5": "583441f4d2fe9fa37be1da8d3a612ce1"
 }

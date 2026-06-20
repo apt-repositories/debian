@@ -6,21 +6,23 @@
 	],
 	"package": "libpam-biometric",
 	"source": "ukui-biometric-auth",
-	"version": "1.2.2.3-1",
+	"version": "4.20.0.0-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0t64 (>= 2.12.0)",
 		"libpam0g (>= 0.99.7.1)",
-		"libqt5core5t64 (>= 5.15.1)",
-		"libqt5dbus5t64 (>= 5.14.1)",
-		"libstdc++6 (>= 4.1.1)"
+		"libqt6core6t64 (>= 6.10.2)",
+		"libqt6dbus6 (>= 6.8.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 5.2)",
+		"libukui-log4qt1 (>= 4.10.0.0)"
 	],
 	"suggests": [
-		"biometric-auth",
-		"pkexec"
+		"biometric-auth"
 	],
 	"replaces": [
 		"ukui-polkit (<< 1.0.3)"
@@ -28,13 +30,13 @@
 	"breaks": [
 		"ukui-polkit (<< 1.0.3)"
 	],
-	"installedSize": 807,
+	"installedSize": 1278,
 	"maintainer": "Kylin Team <team+kylin@tracker.debian.org>",
-	"description": "Insertable authentication module for PAM",
+	"description": "PAM module for biometric authentication",
 	"homepage": "https://gitee.com/openkylin/ukui-biometric-auth",
-	"filename": "pool/main/u/ukui-biometric-auth/libpam-biometric_1.2.2.3-1_amd64.deb",
-	"size": 427060,
-	"md5": "60509113f3b4f66b1466bc7b1a79d882",
-	"sha256": "a220bab214b20b72ea5f01579e88fa786e182b4f0e299e00654a0dadd56dc612",
-	"descriptionMd5": "fa0648e72a0ea4d1a93df6ef56517fb8"
+	"filename": "pool/main/u/ukui-biometric-auth/libpam-biometric_4.20.0.0-1_amd64.deb",
+	"size": 554628,
+	"md5": "8e03fb8bbba0447e60c8323207485be9",
+	"sha256": "f21e2d29cde9f43adda0428d9bb2df5b845b0286480381d3cfe7165309e9bd7b",
+	"descriptionMd5": "c8a32dce742fe7ad131b2c99983a8108"
 }
