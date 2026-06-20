@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "lighttpd",
-	"version": "1.4.82-3",
+	"version": "1.4.84-1",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libcrypt1 (>= 1:4.1.0)",
 		"libnettle8t64",
@@ -32,13 +33,13 @@
 		"lighttpd-modules-lua",
 		"media-types | mime-support"
 	],
-	"installedSize": 1043,
+	"installedSize": 1037,
 	"maintainer": "Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>",
 	"description": "fast webserver with minimal memory footprint",
 	"homepage": "https://www.lighttpd.net/",
-	"filename": "pool/main/l/lighttpd/lighttpd_1.4.82-3_amd64.deb",
-	"size": 373384,
-	"md5": "595d9dbe368856389495b8718fed5aa7",
-	"sha256": "6f64d85ff3f3bf7a8c1b39bee5f4cb0c84bb9f9fb974c59a71e33591350e4a95",
+	"filename": "pool/main/l/lighttpd/lighttpd_1.4.84-1_amd64.deb",
+	"size": 375944,
+	"md5": "f533c84f154c352e1bd8e9037bced1a9",
+	"sha256": "e50713011994af6db039776fc0314829990deb9ebda9522db087f4d79d84140c",
 	"descriptionMd5": "3cbd5b2dae1802558158d8c2aae494ab"
 }

@@ -5,27 +5,30 @@
 		"Size"
 	],
 	"package": "libqt5multimedia5",
-	"source": "qtmultimedia-opensource-src (5.15.17-2)",
-	"version": "5.15.17-2+b2",
+	"source": "qtmultimedia-opensource-src",
+	"version": "5.15.19-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.29)",
 		"libpulse0 (>= 0.99.1)",
-		"libqt5core5t64 (>= 5.15.17+dfsg~)",
-		"libqt5gui5t64 (>= 5.15.17+dfsg~) | libqt5gui5-gles (>= 5.15.17+dfsg~)",
-		"libqt5network5t64 (>= 5.15.17+dfsg~)",
+		"libqt5core5t64 (>= 5.15.19+dfsg~)",
+		"libqt5gui5t64 (>= 5.15.19+dfsg~) | libqt5gui5-gles (>= 5.15.19+dfsg~)",
+		"libqt5network5t64 (>= 5.15.19+dfsg~)",
 		"libstdc++6 (>= 5)",
-		"qtbase-abi-5-15-17"
+		"qtbase-abi-5-15-19"
 	],
-	"installedSize": 1261,
+	"recommends": [
+		"libqt5multimedia5-plugins (= 5.15.19-2)"
+	],
+	"installedSize": 1260,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Qt 5 Multimedia module",
 	"homepage": "https://doc.qt.io/qt-5/qtmultimedia-index.html",
-	"filename": "pool/main/q/qtmultimedia-opensource-src/libqt5multimedia5_5.15.17-2+b2_amd64.deb",
-	"size": 284452,
-	"md5": "fd6db5406ea2908777274f354e607254",
-	"sha256": "807ab20cba559734b75ed329a71464a47e9f20b12b3ab4b2b34004cfd4447ca4",
+	"filename": "pool/main/q/qtmultimedia-opensource-src/libqt5multimedia5_5.15.19-2_amd64.deb",
+	"size": 284412,
+	"md5": "a005b87213cf64a8f39e4772d74045ab",
+	"sha256": "466b797d47530df218d99fb0c26baebd568807880f54b83bdd521ec9ac44df32",
 	"descriptionMd5": "0fd4e386c6bde062c12b013340fc2cae"
 }
