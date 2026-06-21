@@ -5,19 +5,22 @@
 		"Size"
 	],
 	"package": "ocserv",
-	"source": "ocserv (1.4.1-1)",
-	"version": "1.4.1-1+b1",
+	"version": "1.5.0-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"ssl-cert",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
+		"libcjose0 (>= 0.6.0)",
 		"libcrypt1 (>= 1:4.1.0)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
 		"libev4t64 (>= 1:4.04)",
 		"libgnutls30t64 (>= 3.8.6)",
 		"libgssapi-krb5-2 (>= 1.14+dfsg)",
+		"libjansson4 (>= 2.14)",
 		"libllhttp9.4 (>= 9.3.0)",
 		"liblz4-1 (>= 0.0~r130)",
 		"libmaxminddb0 (>= 1.0.2)",
@@ -42,20 +45,19 @@
 		"dnsmasq",
 		"gnutls-bin",
 		"iproute2",
-		"iputils-ping | inetutils-ping",
-		"nuttcp"
+		"iputils-ping | inetutils-ping"
 	],
 	"suggests": [
 		"freeradius",
 		"haproxy"
 	],
-	"installedSize": 1181,
+	"installedSize": 1051,
 	"maintainer": "Aron Xu <aron@debian.org>",
 	"description": "OpenConnect VPN server compatible with Cisco AnyConnect VPN",
 	"homepage": "https://www.infradead.org/ocserv/",
-	"filename": "pool/main/o/ocserv/ocserv_1.4.1-1+b1_amd64.deb",
-	"size": 520908,
-	"md5": "f5919d91c7f98ce2c07e48d26a1a90e0",
-	"sha256": "55fd931175366f2133cfcd7c0dda662eb6965cfadb04969105cae78d0c40ace7",
+	"filename": "pool/main/o/ocserv/ocserv_1.5.0-1_amd64.deb",
+	"size": 270084,
+	"md5": "4078c993beb7036206840b30c5ad115b",
+	"sha256": "4d13d191ad8a5b0e62e83d0ece5e7d14d29654e79ee196901bbf6f3c3d3854ae",
 	"descriptionMd5": "4db510f429382469247db91a4d396ce4"
 }]

@@ -5,14 +5,21 @@
 		"Size"
 	],
 	"package": "openvas-scanner",
-	"version": "23.45.1-1",
+	"version": "23.45.1-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"gpg",
+		"gpg-agent",
+		"openssl",
+		"redis-server",
+		"rsync",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
-		"libcurl3t64-gnutls (>= 7.63.0)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
 		"libgcrypt20 (>= 1.12.0)",
 		"libglib2.0-0t64 (>= 2.76.0)",
 		"libgnutls30t64 (>= 3.8.6)",
@@ -25,13 +32,7 @@
 		"libmagic1t64 (>= 5.12)",
 		"libpcap0.8t64 (>= 0.9.8)",
 		"libsnmp45 (>= 5.9.5.2+dfsg)",
-		"libssh-4 (>= 0.8.0)",
-		"openssl",
-		"redis-server",
-		"adduser",
-		"rsync",
-		"gpg",
-		"gpg-agent"
+		"libssh-4 (>= 0.8.0)"
 	],
 	"recommends": [
 		"nmap",
@@ -39,10 +40,10 @@
 	],
 	"suggests": [
 		"gvm-tools",
-		"snmp",
+		"ike-scan",
 		"pnscan",
-		"strobe",
-		"ike-scan"
+		"snmp",
+		"strobe"
 	],
 	"replaces": [
 		"libopenvas-dev",
@@ -60,9 +61,9 @@
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "remote network security auditor - scanner",
 	"homepage": "https://www.greenbone.net/",
-	"filename": "pool/main/o/openvas-scanner/openvas-scanner_23.45.1-1_amd64.deb",
-	"size": 303492,
-	"md5": "5634be9d526348a48dc38975634742e9",
-	"sha256": "5352b2b7aceda037a283457ab76f9cab466298187bd723f8dfbe101d66f09638",
+	"filename": "pool/main/o/openvas-scanner/openvas-scanner_23.45.1-2_amd64.deb",
+	"size": 303932,
+	"md5": "c2d4bbdca42416b1a4bdf8a75d786dc0",
+	"sha256": "e594d06eff851237c468e841869b4b1c628d68a9f7490a4b225de7b8f69a4484",
 	"descriptionMd5": "c4f3f0ed3bf958b296703555fc8e2a31"
 }]
