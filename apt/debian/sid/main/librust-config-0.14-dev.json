@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-config-0.14-dev",
+	"source": "rust-config-0.14",
+	"version": "0.14.1-1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-async-trait-0.1+default-dev",
+		"librust-convert-case-0.11+default-dev",
+		"librust-indexmap-2+default-dev (>= 2.2)",
+		"librust-indexmap-2+serde-dev (>= 2.2)",
+		"librust-json5+default-dev (<< 2)",
+		"librust-json5+default-dev (>= 0.4.1)",
+		"librust-nom-7+default-dev",
+		"librust-pathdiff-0.2+default-dev",
+		"librust-serde-1+default-dev",
+		"librust-serde-1+derive-dev",
+		"librust-serde-json-1+default-dev",
+		"librust-serde-json-1+preserve-order-dev",
+		"librust-toml-0.8+default-dev",
+		"librust-toml-0.8+preserve-order-dev",
+		"librust-yaml-rust2+default-dev (>= 0.8)"
+	],
+	"replaces": [
+		"librust-config-dev (<< 0.14.2~)"
+	],
+	"breaks": [
+		"librust-config-dev (<< 0.14.2~)",
+		"rustc (<< 1.75.0~)"
+	],
+	"installedSize": 252,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Layered configuration system for Rust applications - Rust source code",
+	"homepage": "https://github.com/rust-cli/config-rs",
+	"filename": "pool/main/r/rust-config-0.14/librust-config-0.14-dev_0.14.1-1_amd64.deb",
+	"size": 41764,
+	"md5": "cfd971bc9edb60d048ee9f783c3a07da",
+	"sha256": "d7886240fa1a4a4adf1178f3b4e067e59eeaed22f00197f06c57fcfd46825680",
+	"descriptionMd5": "935af5fcc0ce586855d119e2cd1dda9c"
+}

@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "librust-libloading-dev",
-	"source": "rust-libloading (0.8.5-1)",
-	"version": "0.8.5-1+b1",
+	"source": "rust-libloading",
+	"version": "0.8.9-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cfg-if-1+default-dev"
 	],
-	"installedSize": 150,
+	"breaks": [
+		"rustc (<< 1.71.0~)"
+	],
+	"installedSize": 155,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Safer binding to dynamic library loading utilities - Rust source code",
-	"filename": "pool/main/r/rust-libloading/librust-libloading-dev_0.8.5-1+b1_amd64.deb",
-	"size": 28852,
-	"md5": "4ce654ee551cb05cc26036ea39693bb4",
-	"sha256": "670a65ccadfc86f2877f52eb8060a93caf537217db3b27a04798616ad80b58d6",
+	"homepage": "https://github.com/nagisa/rust_libloading/",
+	"filename": "pool/main/r/rust-libloading/librust-libloading-dev_0.8.9-1_amd64.deb",
+	"size": 29444,
+	"md5": "055cdc433d41df9193f14b5adab8d64d",
+	"sha256": "fe042a89d3939c86f6bfbee4b407aba97580582a8dff83e51220ed0f49ba76e2",
 	"descriptionMd5": "4b912249f3a2a3a56aa7a019a45f4c10"
 }]

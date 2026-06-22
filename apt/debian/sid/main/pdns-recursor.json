@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "pdns-recursor",
-	"version": "5.4.2-1",
+	"version": "5.4.2-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"dns-root-data",
 		"publicsuffix",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libboost-context1.90.0 (>= 1.90.0)",
 		"libboost-filesystem1.90.0 (>= 1.90.0)",
 		"libc6 (>= 2.42)",
@@ -28,14 +28,14 @@
 		"libstdc++6 (>= 13.1)",
 		"libsystemd0"
 	],
-	"installedSize": 16106,
+	"installedSize": 16109,
 	"maintainer": "pdns-recursor packagers <pdns-recursor@packages.debian.org>",
 	"description": "PowerDNS Recursor",
 	"homepage": "https://www.powerdns.com/",
 	"builtUsing": "rust-hyper-rustls (= 0.27.9+ds-1), rust-rustls (= 0.23.40+ds-1), rust-rustls-pki-types (= 1.14.1+ds-1), rust-rustls-webpki (= 0.103.13+ds-1), rustc (= 1.95.0+dfsg1-2)",
-	"filename": "pool/main/p/pdns-recursor/pdns-recursor_5.4.2-1_amd64.deb",
-	"size": 4174868,
-	"md5": "24d99cd3c412601e70f7bf98f1b485f1",
-	"sha256": "b9acfae532b331a9f1532cadbab4642f3e2194ac7f466c10b02cfe84e8644b90",
+	"filename": "pool/main/p/pdns-recursor/pdns-recursor_5.4.2-2_amd64.deb",
+	"size": 4174172,
+	"md5": "cce49ccfdd25bef56e8a53a219a2a0f7",
+	"sha256": "c62d37b5d27f49dca38044a8473387d68cb9c8996ffa8b2f3df4c8493744709f",
 	"descriptionMd5": "f3a31cef06b361a15135f2262ae08934"
 }

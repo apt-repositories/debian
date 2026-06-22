@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "librust-md-5-dev",
-	"source": "rust-md-5 (0.10.6-1)",
-	"version": "0.10.6-1+b2",
+	"source": "rust-md-5",
+	"version": "0.11.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cfg-if-1+default-dev",
-		"librust-digest-0.10+default-dev (>= 0.10.7-~~)",
-		"librust-digest-0.10+oid-dev (>= 0.10.7-~~)",
-		"librust-digest-0.10+std-dev (>= 0.10.7-~~)",
-		"librust-md5-asm-0.5+default-dev"
+		"librust-digest-0.11+alloc-dev",
+		"librust-digest-0.11+default-dev",
+		"librust-digest-0.11+oid-dev",
+		"librust-digest-0.11+zeroize-dev"
 	],
-	"installedSize": 71,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 74,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "MD5 hash function - Rust source code",
-	"filename": "pool/main/r/rust-md-5/librust-md-5-dev_0.10.6-1+b2_amd64.deb",
-	"size": 18140,
-	"md5": "a30f05ea68540ce92f6a1b887a5525d6",
-	"sha256": "51047ed2d9e3b7635585d12798fafdaa05b1c9a4d7567827afa5309d961aa2fc",
-	"descriptionMd5": "c559c2c9aca30492472cb31a7fe39e26"
+	"homepage": "https://github.com/RustCrypto/hashes",
+	"filename": "pool/main/r/rust-md-5/librust-md-5-dev_0.11.0-1_amd64.deb",
+	"size": 18812,
+	"md5": "70f521dcb9117381c94c958ebb0b8f96",
+	"sha256": "8365c5bddf8f1c862e55e2f2f68142d60a5b7b2bb8bdd1a064d8e8a38ea54120",
+	"descriptionMd5": "4bb5673c6bda01b8e62bdab4b4e9f657"
 }]

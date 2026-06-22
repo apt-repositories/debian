@@ -6,7 +6,7 @@
 	],
 	"package": "librust-jsonschema-dev",
 	"source": "rust-jsonschema",
-	"version": "0.37.3-2",
+	"version": "0.37.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -26,8 +26,8 @@
 		"librust-num-cmp-0.1+default-dev",
 		"librust-num-traits-0.2+default-dev (>= 0.2.19)",
 		"librust-percent-encoding-2+default-dev (>= 2.3)",
-		"librust-referencing-0.37+default-dev (>= 0.37.3)",
-		"librust-referencing-0.37+retrieve-async-dev (>= 0.37.3)",
+		"librust-referencing-0.37+default-dev (>= 0.37.4)",
+		"librust-referencing-0.37+retrieve-async-dev (>= 0.37.4)",
 		"librust-regex-1+default-dev (>= 1.11.1)",
 		"librust-regex-syntax-0.8+default-dev (>= 0.8.5)",
 		"librust-reqwest-0.12+blocking-dev",
@@ -44,13 +44,16 @@
 		"librust-uuid-simd-0.8+detect-dev",
 		"librust-uuid-simd-0.8+std-dev"
 	],
-	"installedSize": 1133,
+	"breaks": [
+		"rustc (<< 1.83.0~)"
+	],
+	"installedSize": 1151,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "JSON schema validaton library - Rust source code",
 	"homepage": "https://github.com/Stranger6667/jsonschema",
-	"filename": "pool/main/r/rust-jsonschema/librust-jsonschema-dev_0.37.3-2_amd64.deb",
-	"size": 127984,
-	"md5": "380a2092e2583eb7c4e1e6478c640cba",
-	"sha256": "6980646e4d7298512740b65c98794c66c903ff81e2c802be76ef58114bbd5446",
+	"filename": "pool/main/r/rust-jsonschema/librust-jsonschema-dev_0.37.4-1_amd64.deb",
+	"size": 127660,
+	"md5": "198eeb0d4761122e5a52b0c91144079b",
+	"sha256": "7d0d64a617af0e2c4be3d3062505ecc6b76fa98e4a9b61507ba6c1ade5240e4f",
 	"descriptionMd5": "1a9bc74ec8caa483724c0799b2fb5179"
 }
