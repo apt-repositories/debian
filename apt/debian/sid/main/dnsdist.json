@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "dnsdist",
-	"version": "2.0.5-2",
+	"version": "2.0.5-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libbpf1 (>= 1:0.7.0)",
 		"libc6 (>= 2.42)",
 		"libcap2 (>= 1:2.10)",
@@ -33,14 +34,14 @@
 	"recommends": [
 		"ca-certificates"
 	],
-	"installedSize": 12626,
+	"installedSize": 12630,
 	"maintainer": "dnsdist packagers <dnsdist@packages.debian.org>",
 	"description": "DNS loadbalancer",
 	"homepage": "https://dnsdist.org",
 	"builtUsing": "rustc (= 1.95.0+dfsg1-2)",
-	"filename": "pool/main/d/dnsdist/dnsdist_2.0.5-2_amd64.deb",
-	"size": 3226280,
-	"md5": "ef1475c4e2d8a18681ca13de3ca5f0e5",
-	"sha256": "734ce8f2324f65e6eca530da56c56877ae13f1ccdcef68378416fdcaebe2bc8c",
+	"filename": "pool/main/d/dnsdist/dnsdist_2.0.5-3_amd64.deb",
+	"size": 3223816,
+	"md5": "b2049bcfba316ae4837a4a17df15c23b",
+	"sha256": "b5cca524eed05b2db449cb4e3e6bb446e0f59d42f832018070c235608923c09d",
 	"descriptionMd5": "a513b049e15ad7501b5fce6d42694c08"
 }
