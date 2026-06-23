@@ -6,16 +6,16 @@
 	],
 	"package": "telnetd-ssl",
 	"source": "netkit-telnet-ssl",
-	"version": "0.17.41+really0.17-7",
+	"version": "0.17.41+really0.17-8",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"openbsd-inetd | inet-superserver",
 		"openssl",
 		"passwd",
-		"libc6 (>= 2.38)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.42)",
 		"libssl3t64 (>= 3.0.0)"
 	],
 	"conflicts": [
@@ -25,9 +25,9 @@
 	"installedSize": 158,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "telnet server with SSL encryption support",
-	"filename": "pool/main/n/netkit-telnet-ssl/telnetd-ssl_0.17.41+really0.17-7_amd64.deb",
-	"size": 57912,
-	"md5": "428add6907f24db3b2a6ecbec6924282",
-	"sha256": "8487949dbe6f9866e9061601007f3c9d700c4925a17ed05da9f7ea7ea31eeeaa",
+	"filename": "pool/main/n/netkit-telnet-ssl/telnetd-ssl_0.17.41+really0.17-8_amd64.deb",
+	"size": 57368,
+	"md5": "eb330ca9036e56622452f99c4a74fb2c",
+	"sha256": "aa773cc2a7cf40fbc157801e50c540c8b1e1b3f27c494488106307c7f5e33263",
 	"descriptionMd5": "1a10d998ad920e25b516a5fe5797e63c"
 }]

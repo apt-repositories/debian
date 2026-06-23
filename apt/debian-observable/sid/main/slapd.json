@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "slapd",
-	"source": "openldap (2.6.10+dfsg-1)",
-	"version": "2.6.10+dfsg-1+b2",
+	"source": "openldap",
+	"version": "2.6.13+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,15 +14,15 @@
 		"libargon2-1 (>= 0~20171227)",
 		"libc6 (>= 2.38)",
 		"libcrypt1 (>= 1:4.1.0)",
-		"libldap2 (= 2.6.10+dfsg-1+b2)",
+		"libldap2 (= 2.6.13+dfsg-1)",
 		"libltdl7 (>= 2.5.4)",
 		"libodbc2 (>= 2.3.1)",
 		"libperl5.40 (>= 5.40.0)",
 		"libsasl2-2 (>= 2.1.28+dfsg1)",
 		"libwrap0 (>= 7.6-4~)",
 		"psmisc",
-		"adduser",
-		"debconf (>= 0.5) | debconf-2.0"
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"preDepends": [
 		"debconf"
@@ -34,16 +34,22 @@
 		"libsasl2-modules",
 		"libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal"
 	],
+	"replaces": [
+		"slapd-contrib (<< 2.6.10+dfsg-2~)"
+	],
+	"breaks": [
+		"slapd-contrib (<< 2.6.10+dfsg-2~)"
+	],
 	"conflicts": [
 		"ldap-server"
 	],
-	"installedSize": 4730,
+	"installedSize": 4788,
 	"maintainer": "Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>",
 	"description": "OpenLDAP server (slapd)",
 	"homepage": "https://www.openldap.org/",
-	"filename": "pool/main/o/openldap/slapd_2.6.10+dfsg-1+b2_amd64.deb",
-	"size": 1471884,
-	"md5": "780e8f3dd669a13cbc3488b4f1af4fa0",
-	"sha256": "3e9227be4c3926914790dad79851b68fc6603ba9ff72b7af1a7734ee0da6aca3",
+	"filename": "pool/main/o/openldap/slapd_2.6.13+dfsg-1_amd64.deb",
+	"size": 1487428,
+	"md5": "c45f7b16447083a48fca512db202858b",
+	"sha256": "51a3436e3beeccd495f418193aab5df5e2906a7075829b1a66aa2000b766b1f1",
 	"descriptionMd5": "dd977840e276b3f03520c0ab1d050cf8"
 }]

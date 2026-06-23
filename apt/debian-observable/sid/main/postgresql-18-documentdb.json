@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-documentdb",
+	"source": "documentdb",
+	"version": "0.112-0-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18-cron",
+		"postgresql-18-pgvector",
+		"postgresql-18-postgis-3",
+		"postgresql-18-rum",
+		"postgresql-18",
+		"libbson2-2 (>= 2.3.1)",
+		"libc6 (>= 2.38)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libpq5"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 21)"
+	],
+	"installedSize": 13054,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "MongoDB-compatible open source document database built on PostgreSQL",
+	"homepage": "https://github.com/documentdb/documentdb",
+	"filename": "pool/main/d/documentdb/postgresql-18-documentdb_0.112-0-1_amd64.deb",
+	"size": 5078688,
+	"md5": "213624794ac71195589d41b88ed57971",
+	"sha256": "76d32c1b47a999baaa3809ffd765b9604bde1268cd7a3790edf7b491df818ca3",
+	"descriptionMd5": "a22a2482574a56f9f7dfb8e735ab3010"
+}]
