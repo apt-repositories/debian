@@ -5,25 +5,27 @@
 		"Size"
 	],
 	"package": "xcalib",
-	"version": "0.8.dfsg1-5",
+	"version": "0.10.dfsg1-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libx11-6",
-		"libxxf86vm1"
+		"libxext6",
+		"libxrandr2 (>= 2:1.2.0)",
+		"libxxf86vm1 (>= 1:1.1.4)"
 	],
 	"suggests": [
 		"icc-profiles"
 	],
-	"installedSize": 48,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"installedSize": 54,
+	"maintainer": "Taro Konda <taro-k@movasense.com>",
 	"description": "Tiny monitor calibration loader for Xorg",
-	"homepage": "http://xcalib.sourceforge.net/",
-	"filename": "pool/main/x/xcalib/xcalib_0.8.dfsg1-5_amd64.deb",
-	"size": 18832,
-	"md5": "98a3076b32178b1476dc0bd219c0dc9d",
-	"sha256": "27dc846e3fc516ca7e8e8d4d9c903c646851855719e8367392693f606175024e",
+	"homepage": "https://codeberg.org/OpenICC/xcalib",
+	"filename": "pool/main/x/xcalib/xcalib_0.10.dfsg1-1_amd64.deb",
+	"size": 20412,
+	"md5": "ccb16a95d62d308316ed5e5730d847f5",
+	"sha256": "6e250eaf89aa511ca7a5cd78ec4abd07aa788559a4f9c73b8f1b39e6f61eb1d3",
 	"descriptionMd5": "700bf571a80d2cc9691ed453302df1eb"
 }]

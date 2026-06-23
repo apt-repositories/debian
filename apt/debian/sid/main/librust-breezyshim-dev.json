@@ -6,7 +6,7 @@
 	],
 	"package": "librust-breezyshim-dev",
 	"source": "rust-breezyshim",
-	"version": "0.7.24-1",
+	"version": "0.7.26-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -43,7 +43,8 @@
 		"librust-regex-1+default-dev (>= 1.10)",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
-		"librust-sqlx-0.8+postgres-dev",
+		"librust-sqlx+postgres-dev (<< 0.10)",
+		"librust-sqlx+postgres-dev (>= 0.8)",
 		"librust-tempfile-3+default-dev (>= 3.20.0)",
 		"librust-url-2+default-dev",
 		"librust-url-2+serde-dev",
@@ -54,13 +55,13 @@
 	"breaks": [
 		"rustc (<< 1.83~)"
 	],
-	"installedSize": 778,
+	"installedSize": 779,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust shim around the Breezy Python API - Rust source code",
 	"homepage": "https://www.breezy-vcs.org/",
-	"filename": "pool/main/r/rust-breezyshim/librust-breezyshim-dev_0.7.24-1_amd64.deb",
-	"size": 105376,
-	"md5": "a4aee6d8ffc4d207e9cfbc3d237e2853",
-	"sha256": "fe5506b95bfdbe4513222ab8eaaef0f8bb7e245026230b0c2a57a3b2e0d97128",
+	"filename": "pool/main/r/rust-breezyshim/librust-breezyshim-dev_0.7.26-1_amd64.deb",
+	"size": 105636,
+	"md5": "fb2570763b8f38e32fae70055058d853",
+	"sha256": "80adb5fa3f728611c534630fe876eed99a5b8ea286a45c403ea9cfc6eb0464b3",
 	"descriptionMd5": "e9c71818fbf2d1c3254b7edd221049a8"
 }

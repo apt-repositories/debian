@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "ladvd",
-	"version": "1.1.2-4",
+	"version": "1.1.2-5",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"pciutils",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
 		"libcap-ng0 (>= 0.7.9)",
@@ -21,13 +21,13 @@
 		"libpci3 (>= 1:3.5.1)",
 		"libteam5 (>= 1.7)"
 	],
-	"installedSize": 134,
+	"installedSize": 140,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "LLDP/CDP sender",
 	"homepage": "https://github.com/sspans/ladvd/",
-	"filename": "pool/main/l/ladvd/ladvd_1.1.2-4_amd64.deb",
-	"size": 48568,
-	"md5": "b366968866e5eff4b17aaa228960089d",
-	"sha256": "8b2846afe228b7e8faeebaae27fd49be35ad9d2e97986b2248f7ea6d882242b7",
+	"filename": "pool/main/l/ladvd/ladvd_1.1.2-5_amd64.deb",
+	"size": 48948,
+	"md5": "772acc0b60f9fa82699bbd2cfc98dd66",
+	"sha256": "94b6b0e08d1d20a3910f5b3f34566f5511c08ab5257db0cea476f7ac9884b9fd",
 	"descriptionMd5": "bd87495c24188621bf5a5d4799e76d71"
 }]
