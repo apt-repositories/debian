@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-wycheproof-dev",
-	"source": "rust-wycheproof (0.5.0-2)",
-	"version": "0.5.0-2+b1",
+	"source": "rust-wycheproof",
+	"version": "0.6.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-base64-0.22+default-dev",
-		"librust-hex-0.4+default-dev",
+		"librust-data-encoding-2+default-dev",
 		"librust-num-bigint-0.4+default-dev",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
 		"librust-serde-json-1+default-dev"
 	],
-	"installedSize": 88210,
+	"breaks": [
+		"rustc (<< 1.57~)"
+	],
+	"installedSize": 88209,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Wycheproof test vectors - Rust source code",
-	"filename": "pool/main/r/rust-wycheproof/librust-wycheproof-dev_0.5.0-2+b1_amd64.deb",
-	"size": 11617584,
-	"md5": "f6b728bff1c6da016d3a564d9267153e",
-	"sha256": "8ee04e426445a254a9f0701cebdc6ee799482a251cf5c6f1f506fbf49505f75d",
+	"homepage": "https://github.com/randombit/wycheproof-rs",
+	"filename": "pool/main/r/rust-wycheproof/librust-wycheproof-dev_0.6.0-1_amd64.deb",
+	"size": 11622088,
+	"md5": "229c6c93e04137d7e06a8b06b695ff96",
+	"sha256": "fbdb50e135375223ab03139462b99b397c23344b03eab754aba2c9e16fbfbcd8",
 	"descriptionMd5": "54550b713f63341c520a6213baa3897b"
 }]

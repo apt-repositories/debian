@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gufo-png-dev",
 	"source": "rust-gufo-png",
-	"version": "0.4.1-2",
+	"version": "0.4.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,16 +15,20 @@
 		"librust-encoding-rs-0.8+default-dev (>= 0.8.35)",
 		"librust-gufo-common-1+default-dev (>= 1.1.0)",
 		"librust-hex-0.4+default-dev",
-		"librust-miniz-oxide-0.7+default-dev",
+		"librust-miniz-oxide+default-dev (<< 0.10)",
+		"librust-miniz-oxide+default-dev (>= 0.7.0)",
 		"librust-thiserror-2+default-dev (>= 2.0.3)"
+	],
+	"breaks": [
+		"rustc (<< 1.80~)"
 	],
 	"installedSize": 96,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Data structure for PNG images - Rust source code",
 	"homepage": "https://github.com/gufo-rs/gufo",
-	"filename": "pool/main/r/rust-gufo-png/librust-gufo-png-dev_0.4.1-2_amd64.deb",
-	"size": 23248,
-	"md5": "38ce3071c57eac453fe646a76b6e717b",
-	"sha256": "9c6ab8beb0e7524d7289e4d1ff888b4059981242f9ff2c01a4c3cad3be8ba872",
+	"filename": "pool/main/r/rust-gufo-png/librust-gufo-png-dev_0.4.1-3_amd64.deb",
+	"size": 23380,
+	"md5": "c2fdc27fd9f962d9c1446c0d5709ae22",
+	"sha256": "83dd85a8441431a57f1fcda8271adc286f00d331829470cca6ea69c97d4effa7",
 	"descriptionMd5": "751fabe4dea60bfb5cf4f353f18f43ca"
 }

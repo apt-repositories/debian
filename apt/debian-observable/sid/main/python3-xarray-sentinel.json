@@ -6,11 +6,12 @@
 	],
 	"package": "python3-xarray-sentinel",
 	"source": "xarray-sentinel",
-	"version": "0.9.6~rc1+ds-2",
+	"version": "0.9.6-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"python3-dask",
 		"python3-fsspec (>= 2023.1.0)",
 		"python3-numpy",
 		"python3-pandas",
@@ -21,18 +22,17 @@
 		"python3:any"
 	],
 	"recommends": [
-		"python3-dask",
 		"python3-netcdf4",
 		"python3-shapely",
 		"python3-zarr"
 	],
-	"installedSize": 479,
+	"installedSize": 483,
 	"maintainer": "Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>",
 	"description": "Easily access SAR data products of the Copernicus Sentinel-1 satellite mission",
 	"homepage": "https://github.com/bopen/xarray-sentinel",
-	"filename": "pool/main/x/xarray-sentinel/python3-xarray-sentinel_0.9.6~rc1+ds-2_all.deb",
-	"size": 67048,
-	"md5": "704feacc8d745dec76fda974cce1a632",
-	"sha256": "1023d228e9811dfa9ddeacf781660b9b7ebcd5d2488317ac80362ca91a927db6",
+	"filename": "pool/main/x/xarray-sentinel/python3-xarray-sentinel_0.9.6-1_all.deb",
+	"size": 67388,
+	"md5": "17d2d1956ddbe06f086f3a7223de6f7d",
+	"sha256": "f280214cb68ce03d7c228deebb1d5c4901d7731c5fa04d2bdf586a5ca831af97",
 	"descriptionMd5": "dcf3038cd502856e7454da335c3e11d7"
 }]

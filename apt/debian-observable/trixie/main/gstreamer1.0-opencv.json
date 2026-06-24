@@ -42,8 +42,57 @@
 	"maintainer": "Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>",
 	"description": "GStreamer OpenCV plugins",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/updates/main/g/gst-plugins-bad1.0/gstreamer1.0-opencv_1.26.2-3+deb13u1_amd64.deb",
+	"filename": "pool/main/g/gst-plugins-bad1.0/gstreamer1.0-opencv_1.26.2-3+deb13u1_amd64.deb",
 	"size": 240036,
+	"md5": "264e40ad1f444b2c7117b5247a1e4e04",
 	"sha256": "f15e9dbc3b3fd1cebe06f470aa9f84d72aaf4706468d77d9c35dc80c2cae5ff7",
+	"descriptionMd5": "c7e225953a0291993c213186484f1f36"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gstreamer1.0-opencv",
+	"source": "gst-plugins-bad1.0",
+	"version": "1.26.2-3+deb13u2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gstreamer1.0-plugins-base",
+		"libgstreamer-opencv1.0-0 (= 1.26.2-3+deb13u2)",
+		"libgstreamer-plugins-bad1.0-0 (= 1.26.2-3+deb13u2)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0t64 (>= 2.80.0)",
+		"libgstreamer-plugins-base1.0-0 (>= 1.26.0)",
+		"libgstreamer1.0-0 (>= 1.26.0)",
+		"libopencv-calib3d410 (>= 4.10.0+dfsg)",
+		"libopencv-contrib410 (>= 4.10.0+dfsg)",
+		"libopencv-core410 (>= 4.10.0+dfsg)",
+		"libopencv-features2d410 (>= 4.10.0+dfsg)",
+		"libopencv-imgcodecs410 (>= 4.10.0+dfsg)",
+		"libopencv-imgproc410 (>= 4.10.0+dfsg)",
+		"libopencv-objdetect410 (>= 4.10.0+dfsg)",
+		"libopencv-video410 (>= 4.10.0+dfsg)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"recommends": [
+		"opencv-data"
+	],
+	"replaces": [
+		"gstreamer1.0-plugins-bad (<< 1.17.2~)"
+	],
+	"conflicts": [
+		"gstreamer1.0-plugins-bad (<< 1.17.2~)"
+	],
+	"installedSize": 457,
+	"maintainer": "Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>",
+	"description": "GStreamer OpenCV plugins",
+	"homepage": "https://gstreamer.freedesktop.org",
+	"filename": "pool/updates/main/g/gst-plugins-bad1.0/gstreamer1.0-opencv_1.26.2-3+deb13u2_amd64.deb",
+	"size": 239996,
+	"sha256": "94d37d04cca8c62435b2e54cf97ddea078a2da1f215033ca88d651731a047278",
 	"descriptionMd5": "c7e225953a0291993c213186484f1f36"
 }]

@@ -5,23 +5,25 @@
 		"Size"
 	],
 	"package": "librust-implib-dev",
-	"source": "rust-implib (0.3.3-2)",
-	"version": "0.3.3-2+b1",
+	"source": "rust-implib",
+	"version": "0.3.3-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-memoffset-0.8+default-dev",
-		"librust-object-0.36+pe-dev",
-		"librust-object-0.36+write-std-dev"
+		"librust-object+pe-dev (<< 0.40)",
+		"librust-object+pe-dev (>= 0.36.4)",
+		"librust-object+write-std-dev (<< 0.40)",
+		"librust-object+write-std-dev (>= 0.36.4)"
 	],
-	"installedSize": 171,
+	"installedSize": 170,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generate Windows import library from module definition file - Rust source code",
 	"homepage": "https://github.com/messense/implib-rs",
-	"filename": "pool/main/r/rust-implib/librust-implib-dev_0.3.3-2+b1_amd64.deb",
-	"size": 29704,
-	"md5": "676dfc79fb1df0fa6a7433d8e707adc2",
-	"sha256": "20e87c589c8ed92dd0fd35de72e8b53d678bdcbe4236790852d7bc5922a65561",
+	"filename": "pool/main/r/rust-implib/librust-implib-dev_0.3.3-3_amd64.deb",
+	"size": 29500,
+	"md5": "598b52b844ab6f430f82efb5598cfbe8",
+	"sha256": "169be3571972ed10948e4210fbc57f8e0ee540facc1e3645418f1ce3cde97b55",
 	"descriptionMd5": "c03c0b804705a82804643c46cdf74eba"
 }
