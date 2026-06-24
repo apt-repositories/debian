@@ -5,23 +5,27 @@
 		"Size"
 	],
 	"package": "libukui-menu-dev",
-	"source": "ukui-menus (1.1.4-1)",
-	"version": "1.1.4-1+b9",
+	"source": "ukui-menu",
+	"version": "4.20.2.3-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libglib2.0-dev",
-		"libukui-menu2 (= 1.1.4-1+b9)",
-		"gir1.2-ukuimenu-2.0 (= 1.1.4-1+b9)"
+		"libukui-menu1 (= 4.20.2.3-1)"
 	],
-	"installedSize": 42,
+	"replaces": [
+		"libukui-menu-interface-dev"
+	],
+	"conflicts": [
+		"libukui-menu-interface-dev"
+	],
+	"installedSize": 41,
 	"maintainer": "Kylin Team <team+kylin@tracker.debian.org>",
-	"description": "implementation of the freedesktop menu specification for UKUI (dev)",
-	"homepage": "http://www.ukui.org",
-	"filename": "pool/main/u/ukui-menus/libukui-menu-dev_1.1.4-1+b9_amd64.deb",
-	"size": 9964,
-	"md5": "9b1b97b0aff41a8067ccd9e60a290ca2",
-	"sha256": "84d9d1291950cf254d38190ac026b644a6a8a5ef9fce7dabb9b67d4807771387",
-	"descriptionMd5": "86370f44f2ee3e87a04214a9532b7d0d"
+	"description": "Libraries for ukui-menu and it's plugins(development files)",
+	"homepage": "https://gitee.com/openkylin/ukui-menu",
+	"filename": "pool/main/u/ukui-menu/libukui-menu-dev_4.20.2.3-1_amd64.deb",
+	"size": 8588,
+	"md5": "f4c7abe4fef259f12a142b5319a7d89c",
+	"sha256": "eba552f10ee2e4c409a4ceefce1d4e620de374d3ef8567b862fb2a60083fe974",
+	"descriptionMd5": "a3aaebcbdf651721f27d4eafa47de9df"
 }

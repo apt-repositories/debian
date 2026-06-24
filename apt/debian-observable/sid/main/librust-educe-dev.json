@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-educe-dev",
-	"source": "rust-educe (0.4.19-2)",
-	"version": "0.4.19-2+b2",
+	"source": "rust-educe",
+	"version": "0.6.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-enum-ordinalize-3+default-dev (>= 3.1-~~)",
+		"librust-enum-ordinalize-4+derive-dev (>= 4.2)",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
-		"librust-syn-1+default-dev",
-		"librust-syn-1+full-dev"
+		"librust-syn-2+default-dev",
+		"librust-syn-2+full-dev"
 	],
-	"installedSize": 608,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 502,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Procedural macros to help you implement Rust-built-in traits quickly - Rust source code",
+	"description": "This crate offers procedural macros designed to facilitate the swift implementation of Rust's built-in traits - Rust source code",
 	"homepage": "https://magiclen.org/educe",
-	"filename": "pool/main/r/rust-educe/librust-educe-dev_0.4.19-2+b2_amd64.deb",
-	"size": 29560,
-	"md5": "27e0540923af2e4709b43b9f9c084de7",
-	"sha256": "25775281859b12b0eab47fafdb9e599ae369435cbc045a0b0b16a9d47d5588a9",
-	"descriptionMd5": "3427d0a82c51857f17ba9e75d898360c"
+	"filename": "pool/main/r/rust-educe/librust-educe-dev_0.6.0-2_amd64.deb",
+	"size": 35688,
+	"md5": "055859ec73f2916e70cceb9ba6720016",
+	"sha256": "35c877c71778e1e655c89afb62f736624338783a8e61fd84743827f9f45c4f33",
+	"descriptionMd5": "68d0e41f200d94d1fbe4f037276b3527"
 }]

@@ -5,25 +5,25 @@
 		"Size"
 	],
 	"package": "librust-enum-ordinalize-dev",
-	"source": "rust-enum-ordinalize (3.1.13-1)",
-	"version": "3.1.13-1+b2",
+	"source": "rust-enum-ordinalize",
+	"version": "4.3.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-num-bigint-0.4+default-dev",
-		"librust-num-traits-0.2+default-dev",
-		"librust-proc-macro2-1+default-dev",
-		"librust-quote-1+default-dev",
-		"librust-syn-2+default-dev"
+		"librust-enum-ordinalize-derive-4+traits-dev (>= 4.3)",
+		"librust-enum-ordinalize-derive-4-dev (>= 4.3)"
 	],
-	"installedSize": 48,
+	"breaks": [
+		"rustc (<< 1.68~)"
+	],
+	"installedSize": 36,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Procedural macro to let enums not only get its variants' ordinal but also be constructed from an ordinal - Rust source code",
+	"description": "This library enables enums to not only obtain the ordinal values of their variants but also allows for the construction of enums from an ordinal value - Rust source code",
 	"homepage": "https://magiclen.org/enum-ordinalize",
-	"filename": "pool/main/r/rust-enum-ordinalize/librust-enum-ordinalize-dev_3.1.13-1+b2_amd64.deb",
-	"size": 7820,
-	"md5": "c9443014d768bb29975cc092efbcbf17",
-	"sha256": "878e3228a9e526ad450e4c7fade21ea1f4adc22996b5c53eff33717c8bc66932",
-	"descriptionMd5": "a3ddd70dfb05ab70e231a2091f15289b"
+	"filename": "pool/main/r/rust-enum-ordinalize/librust-enum-ordinalize-dev_4.3.2-2_amd64.deb",
+	"size": 6156,
+	"md5": "3b2fcceeea0c8a1a733301556fff1673",
+	"sha256": "836710fe02f87111f7b5d04e2997877530eaabd957f9551b690eac6f993d933d",
+	"descriptionMd5": "8029df9acaba6f107460521b4716d841"
 }

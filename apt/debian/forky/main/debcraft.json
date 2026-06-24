@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "debcraft",
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,13 +13,17 @@
 		"podman | docker.io",
 		"sensible-utils"
 	],
-	"installedSize": 187,
+	"suggests": [
+		"libnotify-bin",
+		"pulseaudio-utils"
+	],
+	"installedSize": 200,
 	"maintainer": "Otto Kekäläinen <otto@debian.org>",
 	"description": "Easy, fast and secure way to build Debian packages",
 	"homepage": "https://salsa.debian.org/debian/debcraft",
-	"filename": "pool/main/d/debcraft/debcraft_0.9.1_all.deb",
-	"size": 47640,
-	"md5": "ac916de5431d4e919079c7fe0bc241b0",
-	"sha256": "b70b4243ab612be1695eaff0d1d0297503ccb964e590886d486c9e8e0694c032",
-	"descriptionMd5": "a6fd01e491d96b22d7102a4d645ddeab"
+	"filename": "pool/main/d/debcraft/debcraft_0.9.2_all.deb",
+	"size": 57456,
+	"md5": "9bd5b3c88ae76a05f5e11cd9dab3f54a",
+	"sha256": "5ec3c7e497e83b731a2f063a7f7e8a1fcd5873499389190d24275fb458b8ba4c",
+	"descriptionMd5": "8e97729d9335a0472c567ae1eb26cf89"
 }
