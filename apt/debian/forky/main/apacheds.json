@@ -6,22 +6,23 @@
 	],
 	"package": "apacheds",
 	"source": "apache-directory-server",
-	"version": "2.0.0~M26-6",
+	"version": "2.0.0~M26-7",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"default-jre-headless | java7-runtime-headless",
-		"libapacheds-java (= 2.0.0~M26-6)"
+		"libapacheds-java (= 2.0.0~M26-7)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
-	"installedSize": 187,
+	"installedSize": 185,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Apache Directory Server",
-	"homepage": "http://directory.apache.org",
-	"filename": "pool/main/a/apache-directory-server/apacheds_2.0.0~M26-6_all.deb",
-	"size": 32840,
-	"md5": "481df636556ccc2e497bdecaa00e7187",
-	"sha256": "01eddb7990ec0250d2bf3618ae893822e0b458267232f399d79c6c78c0085485",
+	"homepage": "https://directory.apache.org",
+	"filename": "pool/main/a/apache-directory-server/apacheds_2.0.0~M26-7_all.deb",
+	"size": 32520,
+	"md5": "db72df62657f9985600e18a3c8e108f9",
+	"sha256": "0f013ec2f6ab60c422a337f2892abf1bf4dd099c2aa1d674c8c644a0cdec2ed6",
 	"descriptionMd5": "db1995b9bae56abe7f8ac6233c3872f1"
 }
