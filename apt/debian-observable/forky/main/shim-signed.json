@@ -5,24 +5,29 @@
 		"Size"
 	],
 	"package": "shim-signed",
-	"source": "shim-signed (1.47)",
-	"version": "1.47+15.8-1",
+	"source": "shim-signed (1.51)",
+	"version": "1.51+16.1-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"shim-signed-common (>= 1.47)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"mokutil",
+		"shim-signed-common (>= 1.51)",
 		"grub-efi-amd64-bin | systemd-boot",
-		"shim-helpers-amd64-signed (>= 1+15.8+1)",
+		"shim-helpers-amd64-signed (>= 1+16.1+2)",
 		"grub2-common (>= 2.06-6) | systemd-boot"
 	],
-	"installedSize": 958,
+	"preDepends": [
+		"debconf"
+	],
+	"installedSize": 1093,
 	"maintainer": "Debian EFI Team <debian-efi@lists.debian.org>",
 	"description": "Secure Boot chain-loading bootloader (Microsoft-signed binary)",
-	"builtUsing": "shim (= 15.8-1)",
-	"filename": "pool/main/s/shim-signed/shim-signed_1.47+15.8-1_amd64.deb",
-	"size": 329428,
-	"md5": "ad372702133dbb8bb8c6c384187b37cb",
-	"sha256": "dda1d50bf1f6b4a70cf797c382c5318eb0c9d6599ac0be543051af080d78445a",
-	"descriptionMd5": "a481805ba65b750cfdd6438a7d8539a2"
+	"builtUsing": "shim (= 16.1-2)",
+	"filename": "pool/main/s/shim-signed/shim-signed_1.51+16.1-2_amd64.deb",
+	"size": 347788,
+	"md5": "7f8d30c09b34d8ede898cdde696f2908",
+	"sha256": "993868c31cca3eab054a0c51c124a4a8b3904f49fb002feb4b09cb9415200e74",
+	"descriptionMd5": "bb630091f4b18f9e79f41b63a3c3842e"
 }]

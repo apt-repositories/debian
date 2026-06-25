@@ -6,7 +6,7 @@
 	],
 	"package": "nscd",
 	"source": "glibc",
-	"version": "2.42-16",
+	"version": "2.42-17",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,7 +15,8 @@
 		"libc6 (>> 2.42)",
 		"libc6 (<< 2.43)",
 		"libcap2 (>= 1:2.10)",
-		"libselinux1 (>= 3.1~)"
+		"libselinux1 (>= 3.1~)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"conflicts": [
 		"unscd"
@@ -24,9 +25,9 @@
 	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
 	"description": "GNU C Library: Name Service Cache Daemon",
 	"homepage": "https://www.gnu.org/software/libc/libc.html",
-	"filename": "pool/main/g/glibc/nscd_2.42-16_amd64.deb",
-	"size": 85036,
-	"md5": "14c0e4673e5e27d9295289b327927d32",
-	"sha256": "c6fa679e2161cb8ca129df4ac41962179b707c5846abf6293213eaf583bf1b4c",
+	"filename": "pool/main/g/glibc/nscd_2.42-17_amd64.deb",
+	"size": 85336,
+	"md5": "dcc982a87b2b79c3cf9e30a001c86c08",
+	"sha256": "0ac498007693ac8af5980a967a888a4e1394cfa7516aa953fd0a293c84fa6726",
 	"descriptionMd5": "e8172254ec0df735a3e44c0f557100bc"
 }]

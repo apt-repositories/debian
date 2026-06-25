@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cloud-init",
+	"version": "20.4.1-2+deb11u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"fdisk | util-linux (<< 2.29.2-3~)",
+		"gdisk",
+		"ifupdown",
+		"locales",
+		"lsb-base",
+		"lsb-release",
+		"net-tools",
+		"procps",
+		"python3-configobj",
+		"python3-jinja2",
+		"python3-jsonpatch",
+		"python3-jsonschema",
+		"python3-oauthlib",
+		"python3-requests",
+		"python3-yaml",
+		"python3:any"
+	],
+	"recommends": [
+		"cloud-guest-utils",
+		"eatmydata",
+		"sudo"
+	],
+	"suggests": [
+		"btrfs-progs",
+		"e2fsprogs",
+		"xfsprogs"
+	],
+	"installedSize": 2186,
+	"maintainer": "Debian Cloud Team <debian-cloud@lists.debian.org>",
+	"description": "initialization system for infrastructure cloud instances",
+	"homepage": "https://launchpad.net/cloud-init",
+	"filename": "pool/updates/main/c/cloud-init/cloud-init_20.4.1-2+deb11u2_all.deb",
+	"size": 496692,
+	"sha256": "f65a93a13fb6d27031edc5ff8147b0971d36672d3937adaa8df9ad122f0ed889",
+	"descriptionMd5": "7a24c8b28bb6e73e97d38e2f4129f075"
+}
