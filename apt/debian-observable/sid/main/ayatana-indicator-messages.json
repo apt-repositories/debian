@@ -5,18 +5,17 @@
 		"Size"
 	],
 	"package": "ayatana-indicator-messages",
-	"source": "ayatana-indicator-messages (24.5.1-1)",
-	"version": "24.5.1-1+b2",
+	"version": "24.5.2-1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"ayatana-indicator-common (>= 0.8.0)",
+		"ayatana-indicator-common",
+		"libglib2.0-bin",
+		"dconf-gsettings-backend | gsettings-backend",
 		"libaccountsservice0 (>= 0.6.8)",
 		"libc6 (>= 2.34)",
-		"libglib2.0-0t64 (>= 2.83.0)",
-		"dconf-gsettings-backend | gsettings-backend",
-		"libglib2.0-bin"
+		"libglib2.0-0t64 (>= 2.83.0)"
 	],
 	"suggests": [
 		"indicator-applet | indicator-renderer | mate-applet-indicator"
@@ -27,13 +26,13 @@
 	"breaks": [
 		"indicator-messages"
 	],
-	"installedSize": 728,
+	"installedSize": 727,
 	"maintainer": "Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>",
 	"description": "Ayatana Indicator that collects messages that need a response",
 	"homepage": "https://github.com/AyatanaIndicators/ayatana-indicator-messages",
-	"filename": "pool/main/a/ayatana-indicator-messages/ayatana-indicator-messages_24.5.1-1+b2_amd64.deb",
-	"size": 94012,
-	"md5": "260138f48ee3fd9e8011d903f49fe77c",
-	"sha256": "a286615c38f3764a8cd74fc6eedee39b511256ae3577865c1087b5a574283446",
+	"filename": "pool/main/a/ayatana-indicator-messages/ayatana-indicator-messages_24.5.2-1_amd64.deb",
+	"size": 94212,
+	"md5": "d922154e00efdf4c5b519b9328856e35",
+	"sha256": "23cad88e483aed154620c51ce7cac12612f33e53eb7b2123159af75472bd3cc1",
 	"descriptionMd5": "47f4bf42a35559350f8b822c93d04325"
 }]

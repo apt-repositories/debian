@@ -6,13 +6,12 @@
 	],
 	"package": "systemd-standalone-tmpfiles",
 	"source": "systemd",
-	"version": "260.1-1",
+	"version": "261-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.39)",
-		"libssl3t64 (>= 3.0.0)"
+		"libc6 (>= 2.34)"
 	],
 	"recommends": [
 		"libacl1",
@@ -22,11 +21,7 @@
 	],
 	"suggests": [
 		"libcryptsetup12",
-		"libidn2-0",
-		"libtss2-esys-3.0.2-0t64",
-		"libtss2-mu-4.0.1-0t64",
-		"libtss2-rc0t64",
-		"libtss2-tcti-device0t64"
+		"libssl3t64"
 	],
 	"replaces": [
 		"systemd-tmpfiles"
@@ -34,13 +29,13 @@
 	"conflicts": [
 		"systemd-tmpfiles"
 	],
-	"installedSize": 903,
+	"installedSize": 1018,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "standalone tmpfiles binary for use in non-systemd systems",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-standalone-tmpfiles_260.1-1_amd64.deb",
-	"size": 380312,
-	"md5": "b91c2bbb5701cf70922ffbc136898dea",
-	"sha256": "ac709ff34f79f175fe8e1daebe4117ec2204a1c25d7e26f9fd68fefff9be0857",
+	"filename": "pool/main/s/systemd/systemd-standalone-tmpfiles_261-1_amd64.deb",
+	"size": 424064,
+	"md5": "d2f684c5369dc5afd84d7fed8dc5eaa4",
+	"sha256": "5182fcc96b60afd7bc2a04a752371c977b4894528f29a3ec3abee393f4d088b0",
 	"descriptionMd5": "e59a151e226689c494584c32d7f05a2c"
 }]

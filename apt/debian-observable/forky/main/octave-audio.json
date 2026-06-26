@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "octave-audio",
-	"version": "2.0.11-1",
+	"version": "2.0.12-1",
 	"section": "math",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"octave (>= 11.1.0)",
+		"octave (>= 11.3.0)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
 		"librtmidi7 (>= 6.0.0)",
 		"libstdc++6 (>= 13.1)",
 		"octave-abi-61"
 	],
-	"installedSize": 835,
-	"maintainer": "Debian Octave Group <team+pkg-octave-team@tracker.debian.org>",
+	"recommends": [
+		"octave-signal"
+	],
+	"installedSize": 899,
+	"maintainer": "Debian Octave Group <team+octave-team@tracker.debian.org>",
 	"description": "MIDI functions for Octave",
 	"homepage": "https://gnu-octave.github.io/packages/audio/",
-	"filename": "pool/main/o/octave-audio/octave-audio_2.0.11-1_amd64.deb",
-	"size": 386736,
-	"md5": "fccdd985d87d8adee700539ea87e9009",
-	"sha256": "aeb8d82c6cc95584de8c63d0ec3dd0cf6e888feb5968fbbe183238c98ab256b7",
+	"filename": "pool/main/o/octave-audio/octave-audio_2.0.12-1_amd64.deb",
+	"size": 406140,
+	"md5": "5820a832ba28feee3c7d09c9bcb3f5bb",
+	"sha256": "57a60f4b0c41f17112ca6f393858df4fe102441e92eded417d7fb569a0a168e8",
 	"descriptionMd5": "2720f6d4a9de759a866a9bd0d1632958"
 }]

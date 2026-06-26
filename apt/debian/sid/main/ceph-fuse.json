@@ -6,29 +6,29 @@
 	],
 	"package": "ceph-fuse",
 	"source": "ceph",
-	"version": "18.2.8+ds-2.1",
+	"version": "20.2.2+ds-7",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"python3",
+		"libboost-locale1.90.0 (>= 1.90.0)",
 		"libc6 (>= 2.38)",
-		"libfmt10 (>= 10.1.1+ds1)",
 		"libfuse3-4 (>= 3.17.2)",
 		"libgcc-s1 (>= 3.0)",
-		"librados2 (>= 18.2.8+ds)",
+		"librados2 (>= 20.2.2+ds)",
 		"libstdc++6 (>= 14)"
 	],
 	"recommends": [
 		"fuse3"
 	],
-	"installedSize": 2856,
+	"installedSize": 2272,
 	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
 	"description": "FUSE-based client for the Ceph distributed file system",
 	"homepage": "http://ceph.com",
-	"filename": "pool/main/c/ceph/ceph-fuse_18.2.8+ds-2.1_amd64.deb",
-	"size": 892100,
-	"md5": "445a2d2baa23e69e759d084c42a1ba24",
-	"sha256": "a1a7cd744084f824a0fdff493980fa5514c59ed9c78cd0e2f5dd9d47a8d1d100",
+	"filename": "pool/main/c/ceph/ceph-fuse_20.2.2+ds-7_amd64.deb",
+	"size": 730824,
+	"md5": "a7a41161e4b8c2e7bd6b79d52a166f6f",
+	"sha256": "8e10155ff66925688f7b094635420ea0c59d24fb3a48cb0bfe320075e6640857",
 	"descriptionMd5": "2e66da405a3a0048edd7d65c675526ff"
 }
