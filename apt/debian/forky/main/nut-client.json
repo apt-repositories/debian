@@ -5,22 +5,20 @@
 		"Size"
 	],
 	"package": "nut-client",
-	"source": "nut (2.8.4+really-2)",
-	"version": "2.8.4+really-2+b1",
+	"source": "nut (2.8.4+really-2.1)",
+	"version": "2.8.4+really-2.1+b1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libnutscan4 (>= 2.8.0)",
 		"libstdc++6 (>= 13.1)",
 		"libsystemd0 (>= 246)",
 		"libupsclient7 (>= 2.8.3)"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"bash-completion"
@@ -38,13 +36,13 @@
 	"conflicts": [
 		"ups-monitor"
 	],
-	"installedSize": 1733,
+	"installedSize": 1726,
 	"maintainer": "Laurent Bigonville <bigon@debian.org>",
 	"description": "network UPS tools - clients",
 	"homepage": "https://networkupstools.org/",
-	"filename": "pool/main/n/nut/nut-client_2.8.4+really-2+b1_amd64.deb",
-	"size": 914912,
-	"md5": "606a742dfecb6ee2991e9126ee8b76d0",
-	"sha256": "e759252d2b628be6a0b59062b04728c2e40121aeac4feba9db0300d44c97baba",
+	"filename": "pool/main/n/nut/nut-client_2.8.4+really-2.1+b1_amd64.deb",
+	"size": 912300,
+	"md5": "f823fa6ecfe3c609b76c5b80994b5588",
+	"sha256": "3f79e5d20cb22d586d616b47260e856d068d5122d73d48af30fe317365c1c756",
 	"descriptionMd5": "30f1061db3258a7a5c46e18466afa6c0"
 }

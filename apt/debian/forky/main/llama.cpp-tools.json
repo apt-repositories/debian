@@ -6,19 +6,20 @@
 	],
 	"package": "llama.cpp-tools",
 	"source": "llama.cpp",
-	"version": "9413+dfsg-1",
+	"version": "9721+dfsg-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libllama0 (= 9413+dfsg-1)",
-		"adduser",
+		"libllama0 (= 9721+dfsg-1)",
 		"debconf",
 		"wget | curl",
 		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
-		"libggml0 (>= 0.13.1)",
+		"libggml0 (>= 0.15.0)",
 		"libssl3t64 (>= 3.0.0)",
 		"libstdc++6 (>= 14)"
 	],
@@ -31,13 +32,13 @@
 	"breaks": [
 		"llama.cpp (<< 5882+dfsg-3~exp1)"
 	],
-	"installedSize": 5338,
+	"installedSize": 5567,
 	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
 	"description": "LLM inference in C/C++ - main utilities",
 	"homepage": "https://github.com/ggml-org/llama.cpp/",
-	"filename": "pool/main/l/llama.cpp/llama.cpp-tools_9413+dfsg-1_amd64.deb",
-	"size": 1276792,
-	"md5": "4ff719160e4d117cb6476e5ce00234ad",
-	"sha256": "abe76bdf2a2738a53993c3eb4642cccca6367e9d57ac189729c55b403fa46f2f",
+	"filename": "pool/main/l/llama.cpp/llama.cpp-tools_9721+dfsg-1_amd64.deb",
+	"size": 1323908,
+	"md5": "f506d9ae9732df4322dc85f660c6d7f4",
+	"sha256": "720bb51bbbf855216c3ed14748d84038f18da516a54130bdfa6942adc921bffb",
 	"descriptionMd5": "16a799122663eb0cb3e10fbbd7da581a"
 }

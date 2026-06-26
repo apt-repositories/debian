@@ -5,12 +5,15 @@
 		"Size"
 	],
 	"package": "ayatana-indicator-datetime",
-	"version": "26.6.0-1",
+	"version": "26.6.0-2",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libaccounts-glib0 (>= 1.18)",
+		"ayatana-indicator-common",
+		"ayatana-indicator-datetime-common (>= 26.6.0-2)",
+		"libglib2.0-bin",
+		"libaccounts-glib0 (>= 1.0)",
 		"libayatana-common0 (>= 0.9.4)",
 		"libc6 (>= 2.34)",
 		"libecal-2.0-3 (>= 3.33.4)",
@@ -22,10 +25,7 @@
 		"libmessaging-menu0 (>= 0.6.0)",
 		"libnotify4 (>= 0.8.4)",
 		"libstdc++6 (>= 14)",
-		"libuuid1 (>= 2.16)",
-		"ayatana-indicator-common (>= 0.8.0)",
-		"ayatana-indicator-datetime-common (>= 26.6.0-1)",
-		"libglib2.0-bin"
+		"libuuid1 (>= 2.16)"
 	],
 	"recommends": [
 		"evolution-data-server"
@@ -43,9 +43,9 @@
 	"maintainer": "Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>",
 	"description": "Ayatana Indicator providing clock and calendar",
 	"homepage": "https://github.com/AyatanaIndicators/ayatana-indicator-datetime",
-	"filename": "pool/main/a/ayatana-indicator-datetime/ayatana-indicator-datetime_26.6.0-1_amd64.deb",
-	"size": 231416,
-	"md5": "ef2fc5b7f61f9c45815882bbe17f41ea",
-	"sha256": "8ef94b4335d6c162f9f019a4e76800425b2067ee627da53c826e4ba068e9ff84",
+	"filename": "pool/main/a/ayatana-indicator-datetime/ayatana-indicator-datetime_26.6.0-2_amd64.deb",
+	"size": 231464,
+	"md5": "68bebb203d627dfe427e38d3f085225e",
+	"sha256": "c1e62359879568ee1c22934e0f4023ecd83606672e14c87e47ae9835848f8847",
 	"descriptionMd5": "d6648a1549b92d9b7b10e1d610dabe35"
 }]
