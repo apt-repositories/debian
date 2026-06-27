@@ -6,15 +6,16 @@
 	],
 	"package": "webhttrack",
 	"source": "httrack",
-	"version": "3.49.7-1",
+	"version": "3.49.9-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libhttrack2 (>= 3.49.7)",
+		"libhttrack3 (>= 3.49.9)",
 		"webhttrack-common",
-		"iceape-browser | iceweasel | icecat | mozilla | firefox | mozilla-firefox | www-browser | sensible-utils"
+		"sensible-utils",
+		"firefox-esr | chromium | www-browser"
 	],
 	"suggests": [
 		"httrack",
@@ -29,13 +30,13 @@
 	"breaks": [
 		"webhttrack-common (<< 3.43.9-2)"
 	],
-	"installedSize": 129,
+	"installedSize": 136,
 	"maintainer": "Xavier Roche <roche@httrack.com>",
 	"description": "Copy websites to your computer, httrack with a Web interface",
 	"homepage": "http://www.httrack.com",
-	"filename": "pool/main/h/httrack/webhttrack_3.49.7-1_amd64.deb",
-	"size": 57056,
-	"md5": "a8ffe4fe39ab12355a19612b6930bf53",
-	"sha256": "73c1f055dc2507b4cd596377c021e33f161fc03925f77ed70720ed4c7a2411a1",
+	"filename": "pool/main/h/httrack/webhttrack_3.49.9-1_amd64.deb",
+	"size": 60732,
+	"md5": "5b0c7c7f78b0e0d2e0d7cc41bdd90b40",
+	"sha256": "4483965449a2b1d27b63e896a7050b5440992c5ab88e4e626a2103a8d6929654",
 	"descriptionMd5": "f7c1c11c1bf49544d2f00c20bf8c4157"
 }]
