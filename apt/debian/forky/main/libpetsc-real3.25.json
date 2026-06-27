@@ -1,0 +1,60 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpetsc-real3.25",
+	"source": "petsc",
+	"version": "3.25.2+dfsg1-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libamd3 (>= 1:7.0.1)",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.38)",
+		"libcholmod5 (>= 1:7.3.1)",
+		"libfftw3-double3 (>= 3.3.11)",
+		"libfftw3-mpi3 (>= 3.3.11)",
+		"libgcc-s1 (>= 4.0)",
+		"libgfortran5 (>= 10)",
+		"libhdf5-openmpi-310 (>= 1.12.0)",
+		"libhypre-3.1.0 (>= 3.1.0)",
+		"libklu2 (>= 1:7.0.1)",
+		"liblapack3 | liblapack.so.3",
+		"libmumps-5.9 (>= 5.9.0)",
+		"libopenmpi40 (>= 5.0.10)",
+		"libptscotch-7.0c (>= 7.0.11)",
+		"libscalapack-openmpi2.2 (>= 2.2.3)",
+		"libscotch-7.0c (>= 7.0.11)",
+		"libspqr4 (>= 1:7.12.2+dfsg)",
+		"libsuperlu-dist9 (>= 9.2.1+dfsg1)",
+		"libsuperlu7 (>= 7.0.1+dfsg1)",
+		"libumfpack6 (>= 1:7.0.1)",
+		"libx11-6",
+		"libyaml-0-2",
+		"ocl-icd-libopencl1 | libopencl1"
+	],
+	"replaces": [
+		"libpetsc3.6 (<< 3.6.2.dfsg1-4)"
+	],
+	"breaks": [
+		"libpetsc-real3.10",
+		"libpetsc3.10-dev-common",
+		"libpetsc3.10-dev-examples",
+		"libslepc-real3.10"
+	],
+	"conflicts": [
+		"libpetsc3.6 (<< 3.6.2.dfsg1-4)"
+	],
+	"installedSize": 26111,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "Shared libraries for version 3.25 of PETSc",
+	"homepage": "http://www.mcs.anl.gov/petsc",
+	"filename": "pool/main/p/petsc/libpetsc-real3.25_3.25.2+dfsg1-1_amd64.deb",
+	"size": 8027128,
+	"md5": "7554eb03dfb04659911fc4f4ff710331",
+	"sha256": "d9da546cf302824114cdb975fe91d6f2b07096da6253c08e49ef6ff793e38699",
+	"descriptionMd5": "9a2bd2fb2ff44e9f695c7c735133e785"
+}
