@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "decopy",
-	"version": "0.2.4.9-0.1",
+	"version": "0.3.1-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,20 +14,26 @@
 		"libimage-exiftool-perl",
 		"python3-debian",
 		"python3-xdg",
+		"shared-mime-info",
 		"xz-utils",
+		"python3-regex",
 		"python3-tqdm",
 		"python3:any"
 	],
 	"recommends": [
-		"python3-regex"
+		"bzip3",
+		"plzip | lzip-decompressor",
+		"python3-ahocorasick",
+		"python3-zipfile-zstd",
+		"zstd"
 	],
-	"installedSize": 331,
+	"installedSize": 567,
 	"maintainer": "Maximiliano Curia <maxy@debian.org>",
 	"description": "Automatic debian/copyright Generator",
 	"homepage": "https://salsa.debian.org/debian/decopy",
-	"filename": "pool/main/d/decopy/decopy_0.2.4.9-0.1_all.deb",
-	"size": 67208,
-	"md5": "fafe2b6c6d827471598ee8e443bdb3d7",
-	"sha256": "72933569bb829df8f4dc82937beef6c8ce2cb2de93c3a91685e24e7edcd0ebd3",
+	"filename": "pool/main/d/decopy/decopy_0.3.1-1_all.deb",
+	"size": 115648,
+	"md5": "f044c63d2392ef04663e559ab1d89f34",
+	"sha256": "8620dfb9f03b99aa5a0e8bdd2da2b5bd786ca5a7f380abdee5ae11ddf403c16e",
 	"descriptionMd5": "1bf67f81f2e253f08ac26ba87c96dd10"
 }

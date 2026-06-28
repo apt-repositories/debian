@@ -6,14 +6,16 @@
 	],
 	"package": "sbuild-schroot",
 	"source": "sbuild",
-	"version": "0.91.9",
+	"version": "0.91.10",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"adduser",
-		"sbuild (= 0.91.9)",
+		"sbuild (= 0.91.10)",
 		"schroot",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any"
 	],
 	"recommends": [
@@ -30,12 +32,12 @@
 	"breaks": [
 		"sbuild (<< 0.90.3)"
 	],
-	"installedSize": 148,
+	"installedSize": 154,
 	"maintainer": "sbuild maintainers <sbuild@packages.debian.org>",
 	"description": "Tool for building Debian binary packages from Debian sources (schroot version)",
-	"filename": "pool/main/s/sbuild/sbuild-schroot_0.91.9_all.deb",
-	"size": 52712,
-	"md5": "d88fa7c6f43be1ad4ba91e342bed116b",
-	"sha256": "3c5ce2a754875862701436d8dd809b83b6cf8593d748ff4d8a0c379d70294c77",
+	"filename": "pool/main/s/sbuild/sbuild-schroot_0.91.10_all.deb",
+	"size": 53304,
+	"md5": "ff3e780146223a0a557767fb2aa6cb01",
+	"sha256": "dc887086177e0abda46d317c78fa6c9a44f7d5896878b1449203c086aa4480eb",
 	"descriptionMd5": "8a401b1fc28cce2f6e52edfa89fca207"
 }]

@@ -5,23 +5,29 @@
 		"Size"
 	],
 	"package": "libintegers-ocaml",
-	"source": "ocaml-integers (0.7.0-3)",
-	"version": "0.7.0-3+b6",
+	"source": "ocaml-integers (0.8.0-3)",
+	"version": "0.8.0-3+b1",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libstdlib-ocaml-kjuo1",
-		"ocaml-base-5.4.0",
+		"libstdlib-ocaml-1ltp0",
+		"ocaml-base-5.4.1",
 		"libc6 (>= 2.2.5)"
 	],
-	"installedSize": 326,
+	"replaces": [
+		"libintegers-ocaml-dev (<< 0.8.0-2~)"
+	],
+	"breaks": [
+		"libintegers-ocaml-dev (<< 0.8.0-2~)"
+	],
+	"installedSize": 387,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "library of various integer types for OCaml (runtime)",
 	"homepage": "https://github.com/ocamllabs/ocaml-integers",
-	"filename": "pool/main/o/ocaml-integers/libintegers-ocaml_0.7.0-3+b6_amd64.deb",
-	"size": 71412,
-	"md5": "af2b561882182eed6df62ae98d29b357",
-	"sha256": "ecba06ef30eeb68be276477d8cff0f06b2a46f8b806cb03c7f654e3726b8ed70",
+	"filename": "pool/main/o/ocaml-integers/libintegers-ocaml_0.8.0-3+b1_amd64.deb",
+	"size": 85844,
+	"md5": "e61035986d871c1df0850dbca37e3cf6",
+	"sha256": "1ac1f89324e4ee393b56ffe6c69739dd6eb8017d010c610a9efef1a8fd3602ad",
 	"descriptionMd5": "8125aacb8368fcfb81ac5c463be7203e"
 }]
