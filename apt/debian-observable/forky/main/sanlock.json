@@ -5,30 +5,27 @@
 		"Size"
 	],
 	"package": "sanlock",
-	"source": "sanlock (4.2.0-1)",
-	"version": "4.2.0-1+b1",
+	"version": "5.1.0-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
-		"libsanlock1 (= 4.2.0-1+b1)",
+		"libsanlock1 (= 5.1.0-1)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libaio1t64 (>= 0.3.93)",
 		"libblkid1 (>= 2.17.2)",
 		"libc6 (>= 2.38)",
+		"libdevmapper1.02.1 (>= 2:1.02.197)",
 		"libuuid1 (>= 2.16)"
 	],
-	"suggests": [
-		"python3-sanlock",
-		"sanlk-reset"
-	],
-	"installedSize": 409,
+	"installedSize": 408,
 	"maintainer": "Håvard F. Aasen <havard.f.aasen@pfft.no>",
 	"description": "Shared storage lock manager",
-	"homepage": "https://www.pagure.io/sanlock/",
-	"filename": "pool/main/s/sanlock/sanlock_4.2.0-1+b1_amd64.deb",
-	"size": 156688,
-	"md5": "a2df5a0f4521a8f522f03cbacd45ffb5",
-	"sha256": "44617b838bcc0c30c63b032a98403995e3a8343b89318ea3cdc45ca7069c9b5b",
+	"homepage": "https://codeberg.org/sanlock/sanlock",
+	"filename": "pool/main/s/sanlock/sanlock_5.1.0-1_amd64.deb",
+	"size": 153756,
+	"md5": "4dd23887a009b01f6d59b8489df60158",
+	"sha256": "2e198d5fe3c44ac0caeaf318e3c83c093d56d5e1e0126aee93d2e147a7a77df5",
 	"descriptionMd5": "bd141da626ec78be3673c3046a692c21"
 }]

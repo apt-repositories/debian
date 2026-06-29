@@ -5,19 +5,20 @@
 		"Size"
 	],
 	"package": "systemd",
-	"version": "261.1-1",
+	"version": "261.1-2",
 	"section": "admin",
 	"priority": "important",
 	"architecture": "amd64",
 	"depends": [
 		"libblkid1",
 		"libmount1",
-		"libsystemd0 (= 261.1-1)",
+		"libsystemd0 (= 261.1-2)",
+		"systemd-tpm",
 		"mount"
 	],
 	"preDepends": [
 		"libc6 (>= 2.34)",
-		"libsystemd-shared (= 261.1-1)"
+		"libsystemd-shared (= 261.1-2)"
 	],
 	"recommends": [
 		"default-dbus-system-bus | dbus-system-bus",
@@ -25,7 +26,6 @@
 		"login",
 		"systemd-timesyncd | time-daemon",
 		"systemd-cryptsetup",
-		"systemd-tpm",
 		"libacl1",
 		"libbpf1",
 		"libcryptsetup12",
@@ -59,13 +59,13 @@
 		"systemctl",
 		"systemd-shim"
 	],
-	"installedSize": 11045,
+	"installedSize": 11046,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "system and service manager",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd_261.1-1_amd64.deb",
-	"size": 3333028,
-	"md5": "b7e752de96db9270f1157849b5f89499",
-	"sha256": "b3a7e9b832d993abe82a5aac077a338e80b28c476a364ccfeb5642bc8202e2f5",
+	"filename": "pool/main/s/systemd/systemd_261.1-2_amd64.deb",
+	"size": 3334648,
+	"md5": "33ec1be789b9a1d73124e1aa07e9605a",
+	"sha256": "ccd4e68f8a977010b82e0e07e88c589708d512d9b10ae795b07d97424d6a7137",
 	"descriptionMd5": "2728f00e9cb47f195aa39097a3afbc42"
 }]

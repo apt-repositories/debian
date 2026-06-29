@@ -6,26 +6,27 @@
 	],
 	"package": "clamav-base",
 	"source": "clamav",
-	"version": "1.4.4+dfsg-1",
+	"version": "1.4.4+dfsg-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"logrotate",
 		"ucf",
-		"debconf (>= 0.5) | debconf-2.0"
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"recommends": [
 		"clamav"
 	],
-	"installedSize": 151,
+	"installedSize": 159,
 	"maintainer": "ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>",
 	"description": "anti-virus utility for Unix - base package",
 	"homepage": "https://www.clamav.net/",
-	"filename": "pool/main/c/clamav/clamav-base_1.4.4+dfsg-1_all.deb",
-	"size": 97704,
-	"md5": "e817bb2c1bb0ff6e5db5d4065d2444be",
-	"sha256": "d8cfe72c7146b5ba2e189169340f06b45afae6a965b367c2c8d25b2c37c1f885",
+	"filename": "pool/main/c/clamav/clamav-base_1.4.4+dfsg-2_all.deb",
+	"size": 98508,
+	"md5": "8a13836b66a20f5c22d7170d618c2e99",
+	"sha256": "fff3b305135c2dd89eb47735bf012324d1705f9c03104a392638f52c5511747f",
 	"descriptionMd5": "701912f0a2cc626b57570094858a5b1d"
 }

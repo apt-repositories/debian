@@ -5,24 +5,30 @@
 		"Size"
 	],
 	"package": "librust-sha3-dev",
-	"source": "rust-sha3 (0.10.8-1)",
-	"version": "0.10.8-1+b1",
+	"source": "rust-sha3",
+	"version": "0.12.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-digest-0.10+default-dev (>= 0.10.4-~~)",
-		"librust-digest-0.10+oid-dev (>= 0.10.4-~~)",
-		"librust-digest-0.10+std-dev (>= 0.10.4-~~)",
-		"librust-keccak-0.1+asm-dev (>= 0.1.4-~~)",
-		"librust-keccak-0.1+default-dev (>= 0.1.4-~~)"
+		"librust-digest-0.11+alloc-dev",
+		"librust-digest-0.11+oid-dev",
+		"librust-digest-0.11+zeroize-dev",
+		"librust-digest-0.11-dev",
+		"librust-keccak-0.2+default-dev",
+		"librust-sponge-cursor-0.1+default-dev",
+		"librust-sponge-cursor-0.1+zeroize-dev"
 	],
-	"installedSize": 907,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 251,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "SHA-3 cryptographic digest function in pure Rust - Rust source code",
-	"filename": "pool/main/r/rust-sha3/librust-sha3-dev_0.10.8-1+b1_amd64.deb",
-	"size": 373492,
-	"md5": "6ecf697965f6aa80b0323337a882472d",
-	"sha256": "54c3e138bafaf0862d0c67de4edeedb9a7b166b46d9ecb2c8a9b74d445558d49",
+	"homepage": "https://github.com/RustCrypto/hashes",
+	"filename": "pool/main/r/rust-sha3/librust-sha3-dev_0.12.0-1_amd64.deb",
+	"size": 101232,
+	"md5": "b2375c66060e4fa51eac835c07ee08ce",
+	"sha256": "c67d0cc184aa7b5051426a98d8db763470db6d51812b9700ae484b3f2513475c",
 	"descriptionMd5": "7514760224d2b94e9cf4f9fc35575047"
 }

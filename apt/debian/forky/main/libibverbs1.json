@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "libibverbs1",
-	"source": "rdma-core",
-	"version": "61.0-2",
+	"source": "rdma-core (63.0-1.1)",
+	"version": "63.0-1.1+b2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libnl-3-200 (>= 3.11.0)",
 		"libnl-route-3-200 (>= 3.11.0)"
@@ -22,13 +22,13 @@
 	"breaks": [
 		"ibverbs-providers (<< 59~)"
 	],
-	"installedSize": 194,
+	"installedSize": 196,
 	"maintainer": "Benjamin Drung <bdrung@ubuntu.com>",
 	"description": "Library for direct userspace use of RDMA (InfiniBand/iWARP)",
 	"homepage": "https://github.com/linux-rdma/rdma-core",
-	"filename": "pool/main/r/rdma-core/libibverbs1_61.0-2_amd64.deb",
-	"size": 64184,
-	"md5": "77e401e367683487654198582502d977",
-	"sha256": "faf2d31a7ad1a1a82e1e587eb56869ab09d1a8025da1537c3eedf0b803d18f34",
+	"filename": "pool/main/r/rdma-core/libibverbs1_63.0-1.1+b2_amd64.deb",
+	"size": 63208,
+	"md5": "af8dc3f67b8230d3780aebeed22b6101",
+	"sha256": "7beacf4572b0db5a47c5926e82cec19c568093416f398a9e1e63b0c68c9fbb97",
 	"descriptionMd5": "8cdb9c883867c94335417ed5085d7667"
 }

@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-libbz2-rs-sys-dev",
-	"source": "rust-libbz2-rs-sys (0.2.2-1)",
-	"version": "0.2.2-1+b1",
+	"source": "rust-libbz2-rs-sys",
+	"version": "0.2.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-libc-0.2+default-dev"
 	],
-	"installedSize": 263,
+	"breaks": [
+		"rustc (<< 1.82~)"
+	],
+	"installedSize": 267,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Drop-in compatible rust bzip2 implementation - Rust source code",
 	"homepage": "https://github.com/trifectatechfoundation/libbzip2-rs",
-	"filename": "pool/main/r/rust-libbz2-rs-sys/librust-libbz2-rs-sys-dev_0.2.2-1+b1_amd64.deb",
-	"size": 45604,
-	"md5": "fe9ab31169d6929c6ff1e698a255ee14",
-	"sha256": "2e091e0dc720937cbeed72cd6f5c5df9a7e78d8c440f9a5e81706f481d9487f8",
+	"filename": "pool/main/r/rust-libbz2-rs-sys/librust-libbz2-rs-sys-dev_0.2.5-1_amd64.deb",
+	"size": 46036,
+	"md5": "b2d52fe794bf3b62838f5d877486bdc8",
+	"sha256": "d65a981b051c26944146fe3fc53ae09a3543fc3741e761b0db020c080f845f7d",
 	"descriptionMd5": "81bca93c84952a8fec3584d5938440b9"
 }]
