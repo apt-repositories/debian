@@ -6,20 +6,31 @@
 	],
 	"package": "librust-netlink-packet-core-dev",
 	"source": "rust-netlink-packet-core",
-	"version": "0.8.1-1",
+	"version": "0.8.1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-paste-1+default-dev"
 	],
-	"installedSize": 131,
+	"breaks": [
+		"librust-ethtool-dev (<< 0.2.9)",
+		"librust-genetlink-dev (<< 0.2.6)",
+		"librust-if-watch-dev (<< 3.2.2)",
+		"librust-mptcp-pm-dev (<< 0.1.4)",
+		"librust-netlink-packet-generic-dev (<< 0.4)",
+		"librust-netlink-packet-route-dev (<< 0.28)",
+		"librust-netlink-proto-dev (<< 0.12)",
+		"librust-rtnetlink-dev (<< 0.20)",
+		"librust-wl-nl80211-dev (<< 0.4)"
+	],
+	"installedSize": 132,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Netlink packet types - Rust source code",
 	"homepage": "https://github.com/rust-netlink/netlink-packet-core",
-	"filename": "pool/main/r/rust-netlink-packet-core/librust-netlink-packet-core-dev_0.8.1-1_amd64.deb",
-	"size": 22048,
-	"md5": "a50f2d1c2c7491cb14eba5a034585481",
-	"sha256": "5f9d4dda34cd3fb28afacf05daeb80c3764e047f9100294a5c20a65c01117b60",
+	"filename": "pool/main/r/rust-netlink-packet-core/librust-netlink-packet-core-dev_0.8.1-2_amd64.deb",
+	"size": 22524,
+	"md5": "bd716270658cdcf2a8c9deb9fa40c8ab",
+	"sha256": "0fe592cea124a574b979ed20707243ea657cfad5e4608efdcce1b1469c065489",
 	"descriptionMd5": "60cebb144ec6f3728c5f5f0db2a24562"
 }
