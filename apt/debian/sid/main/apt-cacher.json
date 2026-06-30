@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "apt-cacher",
-	"version": "1.7.32",
+	"version": "1.7.33",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
@@ -26,22 +26,20 @@
 		"debconf (>= 0.5) | debconf-2.0",
 		"perl:any"
 	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
-	],
 	"recommends": [
-		"libberkeleydb-perl"
+		"libberkeleydb-perl",
+		"cron | cron-daemon"
 	],
 	"suggests": [
 		"libfreezethaw-perl",
 		"libio-socket-inet6-perl"
 	],
-	"installedSize": 267,
+	"installedSize": 265,
 	"maintainer": "Mark Hindley <mark@hindley.org.uk>",
 	"description": "Caching proxy server for Debian/Ubuntu/Devuan software repositories",
-	"filename": "pool/main/a/apt-cacher/apt-cacher_1.7.32_all.deb",
-	"size": 77336,
-	"md5": "1aaea326a9d737c72f18d6768cdb4ef4",
-	"sha256": "5987bd42e8bce2a66636153f75aa0f6aec78a7e7abbf03452164e8e72a44b82c",
+	"filename": "pool/main/a/apt-cacher/apt-cacher_1.7.33_all.deb",
+	"size": 76348,
+	"md5": "e85de978346da1181b0a64e6d0ff95ae",
+	"sha256": "daf5f0b369fcb5d6685225cebb59be1cb8a8b8460bd074078d31da8c399117a3",
 	"descriptionMd5": "c2a7cf862bdc0d1afaec036dba0d3c94"
 }
