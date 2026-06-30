@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "ukui-screensaver",
-	"version": "4.20.0.0-1",
+	"version": "4.20.0.0-2",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -56,15 +56,19 @@
 		"qt6-svg-private-abi (= 6.10.2)"
 	],
 	"replaces": [
+		"ukui-control-center (<< 4.20.0.0)",
 		"ukui-screensaver-common (<< 2.0.0)"
 	],
-	"installedSize": 13993,
+	"breaks": [
+		"ukui-control-center (<< 4.20.0.0)"
+	],
+	"installedSize": 22409,
 	"maintainer": "Kylin Team <team+kylin@tracker.debian.org>",
 	"description": "Screensaver for UKUI desktop environment",
 	"homepage": "https://gitee.com/openkylin/ukui-screensaver",
-	"filename": "pool/main/u/ukui-screensaver/ukui-screensaver_4.20.0.0-1_amd64.deb",
-	"size": 6925612,
-	"md5": "71d1ddf517a13799d9d3de3999fe392f",
-	"sha256": "6825cc36f0e7ff112bef619c45734e1583b5d1c0faf4f0af323866a798ade7c0",
+	"filename": "pool/main/u/ukui-screensaver/ukui-screensaver_4.20.0.0-2_amd64.deb",
+	"size": 6937564,
+	"md5": "91ab9ccb028c528531ce095eacab0ce1",
+	"sha256": "959fcd01a4de3b7a87c45ba0893903cb9028f31113987045da651ef3a4410134",
 	"descriptionMd5": "55b022ce387fb5338fece1ca73fdc0d5"
 }
