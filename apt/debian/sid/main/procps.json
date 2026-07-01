@@ -5,42 +5,28 @@
 		"Size"
 	],
 	"package": "procps",
-	"source": "procps (2:4.0.4-9)",
-	"version": "2:4.0.4-9+b2",
+	"version": "2:4.0.6-2",
 	"section": "admin",
 	"priority": "important",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libncursesw6 (>= 6)",
-		"libproc2-0 (>= 2:4.0.4)",
+		"libncursesw6 (>= 6.1)",
+		"libproc2-1 (>= 2:4.0.6)",
 		"libsystemd0 (>= 254)",
-		"libtinfo6 (>= 6)",
-		"init-system-helpers (>= 1.29~)"
+		"libtinfo6 (>= 6)"
 	],
 	"recommends": [
 		"psmisc",
 		"linux-sysctl-defaults"
 	],
-	"replaces": [
-		"manpages-de (<< 4.9.1-2)",
-		"manpages-fr (<< 4.9.1-2)",
-		"manpages-fr-extra (<< 20151231+nmu1)",
-		"manpages-pl (<< 1:4.9.1-2)"
-	],
-	"breaks": [
-		"manpages-de (<< 4.9.1-2)",
-		"manpages-fr (<< 4.9.1-2)",
-		"manpages-fr-extra (<< 20151231+nmu1)",
-		"manpages-pl (<< 1:4.9.1-2)"
-	],
-	"installedSize": 2389,
+	"installedSize": 2669,
 	"maintainer": "Craig Small <csmall@debian.org>",
 	"description": "/proc file system utilities",
 	"homepage": "https://gitlab.com/procps-ng/procps",
-	"filename": "pool/main/p/procps/procps_4.0.4-9+b2_amd64.deb",
-	"size": 880112,
-	"md5": "f0889f905a9178bee9902bae537a3d5e",
-	"sha256": "6191bdf8550fa935df1383a872abe601bbbb32d283b5b6b2e9af66978de6b6ee",
+	"filename": "pool/main/p/procps/procps_4.0.6-2_amd64.deb",
+	"size": 983048,
+	"md5": "99244475adb562c87985fd0c36b6c021",
+	"sha256": "c84401f5d401e9963e0362dd07cff8674117fcd171f77ee83e49b613b641015c",
 	"descriptionMd5": "943f3288c1aaa379fca73a3ff1a35278"
 }
