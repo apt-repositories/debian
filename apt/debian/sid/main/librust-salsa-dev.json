@@ -6,7 +6,7 @@
 	],
 	"package": "librust-salsa-dev",
 	"source": "rust-salsa",
-	"version": "0.26.2+dfsg-1",
+	"version": "0.26.2+dfsg-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -41,13 +41,16 @@
 		"librust-tracing-0.1+std-dev",
 		"librust-typeid-1+default-dev"
 	],
-	"installedSize": 1371,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 1373,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generic framework for on-demand, incrementalized computation (experimental) - Rust source code",
 	"homepage": "https://github.com/salsa-rs/salsa",
-	"filename": "pool/main/r/rust-salsa/librust-salsa-dev_0.26.2+dfsg-1_amd64.deb",
-	"size": 207008,
-	"md5": "5535e545f2b5004fdb10d48142ae4188",
-	"sha256": "c4280dffc51b64af9d9e33cb4c1e49328b24abbcd698ffbc31ace8be78418e51",
+	"filename": "pool/main/r/rust-salsa/librust-salsa-dev_0.26.2+dfsg-2_amd64.deb",
+	"size": 207520,
+	"md5": "df50868813fd6aaca605d523d80424bb",
+	"sha256": "4134d6a6bc7fb92d643c383b102c35d59c355438e0e341fedc3ea6277f6b46d1",
 	"descriptionMd5": "e931199b76bc48dd758dc1bbafea102a"
 }

@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-postgres-derive-dev",
-	"source": "rust-postgres-derive (0.4.6-1)",
-	"version": "0.4.6-1+b1",
+	"source": "rust-postgres-derive",
+	"version": "0.4.9-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-heck-0+default-dev (>= 0.4.1-~~)",
+		"librust-heck-0+default-dev (>= 0.4.1)",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
 		"librust-syn-2+default-dev"
 	],
-	"installedSize": 70,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 72,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Internal crate used by postgres-types - Rust source code",
-	"homepage": "https://github.com/sfackler/rust-postgres",
-	"filename": "pool/main/r/rust-postgres-derive/librust-postgres-derive-dev_0.4.6-1+b1_amd64.deb",
-	"size": 14200,
-	"md5": "3b8773469729dfab82ddc9f80e16e5df",
-	"sha256": "8c9dff5e4e554c99c5a287bea328cb9b00fd36403e2045a56aa9f9230e667aa4",
+	"homepage": "https://github.com/rust-postgres/rust-postgres",
+	"filename": "pool/main/r/rust-postgres-derive/librust-postgres-derive-dev_0.4.9-1_amd64.deb",
+	"size": 14412,
+	"md5": "7089f666ae699ae8c2b22b0ce82355f1",
+	"sha256": "a8ec3ccbf976fda63c922592b3feb951cb7d137e69916e9f908a676b11d54501",
 	"descriptionMd5": "3a8f41a5253c0f2e4798a8c09100da80"
 }]

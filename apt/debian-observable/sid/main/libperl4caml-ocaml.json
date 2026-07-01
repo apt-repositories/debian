@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libperl4caml-ocaml",
-	"source": "perl4caml (0.9.5-8)",
-	"version": "0.9.5-8+b6",
+	"source": "perl4caml",
+	"version": "0.9.5-10",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,19 @@
 		"libc6 (>= 2.14)",
 		"libperl5.40 (>= 5.40.0)"
 	],
-	"installedSize": 68,
+	"replaces": [
+		"libperl4caml-ocaml-dev (<< 0.9.5-9~)"
+	],
+	"breaks": [
+		"libperl4caml-ocaml-dev (<< 0.9.5-9~)"
+	],
+	"installedSize": 448,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "Use Perl code in OCaml programs, runtime library",
 	"homepage": "http://merjis.com/developers/perl4caml",
-	"filename": "pool/main/p/perl4caml/libperl4caml-ocaml_0.9.5-8+b6_amd64.deb",
-	"size": 13624,
-	"md5": "56c7ab8059ae951991446511b4144295",
-	"sha256": "00928146a95791df67fd9f85414cf8afcbd73aa72459bb80812bfdf75d329679",
+	"filename": "pool/main/p/perl4caml/libperl4caml-ocaml_0.9.5-10_amd64.deb",
+	"size": 114876,
+	"md5": "2bf2beef9c2b7ff276a536e34fc7dd07",
+	"sha256": "453157584516bf030b9da51cb88bc3817cbfec0e7aaeaf07cea03c05ace43233",
 	"descriptionMd5": "3ab398347d4d3fb546c6190b756325bb"
 }]

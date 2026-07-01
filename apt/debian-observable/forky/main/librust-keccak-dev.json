@@ -5,20 +5,27 @@
 		"Size"
 	],
 	"package": "librust-keccak-dev",
-	"source": "rust-keccak (0.1.5-1)",
-	"version": "0.1.5-1+b1",
+	"source": "rust-keccak",
+	"version": "0.2.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cpufeatures-0.2+default-dev"
+		"librust-cfg-if-1+default-dev",
+		"librust-cpufeatures+default-dev (<< 0.4)",
+		"librust-cpufeatures+default-dev (>= 0.2)",
+		"librust-hybrid-array-0.4+default-dev"
 	],
-	"installedSize": 67,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 82,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Keccak sponge function in Pure Rust - Rust source code",
-	"filename": "pool/main/r/rust-keccak/librust-keccak-dev_0.1.5-1+b1_amd64.deb",
-	"size": 14884,
-	"md5": "44313b5662a508e17706594028495a56",
-	"sha256": "38a7c0fbd42dc1bf18e1345a4e399b82ea8056e0b71618e8a14a2202989dc7a3",
+	"homepage": "https://github.com/RustCrypto/sponges",
+	"filename": "pool/main/r/rust-keccak/librust-keccak-dev_0.2.0-2_amd64.deb",
+	"size": 18556,
+	"md5": "007195b6813ec0d1cc3d806d8fc353d1",
+	"sha256": "24755f5bb490345c354a774e017da0ff61e935bdff72bc5608fe767135941f03",
 	"descriptionMd5": "12177cb740fe8eace80281af5f238419"
 }]
