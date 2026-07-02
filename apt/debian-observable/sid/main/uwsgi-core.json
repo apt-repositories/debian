@@ -6,37 +6,20 @@
 	],
 	"package": "uwsgi-core",
 	"source": "uwsgi",
-	"version": "2.0.31-4",
+	"version": "2.0.31-5",
 	"section": "web",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
-		"libc6 (>= 2.42)",
-		"libcap2 (>= 1:2.10)",
-		"libcrypt1 (>= 1:4.1.0)",
-		"libpam0g (>= 0.99.7.1)",
-		"libpcre2-8-0 (>= 10.22)",
-		"libssl3t64 (>= 3.0.0)",
-		"libsystemd0",
-		"libuuid1 (>= 2.16)",
-		"libxml2-16 (>= 2.14.1)",
-		"libyajl2 (>= 2.0.4)",
-		"libyaml-0-2",
-		"libzmq5 (>= 3.2.3+dfsg)",
-		"zlib1g (>= 1:1.2.0)"
+		"uwsgi"
 	],
-	"suggests": [
-		"nginx-full | libapache2-mod-proxy-uwsgi",
-		"uwsgi-dev",
-		"uwsgi-extra"
-	],
-	"installedSize": 2401,
+	"installedSize": 16,
 	"maintainer": "uWSGI packaging team <pkg-uwsgi-devel@lists.alioth.debian.org>",
-	"description": "fast, self-healing application container server (core)",
+	"description": "transitional package",
 	"homepage": "http://projects.unbit.it/uwsgi/",
-	"filename": "pool/main/u/uwsgi/uwsgi-core_2.0.31-4_amd64.deb",
-	"size": 540608,
-	"md5": "d8b1394a2a6d673de1edce869c070882",
-	"sha256": "51223ba8b16527c659a39f526249f00ca7f2197f7474cd0808ae3587d5c390f5",
-	"descriptionMd5": "06ca1aa3581c597e6eff2894ce625f66"
+	"filename": "pool/main/u/uwsgi/uwsgi-core_2.0.31-5_all.deb",
+	"size": 6940,
+	"md5": "d9b2751d7a6c47046a747c0fa9b46f56",
+	"sha256": "bb878a0b7bbdfd8d55e61a5e95dec61d1f0e2ad05d18338d297b49961925a20a",
+	"descriptionMd5": "bfe8ebc058cce6653c20fea6f85a4246"
 }]

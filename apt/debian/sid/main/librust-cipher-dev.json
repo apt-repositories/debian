@@ -5,27 +5,33 @@
 		"Size"
 	],
 	"package": "librust-cipher-dev",
-	"source": "rust-cipher (0.4.4-3)",
-	"version": "0.4.4-3+b2",
+	"source": "rust-cipher",
+	"version": "0.5.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-blobby-0.3+default-dev",
-		"librust-crypto-common-0.1+default-dev (>= 0.1.6-~~)",
-		"librust-crypto-common-0.1+rand-core-dev (>= 0.1.6-~~)",
-		"librust-crypto-common-0.1+std-dev (>= 0.1.6-~~)",
-		"librust-inout-0.1+block-padding-dev",
-		"librust-inout-0.1+default-dev",
-		"librust-inout-0.1+std-dev",
-		"librust-zeroize-1-dev (>= 1.5-~~)"
+		"librust-blobby-0.4+default-dev",
+		"librust-block-buffer-0.12+default-dev",
+		"librust-block-buffer-0.12+zeroize-dev",
+		"librust-crypto-common-0.2+default-dev (>= 0.2.2)",
+		"librust-crypto-common-0.2+getrandom-dev (>= 0.2.2)",
+		"librust-crypto-common-0.2+rand-core-dev (>= 0.2.2)",
+		"librust-crypto-common-0.2+zeroize-dev (>= 0.2.2)",
+		"librust-inout-0.2+block-padding-dev (>= 0.2.2)",
+		"librust-inout-0.2+default-dev (>= 0.2.2)",
+		"librust-zeroize-1-dev (>= 1.8)"
 	],
-	"installedSize": 116,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 151,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Traits for describing block ciphers and stream ciphers - Rust source code",
-	"filename": "pool/main/r/rust-cipher/librust-cipher-dev_0.4.4-3+b2_amd64.deb",
-	"size": 21264,
-	"md5": "5023349ee1c131c98050871b15357718",
-	"sha256": "6ce876eabc65a7b947de0204e6b31a9fbb16163f0f0e4c2899c499d6258a8c9d",
-	"descriptionMd5": "be12e25d045b75e73cc1dc9de18e03f0"
+	"homepage": "https://github.com/RustCrypto/traits",
+	"filename": "pool/main/r/rust-cipher/librust-cipher-dev_0.5.2-1_amd64.deb",
+	"size": 26820,
+	"md5": "76990fd1cd0ad8428a43730f3a1af570",
+	"sha256": "049fc9836ca38fa7a7411cff1afa7ac4690b4ba225373110d953e5d3bcefad17",
+	"descriptionMd5": "48aae45901d5b6c8995275d640c9006a"
 }

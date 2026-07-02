@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "librust-block-padding-dev",
-	"source": "rust-block-padding (0.3.3-1)",
-	"version": "0.3.3-1+b2",
+	"source": "rust-block-padding",
+	"version": "0.4.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-generic-array-0.14+default-dev"
+		"librust-hybrid-array-0.4+default-dev (>= 0.4.3)"
 	],
-	"installedSize": 46,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 50,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Padding and unpadding of messages divided into blocks - Rust source code",
-	"filename": "pool/main/r/rust-block-padding/librust-block-padding-dev_0.3.3-1+b2_amd64.deb",
-	"size": 11232,
-	"md5": "e5af3d8957e775e921d8ac8535cade15",
-	"sha256": "b8ecdec2d4fe606389660ad5d32a6a53a22b0348e5bbc7e6b8629f7a11c19cb3",
-	"descriptionMd5": "0a6097df45030a434af3a9869feb815c"
+	"homepage": "https://github.com/RustCrypto/utils",
+	"filename": "pool/main/r/rust-block-padding/librust-block-padding-dev_0.4.2-1_amd64.deb",
+	"size": 12216,
+	"md5": "696146e94aa45c906c34012acfac3d1e",
+	"sha256": "7e9139e0d9b70483d6b84567b91f0c018db1787935cfc3e03ced231ef0d67cc6",
+	"descriptionMd5": "f3d131e754f18341cb1c27d7d234b299"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rapidhash-dev",
 	"source": "rust-rapidhash",
-	"version": "4.4.1-2",
+	"version": "4.4.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,16 @@
 		"librust-rand-core-0.6-dev",
 		"librust-rustversion-1+default-dev"
 	],
-	"installedSize": 309,
+	"breaks": [
+		"rustc (<< 1.71.0~)"
+	],
+	"installedSize": 312,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Extremely fast, high quality, platform-independent hashing algorithm - Rust source code",
 	"homepage": "https://github.com/hoxxep/rapidhash",
-	"filename": "pool/main/r/rust-rapidhash/librust-rapidhash-dev_4.4.1-2_amd64.deb",
-	"size": 44836,
-	"md5": "06ff6bc5eacb8bdbf1dc7ff9a55c4c67",
-	"sha256": "d70f1c081fdadfd81f4ded1e06658be3f20f75d8b6d8c177015e75cf9f1612e1",
+	"filename": "pool/main/r/rust-rapidhash/librust-rapidhash-dev_4.4.2-1_amd64.deb",
+	"size": 45272,
+	"md5": "0b7e44f8db56a5b2559511d5023b984d",
+	"sha256": "e897f460af499ea749310cdba528fc866cbf9498760db2c3b17bfc78ae7042a9",
 	"descriptionMd5": "51136c95bfa89a1ce2510220986c4d43"
 }]

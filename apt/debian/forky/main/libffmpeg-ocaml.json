@@ -5,30 +5,36 @@
 		"Size"
 	],
 	"package": "libffmpeg-ocaml",
-	"source": "ocaml-ffmpeg (1.3.0-1)",
-	"version": "1.3.0-1+b1",
+	"source": "ocaml-ffmpeg",
+	"version": "1.3.1-1",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libstdlib-ocaml-1ltp0",
 		"ocaml-base-5.4.1",
-		"libavcodec62 (>= 7:8.1.1)",
-		"libavdevice62 (>= 7:8.1.1)",
-		"libavfilter11 (>= 7:8.1.1)",
-		"libavformat62 (>= 7:8.1.1)",
-		"libavutil60 (>= 7:8.1.1)",
+		"libavcodec62 (>= 7:8.1.2)",
+		"libavdevice62 (>= 7:8.1.2)",
+		"libavfilter11 (>= 7:8.1.2)",
+		"libavformat62 (>= 7:8.1.2)",
+		"libavutil60 (>= 7:8.1.2)",
 		"libc6 (>= 2.34)",
-		"libswresample6 (>= 7:8.1.1)",
-		"libswscale9 (>= 7:8.1.1)"
+		"libswresample6 (>= 7:8.1.2)",
+		"libswscale9 (>= 7:8.1.2)"
 	],
-	"installedSize": 333,
+	"replaces": [
+		"libffmpeg-ocaml-dev (<< 1.3.1)"
+	],
+	"breaks": [
+		"libffmpeg-ocaml-dev (<< 1.3.1)"
+	],
+	"installedSize": 1685,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "OCaml interface for FFmpeg -- runtime files",
 	"homepage": "https://github.com/savonet/ocaml-ffmpeg",
-	"filename": "pool/main/o/ocaml-ffmpeg/libffmpeg-ocaml_1.3.0-1+b1_amd64.deb",
-	"size": 76048,
-	"md5": "bf959bb676ae8199924facc7d4b42f2e",
-	"sha256": "8cedea52fbf458de35e55b3b05c200ff25b956260a452a142bfec421cf3ee7b0",
+	"filename": "pool/main/o/ocaml-ffmpeg/libffmpeg-ocaml_1.3.1-1_amd64.deb",
+	"size": 347320,
+	"md5": "2daec18154a38827da9defe0bde7ecde",
+	"sha256": "d368a8cfe89ce6b0bced1a96991c326984e61f58d508cf8b60de74aa4c766357",
 	"descriptionMd5": "658b882e2e2dc8d0e3842d2f76cb30e0"
 }

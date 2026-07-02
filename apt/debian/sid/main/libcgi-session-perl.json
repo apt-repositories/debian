@@ -5,26 +5,27 @@
 		"Size"
 	],
 	"package": "libcgi-session-perl",
-	"version": "4.48-4",
+	"version": "4.49-1",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"perl:any",
-		"libcgi-pm-perl | perl (<< 5.19)"
+		"libcgi-pm-perl",
+		"libcrypt-sysrandom-perl"
 	],
 	"recommends": [
+		"libdbd-pg-perl | libdbd-mysql-perl | libdbd-sqlite3-perl",
 		"libdbi-perl",
-		"libfreezethaw-perl",
-		"libdbd-pg-perl | libdbd-mysql-perl | libdbd-sqlite3-perl"
+		"libfreezethaw-perl"
 	],
-	"installedSize": 268,
+	"installedSize": 249,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "persistent session data in CGI applications",
 	"homepage": "https://metacpan.org/release/CGI-Session",
-	"filename": "pool/main/libc/libcgi-session-perl/libcgi-session-perl_4.48-4_all.deb",
-	"size": 118456,
-	"md5": "be5bbe03c63b3c2a859ce63f61c92086",
-	"sha256": "5c36f07ae24f85d37fa7e29a138e1a45369a454596680b66e01e9438652bf70d",
+	"filename": "pool/main/libc/libcgi-session-perl/libcgi-session-perl_4.49-1_all.deb",
+	"size": 100016,
+	"md5": "2578226c0c37ca099c3d46e5e6b36508",
+	"sha256": "e58d3dce7dff29d70e6db7556ce80c1f5d4e39a63cc217cee3cda1605817c502",
 	"descriptionMd5": "43faa23a2f7e1babfc5ff35cd534c5bb"
 }
