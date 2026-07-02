@@ -6,15 +6,15 @@
 	],
 	"package": "quake3-server",
 	"source": "game-data-packager",
-	"version": "88",
+	"version": "89",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"ioquake3-server",
 		"quake3-data | game-data-packager",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"python3:any"
 	],
 	"recommends": [
@@ -28,13 +28,13 @@
 		"systemd (<< 257)",
 		"systemd-standalone-sysusers (<< 257)"
 	],
-	"installedSize": 177,
+	"installedSize": 178,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "Quake III Arena dedicated server launcher scripts",
 	"homepage": "https://wiki.debian.org/Games/GameDataPackager",
-	"filename": "pool/contrib/g/game-data-packager/quake3-server_88_all.deb",
-	"size": 35388,
-	"md5": "8942de60d5b6591fa425aa1e434a89c5",
-	"sha256": "87160a3142f058ed95b576fb2aeadc350987f788ffd9f36b0b5eaa7b8052be44",
+	"filename": "pool/contrib/g/game-data-packager/quake3-server_89_all.deb",
+	"size": 35936,
+	"md5": "3d4800577c3849f0ad34d4ae85ff4f7c",
+	"sha256": "6627f9e882ee8852f434c678fc7ab13848ee970dc4e10a3c018ee94f873be7a1",
 	"descriptionMd5": "b581844db5e190ba8c02893ca380aaa8"
 }

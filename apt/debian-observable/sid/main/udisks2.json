@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "udisks2",
-	"version": "2.11.1-1",
+	"version": "2.11.1-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libudisks2-0 (= 2.11.1-1)",
+		"libudisks2-0 (= 2.11.1-2)",
 		"libblockdev-crypto3",
 		"libblockdev-fs3",
 		"libblockdev-loop3",
@@ -22,6 +22,7 @@
 		"default-dbus-system-bus | dbus-system-bus",
 		"parted",
 		"udev",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libacl1 (>= 2.2.23)",
 		"libblkid1 (>= 2.16)",
 		"libblockdev-utils3 (>= 3.0)",
@@ -54,13 +55,13 @@
 		"udisks2-lvm2",
 		"xfsprogs"
 	],
-	"installedSize": 3134,
+	"installedSize": 3135,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "D-Bus service to access and manipulate storage devices",
 	"homepage": "https://www.freedesktop.org/wiki/Software/udisks",
-	"filename": "pool/main/u/udisks2/udisks2_2.11.1-1_amd64.deb",
-	"size": 475956,
-	"md5": "cf028113f7cee81ab84df2d3b881d083",
-	"sha256": "5e44fa61dfaefcf9dfa037f2994c71178eba5413f61a25a01db54f352d8c1289",
+	"filename": "pool/main/u/udisks2/udisks2_2.11.1-2_amd64.deb",
+	"size": 475384,
+	"md5": "d7b540d6495b7fca04566f293d0313e9",
+	"sha256": "8ba77b659114fc738151374ed801b676e34f1290548513d415dc2d11afade36e",
 	"descriptionMd5": "80ddc8936dbb5d3128956adfa5317119"
 }]

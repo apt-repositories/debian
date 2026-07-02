@@ -6,15 +6,15 @@
 	],
 	"package": "quake-server",
 	"source": "game-data-packager",
-	"version": "88",
+	"version": "89",
 	"section": "contrib/games",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"quake-registered | quake-shareware | game-data-packager",
 		"quakespasm | quake-engine-server",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"python3:any"
 	],
 	"breaks": [
@@ -22,13 +22,13 @@
 		"systemd (<< 257)",
 		"systemd-standalone-sysusers (<< 257)"
 	],
-	"installedSize": 161,
+	"installedSize": 162,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "classic first person shooter - server and init script",
 	"homepage": "https://wiki.debian.org/Games/GameDataPackager",
-	"filename": "pool/contrib/g/game-data-packager/quake-server_88_all.deb",
-	"size": 34556,
-	"md5": "ece765a6b5feac6ca3be300e124f65e1",
-	"sha256": "c8a90803a9675a87558b33cdb1ea7c44250801f236f3661603f033614a30502b",
+	"filename": "pool/contrib/g/game-data-packager/quake-server_89_all.deb",
+	"size": 35128,
+	"md5": "c7266b16ad16223c3585d054895f1867",
+	"sha256": "7e32edc41e99927fec55a14f40c8021c5aa47812b25efc13536b9c9805d89fe4",
 	"descriptionMd5": "f2d85a7d1334e2ce66699c546170e8b9"
 }

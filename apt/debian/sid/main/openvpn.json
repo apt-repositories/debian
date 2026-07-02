@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "openvpn",
-	"version": "2.7.3-1",
+	"version": "2.7.5-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libcap-ng0 (>= 0.7.9)",
 		"liblz4-1 (>= 0.0~r113)",
@@ -30,13 +31,13 @@
 		"openvpn-systemd-resolved",
 		"resolvconf"
 	],
-	"installedSize": 1846,
+	"installedSize": 1851,
 	"maintainer": "OpenVPN Maintainers <openvpn@packages.debian.org>",
 	"description": "virtual private network daemon",
 	"homepage": "https://openvpn.net/community/",
-	"filename": "pool/main/o/openvpn/openvpn_2.7.3-1_amd64.deb",
-	"size": 686452,
-	"md5": "f55ca897f4a17df97e61108045834a48",
-	"sha256": "4e1a6828e4edb71cfbb9511085448963ce5bdbe0024dc77be17fff01040cc826",
+	"filename": "pool/main/o/openvpn/openvpn_2.7.5-1_amd64.deb",
+	"size": 689784,
+	"md5": "64a38d6a794c063b9820d139dfa190a1",
+	"sha256": "eff62e1b06ce2565f0a928d187b36550d63220399b9e366283af09323e9a1d42",
 	"descriptionMd5": "2ebe91e411d46309a61861db507e5c2f"
 }

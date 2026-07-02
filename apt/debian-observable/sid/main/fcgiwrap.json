@@ -5,18 +5,15 @@
 		"Size"
 	],
 	"package": "fcgiwrap",
-	"version": "1.1.0-16",
+	"version": "1.1.0-17",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"systemd | spawn-fcgi (>= 1.6.1)",
+		"systemd | spawn-fcgi",
 		"libc6 (>= 2.34)",
-		"libfcgi0t64 (>= 2.4.2)",
+		"libfcgi0t64 (>= 2.4.5)",
 		"libsystemd0"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"enhances": [
 		"nginx"
@@ -25,9 +22,9 @@
 	"maintainer": "Debian fcgiwrap Maintainers <team+fcgiwrap@tracker.debian.org>",
 	"description": "simple server to run CGI applications over FastCGI",
 	"homepage": "https://github.com/gnosek/fcgiwrap",
-	"filename": "pool/main/f/fcgiwrap/fcgiwrap_1.1.0-16_amd64.deb",
-	"size": 16724,
-	"md5": "d13f01afed67402b73be089576d8709e",
-	"sha256": "e2a2ad27d20880f7af9fd8ba95a423736ed20d04cffe00a9f4cc0acd28ae8aee",
+	"filename": "pool/main/f/fcgiwrap/fcgiwrap_1.1.0-17_amd64.deb",
+	"size": 16484,
+	"md5": "4b830398be834f840a0480d2a762f823",
+	"sha256": "8a2605f27c50a5c8e5bc9933ca60ef00bd4d3b03ebc944a54ead23f2546a0cce",
 	"descriptionMd5": "881efc149d864275058657a87469a456"
 }]
