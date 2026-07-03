@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-imds",
+	"source": "systemd",
+	"version": "261.1-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libsystemd-shared (= 261.1-2)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libcurl4t64"
+	],
+	"replaces": [
+		"systemd (<< 261-2~)"
+	],
+	"breaks": [
+		"systemd (<< 261-2~)"
+	],
+	"installedSize": 235,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "Provides imds utilities and units",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-imds_261.1-2_amd64.deb",
+	"size": 88948,
+	"md5": "49912ff7b31804513a57a9f1e179a42a",
+	"sha256": "61bd9b89a6e73b77f6c13f7e71cc64e78c59275b6866eb269023f16de95309f6",
+	"descriptionMd5": "2f646d8b7b29a18a884b921c420b4481"
+}]

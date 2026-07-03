@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-report",
+	"source": "systemd",
+	"version": "261.1-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libsystemd-shared (= 261.1-2)",
+		"libcurl4t64"
+	],
+	"replaces": [
+		"systemd (<< 261-2~)"
+	],
+	"breaks": [
+		"systemd (<< 261-2~)"
+	],
+	"installedSize": 178,
+	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
+	"description": "Provides metrics reporting utilities and units",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-report_261.1-2_amd64.deb",
+	"size": 66436,
+	"md5": "baa8b58d1c8848937573c1c489c94e04",
+	"sha256": "d685457622e72fde562f4c551042e44bf6deb00b19eb5fd094e146bc2a3f0185",
+	"descriptionMd5": "01ec97ee4eeb2f9712e48d34c77e01d7"
+}

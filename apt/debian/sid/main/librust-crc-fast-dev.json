@@ -6,7 +6,7 @@
 	],
 	"package": "librust-crc-fast-dev",
 	"source": "rust-crc-fast",
-	"version": "1.10.0-1",
+	"version": "1.10.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-spin-0.10+rwlock-dev",
 		"librust-spin-0.10+spin-mutex-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.89~)"
+	],
 	"installedSize": 3781,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "World's fastest generic CRC16, CRC32, and CRC64 calculator using SIMD - Rust source code",
 	"homepage": "https://github.com/awesomized/crc-fast-rust",
-	"filename": "pool/main/r/rust-crc-fast/librust-crc-fast-dev_1.10.0-1_amd64.deb",
-	"size": 662000,
-	"md5": "b64defaabf2a1adfad611bf33b496032",
-	"sha256": "bac367d0534b4e231dbaa9e231703e7993aa4de97fb82b8d73580c23707607fa",
+	"filename": "pool/main/r/rust-crc-fast/librust-crc-fast-dev_1.10.0-2_amd64.deb",
+	"size": 666168,
+	"md5": "30c53a6fe32fc589421f21b3d6668065",
+	"sha256": "2fdb0b311edf9058ac3aa9b69513d59d677c3a95f8ae8ef4d1c30bb68893c018",
 	"descriptionMd5": "09bda0ac1f9cb1819d265a349d38459c"
 }

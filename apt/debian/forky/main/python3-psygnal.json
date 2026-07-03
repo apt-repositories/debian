@@ -6,20 +6,23 @@
 	],
 	"package": "python3-psygnal",
 	"source": "psygnal",
-	"version": "0.15.1-1",
+	"version": "0.15.1-3",
 	"section": "python",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"python3:any"
+		"python3 (<< 3.15)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libc6 (>= 2.14)"
 	],
-	"installedSize": 341,
+	"installedSize": 3096,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Fast Python callback/event system modeled after Qt Signals",
 	"homepage": "https://github.com/pyapp-kit/psygnal/",
-	"filename": "pool/main/p/psygnal/python3-psygnal_0.15.1-1_all.deb",
-	"size": 72672,
-	"md5": "4958968718db400dd22ce8fc14eeada6",
-	"sha256": "aff95cf064b65eda7dfcff8a37c23656cf60266ca3d7c479f91a677c855ee100",
+	"filename": "pool/main/p/psygnal/python3-psygnal_0.15.1-3_amd64.deb",
+	"size": 619288,
+	"md5": "b97158d1fc107bd7593d15124d32425a",
+	"sha256": "88978a10dc98d3fe6e358446dbba4df4f1acca92ecea8fe389b9c6f22768e1b9",
 	"descriptionMd5": "433e594459881b5c337f763748aaf94c"
 }
