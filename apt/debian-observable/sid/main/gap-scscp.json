@@ -5,27 +5,28 @@
 		"Size"
 	],
 	"package": "gap-scscp",
-	"version": "2.4.4+ds-3",
+	"version": "2.4.4+ds-4",
 	"section": "math",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"gap (>= 4.13.0)",
 		"gap-gapdoc",
 		"gap-io",
-		"gap-openmath"
+		"gap-openmath",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"recommends": [
 		"gap-smallgrp"
 	],
-	"installedSize": 2070,
+	"installedSize": 2074,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "SCSCP protocol in GAP",
 	"homepage": "https://www.gap-system.org/Packages/scscp.html",
-	"filename": "pool/main/g/gap-scscp/gap-scscp_2.4.4+ds-3_all.deb",
-	"size": 652716,
-	"md5": "e713cf88c94040d8dd65d36ffe9e2cd9",
-	"sha256": "77b1e6c63c483fe25e9df454810ffe9091e3eaf9b5f03d47f6743724f4897d30",
+	"filename": "pool/main/g/gap-scscp/gap-scscp_2.4.4+ds-4_all.deb",
+	"size": 653192,
+	"md5": "3ea565594743b15138e2b1e6ce7f9ad4",
+	"sha256": "5204f7dd625c94716ad946528bf5efc8f1cf2fbe21f8484fadc61fca3ced07a9",
 	"descriptionMd5": "6327efe12800b326b4e303a7c56744fb"
 }]

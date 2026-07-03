@@ -6,7 +6,7 @@
 	],
 	"package": "librust-pangocairo-sys-dev",
 	"source": "rust-pangocairo-sys",
-	"version": "0.22.0-2",
+	"version": "0.22.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-system-deps-7+default-dev",
 		"libpango1.0-dev"
 	],
-	"installedSize": 12901,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 29,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to PangoCairo - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-pangocairo-sys/librust-pangocairo-sys-dev_0.22.0-2_amd64.deb",
-	"size": 1017296,
-	"md5": "2540989f3881eef45ca3222714e0f801",
-	"sha256": "5d1cf7d4817ee8b9408007d4e4b031da560a32da5ec638802941cd8e79b2d0ff",
+	"filename": "pool/main/r/rust-pangocairo-sys/librust-pangocairo-sys-dev_0.22.0-3_amd64.deb",
+	"size": 6072,
+	"md5": "cf2ada359bdb811cf01d3147fd44604b",
+	"sha256": "01793a28b585257896eebbfec956361aec7874bdd58b4436243bafc7612d7dba",
 	"descriptionMd5": "565850011a280fe328a2af0438258805"
 }

@@ -5,14 +5,15 @@
 		"Size"
 	],
 	"package": "policyd-rate-limit",
-	"version": "1.2.0-4",
+	"version": "1.2.0-5",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"python3-yaml",
-		"python3:any",
-		"adduser"
+		"python3:any"
 	],
 	"suggests": [
 		"python3-mysqldb",
@@ -21,13 +22,13 @@
 	"enhances": [
 		"postfix"
 	],
-	"installedSize": 147,
+	"installedSize": 150,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "postfix policy daemon limiting the number of mails a user can send",
 	"homepage": "https://github.com/nitmir/policyd-rate-limit",
-	"filename": "pool/main/p/policyd-rate-limit/policyd-rate-limit_1.2.0-4_all.deb",
-	"size": 30724,
-	"md5": "3c90448f180c5efc2f5fac3f06963f21",
-	"sha256": "08e7824eb8f2be9e10328b6c3ae50207a470f0357117ac789b469a6c20a7999b",
+	"filename": "pool/main/p/policyd-rate-limit/policyd-rate-limit_1.2.0-5_all.deb",
+	"size": 30480,
+	"md5": "6c13b3e612e404a9d6dace76f176a519",
+	"sha256": "ae571a5181b8e2be87b3196a63a01e88123c435938ecf34a019a2613dc93cc05",
 	"descriptionMd5": "edaace419c4f777b1e95c28a134021dd"
 }

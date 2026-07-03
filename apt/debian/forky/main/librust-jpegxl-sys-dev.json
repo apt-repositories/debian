@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-jpegxl-sys-dev",
-	"source": "rust-jpegxl-sys (0.11.2-2)",
-	"version": "0.11.2-2+b1",
+	"source": "rust-jpegxl-sys",
+	"version": "0.12.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-pkg-config-0.3+default-dev (>= 0.3.31-~~)",
+		"librust-pkg-config-0.3+default-dev (>= 0.3.32)",
 		"libjxl-dev (>= 0.11)"
 	],
-	"installedSize": 301,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 303,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust wrapper for JPEG XL reference implementation - Rust source code",
 	"homepage": "https://github.com/inflation/jpegxl-rs",
-	"filename": "pool/main/r/rust-jpegxl-sys/librust-jpegxl-sys-dev_0.11.2-2+b1_amd64.deb",
-	"size": 59860,
-	"md5": "2f96f49ad81e370ca3755d7b02f6acf5",
-	"sha256": "01fdc991f08dacadca213a31f1a4010e90c040e730cb5f66ef41fc545eae3686",
+	"filename": "pool/main/r/rust-jpegxl-sys/librust-jpegxl-sys-dev_0.12.1-1_amd64.deb",
+	"size": 60720,
+	"md5": "08ea8b00d71e5765bd7135b12891d374",
+	"sha256": "34f85ad2bbed9b1a8bd8f99a65ab60c323dfa1250d6213fdd30b43ad6f433268",
 	"descriptionMd5": "e6f44961d4407fc8a2d301a345fb8426"
 }

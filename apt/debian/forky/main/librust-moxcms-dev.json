@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-moxcms-dev",
-	"source": "rust-moxcms (0.7.11-1)",
-	"version": "0.7.11-1+b1",
+	"source": "rust-moxcms",
+	"version": "0.8.1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-num-traits-0.2+default-dev",
-		"librust-pxfm-0.1+default-dev (>= 0.1.1-~~)"
+		"librust-pxfm-0.1+default-dev (>= 0.1.1)"
 	],
-	"installedSize": 1591,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 1598,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Simple Color Management in Rust - Rust source code",
 	"homepage": "https://github.com/awxkee/moxcms",
-	"filename": "pool/main/r/rust-moxcms/librust-moxcms-dev_0.7.11-1+b1_amd64.deb",
-	"size": 119968,
-	"md5": "3071d77eed48ec7a00d2b7aaf74ad7f5",
-	"sha256": "6ce9ad9308a32ebc0fc15686e243b861588e793375749fe987a5a440a1b3dfe8",
+	"filename": "pool/main/r/rust-moxcms/librust-moxcms-dev_0.8.1-2_amd64.deb",
+	"size": 126044,
+	"md5": "7a547b71f50800394a61a22268069193",
+	"sha256": "88a50643d97ca576539095e07c998a1a5171c19c62e079b2d4f0f51a1196340d",
 	"descriptionMd5": "c6ca7c8dccd373337de17e5f06b35edf"
 }

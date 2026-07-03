@@ -6,25 +6,28 @@
 	],
 	"package": "librust-gst-plugin-gif-dev",
 	"source": "rust-gst-plugin-gif",
-	"version": "0.15.0-1",
+	"version": "0.15.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-atomic-refcell-0.1+default-dev",
-		"librust-gif-0.13+default-dev",
+		"librust-gif-0.14+default-dev",
 		"librust-gst-plugin-version-helper-0.8+default-dev",
 		"librust-gstreamer-0.25+default-dev",
 		"librust-gstreamer-0.25+v1-18-dev",
 		"librust-gstreamer-video-0.25+default-dev"
 	],
-	"installedSize": 83,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 82,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "GStreamer GIF plugin - Rust source code",
 	"homepage": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs",
-	"filename": "pool/main/r/rust-gst-plugin-gif/librust-gst-plugin-gif-dev_0.15.0-1_amd64.deb",
-	"size": 17188,
-	"md5": "9e60968c1084c6c45c2f5eb0a7974f95",
-	"sha256": "ae495ca21ad236926774a55754af06bcb0671fa91b357056d7066c5ad198588b",
+	"filename": "pool/main/r/rust-gst-plugin-gif/librust-gst-plugin-gif-dev_0.15.0-2_amd64.deb",
+	"size": 17132,
+	"md5": "b3a262871f5b6674bfc55ea34c1593b1",
+	"sha256": "201dfa710fad92b10513714b905432d3b3c331a09f8f75ca6788cc44308d24e7",
 	"descriptionMd5": "205c89d92034b65242c81187c656527d"
 }

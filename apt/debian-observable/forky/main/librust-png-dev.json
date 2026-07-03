@@ -6,25 +6,32 @@
 	],
 	"package": "librust-png-dev",
 	"source": "rust-png",
-	"version": "0.17.16-2",
+	"version": "0.18.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bitflags-1+default-dev",
+		"librust-bitflags-2+default-dev",
 		"librust-crc32fast-1+default-dev (>= 1.2.0)",
 		"librust-fdeflate-0.3+default-dev (>= 0.3.3)",
-		"librust-flate2-1+default-dev (>= 1.0.11)",
-		"librust-miniz-oxide+default-dev (>= 0.7)",
-		"librust-miniz-oxide+simd-dev (>= 0.7)"
+		"librust-flate2-1+default-dev (>= 1.0.35)",
+		"librust-flate2-1+zlib-rs-dev (>= 1.0.35)",
+		"librust-miniz-oxide-0+default-dev (>= 0.7)",
+		"librust-miniz-oxide-0+simd-dev (>= 0.7)"
 	],
-	"installedSize": 516,
+	"breaks": [
+		"librust-gif-dev (<< 0.14)",
+		"librust-image-dev (<< 0.25.10)",
+		"librust-resvg-dev (<< 0.47)",
+		"rustc (<< 1.73~)"
+	],
+	"installedSize": 586,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "PNG decoding and encoding library in pure Rust - Rust source code",
 	"homepage": "https://github.com/image-rs/image-png",
-	"filename": "pool/main/r/rust-png/librust-png-dev_0.17.16-2_amd64.deb",
-	"size": 92688,
-	"md5": "de7db4192e30a5b0321d9671c9cad8cb",
-	"sha256": "e2a2b54b80a82ae9025063b564537a8ab6c1ca03b96af35a73653304f124529d",
+	"filename": "pool/main/r/rust-png/librust-png-dev_0.18.1-3_amd64.deb",
+	"size": 107200,
+	"md5": "ded2b8e8f45338937c28f74df086b5ba",
+	"sha256": "ef9ede5538927dec3b4f7dc4efb603ad7ddbfca84dffd1c5fb95e6e4ce87e375",
 	"descriptionMd5": "69b2261a878699384886dcc185df34b7"
 }]

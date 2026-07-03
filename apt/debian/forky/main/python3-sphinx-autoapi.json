@@ -6,34 +6,34 @@
 	],
 	"package": "python3-sphinx-autoapi",
 	"source": "sphinx-autoapi",
-	"version": "3.6.1-1",
+	"version": "3.6.1-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-astroid (>= 2.7) | python3-supported-max (<< 3.12)",
-		"python3-astroid (>= 2.7) | python3-supported-min (>= 3.12)",
 		"python3-jinja2",
 		"python3-sphinx",
+		"python3-supported-min (>= 3.12) | python3-astroid (>= 2.7)",
 		"python3-yaml",
 		"python3:any",
-		"libjs-sphinxdoc (>= 8.2)"
+		"libjs-sphinxdoc (>= 9.0)"
 	],
 	"suggests": [
+		"python-jinja2-doc",
 		"python3-doc",
-		"sphinx-doc",
-		"python-jinja2-doc"
+		"sphinx-doc"
 	],
 	"enhances": [
 		"python3-sphinx"
 	],
-	"installedSize": 907,
+	"installedSize": 906,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Automatic doc generation by parsing source code (Sphinx extension)",
 	"homepage": "https://github.com/readthedocs/sphinx-autoapi",
-	"filename": "pool/main/s/sphinx-autoapi/python3-sphinx-autoapi_3.6.1-1_all.deb",
-	"size": 106900,
-	"md5": "b4cd96d0989961e94396b613c023d0ef",
-	"sha256": "11fbf7ca1172880b1b8d0f3da4082023d3aa68f5405c49b9a48be01fda3f7f02",
+	"filename": "pool/main/s/sphinx-autoapi/python3-sphinx-autoapi_3.6.1-2_all.deb",
+	"size": 106196,
+	"md5": "b9e2c4940e0b8938b7981f27ace8b4ad",
+	"sha256": "46c23eec377953367e45ca45ccfc17df146502e2a71e6db558d9e962fdd7000e",
 	"descriptionMd5": "9ce974ac85a5fa2adc1fe709666e2a4c"
 }
