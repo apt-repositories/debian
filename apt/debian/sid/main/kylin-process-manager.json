@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "kylin-process-manager",
-	"version": "4.10.0.0-2",
+	"version": "4.10.0.0-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"kylin-process-manager-daemon (= 4.10.0.0-2)",
+		"kylin-process-manager-daemon (= 4.10.0.0-3)",
 		"dconf-gsettings-backend | gsettings-backend",
+		"init-system-helpers (>= 1.66~)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libglib2.0-0t64 (>= 2.56.0)",
@@ -20,7 +21,7 @@
 		"libkf6configcore6 (>= 6.0.0)",
 		"libkf6windowsystem6 (>= 6.0.0)",
 		"libkysdk-system (>= 3.0.1.0)",
-		"libproc2-0 (>= 2:4.0.4)",
+		"libproc2-1 (>= 2:4.0.6)",
 		"libqt6core6t64 (>= 6.10.2)",
 		"libqt6dbus6 (>= 6.8.2)",
 		"libqt6gui6 (>= 6.1.2)",
@@ -30,18 +31,18 @@
 		"libxext6"
 	],
 	"replaces": [
-		"kylin-process-manager-daemon (<< 4.10.0.0-2)"
+		"kylin-process-manager-daemon (<< 4.10.0.0-3)"
 	],
 	"breaks": [
-		"kylin-process-manager-daemon (<< 4.10.0.0-2)"
+		"kylin-process-manager-daemon (<< 4.10.0.0-3)"
 	],
-	"installedSize": 1433,
+	"installedSize": 1437,
 	"maintainer": "Kylin Team <team+kylin@tracker.debian.org>",
 	"description": "Application and process group Management",
 	"homepage": "https://gitee.com/openkylin/kylin-process-manager",
-	"filename": "pool/main/k/kylin-process-manager/kylin-process-manager_4.10.0.0-2_amd64.deb",
-	"size": 400716,
-	"md5": "dea882893ef75bdfca9f3ec14e221dca",
-	"sha256": "99c09e2f3238159ce6ef51525c22d28d15726f5a832787e3f7f51f6b537692d7",
+	"filename": "pool/main/k/kylin-process-manager/kylin-process-manager_4.10.0.0-3_amd64.deb",
+	"size": 401132,
+	"md5": "c62a04cc1dff413a59472439a0589f20",
+	"sha256": "da94aab8b01915b10f7d278746b0fbd526496a04059ade16681be2796d2211d6",
 	"descriptionMd5": "05902134094f97c6106e32962a62f57a"
 }

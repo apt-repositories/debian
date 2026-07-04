@@ -6,13 +6,13 @@
 	],
 	"package": "ceph-base",
 	"source": "ceph",
-	"version": "20.2.2+ds-11",
+	"version": "20.2.2+ds-12",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"binutils",
-		"ceph-common (= 20.2.2+ds-11)",
+		"ceph-common (= 20.2.2+ds-12)",
 		"cryptsetup-bin | cryptsetup",
 		"e2fsprogs",
 		"gdisk",
@@ -30,6 +30,7 @@
 		"libc6 (>= 2.38)",
 		"libcap2 (>= 1:2.10)",
 		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4t64 (>= 2.18.1)",
 		"liblz4-1 (>= 0.0~r130)",
 		"libpmem1 (>= 1.4)",
 		"librados2 (>= 20.2.2+ds)",
@@ -39,19 +40,19 @@
 		"zlib1g (>= 1:1.2.0)"
 	],
 	"recommends": [
-		"ceph-mds (= 20.2.2+ds-11)",
+		"ceph-mds (= 20.2.2+ds-12)",
 		"chrony | time-daemon | ntp",
-		"librados2 (= 20.2.2+ds-11)",
-		"libradosstriper1 (= 20.2.2+ds-11)",
-		"librbd1 (= 20.2.2+ds-11)"
+		"librados2 (= 20.2.2+ds-12)",
+		"libradosstriper1 (= 20.2.2+ds-12)",
+		"librbd1 (= 20.2.2+ds-12)"
 	],
-	"installedSize": 27220,
+	"installedSize": 27225,
 	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
 	"description": "common ceph daemon libraries and management tools",
 	"homepage": "http://ceph.com",
-	"filename": "pool/main/c/ceph/ceph-base_20.2.2+ds-11_amd64.deb",
-	"size": 5789436,
-	"md5": "a3e0e8a1a1a6f1d395a1df534a8f1fe4",
-	"sha256": "484608cd51a11da21d9df1c99f9c0791f0c5275d144fc4623dfc15d6dbd5c723",
+	"filename": "pool/main/c/ceph/ceph-base_20.2.2+ds-12_amd64.deb",
+	"size": 5794532,
+	"md5": "330d30a4716dc9ac49a142f23c3c14be",
+	"sha256": "5a4d325dd36e7c6e62e22fe43adc3ef098e9ff0f864217a739a2852d91102b49",
 	"descriptionMd5": "38862c56180e1d3d93a838a6386f82bc"
 }

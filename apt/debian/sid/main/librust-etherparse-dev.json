@@ -6,7 +6,7 @@
 	],
 	"package": "librust-etherparse-dev",
 	"source": "rust-etherparse",
-	"version": "0.19.0-1",
+	"version": "0.19.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-arrayvec-0.7+std-dev (>= 0.7.2)",
 		"librust-arrayvec-0.7-dev (>= 0.7.2)"
 	],
-	"installedSize": 3157,
+	"breaks": [
+		"rustc (<< 1.83.0~)"
+	],
+	"installedSize": 3160,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Parsing & writing a bunch of packet based protocols (EthernetII, IPv4, IPv6, UDP, TCP ...) - Rust source code",
 	"homepage": "https://github.com/JulianSchmid/etherparse",
-	"filename": "pool/main/r/rust-etherparse/librust-etherparse-dev_0.19.0-1_amd64.deb",
-	"size": 305392,
-	"md5": "48b5818221341e466a3a13bb6da5f09a",
-	"sha256": "e32ec12ac183cd41e7ac4687acee83287d2139086327f4b5d041497e5c05314e",
+	"filename": "pool/main/r/rust-etherparse/librust-etherparse-dev_0.19.0-2_amd64.deb",
+	"size": 305928,
+	"md5": "7a040a0f6165982516b3754bcc841e96",
+	"sha256": "0e2916bd0ef2113a94fa16647ecb3804affd3bd57cf015661a41065197f1a32c",
 	"descriptionMd5": "79fb00485be1fbbdae6fd67f85db697b"
 }
