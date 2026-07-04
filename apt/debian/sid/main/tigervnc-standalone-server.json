@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "tigervnc-standalone-server",
-	"source": "tigervnc (1.15.0+dfsg-2)",
-	"version": "1.15.0+dfsg-2+b1",
+	"source": "tigervnc",
+	"version": "1.15.0+dfsg-2.1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,11 +14,12 @@
 		"xkb-data",
 		"x11-xkb-utils",
 		"xauth",
-		"tigervnc-common (= 1.15.0+dfsg-2+b1)",
+		"tigervnc-common (= 1.15.0+dfsg-2.1)",
 		"libaudit1 (>= 1:2.2.1)",
 		"libc6 (>= 2.38)",
 		"libgbm1 (>= 17.3.0~rc1)",
-		"libgl1",
+		"libgcc-s1 (>= 3.0)",
+		"libgl1 (>= 1.3.2)",
 		"libgmp10 (>= 2:6.3.0+dfsg)",
 		"libgnutls30t64 (>= 3.8.1)",
 		"libhogweed6t64",
@@ -32,7 +33,7 @@
 		"libunwind8",
 		"libxau6 (>= 1:1.0.11)",
 		"libxcvt0 (>= 0.1.0)",
-		"libxdmcp6",
+		"libxdmcp6 (>= 1:1.1.5)",
 		"libxfont2 (>= 1:2.0.1)",
 		"libxshmfence1",
 		"zlib1g (>= 1:1.1.4)",
@@ -40,7 +41,7 @@
 		"libfile-readbackwards-perl (>= 1.05)"
 	],
 	"recommends": [
-		"tigervnc-tools (= 1.15.0+dfsg-2+b1)",
+		"tigervnc-tools (= 1.15.0+dfsg-2.1)",
 		"libgl1-mesa-dri (>= 7.1~rc1)",
 		"xfonts-base",
 		"x11-xserver-utils"
@@ -50,13 +51,13 @@
 		"xfonts-scalable",
 		"openssl"
 	],
-	"installedSize": 2967,
+	"installedSize": 2960,
 	"maintainer": "TigerVNC Packaging Team <pkg-tigervnc-devel@lists.alioth.debian.org>",
 	"description": "Standalone virtual network computing server",
 	"homepage": "http://www.tigervnc.org",
-	"filename": "pool/main/t/tigervnc/tigervnc-standalone-server_1.15.0+dfsg-2+b1_amd64.deb",
-	"size": 1114060,
-	"md5": "0d6929f307e51c48c40038cba6ee1a53",
-	"sha256": "1c4e3cc1bf9847f4550e4d8dceddaccade7376a502363352ea430c5668338586",
+	"filename": "pool/main/t/tigervnc/tigervnc-standalone-server_1.15.0+dfsg-2.1_amd64.deb",
+	"size": 1110532,
+	"md5": "3c1c7709c64b23709758b507ce3eb2e1",
+	"sha256": "aea5a99f27fcf5c55ec1a89217913beafe48ba884c262026c9d096aa151e45fa",
 	"descriptionMd5": "520aa71a1abbc198d8395fe6fdf1838e"
 }

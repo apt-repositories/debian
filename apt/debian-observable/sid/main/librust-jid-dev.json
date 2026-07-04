@@ -6,7 +6,7 @@
 	],
 	"package": "librust-jid-dev",
 	"source": "rust-jid",
-	"version": "0.12.3-1",
+	"version": "0.12.3-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,16 @@
 		"librust-serde-1+derive-dev",
 		"librust-stringprep-0.1+default-dev (>= 0.1.3)"
 	],
+	"breaks": [
+		"librust-xso-dev (<< 0.4)"
+	],
 	"installedSize": 112,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Crate which provides a Jid struct for Jabber IDs - Rust source code",
 	"homepage": "https://gitlab.com/xmpp-rs/xmpp-rs",
-	"filename": "pool/main/r/rust-jid/librust-jid-dev_0.12.3-1_amd64.deb",
-	"size": 24704,
-	"md5": "bde49f1125d14804466c14b139900fe1",
-	"sha256": "a6ee8a8077a1cd9a53377b69539c71c8ab5c14ed66d1672144fd12df4f177ecc",
+	"filename": "pool/main/r/rust-jid/librust-jid-dev_0.12.3-2_amd64.deb",
+	"size": 24812,
+	"md5": "f858b01ee6f52e77c04f649acd5031c8",
+	"sha256": "ce912561aceb328107218f2d1cc42281f621a85b80992dc43d1bf260aff79665",
 	"descriptionMd5": "eb45a8620de2f8b528fb5dea29a35c10"
 }]

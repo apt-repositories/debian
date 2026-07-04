@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "ferm",
-	"version": "2.7-5",
+	"version": "2.7-7",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"iptables",
-		"perl"
+		"perl",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"recommends": [
 		"libnet-dns-perl"
 	],
-	"installedSize": 313,
+	"installedSize": 326,
 	"maintainer": "Debian Ferm Maintainers <ferm@packages.debian.org>",
 	"description": "maintain and setup complicated firewall rules",
 	"homepage": "https://github.com/MaxKellermann/ferm",
-	"filename": "pool/main/f/ferm/ferm_2.7-5_all.deb",
-	"size": 108200,
-	"md5": "a9386d0d5db0b9cf164f8f8346a2005e",
-	"sha256": "afaf2d2b463d701e6792007b039a97972571768456c86bfdbcc56fd3443d0a7b",
+	"filename": "pool/main/f/ferm/ferm_2.7-7_all.deb",
+	"size": 111968,
+	"md5": "371104a818bc62cdcda43e2c02b4cf2d",
+	"sha256": "9a2d39f36d89d217d007642770ddb5bcb358e63382f2608e8ad6b209bf056f5d",
 	"descriptionMd5": "72483f2f5f9153295b67c751fece6d34"
 }]
