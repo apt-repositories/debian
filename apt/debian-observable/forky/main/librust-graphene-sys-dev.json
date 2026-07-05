@@ -6,7 +6,7 @@
 	],
 	"package": "librust-graphene-sys-dev",
 	"source": "rust-graphene-sys",
-	"version": "0.22.0-2",
+	"version": "0.22.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-system-deps-7+default-dev",
 		"libgraphene-1.0-dev"
 	],
-	"installedSize": 5333,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 111,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgraphene-1.0 - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-graphene-sys/librust-graphene-sys-dev_0.22.0-2_amd64.deb",
-	"size": 481332,
-	"md5": "78a0f0ec5ee151308807b64722efe4ab",
-	"sha256": "ba743f9fe4dd6705de17c42d8a20ff0fcdc12a1e5a2192bc56f7496be8731bf4",
+	"filename": "pool/main/r/rust-graphene-sys/librust-graphene-sys-dev_0.22.0-3_amd64.deb",
+	"size": 13636,
+	"md5": "35f38f48a58666a00ea48ba26e67ef08",
+	"sha256": "cfc3af9a9ddb3552bbe0d1dd457e67d7502068da7cd5b84f8da2095df18b27b0",
 	"descriptionMd5": "3df5f98f9ca56ef9be097ad0d634ead1"
 }]

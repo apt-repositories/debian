@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "resource-agents",
-	"version": "1:4.18.0-2",
+	"version": "1:4.18.0-3",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libnet9 (>= 1.1.2.1)",
 		"libplumb2t64",
@@ -30,9 +31,9 @@
 	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
 	"description": "Cluster Resource Agents",
 	"homepage": "https://github.com/ClusterLabs/resource-agents",
-	"filename": "pool/main/r/resource-agents/resource-agents_4.18.0-2_amd64.deb",
-	"size": 781228,
-	"md5": "e074aca3105401d9da07a2c2ae04240c",
-	"sha256": "da771b1041ae084d15eb04656ba9467d72889ddfdd89c58fd38c4132a013f29c",
+	"filename": "pool/main/r/resource-agents/resource-agents_4.18.0-3_amd64.deb",
+	"size": 781592,
+	"md5": "3d71d14f4502a6c9d8524873cc8a63c9",
+	"sha256": "cd32b7f50dfc452c48e59456c86cacaf3110e303c760c5a4c8ec243459716998",
 	"descriptionMd5": "c6e87bcdc637b936605ad3574111b2c9"
 }]

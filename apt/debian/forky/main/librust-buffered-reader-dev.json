@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-buffered-reader-dev",
-	"source": "rust-buffered-reader (1.4.0-2)",
-	"version": "1.4.0-2+b1",
+	"source": "rust-buffered-reader",
+	"version": "1.4.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bzip2+default-dev (<< 0.7-~~)",
-		"librust-bzip2+default-dev (>= 0.4-~~)",
-		"librust-flate2-1+default-dev (>= 1.0.1-~~)",
-		"librust-libc-0.2+default-dev (>= 0.2.66-~~)"
+		"librust-bzip2+default-dev (<< 0.7)",
+		"librust-bzip2+default-dev (>= 0.4)",
+		"librust-flate2-1+default-dev (>= 1.0.1)",
+		"librust-libc-0.2+default-dev (>= 0.2.66)"
 	],
-	"installedSize": 245,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 243,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Super-powered Reader - Rust source code",
 	"homepage": "https://sequoia-pgp.org/",
-	"filename": "pool/main/r/rust-buffered-reader/librust-buffered-reader-dev_1.4.0-2+b1_amd64.deb",
-	"size": 37644,
-	"md5": "79b6d092c1d0019626b08609d97cfaaf",
-	"sha256": "8454ec94bb60b1c4bf6c3ced252a62af78b177919a4fd29c1dca7e3e2d8edd24",
+	"filename": "pool/main/r/rust-buffered-reader/librust-buffered-reader-dev_1.4.1-1_amd64.deb",
+	"size": 37364,
+	"md5": "7d8a2ff82ba36659f14676e1a48fc796",
+	"sha256": "ea64ab1f3b74712f60d323803595f3f2ea9c9d107f9235029582300bae82379e",
 	"descriptionMd5": "94172ecc1c29be61f1e68c52b3cd12a7"
 }
