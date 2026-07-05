@@ -6,7 +6,7 @@
 	],
 	"package": "librust-wasmi-dev",
 	"source": "rust-wasmi",
-	"version": "1.1.0+ds1-1",
+	"version": "1.1.0+ds1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -32,13 +32,16 @@
 		"librust-wasmparser-0.239+validate-dev",
 		"librust-wat-1-dev (>= 1.239.0)"
 	],
-	"installedSize": 1447,
+	"breaks": [
+		"rustc (<< 1.86~)"
+	],
+	"installedSize": 1448,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "WebAssembly interpreter - Rust source code",
 	"homepage": "https://github.com/wasmi-labs/wasmi",
-	"filename": "pool/main/r/rust-wasmi/librust-wasmi-dev_1.1.0+ds1-1_amd64.deb",
-	"size": 176964,
-	"md5": "bd28328624981e39a16e09bf3cd25b26",
-	"sha256": "8989e27b96eeeba68f5e58394b68a811386971be0be4dfb3ffdb01b7c8a6b3dc",
+	"filename": "pool/main/r/rust-wasmi/librust-wasmi-dev_1.1.0+ds1-2_amd64.deb",
+	"size": 177232,
+	"md5": "c19ab326ab2bba1b034046d0f465a549",
+	"sha256": "a6c1bdea248bee3b9fdf39d4d9599c49e754e6b4fd2d7e02573b21fbcb739651",
 	"descriptionMd5": "39295be994c218cc4a245ecb544fa362"
 }

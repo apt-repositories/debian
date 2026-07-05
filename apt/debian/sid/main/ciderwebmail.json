@@ -5,12 +5,11 @@
 		"Size"
 	],
 	"package": "ciderwebmail",
-	"version": "1.05+20240702-2",
+	"version": "1.05+20240702-3",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"libcatalyst-action-renderview-perl",
 		"libcatalyst-authentication-credential-http-perl",
 		"libcatalyst-model-dbic-schema-perl",
@@ -61,6 +60,8 @@
 		"liburi-perl",
 		"libyaml-libyaml-perl",
 		"libyaml-perl",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any"
 	],
 	"recommends": [
@@ -74,13 +75,13 @@
 		"libfcgi-perl",
 		"libfcgi-procmanager-perl"
 	],
-	"installedSize": 1374,
+	"installedSize": 1380,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "IMAP webmail service",
 	"homepage": "https://ciderwebmail.org/",
-	"filename": "pool/main/c/ciderwebmail/ciderwebmail_1.05+20240702-2_all.deb",
-	"size": 461092,
-	"md5": "a376743155ad0ac14ce7971448be03fd",
-	"sha256": "88931c8952da19f8be7f8272d7c1be04c510f868e8110896249bb29a4c666985",
+	"filename": "pool/main/c/ciderwebmail/ciderwebmail_1.05+20240702-3_all.deb",
+	"size": 460940,
+	"md5": "4013ccf02bbabc2827a48b2079249970",
+	"sha256": "de5fc973caa2a98ef2eacced63e3f62c45e93b1a9373df7f50900721bcca0ec4",
 	"descriptionMd5": "e4e2044a58a9b3997237eb5047bf055d"
 }
