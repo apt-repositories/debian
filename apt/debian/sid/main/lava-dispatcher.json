@@ -6,7 +6,7 @@
 	],
 	"package": "lava-dispatcher",
 	"source": "lava",
-	"version": "2026.05-2",
+	"version": "2026.06-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,7 +14,7 @@
 		"bmaptool",
 		"e2fsprogs",
 		"fakeroot",
-		"lava-common (= 2026.05-2)",
+		"lava-common (= 2026.06-2)",
 		"python3-guestfs",
 		"systemd-sysv",
 		"tar (>= 1.27)",
@@ -39,6 +39,7 @@
 		"openbsd-inetd",
 		"qemu-system-arm",
 		"qemu-system-x86",
+		"rclone",
 		"rpcbind",
 		"rsync",
 		"ser2net",
@@ -54,15 +55,16 @@
 	"suggests": [
 		"android-sdk-libsparse-utils",
 		"apache2",
-		"docker.io"
+		"docker.io",
+		"qdl (>= 2.0)"
 	],
-	"installedSize": 1297,
+	"installedSize": 1280,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Linaro Automated Validation Architecture dispatcher",
 	"homepage": "https://www.lavasoftware.org/",
-	"filename": "pool/main/l/lava/lava-dispatcher_2026.05-2_amd64.deb",
-	"size": 192016,
-	"md5": "ddc08b1f04ce063cfeddcf259d69a2a0",
-	"sha256": "dbc807df2298a32fab9d17ef61ab49a9c4b6b40f53e13cbfcf00f428d8f0c90d",
+	"filename": "pool/main/l/lava/lava-dispatcher_2026.06-2_amd64.deb",
+	"size": 191000,
+	"md5": "bc5df90ef02df58e47747d6adb16c11e",
+	"sha256": "fe0a3f30149427dcbc97e3cbd52f3c0d0b7aa3002d3df40115e500d7f4cffb57",
 	"descriptionMd5": "44d52a63ab1ae47c2755313dadc11c05"
 }

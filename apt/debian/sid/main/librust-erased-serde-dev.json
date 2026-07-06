@@ -5,22 +5,28 @@
 		"Size"
 	],
 	"package": "librust-erased-serde-dev",
-	"source": "rust-erased-serde (0.3.31-1)",
-	"version": "0.3.31-1+b1",
+	"source": "rust-erased-serde",
+	"version": "0.4.10-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+alloc-dev (>= 1.0.166-~~)",
-		"librust-serde-1+std-dev (>= 1.0.166-~~)",
-		"librust-serde-1-dev (>= 1.0.166-~~)"
+		"librust-serde-1-dev (>= 1.0.220)",
+		"librust-serde-core-1+alloc-dev (>= 1.0.220)",
+		"librust-serde-core-1+std-dev (>= 1.0.220)",
+		"librust-serde-core-1-dev (>= 1.0.220)",
+		"librust-typeid-1+default-dev"
 	],
-	"installedSize": 180,
+	"breaks": [
+		"rustc (<< 1.68~)"
+	],
+	"installedSize": 196,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Type-erased Serialize and Serializer traits - Rust source code",
-	"filename": "pool/main/r/rust-erased-serde/librust-erased-serde-dev_0.3.31-1+b1_amd64.deb",
-	"size": 22552,
-	"md5": "1ab085b57c53936e71241e3100996c04",
-	"sha256": "439f30e8c965f8acf09be94c9a7477b319089aca482ce8008be10392b494b359",
+	"homepage": "https://github.com/dtolnay/erased-serde",
+	"filename": "pool/main/r/rust-erased-serde/librust-erased-serde-dev_0.4.10-1_amd64.deb",
+	"size": 24944,
+	"md5": "504f0791a238f12be82967f4afcdec35",
+	"sha256": "3154731ce1947531c4c6ee8938a08cd52e68544f523503032a163aa4ba2db5ce",
 	"descriptionMd5": "6630b7cd3f1a942de0f5945b87ed871f"
 }

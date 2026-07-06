@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "librust-sudo-rs-dev",
-	"source": "rust-sudo-rs (0.2.10-1)",
-	"version": "0.2.10-1+b1",
+	"source": "rust-sudo-rs",
+	"version": "0.2.14-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-glob-0.3+default-dev",
-		"librust-libc-0.2+default-dev (>= 0.2.152-~~)",
-		"librust-log-0.4+default-dev (>= 0.4.11-~~)",
-		"librust-log-0.4+std-dev (>= 0.4.11-~~)"
+		"librust-libc-0.2+default-dev (>= 0.2.176)"
 	],
-	"installedSize": 1020,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 1219,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Memory safe implementation of sudo and su - Rust source code",
 	"homepage": "https://github.com/trifectatechfoundation/sudo-rs",
-	"filename": "pool/main/r/rust-sudo-rs/librust-sudo-rs-dev_0.2.10-1+b1_amd64.deb",
-	"size": 193408,
-	"md5": "163f26fe8f77093feb242202464bd850",
-	"sha256": "9c3e64fe6943efc930bc42835640cf261b59ddaea8c5f66b7ee92c058f783e82",
+	"filename": "pool/main/r/rust-sudo-rs/librust-sudo-rs-dev_0.2.14-1_amd64.deb",
+	"size": 223824,
+	"md5": "4fefa32ee48bb14c61e5e8d2e6d6537f",
+	"sha256": "bb939b6b8c5c9602f3cdfae7b202e2a368e1e72d8113c7318666001cac3cb748",
 	"descriptionMd5": "91aedd14e79d1d1151d1a37c26567f96"
 }

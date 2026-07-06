@@ -5,26 +5,30 @@
 		"Size"
 	],
 	"package": "librust-typetag-dev",
-	"source": "rust-typetag (0.2.18-1)",
-	"version": "0.2.18-1+b2",
+	"source": "rust-typetag",
+	"version": "0.2.18-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-erased-serde-0.3+alloc-dev",
-		"librust-inventory-0.3+default-dev (>= 0.3.2-~~)",
-		"librust-once-cell-1+alloc-dev (>= 1.18-~~)",
-		"librust-serde-1+alloc-dev (>= 1.0.166-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.166-~~)",
-		"librust-typetag-impl-0.2.18+default-dev"
+		"librust-erased-serde-0.4+alloc-dev",
+		"librust-inventory-0.3+default-dev (>= 0.3.10)",
+		"librust-once-cell-1+alloc-dev (>= 1.18)",
+		"librust-serde-1+alloc-dev (>= 1.0.166)",
+		"librust-serde-1+derive-dev (>= 1.0.166)",
+		"librust-typetag-impl-0.2+default-dev (<< 0.2.19)",
+		"librust-typetag-impl-0.2+default-dev (>= 0.2.18)"
 	],
-	"installedSize": 196,
+	"breaks": [
+		"rustc (<< 1.62~)"
+	],
+	"installedSize": 194,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Serde serializable and deserializable trait objects - Rust source code",
 	"homepage": "https://github.com/dtolnay/typetag",
-	"filename": "pool/main/r/rust-typetag/librust-typetag-dev_0.2.18-1+b2_amd64.deb",
-	"size": 25988,
-	"md5": "6130f04a2777fe90641254e3308acc27",
-	"sha256": "702a94da745899e8b68a373e6f17260b12abd4133e203d7f6f74230d307b1f32",
+	"filename": "pool/main/r/rust-typetag/librust-typetag-dev_0.2.18-2_amd64.deb",
+	"size": 25688,
+	"md5": "7925985db3d8ff9d80d2cbc4175b6952",
+	"sha256": "5f3d618f31ac428b5f8e2ad1596f9035a68938adf8166e44eb05378ce5acffbd",
 	"descriptionMd5": "555bb3e4bbf514bd374aa9ea0e875a1f"
 }]
