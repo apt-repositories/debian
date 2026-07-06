@@ -5,32 +5,24 @@
 		"Size"
 	],
 	"package": "silver-platter",
-	"source": "silver-platter (0.8.3-3)",
-	"version": "0.8.3-3+b1",
+	"source": "rust-silver-platter",
+	"version": "0.8.4-1",
 	"section": "vcs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"brz-debian (>= 2.8.50)",
-		"devscripts",
 		"libc6 (>= 2.39)",
 		"libgcc-s1 (>= 4.2)",
 		"libpython3.14 (>= 3.14.1)"
 	],
-	"recommends": [
-		"brz",
-		"lintian-brush (>= 0.70)"
-	],
-	"conflicts": [
-		"lintian-brush (<< 0.40)"
-	],
-	"installedSize": 22675,
-	"maintainer": "Jelmer Vernooĳ <jelmer@debian.org>",
-	"description": "automatically create merge proposals",
-	"homepage": "https://www.jelmer.uk/code/silver-platter",
-	"filename": "pool/main/s/silver-platter/silver-platter_0.8.3-3+b1_amd64.deb",
-	"size": 5504604,
-	"md5": "788dc661ae9205e7870d18a29874f8d8",
-	"sha256": "6fbf3dc1ba325e06092b8cc849fc6c7297601e579458072b46890904fa0cb424",
-	"descriptionMd5": "3e30ea91f6c9bf41f6babea092df237a"
+	"installedSize": 22512,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "automatically create and manage merge proposals",
+	"homepage": "https://github.com/jelmer/silver-platter",
+	"builtUsing": "rust-breezyshim (= 0.7.26-1), rust-configparser (= 3.0.3-3), rust-debian-analyzer (= 0.160.20-1), rust-distro-info (= 0.4.0-2), rust-hyper-rustls (= 0.27.9+ds-1), rust-lazy-regex (= 3.4.2+20251114-1), rust-patchkit (= 0.3.3-1), rust-rustls (= 0.23.41+ds-1), rust-rustls-native-certs (= 0.8.4+ds-1), rust-rustls-pki-types (= 1.14.1+ds-1), rust-rustls-platform-verifier (= 0.6.2-1), rust-rustls-webpki (= 0.103.13+ds-1), rustc (= 1.95.0+dfsg1-2)",
+	"filename": "pool/main/r/rust-silver-platter/silver-platter_0.8.4-1_amd64.deb",
+	"size": 5481112,
+	"md5": "cc6ce8747f556f79892971d87d3c56dc",
+	"sha256": "227d11d64f0e4ae21f9b0ff05dcac4c7f9d4f94d5b85ec0edcc1894d16f9ffc4",
+	"descriptionMd5": "d271f0d9b747926bc5b3ce0143153f00"
 }]

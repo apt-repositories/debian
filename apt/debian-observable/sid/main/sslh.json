@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "sslh",
-	"source": "sslh (2.1.4-1)",
-	"version": "2.1.4-1+b1",
+	"version": "2.3.1-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
 		"libcap2 (>= 1:2.10)",
 		"libconfig11 (>= 1.7.3)",
@@ -18,8 +18,8 @@
 		"libpcre2-8-0 (>= 10.22)",
 		"libsystemd0",
 		"libwrap0 (>= 7.6-4~)",
-		"debconf (>= 0.5)",
-		"init-system-helpers (>= 1.51)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"adduser",
 		"update-inetd"
 	],
@@ -33,13 +33,13 @@
 	"conflicts": [
 		"libnet-proxy-perl"
 	],
-	"installedSize": 513,
+	"installedSize": 839,
 	"maintainer": "Don Armstrong <don@debian.org>",
 	"description": "Applicative protocol multiplexer",
 	"homepage": "http://www.rutschle.net/tech/sslh/README.html",
-	"filename": "pool/main/s/sslh/sslh_2.1.4-1+b1_amd64.deb",
-	"size": 106660,
-	"md5": "44dd0c375cbcf03512e384f6850f86aa",
-	"sha256": "f948a7f160fbbaf1397360b6bc92ce7d970622b08b6a527c721c01ef6c1b6806",
+	"filename": "pool/main/s/sslh/sslh_2.3.1-1_amd64.deb",
+	"size": 354564,
+	"md5": "e2bf2b82b17ac5e8270307f1e40d4fc8",
+	"sha256": "f29d4f1e4ebdfc8e884566620e72a93eff459c13f33daf214d3928c48a69c56e",
 	"descriptionMd5": "f4689a572a444f710de3ad341846f07b"
 }]

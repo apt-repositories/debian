@@ -6,7 +6,7 @@
 	],
 	"package": "librust-insta-dev",
 	"source": "rust-insta",
-	"version": "1.47.2-1",
+	"version": "1.48.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -27,6 +27,7 @@
 		"librust-serde-1+default-dev (>= 1.0.117)",
 		"librust-similar-2+default-dev (>= 2.1.0)",
 		"librust-similar-2+inline-dev (>= 2.1.0)",
+		"librust-strip-ansi-escapes-0.2+default-dev",
 		"librust-tempfile-3+default-dev",
 		"librust-toml-edit+default-dev (<< 0.26)",
 		"librust-toml-edit+default-dev (>= 0.24.0)",
@@ -39,13 +40,16 @@
 		"librust-toml-writer-1+default-dev",
 		"librust-walkdir-2+default-dev (>= 2.3.1)"
 	],
-	"installedSize": 628,
+	"breaks": [
+		"rustc (<< 1.66.0~)"
+	],
+	"installedSize": 639,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Snapshot testing library for Rust - Rust source code",
 	"homepage": "https://insta.rs/",
-	"filename": "pool/main/r/rust-insta/librust-insta-dev_1.47.2-1_amd64.deb",
-	"size": 98204,
-	"md5": "69e58523518232c107167cc7beb7f8bb",
-	"sha256": "f59e300bf1a5086d6554461b61b3ef9974e8c5ddf1fdc2678960a7112a4c22ef",
+	"filename": "pool/main/r/rust-insta/librust-insta-dev_1.48.0-1_amd64.deb",
+	"size": 100556,
+	"md5": "d4765b81ac95c5205d3cf79434fac778",
+	"sha256": "96ce2a000e155ab3f386c365d35d91def57c60ce9dcd5b1fddfa88e8a7672540",
 	"descriptionMd5": "bef19dd566114c074c03a779afeb79d4"
 }

@@ -5,23 +5,24 @@
 		"Size"
 	],
 	"package": "curvedns",
-	"version": "0.87-7",
+	"version": "0.87-8",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libev4t64 (>= 1:4.04)",
 		"libsodium26 (>= 0.6.0)"
 	],
-	"installedSize": 139,
+	"installedSize": 138,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "DNS/DNSCurve forwarding name server - binaries",
 	"homepage": "http://curvedns.on2it.net/",
-	"filename": "pool/main/c/curvedns/curvedns_0.87-7_amd64.deb",
-	"size": 31828,
-	"md5": "79442ebfa510655212d2956bdc8a198c",
-	"sha256": "200f7f0eb34312b5d8ad62666d2aed5841366d6f4f3ce32002d28a19256e903f",
+	"filename": "pool/main/c/curvedns/curvedns_0.87-8_amd64.deb",
+	"size": 31964,
+	"md5": "bbd098d71545dea7f57521f0e110cd5b",
+	"sha256": "36f19646f62171fa0897e9a6bd474fd5a9d34b752a43556021c23a3f3312d5fb",
 	"descriptionMd5": "aeff0cc2f067b083c80e5798db9782fe"
 }]
