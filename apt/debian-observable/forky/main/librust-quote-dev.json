@@ -6,7 +6,7 @@
 	],
 	"package": "librust-quote-dev",
 	"source": "rust-quote",
-	"version": "1.0.45-1",
+	"version": "1.0.46-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-proc-macro2-1+proc-macro-dev (>= 1.0.80)",
 		"librust-proc-macro2-1-dev (>= 1.0.80)"
 	],
-	"installedSize": 166,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 165,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Quasi-quoting macro quote!(...) - Rust source code",
 	"homepage": "https://github.com/dtolnay/quote",
-	"filename": "pool/main/r/rust-quote/librust-quote-dev_1.0.45-1_amd64.deb",
-	"size": 29452,
-	"md5": "48c490a3fb46d6febd9d7e0babd638cf",
-	"sha256": "2302d6dcf7eca256276073dd09e37ff4c712f4c76c2b62f0887a428fec7f9f09",
+	"filename": "pool/main/r/rust-quote/librust-quote-dev_1.0.46-1_amd64.deb",
+	"size": 29576,
+	"md5": "53fc33ba45e8f1fd813c5212a1e93ba3",
+	"sha256": "62d5c75ce4a2f5f98235b6c4230c206e9b78a2ddfae023b2752bf19714c69b39",
 	"descriptionMd5": "1b0e1e69a24690ecd679c139f325c19b"
 }]

@@ -5,20 +5,23 @@
 		"Size"
 	],
 	"package": "phpunit-diff",
-	"version": "8.1.0-1",
+	"version": "9.0.0+ds-2",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"php-common"
 	],
-	"installedSize": 80,
+	"breaks": [
+		"phpunit (<< 13.1)"
+	],
+	"installedSize": 76,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "diff implementation - stand-alone component from PHPUnit",
 	"homepage": "https://github.com/sebastianbergmann/diff",
-	"filename": "pool/main/p/phpunit-diff/phpunit-diff_8.1.0-1_all.deb",
-	"size": 16184,
-	"md5": "bd7659bf8d61989d5e228fcfdd988240",
-	"sha256": "40522b1b1c1c0cd31a3a00b7231da70089168d2a4e867c8bf9e9e45721f7bdc0",
+	"filename": "pool/main/p/phpunit-diff/phpunit-diff_9.0.0+ds-2_all.deb",
+	"size": 17112,
+	"md5": "59c206a18606674648dd89c8679024eb",
+	"sha256": "9b3ea7556583898973f8fdf5fab9f5d6a06872e90d72d1e9218572d4ddc46512",
 	"descriptionMd5": "42a8447ce82d0637859c6a1371fc2e7f"
 }]

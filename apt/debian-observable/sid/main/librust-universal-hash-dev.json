@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-universal-hash-dev",
-	"source": "rust-universal-hash (0.5.1-1)",
-	"version": "0.5.1-1+b2",
+	"source": "rust-universal-hash",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-crypto-common-0.1+default-dev (>= 0.1.6-~~)",
-		"librust-crypto-common-0.1+std-dev (>= 0.1.6-~~)",
-		"librust-subtle-2-dev (>= 2.4-~~)"
+		"librust-crypto-common-0.2+default-dev",
+		"librust-ctutils-0.4+default-dev"
 	],
-	"installedSize": 44,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 43,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Traits which describe the functionality of universal hash functions (UHFs) - Rust source code",
-	"filename": "pool/main/r/rust-universal-hash/librust-universal-hash-dev_0.5.1-1+b2_amd64.deb",
-	"size": 12036,
-	"md5": "f618f5845acc9a51ad904e0cf9e334f5",
-	"sha256": "7cd57f4e0c35616352cd5069a7894b4f865ebd0725fe016a86aca19a4a879430",
-	"descriptionMd5": "b501fb57e785f99d4c6dc5a24524c3c4"
+	"homepage": "https://github.com/RustCrypto/traits",
+	"filename": "pool/main/r/rust-universal-hash/librust-universal-hash-dev_0.6.1-1_amd64.deb",
+	"size": 11860,
+	"md5": "ddc1d50f2e0dd306ae098498de073faf",
+	"sha256": "44f2c338ea68d89e5130c66c76103d54c3d4da471d691454e69fa7c3cc1b5d3a",
+	"descriptionMd5": "bc8d674358905b64833445927c03cc55"
 }]

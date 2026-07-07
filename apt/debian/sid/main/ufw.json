@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "ufw",
-	"version": "0.36.2-9",
+	"version": "0.36.2-10",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,7 +13,9 @@
 		"iptables",
 		"procps",
 		"ucf",
-		"python3:any",
+		"python3:any"
+	],
+	"preDepends": [
 		"debconf (>= 0.5) | debconf-2.0"
 	],
 	"suggests": [
@@ -23,13 +25,13 @@
 		"iptables-persistent",
 		"netfilter-persistent"
 	],
-	"installedSize": 859,
+	"installedSize": 862,
 	"maintainer": "Jamie Strandboge <jdstrand@ubuntu.com>",
 	"description": "program for managing a Netfilter firewall",
 	"homepage": "https://launchpad.net/ufw",
-	"filename": "pool/main/u/ufw/ufw_0.36.2-9_all.deb",
-	"size": 169188,
-	"md5": "b0a661240a7cb808d2758765b997dd12",
-	"sha256": "7017dd1b5fd5a1755bc0095ef464281de72a07ab15f4bda3b9181ca371892026",
+	"filename": "pool/main/u/ufw/ufw_0.36.2-10_all.deb",
+	"size": 168384,
+	"md5": "779654ba8b887c5987397b49c3ee9728",
+	"sha256": "405664088688a71ee9328b118f8b7e982b4e1cdce17b70108b0cfbf5ac97074a",
 	"descriptionMd5": "90e09f8ba6c08a5698b47f5da441b4a7"
 }

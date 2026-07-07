@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "librust-base16ct-dev",
-	"source": "rust-base16ct (0.2.0-1)",
-	"version": "0.2.0-1+b2",
+	"source": "rust-base16ct",
+	"version": "1.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 56,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 64,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Pure Rust implementation of Base16 a.k.a hexadecimal (RFC 4648) which avoids any usages of data-dependent branches/LUTs and thereby provides portable \"best effort\" constant-time operation and embedded-friendly no_std support - Rust source code",
-	"filename": "pool/main/r/rust-base16ct/librust-base16ct-dev_0.2.0-1+b2_amd64.deb",
-	"size": 12328,
-	"md5": "9e724fdbb59c952002acd1baf97e1148",
-	"sha256": "557608100cbc40ef6984a794aebef2030da09769b9cccb2800718787ec9190ff",
-	"descriptionMd5": "31795ee855e247f4ee78a79a193ae723"
+	"description": "Best effort constant-time Base16/hexadecimal (RFC 4648) - Rust source code",
+	"homepage": "https://github.com/RustCrypto/formats/tree/master/base16ct",
+	"filename": "pool/main/r/rust-base16ct/librust-base16ct-dev_1.0.0-1_amd64.deb",
+	"size": 12928,
+	"md5": "b13eab3de36c57f5601cb5a98e540761",
+	"sha256": "755435ef6d5dff164ed19a79ced9521dc2e1729c2f4c63bd19213d56ec6d4654",
+	"descriptionMd5": "6817a0182dd0f890cba92f1d4149d409"
 }]

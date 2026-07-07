@@ -6,7 +6,7 @@
 	],
 	"package": "librust-timeago-dev",
 	"source": "rust-timeago",
-	"version": "0.6.0-1",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-chrono-0.4+default-dev",
 		"librust-isolang-2+default-dev"
 	],
-	"installedSize": 122,
+	"breaks": [
+		"rustc (<< 1.63~)"
+	],
+	"installedSize": 124,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Given a Duration, lossily format it like in 'N days ago' - Rust source code",
 	"homepage": "https://github.com/vi/timeago",
-	"filename": "pool/main/r/rust-timeago/librust-timeago-dev_0.6.0-1_amd64.deb",
-	"size": 20512,
-	"md5": "fde12112c85111b5d98d97c6ebe01e88",
-	"sha256": "3e3d668841867d7f5f26e51864f486b7a98fb20bbcd48533b7237402f1d4c3d7",
+	"filename": "pool/main/r/rust-timeago/librust-timeago-dev_0.6.1-1_amd64.deb",
+	"size": 20716,
+	"md5": "44b5eda6f4c2b27dbe53283459f837fb",
+	"sha256": "934cd5be8131df12c3d2e5cee1cf4081a001a5d73036e98598cf691751ab67ad",
 	"descriptionMd5": "8df478f75a582291861396c4d7433c45"
 }

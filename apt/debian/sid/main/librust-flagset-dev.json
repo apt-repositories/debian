@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-flagset-dev",
-	"source": "rust-flagset (0.4.3-1)",
-	"version": "0.4.3-1+b2",
+	"source": "rust-flagset",
+	"version": "0.4.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-serde-1+default-dev",
 		"librust-serde-1+serde-derive-dev"
 	],
-	"installedSize": 79,
+	"breaks": [
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 85,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Enumeration-based bit flags - Rust source code",
 	"homepage": "https://github.com/enarx/flagset",
-	"filename": "pool/main/r/rust-flagset/librust-flagset-dev_0.4.3-1+b2_amd64.deb",
-	"size": 14492,
-	"md5": "2303469d4efbe1a2ea3e65ff8bf7e4d0",
-	"sha256": "4dc9f487fedbb2de302c2d67cc6006bc131e9e3c2e98b468aaee4d3cd4ca60f5",
-	"descriptionMd5": "2445cb95784e71b6b5600094bf3eb8b9"
+	"filename": "pool/main/r/rust-flagset/librust-flagset-dev_0.4.7-1_amd64.deb",
+	"size": 15096,
+	"md5": "604571edf59a333733ad2af124121afe",
+	"sha256": "9eaa0b04607cac40318d3af7d406ac88b4e5da011a4474630f59a31a71142b73",
+	"descriptionMd5": "6580204bb4702cfe862dcdccdde8dd1e"
 }
