@@ -5,10 +5,13 @@
 		"Size"
 	],
 	"package": "gnulib",
-	"version": "20260109-1~exp1",
+	"version": "20260704-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
+	"depends": [
+		"perl:any"
+	],
 	"recommends": [
 		"autoconf",
 		"automake",
@@ -27,13 +30,16 @@
 		"perl",
 		"python3:any"
 	],
-	"installedSize": 131404,
-	"maintainer": "Simon Josefsson <simon@josefsson.org>",
+	"breaks": [
+		"git-merge-changelog (<< 1:1.0-4~)"
+	],
+	"installedSize": 134678,
+	"maintainer": "Debian Commons <team+debian@tracker.debian.org>",
 	"description": "GNU Portability Library",
 	"homepage": "https://www.gnu.org/software/gnulib/",
-	"filename": "pool/main/g/gnulib/gnulib_20260109-1~exp1_all.deb",
-	"size": 67575724,
-	"md5": "ca2dbe8f79b6e72041674b9a94a2b40d",
-	"sha256": "78beca656af0f4bf2633165a2ba36c1aabc9af6ecfad0b9279ed2ee1361aedaa",
+	"filename": "pool/main/g/gnulib/gnulib_20260704-2_all.deb",
+	"size": 69103140,
+	"md5": "016a94b6e4c443ba051cf70ce302993a",
+	"sha256": "105962e87b988bbcaa6dbda1c3400ca65bccbe651599de99649f1fc008abd497",
 	"descriptionMd5": "710e539d1587ce573125fd65604102f6"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-regex-syntax-dev",
 	"source": "rust-regex-syntax",
-	"version": "0.8.10+dfsg-1",
+	"version": "0.8.11+dfsg-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-arbitrary-1+default-dev (>= 1.3.0)",
 		"librust-arbitrary-1+derive-dev (>= 1.3.0)"
 	],
-	"installedSize": 1681,
+	"breaks": [
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 1682,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Regular expression parser - Rust source code",
 	"homepage": "https://github.com/rust-lang/regex/tree/master/regex-syntax",
-	"filename": "pool/main/r/rust-regex-syntax/librust-regex-syntax-dev_0.8.10+dfsg-1_amd64.deb",
-	"size": 189484,
-	"md5": "2366e74d64d6e15b6b79578766bfbce7",
-	"sha256": "2fe3cf49bc4f1f6ed5d02fde40a16470e17bde56a173f63ddc15f6e4b1eadb3b",
+	"filename": "pool/main/r/rust-regex-syntax/librust-regex-syntax-dev_0.8.11+dfsg-1_amd64.deb",
+	"size": 189652,
+	"md5": "fbeb34ace2d76d29e7345b0d2889b826",
+	"sha256": "f215ecef83b0da1298b51f10d7d89995e954dd773c8e8df9b04a2ee046dc5e78",
 	"descriptionMd5": "037cda3b2e64b0af910c7289610a306b"
 }]

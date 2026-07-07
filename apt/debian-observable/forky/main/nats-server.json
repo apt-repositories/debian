@@ -5,22 +5,22 @@
 		"Size"
 	],
 	"package": "nats-server",
-	"version": "2.14.1-1",
+	"version": "2.14.3-1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"adduser"
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.34)"
 	],
-	"installedSize": 16102,
+	"installedSize": 16151,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "High-Performance server for NATS.io (program)",
 	"homepage": "https://github.com/nats-io/nats-server",
-	"builtUsing": "golang-1.26 (= 1.26.3-2), golang-github-antithesishq-antithesis-sdk-go (= 0.7.0-1), golang-github-klauspost-compress (= 1.18.6+ds1-1), golang-github-minio-highwayhash (= 1.0.4-1), golang-github-nats-io-jwt (= 2.8.1-1), golang-github-nats-io-nkeys (= 0.4.15-1), golang-github-nats-io-nuid (= 1.0.1-2), golang-go.crypto (= 1:0.52.0-1), golang-golang-x-sys (= 0.42.0-1), golang-golang-x-time (= 0.14.0-1)",
-	"filename": "pool/main/n/nats-server/nats-server_2.14.1-1_amd64.deb",
-	"size": 4975020,
-	"md5": "359e7330635e65803d5d3e8c445c64b8",
-	"sha256": "8bdd6225cbf56a38ab21bf0af983b45c4a92ff7994ea054e0fb33fc0865c0af0",
+	"builtUsing": "golang-1.26 (= 1.26.4-1), golang-github-antithesishq-antithesis-sdk-go (= 0.7.2-1), golang-github-klauspost-compress (= 1.19.0+ds1-1), golang-github-minio-highwayhash (= 1.0.4-1), golang-github-nats-io-jwt (= 2.8.2-1), golang-github-nats-io-nkeys (= 0.4.16-1), golang-github-nats-io-nuid (= 1.0.1-2), golang-go.crypto (= 1:0.53.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-time (= 0.15.0-1)",
+	"filename": "pool/main/n/nats-server/nats-server_2.14.3-1_amd64.deb",
+	"size": 4988240,
+	"md5": "4bece5d7e9dd8091600f9aca66a7dc7a",
+	"sha256": "d60597287e08be99337febfb72d9282a577d715d5f842f7c6289a5e02b345a6e",
 	"descriptionMd5": "ed8934ca827147bcabb458b3a00fc40c"
 }]

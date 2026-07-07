@@ -6,7 +6,7 @@
 	],
 	"package": "librust-syn-dev",
 	"source": "rust-syn",
-	"version": "2.0.117-1",
+	"version": "2.0.118-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-quote-1-dev (>= 1.0.35)",
 		"librust-unicode-ident-1+default-dev"
 	],
-	"installedSize": 2286,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 2293,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Parser for Rust source code - Rust source code",
 	"homepage": "https://github.com/dtolnay/syn",
-	"filename": "pool/main/r/rust-syn/librust-syn-dev_2.0.117-1_amd64.deb",
-	"size": 230868,
-	"md5": "759fbf84eddaa49091b8135203e6620b",
-	"sha256": "c5bd24f61f9031af64e5dcc52e5f06aee6fe52b772a5c0528a892a4d91822063",
+	"filename": "pool/main/r/rust-syn/librust-syn-dev_2.0.118-1_amd64.deb",
+	"size": 231248,
+	"md5": "0be4725ec1b94e7f7d4406a0135ffe59",
+	"sha256": "6ffa75b86a8cf842aa7310b4720897a18b0d07c95cafb06eb41facd5347ea751",
 	"descriptionMd5": "1ffe117b5cb4e32c6a0cdcf3ccac7f54"
 }
