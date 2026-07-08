@@ -5,22 +5,24 @@
 		"Size"
 	],
 	"package": "librust-etcetera-dev",
-	"source": "rust-etcetera (0.10.0-1)",
-	"version": "0.10.0-1+b1",
+	"source": "rust-etcetera",
+	"version": "0.11.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cfg-if-1+default-dev",
-		"librust-home-0.5+default-dev"
+		"librust-cfg-if-1+default-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.87.0~)"
 	],
 	"installedSize": 93,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Unopinionated library for obtaining configuration, data, cache, & other directories - Rust source code",
 	"homepage": "https://github.com/lunacookies/etcetera",
-	"filename": "pool/main/r/rust-etcetera/librust-etcetera-dev_0.10.0-1+b1_amd64.deb",
-	"size": 15632,
-	"md5": "e45ce055da3e41e3ad5b8eec24ddb484",
-	"sha256": "6227998afc14cf66c9b4d628d277c39c6736c22476d00be9a441ac5910adf0f4",
+	"filename": "pool/main/r/rust-etcetera/librust-etcetera-dev_0.11.0-2_amd64.deb",
+	"size": 15640,
+	"md5": "90074ad6e48314759000f1497d442ed2",
+	"sha256": "1fc6b82d2f17d9387fef21d8c528f66efa08859ba983038267c24a0d3e336c01",
 	"descriptionMd5": "2ea2795500b33b0d835dcf73c86cbd47"
 }]

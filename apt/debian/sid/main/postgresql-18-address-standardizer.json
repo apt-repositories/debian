@@ -1,0 +1,31 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-address-standardizer",
+	"source": "address-standardizer",
+	"version": "0.1-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libpcre2-8-0 (>= 10.22)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 21)",
+		"postgresql-18-postgis-3-scripts (<< 3.7)"
+	],
+	"installedSize": 2157,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "Postgres extension to parse a US street address string",
+	"homepage": "https://github.com/postgis/address_standardizer",
+	"filename": "pool/main/a/address-standardizer/postgresql-18-address-standardizer_0.1-1_amd64.deb",
+	"size": 539000,
+	"md5": "6505d3148eb331073e1e6c925a8c3e62",
+	"sha256": "2474545d8416843c4e80c24e0da63c85fc42463d95b2caf2ce80100e4cbcf2d8",
+	"descriptionMd5": "47e54ce85869d60fe35671dfa5a364fd"
+}
