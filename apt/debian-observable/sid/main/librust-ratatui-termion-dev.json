@@ -5,26 +5,29 @@
 		"Size"
 	],
 	"package": "librust-ratatui-termion-dev",
-	"source": "rust-ratatui-termion (0.1.0-1)",
-	"version": "0.1.0-1+b1",
+	"source": "rust-ratatui-termion",
+	"version": "0.1.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-document-features-0.2+default-dev",
 		"librust-instability-0.3+default-dev",
-		"librust-ratatui-core-0.1+default-dev",
-		"librust-ratatui-core-0.1+scrolling-regions-dev",
+		"librust-ratatui-core-0.1+default-dev (>= 0.1.2)",
+		"librust-ratatui-core-0.1+scrolling-regions-dev (>= 0.1.2)",
 		"librust-termion-4+default-dev",
 		"librust-termion-4+serde-dev"
 	],
-	"installedSize": 54,
+	"breaks": [
+		"rustc (<< 1.88.0~)"
+	],
+	"installedSize": 51,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Termion backend for the Ratatui Terminal UI library - Rust source code",
 	"homepage": "https://ratatui.rs",
-	"filename": "pool/main/r/rust-ratatui-termion/librust-ratatui-termion-dev_0.1.0-1+b1_amd64.deb",
-	"size": 9828,
-	"md5": "da475e5cc88b829c4c0f2e345ff2fc32",
-	"sha256": "c178f79952af16b7898604b7cc336be7aef71d3f946466637f6e394b777e9022",
+	"filename": "pool/main/r/rust-ratatui-termion/librust-ratatui-termion-dev_0.1.2-1_amd64.deb",
+	"size": 9676,
+	"md5": "8cc939beb7536b6b55cee30655749a00",
+	"sha256": "5fd2158ad80173e744cea543d76068ce6ba7d0cbc4796dce551dff71811de071",
 	"descriptionMd5": "1d601750c8f372dd0d973fbfd793e2e1"
 }]

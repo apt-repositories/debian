@@ -6,13 +6,14 @@
 	],
 	"package": "davmail-server",
 	"source": "davmail",
-	"version": "6.8.0.4181-1",
+	"version": "6.8.1.4210-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"logrotate",
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"default-jre-headless",
 		"libcommons-codec-java",
 		"libcommons-logging-java",
@@ -34,13 +35,13 @@
 	"breaks": [
 		"davmail (<= 6.0.1.3390-1.1)"
 	],
-	"installedSize": 819,
+	"installedSize": 826,
 	"maintainer": "Alexandre Rossi <niol@zincube.net>",
 	"description": "POP/IMAP/SMTP/CalDav/LDAP to Microsoft Exchange gateway - headless",
 	"homepage": "https://davmail.sourceforge.net/",
-	"filename": "pool/main/d/davmail/davmail-server_6.8.0.4181-1_all.deb",
-	"size": 759316,
-	"md5": "154c9999e3d03e522fd530bac6b36393",
-	"sha256": "008a20a54f1264c54b3e63df26691a3adface964e0fc76f38ad5d1f112252a40",
+	"filename": "pool/main/d/davmail/davmail-server_6.8.1.4210-1_all.deb",
+	"size": 762356,
+	"md5": "71ecfe1c63dd9faf0bf96029c434f870",
+	"sha256": "4f463036764e5cde5f44cc1ce6d8f41116dd1c50860f29c46b1488d442f8093a",
 	"descriptionMd5": "cc360db0a8d2d7792d063d68e4fc5aa8"
 }

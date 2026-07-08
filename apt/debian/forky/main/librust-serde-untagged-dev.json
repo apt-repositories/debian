@@ -6,23 +6,26 @@
 	],
 	"package": "librust-serde-untagged-dev",
 	"source": "rust-serde-untagged",
-	"version": "0.1.9-2",
+	"version": "0.1.9-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-erased-serde-0.3+alloc-dev (>= 0.3.31)",
+		"librust-erased-serde-0.4+alloc-dev (>= 0.4.2)",
 		"librust-serde-1-dev (>= 1.0.220)",
 		"librust-serde-core-1+alloc-dev (>= 1.0.220)",
 		"librust-typeid-1+default-dev"
 	],
-	"installedSize": 107,
+	"breaks": [
+		"rustc (<< 1.61~)"
+	],
+	"installedSize": 106,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Serde `Visitor` implementation for deserializing untagged enums - Rust source code",
 	"homepage": "https://github.com/dtolnay/serde-untagged",
-	"filename": "pool/main/r/rust-serde-untagged/librust-serde-untagged-dev_0.1.9-2_amd64.deb",
-	"size": 17436,
-	"md5": "c1e3f34f54d7e644316d37e3eaa565e8",
-	"sha256": "ae53e58dad646e3a3faa22d6cf4e35149855e99a0978a86b101db1a49ef2256e",
+	"filename": "pool/main/r/rust-serde-untagged/librust-serde-untagged-dev_0.1.9-3_amd64.deb",
+	"size": 17376,
+	"md5": "a1f608f4e41b60adf9f4f0e432e22115",
+	"sha256": "5c620bf0fb7139bc2cdbe7d685ce224bb61bc8330f6dbe78872456814e37dac5",
 	"descriptionMd5": "9b3fefe86b8a0d6205b887b37399b936"
 }
