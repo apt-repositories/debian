@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libfilezilla58",
+	"source": "libfilezilla",
+	"version": "0.56.1-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libfilezilla-common (>= 0.56.1-1)",
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libhogweed6t64",
+		"libnettle8t64",
+		"libstdc++6 (>= 14)"
+	],
+	"replaces": [
+		"libfilezilla0",
+		"libfilezilla11",
+		"libfilezilla19",
+		"libfilezilla21",
+		"libfilezilla42",
+		"libfilezilla50",
+		"libfilezilla53"
+	],
+	"breaks": [
+		"libfilezilla53 (<< 0.56.1-1)"
+	],
+	"conflicts": [
+		"libfilezilla0",
+		"libfilezilla11",
+		"libfilezilla19",
+		"libfilezilla21",
+		"libfilezilla50",
+		"libfilezilla53"
+	],
+	"installedSize": 1182,
+	"maintainer": "Michael Lloyd <michael@micl.dev>",
+	"description": "build high-performing platform-independent programs (runtime lib)",
+	"homepage": "https://lib.filezilla-project.org/",
+	"filename": "pool/main/libf/libfilezilla/libfilezilla58_0.56.1-1_amd64.deb",
+	"size": 364412,
+	"md5": "76ff4df84dc4984cdd0c432dd42fcffd",
+	"sha256": "6b7d1fd11e15ab754b90b4334afa666ae121cfb53fef90ec760d2799162a3f9c",
+	"descriptionMd5": "1fdecc8e602cd137efabe2d0a8469850"
+}]

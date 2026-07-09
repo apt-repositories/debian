@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-chacha20-0.9-dev",
+	"source": "rust-chacha20-0.9",
+	"version": "0.9.1-1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-cfg-if-1+default-dev",
+		"librust-cipher-0.4+default-dev (>= 0.4.4)",
+		"librust-cipher-0.4+std-dev (>= 0.4.4)",
+		"librust-cipher-0.4+zeroize-dev (>= 0.4.4)",
+		"librust-cpufeatures-0.2+default-dev"
+	],
+	"replaces": [
+		"librust-chacha20-dev (<< 0.9.2~)"
+	],
+	"breaks": [
+		"librust-chacha20-dev (<< 0.9.2~)",
+		"rustc (<< 1.56~)"
+	],
+	"installedSize": 120,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "ChaCha20 stream cipher (RFC 8439) in pure Rust - Rust source code",
+	"homepage": "https://github.com/RustCrypto/stream-ciphers",
+	"filename": "pool/main/r/rust-chacha20-0.9/librust-chacha20-0.9-dev_0.9.1-1_amd64.deb",
+	"size": 25344,
+	"md5": "f4831a229aa4398043c1347e405c3448",
+	"sha256": "35e645bf9ac717dccf89748ad7c8c31a03d2586c4c40aa26d2ac33a973200f79",
+	"descriptionMd5": "6c6a5de3d95c726006300cbf329d9081"
+}

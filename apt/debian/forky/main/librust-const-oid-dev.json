@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-const-oid-dev",
-	"source": "rust-const-oid (0.9.6-1)",
-	"version": "0.9.6-1+b1",
+	"source": "rust-const-oid",
+	"version": "0.10.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-arbitrary-1+default-dev (>= 1.2-~~)",
-		"librust-arbitrary-1+derive-dev (>= 1.2-~~)"
+		"librust-arbitrary-1+default-dev (>= 1.4)",
+		"librust-arbitrary-1+derive-dev (>= 1.4)"
 	],
-	"installedSize": 292,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 384,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Const implementation of Object Identifier (OID) standard - Rust source code",
 	"homepage": "https://github.com/RustCrypto/formats/tree/master/const-oid",
-	"filename": "pool/main/r/rust-const-oid/librust-const-oid-dev_0.9.6-1+b1_amd64.deb",
-	"size": 42052,
-	"md5": "4a0ca91c22e6c1252a63eb21d5dfa461",
-	"sha256": "fe1e9959a767909a52134975394b85808d83d06fe1366c3c518d8e1471cb76e4",
+	"filename": "pool/main/r/rust-const-oid/librust-const-oid-dev_0.10.2-1_amd64.deb",
+	"size": 52492,
+	"md5": "a58a0372f9b7c398e39a0939940144ea",
+	"sha256": "a3715836d33dea40fc41091b094964bfc74e7c31773a06ba794f445ff15ce6ca",
 	"descriptionMd5": "cf3ab6113bba8feb538b09a117d0b4e7"
 }
