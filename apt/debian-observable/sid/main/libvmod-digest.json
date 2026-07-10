@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libvmod-digest",
-	"version": "6.4+20230816-10",
+	"version": "6.4+20230816-11",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,19 @@
 		"libmhash2 (>= 0.9.9.9)",
 		"vinylabi-23.0"
 	],
+	"replaces": [
+		"varnish-vmod-digest"
+	],
+	"conflicts": [
+		"varnish-vmod-digest"
+	],
 	"installedSize": 61,
 	"maintainer": "Vinyl Cache Package Maintainers <team+varnish-team@tracker.debian.org>",
 	"description": "Vinyl Cache digest module",
 	"homepage": "https://github.com/varnish/libvmod-digest",
-	"filename": "pool/main/libv/libvmod-digest/libvmod-digest_6.4+20230816-10_amd64.deb",
-	"size": 15476,
-	"md5": "c64d1d135582da193056a48d3487ee66",
-	"sha256": "ef6f380db59b8468de8de923383e954bac095190a40e79e874adf0cd8d9e76cc",
+	"filename": "pool/main/libv/libvmod-digest/libvmod-digest_6.4+20230816-11_amd64.deb",
+	"size": 15580,
+	"md5": "efacb680ae735e2222ee24d636869e30",
+	"sha256": "d92e9b113a7090c947c04ae4e6a08a17dc466a340b7f92960f7cf1fb98da7b4b",
 	"descriptionMd5": "d885df1cf790e4d2f7a2f5350fa24ef5"
 }]

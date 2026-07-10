@@ -6,7 +6,7 @@
 	],
 	"package": "librust-pango-sys-dev",
 	"source": "rust-pango-sys",
-	"version": "0.22.0-2",
+	"version": "0.22.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-system-deps-7+default-dev",
 		"libpango1.0-dev"
 	],
-	"installedSize": 13012,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 194,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libpango-1.0 - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-pango-sys/librust-pango-sys-dev_0.22.0-2_amd64.deb",
-	"size": 1029976,
-	"md5": "0147ff9c91b9192a9b734762ab66b12f",
-	"sha256": "a5479dc29b2134621d413f61486a021b21febdbccc01e9fd71e66393edda045a",
+	"filename": "pool/main/r/rust-pango-sys/librust-pango-sys-dev_0.22.0-3_amd64.deb",
+	"size": 24448,
+	"md5": "e6a3116d108c77ae213a2fcbb19bbee7",
+	"sha256": "b9704dd97136309dc797ee20884cd23e1791a6463bb86eccb055b285ffc3a84f",
 	"descriptionMd5": "57938d320ff92ca19a08835491cde163"
 }

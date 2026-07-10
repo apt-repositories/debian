@@ -5,25 +5,31 @@
 		"Size"
 	],
 	"package": "librust-os-info-dev",
-	"source": "rust-os-info (3.13.0-1)",
-	"version": "3.13.0-1+b1",
+	"source": "rust-os-info",
+	"version": "3.15.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-log-0.4+default-dev",
-		"librust-nix-0.30+default-dev",
-		"librust-nix-0.30+feature-dev",
+		"librust-nix+default-dev (<< 0.32)",
+		"librust-nix+default-dev (>= 0.30)",
+		"librust-nix+feature-dev (<< 0.32)",
+		"librust-nix+feature-dev (>= 0.30)",
+		"librust-schemars-1+default-dev (>= 1.0.3)",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev"
 	],
-	"installedSize": 176,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 182,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Detect the operating system type and version - Rust source code",
 	"homepage": "https://github.com/stanislav-tkach/os_info",
-	"filename": "pool/main/r/rust-os-info/librust-os-info-dev_3.13.0-1+b1_amd64.deb",
-	"size": 25004,
-	"md5": "e6977a9fe77d8ba96e3a27aafe015e10",
-	"sha256": "33c95bd417cf34d9c716437308384fdf987c816b67466e933cd9ccb55c278d7e",
+	"filename": "pool/main/r/rust-os-info/librust-os-info-dev_3.15.0-1_amd64.deb",
+	"size": 25600,
+	"md5": "4de36d64f54c459f31dec5f31908895e",
+	"sha256": "353308e405560a3d7be1e254d72d0b52dfc66171817e506b10a4295548992514",
 	"descriptionMd5": "7de55e2d908efa2d2da394dcd1a34891"
 }]

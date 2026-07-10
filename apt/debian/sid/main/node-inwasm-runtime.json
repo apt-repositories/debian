@@ -6,7 +6,7 @@
 	],
 	"package": "node-inwasm-runtime",
 	"source": "node-inwasm",
-	"version": "0.1.2+dfsg-2",
+	"version": "0.1.2+dfsg-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
@@ -19,13 +19,19 @@
 		"node-glob (>= 10~)",
 		"node-minimatch"
 	],
-	"installedSize": 32,
+	"replaces": [
+		"node-inwasm (<< 0.1.2+dfsg-1~)"
+	],
+	"breaks": [
+		"node-inwasm (<< 0.1.2+dfsg-1~)"
+	],
+	"installedSize": 39,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Runtime part of InWasm, Inline WebAssembly for Typescript",
 	"homepage": "https://github.com/jerch/inwasm#readme",
-	"filename": "pool/main/n/node-inwasm/node-inwasm-runtime_0.1.2+dfsg-2_all.deb",
-	"size": 7544,
-	"md5": "0afa293cc37ca294a32b4bdc1898f8c0",
-	"sha256": "c3629ee253495c1b30e39d38fb66dea34b6f21acf5ed2a3ff7e537f5f26417cb",
+	"filename": "pool/main/n/node-inwasm/node-inwasm-runtime_0.1.2+dfsg-3_all.deb",
+	"size": 14228,
+	"md5": "21e992c6af28396735de476345833f5f",
+	"sha256": "8ee4a97e54d4384be8656bcc3fbccdad2ac65e07bc92112786f4ec386c907a6f",
 	"descriptionMd5": "d76565e543d940c59db5a63b9e059ba3"
 }

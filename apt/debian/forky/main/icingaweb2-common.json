@@ -6,16 +6,17 @@
 	],
 	"package": "icingaweb2-common",
 	"source": "icingaweb2",
-	"version": "2.13.0-1",
+	"version": "2.14.0-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
-		"icinga-php-library (>= 0.19.0)",
-		"icinga-php-thirdparty (>= 0.15.0)",
+		"icinga-php-library (>= 1.0.0)",
+		"icinga-php-thirdparty (>= 1.0.0)",
 		"php-cli",
-		"php-icinga (= 2.13.0-1)"
+		"php-icinga (= 2.14.0-1)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"replaces": [
 		"icingaweb2-module-setup"
@@ -23,13 +24,13 @@
 	"conflicts": [
 		"icingaweb2-module-setup"
 	],
-	"installedSize": 574,
+	"installedSize": 582,
 	"maintainer": "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>",
 	"description": "simple and responsive web interface for Icinga - common files",
 	"homepage": "https://icinga.com",
-	"filename": "pool/main/i/icingaweb2/icingaweb2-common_2.13.0-1_all.deb",
-	"size": 234012,
-	"md5": "8fd04cd68a0e22c79ed591c027a91808",
-	"sha256": "fc5e7ffa43bd41ff0a09bb1b3194beee3fde5907e754275068dbccc1cd6c87cb",
+	"filename": "pool/main/i/icingaweb2/icingaweb2-common_2.14.0-1_all.deb",
+	"size": 236880,
+	"md5": "37c763279602c70eefc7783b6e38d9a9",
+	"sha256": "e09890c0feaa030af8ebcb761089c029cada14ba1857d09d7f3ac552baf8c5e2",
 	"descriptionMd5": "3754116cfd44cbbaf7a457d6b618ee01"
 }

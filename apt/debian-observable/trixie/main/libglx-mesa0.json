@@ -6,14 +6,17 @@
 	],
 	"package": "libglx-mesa0",
 	"source": "mesa",
-	"version": "25.2.6-1~bpo13+1",
+	"version": "26.1.2-1~bpo13+1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libgl1-mesa-dri",
+		"mesa-libgallium (= 26.1.2-1~bpo13+1)",
 		"libc6 (>= 2.38)",
 		"libdrm2 (>= 2.4.124-1)",
 		"libexpat1 (>= 2.0.1)",
+		"libgcc-s1 (>= 3.4)",
 		"libx11-6 (>= 2:1.4.99.1)",
 		"libx11-xcb1",
 		"libxcb-dri3-0",
@@ -23,21 +26,19 @@
 		"libxcb-xfixes0",
 		"libxcb1",
 		"libxext6",
-		"libxxf86vm1",
-		"mesa-libgallium (= 25.2.6-1~bpo13+1)",
-		"libgl1-mesa-dri"
+		"libxxf86vm1"
 	],
 	"breaks": [
 		"glx-diversions (<< 0.8.4~)",
 		"libopengl-perl (<< 0.6704+dfsg-2)"
 	],
-	"installedSize": 352,
+	"installedSize": 433,
 	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
 	"description": "free implementation of the OpenGL API -- GLX vendor library",
 	"homepage": "https://mesa3d.org/",
-	"filename": "pool/main/m/mesa/libglx-mesa0_25.2.6-1~bpo13+1_amd64.deb",
-	"size": 116144,
-	"sha256": "004f9d172a9446cfa9a785b547bcb881efab353abc08c4f4d72a802b06f7a506",
+	"filename": "pool/main/m/mesa/libglx-mesa0_26.1.2-1~bpo13+1_amd64.deb",
+	"size": 131504,
+	"sha256": "30efd34747b9405489afcc97c9d2c94eaf677fa4ac776c9d9c6a42fbf58e9f87",
 	"descriptionMd5": "553ff9489ccb9f6bdae31dc8c33ac85b"
 },{
 	"raw": {},

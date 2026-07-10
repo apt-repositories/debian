@@ -5,12 +5,11 @@
 		"Size"
 	],
 	"package": "mtpolicyd",
-	"version": "2.05-2",
+	"version": "2.05-3",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"libcache-memcached-perl",
 		"libconfig-general-perl",
 		"libdbd-sqlite3-perl",
@@ -27,19 +26,21 @@
 		"libnet-server-perl",
 		"libtie-ixhash-perl",
 		"lsb-base",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any"
 	],
 	"recommends": [
 		"libnet-ldap-perl",
 		"libtime-piece-mysql-perl"
 	],
-	"installedSize": 500,
+	"installedSize": 501,
 	"maintainer": "Mtpolicyd Maintainers <pkg-mtpolicyd-maintainers@lists.alioth.debian.org>",
 	"description": "modular policy daemon for postfix",
 	"homepage": "https://metacpan.org/release/Mail-MtPolicyd",
-	"filename": "pool/main/m/mtpolicyd/mtpolicyd_2.05-2_all.deb",
-	"size": 166192,
-	"md5": "d9326c602fab9d607abe33f6361e736f",
-	"sha256": "f99358023e146ffcdfbe23a073fb516949f71365c07115fae82ffa2331ad39dc",
+	"filename": "pool/main/m/mtpolicyd/mtpolicyd_2.05-3_all.deb",
+	"size": 165964,
+	"md5": "1eb1ed8ca8690284f344099fb1b8655a",
+	"sha256": "d87707d5f96c122f51f00ecc7ed9af5e2ca7448345620c57968c0d850955d91e",
 	"descriptionMd5": "32cf89d7807c6a2fe295e8a8126ca9fc"
 }

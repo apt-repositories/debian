@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libmysql-ocaml",
-	"source": "mysql-ocaml (1.2.4-3)",
-	"version": "1.2.4-3+b1",
+	"source": "mysql-ocaml",
+	"version": "1.2.4-4",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,19 @@
 		"libc6 (>= 2.14)",
 		"libmariadb3 (>= 3.0.0)"
 	],
-	"installedSize": 56,
+	"replaces": [
+		"libmysql-ocaml-dev (<< 1.2.4-4~)"
+	],
+	"breaks": [
+		"libmysql-ocaml-dev (<< 1.2.4-4~)"
+	],
+	"installedSize": 133,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "OCaml bindings for MySql (runtime package)",
 	"homepage": "https://ygrek.org/p/ocaml-mysql/",
-	"filename": "pool/main/m/mysql-ocaml/libmysql-ocaml_1.2.4-3+b1_amd64.deb",
-	"size": 15036,
-	"md5": "d15c355bc5b77533d83d301caf9270d3",
-	"sha256": "e47addefe8972b49f18b7cafe61c61752bba330022e06673d38ce3387cb8d38a",
+	"filename": "pool/main/m/mysql-ocaml/libmysql-ocaml_1.2.4-4_amd64.deb",
+	"size": 32440,
+	"md5": "e779cfcea5f9b449c21b32a24eca1c85",
+	"sha256": "21eb8a4701ffb8280d07008802e304d8fd81448d72a83a2c8594d73fed6f1cbc",
 	"descriptionMd5": "1a20ccd365b0d7b5c95754bad81741f4"
 }]

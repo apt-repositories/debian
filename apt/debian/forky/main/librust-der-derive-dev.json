@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-der-derive-dev",
-	"source": "rust-der-derive (0.7.3-1)",
-	"version": "0.7.3-1+b1",
+	"source": "rust-der-derive",
+	"version": "0.8.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,16 @@
 		"librust-syn-2+default-dev",
 		"librust-syn-2+extra-traits-dev"
 	],
-	"installedSize": 137,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 164,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Custom derive support for the der crate - Rust source code",
-	"homepage": "https://github.com/RustCrypto/formats/tree/master/der/derive",
-	"filename": "pool/main/r/rust-der-derive/librust-der-derive-dev_0.7.3-1+b1_amd64.deb",
-	"size": 25724,
-	"md5": "628266529cd297f64312cdeefb6c3dee",
-	"sha256": "d6670b3aff50213dbedef23149a0f35e1a346fb978fecf254c67712a44b273e5",
+	"homepage": "https://github.com/RustCrypto/formats/tree/master/der_derive",
+	"filename": "pool/main/r/rust-der-derive/librust-der-derive-dev_0.8.0-1_amd64.deb",
+	"size": 29008,
+	"md5": "f09a679d814cb05911fca4b10bc35ff7",
+	"sha256": "464903c9482b35b5f41f4f3712dbd8c1153d87873ec2fdf19545a9d2915f1065",
 	"descriptionMd5": "9dc84bfde3ca999aa45a1b67cc49f8c6"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-ratatui-crossterm-dev",
 	"source": "rust-ratatui-crossterm",
-	"version": "0.1.0-3",
+	"version": "0.1.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,17 +16,20 @@
 		"librust-crossterm-0.29+serde-dev",
 		"librust-document-features-0.2+default-dev",
 		"librust-instability-0.3+default-dev",
-		"librust-ratatui-core-0.1+default-dev",
-		"librust-ratatui-core-0.1+scrolling-regions-dev",
-		"librust-ratatui-core-0.1+underline-color-dev"
+		"librust-ratatui-core-0.1+default-dev (>= 0.1.2)",
+		"librust-ratatui-core-0.1+scrolling-regions-dev (>= 0.1.2)",
+		"librust-ratatui-core-0.1+underline-color-dev (>= 0.1.2)"
 	],
-	"installedSize": 62,
+	"breaks": [
+		"rustc (<< 1.88.0~)"
+	],
+	"installedSize": 76,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Crossterm backend for the Ratatui Terminal UI library - Rust source code",
 	"homepage": "https://ratatui.rs",
-	"filename": "pool/main/r/rust-ratatui-crossterm/librust-ratatui-crossterm-dev_0.1.0-3_amd64.deb",
-	"size": 12032,
-	"md5": "366c6c70d6a382eca8a65139f841446f",
-	"sha256": "ad11795ab9cfc0263641a903bf3c4ec259b572eed49f825a069c2e16338e74e6",
+	"filename": "pool/main/r/rust-ratatui-crossterm/librust-ratatui-crossterm-dev_0.1.2-1_amd64.deb",
+	"size": 13196,
+	"md5": "b748c164f7e35dc440d3f625b8154bd5",
+	"sha256": "d618699307b244b21b79bcf5ec1a49b70306b7d5da0817be65feeefc27cf9bbf",
 	"descriptionMd5": "efaad26801a326fc40e88c1512628714"
 }
