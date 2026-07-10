@@ -6,7 +6,7 @@
 	],
 	"package": "mesa-libgallium",
 	"source": "mesa",
-	"version": "25.2.6-1~bpo13+1",
+	"version": "26.1.2-1~bpo13+1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -32,12 +32,23 @@
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 43322,
+	"replaces": [
+		"mesa-va-drivers (<< 25.2.8-3)",
+		"mesa-vdpau-drivers (<< 25.2.8-3)"
+	],
+	"enhances": [
+		"libva2"
+	],
+	"breaks": [
+		"mesa-va-drivers (<< 25.2.8-3)",
+		"mesa-vdpau-drivers (<< 25.2.8-3)"
+	],
+	"installedSize": 45446,
 	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
 	"description": "shared infrastructure for Mesa drivers",
 	"homepage": "https://mesa3d.org/",
-	"filename": "pool/main/m/mesa/mesa-libgallium_25.2.6-1~bpo13+1_amd64.deb",
-	"size": 10081652,
-	"sha256": "29d1300e26209a1255170f206294ad76e39eaf065f64f9819b42ac55669ce04b",
+	"filename": "pool/main/m/mesa/mesa-libgallium_26.1.2-1~bpo13+1_amd64.deb",
+	"size": 10430040,
+	"sha256": "f002c2d622f91edcb797fdccfc7e348fadfa561ba60aaaa55c52f11ec4f3c16e",
 	"descriptionMd5": "bbed14c249d6107bdd29c797c354b48e"
 }

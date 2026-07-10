@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libvmod-selector",
-	"version": "2.6.0+20260705-1",
+	"version": "2.6.0+20260705-2",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,13 +13,19 @@
 		"vinylabi-23.0",
 		"libc6 (>= 2.14)"
 	],
+	"replaces": [
+		"varnish-selector"
+	],
+	"conflicts": [
+		"varnish-selector"
+	],
 	"installedSize": 139,
 	"maintainer": "Vinyl Cache Package Maintainers <team+varnish-team@tracker.debian.org>",
 	"description": "match strings with backends, regexen and other strings",
 	"homepage": "https://code.uplex.de/uplex-varnish/libvmod-selector",
-	"filename": "pool/main/libv/libvmod-selector/libvmod-selector_2.6.0+20260705-1_amd64.deb",
-	"size": 62124,
-	"md5": "0102705064a7ddc8ac0281caf2c41411",
-	"sha256": "696e5542ab2c8ff5aabba44c0730fd8f31ee34b604ad9b5bb4b4ed89a877be27",
+	"filename": "pool/main/libv/libvmod-selector/libvmod-selector_2.6.0+20260705-2_amd64.deb",
+	"size": 62224,
+	"md5": "946885a9348c13fdb9a5ecfe1cfd3047",
+	"sha256": "cf3caffc763f6c4afee9dcbce999d75b1370c2f98ed11cd26e716a80a8596147",
 	"descriptionMd5": "1c29d64960f813da7fa60ca3f0539836"
 }

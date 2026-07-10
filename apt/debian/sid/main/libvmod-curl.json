@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libvmod-curl",
-	"version": "0.0~git20250603-3",
+	"version": "0.0~git20250603-4",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,19 @@
 		"libcurl4t64 (>= 7.16.2)",
 		"vinylabi-23.0"
 	],
+	"replaces": [
+		"varnish-curl"
+	],
+	"conflicts": [
+		"varnish-curl"
+	],
 	"installedSize": 62,
 	"maintainer": "Vinyl Cache Package Maintainers <team+varnish-team@tracker.debian.org>",
 	"description": "Vinyl Cache curl module",
 	"homepage": "https://github.com/varnish/libvmod-curl",
-	"filename": "pool/main/libv/libvmod-curl/libvmod-curl_0.0~git20250603-3_amd64.deb",
-	"size": 13932,
-	"md5": "08b66573caa49261aabf3306ce509100",
-	"sha256": "daa8125454362e54fc902db990c262a6b298645df8521412a5089fc491c49ff2",
+	"filename": "pool/main/libv/libvmod-curl/libvmod-curl_0.0~git20250603-4_amd64.deb",
+	"size": 14024,
+	"md5": "d3479fa69fc90947a99b0b03fc5b3149",
+	"sha256": "526ba41f9970788f3c374af9c5827b465dcc84cd1931f5e65b93a8264cb59718",
 	"descriptionMd5": "d2f6683902adcf0109aa26323d71e645"
 }
