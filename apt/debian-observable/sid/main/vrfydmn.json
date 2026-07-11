@@ -5,17 +5,15 @@
 		"Size"
 	],
 	"package": "vrfydmn",
-	"version": "0.11.0-4",
+	"version": "0.11.0-5",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3:any",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"python3-milter",
 		"adduser"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"python3-setproctitle"
@@ -29,9 +27,9 @@
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Milter for ensuring email message from matches mail from",
 	"homepage": "https://github.com/croessner/vrfydmn",
-	"filename": "pool/main/v/vrfydmn/vrfydmn_0.11.0-4_all.deb",
-	"size": 95760,
-	"md5": "5833e8cf9439fcc6760ee53636b52152",
-	"sha256": "61437d421fbcb92f5f28aa76cf194e11736b47d4edb836121f3d11528773c4b7",
+	"filename": "pool/main/v/vrfydmn/vrfydmn_0.11.0-5_all.deb",
+	"size": 95544,
+	"md5": "c4ab5228fcf4b5d093947ea691d5936d",
+	"sha256": "ea9edb00fb78d8f552662f03bbc582222c612a84bf7e6d3c9edb1dd8cea9b774",
 	"descriptionMd5": "68e533c4b4d5ec9a6ffcef3712762483"
 }]

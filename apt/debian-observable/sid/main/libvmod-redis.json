@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "libvmod-redis",
-	"version": "23.1-1",
+	"version": "23.1+repack-2",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,19 @@
 		"libhiredis1.1.0 (>= 1.2.0)",
 		"libvinylapi3 (>= 9.0.0~)"
 	],
+	"replaces": [
+		"varnish-redis"
+	],
+	"conflicts": [
+		"varnish-redis"
+	],
 	"installedSize": 234,
 	"maintainer": "Vinyl Cache Package Maintainers <team+varnish-team@tracker.debian.org>",
 	"description": "access Redis servers from VCL",
 	"homepage": "https://github.com/carlosabalde/libvmod-redis/",
-	"filename": "pool/main/libv/libvmod-redis/libvmod-redis_23.1-1_amd64.deb",
-	"size": 64412,
-	"md5": "cb6447df881f20748771206ed9a00e65",
-	"sha256": "58f87576c0722c414041c8c271bc307cdd1130c94d469006a1b7218a08b6d60b",
+	"filename": "pool/main/libv/libvmod-redis/libvmod-redis_23.1+repack-2_amd64.deb",
+	"size": 64716,
+	"md5": "846e3798677c68e240ac12266669a611",
+	"sha256": "a8980177f9a94b6925fa5425b1ff3fc58beda334476d1e50b4d04f7031161ad4",
 	"descriptionMd5": "332ff6fd8e3a6d311c02daf31c24b8e8"
 }]

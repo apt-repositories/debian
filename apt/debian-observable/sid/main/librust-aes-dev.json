@@ -5,28 +5,27 @@
 		"Size"
 	],
 	"package": "librust-aes-dev",
-	"source": "rust-aes (0.8.4-1)",
-	"version": "0.8.4-1+b1",
+	"source": "rust-aes",
+	"version": "0.9.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cfg-if-1+default-dev",
-		"librust-cipher-0.4+default-dev (>= 0.4.2-~~)",
-		"librust-cpufeatures-0.2+default-dev",
-		"librust-zeroize-1+aarch64-dev (>= 1.5.6-~~)",
-		"librust-zeroize-1-dev (>= 1.6.0-~~)"
+		"librust-cipher-0.5+default-dev",
+		"librust-cpubits-0.1+default-dev",
+		"librust-cpufeatures-0.3+default-dev",
+		"librust-zeroize-1+aarch64-dev (>= 1.8)"
 	],
 	"breaks": [
-		"librust-zip-dev (<< 0.6.6)"
+		"rustc (<< 1.85~)"
 	],
-	"installedSize": 369,
+	"installedSize": 434,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "AES (Advanced Encryption Standard, aka Rijndael) in Rust - Rust source code",
 	"homepage": "https://github.com/RustCrypto/block-ciphers",
-	"filename": "pool/main/r/rust-aes/librust-aes-dev_0.8.4-1+b1_amd64.deb",
-	"size": 110424,
-	"md5": "fb3dad6eaea6ec729d1c80a9dce22a4a",
-	"sha256": "5d67481c19281e035d66d89e8e5edcad684c23594f2eb3a4fb52e56cb674130b",
+	"filename": "pool/main/r/rust-aes/librust-aes-dev_0.9.1-1_amd64.deb",
+	"size": 108924,
+	"md5": "73e85c977eca8c2cf5ae4bfc5820e339",
+	"sha256": "d9650047e438d9cd286ac068a8a2ce025ba39b1b9d545b3e10f564a1eac6ec79",
 	"descriptionMd5": "a477e5bd04f58d954e200f9d8be93199"
 }]
