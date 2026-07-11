@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "nsd",
-	"version": "4.14.3-1",
+	"version": "4.15.0-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"openssl",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libbpf1 (>= 1:0.7.0)",
 		"libc6 (>= 2.38)",
@@ -23,13 +23,13 @@
 		"libsystemd0",
 		"libxdp1 (>= 1.2.0)"
 	],
-	"installedSize": 6046,
+	"installedSize": 6067,
 	"maintainer": "nsd packagers <nsd@packages.debian.org>",
 	"description": "authoritative domain name server",
 	"homepage": "https://www.nlnetlabs.nl/projects/nsd/about/",
-	"filename": "pool/main/n/nsd/nsd_4.14.3-1_amd64.deb",
-	"size": 880860,
-	"md5": "e0e741ee9b809624151a79bb52bebfd8",
-	"sha256": "8a5ab925d0df535d6fe79403ad59e5bc7bef37ca8da78f0fd6bc4a2b0d78de9c",
+	"filename": "pool/main/n/nsd/nsd_4.15.0-1_amd64.deb",
+	"size": 885024,
+	"md5": "8fa90e257e461c23badee18e7228174e",
+	"sha256": "634f491cc7503d6596ea47663039215f374baa6bde5b3f71b8669fece216a413",
 	"descriptionMd5": "0d138f0c24ea9ffbd8b3b10cbfadacc7"
 }

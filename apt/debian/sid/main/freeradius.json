@@ -5,15 +5,15 @@
 		"Size"
 	],
 	"package": "freeradius",
-	"source": "freeradius (3.2.8+dfsg-1)",
-	"version": "3.2.8+dfsg-1+b1",
+	"version": "3.2.10+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"freeradius-common",
 		"freeradius-config",
-		"libfreeradius3 (= 3.2.8+dfsg-1+b1)",
+		"libfreeradius3 (= 3.2.10+dfsg-1)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any",
 		"libc6 (>= 2.38)",
 		"libcrypt1 (>= 1:4.1.0)",
@@ -40,13 +40,13 @@
 		"freeradius-python3",
 		"snmp"
 	],
-	"installedSize": 3437,
+	"installedSize": 3463,
 	"maintainer": "Debian FreeRADIUS Packaging Team <pkg-freeradius-maintainers@lists.alioth.debian.org>",
 	"description": "high-performance and highly configurable RADIUS server",
 	"homepage": "http://www.freeradius.org/",
-	"filename": "pool/main/f/freeradius/freeradius_3.2.8+dfsg-1+b1_amd64.deb",
-	"size": 831952,
-	"md5": "cc2ebae89eee260ea8de5c32783caa39",
-	"sha256": "101a78d7c5fee3bfac6db863296b3362015ac1133027d9ed0bbc612a125363fe",
+	"filename": "pool/main/f/freeradius/freeradius_3.2.10+dfsg-1_amd64.deb",
+	"size": 842596,
+	"md5": "cfbcd24fe03a724919677091e8c3b057",
+	"sha256": "6c022fea659d1eea3b7c1a2f5783d551947af7e73ff256a35fc77dccda043121",
 	"descriptionMd5": "8f93db923be1449fe3d8c09996bd75e7"
 }

@@ -6,13 +6,15 @@
 	],
 	"package": "librust-serdect-0.2-dev",
 	"source": "rust-serdect-0.2",
-	"version": "0.2.0-1",
+	"version": "0.2.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-base16ct-1+alloc-dev",
-		"librust-base16ct-1-dev",
+		"librust-base16ct+alloc-dev (<< 2)",
+		"librust-base16ct+alloc-dev (>= 0.2)",
+		"librust-base16ct-dev (<< 2)",
+		"librust-base16ct-dev (>= 0.2)",
 		"librust-serde-1+alloc-dev (>= 1.0.96)",
 		"librust-serde-1-dev (>= 1.0.96)",
 		"librust-zeroize-1-dev"
@@ -28,9 +30,9 @@
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Constant-time serde serializer/deserializer helpers for data that potentially contains secrets (e.g - Rust source code",
 	"homepage": "https://github.com/RustCrypto/formats/tree/master/serdect",
-	"filename": "pool/main/r/rust-serdect-0.2/librust-serdect-0.2-dev_0.2.0-1_amd64.deb",
-	"size": 14160,
-	"md5": "2de8029f634e452d7dddab3551b856f8",
-	"sha256": "e5ab87b381a394f2806149be59b546d4fabf8a2a464c0317af8c29d4901eb77b",
+	"filename": "pool/main/r/rust-serdect-0.2/librust-serdect-0.2-dev_0.2.0-2_amd64.deb",
+	"size": 14296,
+	"md5": "fbb9e503a43026c8016144a91334ede1",
+	"sha256": "240516a72d37217c9f7732348ef432cf79cb0adb2194abf3fd59a9fba1b2a301",
 	"descriptionMd5": "1fe4221949269964015218b50ce2aa4a"
 }

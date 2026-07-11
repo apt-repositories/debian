@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-pbkdf2-0.12-dev",
+	"source": "rust-pbkdf2-0.12",
+	"version": "0.12.2-1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-digest-0.10+default-dev (>= 0.10.7)",
+		"librust-digest-0.10+mac-dev (>= 0.10.7)",
+		"librust-hmac-0.12-dev",
+		"librust-password-hash-0.5+rand-core-dev",
+		"librust-password-hash-0.5+std-dev",
+		"librust-rayon-1+default-dev (>= 1.7)",
+		"librust-sha1-0.10-dev",
+		"librust-sha2-0.10-dev"
+	],
+	"replaces": [
+		"librust-pbkdf2-dev (<< 0.12.3~)"
+	],
+	"breaks": [
+		"librust-pbkdf2-dev (<< 0.12.3~)",
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 70,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Generic implementation of PBKDF2 - Rust source code",
+	"homepage": "https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2",
+	"filename": "pool/main/r/rust-pbkdf2-0.12/librust-pbkdf2-0.12-dev_0.12.2-1_amd64.deb",
+	"size": 17180,
+	"md5": "28232821ca41dae8c6da2bafd05d367a",
+	"sha256": "8333ea571d6cee79f21da732f8c19550ba25dd40a6fc2bd7b8abbbd5f7836c3c",
+	"descriptionMd5": "0f8c9b0c8b545585ec5f865a5b03b13d"
+}
