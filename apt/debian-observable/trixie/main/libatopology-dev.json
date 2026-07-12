@@ -6,6 +6,36 @@
 	],
 	"package": "libatopology-dev",
 	"source": "alsa-lib",
+	"version": "1.2.16.1-1~bpo13+1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libatopology2t64 (= 1.2.16.1-1~bpo13+1)",
+		"libasound2-dev"
+	],
+	"replaces": [
+		"libasound2-dev (<< 1.2.1.1)"
+	],
+	"breaks": [
+		"libasound2-dev (<< 1.2.1.1)"
+	],
+	"installedSize": 56,
+	"maintainer": "Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>",
+	"description": "shared library for handling ALSA topology -- development files",
+	"homepage": "https://www.alsa-project.org/",
+	"filename": "pool/main/a/alsa-lib/libatopology-dev_1.2.16.1-1~bpo13+1_amd64.deb",
+	"size": 14904,
+	"sha256": "ad61d6fa7e692b5b0dc7e297688eac61e55deff1faf0c8321dbd5345e1363e9e",
+	"descriptionMd5": "4d125ac307026478ea0ed256c08d5719"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libatopology-dev",
+	"source": "alsa-lib",
 	"version": "1.2.14-1",
 	"section": "libdevel",
 	"priority": "optional",

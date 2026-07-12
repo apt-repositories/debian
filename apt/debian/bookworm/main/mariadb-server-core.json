@@ -6,12 +6,13 @@
 	],
 	"package": "mariadb-server-core",
 	"source": "mariadb",
-	"version": "1:10.11.14-0+deb12u2",
+	"version": "1:10.11.18-0+deb12u1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"mariadb-common (>= 1:10.11.14-0+deb12u2)",
+		"mariadb-common (>= 1:10.11.18-0+deb12u1)",
+		"libaio1 (>= 0.3.93)",
 		"libc6 (>= 2.34)",
 		"libcrypt1 (>= 1:4.1.0)",
 		"libgcc-s1 (>= 3.0)",
@@ -25,7 +26,7 @@
 	],
 	"replaces": [
 		"mariadb-client-10.1",
-		"mariadb-server (<< 1:10.11.14-0+deb12u2)",
+		"mariadb-server (<< 1:10.11.18-0+deb12u1)",
 		"mariadb-server-10.0",
 		"mariadb-server-10.1",
 		"mariadb-server-10.2",
@@ -88,13 +89,13 @@
 		"mysql-server-8.0",
 		"virtual-mysql-server-core"
 	],
-	"installedSize": 46089,
+	"installedSize": 44908,
 	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
 	"description": "MariaDB database core server files",
 	"homepage": "https://mariadb.org/",
-	"filename": "pool/main/m/mariadb/mariadb-server-core_10.11.14-0+deb12u2_amd64.deb",
-	"size": 7597008,
-	"md5": "aca18fbbaa4db251a02b7c4967e8eb91",
-	"sha256": "8d7ac7a136148bbcd1dc7dfe2e61b464ef17fe2470fdca7841645832f51e3166",
+	"filename": "pool/main/m/mariadb/mariadb-server-core_10.11.18-0+deb12u1_amd64.deb",
+	"size": 7291644,
+	"md5": "938ef3b6b41547fb990233d48b424eac",
+	"sha256": "46de441b75f8c10b6ca6c9f03335749b20b583f26737e51fecc9820b6bf24576",
 	"descriptionMd5": "a01f76260dfbedfdfbfcd8ff440b8a4c"
 }

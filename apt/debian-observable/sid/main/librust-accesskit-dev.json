@@ -5,25 +5,32 @@
 		"Size"
 	],
 	"package": "librust-accesskit-dev",
-	"source": "rust-accesskit (0.21.0-1)",
-	"version": "0.21.0-1+b1",
+	"source": "rust-accesskit",
+	"version": "0.24.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-enumn-0.1+default-dev (>= 0.1.6-~~)",
-		"librust-pyo3+default-dev (>= 0.24-~~)",
-		"librust-schemars-0.8+default-dev (>= 0.8.7-~~)",
+		"librust-enumn-0.1+default-dev (>= 0.1.6)",
+		"librust-pyo3+default-dev (>= 0.28)",
+		"librust-schemars-1+default-dev",
+		"librust-schemars-1+uuid1-dev",
 		"librust-serde-1+alloc-dev",
-		"librust-serde-1+derive-dev"
+		"librust-serde-1+derive-dev",
+		"librust-serde-json-1-dev",
+		"librust-uuid-1+serde-dev",
+		"librust-uuid-1-dev"
 	],
-	"installedSize": 180,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 192,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "UI accessibility infrastructure across platforms - Rust source code",
 	"homepage": "https://github.com/AccessKit/accesskit",
-	"filename": "pool/main/r/rust-accesskit/librust-accesskit-dev_0.21.0-1+b1_amd64.deb",
-	"size": 37704,
-	"md5": "4488edf29232cca57d93e7beb07e6a60",
-	"sha256": "d40269db49ca7c404232bcb4f4d6f4a5db5b2e52ae50be16ea8a0492914a925f",
+	"filename": "pool/main/r/rust-accesskit/librust-accesskit-dev_0.24.1-1_amd64.deb",
+	"size": 40932,
+	"md5": "fa72e4c5adec25a62566e4e57b9bdec8",
+	"sha256": "15379507eaac2bc91ee7a1a1fd219d8c96357144db5aa437758f94353a228d43",
 	"descriptionMd5": "15f9abd083943a03ca81fe99c4966252"
 }]
