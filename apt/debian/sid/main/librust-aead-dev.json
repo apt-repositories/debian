@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-aead-dev",
-	"source": "rust-aead (0.5.2-2)",
-	"version": "0.5.2-2+b1",
+	"source": "rust-aead",
+	"version": "0.5.2-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,19 +14,23 @@
 		"librust-arrayvec-0.7-dev",
 		"librust-blobby-0.3+default-dev",
 		"librust-bytes-1-dev",
-		"librust-crypto-common-0.1+default-dev (>= 0.1.4-~~)",
-		"librust-crypto-common-0.1+getrandom-dev (>= 0.1.4-~~)",
-		"librust-crypto-common-0.1+rand-core-dev (>= 0.1.4-~~)",
-		"librust-crypto-common-0.1+std-dev (>= 0.1.4-~~)",
+		"librust-crypto-common-0.1+default-dev (>= 0.1.4)",
+		"librust-crypto-common-0.1+getrandom-dev (>= 0.1.4)",
+		"librust-crypto-common-0.1+rand-core-dev (>= 0.1.4)",
+		"librust-crypto-common-0.1+std-dev (>= 0.1.4)",
 		"librust-generic-array-0.14-dev",
 		"librust-heapless-0.8-dev"
 	],
-	"installedSize": 85,
+	"breaks": [
+		"rustc (<< 1.56~)"
+	],
+	"installedSize": 84,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Traits for Authenticated Encryption with Associated Data (AEAD) algorithms, such as AES-GCM as ChaCha20Poly1305, which provide a high-level API - Rust source code",
-	"filename": "pool/main/r/rust-aead/librust-aead-dev_0.5.2-2+b1_amd64.deb",
-	"size": 18472,
-	"md5": "87523966d2d65060b872fe895d82ac9c",
-	"sha256": "a73e8498b9a519c018ab4992ef3874cb335b7a5a0df277b682ce5d96eaae8c31",
+	"homepage": "https://github.com/RustCrypto/traits",
+	"filename": "pool/main/r/rust-aead/librust-aead-dev_0.5.2-3_amd64.deb",
+	"size": 18300,
+	"md5": "305a86918497482e9d3af5ffba78d4a7",
+	"sha256": "da0eddd8ae3b75665b9f53e84d37c7080bcb70d4ba7510c842afd9127d56c3b4",
 	"descriptionMd5": "cb6ba517605ca74093d2d6b9a39bcb33"
 }

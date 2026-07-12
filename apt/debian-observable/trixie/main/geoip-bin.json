@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "geoip-bin",
-	"source": "geoip (1.6.12-11.1)",
-	"version": "1.6.12-11.1+b1",
+	"source": "geoip",
+	"version": "1.6.12-11.2~deb13u1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libnetaddr-ip-perl",
 		"libc6 (>= 2.34)",
-		"libgeoip1t64 (>= 1.6.12)"
+		"libgcc-s1 (>= 3.0)",
+		"libgeoip1t64 (>= 1.6.12)",
+		"libstdc++6 (>= 13.1)"
 	],
 	"replaces": [
 		"libgeoip1t64 (<= 1.4.4.dfsg-2)"
 	],
-	"installedSize": 60,
+	"installedSize": 295,
 	"maintainer": "Patrick Matthäi <pmatthaei@debian.org>",
 	"description": "IP lookup command line tools that use the GeoIP library",
 	"homepage": "https://www.maxmind.com/",
-	"filename": "pool/main/g/geoip/geoip-bin_1.6.12-11.1+b1_amd64.deb",
-	"size": 24820,
-	"md5": "97445efc2058a9b213ae0bb4fb4c3976",
-	"sha256": "495afa0bc7a9df1ca8b7fe3e6853f8df279fb578b65aa03013e3e557fac95982",
+	"filename": "pool/main/g/geoip/geoip-bin_1.6.12-11.2~deb13u1_amd64.deb",
+	"size": 77132,
+	"md5": "f97e81a5a89d79cb8ce55dce739d58aa",
+	"sha256": "5b7300acf1fdf55d7cbc6e92cf14d2659e0147de373cc1656b74fad0e98b5f30",
 	"descriptionMd5": "e058df40dc45f1ddd083b2822302409e"
 }]

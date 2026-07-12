@@ -5,13 +5,16 @@
 		"Size"
 	],
 	"package": "libfreecontact-dev",
-	"source": "freecontact (1.0.21-16)",
-	"version": "1.0.21-16+b1",
+	"source": "freecontact",
+	"version": "1.0.21-17",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libfreecontact0t64 (= 1.0.21-16+b1)"
+		"libfreecontact0t64 (= 1.0.21-17)",
+		"libblas-dev",
+		"libgfortran-15-dev",
+		"liblapack-dev"
 	],
 	"suggests": [
 		"libfreecontact-doc"
@@ -19,13 +22,13 @@
 	"conflicts": [
 		"libfreecontact-dev"
 	],
-	"installedSize": 302,
+	"installedSize": 301,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "fast protein contact predictor library - development files",
 	"homepage": "https://rostlab.org/",
-	"filename": "pool/main/f/freecontact/libfreecontact-dev_1.0.21-16+b1_amd64.deb",
-	"size": 73208,
-	"md5": "bd99dee855f334da1c389a281f8f40e2",
-	"sha256": "f123346a64bf92c90b26c1e3bc0f75a358751c224c3e853d631a36239f31235c",
+	"filename": "pool/main/f/freecontact/libfreecontact-dev_1.0.21-17_amd64.deb",
+	"size": 73180,
+	"md5": "a661b397e70e6583dbc396efb5ccdf34",
+	"sha256": "a34f951b38bfc972f7fcf13850a97d98ecbdf6624e474c06d709564e24734db7",
 	"descriptionMd5": "a38aac9af5c6b0a3e4c186780c9d30fe"
 }]

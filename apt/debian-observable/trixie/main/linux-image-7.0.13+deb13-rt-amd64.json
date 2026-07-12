@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.13+deb13-rt-amd64",
+	"source": "linux-signed-amd64 (7.0.13+1~bpo13+1)",
+	"version": "7.0.13-1~bpo13+1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.0.13+deb13-rt-amd64 (= 7.0.13-1~bpo13+1)",
+		"linux-binary-7.0.13+deb13-rt-amd64 (= 7.0.13-1~bpo13+1)",
+		"linux-modules-7.0.13+deb13-rt-amd64 (= 7.0.13-1~bpo13+1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.0"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.0.13 for 64-bit PCs, PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.0.13+deb13-rt-amd64_7.0.13-1~bpo13+1_amd64.deb",
+	"size": 1932,
+	"sha256": "e7729bb3cb0f1d511ebe40db2b2b43bef96fa6a987c8a1d35e9f42a342e32fb8",
+	"descriptionMd5": "f3a31df41a2f3ada1493e31506ff4457"
+}]

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-abscissa-derive-dev",
 	"source": "rust-abscissa-derive",
-	"version": "0.9.0-1",
+	"version": "0.9.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-syn-2+default-dev",
 		"librust-synstructure-0.13+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
 	"installedSize": 36,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Custom derive support for the abscissa application microframework - Rust source code",
 	"homepage": "https://github.com/iqlusioninc/abscissa",
-	"filename": "pool/main/r/rust-abscissa-derive/librust-abscissa-derive-dev_0.9.0-1_amd64.deb",
-	"size": 6960,
-	"md5": "379bf303ace6b93e00c279ed83fd76d8",
-	"sha256": "20783ef5e18dd59e936061c72cda372035d15a69e94d92331a263f40bf1eb4a9",
+	"filename": "pool/main/r/rust-abscissa-derive/librust-abscissa-derive-dev_0.9.0-2_amd64.deb",
+	"size": 7048,
+	"md5": "9a51f08713734c3cf4fc5011dc2d44d3",
+	"sha256": "b0ed7216f69005a71a17253e6bf2e41d4b5b0164e36450d0899b960f0f847678",
 	"descriptionMd5": "4d8557b1b92add57f0648268b93aec93"
 }]

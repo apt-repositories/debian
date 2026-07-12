@@ -5,6 +5,45 @@
 		"Size"
 	],
 	"package": "xz-utils",
+	"version": "5.4.1-1+deb12u1",
+	"section": "utils",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"liblzma5 (>= 5.4.0)"
+	],
+	"replaces": [
+		"lzip (<< 1.8~rc2)",
+		"manpages-de (<< 4.17.0-2~bpo11+1)",
+		"manpages-fr (<< 4.17.0-2~bpo11+1)",
+		"xz-lzma"
+	],
+	"breaks": [
+		"lzip (<< 1.8~rc2)",
+		"manpages-de (<< 4.17.0-2~bpo11+1)",
+		"manpages-fr (<< 4.17.0-2~bpo11+1)"
+	],
+	"conflicts": [
+		"lzma (<< 9.22-1)",
+		"xz-lzma"
+	],
+	"installedSize": 1226,
+	"maintainer": "Sebastian Andrzej Siewior <sebastian@breakpoint.cc>",
+	"description": "XZ-format compression utilities",
+	"homepage": "https://tukaani.org/xz/",
+	"filename": "pool/main/x/xz-utils/xz-utils_5.4.1-1+deb12u1_amd64.deb",
+	"size": 471212,
+	"md5": "b30c9c676f9d9ddc78322c8dfa945c8b",
+	"sha256": "cc6dc501e0c06be3f89e9a7f8dfd7a97f92aadfd9daa60fad19b90d6a5558b80",
+	"descriptionMd5": "ea97a558c8575aebbed2c11cbd20e0f2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xz-utils",
 	"version": "5.4.1-1",
 	"section": "utils",
 	"priority": "standard",

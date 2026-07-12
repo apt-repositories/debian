@@ -6,7 +6,7 @@
 	],
 	"package": "librust-abscissa-core-dev",
 	"source": "rust-abscissa-core",
-	"version": "0.9.0-2",
+	"version": "0.9.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -45,13 +45,16 @@
 		"librust-tracing-subscriber-0.3+tracing-log-dev",
 		"librust-wait-timeout-0.2+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
 	"installedSize": 164,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Application microframework with support for command-line option parsing, configuration, error handling, logging, and terminal interactions - Rust source code",
 	"homepage": "https://github.com/iqlusioninc/abscissa/",
-	"filename": "pool/main/r/rust-abscissa-core/librust-abscissa-core-dev_0.9.0-2_amd64.deb",
-	"size": 32628,
-	"md5": "150a4ad2fca6c6916d3f97a4d36888e8",
-	"sha256": "70d702414be12fed7f3038789a7be1010fa01d45339378186be5f82176132ca4",
+	"filename": "pool/main/r/rust-abscissa-core/librust-abscissa-core-dev_0.9.0-3_amd64.deb",
+	"size": 32696,
+	"md5": "56072847b11f469a56300b06e5c8caf0",
+	"sha256": "2474d86d792063ee98cb48eca4eaa247acd5232dc65e1a1581ca792d812f2521",
 	"descriptionMd5": "7fa3d6d8a2b0d8616f423b5602c89249"
 }]

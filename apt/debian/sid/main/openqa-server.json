@@ -5,19 +5,20 @@
 		"Size"
 	],
 	"package": "openqa-server",
-	"version": "5.1782486535.1bf71ec48-1~srv+1",
+	"version": "5.1782486535.1bf71ec48-2~srv+1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any",
-		"openqa-common (>= 5.1782486535.1bf71ec48-1~srv+1)",
-		"openqa-client (>= 5.1782486535.1bf71ec48-1~srv+1)",
+		"openqa-common (>= 5.1782486535.1bf71ec48-2~srv+1)",
+		"openqa-client (>= 5.1782486535.1bf71ec48-2~srv+1)",
 		"sqlite3",
 		"git",
 		"optipng",
-		"dbus",
+		"default-dbus-system-bus | dbus-system-bus",
 		"liburi-perl",
 		"liblwp-protocol-https-perl",
 		"libdbix-class-perl (>= 0.082801)",
@@ -63,13 +64,13 @@
 	"breaks": [
 		"openqa (<< 5.1777452029.e890e9cc5-1~)"
 	],
-	"installedSize": 7682,
+	"installedSize": 7684,
 	"maintainer": "Philip Hands <phil@hands.com>",
 	"description": "automatic Operating System testing framework (webUI & scheduler)",
 	"homepage": "https://open.qa",
-	"filename": "pool/main/o/openqa-server/openqa-server_5.1782486535.1bf71ec48-1~srv+1_all.deb",
-	"size": 688844,
-	"md5": "2c81b2aab024d33874f756c6fc2c423f",
-	"sha256": "d7e11b758a42a2393208d7a050721138126d8ffd997332a2ee7f26ae53c08972",
+	"filename": "pool/main/o/openqa-server/openqa-server_5.1782486535.1bf71ec48-2~srv+1_all.deb",
+	"size": 689192,
+	"md5": "17e794a0edfc46295deaeafa3bc7317e",
+	"sha256": "8771d9e1e1f15fb2069b0072203c203016b1d7aa0297fea0561995d0d7a2fc2b",
 	"descriptionMd5": "477e5b9e65823286653b3e48cb390999"
 }
