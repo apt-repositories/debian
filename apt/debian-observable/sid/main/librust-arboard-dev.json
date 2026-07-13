@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-arboard-dev",
-	"source": "rust-arboard (3.6.1-1)",
-	"version": "3.6.1-1+b1",
+	"source": "rust-arboard",
+	"version": "3.6.1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,17 +14,20 @@
 		"librust-image-0.25+png-dev",
 		"librust-log-0.4+default-dev",
 		"librust-parking-lot-0.12+default-dev",
-		"librust-percent-encoding-2+default-dev (>= 2.3.1-~~)",
+		"librust-percent-encoding-2+default-dev (>= 2.3.1)",
 		"librust-wl-clipboard-rs-0.9+default-dev",
 		"librust-x11rb-0.13+default-dev"
 	],
-	"installedSize": 203,
+	"breaks": [
+		"rustc (<< 1.71.0~)"
+	],
+	"installedSize": 202,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Image and text handling for the OS clipboard - Rust source code",
 	"homepage": "https://github.com/1Password/arboard",
-	"filename": "pool/main/r/rust-arboard/librust-arboard-dev_3.6.1-1+b1_amd64.deb",
-	"size": 46336,
-	"md5": "7f48fdd1f4c69661d778570480532f4b",
-	"sha256": "f738de8c73482c193c7fded9c97b4de6a3a275160807f077d49565d8039ae470",
+	"filename": "pool/main/r/rust-arboard/librust-arboard-dev_3.6.1-2_amd64.deb",
+	"size": 46112,
+	"md5": "18be035b94ad44df60bad3d47ca3582d",
+	"sha256": "fccb2c1dc4c59adb8910b035e81b8b535fd4d563d9fd0acb7910fcc22a8174b1",
 	"descriptionMd5": "11b2d289cbd5f43a1f871162717b5ecd"
 }]

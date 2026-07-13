@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-arbitrary-dev",
-	"source": "rust-arbitrary (1.4.2-1)",
-	"version": "1.4.2-1+b1",
+	"source": "rust-arbitrary",
+	"version": "1.4.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-derive-arbitrary-1+default-dev (<< 1.5-~~)",
-		"librust-derive-arbitrary-1+default-dev (>= 1.4.0-~~)"
+		"librust-derive-arbitrary-1+default-dev (<< 1.5)",
+		"librust-derive-arbitrary-1+default-dev (>= 1.4.0)"
 	],
-	"installedSize": 230,
+	"breaks": [
+		"rustc (<< 1.63.0~)"
+	],
+	"installedSize": 229,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Trait for generating structured data from unstructured data - Rust source code",
 	"homepage": "https://github.com/rust-fuzz/arbitrary/",
-	"filename": "pool/main/r/rust-arbitrary/librust-arbitrary-dev_1.4.2-1+b1_amd64.deb",
-	"size": 41848,
-	"md5": "ecdecafa387a68373b272a6f35375438",
-	"sha256": "7cff376511e904fcff8dc052d9cbfad2403b33cbb164fe5cd3eef8f4df39b4b2",
+	"filename": "pool/main/r/rust-arbitrary/librust-arbitrary-dev_1.4.2-2_amd64.deb",
+	"size": 41604,
+	"md5": "3e4f6581397d02368a6d12927852cb74",
+	"sha256": "973ad25cee72c6cc3faed19a8a16a0350ecfdaab3c9576c75588acfc547990c7",
 	"descriptionMd5": "cb90ca7574586c0dc384e42acfd1661f"
 }

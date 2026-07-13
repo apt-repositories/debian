@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "git-changelog",
-	"version": "2.9.4-1",
+	"version": "2.9.4-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"git",
+		"debconf (>= 0.5) | debconf-2.0",
 		"python3-jinja2",
 		"python3-packaging",
 		"python3-platformdirs (>= 4.4)",
@@ -18,19 +19,13 @@
 		"python3-supported-min (>= 3.13) | python3-typing-extensions",
 		"python3:any"
 	],
-	"replaces": [
-		"git-extras"
-	],
-	"conflicts": [
-		"git-extras"
-	],
-	"installedSize": 187,
+	"installedSize": 189,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "Automatic Changelog generator using Jinja2 templates",
 	"homepage": "https://github.com/pawamoy/git-changelog",
-	"filename": "pool/main/g/git-changelog/git-changelog_2.9.4-1_all.deb",
-	"size": 40680,
-	"md5": "8b36696c8d37ac4fae2b17faca272a48",
-	"sha256": "c8b8b65e329a8984a87db9a5377308e9b6148d15ee7b25f9eefdc34e120c79a5",
+	"filename": "pool/main/g/git-changelog/git-changelog_2.9.4-2_all.deb",
+	"size": 41300,
+	"md5": "5a38bc6aa04580546d9a0115cc09f844",
+	"sha256": "da3e13a67a879eb03fee83a10358a6ea43640083f96dd74828f13c67dfe8d2ef",
 	"descriptionMd5": "7f3b597aa0c613dd6314ea65b9ea6e3f"
 }]

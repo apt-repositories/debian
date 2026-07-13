@@ -5,21 +5,48 @@
 		"Size"
 	],
 	"package": "mysql-server",
-	"source": "mysql-8.0",
-	"version": "8.0.46-1",
+	"source": "mysql-9.7",
+	"version": "9.7.1-1",
 	"section": "database",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"mysql-server-8.0"
+		"mysql-client (>= 9.7.1-1)",
+		"mysql-common (>= 5.8+1.0.4~)",
+		"mysql-server-core (= 9.7.1-1)",
+		"passwd",
+		"perl:any (>= 5.6)",
+		"psmisc",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
-	"installedSize": 31,
+	"preDepends": [
+		"debconf",
+		"mysql-common (>= 5.5)"
+	],
+	"recommends": [
+		"libhtml-template-perl",
+		"mecab-ipadic-utf"
+	],
+	"replaces": [
+		"mysql-server-8.0 (<< 8.4)"
+	],
+	"breaks": [
+		"mysql-server-8.0 (<< 8.4)"
+	],
+	"conflicts": [
+		"mariadb-common",
+		"mariadb-server",
+		"mariadb-server-10.5",
+		"virtual-mysql-server"
+	],
+	"installedSize": 1678,
 	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
-	"description": "MySQL database server (metapackage depending on the latest version)",
+	"description": "MySQL database server and system database setup",
 	"homepage": "http://dev.mysql.com/",
-	"filename": "pool/main/m/mysql-8.0/mysql-server_8.0.46-1_all.deb",
-	"size": 11448,
-	"md5": "f1269fda5158c71d41a706f8d80f67ba",
-	"sha256": "663b69c42afcfca52bc087d13e840224be0c519143685b16f0c1e973ce472eb1",
-	"descriptionMd5": "743caadb7bcc9923a15d886cf7260d23"
+	"filename": "pool/main/m/mysql-9.7/mysql-server_9.7.1-1_amd64.deb",
+	"size": 1574024,
+	"md5": "bafa2d8024c69fca04ce20c792299818",
+	"sha256": "707457eb921d291a5592cf7bf88ea51935bc69172ef950e2e678d6a5cff3a6bb",
+	"descriptionMd5": "8075d90d0db0fb75d81a94724beb1331"
 }

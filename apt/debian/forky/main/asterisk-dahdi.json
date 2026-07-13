@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "asterisk-dahdi",
+	"source": "asterisk",
+	"version": "1:22.10.0+dfsg+~cs6.17.60671434-3",
+	"section": "comm",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"asterisk (= 1:22.10.0+dfsg+~cs6.17.60671434-3)",
+		"dahdi",
+		"libc6 (>= 2.38)",
+		"libopenr2-3 (>= 1.3.2)",
+		"libpri1.4 (>= 1.4.15)",
+		"libss7-2.0 (>= 2.0.0)",
+		"libtonezone2.0 (>= 1:2.2.1.1)"
+	],
+	"replaces": [
+		"asterisk-modules (<< 1:11.6.0~dfsg-2)"
+	],
+	"breaks": [
+		"asterisk-modules (<< 1:11.6.0~dfsg-2)"
+	],
+	"installedSize": 884,
+	"maintainer": "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>",
+	"description": "DAHDI devices support for the Asterisk PBX",
+	"homepage": "https://www.asterisk.org/",
+	"filename": "pool/main/a/asterisk/asterisk-dahdi_22.10.0+dfsg+~cs6.17.60671434-3_amd64.deb",
+	"size": 334492,
+	"md5": "dfdec7496f091895f9860084e52b05e4",
+	"sha256": "2312c3f61a669711f64fffd25f7c5fb3158eabf6d6c084de3bae26a4f0eea491",
+	"descriptionMd5": "73c1e6c431561d79ef7e49d91d2f0024"
+}

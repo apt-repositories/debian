@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "ngircd",
-	"version": "27-3",
+	"version": "28-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libgnutls30t64 (>= 3.8.6)",
 		"libident0 (>= 0.32-3)",
@@ -24,13 +25,13 @@
 		"ircd-irc2",
 		"ircd-ircu"
 	],
-	"installedSize": 492,
+	"installedSize": 500,
 	"maintainer": "Christoph Biedl <debian.axhn@manchmal.in-ulm.de>",
 	"description": "lightweight Internet Relay Chat server",
 	"homepage": "https://ngircd.barton.de/",
-	"filename": "pool/main/n/ngircd/ngircd_27-3_amd64.deb",
-	"size": 240956,
-	"md5": "264d0f624f36e98d6889ce214ba1e0cd",
-	"sha256": "cd491e38e70eb212959a9eda37432bf9af498178099871dcc65551e5efff9c61",
+	"filename": "pool/main/n/ngircd/ngircd_28-1_amd64.deb",
+	"size": 243244,
+	"md5": "e25f21587f2cdb4be5c06d0a95e37108",
+	"sha256": "20298022a19ce1be89b4a35e45350760043809c7ce49771d51c11a0d69458b23",
 	"descriptionMd5": "9557bc98ae745839812f591b703c9730"
 }]

@@ -5,21 +5,33 @@
 		"Size"
 	],
 	"package": "mysql-client",
-	"source": "mysql-8.0",
-	"version": "8.0.46-1",
+	"source": "mysql-9.7",
+	"version": "9.7.1-1",
 	"section": "database",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"mysql-client-8.0"
+		"debianutils (>= 1.6)",
+		"mysql-client-core",
+		"mysql-common (>= 5.5)"
 	],
-	"installedSize": 31,
+	"replaces": [
+		"mysql-client-8.0 (<< 8.4)"
+	],
+	"breaks": [
+		"mysql-client-8.0 (<< 8.4)"
+	],
+	"conflicts": [
+		"mariadb-client",
+		"virtual-mysql-client"
+	],
+	"installedSize": 61,
 	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
-	"description": "MySQL database client (metapackage depending on the latest version)",
+	"description": "MySQL database client",
 	"homepage": "http://dev.mysql.com/",
-	"filename": "pool/main/m/mysql-8.0/mysql-client_8.0.46-1_all.deb",
-	"size": 11340,
-	"md5": "30aeb7cb3649d725e7e8ec80b7db1302",
-	"sha256": "d4a66bac35bc263fbc520854a74387006cf16b9ee69fe8006459e74884957f80",
-	"descriptionMd5": "5d7fa8d3505d811b2b9e71e639c7e1dd"
+	"filename": "pool/main/m/mysql-9.7/mysql-client_9.7.1-1_amd64.deb",
+	"size": 14836,
+	"md5": "8574f7b9c9810e798f55ad3925b9e9e0",
+	"sha256": "96b5b8ec677950b4acbb4bbe4a44b96615a74bfaa7c0a470bb857b6953b4e747",
+	"descriptionMd5": "b1cd8c7e9853bfd0973f66f22738c484"
 }

@@ -39,8 +39,54 @@
 	"maintainer": "Debian Chromium Team <chromium@packages.debian.org>",
 	"description": "web browser - common resources used by the chromium packages",
 	"homepage": "http://www.chromium.org/Home",
-	"filename": "pool/updates/main/c/chromium/chromium-common_150.0.7871.100-1~deb12u1_amd64.deb",
+	"filename": "pool/main/c/chromium/chromium-common_150.0.7871.100-1~deb12u1_amd64.deb",
 	"size": 26635660,
+	"md5": "f560d19affff8e2b8f969f6a6bba13e1",
 	"sha256": "31326f6b71ce20a52e7bea9792bf7135d4ff802e1cdbc250960b1b46729998d2",
+	"descriptionMd5": "6f8b66c61b0d01bc4c6ea3fa84a5ff38"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "chromium-common",
+	"source": "chromium",
+	"version": "150.0.7871.114-1~deb12u1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.2)",
+		"libx11-6",
+		"libxcb1",
+		"libxnvctrl0",
+		"zlib1g (>= 1:1.2.11.dfsg)",
+		"x11-utils",
+		"xdg-utils"
+	],
+	"recommends": [
+		"upower",
+		"udev",
+		"libgl1-mesa-dri",
+		"chromium-sandbox",
+		"fonts-liberation",
+		"notification-daemon",
+		"system-config-printer"
+	],
+	"replaces": [
+		"chromium (<< 150.0.7871.114-1~deb12u1)"
+	],
+	"breaks": [
+		"chromium (<< 150.0.7871.114-1~deb12u1)"
+	],
+	"installedSize": 67375,
+	"maintainer": "Debian Chromium Team <chromium@packages.debian.org>",
+	"description": "web browser - common resources used by the chromium packages",
+	"homepage": "http://www.chromium.org/Home",
+	"filename": "pool/updates/main/c/chromium/chromium-common_150.0.7871.114-1~deb12u1_amd64.deb",
+	"size": 26643736,
+	"sha256": "a4d678d026e95d3ee2048e26a211d545bb2bd369d98fc73d808d558fc340f708",
 	"descriptionMd5": "6f8b66c61b0d01bc4c6ea3fa84a5ff38"
 }]

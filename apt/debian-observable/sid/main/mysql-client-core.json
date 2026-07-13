@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mysql-client-core",
+	"source": "mysql-9.7",
+	"version": "9.7.1-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4t64 (>= 2.18.1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"mysql-client-core-8.0 (<< 8.4)"
+	],
+	"breaks": [
+		"mysql-client-core-8.0 (<< 8.4)"
+	],
+	"conflicts": [
+		"mariadb-client",
+		"mariadb-client-core",
+		"mysql-client-8.0",
+		"virtual-mysql-client-core"
+	],
+	"installedSize": 54464,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "MySQL database core client binaries",
+	"homepage": "http://dev.mysql.com/",
+	"filename": "pool/main/m/mysql-9.7/mysql-client-core_9.7.1-1_amd64.deb",
+	"size": 3649116,
+	"md5": "0c38224857349f7a82717f9a938ab581",
+	"sha256": "0d19a3e711c8a51f4cb6109e73bc71e4e0ce3ed9b0f1b4a2d659b342e5f8282f",
+	"descriptionMd5": "94a7aede8ba9259b1382d4dfca4cdde0"
+}]

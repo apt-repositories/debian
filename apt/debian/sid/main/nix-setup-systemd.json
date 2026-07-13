@@ -6,21 +6,22 @@
 	],
 	"package": "nix-setup-systemd",
 	"source": "nix",
-	"version": "2.34.6+dfsg-1",
+	"version": "2.34.8+dfsg-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"libpam-systemd",
-		"nix-bin"
+		"nix-bin",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"installedSize": 33,
 	"maintainer": "Jordan Justen <jljusten@debian.org>",
 	"description": "Purely functional package manager (systemd setup)",
 	"homepage": "https://nixos.org/nix",
-	"filename": "pool/main/n/nix/nix-setup-systemd_2.34.6+dfsg-1_all.deb",
-	"size": 7804,
-	"md5": "47776862f6ea99cfa2f0091ec1197034",
-	"sha256": "760ef832037cac0e623b23c809c44cefa5e4a42bb8e49075c488565d55836a1e",
+	"filename": "pool/main/n/nix/nix-setup-systemd_2.34.8+dfsg-1_all.deb",
+	"size": 7884,
+	"md5": "c9f0bf8d91121328a6ae2029832f3e10",
+	"sha256": "8269ca9e681844931295af94c10c76c8a79bc29f3d614624ace129370bd7d81c",
 	"descriptionMd5": "7e16e473ab26ad09dd752a2bb7a86a21"
 }

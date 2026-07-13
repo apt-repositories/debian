@@ -5,21 +5,40 @@
 		"Size"
 	],
 	"package": "mysql-testsuite",
-	"source": "mysql-8.0",
-	"version": "8.0.46-1",
+	"source": "mysql-9.7",
+	"version": "9.7.1-1",
 	"section": "database",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"mysql-testsuite-8.0"
+		"libjson-perl",
+		"lz4",
+		"mysql-client (= 9.7.1-1)",
+		"mysql-server (= 9.7.1-1)",
+		"unzip",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.2)",
+		"libgoogle-perftools4t64 (>= 2.18.1)",
+		"liblz4-1 (>= 0.0~r127)",
+		"libprotobuf32t64 (>= 3.21.12)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.11.dfsg)",
+		"perl:any"
 	],
-	"installedSize": 31,
+	"conflicts": [
+		"mariadb-test",
+		"mysql-testsuite-8.0",
+		"virtual-mysql-testsuite"
+	],
+	"installedSize": 756114,
 	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
 	"description": "MySQL regression tests",
 	"homepage": "http://dev.mysql.com/",
-	"filename": "pool/main/m/mysql-8.0/mysql-testsuite_8.0.46-1_all.deb",
-	"size": 11320,
-	"md5": "de9834aa5bf10e407f2d14f41c88a9e7",
-	"sha256": "c9a56f68ec5461432243d50408eb85aeacaa8393309e1807ad1ed7c7a12159b5",
-	"descriptionMd5": "a37f36627bd4d1ec3a167a2eae840534"
+	"filename": "pool/main/m/mysql-9.7/mysql-testsuite_9.7.1-1_amd64.deb",
+	"size": 338113676,
+	"md5": "ae21fa3701dddf42b4c2bffeb1238d94",
+	"sha256": "b792602b62367511a924566d28c0b88857a4ca2664829133b88a3eed906473d8",
+	"descriptionMd5": "182146ce5ac7c0106d3e245665a91d48"
 }]

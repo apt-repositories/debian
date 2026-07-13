@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-sequoia-man-dev",
-	"source": "rust-sequoia-man (0.3.2-1)",
-	"version": "0.3.2-1+b1",
+	"source": "rust-sequoia-man",
+	"version": "0.3.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,15 +15,18 @@
 		"librust-clap-4+default-dev",
 		"librust-clap-4+derive-dev",
 		"librust-clap-4+env-dev",
-		"librust-roff-0.2+default-dev (>= 0.2.1-~~)"
+		"librust-roff-1+default-dev"
 	],
-	"installedSize": 202,
+	"breaks": [
+		"rustc (<< 1.79~)"
+	],
+	"installedSize": 205,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Man page generation for Sequoia PGP CLIs - Rust source code",
 	"homepage": "https://sequoia-pgp.org/",
-	"filename": "pool/main/r/rust-sequoia-man/librust-sequoia-man-dev_0.3.2-1+b1_amd64.deb",
-	"size": 91028,
-	"md5": "2c182f72348f359921ae5b56961a41e2",
-	"sha256": "0526864dfc0f2e5c6215c6518abbd3841b9f71ac467e185533d75eacb2c21472",
+	"filename": "pool/main/r/rust-sequoia-man/librust-sequoia-man-dev_0.3.2-2_amd64.deb",
+	"size": 91128,
+	"md5": "d6a281c905d14db346aab0c49c43b64d",
+	"sha256": "bc1fa33ee9b8de2106ebad874a6cb13c36114e7509fe35e2dc9fe84a09717fea",
 	"descriptionMd5": "1dec294b91cc4ef3d0ba57dbe6650b2f"
 }

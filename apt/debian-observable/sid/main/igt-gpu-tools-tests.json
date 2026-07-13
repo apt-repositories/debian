@@ -5,17 +5,17 @@
 		"Size"
 	],
 	"package": "igt-gpu-tools-tests",
-	"source": "intel-gpu-tools (2.3-1)",
-	"version": "2.3-1+b1",
+	"source": "intel-gpu-tools",
+	"version": "2.5-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"intel-gpu-tools",
-		"igt-gpu-tools (>= 2.3)",
+		"igt-gpu-tools (>= 2.5)",
 		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.2.4)",
-		"libdrm-amdgpu1 (>= 2.4.110)",
+		"libdrm-amdgpu1 (>= 2.4.125)",
 		"libdrm-nouveau2 (>= 2.4.75)",
 		"libdrm2 (>= 2.4.75)",
 		"libglib2.0-0t64 (>= 2.32.0)",
@@ -23,16 +23,19 @@
 		"libudev1 (>= 183)",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"conflicts": [
-		"xserver-xorg-video-intel (<< 2.9.1)"
+	"replaces": [
+		"intel-gpu-tools (<< 2.2-1~)"
 	],
-	"installedSize": 15020,
+	"breaks": [
+		"intel-gpu-tools (<< 2.2-1~)"
+	],
+	"installedSize": 19054,
 	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
 	"description": "IGT GPU Tools (tests)",
 	"homepage": "https://gitlab.freedesktop.org/drm/igt-gpu-tools",
-	"filename": "pool/main/i/intel-gpu-tools/igt-gpu-tools-tests_2.3-1+b1_amd64.deb",
-	"size": 1899644,
-	"md5": "4d43b259f543e82e57363f66d630067c",
-	"sha256": "10142390de3bda3c4fee9e3935cab4c8c7687d89bab2e2ddbbf786dbb9fd8086",
+	"filename": "pool/main/i/intel-gpu-tools/igt-gpu-tools-tests_2.5-1_amd64.deb",
+	"size": 2055996,
+	"md5": "52303f7d8e5d52d9cf8333e8b52575c1",
+	"sha256": "667ffef5882ca3c10457245429aaf2d17f6c9d8fe64a554bb052459e2ca1afb6",
 	"descriptionMd5": "18286a6f557c29d60a36b83fc4aba34c"
 }]

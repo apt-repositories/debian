@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-clap-mangen-dev",
-	"source": "rust-clap-mangen (0.2.31-1)",
-	"version": "0.2.31-1+b1",
+	"source": "rust-clap-mangen",
+	"version": "0.3.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,15 +14,18 @@
 		"librust-clap-4+debug-dev",
 		"librust-clap-4+env-dev",
 		"librust-clap-4+std-dev",
-		"librust-roff-0.2+default-dev (>= 0.2.1-~~)"
+		"librust-roff-1+default-dev"
 	],
-	"installedSize": 70,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 68,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Manpage generator for clap - Rust source code",
 	"homepage": "https://github.com/clap-rs/clap",
-	"filename": "pool/main/r/rust-clap-mangen/librust-clap-mangen-dev_0.2.31-1+b1_amd64.deb",
-	"size": 15292,
-	"md5": "172217d3bbc142a4e9df04bb14c329d2",
-	"sha256": "7817aec1256b19e9410a6019812f4ff3945ae4fbb5caa29b2d681b5e5d1ba5c7",
+	"filename": "pool/main/r/rust-clap-mangen/librust-clap-mangen-dev_0.3.0-1_amd64.deb",
+	"size": 15124,
+	"md5": "07181f96b15199b273b64a369df07fa7",
+	"sha256": "f236ffda00f03664428bcf52a748af21add5b8f1633cf7ad7242807de60f8403",
 	"descriptionMd5": "314bf07ed298edab8fbbe03269a4b482"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-alacritty-config-dev",
 	"source": "rust-alacritty-config",
-	"version": "0.2.3-2",
+	"version": "0.2.3-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-toml+default-dev (<< 2)",
 		"librust-toml+default-dev (>= 0.8)"
 	],
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
 	"installedSize": 38,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Alacritty configuration abstractions - Rust source code",
 	"homepage": "https://alacritty.org",
-	"filename": "pool/main/r/rust-alacritty-config/librust-alacritty-config-dev_0.2.3-2_amd64.deb",
-	"size": 8920,
-	"md5": "99a2c9f1f5331a39b6f6fb29df60a408",
-	"sha256": "1f8384fd4a15943b15355b2f26544339a5d0d98410cc946ce0b95013f645d7f5",
+	"filename": "pool/main/r/rust-alacritty-config/librust-alacritty-config-dev_0.2.3-3_amd64.deb",
+	"size": 8980,
+	"md5": "d9699ea20bac946a4118933617485c4f",
+	"sha256": "dd9a06e4997640406ab563a7fbd5fdf2c34078ac3d49e0961fa497cdc35d66b5",
 	"descriptionMd5": "d38629456b4a23daf98b5da51bff3b81"
 }

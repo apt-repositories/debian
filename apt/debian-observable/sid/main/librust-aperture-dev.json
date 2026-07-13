@@ -6,7 +6,7 @@
 	],
 	"package": "librust-aperture-dev",
 	"source": "rust-aperture",
-	"version": "0.12.0-2",
+	"version": "0.12.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -24,13 +24,16 @@
 		"librust-log-0.4+default-dev",
 		"librust-rqrr-0.10-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
 	"installedSize": 160,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "GTK Widget for cameras using gstreamer and pipewire - Rust source code",
 	"homepage": "https://gitlab.gnome.org/GNOME/snapshot",
-	"filename": "pool/main/r/rust-aperture/librust-aperture-dev_0.12.0-2_amd64.deb",
-	"size": 35680,
-	"md5": "2f400b6b712aac05254f6b75e55be4d3",
-	"sha256": "394d206f6047566f673175ff15f64a66042a30a665829cc501d8d70d70b0e943",
+	"filename": "pool/main/r/rust-aperture/librust-aperture-dev_0.12.0-3_amd64.deb",
+	"size": 35736,
+	"md5": "3257dd26923fc7c646e7776bb9160abb",
+	"sha256": "4c66737efb21f47de6701f7abcd319fba34008e24e6431523a2c3b285629aeab",
 	"descriptionMd5": "79365d053471398d4a5dfb885b090854"
 }]
