@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-zeroize-dev",
-	"source": "rust-zeroize (1.8.2-1)",
-	"version": "1.8.2-1+b1",
+	"source": "rust-zeroize",
+	"version": "1.9.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-serde-1-dev",
-		"librust-zeroize-derive-1+default-dev (>= 1.3-~~)"
+		"librust-zeroize-derive-1+default-dev (>= 1.5)"
 	],
-	"installedSize": 94,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 106,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "securely clear secrets from memory - Rust source code",
-	"homepage": "https://github.com/RustCrypto/utils/tree/master/zeroize",
-	"filename": "pool/main/r/rust-zeroize/librust-zeroize-dev_1.8.2-1+b1_amd64.deb",
-	"size": 24592,
-	"md5": "bde67f3ae27352e06150676573f7e01c",
-	"sha256": "de8c0852d41969a10dd513d5df2533ed3d048a0bb90a22a4d10be3d1405245b3",
+	"homepage": "https://github.com/RustCrypto/utils",
+	"filename": "pool/main/r/rust-zeroize/librust-zeroize-dev_1.9.0-1_amd64.deb",
+	"size": 27692,
+	"md5": "9d0886aad2d95ab2b5dc9492541329ba",
+	"sha256": "6b144d66d93a8b97b59571cef4587a84861a9d337b65c6d60a05a5d77e35e40c",
 	"descriptionMd5": "253abab3cda08e4009ff1df516911174"
 }

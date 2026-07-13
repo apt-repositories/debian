@@ -1,0 +1,54 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mysql-server-core",
+	"source": "mysql-9.7",
+	"version": "9.7.1-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1t64 (>= 0.3.93)",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.68.0)",
+		"libgcc-s1 (>= 4.2)",
+		"libgoogle-perftools4t64 (>= 2.18.1)",
+		"libicu78 (>= 78.1-1~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmecab2 (>= 0.996)",
+		"libnuma1 (>= 2.0.11)",
+		"libprotobuf-lite32t64 (>= 3.21.12)",
+		"libprotobuf32t64 (>= 3.21.12)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.11.dfsg)",
+		"perl:any"
+	],
+	"replaces": [
+		"mysql-server-core-8.0 (<< 8.4)"
+	],
+	"breaks": [
+		"mysql-server-core-8.0 (<< 8.4)"
+	],
+	"conflicts": [
+		"mariadb-server",
+		"mariadb-server-10.5",
+		"mariadb-server-core",
+		"mysql-server-8.0",
+		"virtual-mysql-server-core"
+	],
+	"installedSize": 183045,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "MySQL database server binaries",
+	"homepage": "http://dev.mysql.com/",
+	"filename": "pool/main/m/mysql-9.7/mysql-server-core_9.7.1-1_amd64.deb",
+	"size": 25271052,
+	"md5": "8b090cd1df06cd552985e4a332c05cc4",
+	"sha256": "e6d4eab1fb960cc12b4f5f51e7c94449135f289ad8da604cbd281a6d814fd8cb",
+	"descriptionMd5": "a54aa75db64667c487b6c9d3800b8153"
+}]

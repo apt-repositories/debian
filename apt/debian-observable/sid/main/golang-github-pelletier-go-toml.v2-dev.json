@@ -6,17 +6,21 @@
 	],
 	"package": "golang-github-pelletier-go-toml.v2-dev",
 	"source": "golang-github-pelletier-go-toml.v2",
-	"version": "2.4.3-1",
+	"version": "2.4.3-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
+	"breaks": [
+		"golang-github-knadh-koanf-dev (<< 2.3.4-2)",
+		"golang-github-tomwright-dasel-dev (<< 3.11.2-1)"
+	],
 	"installedSize": 1686,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Go library for the TOML format (go-toml v2)",
 	"homepage": "https://github.com/pelletier/go-toml",
-	"filename": "pool/main/g/golang-github-pelletier-go-toml.v2/golang-github-pelletier-go-toml.v2-dev_2.4.3-1_all.deb",
-	"size": 932792,
-	"md5": "1cfd64c28a3dc7e3456d2362ccbb995d",
-	"sha256": "bbf8d32a28e9eba808676b017b38f01accd31ad2a8eb680c795188fb67e4e61d",
+	"filename": "pool/main/g/golang-github-pelletier-go-toml.v2/golang-github-pelletier-go-toml.v2-dev_2.4.3-2_all.deb",
+	"size": 932900,
+	"md5": "3596e7a134daff029cba287f1821bcb8",
+	"sha256": "542af5f69cb073730b3b56e484ebc5e4b6cb43a065ea3eb1875c446aafe1b59a",
 	"descriptionMd5": "04f340ea324c56d41af73c0c518a749e"
 }]

@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-arcstr-dev",
-	"source": "rust-arcstr (1.2.0-1)",
-	"version": "1.2.0-1+b1",
+	"source": "rust-arcstr",
+	"version": "1.2.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-serde-1-dev"
 	],
-	"installedSize": 140,
+	"breaks": [
+		"rustc (<< 1.57.0~)"
+	],
+	"installedSize": 139,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Better reference-counted string type, with zero-cost (allocation-free) support for string literals, and reference counted substrings - Rust source code",
 	"homepage": "https://github.com/thomcc/arcstr",
-	"filename": "pool/main/r/rust-arcstr/librust-arcstr-dev_1.2.0-1+b1_amd64.deb",
-	"size": 30144,
-	"md5": "57e51b8cc51cbf50a033c8e8dfd7738b",
-	"sha256": "834c0f5fcb867a26fb67e2b38051699b16ac3abbd1c76fe5adcd6e30ea6736b0",
+	"filename": "pool/main/r/rust-arcstr/librust-arcstr-dev_1.2.0-2_amd64.deb",
+	"size": 29936,
+	"md5": "365965285cc87863663abbfe600f88de",
+	"sha256": "1b5754592f0ce9a75715b10ca13e8bcd88a6a00ee6b145761bdd32c404e75125",
 	"descriptionMd5": "dee713df1201d26ae8d61c36f731f160"
 }]

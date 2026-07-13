@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-anstyle-lossy-dev",
-	"source": "rust-anstyle-lossy (1.1.4-1)",
-	"version": "1.1.4-1+b1",
+	"source": "rust-anstyle-lossy",
+	"version": "1.1.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-anstyle-1+default-dev"
 	],
-	"installedSize": 53,
+	"breaks": [
+		"rustc (<< 1.66.0~)"
+	],
+	"installedSize": 52,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Lossy conversion between ANSI Color Codes - Rust source code",
 	"homepage": "https://github.com/rust-cli/anstyle.git",
-	"filename": "pool/main/r/rust-anstyle-lossy/librust-anstyle-lossy-dev_1.1.4-1+b1_amd64.deb",
-	"size": 11556,
-	"md5": "340618f1900f9e99eff5fb510af2686e",
-	"sha256": "e604c38ee8bb38f46bfe7864e4a42a7debf3ee1b5943960d26079cc189284aec",
+	"filename": "pool/main/r/rust-anstyle-lossy/librust-anstyle-lossy-dev_1.1.5-1_amd64.deb",
+	"size": 11288,
+	"md5": "9cf4954c6c20e6839be2b3c7504cefdf",
+	"sha256": "972e72a52fde28212ab774912716ce930a617c9345588318d7de386bcf57ffdf",
 	"descriptionMd5": "0af8514aa260568499273f5d52c82227"
 }
