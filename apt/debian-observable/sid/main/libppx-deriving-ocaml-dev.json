@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libppx-deriving-ocaml-dev",
-	"source": "ppx-deriving (6.1.1-2)",
-	"version": "6.1.1-2+b2",
+	"source": "ppx-deriving",
+	"version": "6.1.2-1",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,19 +15,26 @@
 		"libcompiler-libs-ocaml-dev-qi4l7",
 		"libocaml-compiler-libs-ocaml-dev-zo0o8",
 		"libppx-derivers-ocaml-dev-utl66",
-		"libppx-deriving-ocaml-vdf20",
+		"libppx-deriving-ocaml-vlq29",
 		"libppxlib-ocaml-dev-jcsb1",
 		"libsexplib0-ocaml-dev-glwc7",
 		"libstdlib-ocaml-dev-1ltp0",
-		"ocaml-5.4.1"
+		"ocaml-5.4.1",
+		"libc6 (>= 2.38)"
 	],
-	"installedSize": 4798,
+	"replaces": [
+		"libppx-deriving-ocaml (<< 6.1.2)"
+	],
+	"breaks": [
+		"libppx-deriving-ocaml (<< 6.1.2)"
+	],
+	"installedSize": 22733,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "type-driven code generation for OCaml (dev files)",
 	"homepage": "https://github.com/whitequark/ppx_deriving",
-	"filename": "pool/main/p/ppx-deriving/libppx-deriving-ocaml-dev_6.1.1-2+b2_amd64.deb",
-	"size": 1008712,
-	"md5": "be3e0abff39e3cb581fe4c004bbaf52b",
-	"sha256": "13b2678204dab4902f7366a0b4da751fb6981f80d913d192bcc3fe3c62f071c0",
+	"filename": "pool/main/p/ppx-deriving/libppx-deriving-ocaml-dev_6.1.2-1_amd64.deb",
+	"size": 5010176,
+	"md5": "8d7b81cb06c4bb063cec98ca57830309",
+	"sha256": "cb6cbc647f5e87a09cc42e06b511cfe143ee3fab14be1728d58549ce99fd2c6e",
 	"descriptionMd5": "edb671db6b10ed6c0cce6f7f80f75a61"
 }]

@@ -5,14 +5,13 @@
 		"Size"
 	],
 	"package": "debgpt",
-	"version": "0.7.9",
+	"version": "0.8.0",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-bs4",
 		"python3-lz4",
-		"python3-numpy",
 		"python3-openai",
 		"python3-prompt-toolkit",
 		"python3-pygments",
@@ -23,22 +22,25 @@
 		"python3:any"
 	],
 	"recommends": [
+		"curl",
 		"git",
-		"man-db",
 		"python3-zmq",
-		"tldr"
+		"man-db",
+		"ripgrep"
 	],
 	"suggests": [
 		"python3-torch | python3-torch-cuda | python3-torch-rocm",
-		"python3-transformers"
+		"python3-transformers",
+		"lintian",
+		"sbuild"
 	],
-	"installedSize": 331,
+	"installedSize": 309,
 	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
 	"description": "General Purpose Terminal LLM Tool with Some Debian-Specific Design",
 	"homepage": "https://salsa.debian.org/deeplearning-team/debgpt",
-	"filename": "pool/main/d/debgpt/debgpt_0.7.9_all.deb",
-	"size": 78280,
-	"md5": "40feca805ee1595a62b537e661add938",
-	"sha256": "cbde9763f9c6b28f2e28eae5cea65a81c600f71c94534d5673b2eaf0869e567d",
-	"descriptionMd5": "465e956dca265ca3441c9ff95597742b"
+	"filename": "pool/main/d/debgpt/debgpt_0.8.0_all.deb",
+	"size": 69532,
+	"md5": "b8353a06f4a33fd8a83b60860d70ed96",
+	"sha256": "640ab61a5caa8f666c335fc3504dae3d72edc304b7888cb6868b1ac0fabd93da",
+	"descriptionMd5": "5f3861125ea1f582d6c1eecd83fcfbcc"
 }]

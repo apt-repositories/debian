@@ -6,12 +6,13 @@
 	],
 	"package": "libcephfs-dev",
 	"source": "ceph",
-	"version": "18.2.8+ds-2.1",
+	"version": "20.2.2+ds-12",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libcephfs2 (= 18.2.8+ds-2.1)"
+		"libcephfs-proxy2 (= 20.2.2+ds-12)",
+		"libcephfs2 (= 20.2.2+ds-12)"
 	],
 	"replaces": [
 		"libceph-dev",
@@ -23,13 +24,13 @@
 		"libceph1-dev",
 		"libcephfs2-dev"
 	],
-	"installedSize": 216,
+	"installedSize": 252,
 	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
 	"description": "Ceph distributed file system client library (development files)",
 	"homepage": "http://ceph.com",
-	"filename": "pool/main/c/ceph/libcephfs-dev_18.2.8+ds-2.1_amd64.deb",
-	"size": 46360,
-	"md5": "788bd12d5cdbf6fc6f0bffad345e3187",
-	"sha256": "44fe8359a5f588f2148804b80c8011b2245e5384dcbb03af15f41d7f594f2d74",
+	"filename": "pool/main/c/ceph/libcephfs-dev_20.2.2+ds-12_amd64.deb",
+	"size": 55924,
+	"md5": "ceaef49a47d5dae71e388d571b4a92cb",
+	"sha256": "a4e70fab856b5f15b192bac097a96b376a49e62ff2a95437c18db3e22005d0d0",
 	"descriptionMd5": "199cb94b0f0e5b28605c8e915275ab44"
 }

@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-aho-corasick-dev",
-	"source": "rust-aho-corasick (1.1.4-1)",
-	"version": "1.1.4-1+b1",
+	"source": "rust-aho-corasick",
+	"version": "1.1.4-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-log-0.4+default-dev (>= 0.4.17-~~)",
-		"librust-memchr-2+std-dev (>= 2.4.0-~~)",
-		"librust-memchr-2-dev (>= 2.4.0-~~)"
+		"librust-log-0.4+default-dev (>= 0.4.17)",
+		"librust-memchr-2+std-dev (>= 2.4.0)",
+		"librust-memchr-2-dev (>= 2.4.0)"
 	],
-	"installedSize": 866,
+	"breaks": [
+		"rustc (<< 1.60.0~)"
+	],
+	"installedSize": 865,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Fast multiple substring searching - Rust source code",
 	"homepage": "https://github.com/BurntSushi/aho-corasick",
-	"filename": "pool/main/r/rust-aho-corasick/librust-aho-corasick-dev_1.1.4-1+b1_amd64.deb",
-	"size": 142944,
-	"md5": "d754781f7f57eca372fc6ef753317607",
-	"sha256": "47e97c9536156ade83ac6a3db9ae0d3b057417349e5ce03ff7b9e1b8b45e013f",
+	"filename": "pool/main/r/rust-aho-corasick/librust-aho-corasick-dev_1.1.4-2_amd64.deb",
+	"size": 142756,
+	"md5": "fc46e47397bb9918cc7fda185b387a9b",
+	"sha256": "476ae0e9a0c9283d2c64d1f8f975797e28bfe84ece45e116f309278e61ab4ebe",
 	"descriptionMd5": "59c68fca40cc0a12e3695f408c7253a1"
 }

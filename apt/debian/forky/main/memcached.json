@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "memcached",
-	"version": "1.6.42-1",
+	"version": "1.6.45-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"adduser",
 		"perl",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any",
 		"libc6 (>= 2.38)",
 		"libevent-2.1-7t64 (>= 2.1.8-stable)",
@@ -27,13 +28,13 @@
 		"libterm-readkey-perl",
 		"libyaml-perl"
 	],
-	"installedSize": 830,
+	"installedSize": 833,
 	"maintainer": "Chris Lamb <lamby@debian.org>",
 	"description": "High-performance in-memory object caching system",
 	"homepage": "https://memcached.org/",
-	"filename": "pool/main/m/memcached/memcached_1.6.42-1_amd64.deb",
-	"size": 294036,
-	"md5": "53e804fc612ddfb519beca9834028de0",
-	"sha256": "b82e13796da633e7129c34481404dc9fbb06522cad2058b499714ab91c6b4a80",
+	"filename": "pool/main/m/memcached/memcached_1.6.45-1_amd64.deb",
+	"size": 294684,
+	"md5": "3e981760798b0f989bdfd27c6d1e885d",
+	"sha256": "00e4b02e824bf6d6e96aacd4c2f1dc447f9cfb2c75e2748d5a2ab2dfedf2dc4e",
 	"descriptionMd5": "bce5393edad27bfe3ded536243320594"
 }

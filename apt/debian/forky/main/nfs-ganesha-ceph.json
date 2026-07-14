@@ -6,16 +6,16 @@
 	],
 	"package": "nfs-ganesha-ceph",
 	"source": "nfs-ganesha",
-	"version": "9.6-1",
+	"version": "9.13-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nfs-ganesha (= 9.6-1)",
+		"nfs-ganesha (= 9.13-1)",
 		"libacl1 (>= 2.2.23)",
 		"libc6 (>= 2.38)",
-		"libcephfs2 (>= 16.2.6+ds)",
-		"librados2 (>= 18.2.8+ds)",
+		"libcephfs2 (>= 20.2.2+ds-7)",
+		"librados2 (>= 20.2.2+ds)",
 		"liburcu8t64 (>= 0.13.0)"
 	],
 	"replaces": [
@@ -24,13 +24,13 @@
 	"breaks": [
 		"nfs-ganesha (<< 4.0-1)"
 	],
-	"installedSize": 246,
+	"installedSize": 256,
 	"maintainer": "Christoph Martin <chrism@debian.org>",
 	"description": "nfs-ganesha fsal ceph libraries",
 	"homepage": "https://github.com/nfs-ganesha/nfs-ganesha",
-	"filename": "pool/main/n/nfs-ganesha/nfs-ganesha-ceph_9.6-1_amd64.deb",
-	"size": 72340,
-	"md5": "aa5f3f9e64df80e1c3f0bbb58830f119",
-	"sha256": "796f83fa921ed4b3b9637a641c52b38a31d7ea027cf9c134f60d9b403263179c",
+	"filename": "pool/main/n/nfs-ganesha/nfs-ganesha-ceph_9.13-1_amd64.deb",
+	"size": 75772,
+	"md5": "2b674f5fc221e8417b31eef71bf8f753",
+	"sha256": "cc1b66ea984621d989bb04e414d5295df1bb6d9018d1345137de829856c852f7",
 	"descriptionMd5": "9f1ff35325b2c3788b65d3d1e7537a3b"
 }
