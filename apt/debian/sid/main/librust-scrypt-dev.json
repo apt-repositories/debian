@@ -5,24 +5,36 @@
 		"Size"
 	],
 	"package": "librust-scrypt-dev",
-	"source": "rust-scrypt (0.11.0-1)",
-	"version": "0.11.0-1+b3",
+	"source": "rust-scrypt",
+	"version": "0.12.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-password-hash-0.5+rand-core-dev",
-		"librust-password-hash-0.5+std-dev",
-		"librust-pbkdf2-0.12+default-dev",
-		"librust-salsa20-0.10-dev (>= 0.10.2-~~)",
-		"librust-sha2-0.10-dev"
+		"librust-cfg-if-1+default-dev",
+		"librust-ctutils-0.4+default-dev",
+		"librust-kdf-0.1+default-dev",
+		"librust-mcf-0.6+default-dev",
+		"librust-password-hash-0.6+alloc-dev",
+		"librust-password-hash-0.6+getrandom-dev",
+		"librust-password-hash-0.6+phc-dev",
+		"librust-password-hash-0.6+rand-core-dev",
+		"librust-password-hash-0.6-dev",
+		"librust-pbkdf2-0.13+default-dev",
+		"librust-rayon-1+default-dev (>= 1.11)",
+		"librust-salsa20-0.11-dev",
+		"librust-sha2-0.11-dev"
 	],
-	"installedSize": 64,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 97,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Scrypt password-based key derivation function - Rust source code",
-	"filename": "pool/main/r/rust-scrypt/librust-scrypt-dev_0.11.0-1+b3_amd64.deb",
-	"size": 16500,
-	"md5": "c4e0ddbb324858c9a6099c91a965819c",
-	"sha256": "ec484ca9b724681bd22751bb5901ed5558549bc2a2e27b0d0edc24587aabc3ff",
-	"descriptionMd5": "80768bcc59d0ec7421b562e34a61688e"
+	"homepage": "https://github.com/RustCrypto/password-hashes/tree/master/scrypt",
+	"filename": "pool/main/r/rust-scrypt/librust-scrypt-dev_0.12.0-1_amd64.deb",
+	"size": 23200,
+	"md5": "d682bba1dbc71971440908000870ce18",
+	"sha256": "3795b328660c0abf00945a82eae78e90cc76f6c5e24cbb7b9811275776c83eae",
+	"descriptionMd5": "a8c12b4fd707c105be869cbe9e4c2ba9"
 }

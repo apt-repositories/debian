@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmusic1t64",
+	"source": "music",
+	"version": "1.2.1-0.8",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libopenmpi40 (>= 5.0.10)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"replaces": [
+		"libmusic1",
+		"libmusic1v5"
+	],
+	"breaks": [
+		"libmusic1",
+		"libmusic1v5 (<< 1.2.1-0.8)"
+	],
+	"installedSize": 927,
+	"maintainer": "Mikael Djurfeldt <mdj@debian.org>",
+	"description": "Multi-Simulation Coordinator for MPI -- Runtime library",
+	"homepage": "https://github.com/INCF/MUSIC",
+	"filename": "pool/main/m/music/libmusic1t64_1.2.1-0.8_amd64.deb",
+	"size": 242524,
+	"md5": "5e5dc91d8314dd533810e87df7f372eb",
+	"sha256": "815110a3949195739f6311aabca0d5a18718f53c4cb89d6155d271a47d073fa0",
+	"descriptionMd5": "c929caad0761ce3cedba865a3aa1b814"
+}]

@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "librust-rangemap-dev",
-	"source": "rust-rangemap (1.5.1-1)",
-	"version": "1.5.1-1+b1",
+	"source": "rust-rangemap",
+	"version": "1.7.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-quickcheck-1+default-dev (>= 1.0.3)",
 		"librust-serde-1+default-dev"
 	],
-	"installedSize": 273,
+	"breaks": [
+		"rustc (<< 1.81.0~)"
+	],
+	"installedSize": 283,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Map and set data structures whose keys are stored as ranges - Rust source code",
 	"homepage": "https://github.com/jeffparsons/rangemap",
-	"filename": "pool/main/r/rust-rangemap/librust-rangemap-dev_1.5.1-1+b1_amd64.deb",
-	"size": 36596,
-	"md5": "56ed41305731675845690b324f07e69c",
-	"sha256": "8a407d2047293fd2cae72c0fc304abbc37d17bc4050798aa4469b58569db6d2b",
+	"filename": "pool/main/r/rust-rangemap/librust-rangemap-dev_1.7.1-1_amd64.deb",
+	"size": 37832,
+	"md5": "356ec93ea8fe7667b17266a6c504d449",
+	"sha256": "c80d26f7e0d73d14c8f4d33d049a7c122ec0d248717a6cd7797759fcdc92d177",
 	"descriptionMd5": "8678d6630c8ec006baa9a1fe218822ec"
 }]

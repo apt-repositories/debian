@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mesa-va-drivers",
+	"source": "mesa",
+	"version": "20.3.5-1+deb11u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.29)",
+		"libdrm-amdgpu1 (>= 2.4.100)",
+		"libdrm-nouveau2 (>= 2.4.66)",
+		"libdrm-radeon1 (>= 2.4.31)",
+		"libdrm2 (>= 2.4.75)",
+		"libelf1 (>= 0.142)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc-s1 (>= 3.4)",
+		"libllvm11 (>= 1:9~svn298832-1~)",
+		"libstdc++6 (>= 5.2)",
+		"libx11-xcb1 (>= 2:1.7.2)",
+		"libxcb-dri2-0 (>= 1.8)",
+		"libxcb-dri3-0",
+		"libxcb-present0",
+		"libxcb-sync1",
+		"libxcb-xfixes0",
+		"libxcb1 (>= 1.9.2)",
+		"libxshmfence1",
+		"libzstd1 (>= 1.4.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"vdpau-va-driver (<< 0.7.4-5)"
+	],
+	"enhances": [
+		"libva2"
+	],
+	"breaks": [
+		"vdpau-va-driver (<< 0.7.4-5)"
+	],
+	"installedSize": 9420,
+	"maintainer": "Debian X Strike Force <debian-x@lists.debian.org>",
+	"description": "Mesa VA-API video acceleration drivers",
+	"homepage": "https://mesa3d.org/",
+	"filename": "pool/updates/main/m/mesa/mesa-va-drivers_20.3.5-1+deb11u1_amd64.deb",
+	"size": 2623128,
+	"sha256": "307bb1b533044b30db23f9199e45ad07bdc2aaafc699b9eb5aa2f1fbf126b7a0",
+	"descriptionMd5": "c89bbf6e4f80a47acafd5858be814f3c"
+}

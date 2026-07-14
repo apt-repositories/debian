@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-lru-dev",
-	"source": "rust-lru (0.12.3-2)",
-	"version": "0.12.3-2+b1",
+	"source": "rust-lru",
+	"version": "0.16.4-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-hashbrown-0.14+default-dev"
+		"librust-hashbrown-0.16+default-dev"
 	],
-	"installedSize": 115,
+	"breaks": [
+		"rustc (<< 1.70.0~)"
+	],
+	"installedSize": 142,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "LRU cache implementation - Rust source code",
 	"homepage": "https://github.com/jeromefroe/lru-rs",
-	"filename": "pool/main/r/rust-lru/librust-lru-dev_0.12.3-2+b1_amd64.deb",
-	"size": 18520,
-	"md5": "af532a5f9f3207b38b889fa048d986dc",
-	"sha256": "1a5bc8598c705c986ecf269dd779d4dd916cce99c4094287f480903c8a3f6a2e",
+	"filename": "pool/main/r/rust-lru/librust-lru-dev_0.16.4-2_amd64.deb",
+	"size": 20836,
+	"md5": "846ac08ceabd67fb09be114791c0c692",
+	"sha256": "bb99f7753836cfad7205ef32786019c73e0596021c6a1e91c752552833e56af9",
 	"descriptionMd5": "aed69a52477c16fbf84bca89dce80abb"
 }]

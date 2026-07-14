@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "kgb-bot",
-	"version": "1.62-3",
+	"version": "1.62-4",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any",
-		"adduser",
 		"git",
-		"kgb-client (= 1.62-3)",
+		"kgb-client (= 1.62-4)",
 		"libipc-run-perl",
 		"libjson-xs-perl",
 		"liblist-moreutils-perl",
@@ -32,13 +33,13 @@
 		"libfile-which-perl",
 		"polygen"
 	],
-	"installedSize": 161,
+	"installedSize": 165,
 	"maintainer": "Debian KGB Maintainers <kgb-bot@packages.debian.org>",
 	"description": "IRC collaboration bot",
 	"homepage": "https://salsa.debian.org/kgb-team/kgb/wikis/home",
-	"filename": "pool/main/k/kgb-bot/kgb-bot_1.62-3_all.deb",
-	"size": 50632,
-	"md5": "99ddd21b3f7ee6834b0b80423c487faa",
-	"sha256": "30158c87b069c0d5fd3da817afbf7246620c4433f3627b115c986a02478fe55e",
+	"filename": "pool/main/k/kgb-bot/kgb-bot_1.62-4_all.deb",
+	"size": 50860,
+	"md5": "7068a7a3b4fa07b441f5b31f4c70bf4a",
+	"sha256": "a59f2f9e08afff9a85f153900c5d420290726a011890fbe68eab7301f0a60e8f",
 	"descriptionMd5": "241894f016c3ee07fd70908bf034b115"
 }
