@@ -6,26 +6,29 @@
 	],
 	"package": "librust-rand-dev",
 	"source": "rust-rand",
-	"version": "0.10.1+dfsg-1",
+	"version": "0.10.2+dfsg-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-chacha20-0.10+rng-dev",
 		"librust-getrandom-0.4+default-dev",
+		"librust-getrandom-0.4+std-dev",
 		"librust-getrandom-0.4+sys-rng-dev",
-		"librust-rand-chacha-0.10+std-dev",
-		"librust-rand-chacha-0.10-dev",
 		"librust-rand-core-0.10-dev",
 		"librust-serde-1+default-dev (>= 1.0.103)",
 		"librust-serde-1+derive-dev (>= 1.0.103)"
 	],
-	"installedSize": 478,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 471,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Randomness functionality, number generators - Rust source code",
 	"homepage": "https://rust-random.github.io/book",
-	"filename": "pool/main/r/rust-rand/librust-rand-dev_0.10.1+dfsg-1_amd64.deb",
-	"size": 103392,
-	"md5": "87d5801dfa35e93137b8a4d58d44fcff",
-	"sha256": "96b4dd8844f45f715f852bc3fb332ecc90de4a66ae0a6895b8877674c642c80a",
+	"filename": "pool/main/r/rust-rand/librust-rand-dev_0.10.2+dfsg-1_amd64.deb",
+	"size": 103152,
+	"md5": "876d754131305d6b94b35929949284c4",
+	"sha256": "4462f80fb3d264fbd11b2d6621ae734c88c9fb53c34b39ffa0f9846d17dea38e",
 	"descriptionMd5": "a06ae9fa2b8eb77f58a745414fc1c16a"
 }

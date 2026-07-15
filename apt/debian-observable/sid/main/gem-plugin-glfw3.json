@@ -6,25 +6,31 @@
 	],
 	"package": "gem-plugin-glfw3",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
-		"libglfw3 (>= 3.2)",
+		"libglfw3 (>= 3.4)",
 		"libstdc++6 (>= 5.2)"
 	],
-	"installedSize": 210,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 569,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Graphics Environment for Multimedia - GLFW3 support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-glfw3_0.94-10_amd64.deb",
-	"size": 124516,
-	"md5": "1b5566628c05d21f1c97b42310b37904",
-	"sha256": "e5f47dfe741f04ecdec0f18c069b69f13b0d56123eb1e5dfa43e894c0fedb743",
-	"descriptionMd5": "296e5a75f026e50e77378a73af441788"
+	"filename": "pool/main/g/gem/gem-plugin-glfw3_0.95.0-1_amd64.deb",
+	"size": 445988,
+	"md5": "a5fc4bbb066f701f2953817187cac9fb",
+	"sha256": "35d6ae73a4be101ec417c359fdcdb531e1a4b3a68053f8226289655f98039986",
+	"descriptionMd5": "913e0a3b6be4421a55cdc481d1469c85"
 }]

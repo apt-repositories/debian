@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libsail-ocaml-dev",
-	"source": "sail-ocaml (0.19.1+dfsg5-1)",
-	"version": "0.19.1+dfsg5-1+b12",
+	"source": "sail-ocaml",
+	"version": "0.20.2+dfsg-1",
 	"section": "ocaml",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,7 +15,7 @@
 		"libdune-ocaml-dev-y3lm8",
 		"liblem-ocaml-dev-1sir5",
 		"liblinksem-ocaml-dev-p5ka9",
-		"libmenhir-ocaml-dev-bzns5",
+		"libmenhir-ocaml-dev-6vua6",
 		"libomd-ocaml-dev-ellh8",
 		"libpprint-ocaml-dev-1ihl4",
 		"libstdlib-ocaml-dev-1ltp0",
@@ -26,13 +26,19 @@
 	"suggests": [
 		"ocaml-findlib"
 	],
-	"installedSize": 133154,
+	"replaces": [
+		"sail-ocaml (<< 0.20.2)"
+	],
+	"breaks": [
+		"sail-ocaml (<< 0.20.2)"
+	],
+	"installedSize": 150024,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "language describes the instruction semantics of processors",
 	"homepage": "https://github.com/rems-project/sail",
-	"filename": "pool/main/s/sail-ocaml/libsail-ocaml-dev_0.19.1+dfsg5-1+b12_amd64.deb",
-	"size": 29101644,
-	"md5": "6268a857c8f3f96a8b9a80642b3962fd",
-	"sha256": "370918d46aac57b9a4de91769c526aaccad32de4d68f318a7c0145d723aed942",
+	"filename": "pool/main/s/sail-ocaml/libsail-ocaml-dev_0.20.2+dfsg-1_amd64.deb",
+	"size": 32065200,
+	"md5": "ef0bf4552ae55b685581af79e51940c4",
+	"sha256": "e31007d0ac71c15dca8f501c1252f28b5e6df7b40e7441b8f39214e8cee86ffb",
 	"descriptionMd5": "deb338e54271bce71615ac6e7424cac5"
 }

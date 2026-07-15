@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-cbc-dev",
-	"source": "rust-cbc (0.1.2-1)",
-	"version": "0.1.2-1+b3",
+	"source": "rust-cbc",
+	"version": "0.2.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cipher-0.4+alloc-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+block-padding-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+default-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+std-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+zeroize-dev (>= 0.4.2-~~)"
+		"librust-cipher-0.5+alloc-dev (>= 0.5.2)",
+		"librust-cipher-0.5+block-padding-dev (>= 0.5.2)",
+		"librust-cipher-0.5+default-dev (>= 0.5.2)",
+		"librust-cipher-0.5+zeroize-dev (>= 0.5.2)"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 73,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Cipher Block Chaining (CBC) block cipher mode of operation - Rust source code",
-	"filename": "pool/main/r/rust-cbc/librust-cbc-dev_0.1.2-1+b3_amd64.deb",
-	"size": 24924,
-	"md5": "bad1dec3c99ea1af15978ef399a4d494",
-	"sha256": "a35b2104fc8b7c3884ccf3c45e6e5946bc3b85c760828730e85cd40ae35ff341",
-	"descriptionMd5": "cf49c4e950de5c2eddb276b425254451"
+	"homepage": "https://github.com/RustCrypto/block-modes",
+	"filename": "pool/main/r/rust-cbc/librust-cbc-dev_0.2.1-1_amd64.deb",
+	"size": 25712,
+	"md5": "649ac25c922ede162f7ad08d47eaff5e",
+	"sha256": "05b832fde7e412cec174599c72005e5d8e60d69fe165569efe263ef5117b4009",
+	"descriptionMd5": "b22aca7c056b48efcfcd7869c47e35d7"
 }

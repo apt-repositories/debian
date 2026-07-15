@@ -6,25 +6,31 @@
 	],
 	"package": "gem-plugin-sdl",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
-		"libsdl1.2debian (>= 1.2.15)",
+		"libsdl2-2.0-0 (>= 2.0.12)",
 		"libstdc++6 (>= 5.2)"
 	],
-	"installedSize": 222,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 578,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
-	"description": "Graphics Environment for Multimedia - SDL support",
+	"description": "Graphics Environment for Multimedia - SDL2 support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-sdl_0.94-10_amd64.deb",
-	"size": 125192,
-	"md5": "e0cb1c984930422a31f0bc1fc6559a28",
-	"sha256": "2476a38e4b3248cd5290f121630b87454a4017ce0550a6a5dee126e8637cefb3",
-	"descriptionMd5": "410ac0e175eb69ebb8c893046a2a7382"
+	"filename": "pool/main/g/gem/gem-plugin-sdl_0.95.0-1_amd64.deb",
+	"size": 455264,
+	"md5": "4f77bfa6e76ab343eaa048bcbdd9f683",
+	"sha256": "8e1e242ffd325514ac27bed166711e073988648ec196d172b4c7bd305431323f",
+	"descriptionMd5": "7b47860405135a238791b81c02146f35"
 }]

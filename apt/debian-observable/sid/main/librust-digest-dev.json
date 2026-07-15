@@ -6,7 +6,7 @@
 	],
 	"package": "librust-digest-dev",
 	"source": "rust-digest",
-	"version": "0.11.3-3",
+	"version": "0.11.3-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,20 +14,23 @@
 		"librust-blobby-0.4+default-dev",
 		"librust-block-buffer-0.12+default-dev",
 		"librust-block-buffer-0.12+zeroize-dev",
-		"librust-const-oid-0.9+default-dev",
+		"librust-const-oid-0.10+default-dev",
 		"librust-crypto-common-0.2+default-dev",
 		"librust-crypto-common-0.2+getrandom-dev",
 		"librust-crypto-common-0.2+rand-core-dev",
 		"librust-ctutils-0.4+default-dev",
 		"librust-zeroize-1-dev (>= 1.7)"
 	],
-	"installedSize": 161,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 157,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Traits for cryptographic hash functions and MACs - Rust source code",
 	"homepage": "https://github.com/RustCrypto/traits",
-	"filename": "pool/main/r/rust-digest/librust-digest-dev_0.11.3-3_amd64.deb",
-	"size": 27984,
-	"md5": "8bf87041d92240e180aa1416eba996b3",
-	"sha256": "fb56be094d2e29e834eb0d927e9b5459603f7e12218f21da224306c60347da30",
+	"filename": "pool/main/r/rust-digest/librust-digest-dev_0.11.3-4_amd64.deb",
+	"size": 27884,
+	"md5": "d03c06e016baeb877141e4db89fe49b9",
+	"sha256": "9ce3f05c2834db3d777b27ab574ae93bcb9c47b9f8449f3bcc77e120fba916b7",
 	"descriptionMd5": "50187dfbcfa251ea99bb084f73a24f7c"
 }]

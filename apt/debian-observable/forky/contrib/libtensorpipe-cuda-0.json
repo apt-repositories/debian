@@ -1,0 +1,34 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libtensorpipe-cuda-0",
+	"source": "tensorpipe-cuda",
+	"version": "0.0~git20220513.bb1473a-6",
+	"section": "contrib/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 12)",
+		"libuv1t64 (>= 1.18.0)"
+	],
+	"replaces": [
+		"libtensorpipe0"
+	],
+	"conflicts": [
+		"libtensorpipe0"
+	],
+	"installedSize": 4224,
+	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
+	"description": "tensor-aware point-to-point communication primitive for machine learning",
+	"homepage": "https://github.com/pytorch/tensorpipe",
+	"filename": "pool/contrib/t/tensorpipe-cuda/libtensorpipe-cuda-0_0.0~git20220513.bb1473a-6_amd64.deb",
+	"size": 898884,
+	"md5": "e7f9903605092ce574fe531404ea6b31",
+	"sha256": "a7b285b1d3dd27b233d518c4204738957c016b65e4dea45a1f2681e052df6d6d",
+	"descriptionMd5": "b49a93726d4da68e6161824dc04f12b3"
+}]

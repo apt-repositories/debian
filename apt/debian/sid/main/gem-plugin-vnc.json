@@ -6,25 +6,31 @@
 	],
 	"package": "gem-plugin-vnc",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 13.1)",
 		"libvncclient1 (>= 0.9.10)"
 	],
-	"installedSize": 174,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 499,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Graphics Environment for Multimedia - VNC support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-vnc_0.94-10_amd64.deb",
-	"size": 125272,
-	"md5": "cd3ae132e7c4e4915b047ebba187539f",
-	"sha256": "723689aaa9c2ab37851c42b84e5501849f50adc3ebeb04f0bec3346c866a1b55",
-	"descriptionMd5": "4716f77b68ca2ab345c877a4603c759a"
+	"filename": "pool/main/g/gem/gem-plugin-vnc_0.95.0-1_amd64.deb",
+	"size": 442204,
+	"md5": "4c8a4a8edd02496ad313a3605138e666",
+	"sha256": "3541c220d75d2e294b9bc4ffe8d5e7cce8f864f304f7021b8221b17c4f4d1074",
+	"descriptionMd5": "ae67296fdda2a146e4e542e2387ce0a7"
 }

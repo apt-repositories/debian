@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-asn1-dev",
-	"source": "rust-asn1 (0.23.0-2)",
-	"version": "0.23.0-2+b1",
+	"source": "rust-asn1",
+	"version": "0.24.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-asn1-derive-0.23+default-dev",
-		"librust-itoa-1+default-dev (>= 1.0.11-~~)"
+		"librust-asn1-derive-0.24+default-dev (>= 0.24.1)",
+		"librust-itoa-1+default-dev (>= 1.0.11)"
 	],
-	"installedSize": 285,
+	"breaks": [
+		"rustc (<< 1.83.0~)"
+	],
+	"installedSize": 303,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "ASN.1 (DER) parser and writer for Rust - Rust source code",
 	"homepage": "https://github.com/alex/rust-asn1",
-	"filename": "pool/main/r/rust-asn1/librust-asn1-dev_0.23.0-2+b1_amd64.deb",
-	"size": 40264,
-	"md5": "b452a858aaf201af58f34dece385365f",
-	"sha256": "9a77ab2c05044a9e41b1d2d69280b9da903bb78dce29b092f4319318ff598b4f",
+	"filename": "pool/main/r/rust-asn1/librust-asn1-dev_0.24.1-1_amd64.deb",
+	"size": 42456,
+	"md5": "316df094a7819d6185b47c1f5b7b104b",
+	"sha256": "072fd8c623cbb1cd5b024c195e3592d0116c4c2a6b864cc20aab1a4a9e53ee03",
 	"descriptionMd5": "c10eaec3648d955835baa1b8c8fd2779"
 }]
