@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "mpg123",
-	"version": "1.33.6-1",
+	"version": "1.33.6-2",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -26,13 +26,16 @@
 		"oss-compat",
 		"pulseaudio"
 	],
-	"installedSize": 557,
+	"breaks": [
+		"mpg321 (<< 0.3.2-6~)"
+	],
+	"installedSize": 555,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "MPEG layer 1/2/3 audio player",
 	"homepage": "http://mpg123.org/",
-	"filename": "pool/main/m/mpg123/mpg123_1.33.6-1_amd64.deb",
-	"size": 206944,
-	"md5": "75856ed2f5223c76872e1cf129afb1d4",
-	"sha256": "581dc0d0116daa01b5dfc6fc5080bfded57786faca531c803d61ab181ce58db2",
+	"filename": "pool/main/m/mpg123/mpg123_1.33.6-2_amd64.deb",
+	"size": 205972,
+	"md5": "db47c9dbf4a5017372074b51446c1e88",
+	"sha256": "650c40cc40d8e4e671f7a5239b45cc0a4ff9d327cfbbf988757adaacf001b845",
 	"descriptionMd5": "5ebabad0916ebd65863379ea1316b415"
 }]

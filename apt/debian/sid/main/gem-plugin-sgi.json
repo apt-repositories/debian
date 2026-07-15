@@ -6,24 +6,30 @@
 	],
 	"package": "gem-plugin-sgi",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 194,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 520,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Graphics Environment for Multimedia - SGI support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-sgi_0.94-10_amd64.deb",
-	"size": 134816,
-	"md5": "33f51105fe078dbdfe1378bd00fc270f",
-	"sha256": "c9a3f0d2fb46d53dcca0a52fce2c7c4d49b6491cc6f72d4be38c2dac3857570c",
+	"filename": "pool/main/g/gem/gem-plugin-sgi_0.95.0-1_amd64.deb",
+	"size": 452648,
+	"md5": "5c1bc38892f3cef8859b798928bdeeef",
+	"sha256": "4003c2ef1840ca48e4c3fa246aed763fb6ae836cd8dfb39b201709eeb7d61dbf",
 	"descriptionMd5": "3e254b814bb5b05693a2f799ce2a40f9"
 }

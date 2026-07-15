@@ -6,26 +6,31 @@
 	],
 	"package": "gem-plugin-assimp",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
-		"libassimp6 (>= 6.0.4+ds)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
+		"libassimp6 (>= 6.0.5+ds)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
-		"libgl1",
 		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 182,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 507,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Graphics Environment for Multimedia - Assimp support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-assimp_0.94-10_amd64.deb",
-	"size": 129244,
-	"md5": "0f2e1a8c1b81c498b17faff070f67cd5",
-	"sha256": "be6e203a59d215e46189328fa679be189bb87cf8717cf2f380ddf307c16edbe4",
+	"filename": "pool/main/g/gem/gem-plugin-assimp_0.95.0-1_amd64.deb",
+	"size": 447040,
+	"md5": "c2c658816303aac60cfacead3f7e9b14",
+	"sha256": "5d052cd2a4e9159443cf8a79f90368ce5e0fd7271a47bcba0e3ce25194fde2e2",
 	"descriptionMd5": "2cb4bbe47baa9de2d99c93a0076d2364"
 }]

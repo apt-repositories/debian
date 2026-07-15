@@ -6,23 +6,22 @@
 	],
 	"package": "ovmf",
 	"source": "edk2",
-	"version": "2025.02-9",
+	"version": "2025.11-5",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "all",
-	"suggests": [
-		"qemu-system-x86"
+	"depends": [
+		"ovmf-amdsev",
+		"ovmf-generic",
+		"ovmf-inteltdx"
 	],
-	"replaces": [
-		"qemu-system-common (<< 1.7.0+dfsg-3ubuntu4)"
-	],
-	"installedSize": 20540,
+	"installedSize": 34,
 	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
 	"description": "UEFI firmware for 64-bit x86 virtual machines",
 	"homepage": "http://www.tianocore.org",
-	"filename": "pool/main/e/edk2/ovmf_2025.02-9_all.deb",
-	"size": 6426820,
-	"md5": "fbc431e45e3dab8234fbc2677fc2c18d",
-	"sha256": "6780371e8b840630348d6eb5895990e03cfb03e41cd548664b6ea6a85362711f",
-	"descriptionMd5": "f5518b7d256400637ca9512a6cfc4bac"
+	"filename": "pool/main/e/edk2/ovmf_2025.11-5_all.deb",
+	"size": 15012,
+	"md5": "6c45f556eb3bcdd57fc8f7ca8da669fa",
+	"sha256": "deab93155b9e145dda7af91cb11f7f94d435bfa696b3f99cbcacc9c629f418c4",
+	"descriptionMd5": "1a5a3dec295818b90e229fde8381e1f8"
 }]

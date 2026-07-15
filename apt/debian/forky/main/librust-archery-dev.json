@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-archery-dev",
-	"source": "rust-archery (1.2.2-1)",
-	"version": "1.2.2-1+b1",
+	"source": "rust-archery",
+	"version": "1.2.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1-dev (>= 1.0.219-~~)",
-		"librust-triomphe-0.1-dev (>= 0.1.14-~~)"
+		"librust-serde-1-dev (>= 1.0.219)",
+		"librust-triomphe-0.1-dev (>= 0.1.14)"
 	],
-	"installedSize": 96,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 95,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Abstract over the atomicity of reference-counting pointers - Rust source code",
 	"homepage": "https://github.com/orium/archery",
-	"filename": "pool/main/r/rust-archery/librust-archery-dev_1.2.2-1+b1_amd64.deb",
-	"size": 13724,
-	"md5": "6a62111d64545fa6b5e56eb6878e1727",
-	"sha256": "ee4703e4982c9698c86d6c4012fb0182e92a265e2611600791500ec20ab5b234",
+	"filename": "pool/main/r/rust-archery/librust-archery-dev_1.2.2-2_amd64.deb",
+	"size": 13480,
+	"md5": "4733bdeb288dddfce3ef20962019fbc3",
+	"sha256": "0939bfd06cac86ca770ad1cde5b691fc8cd9c5dee97f0efe92eabf5c5b6b5712",
 	"descriptionMd5": "6de4db88ebfb73060aa2d85f847e6d7a"
 }

@@ -6,17 +6,20 @@
 	],
 	"package": "librust-arcu-dev",
 	"source": "rust-arcu",
-	"version": "0.1.2-1",
+	"version": "0.1.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
+	"breaks": [
+		"rustc (<< 1.76.0~)"
+	],
 	"installedSize": 60,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "An RCU implementation for Rust. - Rust source code",
 	"homepage": "https://github.com/Skgland/Arcu",
-	"filename": "pool/main/r/rust-arcu/librust-arcu-dev_0.1.2-1_amd64.deb",
-	"size": 11644,
-	"md5": "8e5bd9aa251e8cb318937e0f38a3d754",
-	"sha256": "4ba2789cead13a407bcd20c3ef9f9ea29cf3ae5d4f77a17d7465b4c85146c268",
+	"filename": "pool/main/r/rust-arcu/librust-arcu-dev_0.1.2-2_amd64.deb",
+	"size": 11748,
+	"md5": "08f242249948915e749a13434c3dda02",
+	"sha256": "fa51dfc639bfb6e0ab76bfa97285aab007d6cd7acba400efa447630805081fad",
 	"descriptionMd5": "52151d975266602a58f82a0c49f0bd44"
 }]
