@@ -6,25 +6,31 @@
 	],
 	"package": "lomiri-history-service-tools",
 	"source": "lomiri-history-service",
-	"version": "0.7-1",
+	"version": "0.7-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"lomiri-history-service (= 0.7-1)",
+		"lomiri-history-service (= 0.7-2)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
 		"liblomirihistoryservice0 (>= 0.7)",
 		"libqt5core5t64 (>= 5.15.1)",
 		"libstdc++6 (>= 5.2)"
 	],
-	"installedSize": 98,
+	"replaces": [
+		"history-service-tools (<< 0.5)"
+	],
+	"breaks": [
+		"history-service-tools (<< 0.5)"
+	],
+	"installedSize": 97,
 	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
 	"description": "History service to store messages and calls - tools",
-	"homepage": "https://gitlab.com/ubports/development/core/lomiri-history-service/",
-	"filename": "pool/main/l/lomiri-history-service/lomiri-history-service-tools_0.7-1_amd64.deb",
-	"size": 47696,
-	"md5": "60c247c75a56a6135e63b3473c139164",
-	"sha256": "139e38872f34cf31d871488ab474461b58ea37944d62085e157664e473c04dd8",
+	"homepage": "https://gitlab.com/ubports/development/core/lomiri-history-service",
+	"filename": "pool/main/l/lomiri-history-service/lomiri-history-service-tools_0.7-2_amd64.deb",
+	"size": 47764,
+	"md5": "f6d22779032df43a7c77f60aaeea8393",
+	"sha256": "5927075a370ffb7789bc5438cc797cc346501720f8a3caa98bfd3592d3599596",
 	"descriptionMd5": "240a0a3608f4d86037718370d591301b"
 }]

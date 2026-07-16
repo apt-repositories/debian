@@ -6,25 +6,26 @@
 	],
 	"package": "python3-openssl",
 	"source": "pyopenssl",
-	"version": "26.2.0-1",
+	"version": "26.3.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-cryptography (<< 49)",
-		"python3-cryptography (>= 46.0.0)",
+		"python3-cryptography (<< 50)",
+		"python3-cryptography (>= 49.0.0)",
+		"python3-supported-min (>= 3.13) | python3-typing-extensions",
 		"python3:any"
 	],
 	"suggests": [
 		"python-openssl-doc"
 	],
-	"installedSize": 239,
+	"installedSize": 237,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python 3 wrapper around the OpenSSL library",
 	"homepage": "https://pyopenssl.org/",
-	"filename": "pool/main/p/pyopenssl/python3-openssl_26.2.0-1_all.deb",
-	"size": 51776,
-	"md5": "5bde36efab3aea9d8a06bf9c69ac9518",
-	"sha256": "d8a3f9ec446dd6ce978407ca90e2ae3ffeef895d0e1103e0d25277916b9af448",
+	"filename": "pool/main/p/pyopenssl/python3-openssl_26.3.0-1_all.deb",
+	"size": 52360,
+	"md5": "a2bba42250c05a5f94d391c2609fc192",
+	"sha256": "680c0d3fcbac67dafad0137ee57eb2215dcf586a77ec7d0ea6e8de2165665ef0",
 	"descriptionMd5": "33d5a6e2a11db9c1aae065dadf6058db"
 }]

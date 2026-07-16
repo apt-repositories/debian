@@ -6,7 +6,7 @@
 	],
 	"package": "libselinux1",
 	"source": "libselinux",
-	"version": "3.10-1",
+	"version": "3.11-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"libc6 (>= 2.38)",
 		"libpcre2-8-0 (>= 10.22)"
 	],
-	"installedSize": 225,
+	"recommends": [
+		"selinux-utils"
+	],
+	"installedSize": 232,
 	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
 	"description": "SELinux runtime shared libraries",
-	"homepage": "https://github.com/SELinuxProject",
-	"filename": "pool/main/libs/libselinux/libselinux1_3.10-1_amd64.deb",
-	"size": 85424,
-	"md5": "a562c846fff3b8755f6d0fdaa3363c63",
-	"sha256": "f2fbf6f89deaea225ad73be261461be91fae16ee27917a1ac2b9144ec998683d",
+	"homepage": "https://selinuxproject.github.io/",
+	"filename": "pool/main/libs/libselinux/libselinux1_3.11-2_amd64.deb",
+	"size": 87288,
+	"md5": "8007dc38c208d2e29ffb69fcc49c4598",
+	"sha256": "07f9cadfafdebd4487b323eed5dcc7ba65bf1f639df1fcf7225869839edad539",
 	"descriptionMd5": "90f6e1cb06c527bc3fc11ec6f969c59c"
 }
