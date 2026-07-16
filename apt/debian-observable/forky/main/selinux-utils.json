@@ -6,23 +6,24 @@
 	],
 	"package": "selinux-utils",
 	"source": "libselinux",
-	"version": "3.10-1",
+	"version": "3.11-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libpcre2-8-0 (>= 10.22)",
 		"libselinux1 (>= 3.5)",
-		"libsepol2 (>= 3.10)"
+		"libsepol2 (>= 3.11)"
 	],
-	"installedSize": 547,
+	"installedSize": 553,
 	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
 	"description": "SELinux utility programs",
-	"homepage": "https://github.com/SELinuxProject",
-	"filename": "pool/main/libs/libselinux/selinux-utils_3.10-1_amd64.deb",
-	"size": 73072,
-	"md5": "9152995b023d227c92b440910c68b3b3",
-	"sha256": "436faac9624a6369206922a54bc674d88bb616d25c469f7d5a10dfcc1fc168d1",
+	"homepage": "https://selinuxproject.github.io/",
+	"filename": "pool/main/libs/libselinux/selinux-utils_3.11-2_amd64.deb",
+	"size": 73832,
+	"md5": "fd1a95c601edc81cc07a1e1f2358a2de",
+	"sha256": "fd12c90da8cdf5181e1db4c318825bb49749a9465f679f8d377c12d5e62e2837",
 	"descriptionMd5": "0dfe4ba09954ecdcb854ff898167f98b"
 }]

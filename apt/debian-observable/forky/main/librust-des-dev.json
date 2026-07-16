@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "librust-des-dev",
-	"source": "rust-des (0.8.1-1)",
-	"version": "0.8.1-1+b2",
+	"source": "rust-des",
+	"version": "0.9.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cipher-0.4+default-dev",
-		"librust-cipher-0.4+zeroize-dev"
+		"librust-cipher-0.5+default-dev",
+		"librust-cipher-0.5+zeroize-dev"
 	],
-	"installedSize": 123,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 129,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "DES and Triple DES (3DES, TDES) block ciphers implementation - Rust source code",
-	"filename": "pool/main/r/rust-des/librust-des-dev_0.8.1-1+b2_amd64.deb",
-	"size": 36352,
-	"md5": "210fa2306b84bcc1f8b2a80a00838cac",
-	"sha256": "4116c4e9887c60bcc43f24fd3f841b5f0f3fc1ea2946547b08aca534aae05095",
-	"descriptionMd5": "3a0e3ecaf9ec0b6cdb557af25b8ec340"
+	"homepage": "https://github.com/RustCrypto/block-ciphers",
+	"filename": "pool/main/r/rust-des/librust-des-dev_0.9.0-1_amd64.deb",
+	"size": 34800,
+	"md5": "2861a7df1727720c0b12f10bf15649bb",
+	"sha256": "8a7dae838de4693be164938dfe52b196e68fcbef6d38848f4dc05997bef1f063",
+	"descriptionMd5": "3d74a64ea5fdc78b22a517edb5df1a22"
 }]

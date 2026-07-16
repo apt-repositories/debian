@@ -6,7 +6,7 @@
 	],
 	"package": "python3-bornagain",
 	"source": "bornagain",
-	"version": "23.0-7",
+	"version": "24.1+ds3-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,23 +18,29 @@
 		"libbz2-1.0",
 		"libc6 (>= 2.38)",
 		"libcerf3 (>= 3.1)",
-		"libfftw3-double3 (>= 3.3.10)",
-		"libformfactor0.3.0 (>= 0.3.1)",
+		"libfftw3-double3 (>= 3.3.11)",
+		"libformfactor0.4.0 (>= 0.4.0)",
 		"libgcc-s1 (>= 4.0)",
 		"libgsl28 (>= 2.8+dfsg)",
-		"libpython3.13 (>= 3.13.0~rc3)",
+		"libpython3.14 (>= 3.14.1)",
 		"libstdc++6 (>= 13.1)",
 		"libtiff6 (>= 4.0.3)",
 		"libtiffxx6 (>= 4.0)",
 		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 13153,
+	"replaces": [
+		"bornagain"
+	],
+	"conflicts": [
+		"bornagain"
+	],
+	"installedSize": 8466,
 	"maintainer": "Debian PaN Maintainers <debian-pan-maintainers@alioth-lists.debian.net>",
 	"description": "Simulate and fit X-ray and neutron GISAS -- Python3",
 	"homepage": "https://bornagainproject.org/",
-	"filename": "pool/main/b/bornagain/python3-bornagain_23.0-7_amd64.deb",
-	"size": 2573768,
-	"md5": "c49fffa1e616ab69fc0786f23869cbd9",
-	"sha256": "2a7102d950fca890d48a2ff317a15e344594e7989dc008cdf98613bdf26e11e9",
+	"filename": "pool/main/b/bornagain/python3-bornagain_24.1+ds3-1_amd64.deb",
+	"size": 1543268,
+	"md5": "ff44123e876fa985c86bd521aedd0d37",
+	"sha256": "6e02df669355aa54b531fd36c8184ed48a10272c50ebebaafff998c7617c141b",
 	"descriptionMd5": "26124151b54d7a57d391ae2e277866ce"
 }

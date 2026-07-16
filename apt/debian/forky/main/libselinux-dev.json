@@ -6,25 +6,28 @@
 	],
 	"package": "libselinux-dev",
 	"source": "libselinux",
-	"version": "3.10-1",
+	"version": "3.11-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libselinux1 (= 3.10-1)",
-		"libsepol-dev (>= 3.10)",
+		"libselinux1 (= 3.11-2)",
+		"libsepol-dev (>= 3.11)",
 		"libpcre2-dev"
+	],
+	"replaces": [
+		"libselinux1-dev"
 	],
 	"conflicts": [
 		"libselinux1-dev"
 	],
-	"installedSize": 767,
+	"installedSize": 774,
 	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
 	"description": "SELinux development headers",
-	"homepage": "https://github.com/SELinuxProject",
-	"filename": "pool/main/libs/libselinux/libselinux-dev_3.10-1_amd64.deb",
-	"size": 170304,
-	"md5": "f3e6c4a338b5faef8e4bb5f73e92bec7",
-	"sha256": "76ca9e7dca80ae92384fc9d77a2a05419cd627a3b88668e3db2a7b63593416a4",
+	"homepage": "https://selinuxproject.github.io/",
+	"filename": "pool/main/libs/libselinux/libselinux-dev_3.11-2_amd64.deb",
+	"size": 172588,
+	"md5": "25cd8942d2f55dc9b697bcfa93bb1901",
+	"sha256": "36ee6db8b7ccad09f69d0981469e3d79045933d74feeeebe9b67bb42fe32cde3",
 	"descriptionMd5": "ca6eeba78d95ecb95827216f2b16ab42"
 }

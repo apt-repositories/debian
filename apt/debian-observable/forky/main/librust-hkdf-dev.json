@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-hkdf-dev",
-	"source": "rust-hkdf (0.12.4-1)",
-	"version": "0.12.4-1+b1",
+	"source": "rust-hkdf",
+	"version": "0.13.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-hmac-0.12+default-dev (>= 0.12.1-~~)",
-		"librust-hmac-0.12+std-dev (>= 0.12.1-~~)"
+		"librust-hmac-0.13+default-dev",
+		"librust-kdf-0.1+default-dev"
 	],
-	"installedSize": 234,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 227,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "HMAC-based Extract-and-Expand Key Derivation Function (HKDF) - Rust source code",
 	"homepage": "https://github.com/RustCrypto/KDFs/",
-	"filename": "pool/main/r/rust-hkdf/librust-hkdf-dev_0.12.4-1+b1_amd64.deb",
-	"size": 165452,
-	"md5": "7982524452a3728b9d7e59fb77475e7a",
-	"sha256": "06db671c0ded36349592d23d26e35e1edaf998c39105902e5f4c4f2324f25e53",
+	"filename": "pool/main/r/rust-hkdf/librust-hkdf-dev_0.13.0-1_amd64.deb",
+	"size": 164948,
+	"md5": "3b30dba21f910dd00a9f2f39c0126dcc",
+	"sha256": "4473590bd881750692742212236ab4b9ea878edb69b53bdda922aba97aca41e1",
 	"descriptionMd5": "aef5a1ba091b19e0939cec924f6012f4"
 }]

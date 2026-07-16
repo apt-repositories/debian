@@ -6,14 +6,15 @@
 	],
 	"package": "openqa-worker",
 	"source": "openqa",
-	"version": "5.1777452029.e890e9cc5-3",
+	"version": "5.1782486535.1bf71ec48-8",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any",
-		"openqa-client (>= 5.1777452029.e890e9cc5-3)",
+		"openqa-client (>= 5.1782486535.1bf71ec48-8)",
 		"os-autoinst (>= 4.6.1631608584)",
 		"libsql-splitstatement-perl",
 		"libmojo-ioloop-readwriteprocess-perl",
@@ -22,19 +23,19 @@
 		"libfile-map-perl"
 	],
 	"preDepends": [
-		"openqa-common (>= 5.1777452029.e890e9cc5-3)"
+		"openqa-common (>= 5.1782486535.1bf71ec48-8)"
 	],
 	"recommends": [
 		"qemu-system-native",
 		"libminion-backend-sqlite-perl"
 	],
-	"installedSize": 250,
+	"installedSize": 252,
 	"maintainer": "Philip Hands <phil@hands.com>",
 	"description": "automatic Operating System testing framework (worker)",
 	"homepage": "https://open.qa",
-	"filename": "pool/main/o/openqa/openqa-worker_5.1777452029.e890e9cc5-3_all.deb",
-	"size": 50896,
-	"md5": "635547bd2caa30ccd1e688a35d1ff101",
-	"sha256": "db9324b83e35994ab441961921a7e042a0083d820eb950cf0298da006fca58d9",
+	"filename": "pool/main/o/openqa/openqa-worker_5.1782486535.1bf71ec48-8_all.deb",
+	"size": 52152,
+	"md5": "f9767682a1290e5f2229c9162872cfa9",
+	"sha256": "7c419c7db56b7b519b99c6453b32a6cd44858e00808e474c58856e119abe6d7d",
 	"descriptionMd5": "07676b829e1de30e9f36a262b2579cea"
 }

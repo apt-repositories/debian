@@ -6,7 +6,7 @@
 	],
 	"package": "quassel-core",
 	"source": "quassel",
-	"version": "1:0.14.0-4",
+	"version": "1:0.14.0-5",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,12 +20,10 @@
 		"libqt5sql5t64 (>= 5.6.0~beta)",
 		"libstdc++6 (>= 14)",
 		"zlib1g (>= 1:1.1.4)",
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libqt5sql5-sqlite",
 		"openssl"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
 	],
 	"recommends": [
 		"ca-certificates"
@@ -33,13 +31,13 @@
 	"suggests": [
 		"libqt5sql5-psql"
 	],
-	"installedSize": 2895,
+	"installedSize": 2899,
 	"maintainer": "Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>",
 	"description": "distributed IRC client - core component",
 	"homepage": "https://www.quassel-irc.org/",
-	"filename": "pool/main/q/quassel/quassel-core_0.14.0-4_amd64.deb",
-	"size": 850940,
-	"md5": "0ea00a5bbcf90980721c4e6d2d9c161c",
-	"sha256": "024bc0d6849d3812fb00eca9565b3babb77946cd846eebeef0ec432c5421444d",
+	"filename": "pool/main/q/quassel/quassel-core_0.14.0-5_amd64.deb",
+	"size": 851180,
+	"md5": "a6ec7c79198da1aff07b47f73ce461de",
+	"sha256": "d13f013e2711a8bf5c606f867617961f66dba6cc84a58f982f0a55ab49673b53",
 	"descriptionMd5": "dc445da5529f886d5b9c5e6220e2cdd2"
 }

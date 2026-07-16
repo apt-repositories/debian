@@ -5,30 +5,45 @@
 		"Size"
 	],
 	"package": "courier-authlib",
-	"version": "0.72.6-4",
+	"version": "0.73.1-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
+		"expect",
+		"libcourier-authlib0 (= 0.73.1-1)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"perl:any",
 		"libc6 (>= 2.38)",
 		"libcrypt1 (>= 1:4.1.0)",
-		"libgcc-s1 (>= 3.0)",
 		"libgdbm6t64 (>= 1.16)",
 		"libltdl7 (>= 2.5.4)",
-		"libpam0g (>= 0.99.7.1)",
 		"libstdc++6 (>= 13.1)"
 	],
-	"recommends": [
-		"expect"
+	"replaces": [
+		"courier-authlib-ldap (<< 0.72.7.20260502-1)",
+		"courier-authlib-mysql (<< 0.72.7.20260502-1)",
+		"courier-authlib-pipe (<< 0.72.7.20260502-1)",
+		"courier-authlib-postgresql (<< 0.72.7.20260502-1)",
+		"courier-authlib-sqlite (<< 0.72.7.20260502-1)",
+		"courier-authlib-userdb (<< 0.72.7.20260502-1)"
 	],
-	"installedSize": 374,
+	"breaks": [
+		"courier-authlib-ldap (<< 0.72.7.20260502-1)",
+		"courier-authlib-mysql (<< 0.72.7.20260502-1)",
+		"courier-authlib-pipe (<< 0.72.7.20260502-1)",
+		"courier-authlib-postgresql (<< 0.72.7.20260502-1)",
+		"courier-authlib-sqlite (<< 0.72.7.20260502-1)",
+		"courier-authlib-userdb (<< 0.72.7.20260502-1)"
+	],
+	"installedSize": 306,
 	"maintainer": "Soren Stoutner <soren@debian.org>",
-	"description": "Courier authentication library",
+	"description": "Courier authentication library (main package)",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier-authlib/courier-authlib_0.72.6-4_amd64.deb",
-	"size": 96480,
-	"md5": "1fa5645b4a56344e029ed6d9cb9cca6d",
-	"sha256": "f8044268b028b062cef89c78ac3c9b329698bb82c32ab52d5f6bb5528899cd7f",
-	"descriptionMd5": "df47cce316c565912b13c565476e8761"
+	"filename": "pool/main/c/courier-authlib/courier-authlib_0.73.1-1_amd64.deb",
+	"size": 84528,
+	"md5": "d67154a2f4687771c880041cea962cb0",
+	"sha256": "4776bc16d6ea719fc3befeceddadc4a77c14c76dff736dd016b2a512eb19d602",
+	"descriptionMd5": "f1a21d95b98ff4d8b97a337be50cb448"
 }
