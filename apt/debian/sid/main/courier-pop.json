@@ -5,20 +5,22 @@
 		"Size"
 	],
 	"package": "courier-pop",
-	"source": "courier (1.5.1-4)",
-	"version": "1.5.1-4+b1",
+	"source": "courier",
+	"version": "2.0.3-2",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"courier-base (= 1.5.1-4+b1)",
+		"courier-base (= 2.0.3-2)",
 		"debconf",
 		"default-mta | mail-transport-agent",
 		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
-		"courier-authlib (>= 0.71)",
 		"libc6 (>= 2.38)",
-		"libcourier-unicode12 (>= 2.4.0)",
-		"libidn2-0 (>= 2.0.0)"
+		"libcourier-authlib0 (>= 0.72.7.20260502)",
+		"libcourier-unicode12 (>= 2.6.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libidn2-0 (>= 2.0.0)",
+		"libstdc++6 (>= 12)"
 	],
 	"suggests": [
 		"courier-doc",
@@ -34,13 +36,13 @@
 	"conflicts": [
 		"pop3-server"
 	],
-	"installedSize": 298,
+	"installedSize": 409,
 	"maintainer": "Soren Stoutner <soren@debian.org>",
 	"description": "Courier mail server - POP3 server",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier/courier-pop_1.5.1-4+b1_amd64.deb",
-	"size": 140816,
-	"md5": "25671e80a602bdfe53f38056e78aa20e",
-	"sha256": "5a7162f7c11c44378fb2b90cedb32466f87ba19a51d5ba16404ffd6589e999c5",
+	"filename": "pool/main/c/courier/courier-pop_2.0.3-2_amd64.deb",
+	"size": 184472,
+	"md5": "d9602eb7ac4229f52a85f10abcfb55e1",
+	"sha256": "97ef073905aa1677231c9c9010b72a4108a65cbe07f8f94f714a98bcb7034a81",
 	"descriptionMd5": "a8b84e169b8f5b02c011aa053a2beaf5"
 }

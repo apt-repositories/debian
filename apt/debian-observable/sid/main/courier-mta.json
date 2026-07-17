@@ -5,27 +5,27 @@
 		"Size"
 	],
 	"package": "courier-mta",
-	"source": "courier (1.5.1-4)",
-	"version": "1.5.1-4+b1",
+	"source": "courier",
+	"version": "2.0.3-2",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"courier-base (= 1.5.1-4+b1)",
+		"courier-base (= 2.0.3-2)",
 		"debconf",
 		"libnet-cidr-perl",
 		"wget",
 		"debconf (>= 0.5) | debconf-2.0",
 		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
-		"courier-authlib (>= 0.71)",
+		"perl:any",
 		"libc6 (>= 2.38)",
-		"libcourier-unicode12 (>= 2.5.0.20260502)",
+		"libcourier-authlib0 (>= 0.72.7.20260502)",
+		"libcourier-unicode12 (>= 2.6.0)",
 		"libgcc-s1 (>= 3.0)",
 		"libgdbm6t64 (>= 1.16)",
 		"libidn2-0 (>= 2.0.0)",
 		"libperl5.40 (>= 5.40.0)",
-		"libstdc++6 (>= 13.1)",
-		"perl:any"
+		"libstdc++6 (>= 13.1)"
 	],
 	"suggests": [
 		"courier-doc",
@@ -60,13 +60,13 @@
 	"conflicts": [
 		"mail-transport-agent"
 	],
-	"installedSize": 2657,
+	"installedSize": 3653,
 	"maintainer": "Soren Stoutner <soren@debian.org>",
 	"description": "Courier mail server - ESMTP daemon",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier/courier-mta_1.5.1-4+b1_amd64.deb",
-	"size": 670868,
-	"md5": "45d84cbea0f83f5e5cee9df0dd684bec",
-	"sha256": "f147bcdbba5563fe89bb5fc1afa2a2b5bcf267cdbf387bc0ca02b1badbd6d74b",
+	"filename": "pool/main/c/courier/courier-mta_2.0.3-2_amd64.deb",
+	"size": 803492,
+	"md5": "f1ba9e6188ec1d91b5596f4292a9a434",
+	"sha256": "2ec4de2b8efb9871deb704ffffde92ab38e36b9b15653cd347e590c46374934c",
 	"descriptionMd5": "448d7a4fa6c3b36e74afb32ceaf3608c"
 }]
