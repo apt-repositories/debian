@@ -6,13 +6,15 @@
 	],
 	"package": "libtss2-rc0t64",
 	"source": "tpm2-tss",
-	"version": "4.1.3-6",
+	"version": "4.1.3-7",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"tpm-udev (>= 4.1.3-6)",
 		"libc6 (>= 2.4)"
+	],
+	"recommends": [
+		"tpm-udev (>= 4.1.3-7)"
 	],
 	"replaces": [
 		"libtss2-esys0 (<< 3.0.1-2)",
@@ -20,15 +22,15 @@
 	],
 	"breaks": [
 		"libtss2-esys0 (<< 3.0.1-2)",
-		"libtss2-rc0 (<< 4.1.3-6)"
+		"libtss2-rc0 (<< 4.1.3-7)"
 	],
 	"installedSize": 76,
 	"maintainer": "Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>",
 	"description": "TPM2 Software stack library - TSS and TCTI libraries",
 	"homepage": "https://github.com/tpm2-software/tpm2-tss",
-	"filename": "pool/main/t/tpm2-tss/libtss2-rc0t64_4.1.3-6_amd64.deb",
-	"size": 31004,
-	"md5": "0b5e97464f845db87186cf463ed5e5b7",
-	"sha256": "d1b8b5c1e3ace0614fbb73c26fa18c594cf0b403a233bc6067726d40f9a2db84",
+	"filename": "pool/main/t/tpm2-tss/libtss2-rc0t64_4.1.3-7_amd64.deb",
+	"size": 31076,
+	"md5": "a5745789febfa8247d1bf5cbf0908805",
+	"sha256": "b40e0a4876df1668c4fade9e55fe4c5cf5d796e09d27f0ca2b2a3129c13f2ba2",
 	"descriptionMd5": "653789d9c430daaa03e054a0abdba432"
 }]
