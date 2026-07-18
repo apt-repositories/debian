@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-wayland-protocols-dev",
-	"source": "rust-wayland-protocols (0.32.6-1)",
-	"version": "0.32.6-1+b1",
+	"source": "rust-wayland-protocols",
+	"version": "0.32.13-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bitflags-2+default-dev",
-		"librust-wayland-backend-0.3+default-dev (>= 0.3.8-~~)",
-		"librust-wayland-client-0.31+default-dev (>= 0.31.8-~~)",
-		"librust-wayland-scanner-0.31+default-dev (>= 0.31.6-~~)",
-		"librust-wayland-server-0.31+default-dev (>= 0.31.7-~~)"
+		"librust-wayland-backend-0.3+default-dev (>= 0.3.15)",
+		"librust-wayland-client-0.31+default-dev (>= 0.31.14)",
+		"librust-wayland-scanner-0.31+default-dev (>= 0.31.10)",
+		"librust-wayland-server-0.31+default-dev (>= 0.31.13)"
 	],
-	"installedSize": 1008,
+	"breaks": [
+		"rustc (<< 1.86~)"
+	],
+	"installedSize": 877,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generated API for the officials wayland protocol extensions - Rust source code",
 	"homepage": "https://github.com/smithay/wayland-rs",
-	"filename": "pool/main/r/rust-wayland-protocols/librust-wayland-protocols-dev_0.32.6-1+b1_amd64.deb",
-	"size": 123188,
-	"md5": "560d4e7e2dfe7bc619db48f197585092",
-	"sha256": "73abc6f74f93057bb21d8877441e4c67a8f5f0aa7fead66e26afc86e4b2b13ae",
+	"filename": "pool/main/r/rust-wayland-protocols/librust-wayland-protocols-dev_0.32.13-1_amd64.deb",
+	"size": 120716,
+	"md5": "3d4221743dd7869ff1d384ba7f1f0c5a",
+	"sha256": "34858a5faeeea5220deb9544ac4c1dfd8a3c95219a79398017f3b8d4b827ecdf",
 	"descriptionMd5": "bb12096d784051c15b1ac6a1505ccea9"
 }]

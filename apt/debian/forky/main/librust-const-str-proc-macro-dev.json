@@ -5,27 +5,30 @@
 		"Size"
 	],
 	"package": "librust-const-str-proc-macro-dev",
-	"source": "rust-const-str-proc-macro (0.7.0-2)",
-	"version": "0.7.0-2+b1",
+	"source": "rust-const-str-proc-macro",
+	"version": "1.1.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-heck+default-dev (<< 0.6-~~)",
-		"librust-heck+default-dev (>= 0.4-~~)",
-		"librust-http-1+default-dev",
-		"librust-proc-macro2-1+default-dev (>= 1.0.47-~~)",
-		"librust-quote-1+default-dev (>= 1.0.21-~~)",
-		"librust-regex-1+default-dev (>= 1.7.0-~~)",
-		"librust-syn-2+default-dev (>= 2.0.2-~~)"
+		"librust-heck+default-dev (<< 0.6)",
+		"librust-heck+default-dev (>= 0.4)",
+		"librust-http-1+default-dev (>= 1.4.0)",
+		"librust-proc-macro2-1+default-dev (>= 1.0.47)",
+		"librust-quote-1+default-dev (>= 1.0.21)",
+		"librust-regex-1+default-dev (>= 1.12.2)",
+		"librust-syn-2+default-dev (>= 2.0.2)"
 	],
-	"installedSize": 46,
+	"breaks": [
+		"rustc (<< 1.77.0~)"
+	],
+	"installedSize": 45,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Compile-time string operations - Rust source code",
 	"homepage": "https://github.com/Nugine/const-str",
-	"filename": "pool/main/r/rust-const-str-proc-macro/librust-const-str-proc-macro-dev_0.7.0-2+b1_amd64.deb",
-	"size": 8456,
-	"md5": "3136f970bc1d79e9e579ed1bd7a89555",
-	"sha256": "8ad0c4885b0f8057e2ca72b17b357996d3e06e61f13470f2570c63fc8118c52a",
+	"filename": "pool/main/r/rust-const-str-proc-macro/librust-const-str-proc-macro-dev_1.1.0-1_amd64.deb",
+	"size": 8236,
+	"md5": "88177133f36d9604dc9ed614107b04c9",
+	"sha256": "d3ab23fed39297b8dfd456842d6193716870eff9be1abbaf7754a9e7ead154ea",
 	"descriptionMd5": "77230e37d64cfa92b687fdf59869f61e"
 }

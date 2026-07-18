@@ -5,28 +5,33 @@
 		"Size"
 	],
 	"package": "librust-wayland-client-dev",
-	"source": "rust-wayland-client (0.31.11-2)",
-	"version": "0.31.11-2+b1",
+	"source": "rust-wayland-client",
+	"version": "0.31.14-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bitflags-2+default-dev",
 		"librust-log-0.4+default-dev",
-		"librust-rustix+default-dev (<< 2.0-~~)",
-		"librust-rustix+default-dev (>= 0.38.37-~~)",
-		"librust-rustix+event-dev (<< 2.0-~~)",
-		"librust-rustix+event-dev (>= 0.38.37-~~)",
-		"librust-wayland-backend-0.3+default-dev (>= 0.3.11-~~)",
-		"librust-wayland-scanner-0.31+default-dev (>= 0.31.7-~~)"
+		"librust-rustix+default-dev (<< 2.0)",
+		"librust-rustix+default-dev (>= 0.38.37)",
+		"librust-rustix+event-dev (<< 2.0)",
+		"librust-rustix+event-dev (>= 0.38.37)",
+		"librust-wayland-backend-0.3+client-system-dev (>= 0.3.15)",
+		"librust-wayland-backend-0.3+default-dev (>= 0.3.15)",
+		"librust-wayland-backend-0.3+libwayland-client-1-23-dev (>= 0.3.15)",
+		"librust-wayland-scanner-0.31+default-dev (>= 0.31.10)"
 	],
-	"installedSize": 277,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 292,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Bindings to the standard C implementation of the wayland protocol, client side - Rust source code",
 	"homepage": "https://github.com/smithay/wayland-rs",
-	"filename": "pool/main/r/rust-wayland-client/librust-wayland-client-dev_0.31.11-2+b1_amd64.deb",
-	"size": 58660,
-	"md5": "e41add9b761ca2ff90814d75fa8dec74",
-	"sha256": "c163d1ee7187c4d5fecbb912f3c3f994627dd74fba917f043282dc0ea4a02cdc",
+	"filename": "pool/main/r/rust-wayland-client/librust-wayland-client-dev_0.31.14-1_amd64.deb",
+	"size": 60028,
+	"md5": "70cf773b59df715ac47e8c9595a28b38",
+	"sha256": "60ed46f7c061f921acad3a35e66116977b2c8e31a81bc4a6da5143f7197e154e",
 	"descriptionMd5": "7c47d00082832a44df6f900e3ef8d6a6"
 }

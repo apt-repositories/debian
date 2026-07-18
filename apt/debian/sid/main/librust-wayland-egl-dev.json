@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-wayland-egl-dev",
-	"source": "rust-wayland-egl (0.32.8-1)",
-	"version": "0.32.8-1+b1",
+	"source": "rust-wayland-egl",
+	"version": "0.32.11-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-wayland-backend-0.3+client-system-dev (>= 0.3.11-~~)",
-		"librust-wayland-backend-0.3+default-dev (>= 0.3.11-~~)",
-		"librust-wayland-sys-0.31+default-dev (>= 0.31.7-~~)",
-		"librust-wayland-sys-0.31+egl-dev (>= 0.31.7-~~)"
+		"librust-wayland-backend-0.3+client-system-dev (>= 0.3.15)",
+		"librust-wayland-backend-0.3+default-dev (>= 0.3.15)",
+		"librust-wayland-sys-0.31+default-dev (>= 0.31.11)",
+		"librust-wayland-sys-0.31+egl-dev (>= 0.31.11)"
 	],
-	"installedSize": 29,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 28,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Bindings to libwayland-egl - Rust source code",
 	"homepage": "https://github.com/smithay/wayland-rs",
-	"filename": "pool/main/r/rust-wayland-egl/librust-wayland-egl-dev_0.32.8-1+b1_amd64.deb",
-	"size": 6820,
-	"md5": "d3adc40b57e91b5eeed8fa4642b462d9",
-	"sha256": "437a5c5b37bb213c846cbb7eec3fbe28d8cf4517ce77100bd4cd8e24ab828364",
+	"filename": "pool/main/r/rust-wayland-egl/librust-wayland-egl-dev_0.32.11-1_amd64.deb",
+	"size": 6596,
+	"md5": "b48da8e68a5eee28523f5fa2948a0233",
+	"sha256": "5ab64d3e91800acb5c4076f664d9d98a601836d74bb860a39fe0f7a041c6f3a5",
 	"descriptionMd5": "5cb4ccf2b418efc99719e1724869bdeb"
 }

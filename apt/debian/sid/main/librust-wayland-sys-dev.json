@@ -5,27 +5,30 @@
 		"Size"
 	],
 	"package": "librust-wayland-sys-dev",
-	"source": "rust-wayland-sys (0.31.7-1)",
-	"version": "0.31.7-1+b1",
+	"source": "rust-wayland-sys",
+	"version": "0.31.11-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-dlib-0.5+default-dev (>= 0.5.1-~~)",
+		"librust-dlib-0.5+default-dev (>= 0.5.3)",
 		"librust-libc-0.2+default-dev",
 		"librust-log-0.4+default-dev",
-		"librust-memoffset-0+default-dev (>= 0.8-~~)",
+		"librust-memoffset-0+default-dev (>= 0.8)",
 		"librust-once-cell-1+default-dev",
-		"librust-pkg-config-0.3+default-dev (>= 0.3.7-~~)",
+		"librust-pkg-config-0.3+default-dev (>= 0.3.7)",
 		"libwayland-dev"
 	],
-	"installedSize": 63,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 62,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to the various libwayland-*.so libraries - Rust source code",
 	"homepage": "https://github.com/smithay/wayland-rs",
-	"filename": "pool/main/r/rust-wayland-sys/librust-wayland-sys-dev_0.31.7-1+b1_amd64.deb",
-	"size": 12132,
-	"md5": "315fe5c43eaeb32dc07de60ee49a3b8b",
-	"sha256": "32831d2ef9768189e0a4e50174353081ca4d77cf5724b13df4f90b3220b25fdd",
+	"filename": "pool/main/r/rust-wayland-sys/librust-wayland-sys-dev_0.31.11-1_amd64.deb",
+	"size": 12260,
+	"md5": "1a1a0170ac8fb6caff1b947ace237a3e",
+	"sha256": "797289e4e58ed270c5e5c2df77472e87e004f42baef50c28d19daec5fa839944",
 	"descriptionMd5": "55c86f51898a9d250bb72de3f3767a5b"
 }

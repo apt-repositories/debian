@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-leb128fmt-dev",
-	"source": "rust-leb128fmt (0.1.0-1)",
-	"version": "0.1.0-1+b1",
+	"source": "rust-leb128fmt",
+	"version": "0.1.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 92,
+	"breaks": [
+		"rustc (<< 1.56.0~)"
+	],
+	"installedSize": 91,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Encode and decode LEB128 compressed integers - Rust source code",
 	"homepage": "https://github.com/bluk/leb128fmt",
-	"filename": "pool/main/r/rust-leb128fmt/librust-leb128fmt-dev_0.1.0-1+b1_amd64.deb",
-	"size": 15560,
-	"md5": "75c214ba9d19b4805424b32befa52549",
-	"sha256": "b964edf5190475aa56b764c8cf8efd045a8152ed652ac3b8cf28f5500205ef99",
+	"filename": "pool/main/r/rust-leb128fmt/librust-leb128fmt-dev_0.1.0-2_amd64.deb",
+	"size": 15368,
+	"md5": "f219018083763432a624876f1c6a4555",
+	"sha256": "7ad7c127e207a10ecee2a4fc5a01a1fdd1bc822a5b6233e0fb3b99b1278efe01",
 	"descriptionMd5": "2c49d337ab710d38b7227ff09ab915e9"
 }

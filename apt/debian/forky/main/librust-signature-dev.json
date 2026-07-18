@@ -6,24 +6,24 @@
 	],
 	"package": "librust-signature-dev",
 	"source": "rust-signature",
-	"version": "2.2.0+ds-5",
+	"version": "3.0.0-1",
 	"section": "rust",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"librust-digest-0.10-dev",
-		"librust-proc-macro2-1+default-dev",
-		"librust-quote-1+default-dev",
-		"librust-rand-core-0.6-dev",
-		"librust-syn-1+default-dev"
+		"librust-digest-0.11-dev",
+		"librust-rand-core-0.10-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 80,
-	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
-	"description": "traits for cryptographic signature algorithms - Rust source code",
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Traits for cryptographic signature algorithms - Rust source code",
 	"homepage": "https://github.com/RustCrypto/traits",
-	"filename": "pool/main/r/rust-signature/librust-signature-dev_2.2.0+ds-5_all.deb",
-	"size": 16776,
-	"md5": "d162407e54fce92bf2dc703a17538969",
-	"sha256": "cad0529b978d0bb109c526fd712756c9c513771014306e0535bf02f8cad4dd35",
-	"descriptionMd5": "d03f1e17e92b753241525cbf0040fcfc"
+	"filename": "pool/main/r/rust-signature/librust-signature-dev_3.0.0-1_amd64.deb",
+	"size": 19444,
+	"md5": "bd53b04b227353165a75d715f51e740d",
+	"sha256": "56620c7959ed3ee48e6a774be7255bcf4e64a31056ac6d7e038adb9ef92581dd",
+	"descriptionMd5": "34dd7473879eb5c106c25468a2b66601"
 }

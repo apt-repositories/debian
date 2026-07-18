@@ -5,20 +5,20 @@
 		"Size"
 	],
 	"package": "otpclient",
-	"version": "4.4.1-1",
+	"version": "5.1.4+git20260710.4093c2a-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"dconf-gsettings-backend | gsettings-backend",
+		"libadwaita-1-0 (>= 1.6~beta)",
 		"libc6 (>= 2.34)",
-		"libcairo2 (>= 1.2.4)",
-		"libcotp4 (>= 3.0.0)",
+		"libcotp4 (>= 2.0.0)",
 		"libgcrypt20 (>= 1.12.0)",
-		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libgdk-pixbuf-2.0-0 (>= 2.31.1)",
 		"libglib2.0-0t64 (>= 2.80.0)",
-		"libgtk-3-0t64 (>= 3.23.1)",
+		"libgtk-4-1 (>= 4.12.0)",
 		"libjansson4 (>= 2.14)",
-		"libpng16-16t64 (>= 1.6.46)",
 		"libprotobuf-c1 (>= 1.3.1)",
 		"libqrencode4 (>= 3.2.0)",
 		"libsecret-1-0 (>= 0.7)",
@@ -26,15 +26,15 @@
 		"libzbar0t64 (>= 0.10)"
 	],
 	"suggests": [
-		"otpclient-cli (= 4.4.1-1)"
+		"otpclient-cli (= 5.1.4+git20260710.4093c2a-1)"
 	],
-	"installedSize": 477,
+	"installedSize": 564,
 	"maintainer": "Francisco Vilmar Cardoso Ruviaro <vilmar@debian.org>",
 	"description": "Simple GTK+ software to generate OTPs (TOTP and HOTP)",
 	"homepage": "https://github.com/paolostivanin/OTPClient",
-	"filename": "pool/main/o/otpclient/otpclient_4.4.1-1_amd64.deb",
-	"size": 87008,
-	"md5": "29ecb5aeecc69807179cc3525cb954ea",
-	"sha256": "f2c227db4ddb6e44b223ba34829eb8f26395e9e0734d70956dd310188905c557",
+	"filename": "pool/main/o/otpclient/otpclient_5.1.4+git20260710.4093c2a-1_amd64.deb",
+	"size": 144328,
+	"md5": "983ef01e42f446bb3521bee9054deeaa",
+	"sha256": "91dbaba44ee13dcdc03e7ba31133940d44ea4533fdf5e5366151d5ee4cb66f0d",
 	"descriptionMd5": "be7f24eafe094577720ee99c78faee8b"
 }

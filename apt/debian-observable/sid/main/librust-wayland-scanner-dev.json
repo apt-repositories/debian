@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-wayland-scanner-dev",
-	"source": "rust-wayland-scanner (0.31.7-3)",
-	"version": "0.31.7-3+b1",
+	"source": "rust-wayland-scanner",
+	"version": "0.31.10-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2-1+default-dev (>= 1.0.11-~~)",
+		"librust-proc-macro2-1+default-dev (>= 1.0.11)",
 		"librust-quick-xml-0.38+default-dev",
 		"librust-quote-1+default-dev"
 	],
-	"installedSize": 295,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 299,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "generate Rust APIs from XML Wayland protocol files - Rust source code",
 	"homepage": "https://github.com/smithay/wayland-rs",
-	"filename": "pool/main/r/rust-wayland-scanner/librust-wayland-scanner-dev_0.31.7-3+b1_amd64.deb",
-	"size": 31448,
-	"md5": "b8f401c48b47b3197c410549fc119069",
-	"sha256": "3293f8ef11a4843125363e2221191a8584053971b7702fe18ac3fd24bac418fd",
+	"filename": "pool/main/r/rust-wayland-scanner/librust-wayland-scanner-dev_0.31.10-1_amd64.deb",
+	"size": 30824,
+	"md5": "b83e60bd08d68908b3991460fa817dfb",
+	"sha256": "469797df652675d50bfe49a7d19b4df34c0d34da78852996d8561b650af51ab1",
 	"descriptionMd5": "e7ec9fb11fb7704e2ef601ace35d43dc"
 }]
