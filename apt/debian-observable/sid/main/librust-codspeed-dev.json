@@ -6,7 +6,7 @@
 	],
 	"package": "librust-codspeed-dev",
 	"source": "rust-codspeed",
-	"version": "4.7.0+dfsg-1",
+	"version": "4.7.0+dfsg-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -24,13 +24,16 @@
 		"librust-serde-json-1+default-dev (>= 1.0.138)",
 		"librust-statrs-0.18-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.74~)"
+	],
 	"installedSize": 1453,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Core instrumentation library for CodSpeed - Rust source code",
 	"homepage": "https://codspeed.io",
-	"filename": "pool/main/r/rust-codspeed/librust-codspeed-dev_4.7.0+dfsg-1_amd64.deb",
-	"size": 91628,
-	"md5": "dade45f23b34b3edb72bfd0e0e6fccc5",
-	"sha256": "ec77ce225fba2f81b0cce05e8b1958fc61cbeeb1695376d7293582cfca16c143",
+	"filename": "pool/main/r/rust-codspeed/librust-codspeed-dev_4.7.0+dfsg-2_amd64.deb",
+	"size": 91812,
+	"md5": "6a1a25fb9866d417b9df85e613fae970",
+	"sha256": "9ef0ef637ba59ce60936baed94eff014d9e8d29387e34a8faf0ce354104157c6",
 	"descriptionMd5": "dd2d610a4745cef1aa502ec902d72e74"
 }]

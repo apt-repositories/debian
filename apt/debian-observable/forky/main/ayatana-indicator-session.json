@@ -5,31 +5,30 @@
 		"Size"
 	],
 	"package": "ayatana-indicator-session",
-	"version": "26.6.1-1",
+	"version": "26.6.1-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"ayatana-indicator-common (>= 0.8.0)",
+		"ayatana-indicator-common",
 		"gsettings-desktop-schemas",
 		"systemd",
+		"zenity",
 		"dconf-gsettings-backend | gsettings-backend",
 		"libayatana-common0 (>= 0.9.9)",
 		"libc6 (>= 2.34)",
 		"libglib2.0-0t64 (>= 2.83.0)",
-		"librda0 (>= 0.0.1)",
-		"zenity"
+		"librda0 (>= 0.0.1)"
 	],
 	"recommends": [
 		"yelp"
 	],
 	"suggests": [
-		"apport",
-		"gnome-screensaver | mate-screensaver",
+		"mate-screensaver",
+		"lightdm",
 		"mate-indicator-applet | xfce4-indicator-plugin | indicator-renderer",
 		"unity-control-center | gnome-control-center | mate-control-center | lomiri-system-settings",
-		"unity-control-center-signon | gnome-control-center-signon | mate-control-center | lomiri-system-settings",
-		"lightdm"
+		"unity-control-center-signon | gnome-control-center-signon | mate-control-center | lomiri-system-settings"
 	],
 	"replaces": [
 		"indicator-session"
@@ -37,13 +36,13 @@
 	"breaks": [
 		"indicator-session"
 	],
-	"installedSize": 1389,
+	"installedSize": 1464,
 	"maintainer": "Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>",
 	"description": "Ayatana Indicator showing session management, status and user switching",
 	"homepage": "https://github.com/AyatanaIndicators/ayatana-indicator-session",
-	"filename": "pool/main/a/ayatana-indicator-session/ayatana-indicator-session_26.6.1-1_amd64.deb",
-	"size": 192800,
-	"md5": "dd99319ffeaa9a3495ebd2b01f56b3f1",
-	"sha256": "9de9b71221d364dd617fb39a6b7c102d98e70c7db34a0ec0d83cb73384a69cef",
+	"filename": "pool/main/a/ayatana-indicator-session/ayatana-indicator-session_26.6.1-2_amd64.deb",
+	"size": 271264,
+	"md5": "fe8bf8cb59b2039c8f05838adbb7d18e",
+	"sha256": "2c9237c8bf53986c3948588d1df03b1c831666548cbbe9015cf65b0a9d37241d",
 	"descriptionMd5": "da7da35c28f0cd49ca996d2036c95a64"
 }]

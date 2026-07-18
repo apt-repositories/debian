@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-unit-prefix-dev",
-	"source": "rust-unit-prefix (0.5.1-1)",
-	"version": "0.5.1-1+b1",
+	"source": "rust-unit-prefix",
+	"version": "0.5.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 48,
+	"breaks": [
+		"rustc (<< 1.31.0~)"
+	],
+	"installedSize": 51,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Format numbers with metric and binary unit prefixes - Rust source code",
-	"homepage": "https://github.com/commons-rs/unit-prefix",
-	"filename": "pool/main/r/rust-unit-prefix/librust-unit-prefix-dev_0.5.1-1+b1_amd64.deb",
-	"size": 9236,
-	"md5": "ff640f8609b379ae466ff0552085ce59",
-	"sha256": "ff86591681bb8581ec9d7948a0610af2662a76e9713e4af207e1f1b2037565a8",
+	"homepage": "https://codeberg.org/commons-rs/unit-prefix",
+	"filename": "pool/main/r/rust-unit-prefix/librust-unit-prefix-dev_0.5.2-1_amd64.deb",
+	"size": 9460,
+	"md5": "a36ea8ae5abe7d492e85e5584ccde3bd",
+	"sha256": "7524935c53f03e56a645f2d089170f36d599ef0aedabfe52db96eb95be7cb8df",
 	"descriptionMd5": "f096be184c995f6a0fad13439c471e3d"
 }]
