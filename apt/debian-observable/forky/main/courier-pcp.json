@@ -6,25 +6,29 @@
 	],
 	"package": "courier-pcp",
 	"source": "courier",
-	"version": "1.5.1-4",
+	"version": "2.0.3-2",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"sqwebmail",
-		"courier-authlib (>= 0.71)",
-		"libc6 (>= 2.38)"
+		"libc6 (>= 2.38)",
+		"libcourier-authlib0 (>= 0.72.7.20260502)",
+		"libcourier-unicode12 (>= 2.6.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libidn2-0 (>= 2.0.0)",
+		"libstdc++6 (>= 13.1)"
 	],
 	"suggests": [
 		"courier-doc"
 	],
-	"installedSize": 225,
+	"installedSize": 344,
 	"maintainer": "Soren Stoutner <soren@debian.org>",
 	"description": "Courier mail server - Personal Calendaring Protocol server",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier/courier-pcp_1.5.1-4_amd64.deb",
-	"size": 129920,
-	"md5": "80beb05a7202fa131ada8b10b8b9cc2d",
-	"sha256": "e338d23f18b78ad0afd4aaa88a091f48dac2388cc106d984e3d1463b416fac7f",
+	"filename": "pool/main/c/courier/courier-pcp_2.0.3-2_amd64.deb",
+	"size": 177932,
+	"md5": "609995bb360719690e216be347985053",
+	"sha256": "14e41bc6286b26cad55446fd21d49d969820c5b01064d976f6f8aaebd7885ffd",
 	"descriptionMd5": "889bad33092ae3c9cc1499b1dac4f9fd"
 }]

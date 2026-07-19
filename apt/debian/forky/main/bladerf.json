@@ -5,15 +5,17 @@
 		"Size"
 	],
 	"package": "bladerf",
-	"source": "bladerf (0.2024.05-1)",
-	"version": "0.2024.05-1+b2",
+	"version": "0.2025.10-2",
 	"section": "comm",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libbladerf2 (= 0.2024.05-1+b2)",
+		"libbladerf2 (= 0.2025.10-2)",
 		"libc6 (>= 2.38)",
-		"libtecla1t64 (>= 1.6.3)"
+		"libcurl4t64 (>= 7.16.2)",
+		"libncursesw6 (>= 6)",
+		"libtecla1t64 (>= 1.6.3)",
+		"libtinfo6 (>= 6)"
 	],
 	"replaces": [
 		"bladerf-host"
@@ -21,13 +23,13 @@
 	"conflicts": [
 		"bladerf-host"
 	],
-	"installedSize": 369,
+	"installedSize": 459,
 	"maintainer": "A. Maitland Bottoms <bottoms@debian.org>",
 	"description": "Nuand bladeRF software-defined radio device (tools)",
 	"homepage": "https://www.Nuand.com/bladeRF",
-	"filename": "pool/main/b/bladerf/bladerf_0.2024.05-1+b2_amd64.deb",
-	"size": 133332,
-	"md5": "7f745d93387a0511aac9fade4daf5eba",
-	"sha256": "9eed649dfda84151920bd54dc7019e8c0a411e990ccad483c4a03dc628f20c4a",
+	"filename": "pool/main/b/bladerf/bladerf_0.2025.10-2_amd64.deb",
+	"size": 160504,
+	"md5": "b596e9b0d1a9e06a7f3797b4627d3225",
+	"sha256": "087c661e3c12ea41d13d3c61fcccbef50bc860052cc5cba73fe13d3a61cd51a3",
 	"descriptionMd5": "ce36051119c0af973a2ac8599bbe5c6f"
 }

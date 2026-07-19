@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-gimli-dev",
-	"source": "rust-gimli (0.31.1-2)",
-	"version": "0.31.1-2+b1",
+	"source": "rust-gimli",
+	"version": "0.32.3-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-fallible-iterator-0.3+std-dev",
 		"librust-fallible-iterator-0.3-dev",
-		"librust-indexmap+default-dev (>= 1.9.3-~~)",
-		"librust-stable-deref-trait-1+std-dev (>= 1.1.0-~~)",
-		"librust-stable-deref-trait-1-dev (>= 1.1.0-~~)"
+		"librust-indexmap+default-dev (>= 1.9.3)",
+		"librust-stable-deref-trait-1+std-dev (>= 1.1.0)",
+		"librust-stable-deref-trait-1-dev (>= 1.1.0)"
 	],
-	"installedSize": 1809,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 1849,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Reading and writing the DWARF debugging format - Rust source code",
 	"homepage": "https://github.com/gimli-rs/gimli",
-	"filename": "pool/main/r/rust-gimli/librust-gimli-dev_0.31.1-2+b1_amd64.deb",
-	"size": 220680,
-	"md5": "ccb9fb96c6ce4d2f30a4aeb3649859fd",
-	"sha256": "aa4ccc68ba20f71859899bf8697426d5aab22315077d1f8b13b17884aa0b6396",
+	"filename": "pool/main/r/rust-gimli/librust-gimli-dev_0.32.3-2_amd64.deb",
+	"size": 224272,
+	"md5": "e1b727e1c6606aeab3e795968ec5744a",
+	"sha256": "de5306cd3110eef1fdabff9cf8bc22676edf9f5abba8891ecadbb1833a1fc080",
 	"descriptionMd5": "4693effdff7bd2ee0a885ab91fa7f9e8"
 }]
