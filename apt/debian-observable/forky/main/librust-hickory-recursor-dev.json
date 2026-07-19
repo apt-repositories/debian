@@ -6,7 +6,7 @@
 	],
 	"package": "librust-hickory-recursor-dev",
 	"source": "rust-hickory-recursor",
-	"version": "0.25.2-2",
+	"version": "0.25.2-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -37,7 +37,8 @@
 		"librust-ipnet-2-dev (>= 2.3.0)",
 		"librust-lru-cache-0.1+default-dev (>= 0.1.2)",
 		"librust-parking-lot-0.12+default-dev",
-		"librust-prefix-trie-0.8+default-dev",
+		"librust-prefix-trie+default-dev (<< 0.10)",
+		"librust-prefix-trie+default-dev (>= 0.7)",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
 		"librust-thiserror-2-dev",
@@ -45,13 +46,16 @@
 		"librust-tokio-1+net-dev (>= 1.21)",
 		"librust-tracing-0.1-dev (>= 0.1.30)"
 	],
+	"breaks": [
+		"rustc (<< 1.71.1~)"
+	],
 	"installedSize": 128,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "*WARNING* This library is experimental - Rust source code",
 	"homepage": "https://hickory-dns.org/",
-	"filename": "pool/main/r/rust-hickory-recursor/librust-hickory-recursor-dev_0.25.2-2_amd64.deb",
-	"size": 28328,
-	"md5": "aea4aeede847509ee8efff73e0fe826a",
-	"sha256": "bf4681421eaa4da2556c22db128e20ef2536687d32c81d5460a3eba1746cf889",
+	"filename": "pool/main/r/rust-hickory-recursor/librust-hickory-recursor-dev_0.25.2-3_amd64.deb",
+	"size": 28436,
+	"md5": "5280ee59912e522281034047f5ec234c",
+	"sha256": "048478fbc2835a4fa2bd9dfb492c79ea26cfc9977df043b1450a0eb56c53bc2a",
 	"descriptionMd5": "52c52ee3378ecd226156ef341916701a"
 }]

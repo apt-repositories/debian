@@ -5,28 +5,31 @@
 		"Size"
 	],
 	"package": "librust-zvariant-utils-dev",
-	"source": "rust-zvariant-utils (3.3.0-1)",
-	"version": "3.3.0-1+b1",
+	"source": "rust-zvariant-utils",
+	"version": "3.5.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2-1+default-dev (>= 1.0.81-~~)",
-		"librust-quote-1+default-dev (>= 1.0.36-~~)",
-		"librust-serde-1+default-dev (>= 1.0.200-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.200-~~)",
-		"librust-syn-2+default-dev (>= 2.0.64-~~)",
-		"librust-syn-2+extra-traits-dev (>= 2.0.64-~~)",
-		"librust-syn-2+full-dev (>= 2.0.64-~~)",
-		"librust-winnow+default-dev (>= 0.6-~~)"
+		"librust-proc-macro2-1+default-dev (>= 1.0.81)",
+		"librust-quote-1+default-dev (>= 1.0.36)",
+		"librust-serde-1+default-dev (>= 1.0.200)",
+		"librust-serde-1+derive-dev (>= 1.0.200)",
+		"librust-syn-2+default-dev (>= 2.0.64)",
+		"librust-syn-2+extra-traits-dev (>= 2.0.64)",
+		"librust-syn-2+full-dev (>= 2.0.64)",
+		"librust-winnow-0.7+default-dev"
 	],
-	"installedSize": 90,
+	"breaks": [
+		"rustc (<< 1.87~)"
+	],
+	"installedSize": 93,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Various utilities used internally by the zvariant crate - Rust source code",
 	"homepage": "https://github.com/z-galaxy/zbus/",
-	"filename": "pool/main/r/rust-zvariant-utils/librust-zvariant-utils-dev_3.3.0-1+b1_amd64.deb",
-	"size": 17232,
-	"md5": "4057c6cfa0ae54fda8a31206bb27834c",
-	"sha256": "645c04dc3507c1f3c15a7fb81ac4a7ab3450415ef6b5b9ba2d9a2164669b9fde",
+	"filename": "pool/main/r/rust-zvariant-utils/librust-zvariant-utils-dev_3.5.0-1_amd64.deb",
+	"size": 18768,
+	"md5": "f6364856412ee1eef02f9cf11bd6cac9",
+	"sha256": "ccb83f80133dfd279d7f1ef1344edc8949851cbd1acc2bb5bdda66341a667e6d",
 	"descriptionMd5": "f8edaa7a81b2f15afa83c6aa0f9d33f6"
 }

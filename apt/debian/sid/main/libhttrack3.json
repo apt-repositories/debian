@@ -6,13 +6,15 @@
 	],
 	"package": "libhttrack3",
 	"source": "httrack",
-	"version": "3.49.12-1",
+	"version": "3.49.13-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libbrotli1 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
 		"libssl3t64 (>= 3.0.0)",
+		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.1.4)"
 	],
 	"replaces": [
@@ -23,13 +25,13 @@
 		"httrack (<< 3.49.8-2~)",
 		"libhttrack2"
 	],
-	"installedSize": 941,
+	"installedSize": 961,
 	"maintainer": "Xavier Roche <roche@httrack.com>",
 	"description": "Httrack website copier library",
 	"homepage": "http://www.httrack.com",
-	"filename": "pool/main/h/httrack/libhttrack3_3.49.12-1_amd64.deb",
-	"size": 344104,
-	"md5": "c1e980622e7dc3f46ec356592d9450b1",
-	"sha256": "65eb136823747b7bedb1b43eab33338c804ec0981a42a752aeb7fb0b4e3b0c92",
+	"filename": "pool/main/h/httrack/libhttrack3_3.49.13-1_amd64.deb",
+	"size": 356300,
+	"md5": "89eeb36870e32b2005a483c6dee18c4f",
+	"sha256": "f3f61fd06dd176ae8c22caebdf19bdf779cd5872a111052c2820e7cee844d006",
 	"descriptionMd5": "0e38d54985bcc9c621487b405dc9445e"
 }

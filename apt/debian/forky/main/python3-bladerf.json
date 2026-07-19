@@ -5,23 +5,29 @@
 		"Size"
 	],
 	"package": "python3-bladerf",
-	"source": "bladerf (0.2024.05-1)",
-	"version": "0.2024.05-1+b2",
+	"source": "bladerf",
+	"version": "0.2025.10-2",
 	"section": "comm",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libbladerf-dev (= 0.2024.05-1+b2)",
+		"libbladerf-dev (= 0.2025.10-2)",
 		"python3-cffi",
 		"python3:any"
 	],
-	"installedSize": 118,
+	"replaces": [
+		"bladerf (<< 0.2025.10-2)"
+	],
+	"conflicts": [
+		"bladerf (<< 0.2025.10-2)"
+	],
+	"installedSize": 119,
 	"maintainer": "A. Maitland Bottoms <bottoms@debian.org>",
 	"description": "Nuand bladeRF software-defined radio device (Python)",
 	"homepage": "https://www.Nuand.com/bladeRF",
-	"filename": "pool/main/b/bladerf/python3-bladerf_0.2024.05-1+b2_amd64.deb",
-	"size": 22248,
-	"md5": "d8401a15510999655141af5b765d4d63",
-	"sha256": "ff4d06267db24215629d4f37affb627ba33c0d252ccc3cff1ca7a88d72985eb9",
+	"filename": "pool/main/b/bladerf/python3-bladerf_0.2025.10-2_amd64.deb",
+	"size": 22684,
+	"md5": "e6387f4ce869a50c9e8fd65b7cf3f9b3",
+	"sha256": "d2045d691ac6ed8c7823f1a6c2963de9034f8336f6a11a684bd274aed90f1eee",
 	"descriptionMd5": "d32a607f0f773b6217a07c8f2fd0e36f"
 }

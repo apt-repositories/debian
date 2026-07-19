@@ -6,17 +6,16 @@
 	],
 	"package": "courier-ldap",
 	"source": "courier",
-	"version": "1.5.1-4",
+	"version": "2.0.3-2",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"courier-authlib-ldap",
-		"courier-base (= 1.5.1-4)",
+		"courier-base (= 2.0.3-2)",
 		"debconf",
 		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
-		"courier-authlib (>= 0.71)",
 		"libc6 (>= 2.38)",
+		"libcourier-authlib0 (>= 0.72.7.20260502)",
 		"libgcc-s1 (>= 3.0)",
 		"libldap2 (>= 2.6.2)",
 		"libstdc++6 (>= 4.1.1)"
@@ -30,13 +29,13 @@
 	"conflicts": [
 		"courier-imap-authldap"
 	],
-	"installedSize": 187,
+	"installedSize": 191,
 	"maintainer": "Soren Stoutner <soren@debian.org>",
 	"description": "Courier mail server - LDAP support",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier/courier-ldap_1.5.1-4_amd64.deb",
-	"size": 103212,
-	"md5": "0c903eee5c0815790ae7e9499c5b94cd",
-	"sha256": "55e8687ce4a6b0b87acd05ce1cb4d7239e401a1779ff4dc93896f9eb1c6eb10d",
+	"filename": "pool/main/c/courier/courier-ldap_2.0.3-2_amd64.deb",
+	"size": 106148,
+	"md5": "23cdfedf6b14bec5d8713a1f5b764e61",
+	"sha256": "b3c28f6ceba1a253f0e80c612777b13c289ed03ee66aecd4f058745b53f73634",
 	"descriptionMd5": "c20344ca781463f5cef8d8fa13d0fcfc"
 }]
