@@ -6,26 +6,32 @@
 	],
 	"package": "gem-plugin-gmerlin",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
 		"libc6 (>= 2.14)",
 		"libgavl3 (>= 2.0.1~)",
 		"libgcc-s1 (>= 3.0)",
 		"libgmerlin-avdec3 (>= 2.0.0~)",
 		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 162,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 486,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Graphics Environment for Multimedia - GMERLIN support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-gmerlin_0.94-10_amd64.deb",
-	"size": 121136,
-	"md5": "5fceb4f425a526469192dbc50416c1a7",
-	"sha256": "bf1186009da24fc02ea3032f829d4e21daf005557290e818b4ff0254d58fd46c",
+	"filename": "pool/main/g/gem/gem-plugin-gmerlin_0.95.0-1_amd64.deb",
+	"size": 437824,
+	"md5": "de1110dcdbe797da7d2f4f84302258df",
+	"sha256": "75b2e0cd861c6ba10830b76824d844af95bf8b61491847720071b412aa216b0d",
 	"descriptionMd5": "31de2c9ee3a78c8693acb7c1dd7bd311"
 }

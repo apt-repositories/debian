@@ -5,17 +5,25 @@
 		"Size"
 	],
 	"package": "bazel-rules-java",
-	"version": "4.0.0-2",
+	"version": "7.6.5-8",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 45,
+	"depends": [
+		"bazel-features",
+		"bazel-platforms",
+		"bazel-rules-cc",
+		"bazel-rules-license",
+		"bazel-rules-proto",
+		"bazel-skylib"
+	],
+	"installedSize": 160,
 	"maintainer": "Debian Bazel Team <bazel-team@lists.launchpad.net>",
 	"description": "Java Rules for Bazel",
 	"homepage": "https://github.com/bazelbuild/rules_java",
-	"filename": "pool/main/b/bazel-rules-java/bazel-rules-java_4.0.0-2_all.deb",
-	"size": 6448,
-	"md5": "0ac55e0058930faf4f7aeaf1437895cd",
-	"sha256": "0d05ed4e053d7c0d3ee0b4e77cdd93857d2757f34e031a8239323c8d0c218e18",
+	"filename": "pool/main/b/bazel-rules-java/bazel-rules-java_7.6.5-8_all.deb",
+	"size": 25712,
+	"md5": "50470e8b01f42f0d0a05dc3ef7abce38",
+	"sha256": "44ad5d0e2e8a51e8417537392336ad4530cb0d356fddaefec6c20a44d9acc6af",
 	"descriptionMd5": "4c9ed75a78f684472eb875a0ff79e96e"
 }]

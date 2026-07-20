@@ -6,25 +6,31 @@
 	],
 	"package": "gem-plugin-tiff",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 13.1)",
 		"libtiff6 (>= 4.0.3)"
 	],
-	"installedSize": 186,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 512,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Graphics Environment for Multimedia - TIFF support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-tiff_0.94-10_amd64.deb",
-	"size": 129496,
-	"md5": "0dd1b389af8fa3c6b1d0f04b346fab5a",
-	"sha256": "51f2f32ec0600c85374ca61ce3fa02f4853549e932f1c5ab6ef57e41cb3539bf",
+	"filename": "pool/main/g/gem/gem-plugin-tiff_0.95.0-1_amd64.deb",
+	"size": 447428,
+	"md5": "362bb7e667623c35d3ed2b60e4bf9a15",
+	"sha256": "d7468c72a9eadb2d1f8ec88b018100b2cd29f9c3f7d39aace4d0b9b26710ffa3",
 	"descriptionMd5": "18bb323199c2240ce61a8dc55898c962"
 }]

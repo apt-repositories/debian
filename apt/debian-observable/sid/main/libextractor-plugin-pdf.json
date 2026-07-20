@@ -6,22 +6,25 @@
 	],
 	"package": "libextractor-plugin-pdf",
 	"source": "libextractor",
-	"version": "1:1.13-10",
+	"version": "1:1.17-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libextractor3",
 		"poppler-utils",
-		"libc6 (>= 2.4)"
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libpoppler-cpp3 (>= 26.01.0)",
+		"libstdc++6 (>= 5.2)"
 	],
-	"installedSize": 39,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"installedSize": 40,
+	"maintainer": "Gabriel Barrantes <gabriel.barrantes.dev@outlook.com>",
 	"description": "extracts meta-data from files of arbitrary type (pdf plugin)",
 	"homepage": "https://www.gnu.org/software/libextractor/",
-	"filename": "pool/main/libe/libextractor/libextractor-plugin-pdf_1.13-10_amd64.deb",
-	"size": 17684,
-	"md5": "b218bd270e827e01d4e21ce0de15170d",
-	"sha256": "850286337934864e7ff5b6769b718dbaab369c539692a2e0b5d6743b64d13b6b",
+	"filename": "pool/main/libe/libextractor/libextractor-plugin-pdf_1.17-1_amd64.deb",
+	"size": 19844,
+	"md5": "35efdfe80a48c88bdf842162b09f4b5e",
+	"sha256": "da4b57eac5e30e24d0deea3e1a4fc41769a9afbf6d5d4cbe14ea2b8b4311ab04",
 	"descriptionMd5": "f3096ff27fd738115bf197d99d5f5eed"
 }]

@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-file-id-dev",
-	"source": "rust-file-id (0.2.2-1)",
-	"version": "0.2.2-1+b1",
+	"source": "rust-file-id",
+	"version": "0.2.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+default-dev (>= 1.0.89-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.89-~~)"
+		"librust-serde-1+default-dev (>= 1.0.89)",
+		"librust-serde-1+derive-dev (>= 1.0.89)"
 	],
-	"installedSize": 48,
+	"breaks": [
+		"rustc (<< 1.77~)"
+	],
+	"installedSize": 45,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "utility for reading inode numbers",
 	"homepage": "https://github.com/notify-rs/notify",
-	"filename": "pool/main/r/rust-file-id/librust-file-id-dev_0.2.2-1+b1_amd64.deb",
-	"size": 10064,
-	"md5": "04e6874be103836386751a5d26bed1c4",
-	"sha256": "1bcd747c4b442e6cfdcdcde58a1a902cec85425cd3c43d964f7e9ee3f413c844",
+	"filename": "pool/main/r/rust-file-id/librust-file-id-dev_0.2.3-1_amd64.deb",
+	"size": 9660,
+	"md5": "1f9270faec483449a96b89938c04d1b9",
+	"sha256": "eeb3284a66db68c3a25235d69d885be3f2dc60b89ab62abe06997de1bba2942a",
 	"descriptionMd5": "d34284b5f310ec91793aad397757fca8"
 }
