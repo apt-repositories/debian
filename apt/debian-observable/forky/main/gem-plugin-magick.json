@@ -6,26 +6,32 @@
 	],
 	"package": "gem-plugin-magick",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
 		"libmagick++-7.q16-5 (>= 8:7.1.1.21)",
 		"libmagickcore-7.q16-10 (>= 8:7.1.1.21)",
 		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 174,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 500,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Graphics Environment for Multimedia - ImageMagick support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-magick_0.94-10_amd64.deb",
-	"size": 125656,
-	"md5": "b024ce3c56fc756294966830974e6b27",
-	"sha256": "8348b46321757571dda62f9944e4e343c6d23118df36b61da3eb38d2bd1785f6",
+	"filename": "pool/main/g/gem/gem-plugin-magick_0.95.0-1_amd64.deb",
+	"size": 443176,
+	"md5": "66e0a2dbc31a480ca79c4dfd640cdfff",
+	"sha256": "0d6c1cb3b746ea7b194893812835bf4aa42ff3cb1105970031eff7de031a95e4",
 	"descriptionMd5": "ecb07097215819f8f9fda73c550fc7e7"
 }]

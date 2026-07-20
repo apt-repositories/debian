@@ -1,0 +1,32 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-mongo-fdw",
+	"source": "mongo-fdw",
+	"version": "5.5.3-1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libbson2-2 (>= 2.3.3)",
+		"libc6 (>= 2.38)",
+		"libjson-c5 (>= 0.15)",
+		"libmongoc2-2 (>= 2.3.3)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 21)"
+	],
+	"installedSize": 266,
+	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
+	"description": "MongoDB Foreign Data Wrapper for PostgreSQL",
+	"homepage": "https://github.com/EnterpriseDB/mongo_fdw",
+	"filename": "pool/main/m/mongo-fdw/postgresql-18-mongo-fdw_5.5.3-1_amd64.deb",
+	"size": 115296,
+	"md5": "300443bb87d9916c9bb33dcf7b051498",
+	"sha256": "2e7a811f303ab35be8503aa3548a5ea43c218144cf4457bf75517bbd0ae0235b",
+	"descriptionMd5": "3cb35fc74dc41c457754b5a91903a2b8"
+}]

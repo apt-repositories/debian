@@ -6,20 +6,35 @@
 	],
 	"package": "c-evo-dh-gtk2",
 	"source": "c-evo-dh",
-	"version": "3.1-3",
+	"version": "3.4-1",
 	"section": "games",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"c-evo-dh"
+		"libatk1.0-0t64 (>= 1.12.4)",
+		"libc6 (>= 2.34)",
+		"libcairo2 (>= 1.2.4)",
+		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libgtk2.0-0t64 (>= 2.24.0)",
+		"libpango-1.0-0 (>= 1.18.0)",
+		"libx11-6",
+		"c-evo-dh-ai",
+		"c-evo-dh-data"
 	],
-	"installedSize": 41,
-	"maintainer": "Peter Blackman <peter@pblackman.plus.com>",
-	"description": "Transitional package for C-evo: Distant Horizon",
+	"recommends": [
+		"mpg123"
+	],
+	"suggests": [
+		"sensible-utils"
+	],
+	"installedSize": 13944,
+	"maintainer": "Peter Blackman <peterb@debian.org>",
+	"description": "Empire Building Game, C-evo: Distant Horizon",
 	"homepage": "https://sourceforge.net/projects/c-evo-eh/",
-	"filename": "pool/main/c/c-evo-dh/c-evo-dh-gtk2_3.1-3_all.deb",
-	"size": 15236,
-	"md5": "b5f111dc013a9f70f85c0942b7fd8638",
-	"sha256": "52e1707dc1e53abe4eecdbaebf40bfc683a22ffcee7c400808c6f361a6f4ff47",
-	"descriptionMd5": "79164bf438416d6ae589786cfdc2d6c9"
+	"filename": "pool/main/c/c-evo-dh/c-evo-dh-gtk2_3.4-1_amd64.deb",
+	"size": 2838968,
+	"md5": "4ca43fdee152219d7c37b1036b5671ce",
+	"sha256": "7fce80f5018eacff70018bd0520621059a89fbe8ce322ccaf081aeb78a86efc7",
+	"descriptionMd5": "03d006a60ea98e5886d6f605dfdf8cc2"
 }]

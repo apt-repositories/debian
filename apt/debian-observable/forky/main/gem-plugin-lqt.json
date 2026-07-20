@@ -6,25 +6,31 @@
 	],
 	"package": "gem-plugin-lqt",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
-		"libquicktime2 (>= 2:1.2.2)",
+		"libquicktime2 (>= 2:1.2.4)",
 		"libstdc++6 (>= 13.1)"
 	],
-	"installedSize": 225,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 559,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Graphics Environment for Multimedia - LQT support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-lqt_0.94-10_amd64.deb",
-	"size": 137848,
-	"md5": "114cd4da67838bac4568b98c92e938bb",
-	"sha256": "9522e53d756e6966384eb9af91eda2fff6a9ee50df82915f7b65bc08617a15ee",
+	"filename": "pool/main/g/gem/gem-plugin-lqt_0.95.0-1_amd64.deb",
+	"size": 459872,
+	"md5": "dcf473e9e5a015be2dba919bc08417fe",
+	"sha256": "ba4090b00a34f7e751cb8ba872ffe4ffa232de4d25f9c081ab4cc7f9436d6a86",
 	"descriptionMd5": "e359a47ef863114275ed0c9ea6a6bf13"
 }]

@@ -6,13 +6,13 @@
 	],
 	"package": "gem-plugin-v4l2",
 	"source": "gem",
-	"version": "1:0.94-10",
+	"version": "1:0.95.0-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gem (<< 1:0.94+1~)",
-		"gem (>= 1:0.94-10)",
+		"gem (<< 1:0.95.0+1~)",
+		"gem (>= 1:0.95.0-1)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 13.1)",
@@ -21,13 +21,19 @@
 	"suggests": [
 		"v4l2loopback-dkms | v4l2loopback-modules"
 	],
-	"installedSize": 233,
+	"replaces": [
+		"gem (<< 1:0.95~)"
+	],
+	"breaks": [
+		"gem (<< 1:0.95~)"
+	],
+	"installedSize": 562,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Graphics Environment for Multimedia - V4L2 output support",
 	"homepage": "https://gem.iem.at/",
-	"filename": "pool/main/g/gem/gem-plugin-v4l2_0.94-10_amd64.deb",
-	"size": 144532,
-	"md5": "bdef493ddf2b9bd901631b29ce483448",
-	"sha256": "9f8b528aa42bbc72147eb91df96467029945b74b9f5cdcadb7e962ad928f624f",
+	"filename": "pool/main/g/gem/gem-plugin-v4l2_0.95.0-1_amd64.deb",
+	"size": 463168,
+	"md5": "74e60ea2fac9738a2de1ceadf0052327",
+	"sha256": "d3c20ae4658a3129cfc73372530f1f3bd2c44657257dae0d10813c3edb5b6f91",
 	"descriptionMd5": "8ad179c790ef5e00d4fa8f9e8c835e97"
 }]

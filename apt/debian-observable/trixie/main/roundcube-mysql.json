@@ -21,8 +21,36 @@
 	"maintainer": "Debian Roundcube Maintainers <pkg-roundcube-maintainers@alioth-lists.debian.net>",
 	"description": "metapackage providing MySQL dependencies for RoundCube",
 	"homepage": "https://www.roundcube.net/",
-	"filename": "pool/updates/main/r/roundcube/roundcube-mysql_1.6.16+dfsg-0+deb13u1_all.deb",
+	"filename": "pool/main/r/roundcube/roundcube-mysql_1.6.16+dfsg-0+deb13u1_all.deb",
 	"size": 99984,
+	"md5": "70e4226b8ca27a0938253c3ea5dfca37",
 	"sha256": "717cec463f76397c8e7073d931029ae8ee993ff2e1d6fc602dc333dc6390c87e",
+	"descriptionMd5": "e3030807c558599393412b21babfca91"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "roundcube-mysql",
+	"source": "roundcube",
+	"version": "1.6.17+dfsg-0+deb13u1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"mariadb-client | default-mysql-client | virtual-mysql-client",
+		"php-mysql | php-mysqlnd"
+	],
+	"suggests": [
+		"mariadb-server | default-mysql-server"
+	],
+	"installedSize": 129,
+	"maintainer": "Debian Roundcube Maintainers <pkg-roundcube-maintainers@alioth-lists.debian.net>",
+	"description": "metapackage providing MySQL dependencies for RoundCube",
+	"homepage": "https://www.roundcube.net/",
+	"filename": "pool/updates/main/r/roundcube/roundcube-mysql_1.6.17+dfsg-0+deb13u1_all.deb",
+	"size": 100532,
+	"sha256": "80f64b13067becafac9bba1747337876291e90307f45d64bbb795bb8ad6f2584",
 	"descriptionMd5": "e3030807c558599393412b21babfca91"
 }]

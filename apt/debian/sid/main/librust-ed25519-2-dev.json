@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-ed25519-2-dev",
+	"source": "rust-ed25519-2",
+	"version": "2.2.3-1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-pkcs8-0.10+alloc-dev",
+		"librust-pkcs8-0.10+default-dev",
+		"librust-pkcs8-0.10+pem-dev",
+		"librust-pkcs8-0.10+std-dev",
+		"librust-serde-1-dev",
+		"librust-serde-bytes-0.11+default-dev",
+		"librust-signature-2+std-dev",
+		"librust-signature-2-dev",
+		"librust-zeroize-1-dev"
+	],
+	"replaces": [
+		"librust-ed25519-dev (<< 2.2.4~)"
+	],
+	"breaks": [
+		"librust-ed25519-dev (<< 2.2.4~)",
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 98,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Generic Ed25519 signature algorithm - Rust source code",
+	"homepage": "https://github.com/RustCrypto/signatures/tree/master/ed25519",
+	"filename": "pool/main/r/rust-ed25519-2/librust-ed25519-2-dev_2.2.3-1_amd64.deb",
+	"size": 21716,
+	"md5": "59cfa756c0c4aa3c7eedf690cf2e32e1",
+	"sha256": "fbc23f1cb878ffbb2c0af62beda50af33510b15a1b708191f54ca1d4d6639c93",
+	"descriptionMd5": "5289c2100ade6c41b607bdfa5e7a663c"
+}
