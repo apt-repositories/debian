@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-cfg-expr-dev",
-	"source": "rust-cfg-expr (0.18.0-1)",
-	"version": "0.18.0-1+b1",
+	"source": "rust-cfg-expr",
+	"version": "0.20.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-smallvec-1+default-dev (>= 1.8-~~)",
-		"librust-target-lexicon-0.13+default-dev (>= 0.13.2-~~)"
+		"librust-smallvec-1+default-dev (>= 1.15)",
+		"librust-target-lexicon-0.13+default-dev (>= 0.13.4)"
 	],
-	"installedSize": 307,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 331,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Parser and evaluator for Rust `cfg()` expressions - Rust source code",
 	"homepage": "https://github.com/EmbarkStudios/cfg-expr",
-	"filename": "pool/main/r/rust-cfg-expr/librust-cfg-expr-dev_0.18.0-1+b1_amd64.deb",
-	"size": 43164,
-	"md5": "79e56ad4d242f9181767b1829e0aab88",
-	"sha256": "066467ea10f297286bb0efa07be550bf71f4d9dc6e9421be77704236bde89ea0",
+	"filename": "pool/main/r/rust-cfg-expr/librust-cfg-expr-dev_0.20.8-1_amd64.deb",
+	"size": 44120,
+	"md5": "860aa3496295b31d9dbc9ab0168772a9",
+	"sha256": "8b0c0b3b0cdeaa3720ad94b1ba2477a7be9f22b0fc0a9b38ee96280e8e9141e9",
 	"descriptionMd5": "938f48e0a925853e8a59a716fddb9ea4"
 }

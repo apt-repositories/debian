@@ -6,7 +6,7 @@
 	],
 	"package": "librust-quinn-proto-dev",
 	"source": "rust-quinn-proto",
-	"version": "0.11.14-1",
+	"version": "0.11.16-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,7 +15,8 @@
 		"librust-arbitrary-1+derive-dev (>= 1.0.1)",
 		"librust-bytes-1+default-dev",
 		"librust-lru-slab-0.1+default-dev (>= 0.1.2)",
-		"librust-rand-0.8+default-dev",
+		"librust-rand-0.10+default-dev (>= 0.10.1)",
+		"librust-rand-pcg-0.10+default-dev",
 		"librust-ring-0.17+default-dev",
 		"librust-rustc-hash-2+default-dev",
 		"librust-rustls-0.23+logging-dev (>= 0.23.5)",
@@ -29,13 +30,16 @@
 		"librust-tracing-0.1+log-dev (>= 0.1.10)",
 		"librust-tracing-0.1+std-dev (>= 0.1.10)"
 	],
-	"installedSize": 1106,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 1093,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "State machine for the QUIC transport protocol - Rust source code",
 	"homepage": "https://github.com/quinn-rs/quinn",
-	"filename": "pool/main/r/rust-quinn-proto/librust-quinn-proto-dev_0.11.14-1_amd64.deb",
-	"size": 190700,
-	"md5": "292f47f1c41f687e51bec8e1176d3716",
-	"sha256": "f443018e61613850184548388aa80de8e73e6bf39373b6919b13716800546f5e",
+	"filename": "pool/main/r/rust-quinn-proto/librust-quinn-proto-dev_0.11.16-1_amd64.deb",
+	"size": 189108,
+	"md5": "0fa211e4a8bb8990c3fbbe3289b94b46",
+	"sha256": "85827bf2607d6619fa64ecc3df4e9875efb56d904d32285cde6335fd1fb37132",
 	"descriptionMd5": "1be3279d43243393ed5e9d68be4361ee"
 }]

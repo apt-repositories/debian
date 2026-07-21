@@ -6,13 +6,13 @@
 	],
 	"package": "inwasm",
 	"source": "node-inwasm",
-	"version": "0.0.13~git20230419+dfsg-4",
+	"version": "0.1.2+dfsg-4",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"node-inwasm-runtime (= 0.1.2+dfsg-4)",
 		"clang | wabt | emscripten",
-		"node-inwasm-runtime",
 		"nodejs:any"
 	],
 	"recommends": [
@@ -23,13 +23,19 @@
 	"suggests": [
 		"emscripten"
 	],
-	"installedSize": 140,
+	"replaces": [
+		"node-inwasm-runtime (<< 0.1.2+dfsg-1~)"
+	],
+	"breaks": [
+		"node-inwasm-runtime (<< 0.1.2+dfsg-1~)"
+	],
+	"installedSize": 182,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Compiler part of InWasm, Inline WebAssembly for Typescript",
 	"homepage": "https://github.com/jerch/inwasm#readme",
-	"filename": "pool/main/n/node-inwasm/inwasm_0.0.13~git20230419+dfsg-4_all.deb",
-	"size": 23436,
-	"md5": "96d29890a1205c050f951901477fdbc3",
-	"sha256": "dd823e156fbd298447d6dca82595b6db75e096f7bde30d019a9ae9e4b2f55885",
+	"filename": "pool/main/n/node-inwasm/inwasm_0.1.2+dfsg-4_all.deb",
+	"size": 28192,
+	"md5": "1ed47255e272d2b7af79f396d9150c4a",
+	"sha256": "f81bb83dea806d66712528884a314ff354e4c6cdf03e026ddc942975d327a3f7",
 	"descriptionMd5": "27d0420a89d1b3b42ed2782d76cacf1d"
 }

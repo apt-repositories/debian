@@ -5,30 +5,34 @@
 		"Size"
 	],
 	"package": "librust-bon-macros-dev",
-	"source": "rust-bon-macros (3.7.1-1)",
-	"version": "3.7.1-1+b1",
+	"source": "rust-bon-macros",
+	"version": "3.9.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-darling-0.20+default-dev",
+		"librust-darling+default-dev (<< 0.24.0)",
+		"librust-darling+default-dev (>= 0.20.0)",
 		"librust-ident-case-1+default-dev",
 		"librust-prettyplease-0.2+default-dev",
-		"librust-proc-macro2-1+default-dev (>= 1.0.88-~~)",
+		"librust-proc-macro2-1+default-dev (>= 1.0.88)",
 		"librust-quote-1+default-dev",
-		"librust-rustversion-1+default-dev",
-		"librust-syn-2+default-dev (>= 2.0.56-~~)",
-		"librust-syn-2+full-dev (>= 2.0.56-~~)",
-		"librust-syn-2+visit-dev (>= 2.0.56-~~)",
-		"librust-syn-2+visit-mut-dev (>= 2.0.56-~~)"
+		"librust-rustversion-1+default-dev (>= 1.0.18)",
+		"librust-syn-2+default-dev (>= 2.0.56)",
+		"librust-syn-2+full-dev (>= 2.0.56)",
+		"librust-syn-2+visit-dev (>= 2.0.56)",
+		"librust-syn-2+visit-mut-dev (>= 2.0.56)"
 	],
-	"installedSize": 442,
+	"breaks": [
+		"rustc (<< 1.59.0~)"
+	],
+	"installedSize": 471,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Private Proc-macro crate for bon crate - Rust source code",
 	"homepage": "https://bon-rs.com/",
-	"filename": "pool/main/r/rust-bon-macros/librust-bon-macros-dev_3.7.1-1+b1_amd64.deb",
-	"size": 76304,
-	"md5": "d757033dcee222a9ab187f32911657fe",
-	"sha256": "96c6f0d44e37a89920bf1a09ea9b13b9598cae3fd007c79ffd0f4503e24b720c",
+	"filename": "pool/main/r/rust-bon-macros/librust-bon-macros-dev_3.9.3-1_amd64.deb",
+	"size": 83136,
+	"md5": "e94933b6195ee317403c6a9f1b2e08a1",
+	"sha256": "de81159df03346c105dc812da1ac5c9a70e95c056cf2303d8b353c4c32951fd2",
 	"descriptionMd5": "fa96b7eb8af72f998e37fa2d57cb62f8"
 }]

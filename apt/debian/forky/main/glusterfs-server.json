@@ -6,14 +6,16 @@
 	],
 	"package": "glusterfs-server",
 	"source": "glusterfs",
-	"version": "11.2-3",
+	"version": "11.2-4",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"glusterfs-cli (>= 11.2-3)",
-		"glusterfs-common (>= 11.2-3)",
-		"glusterfs-client (>= 11.2-3)"
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"glusterfs-cli (>= 11.2-4)",
+		"glusterfs-common (>= 11.2-4)",
+		"glusterfs-client (>= 11.2-4)",
+		"procps"
 	],
 	"recommends": [
 		"nfs-common"
@@ -22,9 +24,9 @@
 	"maintainer": "Patrick Matthäi <pmatthaei@debian.org>",
 	"description": "clustered file-system (server package)",
 	"homepage": "https://www.gluster.org/",
-	"filename": "pool/main/g/glusterfs/glusterfs-server_11.2-3_amd64.deb",
-	"size": 23556,
-	"md5": "b2fc570759abb9b95bca745fd87bfe0b",
-	"sha256": "8ed4c794744a4ee0209015c0b307b8dc369dcfc7f35b33456ebb7cc76c772b6f",
+	"filename": "pool/main/g/glusterfs/glusterfs-server_11.2-4_amd64.deb",
+	"size": 23580,
+	"md5": "cddc2a98176c170d66f69913d4553831",
+	"sha256": "1c2674dd6646b34f398430b32032e55d42457a8b8b8a9bb759335b1bc4d0b5af",
 	"descriptionMd5": "c794626fba7151e1b7574272e5d6d159"
 }
