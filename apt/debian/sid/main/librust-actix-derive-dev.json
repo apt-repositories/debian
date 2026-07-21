@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-actix-derive-dev",
-	"source": "rust-actix-derive (0.5.0-2)",
-	"version": "0.5.0-2+b2",
+	"source": "rust-actix-derive",
+	"version": "0.6.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
-		"librust-syn-1+default-dev",
-		"librust-syn-1+full-dev"
+		"librust-syn-2+default-dev",
+		"librust-syn-2+full-dev"
 	],
-	"installedSize": 45,
+	"breaks": [
+		"rustc (<< 1.72~)"
+	],
+	"installedSize": 58,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Actor framework for Rust - Rust source code",
-	"homepage": "https://github.com/actix/actix-derive/",
-	"filename": "pool/main/r/rust-actix-derive/librust-actix-derive-dev_0.5.0-2+b2_amd64.deb",
-	"size": 10572,
-	"md5": "6f2d575ae4a6cc2d7aeabc3375c9ee79",
-	"sha256": "b927b8efffec086df593d97d8a0315528543b8d00cea211ea0cb57adf9813668",
-	"descriptionMd5": "61062628ec43b552badefc24ac0c2528"
+	"description": "Derive macros for `actix` actors - Rust source code",
+	"homepage": "https://github.com/actix/actix",
+	"filename": "pool/main/r/rust-actix-derive/librust-actix-derive-dev_0.6.2-1_amd64.deb",
+	"size": 11932,
+	"md5": "87b356237024db5a3a1f2c5ef20f7ad4",
+	"sha256": "c547f10c7ab44270a1ab1ff208678b6ec3797e504445cf38e8603b9d2e6ab06f",
+	"descriptionMd5": "67a2ac40a8cab0e7ccb639059873da59"
 }

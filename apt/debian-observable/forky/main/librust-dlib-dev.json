@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "librust-dlib-dev",
-	"source": "rust-dlib (0.5.2-2)",
-	"version": "0.5.2-2+b1",
+	"source": "rust-dlib",
+	"version": "0.5.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-libloading-0+default-dev (>= 0.7-~~)"
+		"librust-libloading-0+default-dev (>= 0.7)"
 	],
-	"installedSize": 47,
+	"breaks": [
+		"rustc (<< 1.56~)"
+	],
+	"installedSize": 50,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Helper macros for handling manually loading optional system libraries - Rust source code",
-	"filename": "pool/main/r/rust-dlib/librust-dlib-dev_0.5.2-2+b1_amd64.deb",
-	"size": 8164,
-	"md5": "b8e36718c3d06d7698e9225f4dd8be00",
-	"sha256": "95a5461c828dc7e4bd1eb4bd8a7f1388b9abe033a127382ece249667abaaa40e",
+	"homepage": "https://github.com/elinorbgr/dlib",
+	"filename": "pool/main/r/rust-dlib/librust-dlib-dev_0.5.3-1_amd64.deb",
+	"size": 8428,
+	"md5": "8184c6b519f6cb012ce6d83221bde0f2",
+	"sha256": "39cfdb2a67155fa38fac58d9a35d3b1e07a09a4c45feba72967937acbf0d7ff4",
 	"descriptionMd5": "2bc22a2997832c2790b04bce2e8d1750"
 }]

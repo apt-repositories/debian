@@ -5,28 +5,32 @@
 		"Size"
 	],
 	"package": "librust-cpp-macros-dev",
-	"source": "rust-cpp-macros (0.5.9-1)",
-	"version": "0.5.9-1+b2",
+	"source": "rust-cpp-macros",
+	"version": "0.5.11-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-aho-corasick-1+default-dev",
 		"librust-byteorder-1+default-dev",
-		"librust-cpp-common-0.5.9+default-dev",
-		"librust-lazy-static-1+default-dev",
+		"librust-cpp-common-0.5+default-dev (<< 0.5.12)",
+		"librust-cpp-common-0.5+default-dev (>= 0.5.11)",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
 		"librust-syn-2+default-dev",
 		"librust-syn-2+full-dev",
 		"librust-syn-2+visit-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
 	"installedSize": 42,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Procedural macro implementation for the `cpp` crate - Rust source code",
-	"filename": "pool/main/r/rust-cpp-macros/librust-cpp-macros-dev_0.5.9-1+b2_amd64.deb",
-	"size": 9568,
-	"md5": "bf6c0dcfd3a16b453c7b39e35fe8ddb4",
-	"sha256": "42ed9bfdb223b0e0bf018e6a2e06569b9c4343408eb622380549e05e96da8002",
-	"descriptionMd5": "b04ea5e943d5ac61025a26441e99259e"
+	"homepage": "https://github.com/mystor/rust-cpp",
+	"filename": "pool/main/r/rust-cpp-macros/librust-cpp-macros-dev_0.5.11-1_amd64.deb",
+	"size": 9612,
+	"md5": "25c694bfe9415302d91e949c5d06994d",
+	"sha256": "1144be8833b555b1ae5507a5849ef4c3fb6ebc69ce1c6a9905676c034f1a8300",
+	"descriptionMd5": "5937e11fa3f3afecf54043daa17a8286"
 }]

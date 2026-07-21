@@ -5,27 +5,28 @@
 		"Size"
 	],
 	"package": "librust-darling-dev",
-	"source": "rust-darling (0.20.10-1)",
-	"version": "0.20.10-1+b1",
+	"source": "rust-darling",
+	"version": "0.23.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-darling-core-0.20.10+default-dev",
-		"librust-darling-macro-0.20.10+default-dev"
+		"librust-darling-core-0.23+default-dev (<< 0.23.1)",
+		"librust-darling-core-0.23+diagnostics-dev (<< 0.23.1)",
+		"librust-darling-core-0.23+serde-dev (<< 0.23.1)",
+		"librust-darling-core-0.23+suggestions-dev (<< 0.23.1)",
+		"librust-darling-macro-0.23+default-dev (<< 0.23.1)"
 	],
-	"recommends": [
-		"librust-darling+suggestions-dev (= 0.20.10-1+b1)"
+	"breaks": [
+		"rustc (<< 1.88.0~)"
 	],
-	"suggests": [
-		"librust-darling+diagnostics-dev (= 0.20.10-1+b1)"
-	],
-	"installedSize": 167,
+	"installedSize": 226,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "proc-macro library for reading attributes into structs - Rust source code",
-	"filename": "pool/main/r/rust-darling/librust-darling-dev_0.20.10-1+b1_amd64.deb",
-	"size": 35616,
-	"md5": "0d38004ed5cdf0fc582387b7f596c52e",
-	"sha256": "2ecf4861bafc75bc0839b74e532568e818cd231c8c78cc1395282d7a538354e2",
+	"homepage": "https://github.com/TedDriggs/darling",
+	"filename": "pool/main/r/rust-darling/librust-darling-dev_0.23.0-1_amd64.deb",
+	"size": 45312,
+	"md5": "f3fa0c2d38708e34b469e70f0a0b5b08",
+	"sha256": "70fab59f9abf9ac2b1233db599fb0572208f93e6891c5dd7a4fdfc45e3952a60",
 	"descriptionMd5": "d30b940c4cb15641483b6555138396d2"
 }
