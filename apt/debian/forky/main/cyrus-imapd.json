@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "cyrus-imapd",
-	"version": "3.12.2-1",
+	"version": "3.12.3-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"cyrus-common (= 3.12.2-1)",
+		"cyrus-common (= 3.12.3-1)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libcom-err2 (>= 1.43.9)",
 		"libjansson4 (>= 2.14)",
@@ -26,13 +27,13 @@
 	"conflicts": [
 		"imap-server"
 	],
-	"installedSize": 528,
+	"installedSize": 533,
 	"maintainer": "Debian Cyrus Team <team+cyrus@tracker.debian.org>",
 	"description": "Cyrus mail system - IMAP support",
 	"homepage": "https://www.cyrusimap.org/",
-	"filename": "pool/main/c/cyrus-imapd/cyrus-imapd_3.12.2-1_amd64.deb",
-	"size": 222040,
-	"md5": "97132b99d1e247ddac86cdff43f474d5",
-	"sha256": "5003b5d4bfabcc0b8d6d7b6ce20e3d95b4a0002683a59a854236781647b37b7a",
+	"filename": "pool/main/c/cyrus-imapd/cyrus-imapd_3.12.3-1_amd64.deb",
+	"size": 222804,
+	"md5": "c3ee6374f5661b24b0c3f8b78dff1418",
+	"sha256": "453a8739e37dc69f1a66a1ab1d2f5f91b92a09a87162bcae61200bb91a0d8f9b",
 	"descriptionMd5": "2013b72b2b05fdd34a3b3dd1c1ba084e"
 }

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-utils",
+	"source": "qemu",
+	"version": "1:11.0.2+ds-2~bpo13+1",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1t64 (>= 0.3.93)",
+		"libc6 (>= 2.38)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libglib2.0-0t64 (>= 2.78.0)",
+		"libgnutls30t64 (>= 3.8.2)",
+		"libnuma1 (>= 2.0.11)",
+		"libselinux1 (>= 3.1~)",
+		"liburing2 (>= 2.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"qemu-block-extra (= 1:11.0.2+ds-2~bpo13+1)"
+	],
+	"replaces": [
+		"qemu-system-common (<< 1:8.0+dfsg-5~)"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:8.0+dfsg-5~)"
+	],
+	"installedSize": 12233,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU utilities",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-utils_11.0.2+ds-2~bpo13+1_amd64.deb",
+	"size": 1972708,
+	"sha256": "92f072563f279ed234c80600674a1aff59a6f7ee110563002012eae098cc4f8a",
+	"descriptionMd5": "e9a53dad71a4086bf8884b2795d9f180"
+}

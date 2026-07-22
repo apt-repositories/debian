@@ -5,27 +5,31 @@
 		"Size"
 	],
 	"package": "stubble",
-	"version": "9-2",
+	"version": "10-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"python3:any",
-		"python3-libfdt"
+		"python3-libfdt",
+		"python3-pefile",
+		"python3-zstandard"
 	],
-	"suggests": [
-		"systemd-ukify"
+	"recommends": [
+		"python3-cryptography",
+		"python3-lz4",
+		"sbsigntool | pesign"
 	],
 	"conflicts": [
 		"stubble-kernel (<< 7-1)"
 	],
-	"installedSize": 194,
+	"installedSize": 294,
 	"maintainer": "Tobias Heider <tobias.heider@canonical.com>",
 	"description": "UEFI kernel stub with device-tree loading capability",
 	"homepage": "https://github.com/ubuntu/stubble",
-	"filename": "pool/main/s/stubble/stubble_9-2_amd64.deb",
-	"size": 37476,
-	"md5": "3c53cb015a3a04e68f7e28e7eb9cc9f1",
-	"sha256": "bb71b3b1fc8988ff369c8987bccf77cf0acde7315bfe1550ded718857dc1d8b3",
+	"filename": "pool/main/s/stubble/stubble_10-1_amd64.deb",
+	"size": 62216,
+	"md5": "ca26c1c727358173d901b97f62f5d7e5",
+	"sha256": "368f7b05b91edade584f3269cb5d34944b63f77e4e9520ffcec66c92dbb45d1e",
 	"descriptionMd5": "a94905e4cb4fef9e4cdd7e5e7d7939b0"
 }]

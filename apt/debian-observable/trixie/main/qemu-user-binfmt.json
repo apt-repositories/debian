@@ -6,6 +6,39 @@
 	],
 	"package": "qemu-user-binfmt",
 	"source": "qemu",
+	"version": "1:11.0.2+ds-2~bpo13+1",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"qemu-user (= 1:11.0.2+ds-2~bpo13+1)",
+		"native-architecture"
+	],
+	"recommends": [
+		"systemd"
+	],
+	"replaces": [
+		"qemu-user-static (<< 1:9.1.0)"
+	],
+	"breaks": [
+		"qemu-user-static"
+	],
+	"installedSize": 39,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU user mode binfmt registration for qemu-user",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-user-binfmt_11.0.2+ds-2~bpo13+1_amd64.deb",
+	"size": 1784,
+	"sha256": "c0a011fc2f65380bb724d01d24742e2159b149ea791f5ce7e54620d88c807dc4",
+	"descriptionMd5": "e64f16d60c78a6797d7047057c0d93fd"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-binfmt",
+	"source": "qemu",
 	"version": "1:10.0.11+ds-0+deb13u1",
 	"section": "otherosfs",
 	"priority": "optional",

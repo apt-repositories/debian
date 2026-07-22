@@ -65,8 +65,80 @@
 	"maintainer": "Debian Roundcube Maintainers <pkg-roundcube-maintainers@alioth-lists.debian.net>",
 	"description": "skinnable AJAX based webmail solution for IMAP servers",
 	"homepage": "https://www.roundcube.net/",
-	"filename": "pool/updates/main/r/roundcube/roundcube-core_1.6.5+dfsg-1+deb12u9_all.deb",
+	"filename": "pool/main/r/roundcube/roundcube-core_1.6.5+dfsg-1+deb12u9_all.deb",
 	"size": 4700828,
+	"md5": "2b32e319641fafaf3582f5d72af70641",
 	"sha256": "36c9f6d29e2eb16a3cd202c1ec165c449a24e455125c2ac5187b76d442104aa0",
+	"descriptionMd5": "070b49746ffa5175d706c57880b405e7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "roundcube-core",
+	"source": "roundcube",
+	"version": "1.6.5+dfsg-1+deb12u10",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-common",
+		"debconf",
+		"libjs-bootstrap4 (>= 4.5.2~)",
+		"libjs-codemirror (>= 5.58.3~)",
+		"libjs-jquery (>= 3.5.1~)",
+		"libjs-jquery-minicolors (>= 2.2.6~)",
+		"libjs-jquery-ui (>= 1.12.0~)",
+		"libjs-jstimezonedetect (>= 1.0.6~)",
+		"libmagic1",
+		"php",
+		"php-cli",
+		"php-intl",
+		"php-json",
+		"php-mbstring",
+		"php-pear (>= 1:1.10.1)",
+		"roundcube-mysql (= 1.6.5+dfsg-1+deb12u10) | roundcube-sqlite3 (= 1.6.5+dfsg-1+deb12u10) | roundcube-pgsql (= 1.6.5+dfsg-1+deb12u10)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"php-common",
+		"php-auth-sasl (>= 1.1.0)",
+		"php-mail-mime (>= 1.10.0)",
+		"php-net-smtp (>= 1.10.0)",
+		"php-net-sieve (>= 1.4.5)",
+		"php-masterminds-html5 (>= 2.7.0)",
+		"php-guzzlehttp-guzzle (>= 7.3.0)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.14)"
+	],
+	"recommends": [
+		"apache2 | lighttpd | spawn-fcgi | php-fpm | httpd-cgi",
+		"php-enchant",
+		"php-gd",
+		"roundcube-skin-classic",
+		"roundcube-skin-larry"
+	],
+	"suggests": [
+		"roundcube-plugins",
+		"php-crypt-gpg (>= 1.6.3)",
+		"php-bacon-qr-code (>= 2.0.0)",
+		"php-roundcube-rtf-html-php (>= 2.1)",
+		"php-net-ldap3 (>= 1.1.1)",
+		"php-bjeavons-zxcvbn-php"
+	],
+	"replaces": [
+		"roundcube-plugins-extra (<= 0.6-20111030)"
+	],
+	"breaks": [
+		"roundcube-plugins-extra (<= 0.6-20111030)"
+	],
+	"installedSize": 20637,
+	"maintainer": "Debian Roundcube Maintainers <pkg-roundcube-maintainers@alioth-lists.debian.net>",
+	"description": "skinnable AJAX based webmail solution for IMAP servers",
+	"homepage": "https://www.roundcube.net/",
+	"filename": "pool/updates/main/r/roundcube/roundcube-core_1.6.5+dfsg-1+deb12u10_all.deb",
+	"size": 4700540,
+	"sha256": "70c0c8bef6c2015b378fa8e224dd43afc98198ba3e0efc68be3cd27d21296cee",
 	"descriptionMd5": "070b49746ffa5175d706c57880b405e7"
 }]
