@@ -5,22 +5,26 @@
 		"Size"
 	],
 	"package": "librust-blowfish-dev",
-	"source": "rust-blowfish (0.9.1-1)",
-	"version": "0.9.1-1+b2",
+	"source": "rust-blowfish",
+	"version": "0.10.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-byteorder-1-dev (>= 1.1-~~)",
-		"librust-cipher-0.4+default-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+zeroize-dev (>= 0.4.2-~~)"
+		"librust-byteorder-1-dev (>= 1.1)",
+		"librust-cipher-0.5+default-dev",
+		"librust-cipher-0.5+zeroize-dev"
 	],
-	"installedSize": 62,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 66,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Blowfish block cipher - Rust source code",
-	"filename": "pool/main/r/rust-blowfish/librust-blowfish-dev_0.9.1-1+b2_amd64.deb",
-	"size": 17092,
-	"md5": "7cf293830da92c9e636657b1b9943703",
-	"sha256": "b8a17be5976bdadfc121bb143420f34a7f1c576f58a9557cfe487a734b3f5dfa",
-	"descriptionMd5": "7b2fe45b67e7bcfa9cf97ecd32a189c8"
+	"homepage": "https://github.com/RustCrypto/block-ciphers",
+	"filename": "pool/main/r/rust-blowfish/librust-blowfish-dev_0.10.0-1_amd64.deb",
+	"size": 18376,
+	"md5": "232c3bd37fbac3b49ffed80defb4d83e",
+	"sha256": "48bd34620496146fb808b38bc230e3307bdf695782e19e58745dc84f827a8cc7",
+	"descriptionMd5": "23fda656c8231cc97ed7b2431cd0593e"
 }]

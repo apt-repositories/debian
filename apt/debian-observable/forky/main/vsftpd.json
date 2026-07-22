@@ -5,13 +5,15 @@
 		"Size"
 	],
 	"package": "vsftpd",
-	"version": "3.0.5-0.7",
+	"version": "3.0.5-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"adduser",
 		"debconf (>= 0.5) | debconf-2.0",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libcap2 (>= 1:2.10)",
 		"libpam0g (>= 0.99.7.1)",
@@ -23,7 +25,6 @@
 		"sysvinit-utils (>= 2.96)"
 	],
 	"recommends": [
-		"adduser",
 		"logrotate",
 		"ssl-cert"
 	],
@@ -33,13 +34,13 @@
 	"conflicts": [
 		"ftp-server"
 	],
-	"installedSize": 357,
+	"installedSize": 358,
 	"maintainer": "Keng-Yu Lin <kengyu@debian.org>",
 	"description": "lightweight, efficient FTP server written for security",
 	"homepage": "https://security.appspot.com/vsftpd.html",
-	"filename": "pool/main/v/vsftpd/vsftpd_3.0.5-0.7_amd64.deb",
-	"size": 143400,
-	"md5": "b653b42b139d082bf0d943d6fe45ce2c",
-	"sha256": "4f19e9d3e81aaf26c2e8a1f504778adcd92e3c3bd944c25837bc63100e850633",
+	"filename": "pool/main/v/vsftpd/vsftpd_3.0.5-1_amd64.deb",
+	"size": 144676,
+	"md5": "ba6f78b1851f2d5be370863bb783fefe",
+	"sha256": "bb3b585b700eca8131d4e957a754aecb0e64dbaa27b79ee1914ef0cbfda0e9a9",
 	"descriptionMd5": "81386f72ac91a5ea48f8db0b023f3f9b"
 }]

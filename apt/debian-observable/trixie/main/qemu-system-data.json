@@ -6,6 +6,34 @@
 	],
 	"package": "qemu-system-data",
 	"source": "qemu",
+	"version": "1:11.0.2+ds-2~bpo13+1",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "all",
+	"replaces": [
+		"qemu-system-common (<< 1:8.2.2+ds-1~)"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:8.2.2+ds-1~)",
+		"qemu-system-misc (<< 1:9.1.1+ds-1~)",
+		"qemu-system-s390x (<< 1:9.2.0~)"
+	],
+	"installedSize": 19463,
+	"maintainer": "Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>",
+	"description": "QEMU full system emulation (data files)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-data_11.0.2+ds-2~bpo13+1_all.deb",
+	"size": 2233276,
+	"sha256": "e57eb52460d0dc1e1a146c47455d1b324be9bbaf9279d70781c6ac688cb8a614",
+	"descriptionMd5": "c61105eaa5edddd1459bc7ebfd8348d6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-data",
+	"source": "qemu",
 	"version": "1:10.0.11+ds-0+deb13u1",
 	"section": "otherosfs",
 	"priority": "optional",

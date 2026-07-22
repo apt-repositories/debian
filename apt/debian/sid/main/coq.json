@@ -5,44 +5,38 @@
 		"Size"
 	],
 	"package": "coq",
-	"source": "coq (8.20.1+dfsg-1)",
-	"version": "8.20.1+dfsg-1+b4",
+	"source": "coq (9.2.0+dfsg-2)",
+	"version": "9.2.0+dfsg-2+b1",
 	"section": "math",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libcoq-stdlib (= 8.20.1+dfsg-1+b4)",
-		"libcoq-core-ocaml-u8uq8",
+		"libcoq-core (= 9.2.0+dfsg-2+b1)",
+		"libcoq-core-ocaml-zcpg4",
 		"libfindlib-ocaml-hz390",
 		"libstdlib-ocaml-1ltp0",
 		"libzarith-ocaml-igxp5",
 		"ocaml-base-5.4.1",
-		"python3:any",
 		"libc6 (>= 2.42)",
 		"libgmp10 (>= 2:6.3.0+dfsg)",
 		"ocaml",
-		"ocaml-findlib"
+		"ocaml-findlib",
+		"python3"
 	],
 	"suggests": [
-		"coqide | proofgeneral",
+		"rocqide | proofgeneral",
 		"ledit | readline-editor",
 		"libcoq-core-ocaml-dev",
-		"why (>= 2.19)",
+		"why3",
 		"coq-doc"
 	],
-	"replaces": [
-		"coq-libs (<< 8.2.pl1)"
-	],
-	"breaks": [
-		"coq-libs (<< 8.2.pl1)"
-	],
-	"installedSize": 258885,
+	"installedSize": 166097,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
 	"description": "proof assistant for higher-order logic (toplevel and compiler)",
 	"homepage": "http://coq.inria.fr/",
-	"filename": "pool/main/c/coq/coq_8.20.1+dfsg-1+b4_amd64.deb",
-	"size": 71111940,
-	"md5": "42f6858453b08286e7d181edcdd7d740",
-	"sha256": "c77cadfd759de7c0f6c1dec7b907751188e34612eb17c9d1d4a885c32fd91b3e",
+	"filename": "pool/main/c/coq/coq_9.2.0+dfsg-2+b1_amd64.deb",
+	"size": 41138392,
+	"md5": "e1cb43aefd1182fabb7b6d557f3c68ed",
+	"sha256": "afbc4c06a680af27f0e95bde7c59e689afba29e7ffc7ade0244085f5f5fad0f5",
 	"descriptionMd5": "2c4259e8b83c839ff539d48b854ee31a"
 }
