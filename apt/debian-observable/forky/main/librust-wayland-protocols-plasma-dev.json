@@ -5,28 +5,31 @@
 		"Size"
 	],
 	"package": "librust-wayland-protocols-plasma-dev",
-	"source": "rust-wayland-protocols-plasma (0.3.6-1)",
-	"version": "0.3.6-1+b1",
+	"source": "rust-wayland-protocols-plasma",
+	"version": "0.3.12+dfsg-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bitflags-2+default-dev",
-		"librust-wayland-backend-0.3+default-dev (>= 0.3.8-~~)",
-		"librust-wayland-client-0.31+default-dev (>= 0.31.8-~~)",
-		"librust-wayland-protocols-0.32+client-dev (>= 0.32.6-~~)",
-		"librust-wayland-protocols-0.32+default-dev (>= 0.32.6-~~)",
-		"librust-wayland-protocols-0.32+server-dev (>= 0.32.6-~~)",
-		"librust-wayland-scanner-0.31+default-dev (>= 0.31.6-~~)",
-		"librust-wayland-server-0.31+default-dev (>= 0.31.7-~~)"
+		"librust-wayland-backend-0.3+default-dev (>= 0.3.15)",
+		"librust-wayland-client-0.31+default-dev (>= 0.31.14)",
+		"librust-wayland-protocols-0.32+client-dev (>= 0.32.12)",
+		"librust-wayland-protocols-0.32+default-dev (>= 0.32.12)",
+		"librust-wayland-protocols-0.32+server-dev (>= 0.32.12)",
+		"librust-wayland-scanner-0.31+default-dev (>= 0.31.10)",
+		"librust-wayland-server-0.31+default-dev (>= 0.31.13)"
 	],
-	"installedSize": 300,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 332,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generated API for the Plasma wayland protocol extensions - Rust source code",
 	"homepage": "https://github.com/smithay/wayland-rs",
-	"filename": "pool/main/r/rust-wayland-protocols-plasma/librust-wayland-protocols-plasma-dev_0.3.6-1+b1_amd64.deb",
-	"size": 50732,
-	"md5": "c34f860fefffacc36f8b190ae089ad17",
-	"sha256": "91cfe65738128fac98e3cf4e6b3e13981fa2277382c99e1cd85be1dfa5c8e67c",
+	"filename": "pool/main/r/rust-wayland-protocols-plasma/librust-wayland-protocols-plasma-dev_0.3.12+dfsg-1_amd64.deb",
+	"size": 54356,
+	"md5": "5e0d61659bbe604d12a0cb7e74f2849c",
+	"sha256": "51208c99d95c3ba7f1e9f0d754f1a280b9232ce33e9a3b2e2c036855fa38b486",
 	"descriptionMd5": "06f5a256d6d1e18cc40a768a6a79a0af"
 }]

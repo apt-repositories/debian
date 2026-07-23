@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "openvpn3-client",
-	"version": "27+dfsg-1",
+	"version": "27.1+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libcap-ng0 (>= 0.7.9)",
 		"libgcc-s1 (>= 3.0)",
@@ -29,13 +30,13 @@
 		"libuuid1 (>= 2.20.1)",
 		"python3:any"
 	],
-	"installedSize": 9698,
+	"installedSize": 9758,
 	"maintainer": "Marc Leeman <marc.leeman@gmail.com>",
 	"description": "virtual private network client (version 3)",
 	"homepage": "https://codeberg.org/OpenVPN/openvpn3-linux",
-	"filename": "pool/main/o/openvpn3-client/openvpn3-client_27+dfsg-1_amd64.deb",
-	"size": 2244960,
-	"md5": "c40ff4d5003d821ab2fcb1a6b88d48e3",
-	"sha256": "d01780ed0402a9b0ee8c55e9e8621aa82261f1956853d06866eb7010ff18abe8",
+	"filename": "pool/main/o/openvpn3-client/openvpn3-client_27.1+dfsg-1_amd64.deb",
+	"size": 2249684,
+	"md5": "bc0a0f5dc1c1f20e7d4a84f4c7fc16b6",
+	"sha256": "c537bf13d60938935b0463769f02ae061a0ace72de261559b14b5f7d1e4bb018",
 	"descriptionMd5": "cfaec8a840679a42e9530b37316c5c8f"
 }

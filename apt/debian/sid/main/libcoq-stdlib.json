@@ -5,30 +5,24 @@
 		"Size"
 	],
 	"package": "libcoq-stdlib",
-	"source": "coq (8.20.1+dfsg-1)",
-	"version": "8.20.1+dfsg-1+b4",
+	"source": "rocq-stdlib",
+	"version": "9.1.0-2",
 	"section": "math",
 	"priority": "optional",
 	"architecture": "amd64",
+	"depends": [
+		"libcoq-core-x2fp4"
+	],
 	"recommends": [
 		"coq"
 	],
-	"replaces": [
-		"coq-libs (<< 8.2.pl1)",
-		"coq-theories"
-	],
-	"breaks": [
-		"coq-doc (<= 8.0pl1.0-2)",
-		"coq-libs (<< 8.2.pl1)",
-		"coq-theories"
-	],
-	"installedSize": 146161,
+	"installedSize": 70705,
 	"maintainer": "Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>",
-	"description": "proof assistant for higher-order logic (theories)",
-	"homepage": "http://coq.inria.fr/",
-	"filename": "pool/main/c/coq/libcoq-stdlib_8.20.1+dfsg-1+b4_amd64.deb",
-	"size": 23525832,
-	"md5": "1dab3c5b1829826507020794fe63339b",
-	"sha256": "83afb47612b4d444c846bbbf4f3490b620549b87356858b59a9b853f0a1ebe2f",
-	"descriptionMd5": "9e601d42ac375ebc4cb75dff6e4c368e"
+	"description": "Standard library for the Rocq Theorem Prover",
+	"homepage": "https://rocq-prover.org",
+	"filename": "pool/main/r/rocq-stdlib/libcoq-stdlib_9.1.0-2_amd64.deb",
+	"size": 20078312,
+	"md5": "910e9c610a06775257248dec14b604c6",
+	"sha256": "9819c325d808363fa32d5cec7ceda2158249cc72c28afee65916cba7f9b308a5",
+	"descriptionMd5": "0b24e694693db60c1cd6cd2d76d1f65f"
 }

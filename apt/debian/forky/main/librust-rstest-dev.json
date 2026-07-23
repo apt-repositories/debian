@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rstest-dev",
 	"source": "rust-rstest",
-	"version": "0.26.1-2",
+	"version": "0.26.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-rstest-macros-0.26+crate-name-dev (>= 0.26.1)",
 		"librust-rstest-macros-0.26-dev (>= 0.26.1)"
 	],
-	"installedSize": 309,
+	"breaks": [
+		"rustc (<< 1.70.0~)"
+	],
+	"installedSize": 310,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust fixture based test framework - Rust source code",
 	"homepage": "https://github.com/la10736/rstest",
-	"filename": "pool/main/r/rust-rstest/librust-rstest-dev_0.26.1-2_amd64.deb",
-	"size": 45608,
-	"md5": "bfb9db77e8e972cd28c31ebc71251006",
-	"sha256": "7c6556dd0941bfc8839999e4e9008379b5527d92c6fe12d207711f261c1e4170",
+	"filename": "pool/main/r/rust-rstest/librust-rstest-dev_0.26.1-3_amd64.deb",
+	"size": 46004,
+	"md5": "664b67db48218ab86551686c2de29695",
+	"sha256": "3f8d08ddd12cae96010fc07d88270404a7cea3dfb6644aff90bc0526338edd13",
 	"descriptionMd5": "28b5abb923f9ce70b38a7a1a45d44a46"
 }

@@ -5,14 +5,16 @@
 		"Size"
 	],
 	"package": "librust-target-spec-dev",
-	"source": "rust-target-spec (3.5.7-1)",
-	"version": "3.5.7-1+b1",
+	"source": "rust-target-spec",
+	"version": "3.5.7-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cfg-expr-0.18+default-dev",
-		"librust-cfg-expr-0.18+targets-dev",
+		"librust-cfg-expr+default-dev (<< 0.21)",
+		"librust-cfg-expr+default-dev (>= 0.18)",
+		"librust-cfg-expr+targets-dev (<< 0.21)",
+		"librust-cfg-expr+targets-dev (>= 0.18)",
 		"librust-proptest-1+default-dev (>= 1.7.0)",
 		"librust-serde-1+default-dev (>= 1.0.228)",
 		"librust-serde-1+derive-dev (>= 1.0.228)",
@@ -20,13 +22,16 @@
 		"librust-target-lexicon-0.13+default-dev (>= 0.13.2)",
 		"librust-target-lexicon-0.13+std-dev (>= 0.13.2)"
 	],
-	"installedSize": 150,
+	"breaks": [
+		"rustc (<< 1.86~)"
+	],
+	"installedSize": 149,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Evaluate Cargo.toml target specifications - Rust source code",
 	"homepage": "https://github.com/guppy-rs/guppy",
-	"filename": "pool/main/r/rust-target-spec/librust-target-spec-dev_3.5.7-1+b1_amd64.deb",
-	"size": 31068,
-	"md5": "5f6e00fe871320ac0c050dbd3a7a999c",
-	"sha256": "6d1909e1b1341e88e9a495aabd38278f110380830eaa55528d84ba0f5fe2a6f0",
+	"filename": "pool/main/r/rust-target-spec/librust-target-spec-dev_3.5.7-2_amd64.deb",
+	"size": 30936,
+	"md5": "f6b93a147e43d62f664319c4e3474146",
+	"sha256": "f96860e195a949d13e825f3c345f422f4a0bc6d3d65809e695c683d091e4cb78",
 	"descriptionMd5": "46283a3be45e900ec82e202e87b73513"
 }]

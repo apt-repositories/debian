@@ -6,24 +6,26 @@
 	],
 	"package": "librust-ammonia-dev",
 	"source": "rust-ammonia",
-	"version": "4.1.2-2",
+	"version": "4.1.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cssparser-0.31+default-dev (>= 0.31.2)",
+		"librust-cssparser-0.31-dev",
 		"librust-html5ever-0.35+default-dev",
 		"librust-maplit-1+default-dev",
-		"librust-tendril-0.4+default-dev",
 		"librust-url-2+default-dev"
 	],
-	"installedSize": 261,
+	"breaks": [
+		"rustc (<< 1.80~)"
+	],
+	"installedSize": 271,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "HTML Sanitization - Rust source code",
 	"homepage": "https://github.com/rust-ammonia/ammonia",
-	"filename": "pool/main/r/rust-ammonia/librust-ammonia-dev_4.1.2-2_amd64.deb",
-	"size": 52080,
-	"md5": "858937adf1276f6f942b2b8996b25c84",
-	"sha256": "e301eadc485a0b3d572ae909e71edd86587b2cb5d39e5a93cdaf8f3774618a02",
+	"filename": "pool/main/r/rust-ammonia/librust-ammonia-dev_4.1.3-1_amd64.deb",
+	"size": 53752,
+	"md5": "52db224af98dec37f4371962ff52ff19",
+	"sha256": "2b8747ff4af41d88ef05459bce44bd0ec0b19f6961729e9a094f86c3a070dbe3",
 	"descriptionMd5": "2d9fabd06a365443c30ce1cac38b05d6"
 }

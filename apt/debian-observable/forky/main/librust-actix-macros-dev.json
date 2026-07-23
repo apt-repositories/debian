@@ -5,22 +5,26 @@
 		"Size"
 	],
 	"package": "librust-actix-macros-dev",
-	"source": "rust-actix-macros (0.2.3-1)",
-	"version": "0.2.3-1+b2",
+	"source": "rust-actix-macros",
+	"version": "0.2.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-quote-1+default-dev (>= 1.0.3-~~)",
-		"librust-syn-1+default-dev",
-		"librust-syn-1+full-dev"
+		"librust-quote-1+default-dev",
+		"librust-syn-2+default-dev",
+		"librust-syn-2+full-dev"
 	],
-	"installedSize": 65,
+	"breaks": [
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 66,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Macros for Actix system and runtime - Rust source code",
-	"filename": "pool/main/r/rust-actix-macros/librust-actix-macros-dev_0.2.3-1+b2_amd64.deb",
-	"size": 11244,
-	"md5": "4f09543bdb8cf40840c1335b788b2044",
-	"sha256": "546a2f2a6fcf247140a0f6a360417205f32cc7f5c125d56510ebe71eb681e7cb",
-	"descriptionMd5": "fa21d134ad927ff5a6a1e926a0dc3cf0"
+	"homepage": "https://github.com/actix/actix-net.git",
+	"filename": "pool/main/r/rust-actix-macros/librust-actix-macros-dev_0.2.4-1_amd64.deb",
+	"size": 11308,
+	"md5": "89df157b6e5b948da053b0050cc5dad9",
+	"sha256": "d26937dee951b31b5dc0ba328ca4924039a3163350ff0edc4a8f75c535e7e895",
+	"descriptionMd5": "540a18612a2ab42b535a3316c4ad6ffd"
 }]
