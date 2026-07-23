@@ -5,32 +5,37 @@
 		"Size"
 	],
 	"package": "librust-actix-server-dev",
-	"source": "rust-actix-server (2.6.0-1)",
-	"version": "2.6.0-1+b1",
+	"source": "rust-actix-server",
+	"version": "2.6.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-actix-rt-2+io-uring-dev",
 		"librust-actix-rt-2-dev",
 		"librust-actix-service-2+default-dev",
 		"librust-actix-utils-3+default-dev",
-		"librust-futures-core-0.3+alloc-dev (>= 0.3.17-~~)",
-		"librust-futures-util-0.3+alloc-dev (>= 0.3.17-~~)",
+		"librust-futures-core-0.3+alloc-dev (>= 0.3.17)",
+		"librust-futures-util-0.3+alloc-dev (>= 0.3.17)",
 		"librust-mio-1+default-dev",
 		"librust-mio-1+net-dev",
 		"librust-mio-1+os-poll-dev",
 		"librust-socket2-0.5+default-dev",
-		"librust-tokio-1+default-dev (>= 1.44.2-~~)",
-		"librust-tokio-1+sync-dev (>= 1.44.2-~~)",
-		"librust-tracing-0.1+log-dev (>= 0.1.30-~~)"
+		"librust-tokio-1+default-dev (>= 1.44.2)",
+		"librust-tokio-1+sync-dev (>= 1.44.2)",
+		"librust-tokio-uring-0.5+default-dev",
+		"librust-tracing-0.1+log-dev (>= 0.1.30)"
+	],
+	"breaks": [
+		"rustc (<< 1.74~)"
 	],
 	"installedSize": 179,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "General purpose TCP server built for the Actix ecosystem - Rust source code",
 	"homepage": "https://actix.rs",
-	"filename": "pool/main/r/rust-actix-server/librust-actix-server-dev_2.6.0-1+b1_amd64.deb",
-	"size": 37752,
-	"md5": "d882461732af99b8a403d39acd9694c3",
-	"sha256": "6f1118ccd4c960cdf05a5ace091ff3ada5c937a2f5060e43ac03a6ff49a67130",
+	"filename": "pool/main/r/rust-actix-server/librust-actix-server-dev_2.6.0-2_amd64.deb",
+	"size": 37612,
+	"md5": "b0caee52cebee7d422259f4838cda155",
+	"sha256": "6c685ccb2f33919a6c08a3e12e34aeefd244f56bccb9840d62ec8f994a0d23d4",
 	"descriptionMd5": "02d70961ebe0e6e345eb24c2a4170d28"
 }

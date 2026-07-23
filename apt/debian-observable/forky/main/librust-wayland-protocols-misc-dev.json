@@ -5,29 +5,32 @@
 		"Size"
 	],
 	"package": "librust-wayland-protocols-misc-dev",
-	"source": "rust-wayland-protocols-misc (0.3.9-1)",
-	"version": "0.3.9-1+b1",
+	"source": "rust-wayland-protocols-misc",
+	"version": "0.3.12-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bitflags-2+default-dev",
-		"librust-wayland-backend-0.3+default-dev (>= 0.3.11-~~)",
-		"librust-wayland-client-0.31+default-dev (>= 0.31.11-~~)",
+		"librust-wayland-backend-0.3+default-dev (>= 0.3.15)",
+		"librust-wayland-client-0.31+default-dev (>= 0.31.14)",
 		"librust-wayland-protocols-0.32+client-dev",
 		"librust-wayland-protocols-0.32+default-dev",
 		"librust-wayland-protocols-0.32+server-dev",
 		"librust-wayland-protocols-0.32+unstable-dev",
-		"librust-wayland-scanner-0.31+default-dev (>= 0.31.7-~~)",
-		"librust-wayland-server-0.31+default-dev (>= 0.31.10-~~)"
+		"librust-wayland-scanner-0.31+default-dev (>= 0.31.10)",
+		"librust-wayland-server-0.31+default-dev (>= 0.31.13)"
 	],
-	"installedSize": 82,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 81,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generated API for misc and deprecated wayland protocol extensions - Rust source code",
 	"homepage": "https://github.com/smithay/wayland-rs",
-	"filename": "pool/main/r/rust-wayland-protocols-misc/librust-wayland-protocols-misc-dev_0.3.9-1+b1_amd64.deb",
-	"size": 15640,
-	"md5": "4c62364b0f2f38daa38138ac730ea0cd",
-	"sha256": "6d8f3ea4835c4cb667f76129017853345fac0546de5ab77216c548dbaefd943a",
+	"filename": "pool/main/r/rust-wayland-protocols-misc/librust-wayland-protocols-misc-dev_0.3.12-1_amd64.deb",
+	"size": 15460,
+	"md5": "b5a190bd2b49636a5614faaa78735250",
+	"sha256": "7b849c1eb73d4116d3b8aab980abdfa98ca50ed6f167e12ea951435ebe73748a",
 	"descriptionMd5": "7e0f24eda4367b6499a6b138e935da37"
 }]

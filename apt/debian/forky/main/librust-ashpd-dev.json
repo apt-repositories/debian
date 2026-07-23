@@ -6,7 +6,7 @@
 	],
 	"package": "librust-ashpd-dev",
 	"source": "rust-ashpd",
-	"version": "0.13.11-2",
+	"version": "0.13.13-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -40,13 +40,16 @@
 		"librust-zbus-5+tokio-dev (>= 5.13)",
 		"librust-zbus-5-dev (>= 5.13)"
 	],
-	"installedSize": 714,
+	"breaks": [
+		"rustc (<< 1.87~)"
+	],
+	"installedSize": 718,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "XDG portals wrapper in Rust using zbus - Rust source code",
 	"homepage": "https://github.com/bilelmoussaoui/ashpd",
-	"filename": "pool/main/r/rust-ashpd/librust-ashpd-dev_0.13.11-2_amd64.deb",
-	"size": 97768,
-	"md5": "8b3f129c345677bd39e8cd18030dfa3b",
-	"sha256": "8b643c2afe35de752ae44fe3dcab59ed90c6b567e8ba6ad92d0a053dd812b50d",
+	"filename": "pool/main/r/rust-ashpd/librust-ashpd-dev_0.13.13-1_amd64.deb",
+	"size": 98124,
+	"md5": "370458fc5a8c0383b8acd0f72b3198dd",
+	"sha256": "931d3ee0f885cd1fe686dc5af62a11cdb03352f6c418f3f4ae24bf738b69d474",
 	"descriptionMd5": "653667908d34b7e68967b7fc6d436a54"
 }

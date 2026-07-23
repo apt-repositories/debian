@@ -5,28 +5,31 @@
 		"Size"
 	],
 	"package": "librust-wayland-protocols-wlr-dev",
-	"source": "rust-wayland-protocols-wlr (0.3.6-1)",
-	"version": "0.3.6-1+b1",
+	"source": "rust-wayland-protocols-wlr",
+	"version": "0.3.12-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bitflags-2+default-dev",
-		"librust-wayland-backend-0.3+default-dev (>= 0.3.8-~~)",
-		"librust-wayland-client-0.31+default-dev (>= 0.31.8-~~)",
-		"librust-wayland-protocols-0.32+client-dev (>= 0.32.6-~~)",
-		"librust-wayland-protocols-0.32+default-dev (>= 0.32.6-~~)",
-		"librust-wayland-protocols-0.32+server-dev (>= 0.32.6-~~)",
-		"librust-wayland-scanner-0.31+default-dev (>= 0.31.6-~~)",
-		"librust-wayland-server-0.31+default-dev (>= 0.31.7-~~)"
+		"librust-wayland-backend-0.3+default-dev (>= 0.3.15)",
+		"librust-wayland-client-0.31+default-dev (>= 0.31.14)",
+		"librust-wayland-protocols-0.32+client-dev (>= 0.32.12)",
+		"librust-wayland-protocols-0.32+default-dev (>= 0.32.12)",
+		"librust-wayland-protocols-0.32+server-dev (>= 0.32.12)",
+		"librust-wayland-scanner-0.31+default-dev (>= 0.31.10)",
+		"librust-wayland-server-0.31+default-dev (>= 0.31.13)"
+	],
+	"breaks": [
+		"rustc (<< 1.71~)"
 	],
 	"installedSize": 156,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generated API for the WLR wayland protocol extensions - Rust source code",
 	"homepage": "https://github.com/smithay/wayland-rs",
-	"filename": "pool/main/r/rust-wayland-protocols-wlr/librust-wayland-protocols-wlr-dev_0.3.6-1+b1_amd64.deb",
-	"size": 26168,
-	"md5": "dd07e2d29b131f19c72b090c568870df",
-	"sha256": "7623d7e9f3d6164820f7befd7ae3d9cfb7ac3e9841b32cb814a05459355d3231",
+	"filename": "pool/main/r/rust-wayland-protocols-wlr/librust-wayland-protocols-wlr-dev_0.3.12-1_amd64.deb",
+	"size": 26080,
+	"md5": "5156cace8ebb3fdae6b02689e4e84b19",
+	"sha256": "608a84c72b7cb6889de5f50f3be1687d3059ea9812d594f83533b4197d247fda",
 	"descriptionMd5": "47c5bfbf0ca1837073a5b1db3b46037d"
 }
