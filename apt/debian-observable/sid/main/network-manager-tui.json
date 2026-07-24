@@ -6,15 +6,16 @@
 	],
 	"package": "network-manager-tui",
 	"source": "network-manager",
-	"version": "1.56.1-1",
+	"version": "1.58.0-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libnm0 (= 1.58.0-2)",
 		"libc6 (>= 2.38)",
 		"libglib2.0-0t64 (>= 2.44.0)",
 		"libnewt0.52 (>= 0.52.25)",
-		"libnm0 (= 1.56.1-1)"
+		"libslang2 (>= 2.2.4)"
 	],
 	"replaces": [
 		"network-manager (<< 1.56.0-4~)"
@@ -22,13 +23,13 @@
 	"breaks": [
 		"network-manager (<< 1.56.0-4~)"
 	],
-	"installedSize": 868,
+	"installedSize": 900,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "NetworkManager curses-based UI",
 	"homepage": "https://networkmanager.dev/",
-	"filename": "pool/main/n/network-manager/network-manager-tui_1.56.1-1_amd64.deb",
-	"size": 211052,
-	"md5": "7196a8c2386224e5e01c1e9b11d94c4e",
-	"sha256": "0a9ae2d1c255f099f7a44f01faaf42bc01921fb324e52d7d0d507277252335bc",
+	"filename": "pool/main/n/network-manager/network-manager-tui_1.58.0-2_amd64.deb",
+	"size": 226732,
+	"md5": "6e51e3a76b017de327ca610e1eccab87",
+	"sha256": "6988e0afdfd22e41763b5e6b80354442e606a728a3f1d209074bf91f05fc2c1e",
 	"descriptionMd5": "003d80b8ce03bcf18f25b3a3e3178512"
 }]

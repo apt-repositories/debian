@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-rancor-dev",
-	"source": "rust-rancor (0.1.1-1)",
-	"version": "0.1.1-1+b1",
+	"source": "rust-rancor",
+	"version": "0.1.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-ptr-meta-0.3+derive-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.81~)"
+	],
 	"installedSize": 64,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Scalable and efficient error handling without type composition - Rust source code",
 	"homepage": "https://github.com/rkyv/rancor",
-	"filename": "pool/main/r/rust-rancor/librust-rancor-dev_0.1.1-1+b1_amd64.deb",
-	"size": 11968,
-	"md5": "34292713b3d0c4e8c4ac51ebf96fd47a",
-	"sha256": "085f4e71e22d1dc77790e0a8153dbcb8383b9df60ced477462747202de718350",
+	"filename": "pool/main/r/rust-rancor/librust-rancor-dev_0.1.2-1_amd64.deb",
+	"size": 11676,
+	"md5": "58d2fa01a1522b1ba865bee1a9e68286",
+	"sha256": "b735acb677ddcf997ef0f8ede1a0a59fc8349ed28d3a2663ff8717baf115ae98",
 	"descriptionMd5": "b051fb410d0c782b23eebe9e5c366998"
 }

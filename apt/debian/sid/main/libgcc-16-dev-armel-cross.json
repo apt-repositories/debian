@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-16-dev-armel-cross",
+	"source": "gcc-16-cross-ports (11)",
+	"version": "16.1.0-3cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base-ports (= 16.1.0-3cross1)",
+		"libgcc-s1-armel-cross (>= 16.1.0-3cross1)",
+		"libgomp1-armel-cross (>= 16.1.0-3cross1)",
+		"libatomic1-armel-cross (>= 16.1.0-3cross1)",
+		"libasan8-armel-cross (>= 16.1.0-3cross1)",
+		"libubsan1-armel-cross (>= 16.1.0-3cross1)"
+	],
+	"recommends": [
+		"libc6-dev-armel-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-armel-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-armel-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 6372,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "https://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16.1.0-3)",
+	"filename": "pool/main/g/gcc-16-cross-ports/libgcc-16-dev-armel-cross_16.1.0-3cross1_all.deb",
+	"size": 775980,
+	"md5": "6ac7bad1c04e7c0c126cf7e8c4689082",
+	"sha256": "fe72a18fd16d067bd04df1f6d4614054ceb0eac2a9dc05d486f9370202a63351",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

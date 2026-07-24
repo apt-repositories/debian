@@ -5,25 +5,29 @@
 		"Size"
 	],
 	"package": "librust-bytecheck-dev",
-	"source": "rust-bytecheck (0.8.0-1)",
-	"version": "0.8.0-1+b1",
+	"source": "rust-bytecheck",
+	"version": "0.8.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bytecheck-derive-0.8.0-dev",
+		"librust-bytecheck-derive-0.8-dev (<< 0.8.3)",
+		"librust-bytecheck-derive-0.8-dev (>= 0.8.2)",
 		"librust-ptr-meta-0.3-dev",
 		"librust-rancor-0.1-dev",
 		"librust-simdutf8-0.1-dev",
 		"librust-uuid-1-dev"
 	],
-	"installedSize": 85,
+	"breaks": [
+		"rustc (<< 1.81~)"
+	],
+	"installedSize": 86,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Memory validation framework for Rust - Rust source code",
 	"homepage": "https://github.com/rkyv/bytecheck",
-	"filename": "pool/main/r/rust-bytecheck/librust-bytecheck-dev_0.8.0-1+b1_amd64.deb",
-	"size": 13632,
-	"md5": "bd6a6fd5684c288b0d97caa3dbc10ca9",
-	"sha256": "a65695a43739641d27d3439f3290022ba32f407778a620cbbd70b7b1e7e54e40",
+	"filename": "pool/main/r/rust-bytecheck/librust-bytecheck-dev_0.8.2-1_amd64.deb",
+	"size": 13584,
+	"md5": "c1de42eb3c7d5fd49db3cb632847c7f9",
+	"sha256": "3777f91f3aa98f4d0c390affe7b7997864b62605f67268f13e2e8404350a8a04",
 	"descriptionMd5": "383b01aabe46d517888ad35704d49745"
 }
