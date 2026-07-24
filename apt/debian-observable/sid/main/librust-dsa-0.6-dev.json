@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-dsa-0.6-dev",
+	"source": "rust-dsa-0.6",
+	"version": "0.6.3-1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-digest-0.10+default-dev",
+		"librust-num-bigint-dig-0.8+prime-dev",
+		"librust-num-bigint-dig-0.8+rand-dev",
+		"librust-num-bigint-dig-0.8+zeroize-dev",
+		"librust-num-traits-0.2-dev",
+		"librust-pkcs8-0.10+alloc-dev",
+		"librust-rfc6979-0.4+default-dev",
+		"librust-sha2-0.10-dev",
+		"librust-signature-2+alloc-dev",
+		"librust-signature-2+digest-dev",
+		"librust-signature-2+rand-core-dev",
+		"librust-zeroize-1-dev"
+	],
+	"replaces": [
+		"librust-dsa-dev (<< 0.6.4~)"
+	],
+	"breaks": [
+		"librust-dsa-dev (<< 0.6.4~)",
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 110,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Pure Rust implementation of DSA - Rust source code",
+	"homepage": "https://github.com/RustCrypto/signatures/tree/master/dsa",
+	"filename": "pool/main/r/rust-dsa-0.6/librust-dsa-0.6-dev_0.6.3-1_amd64.deb",
+	"size": 24900,
+	"md5": "1c5fe8a05cd74c211d6b847d9f04b29c",
+	"sha256": "2d05f5b536c6dbcf7b27796e90281333bad3e98c174ab1250ef0e489e7eb2ccb",
+	"descriptionMd5": "1fda65106a253a6b8608740c8dc648d3"
+}]

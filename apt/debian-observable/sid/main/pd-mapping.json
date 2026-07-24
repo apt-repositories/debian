@@ -5,30 +5,33 @@
 		"Size"
 	],
 	"package": "pd-mapping",
-	"version": "0.2.1-5",
+	"version": "0.2.1-6",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"pd-maxlib",
-		"pd-pddp",
 		"pd-purepd",
 		"pd-zexy",
-		"puredata-core | pd"
+		"puredata-core | pd | puredata64-core | pd64"
 	],
 	"recommends": [
 		"pd-cyclone",
 		"pd-ggee",
-		"pd-import",
-		"pd-libdir"
+		"pd-pddp",
+		"puredata | puredata64"
 	],
-	"installedSize": 517,
+	"suggests": [
+		"pd-libdir",
+		"pd64-libdir"
+	],
+	"installedSize": 518,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Pd library for creatively mapping data",
 	"homepage": "https://puredata.info",
-	"filename": "pool/main/p/pd-mapping/pd-mapping_0.2.1-5_all.deb",
-	"size": 60020,
-	"md5": "86e497bf252f1d3e114ca137d7e27496",
-	"sha256": "ea0ff20fc0f037a54cf1e444ec416b030f215adb6997c3378859d1adedd37636",
+	"filename": "pool/main/p/pd-mapping/pd-mapping_0.2.1-6_all.deb",
+	"size": 60204,
+	"md5": "e68f1ef438978e309bc5495056822450",
+	"sha256": "c6f8924bc16bbf6f0acd52642d64221b2554d1ef3c46377e7d8060f82a8070d6",
 	"descriptionMd5": "06f4ef80e5dd768d22442caa9e742f53"
 }]

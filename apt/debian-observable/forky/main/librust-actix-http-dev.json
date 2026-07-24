@@ -6,7 +6,7 @@
 	],
 	"package": "librust-actix-http-dev",
 	"source": "rust-actix-http",
-	"version": "3.12.0-1",
+	"version": "3.13.1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -53,9 +53,8 @@
 		"librust-mime-0.3+default-dev (>= 0.3.4)",
 		"librust-percent-encoding-2+default-dev (>= 2.1)",
 		"librust-pin-project-lite-0.2+default-dev",
-		"librust-rand+default-dev (<< 0.11)",
-		"librust-rand+default-dev (>= 0.8)",
-		"librust-sha1-0.10+default-dev",
+		"librust-rand-0.10+default-dev (>= 0.10.1)",
+		"librust-sha1-0.11+default-dev",
 		"librust-smallvec-1+default-dev (>= 1.6.1)",
 		"librust-tokio-1+default-dev (>= 1.38.2)",
 		"librust-tokio-util-0.7+codec-dev",
@@ -64,13 +63,16 @@
 		"librust-tracing-0.1+log-dev (>= 0.1.30)",
 		"librust-zstd-0.13+default-dev"
 	],
-	"installedSize": 893,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 919,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "HTTP types and services for the Actix ecosystem - Rust source code",
 	"homepage": "https://actix.rs",
-	"filename": "pool/main/r/rust-actix-http/librust-actix-http-dev_3.12.0-1_amd64.deb",
-	"size": 137488,
-	"md5": "b7513093274998d5986ead7abd63e3f2",
-	"sha256": "74112e02a8078c645912fb4f3f0f91c528b8c624b30700da883133c72f20803e",
+	"filename": "pool/main/r/rust-actix-http/librust-actix-http-dev_3.13.1-2_amd64.deb",
+	"size": 140428,
+	"md5": "6096ff9b159b6c3a2c59d0e6f3165498",
+	"sha256": "d20c30de7f5bf5458b57b57890ff1e8ffed72f211007d6e8aec9a441e03fc312",
 	"descriptionMd5": "4c497d2069e488ca220ced8dea4cccc9"
 }]

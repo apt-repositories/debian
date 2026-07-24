@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lib32gcc-s1-ppc64-cross",
+	"source": "gcc-16-cross-ports (11)",
+	"version": "16.1.0-3cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base-ports (= 16.1.0-3cross1)",
+		"libc6-powerpc-ppc64-cross (>= 2.42)"
+	],
+	"replaces": [
+		"lib32gcc1-ppc64-cross (<< 1:10)"
+	],
+	"breaks": [
+		"lib32gcc1-ppc64-cross (<< 1:10)"
+	],
+	"conflicts": [
+		"libc6-i386 (<< 2.9-22)"
+	],
+	"installedSize": 143,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (32 bit Version)",
+	"homepage": "https://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16.1.0-3)",
+	"filename": "pool/main/g/gcc-16-cross-ports/lib32gcc-s1-ppc64-cross_16.1.0-3cross1_all.deb",
+	"size": 34456,
+	"md5": "f8bbfaf1c84a088cfa539cc3840624f9",
+	"sha256": "18623d8f07bdeb8678ebb217036c29dec2726f094afe728543f690e055d9b002",
+	"descriptionMd5": "49774a82c6bfe226707be12f9a5282e7"
+}

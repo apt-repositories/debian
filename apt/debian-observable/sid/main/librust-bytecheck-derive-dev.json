@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-bytecheck-derive-dev",
-	"source": "rust-bytecheck-derive (0.8.0-1)",
-	"version": "0.8.0-1+b1",
+	"source": "rust-bytecheck-derive",
+	"version": "0.8.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,16 @@
 		"librust-syn-2+printing-dev",
 		"librust-syn-2+proc-macro-dev"
 	],
-	"installedSize": 55,
+	"breaks": [
+		"rustc (<< 1.81~)"
+	],
+	"installedSize": 54,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive macro for bytecheck - Rust source code",
 	"homepage": "https://github.com/rkyv/bytecheck",
-	"filename": "pool/main/r/rust-bytecheck-derive/librust-bytecheck-derive-dev_0.8.0-1+b1_amd64.deb",
-	"size": 10500,
-	"md5": "d05b9314a19d5af4ec72286e2ea69dfc",
-	"sha256": "971ba0735ea801c5a0b48786023ca166cb7525ee5e1d163670fc18a5a34ebe05",
+	"filename": "pool/main/r/rust-bytecheck-derive/librust-bytecheck-derive-dev_0.8.2-1_amd64.deb",
+	"size": 10288,
+	"md5": "ebc439cd476468328a6c632ca4ea763d",
+	"sha256": "104aa8bc73e32f9f0987687b5676b2d73493037ba17b2a94a7239e4b36e5c655",
 	"descriptionMd5": "e2f4edc4b4a8d3cf7e4a4f1ac8d3de67"
 }]

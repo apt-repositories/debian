@@ -5,11 +5,16 @@
 		"Size"
 	],
 	"package": "network-manager-applet",
-	"version": "1.36.0-4",
+	"version": "1.36.0-5",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"nm-connection-editor (= 1.36.0-5)",
+		"network-manager",
+		"policykit-1-gnome | polkit-1-auth-agent",
+		"default-dbus-session-bus | dbus-session-bus",
+		"dconf-gsettings-backend | gsettings-backend",
 		"libatk1.0-0t64 (>= 1.12.4)",
 		"libayatana-appindicator3-1 (>= 0.4.90)",
 		"libc6 (>= 2.34)",
@@ -22,12 +27,7 @@
 		"libnma0 (>= 1.8.28)",
 		"libpango-1.0-0 (>= 1.14.0)",
 		"libpangocairo-1.0-0 (>= 1.14.0)",
-		"libsecret-1-0 (>= 0.18)",
-		"dconf-gsettings-backend | gsettings-backend",
-		"nm-connection-editor (= 1.36.0-4)",
-		"network-manager",
-		"policykit-1-gnome | polkit-1-auth-agent",
-		"default-dbus-session-bus | dbus-session-bus"
+		"libsecret-1-0 (>= 0.18)"
 	],
 	"recommends": [
 		"notification-daemon",
@@ -48,13 +48,13 @@
 	"breaks": [
 		"network-manager-gnome (<< 1.36.0-3~)"
 	],
-	"installedSize": 292,
+	"installedSize": 299,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "network management framework (notification area applet)",
 	"homepage": "https://networkmanager.dev",
-	"filename": "pool/main/n/network-manager-applet/network-manager-applet_1.36.0-4_amd64.deb",
-	"size": 82708,
-	"md5": "3640c76ebd15c32cf2a27785d1491e26",
-	"sha256": "1f9bc7f6a1f556927b18ef52ec846b9fa8350a2be16fc4b6236389754305f840",
+	"filename": "pool/main/n/network-manager-applet/network-manager-applet_1.36.0-5_amd64.deb",
+	"size": 88500,
+	"md5": "6c452db818aab67cd10bb7fecd43292b",
+	"sha256": "caaed8caa9f987c7b477406b6815168a3aa1351f3d771f474807b1486b7d9c53",
 	"descriptionMd5": "f2be45717e7f154c527398e59041dc3c"
 }]
