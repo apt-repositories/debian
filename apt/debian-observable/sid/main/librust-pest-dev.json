@@ -6,7 +6,7 @@
 	],
 	"package": "librust-pest-dev",
 	"source": "rust-pest",
-	"version": "2.8.6-1",
+	"version": "2.8.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"librust-ucd-trie-0.1+std-dev (>= 0.1.5)",
 		"librust-ucd-trie-0.1-dev (>= 0.1.5)"
 	],
-	"installedSize": 1418,
+	"breaks": [
+		"rustc (<< 1.83~)"
+	],
+	"installedSize": 1414,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Elegant Parser - Rust source code",
 	"homepage": "https://pest.rs/",
-	"filename": "pool/main/r/rust-pest/librust-pest-dev_2.8.6-1_amd64.deb",
-	"size": 92524,
-	"md5": "014823f3928c8e297a05610844b205be",
-	"sha256": "20f360ac3868c4d9912183e536ee311168f3d673fefe9897075a65e4403b8ba9",
+	"filename": "pool/main/r/rust-pest/librust-pest-dev_2.8.8-1_amd64.deb",
+	"size": 92428,
+	"md5": "8ef8f51b94f4b7fce545d359989e6169",
+	"sha256": "a104aa05d9de8091045709b60f55795828717960e9b8d1fceeaf7abb63552405",
 	"descriptionMd5": "d29838c5b01ff76bed0dc3d8f1a4ec26"
 }]

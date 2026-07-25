@@ -6,7 +6,7 @@
 	],
 	"package": "exim4-daemon-heavy",
 	"source": "exim4",
-	"version": "4.99.4-1~bpo13+1",
+	"version": "4.99.4-2~bpo13+1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -40,13 +40,13 @@
 		"mail-transport-agent",
 		"rmail"
 	],
-	"installedSize": 1819,
+	"installedSize": 1820,
 	"maintainer": "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>",
 	"description": "Exim MTA (v4) daemon with extended features, including exiscan-acl",
 	"homepage": "https://www.exim.org/",
-	"filename": "pool/main/e/exim4/exim4-daemon-heavy_4.99.4-1~bpo13+1_amd64.deb",
-	"size": 709100,
-	"sha256": "de498f982f81844e322531d92feaae6b75b88526af23605707a8f49f1f9151fa",
+	"filename": "pool/main/e/exim4/exim4-daemon-heavy_4.99.4-2~bpo13+1_amd64.deb",
+	"size": 709988,
+	"sha256": "cddfc0ecc10dacf982b48e7ad49ab6e1c89258ab72c87bdeb9fe64c6fb5049ef",
 	"descriptionMd5": "cc44ee233012962f243ac3b161b5d5fd"
 },{
 	"raw": {},
@@ -95,8 +95,60 @@
 	"maintainer": "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>",
 	"description": "Exim MTA (v4) daemon with extended features, including exiscan-acl",
 	"homepage": "https://www.exim.org/",
-	"filename": "pool/updates/main/e/exim4/exim4-daemon-heavy_4.98.2-1+deb13u3_amd64.deb",
+	"filename": "pool/main/e/exim4/exim4-daemon-heavy_4.98.2-1+deb13u3_amd64.deb",
 	"size": 691272,
+	"md5": "7c7b4d7d93d5f4aa7de1a6de8b258210",
 	"sha256": "89dd6cfc5cd25d904bb049d45d5fd9eb03c344ff87a09e022588206fde4e6de2",
+	"descriptionMd5": "29c4b395a92bdc12932f151c3643a602"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "exim4-daemon-heavy",
+	"source": "exim4",
+	"version": "4.98.2-1+deb13u4",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"exim4-base (>= 4.98.2)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libdb5.3t64",
+		"libgnutls-dane0t64 (>= 3.7.0)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libidn12 (>= 1.13)",
+		"libidn2-0 (>= 0.6)",
+		"libldap2 (>= 2.6.2)",
+		"libmariadb3 (>= 3.0.0)",
+		"libnsl2 (>= 1.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libperl5.40 (>= 5.40.0)",
+		"libpq5",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libspf2-2t64 (>= 1.2.8~)",
+		"libsqlite3-0 (>= 3.5.9)"
+	],
+	"replaces": [
+		"exim4-base (<= 4.61-1)",
+		"mail-transport-agent"
+	],
+	"breaks": [
+		"clamav-daemon (<< 0.95)"
+	],
+	"conflicts": [
+		"mail-transport-agent"
+	],
+	"installedSize": 1782,
+	"maintainer": "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>",
+	"description": "Exim MTA (v4) daemon with extended features, including exiscan-acl",
+	"homepage": "https://www.exim.org/",
+	"filename": "pool/updates/main/e/exim4/exim4-daemon-heavy_4.98.2-1+deb13u4_amd64.deb",
+	"size": 690728,
+	"sha256": "9c797806127481b72568d6da69c80c68816381d325a840636be2c0da2fd74da7",
 	"descriptionMd5": "29c4b395a92bdc12932f151c3643a602"
 }]

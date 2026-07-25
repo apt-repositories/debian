@@ -6,13 +6,14 @@
 	],
 	"package": "librust-slog-term-dev",
 	"source": "rust-slog-term",
-	"version": "2.9.0-2",
+	"version": "2.9.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-atty-0.2+default-dev",
+		"librust-chrono-0.4+default-dev",
 		"librust-erased-serde-0.4+default-dev",
+		"librust-is-terminal-0.4+default-dev",
 		"librust-serde-1+default-dev",
 		"librust-serde-json-1+default-dev",
 		"librust-slog-2+default-dev",
@@ -20,20 +21,18 @@
 		"librust-term-0.7+default-dev",
 		"librust-thread-local-1+default-dev",
 		"librust-time-0.3+formatting-dev",
-		"librust-time-0.3+local-offset-dev",
-		"librust-time-0.3+macros-dev",
-		"librust-time-0.3+std-dev"
+		"librust-time-0.3+macros-dev"
 	],
 	"breaks": [
-		"rustc (<< 1.53~)"
+		"rustc (<< 1.63~)"
 	],
-	"installedSize": 132,
+	"installedSize": 141,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Unix terminal drain and formatter for slog-rs - Rust source code",
 	"homepage": "https://github.com/slog-rs/slog",
-	"filename": "pool/main/r/rust-slog-term/librust-slog-term-dev_2.9.0-2_amd64.deb",
-	"size": 27496,
-	"md5": "85d905bb2c2a4fc95b3edb9662a9915a",
-	"sha256": "30aa79ae9a4237faa13129d69afc2a439c27c11259320129b96ca3254db5407c",
+	"filename": "pool/main/r/rust-slog-term/librust-slog-term-dev_2.9.2-1_amd64.deb",
+	"size": 29980,
+	"md5": "87ea88b82ad7918bb30002e65bf535d3",
+	"sha256": "1bdaebf4bac9df8b2b01524e12f329f67c23b543be4b8d3014ee4500bf40d3fa",
 	"descriptionMd5": "2b4a6df5e022b516c11a9469a69d2cba"
 }]

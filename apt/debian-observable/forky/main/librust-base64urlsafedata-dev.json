@@ -6,23 +6,26 @@
 	],
 	"package": "librust-base64urlsafedata-dev",
 	"source": "rust-base64urlsafedata",
-	"version": "0.5.4-1",
+	"version": "0.5.4-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-base64-0.22+default-dev",
-		"librust-pastey-0.1+default-dev (>= 0.1.1)",
+		"librust-pastey-0.2+default-dev",
 		"librust-serde-1+default-dev (>= 1.0.228)",
 		"librust-serde-1+derive-dev (>= 1.0.228)"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 43,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Base 64 Url Safe wrapper for Serde - Rust source code",
 	"homepage": "https://github.com/kanidm/webauthn-rs",
-	"filename": "pool/main/r/rust-base64urlsafedata/librust-base64urlsafedata-dev_0.5.4-1_amd64.deb",
-	"size": 7808,
-	"md5": "0b1272e2c0e35bda23ca8f444876bed3",
-	"sha256": "3d62ae06897ca4cbe7a34c6100f8ea526faeb01195ee4310cdac3416fe5480b5",
+	"filename": "pool/main/r/rust-base64urlsafedata/librust-base64urlsafedata-dev_0.5.4-2_amd64.deb",
+	"size": 7872,
+	"md5": "348f98758f33b76fc653a1a4c09b2d3f",
+	"sha256": "527b906a20a4ddbbf86f1565337ef6229e825a3813e701796110542b964a094e",
 	"descriptionMd5": "561235c2113afa77df314baa368478fb"
 }]
