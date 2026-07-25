@@ -6,20 +6,29 @@
 	],
 	"package": "librust-slog-dev",
 	"source": "rust-slog",
-	"version": "2.7.0-2",
+	"version": "2.8.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"suggests": [
-		"librust-slog+erased-serde-dev (= 2.7.0-2)"
+	"depends": [
+		"librust-anyhow-1+std-dev",
+		"librust-anyhow-1-dev",
+		"librust-erased-serde-0.4+alloc-dev",
+		"librust-parking-lot-0.12+default-dev",
+		"librust-rustversion-1+default-dev (>= 1.0.6)",
+		"librust-serde-core-1+std-dev",
+		"librust-serde-core-1-dev"
 	],
-	"installedSize": 226,
+	"breaks": [
+		"rustc (<< 1.61~)"
+	],
+	"installedSize": 273,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Structured, extensible, composable logging - Rust source code",
 	"homepage": "https://github.com/slog-rs/slog",
-	"filename": "pool/main/r/rust-slog/librust-slog-dev_2.7.0-2_amd64.deb",
-	"size": 46464,
-	"md5": "3a3ce430e1a065729951633e0670d884",
-	"sha256": "f1da31d8d83b78bd6f5dc1fbb9f90623fe13d02e231c85dba768833a1642d414",
+	"filename": "pool/main/r/rust-slog/librust-slog-dev_2.8.2-1_amd64.deb",
+	"size": 60220,
+	"md5": "5a696179f0049a476b3765b7b7265f68",
+	"sha256": "fd09052ebccfddca7abba75f633408d0d59505629edcda05f566ec2617589d5c",
 	"descriptionMd5": "de949dec95f0057cc0320eee59212565"
 }

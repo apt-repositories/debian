@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "clang-tools-21",
-	"source": "llvm-toolchain-21 (1:21.1.8-7)",
-	"version": "1:21.1.8-7+b4",
+	"source": "llvm-toolchain-21",
+	"version": "1:21.1.8-9",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,22 +21,24 @@
 		"libz3-4 (>= 4.13.3)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.1.4)",
-		"clang-21 (= 1:21.1.8-7+b4)",
+		"clang-21 (= 1:21.1.8-9)",
 		"python3:any"
 	],
 	"replaces": [
-		"clang-21 (<< 1:21.1.4-6)"
+		"clang-21 (<< 1:21.1.4-6)",
+		"clang-21-doc (<< 1:21.1.8-8)"
 	],
 	"breaks": [
-		"clang-21 (<< 1:21.1.4-6)"
+		"clang-21 (<< 1:21.1.4-6)",
+		"clang-21-doc (<< 1:21.1.8-8)"
 	],
-	"installedSize": 38499,
+	"installedSize": 38548,
 	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
 	"description": "clang-based tools for C/C++ developments",
 	"homepage": "https://www.llvm.org/",
-	"filename": "pool/main/l/llvm-toolchain-21/clang-tools-21_21.1.8-7+b4_amd64.deb",
-	"size": 8966900,
-	"md5": "7bed265554e1657631b3d9a8e79e812f",
-	"sha256": "e25aa7c0d720ff807b5b1e0f7ba68feefedec319b88b45cb9f965c632c4656db",
+	"filename": "pool/main/l/llvm-toolchain-21/clang-tools-21_21.1.8-9_amd64.deb",
+	"size": 8974232,
+	"md5": "6cedef317f6aab0c187f73ed9a080f2d",
+	"sha256": "c458da4fca6947d81ac9f51c2f6acc37813bf9f56cd858e5bdb09788de40eb60",
 	"descriptionMd5": "0ac52908e51dad320be3476963296f5f"
 }

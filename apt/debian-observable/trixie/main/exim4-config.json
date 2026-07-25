@@ -6,7 +6,7 @@
 	],
 	"package": "exim4-config",
 	"source": "exim4",
-	"version": "4.99.4-1~bpo13+1",
+	"version": "4.99.4-2~bpo13+1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
@@ -45,13 +45,13 @@
 		"xmail",
 		"zmailer"
 	],
-	"installedSize": 911,
+	"installedSize": 912,
 	"maintainer": "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>",
 	"description": "configuration for the Exim MTA (v4)",
 	"homepage": "https://www.exim.org/",
-	"filename": "pool/main/e/exim4/exim4-config_4.99.4-1~bpo13+1_all.deb",
-	"size": 252336,
-	"sha256": "690849696fe96a538f2d1ad431d370ea8150b3bae802b62be87bfc4d554dc3cd",
+	"filename": "pool/main/e/exim4/exim4-config_4.99.4-2~bpo13+1_all.deb",
+	"size": 252504,
+	"sha256": "c7f621eba4a575c54e34a9f1b1a408188474e0094561a5fb0309676d0b299e0a",
 	"descriptionMd5": "32395c972fcf7f5014c06bce8ee1c59a"
 },{
 	"raw": {},
@@ -103,8 +103,63 @@
 	"maintainer": "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>",
 	"description": "configuration for the Exim MTA (v4)",
 	"homepage": "https://www.exim.org/",
-	"filename": "pool/updates/main/e/exim4/exim4-config_4.98.2-1+deb13u3_all.deb",
+	"filename": "pool/main/e/exim4/exim4-config_4.98.2-1+deb13u3_all.deb",
 	"size": 249848,
+	"md5": "32c9d42683cbe09ce125b76bce436e83",
 	"sha256": "b6d0fc36ca01a03e792d76dfadbb6082930d595b68b07e6341b37fa08eed8b56",
+	"descriptionMd5": "32395c972fcf7f5014c06bce8ee1c59a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "exim4-config",
+	"source": "exim4",
+	"version": "4.98.2-1+deb13u4",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"breaks": [
+		"exim4-daemon-heavy (<< 4.94)",
+		"exim4-daemon-light (<< 4.94)"
+	],
+	"conflicts": [
+		"citadel-server",
+		"courier-mta",
+		"dma",
+		"esmtp-run",
+		"exim",
+		"exim-tls",
+		"exim4-config",
+		"exim4-config-2",
+		"hula-mta",
+		"masqmail",
+		"msmtp-mta",
+		"mta-dummy",
+		"nullmailer",
+		"opensmtpd",
+		"postfix",
+		"qmail-run",
+		"sendmail-bin",
+		"smail",
+		"ssmtp",
+		"xmail",
+		"zmailer"
+	],
+	"installedSize": 908,
+	"maintainer": "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>",
+	"description": "configuration for the Exim MTA (v4)",
+	"homepage": "https://www.exim.org/",
+	"filename": "pool/updates/main/e/exim4/exim4-config_4.98.2-1+deb13u4_all.deb",
+	"size": 250136,
+	"sha256": "fe46fbf68d8e95fb94d7b8cc523ea83ae1f23e1b700e1cbf30cd591dae7ee0b6",
 	"descriptionMd5": "32395c972fcf7f5014c06bce8ee1c59a"
 }]

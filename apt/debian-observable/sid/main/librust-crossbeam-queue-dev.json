@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-crossbeam-queue-dev",
-	"source": "rust-crossbeam-queue (0.3.11-1)",
-	"version": "0.3.11-1+b1",
+	"source": "rust-crossbeam-queue",
+	"version": "0.3.13-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-crossbeam-utils-0.8+nightly-dev (>= 0.8.18-~~)",
-		"librust-crossbeam-utils-0.8+std-dev (>= 0.8.18-~~)",
-		"librust-crossbeam-utils-0.8-dev (>= 0.8.18-~~)"
+		"librust-crossbeam-utils-0.8+nightly-dev (>= 0.8.18)",
+		"librust-crossbeam-utils-0.8+std-dev (>= 0.8.18)",
+		"librust-crossbeam-utils-0.8-dev (>= 0.8.18)"
 	],
-	"installedSize": 88,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 99,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Concurrent queues - Rust source code",
 	"homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-queue",
-	"filename": "pool/main/r/rust-crossbeam-queue/librust-crossbeam-queue-dev_0.3.11-1+b1_amd64.deb",
-	"size": 18236,
-	"md5": "004d231b4e33d14748968c986a45791b",
-	"sha256": "27d7963c4732f31bec917d00a83c0c2bc212f1d9926f34ebc71102b8a3dbded4",
+	"filename": "pool/main/r/rust-crossbeam-queue/librust-crossbeam-queue-dev_0.3.13-1_amd64.deb",
+	"size": 19688,
+	"md5": "b6c7c1431115d077a4d68d2b321df92c",
+	"sha256": "5321de1490b8fdb4aaa6e83f6ba1bb5723cfabf1a6eb3ba1d4bee5566005dbfa",
 	"descriptionMd5": "79c6b8ee46c3b147604ae530e1aa0131"
 }]
