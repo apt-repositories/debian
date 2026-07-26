@@ -6,7 +6,7 @@
 	],
 	"package": "librust-tracing-subscriber-dev",
 	"source": "rust-tracing-subscriber",
-	"version": "0.3.22-3",
+	"version": "0.3.23-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -37,13 +37,16 @@
 		"librust-valuable-0.1-dev",
 		"librust-valuable-serde-0.1-dev"
 	],
-	"installedSize": 1153,
+	"breaks": [
+		"rustc (<< 1.65.0~)"
+	],
+	"installedSize": 1158,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Utilities for implementing and composing `tracing` subscribers - Rust source code",
 	"homepage": "https://tokio.rs",
-	"filename": "pool/main/r/rust-tracing-subscriber/librust-tracing-subscriber-dev_0.3.22-3_amd64.deb",
-	"size": 179896,
-	"md5": "8421725452c792b1ec4c8273ed54b019",
-	"sha256": "1dfe384fc6e706c3be7d03618fc06a2c60f449600f01f3e55d1b8ed305c75d49",
+	"filename": "pool/main/r/rust-tracing-subscriber/librust-tracing-subscriber-dev_0.3.23-1_amd64.deb",
+	"size": 180576,
+	"md5": "9d5c61ef9c950d424843f065fbd7a742",
+	"sha256": "63f1ef29144f045a74ce15f8681c6997e4fd8d31cb38c86085093b00ca4f220e",
 	"descriptionMd5": "7a6a56221d7f2a3bd31f37bc5e255038"
 }

@@ -5,6 +5,36 @@
 		"Size"
 	],
 	"package": "libefisec1t64",
+	"source": "efivar",
+	"version": "39-2~bpo13+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"libefisec1"
+	],
+	"breaks": [
+		"efibootmgr (<< 0.12-2)",
+		"libefisec1 (<< 39-2~bpo13+1)"
+	],
+	"installedSize": 56,
+	"maintainer": "Debian UEFI Maintainers <debian-efi@lists.debian.org>",
+	"description": "Library to manage UEFI variables",
+	"homepage": "https://github.com/rhboot/efivar",
+	"filename": "pool/main/e/efivar/libefisec1t64_39-2~bpo13+1_amd64.deb",
+	"size": 16476,
+	"sha256": "dc06c4a0a8e116a97395ecde9ad8f50fbaec60bdee8910d4e806d050b197e446",
+	"descriptionMd5": "acc250e25d55b5d370950f51d63f067e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libefisec1t64",
 	"source": "efivar (38-3.1)",
 	"version": "38-3.1+b1",
 	"section": "libs",

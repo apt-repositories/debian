@@ -5,22 +5,30 @@
 		"Size"
 	],
 	"package": "librust-rustpython-ast-dev",
-	"source": "rust-rustpython-ast (0.2.0-1)",
-	"version": "0.2.0-1+b3",
+	"source": "rust-rustpython-ast",
+	"version": "0.4.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-num-bigint-0.4+default-dev (>= 0.4.3-~~)",
-		"librust-rustpython-common-0.2+default-dev",
-		"librust-rustpython-compiler-core-0.2+default-dev"
+		"librust-is-macro-0.3+default-dev",
+		"librust-malachite-bigint-0.9+default-dev",
+		"librust-num-bigint-0.4+default-dev (>= 0.4.3)",
+		"librust-rustpython-literal-0.4+default-dev",
+		"librust-rustpython-parser-core-0.4+default-dev",
+		"librust-rustpython-parser-core-0.4+location-dev",
+		"librust-static-assertions-1+default-dev (>= 1.1.0)"
 	],
-	"installedSize": 136,
+	"breaks": [
+		"rustc (<< 1.72.1~)"
+	],
+	"installedSize": 431,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "AST definitions for RustPython - Rust source code",
-	"filename": "pool/main/r/rust-rustpython-ast/librust-rustpython-ast-dev_0.2.0-1+b3_amd64.deb",
-	"size": 22892,
-	"md5": "660ac39861228e859e712da9152e1574",
-	"sha256": "1b68f611a5c8becf0e5e654a596a41807f782f253d2dd08cc736adc688adb47b",
-	"descriptionMd5": "e13437a38ee03a918496ff61682da598"
+	"homepage": "https://github.com/RustPython/Parser",
+	"filename": "pool/main/r/rust-rustpython-ast/librust-rustpython-ast-dev_0.4.0-1_amd64.deb",
+	"size": 49516,
+	"md5": "d8eddbc16f79ef80a705e75dd7b23c2f",
+	"sha256": "bf3b8bf3cd2ccf26c8f4ae6a3ce9024e718090828cd041ccc69233763855238e",
+	"descriptionMd5": "074a7b5904bb64164c385ec835a51745"
 }]

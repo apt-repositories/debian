@@ -5,27 +5,30 @@
 		"Size"
 	],
 	"package": "librust-quinn-udp-dev",
-	"source": "rust-quinn-udp (0.5.14-1)",
-	"version": "0.5.14-1+b1",
+	"source": "rust-quinn-udp",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cfg-aliases-0.2+default-dev",
-		"librust-libc-0.2+default-dev (>= 0.2.158-~~)",
+		"librust-libc-0.2+default-dev (>= 0.2.175)",
 		"librust-log-0.4+default-dev",
-		"librust-socket2+default-dev (<< 0.7-~~)",
-		"librust-socket2+default-dev (>= 0.5-~~)",
-		"librust-tracing-0.1+log-dev (>= 0.1.10-~~)",
-		"librust-tracing-0.1+std-dev (>= 0.1.10-~~)"
+		"librust-socket2+default-dev (<< 0.7)",
+		"librust-socket2+default-dev (>= 0.5)",
+		"librust-tracing-0.1+log-dev (>= 0.1.10)",
+		"librust-tracing-0.1+std-dev (>= 0.1.10)"
 	],
-	"installedSize": 141,
+	"breaks": [
+		"rustc (<< 1.80.0~)"
+	],
+	"installedSize": 155,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "UDP sockets with ECN information for the QUIC transport protocol - Rust source code",
 	"homepage": "https://github.com/quinn-rs/quinn",
-	"filename": "pool/main/r/rust-quinn-udp/librust-quinn-udp-dev_0.5.14-1+b1_amd64.deb",
-	"size": 28344,
-	"md5": "7cc92a57233de1f66ac30afd8a0fdbf6",
-	"sha256": "6997b92a1ea92c058060476e17dd41b499492399d30603078c0f33d00bfab2d3",
+	"filename": "pool/main/r/rust-quinn-udp/librust-quinn-udp-dev_0.6.1-1_amd64.deb",
+	"size": 30660,
+	"md5": "4dfb482bc3668b820fb8d0c3f782cddf",
+	"sha256": "005beda3faa16cfdf78d3464e6389614eee05070b1752fd4e36179fc7f85f1e7",
 	"descriptionMd5": "c80c1e9ba3c34643499f7b00c9b8ab3b"
 }]
