@@ -5,20 +5,25 @@
 		"Size"
 	],
 	"package": "librust-atomic-refcell-dev",
-	"source": "rust-atomic-refcell (0.1.13-1)",
-	"version": "0.1.13-1+b1",
+	"source": "rust-atomic-refcell",
+	"version": "0.1.14-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-portable-atomic-1+require-cas-dev",
 		"librust-serde-1+default-dev"
 	],
-	"installedSize": 62,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 63,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Threadsafe RefCell - Rust source code",
-	"filename": "pool/main/r/rust-atomic-refcell/librust-atomic-refcell-dev_0.1.13-1+b1_amd64.deb",
-	"size": 13516,
-	"md5": "cd91fd17b1ff9dbea5e279cb0fc0d14c",
-	"sha256": "b28614a51b5f40c8c5e09a0e96ceb2daa32ef4175bb637eb61d26a9d31921d54",
+	"homepage": "https://github.com/mozilla/atomic_refcell",
+	"filename": "pool/main/r/rust-atomic-refcell/librust-atomic-refcell-dev_0.1.14-1_amd64.deb",
+	"size": 14072,
+	"md5": "73a9a7671f0947f261f9c1f5ca037811",
+	"sha256": "58938b6a45198b6c40a15641ac7a941208650a43ab6c831226bdb281be69e1ff",
 	"descriptionMd5": "9ec742b7f47c21fb4d5dae00b594f13b"
 }

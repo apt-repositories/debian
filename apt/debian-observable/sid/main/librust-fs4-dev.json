@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-fs4-dev",
-	"source": "rust-fs4 (0.13.1-2)",
-	"version": "0.13.1-2+b1",
+	"source": "rust-fs4",
+	"version": "0.13.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"librust-smol-2+default-dev",
 		"librust-tokio-1+fs-dev"
 	],
-	"installedSize": 164,
+	"breaks": [
+		"rustc (<< 1.75.0~)"
+	],
+	"installedSize": 169,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "No libc, pure Rust cross-platform file locks - Rust source code",
 	"homepage": "https://github.com/al8n/fs4-rs",
-	"filename": "pool/main/r/rust-fs4/librust-fs4-dev_0.13.1-2+b1_amd64.deb",
-	"size": 23908,
-	"md5": "d7eace1557c2fbca2b47f9e881bdc88d",
-	"sha256": "3b5a2cbac4f0a865c9556e5b7204581c0fa68fdee2bc730e6fed9c718ef26a84",
+	"filename": "pool/main/r/rust-fs4/librust-fs4-dev_0.13.1-3_amd64.deb",
+	"size": 24596,
+	"md5": "46816c863fed093bd47ad1a059683cda",
+	"sha256": "e38680bef906fa7ba194517edbe6446d16bf4bc513a9ba33936ef9398290ee71",
 	"descriptionMd5": "36db552e4a487af1ce357384a4e26f20"
 }]
