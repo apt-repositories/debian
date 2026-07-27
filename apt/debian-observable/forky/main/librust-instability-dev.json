@@ -6,12 +6,12 @@
 	],
 	"package": "librust-instability-dev",
 	"source": "rust-instability",
-	"version": "0.3.12-1",
+	"version": "0.3.12-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-darling-0.20+default-dev",
+		"librust-darling-0.23+default-dev",
 		"librust-indoc-2+default-dev",
 		"librust-proc-macro2-1+default-dev (>= 1.0.86)",
 		"librust-quote-1+default-dev (>= 1.0.25)",
@@ -19,13 +19,16 @@
 		"librust-syn-2+derive-dev (>= 2.0.15)",
 		"librust-syn-2+full-dev (>= 2.0.15)"
 	],
-	"installedSize": 94,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 90,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust API stability attributes for the rest of us - Rust source code",
 	"homepage": "https://github.com/ratatui/instability",
-	"filename": "pool/main/r/rust-instability/librust-instability-dev_0.3.12-1_amd64.deb",
-	"size": 16552,
-	"md5": "1af77d7c154aac8ce3523bd602f174da",
-	"sha256": "5eb6b3652887323ccaf97866a6f8249dbf671a777527f9e8d04900bd11924bd1",
+	"filename": "pool/main/r/rust-instability/librust-instability-dev_0.3.12-2_amd64.deb",
+	"size": 16444,
+	"md5": "54b824ae379bd76ae4f97c294a00c820",
+	"sha256": "422d959276d63a082a580c85186cea751a61abab7e915ab1d934a7f7645301ff",
 	"descriptionMd5": "ba46a482c26abe6131b31064c55bad2b"
 }]

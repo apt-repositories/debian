@@ -5,22 +5,26 @@
 		"Size"
 	],
 	"package": "librust-darling-macro-dev",
-	"source": "rust-darling-macro (0.20.10-1)",
-	"version": "0.20.10-1+b1",
+	"source": "rust-darling-macro",
+	"version": "0.23.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-darling-core-0.20.10+default-dev",
-		"librust-quote-1+default-dev (>= 1.0.18-~~)",
-		"librust-syn-2+default-dev (>= 2.0.15-~~)"
+		"librust-darling-core-0.23+default-dev (<< 0.23.1)",
+		"librust-quote-1+default-dev (>= 1.0.18)",
+		"librust-syn-2+default-dev (>= 2.0.15)"
 	],
-	"installedSize": 21,
+	"breaks": [
+		"rustc (<< 1.88.0~)"
+	],
+	"installedSize": 22,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "helper crate for darling - Rust source code",
-	"filename": "pool/main/r/rust-darling-macro/librust-darling-macro-dev_0.20.10-1+b1_amd64.deb",
-	"size": 4228,
-	"md5": "809e3be94f444240b20a2c1c31c6b28e",
-	"sha256": "32440674667f42843894716030bf8b80ff12353af9b56b88871eacfc2677b9b6",
+	"homepage": "https://github.com/TedDriggs/darling",
+	"filename": "pool/main/r/rust-darling-macro/librust-darling-macro-dev_0.23.0-1_amd64.deb",
+	"size": 4164,
+	"md5": "d9b56f1af9c1ca8c9d2aab5b4236600d",
+	"sha256": "fdb7a5bcfd037c0d7170c211f6205b7d68edda1433b4fb7dd3f5e44b81219302",
 	"descriptionMd5": "ca561373f730cddb4a193a24d07a2c0d"
 }]

@@ -6,24 +6,27 @@
 	],
 	"package": "librust-actix-multipart-derive-dev",
 	"source": "rust-actix-multipart-derive",
-	"version": "0.7.0-1",
+	"version": "0.8.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-darling-0.20+default-dev",
-		"librust-parse-size-1+default-dev",
+		"librust-bytesize-2+default-dev",
+		"librust-darling-0.23+default-dev",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
 		"librust-syn-2+default-dev"
 	],
-	"installedSize": 58,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 43,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Multipart form derive macro for Actix Web - Rust source code",
 	"homepage": "https://actix.rs",
-	"filename": "pool/main/r/rust-actix-multipart-derive/librust-actix-multipart-derive-dev_0.7.0-1_amd64.deb",
-	"size": 11576,
-	"md5": "9a2fed039bab2cd7e55d9dab2b9f433b",
-	"sha256": "187db40b7e53b202f2d9e4d8e20c0a9da22d0ca30df7673dcb0ba3b45ec7b57d",
+	"filename": "pool/main/r/rust-actix-multipart-derive/librust-actix-multipart-derive-dev_0.8.0-1_amd64.deb",
+	"size": 10040,
+	"md5": "fe06ca0f8f8aa7bfeca7956436caddbd",
+	"sha256": "e7a81ba4c39a32a62e455954379c0a973f7b4f82d5b5c618777e1b1d92ef886e",
 	"descriptionMd5": "0915da26becd5f257fd48b69a57a9a18"
 }

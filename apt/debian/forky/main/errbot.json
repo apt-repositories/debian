@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "errbot",
-	"version": "6.2.0+ds-8",
+	"version": "6.2.0+ds-9",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
 		"python3",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"python3-ansi",
 		"python3-colorlog",
 		"python3-daemonize",
@@ -29,10 +30,10 @@
 	"installedSize": 645,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Chatbot designed to be simple to extend with plugins written in Python",
-	"homepage": "http://errbot.io",
-	"filename": "pool/main/e/errbot/errbot_6.2.0+ds-8_all.deb",
-	"size": 118452,
-	"md5": "46436b59f1ad9b4051a2a82f0b4474ea",
-	"sha256": "2a29838a595f2f69b2177a8e55c1b9dd6faea8673c3139a5c55981e6897190c9",
+	"homepage": "https://errbot.io",
+	"filename": "pool/main/e/errbot/errbot_6.2.0+ds-9_all.deb",
+	"size": 118472,
+	"md5": "baf7f48941bd7f4bd9fd85a5b0679813",
+	"sha256": "5cfc4c35ae28a79f8a80b8a285bfbf2c6afa6d79d3c4608c97123706dad1f928",
 	"descriptionMd5": "c8ea0f82c106b1df922a0b959326f0f2"
 }
