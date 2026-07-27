@@ -5,31 +5,31 @@
 		"Size"
 	],
 	"package": "vrfydmn",
-	"version": "0.11.0-5",
+	"version": "0.11.0-6",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3:any",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"python3-milter",
-		"adduser"
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"python3:any"
 	],
 	"recommends": [
 		"python3-setproctitle"
 	],
 	"suggests": [
+		"memcached",
 		"python3-ldap",
-		"python3-mysqldb",
-		"memcached"
+		"python3-mysqldb"
 	],
-	"installedSize": 204,
+	"installedSize": 205,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Milter for ensuring email message from matches mail from",
 	"homepage": "https://github.com/croessner/vrfydmn",
-	"filename": "pool/main/v/vrfydmn/vrfydmn_0.11.0-5_all.deb",
-	"size": 95544,
-	"md5": "c4ab5228fcf4b5d093947ea691d5936d",
-	"sha256": "ea9edb00fb78d8f552662f03bbc582222c612a84bf7e6d3c9edb1dd8cea9b774",
+	"filename": "pool/main/v/vrfydmn/vrfydmn_0.11.0-6_all.deb",
+	"size": 95400,
+	"md5": "623a6532073a78369173e956bdde347f",
+	"sha256": "0eb583d133d10508e6ed7ff4f63b1b67d0cac2d723503c7f252d9674a78b26e8",
 	"descriptionMd5": "68e533c4b4d5ec9a6ffcef3712762483"
 }]
