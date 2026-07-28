@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "simplemonitor",
-	"version": "1.15.0-2",
+	"version": "1.15.0-3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"python3-arrow",
 		"python3-boto3",
 		"python3-colorlog",
@@ -31,13 +32,13 @@
 	"recommends": [
 		"systemd"
 	],
-	"installedSize": 2340,
+	"installedSize": 2302,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Monitors host status and network connectivity",
 	"homepage": "https://simplemonitor.readthedocs.io",
-	"filename": "pool/main/s/simplemonitor/simplemonitor_1.15.0-2_all.deb",
-	"size": 303592,
-	"md5": "744bfbeb2daf2dd1e51dea5688f93c16",
-	"sha256": "e447acf43622f8fae4f7e9b092a5cb71f4e63049a10030225c2bc94706990966",
+	"filename": "pool/main/s/simplemonitor/simplemonitor_1.15.0-3_all.deb",
+	"size": 299712,
+	"md5": "2b868807300deac66486dc322de06c39",
+	"sha256": "f53ea2c8c27246801e5f3cf15bc418ae6db3a9854d537139d4a001d24c0b220c",
 	"descriptionMd5": "ec9e4b228aac3267cea08ab9bbaa49c1"
 }

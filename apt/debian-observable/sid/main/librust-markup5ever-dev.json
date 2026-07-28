@@ -6,22 +6,25 @@
 	],
 	"package": "librust-markup5ever-dev",
 	"source": "rust-markup5ever",
-	"version": "0.35.0-1",
+	"version": "0.35.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-log-0.4+default-dev",
-		"librust-tendril-0.4+default-dev",
+		"librust-tendril-0.5+default-dev",
 		"librust-web-atoms-0.1+default-dev"
 	],
-	"installedSize": 74,
+	"breaks": [
+		"rustc (<< 1.70.0~)"
+	],
+	"installedSize": 78,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Common code for xml5ever and html5ever - Rust source code",
 	"homepage": "https://github.com/servo/html5ever",
-	"filename": "pool/main/r/rust-markup5ever/librust-markup5ever-dev_0.35.0-1_amd64.deb",
-	"size": 17416,
-	"md5": "4cc96cb1e69fd282b280304aa9201dff",
-	"sha256": "96e194ae84eaab401fdb83ea709f3c924781f7846479be345d9bc69910bbf307",
+	"filename": "pool/main/r/rust-markup5ever/librust-markup5ever-dev_0.35.0-2_amd64.deb",
+	"size": 17732,
+	"md5": "2fa9aa383036ab84334d4bd5613e5539",
+	"sha256": "091df6831140fda8f8178431666add6de680df81b425c4de00bd7e99444ed1a9",
 	"descriptionMd5": "71bf32aed08d4a19ffa5f4f0c470cbce"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-tag-sys-dev",
 	"source": "rust-gstreamer-tag-sys",
-	"version": "0.25.0-1",
+	"version": "0.25.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-system-deps-7+default-dev",
 		"libgstreamer-plugins-base1.0-dev"
 	],
-	"installedSize": 193,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 198,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgsttag-1.0 - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-tag-sys/librust-gstreamer-tag-sys-dev_0.25.0-1_amd64.deb",
-	"size": 68252,
-	"md5": "5acc1532b346a10ffb4982dce2c36ca2",
-	"sha256": "e40d23ee0b707de507ac12c7ab76bca634a17d9c75e79cdb4c1dda500d318bd8",
+	"filename": "pool/main/r/rust-gstreamer-tag-sys/librust-gstreamer-tag-sys-dev_0.25.0-3_amd64.deb",
+	"size": 68624,
+	"md5": "1ba43cb442fec8ae63189f53e2191195",
+	"sha256": "b4914330ead421c4b254cc8341293419792d77934182d9de0f6dda344b0acb42",
 	"descriptionMd5": "3e50bbd8dafb71c755d9db60c6a48668"
 }]

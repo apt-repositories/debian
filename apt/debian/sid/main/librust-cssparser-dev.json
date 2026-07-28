@@ -5,28 +5,34 @@
 		"Size"
 	],
 	"package": "librust-cssparser-dev",
-	"source": "rust-cssparser (0.31.2-2)",
-	"version": "0.31.2-2+b2",
+	"source": "rust-cssparser",
+	"version": "0.37.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cssparser-macros-0.6+default-dev (>= 0.6.1-~~)",
+		"librust-cssparser-macros-0.7+default-dev",
 		"librust-dtoa-short-0.3+default-dev",
 		"librust-itoa-1+default-dev",
-		"librust-phf-0+default-dev (>= 0.8-~~)",
-		"librust-phf-0+macros-dev (>= 0.8-~~)",
+		"librust-malloc-size-of-0.1-dev",
+		"librust-phf+default-dev (<< 0.14.0)",
+		"librust-phf+default-dev (>= 0.11.3)",
+		"librust-phf+macros-dev (<< 0.14.0)",
+		"librust-phf+macros-dev (>= 0.11.3)",
+		"librust-serde-1+default-dev",
+		"librust-serde-1+derive-dev",
 		"librust-smallvec-1+default-dev"
 	],
-	"suggests": [
-		"librust-cssparser+serde-dev (= 0.31.2-2+b2)"
+	"breaks": [
+		"rustc (<< 1.71~)"
 	],
-	"installedSize": 312,
+	"installedSize": 278,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "CSS Syntax Level 3 - Rust source code",
-	"filename": "pool/main/r/rust-cssparser/librust-cssparser-dev_0.31.2-2+b2_amd64.deb",
-	"size": 55352,
-	"md5": "210465a44316e3c156a932d84f528e1a",
-	"sha256": "5f79276b570bacbf3f23cd45a719ab256737e39d83a42d3da1b3f5b534f0f334",
-	"descriptionMd5": "f62ccfc819dc5b7413833770ac3523a6"
+	"homepage": "https://github.com/servo/rust-cssparser",
+	"filename": "pool/main/r/rust-cssparser/librust-cssparser-dev_0.37.0-1_amd64.deb",
+	"size": 50956,
+	"md5": "0667a4214122549a9cdb42d7b9d2ca76",
+	"sha256": "a966caff543ed7e420ad532835823bec068a617568d81c8777120f13ccb2ad92",
+	"descriptionMd5": "b5d8c949b8e9500137233dfd085e3e4c"
 }

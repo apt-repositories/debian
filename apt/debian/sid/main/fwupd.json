@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "fwupd",
-	"version": "2.1.6-3",
+	"version": "2.1.7-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,7 +16,7 @@
 		"libcurl4-gnutls (>= 8.20.0-3~)",
 		"libdrm-amdgpu1 (>= 2.4.73)",
 		"libdrm2 (>= 2.4.3)",
-		"libfwupd3 (= 2.1.6-3)",
+		"libfwupd3 (= 2.1.7-1)",
 		"libglib2.0-0t64 (>= 2.83.0)",
 		"libgnutls30t64 (>= 3.8.4)",
 		"liblzma5 (>= 5.1.1alpha+20120614)",
@@ -29,15 +29,15 @@
 		"libqmi-proxy",
 		"libreadline8t64 (>= 6.0)",
 		"libsqlite3-0 (>= 3.20.0)",
-		"libsystemd0",
+		"libsystemd0 (>= 258~rc1)",
 		"libtss2-esys-3.0.2-0t64 (>= 2.3.1)",
 		"libusb-1.0-0 (>= 2:1.0.27~rc1)",
-		"libxmlb2 (>= 0.3.22)",
+		"libxmlb2 (>= 0.3.19)",
 		"zlib1g (>= 1:1.2.11.dfsg)",
+		"python3:any",
 		"shared-mime-info"
 	],
 	"recommends": [
-		"python3",
 		"bolt",
 		"default-dbus-system-bus | dbus-system-bus",
 		"udisks2",
@@ -45,7 +45,12 @@
 		"jq"
 	],
 	"suggests": [
-		"gir1.2-fwupd-2.0"
+		"7zip",
+		"gir1.2-fwupd-2.0",
+		"gir1.2-glib-2.0",
+		"python3-dbus",
+		"python3-gi",
+		"python3-jinja2"
 	],
 	"replaces": [
 		"fwupdate (<< 12-7)",
@@ -55,6 +60,7 @@
 	],
 	"breaks": [
 		"fwupdate (<< 12-7)",
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
 		"libdfu-dev (<< 0.9.7-1)",
 		"libdfu1 (<< 0.9.7-1)"
 	],
@@ -64,13 +70,13 @@
 		"fwupdate-armhf-signed",
 		"fwupdate-i386-signed"
 	],
-	"installedSize": 16659,
+	"installedSize": 16781,
 	"maintainer": "Debian EFI <debian-efi@lists.debian.org>",
 	"description": "Firmware update daemon",
 	"homepage": "https://github.com/fwupd/fwupd",
-	"filename": "pool/main/f/fwupd/fwupd_2.1.6-3_amd64.deb",
-	"size": 8195832,
-	"md5": "7600902e76dc93b5214ddadaca4a5ac9",
-	"sha256": "49b9e2eec9f1cc4c7413f7ba1247f5d4fb34916eec40fde4e7f4c1673d81aacb",
+	"filename": "pool/main/f/fwupd/fwupd_2.1.7-1_amd64.deb",
+	"size": 8337284,
+	"md5": "e40e612f103a318bb5788ab343c476b8",
+	"sha256": "df9877aa16144fe395c0a10580958cc0c52e458a92cda461da4f8f439f2a83c5",
 	"descriptionMd5": "cdd6fee34520bc38e3f317c22bf0694b"
 }

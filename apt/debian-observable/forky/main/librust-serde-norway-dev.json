@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "librust-serde-norway-dev",
-	"source": "rust-serde-norway (0.9.38-1)",
-	"version": "0.9.38-1+b2",
+	"source": "rust-serde-norway",
+	"version": "0.9.42-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-indexmap-2+default-dev (>= 2.2.1-~~)",
+		"librust-indexmap-2+default-dev (>= 2.2.1)",
 		"librust-itoa-1+default-dev",
 		"librust-ryu-1+default-dev",
-		"librust-serde-1+default-dev (>= 1.0.203-~~)",
-		"librust-unsafe-libyaml-0.2+default-dev (>= 0.2.11-~~)"
+		"librust-serde-1+default-dev (>= 1.0.203)",
+		"librust-unsafe-libyaml-0.2+default-dev (>= 0.2.11)"
 	],
-	"installedSize": 445,
+	"breaks": [
+		"rustc (<< 1.71.1~)"
+	],
+	"installedSize": 450,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "YAML data format for Serde - Rust source code",
-	"filename": "pool/main/r/rust-serde-norway/librust-serde-norway-dev_0.9.38-1+b2_amd64.deb",
-	"size": 59920,
-	"md5": "f06fe9425c5d598d5a27c724d215e5f5",
-	"sha256": "dfff205e7ca966008770795cdc1939b1b7cc7638ff2767be4c84123ba4dc7c2f",
+	"homepage": "https://github.com/cafkafk/serde-yaml",
+	"filename": "pool/main/r/rust-serde-norway/librust-serde-norway-dev_0.9.42-1_amd64.deb",
+	"size": 60064,
+	"md5": "728d59d51ec77aa56701897d2879cbf3",
+	"sha256": "6472d7b4200e8427a353ad1d4232ecaf83f08ef799ac35ee6f496a3eae400dfd",
 	"descriptionMd5": "6a56887c8817765ce9a3ad9712cad6b0"
 }]
