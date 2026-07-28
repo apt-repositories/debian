@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "debvm",
-	"version": "0.5.3",
+	"version": "0.5.4",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -35,21 +35,22 @@
 		"openssh-client"
 	],
 	"suggests": [
-		"ovmf-ia32",
+		"ovmf-ia32 | base-files (>= 14)",
 		"qemu-efi-aarch64",
-		"qemu-efi-arm",
+		"qemu-efi-arm | base-files (>= 14)",
 		"qemu-efi-riscv64",
 		"qemu-system-gui",
 		"systemd",
+		"util-linux",
 		"uuid-runtime"
 	],
-	"installedSize": 134,
+	"installedSize": 144,
 	"maintainer": "Helmut Grohne <helmut@subdivi.de>",
 	"description": "create and run virtual machines for various Debian releases and architectures",
 	"homepage": "https://salsa.debian.org/helmutg/debvm/",
-	"filename": "pool/main/d/debvm/debvm_0.5.3_all.deb",
-	"size": 45716,
-	"md5": "14ace0d6926526be39b702beb9859fe4",
-	"sha256": "ab107402de63215ec451a2a70d027d4c867c30e4ffc51e04df21999ec7593f0a",
+	"filename": "pool/main/d/debvm/debvm_0.5.4_all.deb",
+	"size": 48212,
+	"md5": "1864f8303ff56bf1a443e49556b276f2",
+	"sha256": "76467abdfee567738e74294fe66783fa713d56127d978b8ce9d52c080f45bc36",
 	"descriptionMd5": "69eb9e07cd67454187b7bcecdcfc7511"
 }

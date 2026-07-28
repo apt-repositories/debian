@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gufo-exif-dev",
 	"source": "rust-gufo-exif",
-	"version": "0.4.0-2",
+	"version": "0.4.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-thiserror-2+default-dev (>= 2.0.3)",
 		"librust-tracing-0.1+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.80~)"
+	],
 	"installedSize": 113,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Exif loading and editing - Rust source code",
 	"homepage": "https://github.com/gufo-rs/gufo",
-	"filename": "pool/main/r/rust-gufo-exif/librust-gufo-exif-dev_0.4.0-2_amd64.deb",
-	"size": 25940,
-	"md5": "70ca5c44587897c2f3d428126b163bbc",
-	"sha256": "f7696e77170ba8e41d588fcc32d0e5b2bc8eb946b9660f1f3a2da96530791ec4",
+	"filename": "pool/main/r/rust-gufo-exif/librust-gufo-exif-dev_0.4.0-3_amd64.deb",
+	"size": 25988,
+	"md5": "1f0ce7f71b91851abc1f39169553d01e",
+	"sha256": "1a73606f95d6007238b83afd56f90d31ba2878b0c9edef0108c60dbbe5cb48f6",
 	"descriptionMd5": "ef411e75387ef6d4a91d8c3aa0a45d29"
 }]

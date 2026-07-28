@@ -6,7 +6,7 @@
 	],
 	"package": "afl++",
 	"source": "aflplusplus",
-	"version": "5.02c-0.1",
+	"version": "5.02c-0.2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,8 +17,9 @@
 		"clang",
 		"python3:any",
 		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
 		"libpython3.14 (>= 3.14.1)",
-		"libstdc++6 (>= 5.2)",
+		"libstdc++6 (>= 13.1)",
 		"zlib1g (>= 1:1.2.3.4)"
 	],
 	"recommends": [
@@ -35,13 +36,13 @@
 		"afl (<< 2.53c)",
 		"afl++-clang (<< 3.14c)"
 	],
-	"installedSize": 2299,
+	"installedSize": 4477,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "instrumentation-driven fuzzer for binary formats",
 	"homepage": "https://github.com/AFLplusplus/AFLplusplus",
-	"filename": "pool/main/a/aflplusplus/afl++_5.02c-0.1_amd64.deb",
-	"size": 574340,
-	"md5": "c681a5981d4ddafb1cec25296d973e82",
-	"sha256": "517ccf234422687c5f2a755ba1f6fba531781de9cfa4deccdc5b388e4cfd24bd",
+	"filename": "pool/main/a/aflplusplus/afl++_5.02c-0.2_amd64.deb",
+	"size": 928300,
+	"md5": "61410616eca38c8954440b990c03039c",
+	"sha256": "49e9d93c05e3ac705158de42c41c007b8eaef65f0793f8855f5a4aec9d9bc40c",
 	"descriptionMd5": "dad03c98adce45fdfb6d2610388bb2e7"
 }]

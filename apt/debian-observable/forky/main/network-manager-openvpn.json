@@ -5,25 +5,26 @@
 		"Size"
 	],
 	"package": "network-manager-openvpn",
-	"version": "1.12.5-1",
+	"version": "1.12.5-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"network-manager (>= 1.54.3)",
+		"openvpn",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libglib2.0-0t64 (>= 2.36.0)",
-		"libnm0 (>= 1.54.3)",
-		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"network-manager (>= 1.54.3)",
-		"openvpn"
+		"libnm0 (>= 1.56.0)"
 	],
-	"installedSize": 1514,
+	"installedSize": 1512,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "network management framework (OpenVPN plugin core)",
 	"homepage": "https://networkmanager.dev",
-	"filename": "pool/main/n/network-manager-openvpn/network-manager-openvpn_1.12.5-1_amd64.deb",
-	"size": 250808,
-	"md5": "172771d8c0a149d72caf8626147f1c73",
-	"sha256": "8034b1106c130daf248abf8d3ad329ddcb972a6b36fc887310dfef1a3ab1af0f",
+	"filename": "pool/main/n/network-manager-openvpn/network-manager-openvpn_1.12.5-2_amd64.deb",
+	"size": 247780,
+	"md5": "898211327c7f100e1e6cb005caf20a5b",
+	"sha256": "f77f1c3add5a8d0df4419f8d3e4e5d351b2a6f50e99d5468c59392a53663d303",
 	"descriptionMd5": "7eae1b400dc40adcca1f940605a94dec"
 }]
