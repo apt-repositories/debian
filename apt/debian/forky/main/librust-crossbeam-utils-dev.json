@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-crossbeam-utils-dev",
-	"source": "rust-crossbeam-utils (0.8.21-1)",
-	"version": "0.8.21-1+b1",
+	"source": "rust-crossbeam-utils",
+	"version": "0.8.22-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 229,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 232,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Utilities for concurrent programming - Rust source code",
 	"homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-utils",
-	"filename": "pool/main/r/rust-crossbeam-utils/librust-crossbeam-utils-dev_0.8.21-1+b1_amd64.deb",
-	"size": 43440,
-	"md5": "998b5ad79e916c4818145d1d6f711628",
-	"sha256": "1c9594f2e60acf65ab58ea2b35cbd16bf4b72d519f0b063ec91245b65cc52334",
+	"filename": "pool/main/r/rust-crossbeam-utils/librust-crossbeam-utils-dev_0.8.22-1_amd64.deb",
+	"size": 44004,
+	"md5": "660143a788b129446f82451271b9cc4a",
+	"sha256": "326e8ce66ace60ae73c8e722ac81ad11d3987b521ccbffdd1c473bca43abde10",
 	"descriptionMd5": "009c282f87841c8a97d646d9e14b3353"
 }

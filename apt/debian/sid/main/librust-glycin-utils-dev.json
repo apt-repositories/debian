@@ -6,7 +6,7 @@
 	],
 	"package": "librust-glycin-utils-dev",
 	"source": "rust-glycin-utils",
-	"version": "4.1.0-2",
+	"version": "4.1.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -24,7 +24,7 @@
 		"librust-gufo-common-1+serde-dev (>= 1.1.0)",
 		"librust-gufo-common-1+zvariant-dev (>= 1.1.0)",
 		"librust-half-2+default-dev (>= 2.4.1)",
-		"librust-image-0.25-dev",
+		"librust-image-0.25-dev (>= 0.25.9)",
 		"librust-libc-0.2+default-dev (>= 0.2.152)",
 		"librust-libseccomp-0.4+default-dev",
 		"librust-log-0.4+default-dev",
@@ -48,13 +48,16 @@
 		"librust-zbus-5+tokio-dev (>= 5.10.0)",
 		"librust-zerocopy-0.8+default-dev (>= 0.8.12)"
 	],
-	"installedSize": 139,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 135,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Sandboxed image decoding - Rust source code",
 	"homepage": "https://gnome.pages.gitlab.gnome.org/glycin/",
-	"filename": "pool/main/r/rust-glycin-utils/librust-glycin-utils-dev_4.1.0-2_amd64.deb",
-	"size": 30668,
-	"md5": "e16eaa5fc4f6973fc936cfb88731a8ae",
-	"sha256": "56b635fc5ec3a7e27bf0c69c18b529e52a5339cf8ad5c6e4519c539d38212733",
+	"filename": "pool/main/r/rust-glycin-utils/librust-glycin-utils-dev_4.1.0-3_amd64.deb",
+	"size": 30532,
+	"md5": "9b456f920a3aab7e10dd3b816be41747",
+	"sha256": "fc71fbacf50ebcaae61711c31330898829af8727ac0793bff71c6bec9e8453b1",
 	"descriptionMd5": "a1d183a417897439140ffdc34a06299a"
 }

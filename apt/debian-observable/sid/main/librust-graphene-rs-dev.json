@@ -6,24 +6,25 @@
 	],
 	"package": "librust-graphene-rs-dev",
 	"source": "rust-graphene-rs",
-	"version": "0.22.0-2",
+	"version": "0.22.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-glib-0.22-dev",
 		"librust-graphene-sys-0.22+default-dev",
-		"librust-graphene-sys-0.22+v1-12-dev",
-		"librust-libc-0.2+default-dev",
 		"libgraphene-1.0-dev"
 	],
-	"installedSize": 201,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 206,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings for the Graphene library - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-graphene-rs/librust-graphene-rs-dev_0.22.0-2_amd64.deb",
-	"size": 19820,
-	"md5": "3b066ec931c976125747069c88741d21",
-	"sha256": "5f4c3d5eab674851b5aeaca77260def114703dcefa14dbcb5ef3144e0f3370b6",
+	"filename": "pool/main/r/rust-graphene-rs/librust-graphene-rs-dev_0.22.8-1_amd64.deb",
+	"size": 20184,
+	"md5": "f5f9dd6dfa79376abdbc5d2faeb9711d",
+	"sha256": "e6cf05ebaf2687884edcf0d6b72d18e5e060ce7791822da3129c978e1ffa257f",
 	"descriptionMd5": "7a74c597be01a6ccf43e89b183488d10"
 }]

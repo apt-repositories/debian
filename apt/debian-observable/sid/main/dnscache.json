@@ -6,12 +6,11 @@
 	],
 	"package": "dnscache",
 	"source": "djbdns",
-	"version": "1:1.05-22.1",
+	"version": "1:1.05-23",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"init-system-helpers (>= 1.51)",
 		"runit-helper (>= 2.14.0~)",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.34)"
@@ -26,13 +25,13 @@
 	"conflicts": [
 		"runit (<< 2.1.2-51~)"
 	],
-	"installedSize": 139,
-	"maintainer": "Peter Pentchev <roam@debian.org>",
+	"installedSize": 138,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "DNS cache - tool for finding addresses of Internet hosts",
 	"homepage": "http://cr.yp.to/djbdns.html",
-	"filename": "pool/main/d/djbdns/dnscache_1.05-22.1_amd64.deb",
-	"size": 47664,
-	"md5": "f547484edcc14c67b5a9916d1e4943d2",
-	"sha256": "f18cfd870deafe3c399ec1bd35981d633346e1d02f048e58f32b083fb651541c",
+	"filename": "pool/main/d/djbdns/dnscache_1.05-23_amd64.deb",
+	"size": 45888,
+	"md5": "5a2e51c0adf863f8e64537b326bd5a15",
+	"sha256": "d508cb5f58ceeafbe1fb2c361556ff3f46c21e5f65c89501fb2b34a69f2701a6",
 	"descriptionMd5": "30ba9f7ccf3fdc71e9c68bf2cb1c93fe"
 }]

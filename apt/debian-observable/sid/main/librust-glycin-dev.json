@@ -6,14 +6,13 @@
 	],
 	"package": "librust-glycin-dev",
 	"source": "rust-glycin",
-	"version": "3.1.0-2",
+	"version": "3.1.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-async-fs-2+default-dev (>= 2.1.0)",
-		"librust-async-global-executor+default-dev (<< 4)",
-		"librust-async-global-executor+default-dev (>= 2.4)",
+		"librust-async-global-executor-3+default-dev (>= 3.1.0)",
 		"librust-async-io-2+default-dev (>= 2.3.2)",
 		"librust-async-lock-3+default-dev (>= 3.3.0)",
 		"librust-async-task-4+default-dev",
@@ -65,13 +64,16 @@
 		"librust-zbus-5+p2p-dev (>= 5.10.0)",
 		"librust-zbus-5+tokio-dev (>= 5.10.0)"
 	],
-	"installedSize": 257,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 256,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Sandboxed image decoding - Rust source code",
 	"homepage": "https://gnome.pages.gitlab.gnome.org/glycin/",
-	"filename": "pool/main/r/rust-glycin/librust-glycin-dev_3.1.0-2_amd64.deb",
-	"size": 54592,
-	"md5": "49831358a51b51669fb09b598d1a0905",
-	"sha256": "57802b5ebc242a0176e920cd8e3dedaa5ffe4999af623df89b1a162163d84c76",
+	"filename": "pool/main/r/rust-glycin/librust-glycin-dev_3.1.0-3_amd64.deb",
+	"size": 54528,
+	"md5": "eda14491ef342e7cd3d2d4088f51e6d8",
+	"sha256": "6faad2f6a144e0ad4551b2478b072f6cc38ca51a280849fb42db2a6729d15ac3",
 	"descriptionMd5": "c977c8105e338304515c185662ee53a4"
 }]

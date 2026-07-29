@@ -6,14 +6,13 @@
 	],
 	"package": "librust-pango-dev",
 	"source": "rust-pango",
-	"version": "0.22.6-1",
+	"version": "0.22.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-gio-0.22+default-dev",
 		"librust-glib-0.22-dev",
-		"librust-libc-0.2+default-dev",
 		"librust-pango-sys-0.22+default-dev",
 		"librust-pango-sys-0.22+v1-42-dev",
 		"librust-pango-sys-0.22+v1-44-dev",
@@ -26,13 +25,16 @@
 		"librust-pango-sys-0.22+v1-57-dev",
 		"libpango1.0-dev"
 	],
-	"installedSize": 359,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 361,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings for the Pango library - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-pango/librust-pango-dev_0.22.6-1_amd64.deb",
-	"size": 42144,
-	"md5": "00c33fd2f7d431d20992679bf6dd43e8",
-	"sha256": "0938bdd2b5b267293ff2c1522a9a88eff511a1fc000175487f117eda7837002c",
+	"filename": "pool/main/r/rust-pango/librust-pango-dev_0.22.8-1_amd64.deb",
+	"size": 42276,
+	"md5": "1b7e7b7295947303df05f460c77be536",
+	"sha256": "b6b5998662fa55ad62be4906dd1691ec9fb8b010ea40a40aa89514f056339888",
 	"descriptionMd5": "93c3d82c15ef57dc35b5382014a26a28"
 }]

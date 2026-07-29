@@ -43,8 +43,58 @@
 	"maintainer": "OpenJDK Team <openjdk-17@packages.debian.org>",
 	"description": "OpenJDK Java runtime, using Hotspot JIT",
 	"homepage": "https://openjdk.java.net/",
-	"filename": "pool/updates/main/o/openjdk-17/openjdk-17-jre_17.0.19+10-1~deb12u2_amd64.deb",
+	"filename": "pool/main/o/openjdk-17/openjdk-17-jre_17.0.19+10-1~deb12u2_amd64.deb",
 	"size": 214764,
+	"md5": "b06816b79fbe293b1399f72090fbefa6",
 	"sha256": "c261672e9a13615d32bb35a3d8ec0c6e3114250e4feb864d5eeab627eda00795",
+	"descriptionMd5": "13097853553de1ab39cc189225a9cbaa"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-17-jre",
+	"source": "openjdk-17",
+	"version": "17.0.20+8-1~deb12u1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-17-jre-headless (= 17.0.20+8-1~deb12u1)",
+		"libglib2.0-0 (>= 2.24)",
+		"libgtk2.0-0 | libgtk-3-0",
+		"libxrandr2",
+		"libxinerama1",
+		"libgl1",
+		"libharfbuzz0b",
+		"libc6 (>= 2.34)",
+		"libgif7 (>= 5.1)",
+		"libjpeg62-turbo (>= 1.3.1)",
+		"libpng16-16 (>= 1.6.2-1)",
+		"libx11-6",
+		"libxext6",
+		"libxi6",
+		"libxrender1",
+		"libxtst6",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)",
+		"fonts-dejavu-extra"
+	],
+	"replaces": [
+		"openjdk-17-jre-headless (<< 17~10)"
+	],
+	"breaks": [
+		"openjdk-17-jre-headless (<< 17~10)"
+	],
+	"installedSize": 715,
+	"maintainer": "OpenJDK Team <openjdk-17@packages.debian.org>",
+	"description": "OpenJDK Java runtime, using Hotspot JIT",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/updates/main/o/openjdk-17/openjdk-17-jre_17.0.20+8-1~deb12u1_amd64.deb",
+	"size": 215140,
+	"sha256": "8a97139203797e7dc0520822c6e3e85377e166b9403fb47a318f2344f27bac69",
 	"descriptionMd5": "13097853553de1ab39cc189225a9cbaa"
 }]

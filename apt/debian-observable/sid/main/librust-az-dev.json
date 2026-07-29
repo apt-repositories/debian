@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "librust-az-dev",
-	"source": "rust-az (1.2.1-1)",
-	"version": "1.2.1-1+b2",
+	"source": "rust-az",
+	"version": "1.3.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 231,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 242,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Casts and checked casts - Rust source code",
-	"filename": "pool/main/r/rust-az/librust-az-dev_1.2.1-1+b2_amd64.deb",
-	"size": 25368,
-	"md5": "0602a3864cca633e97cf4f535d794311",
-	"sha256": "223bddf586c9d33693582422b4a5b580621ef536a2b7feb31b14a243faf15b98",
-	"descriptionMd5": "19407f24d8871e050876f70152305b50"
+	"homepage": "https://gitlab.com/tspiteri/az",
+	"filename": "pool/main/r/rust-az/librust-az-dev_1.3.0-1_amd64.deb",
+	"size": 25884,
+	"md5": "393b31f1ead1b3657177ef600d5a0515",
+	"sha256": "c3241f79b8940cc3e461e21b563af0d694a3e4237591da0802f269fb268085dd",
+	"descriptionMd5": "b74f5d0f37e1e10798555b810624c850"
 }]

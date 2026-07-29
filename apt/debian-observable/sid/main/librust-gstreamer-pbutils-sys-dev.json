@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-pbutils-sys-dev",
 	"source": "rust-gstreamer-pbutils-sys",
-	"version": "0.25.2-1",
+	"version": "0.25.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,13 +21,16 @@
 		"libgstreamer-plugins-base1.0-dev",
 		"libgstreamer1.0-dev"
 	],
-	"installedSize": 221,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 226,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgstpbutils-1.0 - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-pbutils-sys/librust-gstreamer-pbutils-sys-dev_0.25.2-1_amd64.deb",
-	"size": 71792,
-	"md5": "64df83d0f13beb93ad45cb4ad932b759",
-	"sha256": "81069c5e064b45bc0e89d4890ceeaaaf3c61b49e190e35782d7de9947918c041",
+	"filename": "pool/main/r/rust-gstreamer-pbutils-sys/librust-gstreamer-pbutils-sys-dev_0.25.2-2_amd64.deb",
+	"size": 72192,
+	"md5": "48c5b11b2c2be9f6f3a6610862306c29",
+	"sha256": "2497aaf78d6640c28023d1f66a0ce870efe3673d831d1a60d1b74079432b59e7",
 	"descriptionMd5": "ba687f3fa08f607aefb5c5257b5d017c"
 }]

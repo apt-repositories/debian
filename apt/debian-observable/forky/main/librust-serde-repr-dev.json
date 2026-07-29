@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-serde-repr-dev",
-	"source": "rust-serde-repr (0.1.20-1)",
-	"version": "0.1.20-1+b1",
+	"source": "rust-serde-repr",
+	"version": "0.1.21-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2-1+default-dev (>= 1.0.74-~~)",
-		"librust-quote-1+default-dev (>= 1.0.35-~~)",
-		"librust-syn-2+default-dev (>= 2.0.46-~~)"
+		"librust-proc-macro2-1+default-dev (>= 1.0.74)",
+		"librust-quote-1+default-dev (>= 1.0.35)",
+		"librust-syn-2+default-dev"
 	],
-	"installedSize": 67,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 70,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive Serialize and Deserialize that delegates to the underlying repr of a C-like enum - Rust source code",
 	"homepage": "https://github.com/dtolnay/serde-repr",
-	"filename": "pool/main/r/rust-serde-repr/librust-serde-repr-dev_0.1.20-1+b1_amd64.deb",
-	"size": 12788,
-	"md5": "a6bd600a69740e2f3e92dce4fb06bc05",
-	"sha256": "32259ce25f52fc28c44cd55825d23476d9f0135d83651455ac7f561bf4bd9bbd",
+	"filename": "pool/main/r/rust-serde-repr/librust-serde-repr-dev_0.1.21-1_amd64.deb",
+	"size": 12888,
+	"md5": "ad9f485e9cb2b823c3aa2e9231d4c389",
+	"sha256": "e90f611fa5629a19960400d37c547ec18093a109436038c8c0c4d0601652dc09",
 	"descriptionMd5": "443b3a397db4179f887c404e2f5dddf0"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-video-sys-dev",
 	"source": "rust-gstreamer-video-sys",
-	"version": "0.25.2-2",
+	"version": "0.25.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,16 @@
 		"libgstreamer-plugins-base1.0-dev (>= 1.28)",
 		"libgstreamer1.0-dev"
 	],
-	"installedSize": 464,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 469,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgstvideo-1.0 - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-video-sys/librust-gstreamer-video-sys-dev_0.25.2-2_amd64.deb",
-	"size": 92472,
-	"md5": "1faa84ca5cd16779452bab3b541f6d04",
-	"sha256": "46f0cc70f93d63650e2976aabf71ee63dd70051a52b560b4c3946de50e32b71f",
+	"filename": "pool/main/r/rust-gstreamer-video-sys/librust-gstreamer-video-sys-dev_0.25.3-1_amd64.deb",
+	"size": 92860,
+	"md5": "28d666796a57cefa086758dde1f854d0",
+	"sha256": "7409b13a20300c6cb29c8563a100be941fb2b1a7813366856d583b2f3aa7d923",
 	"descriptionMd5": "2a74d6b29cb920a142162284d1f7c1fd"
 }
