@@ -6,7 +6,7 @@
 	],
 	"package": "librust-libglycin-rebind-dev",
 	"source": "rust-libglycin-rebind",
-	"version": "0.1.0-2",
+	"version": "0.1.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-libc-0.2+default-dev (>= 0.2.152)",
 		"librust-libglycin-rebind-sys-0.1+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
 	"installedSize": 93,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Safe bindings for libglycin - Rust source code",
 	"homepage": "https://gnome.pages.gitlab.gnome.org/glycin/",
-	"filename": "pool/main/r/rust-libglycin-rebind/librust-libglycin-rebind-dev_0.1.0-2_amd64.deb",
-	"size": 11736,
-	"md5": "15f93d70869db90dbbe53555cfb7d651",
-	"sha256": "0c940299403b1ce295d7bab4291649f19194e837f4c093313535b2249910fd95",
+	"filename": "pool/main/r/rust-libglycin-rebind/librust-libglycin-rebind-dev_0.1.0-3_amd64.deb",
+	"size": 11828,
+	"md5": "686190b3fab84032d1a2de00e59414dc",
+	"sha256": "13fb5fa6987b004339e9117a2147b812f5bada12acb623d0cd8f4f141217ae20",
 	"descriptionMd5": "3817c2be6e919e3fcd2e41aae347f431"
 }]

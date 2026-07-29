@@ -6,7 +6,7 @@
 	],
 	"package": "librust-poppler-rs-dev",
 	"source": "rust-poppler-rs",
-	"version": "0.26.0-2",
+	"version": "0.26.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -39,13 +39,16 @@
 		"librust-poppler-sys-rs-0.26+v25-8-dev",
 		"libpoppler-glib-dev"
 	],
-	"installedSize": 420,
+	"breaks": [
+		"rustc (<< 1.92.0~)"
+	],
+	"installedSize": 426,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "High-level (safe) bindings for poppler-glib - Rust source code",
 	"homepage": "https://world.pages.gitlab.gnome.org/Rust/poppler-rs/",
-	"filename": "pool/main/r/rust-poppler-rs/librust-poppler-rs-dev_0.26.0-2_amd64.deb",
-	"size": 38520,
-	"md5": "61cb806592ecf722aaa941a5e69aa210",
-	"sha256": "d9e27d74da4e2a733c32883658f1934a0a77d9adc933dfeca01b8e8d48547f4e",
+	"filename": "pool/main/r/rust-poppler-rs/librust-poppler-rs-dev_0.26.0-3_amd64.deb",
+	"size": 39176,
+	"md5": "a53a32132fa1ac8af35fa785df4481ea",
+	"sha256": "a3f2cfb8a1741877073c13a5e76ecd360c0de1eabbd6bb6aa80a90af84615bf4",
 	"descriptionMd5": "f88f00ac8c9501cdf29100062f7448d8"
 }]

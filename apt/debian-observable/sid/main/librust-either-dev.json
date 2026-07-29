@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "librust-either-dev",
-	"source": "rust-either (1.15.0-1)",
-	"version": "1.15.0-1+b1",
+	"source": "rust-either",
+	"version": "1.17.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"suggests": [
-		"librust-either+serde-dev (= 1.15.0-1+b1)"
+	"depends": [
+		"librust-serde-1+alloc-dev (>= 1.0.95)",
+		"librust-serde-1+derive-dev (>= 1.0.95)"
 	],
-	"installedSize": 103,
+	"breaks": [
+		"rustc (<< 1.63.0~)"
+	],
+	"installedSize": 112,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Enum `Either` with variants `Left` and `Right` is a general purpose sum type with two cases - Rust source code",
 	"homepage": "https://github.com/rayon-rs/either",
-	"filename": "pool/main/r/rust-either/librust-either-dev_1.15.0-1+b1_amd64.deb",
-	"size": 20524,
-	"md5": "026a2dc5794d7ea8b2158e9845abd0e2",
-	"sha256": "c855255f3eff7cd288faa834098d8c9bbb23ad51facacefcd268f4798c58daf4",
+	"filename": "pool/main/r/rust-either/librust-either-dev_1.17.0-1_amd64.deb",
+	"size": 21684,
+	"md5": "0f29f9f10fb9c9f3de793f9fe721880d",
+	"sha256": "f3ebeef8dd85971405b3379d7f0e8c59496c0df21299f34f23685ff604612b6f",
 	"descriptionMd5": "c8bbc0b037ae63327454bf9c1955315f"
 }]

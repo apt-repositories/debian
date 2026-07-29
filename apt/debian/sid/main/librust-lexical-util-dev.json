@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-lexical-util-dev",
-	"source": "rust-lexical-util (1.0.6-1)",
-	"version": "1.0.6-1+b1",
+	"source": "rust-lexical-util",
+	"version": "1.0.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-static-assertions-1+default-dev"
+		"librust-float16-0.1+default-dev"
 	],
-	"installedSize": 637,
+	"breaks": [
+		"rustc (<< 1.60.0~)"
+	],
+	"installedSize": 743,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Shared utilities for lexical creates - Rust source code",
 	"homepage": "https://github.com/Alexhuszagh/rust-lexical",
-	"filename": "pool/main/r/rust-lexical-util/librust-lexical-util-dev_1.0.6-1+b1_amd64.deb",
-	"size": 84092,
-	"md5": "7e6ddc278974b5b975fafd192b699038",
-	"sha256": "d18be1deb68a19e02b52c66e4a3cd90f50ddb787d1b6d116e1a0cf599c068db9",
+	"filename": "pool/main/r/rust-lexical-util/librust-lexical-util-dev_1.0.7-1_amd64.deb",
+	"size": 87716,
+	"md5": "83dd13227ab823f9024c2c0f6c20c714",
+	"sha256": "834b8be04b25274b7e95447d2fb2e24b0e7d5e2d4604a9cf1807c33c0d9f1f4a",
 	"descriptionMd5": "f74807e6beb4a4d72df139c121551e80"
 }

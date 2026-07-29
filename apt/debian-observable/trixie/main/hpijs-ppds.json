@@ -32,4 +32,37 @@
 	"md5": "70be441ec7bdf1fd7543db2b49166990",
 	"sha256": "bc0b1e89a9858d545700b8452e2705412714a37e6b4cfe49931ec9a5e584602c",
 	"descriptionMd5": "979d2d553e8b615deb4af0e078d0def7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "hpijs-ppds",
+	"source": "hplip",
+	"version": "3.22.10+dfsg0-8.1+deb13u1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"cups-filters | foomatic-filters",
+		"printer-driver-hpijs (>= 3.22.10+dfsg0-8.1+deb13u1)",
+		"python3:any",
+		"xz-utils"
+	],
+	"replaces": [
+		"hplip-ppds"
+	],
+	"breaks": [
+		"foomatic-filters-ppds (>> 20000101)",
+		"hplip-ppds"
+	],
+	"installedSize": 35,
+	"maintainer": "Debian Printing Team <debian-printing@lists.debian.org>",
+	"description": "HP Linux Printing and Imaging - HPIJS PPD files",
+	"homepage": "https://developers.hp.com/hp-linux-imaging-and-printing",
+	"filename": "pool/updates/main/h/hplip/hpijs-ppds_3.22.10+dfsg0-8.1+deb13u1_all.deb",
+	"size": 15008,
+	"sha256": "9334c95da9770c53f46f68b38a00dcbd19d7046abc03e13788d03a7b67c1cd15",
+	"descriptionMd5": "979d2d553e8b615deb4af0e078d0def7"
 }]

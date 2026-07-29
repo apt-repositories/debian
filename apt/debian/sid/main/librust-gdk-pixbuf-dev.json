@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gdk-pixbuf-dev",
 	"source": "rust-gdk-pixbuf",
-	"version": "0.22.0-2",
+	"version": "0.22.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,16 @@
 		"librust-libc-0.2+default-dev",
 		"libgdk-pixbuf-2.0-dev (>= 2.44)"
 	],
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
 	"installedSize": 142,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings for the GdkPixbuf library - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-gdk-pixbuf/librust-gdk-pixbuf-dev_0.22.0-2_amd64.deb",
-	"size": 19932,
-	"md5": "62716f0a8e4f7de0ba0d032d145d56f1",
-	"sha256": "b178ac7d739db70d650ae4166c19f2bd92dd9ca0c898ecd1c328211034a5dd62",
+	"filename": "pool/main/r/rust-gdk-pixbuf/librust-gdk-pixbuf-dev_0.22.0-3_amd64.deb",
+	"size": 19964,
+	"md5": "bce7e03e30f429e4a8a4260dd729e501",
+	"sha256": "17bcd6561a10197871d93b3d8f101645a8cb1bf8db821cf3dffc1a001faf5cab",
 	"descriptionMd5": "c47eb73e74e4e1f4028e1bfa014f4c53"
 }

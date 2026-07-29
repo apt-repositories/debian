@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-allocators-dev",
 	"source": "rust-gstreamer-allocators",
-	"version": "0.25.2-1",
+	"version": "0.25.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,7 +20,6 @@
 		"librust-gstreamer-0.25+v1-24-dev",
 		"librust-gstreamer-0.25+v1-26-dev",
 		"librust-gstreamer-0.25+v1-28-dev",
-		"librust-gstreamer-0.25+v1-30-dev",
 		"librust-gstreamer-allocators-sys-0.25+default-dev",
 		"librust-gstreamer-allocators-sys-0.25+v1-16-dev",
 		"librust-gstreamer-allocators-sys-0.25+v1-18-dev",
@@ -29,16 +28,18 @@
 		"librust-gstreamer-allocators-sys-0.25+v1-24-dev",
 		"librust-gstreamer-allocators-sys-0.25+v1-26-dev",
 		"librust-gstreamer-allocators-sys-0.25+v1-28-dev",
-		"librust-gstreamer-allocators-sys-0.25+v1-30-dev",
 		"librust-libc-0.2+default-dev"
 	],
-	"installedSize": 212,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 217,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings for GStreamer Allocators library - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-allocators/librust-gstreamer-allocators-dev_0.25.2-1_amd64.deb",
-	"size": 73624,
-	"md5": "4ba6a84faa3b1d43db96cfc8c0ba7c56",
-	"sha256": "4e69cbb87640120f5a781b66eecb74d4aadf94c5a0f17652c2c1ec4c80ba700d",
+	"filename": "pool/main/r/rust-gstreamer-allocators/librust-gstreamer-allocators-dev_0.25.3-1_amd64.deb",
+	"size": 74044,
+	"md5": "c9a4e9ec40b5e99c932c72394961e601",
+	"sha256": "73fa8074580ff401323856f19964bad189528c0440d0570f90f1c3330b5c05ea",
 	"descriptionMd5": "0e7fb66d078cf518a919ab80915557bc"
 }
