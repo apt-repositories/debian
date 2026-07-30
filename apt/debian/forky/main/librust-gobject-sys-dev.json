@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gobject-sys-dev",
 	"source": "rust-gobject-sys",
-	"version": "0.22.6-2",
+	"version": "0.22.6-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,16 @@
 		"librust-system-deps-7+default-dev",
 		"libglib2.0-dev (>= 2.87.3)"
 	],
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
 	"installedSize": 153,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgobject-2.0 - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-gobject-sys/librust-gobject-sys-dev_0.22.6-2_amd64.deb",
-	"size": 19620,
-	"md5": "d5239f3b4b04535bbedc3cccf4f59b66",
-	"sha256": "debf1ff2fa927b36ee98e54c06c4f45d797d2f0ac915a04a9f5dd259af4f6977",
+	"filename": "pool/main/r/rust-gobject-sys/librust-gobject-sys-dev_0.22.6-3_amd64.deb",
+	"size": 19676,
+	"md5": "5c1233ff12589b8a203c2d3628322caf",
+	"sha256": "cd6fb68a9df436b3652528b42f123274d02fb2ceb43b9caf78f75e866a4a05df",
 	"descriptionMd5": "78d09ea4231bcada24cff297c2330f28"
 }

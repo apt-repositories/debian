@@ -5,32 +5,33 @@
 		"Size"
 	],
 	"package": "fail2ban",
-	"version": "1.1.0-10",
+	"version": "1.1.0-11",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3:any",
-		"python3-systemd"
+		"python3-systemd",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"python3:any"
 	],
 	"recommends": [
 		"nftables | iptables",
-		"whois",
-		"python3-pyinotify"
+		"python3-pyinotify",
+		"whois"
 	],
 	"suggests": [
 		"mailx",
-		"system-log-daemon",
 		"monit",
-		"sqlite3"
+		"sqlite3",
+		"system-log-daemon"
 	],
-	"installedSize": 2192,
+	"installedSize": 2191,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "ban hosts that cause multiple authentication errors",
 	"homepage": "https://www.fail2ban.org",
-	"filename": "pool/main/f/fail2ban/fail2ban_1.1.0-10_all.deb",
-	"size": 464708,
-	"md5": "29ab606c0c21e95979bc20320c54b4f7",
-	"sha256": "8f8490e4942e295318a25755860d3bec6e49e9055892f3b825734bf9ed00b8f1",
+	"filename": "pool/main/f/fail2ban/fail2ban_1.1.0-11_all.deb",
+	"size": 464796,
+	"md5": "275b8e5a4afeeb1b2f958bdfcc1c31c4",
+	"sha256": "fdff650c372ed0d648bb53bd4bdec6673fa0b3a1cf4b4f26f09c50d48e9445a6",
 	"descriptionMd5": "06685647beb252b706838adf56a34b2a"
 }

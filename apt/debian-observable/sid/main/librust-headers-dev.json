@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-headers-dev",
-	"source": "rust-headers (0.4.0-1)",
-	"version": "0.4.0-1+b1",
+	"source": "rust-headers",
+	"version": "0.4.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,16 +16,19 @@
 		"librust-headers-core-0.3+default-dev",
 		"librust-http-1+default-dev",
 		"librust-httpdate-1+default-dev",
-		"librust-mime-0.3+default-dev (>= 0.3.14-~~)",
+		"librust-mime-0.3+default-dev (>= 0.3.14)",
 		"librust-sha1-0.10+default-dev"
 	],
-	"installedSize": 376,
+	"breaks": [
+		"rustc (<< 1.56~)"
+	],
+	"installedSize": 375,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Typed HTTP headers - Rust source code",
 	"homepage": "https://hyper.rs",
-	"filename": "pool/main/r/rust-headers/librust-headers-dev_0.4.0-1+b1_amd64.deb",
-	"size": 62176,
-	"md5": "05f4378435e39b2ad686f4b99ae27db1",
-	"sha256": "f949fa46041f63d72745d6f604f0ecc597e368a035a68753b698dc1ae9096c57",
+	"filename": "pool/main/r/rust-headers/librust-headers-dev_0.4.1-1_amd64.deb",
+	"size": 62268,
+	"md5": "da6ce26fb0e375c8439db9aa3727cdf2",
+	"sha256": "ab46042e1804c0e24b407fd40b1c7312e583f79b4f0395e70a02ebd7bc8f043b",
 	"descriptionMd5": "a4b82d8ee9bed4973c456041b69bff33"
 }]
