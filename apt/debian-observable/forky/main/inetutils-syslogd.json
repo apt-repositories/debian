@@ -6,11 +6,12 @@
 	],
 	"package": "inetutils-syslogd",
 	"source": "inetutils",
-	"version": "2:2.8-2",
+	"version": "2:2.8-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libsystemd0 (>= 254)",
 		"sysvinit-utils (>= 3.05-4~)",
@@ -27,9 +28,9 @@
 	"maintainer": "Guillem Jover <guillem@debian.org>",
 	"description": "GNU system logging daemon",
 	"homepage": "https://www.gnu.org/software/inetutils/",
-	"filename": "pool/main/i/inetutils/inetutils-syslogd_2.8-2_amd64.deb",
-	"size": 92948,
-	"md5": "a31c5b7a6361b4b99630cfbbe1477b86",
-	"sha256": "ab37de2b561410a8b59066ba89a03e83428a616a3e3a081b20a5ecb234f64810",
+	"filename": "pool/main/i/inetutils/inetutils-syslogd_2.8-3_amd64.deb",
+	"size": 93068,
+	"md5": "a4f2b77bd063712b6f3a094b753b07a1",
+	"sha256": "c5c88130ea40e17d3b9ef7029c488795cb6275367526bb8c73d5b29060018d19",
 	"descriptionMd5": "709ad62bdd16bf3bc25afc0b0e1c21ee"
 }]

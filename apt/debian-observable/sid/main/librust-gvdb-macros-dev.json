@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gvdb-macros-dev",
 	"source": "rust-gvdb-macros",
-	"version": "0.1.16-2",
+	"version": "0.1.16-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
 	"installedSize": 74,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Convenience macros for gvdb - Rust source code",
 	"homepage": "https://github.com/felinira/gvdb-rs",
-	"filename": "pool/main/r/rust-gvdb-macros/librust-gvdb-macros-dev_0.1.16-2_amd64.deb",
-	"size": 14560,
-	"md5": "4956d8a8e8341c433d313d2fdba3d8be",
-	"sha256": "98917eb3b0e614b74662b7fc1dcd348a5012405f31d7cfcb4dac6711cf83ca14",
+	"filename": "pool/main/r/rust-gvdb-macros/librust-gvdb-macros-dev_0.1.16-3_amd64.deb",
+	"size": 14600,
+	"md5": "8f2051aaacf0fcef2cf79a388211839c",
+	"sha256": "fe0e303e8a909c936e1034e3ddfc17f9acdec1077d1950b9de1dd9849d1b5ae1",
 	"descriptionMd5": "bbd2cb75d9711a5a49ed6570855db615"
 }]

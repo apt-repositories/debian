@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gufo-xmp-dev",
 	"source": "rust-gufo-xmp",
-	"version": "0.4.0-2",
+	"version": "0.4.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-thiserror-2+default-dev (>= 2.0.3)",
 		"librust-xml-rs-0.8+default-dev (>= 0.8.19)"
 	],
+	"breaks": [
+		"rustc (<< 1.80~)"
+	],
 	"installedSize": 74,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Reading and editing for XMP data - Rust source code",
 	"homepage": "https://github.com/gufo-rs/gufo",
-	"filename": "pool/main/r/rust-gufo-xmp/librust-gufo-xmp-dev_0.4.0-2_amd64.deb",
-	"size": 19172,
-	"md5": "0ed2fd2c3f2bfa771d28b0d5e9529a21",
-	"sha256": "0fd91d50ad17b1996a7493bfb0f88aa13cd35f7a17aa2f1e5159b0456c902a28",
+	"filename": "pool/main/r/rust-gufo-xmp/librust-gufo-xmp-dev_0.4.0-3_amd64.deb",
+	"size": 19220,
+	"md5": "3b2b9d4a3ac98e3a51b7050672038a07",
+	"sha256": "0427be689696a70d2c3cb5823937bb30b84abac32ae2ad8f5d973782e75e8d8c",
 	"descriptionMd5": "f1350313a7a982986fc6646f6e84eaf8"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gufo-jpeg-dev",
 	"source": "rust-gufo-jpeg",
-	"version": "0.4.0-2",
+	"version": "0.4.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-thiserror-2+default-dev (>= 2.0.3)",
 		"librust-tracing-0.1+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.80~)"
+	],
 	"installedSize": 94,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Inspect JPEG image structure - Rust source code",
 	"homepage": "https://github.com/gufo-rs/gufo",
-	"filename": "pool/main/r/rust-gufo-jpeg/librust-gufo-jpeg-dev_0.4.0-2_amd64.deb",
-	"size": 22664,
-	"md5": "76a9105274538c6400d8520712e4a866",
-	"sha256": "ae457631092b16ba5cf13dec81e042432776cc98a86a0c15824b5da303254c23",
+	"filename": "pool/main/r/rust-gufo-jpeg/librust-gufo-jpeg-dev_0.4.0-3_amd64.deb",
+	"size": 22692,
+	"md5": "8d8abd67c83cb97b29048ebd3e489612",
+	"sha256": "37acc85c93323f4394b015b6b00bc8403ea31d4c328b0cb1d2d9df7de8efb183",
 	"descriptionMd5": "60f6990e514081e3aa37921f40a48443"
 }

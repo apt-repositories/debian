@@ -5,27 +5,31 @@
 		"Size"
 	],
 	"package": "librust-tracing-appender-dev",
-	"source": "rust-tracing-appender (0.2.2-1)",
-	"version": "0.2.2-1+b2",
+	"source": "rust-tracing-appender",
+	"version": "0.2.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-crossbeam-channel-0.5+default-dev",
-		"librust-time-0.3+formatting-dev",
-		"librust-tracing-subscriber-0.3+fmt-dev",
-		"librust-tracing-subscriber-0.3+std-dev"
+		"librust-crossbeam-channel-0.5+default-dev (>= 0.5.6)",
+		"librust-parking-lot-0.12+default-dev (>= 0.12.1)",
+		"librust-symlink-0.1+default-dev",
+		"librust-thiserror-2+default-dev",
+		"librust-time-0.3+formatting-dev (>= 0.3.2)",
+		"librust-time-0.3+parsing-dev (>= 0.3.2)",
+		"librust-tracing-subscriber-0.3+fmt-dev (>= 0.3.18)",
+		"librust-tracing-subscriber-0.3+std-dev (>= 0.3.18)"
 	],
-	"suggests": [
-		"librust-tracing-appender+parking-lot-dev (= 0.2.2-1+b2)"
+	"breaks": [
+		"rustc (<< 1.63.0~)"
 	],
-	"installedSize": 89,
+	"installedSize": 136,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Provides utilities for file appenders and making non-blocking writers - Rust source code",
 	"homepage": "https://tokio.rs",
-	"filename": "pool/main/r/rust-tracing-appender/librust-tracing-appender-dev_0.2.2-1+b2_amd64.deb",
-	"size": 19652,
-	"md5": "aed115ad0bcf24035e79a1497d023217",
-	"sha256": "fe91baa15aacbebeb5095c7d07562edc513934de9202397c6b3c17673ddbdc27",
-	"descriptionMd5": "340720c623a18b22f1bbcd1dd97de536"
+	"filename": "pool/main/r/rust-tracing-appender/librust-tracing-appender-dev_0.2.5-1_amd64.deb",
+	"size": 26452,
+	"md5": "39d68270d72c56613b4d00642c241b7e",
+	"sha256": "a42d046032c776dd9968aba96f8636395eca25590fd3e69bf39cd6917f242c12",
+	"descriptionMd5": "d3f332c15a238593a314e55c70df69d4"
 }

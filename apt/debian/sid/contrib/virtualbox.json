@@ -5,25 +5,25 @@
 		"Size"
 	],
 	"package": "virtualbox",
-	"version": "7.2.8-dfsg-1",
+	"version": "7.2.14-dfsg-1",
 	"section": "contrib/misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"iproute2",
 		"procps",
-		"virtualbox-dkms (>= 7.2.8-dfsg-1) | virtualbox-source (>= 7.2.8-dfsg-1) | virtualbox-modules",
+		"virtualbox-dkms (>= 7.2.14-dfsg-1) | virtualbox-source (>= 7.2.14-dfsg-1) | virtualbox-modules",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"python3 (<< 3.14)",
-		"python3 (>= 3.13~)",
+		"python3 (<< 3.15)",
+		"python3 (>= 3.14~)",
 		"python3-packaging",
-		"python3.13",
+		"python3.14",
 		"python3:any",
 		"libc6 (>= 2.42)",
-		"libcurl3t64-gnutls (>= 7.16.2)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
 		"libgcc-s1 (>= 3.0)",
 		"libgl1",
-		"libgsoap-2.8.139 (>= 2.8.139)",
+		"libgsoap-2.8.142 (>= 2.8.142)",
 		"libjpeg62-turbo (>= 1.3.1)",
 		"liblzf1 (>= 1.5)",
 		"liblzma5 (>= 5.1.1alpha+20120614)",
@@ -43,7 +43,7 @@
 		"zlib1g (>= 1:1.1.4)"
 	],
 	"recommends": [
-		"virtualbox-qt (= 7.2.8-dfsg-1)"
+		"virtualbox-qt (= 7.2.14-dfsg-1)"
 	],
 	"suggests": [
 		"vde2",
@@ -69,13 +69,13 @@
 		"virtualbox-7.1",
 		"virtualbox-7.2"
 	],
-	"installedSize": 151566,
+	"installedSize": 150603,
 	"maintainer": "Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>",
 	"description": "x86 virtualization solution - base binaries",
 	"homepage": "https://www.virtualbox.org",
-	"filename": "pool/contrib/v/virtualbox/virtualbox_7.2.8-dfsg-1_amd64.deb",
-	"size": 29815848,
-	"md5": "aa3d7eece88c435e7c73b861d0d9a9b5",
-	"sha256": "65e925cf950e86830dd2e2c2edbae23bbdedcf919cd6d90def94ec2026edb52d",
+	"filename": "pool/contrib/v/virtualbox/virtualbox_7.2.14-dfsg-1_amd64.deb",
+	"size": 29915184,
+	"md5": "3b5fa02c46d16f4582038422b1d122ba",
+	"sha256": "09eaa62ecaeff0e544850e172d509ac864797d384ef61b9219735ef425dd9ff1",
 	"descriptionMd5": "30f96d22c1a6ca04db16bdc1e79ad965"
 }
