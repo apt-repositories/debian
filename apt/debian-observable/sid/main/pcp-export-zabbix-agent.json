@@ -5,18 +5,22 @@
 		"Size"
 	],
 	"package": "pcp-export-zabbix-agent",
-	"source": "pcp (7.1.5-1)",
-	"version": "7.1.5-1+b2",
+	"source": "pcp",
+	"version": "7.2.0-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 141,
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libpcp4"
+	],
+	"installedSize": 163,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Module for exporting PCP metrics to Zabbix agent",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/pcp-export-zabbix-agent_7.1.5-1+b2_amd64.deb",
-	"size": 129576,
-	"md5": "71a35ededbc309c9ea6c3f19a70d527a",
-	"sha256": "273e3431d247bd7a3e757de82ffca39682ce33eac5e582275db0c1fee42062a9",
+	"filename": "pool/main/p/pcp/pcp-export-zabbix-agent_7.2.0-1_amd64.deb",
+	"size": 135228,
+	"md5": "22b8c2e90423e6a7635c88f080682052",
+	"sha256": "5be722559cc20e463bf53458a350ed6eccbc399534cd7cd26cf8eba8fbdee4c0",
 	"descriptionMd5": "2e4ff7e9c18fcf7726a52f8bdede9f8a"
 }]

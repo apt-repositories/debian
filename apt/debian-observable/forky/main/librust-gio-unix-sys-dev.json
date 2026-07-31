@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gio-unix-sys-dev",
 	"source": "rust-gio-unix-sys",
-	"version": "0.22.0-2",
+	"version": "0.22.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-system-deps-7+default-dev",
 		"libglib2.0-dev (>= 2.87)"
 	],
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
 	"installedSize": 63,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgio-2.0 Unix APIs - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-gio-unix-sys/librust-gio-unix-sys-dev_0.22.0-2_amd64.deb",
-	"size": 9840,
-	"md5": "c0ab18429cdb8eabf2b2b3a322631a13",
-	"sha256": "aa834f07e8cef38ffca6b0921362ff612a9766752cdcd2d1a0c7eec3cd72b247",
+	"filename": "pool/main/r/rust-gio-unix-sys/librust-gio-unix-sys-dev_0.22.0-3_amd64.deb",
+	"size": 9924,
+	"md5": "b1ef59579894698fdd24a5a797b4775b",
+	"sha256": "4d8ea97e6851328596aca9b509df08870389825ebeb32c00fbfdbdb5b56caca5",
 	"descriptionMd5": "59be63313c5b18a6d56f5ba191f8363d"
 }]

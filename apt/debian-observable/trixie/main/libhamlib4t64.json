@@ -5,6 +5,41 @@
 		"Size"
 	],
 	"package": "libhamlib4t64",
+	"source": "hamlib",
+	"version": "4.7.2-1~bpo13+1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libindiclient1 (>= 1.9.9+dfsg)",
+		"libstdc++6 (>= 5.2)",
+		"libusb-1.0-0 (>= 2:1.0.16)"
+	],
+	"replaces": [
+		"libhamlib4"
+	],
+	"breaks": [
+		"libhamlib-utils (<< 4.1)",
+		"libhamlib4 (<< 4.7.2-1~bpo13+1)",
+		"wsjtx (<< 2.4.0~)"
+	],
+	"installedSize": 12806,
+	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
+	"description": "Run-time library to control radio transceivers and receivers",
+	"homepage": "http://www.hamlib.org",
+	"filename": "pool/main/h/hamlib/libhamlib4t64_4.7.2-1~bpo13+1_amd64.deb",
+	"size": 1228616,
+	"sha256": "500e86a79b249d0e4e5c61455d8a29c0e00844f6688b79bbbda2241757774790",
+	"descriptionMd5": "c67b2b377fead3c97a1110d16e3b74e3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libhamlib4t64",
 	"source": "hamlib (4.6.2-1)",
 	"version": "4.6.2-1+b1",
 	"section": "libs",

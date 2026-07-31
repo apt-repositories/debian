@@ -6,14 +6,14 @@
 	],
 	"package": "ntpd-rs-metrics",
 	"source": "rust-ntpd",
-	"version": "1.7.2-1",
+	"version": "1.7.2-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.34)",
-		"libgcc-s1 (>= 4.2)",
-		"adduser"
+		"libgcc-s1 (>= 4.2)"
 	],
 	"replaces": [
 		"ntpd-rs (<< 1.0.0-5)"
@@ -21,14 +21,14 @@
 	"breaks": [
 		"ntpd-rs (<< 1.0.0-5)"
 	],
-	"installedSize": 1930,
+	"installedSize": 1879,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust-based NTP implementation with NTS support - exporter",
 	"homepage": "https://github.com/pendulum-project/ntpd-rs",
-	"builtUsing": "rust-rustls (= 0.23.40+ds-1), rust-rustls-native-certs (= 0.8.3-1), rust-rustls-pki-types (= 1.14.1+ds-1), rust-rustls-platform-verifier (= 0.6.2-1), rust-rustls-webpki (= 0.103.13+ds-1), rustc (= 1.94.1+dfsg1-1)",
-	"filename": "pool/main/r/rust-ntpd/ntpd-rs-metrics_1.7.2-1_amd64.deb",
-	"size": 645664,
-	"md5": "a212e9ad5fb5fd6783f356b7b70ab216",
-	"sha256": "5385b9a210f2667cfebe83a3953971f21f4b34e34d2b762a67c0dd17369ec7b7",
+	"builtUsing": "rust-rustls (= 0.23.41+ds-1), rust-rustls-native-certs (= 0.8.4+ds-1), rust-rustls-pki-types (= 1.14.1+ds-1), rust-rustls-platform-verifier (= 0.6.2-1), rust-rustls-webpki (= 0.103.13+ds-1), rustc (= 1.95.0+dfsg1-2)",
+	"filename": "pool/main/r/rust-ntpd/ntpd-rs-metrics_1.7.2-2_amd64.deb",
+	"size": 633576,
+	"md5": "5abe15263990d50c90cd24a579671eba",
+	"sha256": "c8bb806fd12a311493249118a7dab6ca2b773b62e2b166c59ff98baaebe73059",
 	"descriptionMd5": "58316583a043b58d0782ac18c19fe19d"
 }]

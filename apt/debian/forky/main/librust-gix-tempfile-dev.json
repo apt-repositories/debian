@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gix-tempfile-dev",
 	"source": "rust-gix-tempfile",
-	"version": "23.0.0-1",
+	"version": "23.0.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,17 +16,21 @@
 		"librust-gix-fs-0.21+default-dev",
 		"librust-libc-0.2-dev (>= 0.2.182)",
 		"librust-parking-lot-0.12+default-dev (>= 0.12.4)",
-		"librust-signal-hook-0.3-dev",
+		"librust-signal-hook-dev (<< 0.5)",
+		"librust-signal-hook-dev (>= 0.3)",
 		"librust-signal-hook-registry-1+default-dev (>= 1.4.8)",
 		"librust-tempfile-3+default-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.82~)"
 	],
 	"installedSize": 75,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Tempfile implementation with a global registry to assure cleanup - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-tempfile/librust-gix-tempfile-dev_23.0.0-1_amd64.deb",
-	"size": 17336,
-	"md5": "892b9b05ff846f710ef2ff3b98769b1d",
-	"sha256": "277e40449147f9902eab7e9167820019ebb8b73e62957fdc8c95f0e2dfca00ee",
+	"filename": "pool/main/r/rust-gix-tempfile/librust-gix-tempfile-dev_23.0.0-2_amd64.deb",
+	"size": 17440,
+	"md5": "7d526960172d4d504e8e6af6c20b611f",
+	"sha256": "9c80d98f2c4f82fedf494272e9769de881137d616d0a1bd06950e69fdb37e490",
 	"descriptionMd5": "244c556dcadc4df1b6e6b19b6bf4b4a2"
 }

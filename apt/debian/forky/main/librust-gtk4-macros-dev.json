@@ -6,29 +6,30 @@
 	],
 	"package": "librust-gtk4-macros-dev",
 	"source": "rust-gtk4-macros",
-	"version": "0.11.0-3",
+	"version": "0.11.4-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-proc-macro-crate-3+default-dev (>= 3.3)",
 		"librust-proc-macro2-1+default-dev",
-		"librust-quick-xml+default-dev (<< 0.39)",
-		"librust-quick-xml+default-dev (>= 0.36)",
+		"librust-quick-xml+default-dev (<< 0.40)",
+		"librust-quick-xml+default-dev (>= 0.38)",
 		"librust-quote-1+default-dev",
 		"librust-syn-2+default-dev",
 		"librust-syn-2+full-dev"
 	],
 	"breaks": [
-		"librust-gtk4-dev (<= 0.6.6-4)"
+		"librust-gtk4-dev (<= 0.6.6-4)",
+		"rustc (<< 1.92~)"
 	],
-	"installedSize": 113,
+	"installedSize": 112,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Macros helpers for GTK 4 bindings - Rust source code",
 	"homepage": "https://gtk-rs.org/gtk4-rs",
-	"filename": "pool/main/r/rust-gtk4-macros/librust-gtk4-macros-dev_0.11.0-3_amd64.deb",
-	"size": 20388,
-	"md5": "9b3078999b8a608df1fe169d97ff87d4",
-	"sha256": "7eaf063df6bac9c987f3a7bbe8fc6bc00665c233ef52f4acd2055f377df28112",
+	"filename": "pool/main/r/rust-gtk4-macros/librust-gtk4-macros-dev_0.11.4-2_amd64.deb",
+	"size": 20360,
+	"md5": "d84d338e810d68d26ecb444873867540",
+	"sha256": "4b5dbc9e403d3fe7242dfaaac0a5d5f42974ef5245b13fd52c044d08313cdeba",
 	"descriptionMd5": "b03eba01578cfcab7b337cb9e6b3fcd3"
 }
