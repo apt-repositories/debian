@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gix-dev",
 	"source": "rust-gix",
-	"version": "0.83.0-1",
+	"version": "0.83.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -142,17 +142,21 @@
 		"librust-prodash-28+progress-tree-dev",
 		"librust-regex-1+std-dev (>= 1.12.3)",
 		"librust-serde-1+derive-dev (>= 1.0.114)",
-		"librust-signal-hook-0.3-dev",
+		"librust-signal-hook-dev (<< 0.5)",
+		"librust-signal-hook-dev (>= 0.3)",
 		"librust-smallvec-1+default-dev (>= 1.15.1)",
 		"librust-thiserror-2+default-dev (>= 2.0.18)"
+	],
+	"breaks": [
+		"rustc (<< 1.82~)"
 	],
 	"installedSize": 1371,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Interact with git repositories just like git would - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix/librust-gix-dev_0.83.0-1_amd64.deb",
-	"size": 221920,
-	"md5": "20e98abfe462a2ef385e32fe4723a5b7",
-	"sha256": "1f8ea0b421671314c46d0ffc2033b6fe7fcbbe97dfef8115a40e606bd26b5c78",
+	"filename": "pool/main/r/rust-gix/librust-gix-dev_0.83.0-2_amd64.deb",
+	"size": 222024,
+	"md5": "a7a7c93a052e88aec073679a7cc73b4a",
+	"sha256": "b231ab2969d771de15d0588c33ca7b4c05730311958cd37c92b49b0ae6730de7",
 	"descriptionMd5": "4c5167edfbde509d6d556ba8ff9e711e"
 }]

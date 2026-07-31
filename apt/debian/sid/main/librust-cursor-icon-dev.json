@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "librust-cursor-icon-dev",
-	"source": "rust-cursor-icon (1.1.0-2)",
-	"version": "1.1.0-2+b1",
+	"source": "rust-cursor-icon",
+	"version": "1.2.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+derive-dev (>= 1.0.162-~~)"
+		"librust-serde-1+derive-dev (>= 1.0.162)"
 	],
-	"installedSize": 62,
+	"breaks": [
+		"rustc (<< 1.65.0~)"
+	],
+	"installedSize": 63,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Cross platform cursor icon type - Rust source code",
-	"filename": "pool/main/r/rust-cursor-icon/librust-cursor-icon-dev_1.1.0-2+b1_amd64.deb",
-	"size": 13676,
-	"md5": "376263a07fcdc260a89acf8b340b7eb8",
-	"sha256": "3a7cb2a16b2d941211cd800c6f6c6a82b549354b838d6d65ed34bcecadeaa422",
+	"homepage": "https://github.com/rust-windowing/cursor-icon",
+	"filename": "pool/main/r/rust-cursor-icon/librust-cursor-icon-dev_1.2.0-1_amd64.deb",
+	"size": 13932,
+	"md5": "cdd2a164f1a423b1a05c5c8cbe1098f5",
+	"sha256": "6552e1d8fa03e9fecb64dae41df83a41efc3a21f98c3f8da74eb9b738ed2850e",
 	"descriptionMd5": "bbaa88a6a043f3d2a9e0c47b54c878ea"
 }

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "jupyterlab",
-	"version": "4.1.8+ds1+~2.0.1+~0.15.3+~cs1.4.4-8",
+	"version": "4.4.10+ds1+~3.1.0+~0.16.6+~cs1.4.4-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
@@ -19,6 +19,7 @@
 		"python3-jupyterlab-server",
 		"python3-notebook-shim",
 		"python3-packaging",
+		"python3-setuptools",
 		"python3-tornado",
 		"python3-traitlets",
 		"python3:any",
@@ -103,7 +104,6 @@
 		"node-webpack-merge",
 		"node-worker-loader",
 		"node-ws",
-		"node-xterm (>= 5.5)",
 		"node-xterm-addon-canvas",
 		"node-xterm-addon-fit",
 		"node-xterm-addon-web-links",
@@ -118,7 +118,10 @@
 		"node-microsoft-fast-foundation",
 		"node-microsoft-fast-colors",
 		"node-microsoft-fast-element",
-		"node-microsoft-fast-web-utilities"
+		"node-microsoft-fast-web-utilities",
+		"node-xterm (>> 5.5.0~)",
+		"node-package-json",
+		"node-sort-package-json"
 	],
 	"replaces": [
 		"node-jupyterlab (<< 4.0.11+ds1+~cs11.25.27~)",
@@ -129,13 +132,13 @@
 		"node-jupyterlab (<< 4.0.11+ds1+~cs11.25.27~)",
 		"python3-jupyterlab (<< 4.0.11+ds1+~cs11.25.27~)"
 	],
-	"installedSize": 100172,
+	"installedSize": 103915,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Node.js modules for JupyterLab",
 	"homepage": "https://github.com/jupyterlab/jupyterlab",
-	"filename": "pool/main/j/jupyterlab/jupyterlab_4.1.8+ds1+~2.0.1+~0.15.3+~cs1.4.4-8_all.deb",
-	"size": 16820060,
-	"md5": "a26960c3076a16ea8612944c2bea434c",
-	"sha256": "a9c2035d7e53c437ee034e1d6398437613d1b667ddaaab79f8a09e2d5fa03d65",
+	"filename": "pool/main/j/jupyterlab/jupyterlab_4.4.10+ds1+~3.1.0+~0.16.6+~cs1.4.4-3_all.deb",
+	"size": 17295648,
+	"md5": "3033e3b77da47803b3eaa8c64f4032ec",
+	"sha256": "388c69b0f03766e6dcefaa6e1caf8edcfac5c991ebe83e9c1353baa9f87056cd",
 	"descriptionMd5": "b3e907729cef56f2b536529c32813b8a"
 }]

@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-rustversion-dev",
-	"source": "rust-rustversion (1.0.22-1)",
-	"version": "1.0.22-1+b1",
+	"source": "rust-rustversion",
+	"version": "1.0.23-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 106,
+	"breaks": [
+		"rustc (<< 1.31~)"
+	],
+	"installedSize": 105,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Conditional compilation according to rustc compiler version - Rust source code",
 	"homepage": "https://github.com/dtolnay/rustversion",
-	"filename": "pool/main/r/rust-rustversion/librust-rustversion-dev_1.0.22-1+b1_amd64.deb",
-	"size": 19608,
-	"md5": "cfda7320bd63901b9fbcc1b8d17b88b4",
-	"sha256": "02c2719c6933b99da3bdf8ca6bf88a02ce31d6c8407427829a8722fb28dac8c0",
+	"filename": "pool/main/r/rust-rustversion/librust-rustversion-dev_1.0.23-1_amd64.deb",
+	"size": 19408,
+	"md5": "25df1e30b1dcef5ec55dbb1232056714",
+	"sha256": "cca36419164417b817904d2974e688cd749cd5754c60575e24ea11aee6f8e32c",
 	"descriptionMd5": "62a762b76cfa831cf2bfa7e75689038d"
 }

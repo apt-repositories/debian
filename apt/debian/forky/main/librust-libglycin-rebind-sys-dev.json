@@ -6,7 +6,7 @@
 	],
 	"package": "librust-libglycin-rebind-sys-dev",
 	"source": "rust-libglycin-rebind-sys",
-	"version": "0.1.0-2",
+	"version": "0.1.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,13 +21,16 @@
 		"librust-system-deps-7+default-dev",
 		"libglycin-2-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
 	"installedSize": 60,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings for libglycin - Rust source code",
 	"homepage": "https://gnome.pages.gitlab.gnome.org/glycin/",
-	"filename": "pool/main/r/rust-libglycin-rebind-sys/librust-libglycin-rebind-sys-dev_0.1.0-2_amd64.deb",
-	"size": 9660,
-	"md5": "877c26b01c7f889097d3d8b1c5f6f954",
-	"sha256": "eafabc161a27226334397e20cb10ccb4bdea72e1fd06ba3374493e53ce8765c0",
+	"filename": "pool/main/r/rust-libglycin-rebind-sys/librust-libglycin-rebind-sys-dev_0.1.0-3_amd64.deb",
+	"size": 9748,
+	"md5": "2ab4d6aa0e25a3404e1c23357999f035",
+	"sha256": "125a6aa4712dc1c3d74ebe3733e194d978393f3b3ccf8142c75104913120fdec",
 	"descriptionMd5": "814a23e5c7bb2f6297135d0caaa043ac"
 }

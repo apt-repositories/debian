@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "timelimit",
-	"version": "1.9.4-2",
+	"version": "1.9.4-3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,13 +13,16 @@
 		"libc6 (>= 2.39)",
 		"libgcc-s1 (>= 4.2)"
 	],
-	"installedSize": 1419,
+	"breaks": [
+		"tinydns (<< 1:1.05-23)"
+	],
+	"installedSize": 1424,
 	"maintainer": "Peter Pentchev <roam@debian.org>",
 	"description": "simple utility to limit a process's absolute execution time",
 	"homepage": "https://devel.ringlet.net/sysutils/timelimit/",
-	"filename": "pool/main/t/timelimit/timelimit_1.9.4-2_amd64.deb",
-	"size": 480324,
-	"md5": "7bf7c230d383d90ffbca1f6267124add",
-	"sha256": "29d14ba363938cd699d4cf8689cde4ecd1ef9bc82f894d2a96288ae998af6321",
+	"filename": "pool/main/t/timelimit/timelimit_1.9.4-3_amd64.deb",
+	"size": 480624,
+	"md5": "b03767b3ffb440eebf75fd5d300ca672",
+	"sha256": "ed4138ed2ba10abf1279af96d98a746373280ce41e0637895837791d106db045",
 	"descriptionMd5": "91615185824c3ad00af872d16292caff"
 }

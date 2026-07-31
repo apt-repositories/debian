@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-filetime-dev",
-	"source": "rust-filetime (0.2.26-1)",
-	"version": "0.2.26-1+b1",
+	"source": "rust-filetime",
+	"version": "0.2.29-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cfg-if-1+default-dev",
-		"librust-libc-0.2+default-dev (>= 0.2.27-~~)"
+		"librust-libc-0.2+default-dev (>= 0.2.27)"
 	],
-	"installedSize": 104,
+	"breaks": [
+		"rustc (<< 1.75.0~)"
+	],
+	"installedSize": 89,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Platform-agnostic accessors of timestamps in File metadata - Rust source code",
 	"homepage": "https://github.com/alexcrichton/filetime",
-	"filename": "pool/main/r/rust-filetime/librust-filetime-dev_0.2.26-1+b1_amd64.deb",
-	"size": 18080,
-	"md5": "f83704fa4cd19c0a95ccca67f5c972bf",
-	"sha256": "b889de52b14961af34b2f0008e857c88db1c990b4ffa338a91323ae72cb99177",
+	"filename": "pool/main/r/rust-filetime/librust-filetime-dev_0.2.29-1_amd64.deb",
+	"size": 16208,
+	"md5": "961df7da38d7172d65e1a5f6f26d7f9a",
+	"sha256": "c18300e42cf3a0c700aabe579cfcc78356b719ecd80f08dfb8397cb70876093d",
 	"descriptionMd5": "7985347a21db553fd1e436830f98844a"
 }]

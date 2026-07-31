@@ -5,29 +5,32 @@
 		"Size"
 	],
 	"package": "librust-csscolorparser-dev",
-	"source": "rust-csscolorparser (0.8.1-1)",
-	"version": "0.8.1-1+b1",
+	"source": "rust-csscolorparser",
+	"version": "0.8.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cint-0.3+default-dev (>= 0.3.1-~~)",
-		"librust-num-traits-0.2+libm-dev (>= 0.2.19-~~)",
+		"librust-cint-0.3+default-dev (>= 0.3.1)",
+		"librust-num-traits-0.2+libm-dev (>= 0.2.19)",
 		"librust-phf-0.11+macros-dev",
 		"librust-phf-0.11+std-dev",
 		"librust-phf-0.11+uncased-dev",
-		"librust-rgb-0.8+default-dev (>= 0.8.33-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.139-~~)",
-		"librust-serde-1+std-dev (>= 1.0.139-~~)",
-		"librust-uncased-0.9-dev (>= 0.9.10-~~)"
+		"librust-rgb-0.8+default-dev (>= 0.8.33)",
+		"librust-serde-1+derive-dev (>= 1.0.139)",
+		"librust-serde-1+std-dev (>= 1.0.139)",
+		"librust-uncased-0.9-dev (>= 0.9.10)"
 	],
-	"installedSize": 230,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 229,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "CSS color parser library - Rust source code",
 	"homepage": "https://github.com/mazznoer/csscolorparser-rs",
-	"filename": "pool/main/r/rust-csscolorparser/librust-csscolorparser-dev_0.8.1-1+b1_amd64.deb",
-	"size": 44056,
-	"md5": "58091ee61c26f272ea480fb246b38e4e",
-	"sha256": "3bfca4f64a257089cd1725c550ad2402724e32f7dcdb6809ca62480f4dce0d07",
+	"filename": "pool/main/r/rust-csscolorparser/librust-csscolorparser-dev_0.8.3-1_amd64.deb",
+	"size": 44548,
+	"md5": "0c6692ddbdbb9700637bd1fb5c5161db",
+	"sha256": "5e3a0847436b8227dc7cd6731462c8b108f792b8c8c8e9d269497cc9f50c0eb2",
 	"descriptionMd5": "75da6bac18e3c4008fe967016aca3aa1"
 }]
