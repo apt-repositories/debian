@@ -5,29 +5,26 @@
 		"Size"
 	],
 	"package": "pcp",
-	"source": "pcp (7.1.5-1)",
-	"version": "7.1.5-1+b1",
+	"version": "7.2.0-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.42)",
+		"libc6 (>= 2.38)",
 		"libdrm-amdgpu1 (>= 2.4.80)",
 		"libdrm2 (>= 2.4.65)",
-		"libncursesw6 (>= 6)",
-		"libpcp-archive1 (= 7.1.5-1+b1)",
+		"libpcp-archive1 (= 7.2.0-1)",
 		"libpcp-gui2",
-		"libpcp-import1",
-		"libpcp-mmv1 (= 7.1.5-1+b1)",
-		"libpcp-pmda3 (= 7.1.5-1+b1)",
+		"libpcp-import2",
+		"libpcp-mmv1 (= 7.2.0-1)",
+		"libpcp-pmda3 (= 7.2.0-1)",
 		"libpcp-trace2",
-		"libpcp-web1 (= 7.1.5-1+b1)",
-		"libpcp4 (= 7.1.5-1+b1)",
+		"libpcp-web1 (= 7.2.0-1)",
+		"libpcp4 (= 7.2.0-1)",
 		"libpfm4 (>= 4.9)",
 		"libreadline8t64 (>= 6.0)",
 		"libssl3t64 (>= 3.0.0)",
 		"libsystemd0",
-		"libtinfo6 (>= 6)",
 		"libuv1t64 (>= 1.18.0)",
 		"zlib1g (>= 1:1.1.4)",
 		"perl:any",
@@ -36,10 +33,14 @@
 		"zstd",
 		"python3-pcp",
 		"python3",
-		"pcp-conf (= 7.1.5-1+b1)"
+		"systemd | passwd",
+		"pcp-conf (= 7.2.0-1)"
 	],
 	"recommends": [
-		"libpcp-pmda-perl"
+		"libpcp-pmda-perl",
+		"pcp-atop",
+		"pcp-dstat",
+		"pcp-htop"
 	],
 	"suggests": [
 		"pcp-gui",
@@ -48,7 +49,6 @@
 		"bpftrace (>= 0.9.2)"
 	],
 	"replaces": [
-		"dstat",
 		"pcp-manager",
 		"pcp-webapi"
 	],
@@ -56,17 +56,16 @@
 		"pcp-doc (<< 7.1.0)"
 	],
 	"conflicts": [
-		"dstat",
 		"pcp-manager",
 		"pcp-webapi"
 	],
-	"installedSize": 15146,
+	"installedSize": 13352,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "System level performance monitoring and performance management",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/pcp_7.1.5-1+b1_amd64.deb",
-	"size": 3157192,
-	"md5": "4b325f944904a5d717fa0f4eb23bf481",
-	"sha256": "5bed16d34cf84eb37c5c443ef6a84dc1089b44b4baa7b090b01b4118af6bf6fe",
+	"filename": "pool/main/p/pcp/pcp_7.2.0-1_amd64.deb",
+	"size": 2819980,
+	"md5": "81a6b88c8e3d166d803f61d8cbc2a0d3",
+	"sha256": "8b4cdfce712eeba8e23ca6a6a0c369e36a7a2fdc8f35c9a3d1d8b11842c3bb2f",
 	"descriptionMd5": "cf73bbf0bd78441a37224ae34c61d9a9"
 }

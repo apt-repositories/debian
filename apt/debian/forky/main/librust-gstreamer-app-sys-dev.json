@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-app-sys-dev",
 	"source": "rust-gstreamer-app-sys",
-	"version": "0.25.0-3",
+	"version": "0.25.0-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-system-deps-7+default-dev",
 		"libgstreamer-plugins-base1.0-dev"
 	],
-	"installedSize": 188,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 193,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgstapp-1.0 - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-app-sys/librust-gstreamer-app-sys-dev_0.25.0-3_amd64.deb",
-	"size": 66916,
-	"md5": "ec1fa9bc38aa5981bc584f973bf2f5b4",
-	"sha256": "aa9c09c465039c6a6afde79f41ae722a35f804cee2ace268b1af0f817bf5da70",
+	"filename": "pool/main/r/rust-gstreamer-app-sys/librust-gstreamer-app-sys-dev_0.25.0-4_amd64.deb",
+	"size": 67248,
+	"md5": "6c7a6ae3fb10c0612532a7287dc7e80c",
+	"sha256": "41a9fb7db64f3eebf0795f5dc20a4227179e8a4b026e8a77337c436546df3e2e",
 	"descriptionMd5": "c4ecd2918e115af22861108617969d34"
 }

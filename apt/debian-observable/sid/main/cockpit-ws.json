@@ -6,11 +6,12 @@
 	],
 	"package": "cockpit-ws",
 	"source": "cockpit",
-	"version": "362-1",
+	"version": "365-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.39)",
 		"libglib2.0-0t64 (>= 2.68.0+git20210214)",
 		"libgnutls30t64 (>= 3.8.1)",
@@ -31,13 +32,13 @@
 	"conflicts": [
 		"cockpit-tests"
 	],
-	"installedSize": 2040,
+	"installedSize": 2086,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "Cockpit Web Service",
 	"homepage": "https://cockpit-project.org/",
-	"filename": "pool/main/c/cockpit/cockpit-ws_362-1_amd64.deb",
-	"size": 1048484,
-	"md5": "35d8c5ac8ba24c7ef7cded6eac02de50",
-	"sha256": "be031c823c54c4e15f3ce407eabb0c93453d6356efc4fef8bd279d376495fafe",
+	"filename": "pool/main/c/cockpit/cockpit-ws_365-1_amd64.deb",
+	"size": 1059420,
+	"md5": "d0621d751204f12266c8cf2ff3580720",
+	"sha256": "7b8c50608f61f80652573ba6275ad14168615cb6a3c2fcf20044ba95d2c7bcd3",
 	"descriptionMd5": "01211c5252a674e6e584970d6d858b16"
 }]

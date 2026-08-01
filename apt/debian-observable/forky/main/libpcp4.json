@@ -5,33 +5,37 @@
 		"Size"
 	],
 	"package": "libpcp4",
-	"source": "pcp (7.1.5-1)",
-	"version": "7.1.5-1+b1",
+	"source": "pcp",
+	"version": "7.2.0-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libpcp-pmda3",
 		"libsasl2-2 (>= 2.1.28+dfsg1)",
 		"libssl3t64 (>= 3.0.0)",
 		"libsystemd0",
-		"pcp-conf (= 7.1.5-1+b1)"
+		"pcp-conf (= 7.2.0-1)"
+	],
+	"replaces": [
+		"pcp (<< 7.1.6)"
 	],
 	"breaks": [
 		"libpcp3-dev (<< 2.8.5)",
-		"pcp (<< 2.8.0)"
+		"pcp (<< 7.1.6)"
 	],
 	"conflicts": [
 		"libpgpool2"
 	],
-	"installedSize": 951,
+	"installedSize": 2096,
 	"maintainer": "PCP Development Team <pcp@groups.io>",
 	"description": "Performance Co-Pilot library",
 	"homepage": "https://pcp.io",
-	"filename": "pool/main/p/pcp/libpcp4_7.1.5-1+b1_amd64.deb",
-	"size": 448064,
-	"md5": "c9df58dab6fd72df9a2143c2f8a79c11",
-	"sha256": "64fbf8af74d6300caac86c8627189dad8af19aec79abdef2e38487ed8af1d28a",
+	"filename": "pool/main/p/pcp/libpcp4_7.2.0-1_amd64.deb",
+	"size": 689336,
+	"md5": "d4d46dfb0a4d228c70853d10ef6558cc",
+	"sha256": "6373971a7f868dadca5cd15df7adcb6ce46dc7a1feece981f3f4942bf6f14015",
 	"descriptionMd5": "0ce4f2c7b98a96c8bef9e78eedee201e"
 }]

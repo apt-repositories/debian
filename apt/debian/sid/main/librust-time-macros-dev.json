@@ -6,22 +6,25 @@
 	],
 	"package": "librust-time-macros-dev",
 	"source": "rust-time-macros",
-	"version": "0.2.27-1",
+	"version": "0.2.32-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-num-conv-0.2+default-dev",
-		"librust-time-core-0.1+default-dev (<< 0.1.9-~~)",
-		"librust-time-core-0.1+default-dev (>= 0.1.8-~~)"
+		"librust-num-conv-0.2+default-dev (>= 0.2.2)",
+		"librust-time-core-0.1+default-dev (<< 0.1.10)",
+		"librust-time-core-0.1+default-dev (>= 0.1.9)"
 	],
-	"installedSize": 138,
+	"breaks": [
+		"rustc (<< 1.88.0~)"
+	],
+	"installedSize": 184,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Procedural macros for the time crate - Rust source code",
 	"homepage": "https://github.com/time-rs/time",
-	"filename": "pool/main/r/rust-time-macros/librust-time-macros-dev_0.2.27-1_amd64.deb",
-	"size": 25324,
-	"md5": "34130a784de0ba4c7eb1d11a5fd07992",
-	"sha256": "3e135b380ca369bb624b91b9f9b541f35fef99212a119a605b5f0d31df94d66f",
+	"filename": "pool/main/r/rust-time-macros/librust-time-macros-dev_0.2.32-1_amd64.deb",
+	"size": 32148,
+	"md5": "fb884b31f690f34528b2a83e11682a6d",
+	"sha256": "ada369c20a7cb68ecc1f8c7f979e13e8626f8c2583a85f313d8b5bf79c877fab",
 	"descriptionMd5": "4d8910022d17e90258fd46ad19aff753"
 }

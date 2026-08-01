@@ -5,24 +5,23 @@
 		"Size"
 	],
 	"package": "inn",
-	"version": "1:1.7.2q-52",
+	"source": "inn (1:1.7.2q-52)",
+	"version": "1:1.7.2q-52+b1",
 	"section": "news",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libcrypt1 (>= 1:4.1.0)",
-		"libperl5.40 (>= 5.40.0)",
+		"libperl5.42 (>= 5.42.0)",
 		"libsystemd0",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"cron | cron-daemon",
 		"default-mta | mail-transport-agent",
 		"bsd-mailx | mailx",
 		"time",
 		"perl",
-		"perlapi-5.40.1"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
+		"perlapi-5.42.2"
 	],
 	"suggests": [
 		"gnupg1"
@@ -33,12 +32,12 @@
 		"inn2-inews",
 		"news-transport-system"
 	],
-	"installedSize": 2171,
+	"installedSize": 2167,
 	"maintainer": "Marco d'Itri <md@linux.it>",
 	"description": "News transport system `InterNetNews' by the ISC and Rich Salz",
-	"filename": "pool/main/i/inn/inn_1.7.2q-52_amd64.deb",
-	"size": 694672,
-	"md5": "c50b770e1aab5204a3b23f08c10665a8",
-	"sha256": "5f6ed73600814830587425b65115e655e4efd76ab9f30cc3ff80a696cbd9e05d",
+	"filename": "pool/main/i/inn/inn_1.7.2q-52+b1_amd64.deb",
+	"size": 696572,
+	"md5": "0a638f787d254b1aa4595524d295ff28",
+	"sha256": "446d70f24219a84fab8bd4d949cdbe5c720f0d885ca490d9d0a9e2b756b87d1a",
 	"descriptionMd5": "94d47a86936a5f450692741671bbbed2"
 }

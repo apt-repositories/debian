@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-parking-dev",
-	"source": "rust-parking (2.2.0-1)",
-	"version": "2.2.0-1+b1",
+	"source": "rust-parking",
+	"version": "2.2.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 55,
+	"breaks": [
+		"rustc (<< 1.51~)"
+	],
+	"installedSize": 60,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Thread parking and unparking - Rust source code",
 	"homepage": "https://github.com/smol-rs/parking",
-	"filename": "pool/main/r/rust-parking/librust-parking-dev_2.2.0-1+b1_amd64.deb",
-	"size": 12028,
-	"md5": "9296662ddd8cfe37be8ab6f4730bbd94",
-	"sha256": "f181e53ebe21dd1b91280a68abb34f7ee19f579da5ec89f9068647268524b99f",
+	"filename": "pool/main/r/rust-parking/librust-parking-dev_2.2.1-1_amd64.deb",
+	"size": 12972,
+	"md5": "99f9022c16ad45c268aef2019df02e6b",
+	"sha256": "570694bb0b61fe012bf3f1f7e4b88552d927135a48661aae043daebe420bd02e",
 	"descriptionMd5": "5602561e5e53b2d71a9cb554f2d71c31"
 }]
