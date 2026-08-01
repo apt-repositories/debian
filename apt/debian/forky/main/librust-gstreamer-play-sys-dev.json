@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-play-sys-dev",
 	"source": "rust-gstreamer-play-sys",
-	"version": "0.25.0-1",
+	"version": "0.25.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,13 +21,16 @@
 		"libgstreamer1.0-dev",
 		"libgstreamer-plugins-bad1.0-dev"
 	],
-	"installedSize": 81,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 83,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgstplay-1.0 - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-play-sys/librust-gstreamer-play-sys-dev_0.25.0-1_amd64.deb",
-	"size": 12328,
-	"md5": "25f3dee972b467a84b8c79324006ebab",
-	"sha256": "c6589664232a442745ba40fead56905c7056877513755f5ef6d9a6268f2fd8db",
+	"filename": "pool/main/r/rust-gstreamer-play-sys/librust-gstreamer-play-sys-dev_0.25.0-2_amd64.deb",
+	"size": 12592,
+	"md5": "bfb5fdb82b2f6dc6ab4389fc06a96601",
+	"sha256": "f278fcd4a5d39b1534f16be31aa1009c51525f51e35b399167590a5c17b65dbf",
 	"descriptionMd5": "16b01e2d9ddfb8f4debe4cd22418350d"
 }

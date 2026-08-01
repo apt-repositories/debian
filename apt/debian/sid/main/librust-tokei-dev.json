@@ -6,7 +6,7 @@
 	],
 	"package": "librust-tokei-dev",
 	"source": "rust-tokei",
-	"version": "13.0.0-4",
+	"version": "14.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -50,13 +50,16 @@
 		"librust-toml+default-dev (<< 2)",
 		"librust-toml+default-dev (>= 0.8)"
 	],
-	"installedSize": 273,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 272,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Count your code, quickly - Rust source code",
 	"homepage": "https://tokei.rs",
-	"filename": "pool/main/r/rust-tokei/librust-tokei-dev_13.0.0-4_amd64.deb",
-	"size": 48152,
-	"md5": "04cbe7b6714a5ec3f23958195c56d56e",
-	"sha256": "357e2eaf0e3d43373fe308543526d29f9f4bf205a4c8f9fb982ea7b4e15f04ab",
+	"filename": "pool/main/r/rust-tokei/librust-tokei-dev_14.0.0-1_amd64.deb",
+	"size": 47900,
+	"md5": "d58226e2948a99d1847905e6757e5ff7",
+	"sha256": "bcbc0ad7fd676024cd74fdee66402b6eedc1308a9b7ec75119ed10f3f43d2005",
 	"descriptionMd5": "e6f44569dd3591340a99bb7dd65b70d4"
 }

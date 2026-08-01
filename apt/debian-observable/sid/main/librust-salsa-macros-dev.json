@@ -6,25 +6,29 @@
 	],
 	"package": "librust-salsa-macros-dev",
 	"source": "rust-salsa-macros",
-	"version": "0.26.2-1",
+	"version": "0.28.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
-		"librust-syn-2+default-dev (>= 2.0.117)",
-		"librust-syn-2+full-dev (>= 2.0.117)",
-		"librust-syn-2+visit-mut-dev (>= 2.0.117)",
-		"librust-synstructure-0.13+default-dev (>= 0.13.1)"
+		"librust-syn-2+default-dev (>= 2.0.104)",
+		"librust-syn-2+extra-traits-dev (>= 2.0.104)",
+		"librust-syn-2+full-dev (>= 2.0.104)",
+		"librust-syn-2+visit-dev (>= 2.0.104)",
+		"librust-syn-2+visit-mut-dev (>= 2.0.104)"
 	],
-	"installedSize": 177,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 213,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Procedural macros for the salsa crate - Rust source code",
 	"homepage": "https://github.com/salsa-rs/salsa",
-	"filename": "pool/main/r/rust-salsa-macros/librust-salsa-macros-dev_0.26.2-1_amd64.deb",
-	"size": 33104,
-	"md5": "54a7f27879088349e57e313d03aac90d",
-	"sha256": "8841ac056e663262cd15da957193d56e4a2ea6435b74e1a7e90463c6f90229da",
+	"filename": "pool/main/r/rust-salsa-macros/librust-salsa-macros-dev_0.28.1-1_amd64.deb",
+	"size": 40852,
+	"md5": "a61f3428bd7bcc66b6362dccaa0d8d7c",
+	"sha256": "4cbb8b53c02214b1b30453550354af44ff0d0be1c54b3e903ba2129f65064fc3",
 	"descriptionMd5": "67dbd957e8cff94a5a6d27a2d06512a2"
 }]

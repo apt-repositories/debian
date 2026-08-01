@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gvdb-dev",
 	"source": "rust-gvdb",
-	"version": "0.10.0-2",
+	"version": "0.10.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,8 +14,8 @@
 		"librust-flate2-1+default-dev (>= 1.1)",
 		"librust-glib-0.22+default-dev",
 		"librust-memmap2-0.9+default-dev",
-		"librust-quick-xml-0+default-dev (>= 0.36)",
-		"librust-quick-xml-0+serialize-dev (>= 0.36)",
+		"librust-quick-xml-0+default-dev (>= 0.38)",
+		"librust-quick-xml-0+serialize-dev (>= 0.38)",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
 		"librust-serde-json-1+default-dev",
@@ -24,13 +24,16 @@
 		"librust-zerocopy-0.8+derive-dev",
 		"librust-zvariant-5+gvariant-dev (>= 5.9)"
 	],
-	"installedSize": 280,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 282,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The glib gvdb file format - Rust source code",
 	"homepage": "https://github.com/felinira/gvdb-rs",
-	"filename": "pool/main/r/rust-gvdb/librust-gvdb-dev_0.10.0-2_amd64.deb",
-	"size": 47244,
-	"md5": "d2af14f22e12e4d601f8d21020b279e2",
-	"sha256": "78815a63e6f89cbb66267d6f8c41f79d0cade675f4fd8d1ed16ace38c3d87ee0",
+	"filename": "pool/main/r/rust-gvdb/librust-gvdb-dev_0.10.0-3_amd64.deb",
+	"size": 47892,
+	"md5": "57155075995d066bfe5403f2639c1d28",
+	"sha256": "afc23929676275b679a0c518f7d9a44d3a2b4b33b3e5c4c3750877a8287c3859",
 	"descriptionMd5": "196555df9c1252ea1578eb6a62499ac5"
 }]

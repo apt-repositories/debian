@@ -5,12 +5,14 @@
 		"Size"
 	],
 	"package": "bitcoin-knots",
-	"version": "29.3.knots20260508-4",
+	"version": "29.3.knots20260508-5",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.34)",
 		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
 		"libevent-extra-2.1-7t64 (>= 2.1.8-stable)",
@@ -19,16 +21,15 @@
 		"libsqlite3-0 (>= 3.14.0)",
 		"libstdc++6 (>= 14)",
 		"libzmq5 (>= 4.0.1+dfsg)",
-		"adduser",
 		"debconf"
 	],
-	"installedSize": 26074,
+	"installedSize": 26101,
 	"maintainer": "Debian Cryptocoin Team <team+cryptocoin@tracker.debian.org>",
 	"description": "enhanced Bitcoin node/wallet software",
 	"homepage": "https://bitcoinknots.org",
-	"filename": "pool/main/b/bitcoin-knots/bitcoin-knots_29.3.knots20260508-4_amd64.deb",
-	"size": 8415524,
-	"md5": "4aca148e1189475c30a3d46f5b8e24a0",
-	"sha256": "6d4b5b18069ed309a53ec93bbb4379bdb762e7527d7712864669825e66b1e1b9",
+	"filename": "pool/main/b/bitcoin-knots/bitcoin-knots_29.3.knots20260508-5_amd64.deb",
+	"size": 8418580,
+	"md5": "aa7d9085a1c7914c4b181970defcf06f",
+	"sha256": "b4f014dce8ae8c63fc6669a368b4e87e3d1686382f1bae750a4dfd96146fc92a",
 	"descriptionMd5": "7daf0b5c20a2743453f29cea11445ddd"
 }

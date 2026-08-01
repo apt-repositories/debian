@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gst-plugin-version-helper-dev",
 	"source": "rust-gst-plugin-version-helper",
-	"version": "0.8.3-3",
+	"version": "0.8.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,16 @@
 		"librust-toml-edit+parse-dev (<< 0.26)",
 		"librust-toml-edit+parse-dev (>= 0.23)"
 	],
-	"installedSize": 32,
+	"breaks": [
+		"rustc (<< 1.69~)"
+	],
+	"installedSize": 28,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Build.rs helper function for GStreamer plugin metadata - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gst-plugin-version-helper/librust-gst-plugin-version-helper-dev_0.8.3-3_amd64.deb",
-	"size": 6872,
-	"md5": "7733901513e7461fafe557d6412c1438",
-	"sha256": "5f10507e7639ff3412b88a0b0109f40b6f1db2ab81852c42d089e2ff8ba6e81b",
+	"filename": "pool/main/r/rust-gst-plugin-version-helper/librust-gst-plugin-version-helper-dev_0.8.4-1_amd64.deb",
+	"size": 6748,
+	"md5": "8181c230a7f4f6d1f1af9e9b64c80860",
+	"sha256": "791c19366c8ef12024d9f88b25db5a2efe66f99b96bc8d34bcaad42674067897",
 	"descriptionMd5": "fcfe3986c09ef169e9960a6c719a1165"
 }]

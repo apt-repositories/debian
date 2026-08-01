@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-gl-wayland-sys-dev",
 	"source": "rust-gstreamer-gl-wayland-sys",
-	"version": "0.25.0-2",
+	"version": "0.25.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"libgstreamer-plugins-base1.0-dev",
 		"libgstreamer1.0-dev"
 	],
-	"installedSize": 167,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 172,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgstgl-1.0 (Wayland support) - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-gl-wayland-sys/librust-gstreamer-gl-wayland-sys-dev_0.25.0-2_amd64.deb",
-	"size": 65532,
-	"md5": "5a7dd56f242c6672e826347a50f706cc",
-	"sha256": "9aef6501e1471ad0d6c6dc200dfd60ab9aa86f52cd6ceb555d2049a401d53c3f",
+	"filename": "pool/main/r/rust-gstreamer-gl-wayland-sys/librust-gstreamer-gl-wayland-sys-dev_0.25.0-3_amd64.deb",
+	"size": 65964,
+	"md5": "051308c31537e91a9af391e5df388b7a",
+	"sha256": "a19a3f39faa5be5235780b7fb3cd96c73b69382abca058aa1edc8951d13f37e2",
 	"descriptionMd5": "f3b1578287209f2daf543550e14ffd2d"
 }]

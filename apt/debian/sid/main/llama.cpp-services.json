@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "llama.cpp-services",
+	"source": "llama.cpp",
+	"version": "10192+dfsg-2",
+	"section": "science",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"llama.cpp-tools (>= 10192+dfsg-2~)",
+		"llama.cpp-tools (<< 10192+dfsg-2.1~)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
+	],
+	"replaces": [
+		"llama.cpp-tools (<< 10192+dfsg-1~exp1)"
+	],
+	"breaks": [
+		"llama.cpp-tools (<< 10192+dfsg-1~exp1)"
+	],
+	"installedSize": 41,
+	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
+	"description": "LLM inference in C/C++ - systemd service files for utilities",
+	"homepage": "https://github.com/ggml-org/llama.cpp/",
+	"filename": "pool/main/l/llama.cpp/llama.cpp-services_10192+dfsg-2_all.deb",
+	"size": 12368,
+	"md5": "bb2bf12ff5fc022bf8c70a70fb3e9dc3",
+	"sha256": "c792e4d0031183dc089babf1d62a4913a4723bc7b1a045c0369f12e7092af137",
+	"descriptionMd5": "1e95b796e388edf3ac2129f04a56c2eb"
+}
