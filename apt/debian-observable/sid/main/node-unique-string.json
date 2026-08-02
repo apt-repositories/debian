@@ -5,21 +5,26 @@
 		"Size"
 	],
 	"package": "node-unique-string",
-	"version": "2.0.0-3",
+	"version": "3.0.0-1",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"node-crypto-random-string (>= 2.0.0)",
-		"nodejs:any"
+		"node-crypto-random-string (>= 3.0.0)"
 	],
-	"installedSize": 15,
+	"replaces": [
+		"node-tempy (<< 3.2.0+ds~)"
+	],
+	"breaks": [
+		"node-tempy (<< 3.2.0+ds~)"
+	],
+	"installedSize": 16,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Generate a unique random string",
 	"homepage": "https://github.com/sindresorhus/unique-string",
-	"filename": "pool/main/n/node-unique-string/node-unique-string_2.0.0-3_all.deb",
-	"size": 3692,
-	"md5": "cb44cf107bd446cf8981c689bca4b093",
-	"sha256": "71e8d90a207a94c7a5dc4e361d6fd0ec724cde9b8ff73a84e4b40cfda680994c",
+	"filename": "pool/main/n/node-unique-string/node-unique-string_3.0.0-1_all.deb",
+	"size": 3684,
+	"md5": "8cf1dd412f44dea563f4539ca3d7a07c",
+	"sha256": "a259c7c05e18aa10296e64d20f7c5879efb9587c31b6e76b36e5d773d1420cb1",
 	"descriptionMd5": "6e525ade18a7e67ae657eab5dd37db85"
 }]

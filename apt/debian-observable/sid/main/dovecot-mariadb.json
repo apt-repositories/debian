@@ -1,0 +1,30 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-mariadb",
+	"source": "dovecot",
+	"version": "1:2.4.4+dfsg1-2",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-core (= 1:2.4.4+dfsg1-2)",
+		"libc6 (>= 2.4)",
+		"libmariadb3 (>= 3.0.0)"
+	],
+	"conflicts": [
+		"dovecot-mysql (<< 1:2.4.4+dfsg1-2~)"
+	],
+	"installedSize": 71,
+	"maintainer": "Dovecot Maintainers <dovecot@packages.debian.org>",
+	"description": "secure POP3/IMAP server - MySQL support",
+	"homepage": "https://dovecot.org/",
+	"filename": "pool/main/d/dovecot/dovecot-mariadb_2.4.4+dfsg1-2_amd64.deb",
+	"size": 19304,
+	"md5": "804421f4b8b95fb1ac1094635cd21137",
+	"sha256": "1a23642dcedded3aabf7ca48eadfc370cbb93e6f66f37a5eafe9f99b1ef7eef5",
+	"descriptionMd5": "2c588283c8ad14c8bad570043daf9ddc"
+}]

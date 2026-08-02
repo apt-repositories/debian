@@ -6,7 +6,7 @@
 	],
 	"package": "librust-tls-codec-derive-dev",
 	"source": "rust-tls-codec-derive",
-	"version": "0.4.2-1",
+	"version": "0.5.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,15 +17,18 @@
 		"librust-syn-2+parsing-dev"
 	],
 	"suggests": [
-		"librust-tls-codec-derive+conditional-deserialization-dev (= 0.4.2-1)"
+		"librust-tls-codec-derive+conditional-deserialization-dev (= 0.5.0-1)"
 	],
-	"installedSize": 148,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 157,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive macros for the tls_codec trait - Rust source code",
 	"homepage": "https://github.com/RustCrypto/formats/tree/master/tls_codec/derive",
-	"filename": "pool/main/r/rust-tls-codec-derive/librust-tls-codec-derive-dev_0.4.2-1_amd64.deb",
-	"size": 23256,
-	"md5": "5ee4393fceb14807a160a5b7a98b971a",
-	"sha256": "62728253609c2f3109c4b32755b7ab79c6290efe07295f400ade73ef2b0090e0",
+	"filename": "pool/main/r/rust-tls-codec-derive/librust-tls-codec-derive-dev_0.5.0-1_amd64.deb",
+	"size": 24884,
+	"md5": "87fc9bb4503969d1f1da6b527e24329b",
+	"sha256": "fd3b221a7c1d2accbce77e0a7f466e365c6b918f9612f387b52e3f50386bd988",
 	"descriptionMd5": "0083e388f5bd6fad399368f68d212603"
 }

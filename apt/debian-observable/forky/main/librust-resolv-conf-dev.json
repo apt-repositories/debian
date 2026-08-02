@@ -5,23 +5,21 @@
 		"Size"
 	],
 	"package": "librust-resolv-conf-dev",
-	"source": "rust-resolv-conf (0.7.0-2)",
-	"version": "0.7.0-2+b1",
+	"source": "rust-resolv-conf",
+	"version": "0.7.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"depends": [
-		"librust-hostname+default-dev (<< 0.5-~~)",
-		"librust-hostname+default-dev (>= 0.3-~~)",
-		"librust-quick-error-2+default-dev"
+	"breaks": [
+		"rustc (<< 1.61~)"
 	],
-	"installedSize": 99,
+	"installedSize": 100,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Resolv.conf file parser - Rust source code",
-	"homepage": "http://github.com/tailhook/resolv-conf",
-	"filename": "pool/main/r/rust-resolv-conf/librust-resolv-conf-dev_0.7.0-2+b1_amd64.deb",
-	"size": 18884,
-	"md5": "5dc1c9107109450ce568b871cfc7a753",
-	"sha256": "8036a4ce9090db32171e3b4e19664804046ebd04a3b640521079035970131e04",
+	"homepage": "https://github.com/hickory-dns/resolv-conf",
+	"filename": "pool/main/r/rust-resolv-conf/librust-resolv-conf-dev_0.7.6-1_amd64.deb",
+	"size": 18952,
+	"md5": "8fdcc72f377e02b76e8af750ea180502",
+	"sha256": "a9905450db067322ae3b121bb700fc7a798b5aba5b66312a3ec3a2f48fa22d85",
 	"descriptionMd5": "4041287319b58a548aae533086f87f5f"
 }]

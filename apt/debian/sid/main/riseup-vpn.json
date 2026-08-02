@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "riseup-vpn",
-	"version": "0.25.8+ds3-4",
+	"version": "0.25.8+ds3-5",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -32,22 +32,25 @@
 		"qml6-module-qtquick-window",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
-		"libqt6core6t64 (>= 6.9.1)",
+		"libqt6core6t64 (>= 6.10.2)",
 		"libqt6gui6 (>= 6.1.2)",
-		"libqt6qml6 (>= 6.9.1)",
+		"libqt6qml6 (>= 6.10.2)",
 		"libqt6widgets6 (>= 6.1.2)",
-		"libstdc++6 (>= 11)"
+		"libstdc++6 (>= 11)",
+		"qt6-base-private-abi (= 6.10.2)",
+		"qt6-declarative-private-abi (= 6.10.2)"
 	],
 	"recommends": [
 		"qt6-wayland"
 	],
-	"installedSize": 27373,
+	"installedSize": 28144,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Easy, fast, and secure VPN service from riseup.net",
 	"homepage": "https://0xacab.org/leap/bitmask-vpn",
-	"filename": "pool/main/r/riseup-vpn/riseup-vpn_0.25.8+ds3-4_amd64.deb",
-	"size": 10363140,
-	"md5": "d0b981d4c0775a5405f7a06ab450d8e6",
-	"sha256": "8fee27d95fd2ff597359aa9a68de092a16ccaced9150a9c1666df40f0f8c784b",
+	"builtUsing": "golang-1.26 (= 1.26.5-1), golang-filippo-edwards25519 (= 1.2.0-2), golang-github-andybalholm-brotli (= 1.2.2-1), golang-github-cespare-xxhash (= 2.3.0-2), golang-github-coreos-bbolt (= 1.4.3-1), golang-github-cretz-bine (= 0.2.0+ds-4), golang-github-go-logr-logr (= 1.4.3-1), golang-github-go-logr-stdr (= 1.2.2-4), golang-github-go-openapi-analysis (= 0.25.2-1), golang-github-go-openapi-errors (= 0.22.7-1), golang-github-go-openapi-jsonpointer (= 1:0.23.1-1), golang-github-go-openapi-jsonreference (= 1:0.21.5-1), golang-github-go-openapi-loads (= 0.23.3-1), golang-github-go-openapi-runtime (= 0.32.4-1), golang-github-go-openapi-spec (= 1:0.22.4-1), golang-github-go-openapi-strfmt (= 0.26.2-1), golang-github-go-openapi-swag (= 1:0.26.0-1), golang-github-go-openapi-validate (= 0.25.2-1), golang-github-go-viper-mapstructure (= 2.5.0-2), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.19.0+ds1-1), golang-github-klauspost-cpuid (= 2.4.0-1), golang-github-klauspost-reedsolomon (= 1.14.0-2), golang-github-mattn-go-colorable (= 0.1.13-1), golang-github-mattn-go-isatty (= 0.0.20-1), golang-github-mitchellh-go-homedir (= 1.1.0-1), golang-github-oklog-ulid (= 2.0.2+ds-2), golang-github-pion-datachannel (= 1.6.2-1), golang-github-pion-dtls.v2 (= 2.2.6-2), golang-github-pion-ice.v2 (= 2.3.1-3), golang-github-pion-interceptor (= 0.1.47-1), golang-github-pion-logging (= 0.2.4-1), golang-github-pion-mdns (= 0.0.7-2), golang-github-pion-randutil (= 0.1.0-2), golang-github-pion-rtcp (= 1.2.17-1), golang-github-pion-rtp (= 1.10.5-1), golang-github-pion-sctp (= 1.11.1-1), golang-github-pion-sdp (= 3.0.17-1), golang-github-pion-srtp.v2 (= 2.0.12-2), golang-github-pion-stun (= 0.6.1-2), golang-github-pion-transport (= 2.0.2-2), golang-github-pion-transport-v3 (= 3.0.8-3), golang-github-pion-turn.v2 (= 2.1.0-2), golang-github-pion-udp (= 2.0.1-2), golang-github-pion-webrtc.v3 (= 3.1.56-5), golang-github-pkg-errors (= 0.9.1-3), golang-github-prometheus-community-pro-bing (= 0.8.0-2), golang-github-protonmail-go-autostart (= 0.0~git20181114.c527205-2.1), golang-github-rs-zerolog (= 1.34.0-1), golang-github-tjfoc-gmsm (= 1.4.1-1), golang-github-xtaci-kcp (= 5.6.72-2), golang-github-xtaci-smux (= 1.5.57+ds-3), golang-gitlab-yawning-edwards25519-extra (= 0.0~git20231005.2149dca-1), golang-go.crypto (= 1:0.53.0-1), golang-golang-x-exp (= 0.0~git20260529.c761662-1), golang-golang-x-net (= 1:0.57.0-1), golang-golang-x-sync (= 0.20.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-text (= 0.36.0-1), golang-golang-x-time (= 0.15.0-1), golang-gopkg-yaml.v3 (= 3.0.4-3), golang-goptlib (= 1.6.0-4), golang-opentelemetry-otel (= 1.43.0-4), golang-refraction-networking-utls (= 1.2.1-3.1)",
+	"filename": "pool/main/r/riseup-vpn/riseup-vpn_0.25.8+ds3-5_amd64.deb",
+	"size": 10400660,
+	"md5": "c575c02412df1a3ca9c2cc8990f743c1",
+	"sha256": "b311b82e0592fef26f94d5d89ca9826eaa5af478e878008dd766a47d2a47fb3f",
 	"descriptionMd5": "c4a4158e33c8c7613142a62f2704c344"
 }

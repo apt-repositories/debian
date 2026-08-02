@@ -6,26 +6,29 @@
 	],
 	"package": "librust-rkyv-derive-dev",
 	"source": "rust-rkyv-derive",
-	"version": "0.8.15-1",
+	"version": "0.8.17-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-proc-macro2-1+proc-macro-dev",
 		"librust-quote-1+proc-macro-dev",
-		"librust-syn-2+clone-impls-dev (>= 2.0.73-~~)",
-		"librust-syn-2+derive-dev (>= 2.0.73-~~)",
-		"librust-syn-2+parsing-dev (>= 2.0.73-~~)",
-		"librust-syn-2+printing-dev (>= 2.0.73-~~)",
-		"librust-syn-2+proc-macro-dev (>= 2.0.73-~~)"
+		"librust-syn-2+clone-impls-dev (>= 2.0.73)",
+		"librust-syn-2+derive-dev (>= 2.0.73)",
+		"librust-syn-2+parsing-dev (>= 2.0.73)",
+		"librust-syn-2+printing-dev (>= 2.0.73)",
+		"librust-syn-2+proc-macro-dev (>= 2.0.73)"
+	],
+	"breaks": [
+		"rustc (<< 1.81~)"
 	],
 	"installedSize": 148,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive macro for rkyv - Rust source code",
 	"homepage": "https://github.com/rkyv/rkyv",
-	"filename": "pool/main/r/rust-rkyv-derive/librust-rkyv-derive-dev_0.8.15-1_amd64.deb",
-	"size": 20884,
-	"md5": "50025772c402f3469071b8a9a97c74d3",
-	"sha256": "6c56dcb08d5576d74335648adb7785618e815c5fea25e58f4900f9a5ba1277ba",
+	"filename": "pool/main/r/rust-rkyv-derive/librust-rkyv-derive-dev_0.8.17-1_amd64.deb",
+	"size": 20940,
+	"md5": "5e92ab0c7315f26683bb0059faf9c4ff",
+	"sha256": "6eaa0a1b4e0d48ff5a65feabddd6bca17b1bb5ceaf680cb15b68aea73e03ebb3",
 	"descriptionMd5": "fbd692052e3261fcdf8de01c16cbcf53"
 }

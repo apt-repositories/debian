@@ -6,7 +6,7 @@
 	],
 	"package": "python3-transformers",
 	"source": "transformers",
-	"version": "5.12.1-1",
+	"version": "5.12.1-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -21,21 +21,21 @@
 		"python3-typer",
 		"python3-yaml",
 		"python3:any",
-		"git"
+		"git",
+		"python3-torch | python3-torch-cuda | python3-torch-rocm",
+		"python3-torchvision"
 	],
 	"recommends": [
-		"python3-torch | python3-torch-cuda | python3-torch-rocm"
-	],
-	"suggests": [
-		"python3-accelerate"
+		"python3-accelerate",
+		"python3-fastapi"
 	],
 	"installedSize": 45995,
 	"maintainer": "Debian Deep Learning Team <debian-ai@lists.debian.org>",
 	"description": "State-of-the-art pretrained models for inference and training",
 	"homepage": "https://github.com/huggingface/transformers",
-	"filename": "pool/main/t/transformers/python3-transformers_5.12.1-1_all.deb",
-	"size": 3555152,
-	"md5": "50512cacf822437b134726aa73d46ce1",
-	"sha256": "0feeaee0a191903ff36ba58c352cc8ddb748c2fefaa1d5ac1286c1ad1a726bf8",
+	"filename": "pool/main/t/transformers/python3-transformers_5.12.1-2_all.deb",
+	"size": 3555296,
+	"md5": "c0d081aedb4274f53c02b08ddab4914b",
+	"sha256": "dd290135a366d4d20c0206b69de1ae50bfab5648668e36a53f8ddb9b507771c4",
 	"descriptionMd5": "3f80960a1d5251515fd06ef772d7dd5d"
 }]

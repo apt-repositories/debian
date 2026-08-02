@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rav1e-dev",
 	"source": "rust-rav1e",
-	"version": "0.8.1-10",
+	"version": "0.8.1-11",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -48,7 +48,8 @@
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
 		"librust-serde-big-array-0.5+default-dev (>= 0.5.1)",
-		"librust-signal-hook-0.3+default-dev",
+		"librust-signal-hook+default-dev (<< 0.5)",
+		"librust-signal-hook+default-dev (>= 0.3)",
 		"librust-simd-helpers-0.1+default-dev",
 		"librust-thiserror-2+default-dev",
 		"librust-toml+default-dev (<< 2)",
@@ -57,13 +58,16 @@
 		"librust-v-frame-0.3+serialize-dev (>= 0.3.7)",
 		"librust-y4m-0.8+default-dev"
 	],
-	"installedSize": 9850,
+	"breaks": [
+		"rustc (<< 1.83.0~)"
+	],
+	"installedSize": 9851,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Fastest and safest AV1 encoder - Rust source code",
 	"homepage": "https://github.com/xiph/rav1e/",
-	"filename": "pool/main/r/rust-rav1e/librust-rav1e-dev_0.8.1-10_amd64.deb",
-	"size": 913156,
-	"md5": "dacd94aa5a78aca30892c6ad1e51b4a9",
-	"sha256": "91c47fff3a0cfb38aaf326e50765ee9b0d78094ebc20bfb93574c207e4c1c8d5",
+	"filename": "pool/main/r/rust-rav1e/librust-rav1e-dev_0.8.1-11_amd64.deb",
+	"size": 913264,
+	"md5": "c03ff54015ab9e996337b1ac9e9c5c36",
+	"sha256": "77a4f9b15bb404c11d7f7b13b1f30bab004e3fa91c8c5e48616de5740bb79ad3",
 	"descriptionMd5": "27fcc0bacf8ddb9d9ef23792da735c9e"
 }

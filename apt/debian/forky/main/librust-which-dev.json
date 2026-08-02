@@ -5,27 +5,26 @@
 		"Size"
 	],
 	"package": "librust-which-dev",
-	"source": "rust-which (8.0.0-3)",
-	"version": "8.0.0-3+b1",
+	"source": "rust-which",
+	"version": "8.0.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-regex-1+default-dev (>= 1.10.2-~~)",
-		"librust-rustix+fs-dev (<< 2.0-~~)",
-		"librust-rustix+fs-dev (>= 0.38-~~)",
-		"librust-rustix+std-dev (<< 2.0-~~)",
-		"librust-rustix+std-dev (>= 0.38-~~)",
-		"librust-tracing-0.1-dev (>= 0.1.40-~~)",
-		"librust-xdg-home-1+default-dev"
+		"librust-libc-0.2+default-dev",
+		"librust-regex-1+default-dev (>= 1.10.2)",
+		"librust-tracing-0.1-dev (>= 0.1.40)"
 	],
-	"installedSize": 138,
+	"breaks": [
+		"rustc (<< 1.70~)"
+	],
+	"installedSize": 139,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust equivalent of Unix command \"which\" - Rust source code",
 	"homepage": "https://github.com/harryfei/which-rs.git",
-	"filename": "pool/main/r/rust-which/librust-which-dev_8.0.0-3+b1_amd64.deb",
-	"size": 26472,
-	"md5": "820d29dcb2eef8216d7ee99f47096945",
-	"sha256": "571a53d7a7204f351336919e91ba3ff3dc2f786bdc15574fab92b85c683d372a",
+	"filename": "pool/main/r/rust-which/librust-which-dev_8.0.5-1_amd64.deb",
+	"size": 27816,
+	"md5": "1092feb7e75bfa0769a50987ba6a23cd",
+	"sha256": "622dff308a67adf184e9f5047d91f84b4f892617da5f4a16c3be5889efa7dfd3",
 	"descriptionMd5": "60982027ce0023d8b1b230e570f13aef"
 }

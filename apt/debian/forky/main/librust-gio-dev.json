@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gio-dev",
 	"source": "rust-gio",
-	"version": "0.22.6-1",
+	"version": "0.22.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -53,13 +53,16 @@
 		"librust-pin-project-lite-0.2+default-dev",
 		"librust-smallvec-1+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
 	"installedSize": 2300,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings for the Gio library - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-gio/librust-gio-dev_0.22.6-1_amd64.deb",
-	"size": 182216,
-	"md5": "9731a408ae47aff966dbcedcfb29b9b6",
-	"sha256": "d0e48d1b5ad2033e280fd1b104d12b7b7b562ace9025783c220ad74f9fc1914f",
+	"filename": "pool/main/r/rust-gio/librust-gio-dev_0.22.8-1_amd64.deb",
+	"size": 182348,
+	"md5": "a546dde5ce1461b6aaee30bd5e99f704",
+	"sha256": "404bde1181bf90059c734c32f7afb8f2fc37543f93a36d76a722d5fed314ee9b",
 	"descriptionMd5": "70b9ea1e523801662e59ab734f0190dd"
 }

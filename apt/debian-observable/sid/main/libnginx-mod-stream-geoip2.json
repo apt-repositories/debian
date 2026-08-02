@@ -6,14 +6,13 @@
 	],
 	"package": "libnginx-mod-stream-geoip2",
 	"source": "libnginx-mod-http-geoip2 (1:3.4-7)",
-	"version": "1:3.4-7+b5",
+	"version": "1:3.4-7+b6",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnginx-mod-stream (<< 1.30.1.1~)",
-		"libnginx-mod-stream (>= 1.30.1)",
-		"nginx-abi-1.30.1-1",
+		"libnginx-mod-stream",
+		"nginx-abi-1.30.4-2",
 		"libc6 (>= 2.33)",
 		"libmaxminddb0 (>= 1.0.2)"
 	],
@@ -24,9 +23,9 @@
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "GeoIP2 Stream module for Nginx",
 	"homepage": "https://github.com/leev/ngx_http_geoip2_module",
-	"filename": "pool/main/libn/libnginx-mod-http-geoip2/libnginx-mod-stream-geoip2_3.4-7+b5_amd64.deb",
-	"size": 8860,
-	"md5": "932cb87bd525611d73c30f4f8f0ba638",
-	"sha256": "1373fc112308abd8fd100252d552abfae3b113cc952a6a6cdc5491a7fe66d44d",
+	"filename": "pool/main/libn/libnginx-mod-http-geoip2/libnginx-mod-stream-geoip2_3.4-7+b6_amd64.deb",
+	"size": 8856,
+	"md5": "5b1ce27102dadc59615a547dce7cc23b",
+	"sha256": "8ba1a4c6809017fd38bb1da11fddfb24d29d249e2ddcc71e583e9c871e017015",
 	"descriptionMd5": "ecbf7da9aa5b20a93ef8d10c9567853f"
 }]
