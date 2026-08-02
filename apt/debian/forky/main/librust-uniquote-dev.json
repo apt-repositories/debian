@@ -5,18 +5,24 @@
 		"Size"
 	],
 	"package": "librust-uniquote-dev",
-	"source": "rust-uniquote (4.0.0-1)",
-	"version": "4.0.0-1+b1",
+	"source": "rust-uniquote",
+	"version": "5.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 75,
+	"depends": [
+		"librust-os-str-bytes-7+raw-os-str-dev (>= 7.2)"
+	],
+	"breaks": [
+		"rustc (<< 1.81.0~)"
+	],
+	"installedSize": 73,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Quote strings for clear display in output - Rust source code",
 	"homepage": "https://github.com/dylni/uniquote",
-	"filename": "pool/main/r/rust-uniquote/librust-uniquote-dev_4.0.0-1+b1_amd64.deb",
-	"size": 17184,
-	"md5": "04264bfe09c0e94a979332721642d158",
-	"sha256": "e097846bd0fc99681f8f0195977ab835dc6d644b8c543aef3225c320d9b6b8fd",
+	"filename": "pool/main/r/rust-uniquote/librust-uniquote-dev_5.0.0-1_amd64.deb",
+	"size": 17100,
+	"md5": "2a35b00706b9a8c621a01d5b046d3095",
+	"sha256": "c24e9f937ba729c06237b25284b6f2249b37c6da41dae4aa85feb182bbe0b8e3",
 	"descriptionMd5": "b229ee2c642f46194ae9f284ef1c97de"
 }

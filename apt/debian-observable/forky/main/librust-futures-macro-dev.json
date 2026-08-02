@@ -6,7 +6,7 @@
 	],
 	"package": "librust-futures-macro-dev",
 	"source": "rust-futures-macro",
-	"version": "0.3.32-1",
+	"version": "0.3.33-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,16 @@
 		"librust-syn-2+default-dev (>= 2.0.52)",
 		"librust-syn-2+full-dev (>= 2.0.52)"
 	],
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
 	"installedSize": 58,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Futures-rs procedural macro implementations - Rust source code",
 	"homepage": "https://rust-lang.github.io/futures-rs",
-	"filename": "pool/main/r/rust-futures-macro/librust-futures-macro-dev_0.3.32-1_amd64.deb",
-	"size": 13244,
-	"md5": "2c130744de965815ffb6f6192cacc5fe",
-	"sha256": "560eba6b332ecbf0d85074c660b3f2ac3afaf6810f71784719daefc14a04b171",
+	"filename": "pool/main/r/rust-futures-macro/librust-futures-macro-dev_0.3.33-1_amd64.deb",
+	"size": 13312,
+	"md5": "7328cb23e78e23792fce5e659182f871",
+	"sha256": "5d4a74bc54681d2f61ea0b59d30cd4f3041b21e08229da966a76497d519c8f31",
 	"descriptionMd5": "87fe1c4c338c7068a2ed50611bca3edf"
 }]

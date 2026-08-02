@@ -6,7 +6,7 @@
 	],
 	"package": "librust-diesel-derives-dev",
 	"source": "rust-diesel-derives",
-	"version": "2.3.7-1",
+	"version": "2.3.9-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,13 +22,16 @@
 		"librust-syn-2+full-dev",
 		"librust-syn-2+visit-mut-dev"
 	],
-	"installedSize": 697,
+	"breaks": [
+		"rustc (<< 1.86.0~)"
+	],
+	"installedSize": 718,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Proc macro derives for diesel - Rust source code",
 	"homepage": "https://diesel.rs",
-	"filename": "pool/main/r/rust-diesel-derives/librust-diesel-derives-dev_2.3.7-1_amd64.deb",
-	"size": 80416,
-	"md5": "92a1bef3593091cd912eb326fd519561",
-	"sha256": "37187a8880331a5bc5db1041f05dcc2fc22a82d6a313e2a8f27f516501f49723",
+	"filename": "pool/main/r/rust-diesel-derives/librust-diesel-derives-dev_2.3.9-1_amd64.deb",
+	"size": 81644,
+	"md5": "13e18d74a72f44e2338f17370b68a511",
+	"sha256": "4c0c70d7b9d9e27c06a3998c428238ef415103e6a9ed3272c57f1ce44e2e945c",
 	"descriptionMd5": "e1c538368f09eda7ce44bc8e50efee1d"
 }]

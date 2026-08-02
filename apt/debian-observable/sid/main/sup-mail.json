@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "sup-mail",
-	"version": "1.4-1",
+	"version": "1.4-2",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"ruby-xapian",
 		"ruby:any",
 		"ruby",
 		"ruby-ncurses (>= 1.4.0)",
@@ -24,8 +25,7 @@
 		"ruby-unicode (>= 0.4.4)",
 		"ruby-unicode-display-width",
 		"ruby-benchmark",
-		"ruby-fiddle",
-		"ruby-xapian"
+		"ruby-fiddle"
 	],
 	"recommends": [
 		"ruby-gpgme"
@@ -34,9 +34,9 @@
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "thread-centric mailer with tagging and fast search",
 	"homepage": "https://sup-heliotrope.github.io/",
-	"filename": "pool/main/s/sup-mail/sup-mail_1.4-1_amd64.deb",
-	"size": 151820,
-	"md5": "ab0c73cd52909d0f1eed7deb9d89d8ec",
-	"sha256": "2a3c17d8d7243141e26c1a41a7d6cc7569b8c21afbd4c7dccad72c059caa43cb",
+	"filename": "pool/main/s/sup-mail/sup-mail_1.4-2_amd64.deb",
+	"size": 151900,
+	"md5": "3261ea0515158227f32a331288afe8a2",
+	"sha256": "d8e03cf46d351195155b32bd85a348ae89896da72f3edeaf843b25290ad8d1a6",
 	"descriptionMd5": "2208e23246db6174fe72bb8ff2dbcdf9"
 }]

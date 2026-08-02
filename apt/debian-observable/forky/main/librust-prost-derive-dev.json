@@ -5,25 +5,30 @@
 		"Size"
 	],
 	"package": "librust-prost-derive-dev",
-	"source": "rust-prost-derive (0.12.6-1)",
-	"version": "0.12.6-1+b1",
+	"source": "rust-prost-derive",
+	"version": "0.14.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-anyhow-1+default-dev (>= 1.0.1-~~)",
-		"librust-itertools+use-alloc-dev (>= 0.10-~~)",
-		"librust-proc-macro2-1+default-dev",
+		"librust-anyhow-1+default-dev (>= 1.0.1)",
+		"librust-itertools+default-dev (<< 0.15)",
+		"librust-itertools+default-dev (>= 0.10.1)",
+		"librust-proc-macro2-1+default-dev (>= 1.0.60)",
 		"librust-quote-1+default-dev",
 		"librust-syn-2+default-dev",
 		"librust-syn-2+extra-traits-dev"
 	],
-	"installedSize": 122,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 124,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generate encoding and decoding implementations for Prost annotated types - Rust source code",
-	"filename": "pool/main/r/rust-prost-derive/librust-prost-derive-dev_0.12.6-1+b1_amd64.deb",
-	"size": 20484,
-	"md5": "c2ac5a25434d2778742c5ff7bbb4f436",
-	"sha256": "7551dbabd97edc6d3a0118a3c62c7457ac7b6e7296f5a00a3fcc43e7fe982b1f",
+	"homepage": "https://github.com/tokio-rs/prost",
+	"filename": "pool/main/r/rust-prost-derive/librust-prost-derive-dev_0.14.4-1_amd64.deb",
+	"size": 21184,
+	"md5": "205d50da3443a4463d0599cc408a62ce",
+	"sha256": "60a273138ca69765fab1bed40991440960964541fd7c2a1fcff76ea6f24f4cf4",
 	"descriptionMd5": "af7398c28fbc38699f948486e3df4ad2"
 }]

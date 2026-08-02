@@ -5,24 +5,26 @@
 		"Size"
 	],
 	"package": "librust-open-dev",
-	"source": "rust-open (5.3.2-1)",
-	"version": "5.3.2-1+b1",
+	"source": "rust-open",
+	"version": "5.4.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-dunce-1+default-dev",
 		"librust-is-wsl-0.4+default-dev",
-		"librust-libc-0.2+default-dev",
-		"librust-pathdiff-0.2+default-dev"
+		"librust-libc-0.2+default-dev"
 	],
-	"installedSize": 136,
+	"breaks": [
+		"rustc (<< 1.62~)"
+	],
+	"installedSize": 165,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Open a path or URL using the program configured on the system - Rust source code",
 	"homepage": "https://github.com/Byron/open-rs",
-	"filename": "pool/main/r/rust-open/librust-open-dev_5.3.2-1+b1_amd64.deb",
-	"size": 43208,
-	"md5": "c13ef38382ade09c44c3c18583069a5c",
-	"sha256": "93acab61f5c1d8451801a377cbfb85b2f0e19bf3977cf460cddb2bcb7cbed2bf",
+	"filename": "pool/main/r/rust-open/librust-open-dev_5.4.0-1_amd64.deb",
+	"size": 51788,
+	"md5": "29397f3653896d2c98e5a80e9ed88bc8",
+	"sha256": "a3b6fb97d6e315f73e779725680dd0ace5207f0e69029e440a55f450dad4cc83",
 	"descriptionMd5": "f4bfb22aa6b2dc1490a5c24604a74819"
 }]

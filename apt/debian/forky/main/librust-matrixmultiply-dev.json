@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-matrixmultiply-dev",
-	"source": "rust-matrixmultiply (0.3.9-1)",
-	"version": "0.3.9-1+b1",
+	"source": "rust-matrixmultiply",
+	"version": "0.3.11-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-autocfg-1+default-dev",
-		"librust-num-cpus-1+default-dev (>= 1.13-~~)",
-		"librust-once-cell-1+default-dev (>= 1.7-~~)",
+		"librust-num-cpus-1+default-dev (>= 1.13)",
+		"librust-once-cell-1+default-dev (>= 1.7)",
 		"librust-rawpointer-0.2+default-dev"
 	],
-	"installedSize": 293,
+	"breaks": [
+		"rustc (<< 1.75.0~)"
+	],
+	"installedSize": 256,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "General matrix multiplication for f32 and f64 matrices - Rust source code",
 	"homepage": "https://github.com/bluss/matrixmultiply/",
-	"filename": "pool/main/r/rust-matrixmultiply/librust-matrixmultiply-dev_0.3.9-1+b1_amd64.deb",
-	"size": 47892,
-	"md5": "2c80329ad86c048fc57945229ce0e0fa",
-	"sha256": "3e4116409197e39bd71c0b3ecd23f08e3f2236fedae7c9c58906dc316011f891",
-	"descriptionMd5": "a94256fb0afa5cb290ffbd50b7a207ae"
+	"filename": "pool/main/r/rust-matrixmultiply/librust-matrixmultiply-dev_0.3.11-1_amd64.deb",
+	"size": 42692,
+	"md5": "cd53488ab986f89f53176501292c72fe",
+	"sha256": "34feb3389aa3209e5939e890113b2b7474519d3f49e15875d38f67e8823699ff",
+	"descriptionMd5": "b9b12c01f0451a8cec6c8c53375420c7"
 }

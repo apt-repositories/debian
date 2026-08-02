@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-ctrlc-dev",
-	"source": "rust-ctrlc (3.5.0-1)",
-	"version": "3.5.0-1+b1",
+	"source": "rust-ctrlc",
+	"version": "3.5.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-nix+signal-dev (<< 0.31-~~)",
-		"librust-nix+signal-dev (>= 0.29-~~)"
+		"librust-nix+signal-dev (<< 0.32)",
+		"librust-nix+signal-dev (>= 0.30)"
 	],
-	"installedSize": 83,
+	"breaks": [
+		"rustc (<< 1.69.0~)"
+	],
+	"installedSize": 82,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Easy Ctrl-C handler for Rust projects - Rust source code",
 	"homepage": "https://github.com/Detegr/rust-ctrlc",
-	"filename": "pool/main/r/rust-ctrlc/librust-ctrlc-dev_3.5.0-1+b1_amd64.deb",
-	"size": 16076,
-	"md5": "519bba30e414f1d677b18154e2249658",
-	"sha256": "4d8b37cbc191bd8d384b841299bade674293169f061fc6b038b41fe2629d1340",
+	"filename": "pool/main/r/rust-ctrlc/librust-ctrlc-dev_3.5.2-1_amd64.deb",
+	"size": 15896,
+	"md5": "87c19de424155f552ce0d31899ee22f0",
+	"sha256": "ac96483fd30f825dd202c78da8d189e914151478574fb21804b50f4b8c5ded0d",
 	"descriptionMd5": "bb005b94a6183d806d54409637f2e346"
 }]
