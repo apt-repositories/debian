@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "publicfile",
+	"version": "0.52-15",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"ucspi-tcp-ipv6 (>> 1:0.88) | ucspi-tcp (>> 1:0.88)",
+		"adduser"
+	],
+	"recommends": [
+		"runit-init | runit-run | daemontools-run (>> 1:0.76)"
+	],
+	"suggests": [
+		"curl",
+		"zsh | zsh-beta"
+	],
+	"conflicts": [
+		"merecat (<< 2.31+git20220513+ds-6)"
+	],
+	"installedSize": 148,
+	"maintainer": "Joost van Baal-Ilić <joostvb@debian.org>",
+	"description": "http and ftp server by Daniel J Bernstein",
+	"homepage": "http://cr.yp.to/publicfile.html",
+	"filename": "pool/main/p/publicfile/publicfile_0.52-15_amd64.deb",
+	"size": 47688,
+	"md5": "d9cd76825c54ec53c27055bd75399f41",
+	"sha256": "617634b4449edfca6c73b541523caf77be63172e1585e5df0d9a0280034e724b",
+	"descriptionMd5": "7d11f25eff19088a4fe021448fc6a480"
+}]

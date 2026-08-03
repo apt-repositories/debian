@@ -5,24 +5,29 @@
 		"Size"
 	],
 	"package": "librust-deranged-dev",
-	"source": "rust-deranged (0.3.11-1)",
-	"version": "0.3.11-1+b1",
+	"source": "rust-deranged",
+	"version": "0.5.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-num-traits-0.2-dev (>= 0.2.15-~~)",
+		"librust-num-traits-0.2-dev (>= 0.2.15)",
 		"librust-powerfmt-0.2-dev",
-		"librust-quickcheck-1-dev (>= 1.0.3-~~)",
-		"librust-rand-0.8-dev (>= 0.8.4-~~)",
-		"librust-serde-1-dev (>= 1.0.126-~~)"
+		"librust-quickcheck-1-dev (>= 1.0.3)",
+		"librust-rand-0.10-dev",
+		"librust-rand-0.8-dev (>= 0.8.4)",
+		"librust-serde-core-1-dev (>= 1.0.220)"
 	],
-	"installedSize": 124,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 156,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Ranged integers - Rust source code",
-	"filename": "pool/main/r/rust-deranged/librust-deranged-dev_0.3.11-1+b1_amd64.deb",
-	"size": 18460,
-	"md5": "1bb63304e52344dd486043a6ce1bb844",
-	"sha256": "8ee5bc2e3dabed9db182e9d07a3929126b471b6e71f95ac87074de527c9d3894",
+	"homepage": "https://github.com/jhpratt/deranged",
+	"filename": "pool/main/r/rust-deranged/librust-deranged-dev_0.5.8-1_amd64.deb",
+	"size": 22400,
+	"md5": "2df5b255e891f5057443af21ca900c91",
+	"sha256": "867e6544fff3b694e8b355d25453b5c8c6dc2e9541df838ab666869107702374",
 	"descriptionMd5": "f3c42d3cf47f12a70dd6d6d72a5724d0"
 }]

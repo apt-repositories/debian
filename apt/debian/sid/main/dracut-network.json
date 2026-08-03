@@ -6,7 +6,7 @@
 	],
 	"package": "dracut-network",
 	"source": "dracut",
-	"version": "111-6",
+	"version": "112-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
@@ -19,6 +19,8 @@
 		"curl"
 	],
 	"suggests": [
+		"ca-certificates",
+		"chrony",
 		"iscsiuio",
 		"nbd-client",
 		"nfs-common",
@@ -33,13 +35,13 @@
 		"dracut-core (<< 105)",
 		"dracut-live (<< 109-10~)"
 	],
-	"installedSize": 260,
+	"installedSize": 277,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "dracut is an event driven initramfs infrastructure (network modules)",
 	"homepage": "https://dracut-ng.github.io/",
-	"filename": "pool/main/d/dracut/dracut-network_111-6_all.deb",
-	"size": 54388,
-	"md5": "ed86e1190a42b1afcd10291f5ba37870",
-	"sha256": "7630a4636a478ee56cb821225b7d5d805e140279ffa2754cf4166bf2c7b2c6ad",
-	"descriptionMd5": "95de04973ab1eae9322ef43d08e596cd"
+	"filename": "pool/main/d/dracut/dracut-network_112-1_all.deb",
+	"size": 58876,
+	"md5": "f4d9d16e1a3c0c2af6a029c313bfa0f7",
+	"sha256": "b309db2442ee6a448c9f6e25af213e4875c1f243a56cc88d04fb9e019ff90547",
+	"descriptionMd5": "c8d59ac3f86e789d9f12229697c58f54"
 }
