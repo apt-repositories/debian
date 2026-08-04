@@ -6,12 +6,12 @@
 	],
 	"package": "librust-rb-sys-build-dev",
 	"source": "rust-rb-sys-build",
-	"version": "0.9.124-1",
+	"version": "0.9.128-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bindgen-0+runtime-dev (>= 0.69)",
+		"librust-bindgen-0+runtime-dev (>= 0.72)",
 		"librust-lazy-static-1+default-dev (>= 1.4.0)",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
@@ -23,13 +23,16 @@
 		"librust-syn-2+parsing-dev",
 		"ruby-dev"
 	],
-	"installedSize": 118,
+	"breaks": [
+		"rustc (<< 1.75~)"
+	],
+	"installedSize": 129,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Build system for rb-sys - Rust source code",
 	"homepage": "https://github.com/oxidize-rb/rb-sys",
-	"filename": "pool/main/r/rust-rb-sys-build/librust-rb-sys-build-dev_0.9.124-1_amd64.deb",
-	"size": 23908,
-	"md5": "769a3be1b1c51fd70a71db6a153b4a8f",
-	"sha256": "cef19014fafc67bb3d020c1b35659d95d153ae94376a39f47de8f288c43e0cf2",
+	"filename": "pool/main/r/rust-rb-sys-build/librust-rb-sys-build-dev_0.9.128-1_amd64.deb",
+	"size": 26792,
+	"md5": "4af1efc54497359987c03f8de9ae5dd9",
+	"sha256": "faf7d11222c88a679552c86fa72174c1c96605018a10af586498e7d0e98c2a71",
 	"descriptionMd5": "002361191805b1a74b14bc1ac0d23785"
 }

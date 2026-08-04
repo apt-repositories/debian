@@ -6,7 +6,7 @@
 	],
 	"package": "librust-glib-dev",
 	"source": "rust-glib",
-	"version": "0.22.7-5",
+	"version": "0.22.8-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -36,7 +36,6 @@
 		"librust-glib-sys-0.22+v2-84-dev",
 		"librust-glib-sys-0.22+v2-86-dev",
 		"librust-glib-sys-0.22+v2-88-dev",
-		"librust-glib-sys-0.22+v2-90-dev",
 		"librust-gobject-sys-0.22+default-dev",
 		"librust-gobject-sys-0.22+v2-58-dev",
 		"librust-gobject-sys-0.22+v2-62-dev",
@@ -61,13 +60,16 @@
 		"librust-smallvec-1+union-dev (>= 1.15)",
 		"libglib2.0-dev (>= 2.87.3)"
 	],
-	"installedSize": 1956,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 1959,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings for the GLib library - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-glib/librust-glib-dev_0.22.7-5_amd64.deb",
-	"size": 221604,
-	"md5": "3b7167bc9a94d39aab5ff9943b191fb8",
-	"sha256": "b8d5d8a3dc8a9248adbe92ddf83c553e58dedf0a13d1009b0ccffc0efcbeef6d",
+	"filename": "pool/main/r/rust-glib/librust-glib-dev_0.22.8-2_amd64.deb",
+	"size": 221928,
+	"md5": "e2e212884f13176a66ca11eebd134814",
+	"sha256": "9e4bde6cfb27a7bbd83cbd9501eff0b5219db4099f727dbfb1d92264ce119c65",
 	"descriptionMd5": "c51b81039b4c087ae88e5f5744df36e9"
 }

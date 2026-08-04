@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-audio-sys-dev",
 	"source": "rust-gstreamer-audio-sys",
-	"version": "0.25.2-1",
+	"version": "0.25.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,16 @@
 		"libgstreamer1.0-dev (>= 1.28)",
 		"libgstreamer-plugins-base1.0-dev (>= 1.28)"
 	],
-	"installedSize": 314,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 317,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgstaudio-1.0 - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-audio-sys/librust-gstreamer-audio-sys-dev_0.25.2-1_amd64.deb",
-	"size": 80612,
-	"md5": "c1b29352cc7f05741ba18847602b493f",
-	"sha256": "70bc42c9912796baa50da768f133d0d78d7081893ee920d60e7472e4e4b69cf4",
+	"filename": "pool/main/r/rust-gstreamer-audio-sys/librust-gstreamer-audio-sys-dev_0.25.3-1_amd64.deb",
+	"size": 80940,
+	"md5": "291907908130194e8d6733f3091d433b",
+	"sha256": "d4d409532e881e0e8e803d96e683ae14bcbb42ebfe038afb09ab51f131ff087c",
 	"descriptionMd5": "1fb42a99ff511adaa9e069e7d9dccae2"
 }

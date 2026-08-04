@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "node-yallist",
-	"version": "4.0.0+~4.0.1-2",
+	"version": "5.0.0-4",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 31,
+	"breaks": [
+		"node-redis (<< 4.6.14+~1.1.2-3~)",
+		"node-tar (<< 7)"
+	],
+	"installedSize": 93,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Double linked list implementation for Node.js",
 	"homepage": "https://github.com/isaacs/yallist",
-	"filename": "pool/main/n/node-yallist/node-yallist_4.0.0+~4.0.1-2_all.deb",
-	"size": 8052,
-	"md5": "d5d9e1586b25e1e82dd3a58d8254a05c",
-	"sha256": "cc29613fee06e63b467d08da97fa02e4f4d9fed93d8d4935ec4a68e8e5408a59",
+	"filename": "pool/main/n/node-yallist/node-yallist_5.0.0-4_all.deb",
+	"size": 11172,
+	"md5": "b82e7a44c4348b6f25c6172f15aaa0d4",
+	"sha256": "98c4ff2f3b878119dd62b516ed410807c3f4be05f86d590007817e25c07d5bea",
 	"descriptionMd5": "89bac9134139a5cda08ef7320151a953"
 }]
