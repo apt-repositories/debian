@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-base-sys-dev",
 	"source": "rust-gstreamer-base-sys",
-	"version": "0.25.0-2",
+	"version": "0.25.3-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-system-deps-7+default-dev",
 		"libgstreamer1.0-dev"
 	],
-	"installedSize": 269,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 278,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgstbase-1.0 - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-base-sys/librust-gstreamer-base-sys-dev_0.25.0-2_amd64.deb",
-	"size": 74928,
-	"md5": "3a03decd5fdadc3383a96b8af5ef251b",
-	"sha256": "dc8bfb980d17cedf8086e13ec2bd51cc37e11513f1a93c89f2b5dd23e641366b",
+	"filename": "pool/main/r/rust-gstreamer-base-sys/librust-gstreamer-base-sys-dev_0.25.3-2_amd64.deb",
+	"size": 76672,
+	"md5": "b77f69a18e741c2b9766035ec6c7cfac",
+	"sha256": "57a592455c4ebd352160c95ed10b8c57a778d339bfd334e66ddc28948031abcc",
 	"descriptionMd5": "4e8d82d4f219d3a582b2b6e6dbbad0a1"
 }

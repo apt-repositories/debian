@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gstreamer-gl-sys-dev",
 	"source": "rust-gstreamer-gl-sys",
-	"version": "0.25.0-2",
+	"version": "0.25.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,13 +21,16 @@
 		"libgstreamer-plugins-base1.0-dev",
 		"libgstreamer1.0-dev"
 	],
-	"installedSize": 318,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 323,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to libgstgl-1.0 - Rust source code",
 	"homepage": "https://gstreamer.freedesktop.org",
-	"filename": "pool/main/r/rust-gstreamer-gl-sys/librust-gstreamer-gl-sys-dev_0.25.0-2_amd64.deb",
-	"size": 79684,
-	"md5": "0a584f8bb99c150f6c4550f1a1f51303",
-	"sha256": "1bc912bba3b6a147d728f89e13e63336e799856c14ee4123a457f9a231407e00",
+	"filename": "pool/main/r/rust-gstreamer-gl-sys/librust-gstreamer-gl-sys-dev_0.25.0-3_amd64.deb",
+	"size": 80052,
+	"md5": "3245e46e4955f0b66d91e2eec92e5a2c",
+	"sha256": "3564634d345184b1860de0c2cc29d557f548d5647d32ea43ec27dc0f077d4d76",
 	"descriptionMd5": "4ba97460030cd914d0987a0fe8bd750f"
 }]
