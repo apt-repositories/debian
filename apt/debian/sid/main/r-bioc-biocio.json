@@ -5,23 +5,30 @@
 		"Size"
 	],
 	"package": "r-bioc-biocio",
-	"version": "1.16.0+dfsg-3",
+	"version": "1.22.0+dfsg-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-biocgenerics",
-		"r-bioc-s4vectors"
+		"r-bioc-s4vectors",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 290,
+	"suggests": [
+		"r-cran-testthat",
+		"r-cran-knitr",
+		"r-cran-rmarkdown",
+		"r-bioc-biocstyle"
+	],
+	"installedSize": 292,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "standard input and output for Bioconductor packages",
 	"homepage": "https://bioconductor.org/packages/BiocIO/",
-	"filename": "pool/main/r/r-bioc-biocio/r-bioc-biocio_1.16.0+dfsg-3_all.deb",
-	"size": 212900,
-	"md5": "22911f938a230bc6c3d666d08ca2f9ab",
-	"sha256": "45aa2eb1bd577d2859d69e335a859040cb2c888bf85841421e702aaf33ed8a03",
+	"filename": "pool/main/r/r-bioc-biocio/r-bioc-biocio_1.22.0+dfsg-1_all.deb",
+	"size": 213060,
+	"md5": "b82046ad0a4206197f11600580f06585",
+	"sha256": "7d4fb9f1017e32358363a2740eb59bb7ba594e1e13523ba4b7ce45e2b68f4679",
 	"descriptionMd5": "7e02261d280b4012465fd57c56fc6f2f"
 }

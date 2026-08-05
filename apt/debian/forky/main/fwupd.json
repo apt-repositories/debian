@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "fwupd",
-	"version": "2.1.5-1",
+	"version": "2.1.7-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,7 +16,7 @@
 		"libcurl4-gnutls (>= 8.20.0-3~)",
 		"libdrm-amdgpu1 (>= 2.4.73)",
 		"libdrm2 (>= 2.4.3)",
-		"libfwupd3 (= 2.1.5-1)",
+		"libfwupd3 (= 2.1.7-2)",
 		"libglib2.0-0t64 (>= 2.83.0)",
 		"libgnutls30t64 (>= 3.8.4)",
 		"liblzma5 (>= 5.1.1alpha+20120614)",
@@ -24,21 +24,20 @@
 		"libmbim-proxy",
 		"libmm-glib0 (>= 1.22.0)",
 		"libmnl0 (>= 1.0.3-4~)",
-		"libpassim1 (>= 0.1.9)",
-		"libpolkit-gobject-1-0 (>= 0.99)",
+		"libpolkit-gobject-1-0 (>= 0.103)",
 		"libqmi-glib5 (>= 1.32.0)",
 		"libqmi-proxy",
 		"libreadline8t64 (>= 6.0)",
 		"libsqlite3-0 (>= 3.20.0)",
-		"libsystemd0",
+		"libsystemd0 (>= 258~rc1)",
 		"libtss2-esys-3.0.2-0t64 (>= 2.3.1)",
 		"libusb-1.0-0 (>= 2:1.0.27~rc1)",
-		"libxmlb2 (>= 0.3.22)",
+		"libxmlb2 (>= 0.3.19)",
 		"zlib1g (>= 1:1.2.11.dfsg)",
+		"python3:any",
 		"shared-mime-info"
 	],
 	"recommends": [
-		"python3",
 		"bolt",
 		"default-dbus-system-bus | dbus-system-bus",
 		"udisks2",
@@ -46,7 +45,12 @@
 		"jq"
 	],
 	"suggests": [
-		"gir1.2-fwupd-2.0"
+		"7zip",
+		"gir1.2-fwupd-2.0",
+		"gir1.2-glib-2.0",
+		"python3-dbus",
+		"python3-gi",
+		"python3-jinja2"
 	],
 	"replaces": [
 		"fwupdate (<< 12-7)",
@@ -56,6 +60,7 @@
 	],
 	"breaks": [
 		"fwupdate (<< 12-7)",
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
 		"libdfu-dev (<< 0.9.7-1)",
 		"libdfu1 (<< 0.9.7-1)"
 	],
@@ -65,13 +70,13 @@
 		"fwupdate-armhf-signed",
 		"fwupdate-i386-signed"
 	],
-	"installedSize": 16508,
+	"installedSize": 16781,
 	"maintainer": "Debian EFI <debian-efi@lists.debian.org>",
 	"description": "Firmware update daemon",
 	"homepage": "https://github.com/fwupd/fwupd",
-	"filename": "pool/main/f/fwupd/fwupd_2.1.5-1_amd64.deb",
-	"size": 8067784,
-	"md5": "f551aa11ae74f79b76f77b35b57ffa8d",
-	"sha256": "f21f499eed7473cda400833b3b5b389fa60b9265dbd66a321f246f3994e670d0",
+	"filename": "pool/main/f/fwupd/fwupd_2.1.7-2_amd64.deb",
+	"size": 8338784,
+	"md5": "995e82fbce01c500779c18a73b7feeb8",
+	"sha256": "7f445e3d71cdcbdb1c19ad91df7a8e7e46ccc78eed822709ab99fe91bc45e854",
 	"descriptionMd5": "cdd6fee34520bc38e3f317c22bf0694b"
 }

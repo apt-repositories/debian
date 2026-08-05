@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-scroll-derive-dev",
-	"source": "rust-scroll-derive (0.12.0-2)",
-	"version": "0.12.0-2+b1",
+	"source": "rust-scroll-derive",
+	"version": "0.13.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,16 @@
 		"librust-quote-1+default-dev",
 		"librust-syn-2+default-dev"
 	],
-	"installedSize": 40,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 53,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Macros 1.1 derive implementation for Pread and Pwrite traits from the scroll crate - Rust source code",
 	"homepage": "https://github.com/m4b/scroll",
-	"filename": "pool/main/r/rust-scroll-derive/librust-scroll-derive-dev_0.12.0-2+b1_amd64.deb",
-	"size": 6624,
-	"md5": "3992fcaa3b64275fffb79e32b2ae9b92",
-	"sha256": "2fc3aadcc9dde7d7e195856e6506695143923cfc44c6f354985fbfc279ef0b20",
+	"filename": "pool/main/r/rust-scroll-derive/librust-scroll-derive-dev_0.13.1-1_amd64.deb",
+	"size": 9548,
+	"md5": "c3b8bab0c4e51658fb52b4acd54d1cef",
+	"sha256": "0ea65250207fd075ca95dcdf40d7f747ab4c24b2d24856369041c95edf770f08",
 	"descriptionMd5": "76f0b6fe44ad07387341ba38dd5102b2"
 }

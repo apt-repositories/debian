@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "libpmix2t64",
-	"source": "pmix (6.0.0+really5.0.9-3)",
-	"version": "6.0.0+really5.0.9-3+b2",
+	"source": "pmix",
+	"version": "6.1.1~rc2-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
+		"libesmtp6 (>= 1.1.0)",
 		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
 		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
 		"libhwloc15 (>= 2.14.0)",
@@ -23,15 +24,15 @@
 		"libpmix2"
 	],
 	"breaks": [
-		"libpmix2 (<< 6.0.0+really5.0.9-3)"
+		"libpmix2 (<< 6.1.1~rc2-4)"
 	],
-	"installedSize": 2396,
+	"installedSize": 2654,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Process Management Interface (Exascale) library",
 	"homepage": "https://github.com/pmix/pmix",
-	"filename": "pool/main/p/pmix/libpmix2t64_6.0.0+really5.0.9-3+b2_amd64.deb",
-	"size": 669952,
-	"md5": "7110174791e20ee132d129a017ddad71",
-	"sha256": "a96d2a3e000d62406cb48b06f9f46c99322520dc31213d48b0a03a305b1f38f9",
+	"filename": "pool/main/p/pmix/libpmix2t64_6.1.1~rc2-4_amd64.deb",
+	"size": 759612,
+	"md5": "1aa853f38ef0c6156b1a8b29d389dde8",
+	"sha256": "7f3b0177e2089d09556d1d1aab36ab1a03c72a0fbefb38f72a2272a605ec16c5",
 	"descriptionMd5": "aca5aa31def7ae96d62a110030ef497f"
 }

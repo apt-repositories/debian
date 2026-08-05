@@ -5,22 +5,21 @@
 		"Size"
 	],
 	"package": "librust-curve25519-dalek-dev",
-	"source": "rust-curve25519-dalek (4.2.0+ds1-1)",
-	"version": "4.2.0+ds1-1+b1",
+	"source": "rust-curve25519-dalek",
+	"version": "5.0.0+dfsg-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cfg-if-1+default-dev",
-		"librust-cpufeatures-0.2+default-dev (>= 0.2.17)",
+		"librust-cpufeatures-0.3+default-dev",
 		"librust-curve25519-dalek-derive-0.1+default-dev",
-		"librust-digest-0.10+core-api-dev",
-		"librust-digest-0.10-dev",
-		"librust-ff-0.13+bits-dev",
-		"librust-ff-0.13-dev",
+		"librust-digest-0.11+block-api-dev",
+		"librust-digest-0.11+rand-core-dev",
+		"librust-ff-0.14-dev",
 		"librust-fiat-crypto-0.3-dev",
-		"librust-group-0.13-dev",
-		"librust-rand-core-0.6-dev (>= 0.6.4)",
+		"librust-group-0.14-dev",
+		"librust-rand-core-0.10-dev",
 		"librust-rustc-version-0.4+default-dev",
 		"librust-serde-1+derive-dev",
 		"librust-subtle-2+const-generics-dev (>= 2.6.0)",
@@ -28,15 +27,15 @@
 		"librust-zeroize-1-dev"
 	],
 	"breaks": [
-		"rustc (<< 1.60.0~)"
+		"rustc (<< 1.85.0~)"
 	],
-	"installedSize": 1365,
+	"installedSize": 1444,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Pure-Rust implementation of group operations on ristretto255 and Curve25519 - Rust source code",
 	"homepage": "https://github.com/dalek-cryptography/curve25519-dalek",
-	"filename": "pool/main/r/rust-curve25519-dalek/librust-curve25519-dalek-dev_4.2.0+ds1-1+b1_amd64.deb",
-	"size": 249688,
-	"md5": "c432e2c659ae333a26073a0b63e1e276",
-	"sha256": "1ae7243abaabc21beab97282d6aa0496faa6b6f3dee4a21fc5227ba97f403b22",
+	"filename": "pool/main/r/rust-curve25519-dalek/librust-curve25519-dalek-dev_5.0.0+dfsg-1_amd64.deb",
+	"size": 267820,
+	"md5": "5b01718bdd32c0a35d52f0d420e25251",
+	"sha256": "14daf0be3f9315ebe06cf76fa4a8bdf15619895f126f5c7233f37022256c395e",
 	"descriptionMd5": "7aa34ebc7f8e7e31c4d1c3d461c670ed"
 }

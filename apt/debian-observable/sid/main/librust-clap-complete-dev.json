@@ -6,7 +6,7 @@
 	],
 	"package": "librust-clap-complete-dev",
 	"source": "rust-clap-complete",
-	"version": "4.6.3-1",
+	"version": "4.6.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,15 +15,19 @@
 		"librust-clap-4+unstable-ext-dev (>= 4.6)",
 		"librust-clap-lex-1+default-dev",
 		"librust-is-executable-1+default-dev (>= 1.0.5)",
-		"librust-shlex-1+default-dev (>= 1.3.0)"
+		"librust-shlex+default-dev (<< 3)",
+		"librust-shlex+default-dev (>= 1)"
 	],
-	"installedSize": 228,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 233,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generate shell completion scripts for your clap::Command - Rust source code",
 	"homepage": "https://github.com/clap-rs/clap",
-	"filename": "pool/main/r/rust-clap-complete/librust-clap-complete-dev_4.6.3-1_amd64.deb",
-	"size": 41644,
-	"md5": "50fdfe57f7ec7d2746c1230196926e96",
-	"sha256": "6e58f6bd5eac52cf3740c810e1339a20eceb8545d078291806419cbd5a8fa009",
+	"filename": "pool/main/r/rust-clap-complete/librust-clap-complete-dev_4.6.8-1_amd64.deb",
+	"size": 42920,
+	"md5": "66862e3113a1287d6cb60bd17a7e24db",
+	"sha256": "9584c853767103ce7955a652afc2f1e4f7dbf40d627ca7ad16af3e78ca3c9fdb",
 	"descriptionMd5": "c2f7fcfaeeca4945fb43690a437a9754"
 }]

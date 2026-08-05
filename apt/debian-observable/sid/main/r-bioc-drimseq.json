@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-drimseq",
-	"version": "1.34.0-3",
+	"version": "1.40.0-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-cran-mass",
 		"r-bioc-genomicranges",
 		"r-bioc-iranges",
@@ -21,15 +21,21 @@
 		"r-bioc-limma",
 		"r-bioc-edger",
 		"r-cran-ggplot2",
-		"r-cran-reshape2"
+		"r-cran-reshape2",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 1033,
+	"suggests": [
+		"r-bioc-biocstyle",
+		"r-cran-knitr",
+		"r-cran-testthat"
+	],
+	"installedSize": 1028,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
-	"description": "Differential transcript usage and tuQTL analyses with",
+	"description": "Differential transcript usage and tuQTL analyses",
 	"homepage": "https://bioconductor.org/packages/DRIMSeq/",
-	"filename": "pool/main/r/r-bioc-drimseq/r-bioc-drimseq_1.34.0-3_all.deb",
-	"size": 794936,
-	"md5": "bda3421e19302f8042992aa5cb8715dc",
-	"sha256": "4a7799ebd7a532cd2b2c3a0dcd65cf8a43ff274709bf179f2ff0f4d09d03c0d7",
-	"descriptionMd5": "5d91abefbd915b8bc752abe0d1b90130"
+	"filename": "pool/main/r/r-bioc-drimseq/r-bioc-drimseq_1.40.0-1_all.deb",
+	"size": 790720,
+	"md5": "e2d6daf6db4fc90b403b95791a714b9d",
+	"sha256": "630c1108dcfd6abad930beea2414f2956ba260966556e4bb3384e093f7d68ebc",
+	"descriptionMd5": "b6189256bee5b76da4bb5d60a51bc17d"
 }]

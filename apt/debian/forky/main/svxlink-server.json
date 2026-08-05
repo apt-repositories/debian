@@ -5,18 +5,18 @@
 		"Size"
 	],
 	"package": "svxlink-server",
-	"source": "svxlink (25.05.1-4)",
-	"version": "25.05.1-4+b1",
+	"source": "svxlink",
+	"version": "26.05.1-1",
 	"section": "hamradio",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libasyncaudio1.8 (>= 25.05.1)",
-		"libasynccore1.8 (>= 25.05.1)",
-		"libasynccpp1.8 (>= 25.05.1)",
+		"libasyncaudio1.9 (>= 26.05.1)",
+		"libasynccore1.9 (>= 26.05.1)",
+		"libasynccpp1.9 (>= 26.05.1)",
 		"libc6 (>= 2.38)",
-		"libcurl3t64-gnutls (>= 7.16.2)",
-		"libecholib1.3t64 (>= 25.05.1)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
+		"libecholib1.3t64 (>= 26.05.1)",
 		"libgcc-s1 (>= 4.0)",
 		"libgcrypt20 (>= 1.12.0)",
 		"libgpiod3 (>= 2.1)",
@@ -27,23 +27,22 @@
 		"libsigc++-2.0-0v5 (>= 2.8.0)",
 		"libstdc++6 (>= 13.1)",
 		"libtcl8.6 (>= 8.6.0)",
-		"svxlink-gpio (= 25.05.1-4)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"svxlink-gpio (= 26.05.1-1)",
 		"python3:any"
 	],
-	"preDepends": [
-		"adduser"
-	],
 	"recommends": [
-		"remotetrx (= 25.05.1-4+b1)",
-		"svxlink-calibration-tools (= 25.05.1-4+b1)"
+		"remotetrx (= 26.05.1-1)",
+		"svxlink-calibration-tools (= 26.05.1-1)"
 	],
-	"installedSize": 3274,
+	"installedSize": 3341,
 	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
 	"description": "Voice-over-IP server for ham radio operators",
 	"homepage": "https://www.svxlink.org",
-	"filename": "pool/main/s/svxlink/svxlink-server_25.05.1-4+b1_amd64.deb",
-	"size": 916804,
-	"md5": "fc56536cf72a2ce951dfc050287a6ede",
-	"sha256": "18921979ced7f168c3e5153a8198419636453e29cbee3ceeb16c33aa71736b1a",
+	"filename": "pool/main/s/svxlink/svxlink-server_26.05.1-1_amd64.deb",
+	"size": 939448,
+	"md5": "f0f2756f220803860d8f76e6be00bdf5",
+	"sha256": "dc18173b518328c8ea4f9024fae6d8c9189dbf96454aca930cdf4ad7f44399d2",
 	"descriptionMd5": "055c55fbe6bb5443f174bd98a81e8085"
 }

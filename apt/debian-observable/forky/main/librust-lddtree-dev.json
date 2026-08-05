@@ -5,23 +5,27 @@
 		"Size"
 	],
 	"package": "librust-lddtree-dev",
-	"source": "rust-lddtree (0.3.7-1)",
-	"version": "0.3.7-1+b1",
+	"source": "rust-lddtree",
+	"version": "0.5.1+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-fs-err-3+default-dev",
 		"librust-glob-0.3+default-dev",
-		"librust-goblin-0.9+default-dev"
+		"librust-goblin-0.10+default-dev (>= 0.10.7)",
+		"librust-memmap2-0.9+default-dev"
 	],
-	"installedSize": 62,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 126,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Read the ELF dependency tree - Rust source code",
 	"homepage": "https://github.com/messense/lddtree-rs",
-	"filename": "pool/main/r/rust-lddtree/librust-lddtree-dev_0.3.7-1+b1_amd64.deb",
-	"size": 10352,
-	"md5": "a7736a4d636f09967a24183e328f9f07",
-	"sha256": "df34b5b00d069ea877913ebac72e4d2ed5a7edd51bbe23d76cb3019e5ebfb0bb",
+	"filename": "pool/main/r/rust-lddtree/librust-lddtree-dev_0.5.1+ds-1_amd64.deb",
+	"size": 23780,
+	"md5": "6edcd14af889be6dd4694c7db1cacf22",
+	"sha256": "3d427af9bdd5883e4e12ea866b12746b7c5d47ccbf6d79344dadc82a052cf604",
 	"descriptionMd5": "919f0a4ffb5b9d96e67aa64aad367d64"
 }]

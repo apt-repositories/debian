@@ -6,7 +6,7 @@
 	],
 	"package": "librust-tame-index-dev",
 	"source": "rust-tame-index",
-	"version": "0.26.3-1",
+	"version": "0.26.3-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -34,16 +34,19 @@
 		"librust-thiserror-2+default-dev",
 		"librust-tokio-1+rt-multi-thread-dev (>= 1.48)",
 		"librust-tokio-1+time-dev (>= 1.48)",
-		"librust-toml-span-0.6+default-dev",
+		"librust-toml-span-0.7+default-dev",
 		"librust-twox-hash-2+xxhash64-dev (>= 2.1)"
 	],
-	"installedSize": 323,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 322,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Provides access to local and remote cargo registry indices - Rust source code",
 	"homepage": "https://github.com/EmbarkStudios/tame-index",
-	"filename": "pool/main/r/rust-tame-index/librust-tame-index-dev_0.26.3-1_amd64.deb",
-	"size": 71604,
-	"md5": "986713886868f50ffa845c4aa4adeed3",
-	"sha256": "652c1154c2d92a353ae1c23c0f5622ee09cb877954f85a8e6ab5c9e7b700dfe7",
+	"filename": "pool/main/r/rust-tame-index/librust-tame-index-dev_0.26.3-2_amd64.deb",
+	"size": 71648,
+	"md5": "2922d06664df2c6aa0dc95900c0cf2be",
+	"sha256": "f1bc2374a6fd5622f1b08e34e485c4441f74644c4c3088a3b99e694db6ab6ea3",
 	"descriptionMd5": "e903e3b2e6a8d6b8bf1c6c82fa133c62"
 }
