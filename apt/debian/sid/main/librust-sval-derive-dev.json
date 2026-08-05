@@ -5,25 +5,27 @@
 		"Size"
 	],
 	"package": "librust-sval-derive-dev",
-	"source": "rust-sval-derive (2.6.1-2)",
-	"version": "2.6.1-2+b2",
+	"source": "rust-sval-derive",
+	"version": "2.21.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2-1+default-dev",
-		"librust-quote-1+default-dev",
-		"librust-syn-2+default-dev",
-		"librust-syn-2+derive-dev",
-		"librust-syn-2+extra-traits-dev",
-		"librust-syn-2+parsing-dev"
+		"librust-sval-derive-macros-2+default-dev (>= 2.21.0)",
+		"librust-sval-derive-macros-2+flatten-dev (>= 2.21.0)",
+		"librust-sval-derive-macros-2+ref-dev (>= 2.21.0)",
+		"librust-sval-flatten-2+alloc-dev (>= 2.21.0)",
+		"librust-sval-flatten-2+default-dev (>= 2.21.0)",
+		"librust-sval-flatten-2+std-dev (>= 2.21.0)",
+		"librust-sval-ref-2+default-dev (>= 2.21.0)"
 	],
-	"installedSize": 53,
+	"installedSize": 36,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive support for sval - Rust source code",
-	"filename": "pool/main/r/rust-sval-derive/librust-sval-derive-dev_2.6.1-2+b2_amd64.deb",
-	"size": 11148,
-	"md5": "9d13e4c53dbd0e9d5b603de7a57269c9",
-	"sha256": "c70c6c2092a7fd6ead57d6c4e828437ca7a2d249a1bc4bf538b2aacd08fd99e1",
-	"descriptionMd5": "e2d9691afc34d8efa76cffadbe28ecda"
+	"homepage": "https://github.com/sval-rs/sval",
+	"filename": "pool/main/r/rust-sval-derive/librust-sval-derive-dev_2.21.0-1_amd64.deb",
+	"size": 8672,
+	"md5": "55f4cabdfcbb1cbf6ecd3c87c942711b",
+	"sha256": "0ebcfa895fb4749990a7af1916dd1548c43ecf49004a6861836a6a46cec14cad",
+	"descriptionMd5": "62a2e6f2bc3eecaf5e20b376caa16cfd"
 }

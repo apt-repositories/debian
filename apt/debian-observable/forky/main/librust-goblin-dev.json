@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-goblin-dev",
-	"source": "rust-goblin (0.9.3-1)",
-	"version": "0.9.3-1+b1",
+	"source": "rust-goblin",
+	"version": "0.10.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-log-0.4-dev",
-		"librust-plain-0.2+default-dev (>= 0.2.3-~~)",
-		"librust-scroll-0.12+derive-dev",
-		"librust-scroll-0.12+std-dev",
-		"librust-scroll-0.12-dev"
+		"librust-plain-0.2+default-dev (>= 0.2.3)",
+		"librust-scroll-0.13+derive-dev",
+		"librust-scroll-0.13+std-dev",
+		"librust-scroll-0.13-dev"
 	],
-	"installedSize": 968,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 1350,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Impish, cross-platform, ELF, Mach-o, and PE binary parsing and loading crate - Rust source code",
 	"homepage": "https://github.com/m4b/goblin",
-	"filename": "pool/main/r/rust-goblin/librust-goblin-dev_0.9.3-1+b1_amd64.deb",
-	"size": 167600,
-	"md5": "3cb9c0c313dd8b7afbd55b17af0d3e5a",
-	"sha256": "3965d78beec2f51f3af7139bb82874f690a54904ca589b47548671237e3a797b",
+	"filename": "pool/main/r/rust-goblin/librust-goblin-dev_0.10.7-1_amd64.deb",
+	"size": 219956,
+	"md5": "7257c6b14552f6a09ab5bdc58c44ba26",
+	"sha256": "030e83e648bd5389a5a404db963a0c07e77a2be0e8c23c0f1c66fc7c7eb6262c",
 	"descriptionMd5": "6fd43590a2150317b6af8d5843ccce89"
 }]

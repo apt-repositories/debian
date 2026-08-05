@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.1.6+deb14-rt-amd64",
+	"source": "linux-signed-amd64 (7.1.6+1)",
+	"version": "7.1.6-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.1.6+deb14-rt-amd64 (= 7.1.6-1)",
+		"linux-binary-7.1.6+deb14-rt-amd64 (= 7.1.6-1)",
+		"linux-modules-7.1.6+deb14-rt-amd64 (= 7.1.6-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.1"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.1.6 for 64-bit PCs, PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.1.6+deb14-rt-amd64_7.1.6-1_amd64.deb",
+	"size": 1940,
+	"md5": "2e7ff9cedc1669af8d462050f2a3cfb4",
+	"sha256": "40a4a6cf229ffd04cd15d5eb4f5755f8f3ffa0a42bde585861b219f92f13d371",
+	"descriptionMd5": "059d1de319fd8c82a2bab27e7779513c"
+}]

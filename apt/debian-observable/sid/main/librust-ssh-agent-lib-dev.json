@@ -6,7 +6,7 @@
 	],
 	"package": "librust-ssh-agent-lib-dev",
 	"source": "rust-ssh-agent-lib",
-	"version": "0.5.2+dfsg-2",
+	"version": "0.5.2+dfsg-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,7 +15,8 @@
 		"librust-byteorder-1+default-dev",
 		"librust-futures-0.3+default-dev",
 		"librust-log-0.4+default-dev",
-		"librust-secrecy-0.8+default-dev",
+		"librust-secrecy+default-dev (<< 0.11)",
+		"librust-secrecy+default-dev (>= 0.8)",
 		"librust-service-binding-3+default-dev",
 		"librust-signature-2+alloc-dev",
 		"librust-signature-2+default-dev",
@@ -37,13 +38,13 @@
 	"breaks": [
 		"rustc (<< 1.75~)"
 	],
-	"installedSize": 263,
+	"installedSize": 259,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Collection of types for writing custom SSH agents - Rust source code",
 	"homepage": "https://github.com/wiktor-k/ssh-agent-lib",
-	"filename": "pool/main/r/rust-ssh-agent-lib/librust-ssh-agent-lib-dev_0.5.2+dfsg-2_amd64.deb",
-	"size": 49228,
-	"md5": "7cd55015a1e4d61ca175be00eab2a00d",
-	"sha256": "1d6fc2bed95d661ee30da5871a8a70784085c77f689cf5fa51bc1fd4556f8ec8",
+	"filename": "pool/main/r/rust-ssh-agent-lib/librust-ssh-agent-lib-dev_0.5.2+dfsg-3_amd64.deb",
+	"size": 48840,
+	"md5": "21807e191b9f13d79be33bc855a3d95c",
+	"sha256": "11ae98646420e869e015d16defafae4c13a611cfec6c310f00e28cb3f9bc66c7",
 	"descriptionMd5": "a234762299e5b05bf084b924561e8408"
 }]

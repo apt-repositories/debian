@@ -5,25 +5,31 @@
 		"Size"
 	],
 	"package": "libpmix-dev",
-	"source": "pmix (6.0.0+really5.0.9-3)",
-	"version": "6.0.0+really5.0.9-3+b2",
+	"source": "pmix",
+	"version": "6.1.1~rc2-4",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libpmix2t64 (= 6.0.0+really5.0.9-3+b2)",
+		"libpmix2t64 (= 6.1.1~rc2-4)",
 		"libevent-dev",
 		"libhwloc-dev",
 		"zlib1g-dev",
-		"libjs-jquery"
+		"libjs-jquery (>= 3.6.0)",
+		"libjs-sphinxdoc (>= 9.0)",
+		"sphinx-rtd-theme-common (>= 3.1.0+dfsg)"
 	],
-	"installedSize": 11476,
+	"breaks": [
+		"libpmix-bin (<< 6.0.0+really5.0.10~rc1-3)"
+	],
+	"installedSize": 10058,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Development files for the PMI Exascale library",
 	"homepage": "https://github.com/pmix/pmix",
-	"filename": "pool/main/p/pmix/libpmix-dev_6.0.0+really5.0.9-3+b2_amd64.deb",
-	"size": 4000768,
-	"md5": "7aab09c864387a95ccb697b7b4fe3f9c",
-	"sha256": "f929e5c8f22c7396a6c0d30ec4ad21982dacf8d3c624b7a52e722f7a61466f18",
+	"builtUsing": "sphinx (= 9.1.0-6)",
+	"filename": "pool/main/p/pmix/libpmix-dev_6.1.1~rc2-4_amd64.deb",
+	"size": 1635824,
+	"md5": "68824331631c13fb752feb1317db4575",
+	"sha256": "4aae3ea81583525d88aa5c2f90ee750f2d8e05f7f455d424c08e3c2109d61ef9",
 	"descriptionMd5": "40649f4e98770885669b0326273d7233"
 }]

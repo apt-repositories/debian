@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-stacker-dev",
-	"source": "rust-stacker (0.1.21-1)",
-	"version": "0.1.21-1+b1",
+	"source": "rust-stacker",
+	"version": "0.1.24-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cc-1+default-dev (>= 1.1.22-~~)",
+		"librust-cc-1+default-dev (>= 1.2.33)",
 		"librust-cfg-if-1+default-dev",
-		"librust-libc-0.2+default-dev (>= 0.2.156-~~)",
-		"librust-psm-0.1+default-dev (>= 0.1.7-~~)"
+		"librust-libc-0.2+default-dev (>= 0.2.156)",
+		"librust-psm-0.1+default-dev (>= 0.1.7)"
 	],
-	"installedSize": 90,
+	"breaks": [
+		"rustc (<< 1.63~)"
+	],
+	"installedSize": 93,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Stack growth library useful when implementing deeply recursive algorithms - Rust source code",
 	"homepage": "https://github.com/rust-lang/stacker",
-	"filename": "pool/main/r/rust-stacker/librust-stacker-dev_0.1.21-1+b1_amd64.deb",
-	"size": 18244,
-	"md5": "ce753e724f6f8e46e1773480f78a930d",
-	"sha256": "d941ebde2ee8eb6139c1658fba1a5155995e1869382172e5dc8be42d100a1e34",
+	"filename": "pool/main/r/rust-stacker/librust-stacker-dev_0.1.24-1_amd64.deb",
+	"size": 18472,
+	"md5": "e1f32a509ad43c948c9b50db1f39ebeb",
+	"sha256": "ef24e1250d9a5e2732585afc19f3e073eac8fb5342544f16aa6b38c0d816504f",
 	"descriptionMd5": "21315725bf1bdc870ae183b805f1e2b0"
 }
