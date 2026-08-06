@@ -6,7 +6,7 @@
 	],
 	"package": "librust-tokio-macros-dev",
 	"source": "rust-tokio-macros",
-	"version": "2.7.0-1",
+	"version": "2.7.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,16 @@
 		"librust-syn-2+default-dev",
 		"librust-syn-2+full-dev"
 	],
-	"installedSize": 80,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 84,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Tokio's proc macros - Rust source code",
 	"homepage": "https://tokio.rs",
-	"filename": "pool/main/r/rust-tokio-macros/librust-tokio-macros-dev_2.7.0-1_amd64.deb",
-	"size": 17272,
-	"md5": "35cc2a7cdf8d97eb8e25065674ab8ac0",
-	"sha256": "1d810089c060dc3bf60b4d0ad2053169f163ce75f6aee8ed2a7dc61949f2b2c2",
+	"filename": "pool/main/r/rust-tokio-macros/librust-tokio-macros-dev_2.7.2-1_amd64.deb",
+	"size": 17908,
+	"md5": "e74657665dd3e7deda626d79b8f312ac",
+	"sha256": "1406756f6e2ce18e2b34e7ee01c84e70b3924e14fb17b091a16738b896b955b1",
 	"descriptionMd5": "7f088571df4dff4b2d47bf2c49b4802b"
 }

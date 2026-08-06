@@ -5,23 +5,27 @@
 		"Size"
 	],
 	"package": "librust-ghash-dev",
-	"source": "rust-ghash (0.5.0-1)",
-	"version": "0.5.0-1+b3",
+	"source": "rust-ghash",
+	"version": "0.6.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-opaque-debug-0.3+default-dev",
-		"librust-polyval-0.6+default-dev",
-		"librust-polyval-0.6+std-dev",
+		"librust-polyval-0.7+default-dev",
+		"librust-polyval-0.7+hazmat-dev",
+		"librust-polyval-0.7+zeroize-dev",
 		"librust-zeroize-1-dev"
 	],
-	"installedSize": 50,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 52,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Universal hash over GF(2^128) useful for constructing a Message Authentication Code (MAC), as in the AES-GCM authenticated encryption cipher - Rust source code",
-	"filename": "pool/main/r/rust-ghash/librust-ghash-dev_0.5.0-1+b3_amd64.deb",
-	"size": 12208,
-	"md5": "aa68dd2d72c11dd563eb6124ad5b1547",
-	"sha256": "b7b09be6cf7f6f6b6db567b8f30b38b927440c4357242bc1be27f77f7e33e860",
-	"descriptionMd5": "c908a0f8401cf8c5754b924dd45fef52"
+	"description": "Universal hash over GF(2^128) for Message Authentication Codes - Rust source code",
+	"homepage": "https://github.com/RustCrypto/universal-hashes",
+	"filename": "pool/main/r/rust-ghash/librust-ghash-dev_0.6.0-1_amd64.deb",
+	"size": 12660,
+	"md5": "9b63d2665fbfed9ccfc7f744e1a46d81",
+	"sha256": "f55157dcca95db1be50e92cf92dc4b1e6d163701ffba4dd21dc05e936f2a2203",
+	"descriptionMd5": "80d1d5285daf4e4b9e25132dff442d02"
 }

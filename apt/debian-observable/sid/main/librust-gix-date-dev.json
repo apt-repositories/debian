@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gix-date-dev",
 	"source": "rust-gix-date",
-	"version": "0.15.3-1",
+	"version": "0.15.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,20 +14,21 @@
 		"librust-bstr-1+serde-dev (>= 1.12.0)",
 		"librust-bstr-1+std-dev (>= 1.12.0)",
 		"librust-document-features-0.2+default-dev",
-		"librust-gix-error-0.2+default-dev (>= 0.2.3)",
+		"librust-gix-error-0.2+default-dev (>= 0.2.5)",
 		"librust-itoa-1+default-dev (>= 1.0.17)",
-		"librust-jiff-0.2+default-dev (>= 0.2.21)",
-		"librust-serde-1+derive-dev (>= 1.0.114)",
-		"librust-smallvec-1+default-dev (>= 1.15.1)",
-		"librust-smallvec-1+write-dev (>= 1.15.1)"
+		"librust-jiff-0.2+default-dev (>= 0.2.25)",
+		"librust-serde-1+derive-dev (>= 1.0.114)"
 	],
-	"installedSize": 74,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 75,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The gitoxide project parsing dates the way git does - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-date/librust-gix-date-dev_0.15.3-1_amd64.deb",
-	"size": 18160,
-	"md5": "86cdab52011a5631a7cf9be47e38147a",
-	"sha256": "9e9eb6d89802a047024e554c1804ea9e1130279c2dd1d7f3112c0c2be3ea5715",
+	"filename": "pool/main/r/rust-gix-date/librust-gix-date-dev_0.15.6-1_amd64.deb",
+	"size": 18452,
+	"md5": "99e6cf588c7f4b0685bef838a6b273c5",
+	"sha256": "d02dac836b256e161cd84ef4b7e0804805a8696dbe359b6a4cb1be795fe945b9",
 	"descriptionMd5": "970f08cbd187e2156d0f4346ff4d0e8e"
 }]

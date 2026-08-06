@@ -5,26 +5,30 @@
 		"Size"
 	],
 	"package": "librust-selinux-dev",
-	"source": "rust-selinux (0.4.5-1)",
-	"version": "0.4.5-1+b1",
+	"source": "rust-selinux",
+	"version": "0.6.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bitflags-2+default-dev",
+		"librust-errno-0.3+default-dev",
 		"librust-libc-0.2+default-dev",
-		"librust-once-cell-1+default-dev (>= 1.19-~~)",
-		"librust-reference-counted-singleton-0.1+default-dev",
-		"librust-selinux-sys-0.6+default-dev",
-		"librust-thiserror-1+default-dev"
+		"librust-once-cell-1+default-dev",
+		"librust-parking-lot-0.12+default-dev",
+		"librust-selinux-sys-0.7+default-dev",
+		"librust-thiserror-2+default-dev"
 	],
-	"installedSize": 239,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 243,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Flexible Mandatory Access Control for Linux - Rust source code",
 	"homepage": "https://codeberg.org/koutheir/selinux.git",
-	"filename": "pool/main/r/rust-selinux/librust-selinux-dev_0.4.5-1+b1_amd64.deb",
-	"size": 34672,
-	"md5": "fbf084d2faa02ace316d2de22c33cf74",
-	"sha256": "a971040c5001b5568609e730a2021bc3707f8511db803e8a971265011c339cfb",
+	"filename": "pool/main/r/rust-selinux/librust-selinux-dev_0.6.3-1_amd64.deb",
+	"size": 35800,
+	"md5": "65b4b049ee7c8a4cd52dee6b2e739a9f",
+	"sha256": "b03fd0df110dc34c50292ea6628a2c89843d9b92d7ce7525b3d23389a827f608",
 	"descriptionMd5": "7ad80d0bac8264a5f810cc0dbbeebe4c"
 }
