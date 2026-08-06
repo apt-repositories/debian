@@ -5,30 +5,34 @@
 		"Size"
 	],
 	"package": "librust-loom-dev",
-	"source": "rust-loom (0.5.6-3)",
-	"version": "0.5.6-3+b1",
+	"source": "rust-loom",
+	"version": "0.7.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cfg-if-1+default-dev",
-		"librust-generator-0.7+default-dev",
+		"librust-generator+default-dev (<< 0.9)",
+		"librust-generator+default-dev (>= 0.7)",
 		"librust-pin-utils-0.1+default-dev",
 		"librust-scoped-tls-1+default-dev",
-		"librust-serde-1+default-dev (>= 1.0.92-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.92-~~)",
-		"librust-serde-json-1+default-dev (>= 1.0.33-~~)",
-		"librust-tracing-0.1+default-dev (>= 0.1.27-~~)",
-		"librust-tracing-subscriber-0.3+default-dev",
-		"librust-tracing-subscriber-0.3+env-filter-dev"
+		"librust-serde-1+default-dev (>= 1.0.92)",
+		"librust-serde-1+derive-dev (>= 1.0.92)",
+		"librust-serde-json-1+default-dev (>= 1.0.33)",
+		"librust-tracing-0.1+std-dev (>= 0.1.27)",
+		"librust-tracing-subscriber-0.3+default-dev (>= 0.3.8)",
+		"librust-tracing-subscriber-0.3+env-filter-dev (>= 0.3.8)"
 	],
-	"installedSize": 378,
+	"breaks": [
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 394,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Permutation testing for concurrent code - Rust source code",
 	"homepage": "https://github.com/tokio-rs/loom",
-	"filename": "pool/main/r/rust-loom/librust-loom-dev_0.5.6-3+b1_amd64.deb",
-	"size": 67804,
-	"md5": "f5246a4292c059cef2608ad8bdcb174e",
-	"sha256": "14b90d897bc6d477c0bcc2c08efd6886dcc505e229949c618c6148c5d3eff3d8",
+	"filename": "pool/main/r/rust-loom/librust-loom-dev_0.7.2-1_amd64.deb",
+	"size": 69904,
+	"md5": "97c76757612b80a849028b9f84bb1c58",
+	"sha256": "82465b7a6d070f65753faa340d96a8d01ca065676448b45f9292a19e2ab90487",
 	"descriptionMd5": "a155d2e03bef512442d5e4cb66acab75"
 }

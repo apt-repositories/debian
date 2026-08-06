@@ -5,27 +5,30 @@
 		"Size"
 	],
 	"package": "librust-serde-derive-dev",
-	"source": "rust-serde-derive (1.0.228-2)",
-	"version": "1.0.228-2+b1",
+	"source": "rust-serde-derive",
+	"version": "1.0.229-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2-1+proc-macro-dev (>= 1.0.74-~~)",
-		"librust-quote-1+proc-macro-dev (>= 1.0.35-~~)",
-		"librust-syn-2+clone-impls-dev (>= 2.0.81-~~)",
-		"librust-syn-2+derive-dev (>= 2.0.81-~~)",
-		"librust-syn-2+parsing-dev (>= 2.0.81-~~)",
-		"librust-syn-2+printing-dev (>= 2.0.81-~~)",
-		"librust-syn-2+proc-macro-dev (>= 2.0.81-~~)"
+		"librust-proc-macro2-1+proc-macro-dev (>= 1.0.74)",
+		"librust-quote-1+proc-macro-dev (>= 1.0.35)",
+		"librust-syn-2+clone-impls-dev",
+		"librust-syn-2+derive-dev",
+		"librust-syn-2+parsing-dev",
+		"librust-syn-2+printing-dev",
+		"librust-syn-2+proc-macro-dev"
 	],
-	"installedSize": 358,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 366,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Macros 1.1 #[derive(Serialize, Deserialize)] - Rust source code",
 	"homepage": "https://serde.rs",
-	"filename": "pool/main/r/rust-serde-derive/librust-serde-derive-dev_1.0.228-2+b1_amd64.deb",
-	"size": 52104,
-	"md5": "fad3d6461e128bede4353f19705569ff",
-	"sha256": "558c372127fe7f3f2f38477d5dcfab71707e824e74e8ee8d44b7ddaf1174befc",
+	"filename": "pool/main/r/rust-serde-derive/librust-serde-derive-dev_1.0.229-1_amd64.deb",
+	"size": 52948,
+	"md5": "693fb96c52d974198be40c58c5e5d833",
+	"sha256": "ea75433c26796fbd380d0207aa2a0969474b88d8d0b4e593af80ca73f90cdfee",
 	"descriptionMd5": "6891035de6eeda374c036d6843e00776"
 }

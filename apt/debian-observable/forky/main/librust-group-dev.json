@@ -6,26 +6,28 @@
 	],
 	"package": "librust-group-dev",
 	"source": "rust-group",
-	"version": "0.13.0-3",
+	"version": "0.14.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-ff-0.13-dev",
+		"librust-ff-0.14-dev",
 		"librust-memuse-0.2+default-dev",
-		"librust-rand-0.8-dev",
+		"librust-rand-0.10-dev",
 		"librust-rand-core-0.10-dev",
-		"librust-rand-core-0.6-dev",
 		"librust-rand-xorshift-0.5+default-dev",
 		"librust-subtle-2-dev (>= 2.2.1)"
 	],
-	"installedSize": 97,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 88,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Elliptic curve group traits and utilities - Rust source code",
 	"homepage": "https://github.com/zkcrypto/group",
-	"filename": "pool/main/r/rust-group/librust-group-dev_0.13.0-3_amd64.deb",
-	"size": 19948,
-	"md5": "fb108d91d6664c74281d2c12927a52c3",
-	"sha256": "3e30b6ef3c6dc1c5f18323be007e765f3c8dfd9ccce954ec21c71dd47076db31",
+	"filename": "pool/main/r/rust-group/librust-group-dev_0.14.0-1_amd64.deb",
+	"size": 21020,
+	"md5": "54481d6f98f5cc6e182b4eb5d0d8fdb7",
+	"sha256": "74e1c50b83a237353d5ef655f4115d528e575eca2ab8685e6c7c5017749fe1ad",
 	"descriptionMd5": "876f96002b928e7026f2fe1aafb5d98f"
 }]

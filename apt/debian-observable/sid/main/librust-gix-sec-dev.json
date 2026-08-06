@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gix-sec-dev",
 	"source": "rust-gix-sec",
-	"version": "0.14.0-1",
+	"version": "0.14.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-serde-1+derive-dev (>= 1.0.114)",
 		"librust-serde-1+std-dev (>= 1.0.114)"
 	],
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
 	"installedSize": 54,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The gitoxide project providing a shared trust model - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-sec/librust-gix-sec-dev_0.14.0-1_amd64.deb",
-	"size": 13088,
-	"md5": "786045703c855ec94d847c111439658f",
-	"sha256": "ceb931ad9cc6714950ebee73ec93ebca9698bfb1c49c27f8b65adc041765e74f",
+	"filename": "pool/main/r/rust-gix-sec/librust-gix-sec-dev_0.14.2-1_amd64.deb",
+	"size": 13216,
+	"md5": "633d0fbcb97fb38a15c857bb1901d075",
+	"sha256": "aab9da8961352d570955c6ae607a469c0382e7e877eb19cdd2cb6a49975a5504",
 	"descriptionMd5": "5f65fd23e309ed967ae6cda7351d0556"
 }]

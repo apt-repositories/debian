@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-cpufeatures-dev",
-	"source": "rust-cpufeatures (0.2.17-1)",
-	"version": "0.2.17-1+b1",
+	"source": "rust-cpufeatures",
+	"version": "0.3.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-libc-0.2-dev (>= 0.2.155-~~)"
+		"librust-libc-0.2-dev (>= 0.2.155)"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 74,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Lightweight runtime CPU feature detection for aarch64, loongarch64, and x86/x86_64 targets,  with no_std support and support for mobile targets including Android and iOS - Rust source code",
+	"description": "Lightweight runtime CPU feature detection - Rust source code",
 	"homepage": "https://github.com/RustCrypto/utils",
-	"filename": "pool/main/r/rust-cpufeatures/librust-cpufeatures-dev_0.2.17-1+b1_amd64.deb",
-	"size": 17060,
-	"md5": "ffcb7ae534623f7d4323423a9d205c8f",
-	"sha256": "d5edc1a95a6da879f38a26570f96c291301e63fdeb2d887de4b02ed8648d52ec",
-	"descriptionMd5": "70381c11facd70b20a8e43f25df2415f"
+	"filename": "pool/main/r/rust-cpufeatures/librust-cpufeatures-dev_0.3.0-2_amd64.deb",
+	"size": 17536,
+	"md5": "388a8e69465d5adb3d724bafe0f35cd1",
+	"sha256": "58d9f33f2285b23f0e6b54351368c95217285d6a5c9734ccec5b57b3a4f15d99",
+	"descriptionMd5": "65905b23077813160c17987481005894"
 }

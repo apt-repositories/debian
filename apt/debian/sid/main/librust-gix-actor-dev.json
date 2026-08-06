@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gix-actor-dev",
 	"source": "rust-gix-actor",
-	"version": "0.41.0-1",
+	"version": "0.41.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,18 +15,21 @@
 		"librust-bstr-1+std-dev (>= 1.12.0)",
 		"librust-bstr-1+unicode-dev (>= 1.12.0)",
 		"librust-document-features-0.2+default-dev",
-		"librust-gix-date-0.15+default-dev (>= 0.15.3)",
-		"librust-gix-date-0.15+serde-dev (>= 0.15.3)",
-		"librust-gix-error-0.2+default-dev (>= 0.2.3)",
+		"librust-gix-date-0.15+default-dev (>= 0.15.6)",
+		"librust-gix-date-0.15+serde-dev (>= 0.15.6)",
+		"librust-gix-error-0.2+default-dev (>= 0.2.5)",
 		"librust-serde-1+derive-dev (>= 1.0.114)"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 54,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Way to identify git actors - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-actor/librust-gix-actor-dev_0.41.0-1_amd64.deb",
-	"size": 12432,
-	"md5": "ae5a099eef6b153026f91d886d74873b",
-	"sha256": "ffa9c416d63d18e1925b0b216d98f62f0295f79a4e3fb5c3643ab82f5135e552",
+	"filename": "pool/main/r/rust-gix-actor/librust-gix-actor-dev_0.41.2-1_amd64.deb",
+	"size": 12500,
+	"md5": "1b085de865433db88fdb59f486a1a6e0",
+	"sha256": "9d3f4a4043cdd6454b6fc3f01fd14b6185cb26eb0c4ef7dc0dff301c9e77775b",
 	"descriptionMd5": "f3c98c7ad91b12b6bafd3bffae5042d2"
 }

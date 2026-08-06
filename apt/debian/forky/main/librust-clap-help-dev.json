@@ -5,29 +5,32 @@
 		"Size"
 	],
 	"package": "librust-clap-help-dev",
-	"source": "rust-clap-help (1.5.0-3)",
-	"version": "1.5.0-3+b1",
+	"source": "rust-clap-help",
+	"version": "1.6.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-clap-4+cargo-dev (>= 4.4-~~)",
-		"librust-clap-4+default-dev (>= 4.4-~~)",
-		"librust-clap-4+derive-dev (>= 4.4-~~)",
-		"librust-termimad-0.34+default-dev",
-		"librust-terminal-light-1+default-dev (>= 1.8-~~)"
+		"librust-clap-4+cargo-dev (>= 4.6)",
+		"librust-clap-4+default-dev (>= 4.6)",
+		"librust-clap-4+derive-dev (>= 4.6)",
+		"librust-termimad+default-dev (<< 0.36)",
+		"librust-termimad+default-dev (>= 0.34)",
+		"librust-terminal-light-1+default-dev (<< 1.10)",
+		"librust-terminal-light-1+default-dev (>= 1.8)"
 	],
 	"breaks": [
 		"librust-broot-dev (<< 1.54.0~~)",
-		"librust-dysk-cli-dev (<< 3.5.0~~)"
+		"librust-dysk-cli-dev (<< 3.5.0~~)",
+		"rustc (<< 1.65~)"
 	],
-	"installedSize": 728,
+	"installedSize": 729,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Utility printing help of a clap application - Rust source code",
 	"homepage": "https://github.com/Canop/clap-help",
-	"filename": "pool/main/r/rust-clap-help/librust-clap-help-dev_1.5.0-3+b1_amd64.deb",
-	"size": 589908,
-	"md5": "befcef9fe130aca0850cb2935539804a",
-	"sha256": "c87d36f930b339c837246604d1602425f1f6ef7ed1d4fd90c2a7f3102ecae1a4",
+	"filename": "pool/main/r/rust-clap-help/librust-clap-help-dev_1.6.0-1_amd64.deb",
+	"size": 590060,
+	"md5": "e785ec4f0680f774cb59c93939fe80ad",
+	"sha256": "57005fe1b394a8238696cd20fdc8e9fa92e421dda99d2e7251ec55c0925c9ece",
 	"descriptionMd5": "54410ce2ff1540f17bbe96bed474a1e1"
 }

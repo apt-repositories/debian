@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.12.100+deb12-amd64",
+	"source": "linux-signed-6.12-amd64 (6.12.100+1~deb12u1)",
+	"version": "6.12.100-1~deb12u1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"firmware-linux-free",
+		"linux-doc-6.12",
+		"debian-kernel-handbook",
+		"grub-pc | grub-efi-amd64 | extlinux"
+	],
+	"replaces": [
+		"linux-image-6.12.100+deb12-amd64-unsigned"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"conflicts": [
+		"linux-image-6.12.100+deb12-amd64-unsigned"
+	],
+	"installedSize": 106950,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 6.12 for 64-bit PCs (signed)",
+	"homepage": "https://www.kernel.org/",
+	"builtUsing": "linux-6.12 (= 6.12.100-1~deb12u1)",
+	"filename": "pool/updates/main/l/linux-signed-6.12-amd64/linux-image-6.12.100+deb12-amd64_6.12.100-1~deb12u1_amd64.deb",
+	"size": 106467188,
+	"sha256": "b1c6bdbd64981e5cd34b3908e3de0b698c287c8c35311bba72dc3722f3fa308b",
+	"descriptionMd5": "224c8e7ad16235c8d318cebf70217775"
+}

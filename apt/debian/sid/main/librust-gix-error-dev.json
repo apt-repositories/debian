@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gix-error-dev",
 	"source": "rust-gix-error",
-	"version": "0.2.3-1",
+	"version": "0.2.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,16 @@
 		"librust-bstr-1+std-dev (>= 1.12.0)",
 		"librust-document-features-0.2+default-dev"
 	],
-	"installedSize": 90,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 91,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The gitoxide project to provide common errors and error-handling utilities - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-error/librust-gix-error-dev_0.2.3-1_amd64.deb",
-	"size": 20080,
-	"md5": "5e55e93ca64e55d485b92a6c197c9086",
-	"sha256": "96188b369621dc24df039997f2f95f142515e0e057c7a6d5df15c511e107b9f2",
+	"filename": "pool/main/r/rust-gix-error/librust-gix-error-dev_0.2.5-1_amd64.deb",
+	"size": 20248,
+	"md5": "50a7fe9e8fe6608c3ea0345f02c426e5",
+	"sha256": "0b8e57ec61d4c7bd6e487557fbe811e1c601c8769853fb63c9467e46899cc33f",
 	"descriptionMd5": "67524346bf27873afa2a9b49b6c8da46"
 }
