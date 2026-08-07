@@ -6,7 +6,7 @@
 	],
 	"package": "librust-diesel-migrations-dev",
 	"source": "rust-diesel-migrations",
-	"version": "2.3.1-1",
+	"version": "2.3.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-migrations-macros-2+default-dev (<< 2.4)",
 		"librust-migrations-macros-2+default-dev (>= 2.3.0)"
 	],
-	"installedSize": 64,
+	"breaks": [
+		"rustc (<< 1.86.0~)"
+	],
+	"installedSize": 70,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Migration management for diesel - Rust source code",
 	"homepage": "https://diesel.rs",
-	"filename": "pool/main/r/rust-diesel-migrations/librust-diesel-migrations-dev_2.3.1-1_amd64.deb",
-	"size": 14236,
-	"md5": "eb1b2e4b4b78baf65b4e1c0ceadaa7ea",
-	"sha256": "1c1e261a28d8901ce5927954eef5af755ad73641adf782ff562a40b0bdbe103e",
+	"filename": "pool/main/r/rust-diesel-migrations/librust-diesel-migrations-dev_2.3.2-1_amd64.deb",
+	"size": 14932,
+	"md5": "772004d391ffec6b8dd4bf063f23caf7",
+	"sha256": "d93c1492bcb34f334c54a095f305161320a837e2a914d5a11dc8b1de5b915f4b",
 	"descriptionMd5": "cba57c7eaa5f366a4bc47ddbcbf0496c"
 }

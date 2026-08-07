@@ -6,7 +6,7 @@
 	],
 	"package": "librust-toml-edit-dev",
 	"source": "rust-toml-edit",
-	"version": "0.25.11-2",
+	"version": "0.25.13-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -23,17 +23,20 @@
 		"librust-toml-datetime-1+serde-dev (>= 1.1.1)",
 		"librust-toml-parser-1+debug-dev (>= 1.1.2)",
 		"librust-toml-parser-1+default-dev (>= 1.1.2)",
-		"librust-toml-writer-1+default-dev (>= 1.1.1)",
+		"librust-toml-writer-1+default-dev (>= 1.1.2)",
 		"librust-winnow+default-dev (<< 2)",
 		"librust-winnow+default-dev (>= 0.7.13)"
 	],
-	"installedSize": 366,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 365,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "yet another format-preserving TOML parser - Rust source code",
 	"homepage": "https://github.com/toml-rs/toml",
-	"filename": "pool/main/r/rust-toml-edit/librust-toml-edit-dev_0.25.11-2_amd64.deb",
-	"size": 51952,
-	"md5": "f0258a40f75f12480ccafc041a1b00ef",
-	"sha256": "d0774f714391145194a046b3a7f3605e672bb860a48bce78dc85135dd75a0609",
+	"filename": "pool/main/r/rust-toml-edit/librust-toml-edit-dev_0.25.13-1_amd64.deb",
+	"size": 52080,
+	"md5": "a2ed9d85ac6dacffda0fcf0f4e8e328f",
+	"sha256": "88a4f9c626f625bcbac175478149aa23f520e0f7bf2e4cd1bc7c883bad96c4ec",
 	"descriptionMd5": "725ebfa0b01b0faab1b6617842ce8af5"
 }

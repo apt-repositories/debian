@@ -5,25 +5,27 @@
 		"Size"
 	],
 	"package": "librust-rustfix-dev",
-	"source": "rust-rustfix (0.9.0-1)",
-	"version": "0.9.0-1+b1",
+	"source": "rust-rustfix",
+	"version": "0.9.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+default-dev (>= 1.0.204-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.204-~~)",
-		"librust-serde-json-1+default-dev (>= 1.0.120-~~)",
-		"librust-thiserror-1+default-dev (>= 1.0.63-~~)",
-		"librust-tracing-0.1+std-dev (>= 0.1.40-~~)"
+		"librust-serde-1+default-dev (>= 1.0.228)",
+		"librust-serde-1+derive-dev (>= 1.0.228)",
+		"librust-serde-json-1+default-dev (>= 1.0.149)",
+		"librust-thiserror-2+default-dev (>= 2.0.18)"
 	],
-	"installedSize": 66,
+	"breaks": [
+		"rustc (<< 1.93~)"
+	],
+	"installedSize": 69,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Automatically apply the suggestions made by rustc - Rust source code",
 	"homepage": "https://github.com/rust-lang/cargo",
-	"filename": "pool/main/r/rust-rustfix/librust-rustfix-dev_0.9.0-1+b1_amd64.deb",
-	"size": 17064,
-	"md5": "df305de009d72cd62bba754eaf5087ac",
-	"sha256": "a0a0c02a584a5d606a8884c0f8562afc1441d4c32032641d061a632914d3baf0",
+	"filename": "pool/main/r/rust-rustfix/librust-rustfix-dev_0.9.7-1_amd64.deb",
+	"size": 17104,
+	"md5": "9275bef45ad187c6ef042a6b0ff4ee02",
+	"sha256": "3fa6f0ba6e384556c8ceb06246e3fb29a411360570d3fc306a1fec83d3d090bf",
 	"descriptionMd5": "a33ca17eccf4a8bc26781f64267b77a3"
 }]

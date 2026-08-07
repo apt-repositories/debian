@@ -5,21 +5,21 @@
 		"Size"
 	],
 	"package": "libpocl2t64",
-	"source": "pocl (6.0-7)",
-	"version": "6.0-7+b1",
+	"source": "pocl",
+	"version": "7.1-9",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libpocl2-common (= 6.0-7)",
-		"clang-18",
-		"llvm-spirv-18",
+		"libpocl2-common (= 7.1-9)",
+		"clang-21",
+		"llvm-spirv-21",
 		"libc6 (>= 2.38)",
-		"libclang-cpp18 (>= 1:18.1.8)",
-		"libgcc-s1 (>= 3.0)",
-		"libhwloc15 (>= 2.12.2)",
-		"libllvm18",
-		"libstdc++6 (>= 13.1)"
+		"libgcc-s1 (>= 12)",
+		"libhwloc15 (>= 2.14.0)",
+		"libstdc++6 (>= 13.1)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
 	],
 	"recommends": [
 		"pocl-opencl-icd"
@@ -30,15 +30,15 @@
 	],
 	"breaks": [
 		"libpocl1-common (<< 0.13-9)",
-		"libpocl2 (<< 6.0-7)"
+		"libpocl2 (<< 7.1-9)"
 	],
-	"installedSize": 81201,
+	"installedSize": 286595,
 	"maintainer": "Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>",
 	"description": "Portable Computing Language library",
-	"homepage": "http://portablecl.org",
-	"filename": "pool/main/p/pocl/libpocl2t64_6.0-7+b1_amd64.deb",
-	"size": 14359900,
-	"md5": "07e9fb05b3270f02fd21671de661f9ca",
-	"sha256": "cdd99e4e6fd9cce030b4dbdad839bc5399b261cd2416de7e77f8bae326aaeb16",
+	"homepage": "https://portablecl.org",
+	"filename": "pool/main/p/pocl/libpocl2t64_7.1-9_amd64.deb",
+	"size": 63810492,
+	"md5": "ba17ea1364e16819d4f0918860053325",
+	"sha256": "f60d035a2f6bded399a796b86eb8c01b7ffa5eab6e74034f7b85e8446263f169",
 	"descriptionMd5": "610b47f08150bddaa4674d5a7911773f"
 }

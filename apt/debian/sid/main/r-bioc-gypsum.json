@@ -5,25 +5,36 @@
 		"Size"
 	],
 	"package": "r-bioc-gypsum",
-	"version": "1.2.0+ds-3",
+	"version": "1.8.0+ds-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-cran-httr2",
 		"r-cran-jsonlite",
 		"r-cran-filelock",
-		"r-cran-rappdirs"
+		"r-cran-rappdirs",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 260,
+	"suggests": [
+		"r-cran-knitr",
+		"r-cran-rmarkdown",
+		"r-cran-testthat",
+		"r-bioc-biocstyle",
+		"r-cran-digest",
+		"r-cran-dbi",
+		"r-cran-rsqlite",
+		"r-bioc-s4vectors"
+	],
+	"installedSize": 261,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "Interface to the gypsum REST API",
 	"homepage": "https://bioconductor.org/packages/gypsum/",
-	"filename": "pool/main/r/r-bioc-gypsum/r-bioc-gypsum_1.2.0+ds-3_all.deb",
-	"size": 212908,
-	"md5": "45102bcc522018ca4e1f7484cfd2cafd",
-	"sha256": "96916883f0cdb3c5ebd4742ad18948688d840d1372df6405930165df99d2b577",
+	"filename": "pool/main/r/r-bioc-gypsum/r-bioc-gypsum_1.8.0+ds-1_all.deb",
+	"size": 212672,
+	"md5": "75a4ddcced0ce13383cca9b4d0455cd0",
+	"sha256": "aaeb38711af5c5be1a98e83ca891151241c5f7d78d2c4ba53d9d09c05453affe",
 	"descriptionMd5": "fb1eec94821346383078616156b88145"
 }

@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-simple-error-dev",
-	"source": "rust-simple-error (0.3.1-1)",
-	"version": "0.3.1-1+b1",
+	"source": "rust-simple-error",
+	"version": "0.3.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 58,
+	"breaks": [
+		"rustc (<< 1.58.0~)"
+	],
+	"installedSize": 61,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Simple error type backed by a string - Rust source code",
 	"homepage": "https://github.com/WiSaGaN/simple-error.git",
-	"filename": "pool/main/r/rust-simple-error/librust-simple-error-dev_0.3.1-1+b1_amd64.deb",
-	"size": 12628,
-	"md5": "e5deb237fcd5a173388e0257753b9479",
-	"sha256": "ff2090ddbd5a146b81555c49552da65a7f199ddafcd296c833adbd8e79055748",
+	"filename": "pool/main/r/rust-simple-error/librust-simple-error-dev_0.3.2-1_amd64.deb",
+	"size": 13004,
+	"md5": "43a4514721cd88400e1b7c57a1040a2d",
+	"sha256": "50d58a031de1189aa68b88044295b92189593e5c78a0baa3d409f7e790533140",
 	"descriptionMd5": "5b04ca0773f280bbfdf1d3277fde6c88"
 }
