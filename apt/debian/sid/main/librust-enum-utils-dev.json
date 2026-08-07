@@ -5,17 +5,18 @@
 		"Size"
 	],
 	"package": "librust-enum-utils-dev",
-	"source": "rust-enum-utils (0.1.2-1)",
-	"version": "0.1.2-1+b1",
+	"source": "rust-enum-utils",
+	"version": "0.1.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-anyhow-1+default-dev",
-		"librust-enum-utils-from-str-0.1+default-dev (>= 0.1.2-~~)",
+		"librust-enum-utils-from-str-0.1+default-dev (>= 0.1.2)",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
-		"librust-serde-derive-internals-0.29+default-dev",
+		"librust-serde-derive-internals+default-dev (<< 0.31)",
+		"librust-serde-derive-internals+default-dev (>= 0.26)",
 		"librust-syn-1+default-dev",
 		"librust-syn-1+extra-traits-dev"
 	],
@@ -23,9 +24,9 @@
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Set of useful proc macros for enums - Rust source code",
 	"homepage": "https://github.com/ecstatic-morse/enum-utils",
-	"filename": "pool/main/r/rust-enum-utils/librust-enum-utils-dev_0.1.2-1+b1_amd64.deb",
-	"size": 13764,
-	"md5": "331bdd4815967f21eec27a14bfc3626b",
-	"sha256": "218a8dfeb4a96d2eb536fe8cb9cdbd56348cc0efda44218f9e82c7a206adea02",
+	"filename": "pool/main/r/rust-enum-utils/librust-enum-utils-dev_0.1.2-2_amd64.deb",
+	"size": 13904,
+	"md5": "76f83ed7c854bd15609191f780e72414",
+	"sha256": "077d207725f3537add88b52131b01960fdefff37f15a4cf5b4f259e019eff7f0",
 	"descriptionMd5": "bb288c3e2de6492bbd9a255de8b9e629"
 }

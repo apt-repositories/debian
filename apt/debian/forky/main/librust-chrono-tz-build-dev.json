@@ -5,26 +5,32 @@
 		"Size"
 	],
 	"package": "librust-chrono-tz-build-dev",
-	"source": "rust-chrono-tz-build (0.4.0-1)",
-	"version": "0.4.0-1+b1",
+	"source": "rust-chrono-tz-build",
+	"version": "0.5.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-parse-zoneinfo-0.3+default-dev",
-		"librust-phf-codegen-0.11-dev",
-		"librust-phf-shared-0.11+uncased-dev",
-		"librust-phf-shared-0.11-dev",
+		"librust-parse-zoneinfo-0.5+default-dev",
+		"librust-phf-codegen-dev (<< 0.13)",
+		"librust-phf-codegen-dev (>= 0.11)",
+		"librust-phf-shared+uncased-dev (<< 0.13)",
+		"librust-phf-shared+uncased-dev (>= 0.11)",
+		"librust-phf-shared-dev (<< 0.13)",
+		"librust-phf-shared-dev (>= 0.11)",
 		"librust-regex-1-dev",
 		"librust-uncased-0.9-dev"
 	],
-	"installedSize": 51,
+	"breaks": [
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 53,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Internal build script for chrono-tz - Rust source code",
 	"homepage": "https://github.com/chronotope/chrono-tz",
-	"filename": "pool/main/r/rust-chrono-tz-build/librust-chrono-tz-build-dev_0.4.0-1+b1_amd64.deb",
-	"size": 12684,
-	"md5": "fb1a9dd648241dbcee53e472929dc62a",
-	"sha256": "2970f5a21558a3a9b91543e2f7bac73c18c3c0312207b7f469821bf80f5921c0",
+	"filename": "pool/main/r/rust-chrono-tz-build/librust-chrono-tz-build-dev_0.5.0-1_amd64.deb",
+	"size": 12852,
+	"md5": "f11989383ef894f83bab6e1afb8abdba",
+	"sha256": "5741dd75e4e5ae6af6ba7393b815ed7a091f1cfd28c34d161ad7040d82a94b15",
 	"descriptionMd5": "4b18de3b04558a8931f9123566069984"
 }

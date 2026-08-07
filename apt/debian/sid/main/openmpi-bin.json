@@ -6,28 +6,29 @@
 	],
 	"package": "openmpi-bin",
 	"source": "openmpi",
-	"version": "5.0.10-1",
+	"version": "5.0.10-4",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libopenmpi40 (>= 5.0.10)",
-		"libpmix2t64 (>= 6.0.0+really5.0.9)",
-		"openmpi-common (>= 5.0.10-1)",
+		"libpmix2t64 (>= 6.1.1~rc2)",
+		"perl:any",
+		"openmpi-common (>= 5.0.10-4)",
 		"openssh-client | ssh-client",
 		"libprrte-bin"
 	],
 	"suggests": [
 		"gfortran | fortran-compiler"
 	],
-	"installedSize": 586,
+	"installedSize": 624,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "high performance message passing library -- binaries",
 	"homepage": "https://www.open-mpi.org/",
-	"filename": "pool/main/o/openmpi/openmpi-bin_5.0.10-1_amd64.deb",
-	"size": 154200,
-	"md5": "c91b7fa2735a774b8472f5b897b50c18",
-	"sha256": "fd9f1c014384cd293ec0943ff8c05a5911b2c0131e7eda15ecea2043e58e7847",
+	"filename": "pool/main/o/openmpi/openmpi-bin_5.0.10-4_amd64.deb",
+	"size": 179392,
+	"md5": "6487578d93ece16393452b7281719063",
+	"sha256": "cce35f4e562e7d8882d957de1a80beb339c9f940a1e9ae7210a5354c379dcf5e",
 	"descriptionMd5": "1a00d4dd7be41a0a9fd2a922b4135736"
 }
