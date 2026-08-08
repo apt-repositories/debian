@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "mailman3",
-	"version": "3.3.10-4",
+	"version": "3.3.10-5",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,6 +13,7 @@
 		"dbconfig-sqlite3 | dbconfig-pgsql | dbconfig-mysql | dbconfig-no-thanks",
 		"logrotate",
 		"cron | cron-daemon",
+		"publicsuffix",
 		"python3-falcon (>> 1.0.0)",
 		"python3-flufl.i18n",
 		"python3-flufl.lock",
@@ -56,13 +57,13 @@
 	"breaks": [
 		"mailman3-core"
 	],
-	"installedSize": 9088,
+	"installedSize": 8902,
 	"maintainer": "Debian Mailman Team <pkg-mailman-hackers@lists.alioth.debian.org>",
 	"description": "Mailing list management system",
 	"homepage": "https://www.list.org/",
-	"filename": "pool/main/m/mailman3/mailman3_3.3.10-4_all.deb",
-	"size": 925464,
-	"md5": "1d6e0986b0dd5b316bcfc91b3156f8ec",
-	"sha256": "88cb678374f8abe61f67d31fff1a4c711f34a80228a5a496ac98d22f543f1c58",
+	"filename": "pool/main/m/mailman3/mailman3_3.3.10-5_all.deb",
+	"size": 872376,
+	"md5": "8c60241840e16c63a4a7b32754a67557",
+	"sha256": "5edfd7402539b87a80ee79cb53693983489d7c4b0f281dc6d9aeb636e14860c7",
 	"descriptionMd5": "95b97bca3cff0fc59636c61614f81160"
 }]
