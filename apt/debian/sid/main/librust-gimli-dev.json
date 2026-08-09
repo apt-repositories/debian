@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gimli-dev",
 	"source": "rust-gimli",
-	"version": "0.32.3-3",
+	"version": "0.32.3-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,7 +18,9 @@
 		"librust-stable-deref-trait-1-dev (>= 1.1.0)"
 	],
 	"breaks": [
+		"librust-addr2line-dev (<< 0.25)",
 		"librust-cranelift-dev (<< 0.123.13+36.0.13+dfsg-1)",
+		"librust-walrus-dev (<< 0.24.4+ds-3)",
 		"librust-wasm-tools-dev (<< 1.239.0+ds-10)",
 		"librust-wast-dev (<< 239.0.0-2)",
 		"rustc (<< 1.60~)"
@@ -27,9 +29,9 @@
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Reading and writing the DWARF debugging format - Rust source code",
 	"homepage": "https://github.com/gimli-rs/gimli",
-	"filename": "pool/main/r/rust-gimli/librust-gimli-dev_0.32.3-3_amd64.deb",
-	"size": 224392,
-	"md5": "e6a02658ad887726f0f73bc08ff2f8f3",
-	"sha256": "fafd9fbaeee4227810d0fc7000185724d084cb718e5c57fb1eed4d156559a1ac",
+	"filename": "pool/main/r/rust-gimli/librust-gimli-dev_0.32.3-4_amd64.deb",
+	"size": 224428,
+	"md5": "be8ee5eab4e8e2fe0db14c1c0b87009d",
+	"sha256": "2b3f4f93a2aea4f2e4e270d206ed2252d2c4d390594c01f991c51e2b8cdd2ebb",
 	"descriptionMd5": "4693effdff7bd2ee0a885ab91fa7f9e8"
 }
