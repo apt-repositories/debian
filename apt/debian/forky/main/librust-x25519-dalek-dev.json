@@ -5,24 +5,31 @@
 		"Size"
 	],
 	"package": "librust-x25519-dalek-dev",
-	"source": "rust-curve25519-dalek (4.2.0+dfsg-4)",
-	"version": "2.0.1+4.2.0+dfsg-4",
+	"source": "rust-x25519-dalek",
+	"version": "3.0.0+dfsg-1",
 	"section": "rust",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
-		"librust-curve25519-dalek-dev",
-		"librust-rand-core-0.6-dev",
-		"librust-serde-dev",
-		"librust-zeroize-dev"
+		"librust-curve25519-dalek-5+precomputed-tables-dev",
+		"librust-curve25519-dalek-5+serde-dev",
+		"librust-curve25519-dalek-5+zeroize-dev",
+		"librust-curve25519-dalek-5-dev",
+		"librust-getrandom-0.4+default-dev",
+		"librust-rand-core-0.10-dev",
+		"librust-serde-1+derive-dev",
+		"librust-zeroize-1-dev"
 	],
-	"installedSize": 63,
-	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 141,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "X25519 elliptic curve Diffie-Hellman key exchange - Rust source code",
 	"homepage": "https://github.com/dalek-cryptography/curve25519-dalek",
-	"filename": "pool/main/r/rust-curve25519-dalek/librust-x25519-dalek-dev_2.0.1+4.2.0+dfsg-4_all.deb",
-	"size": 16260,
-	"md5": "f1dd8c824e06cccc3c7fff1127a4efce",
-	"sha256": "ed98b16226fb5b76dbd0ff87720c09139573fd2b6809587f6f81a62485672469",
-	"descriptionMd5": "5f557fbed68c145766ebbd638c2e98ce"
+	"filename": "pool/main/r/rust-x25519-dalek/librust-x25519-dalek-dev_3.0.0+dfsg-1_amd64.deb",
+	"size": 90152,
+	"md5": "601837d7d949f79d42ab1874363eae9f",
+	"sha256": "db837ccd886eea50abd16af9ee4d304d16c275c8a3c67f84bd07a03821fbd918",
+	"descriptionMd5": "0d2d4f03197d4e0f36929aba6506664c"
 }
