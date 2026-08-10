@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-predicates-core-dev",
-	"source": "rust-predicates-core (1.0.6-1)",
-	"version": "1.0.6-1+b2",
+	"source": "rust-predicates-core",
+	"version": "1.0.10-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 43,
+	"breaks": [
+		"rustc (<< 1.74~)"
+	],
+	"installedSize": 48,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "API for boolean-valued predicate functions - Rust source code",
-	"homepage": "https://github.com/assert-rs/predicates-rs/tree/master/crates/core",
-	"filename": "pool/main/r/rust-predicates-core/librust-predicates-core-dev_1.0.6-1+b2_amd64.deb",
-	"size": 10044,
-	"md5": "fdb67accf6713b381bc530afa6fd0b83",
-	"sha256": "e2a3e36d6dea62422e80d5fa5c13be2592bca26c94305c2708b11c5f99df0f85",
-	"descriptionMd5": "126de27763b686d940a0e100aad13da6"
+	"homepage": "https://github.com/assert-rs/predicates-rs",
+	"filename": "pool/main/r/rust-predicates-core/librust-predicates-core-dev_1.0.10-1_amd64.deb",
+	"size": 10488,
+	"md5": "db51eaa41840e2ff0554610cbf66e464",
+	"sha256": "b676f20b569e5a3bf3bbea6859e1414918ed448406fbca7224b9d84e4afd77b8",
+	"descriptionMd5": "d37c3c1f214bd40103fa286a45178dc0"
 }

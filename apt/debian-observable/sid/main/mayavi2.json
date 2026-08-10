@@ -5,19 +5,14 @@
 		"Size"
 	],
 	"package": "mayavi2",
-	"version": "4.8.3-1",
+	"version": "4.9.0-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.14)",
-		"python3-numpy2-abi0 | python3-numpy-abi9",
-		"python3 (<< 3.14)",
-		"python3 (>= 3.13~)",
 		"python3-apptools",
 		"python3-configobj",
 		"python3-envisage",
-		"python3-importlib-resources | python3-supported-min (>= 3.11)",
 		"python3-numpy",
 		"python3-packaging",
 		"python3-puremagic",
@@ -25,22 +20,22 @@
 		"python3-pygments",
 		"python3-traits",
 		"python3-traitsui",
+		"python3-vtk9 (<< 9.8)",
+		"python3-vtk9 (>= 9.4)",
 		"python3:any",
-		"libjs-jquery",
-		"python3-pkg-resources",
-		"python3-vtk9"
+		"libjs-jquery"
 	],
 	"suggests": [
 		"python3-scipy",
 		"ipython3"
 	],
-	"installedSize": 29948,
+	"installedSize": 33194,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "scientific visualization package for 2-D and 3-D data",
 	"homepage": "http://code.enthought.com/projects/mayavi/",
-	"filename": "pool/main/m/mayavi2/mayavi2_4.8.3-1_amd64.deb",
-	"size": 21081068,
-	"md5": "f06fc8466bde0cd06ba30763ccc864de",
-	"sha256": "aecf24c3609e5edf427445a26cff34000319740219851a11f345eaf4c32fb88a",
+	"filename": "pool/main/m/mayavi2/mayavi2_4.9.0-1_amd64.deb",
+	"size": 23605212,
+	"md5": "2d465f80f5a657ad8c4b00647cbaaa8c",
+	"sha256": "7c35f8d831a1ece77185b4d5dfe78124800facc66bb37632751cebbe22432a39",
 	"descriptionMd5": "3e1412fa7c45ad6d8094e81ca78b296b"
 }]

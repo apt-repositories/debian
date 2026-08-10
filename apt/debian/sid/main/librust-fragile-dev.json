@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "librust-fragile-dev",
-	"source": "rust-fragile (2.0.0-1)",
-	"version": "2.0.0-1+b2",
+	"source": "rust-fragile",
+	"version": "2.1.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-slab-0.4+default-dev (>= 0.4.4-~~)"
+		"librust-futures-core-0.3+default-dev (>= 0.3.11)",
+		"librust-slab-0.4+default-dev (>= 0.4.5)"
 	],
-	"installedSize": 93,
+	"breaks": [
+		"rustc (<< 1.56.0~)"
+	],
+	"installedSize": 103,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Wrapper types that permit sending non Send types - Rust source code",
 	"homepage": "https://github.com/mitsuhiko/fragile",
-	"filename": "pool/main/r/rust-fragile/librust-fragile-dev_2.0.0-1+b2_amd64.deb",
-	"size": 17020,
-	"md5": "503f153a601da139a219c7e7313dd11b",
-	"sha256": "cecfba20b2d00d1806b3e9ba741e467da6d3ce43829e49c253a35e2208cf8226",
-	"descriptionMd5": "e0035f10b688b403a2ee7dcdb05212ce"
+	"filename": "pool/main/r/rust-fragile/librust-fragile-dev_2.1.0-1_amd64.deb",
+	"size": 19248,
+	"md5": "a1fc7ec79dd27795cd9ad719921dca33",
+	"sha256": "d071a3a96bae13b3d52133a2bb76614905a13b2db8284bdea6578d61945012de",
+	"descriptionMd5": "406934aa316e9d4001f22f773516f44a"
 }

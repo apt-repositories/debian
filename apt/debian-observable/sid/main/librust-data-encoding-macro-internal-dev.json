@@ -5,21 +5,28 @@
 		"Size"
 	],
 	"package": "librust-data-encoding-macro-internal-dev",
-	"source": "rust-data-encoding-macro-internal (0.1.10-1)",
-	"version": "0.1.10-1+b2",
+	"source": "rust-data-encoding-macro-internal",
+	"version": "0.1.19-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-data-encoding-2+alloc-dev (>= 2.3-~~)",
-		"librust-syn-1+default-dev"
+		"librust-data-encoding-2+alloc-dev (>= 2.11.1)",
+		"librust-syn+parsing-dev (<< 4)",
+		"librust-syn+parsing-dev (>= 1)",
+		"librust-syn+proc-macro-dev (<< 4)",
+		"librust-syn+proc-macro-dev (>= 1)"
 	],
-	"installedSize": 26,
+	"breaks": [
+		"rustc (<< 1.48~)"
+	],
+	"installedSize": 27,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Internal library for data-encoding-macro - Rust source code",
-	"filename": "pool/main/r/rust-data-encoding-macro-internal/librust-data-encoding-macro-internal-dev_0.1.10-1+b2_amd64.deb",
+	"homepage": "https://github.com/ia0/data-encoding",
+	"filename": "pool/main/r/rust-data-encoding-macro-internal/librust-data-encoding-macro-internal-dev_0.1.19-1_amd64.deb",
 	"size": 5356,
-	"md5": "aa078138859b841f87ec66072bb20c5d",
-	"sha256": "1ceb6d986e4af6d818826f29173a3323a57b2d7a24daa63138607b599650c04f",
-	"descriptionMd5": "171817c6b2b96738e6ff487183759a12"
+	"md5": "c583711ea6c7da98ba9463f21e24028c",
+	"sha256": "e986c79a7ea484fe8bdb48d9d7193d2c24fc3c625944d1b4d5c5cb73dcee7c4d",
+	"descriptionMd5": "1649644f0ef1eaddb3c82fec98ba488b"
 }]
