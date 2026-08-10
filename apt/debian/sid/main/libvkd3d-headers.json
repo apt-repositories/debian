@@ -6,10 +6,13 @@
 	],
 	"package": "libvkd3d-headers",
 	"source": "vkd3d",
-	"version": "2.0+ds-1",
+	"version": "2.0+ds-2",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "all",
+	"depends": [
+		"libvulkan-dev"
+	],
 	"recommends": [
 		"libvkd3d-dev"
 	],
@@ -19,13 +22,13 @@
 	"breaks": [
 		"libvkd3d-dev (<< 1.2-4)"
 	],
-	"installedSize": 1655,
+	"installedSize": 1656,
 	"maintainer": "Debian Wine Party <debian-wine@lists.debian.org>",
 	"description": "Direct3D 12 to Vulkan translation - header files",
 	"homepage": "http://www.winehq.org",
-	"filename": "pool/main/v/vkd3d/libvkd3d-headers_2.0+ds-1_all.deb",
-	"size": 150132,
-	"md5": "e862e7ffcd283de3c67a8edd87fc202d",
-	"sha256": "934d2742f3401f19f2c5454311d9c223b4cbbe35433cddcf350cf137fdfc5dbd",
+	"filename": "pool/main/v/vkd3d/libvkd3d-headers_2.0+ds-2_all.deb",
+	"size": 150192,
+	"md5": "758d6e17a676d898e639c7e3e19fd7bb",
+	"sha256": "77fe918ec3a900e969e5cedd1765dda3717c02fb1fe35f150bd1bbb2af1c18b0",
 	"descriptionMd5": "88b414da3610cbec052313f06cb53f67"
 }

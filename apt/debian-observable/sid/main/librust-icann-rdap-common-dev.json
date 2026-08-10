@@ -6,7 +6,7 @@
 	],
 	"package": "librust-icann-rdap-common-dev",
 	"source": "icann-rdap-common",
-	"version": "0.0.30-4",
+	"version": "0.0.31-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,7 +21,7 @@
 		"librust-idna-1+default-dev (>= 1.1)",
 		"librust-ipnet-2+default-dev (>= 2.12)",
 		"librust-ipnet-2+json-dev (>= 2.12)",
-		"librust-prefix-trie-0.9+default-dev",
+		"librust-prefix-trie-0.10+default-dev",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
 		"librust-serde-json-1+default-dev",
@@ -29,13 +29,16 @@
 		"librust-strum-0.28+derive-dev",
 		"librust-thiserror-2+default-dev"
 	],
-	"installedSize": 1495,
+	"breaks": [
+		"rustc (<< 1.95)"
+	],
+	"installedSize": 1664,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "Common RDAP data structures - Rust source code",
 	"homepage": "https://github.com/icann/icann-rdap",
-	"filename": "pool/main/i/icann-rdap-common/librust-icann-rdap-common-dev_0.0.30-4_amd64.deb",
-	"size": 110272,
-	"md5": "3cf5526f45dcf542a4f9f24ce26ff885",
-	"sha256": "0e5b41e76d9aad0119d7c4ea52897aca6d3aacd18fa7937da8aab40bd92fcc19",
+	"filename": "pool/main/i/icann-rdap-common/librust-icann-rdap-common-dev_0.0.31-1_amd64.deb",
+	"size": 119392,
+	"md5": "a27502c5d3d375b1232a05e50763f5a1",
+	"sha256": "4081551d3e398b7ff4ad40f50a8885e770efd963a8d4b17f7eae45abdf801979",
 	"descriptionMd5": "963ffa51bb746046a41c187a1902af40"
 }]

@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-predicates-dev",
-	"source": "rust-predicates (3.1.3-1)",
-	"version": "3.1.3-1+b1",
+	"source": "rust-predicates",
+	"version": "3.1.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-predicates-core-1+default-dev",
 		"librust-regex-1+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.74~)"
+	],
 	"installedSize": 167,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Boolean-valued predicate functions - Rust source code",
 	"homepage": "https://github.com/assert-rs/predicates-rs",
-	"filename": "pool/main/r/rust-predicates/librust-predicates-dev_3.1.3-1+b1_amd64.deb",
-	"size": 24488,
-	"md5": "9553555fa92aff7387c4f7482037b633",
-	"sha256": "15b59e60562a933fca5e1e2cf3dc920e3afab173a001644bfe6429745bbc2d49",
+	"filename": "pool/main/r/rust-predicates/librust-predicates-dev_3.1.4-1_amd64.deb",
+	"size": 24436,
+	"md5": "47923872f8db808265914b0c81c72241",
+	"sha256": "776ccaa80152f40bd5b664ffe90eac0392474e9cb40bb110c379ead6a9337f13",
 	"descriptionMd5": "aaa6f13421103ed7f21754a4378bd10a"
 }

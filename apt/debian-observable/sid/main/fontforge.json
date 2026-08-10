@@ -5,20 +5,30 @@
 		"Size"
 	],
 	"package": "fontforge",
-	"version": "1:20230101~dfsg-9",
+	"version": "1:20251009+git20260808~dfsg-2",
 	"section": "fonts",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"fontforge-common (= 1:20230101~dfsg-9)",
-		"libfontforge4 (= 1:20230101~dfsg-9)",
+		"fontforge-common (= 1:20251009+git20260808~dfsg-2)",
+		"libfontforge4 (= 1:20251009+git20260808~dfsg-2)",
+		"unzip",
+		"libatkmm-1.6-1v5 (>= 2.28.5)",
 		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.14.0)",
-		"libglib2.0-0t64 (>= 2.76.0)",
+		"libcairomm-1.0-1v5 (>= 1.14.6)",
+		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libglibmm-2.4-1t64 (>= 2.66.9)",
 		"libgtk-3-0t64 (>= 3.21.4)",
+		"libgtkmm-3.0-1t64 (>= 3.24.11)",
+		"libharfbuzz0b (>= 10.3.0)",
 		"libpango-1.0-0 (>= 1.18.0)",
 		"libpangocairo-1.0-0 (>= 1.14.0)",
-		"libpython3.14 (>= 3.14.1)"
+		"libpangomm-1.4-1v5 (>= 2.46.5)",
+		"libpython3.14 (>= 3.14.1)",
+		"libsigc++-2.0-0v5 (>= 2.2.0)",
+		"libstdc++6 (>= 13.1)"
 	],
 	"suggests": [
 		"fontforge-doc",
@@ -29,13 +39,13 @@
 	"conflicts": [
 		"fontforge-nox"
 	],
-	"installedSize": 4049,
+	"installedSize": 4736,
 	"maintainer": "Debian Fonts Task Force <debian-fonts@lists.debian.org>",
 	"description": "font editor",
 	"homepage": "https://fontforge.github.io/en-US/",
-	"filename": "pool/main/f/fontforge/fontforge_20230101~dfsg-9_amd64.deb",
-	"size": 1388052,
-	"md5": "4f7280e5ae8efd556be0f75cc3b32f61",
-	"sha256": "6f485a3301c30f64463aed5095160adc027af668b4b69faaddc7c0e455fcd84f",
+	"filename": "pool/main/f/fontforge/fontforge_20251009+git20260808~dfsg-2_amd64.deb",
+	"size": 1553500,
+	"md5": "22cad2a2fe6a57e4fb41e455684c671c",
+	"sha256": "0aebe6c52e832c75504c3318802f75b31d2b6a85e99c7d552f8ba7c9964018a6",
 	"descriptionMd5": "4ebffb1f6ab9a1d49bd81ce04ad8a0a7"
 }]
