@@ -6,7 +6,7 @@
 	],
 	"package": "librust-openssl-dev",
 	"source": "rust-openssl",
-	"version": "0.10.79-1",
+	"version": "0.10.81-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,16 +16,19 @@
 		"librust-foreign-types-0.3+default-dev (>= 0.3.1)",
 		"librust-libc-0.2+default-dev",
 		"librust-openssl-macros-0.1+default-dev (>= 0.1.1)",
-		"librust-openssl-sys-0.9+bindgen-dev (>= 0.9.115)",
-		"librust-openssl-sys-0.9+default-dev (>= 0.9.115)"
+		"librust-openssl-sys-0.9+bindgen-dev (>= 0.9.117)",
+		"librust-openssl-sys-0.9+default-dev (>= 0.9.117)"
 	],
-	"installedSize": 1428,
+	"breaks": [
+		"rustc (<< 1.80.0~)"
+	],
+	"installedSize": 1446,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "OpenSSL bindings - Rust source code",
 	"homepage": "https://github.com/rust-openssl/rust-openssl",
-	"filename": "pool/main/r/rust-openssl/librust-openssl-dev_0.10.79-1_amd64.deb",
-	"size": 248720,
-	"md5": "6271f1f53892e559c34be11518acae5e",
-	"sha256": "6a19c78e8ba3ea36e3a76ea1701aa1a46708f261e773ce21c0c2c68b2f957668",
+	"filename": "pool/main/r/rust-openssl/librust-openssl-dev_0.10.81-1_amd64.deb",
+	"size": 251400,
+	"md5": "7c0f089a461471ca6b15c6f82dbb9d53",
+	"sha256": "76a6b038dc61e02d45ab6603cc4759efa425914e3922a092f187989614b93925",
 	"descriptionMd5": "d28d019988e1c844a443582bef01d573"
 }]

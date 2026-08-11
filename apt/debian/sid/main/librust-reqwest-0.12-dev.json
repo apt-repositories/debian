@@ -6,7 +6,7 @@
 	],
 	"package": "librust-reqwest-0.12-dev",
 	"source": "rust-reqwest-0.12",
-	"version": "0.12.28-4",
+	"version": "0.12.28-5",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -23,8 +23,8 @@
 		"librust-futures-util-0.3+sink-dev (>= 0.3.28)",
 		"librust-futures-util-0.3-dev (>= 0.3.28)",
 		"librust-h2-0.4+default-dev",
-		"librust-hickory-resolver-0.25+default-dev",
-		"librust-hickory-resolver-0.25+tokio-dev",
+		"librust-hickory-resolver-0.26+default-dev",
+		"librust-hickory-resolver-0.26+tokio-dev",
 		"librust-http-1+default-dev (>= 1.1)",
 		"librust-http-body-1+default-dev",
 		"librust-http-body-util-0.1+default-dev (>= 0.1.2)",
@@ -91,15 +91,16 @@
 		"librust-reqwest-dev (<< 0.12.29~)"
 	],
 	"breaks": [
-		"librust-reqwest-dev (<< 0.12.29~)"
+		"librust-reqwest-dev (<< 0.12.29~)",
+		"rustc (<< 1.64.0~)"
 	],
-	"installedSize": 776,
+	"installedSize": 780,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Higher level HTTP client library - Rust source code",
 	"homepage": "https://github.com/seanmonstar/reqwest",
-	"filename": "pool/main/r/rust-reqwest-0.12/librust-reqwest-0.12-dev_0.12.28-4_amd64.deb",
-	"size": 116864,
-	"md5": "455e2822f681c9c073a68d87bc010383",
-	"sha256": "baa131a466cb70bfe40b711eb820e1322737c63ad8b81ccfae9f7eeaf84291cd",
+	"filename": "pool/main/r/rust-reqwest-0.12/librust-reqwest-0.12-dev_0.12.28-5_amd64.deb",
+	"size": 117684,
+	"md5": "fe1b8ffdd75fb1da1a805f6c2ac52f18",
+	"sha256": "5f16699381edf37eaf820328ce3841da40eab7205a521861ef4b98e30ebf5e5a",
 	"descriptionMd5": "b7fd7f6cc834f7716825c6f222ae40cf"
 }

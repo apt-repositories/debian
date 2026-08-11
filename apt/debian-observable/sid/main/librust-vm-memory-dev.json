@@ -5,25 +5,27 @@
 		"Size"
 	],
 	"package": "librust-vm-memory-dev",
-	"source": "rust-vm-memory (0.16.2-1)",
-	"version": "0.16.2-1+b1",
+	"source": "rust-vm-memory",
+	"version": "0.18.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-arc-swap-1+default-dev",
-		"librust-bitflags-2+default-dev (>= 2.4.0-~~)",
-		"librust-libc-0.2+default-dev (>= 0.2.39-~~)",
-		"librust-thiserror-1+default-dev (>= 1.0.40-~~)",
-		"librust-vmm-sys-util-0.15+default-dev"
+		"librust-bitflags-2+default-dev (>= 2.4.0)",
+		"librust-libc-0.2+default-dev (>= 0.2.39)",
+		"librust-rangemap-1+default-dev (>= 1.5.1)",
+		"librust-thiserror-2+default-dev (>= 2.0.16)",
+		"librust-vmm-sys-util+default-dev (<< 0.15.1)",
+		"librust-vmm-sys-util+default-dev (>= 0.12.1)"
 	],
-	"installedSize": 471,
+	"installedSize": 520,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Safe abstractions for accessing the VM physical memory - Rust source code",
 	"homepage": "https://github.com/rust-vmm/vm-memory",
-	"filename": "pool/main/r/rust-vm-memory/librust-vm-memory-dev_0.16.2-1+b1_amd64.deb",
-	"size": 77640,
-	"md5": "b59119d054a17686c146d796183797d9",
-	"sha256": "70c3efb90398c91cf800a66e58671b53f37ad39d43516740af6351cffa81f0cb",
+	"filename": "pool/main/r/rust-vm-memory/librust-vm-memory-dev_0.18.0-1_amd64.deb",
+	"size": 91244,
+	"md5": "81f158adc21461e839cac4b3976b0087",
+	"sha256": "e7d09960ca31bd5515c24bc882371a2f2e1013b9fc6eaf9b69eedd032d1eb5af",
 	"descriptionMd5": "aa1247f9792821fbf0c23cafe594b699"
 }]

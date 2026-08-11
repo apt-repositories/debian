@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-metagenomeseq",
-	"version": "1.48.1-2",
+	"version": "1.54.0-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-biobase",
 		"r-bioc-limma",
 		"r-cran-glmnet",
@@ -20,18 +20,27 @@
 		"r-cran-foreach",
 		"r-cran-matrix",
 		"r-cran-gplots",
-		"r-bioc-wrench"
+		"r-bioc-wrench",
+		"r-pkg-team-core-architecture"
 	],
 	"suggests": [
-		"r-bioc-biocgenerics"
+		"r-bioc-annotate",
+		"r-bioc-biocgenerics",
+		"r-bioc-biomformat",
+		"r-cran-knitr",
+		"r-cran-gss",
+		"r-cran-testthat (>= 0.8)",
+		"r-cran-vegan",
+		"r-bioc-ihw",
+		"r-bioc-sparsearray"
 	],
-	"installedSize": 2644,
+	"installedSize": 2646,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "GNU R statistical analysis for sparse high-throughput sequencing",
 	"homepage": "https://bioconductor.org/packages/metagenomeSeq/",
-	"filename": "pool/main/r/r-bioc-metagenomeseq/r-bioc-metagenomeseq_1.48.1-2_all.deb",
-	"size": 2141064,
-	"md5": "382026c0a68709d4f0a4bfa18e420494",
-	"sha256": "4987651ac91124760c28a565c2b54349832d24c31d694ec2c8f23f350b7b41f0",
+	"filename": "pool/main/r/r-bioc-metagenomeseq/r-bioc-metagenomeseq_1.54.0-1_all.deb",
+	"size": 2137324,
+	"md5": "94ab362729a757e0be100df0099629ff",
+	"sha256": "9eaca96e0f1855331f988b04a981ad7688d6342a3afea0148e998b1e0e49c1b6",
 	"descriptionMd5": "94464de5c2c71a4dfa0ee8df6ad57e97"
 }]

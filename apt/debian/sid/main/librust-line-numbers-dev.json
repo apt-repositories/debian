@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "librust-line-numbers-dev",
-	"source": "rust-line-numbers (0.3.0-1)",
-	"version": "0.3.0-1+b2",
+	"source": "rust-line-numbers",
+	"version": "0.4.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 39,
+	"breaks": [
+		"rustc (<< 1.58.0~)"
+	],
+	"installedSize": 43,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Find line numbers in strings by byte offsets, quickly - Rust source code",
-	"filename": "pool/main/r/rust-line-numbers/librust-line-numbers-dev_0.3.0-1+b2_amd64.deb",
-	"size": 7588,
-	"md5": "96882f19ec60ca096c2643f36864ecdc",
-	"sha256": "d3686b854ad17d9bd9f022f303e2577c61bb2ae4337b915267fa6ab63f22d8cd",
+	"homepage": "https://github.com/wilfred/line-numbers",
+	"filename": "pool/main/r/rust-line-numbers/librust-line-numbers-dev_0.4.0-1_amd64.deb",
+	"size": 8168,
+	"md5": "d52a0f07b0bf5a62eaba606cc1ec26eb",
+	"sha256": "344629d162eca8f17e669d1fcb2e3b829ac365acadab187b51879dee7e81d72e",
 	"descriptionMd5": "aadda3efcebaba678a31115f467f9e05"
 }

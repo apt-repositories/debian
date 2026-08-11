@@ -31,8 +31,46 @@
 	"maintainer": "OpenJDK Team <openjdk-21@packages.debian.org>",
 	"description": "OpenJDK Development Kit (JDK) (headless)",
 	"homepage": "https://openjdk.java.net/",
-	"filename": "pool/updates/main/o/openjdk-21/openjdk-21-jdk-headless_21.0.11+10-1~deb13u2_amd64.deb",
+	"filename": "pool/main/o/openjdk-21/openjdk-21-jdk-headless_21.0.11+10-1~deb13u2_amd64.deb",
 	"size": 83016640,
+	"md5": "86304caf68c48256dd47eec34ba5d649",
 	"sha256": "4839c00d1b5e329d7c6e0944456f1b338652eb5ce103a67181ad4995e634e0f0",
+	"descriptionMd5": "494a52f34d707a832270d6d51a78f511"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-21-jdk-headless",
+	"source": "openjdk-21",
+	"version": "21.0.12+8-1~deb13u1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-21-jre-headless (= 21.0.12+8-1~deb13u1)",
+		"libc6 (>= 2.34)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"openjdk-21-demo",
+		"openjdk-21-source"
+	],
+	"replaces": [
+		"openjdk-17-jre-headless (<< 17~10)",
+		"openjdk-21-jre-headless (<< 21~27ea)"
+	],
+	"breaks": [
+		"openjdk-17-jre-headless (<< 17~10)",
+		"openjdk-21-jre-headless (<< 21~27ea)"
+	],
+	"installedSize": 94141,
+	"maintainer": "OpenJDK Team <openjdk-21@packages.debian.org>",
+	"description": "OpenJDK Development Kit (JDK) (headless)",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/updates/main/o/openjdk-21/openjdk-21-jdk-headless_21.0.12+8-1~deb13u1_amd64.deb",
+	"size": 83016252,
+	"sha256": "5e0626f93327bf220bfa18ae9c24c766b2b4cfc3225f8db1039152575417e539",
 	"descriptionMd5": "494a52f34d707a832270d6d51a78f511"
 }]

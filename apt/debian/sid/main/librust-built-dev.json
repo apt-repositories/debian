@@ -6,7 +6,7 @@
 	],
 	"package": "librust-built-dev",
 	"source": "rust-built",
-	"version": "0.8.0-2",
+	"version": "0.8.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,16 +14,23 @@
 		"librust-cargo-lock-11+dependency-tree-dev",
 		"librust-cargo-lock-11-dev",
 		"librust-chrono-0.4+clock-dev",
-		"librust-git2-0.20-dev",
+		"librust-git2-0.21-dev",
+		"librust-gix-0.83+max-performance-safe-dev",
+		"librust-gix-0.83+revision-dev",
+		"librust-gix-0.83+sha1-dev",
+		"librust-gix-0.83+status-dev",
 		"librust-semver-1+default-dev"
 	],
-	"installedSize": 147,
+	"breaks": [
+		"rustc (<< 1.87~)"
+	],
+	"installedSize": 168,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Provides a crate with information from the time it was built - Rust source code",
 	"homepage": "https://github.com/lukaslueg/built",
-	"filename": "pool/main/r/rust-built/librust-built-dev_0.8.0-2_amd64.deb",
-	"size": 28464,
-	"md5": "84557d083458adfc539d532f3808669a",
-	"sha256": "ef3992cc20d0be58c59d6df2536fd682e7c2a2cb001fa9446d31ca47776efb49",
+	"filename": "pool/main/r/rust-built/librust-built-dev_0.8.1-1_amd64.deb",
+	"size": 31008,
+	"md5": "7c7ee10c81653278238ac52eb7ed6716",
+	"sha256": "51b2f20a78733e4eda6c78a07deac74fafeb4bb77b7ba93fd4a41004f22878a4",
 	"descriptionMd5": "3003617111e4023cfdcac5826cc99705"
 }

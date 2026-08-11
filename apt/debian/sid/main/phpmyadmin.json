@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "phpmyadmin",
-	"version": "4:5.2.3+dfsg-1",
+	"version": "4:5.2.4~dev~git20260809.e0909b211b+dfsg-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
@@ -18,6 +18,7 @@
 		"libjs-jquery-tablesorter",
 		"libjs-jquery-timepicker",
 		"libjs-jquery-ui",
+		"node-jquery-validation",
 		"php-cli",
 		"sensible-utils",
 		"ucf",
@@ -42,8 +43,8 @@
 		"php-twig-i18n-extension (<< 6.0.0~~)",
 		"php-psr-http-factory (>= 1.0)",
 		"php-psr-http-factory (<< 2~~)",
-		"php-psr-http-message (>= 1.0)",
-		"php-psr-http-message (<< 2~~)",
+		"php-psr-http-message (>= 1.1)",
+		"php-psr-http-message (<< 3~~)",
 		"php-slim-psr7 (>= 1.4.1)",
 		"php-slim-psr7 (<< 2~~)",
 		"php-symfony-config (>= 5.2.3)",
@@ -53,13 +54,13 @@
 		"php-symfony-expression-language (>= 5.2.3)",
 		"php-symfony-expression-language (<< 8~~)",
 		"php-mbstring",
-		"php-twig (>= 3.3.5)",
+		"php-twig (>= 3.11.3)",
 		"php-twig (<< 4~~)",
 		"php-webmozart-assert (>= 1.10)",
 		"php-webmozart-assert (<< 2~~)",
 		"php-mariadb-mysql-kbs (>= 1.2)",
 		"php-mariadb-mysql-kbs (<< 2~~)",
-		"libjs-sphinxdoc (>= 8.2)"
+		"libjs-sphinxdoc (>= 9.0)"
 	],
 	"recommends": [
 		"libapache2-mod-php | lighttpd | nginx | php-fpm | httpd",
@@ -79,13 +80,13 @@
 		"php-bacon-qr-code",
 		"php-code-lts-u2f-php-server"
 	],
-	"installedSize": 39786,
+	"installedSize": 40614,
 	"maintainer": "phpMyAdmin Packaging Team <team+phpmyadmin@tracker.debian.org>",
 	"description": "MySQL web administration tool",
 	"homepage": "https://www.phpmyadmin.net/",
-	"filename": "pool/main/p/phpmyadmin/phpmyadmin_5.2.3+dfsg-1_all.deb",
-	"size": 4857860,
-	"md5": "b730b9e5b4192b45ac55b49ef15d213d",
-	"sha256": "211073605a12ce1ffb9eb5f854469e2ac93ef93b4831c983ddb85a746aa0aa30",
+	"filename": "pool/main/p/phpmyadmin/phpmyadmin_5.2.4~dev~git20260809.e0909b211b+dfsg-1_all.deb",
+	"size": 5002176,
+	"md5": "10ce0600513bc6d7179820e5cc260396",
+	"sha256": "ea83e916dffc2822473a511678febccc8b366f65e2fd8195df7126108b30d06a",
 	"descriptionMd5": "b9abac2fce7719799e194516b6640871"
 }
