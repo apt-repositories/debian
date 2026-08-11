@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-iana-time-zone-dev",
-	"source": "rust-iana-time-zone (0.1.64-1)",
-	"version": "0.1.64-1+b1",
+	"source": "rust-iana-time-zone",
+	"version": "0.1.65-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 202,
+	"breaks": [
+		"rustc (<< 1.62.0~)"
+	],
+	"installedSize": 208,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Get the IANA time zone for the current system - Rust source code",
 	"homepage": "https://github.com/strawlab/iana-time-zone",
-	"filename": "pool/main/r/rust-iana-time-zone/librust-iana-time-zone-dev_0.1.64-1+b1_amd64.deb",
-	"size": 31724,
-	"md5": "641264747f4697fa7d714f942d63ef83",
-	"sha256": "fde4a3f594233c9c977f486b0dc52980466af58b015f99fb0189df50a42597b6",
+	"filename": "pool/main/r/rust-iana-time-zone/librust-iana-time-zone-dev_0.1.65-1_amd64.deb",
+	"size": 32600,
+	"md5": "3291953f172602cc963b3533f9d1f910",
+	"sha256": "7297ab382c22dcf4e38978fc8f354429cce96a551828aeea5a9f178583beecd0",
 	"descriptionMd5": "0ad05603dd57aded9848c54b99b4fe69"
 }

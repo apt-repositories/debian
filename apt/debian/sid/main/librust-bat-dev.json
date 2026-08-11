@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-bat-dev",
-	"source": "rust-bat (0.26.1+dfsg-2)",
-	"version": "0.26.1+dfsg-2+b1",
+	"source": "rust-bat",
+	"version": "0.26.1+ds-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -27,7 +27,7 @@
 		"librust-etcetera+default-dev (<< 0.12)",
 		"librust-etcetera+default-dev (>= 0.10.0)",
 		"librust-flate2-1+default-dev (>= 1.1)",
-		"librust-git2-0.20-dev",
+		"librust-git2-0.21-dev",
 		"librust-globset-0.4+default-dev",
 		"librust-grep-cli-0.1+default-dev (>= 0.1.11)",
 		"librust-indexmap-2+default-dev (>= 2.8.0)",
@@ -67,13 +67,16 @@
 		"librust-walkdir-2+default-dev (>= 2.5)",
 		"librust-wild-2+default-dev (>= 2.2)"
 	],
-	"installedSize": 2484,
+	"breaks": [
+		"rustc (<< 1.87~)"
+	],
+	"installedSize": 2483,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Cat(1) clone with wings - Rust source code",
 	"homepage": "https://github.com/sharkdp/bat",
-	"filename": "pool/main/r/rust-bat/librust-bat-dev_0.26.1+dfsg-2+b1_amd64.deb",
-	"size": 1364848,
-	"md5": "16453d5c8c419a05c99f87678d9ac3cc",
-	"sha256": "963f2d931cc855fd7ae296d2df2b7f0e63b3b0ef395ac4c361d45dadd65d14da",
+	"filename": "pool/main/r/rust-bat/librust-bat-dev_0.26.1+ds-1_amd64.deb",
+	"size": 1364672,
+	"md5": "b3880258ad72a160ff37ec7d7516d02e",
+	"sha256": "58df1b489620ec9f80f96410419860bdb40f31298c8c6391e46a3ba554497f7a",
 	"descriptionMd5": "ad07f1ccda62a905bf9c50826c538f39"
 }
