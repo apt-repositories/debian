@@ -6,25 +6,28 @@
 	],
 	"package": "librust-enumset-derive-dev",
 	"source": "rust-enumset-derive",
-	"version": "0.10.0-2",
+	"version": "0.15.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-darling-dev (<< 0.24)",
-		"librust-darling-dev (>= 0.20)",
+		"librust-darling-dev (>= 0.21.3)",
 		"librust-proc-macro-crate-3+default-dev",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
 		"librust-syn-2+default-dev"
 	],
-	"installedSize": 77,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 93,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Internal helper crate for enumset - Rust source code",
 	"homepage": "https://github.com/Lymia/enumset",
-	"filename": "pool/main/r/rust-enumset-derive/librust-enumset-derive-dev_0.10.0-2_amd64.deb",
-	"size": 15120,
-	"md5": "6c06a2362ee53add5a98923f001b1b71",
-	"sha256": "289a8ea2970a5eb825b713cfc917b109c711f88b51b0bf74b23a2116885215b5",
+	"filename": "pool/main/r/rust-enumset-derive/librust-enumset-derive-dev_0.15.0-1_amd64.deb",
+	"size": 17984,
+	"md5": "952b78c359ea4183b4123e024313b3d4",
+	"sha256": "9085bfa480ea20fcab029e81ac8fcc50102340d00b0aa5e4b3de4f63875d25a4",
 	"descriptionMd5": "ca7bbfc34b277758d04a1569fcf288e5"
 }]

@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "neutron-api",
+	"source": "neutron",
+	"version": "2:21.0.0-7+deb12u1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"debconf",
+		"neutron-common (= 2:21.0.0-7+deb12u1)",
+		"python3-keystoneclient",
+		"python3-openstackclient",
+		"python3-pastescript",
+		"q-text-as-data",
+		"uwsgi-plugin-python3",
+		"debconf (>= 0.5) | debconf-2.0",
+		"lsb-base (>= 3.0.6)"
+	],
+	"replaces": [
+		"neutron-server (<< 2:12.0.2-5~)"
+	],
+	"breaks": [
+		"neutron-server (<< 2:12.0.2-5~)"
+	],
+	"installedSize": 138,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack virtual network service - API service",
+	"homepage": "http://neutron.openstack.org/",
+	"filename": "pool/updates/main/n/neutron/neutron-api_21.0.0-7+deb12u1_all.deb",
+	"size": 21876,
+	"sha256": "12d17c66d3c748bd749fa005b8d3bff00a16b50f07ef53a9d246564feaf01c59",
+	"descriptionMd5": "68d3c6a70746a6f621a548d5d7501c84"
+}

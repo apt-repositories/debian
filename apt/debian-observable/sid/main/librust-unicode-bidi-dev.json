@@ -5,23 +5,27 @@
 		"Size"
 	],
 	"package": "librust-unicode-bidi-dev",
-	"source": "rust-unicode-bidi (0.3.17-1)",
-	"version": "0.3.17-1+b1",
+	"source": "rust-unicode-bidi",
+	"version": "0.3.18-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+derive-dev | librust-serde-0+derive-dev (>= 0.8-~~)",
-		"librust-smallvec+default-dev (>= 1.13-~~)",
-		"librust-smallvec+union-dev (>= 1.13-~~)"
+		"librust-serde+derive-dev (<< 2.0)",
+		"librust-serde+derive-dev (>= 0.8)",
+		"librust-smallvec+default-dev (>= 1.13)",
+		"librust-smallvec+union-dev (>= 1.13)"
 	],
-	"installedSize": 290,
+	"breaks": [
+		"rustc (<< 1.47.0~)"
+	],
+	"installedSize": 289,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The Unicode Bidirectional Algorithm - Rust source code",
 	"homepage": "https://github.com/servo/unicode-bidi",
-	"filename": "pool/main/r/rust-unicode-bidi/librust-unicode-bidi-dev_0.3.17-1+b1_amd64.deb",
-	"size": 45936,
-	"md5": "cc00894e6ea954f012543ec8cd1ce406",
-	"sha256": "fe41801e48285c0e96cbe61f1698ffea65457c7fbc7df9b27aec18ad4589b252",
+	"filename": "pool/main/r/rust-unicode-bidi/librust-unicode-bidi-dev_0.3.18-1_amd64.deb",
+	"size": 45820,
+	"md5": "b6ff6d1774d79a8284d33d92ec79e894",
+	"sha256": "1773f5f8cc56807e71e8be40a6c75bbb509b19d47afa22f85702eb66bcf02451",
 	"descriptionMd5": "e01a1d54908cbcc5e49dd7b865514b2e"
 }]

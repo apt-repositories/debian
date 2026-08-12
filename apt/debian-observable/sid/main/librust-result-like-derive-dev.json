@@ -5,27 +5,29 @@
 		"Size"
 	],
 	"package": "librust-result-like-derive-dev",
-	"source": "rust-result-like-derive (0.4.6-1)",
-	"version": "0.4.6-1+b3",
+	"source": "rust-result-like-derive",
+	"version": "0.5.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-pmutil-0.6+default-dev",
-		"librust-proc-macro2-1+default-dev (>= 1.0.29-~~)",
-		"librust-quote-1+default-dev (>= 1.0.10-~~)",
-		"librust-syn-1+default-dev (>= 1.0.80-~~)",
-		"librust-syn-1+extra-traits-dev (>= 1.0.80-~~)",
-		"librust-syn-1+full-dev (>= 1.0.80-~~)",
-		"librust-syn-ext-0.4+default-dev",
-		"librust-syn-ext-0.4+full-dev"
+		"librust-proc-macro2-1+default-dev (>= 1.0.29)",
+		"librust-quote-1+default-dev (>= 1.0.10)",
+		"librust-syn-2+default-dev",
+		"librust-syn-2+extra-traits-dev",
+		"librust-syn-2+full-dev"
 	],
-	"installedSize": 60,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 59,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive macros for result-like - Rust source code",
-	"filename": "pool/main/r/rust-result-like-derive/librust-result-like-derive-dev_0.4.6-1+b3_amd64.deb",
-	"size": 8320,
-	"md5": "b854d9490f31feaeb35ad3b2b43b1d18",
-	"sha256": "2cf64a6b388e786113c4881bef4a7da2911e35bdb05887fd11adba79c409c872",
-	"descriptionMd5": "e535871d201db4496a40a98149f0caf2"
+	"homepage": "https://github.com/youknowone/result-like",
+	"filename": "pool/main/r/rust-result-like-derive/librust-result-like-derive-dev_0.5.1-1_amd64.deb",
+	"size": 8488,
+	"md5": "b2987df4e32c2d2e3e5b0c6b6d96b2e5",
+	"sha256": "f14568ec6e5c6ddadb7c89eca4cdb252e927289782ebf3368ce70dfac4aceecb",
+	"descriptionMd5": "71edc17555599fb947dcddf6e85ca68c"
 }]

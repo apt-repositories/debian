@@ -5,27 +5,34 @@
 		"Size"
 	],
 	"package": "r-bioc-experimenthub",
-	"version": "2.14.0+ds-3",
+	"version": "3.2.0+ds-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-biocgenerics (>= 0.15.10)",
-		"r-bioc-annotationhub (>= 3.3.6)",
-		"r-bioc-biocfilecache (>= 1.5.1)",
+		"r-bioc-annotationhub (>= 3.99.3)",
+		"r-bioc-biocfilecache (>= 2.99.3)",
 		"r-bioc-s4vectors",
 		"r-cran-biocmanager",
-		"r-cran-rappdirs"
+		"r-cran-rappdirs",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 163,
+	"suggests": [
+		"r-cran-knitr",
+		"r-bioc-biocstyle",
+		"r-cran-rmarkdown",
+		"r-bioc-genomicalignments"
+	],
+	"installedSize": 293,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "BioConductor client to access ExperimentHub resources",
 	"homepage": "https://bioconductor.org/packages/ExperimentHub/",
-	"filename": "pool/main/r/r-bioc-experimenthub/r-bioc-experimenthub_2.14.0+ds-3_all.deb",
-	"size": 84172,
-	"md5": "5fe50e786cdd26b61802733f24355db9",
-	"sha256": "99dc89008577354d33cce7b421811c816b7bb393df8afd9aeb66280e49b6a3f2",
+	"filename": "pool/main/r/r-bioc-experimenthub/r-bioc-experimenthub_3.2.0+ds-1_all.deb",
+	"size": 206788,
+	"md5": "0ea15811c4c3da874dcf415668f73885",
+	"sha256": "eab50a547a0c19c88ad87d0bbc330410bff8c57311c69b79aeebd86624693f5a",
 	"descriptionMd5": "2d9ae58936ba04e2ff0c84400bfe2c7a"
 }]

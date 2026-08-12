@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "librust-rlimit-dev",
-	"source": "rust-rlimit (0.8.3-1)",
-	"version": "0.8.3-1+b2",
+	"source": "rust-rlimit",
+	"version": "0.11.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-libc-0.2+default-dev"
+		"librust-libc-0.2+default-dev (>= 0.2.180)"
 	],
-	"installedSize": 129,
+	"breaks": [
+		"rustc (<< 1.65.0~)"
+	],
+	"installedSize": 252,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Resource limits - Rust source code",
-	"filename": "pool/main/r/rust-rlimit/librust-rlimit-dev_0.8.3-1+b2_amd64.deb",
-	"size": 18780,
-	"md5": "2c9d2767d65e7f0dab4687334688ca66",
-	"sha256": "b607870e4b0d9bcd8fc6f9d98d94afb6537238e9a4408e446e226895d35c0b0d",
-	"descriptionMd5": "62e9af92fb26582e9c33f075226a0b83"
+	"homepage": "https://github.com/Nugine/rlimit/",
+	"filename": "pool/main/r/rust-rlimit/librust-rlimit-dev_0.11.0-1_amd64.deb",
+	"size": 24460,
+	"md5": "11135503927deb4690ce087be95ea00d",
+	"sha256": "f836dae5802afd581e3454411019fc400def6177bf2ccf38885b24200c8a6fff",
+	"descriptionMd5": "76b0f85943df6aedcc79126e6da5593c"
 }

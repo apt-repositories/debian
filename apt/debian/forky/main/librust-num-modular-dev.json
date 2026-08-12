@@ -5,22 +5,26 @@
 		"Size"
 	],
 	"package": "librust-num-modular-dev",
-	"source": "rust-num-modular (0.6.1-3)",
-	"version": "0.6.1-3+b1",
+	"source": "rust-num-modular",
+	"version": "0.6.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-num-bigint-0.4-dev (>= 0.4.3-~~)",
-		"librust-num-integer-0.1+default-dev (>= 0.1.44-~~)",
-		"librust-num-traits-0.2+default-dev (>= 0.2.14-~~)"
+		"librust-num-bigint-0.4-dev (>= 0.4.3)",
+		"librust-num-integer-0.1-dev (>= 0.1.44)",
+		"librust-num-traits-0.2-dev (>= 0.2.14)"
 	],
-	"installedSize": 184,
+	"breaks": [
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 255,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Efficient integer division and modular arithmetic operations with generic number types - Rust source code",
-	"filename": "pool/main/r/rust-num-modular/librust-num-modular-dev_0.6.1-3+b1_amd64.deb",
-	"size": 30536,
-	"md5": "a9d2282b9a1f1a1895dfa7047df16f65",
-	"sha256": "667a38b880969aabc85978ae1aee876d979a2f69f0848bb79b01efedfef6106e",
+	"homepage": "https://github.com/cmpute/num-modular",
+	"filename": "pool/main/r/rust-num-modular/librust-num-modular-dev_0.6.4-1_amd64.deb",
+	"size": 39420,
+	"md5": "f2441ecd2dae1962ba03f472a841edd4",
+	"sha256": "d533785c0ca557535285b808d876a81cbbb0511245da40020e8281e52192564d",
 	"descriptionMd5": "a61ed1d51985c3d7c36815e6c5780918"
 }

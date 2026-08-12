@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "librust-cp-r-dev",
-	"source": "rust-cp-r (0.5.1-2)",
-	"version": "0.5.1-2+b2",
+	"source": "rust-cp-r",
+	"version": "0.5.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-filetime-0.2+default-dev"
+		"librust-filetime-0.2+default-dev (>= 0.2.6)"
 	],
-	"installedSize": 61,
+	"breaks": [
+		"rustc (<< 1.63~)"
+	],
+	"installedSize": 66,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Copy files and directories recursively, preserving mtime and permissions - Rust source code",
-	"filename": "pool/main/r/rust-cp-r/librust-cp-r-dev_0.5.1-2+b2_amd64.deb",
-	"size": 11984,
-	"md5": "be8b0d0529aaf2bfc917ec5dff54d56b",
-	"sha256": "ae03e9adb56273cb9a0b9f793feb35271267476e2ada7046fcca26c237501785",
-	"descriptionMd5": "e8fdb1d93045d985390e3ac43a5889ad"
+	"homepage": "https://github.com/sourcefrog/cp_r",
+	"filename": "pool/main/r/rust-cp-r/librust-cp-r-dev_0.5.2-1_amd64.deb",
+	"size": 12676,
+	"md5": "b75c63e3aaf8d416c61dd1032549ce5f",
+	"sha256": "fb6b0559c2f73d6b404138c4fd68c011f53326f9e09d8cd0607c156b118428c3",
+	"descriptionMd5": "8131c0098a96d86edd91046a8094aaab"
 }

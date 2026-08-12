@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "librust-colorchoice-dev",
-	"source": "rust-colorchoice (1.0.0-1)",
-	"version": "1.0.0-1+b3",
+	"source": "rust-colorchoice",
+	"version": "1.0.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 36,
+	"breaks": [
+		"rustc (<< 1.66.0~)"
+	],
+	"installedSize": 40,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Global override of color control - Rust source code",
-	"filename": "pool/main/r/rust-colorchoice/librust-colorchoice-dev_1.0.0-1+b3_amd64.deb",
-	"size": 8576,
-	"md5": "7e3b3d988b5e01f008d3d70f1e73e747",
-	"sha256": "434a6e7663c11ead8429414890a9e22b38c420eab5d79074dfe4858f63b212c7",
-	"descriptionMd5": "61ebc15eadb63699d517a851b2dd410a"
+	"homepage": "https://github.com/rust-cli/anstyle.git",
+	"filename": "pool/main/r/rust-colorchoice/librust-colorchoice-dev_1.0.5-1_amd64.deb",
+	"size": 9732,
+	"md5": "f2e71f5dfffe66b327caa2e7495645d2",
+	"sha256": "f4fed2e2a3b3a797525d84703d86a25768d5a7adf4333b5702628cb03fef35e6",
+	"descriptionMd5": "d2a10da578b627ddb77cced043d6bc3c"
 }]
