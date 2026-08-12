@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-ogg-pager-dev",
-	"source": "rust-ogg-pager (0.7.0-1)",
-	"version": "0.7.0-1+b1",
+	"source": "rust-ogg-pager",
+	"version": "0.7.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-byteorder-1+default-dev (>= 1.5.0-~~)"
+		"librust-byteorder-1+default-dev (>= 1.5.0)"
 	],
-	"installedSize": 59,
+	"breaks": [
+		"rustc (<< 1.89~)"
+	],
+	"installedSize": 58,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Simple OGG page reader - Rust source code",
 	"homepage": "https://github.com/Serial-ATA/lofty-rs",
-	"filename": "pool/main/r/rust-ogg-pager/librust-ogg-pager-dev_0.7.0-1+b1_amd64.deb",
-	"size": 13720,
-	"md5": "681d6d3e02e37c44035e33b6ec352bfe",
-	"sha256": "6909bae88457b084d87ea35f408600657012d663f3ce5eea1acb1a895c145e08",
+	"filename": "pool/main/r/rust-ogg-pager/librust-ogg-pager-dev_0.7.2-1_amd64.deb",
+	"size": 13576,
+	"md5": "b233d47fd55c4b2debe096110d5ef846",
+	"sha256": "40ac08c937c581fcfc71c13a5e902fb27fea5f491a3f95a2cb929e4ec4efa0a3",
 	"descriptionMd5": "735b67c6b171b42cb2fb9b9f095eefd9"
 }

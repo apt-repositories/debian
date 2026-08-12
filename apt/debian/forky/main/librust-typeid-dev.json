@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "librust-typeid-dev",
-	"source": "rust-typeid (1.0.2-1)",
-	"version": "1.0.2-1+b2",
+	"source": "rust-typeid",
+	"version": "1.0.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 50,
+	"breaks": [
+		"rustc (<< 1.34~)"
+	],
+	"installedSize": 49,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Const TypeId and non-'static TypeId - Rust source code",
-	"filename": "pool/main/r/rust-typeid/librust-typeid-dev_1.0.2-1+b2_amd64.deb",
-	"size": 10776,
-	"md5": "937a880959f90b1f352650046ab460df",
-	"sha256": "e9f90c2c6d3e2da7b24c33826d58592df90e5cf0639738b4877174bbf9531fbf",
+	"homepage": "https://github.com/dtolnay/typeid",
+	"filename": "pool/main/r/rust-typeid/librust-typeid-dev_1.0.3-1_amd64.deb",
+	"size": 10720,
+	"md5": "8213adee36a2b06af9bed7fc74c76513",
+	"sha256": "2a0eed64d27b321149079d9bf0f398f01f419a019286df5429afa2b7321effcf",
 	"descriptionMd5": "40d156c35b9e47f3def1280e7904e92f"
 }

@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "librust-seq-macro-dev",
-	"source": "rust-seq-macro (0.3.5-1)",
-	"version": "0.3.5-1+b2",
+	"source": "rust-seq-macro",
+	"version": "0.3.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 75,
+	"breaks": [
+		"rustc (<< 1.45~)"
+	],
+	"installedSize": 76,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Macro to repeat sequentially indexed copies of a fragment of code",
-	"filename": "pool/main/r/rust-seq-macro/librust-seq-macro-dev_0.3.5-1+b2_amd64.deb",
-	"size": 15076,
-	"md5": "50531e877cfcf79f28c292f0bf681209",
-	"sha256": "abee3f3c0061da1d94f6ad8e5cad4910f824beac51e0564138d625de136c54db",
+	"homepage": "https://github.com/dtolnay/seq-macro",
+	"filename": "pool/main/r/rust-seq-macro/librust-seq-macro-dev_0.3.6-1_amd64.deb",
+	"size": 15216,
+	"md5": "0525282685607d394e24a9b589e7c78b",
+	"sha256": "6c870a339abfc0ab363ce0c2d3ef8bf56665ad987678f8a267eba965352ec385",
 	"descriptionMd5": "6d0974a133dc7323667277c1cbcfa37d"
 }

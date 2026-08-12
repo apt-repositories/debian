@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "librust-dtoa-dev",
-	"source": "rust-dtoa (1.0.9-1)",
-	"version": "1.0.9-1+b2",
+	"source": "rust-dtoa",
+	"version": "1.0.11-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-no-panic-0.1+default-dev"
 	],
-	"installedSize": 83,
+	"breaks": [
+		"rustc (<< 1.68~)"
+	],
+	"installedSize": 89,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Fast functions for printing floating-point primitives - Rust source code",
-	"filename": "pool/main/r/rust-dtoa/librust-dtoa-dev_1.0.9-1+b2_amd64.deb",
-	"size": 17984,
-	"md5": "a6b317638e78451ed463763beebd014c",
-	"sha256": "e03e5c560ed1609f1492b2a595e58b7187795af3a491d49f5508353ca2cbc2cf",
-	"descriptionMd5": "5609f168b7f11d481617f6ea81ae509b"
+	"homepage": "https://github.com/dtolnay/dtoa",
+	"filename": "pool/main/r/rust-dtoa/librust-dtoa-dev_1.0.11-1_amd64.deb",
+	"size": 18608,
+	"md5": "90fe7885f5f2ba50418c35981b9de0f2",
+	"sha256": "33eee8d053cce1256a3b2acb7cd55d25afda02d0b3e7be572f2e65a9d81afada",
+	"descriptionMd5": "bc13adaa1e0519b5bd68b94c23db410d"
 }]

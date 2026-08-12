@@ -6,7 +6,7 @@
 	],
 	"package": "godot-template-debug",
 	"source": "godot",
-	"version": "4.6.3+ds-1",
+	"version": "4.6.3+ds-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,7 +16,7 @@
 		"libc6 (>= 2.38)",
 		"libdbus-1-3 (>= 1.10)",
 		"libdecor-0-0 (>= 0.1.1)",
-		"libembree4-4 (>= 4.4.0+dfsg)",
+		"libembree4-4 (>= 4.4.1+dfsg)",
 		"libenet7",
 		"libfontconfig1 (>= 2.12.6)",
 		"libfreetype6 (>= 2.10.1)",
@@ -28,6 +28,7 @@
 		"libmbedx509-7 (>= 3.6.0)",
 		"libminiupnpc21 (>= 2.3.3)",
 		"libogg0 (>= 1.1.4~dfsg)",
+		"libopenxr-loader1 (>= 1.0.3)",
 		"libpcre2-32-0 (>= 10.22)",
 		"libpng16-16t64 (>= 1.6.46)",
 		"libpulse0 (>= 0.99.1)",
@@ -54,13 +55,16 @@
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)"
 	],
-	"installedSize": 83700,
+	"preDepends": [
+		"sse4.2-support"
+	],
+	"installedSize": 88589,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "Godot debug export template for Debian",
 	"homepage": "https://godotengine.org",
-	"filename": "pool/main/g/godot/godot-template-debug_4.6.3+ds-1_amd64.deb",
-	"size": 20827704,
-	"md5": "aaf73dd2d7f67a2b7cf9d14f13b4d357",
-	"sha256": "a33f47ca264ae4ae17bd6ffbce30710a999d7838af8be1f04eb6970a1a49c3bb",
+	"filename": "pool/main/g/godot/godot-template-debug_4.6.3+ds-2_amd64.deb",
+	"size": 21894244,
+	"md5": "3cfa254a6a594f5f054f8f6002565ead",
+	"sha256": "05d1517363288754d8cc19f8fb43385e43cb13fefc1006570891f8683d460932",
 	"descriptionMd5": "bd702c00356d201e22b894a54d740be6"
 }]

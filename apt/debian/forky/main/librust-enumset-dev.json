@@ -5,25 +5,29 @@
 		"Size"
 	],
 	"package": "librust-enumset-dev",
-	"source": "rust-enumset (1.1.5-1)",
-	"version": "1.1.5-1+b1",
+	"source": "rust-enumset",
+	"version": "1.1.14-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-enumset-derive-0.10+default-dev",
-		"librust-enumset-derive-0.10+proc-macro-crate-dev",
-		"librust-enumset-derive-0.10+serde-dev",
-		"librust-enumset-derive-0.10+std-deprecation-warning-dev",
-		"librust-serde-1-dev"
+		"librust-defmt-0+default-dev",
+		"librust-enumset-derive-0.15+default-dev",
+		"librust-enumset-derive-0.15+proc-macro-crate-dev",
+		"librust-enumset-derive-0.15+serde2-deprecation-warning-dev",
+		"librust-enumset-derive-0.15+std-deprecation-warning-dev",
+		"librust-serde-1+derive-dev"
 	],
-	"installedSize": 150,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 138,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Creating compact sets of enums - Rust source code",
 	"homepage": "https://github.com/Lymia/enumset",
-	"filename": "pool/main/r/rust-enumset/librust-enumset-dev_1.1.5-1+b1_amd64.deb",
-	"size": 26280,
-	"md5": "99ea796e430c6fe69e27dae813bac4b2",
-	"sha256": "81843ca3b11fb96a51b6d707e6dcffcdd2ff2b02839dba9b77b05937fd8dd763",
+	"filename": "pool/main/r/rust-enumset/librust-enumset-dev_1.1.14-1_amd64.deb",
+	"size": 24064,
+	"md5": "ce627d67e8cf6d7c95ab4a8a3ec0be92",
+	"sha256": "6d5806a240004b875908a1c507af54a0abc48508bda7d5e77e5295c172497ef6",
 	"descriptionMd5": "e71905e57fa98bd9e8bfca034bc066cf"
 }

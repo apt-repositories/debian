@@ -6,20 +6,23 @@
 	],
 	"package": "librust-gix-bitmap-dev",
 	"source": "rust-gix-bitmap",
-	"version": "0.3.1-1",
+	"version": "0.3.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-gix-error-0.2+default-dev (>= 0.2.2)"
+		"librust-gix-error-0.2+default-dev (>= 0.2.5)"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 40,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The gitoxide project dedicated implementing the standard git bitmap format - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-bitmap/librust-gix-bitmap-dev_0.3.1-1_amd64.deb",
-	"size": 10120,
-	"md5": "0ac491d4eb4736563f8cc49fbc6e6ddc",
-	"sha256": "462ebd3452498ac6566ed4a79727114c2b3e5470afec786afa97c43a3bef8af0",
+	"filename": "pool/main/r/rust-gix-bitmap/librust-gix-bitmap-dev_0.3.3-1_amd64.deb",
+	"size": 10180,
+	"md5": "1a5149511c373670de66af476456c8b0",
+	"sha256": "4af0a5d2659813c577b0e858ee1100900f2a4499652171fec5612715ac43134a",
 	"descriptionMd5": "ea8fee2f99ed1128aa2e5c72ac8a1e65"
 }

@@ -5,30 +5,33 @@
 		"Size"
 	],
 	"package": "librust-object-dev",
-	"source": "rust-object (0.36.5-4)",
-	"version": "0.36.5-4+b1",
+	"source": "rust-object",
+	"version": "0.37.3-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-crc32fast-1+std-dev (>= 1.2-~~)",
-		"librust-crc32fast-1-dev (>= 1.2-~~)",
-		"librust-flate2-1+default-dev (>= 1.0.13-~~)",
-		"librust-hashbrown+default-hasher-dev (<< 0.17-~~)",
-		"librust-hashbrown+default-hasher-dev (>= 0.15.0-~~)",
+		"librust-crc32fast-1+std-dev (>= 1.2)",
+		"librust-crc32fast-1-dev (>= 1.2)",
+		"librust-flate2-1+default-dev (>= 1.0.13)",
+		"librust-hashbrown+default-hasher-dev (<< 0.17)",
+		"librust-hashbrown+default-hasher-dev (>= 0.15.0)",
 		"librust-indexmap-2+std-dev",
 		"librust-indexmap-2-dev",
-		"librust-memchr-2+std-dev (>= 2.4.1-~~)",
-		"librust-memchr-2-dev (>= 2.4.1-~~)",
-		"librust-ruzstd-0.7+default-dev"
+		"librust-memchr-2+std-dev (>= 2.4.1)",
+		"librust-memchr-2-dev (>= 2.4.1)",
+		"librust-ruzstd-0.8+default-dev (>= 0.8.1)"
 	],
-	"installedSize": 1896,
+	"breaks": [
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 1984,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Unified interface for reading and writing object file formats - Rust source code",
 	"homepage": "https://github.com/gimli-rs/object",
-	"filename": "pool/main/r/rust-object/librust-object-dev_0.36.5-4+b1_amd64.deb",
-	"size": 258988,
-	"md5": "f4d3079f5a147ca33ec5c1acf329cf43",
-	"sha256": "08f0d225edcb9f68307d84fa14d7731d4cf283373128a2474eb62a8d046dfa2a",
+	"filename": "pool/main/r/rust-object/librust-object-dev_0.37.3-2_amd64.deb",
+	"size": 271028,
+	"md5": "4fd65ba72df41c1e3593f4296263ee37",
+	"sha256": "8b49d4132c25a94fb42e2fe0244fbf9cb45449bebc53100ab86c983ebca095de",
 	"descriptionMd5": "ce135dd04b5471564c76ad8d97e6e08f"
 }]

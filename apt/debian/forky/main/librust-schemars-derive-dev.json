@@ -6,23 +6,26 @@
 	],
 	"package": "librust-schemars-derive-dev",
 	"source": "rust-schemars-derive",
-	"version": "1.2.1-2",
+	"version": "1.2.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2-1+default-dev (>= 1.0.74)",
+		"librust-proc-macro2-1+default-dev (>= 1.0.91)",
 		"librust-quote-1+default-dev (>= 1.0.35)",
-		"librust-serde-derive-internals-0.29+default-dev (>= 0.29.1)",
-		"librust-syn-2+default-dev (>= 2.0.46)"
+		"librust-serde-derive-internals-0.30+default-dev",
+		"librust-syn-2+default-dev"
 	],
-	"installedSize": 162,
+	"breaks": [
+		"rustc (<< 1.74~)"
+	],
+	"installedSize": 168,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Macros for #[derive(JsonSchema)], for use with schemars - Rust source code",
 	"homepage": "https://graham.cool/schemars/",
-	"filename": "pool/main/r/rust-schemars-derive/librust-schemars-derive-dev_1.2.1-2_amd64.deb",
-	"size": 30300,
-	"md5": "6d8ff8404ce737a6eb76350e733b4ee5",
-	"sha256": "0f801e7611593b85988bacf9e3f28ef7d02a0e6d7452bc6ffe15ffd39d874fd5",
+	"filename": "pool/main/r/rust-schemars-derive/librust-schemars-derive-dev_1.2.2-1_amd64.deb",
+	"size": 31104,
+	"md5": "000dc3ee8994b3b27b3ff1318973a9dc",
+	"sha256": "27042512996d5be9cedd76ffde34e2713973fe1f2e6efb4bc6b398a99dbc8a20",
 	"descriptionMd5": "aa3fc1e48bf34a94e4f1ba0cc15ea562"
 }

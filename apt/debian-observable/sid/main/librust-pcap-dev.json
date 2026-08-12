@@ -5,16 +5,16 @@
 		"Size"
 	],
 	"package": "librust-pcap-dev",
-	"source": "rust-pcap (2.2.0-1)",
-	"version": "2.2.0-1+b1",
+	"source": "rust-pcap",
+	"version": "2.4.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bitflags-1+default-dev (>= 1.3-~~)",
+		"librust-bitflags-1+default-dev (>= 1.3)",
 		"librust-errno-0.3+default-dev",
 		"librust-futures-0.3+default-dev",
-		"librust-gat-std-0.1+default-dev (>= 0.1.1-~~)",
+		"librust-gat-std-0.1+default-dev (>= 0.1.1)",
 		"librust-libc-0.2+default-dev",
 		"librust-libloading-0.8+default-dev",
 		"librust-pkg-config-0.3+default-dev",
@@ -26,13 +26,16 @@
 		"librust-tokio-1+rt-multi-thread-dev",
 		"libpcap-dev"
 	],
-	"installedSize": 336,
+	"breaks": [
+		"rustc (<< 1.64~)"
+	],
+	"installedSize": 346,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Packet capture API around pcap/wpcap - Rust source code",
 	"homepage": "https://github.com/rust-pcap/pcap",
-	"filename": "pool/main/r/rust-pcap/librust-pcap-dev_2.2.0-1+b1_amd64.deb",
-	"size": 61792,
-	"md5": "55b6647228db8f0738682f6fec839582",
-	"sha256": "0f136c26a2bad08cd5b09e1dee28c11aaa16c6b71b7c640ba8241383f921abfd",
+	"filename": "pool/main/r/rust-pcap/librust-pcap-dev_2.4.0-1_amd64.deb",
+	"size": 64464,
+	"md5": "bc608bc44551ba70930fbb90ea56a985",
+	"sha256": "88020e9b33484080bf7cf53db531602ee842cd732c88db5186cc0020f3c54f89",
 	"descriptionMd5": "861cf9ad998ca604d32974c1fa45c2a2"
 }]

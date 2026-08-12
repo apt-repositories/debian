@@ -6,23 +6,26 @@
 	],
 	"package": "librust-gix-path-dev",
 	"source": "rust-gix-path",
-	"version": "0.12.0-1",
+	"version": "0.12.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bstr-1+std-dev (>= 1.12.0)",
-		"librust-gix-trace-0.1+default-dev (>= 0.1.19)",
-		"librust-gix-validate-0.11+default-dev (>= 0.11.1)",
+		"librust-gix-trace-0.1+default-dev (>= 0.1.21)",
+		"librust-gix-validate-0.11+default-dev (>= 0.11.3)",
 		"librust-thiserror-2+default-dev (>= 2.0.18)"
 	],
-	"installedSize": 137,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 142,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The gitoxide project dealing paths and their conversions - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-path/librust-gix-path-dev_0.12.0-1_amd64.deb",
-	"size": 30348,
-	"md5": "be014b86360f5c3c86931afe9ced0b81",
-	"sha256": "f6833d61db4e958e693a57613f195f848a475ff6b887070211d63f64d2d2b2a8",
+	"filename": "pool/main/r/rust-gix-path/librust-gix-path-dev_0.12.4-1_amd64.deb",
+	"size": 31584,
+	"md5": "d1a436ca15f2eef00ee6196af39ac333",
+	"sha256": "d97966a285673ddade9ac3fbd2bede3483e0914716a4ba50926179dd63c5c508",
 	"descriptionMd5": "673be3f875459fde6b5fc36fe54e37d0"
 }

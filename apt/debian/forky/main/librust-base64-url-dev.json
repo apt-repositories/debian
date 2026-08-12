@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-base64-url-dev",
-	"source": "rust-base64-url (3.0.0-1)",
-	"version": "3.0.0-1+b2",
+	"source": "rust-base64-url",
+	"version": "3.0.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-base64-0+alloc-dev",
 		"librust-base64-0+std-dev"
 	],
-	"installedSize": 46,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 45,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Base64 encode, decode, escape and unescape for URL applications - Rust source code",
 	"homepage": "https://magiclen.org/base64-url",
-	"filename": "pool/main/r/rust-base64-url/librust-base64-url-dev_3.0.0-1+b2_amd64.deb",
-	"size": 6936,
-	"md5": "4a136c8e77dfcef0fd8cdd2e4ec15e72",
-	"sha256": "9cade40cb9569722904d268cf5ea1ee03dcb719ef862d7c4007833e8cfea0090",
+	"filename": "pool/main/r/rust-base64-url/librust-base64-url-dev_3.0.4-1_amd64.deb",
+	"size": 6896,
+	"md5": "3be1d17c4f75d6d2dcc2219b6b6b9f8a",
+	"sha256": "1437c54aa51278148f09f613277779f9016f14005faba678ec66fdff8965a021",
 	"descriptionMd5": "8f4e1a80be1290f88eb93ad0194c1558"
 }

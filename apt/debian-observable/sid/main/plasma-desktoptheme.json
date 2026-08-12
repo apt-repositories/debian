@@ -6,24 +6,23 @@
 	],
 	"package": "plasma-desktoptheme",
 	"source": "libplasma",
-	"version": "6.7.2-3",
+	"version": "6.7.4-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"plasma-version-base-6.7",
-		"qml6-module-org-kde-config",
 		"qml6-module-org-kde-kirigami",
 		"qml6-module-org-kde-ksvg",
 		"qml6-module-qt5compat-graphicaleffects",
-		"qml6-module-qtcore",
 		"qml6-module-qtqml",
 		"qml6-module-qtqml-models",
 		"qml6-module-qtquick",
 		"qml6-module-qtquick-controls",
 		"qml6-module-qtquick-layouts",
 		"qml6-module-qtquick-templates",
+		"qml6-module-qtquick-tooling",
 		"qml6-module-qtquick-window",
+		"plasma-version-base-6.7",
 		"libc6 (>= 2.32)",
 		"libegl1",
 		"libgcc-s1 (>= 3.4)",
@@ -42,7 +41,7 @@
 		"libplasmaquick7 (>= 6.7.2)",
 		"libqt6core6t64 (>= 6.10.2)",
 		"libqt6gui6 (>= 6.10.0~)",
-		"libqt6qml6 (>= 6.10.0~)",
+		"libqt6qml6 (>= 6.10.2)",
 		"libqt6quick6 (>= 6.10.0~)",
 		"libqt6widgets6 (>= 6.10.0~)",
 		"libstdc++6 (>= 5)",
@@ -50,7 +49,8 @@
 		"libxcb-composite0",
 		"libxcb-damage0",
 		"libxcb-render0",
-		"libxcb1"
+		"libxcb1",
+		"qt6-declarative-private-abi (= 6.10.2)"
 	],
 	"replaces": [
 		"plasma-framework (<< 5.115.0-6~)"
@@ -58,13 +58,13 @@
 	"breaks": [
 		"plasma-framework (<< 5.115.0-6~)"
 	],
-	"installedSize": 3030,
+	"installedSize": 6184,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Plasma Runtime components",
 	"homepage": "https://invent.kde.org/plasma/libplasma",
-	"filename": "pool/main/libp/libplasma/plasma-desktoptheme_6.7.2-3_amd64.deb",
-	"size": 1450100,
-	"md5": "7881ba97ebd63b48cf62a223e2616010",
-	"sha256": "2b971ddf76e809ae518ad62257d21f9fcfb4d2b5be88890ee4c5052a0acdc624",
+	"filename": "pool/main/libp/libplasma/plasma-desktoptheme_6.7.4-1_amd64.deb",
+	"size": 1914684,
+	"md5": "7e7beacc515bfc2e3bc664240fb0c58a",
+	"sha256": "c53368dc49bb84f70caa9457671e755d86721705d1eaddc3a442ac18d8aad3c8",
 	"descriptionMd5": "a15d5f4558d300bd70c5c317ba2f78ee"
 }]

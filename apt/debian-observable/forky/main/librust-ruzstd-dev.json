@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "librust-ruzstd-dev",
-	"source": "rust-ruzstd (0.7.3-4)",
-	"version": "0.7.3-4+b1",
+	"source": "rust-ruzstd",
+	"version": "0.8.3-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-fastrand-2+default-dev (>= 2.3.0)",
 		"librust-twox-hash-2+xxhash64-dev"
 	],
-	"installedSize": 344,
+	"breaks": [
+		"rustc (<< 1.87~)"
+	],
+	"installedSize": 496,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Decoder for the zstd compression format - Rust source code",
 	"homepage": "https://github.com/KillingSpark/zstd-rs",
-	"filename": "pool/main/r/rust-ruzstd/librust-ruzstd-dev_0.7.3-4+b1_amd64.deb",
-	"size": 58016,
-	"md5": "a105181787a2c8bf16ee1d1176143984",
-	"sha256": "c16a29b9f54580a34d4105b1d509a56c64c8ad4f9204b7d352226b3f3299553f",
+	"filename": "pool/main/r/rust-ruzstd/librust-ruzstd-dev_0.8.3-2_amd64.deb",
+	"size": 83772,
+	"md5": "4be96cc10b4035c6fb377a5e7a3e8459",
+	"sha256": "cf19005e5259bd8f47407f73208c78bc2d5c193d65e6e7a6a652bc9fe19d941b",
 	"descriptionMd5": "363c8206c99481903c0a50934c305193"
 }]
