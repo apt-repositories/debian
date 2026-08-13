@@ -69,4 +69,39 @@
 	"md5": "fdc30523e72aae344c2e13343006e6bd",
 	"sha256": "60808a7a0f70855b65686849256f6db83555d527f8e05ec40d7173c7adeb9fa6",
 	"descriptionMd5": "bc2de4a4fd7d43a3eb12419c5cb1273f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lemonldap-ng-fastcgi-server",
+	"source": "lemonldap-ng",
+	"version": "2.21.2+ds-1+deb13u3",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libfcgi-perl",
+		"libfcgi-procmanager-perl",
+		"liblemonldap-ng-handler-perl (= 2.21.2+ds-1+deb13u3)",
+		"libplack-perl",
+		"perl:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libhttp-parser-xs-perl",
+		"libnginx-mod-http-lua",
+		"nginx-extras | nginx"
+	],
+	"installedSize": 210,
+	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
+	"description": "Lemonldap::NG FastCGI server",
+	"homepage": "https://lemonldap-ng.org/",
+	"filename": "pool/updates/main/l/lemonldap-ng/lemonldap-ng-fastcgi-server_2.21.2+ds-1+deb13u3_all.deb",
+	"size": 95024,
+	"sha256": "0a4ed64cbc8157f8c0136e187fcb859db06b7f029d218e53f6067ea272ad6a03",
+	"descriptionMd5": "bc2de4a4fd7d43a3eb12419c5cb1273f"
 }]

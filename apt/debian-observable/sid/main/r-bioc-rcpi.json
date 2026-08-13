@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-rcpi",
-	"version": "1.42.0+ds-3",
+	"version": "1.48.0+ds-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-biostrings",
 		"r-bioc-gosemsim",
 		"r-cran-curl",
@@ -21,15 +21,21 @@
 		"r-cran-jsonlite",
 		"r-cran-rlang",
 		"pkgconf",
-		"r-bioc-pwalign"
+		"r-bioc-pwalign",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 2494,
+	"suggests": [
+		"r-cran-knitr",
+		"r-cran-rmarkdown",
+		"r-cran-testthat (>= 3.0.0)"
+	],
+	"installedSize": 2496,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "molecular informatics toolkit for compound-protein interaction",
 	"homepage": "https://bioconductor.org/packages/Rcpi/",
-	"filename": "pool/main/r/r-bioc-rcpi/r-bioc-rcpi_1.42.0+ds-3_all.deb",
-	"size": 1141236,
-	"md5": "0ac1e52919668a9a33014e27e6537561",
-	"sha256": "94e3b2bc4ac470189aa03803e1f6494b444f5be8749bf37f39c1985df755f86d",
+	"filename": "pool/main/r/r-bioc-rcpi/r-bioc-rcpi_1.48.0+ds-1_all.deb",
+	"size": 1136396,
+	"md5": "214f276259876fca0825fc4e5080b031",
+	"sha256": "6a87284fe9e5b0000d6c23610f805ab889dc7f00e3f5b02d69c65b3fe6ccd325",
 	"descriptionMd5": "7c9e7073830f28d12f69ff9e0861dfb3"
 }]

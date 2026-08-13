@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liboffload-22-dev",
+	"source": "llvm-toolchain-22",
+	"version": "1:22.1.8-1~deb12u1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liboffload-22 (= 1:22.1.8-1~deb12u1)",
+		"libc6 (>= 2.36)",
+		"libgcc-s1 (>= 3.3)",
+		"libllvm22",
+		"libomp5-19",
+		"libstdc++6 (>= 11)",
+		"libz3-4 (>= 4.8.12)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"liboffload-x.y-dev",
+		"libomp5 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp3)"
+	],
+	"breaks": [
+		"libomp5 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp3)"
+	],
+	"conflicts": [
+		"liboffload-x.y-dev"
+	],
+	"installedSize": 1547,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Offload Library - Development Package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/updates/main/l/llvm-toolchain-22/liboffload-22-dev_22.1.8-1~deb12u1_amd64.deb",
+	"size": 496720,
+	"sha256": "aecbf86beaecfe10487f7a8ec930ba52fe4779e9a2501d638ada02606e861be8",
+	"descriptionMd5": "0335a80bacd1f17cc3caa43cce0c4820"
+}

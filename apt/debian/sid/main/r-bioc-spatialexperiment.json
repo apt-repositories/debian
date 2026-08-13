@@ -5,28 +5,36 @@
 		"Size"
 	],
 	"package": "r-bioc-spatialexperiment",
-	"version": "1.16.0+ds-3",
+	"version": "1.22.0+ds-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-singlecellexperiment",
 		"r-cran-rjson",
 		"r-cran-magick",
 		"r-bioc-s4vectors",
 		"r-bioc-summarizedexperiment",
 		"r-bioc-biocgenerics",
-		"r-bioc-biocfilecache"
+		"r-bioc-biocfilecache",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 1794,
+	"suggests": [
+		"r-cran-knitr",
+		"r-cran-rmarkdown",
+		"r-cran-testthat",
+		"r-bioc-biocstyle",
+		"r-bioc-dropletutils"
+	],
+	"installedSize": 1793,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "S4 Class for Spatially Resolved -omics Data",
 	"homepage": "https://bioconductor.org/packages/SpatialExperiment",
-	"filename": "pool/main/r/r-bioc-spatialexperiment/r-bioc-spatialexperiment_1.16.0+ds-3_all.deb",
-	"size": 961564,
-	"md5": "e8579028cc9e229df4ad80c6a7976c36",
-	"sha256": "42aefea0a94f38e008a84cc661ce67a1483a4d231d254c3ec55e567e34c0868e",
+	"filename": "pool/main/r/r-bioc-spatialexperiment/r-bioc-spatialexperiment_1.22.0+ds-1_all.deb",
+	"size": 965212,
+	"md5": "aebbd1e6e0b368d16e826fc75672112c",
+	"sha256": "7d5b6922d0f4f7ee0aa3114bfb25b99afeded269d3a7d51f9fc536861f75536d",
 	"descriptionMd5": "1268fbb29c7607d5d8e5670725200908"
 }

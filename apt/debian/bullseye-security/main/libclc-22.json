@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclc-22",
+	"source": "llvm-toolchain-22",
+	"version": "1:22.1.8-1~deb11u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libclc-22-dev (= 1:22.1.8-1~deb11u1)",
+		"libclang-common-22-dev"
+	],
+	"replaces": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600",
+		"libclc-x.y"
+	],
+	"breaks": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600"
+	],
+	"conflicts": [
+		"libclc-x.y"
+	],
+	"installedSize": 38696,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "OpenCL C language implementation - platform support",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/updates/main/l/llvm-toolchain-22/libclc-22_22.1.8-1~deb11u1_all.deb",
+	"size": 5043592,
+	"sha256": "82b68248186fd26c44fb594302f30996365519dd6458ff1f33a0420771f7e841",
+	"descriptionMd5": "73bf1c1e61845108c59b363de4fd901a"
+}

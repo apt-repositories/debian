@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.1.8+deb14-cloud-amd64",
+	"source": "linux-signed-amd64 (7.1.8+1)",
+	"version": "7.1.8-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.1.8+deb14-cloud-amd64 (= 7.1.8-1)",
+		"linux-binary-7.1.8+deb14-cloud-amd64 (= 7.1.8-1)",
+		"linux-modules-7.1.8+deb14-cloud-amd64 (= 7.1.8-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.1"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.1.8 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.1.8+deb14-cloud-amd64_7.1.8-1_amd64.deb",
+	"size": 1920,
+	"md5": "256ff6c39b676e69f6901b1868bea5a1",
+	"sha256": "21f768e2f2c24f81fcdac1d881af91964ccb41a59fc87fec0d81f08d7a91c2a4",
+	"descriptionMd5": "378fda1ad024af79712fd252511ab5b6"
+}

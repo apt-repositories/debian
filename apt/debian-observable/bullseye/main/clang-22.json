@@ -1,0 +1,51 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clang-22",
+	"source": "llvm-toolchain-22",
+	"version": "1:22.1.8-1~deb11u1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libclang-cpp22 (>= 1:22.1.8)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm22 (= 1:22.1.8-1~deb11u1)",
+		"libstdc++6 (>= 6)",
+		"libstdc++-10-dev",
+		"libgcc-10-dev",
+		"libobjc-10-dev",
+		"libclang-common-22-dev (= 1:22.1.8-1~deb11u1)",
+		"llvm-22-linker-tools (= 1:22.1.8-1~deb11u1)",
+		"libclang1-22 (= 1:22.1.8-1~deb11u1)",
+		"libc6-dev",
+		"binutils"
+	],
+	"recommends": [
+		"llvm-22-dev",
+		"python3",
+		"clang-tools-22"
+	],
+	"suggests": [
+		"clang-22-doc",
+		"wasi-libc"
+	],
+	"replaces": [
+		"clang-tools-22 (<< 1:22~++20251124083138+173600880b8f-1~exp1)"
+	],
+	"breaks": [
+		"clang-tools-22 (<< 1:22~++20251124083138+173600880b8f-1~exp1)"
+	],
+	"installedSize": 547,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "C, C++ and Objective-C compiler",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/updates/main/l/llvm-toolchain-22/clang-22_22.1.8-1~deb11u1_amd64.deb",
+	"size": 190588,
+	"sha256": "24f0033193d0c7ef2aefdb49282f53e2d1c89c1711eda693734240578a24e39f",
+	"descriptionMd5": "c364160e44345420df0f2e97b3082b69"
+}]

@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-edaseq",
-	"version": "2.40.0+dfsg-3",
+	"version": "2.46.0+dfsg-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-biobase (>= 2.15.1)",
 		"r-bioc-shortread (>= 1.11.42)",
 		"r-bioc-biocgenerics",
@@ -23,15 +23,25 @@
 		"r-bioc-annotationdbi",
 		"r-bioc-genomicfeatures",
 		"r-bioc-genomicranges",
-		"r-cran-biocmanager"
+		"r-cran-biocmanager",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 527,
+	"suggests": [
+		"r-bioc-biocstyle",
+		"r-cran-knitr",
+		"r-bioc-edger",
+		"r-cran-kernsmooth",
+		"r-cran-testthat",
+		"r-bioc-deseq2",
+		"r-cran-rmarkdown"
+	],
+	"installedSize": 529,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "GNU R exploratory data analysis and normalization for RNA-Seq",
 	"homepage": "https://bioconductor.org/packages/EDASeq/",
-	"filename": "pool/main/r/r-bioc-edaseq/r-bioc-edaseq_2.40.0+dfsg-3_all.deb",
-	"size": 383148,
-	"md5": "bd3cbc423f23518e574e15cc571e8db0",
-	"sha256": "59f221b85e7f061ace1f34977d857d728588d42e23ac3aae4f27eb43072382c2",
+	"filename": "pool/main/r/r-bioc-edaseq/r-bioc-edaseq_2.46.0+dfsg-1_all.deb",
+	"size": 383132,
+	"md5": "037c09f6131b6c4089625cdcee9a0a13",
+	"sha256": "94a36c949d9facf9989c2a2ed93611f201552209e3ea0c0ef86186d40c2d8497",
 	"descriptionMd5": "dd9b03be74340f306e3c0ecca939774e"
 }

@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-ogg-dev",
-	"source": "rust-ogg (0.9.0-1)",
-	"version": "0.9.0-1+b2",
+	"source": "rust-ogg",
+	"version": "0.9.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,12 +21,16 @@
 		"librust-tokio-util-0.7+compat-dev",
 		"librust-tokio-util-0.7+default-dev"
 	],
-	"installedSize": 121,
+	"breaks": [
+		"rustc (<< 1.61.0~)"
+	],
+	"installedSize": 127,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Ogg container decoder and encoder written in pure Rust - Rust source code",
-	"filename": "pool/main/r/rust-ogg/librust-ogg-dev_0.9.0-1+b2_amd64.deb",
-	"size": 25628,
-	"md5": "82dbf7472d895a07e0a4f8ba63adb74a",
-	"sha256": "24fa8e272a7154b8b5a2596988bc4907852257991033143ddfe63135d1b2f117",
-	"descriptionMd5": "994e2dab25a0d868fb50c97832da4abb"
+	"homepage": "https://github.com/RustAudio/ogg",
+	"filename": "pool/main/r/rust-ogg/librust-ogg-dev_0.9.2-1_amd64.deb",
+	"size": 26576,
+	"md5": "3ded2291c00aab1d377949ad00301680",
+	"sha256": "b432b34438b92a54af0d4ced20310fa417e2c2768e3c070c5367dab3b71a2d83",
+	"descriptionMd5": "5786907e37159d8ef13b5922a076b8f9"
 }]

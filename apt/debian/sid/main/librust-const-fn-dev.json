@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "librust-const-fn-dev",
-	"source": "rust-const-fn (0.4.10-1)",
-	"version": "0.4.10-1+b1",
+	"source": "rust-const-fn",
+	"version": "0.4.12-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 70,
+	"breaks": [
+		"rustc (<< 1.31~)"
+	],
+	"installedSize": 74,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Lightweight attribute for easy generation of const functions with conditional compilations - Rust source code",
-	"filename": "pool/main/r/rust-const-fn/librust-const-fn-dev_0.4.10-1+b1_amd64.deb",
-	"size": 16536,
-	"md5": "ffebb043fcd14fa8de91a9800b77db78",
-	"sha256": "16e024385a62680d8b41d06e481ad1f2639fd3f191f8f196bdef36361536a8e0",
+	"homepage": "https://github.com/taiki-e/const_fn",
+	"filename": "pool/main/r/rust-const-fn/librust-const-fn-dev_0.4.12-1_amd64.deb",
+	"size": 17876,
+	"md5": "cd308282b497a5a50853a46cc8f26305",
+	"sha256": "a48e121930f7be3b19e33dd21fa6261b06a85158bb8b6bee9d79eb1e6b10e2f7",
 	"descriptionMd5": "435868b774382212e904aaf1428304a8"
 }
