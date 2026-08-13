@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-isoformswitchanalyzer",
-	"version": "2.6.0+ds-3",
+	"version": "2.12.0+ds-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-limma",
 		"r-bioc-dexseq",
 		"r-bioc-saturn (>= 1.7.0)",
@@ -29,7 +29,7 @@
 		"r-bioc-rtracklayer",
 		"r-cran-venndiagram",
 		"r-cran-dbi",
-		"r-bioc-genomeinfodb",
+		"r-bioc-seqinfo",
 		"r-bioc-tximport (>= 1.7.1)",
 		"r-bioc-tximeta (>= 1.7.12)",
 		"r-bioc-edger",
@@ -47,15 +47,20 @@
 		"r-cran-tidyr",
 		"r-bioc-s4vectors",
 		"r-bioc-biocparallel",
-		"r-bioc-pwalign"
+		"r-bioc-pwalign",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 4722,
+	"suggests": [
+		"r-cran-knitr",
+		"r-cran-rmarkdown"
+	],
+	"installedSize": 7736,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "Identify, Annotate and Visualize Alternative Splicing and",
 	"homepage": "https://bioconductor.org/packages/IsoformSwitchAnalyzeR/",
-	"filename": "pool/main/r/r-bioc-isoformswitchanalyzer/r-bioc-isoformswitchanalyzer_2.6.0+ds-3_amd64.deb",
-	"size": 4116828,
-	"md5": "0ad2c3d8673fb01cdbc222908b5dafe2",
-	"sha256": "a421cf283d566fa01ff6ec7f3a08ad8f6c1a5a1780b8f60776500a6d8ad49d86",
+	"filename": "pool/main/r/r-bioc-isoformswitchanalyzer/r-bioc-isoformswitchanalyzer_2.12.0+ds-1_amd64.deb",
+	"size": 4577736,
+	"md5": "22ee490d5b8948ee16078fdf7f69c95a",
+	"sha256": "398bcc94fc7c967ff0a2db9a90be3dfff83cb7032340a6aeec33420ecb4a4ed7",
 	"descriptionMd5": "6e336d084c273bc54872e6621a01f875"
 }]

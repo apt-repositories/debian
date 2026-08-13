@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-structuralvariantannotation",
-	"version": "1.22.0+ds-3",
+	"version": "1.28.0+ds-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-genomicranges",
 		"r-bioc-rtracklayer",
 		"r-bioc-variantannotation",
@@ -26,15 +26,27 @@
 		"r-bioc-iranges",
 		"r-bioc-s4vectors",
 		"r-bioc-summarizedexperiment",
-		"r-bioc-genomeinfodb"
+		"r-bioc-genomeinfodb",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 1297,
+	"suggests": [
+		"r-cran-ggplot2",
+		"r-cran-devtools",
+		"r-cran-testthat (>= 2.1.0)",
+		"r-cran-roxygen2",
+		"r-cran-rmarkdown",
+		"r-cran-tidyverse",
+		"r-cran-knitr",
+		"r-bioc-ggbio",
+		"r-bioc-biovizbase"
+	],
+	"installedSize": 1299,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "Variant annotations for structural variants",
 	"homepage": "https://bioconductor.org/packages/StructuralVariantAnnotation/",
-	"filename": "pool/main/r/r-bioc-structuralvariantannotation/r-bioc-structuralvariantannotation_1.22.0+ds-3_all.deb",
-	"size": 400868,
-	"md5": "8d896ee70d214ea07464309b7d9ad09c",
-	"sha256": "25a14119b52a51b16c314dca83ae0b79a3405eac84e7db65f41ddfdc15819f90",
+	"filename": "pool/main/r/r-bioc-structuralvariantannotation/r-bioc-structuralvariantannotation_1.28.0+ds-1_all.deb",
+	"size": 400696,
+	"md5": "e56011e8e56d97518e9546cc4ac47db5",
+	"sha256": "a8829e9e952f6057cf8de3da3e1af9339ee8802a2d04c0eb37aa2d93df043cd5",
 	"descriptionMd5": "da0d30e1c2fddfc05ec9f7a5a97d4001"
 }]

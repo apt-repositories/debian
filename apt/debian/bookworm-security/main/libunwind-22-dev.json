@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libunwind-22-dev",
+	"source": "llvm-toolchain-22",
+	"version": "1:22.1.8-1~deb12u1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libunwind-19"
+	],
+	"replaces": [
+		"libunwind-dev",
+		"libunwind-x.y-dev",
+		"llvm-libunwind1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"breaks": [
+		"llvm-libunwind1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"conflicts": [
+		"libunwind-dev",
+		"libunwind-x.y-dev"
+	],
+	"installedSize": 387,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM unwinder, not compatible with glibc",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/updates/main/l/llvm-toolchain-22/libunwind-22-dev_22.1.8-1~deb12u1_amd64.deb",
+	"size": 93172,
+	"sha256": "0bf26b462e1ced3177011dbbb84b71301a35104248d68c73c48294d80b73084e",
+	"descriptionMd5": "a5717ef78133cdbdbac4a9ee0300b202"
+}

@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-monocle",
-	"version": "2.34.0-3",
+	"version": "2.40.0+ds-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-cran-matrix (>= 1.2-6)",
 		"r-bioc-biobase",
 		"r-cran-ggplot2 (>= 1.0.0)",
@@ -43,15 +43,23 @@
 		"r-cran-rcpp (>= 0.12.0)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
-		"libstdc++6 (>= 14)"
+		"libstdc++6 (>= 14)",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 1762,
+	"suggests": [
+		"r-cran-hmisc",
+		"r-cran-knitr",
+		"r-cran-seurat",
+		"r-bioc-scater",
+		"r-cran-testthat"
+	],
+	"installedSize": 1766,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "clustering, differential expression, and trajectory analysis for RNA-Seq",
 	"homepage": "https://bioconductor.org/packages/monocle/",
-	"filename": "pool/main/r/r-bioc-monocle/r-bioc-monocle_2.34.0-3_amd64.deb",
-	"size": 1518500,
-	"md5": "e6f6f92c8fdd3be7ad0a9d0f95745d78",
-	"sha256": "1cc6739c7f7532e1940134d23740219b8c315defde0805d0ea28dff27f84cca5",
+	"filename": "pool/main/r/r-bioc-monocle/r-bioc-monocle_2.40.0+ds-1_amd64.deb",
+	"size": 1517732,
+	"md5": "accb1741583821fc1592a0c0d506e9a9",
+	"sha256": "d7268361012048623db504b7e70164e47161985a177560900eca365de9d8f681",
 	"descriptionMd5": "b7920263571f538286516ee16ed83a1e"
 }

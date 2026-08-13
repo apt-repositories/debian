@@ -5,27 +5,36 @@
 		"Size"
 	],
 	"package": "r-bioc-gseabase",
-	"version": "1.68.0+ds-3",
+	"version": "1.74.0+ds-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-biocgenerics (>= 0.13.8)",
 		"r-bioc-biobase (>= 2.17.8)",
 		"r-bioc-annotate (>= 1.45.3)",
 		"r-bioc-graph (>= 1.37.2)",
 		"r-bioc-annotationdbi",
-		"r-cran-xml"
+		"r-cran-xml",
+		"r-pkg-team-core-architecture"
+	],
+	"suggests": [
+		"r-bioc-go.db",
+		"r-bioc-org.hs.eg.db",
+		"r-cran-testthat",
+		"r-bioc-biocstyle",
+		"r-cran-knitr",
+		"r-cran-runit"
 	],
 	"installedSize": 1242,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "Gene set enrichment data structures and methods",
 	"homepage": "https://bioconductor.org/packages/GSEABase/",
-	"filename": "pool/main/r/r-bioc-gseabase/r-bioc-gseabase_1.68.0+ds-3_all.deb",
-	"size": 719360,
-	"md5": "63423639ca881033d62e4bdf9e2df961",
-	"sha256": "a214f8046eedda39b31d50a5c9940178bb4c70d7614ecdf7deb40860158b9b80",
+	"filename": "pool/main/r/r-bioc-gseabase/r-bioc-gseabase_1.74.0+ds-1_all.deb",
+	"size": 719860,
+	"md5": "ead4b22baa78319b88ab6c9e0e3bd277",
+	"sha256": "1aa3b4d93b0e8c0bbd52abf7a6e2d242a9ed493d6dcdc35f53f0ebc7cee99e75",
 	"descriptionMd5": "85e0fd5a6d06be5b79a4f0970b8f1a34"
 }]

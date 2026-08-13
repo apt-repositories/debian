@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-dexseq",
-	"version": "1.52.0+dfsg-3",
+	"version": "1.58.0+dfsg-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-biocparallel",
 		"r-bioc-biobase",
 		"r-bioc-summarizedexperiment",
@@ -19,7 +19,6 @@
 		"r-bioc-genomicranges (>= 1.23.7)",
 		"r-bioc-deseq2 (>= 1.39.6)",
 		"r-bioc-annotationdbi",
-		"r-cran-rcolorbrewer",
 		"r-bioc-s4vectors (>= 0.23.18)",
 		"r-bioc-biocgenerics",
 		"r-bioc-biomart",
@@ -28,15 +27,28 @@
 		"r-bioc-rsamtools",
 		"r-cran-statmod",
 		"r-bioc-geneplotter",
-		"r-bioc-genefilter"
+		"r-bioc-genefilter",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 680,
+	"suggests": [
+		"r-bioc-genomeinfodb",
+		"r-bioc-genomicfeatures",
+		"r-bioc-txdbmaker",
+		"r-bioc-biocstyle",
+		"r-cran-knitr",
+		"r-cran-rmarkdown",
+		"r-cran-testthat",
+		"r-bioc-genomicalignments",
+		"r-cran-roxygen2",
+		"r-bioc-glmgampoi"
+	],
+	"installedSize": 679,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "GNU R inference of differential exon usage in RNA-Seq",
 	"homepage": "https://bioconductor.org/packages/DEXSeq/",
-	"filename": "pool/main/r/r-bioc-dexseq/r-bioc-dexseq_1.52.0+dfsg-3_all.deb",
-	"size": 466608,
-	"md5": "092948fc95aaa88ea15070b0526ff3b8",
-	"sha256": "c37b03c1394987736895e9f5afecb9c4d68148876513d22901c95154f360f4e9",
+	"filename": "pool/main/r/r-bioc-dexseq/r-bioc-dexseq_1.58.0+dfsg-1_all.deb",
+	"size": 466176,
+	"md5": "50f06328f49f544ab7254ea2ac72a2f3",
+	"sha256": "c05458c4b42502e62be007b5d93e1b333e2f2c02bda3fb50fb6e22dc8a13d901",
 	"descriptionMd5": "847e73dca66539e0fca1ea31c4fc3b84"
 }]

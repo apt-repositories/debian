@@ -6,14 +6,16 @@
 	],
 	"package": "virt-install",
 	"source": "virt-manager",
-	"version": "1:5.1.0-1",
+	"version": "1:5.1.0-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"cpio",
 		"e2fsprogs",
 		"xorriso",
 		"gir1.2-libosinfo-1.0",
+		"libvirt-daemon",
 		"python3-gi (>= 3.31.3~)",
 		"python3-libvirt (>= 0.4.6)",
 		"python3-libxml2",
@@ -34,13 +36,13 @@
 	"breaks": [
 		"virtinst (<< 1:5.0.0-2~)"
 	],
-	"installedSize": 5704,
+	"installedSize": 5697,
 	"maintainer": "Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>",
 	"description": "utilities to create and edit virtual machines",
 	"homepage": "https://virt-manager.org/",
-	"filename": "pool/main/v/virt-manager/virt-install_5.1.0-1_all.deb",
-	"size": 881604,
-	"md5": "b722e2364d7d2b42f57c9ccf7b2f2884",
-	"sha256": "72910b99b7126fee5038594689314c97887ebbf4113e15df2e2031279454760b",
+	"filename": "pool/main/v/virt-manager/virt-install_5.1.0-2_all.deb",
+	"size": 879752,
+	"md5": "559fd62b81f418e00180d34dd446e558",
+	"sha256": "54b2ff03c91ab90ee6083c0a834e9d6a3f096f3ca9c182924667381980c96f89",
 	"descriptionMd5": "09cfe8f7f5e1f2c11dbf7b6725c19207"
 }
