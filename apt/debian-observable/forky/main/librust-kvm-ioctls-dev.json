@@ -6,24 +6,28 @@
 	],
 	"package": "librust-kvm-ioctls-dev",
 	"source": "rust-kvm-ioctls",
-	"version": "0.22.1-2",
+	"version": "0.25.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bitflags-2+default-dev (>= 2.4.1)",
-		"librust-kvm-bindings-0.12+default-dev (>= 0.12.1)",
-		"librust-kvm-bindings-0.12+fam-wrappers-dev (>= 0.12.1)",
+		"librust-kvm-bindings-0.14+default-dev (>= 0.14.1)",
+		"librust-kvm-bindings-0.14+fam-wrappers-dev (>= 0.14.1)",
 		"librust-libc-0.2+default-dev (>= 0.2.39)",
-		"librust-vmm-sys-util-0.15+default-dev"
+		"librust-vmm-sys-util+default-dev (<< 0.16)",
+		"librust-vmm-sys-util+default-dev (>= 0.14)"
 	],
-	"installedSize": 411,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 423,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Safe wrappers over KVM ioctls - Rust source code",
 	"homepage": "https://github.com/rust-vmm/kvm",
-	"filename": "pool/main/r/rust-kvm-ioctls/librust-kvm-ioctls-dev_0.22.1-2_amd64.deb",
-	"size": 60912,
-	"md5": "40242fdded20a4064a8272ec0d3eceac",
-	"sha256": "9d66ec0795fb024f973fc8018a37bd3a9cf39a94bd87649d97ef8312fef8957e",
+	"filename": "pool/main/r/rust-kvm-ioctls/librust-kvm-ioctls-dev_0.25.0-1_amd64.deb",
+	"size": 63180,
+	"md5": "e80243482877a43ea143b9cdcd78cf3b",
+	"sha256": "ccfa50a6db2bd092b56d51516fc3d46cf7c833d62dfe4ecd1ce731d6b6cc9b35",
 	"descriptionMd5": "bdca2fe9eb032fc6aea1b5a7c9a0bc5d"
 }]
