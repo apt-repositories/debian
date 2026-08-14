@@ -6,24 +6,28 @@
 	],
 	"package": "librust-kvm-bindings-dev",
 	"source": "rust-kvm-bindings",
-	"version": "0.12.1-2",
+	"version": "0.14.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
-		"librust-vmm-sys-util-0.15+default-dev",
+		"librust-vmm-sys-util+default-dev (<< 0.16)",
+		"librust-vmm-sys-util+default-dev (>= 0.14)",
 		"librust-zerocopy-0.8+default-dev (>= 0.8.23)",
 		"librust-zerocopy-0.8+derive-dev (>= 0.8.23)"
 	],
-	"installedSize": 682,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 699,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust FFI bindings to KVM generated using bindgen - Rust source code",
 	"homepage": "https://github.com/rust-vmm/kvm",
-	"filename": "pool/main/r/rust-kvm-bindings/librust-kvm-bindings-dev_0.12.1-2_amd64.deb",
-	"size": 49496,
-	"md5": "5dd9e46b4f55cd53f7b622a2046cabb7",
-	"sha256": "72e70ace3f5c1ad95fff168272d02e126decf3a6b14c6f35c9e62ff73090fbea",
+	"filename": "pool/main/r/rust-kvm-bindings/librust-kvm-bindings-dev_0.14.1-1_amd64.deb",
+	"size": 50860,
+	"md5": "94157f262cd68a263a4f3e3814e481fe",
+	"sha256": "d561b5790a39bbea6c20135a58453d9c5ebba0fa54635507f9eb2a8d86ae7db5",
 	"descriptionMd5": "d815b29c8f70d4df061fdfc3fca126d4"
 }]

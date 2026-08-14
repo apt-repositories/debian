@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "librust-const-random-dev",
-	"source": "rust-const-random (0.1.17-2)",
-	"version": "0.1.17-2+b1",
+	"source": "rust-const-random",
+	"version": "0.1.18-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-const-random-macro-0.1+default-dev (>= 0.1.16-~~)"
+		"librust-const-random-macro-0.1+default-dev (>= 0.1.16)"
+	],
+	"breaks": [
+		"librust-ahash-dev (<< 0.7.7)"
 	],
 	"installedSize": 41,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Provides compile time random number generation - Rust source code",
-	"filename": "pool/main/r/rust-const-random/librust-const-random-dev_0.1.17-2+b1_amd64.deb",
-	"size": 8744,
-	"md5": "d07fd497e8db0b7ac732d1bb460679d6",
-	"sha256": "080ca3e7c4ca11af165feca06cc72d4b44c86fbf1ae895f4608a7f3916873079",
+	"homepage": "https://github.com/tkaitchuck/constrandom",
+	"filename": "pool/main/r/rust-const-random/librust-const-random-dev_0.1.18-1_amd64.deb",
+	"size": 8696,
+	"md5": "95e8c997088dedf5d383734b10caf747",
+	"sha256": "d622475c9f2846417dd89af38bd3bd760126aff1ca75bbeb5173e1f6e0a4a010",
 	"descriptionMd5": "7cd6b4f9542bdebc40374d43e52aa42d"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-uu-grep-dev",
 	"source": "rust-uu-grep",
-	"version": "0.1.0-1",
+	"version": "0.1.0-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,16 +20,19 @@
 		"librust-onig-6-dev (<< 6.6)",
 		"librust-onig-6-dev (>= 6.5.1)",
 		"librust-onig-sys-69-dev",
-		"librust-uucore-0.9+default-dev",
+		"librust-uucore-0.10+default-dev",
 		"librust-walkdir-2+default-dev (>= 2.5)"
+	],
+	"breaks": [
+		"rustc (<< 1.88.0~)"
 	],
 	"installedSize": 237,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "GNU Grep - Rust source code",
 	"homepage": "https://github.com/uutils/grep",
-	"filename": "pool/main/r/rust-uu-grep/librust-uu-grep-dev_0.1.0-1_amd64.deb",
-	"size": 52816,
-	"md5": "037fe07323a8f1b08139d101d59c85ba",
-	"sha256": "4a9c06b20992c2a1637762a2307686fe00105e8f434e6f3ffb431cb1354bf7c5",
+	"filename": "pool/main/r/rust-uu-grep/librust-uu-grep-dev_0.1.0-2_amd64.deb",
+	"size": 52936,
+	"md5": "234ac03f39385c1cbfd30b4bb678269b",
+	"sha256": "8242e7f6f45b15fac2260e1bf7bdb45b109ca6f20b216d7327665cd9fb0c627e",
 	"descriptionMd5": "2256a8b1090746f4de60c4dc516a0c90"
 }

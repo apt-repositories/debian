@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-goseq",
-	"version": "1.58.0-3",
+	"version": "1.64.0-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-cran-biasedurn",
 		"r-bioc-genelendatabase (>= 1.9.2)",
 		"r-cran-mgcv",
@@ -20,15 +20,20 @@
 		"r-bioc-biocgenerics",
 		"r-bioc-rtracklayer",
 		"r-bioc-genomicfeatures",
-		"r-bioc-genomeinfodb"
+		"r-bioc-seqinfo",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 3251,
+	"suggests": [
+		"r-bioc-edger",
+		"r-bioc-org.hs.eg.db"
+	],
+	"installedSize": 1776,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
 	"description": "GNU R gene ontology analyser for RNA-seq and other length biased data",
 	"homepage": "https://bioconductor.org/packages/goseq/",
-	"filename": "pool/main/r/r-bioc-goseq/r-bioc-goseq_1.58.0-3_all.deb",
-	"size": 1885584,
-	"md5": "ee378b22062632b7a4e5a16b33e6552c",
-	"sha256": "155cda58663176c3e6fc5feb129444df3848f6deec492372fdb1c7160c843d47",
+	"filename": "pool/main/r/r-bioc-goseq/r-bioc-goseq_1.64.0-1_all.deb",
+	"size": 467268,
+	"md5": "dc142f95513039628ce7b1709a4b1e94",
+	"sha256": "e1ee853a1939e7a27561f09a05225e25810e03cba16a517a671882382aa7fd23",
 	"descriptionMd5": "201d8f7fc5dbc34bdb479505cb198591"
 }
