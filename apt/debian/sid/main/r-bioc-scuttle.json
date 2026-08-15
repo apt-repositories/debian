@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-scuttle",
-	"version": "1.16.0+dfsg-4",
+	"version": "1.22.0+dfsg-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-singlecellexperiment",
 		"r-cran-matrix",
 		"r-cran-rcpp",
@@ -25,18 +25,20 @@
 		"r-bioc-sparsearray",
 		"r-bioc-delayedarray",
 		"r-bioc-beachmat",
-		"libc6 (>= 2.14)",
+		"r-bioc-assorthead",
+		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.0)",
 		"liblapack3 | liblapack.so.3",
-		"libstdc++6 (>= 14)"
+		"libstdc++6 (>= 14)",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 812,
+	"installedSize": 887,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
-	"description": "BioConductor single-cell RNA-Seq analysis utilities",
+	"description": "Legacy Utilities for Single-Cell RNA-Seq Analysis",
 	"homepage": "https://bioconductor.org/packages/scuttle/",
-	"filename": "pool/main/r/r-bioc-scuttle/r-bioc-scuttle_1.16.0+dfsg-4_amd64.deb",
-	"size": 448904,
-	"md5": "727603265a48db695d0e1e5035a062c3",
-	"sha256": "1ff3fed1d827e72b54804ca9bea3f043d88b444a4927707b4f6179844895c2d3",
-	"descriptionMd5": "2ea3422df955578f1055a418ce6b610b"
+	"filename": "pool/main/r/r-bioc-scuttle/r-bioc-scuttle_1.22.0+dfsg-1_amd64.deb",
+	"size": 479248,
+	"md5": "0c7c3b3de912ebd6482b1e90134d06c8",
+	"sha256": "133a9c7ec989305a987a6a94867c16bbb6d0ce0e64b84eb8f79c5fdaf039f2f0",
+	"descriptionMd5": "c4e419a668d3cbf829f14534f5f71664"
 }

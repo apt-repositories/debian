@@ -5,10 +5,10 @@
 		"Size"
 	],
 	"package": "r-bioc-genomicfeatures",
-	"version": "1.64.0+dfsg-1",
+	"version": "1.64.0+dfsg-2",
 	"section": "gnu-r",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
 		"r-api-4.0",
 		"r-api-bioc-3.23",
@@ -22,29 +22,23 @@
 		"r-bioc-xvector",
 		"r-bioc-biostrings (>= 2.77.2)",
 		"r-bioc-rtracklayer (>= 1.69.1)",
+		"libc6 (>= 2.4)",
 		"r-pkg-team-core-architecture"
 	],
 	"suggests": [
-		"r-bioc-genomeinfodb",
-		"r-bioc-txdbmaker",
-		"r-bioc-org.hs.eg.db",
-		"r-bioc-bsgenome",
 		"r-bioc-rsamtools",
 		"r-bioc-genomicalignments (>= 1.15.7)",
-		"r-bioc-ensembldb",
-		"r-bioc-annotationfilter",
-		"r-cran-runit",
 		"r-bioc-biocstyle",
 		"r-cran-knitr",
 		"r-cran-markdown"
 	],
-	"installedSize": 1597,
+	"installedSize": 1498,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
-	"description": "GNU R tools for making and manipulating transcript centric annotations",
+	"description": "Query the gene models of a given organism/assembly",
 	"homepage": "https://bioconductor.org/packages/GenomicFeatures/",
-	"filename": "pool/main/r/r-bioc-genomicfeatures/r-bioc-genomicfeatures_1.64.0+dfsg-1_all.deb",
-	"size": 933820,
-	"md5": "8e852561b91910358a301b15785e6238",
-	"sha256": "3cac55dc49304046b10300415bfa2a6a6a2ca1b23649cae773aa25943b27e93e",
-	"descriptionMd5": "d534bd4faeaf5a9823825797ab564bb0"
+	"filename": "pool/main/r/r-bioc-genomicfeatures/r-bioc-genomicfeatures_1.64.0+dfsg-2_amd64.deb",
+	"size": 908608,
+	"md5": "0f9c85b107c82dbbe366b9041c80dac8",
+	"sha256": "25dc1f34790e1bfc505a438d9b63b0ac2f7d31dd6082b0b72161f36cee6cf2a6",
+	"descriptionMd5": "91dde115d7e23caa0312a6a1ace85c9c"
 }]
