@@ -6,23 +6,25 @@
 	],
 	"package": "librust-frizbee-dev",
 	"source": "rust-frizbee",
-	"version": "0.9.0+dfsg-1",
+	"version": "0.13.0+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-itertools-0.14+default-dev",
-		"librust-raw-cpuid-11+default-dev (>= 11.6)",
-		"librust-serde-1+default-dev",
-		"librust-serde-1+derive-dev"
+		"librust-serde-1+alloc-dev",
+		"librust-serde-1+derive-dev",
+		"librust-serde-1+std-dev"
 	],
-	"installedSize": 286,
+	"breaks": [
+		"rustc (<< 1.89.0~)"
+	],
+	"installedSize": 765,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Fast typo-resistant fuzzy matching via SIMD smith waterman, similar algorithm to FZF/FZY - Rust source code",
+	"description": "Fast typo-resistant fuzzy matching via SIMD smith waterman, similar algorithm to FZF - Rust source code",
 	"homepage": "https://github.com/saghen/frizbee",
-	"filename": "pool/main/r/rust-frizbee/librust-frizbee-dev_0.9.0+dfsg-1_amd64.deb",
-	"size": 39840,
-	"md5": "28934f0af322dd50d7f2f461a7a30ca4",
-	"sha256": "b0cf5f4cf4ba502ea40a35a093179cd2d094f3fd0ef27888d0313542f28006ee",
-	"descriptionMd5": "a8c1c17095c83555e35030905aea8b23"
+	"filename": "pool/main/r/rust-frizbee/librust-frizbee-dev_0.13.0+ds-1_amd64.deb",
+	"size": 129220,
+	"md5": "3eeb2da79586bdd2f4450b97ca2e2bba",
+	"sha256": "591f52dbad53f0e33a78150703dc40dfc985bb033b684adf69fb7814e7f7519a",
+	"descriptionMd5": "c4dfcb45ffb152f1c262600efdc2523f"
 }
