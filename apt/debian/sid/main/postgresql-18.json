@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "postgresql-18",
-	"version": "18.6-1",
+	"version": "18.6-2",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"locales | locales-all",
-		"postgresql-client-18 (= 18.6-1)",
+		"postgresql-client-18 (= 18.6-2)",
 		"postgresql-common (>= 275~)",
 		"ssl-cert",
 		"tzdata",
@@ -39,15 +39,20 @@
 		"sysstat"
 	],
 	"breaks": [
-		"dbconfig-common (<< 2.0.22~)"
+		"dbconfig-common (<< 2.0.22~)",
+		"pg-rewrite (<< 2.2-2)",
+		"pg-squeeze (<< 1.9.4-2)",
+		"postgres-decoderbufs (<< 3.6.0-2)",
+		"timescaledb (<< 2.29.1+dfsg-2)",
+		"wal2json (<< 2.6-4)"
 	],
-	"installedSize": 35352,
+	"installedSize": 35353,
 	"maintainer": "Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>",
 	"description": "The World's Most Advanced Open Source Relational Database",
 	"homepage": "http://www.postgresql.org/",
-	"filename": "pool/main/p/postgresql-18/postgresql-18_18.6-1_amd64.deb",
-	"size": 7428512,
-	"md5": "076c70cd836e7d6795bddd789b010827",
-	"sha256": "394b311b4d9a12958e1b85a79b7bcb4c21b2094f424e9e1d5aa7af5fef5fac45",
+	"filename": "pool/main/p/postgresql-18/postgresql-18_18.6-2_amd64.deb",
+	"size": 7426768,
+	"md5": "35214a54d2e1f194046d92d6a4c7e0ac",
+	"sha256": "4754d31d554bcc9eb8aaa9a456179c15981511ddfa061d81b841419f2c7ac777",
 	"descriptionMd5": "dcb0488ab35080ca4e8e57faa4716e66"
 }
