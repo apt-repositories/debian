@@ -5,26 +5,26 @@
 		"Size"
 	],
 	"package": "passes-gtk",
-	"version": "0.12-1",
+	"version": "0.12-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"gir1.2-adw-1",
+		"gir1.2-gtk-4.0 (>= 4.10)",
+		"python3-gi",
 		"dconf-gsettings-backend | gsettings-backend",
 		"python3:any",
 		"libc6 (>= 2.14)",
-		"libzint2.15 (>= 2.4.3)",
-		"gir1.2-adw-1",
-		"gir1.2-gtk-4.0 (>= 4.10)",
-		"python3-gi"
+		"libzint2.15 (>= 2.4.3)"
 	],
 	"installedSize": 400,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GTK-based digital pass manager",
 	"homepage": "https://github.com/pablo-s/passes",
-	"filename": "pool/main/p/passes-gtk/passes-gtk_0.12-1_amd64.deb",
-	"size": 56916,
-	"md5": "82c9c20c20f27bb222315a5e5c4a90a2",
-	"sha256": "996a0ab4e3b734ce348391a071f4a411769a03bb8a91b11651a02d9b32b053b3",
+	"filename": "pool/main/p/passes-gtk/passes-gtk_0.12-2_amd64.deb",
+	"size": 57080,
+	"md5": "313a731fc1094a63a0f1e26952dce3fb",
+	"sha256": "e82d88a8b1bab381ca0d8574338dc53ce151279894a1ded6e9cff7e62057d570",
 	"descriptionMd5": "6ab2e5aed7dab0fc57dd8625ec38785e"
 }

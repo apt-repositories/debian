@@ -27,8 +27,42 @@
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "OpenStack virtual network service - common files",
 	"homepage": "http://neutron.openstack.org/",
-	"filename": "pool/updates/main/n/neutron/neutron-common_26.0.3-0+deb13u2_all.deb",
+	"filename": "pool/main/n/neutron/neutron-common_26.0.3-0+deb13u2_all.deb",
 	"size": 75304,
+	"md5": "4f4c651bdddca6f53db8ca0ea0e42c6c",
 	"sha256": "9809d2117dc509145d073f5c6a3fd001f943e64e41305da06366054db2b7c6d3",
+	"descriptionMd5": "c61c2ed65d5a5d765ce30a75c7a7d08c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "neutron-common",
+	"source": "neutron",
+	"version": "2:26.0.3-0+deb13u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dbconfig-common",
+		"debconf",
+		"dpkg-dev",
+		"python3-neutron (= 2:26.0.3-0+deb13u3)",
+		"python3-openstackclient",
+		"python3-pyparsing",
+		"python3-sqlalchemy (>= 1.4.23)",
+		"sqlite3",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any"
+	],
+	"installedSize": 565,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "OpenStack virtual network service - common files",
+	"homepage": "http://neutron.openstack.org/",
+	"filename": "pool/updates/main/n/neutron/neutron-common_26.0.3-0+deb13u3_all.deb",
+	"size": 75600,
+	"sha256": "244116abcba34082eefcbbe3801290d3986beae82c7ec2e129e5e2b9aa3f38eb",
 	"descriptionMd5": "c61c2ed65d5a5d765ce30a75c7a7d08c"
 }]
