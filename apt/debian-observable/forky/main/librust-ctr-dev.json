@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "librust-ctr-dev",
-	"source": "rust-ctr (0.9.2-1)",
-	"version": "0.9.2-1+b2",
+	"source": "rust-ctr",
+	"version": "0.10.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cipher-0.4+alloc-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+block-padding-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+default-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+std-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+zeroize-dev (>= 0.4.2-~~)"
+		"librust-cipher-0.5+alloc-dev (>= 0.5.2)",
+		"librust-cipher-0.5+block-padding-dev (>= 0.5.2)",
+		"librust-cipher-0.5+default-dev (>= 0.5.2)",
+		"librust-cipher-0.5+stream-wrapper-dev (>= 0.5.2)",
+		"librust-cipher-0.5+zeroize-dev (>= 0.5.2)"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 93,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "CTR block modes of operation - Rust source code",
-	"filename": "pool/main/r/rust-ctr/librust-ctr-dev_0.9.2-1+b2_amd64.deb",
-	"size": 20480,
-	"md5": "ebab71fd33b482186ad860dac2ca32b5",
-	"sha256": "f74e5fdc9228e869ed2050b82cba82c9f935d85f810bebe323978aef245a92c0",
-	"descriptionMd5": "96754800706cd918864c00da8f84087c"
+	"homepage": "https://github.com/RustCrypto/block-modes",
+	"filename": "pool/main/r/rust-ctr/librust-ctr-dev_0.10.1-1_amd64.deb",
+	"size": 20912,
+	"md5": "aca4e2b5f059a973ce34fca0dc7e6bdd",
+	"sha256": "57bcf36335b27d172da87b24040dfa5e1702a14a9e7cf573366a57633c4323e1",
+	"descriptionMd5": "2eb84aa2cc07088452478488a673d0d1"
 }]

@@ -6,23 +6,25 @@
 	],
 	"package": "rshim",
 	"source": "rshim-user-space",
-	"version": "2.5.7+debian-1",
+	"version": "2.5.8+debian-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"python3",
 		"libc6 (>= 2.38)",
 		"libfuse3-4 (>= 3.17.2)",
-		"libpci3 (>= 1:3.13.0)",
-		"libusb-1.0-0 (>= 2:1.0.16)"
+		"libpci3 (>= 1:3.15.0)",
+		"libusb-1.0-0 (>= 2:1.0.16)",
+		"perl:any"
 	],
-	"installedSize": 312,
+	"installedSize": 322,
 	"maintainer": "Taihsiang Ho (tai271828) <e@tai271828.me>",
 	"description": "Userspace (fuse) host driver for Mellanox BlueField devices",
 	"homepage": "https://github.com/Mellanox/rshim-user-space",
-	"filename": "pool/main/r/rshim-user-space/rshim_2.5.7+debian-1_amd64.deb",
-	"size": 95620,
-	"md5": "86b436b543f1ccae9c1ce1f61ac96ee3",
-	"sha256": "efa6a6b7826832cee8e9c03b5f9dcf385ea26b8cda4c7d6301e01aec0ea55538",
+	"filename": "pool/main/r/rshim-user-space/rshim_2.5.8+debian-1_amd64.deb",
+	"size": 99568,
+	"md5": "c1993600077d8063071b862692b07c1c",
+	"sha256": "cae53937cc3af27eb3e111ed5dfeba00dfb82c6066b58b0ede17a01f2858b894",
 	"descriptionMd5": "8fc02fdc757546f7a3af6a7d301fa702"
 }]

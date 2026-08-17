@@ -6,7 +6,7 @@
 	],
 	"package": "python3-mypy",
 	"source": "mypy",
-	"version": "2.2.0-1",
+	"version": "2.2.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -27,13 +27,16 @@
 		"python3-setuptools",
 		"python3-orjson"
 	],
+	"breaks": [
+		"python3-pytest-mypy (<= 4.0.3-2)"
+	],
 	"installedSize": 84970,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "public modules for mypy (Python 3)",
 	"homepage": "https://www.mypy-lang.org/",
-	"filename": "pool/main/m/mypy/python3-mypy_2.2.0-1_amd64.deb",
-	"size": 19602964,
-	"md5": "67efa953ffe9b9173591f894d0f5d15c",
-	"sha256": "bab14555ceeb2084cd8e8c1c84463287c36b39a8bb5488b510a6eb027d2579ad",
+	"filename": "pool/main/m/mypy/python3-mypy_2.2.0-2_amd64.deb",
+	"size": 19595080,
+	"md5": "ed418ba0a08a8faf4b99c11ab5cb696a",
+	"sha256": "e5e9ee9110c36afb86272725781d132f17ff0a1578a6897601893ff57e47a0f8",
 	"descriptionMd5": "d098e93d00ac49e756bebaf5ec34a6ca"
 }

@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "librust-iri-string-dev",
-	"source": "rust-iri-string (0.7.0-1)",
-	"version": "0.7.0-1+b3",
+	"source": "rust-iri-string",
+	"version": "0.7.14-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-memchr-2+std-dev (>= 2.4.1-~~)",
-		"librust-memchr-2-dev (>= 2.4.1-~~)",
-		"librust-serde-1+alloc-dev (>= 1.0.103-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.103-~~)",
-		"librust-serde-1+std-dev (>= 1.0.103-~~)"
+		"librust-memchr-2+std-dev (>= 2.4.1)",
+		"librust-memchr-2-dev (>= 2.4.1)",
+		"librust-serde-1+alloc-dev (>= 1.0.103)",
+		"librust-serde-1+derive-dev (>= 1.0.103)",
+		"librust-serde-1+std-dev (>= 1.0.103)"
 	],
-	"installedSize": 799,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 982,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "IRI as string types - Rust source code",
-	"filename": "pool/main/r/rust-iri-string/librust-iri-string-dev_0.7.0-1+b3_amd64.deb",
-	"size": 113020,
-	"md5": "30f221b570e27719b9be00d76674b1e1",
-	"sha256": "807e1bae33186f15d6c674bba130ad8bd0b4382982871bd140e141ef5b8c68ca",
-	"descriptionMd5": "cdb7b0f346a098ac8a54a1dc07db98ed"
+	"homepage": "https://github.com/lo48576/iri-string",
+	"filename": "pool/main/r/rust-iri-string/librust-iri-string-dev_0.7.14-1_amd64.deb",
+	"size": 138424,
+	"md5": "91dd7c3d31d5dfd9cf2dbbd824f4b2f9",
+	"sha256": "9dde7a83c6c34cee92ce9aef6823ca28a51f7f4ced886c446e481c43ba9f395b",
+	"descriptionMd5": "5132a4b7f72ee63aaf3348277c2b1a2c"
 }

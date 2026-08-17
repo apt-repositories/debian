@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-protox-parse-dev",
-	"source": "rust-protox-parse (0.9.0-1)",
-	"version": "0.9.0-1+b1",
+	"source": "rust-protox-parse",
+	"version": "0.9.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-logos-0.15+default-dev",
-		"librust-miette-7+default-dev (>= 7.2.0-~~)",
-		"librust-prost-types-0.12+default-dev",
+		"librust-miette-7+default-dev (>= 7.2.0)",
+		"librust-prost-types-0.14+default-dev",
 		"librust-thiserror-2+default-dev"
 	],
-	"installedSize": 241,
+	"breaks": [
+		"rustc (<< 1.74.0~)"
+	],
+	"installedSize": 243,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Parsing of protobuf source files - Rust source code",
 	"homepage": "https://github.com/andrewhickman/protox",
-	"filename": "pool/main/r/rust-protox-parse/librust-protox-parse-dev_0.9.0-1+b1_amd64.deb",
-	"size": 35972,
-	"md5": "6d281144f3a48a22278feb6bd7035217",
-	"sha256": "afe69c733fbeedd81e78c406ba1f450fe8338fb28250d87295570d8e165fdf14",
+	"filename": "pool/main/r/rust-protox-parse/librust-protox-parse-dev_0.9.0-2_amd64.deb",
+	"size": 36076,
+	"md5": "93c6e9acb69fe4a081269e3971564ea3",
+	"sha256": "a12a7bafc76c0d0ab72f803157ef3d312f2b5da34db9b20c0e73d2107efbf06a",
 	"descriptionMd5": "3fe4a8b6cb615b5fe409ff193c42e5d2"
 }

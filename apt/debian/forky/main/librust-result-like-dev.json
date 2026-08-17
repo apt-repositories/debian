@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-result-like-dev",
-	"source": "rust-result-like (0.4.6-1)",
-	"version": "0.4.6-1+b3",
+	"source": "rust-result-like",
+	"version": "0.5.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-result-like-derive-0.4+default-dev (>= 0.4.6-~~)"
+		"librust-result-like-derive-0.5+default-dev (>= 0.5.1)"
 	],
-	"installedSize": 39,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 35,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Option/Result-like monad interface for your own enum - Rust source code",
 	"homepage": "https://github.com/youknowone/result-like",
-	"filename": "pool/main/r/rust-result-like/librust-result-like-dev_0.4.6-1+b3_amd64.deb",
-	"size": 6556,
-	"md5": "2629b677157f40a92a320b48c2d47e12",
-	"sha256": "961576763a4540cf45bf78fb1d692107a2d422d88f5bc8316ce009c813a18078",
-	"descriptionMd5": "d11bb1b9b5e832d90618f731dedf543c"
+	"filename": "pool/main/r/rust-result-like/librust-result-like-dev_0.5.1-1_amd64.deb",
+	"size": 6484,
+	"md5": "b399e6d6a146a3c8eb91637e282cd5ed",
+	"sha256": "01cd2d92d7a6a8f9f000544b5ac32246898bb7954efd9862619ffbd1e4f01900",
+	"descriptionMd5": "d9bba2ebf605d59b682de3cb1b751a9c"
 }
