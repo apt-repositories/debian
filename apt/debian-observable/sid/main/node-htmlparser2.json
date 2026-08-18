@@ -5,26 +5,28 @@
 		"Size"
 	],
 	"package": "node-htmlparser2",
-	"version": "9.0.0-2",
+	"version": "12.0.0-2",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"node-domelementtype (>= 2.3.0~~)",
-		"node-domhandler (>= 5.0.2~)",
-		"node-domutils (>= 3.1.0~)",
-		"node-entities (>= 4.5.0~)"
+		"node-domelementtype (>= 3.0.0~)",
+		"node-domhandler (>= 6.0.0~)",
+		"node-domutils (>= 4.0.0~)",
+		"node-entities (>= 8.0.0~)"
 	],
 	"breaks": [
-		"node-cheerio (<< 1.0.0~rc~5+~cs6.1.2~)"
+		"node-cheerio (<< 1.1~)",
+		"node-eslint-plugin-html (<< 6.3~)",
+		"node-sanitize-html (<< 2.15~)"
 	],
-	"installedSize": 266,
+	"installedSize": 248,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Fast & forgiving HTML/XML/RSS parser",
 	"homepage": "https://github.com/fb55/htmlparser2#readme",
-	"filename": "pool/main/n/node-htmlparser2/node-htmlparser2_9.0.0-2_all.deb",
-	"size": 31508,
-	"md5": "445349cbb661ee20f330832e1f6a37aa",
-	"sha256": "29d06095d13309b7fb67fbe6e622c944cd925e500be9b71a2c20c97fcb8fde22",
+	"filename": "pool/main/n/node-htmlparser2/node-htmlparser2_12.0.0-2_all.deb",
+	"size": 34996,
+	"md5": "4fa1bcd7087fd7f53c0604f1a87969ba",
+	"sha256": "8436ca94c02f4f7b824bf126ff7c268b90f0ff18af5ac95da4f9518c7687d903",
 	"descriptionMd5": "625012a37dfba147bba6c181cab395ec"
 }]

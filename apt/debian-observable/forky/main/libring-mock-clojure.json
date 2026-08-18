@@ -6,21 +6,24 @@
 	],
 	"package": "libring-mock-clojure",
 	"source": "ring-mock-clojure",
-	"version": "0.4.0-2",
+	"version": "0.6.2-2",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"libcheshire-clojure",
-		"libring-codec-clojure"
+		"libclojure-java",
+		"libhttpclient5-java",
+		"libring-codec-clojure (>= 1.3.0)",
+		"libring-core-clojure (>= 1.15.5)"
 	],
-	"installedSize": 30,
+	"installedSize": 31,
 	"maintainer": "Debian Clojure Maintainers <team+clojure@tracker.debian.org>",
 	"description": "library for creating mock Ring request maps",
 	"homepage": "https://github.com/ring-clojure/ring-mock",
-	"filename": "pool/main/r/ring-mock-clojure/libring-mock-clojure_0.4.0-2_all.deb",
-	"size": 8752,
-	"md5": "05db6c74788b27d6d7afccff13cd59ac",
-	"sha256": "927b05f5aa376d5d59a0f2ee0e51ba7e61a02204930ab68e987587a2122059e7",
+	"filename": "pool/main/r/ring-mock-clojure/libring-mock-clojure_0.6.2-2_all.deb",
+	"size": 9880,
+	"md5": "c842e47e62111f23139f98dace8777b1",
+	"sha256": "1c6670dacff8613e1aecd842df8e77d9ae7d7cce174a35c487e6112543b8f901",
 	"descriptionMd5": "761c1804fdf0e03311611b8d8a0def52"
 }]

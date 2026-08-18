@@ -5,31 +5,29 @@
 		"Size"
 	],
 	"package": "librust-netlink-sys-dev",
-	"source": "rust-netlink-sys (0.8.7-1)",
-	"version": "0.8.7-1+b1",
+	"source": "rust-netlink-sys",
+	"version": "0.8.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bytes-1+default-dev (>= 1.8-~~)",
-		"librust-libc-0.2+default-dev (>= 0.2.164-~~)",
-		"librust-log-0.4+default-dev (>= 0.4.8-~~)"
-	],
-	"suggests": [
-		"librust-netlink-sys+async-io-dev (= 0.8.7-1+b1)",
-		"librust-netlink-sys+futures-dev (= 0.8.7-1+b1)",
-		"librust-netlink-sys+mio-dev (= 0.8.7-1+b1)",
-		"librust-netlink-sys+smol-socket-dev (= 0.8.7-1+b1)",
-		"librust-netlink-sys+tokio-dev (= 0.8.7-1+b1)",
-		"librust-netlink-sys+tokio-socket-dev (= 0.8.7-1+b1)"
+		"librust-async-io-2+default-dev",
+		"librust-bytes-1+default-dev (>= 1.8)",
+		"librust-futures-util-0.3+default-dev (>= 0.3.31)",
+		"librust-libc-0.2+default-dev (>= 0.2.164)",
+		"librust-log-0.4+default-dev (>= 0.4.8)",
+		"librust-mio-1+default-dev",
+		"librust-mio-1+os-ext-dev",
+		"librust-mio-1+os-poll-dev",
+		"librust-tokio-1+net-dev (>= 1.41.1)"
 	],
 	"installedSize": 106,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Netlink sockets, with optional integration with tokio - Rust source code",
 	"homepage": "https://github.com/rust-netlink/netlink-sys",
-	"filename": "pool/main/r/rust-netlink-sys/librust-netlink-sys-dev_0.8.7-1+b1_amd64.deb",
-	"size": 20236,
-	"md5": "b4d9631ea27cdf40e898ed54620ec697",
-	"sha256": "7ec703e89acba21e37d8be7d9a7be91ea714ad1c93cf3afc2aff940adc02f7a7",
+	"filename": "pool/main/r/rust-netlink-sys/librust-netlink-sys-dev_0.8.8-1_amd64.deb",
+	"size": 20376,
+	"md5": "cc23420333079050de5e31e6d105bd4e",
+	"sha256": "05fe81f5f6dc78850151eee05b832956b144a4f1bf50b0de54435bf7469a941e",
 	"descriptionMd5": "7cc38f6aa5c35af91ea9fc41b361ed4e"
 }

@@ -25,8 +25,40 @@
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "bare metal hypervisor API for OpenStack - API server",
 	"homepage": "https://github.com/openstack/ironic",
-	"filename": "pool/updates/main/i/ironic/ironic-api_29.0.5-0+deb13u2_all.deb",
+	"filename": "pool/main/i/ironic/ironic-api_29.0.5-0+deb13u2_all.deb",
 	"size": 24272,
+	"md5": "cca81422512a4cbf48d8a4073defb8e7",
 	"sha256": "843af713fb79e4053f73dbee727b959a2ac45a80f98abd62437944207910d0b6",
+	"descriptionMd5": "b97fce6888e562e8174eaa8b9c8b73cc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ironic-api",
+	"source": "ironic",
+	"version": "1:29.0.5-0+deb13u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"debconf",
+		"ironic-common (= 1:29.0.5-0+deb13u3)",
+		"python3-keystoneclient",
+		"python3-openstackclient",
+		"python3-pastescript",
+		"q-text-as-data",
+		"uwsgi-plugin-python3",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"installedSize": 144,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "bare metal hypervisor API for OpenStack - API server",
+	"homepage": "https://github.com/openstack/ironic",
+	"filename": "pool/updates/main/i/ironic/ironic-api_29.0.5-0+deb13u3_all.deb",
+	"size": 24896,
+	"sha256": "e2e61d2534557505a7ed59ac8c673e206a1506e5225a1659f6c2b3f3a5e74285",
 	"descriptionMd5": "b97fce6888e562e8174eaa8b9c8b73cc"
 }]
