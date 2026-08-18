@@ -5,21 +5,27 @@
 		"Size"
 	],
 	"package": "librust-thiserror-core-dev",
-	"source": "rust-thiserror-core (1.0.38-2)",
-	"version": "1.0.38-2+b2",
+	"source": "rust-thiserror-core",
+	"version": "1.0.50-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-thiserror-core-impl-1.0.38+default-dev",
-		"librust-thiserror-core-impl-1.0.38+std-dev"
+		"librust-thiserror-core-impl-1.0+default-dev (<< 1.0.51)",
+		"librust-thiserror-core-impl-1.0+default-dev (>= 1.0.50)",
+		"librust-thiserror-core-impl-1.0+std-dev (<< 1.0.51)",
+		"librust-thiserror-core-impl-1.0+std-dev (>= 1.0.50)"
 	],
-	"installedSize": 142,
+	"breaks": [
+		"rustc (<< 1.56~)"
+	],
+	"installedSize": 153,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive(Error) - Rust source code",
-	"filename": "pool/main/r/rust-thiserror-core/librust-thiserror-core-dev_1.0.38-2+b2_amd64.deb",
-	"size": 21436,
-	"md5": "9e82158195154360781c08e474d9f31f",
-	"sha256": "b6533baa6e2059979fe6a9e34f5024711e96ff2b7c43825f6192e6fa952fc3d7",
-	"descriptionMd5": "fea8ebc3cb9f327763593af6bff557f1"
+	"homepage": "https://github.com/FlorianUekermann/thiserror/tree/1.0.50",
+	"filename": "pool/main/r/rust-thiserror-core/librust-thiserror-core-dev_1.0.50-1_amd64.deb",
+	"size": 22468,
+	"md5": "fa965195b4dd80beaba62c1bf2234800",
+	"sha256": "c59b52c49b92529302e61d070af6b720865e860bee2e02d4bcb23ab59757987d",
+	"descriptionMd5": "3d0dad82f10e937921358a2299170a6d"
 }]

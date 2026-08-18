@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-valgrind-requests-dev",
+	"source": "rust-valgrind-requests",
+	"version": "1.1.0-1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-bindgen+default-dev (<< 0.73)",
+		"librust-bindgen+default-dev (>= 0.69)",
+		"librust-cc-1+default-dev (>= 1.0.100)",
+		"librust-cfg-if-1+default-dev",
+		"librust-cty-0.2+default-dev",
+		"librust-regex-1+default-dev (>= 1.12)",
+		"librust-rustc-version-0.4+default-dev",
+		"librust-strum-0.28+default-dev",
+		"librust-strum-0.28+derive-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.85.1~)"
+	],
+	"installedSize": 249,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Idiomatic Rust bindings for Valgrind client requests, with zero-indirection execution and zero-cost fallback - Rust source code",
+	"homepage": "https://github.com/gungraun/gungraun",
+	"filename": "pool/main/r/rust-valgrind-requests/librust-valgrind-requests-dev_1.1.0-1_amd64.deb",
+	"size": 44096,
+	"md5": "f01e05ae8fbccb859b2a405bf7261faa",
+	"sha256": "cefb0445640cc70e11061bb6704561872ffbb384679583b7e07095612fb8a93b",
+	"descriptionMd5": "2f7ea78d379a20164f97d5b16756afe6"
+}
