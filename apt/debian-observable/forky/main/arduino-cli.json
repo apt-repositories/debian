@@ -5,20 +5,27 @@
 		"Size"
 	],
 	"package": "arduino-cli",
-	"version": "1.5.1-2",
+	"version": "1.5.1-4",
 	"section": "electronics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"arduino-mdns-discovery",
+		"arduino-serial-discovery",
 		"libc6 (>= 2.34)"
 	],
-	"installedSize": 27248,
+	"recommends": [
+		"arduino-ctags (>= 5.8-arduino11-4)",
+		"arduino-dfu-discovery",
+		"arduino-serial-monitor"
+	],
+	"installedSize": 27260,
 	"maintainer": "Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>",
 	"description": "Arduino command line tool (program)",
 	"homepage": "https://github.com/arduino/arduino-cli",
-	"filename": "pool/main/a/arduino-cli/arduino-cli_1.5.1-2_amd64.deb",
-	"size": 7796376,
-	"md5": "cd48ccc7bc2bc8754a6f07c4344a5915",
-	"sha256": "17a8909ef9bca03e7f9934b449b9d31c6d04dab7a511ce72ad609224fc88f7bb",
+	"filename": "pool/main/a/arduino-cli/arduino-cli_1.5.1-4_amd64.deb",
+	"size": 7799868,
+	"md5": "9a1c3ca26f98e7f9bbc61fa7c0210c31",
+	"sha256": "9e697bd493de0086bc57aaceb6f11a67befc9516aadc9e5c90267916668c1434",
 	"descriptionMd5": "f5c7f7a9fb8adcd8e45ed14e766aed9a"
 }]
