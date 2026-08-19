@@ -5,26 +5,29 @@
 		"Size"
 	],
 	"package": "librust-drm-sys-dev",
-	"source": "rust-drm-sys (0.8.0-3)",
-	"version": "0.8.0-3+b1",
+	"source": "rust-drm-sys",
+	"version": "0.8.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bindgen-0+default-dev (>= 0.69.1-~~)",
+		"librust-bindgen-0+default-dev (>= 0.70)",
 		"librust-libc-0.2+default-dev",
-		"librust-linux-raw-sys-0+general-dev (>= 0.4-~~)",
-		"librust-linux-raw-sys-0+no-std-dev (>= 0.4-~~)",
-		"librust-pkg-config-0.3+default-dev (>= 0.3.19-~~)",
+		"librust-linux-raw-sys-0+general-dev (>= 0.9)",
+		"librust-linux-raw-sys-0+no-std-dev (>= 0.9)",
+		"librust-pkg-config-0.3+default-dev (>= 0.3.19)",
 		"libdrm-dev"
 	],
-	"installedSize": 76,
+	"breaks": [
+		"rustc (<< 1.70~)"
+	],
+	"installedSize": 77,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Bindings to the Direct Rendering Manager API - Rust source code",
 	"homepage": "https://github.com/Smithay/drm-rs",
-	"filename": "pool/main/r/rust-drm-sys/librust-drm-sys-dev_0.8.0-3+b1_amd64.deb",
-	"size": 12672,
-	"md5": "aa9c45f665e24515092805473ef23c80",
-	"sha256": "a578b173dd5b127bd5141653c518bc7f4e6a673a340718d4868f1515412fc0b4",
+	"filename": "pool/main/r/rust-drm-sys/librust-drm-sys-dev_0.8.1-1_amd64.deb",
+	"size": 12764,
+	"md5": "c2235f5b7f984ce488a19ba738b013bc",
+	"sha256": "bafe15f0a12e67585ca0e0f454b3ba58cbbac88c42fe79f6761e1658f6c42729",
 	"descriptionMd5": "542dd83aaf3437fbbd0af5af196a6119"
 }

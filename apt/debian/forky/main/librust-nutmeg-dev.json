@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "librust-nutmeg-dev",
-	"source": "rust-nutmeg (0.1.4-3)",
-	"version": "0.1.4-3+b1",
+	"source": "rust-nutmeg",
+	"version": "0.1.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-atty-0.2+default-dev",
-		"librust-parking-lot-0.12+default-dev",
-		"librust-terminal-size-0+default-dev (>= 0.2-~~)",
+		"librust-terminal-size-0.4+default-dev",
 		"librust-yansi-1+default-dev"
 	],
-	"installedSize": 136,
+	"breaks": [
+		"rustc (<< 1.75~)"
+	],
+	"installedSize": 148,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Unopinionated progress bar library - Rust source code",
 	"homepage": "https://github.com/sourcefrog/nutmeg",
-	"filename": "pool/main/r/rust-nutmeg/librust-nutmeg-dev_0.1.4-3+b1_amd64.deb",
-	"size": 26568,
-	"md5": "b03bacd4c98a010a6abe501ada1b435b",
-	"sha256": "d321c957d4509f94af8fbbbbffe7e8f3032a22f4721cf43bdc57ec4311b72b08",
+	"filename": "pool/main/r/rust-nutmeg/librust-nutmeg-dev_0.1.7-1_amd64.deb",
+	"size": 27888,
+	"md5": "e2ba4e1d339574542e61cd5b444e20e5",
+	"sha256": "b4c7af6b58733db003d0281d50892ce886f8f7e7c7d188651d66a7c691f99143",
 	"descriptionMd5": "1bec71cd133c277a9c7d3d9501bcd38c"
 }

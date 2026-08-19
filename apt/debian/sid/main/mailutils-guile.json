@@ -5,23 +5,32 @@
 		"Size"
 	],
 	"package": "mailutils-guile",
-	"source": "mailutils (1:3.20-3)",
-	"version": "1:3.20-3+b2",
+	"source": "mailutils",
+	"version": "1:3.21-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"mailutils-common (= 1:3.20-3)",
+		"mailutils-common (= 1:3.21-1)",
 		"libmailutils-dev",
-		"guile-3.0 | guile"
+		"guile-3.0 | guile",
+		"guile-3.0-libs",
+		"libc6 (>= 2.11)",
+		"libmailutils9t64 (>= 1:3.20)"
 	],
-	"installedSize": 495,
+	"replaces": [
+		"libmailutils9t64 (<< 1:3.21-1)"
+	],
+	"breaks": [
+		"libmailutils9t64 (<< 1:3.21-1)"
+	],
+	"installedSize": 593,
 	"maintainer": "Jordi Mallach <jordi@debian.org>",
 	"description": "GNU mailutils Guile interpreter and modules",
 	"homepage": "https://www.gnu.org/software/mailutils/",
-	"filename": "pool/main/m/mailutils/mailutils-guile_3.20-3+b2_amd64.deb",
-	"size": 466188,
-	"md5": "7b89d91ecf8fad21e8fc48548471c2b4",
-	"sha256": "559deba3e918f462497671b9f36a359f68c1ed02dfe632dd6dc912881f3c4e47",
+	"filename": "pool/main/m/mailutils/mailutils-guile_3.21-1_amd64.deb",
+	"size": 494996,
+	"md5": "9ad21fe60f754fb909a23d226ba4c325",
+	"sha256": "22e90283258e812f722c20d3cf097283734aec96ee3d6001793608c4003de1c8",
 	"descriptionMd5": "f532ab9c9ef3692825aa37e42f652304"
 }

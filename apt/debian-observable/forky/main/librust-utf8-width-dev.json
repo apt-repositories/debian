@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-utf8-width-dev",
-	"source": "rust-utf8-width (0.1.5-2)",
-	"version": "0.1.5-2+b1",
+	"source": "rust-utf8-width",
+	"version": "0.1.9-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 33,
+	"breaks": [
+		"rustc (<< 1.56~)"
+	],
+	"installedSize": 24,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "To determine the width of a UTF-8 character by providing its first byte - Rust source code",
 	"homepage": "https://magiclen.org/utf8-width",
-	"filename": "pool/main/r/rust-utf8-width/librust-utf8-width-dev_0.1.5-2+b1_amd64.deb",
-	"size": 5328,
-	"md5": "e8658553a5da70a07c536fd8856f9eb8",
-	"sha256": "b820181e775886ded7ec4ae0ebda14915b1a8ad1ebc4895476c30bb04b7b1ba0",
-	"descriptionMd5": "484ac3fad8202bcb37b7e22db7de55c4"
+	"filename": "pool/main/r/rust-utf8-width/librust-utf8-width-dev_0.1.9-1_amd64.deb",
+	"size": 4504,
+	"md5": "c009c3a2b78841726a3bcb72bbbf2fa3",
+	"sha256": "52875899e73ed97a70a216a2600c220ac003802544d8185720490a8ccaad0eea",
+	"descriptionMd5": "49524a2bf6d38fc7b612af20e6c5ff35"
 }]

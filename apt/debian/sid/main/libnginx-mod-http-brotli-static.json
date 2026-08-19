@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libnginx-mod-http-brotli-static",
-	"source": "libnginx-mod-http-brotli (1.0.0~rc-8)",
-	"version": "1.0.0~rc-8+b4",
+	"source": "libnginx-mod-http-brotli",
+	"version": "1.0.0~rc-9",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"nginx-abi-1.30.4-2",
 		"libc6 (>= 2.4)"
 	],
-	"installedSize": 35,
+	"recommends": [
+		"nginx"
+	],
+	"installedSize": 34,
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "Brotli lossless compression support for Nginx - static",
 	"homepage": "https://github.com/google/ngx_brotli",
-	"filename": "pool/main/libn/libnginx-mod-http-brotli/libnginx-mod-http-brotli-static_1.0.0~rc-8+b4_amd64.deb",
-	"size": 7156,
-	"md5": "8df197e08d88cea74fccb5c3e11f7520",
-	"sha256": "329ff63f1b097afb293f15582f09ea2a3f5f654a1d9fae39498c3e91e924be2e",
-	"descriptionMd5": "bbe2653cb5ff287965d8af352d9343f4"
+	"filename": "pool/main/libn/libnginx-mod-http-brotli/libnginx-mod-http-brotli-static_1.0.0~rc-9_amd64.deb",
+	"size": 7240,
+	"md5": "80fbae6020871bd55ea325e46797277b",
+	"sha256": "c4627d0650a69eaf66a94ab19311792b5619164585352056a068ec2212a27076",
+	"descriptionMd5": "be927a9bf70c77754b576ba8211d583b"
 }

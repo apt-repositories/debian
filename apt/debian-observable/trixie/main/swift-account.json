@@ -29,8 +29,44 @@
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "distributed virtual object store - account server",
 	"homepage": "https://github.com/openstack/swift",
-	"filename": "pool/updates/main/s/swift/swift-account_2.35.1-0+deb13u2_all.deb",
+	"filename": "pool/main/s/swift/swift-account_2.35.1-0+deb13u2_all.deb",
 	"size": 98360,
+	"md5": "1fbe9dbc688d2b829c50577065995a64",
 	"sha256": "42400ea6167b185405aa45a36e5de8fdeaf2da758573ea7d445e11b437282900",
+	"descriptionMd5": "3036744e8c7a33630c66000de276bc4d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "swift-account",
+	"source": "swift",
+	"version": "2.35.1-0+deb13u3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"openstack-pkg-tools",
+		"python3-pastescript",
+		"python3-swift (= 2.35.1-0+deb13u3)",
+		"rsync",
+		"swift (= 2.35.1-0+deb13u3)",
+		"uwsgi-plugin-python3",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"swift-drive-audit"
+	],
+	"installedSize": 192,
+	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
+	"description": "distributed virtual object store - account server",
+	"homepage": "https://github.com/openstack/swift",
+	"filename": "pool/updates/main/s/swift/swift-account_2.35.1-0+deb13u3_all.deb",
+	"size": 98576,
+	"sha256": "f22d0bea6c4cdb70bba16e6c38cca0ffe9226bb30465e0683ad08f2a321435b9",
 	"descriptionMd5": "3036744e8c7a33630c66000de276bc4d"
 }]

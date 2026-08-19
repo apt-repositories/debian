@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.1.8+deb14.1-amd64",
+	"source": "linux-signed-amd64 (7.1.8+2)",
+	"version": "7.1.8-2",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.1.8+deb14.1-amd64 (= 7.1.8-2)",
+		"linux-binary-7.1.8+deb14.1-amd64 (= 7.1.8-2)",
+		"linux-modules-7.1.8+deb14.1-amd64 (= 7.1.8-2)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.1"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.1.8 for 64-bit PCs",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.1.8+deb14.1-amd64_7.1.8-2_amd64.deb",
+	"size": 1892,
+	"md5": "f286a3217dce71a9851fb58fbd85222a",
+	"sha256": "9792dbc4cb7443ca7c1635d1357ea363a8453da24b2167977d55f5319ac97351",
+	"descriptionMd5": "626b22183b75eb71ae048e1066d4a9ac"
+}]

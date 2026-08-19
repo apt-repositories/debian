@@ -5,26 +5,33 @@
 		"Size"
 	],
 	"package": "python3-mailutils",
-	"source": "mailutils (1:3.20-3)",
-	"version": "1:3.20-3+b2",
+	"source": "mailutils",
+	"version": "1:3.21-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"mailutils-common (= 1:3.20-3)",
+		"mailutils-common (= 1:3.21-1)",
 		"python3 (<< 3.15)",
 		"python3 (>= 3.14~)",
 		"python3:any",
-		"libc6 (>= 2.2.5)",
-		"libmailutils9t64 (>= 1:3.17)"
+		"libc6 (>= 2.4)",
+		"libmailutils9t64 (>= 1:3.17)",
+		"libpython3.14 (>= 3.14.1)"
 	],
-	"installedSize": 549,
+	"replaces": [
+		"libmailutils9t64 (<< 1:3.21-1)"
+	],
+	"breaks": [
+		"libmailutils9t64 (<< 1:3.21-1)"
+	],
+	"installedSize": 689,
 	"maintainer": "Jordi Mallach <jordi@debian.org>",
 	"description": "GNU Mail abstraction library (Python3 interface)",
 	"homepage": "https://www.gnu.org/software/mailutils/",
-	"filename": "pool/main/m/mailutils/python3-mailutils_3.20-3+b2_amd64.deb",
-	"size": 468176,
-	"md5": "b9e3c4c41cd7cd9608039eeb310bbda0",
-	"sha256": "6b5ec8d80de63a7bafec221bc58ea6a37e52d0e4ff60ea49def9ab2002351d9b",
+	"filename": "pool/main/m/mailutils/python3-mailutils_3.21-1_amd64.deb",
+	"size": 496700,
+	"md5": "0bd6e4323c5384b93a6c43834c1c484b",
+	"sha256": "2b9f5546ad5e44ba57325242c07faa260a0a74a5339e0ad5ea26335556f07f2d",
 	"descriptionMd5": "7771fa360fb87b42722dca01f34cb412"
 }]

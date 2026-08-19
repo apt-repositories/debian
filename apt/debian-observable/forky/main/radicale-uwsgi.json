@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "radicale-uwsgi",
+	"source": "radicale",
+	"version": "3.7.8+ds-3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"radicale (>= 3.7.8+ds-2~)",
+		"uwsgi (>= 2.0.31-5~)",
+		"uwsgi-plugin-python3"
+	],
+	"recommends": [
+		"ssl-cert"
+	],
+	"suggests": [
+		"apache2",
+		"libapache2-mod-authnz-external",
+		"nginx"
+	],
+	"replaces": [
+		"radicale (<< 3.7.8+ds-2~)"
+	],
+	"enhances": [
+		"radicale"
+	],
+	"breaks": [
+		"radicale (<< 3.7.8+ds-2~)"
+	],
+	"installedSize": 63,
+	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
+	"description": "simple calendar and addressbook server - uWSGI Unix socket",
+	"homepage": "https://radicale.org/",
+	"filename": "pool/main/r/radicale/radicale-uwsgi_3.7.8+ds-3_all.deb",
+	"size": 38528,
+	"md5": "a9edb122109627a427d76b0a8c0ded0f",
+	"sha256": "43e58f9daa6494df03652c95e2e138eb0d71923bb9605c3df0f088e0091f977b",
+	"descriptionMd5": "0164bd8727cc738f385fe858af3576b7"
+}]
