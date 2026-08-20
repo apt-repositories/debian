@@ -6,7 +6,7 @@
 	],
 	"package": "librust-openssl-sys-dev",
 	"source": "rust-openssl-sys",
-	"version": "0.9.115-1",
+	"version": "0.9.117-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"librust-vcpkg-0.2+default-dev (>= 0.2.8)",
 		"libssl-dev"
 	],
-	"installedSize": 457,
+	"breaks": [
+		"rustc (<< 1.80.0~)"
+	],
+	"installedSize": 456,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to OpenSSL - Rust source code",
 	"homepage": "https://github.com/rust-openssl/rust-openssl",
-	"filename": "pool/main/r/rust-openssl-sys/librust-openssl-sys-dev_0.9.115-1_amd64.deb",
-	"size": 71620,
-	"md5": "f52e606df14ddd724cafa6122274ed8a",
-	"sha256": "5f8cf3dc9e996ab468698be8552735f89036866fa17ea72b7ed0d1ebc8be1355",
+	"filename": "pool/main/r/rust-openssl-sys/librust-openssl-sys-dev_0.9.117-1_amd64.deb",
+	"size": 71644,
+	"md5": "dff31fbf7e43be44c945bce0e9ea88ad",
+	"sha256": "38ca4a0abf383959faa26baf1cfadbe85897a4177f6367e5ecf5babc1a52c5ab",
 	"descriptionMd5": "df2fe96508c823741d44e48e3b6e05d4"
 }

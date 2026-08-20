@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "fapolicyd",
-	"version": "1.5-1",
+	"version": "2.0-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.38)",
 		"libcap-ng0 (>= 0.7.9)",
 		"liblmdb0 (>= 0.9.7)",
@@ -22,13 +23,13 @@
 	"preDepends": [
 		"adduser"
 	],
-	"installedSize": 820,
+	"installedSize": 1378,
 	"maintainer": "Nobuhiro Iwamatsu <iwamatsu@debian.org>",
 	"description": "File Access Policy Daemon",
 	"homepage": "https://github.com/linux-application-whitelisting/fapolicyd",
-	"filename": "pool/main/f/fapolicyd/fapolicyd_1.5-1_amd64.deb",
-	"size": 239264,
-	"md5": "181ff37fcf4647cb4bf62e0b245d9508",
-	"sha256": "33f926bb6c74500800583b50a5b9cdd40a8ce43e1c356b44ed541eedf08ed7b6",
+	"filename": "pool/main/f/fapolicyd/fapolicyd_2.0-1_amd64.deb",
+	"size": 337136,
+	"md5": "76f53904978ce73bd33de4db366a3b1d",
+	"sha256": "f3e0dfebbeaeae77618c881cfe4dfe645758a194278e8c184e04a5c3580f3b36",
 	"descriptionMd5": "407c0caebe7f4104e4e230b89cde1aa6"
 }
