@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-selinux-sys-dev",
-	"source": "rust-selinux-sys (0.6.12-2)",
-	"version": "0.6.12-2+b1",
+	"source": "rust-selinux-sys",
+	"version": "0.7.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bindgen-0+default-dev (>= 0.70-~~)",
+		"librust-bindgen-0+default-dev (>= 0.70)",
 		"librust-cc-1+default-dev",
 		"librust-dunce-1+default-dev",
 		"librust-walkdir-2+default-dev",
 		"libselinux1-dev"
 	],
-	"installedSize": 59,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 61,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Flexible Mandatory Access Control (MAC) for Linux - Rust source code",
 	"homepage": "https://codeberg.org/koutheir/selinux-sys.git",
-	"filename": "pool/main/r/rust-selinux-sys/librust-selinux-sys-dev_0.6.12-2+b1_amd64.deb",
-	"size": 13044,
-	"md5": "8228f5b8c5029dbb0356714b42b4d04e",
-	"sha256": "ead3648ce6543cb1acdd5162125d69e91db7ba68d38efc020acc7a9015c3e419",
+	"filename": "pool/main/r/rust-selinux-sys/librust-selinux-sys-dev_0.7.0-2_amd64.deb",
+	"size": 14436,
+	"md5": "9b1cd0f4eaceeb1843d36b7b5d1f944b",
+	"sha256": "3874c691ae8e056d4b23f7b7dad4ac682515d302ff76e19b388d22d24c1adeee",
 	"descriptionMd5": "b966e2965463b4fd7d4fab0b9026cbb4"
 }

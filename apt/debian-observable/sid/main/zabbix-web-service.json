@@ -6,12 +6,13 @@
 	],
 	"package": "zabbix-web-service",
 	"source": "zabbix",
-	"version": "1:7.0.22+dfsg-1.1",
+	"version": "1:7.0.27+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"adduser",
 		"sysvinit-utils (>= 3.05-4~)"
 	],
@@ -21,13 +22,13 @@
 	"suggests": [
 		"logrotate"
 	],
-	"installedSize": 11886,
+	"installedSize": 11904,
 	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
 	"description": "Zabbix network monitoring solution - web-service",
 	"homepage": "http://zabbix.com",
-	"filename": "pool/main/z/zabbix/zabbix-web-service_7.0.22+dfsg-1.1_amd64.deb",
-	"size": 3659488,
-	"md5": "86e56a294e832b1b15e946e7a5133e17",
-	"sha256": "aba205d19a6f500c0d877d30b3574eba4ff084e187f1eeb72bb7d1876834d5a9",
+	"filename": "pool/main/z/zabbix/zabbix-web-service_7.0.27+dfsg-1_amd64.deb",
+	"size": 3666932,
+	"md5": "07d4eefae177f6ab2b86ca8523d75afb",
+	"sha256": "cc3c15a6f90d154cac78a6a3e61ec862dca371442e9732dc59dd0354c11d1242",
 	"descriptionMd5": "e515f8d54ba8245ba999e61f9af910f6"
 }]
