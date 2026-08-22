@@ -6,7 +6,7 @@
 	],
 	"package": "libdex-1-1",
 	"source": "libdex",
-	"version": "1.2~beta-1",
+	"version": "1.2~beta-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,20 @@
 		"libglib2.0-0t64 (>= 2.87)",
 		"liburing2 (>= 2.3)"
 	],
+	"breaks": [
+		"d-spy (<< 49)",
+		"foundry (<< 1.1.1-2~)",
+		"gnome-builder (<< 50.0-2~)",
+		"manuals (<< 50.1-2~)",
+		"sysprof (<< 49)"
+	],
 	"installedSize": 339,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Library for deferred execution",
 	"homepage": "https://gitlab.gnome.org/GNOME/libdex",
-	"filename": "pool/main/libd/libdex/libdex-1-1_1.2~beta-1_amd64.deb",
-	"size": 100608,
-	"md5": "13eb7011b170cb2c0acc5350cac69356",
-	"sha256": "045de2f84bef84ded7cee286e910c3da1c1b4f27cdb8734900bf2d4114ca38be",
+	"filename": "pool/main/libd/libdex/libdex-1-1_1.2~beta-2_amd64.deb",
+	"size": 100876,
+	"md5": "2f9d3ac8f70f4c4ad77d4828c84f20e2",
+	"sha256": "891d3d4b98eec8123715c295e75a4f11930479a1d81f2686fbab2f967dcc153c",
 	"descriptionMd5": "d8e5745abb23d90be6377c0a76d6dba6"
 }]

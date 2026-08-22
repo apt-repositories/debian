@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libxrt-utils-alveo",
-	"source": "xrt (1:2.21.75+dfsg-9)",
-	"version": "1:2.21.75+dfsg-9+b1",
+	"source": "xrt",
+	"version": "1:2.25.0-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,23 +16,24 @@
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 14)",
-		"libxrt2 (>= 1:2.21.75+dfsg)",
+		"libuuid1 (>= 2.16)",
+		"libxrt2 (>= 1:2.25.0)",
 		"libxrt-utils",
-		"libxrt-alveo2 (= 1:2.21.75+dfsg-9+b1)"
+		"libxrt-alveo2 (= 1:2.25.0-2)"
 	],
 	"replaces": [
-		"libxrt-utils (<< 1:2.21.75+dfsg-9+b1)"
+		"libxrt-utils (<< 1:2.25.0-2)"
 	],
 	"breaks": [
-		"libxrt-utils (<< 1:2.21.75+dfsg-9+b1)"
+		"libxrt-utils (<< 1:2.25.0-2)"
 	],
-	"installedSize": 3254,
+	"installedSize": 3315,
 	"maintainer": "Debian Xilinx Package Maintainers <team+pkg-xilinx@tracker.debian.org>",
 	"description": "Xilinx Runtime (XRT) ALVEO - runtime -- utilities",
 	"homepage": "https://www.xilinx.com/products/design-tools/vitis/xrt.html",
-	"filename": "pool/main/x/xrt/libxrt-utils-alveo_2.21.75+dfsg-9+b1_amd64.deb",
-	"size": 908856,
-	"md5": "1b959c01a69c9ea5d464046951f034a8",
-	"sha256": "ee4f088f51226e9afbc75e557d112bb61b79e164b121b40dc019b2b5102f19e5",
+	"filename": "pool/main/x/xrt/libxrt-utils-alveo_2.25.0-2_amd64.deb",
+	"size": 923840,
+	"md5": "e3b1162df3ddbc322dd93a404bc4cb91",
+	"sha256": "ae148f9f2acf76380e14b6a4c2f8881b873e2c346125d58b711ad34f249a5868",
 	"descriptionMd5": "564a46e01683500415c5c6e69aa8bc3b"
 }]
