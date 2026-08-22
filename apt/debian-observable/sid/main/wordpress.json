@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "wordpress",
-	"version": "7.0.3+dfsg1-1",
+	"version": "7.1+dfsg1-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,12 +17,14 @@
 		"php-gd",
 		"php-mysql | php-mysqlnd",
 		"libjs-cropper (>= 1.2.2)",
+		"libjs-jquery-ui (<< 1.14.2+dfsg.0~)",
+		"libjs-jquery-ui (>= 1.14.2+dfsg)",
 		"libjs-lodash (>= 4.18.1+dfsg1)",
 		"libjs-underscore (>= 1.13.8~dfsg+~1.13.0)",
+		"libphp-phpmailer (>= 7.1.1)",
 		"php-getid3 (>= 1.9.25+dfsg)"
 	],
 	"recommends": [
-		"wordpress-l10n",
 		"wordpress-theme-twentytwentyfive"
 	],
 	"suggests": [
@@ -34,13 +36,13 @@
 		"php-ssh2",
 		"php-zip"
 	],
-	"installedSize": 69812,
+	"installedSize": 93359,
 	"maintainer": "Craig Small <csmall@debian.org>",
 	"description": "weblog manager",
 	"homepage": "https://wordpress.org",
-	"filename": "pool/main/w/wordpress/wordpress_7.0.3+dfsg1-1_all.deb",
-	"size": 10713832,
-	"md5": "1021424a5bda0908df64d257cb17da77",
-	"sha256": "e0c92de8e07ab5c1afb8d9f3713968bab911ada7c2c2ad83b923da2521535799",
+	"filename": "pool/main/w/wordpress/wordpress_7.1+dfsg1-1_all.deb",
+	"size": 14352228,
+	"md5": "6bb37008b5b4d3a14a429690b8a3decf",
+	"sha256": "e3cd2ff93a2b6906dc6cd47c221f12bb59616909025ac1fc9dd232abbb92acd3",
 	"descriptionMd5": "3558d680fa97c6a3f32c5c5e9f4a182a"
 }]

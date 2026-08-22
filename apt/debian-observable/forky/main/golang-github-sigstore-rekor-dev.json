@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-sigstore-rekor-dev",
 	"source": "rekor",
-	"version": "1.5.3-1",
+	"version": "1.5.3-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -21,6 +21,7 @@
 		"golang-github-go-openapi-validate-dev",
 		"golang-github-go-viper-mapstructure-dev",
 		"golang-github-google-trillian-dev",
+		"golang-github-gowebpki-jcs-dev",
 		"golang-github-hashicorp-go-cleanhttp-dev",
 		"golang-github-hashicorp-go-retryablehttp-dev",
 		"golang-github-in-toto-in-toto-golang-dev",
@@ -39,16 +40,18 @@
 		"golang-go.uber-zap-dev",
 		"golang-golang-x-crypto-dev",
 		"golang-google-protobuf-dev",
-		"golang-k8s-sigs-release-utils-dev",
-		"golang-webpki-org-jsoncanonicalizer-dev (>> 0.20210204-1.1~)"
+		"golang-k8s-sigs-release-utils-dev"
 	],
-	"installedSize": 2356,
+	"breaks": [
+		"golang-github-containers-image-dev (<< 5.39.2-2)"
+	],
+	"installedSize": 2355,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Software Supply Chain Transparency Log (library)",
 	"homepage": "https://github.com/sigstore/rekor",
-	"filename": "pool/main/r/rekor/golang-github-sigstore-rekor-dev_1.5.3-1_all.deb",
-	"size": 319772,
-	"md5": "a63d6efc6e65e537954474d68f985397",
-	"sha256": "e821282a0067e85f870c7f8e53e2848e2f29deba052202639a67d669ff6fd553",
+	"filename": "pool/main/r/rekor/golang-github-sigstore-rekor-dev_1.5.3-2_all.deb",
+	"size": 319988,
+	"md5": "88478085d7abe3bed6fd6456ab14fd35",
+	"sha256": "df8bc37948c583ba8f1d5b7d2877f4598c2f3746275364696295dae8c290aaff",
 	"descriptionMd5": "d3a94b5c5e0e6d1fcaa7bf0ac62dab43"
 }]
