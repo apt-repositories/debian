@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "cinnamon",
-	"version": "6.6.9-1",
+	"version": "6.6.9-2",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"cinnamon-common (= 6.6.9-1)",
+		"accountsservice",
+		"cinnamon-common (= 6.6.9-2)",
 		"cinnamon-control-center (>= 6.6)",
 		"cinnamon-desktop-data (>= 6.6)",
 		"cinnamon-l10n (>= 6.6)",
@@ -18,7 +19,6 @@
 		"cinnamon-session (>= 6.6)",
 		"cinnamon-settings-daemon (>= 6.6)",
 		"cjs (>= 140~)",
-		"cups-pk-helper",
 		"dbus-bin",
 		"default-dbus-session-bus | dbus-session-bus",
 		"gir1.2-accountsservice-1.0",
@@ -98,6 +98,7 @@
 	"recommends": [
 		"blueman",
 		"cinnamon-core",
+		"cups-client",
 		"gnome-online-accounts-gtk",
 		"gnome-terminal",
 		"ibus",
@@ -123,13 +124,13 @@
 		"cinnamon-common (<< 6.0.4-2~)",
 		"cinnamon-core (<< 5.4~)"
 	],
-	"installedSize": 1520,
+	"installedSize": 1548,
 	"maintainer": "Debian Cinnamon Team <debian-cinnamon@lists.debian.org>",
 	"description": "Innovative and comfortable desktop",
 	"homepage": "https://github.com/linuxmint/cinnamon",
-	"filename": "pool/main/c/cinnamon/cinnamon_6.6.9-1_amd64.deb",
-	"size": 416720,
-	"md5": "cb59b400a46d7170ff3fb0e417efc0ec",
-	"sha256": "f5cbc5bb1440af6897754d473cfd04156e376c76d619dbaec997835f2a3042db",
+	"filename": "pool/main/c/cinnamon/cinnamon_6.6.9-2_amd64.deb",
+	"size": 432048,
+	"md5": "a65baf1f78c4b7a5ce77b053c9fd42c1",
+	"sha256": "20a6297e2745db3dd31633c865dabe662ba59a5c42dd13bb433784c8ddf992e2",
 	"descriptionMd5": "85a575fee9af55bc8d39cbd88a551b9d"
 }

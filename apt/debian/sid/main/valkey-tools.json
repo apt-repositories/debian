@@ -6,12 +6,13 @@
 	],
 	"package": "valkey-tools",
 	"source": "valkey",
-	"version": "8.1.4+dfsg1-2",
+	"version": "9.1.1-1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libatomic1 (>= 4.8)",
 		"libc6 (>= 2.38)",
 		"libjemalloc2 (>= 4.0.0)",
@@ -22,13 +23,13 @@
 	"suggests": [
 		"ruby-redis"
 	],
-	"installedSize": 6926,
+	"installedSize": 8027,
 	"maintainer": "Lucas Kanashiro <kanashiro@debian.org>",
 	"description": "Persistent key-value database with network interface (client)",
 	"homepage": "https://valkey.io",
-	"filename": "pool/main/v/valkey/valkey-tools_8.1.4+dfsg1-2_amd64.deb",
-	"size": 1225764,
-	"md5": "fd647186aca7c5a4b0c804a9c0c124cd",
-	"sha256": "f3ca675f559f979ac26cf8d384dc4ba0f841adde97dac2c11d24bb434d204b4e",
+	"filename": "pool/main/v/valkey/valkey-tools_9.1.1-1_amd64.deb",
+	"size": 1442956,
+	"md5": "c450633b5d495042264864b55353168a",
+	"sha256": "f727e095dfebefdf806693a0aed63218e5c46498c03c7d643ece4790c0cfc9e1",
 	"descriptionMd5": "4f62d2faf69aee6c687920fcf2c2be28"
 }
