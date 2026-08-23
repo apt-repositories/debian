@@ -5,21 +5,27 @@
 		"Size"
 	],
 	"package": "breeze-icon-theme",
-	"source": "breeze-icons",
-	"version": "4:5.116.0-1",
+	"source": "kf6-breeze-icons",
+	"version": "4:6.28.0-3",
 	"section": "kde",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"kf6-breeze-icon-theme"
+		"hicolor-icon-theme"
 	],
-	"installedSize": 14,
+	"replaces": [
+		"kf6-breeze-icon-theme (<< 6.28.0-3~)"
+	],
+	"breaks": [
+		"kf6-breeze-icon-theme (<< 6.28.0-3~)"
+	],
+	"installedSize": 58978,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
-	"description": "Default Plasma icon theme - transitional dummy package",
+	"description": "Default Plasma icon theme (Breeze)",
 	"homepage": "https://invent.kde.org/frameworks/breeze-icons",
-	"filename": "pool/main/b/breeze-icons/breeze-icon-theme_5.116.0-1_all.deb",
-	"size": 5056,
-	"md5": "5c2dff990c101e86807935b0cf8a787e",
-	"sha256": "a105114cc7cb73d02f05fde5fc2ea9b1e83aec4615fba4fc184336e5694153d7",
-	"descriptionMd5": "4039569f53c07fc94dd9c31768b4f051"
+	"filename": "pool/main/k/kf6-breeze-icons/breeze-icon-theme_6.28.0-3_all.deb",
+	"size": 3667264,
+	"md5": "3852d8bc0f526064e8e7cfb4decdf201",
+	"sha256": "e96fc15d95cebbe9a595211304c2befafb1389bd2d16957814d7b7d18d2720be",
+	"descriptionMd5": "abe8878c167a96d3deb5cd7f70646e8c"
 }

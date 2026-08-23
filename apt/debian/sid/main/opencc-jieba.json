@@ -6,28 +6,34 @@
 	],
 	"package": "opencc-jieba",
 	"source": "opencc",
-	"version": "1.4.1+ds1-7",
+	"version": "1.4.1+ds1-8",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"opencc (= 1.4.1+ds1-7)",
-		"opencc-jieba-data (= 1.4.1+ds1-7)",
+		"opencc (= 1.4.1+ds1-8)",
+		"opencc-jieba-data (= 1.4.1+ds1-8)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libopencc1.4 (>= 1.4.1)",
 		"libstdc++6 (>= 14)"
 	],
+	"replaces": [
+		"opencc-jieba-data (<< 1.4.1+ds1-8~)"
+	],
 	"enhances": [
 		"opencc"
 	],
-	"installedSize": 201,
+	"breaks": [
+		"opencc-jieba-data (<< 1.4.1+ds1-8~)"
+	],
+	"installedSize": 7495,
 	"maintainer": "Debian Input Method Team <debian-input-method@lists.debian.org>",
 	"description": "simplified-traditional Chinese conversion library - Jieba segmentation plugin",
 	"homepage": "https://github.com/BYVoid/OpenCC",
-	"filename": "pool/main/o/opencc/opencc-jieba_1.4.1+ds1-7_amd64.deb",
-	"size": 85408,
-	"md5": "787ad6f666b9fd182b8e30fe79422866",
-	"sha256": "9dcba4d64325e76d4c7c7148520e1e6f9cdc9e49249fe9437b0d5f75a5fe17f4",
-	"descriptionMd5": "3fa2142da9bc3e79650d897c7bf5195b"
+	"filename": "pool/main/o/opencc/opencc-jieba_1.4.1+ds1-8_amd64.deb",
+	"size": 1658948,
+	"md5": "d7058f45fc5872840ac0c3fc328c8694",
+	"sha256": "b4b7fcb6d7a8e5071b6297b5e1a7ebab0938d4403787537488cce05cc4cbbc5f",
+	"descriptionMd5": "f1432855882298db434e6ec10e681aeb"
 }
