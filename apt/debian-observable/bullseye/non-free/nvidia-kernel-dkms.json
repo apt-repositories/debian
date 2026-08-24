@@ -30,4 +30,35 @@
 	"md5": "6f28844ef3e00b1462ecacbbf19a20d6",
 	"sha256": "26a3e0fe9c0bc76c777c7dcb392bc8a511d5e6ee1f159fdc39ea1436c0ae8154",
 	"descriptionMd5": "a5d8efe4de7132fe55abe81b1954295b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-kernel-dkms",
+	"source": "nvidia-graphics-drivers",
+	"version": "535.309.01-0+deb11u1",
+	"section": "non-free/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"firmware-nvidia-gsp (= 535.309.01) | firmware-nvidia-gsp-535.309.01",
+		"nvidia-kernel-support--v1",
+		"dkms (>= 2.1.0.0)"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup"
+	],
+	"recommends": [
+		"nvidia-driver (>= 535.309.01) | libcuda1 (>= 535.309.01)"
+	],
+	"installedSize": 73112,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA binary kernel module DKMS source",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/updates/non-free/n/nvidia-graphics-drivers/nvidia-kernel-dkms_535.309.01-0+deb11u1_amd64.deb",
+	"size": 45118564,
+	"sha256": "68daac51908d42418bda888880ebbbc4faa8c740b6a17c40eee3409f1ee15ba8",
+	"descriptionMd5": "10da6995f599868e06d8c3cb6aa6d976"
 }]

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-driver",
+	"source": "nvidia-graphics-drivers",
+	"version": "535.309.01-0+deb11u1",
+	"section": "non-free/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-driver-libs (= 535.309.01-0+deb11u1)",
+		"nvidia-driver-bin (= 535.309.01-0+deb11u1)",
+		"xserver-xorg-video-nvidia (= 535.309.01-0+deb11u1)",
+		"nvidia-vdpau-driver (= 535.309.01-0+deb11u1)",
+		"nvidia-alternative (= 535.309.01-0+deb11u1)",
+		"nvidia-kernel-dkms (= 535.309.01-0+deb11u1) | nvidia-kernel-535.309.01 | nvidia-open-kernel-535.309.01",
+		"nvidia-support"
+	],
+	"preDepends": [
+		"nvidia-installer-cleanup",
+		"nvidia-legacy-check (>= 495)"
+	],
+	"recommends": [
+		"nvidia-settings (>= 535)",
+		"libnvidia-cfg1 (= 535.309.01-0+deb11u1)",
+		"nvidia-persistenced (>= 535)"
+	],
+	"suggests": [
+		"nvidia-kernel-dkms (>= 535.309.01) | nvidia-kernel-source (>= 535.309.01) | nvidia-open-kernel-source (>= 535.309.01)"
+	],
+	"installedSize": 1547,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA metapackage",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/updates/non-free/n/nvidia-graphics-drivers/nvidia-driver_535.309.01-0+deb11u1_amd64.deb",
+	"size": 644316,
+	"sha256": "e8bd4746bf1057122b88165bc4b009658934253e5ec139a215e0ffd2288633ed",
+	"descriptionMd5": "3c1c68f6fcd24a8640d4ca4bbdb9d0fb"
+}
