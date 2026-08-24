@@ -1,0 +1,32 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-opencl-icd",
+	"source": "nvidia-graphics-drivers",
+	"version": "535.309.01-0+deb11u1",
+	"section": "non-free/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-opencl-common",
+		"ocl-icd-libopencl1 | nvidia-libopencl1 | libopencl1",
+		"nvidia-alternative (= 535.309.01-0+deb11u1)",
+		"libcuda1 (= 535.309.01-0+deb11u1)",
+		"libnvidia-nvvm4 (= 535.309.01-0+deb11u1)",
+		"libc6 (>= 2.9)"
+	],
+	"enhances": [
+		"libopencl1"
+	],
+	"installedSize": 24029,
+	"maintainer": "Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>",
+	"description": "NVIDIA OpenCL installable client driver (ICD)",
+	"homepage": "https://www.nvidia.com",
+	"filename": "pool/updates/non-free/n/nvidia-graphics-drivers/nvidia-opencl-icd_535.309.01-0+deb11u1_amd64.deb",
+	"size": 2913476,
+	"sha256": "db1a8e7cf01f0045791ef41b3c13ff20a2b6fd90018cbb0395c46c384ef86e38",
+	"descriptionMd5": "e9a86cdb279a70cd57728488a19355ac"
+}

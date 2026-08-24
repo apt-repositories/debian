@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "libnginx-mod-http-lua",
-	"source": "libnginx-mod-http-lua (1:0.10.29-2)",
-	"version": "1:0.10.29-2+b5",
+	"version": "1:0.10.29-3",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"lua-resty-core (>= 0.1.32)",
+		"lua-resty-core (<< 0.1.32.1~)",
 		"libnginx-mod-http-ndk",
 		"nginx-abi-1.30.4-2",
 		"libc6 (>= 2.33)",
@@ -20,13 +20,13 @@
 	"recommends": [
 		"nginx"
 	],
-	"installedSize": 489,
+	"installedSize": 504,
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "Lua module for Nginx",
 	"homepage": "https://github.com/openresty/lua-nginx-module",
-	"filename": "pool/main/libn/libnginx-mod-http-lua/libnginx-mod-http-lua_0.10.29-2+b5_amd64.deb",
-	"size": 170420,
-	"md5": "e96bc7d591011327cc08f83cab9d3400",
-	"sha256": "92bb68609eba0624e710b1c1cbcc5cca4dfda9d11174932ea84ca0af2a4a1474",
+	"filename": "pool/main/libn/libnginx-mod-http-lua/libnginx-mod-http-lua_0.10.29-3_amd64.deb",
+	"size": 182444,
+	"md5": "0680bb687f7cc02862a687542836c096",
+	"sha256": "b403e78fc4cd2b2e004ff6862f45ae025b25948048b694ab871061b2c24f8d28",
 	"descriptionMd5": "54f5fee9d10603d78e3df169c29b9a06"
 }]

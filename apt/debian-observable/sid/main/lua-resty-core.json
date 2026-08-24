@@ -5,23 +5,24 @@
 		"Size"
 	],
 	"package": "lua-resty-core",
-	"version": "0.1.32-2",
+	"version": "0.1.32-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"libluajit-5.1-2",
-		"libnginx-mod-http-lua (<< 1:0.10.29.1~)",
-		"libnginx-mod-http-lua (>= 1:0.10.29)",
 		"lua-resty-lrucache (>= 0.13-11)"
+	],
+	"breaks": [
+		"libnginx-mod-http-lua (<< 1:0.10.29)"
 	],
 	"installedSize": 263,
 	"maintainer": "Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>",
 	"description": "New FFI-based Lua API for NGINX Lua module",
 	"homepage": "https://github.com/openresty/lua-resty-core",
-	"filename": "pool/main/l/lua-resty-core/lua-resty-core_0.1.32-2_all.deb",
-	"size": 35720,
-	"md5": "e774c14519861dcc1fd538f22256ca20",
-	"sha256": "62d8ef2fcc8031d53e5a9c4a8c39de76a5c36d618a387a4b237db213b534a67e",
+	"filename": "pool/main/l/lua-resty-core/lua-resty-core_0.1.32-3_all.deb",
+	"size": 35808,
+	"md5": "9e8c8dc61f0456e13d02f5561b529226",
+	"sha256": "ccaa31cfac13757a76edc40559dea5fb394e397de189c2c445f6a7f046f82632",
 	"descriptionMd5": "233f138a7d6e6c22ddd35f302d972b98"
 }]

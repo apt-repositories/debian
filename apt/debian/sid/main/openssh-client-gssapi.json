@@ -5,22 +5,52 @@
 		"Size"
 	],
 	"package": "openssh-client-gssapi",
-	"source": "openssh",
-	"version": "1:10.4p1-4",
+	"source": "openssh-gssapi",
+	"version": "1:10.4p1-5",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"openssh-client (>= 1:10.4p1-4)",
-		"openssh-common (= 1:10.4p1-4)"
+		"openssh-common (<< 1:10.4p1.1)",
+		"openssh-common (>= 1:10.4p1)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"libc6 (>= 2.42)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.0)",
+		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 10,
+	"recommends": [
+		"xauth"
+	],
+	"suggests": [
+		"keychain",
+		"libpam-ssh",
+		"monkeysphere",
+		"ssh-askpass"
+	],
+	"replaces": [
+		"openssh-client",
+		"openssh-sk-helper",
+		"ssh",
+		"ssh-krb5"
+	],
+	"breaks": [
+		"openssh-sk-helper"
+	],
+	"conflicts": [
+		"openssh-client",
+		"openssh-server (<< 1:10.3p1-6~)"
+	],
+	"installedSize": 3827,
 	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
 	"description": "secure shell (SSH) client, with GSS-API support",
 	"homepage": "https://www.openssh.com/",
-	"filename": "pool/main/o/openssh/openssh-client-gssapi_10.4p1-4_amd64.deb",
-	"size": 1556,
-	"md5": "c060a1c63abbda130a7c41ff963c5bbc",
-	"sha256": "dbf7efad771cea107600db911ead46ff124484e7dab9bb4eaf1116d959e9c196",
-	"descriptionMd5": "1032b939c358dc15573b09b448ce55b6"
+	"filename": "pool/main/o/openssh-gssapi/openssh-client-gssapi_10.4p1-5_amd64.deb",
+	"size": 928484,
+	"md5": "1409858f1bd59d7e5086f8566e92295b",
+	"sha256": "9eb44b897763ff2d59b44f9a788da2be331daaab5117631a6dcdaf90c8715a52",
+	"descriptionMd5": "84e178376dd44c711f76d67da34c387b"
 }

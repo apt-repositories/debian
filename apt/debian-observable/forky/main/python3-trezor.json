@@ -6,15 +6,16 @@
 	],
 	"package": "python3-trezor",
 	"source": "python-trezor",
-	"version": "0.13.10-3",
+	"version": "0.20.2-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"python3:any",
 		"python3-click (>= 7)",
 		"python3-construct",
 		"python3-construct-classes",
-		"python3-cryptography (>= 41)",
+		"python3-cryptography (>= 47)",
 		"python3-ecdsa (>= 0.9)",
 		"python3-mnemonic (>= 0.20)",
 		"python3-requests (>= 2.4.0)",
@@ -22,7 +23,9 @@
 		"python3-slip10",
 		"python3-typing-extensions",
 		"python3-usb1",
-		"python3:any"
+		"python3-keyring",
+		"python3-noiseprotocol",
+		"python3-platformdirs"
 	],
 	"recommends": [
 		"python3-pil",
@@ -38,13 +41,13 @@
 	"breaks": [
 		"electrum (<< 3.1.0)"
 	],
-	"installedSize": 977,
+	"installedSize": 1372,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "library for communicating with TREZOR Bitcoin HW wallet (Python 3)",
 	"homepage": "https://github.com/trezor/trezor-firmware/tree/main/python",
-	"filename": "pool/main/p/python-trezor/python3-trezor_0.13.10-3_all.deb",
-	"size": 167772,
-	"md5": "6755528fab04b5f489d1d521c40c859e",
-	"sha256": "1624ba67b795720cf9b8fd54a66124424e5a070f47cdd17dfe7785808b9b9aaf",
+	"filename": "pool/main/p/python-trezor/python3-trezor_0.20.2-1_all.deb",
+	"size": 226648,
+	"md5": "0ee085685566c2d749e7ddf7c41b6894",
+	"sha256": "bb650407b3ab30b8fe3bea5e96f96fa6a024fdfea2791739dc7f2e66faec43f0",
 	"descriptionMd5": "a1a5e1d1c3899606a894f048cff7c646"
 }]
