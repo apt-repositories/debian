@@ -6,23 +6,28 @@
 	],
 	"package": "librust-gix-hashtable-dev",
 	"source": "rust-gix-hashtable",
-	"version": "0.15.0-1",
+	"version": "0.16.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-gix-hash-0.25+default-dev",
-		"librust-gix-hash-0.25+sha1-dev",
-		"librust-hashbrown-0.16+inline-more-dev",
+		"librust-gix-hash-0.26+default-dev",
+		"librust-gix-hash-0.26+sha1-dev",
+		"librust-gix-hash-0.26+sha256-dev",
+		"librust-hashbrown+inline-more-dev (<< 0.18)",
+		"librust-hashbrown+inline-more-dev (>= 0.16)",
 		"librust-parking-lot-0.12+default-dev (>= 0.12.4)"
 	],
-	"installedSize": 37,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 41,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Crate that provides hashtable based data structures optimized to utilize ObjectId keys - Rust source code",
+	"description": "Hashtables optimized for git ObjectId keys - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-hashtable/librust-gix-hashtable-dev_0.15.0-1_amd64.deb",
-	"size": 9380,
-	"md5": "f245c180f783b431b5b48daf69548d9b",
-	"sha256": "cb887a376c222b48c346c58f4f9283fbe8efbf7a81080b3c74344cdf359fa7ab",
-	"descriptionMd5": "61344a25293d555ccf0348b08fffddde"
+	"filename": "pool/main/r/rust-gix-hashtable/librust-gix-hashtable-dev_0.16.0-1_amd64.deb",
+	"size": 9756,
+	"md5": "77ae4c40606a754d9ecd4c0a8bd1fec6",
+	"sha256": "06a85b8d9601e73d030a5d8ed4bad709170acbccb49d91c4b424d04d6fb42bfe",
+	"descriptionMd5": "bd41cd4bc3ab62d6c4f2ffeb9f610b78"
 }]

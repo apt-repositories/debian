@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gix-url-dev",
 	"source": "rust-gix-url",
-	"version": "0.36.0-1",
+	"version": "0.37.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,19 +14,24 @@
 		"librust-bstr-1+serde-dev (>= 1.12.0)",
 		"librust-bstr-1+std-dev (>= 1.12.0)",
 		"librust-document-features-0.2+default-dev",
-		"librust-gix-path-0.12+default-dev",
+		"librust-gix-path-0.12+default-dev (>= 0.12.4)",
+		"librust-gix-utils-0.3+bstr-dev (>= 0.3.5)",
+		"librust-gix-utils-0.3+default-dev (>= 0.3.5)",
 		"librust-percent-encoding-2+default-dev (>= 2.3.1)",
 		"librust-serde-1+derive-dev (>= 1.0.114)",
 		"librust-serde-1+std-dev (>= 1.0.114)",
 		"librust-thiserror-2+default-dev (>= 2.0.18)"
 	],
-	"installedSize": 93,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 112,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "The gitoxide project implementing parsing and serialization of gix-url - Rust source code",
+	"description": "Parse and serialize git URLs - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-url/librust-gix-url-dev_0.36.0-1_amd64.deb",
-	"size": 21312,
-	"md5": "734396f4bc1e9766e0294556f93a0134",
-	"sha256": "a9b0688563bd0eb37b6db389247104e5afdde52609ad5beae67602ca41134d83",
-	"descriptionMd5": "287de9f85dfd6cca476d76f1ebb112dd"
+	"filename": "pool/main/r/rust-gix-url/librust-gix-url-dev_0.37.1-1_amd64.deb",
+	"size": 25112,
+	"md5": "bf991ab4a5fd42228146799d38bbb336",
+	"sha256": "dc461e5c8df4a6e7203464368f8633243f48422ca9c45ef890db194ae008fe01",
+	"descriptionMd5": "f565cf7390c85c60742b4301534b4fd2"
 }

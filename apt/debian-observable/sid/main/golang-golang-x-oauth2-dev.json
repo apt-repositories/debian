@@ -6,17 +6,20 @@
 	],
 	"package": "golang-golang-x-oauth2-dev",
 	"source": "golang-golang-x-oauth2",
-	"version": "0.27.0-1",
+	"version": "0.36.0-3",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 232,
+	"breaks": [
+		"golang-k8s-client-go (<< 0.33.4-2~)"
+	],
+	"installedSize": 243,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "make OAuth2 authorized and authenticated HTTP requests",
 	"homepage": "https://golang.org/x/oauth2",
-	"filename": "pool/main/g/golang-golang-x-oauth2/golang-golang-x-oauth2-dev_0.27.0-1_all.deb",
-	"size": 37228,
-	"md5": "cdf7975b3962ed3b0550f7d71def6601",
-	"sha256": "384a4e081e75d1768b140579626f882422d6b161b784c416dd97075983eeb82d",
+	"filename": "pool/main/g/golang-golang-x-oauth2/golang-golang-x-oauth2-dev_0.36.0-3_all.deb",
+	"size": 39004,
+	"md5": "4fa61f11aca0a9cf43d0139d68165139",
+	"sha256": "30e55722ef20f5963d13a6c1bbabf61151c4e4e2d27e7b63934f7e9a622550d5",
 	"descriptionMd5": "1654cf8b886a5788b334b98ad4f40804"
 }]

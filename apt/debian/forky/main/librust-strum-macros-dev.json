@@ -5,28 +5,28 @@
 		"Size"
 	],
 	"package": "librust-strum-macros-dev",
-	"source": "rust-strum-macros (0.26.4-2)",
-	"version": "0.26.4-2+b1",
+	"source": "rust-strum-macros",
+	"version": "0.28.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-heck+default-dev (<< 0.6-~~)",
-		"librust-heck+default-dev (>= 0.4-~~)",
+		"librust-heck-0.5+default-dev",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
-		"librust-rustversion-1+default-dev",
 		"librust-syn-2+default-dev",
-		"librust-syn-2+extra-traits-dev",
 		"librust-syn-2+parsing-dev"
 	],
-	"installedSize": 173,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 178,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Helpful macros for working with enums and strings - Rust source code",
 	"homepage": "https://github.com/Peternator7/strum",
-	"filename": "pool/main/r/rust-strum-macros/librust-strum-macros-dev_0.26.4-2+b1_amd64.deb",
-	"size": 28656,
-	"md5": "b2d60eeb8ac9404026afc6b9eaefe917",
-	"sha256": "c9871eb2767973a7a77121f24fff97a04c1a6713f0f322b110730765c115bdcd",
+	"filename": "pool/main/r/rust-strum-macros/librust-strum-macros-dev_0.28.0-2_amd64.deb",
+	"size": 30172,
+	"md5": "3e584c54fbb0f75a0fea554345523af9",
+	"sha256": "1a6a3e075af673a25885f713efd87a566b38bf9fbe88d7aa4b87900f47dbc026",
 	"descriptionMd5": "a7eb95625e883c68126ea9590bf229f1"
 }

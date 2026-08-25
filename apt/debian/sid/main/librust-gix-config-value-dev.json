@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gix-config-value-dev",
 	"source": "rust-gix-config-value",
-	"version": "0.18.0-1",
+	"version": "0.19.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,18 +15,21 @@
 		"librust-bstr-1+serde-dev (>= 1.12.0)",
 		"librust-bstr-1+std-dev (>= 1.12.0)",
 		"librust-document-features-0.2+default-dev",
-		"librust-gix-path-0.12+default-dev",
+		"librust-gix-path-0.12+default-dev (>= 0.12.4)",
 		"librust-libc-0.2+default-dev",
 		"librust-serde-1+derive-dev (>= 1.0.114)",
 		"librust-thiserror-2+default-dev (>= 2.0.18)"
 	],
-	"installedSize": 66,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 68,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "The gitoxide project providing git-config value parsing - Rust source code",
+	"description": "Parse git-config values - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-config-value/librust-gix-config-value-dev_0.18.0-1_amd64.deb",
-	"size": 15876,
-	"md5": "e1401b1e1b160a7e00c78e3ffe075b43",
-	"sha256": "cbc2330c4675987b9afd4070e22c05b962a6e498b3ab0cf9e3bfa961e262a7cc",
-	"descriptionMd5": "fa38945873e9895ab45301910c25fbc9"
+	"filename": "pool/main/r/rust-gix-config-value/librust-gix-config-value-dev_0.19.1-1_amd64.deb",
+	"size": 16320,
+	"md5": "791a3f71bfafda74524c14c07144e732",
+	"sha256": "2e19bfe3637fc1af5c8c3709fbd492bb79c5e0fca0e80f49c23cdd4dfcc876b9",
+	"descriptionMd5": "a15e707f7ec025922b16f6a0ee1cc0d1"
 }

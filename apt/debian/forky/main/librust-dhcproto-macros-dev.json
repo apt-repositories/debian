@@ -5,17 +5,24 @@
 		"Size"
 	],
 	"package": "librust-dhcproto-macros-dev",
-	"source": "rust-dhcproto-macros (0.1.0-1)",
-	"version": "0.1.0-1+b3",
+	"source": "rust-dhcproto-macros",
+	"version": "0.2.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 23,
+	"depends": [
+		"librust-proc-macro2-1+default-dev (>= 1.0.66)",
+		"librust-quote-1+default-dev",
+		"librust-syn-2+default-dev",
+		"librust-syn-2+full-dev"
+	],
+	"installedSize": 26,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Macro library for generating option types for dhcproto - Rust source code",
-	"filename": "pool/main/r/rust-dhcproto-macros/librust-dhcproto-macros-dev_0.1.0-1+b3_amd64.deb",
-	"size": 4692,
-	"md5": "bf0aaa9c7b0763a57c1cbb9c3dca45ec",
-	"sha256": "7e4cc47221bfef2830fc0252bbe4e83970643cffe2838994f66a73e30d366355",
-	"descriptionMd5": "f3a3cf266e5d5cccd69f4f5739fafc1b"
+	"homepage": "https://github.com/bluecatengineering/dhcproto",
+	"filename": "pool/main/r/rust-dhcproto-macros/librust-dhcproto-macros-dev_0.2.0-1_amd64.deb",
+	"size": 5144,
+	"md5": "23625fa4a9b3fe719068072e44450bfb",
+	"sha256": "449dc70861631cb894e264d3dea19afa5a119ff82ad67946cedf5e9e486d5401",
+	"descriptionMd5": "e65970fb563b8455fdd1ec7ba67c69ab"
 }

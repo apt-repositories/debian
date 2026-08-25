@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-native-tls-dev",
-	"source": "rust-native-tls (0.2.14-2)",
-	"version": "0.2.14-2+b1",
+	"source": "rust-native-tls",
+	"version": "0.2.18-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-log-0.4+default-dev (>= 0.4.5-~~)",
-		"librust-openssl-0.10+default-dev (>= 0.10.69-~~)",
-		"librust-openssl-probe-0.1+default-dev",
-		"librust-openssl-sys-0.9+default-dev (>= 0.9.81-~~)"
+		"librust-log-0.4+default-dev (>= 0.4.27)",
+		"librust-openssl-0.10+default-dev (>= 0.10.75)",
+		"librust-openssl-probe-0.2+default-dev (>= 0.2.1)",
+		"librust-openssl-sys-0.9+default-dev (>= 0.9.111)"
 	],
-	"installedSize": 238,
+	"breaks": [
+		"rustc (<< 1.80~)"
+	],
+	"installedSize": 145,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Wrapper over a platform's native TLS implementation - Rust source code",
-	"homepage": "https://github.com/sfackler/rust-native-tls",
-	"filename": "pool/main/r/rust-native-tls/librust-native-tls-dev_0.2.14-2+b1_amd64.deb",
-	"size": 43228,
-	"md5": "4602fc08e27dc04039c97ed3fff24882",
-	"sha256": "232687284d00007a8f971fe19cc0a9c2318604166594609b73bb19a1ca5fc600",
+	"homepage": "https://lib.rs/crates/native-tls",
+	"filename": "pool/main/r/rust-native-tls/librust-native-tls-dev_0.2.18-1_amd64.deb",
+	"size": 25624,
+	"md5": "726a93a03403f5dcfce687542e36976e",
+	"sha256": "a11d96505146d28087ddde86f6344b2bbea0e18b051faf8435a6552237dff637",
 	"descriptionMd5": "3924d9c3d36ee640cb2780ead69cabfe"
 }]

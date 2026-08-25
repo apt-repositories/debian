@@ -6,20 +6,24 @@
 	],
 	"package": "librust-portable-atomic-util-dev",
 	"source": "rust-portable-atomic-util",
-	"version": "0.2.6-1",
+	"version": "0.2.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-portable-atomic-1+require-cas-dev (>= 1.5.1)"
+		"librust-portable-atomic-1+require-cas-dev (>= 1.5.1)",
+		"librust-serde-1-dev (>= 1.0.60)"
 	],
-	"installedSize": 230,
+	"breaks": [
+		"rustc (<< 1.34~)"
+	],
+	"installedSize": 233,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Synchronization primitives built with portable-atomic - Rust source code",
 	"homepage": "https://github.com/taiki-e/portable-atomic-util",
-	"filename": "pool/main/r/rust-portable-atomic-util/librust-portable-atomic-util-dev_0.2.6-1_amd64.deb",
-	"size": 49780,
-	"md5": "3cacefb90c961aadb99e5718f763fecc",
-	"sha256": "7a1550dc7cd7ca14fd5c0d5ceca4f6561af5dd7f9d114cd2656bca8764dab299",
+	"filename": "pool/main/r/rust-portable-atomic-util/librust-portable-atomic-util-dev_0.2.7-1_amd64.deb",
+	"size": 50448,
+	"md5": "a1832a03d94ab5468dc5810ac716f060",
+	"sha256": "4e57f1a4b16d4eb1fae4e372063e2c3e11533a689299d7bebdf6f46b88384f5c",
 	"descriptionMd5": "35eef0e120d5830d58942468faf2765b"
 }
