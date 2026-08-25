@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-rqrr-dev",
-	"source": "rust-rqrr (0.10.0-2)",
-	"version": "0.10.0-2+b1",
+	"source": "rust-rqrr",
+	"version": "0.10.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-g2p-1+default-dev",
-		"librust-image-dev (<< 0.26-~~)",
-		"librust-image-dev (>= 0.24-~~)",
-		"librust-lru-0.12+default-dev"
+		"librust-image-dev (<< 0.26)",
+		"librust-image-dev (>= 0.24)",
+		"librust-lru-0.16+default-dev"
 	],
-	"installedSize": 183,
+	"breaks": [
+		"rustc (<< 1.64.0~)"
+	],
+	"installedSize": 182,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Detect and read QR codes from any image source - Rust source code",
 	"homepage": "https://github.com/WanzenBug/rqrr",
-	"filename": "pool/main/r/rust-rqrr/librust-rqrr-dev_0.10.0-2+b1_amd64.deb",
-	"size": 31972,
-	"md5": "17f9b2a4d917938416821174c9957c6c",
-	"sha256": "a9fd8aea11d367d1e096f558c6bcd110292aeb2190962a591be403a9227c76be",
+	"filename": "pool/main/r/rust-rqrr/librust-rqrr-dev_0.10.1-1_amd64.deb",
+	"size": 31888,
+	"md5": "183e32ff5345feb73deacbc5b0152ede",
+	"sha256": "ad5d535ae7ba5307886bc478b10a55cf5be27429ee8c2f3b6a8ce67a3efdb7ea",
 	"descriptionMd5": "aab5cd1a4f1077ffccf4a33f09bbe3d9"
 }]

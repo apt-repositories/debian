@@ -6,25 +6,26 @@
 	],
 	"package": "librust-cargo-config2-dev",
 	"source": "rust-cargo-config2",
-	"version": "0.1.39-3",
+	"version": "0.1.45-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+default-dev (>= 1.0.165)",
-		"librust-serde-derive-1+default-dev (>= 1.0.165)",
-		"librust-toml+parse-dev (<< 2)",
-		"librust-toml+parse-dev (>= 0.9)",
-		"librust-toml+serde-dev (<< 2)",
-		"librust-toml+serde-dev (>= 0.9)"
+		"librust-serde-1+default-dev (>= 1.0.225)",
+		"librust-serde-derive-1+default-dev (>= 1.0.225)",
+		"librust-toml-1+parse-dev",
+		"librust-toml-1+serde-dev"
 	],
-	"installedSize": 417,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 492,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Load and resolve Cargo configuration - Rust source code",
 	"homepage": "https://github.com/taiki-e/cargo-config2",
-	"filename": "pool/main/r/rust-cargo-config2/librust-cargo-config2-dev_0.1.39-3_amd64.deb",
-	"size": 64360,
-	"md5": "6efd7ce0ae114481498fd8f79ba8a56b",
-	"sha256": "471dfbebd0c8e273af821d48b2d28ce19be986f299ada94444abeae051ae8f73",
+	"filename": "pool/main/r/rust-cargo-config2/librust-cargo-config2-dev_0.1.45-1_amd64.deb",
+	"size": 72824,
+	"md5": "7caf336a7c0a2e2f4b95e4cd38c01ea6",
+	"sha256": "31516949b96c60570cd096f7ef1f2e827cd0efb3a3165b874834145f33593af0",
 	"descriptionMd5": "be7ebfbeb8036efdbea86e33fae7c22a"
 }

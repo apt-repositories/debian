@@ -6,17 +6,18 @@
 	],
 	"package": "ntpsec-ntpviz",
 	"source": "ntpsec",
-	"version": "1.2.4+dfsg-1",
+	"version": "1.2.5+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"fonts-liberation",
 		"gnuplot-nox | gnuplot",
 		"python3",
-		"python3-ntp (= 1.2.4+dfsg-1)",
-		"systemd | cron | cron-daemon"
+		"python3-ntp (= 1.2.5+dfsg-1)",
+		"systemd | cron | cron-daemon",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"recommends": [
 		"ntpsec",
@@ -26,13 +27,13 @@
 	"suggests": [
 		"python3-gps"
 	],
-	"installedSize": 229,
+	"installedSize": 227,
 	"maintainer": "Richard Laager <rlaager@debian.org>",
 	"description": "NTP statistics graphing utility",
 	"homepage": "https://www.ntpsec.org",
-	"filename": "pool/main/n/ntpsec/ntpsec-ntpviz_1.2.4+dfsg-1_amd64.deb",
-	"size": 58280,
-	"md5": "fc9f7d65b2d20f51a4af4236f9426a59",
-	"sha256": "12c912bdd3c19bd47a8c1d4d47a6797f19ee55fd1efcc90f9a59cabcb8cbe3dc",
+	"filename": "pool/main/n/ntpsec/ntpsec-ntpviz_1.2.5+dfsg-1_amd64.deb",
+	"size": 52888,
+	"md5": "aecdf2ebc5aeee7511d7a8538306a47f",
+	"sha256": "3aef200be8a1c4f079310cfd52177f7caa830660a3b33f52d7bf03010c61ba4e",
 	"descriptionMd5": "0eaae42373fa30a1293b94825738d9bd"
 }

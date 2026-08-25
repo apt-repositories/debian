@@ -5,18 +5,25 @@
 		"Size"
 	],
 	"package": "librust-openssl-probe-dev",
-	"source": "rust-openssl-probe (0.1.2-1)",
-	"version": "0.1.2-1+b2",
+	"source": "rust-openssl-probe",
+	"version": "0.2.1-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 34,
+	"breaks": [
+		"librust-curl-dev (<< 0.4.50-2)",
+		"librust-git2-dev (<< 0.21)",
+		"librust-native-tls-dev (<< 0.2.18)",
+		"librust-rustls-native-certs-dev (<< 0.8.4+ds-2)",
+		"rustc (<< 1.60.0~)"
+	],
+	"installedSize": 49,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Helping to find SSL certificate locations on the system for OpenSSL - Rust source code",
-	"homepage": "https://github.com/alexcrichton/openssl-probe",
-	"filename": "pool/main/r/rust-openssl-probe/librust-openssl-probe-dev_0.1.2-1+b2_amd64.deb",
-	"size": 8296,
-	"md5": "15b600a58675465ce3413944c3c84bc4",
-	"sha256": "5ebc8b0b85d1a138e17f92c93c3dc4972e066135e6ba128fa9438b7e29ec72e5",
-	"descriptionMd5": "6856609082a278fb87a8f72de7754a5a"
+	"description": "Helping to find system-wide trust anchor (\"root\") certificate locations based on paths typically used by `openssl` - Rust source code",
+	"homepage": "https://github.com/rustls/openssl-probe",
+	"filename": "pool/main/r/rust-openssl-probe/librust-openssl-probe-dev_0.2.1-3_amd64.deb",
+	"size": 11008,
+	"md5": "70cc30c6254fb0fa574ce3317527f84d",
+	"sha256": "cea0cb6a7fa0ff3071cf3132e7b1fa14262b1aca70471f44fa68af84f2fd357d",
+	"descriptionMd5": "b6e3bb32a1f49a41783d036a8af6ac3c"
 }

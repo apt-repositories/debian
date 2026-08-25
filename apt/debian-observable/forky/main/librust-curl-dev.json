@@ -6,33 +6,29 @@
 	],
 	"package": "librust-curl-dev",
 	"source": "rust-curl",
-	"version": "0.4.50-1",
+	"version": "0.4.50-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-curl-sys-0.4+http2-dev (>= 0.4.89)",
+		"librust-curl-sys-0.4+ssl-dev (>= 0.4.89)",
+		"librust-curl-sys-0.4+static-curl-dev (>= 0.4.89)",
+		"librust-curl-sys-0.4+static-ssl-dev (>= 0.4.89)",
 		"librust-curl-sys-0.4-dev (>= 0.4.89)",
 		"librust-libc-0.2+default-dev (>= 0.2.42)",
+		"librust-openssl-probe-0.2+default-dev",
+		"librust-openssl-sys-0.9+default-dev (>= 0.9.64)",
 		"librust-socket2+default-dev (<< 0.7)",
 		"librust-socket2+default-dev (>= 0.5)"
 	],
-	"recommends": [
-		"librust-curl+ssl-dev (= 0.4.50-1)"
-	],
-	"suggests": [
-		"librust-curl+http2-dev (= 0.4.50-1)",
-		"librust-curl+openssl-probe-dev (= 0.4.50-1)",
-		"librust-curl+openssl-sys-dev (= 0.4.50-1)",
-		"librust-curl+static-curl-dev (= 0.4.50-1)",
-		"librust-curl+static-ssl-dev (= 0.4.50-1)"
-	],
-	"installedSize": 461,
+	"installedSize": 463,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings to libcurl for making HTTP requests - Rust source code",
 	"homepage": "https://github.com/alexcrichton/curl-rust",
-	"filename": "pool/main/r/rust-curl/librust-curl-dev_0.4.50-1_amd64.deb",
-	"size": 75544,
-	"md5": "269a0073745fd69ef767715fbed1bf03",
-	"sha256": "d6ccaa49e33ee5553214373c86baef43abcce2f71b9adc19fb6813199e64b533",
+	"filename": "pool/main/r/rust-curl/librust-curl-dev_0.4.50-2_amd64.deb",
+	"size": 76004,
+	"md5": "cc4c514fdaa42141e87205150a58f54b",
+	"sha256": "bb8206b9124ff92cee28478af9c553cfab50c1b32e10cf25424daee088b14c64",
 	"descriptionMd5": "d84da5ac5d80b5092bd1c0117d5afe40"
 }]

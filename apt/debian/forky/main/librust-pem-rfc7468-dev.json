@@ -5,22 +5,26 @@
 		"Size"
 	],
 	"package": "librust-pem-rfc7468-dev",
-	"source": "rust-pem-rfc7468 (0.7.0-1)",
-	"version": "0.7.0-1+b2",
+	"source": "rust-pem-rfc7468",
+	"version": "1.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-base64ct-1+alloc-dev (>= 1.4-~~)",
-		"librust-base64ct-1+default-dev (>= 1.4-~~)",
-		"librust-base64ct-1+std-dev (>= 1.4-~~)"
+		"librust-base64ct-1+alloc-dev (>= 1.4)",
+		"librust-base64ct-1+default-dev (>= 1.4)",
+		"librust-base64ct-1+std-dev (>= 1.4)"
 	],
-	"installedSize": 100,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 102,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "PEM Encoding for keys and certificates - Rust source code",
-	"filename": "pool/main/r/rust-pem-rfc7468/librust-pem-rfc7468-dev_0.7.0-1+b2_amd64.deb",
-	"size": 25752,
-	"md5": "360b81d6d715884277a569384b386d7b",
-	"sha256": "1582a1310142022bc9c70145384cfe0447f64e4ed8b7f7073f307d369c218084",
-	"descriptionMd5": "c0b3fd91a6001f03dc9d351192111fcd"
+	"homepage": "https://github.com/RustCrypto/formats/tree/master/pem-rfc7468",
+	"filename": "pool/main/r/rust-pem-rfc7468/librust-pem-rfc7468-dev_1.0.0-1_amd64.deb",
+	"size": 26608,
+	"md5": "90ef16be79db0d6deb025508c9b25940",
+	"sha256": "f6e3c3ae42412eb7a16e5b2adda556755260ad6fb1ed1536f5a2d32315c8b238",
+	"descriptionMd5": "b4e61e3fbf974129e3eb6eeb8dd344fe"
 }

@@ -5,30 +5,37 @@
 		"Size"
 	],
 	"package": "formiko",
-	"version": "1.4.3-2.1",
+	"version": "2.0.0-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"gir1.2-gtksource-3.0",
-		"gir1.2-gtkspell3-3.0",
-		"gir1.2-webkit2-4.1",
+		"gir1.2-adw-1",
+		"gir1.2-gtk-4.0",
+		"gir1.2-gtksource-5",
+		"gir1.2-webkit-6.0",
 		"librsvg2-common",
 		"python3-docutils",
 		"python3-gi",
-		"python3-recommonmark",
-		"python3:any (>= 3.8~)"
+		"python3-jsonpath-ng",
+		"python3:any"
+	],
+	"recommends": [
+		"gir1.2-spelling-1",
+		"gir1.2-vte-3.91"
 	],
 	"suggests": [
-		"vim-gtk3"
+		"python3-m2r2",
+		"python3-pygments",
+		"python3-pynvim"
 	],
-	"installedSize": 304,
+	"installedSize": 487,
 	"maintainer": "Ondřej Tůma <mcbig@zeropage.cz>",
 	"description": "reStructuredText and MarkDown editor and live previewer",
 	"homepage": "https://github.com/ondratu/formiko",
-	"filename": "pool/main/f/formiko/formiko_1.4.3-2.1_all.deb",
-	"size": 94852,
-	"md5": "66db0e65e92c341f9b4f4a950a5ad2d0",
-	"sha256": "1a843a7189df79661ad2c51b8b06e8018065bb8db26892cadb32bfe20cfbf4ef",
+	"filename": "pool/main/f/formiko/formiko_2.0.0-1_all.deb",
+	"size": 134468,
+	"md5": "7e8f796f2612578c7a3fe0d69fbf7bef",
+	"sha256": "5fb496c9fc68f2ec92ea71d2f7bee102bcb03c5bc365050a67b73f3d3d670ace",
 	"descriptionMd5": "4a399eb5744bcb6e6b857633a40a0ad9"
 }

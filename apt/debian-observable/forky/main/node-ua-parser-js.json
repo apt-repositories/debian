@@ -5,17 +5,23 @@
 		"Size"
 	],
 	"package": "node-ua-parser-js",
-	"version": "0.8.1+ds+~0.7.36-3",
+	"version": "2.0.10+ds+~cs0.3.5-1",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 120,
+	"depends": [
+		"nodejs:any"
+	],
+	"breaks": [
+		"node-fbjs (<< 3.0.5-2~)"
+	],
+	"installedSize": 549,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "Lightweight JavaScript-based user-agent string parser",
 	"homepage": "https://github.com/faisalman/ua-parser-js",
-	"filename": "pool/main/n/node-ua-parser-js/node-ua-parser-js_0.8.1+ds+~0.7.36-3_all.deb",
-	"size": 29104,
-	"md5": "3a20a81202687e996ec30c5bef709d30",
-	"sha256": "f93b14e767f97bb16797c3776ebfb5b5767a16e71f8137e35524cf91b180a39e",
+	"filename": "pool/main/n/node-ua-parser-js/node-ua-parser-js_2.0.10+ds+~cs0.3.5-1_all.deb",
+	"size": 75796,
+	"md5": "b06597beb6ad22920df6d0f668e93ee8",
+	"sha256": "7057e5d9b1129c3c4e9b9ff628074efa9068d32048616bfc1b82715eb6816904",
 	"descriptionMd5": "400cd88eedc32ec9ca176fff1777517c"
 }]

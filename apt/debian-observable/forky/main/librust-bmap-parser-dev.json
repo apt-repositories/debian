@@ -6,7 +6,7 @@
 	],
 	"package": "librust-bmap-parser-dev",
 	"source": "rust-bmap-parser",
-	"version": "0.2.2-1",
+	"version": "0.2.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,17 +21,20 @@
 		"librust-serde-1+default-dev (>= 1.0.147)",
 		"librust-serde-1+derive-dev (>= 1.0.147)",
 		"librust-sha2-0.10+default-dev",
-		"librust-strum-0.26+default-dev",
-		"librust-strum-0.26+derive-dev",
+		"librust-strum-0.28+default-dev",
+		"librust-strum-0.28+derive-dev",
 		"librust-thiserror-2+default-dev (>= 2.0.17)"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 4175,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust that allows you to copy files or flash block devices safely - Rust source code",
 	"homepage": "https://github.com/collabora/bmap-rs",
-	"filename": "pool/main/r/rust-bmap-parser/librust-bmap-parser-dev_0.2.2-1_amd64.deb",
-	"size": 4218660,
-	"md5": "5450b3ecec689d9d55c9c23f9c98ad08",
-	"sha256": "dc02540de31cdd657b626655ad18fe3d1f343ceb576760d8320bd6075bccaf01",
+	"filename": "pool/main/r/rust-bmap-parser/librust-bmap-parser-dev_0.2.2-2_amd64.deb",
+	"size": 4218720,
+	"md5": "b4ae30662faab4ff8547bafddb7be456",
+	"sha256": "acd9066ba60b3f2999db39a6076631499f4987b349759e2b20d9079b905f6685",
 	"descriptionMd5": "9417f1d6b86714b3ce4f5e7498007e74"
 }]

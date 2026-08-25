@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gix-hash-dev",
 	"source": "rust-gix-hash",
-	"version": "0.25.0-1",
+	"version": "0.26.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,20 +14,23 @@
 		"librust-document-features-0.2+default-dev",
 		"librust-faster-hex-0.10+serde-dev",
 		"librust-faster-hex-0.10+std-dev",
-		"librust-gix-features-0.48+default-dev",
-		"librust-gix-features-0.48+progress-dev",
+		"librust-gix-features-0.49+default-dev",
+		"librust-gix-features-0.49+progress-dev",
 		"librust-serde-1+derive-dev (>= 1.0.114)",
 		"librust-sha1-checked-0.10-dev",
-		"librust-sha2-0.10-dev",
+		"librust-sha2-0.11-dev",
 		"librust-thiserror-2+default-dev (>= 2.0.18)"
 	],
-	"installedSize": 84,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 105,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Borrowed and owned git hash digests used to identify git objects - Rust source code",
+	"description": "Borrowed and owned git hash digests - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-hash/librust-gix-hash-dev_0.25.0-1_amd64.deb",
-	"size": 19084,
-	"md5": "8976adc0e334d439cfec0ce7f200ecc6",
-	"sha256": "366f85ba77e603721393be5e3439e5c220614d606741f38f7ee21ce9af26cb26",
-	"descriptionMd5": "79df2389cea3a9fe1cdf830f6a330ae1"
+	"filename": "pool/main/r/rust-gix-hash/librust-gix-hash-dev_0.26.0-1_amd64.deb",
+	"size": 21272,
+	"md5": "5f661962d16bc4af4794f48c13c8820b",
+	"sha256": "47bd9128428c50db86d43ea5bb86999f3cebab01a7246a43949ce31c85af92e4",
+	"descriptionMd5": "c082301945ae02c43cb40af0b17bfc44"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "libxrt-alveo2",
 	"source": "xrt",
-	"version": "1:2.21.75+dfsg-9~bpo13+1",
+	"version": "1:2.25.0-4~bpo13+1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,9 +14,9 @@
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libprotobuf32t64 (>= 3.21.12)",
-		"libstdc++6 (>= 14)",
+		"libstdc++6 (>= 13.1)",
 		"libuuid1 (>= 2.16)",
-		"libxrt2 (>= 1:2.21.75+dfsg)"
+		"libxrt2 (>= 1:2.25.0)"
 	],
 	"replaces": [
 		"libxrt1 (<< 1:2.21.75+dfsg-4)",
@@ -26,12 +26,15 @@
 		"libxrt1 (<< 1:2.21.75+dfsg-4)",
 		"libxrt2 (<< 1:2.21.70-3)"
 	],
-	"installedSize": 3105,
+	"conflicts": [
+		"libxrt1"
+	],
+	"installedSize": 2804,
 	"maintainer": "Debian Xilinx Package Maintainers <team+pkg-xilinx@tracker.debian.org>",
 	"description": "Xilinx Runtime (XRT) ALVEO - runtime libraries",
 	"homepage": "https://www.xilinx.com/products/design-tools/vitis/xrt.html",
-	"filename": "pool/main/x/xrt/libxrt-alveo2_2.21.75+dfsg-9~bpo13+1_amd64.deb",
-	"size": 611300,
-	"sha256": "b11f6ebb16d39b82a579bbd3878b3622c8f02cd3fe44c4077d15faa21ef289f2",
+	"filename": "pool/main/x/xrt/libxrt-alveo2_2.25.0-4~bpo13+1_amd64.deb",
+	"size": 560868,
+	"sha256": "bf7f1a96b530891de4747e783079bbb296f16d331d2f6add8ab1ca34c22a6c0c",
 	"descriptionMd5": "189f4864d8ed035e8df8ef3cc2faeb74"
 }]

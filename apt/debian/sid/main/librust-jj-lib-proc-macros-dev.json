@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-jj-lib-proc-macros-dev",
-	"source": "rust-jj-lib-proc-macros (0.32.0-1)",
-	"version": "0.32.0-1+b1",
+	"source": "rust-jj-lib-proc-macros",
+	"version": "0.43.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2+default-dev (>= 1.0.90-~~)",
-		"librust-quote-1+default-dev (>= 1.0.40-~~)",
-		"librust-syn+default-dev (>= 2.0.90-~~)"
+		"librust-proc-macro2+default-dev (>= 1.0.90)",
+		"librust-quote-1+default-dev (>= 1.0.45)",
+		"librust-syn+default-dev (>= 2.0.90)"
+	],
+	"breaks": [
+		"rustc (<< 1.89~)"
 	],
 	"installedSize": 59,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Proc macros for the jj-lib crate - Rust source code",
-	"homepage": "https://github.com/jj-vcs/jj",
-	"filename": "pool/main/r/rust-jj-lib-proc-macros/librust-jj-lib-proc-macros-dev_0.32.0-1+b1_amd64.deb",
-	"size": 15404,
-	"md5": "d4d16c66e554e564a38062ad03a38961",
-	"sha256": "834a4a2baf2639444a8eaf562df320eeb86f34a5bc46093c71fedb2c16e97b53",
+	"homepage": "https://www.jj-vcs.dev/",
+	"filename": "pool/main/r/rust-jj-lib-proc-macros/librust-jj-lib-proc-macros-dev_0.43.0-1_amd64.deb",
+	"size": 15648,
+	"md5": "2de58f5170fefc0d877cf1e76e231782",
+	"sha256": "5d3daca5effc87775a8b0ccf6906e9da7a1c8a129edd98deee9fefee4f5fbf85",
 	"descriptionMd5": "f819724fabc945554647ce33a57518fc"
 }
