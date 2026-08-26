@@ -5,32 +5,33 @@
 		"Size"
 	],
 	"package": "parsec-service",
-	"source": "rust-parsec-service (1.5.0+dfsg-1)",
-	"version": "1.5.0+dfsg-1+b1",
+	"source": "rust-parsec-service",
+	"version": "1.5.0+ds-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 4.2)",
 		"libmbedcrypto16 (>= 3.6.0)",
-		"libsqlite3-0 (>= 3.6.0)",
+		"libsqlite3-0 (>= 3.20.0)",
 		"libtss2-esys-3.0.2-0t64 (>= 2.3.1)",
 		"libtss2-mu-4.0.1-0t64 (>= 3.0.1)",
-		"libtss2-tctildr0t64 (>= 3.0.1)",
-		"adduser"
+		"libtss2-tctildr0t64 (>= 3.0.1)"
 	],
 	"breaks": [
 		"librust-parsec-client-dev (<= 0.15.0-2)"
 	],
-	"installedSize": 4738,
+	"installedSize": 4754,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Abstraction layer for secure storage and operations",
 	"homepage": "https://github.com/parallaxsecond/parsec",
 	"builtUsing": "rustc (= 1.95.0+dfsg1-2)",
-	"filename": "pool/main/r/rust-parsec-service/parsec-service_1.5.0+dfsg-1+b1_amd64.deb",
-	"size": 1313200,
-	"md5": "9ca75a1d3f6143a346c68dd964b96bef",
-	"sha256": "5b7b23d67f0e67940540c9e4d0f625d04dc588ea02f74206f426d3049a3e704c",
+	"filename": "pool/main/r/rust-parsec-service/parsec-service_1.5.0+ds-1_amd64.deb",
+	"size": 1330168,
+	"md5": "7d7d1d82c7551bc7a9c70486358d7df3",
+	"sha256": "3aa054a695b5a40b402603a77f98302c44c6fc594d88c91ee84e7ff02c42f812",
 	"descriptionMd5": "b56b6f65d695483e33bb875286a6cb4e"
 }]

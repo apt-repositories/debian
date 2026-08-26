@@ -5,24 +5,25 @@
 		"Size"
 	],
 	"package": "librust-rmp-dev",
-	"source": "rust-rmp (0.8.14-1)",
-	"version": "0.8.14-1+b1",
+	"source": "rust-rmp",
+	"version": "0.8.15-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-byteorder-1+std-dev (>= 1.4.2-~~)",
-		"librust-byteorder-1-dev (>= 1.4.2-~~)",
-		"librust-num-traits-0.2+std-dev (>= 0.2.14-~~)",
-		"librust-num-traits-0.2-dev (>= 0.2.14-~~)",
-		"librust-paste-1+default-dev"
+		"librust-num-traits-0.2+std-dev (>= 0.2.19)",
+		"librust-num-traits-0.2-dev (>= 0.2.19)"
 	],
-	"installedSize": 207,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 220,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Pure Rust MessagePack serialization implementation - Rust source code",
-	"filename": "pool/main/r/rust-rmp/librust-rmp-dev_0.8.14-1+b1_amd64.deb",
-	"size": 30368,
-	"md5": "5e112144e01ee2d23913832f94ff9dad",
-	"sha256": "09436536a82ec73ed1d1b1ee3b584cce1b8d85f107836471fdaed68a70fbb46d",
+	"homepage": "https://github.com/3Hren/msgpack-rust",
+	"filename": "pool/main/r/rust-rmp/librust-rmp-dev_0.8.15-1_amd64.deb",
+	"size": 33564,
+	"md5": "5975f2b60bd0a06b40806b0b7673c8b8",
+	"sha256": "67257f18f8b7514ee427b59b2bc562c92a8b8e782dceae9f9e5cc8ef2efd7fd8",
 	"descriptionMd5": "38b1cd160378ca853fca78a4d58edebf"
 }]
