@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-pin-project-dev",
-	"source": "rust-pin-project (1.1.10-1)",
-	"version": "1.1.10-1+b1",
+	"source": "rust-pin-project",
+	"version": "1.1.13-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-pin-project-internal-1.1+default-dev (<< 1.1.11-~~)",
-		"librust-pin-project-internal-1.1+default-dev (>= 1.1.10-~~)"
+		"librust-pin-project-internal-1.1+default-dev (<< 1.1.14)",
+		"librust-pin-project-internal-1.1+default-dev (>= 1.1.13)"
 	],
-	"installedSize": 612,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 608,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Safe and ergonomic pin-projection - Rust source code",
 	"homepage": "https://github.com/taiki-e/pin-project",
-	"filename": "pool/main/r/rust-pin-project/librust-pin-project-dev_1.1.10-1+b1_amd64.deb",
-	"size": 58248,
-	"md5": "550c29cd21549d07bd8120a6237dcb6a",
-	"sha256": "59ed3657aebd9f344176c9a473b517aa4b03c72b3a71ae26b922f78b66279c17",
+	"filename": "pool/main/r/rust-pin-project/librust-pin-project-dev_1.1.13-1_amd64.deb",
+	"size": 57948,
+	"md5": "91b07ad55842d0b4b85e7f6590409495",
+	"sha256": "df9d2f22ee38b975fc54e66f1b73b89a84da950d49f969b81e4b394032fdba49",
 	"descriptionMd5": "1923a9d59c05ce49950fe2d6d77ea483"
 }]

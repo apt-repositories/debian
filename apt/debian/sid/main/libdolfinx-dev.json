@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "libdolfinx-dev",
-	"source": "fenics-dolfinx (1:0.10.0.post5-8)",
-	"version": "1:0.10.0.post5-8+b1",
+	"source": "fenics-dolfinx",
+	"version": "1:0.11.0.post0-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdolfinx-real-dev (>= 1:0.10.0.post5-8) | libdolfinx-complex-dev (>= 1:0.10.0.post5-8)",
-		"libdolfinx-real-dev (<< 1:0.11~) | libdolfinx-complex-dev (<< 1:0.11~)",
+		"libdolfinx-real-dev (>= 1:0.11.0.post0-1) | libdolfinx-complex-dev (>= 1:0.11.0.post0-1)",
+		"libdolfinx-real-dev (<< 1:0.12~) | libdolfinx-complex-dev (<< 1:0.12~)",
 		"cmake",
 		"g++ | c++-compiler",
 		"libboost-chrono-dev",
@@ -34,19 +34,25 @@
 		"libspdlog-dev",
 		"libxml2-dev",
 		"pkgconf",
-		"python3-ffcx (>= 1:0.10.1~)",
-		"python3-ffcx (<< 1:0.11.0)"
+		"python3-ffcx (>= 1:0.11.0~)",
+		"python3-ffcx (<< 1:0.12.0)",
+		"python3-petsc4py",
+		"python3-slepc4py",
+		"python3-petsc4py-real (>= 3.25)",
+		"python3-petsc4py-real (<< 3.26)",
+		"python3-slepc4py-real (>= 3.25)",
+		"python3-slepc4py-real (<< 3.26)"
 	],
 	"breaks": [
-		"fenicsx-performance-tests-source (<< 0.10~)"
+		"fenicsx-performance-tests-source (<< 0.11~)"
 	],
-	"installedSize": 1139,
+	"installedSize": 1211,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Shared links and header files for DOLFIN",
 	"homepage": "https://fenicsproject.org",
-	"filename": "pool/main/f/fenics-dolfinx/libdolfinx-dev_0.10.0.post5-8+b1_amd64.deb",
-	"size": 220156,
-	"md5": "24680278e2358ad537461ab5492ad232",
-	"sha256": "c2acbc6df1489998573328583097de7d632f9e8715e52b18e1b177fe9f49d5ee",
+	"filename": "pool/main/f/fenics-dolfinx/libdolfinx-dev_0.11.0.post0-1_amd64.deb",
+	"size": 236180,
+	"md5": "fcb67a41657c5bcd7038a4f5e74459aa",
+	"sha256": "07c49b297d6793c2c8d2512008a709e6a93170d3c50586cf1635ac9b9dc94790",
 	"descriptionMd5": "aa90851252787184d62f28b2cdaa7458"
 }

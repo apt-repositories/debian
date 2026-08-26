@@ -5,14 +5,16 @@
 		"Size"
 	],
 	"package": "librust-cargo-c-dev",
-	"source": "rust-cargo-c (0.10.16-2)",
-	"version": "0.10.16-2+b2",
+	"source": "rust-cargo-c",
+	"version": "0.10.22-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-anyhow-1+default-dev",
-		"librust-cargo-0.91+default-dev",
+		"librust-camino-1+default-dev (>= 1.2.2)",
+		"librust-cargo-0.96+default-dev",
+		"librust-cargo-platform-0.3+default-dev (>= 0.3.1)",
 		"librust-cargo-util-0.2+default-dev",
 		"librust-cbindgen-0.29-dev",
 		"librust-cc-1+default-dev",
@@ -22,6 +24,7 @@
 		"librust-clap-4+derive-dev (>= 4.5.18)",
 		"librust-clap-4+string-dev (>= 4.5.18)",
 		"librust-clap-4+wrap-help-dev (>= 4.5.18)",
+		"librust-clap-complete-4+default-dev (>= 4.5.65)",
 		"librust-glob-0.3+default-dev",
 		"librust-implib-0.3+default-dev (>= 0.3.3)",
 		"librust-itertools-0.14+default-dev",
@@ -40,13 +43,16 @@
 		"librust-toml+default-dev (<< 2)",
 		"librust-toml+default-dev (>= 0.9)"
 	],
-	"installedSize": 179,
+	"breaks": [
+		"rustc (<< 1.93~)"
+	],
+	"installedSize": 188,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Helper program to build and install c-like libraries - Rust source code",
 	"homepage": "https://github.com/lu-zero/cargo-c",
-	"filename": "pool/main/r/rust-cargo-c/librust-cargo-c-dev_0.10.16-2+b2_amd64.deb",
-	"size": 34132,
-	"md5": "e541b9e509fcf9e2d69099783a483e53",
-	"sha256": "e16c5f7aa67e882b97484921a3287555787dea8473dd0997e783c26098fbbae8",
+	"filename": "pool/main/r/rust-cargo-c/librust-cargo-c-dev_0.10.22-1_amd64.deb",
+	"size": 35620,
+	"md5": "9652744dce610d3169c3fa8949cd604b",
+	"sha256": "c79173b9ffc676eac3819aeb6832848d9ebafb800c78b4e2ac1677cd15474a86",
 	"descriptionMd5": "49c1aee5f0290981f42f18ef100fd7f6"
 }

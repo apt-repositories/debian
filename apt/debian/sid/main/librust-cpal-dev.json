@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-cpal-dev",
-	"source": "rust-cpal (0.15.3-1)",
-	"version": "0.15.3-1+b1",
+	"source": "rust-cpal",
+	"version": "0.18.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-alsa-0.9+default-dev",
+		"librust-alsa-0.12+default-dev",
 		"librust-dasp-sample-0.11+default-dev",
 		"librust-libc-0.2+default-dev"
 	],
-	"installedSize": 508,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 1105,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Low-level cross-platform audio I/O library in pure Rust - Rust source code",
-	"homepage": "https://github.com/rustaudio/cpal",
-	"filename": "pool/main/r/rust-cpal/librust-cpal-dev_0.15.3-1+b1_amd64.deb",
-	"size": 79800,
-	"md5": "8053727e9ef0f3f0fa31ba17d7564980",
-	"sha256": "6972576c2c29f7b3408ed04c90bafa938cd933bed27432256901cd670a356a5d",
-	"descriptionMd5": "c9e0236fdbea176c0988102146a66ed2"
+	"description": "Low-level cross-platform audio I/O library - Rust source code",
+	"homepage": "https://github.com/RustAudio/cpal",
+	"filename": "pool/main/r/rust-cpal/librust-cpal-dev_0.18.2-1_amd64.deb",
+	"size": 190684,
+	"md5": "ff10f93c58ed6044274bf6df5f2978c7",
+	"sha256": "1690256444d31c1d239c0cf10b86241ccbffd29afa9da91cd176ae379b4fda15",
+	"descriptionMd5": "d65fc8c6a6dfc8d6e57cb10b0bce1ec7"
 }

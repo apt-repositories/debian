@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.1.10+deb14-cloud-amd64",
+	"source": "linux-signed-amd64 (7.1.10+1)",
+	"version": "7.1.10-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.1.10+deb14-cloud-amd64 (= 7.1.10-1)",
+		"linux-binary-7.1.10+deb14-cloud-amd64 (= 7.1.10-1)",
+		"linux-modules-7.1.10+deb14-cloud-amd64 (= 7.1.10-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.12~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.1"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.1.10 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.1.10+deb14-cloud-amd64_7.1.10-1_amd64.deb",
+	"size": 1924,
+	"md5": "6f372d4aae5237d9fe95aaa6f4623cb9",
+	"sha256": "41d99264bb82bd1886fb76c7f12a3a9034346a069326eb3ce4fdd58fa16a3f2f",
+	"descriptionMd5": "0a6949de06350972d24406ed06ad09fb"
+}]
