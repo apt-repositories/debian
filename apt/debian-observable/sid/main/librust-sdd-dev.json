@@ -5,18 +5,24 @@
 		"Size"
 	],
 	"package": "librust-sdd-dev",
-	"source": "rust-sdd (4.5.3-1)",
-	"version": "4.5.3-1+b1",
+	"source": "rust-sdd",
+	"version": "4.8.10-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 264,
+	"depends": [
+		"librust-saa-5+default-dev (>= 5.6)"
+	],
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 328,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Scalable lock-free delayed memory reclaimer - Rust source code",
 	"homepage": "https://codeberg.org/wvwwvwwv/scalable-delayed-dealloc",
-	"filename": "pool/main/r/rust-sdd/librust-sdd-dev_4.5.3-1+b1_amd64.deb",
-	"size": 39168,
-	"md5": "6617d72d774d6a5f3b770d2f5079fd90",
-	"sha256": "522fbee7fae4c70aeef5bab27931a29f563989c3c3400eebe6abdf79484c59f2",
+	"filename": "pool/main/r/rust-sdd/librust-sdd-dev_4.8.10-1_amd64.deb",
+	"size": 48712,
+	"md5": "33b6c77c901f605344eeea524371af77",
+	"sha256": "0c55a8641d04a79dcde119b7f82cf14aa50d287ba4a38ca4c8719842251cfdf9",
 	"descriptionMd5": "56c4451bb874a33d153488df59316017"
 }]

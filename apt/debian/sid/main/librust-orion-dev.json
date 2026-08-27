@@ -6,7 +6,7 @@
 	],
 	"package": "librust-orion-dev",
 	"source": "rust-orion",
-	"version": "0.17.13-2",
+	"version": "0.17.15-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"librust-zeroize-1+alloc-dev (>= 1.1.0)",
 		"librust-zeroize-1-dev (>= 1.1.0)"
 	],
-	"installedSize": 1398,
+	"breaks": [
+		"rustc (<< 1.86~)"
+	],
+	"installedSize": 1399,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Usable, easy and safe pure-Rust crypto - Rust source code",
 	"homepage": "https://github.com/orion-rs/orion",
-	"filename": "pool/main/r/rust-orion/librust-orion-dev_0.17.13-2_amd64.deb",
-	"size": 190496,
-	"md5": "78ee2aa26f608e408ddad0e2b8536aa0",
-	"sha256": "1b4e616753b0e6e3f0ae3631f168531d92e48059c567dabc9d0bb1bf0053eda8",
+	"filename": "pool/main/r/rust-orion/librust-orion-dev_0.17.15-1_amd64.deb",
+	"size": 191076,
+	"md5": "eba2de3f1fdbe699cfe751c1ba56154a",
+	"sha256": "719107368246a7c0c20454b799e897bfde3c6944269e9f7ce45ea4c8d3820e2a",
 	"descriptionMd5": "555ddb3d8510d046bbd6e9346140c865"
 }

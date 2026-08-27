@@ -5,20 +5,24 @@
 		"Size"
 	],
 	"package": "node-domhandler",
-	"version": "5.0.3-4",
+	"version": "6.0.1-2",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"node-domelementtype (>= 2.3.0~)"
+		"node-domelementtype (>= 3.0.0~)"
 	],
-	"installedSize": 95,
+	"breaks": [
+		"node-cheerio (<< 1.0.0~rc~10~)",
+		"node-htmlparser2 (<< 8~)"
+	],
+	"installedSize": 53,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "htmlparser2 handler that turns pages into a dom",
 	"homepage": "https://github.com/fb55/DomHandler",
-	"filename": "pool/main/n/node-domhandler/node-domhandler_5.0.3-4_all.deb",
-	"size": 14284,
-	"md5": "f46b22713581b8e8c5854efcbeab6046",
-	"sha256": "76dcd47ff6cfffab0e6229bd195ac9c125074280aabf2c1b136ff0e2db6af3cb",
+	"filename": "pool/main/n/node-domhandler/node-domhandler_6.0.1-2_all.deb",
+	"size": 10908,
+	"md5": "e46d37bba87dc2cd56bdce9ee1d30527",
+	"sha256": "50045dcc31f3e28a8d5c160e985086914d8d50a8438a4ba446d75bb1acba35a3",
 	"descriptionMd5": "061025a6fa05d4a127ea53e5ca162945"
 }

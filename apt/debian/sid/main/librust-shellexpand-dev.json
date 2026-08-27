@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-shellexpand-dev",
-	"source": "rust-shellexpand (3.1.1-1)",
-	"version": "3.1.1-1+b1",
+	"source": "rust-shellexpand",
+	"version": "3.1.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bstr-1+default-dev (>= 1.1-~~)",
-		"librust-dirs+default-dev (<< 7-~~)",
-		"librust-dirs+default-dev (>= 4-~~)",
+		"librust-bstr-1+default-dev (>= 1.1)",
+		"librust-dirs+default-dev (<< 7)",
+		"librust-dirs+default-dev (>= 4)",
 		"librust-os-str-bytes-7+default-dev"
 	],
-	"installedSize": 119,
+	"breaks": [
+		"rustc (<< 1.31~)"
+	],
+	"installedSize": 120,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Shell-like expansions in strings - Rust source code",
 	"homepage": "https://gitlab.com/ijackson/rust-shellexpand",
-	"filename": "pool/main/r/rust-shellexpand/librust-shellexpand-dev_3.1.1-1+b1_amd64.deb",
+	"filename": "pool/main/r/rust-shellexpand/librust-shellexpand-dev_3.1.2-1_amd64.deb",
 	"size": 26848,
-	"md5": "1833eef6f86a768031ab5cfc835097a9",
-	"sha256": "5d6042e2815c4cfeb9905fd6e8c1871a1ff125fd606cf4998da7cdcc6446e1f1",
+	"md5": "385f5323d439482b5031b9f837f6e31a",
+	"sha256": "9f3b81e281b33027bc5704722094beac15a2e7d86ef2087759677ecf09932102",
 	"descriptionMd5": "64bb191c3e94219ff9dec01f9610ae08"
 }

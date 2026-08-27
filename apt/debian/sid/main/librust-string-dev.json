@@ -5,21 +5,22 @@
 		"Size"
 	],
 	"package": "librust-string-dev",
-	"source": "rust-string (0.2.1-2)",
-	"version": "0.2.1-2+b3",
+	"source": "rust-string",
+	"version": "0.3.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"recommends": [
-		"librust-string+bytes-dev (= 0.2.1-2+b3)"
+	"depends": [
+		"librust-bytes-1+default-dev",
+		"librust-valuable-0.1+default-dev"
 	],
-	"installedSize": 38,
+	"installedSize": 40,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "UTF-8 string with configurable byte storage - Rust source code",
 	"homepage": "https://github.com/carllerche/string",
-	"filename": "pool/main/r/rust-string/librust-string-dev_0.2.1-2+b3_amd64.deb",
-	"size": 7740,
-	"md5": "8ca7e64f716ff916fc1f40f7ca58e4d5",
-	"sha256": "5aacde3b205b53475e7133024ef01e0c47763b555acff772b6775169f7e993d8",
-	"descriptionMd5": "1a4c325022c0fa926fd0efe671860e48"
+	"filename": "pool/main/r/rust-string/librust-string-dev_0.3.1-1_amd64.deb",
+	"size": 8400,
+	"md5": "1ff81e278e3e1b5bd1c6f80ae0dd5767",
+	"sha256": "6c853be1513e9f7aa145edb4889a8f76f82bbae054dbb0a95b5489fd5b7f819e",
+	"descriptionMd5": "59874c60b0413e3be3538a9322cc9723"
 }

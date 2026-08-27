@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liboffload-23",
+	"source": "llvm-toolchain-23",
+	"version": "1:23.1.0-1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm23 (>= 1:23.1.0)",
+		"libomp5 (>= 1:21.1)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"replaces": [
+		"liboffload-x.y"
+	],
+	"conflicts": [
+		"liboffload-x.y"
+	],
+	"installedSize": 1612,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Offload Library",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-23/liboffload-23_23.1.0-1_amd64.deb",
+	"size": 333396,
+	"md5": "ff0d27c49105f9e5772cd54688887f53",
+	"sha256": "8249f174a8c5eb91e54993a932bafc6350c0c01f071088c6184f382686cb8a01",
+	"descriptionMd5": "841bdc20a27b40722e37c7b2d0838a75"
+}
