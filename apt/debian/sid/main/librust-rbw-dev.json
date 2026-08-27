@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rbw-dev",
 	"source": "rust-rbw",
-	"version": "1.15.0-1",
+	"version": "1.15.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -68,7 +68,7 @@
 		"librust-sha1-0.10+default-dev (>= 0.10.6)",
 		"librust-sha2-0.10+default-dev (>= 0.10.9)",
 		"librust-signature-2+default-dev (>= 2.2.0)",
-		"librust-ssh-agent-lib-0.5+default-dev (>= 0.5.1)",
+		"librust-ssh-agent-lib-0.6+default-dev",
 		"librust-tempfile-3+default-dev (>= 3.24.0)",
 		"librust-terminal-size-0.4+default-dev",
 		"librust-textwrap-0.16+default-dev (>= 0.16.2)",
@@ -88,13 +88,16 @@
 		"librust-uuid-1+v4-dev (>= 1.19.0)",
 		"librust-zeroize-1+default-dev (>= 1.8.2)"
 	],
-	"installedSize": 560,
+	"breaks": [
+		"rustc (<< 1.82.0~)"
+	],
+	"installedSize": 562,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Unofficial Bitwarden CLI - Rust source code",
 	"homepage": "https://github.com/doy/rbw",
-	"filename": "pool/main/r/rust-rbw/librust-rbw-dev_1.15.0-1_amd64.deb",
-	"size": 97200,
-	"md5": "1d94b7bcec781f3bad93be010d7cd32e",
-	"sha256": "496fe7afd6d62cc49bbf1f8be6e03df2a3753c7d1ed72646bd4f818d6c2dca09",
+	"filename": "pool/main/r/rust-rbw/librust-rbw-dev_1.15.0-2_amd64.deb",
+	"size": 97504,
+	"md5": "98d1f2868610f5e28cbf2cf1cc614781",
+	"sha256": "1c76ecec4163f3b7750817e4318c978d989c64a9b300b1b2f58124cd4fa29b09",
 	"descriptionMd5": "1bfa457666f69d397f19b4833f3357ef"
 }

@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-easy-ext-dev",
-	"source": "rust-easy-ext (1.0.2-3)",
-	"version": "1.0.2-3+b1",
+	"source": "rust-easy-ext",
+	"version": "1.0.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 183,
+	"breaks": [
+		"rustc (<< 1.31~)"
+	],
+	"installedSize": 176,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Lightweight attribute macro for easily writing extension trait pattern - Rust source code",
 	"homepage": "https://github.com/taiki-e/easy-ext",
-	"filename": "pool/main/r/rust-easy-ext/librust-easy-ext-dev_1.0.2-3+b1_amd64.deb",
-	"size": 31100,
-	"md5": "8433c18cb77f36505fb0ef0b525f3692",
-	"sha256": "d2d5b64c856b875b24695ebc9f707dd21c82a5f71500f0b2c3674ff5ab5bca05",
+	"filename": "pool/main/r/rust-easy-ext/librust-easy-ext-dev_1.0.3-1_amd64.deb",
+	"size": 30624,
+	"md5": "3a1bc5ff329a1ec2a554fca0fc571b5d",
+	"sha256": "db56b20b4c94a4acdc7e33f16ed27f3e0cafe3ab368f8266b241700fdee1dcb3",
 	"descriptionMd5": "48ed1d1f693814326f5d0085c1ebafc3"
 }

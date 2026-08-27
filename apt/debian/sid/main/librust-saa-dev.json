@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-saa-dev",
-	"source": "rust-saa (5.4.2-1)",
-	"version": "5.4.2-1+b1",
+	"source": "rust-saa",
+	"version": "5.6.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-lock-api-0.4+default-dev"
 	],
-	"installedSize": 229,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 238,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Word-sized low-level synchronization primitives providing both asynchronous and synchronous interfaces - Rust source code",
 	"homepage": "https://codeberg.org/wvwwvwwv/synchronous-and-asynchronous",
-	"filename": "pool/main/r/rust-saa/librust-saa-dev_5.4.2-1+b1_amd64.deb",
-	"size": 32424,
-	"md5": "cb29cda4708088b502b30a4c34273f96",
-	"sha256": "0721a9fb596c26187aff08e91c5d272d081601ae7d2cdcd0d46fc4e8178433b3",
+	"filename": "pool/main/r/rust-saa/librust-saa-dev_5.6.0-1_amd64.deb",
+	"size": 33516,
+	"md5": "e1ad7166e3c383d58cb57662e5ec132f",
+	"sha256": "a130f88a056f0f74ade526a0e80e6464ecd1cb5c15c0e8b68fee9b55afa8770b",
 	"descriptionMd5": "1f9b4f236fc738d208005ebce7cfd7a8"
 }

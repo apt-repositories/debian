@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclc-23",
+	"source": "llvm-toolchain-23",
+	"version": "1:23.1.0-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libclc-23-dev (= 1:23.1.0-1)",
+		"libclang-common-23-dev"
+	],
+	"replaces": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600",
+		"libclc-x.y"
+	],
+	"breaks": [
+		"libclc-amdgcn",
+		"libclc-ptx",
+		"libclc-r600"
+	],
+	"conflicts": [
+		"libclc-x.y"
+	],
+	"installedSize": 24645,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "OpenCL C language implementation - platform support",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-23/libclc-23_23.1.0-1_all.deb",
+	"size": 2930672,
+	"md5": "d7cda9ca91719e3644ee899aff47f2e9",
+	"sha256": "f59960a541004680a357abffa76f61cdddebd0ad9eaf32c316b47ac6b10109c4",
+	"descriptionMd5": "73bf1c1e61845108c59b363de4fd901a"
+}

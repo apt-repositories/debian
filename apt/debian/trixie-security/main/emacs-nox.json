@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "emacs-nox",
+	"source": "emacs",
+	"version": "1:30.1+1-6+deb13u1",
+	"section": "editors",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"emacs-bin-common (= 1:30.1+1-6+deb13u1)",
+		"emacs-common (= 1:30.1+1-6+deb13u1)",
+		"libacl1 (>= 2.2.23)",
+		"libasound2t64 (>= 1.0.16)",
+		"libattr1 (>= 1:2.4.48)",
+		"libc6 (>= 2.38)",
+		"libdbus-1-3 (>= 1.10)",
+		"libgccjit0 (>= 12)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libgpm2 (>= 1.20.7)",
+		"liblcms2-2 (>= 2.2+git20110628)",
+		"libselinux1 (>= 3.1~)",
+		"libsqlite3-0 (>= 3.7.15)",
+		"libsystemd0",
+		"libtinfo6 (>= 6)",
+		"libtree-sitter0.22 (>= 0.22.4)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"emacs-common-non-dfsg",
+		"emacs-editing-major-modes"
+	],
+	"replaces": [
+		"emacs-bin-common (<< 1:29.2)",
+		"emacs-gtk",
+		"emacs-lucid",
+		"emacs-pgtk"
+	],
+	"breaks": [
+		"dh-elpa-helper (<< 2.1.7)",
+		"emacs-bin-common (<< 1:29.2)"
+	],
+	"conflicts": [
+		"emacs-gtk",
+		"emacs-lucid",
+		"emacs-pgtk"
+	],
+	"installedSize": 44881,
+	"maintainer": "Rob Browning <rlb@defaultvalue.org>",
+	"description": "GNU Emacs editor (without GUI support)",
+	"homepage": "https://www.gnu.org/software/emacs/",
+	"filename": "pool/updates/main/e/emacs/emacs-nox_30.1+1-6+deb13u1_amd64.deb",
+	"size": 7262376,
+	"sha256": "fee9e5bc5d4c0da716e3e12eee8e1b063bd24a58a6ca6755be2516b377d50364",
+	"descriptionMd5": "d7627aff9867f2ba95f2b9dcfc399d6a"
+}

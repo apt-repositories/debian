@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "llvm-23",
+	"source": "llvm-toolchain-23",
+	"version": "1:23.1.0-1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"llvm-23-runtime (= 1:23.1.0-1)",
+		"llvm-23-linker-tools (= 1:23.1.0-1)",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libgcc-s1 (>= 4.3)",
+		"libllvm23 (>= 1:23.1.0)",
+		"libpfm4",
+		"libstdc++6 (>= 12)",
+		"libz3-4 (>= 4.13.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"recommends": [
+		"llvm-23-dev"
+	],
+	"suggests": [
+		"llvm-23-doc"
+	],
+	"installedSize": 89565,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "Modular compiler and toolchain technologies",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-23/llvm-23_23.1.0-1_amd64.deb",
+	"size": 19674116,
+	"md5": "ac3d27624c7581cd7b6d5e9128e69353",
+	"sha256": "710a666628ebb01ef9f943f92f9b7298d953e96473b85d9f90bed3c69ef377ad",
+	"descriptionMd5": "07d463911771b9679a5f0131f40992d4"
+}

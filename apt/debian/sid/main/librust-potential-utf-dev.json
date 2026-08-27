@@ -6,7 +6,7 @@
 	],
 	"package": "librust-potential-utf-dev",
 	"source": "rust-potential-utf",
-	"version": "0.1.5-1",
+	"version": "0.1.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,18 +14,21 @@
 		"librust-databake-0.2-dev",
 		"librust-serde-core-1+alloc-dev (>= 1.0.220)",
 		"librust-serde-core-1-dev (>= 1.0.220)",
-		"librust-writeable-0.6+alloc-dev (>= 0.6.1)",
-		"librust-writeable-0.6-dev (>= 0.6.1)",
+		"librust-writeable-0.6+alloc-dev (>= 0.6.4)",
+		"librust-writeable-0.6-dev (>= 0.6.4)",
 		"librust-zerovec-0.11+alloc-dev (>= 0.11.6)",
 		"librust-zerovec-0.11-dev (>= 0.11.6)"
 	],
-	"installedSize": 53,
+	"breaks": [
+		"rustc (<< 1.82~)"
+	],
+	"installedSize": 58,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Unvalidated string and character types - Rust source code",
 	"homepage": "https://icu4x.unicode.org",
-	"filename": "pool/main/r/rust-potential-utf/librust-potential-utf-dev_0.1.5-1_amd64.deb",
-	"size": 10912,
-	"md5": "58831dc17c84678260258bcb52642ba0",
-	"sha256": "8880af35c018092193a436e2def7a6b0c1601013fe65f0add1d08967745448d7",
+	"filename": "pool/main/r/rust-potential-utf/librust-potential-utf-dev_0.1.6-1_amd64.deb",
+	"size": 11512,
+	"md5": "c987c9b12e1f9768c701b78c1083e556",
+	"sha256": "4a7ed813edb4bae2e1defdc1e7abed2623afb2bfddf43884860937ec76ea5a46",
 	"descriptionMd5": "edf613f291b4e8c95df7c7e5cc03e9e5"
 }

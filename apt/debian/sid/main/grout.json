@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "grout",
-	"version": "0.17.0-1",
+	"version": "0.17.1-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,20 +15,33 @@
 		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
 		"libevent-extra-2.1-7t64 (>= 2.1.8-stable)",
 		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
-		"libisal2 (>= 2.19.0)",
-		"libmnl0 (>= 1.0.3-4~)"
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnuma1 (>= 2.0.11)",
+		"librte-eal26 (>= 23.11)",
+		"librte-ethdev26 (>= 23.11)",
+		"librte-fib26 (>= 25.11~rc2)",
+		"librte-graph26 (>= 25.11~rc2)",
+		"librte-hash26 (>= 23.11)",
+		"librte-log26 (>= 23.11)",
+		"librte-mbuf26 (>= 23.11)",
+		"librte-mempool26 (>= 23.11)",
+		"librte-net26 (>= 23.11)",
+		"librte-rcu26 (>= 23.11)",
+		"librte-rib26 (>= 23.11)",
+		"librte-ring26 (>= 23.11)"
 	],
 	"recommends": [
 		"driverctl",
-		"less"
+		"less",
+		"librte-meta-allpmds"
 	],
-	"installedSize": 53012,
+	"installedSize": 956,
 	"maintainer": "Robin Jarry <robin@jarry.cc>",
 	"description": "Graph router based on DPDK",
 	"homepage": "https://github.com/DPDK/grout",
-	"filename": "pool/main/g/grout/grout_0.17.0-1_amd64.deb",
-	"size": 12053416,
-	"md5": "794fc44d9172c303295b6687e0b0ab2f",
-	"sha256": "352c200bff50c618221f14f84eba14033cb86bb0115b4df93d9c752057e57af7",
+	"filename": "pool/main/g/grout/grout_0.17.1-1_amd64.deb",
+	"size": 314828,
+	"md5": "fa13cec1a6210ee4cf9d9d4275208a21",
+	"sha256": "8e1acf0df071a1e4386444d4b45acb56e2d04eca5df444c6365a025bf4ce1d46",
 	"descriptionMd5": "c2e6136dc40fd98e831034c495a5446a"
 }

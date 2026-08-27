@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-line-clipping-dev",
-	"source": "rust-line-clipping (0.3.5-1)",
-	"version": "0.3.5-1+b1",
+	"source": "rust-line-clipping",
+	"version": "0.3.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bitflags-2+default-dev (>= 2.10)"
+		"librust-bitflags-2+default-dev (>= 2.11)"
 	],
-	"installedSize": 77,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 91,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Simple crate implementing line clipping algorithms - Rust source code",
-	"homepage": "https://github.com/joshka/line-clipping",
-	"filename": "pool/main/r/rust-line-clipping/librust-line-clipping-dev_0.3.5-1+b1_amd64.deb",
-	"size": 15716,
-	"md5": "19eeec5dda21ca184e4b5c3486e6b1fb",
-	"sha256": "e5b652a69b067a98c78d9f0037de2296e01d9cad560fea5d0ac46773f56decf9",
-	"descriptionMd5": "7cf58bc3083e4be48422499979874ab5"
+	"description": "Simple crate implementing line and polygon clipping algorithms - Rust source code",
+	"homepage": "https://github.com/ratatui/line-clipping",
+	"filename": "pool/main/r/rust-line-clipping/librust-line-clipping-dev_0.3.8-1_amd64.deb",
+	"size": 19068,
+	"md5": "dd72b71a3f79b207682f66b5c059cbe7",
+	"sha256": "980fb52f9b133ba908bf8d2b8ea58227d7230fde12501a622cfad3aec3dcc07e",
+	"descriptionMd5": "3168c49663018d8aa432c28f161c9a2a"
 }]

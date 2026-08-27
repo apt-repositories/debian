@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libunwind-23-dev",
+	"source": "llvm-toolchain-23",
+	"version": "1:23.1.0-1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"llvm-libunwind1 (>= 1:23.1.0-1)"
+	],
+	"replaces": [
+		"libunwind-dev",
+		"libunwind-x.y-dev",
+		"llvm-libunwind1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"breaks": [
+		"llvm-libunwind1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"conflicts": [
+		"libunwind-dev",
+		"libunwind-x.y-dev"
+	],
+	"installedSize": 358,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM unwinder, not compatible with glibc",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-23/libunwind-23-dev_23.1.0-1_amd64.deb",
+	"size": 62764,
+	"md5": "f073cb0bb1c4365af6dcafd37bbd8976",
+	"sha256": "8133e46101edc7df6edfd1f83425c7f6a7cc2b22db9f2302582da373a3714aa7",
+	"descriptionMd5": "eb120532210ba0a1aa18eb3464ed08dc"
+}

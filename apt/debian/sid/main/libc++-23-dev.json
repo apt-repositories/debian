@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++-23-dev",
+	"source": "llvm-toolchain-23",
+	"version": "1:23.1.0-1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++1 (>= 1:23.1.0-1)",
+		"libc++abi-23-dev (= 1:23.1.0-1)"
+	],
+	"replaces": [
+		"libc++-x.y-dev",
+		"libc++1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"breaks": [
+		"libc++1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"conflicts": [
+		"libc++-x.y-dev"
+	],
+	"installedSize": 17439,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM C++ Standard library (development files)",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-23/libc++-23-dev_23.1.0-1_amd64.deb",
+	"size": 1550164,
+	"md5": "49aec2160a03ac3a8703c2a8f18ec282",
+	"sha256": "562aa34119fe5b2e46c831b14e51374e51353bbe688eac180d17299b3ce967a1",
+	"descriptionMd5": "8cd44d2ae4969ab1c95a30917ddc69e7"
+}
