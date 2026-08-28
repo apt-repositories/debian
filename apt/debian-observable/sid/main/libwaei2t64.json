@@ -6,14 +6,14 @@
 	],
 	"package": "libwaei2t64",
 	"source": "gwaei",
-	"version": "3.6.2-9.2",
+	"version": "3.6.2-10",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.14)",
-		"libcurl3t64-gnutls (>= 7.16.2)",
-		"libglib2.0-0t64 (>= 2.75.3)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
+		"libglib2.0-0t64 (>= 2.80.0)",
 		"libmecab2 (>= 0.996)",
 		"zlib1g (>= 1:1.1.4)"
 	],
@@ -21,15 +21,15 @@
 		"libwaei2"
 	],
 	"breaks": [
-		"libwaei2 (<< 3.6.2-9.2)"
+		"libwaei2 (<< 3.6.2-10)"
 	],
-	"installedSize": 180,
-	"maintainer": "Norbert Preining <norbert@preining.info>",
-	"description": "Japanese-English Dictionary for GNOME",
-	"homepage": "http://www.zacharydovel.com/software/gwaei",
-	"filename": "pool/main/g/gwaei/libwaei2t64_3.6.2-9.2_amd64.deb",
-	"size": 43372,
-	"md5": "efddf9b4415f2811c9d06c3264be89fd",
-	"sha256": "5b2801d171be5da2adabc06d8f0397686a5dab675c600bd5606a82cbbcb021ec",
-	"descriptionMd5": "7774d11f33fac2ef18e29651704cb263"
+	"installedSize": 157,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"description": "Japanese-English Dictionary for GNOME (shared lib)",
+	"homepage": "https://github.com/m10k/gwaei",
+	"filename": "pool/main/g/gwaei/libwaei2t64_3.6.2-10_amd64.deb",
+	"size": 50696,
+	"md5": "fabd6942462d04507681c3b760d86bfb",
+	"sha256": "780bfd3c6751b891e7afd1b731f1876ad838faacf6dff45bd77ea2e0f6c0d6b7",
+	"descriptionMd5": "44516c152047a5552004ab713557b8e9"
 }]

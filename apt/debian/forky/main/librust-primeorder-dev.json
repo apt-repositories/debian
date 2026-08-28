@@ -5,25 +5,35 @@
 		"Size"
 	],
 	"package": "librust-primeorder-dev",
-	"source": "rust-primeorder (0.13.6-1)",
-	"version": "0.13.6-1+b1",
+	"source": "rust-primeorder",
+	"version": "0.14.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-elliptic-curve-0.13+alloc-dev (>= 0.13.7-~~)",
-		"librust-elliptic-curve-0.13+arithmetic-dev (>= 0.13.7-~~)",
-		"librust-elliptic-curve-0.13+sec1-dev (>= 0.13.7-~~)",
-		"librust-elliptic-curve-0.13+serde-dev (>= 0.13.7-~~)",
-		"librust-elliptic-curve-0.13+std-dev (>= 0.13.7-~~)",
-		"librust-serdect-0.2-dev"
+		"librust-elliptic-curve-0.14+alloc-dev (>= 0.14.1)",
+		"librust-elliptic-curve-0.14+arithmetic-dev (>= 0.14.1)",
+		"librust-elliptic-curve-0.14+sec1-dev (>= 0.14.1)",
+		"librust-elliptic-curve-0.14+serde-dev (>= 0.14.1)",
+		"librust-elliptic-curve-0.14+std-dev (>= 0.14.1)",
+		"librust-once-cell-1+critical-section-dev (>= 1.21)",
+		"librust-once-cell-1+std-dev (>= 1.21)",
+		"librust-once-cell-1-dev (>= 1.21)",
+		"librust-primefield-0.14+default-dev",
+		"librust-serdect-0.4+alloc-dev",
+		"librust-serdect-0.4-dev",
+		"librust-wnaf-0.14-dev"
 	],
-	"installedSize": 112,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 138,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Pure Rust implementation of complete addition formulas for prime order elliptic curves (Renes-Costello-Batina 2015) - Rust source code",
-	"filename": "pool/main/r/rust-primeorder/librust-primeorder-dev_0.13.6-1+b1_amd64.deb",
-	"size": 22524,
-	"md5": "b29fc36477cc6c2314022351729d4d6b",
-	"sha256": "bf98fddf4fb150371c14bf950e22d6f1f57a196ed6e3502f1677286d54cb5a6f",
+	"homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/primeorder",
+	"filename": "pool/main/r/rust-primeorder/librust-primeorder-dev_0.14.0-1_amd64.deb",
+	"size": 27880,
+	"md5": "e6a7e4f0fd2077d42ad6dc4653bc81ad",
+	"sha256": "dd08dac8437bff6e14664d9d1bc971f4bf70e4c685eea42b595206c0cab5022f",
 	"descriptionMd5": "8c2680d310a337e6f76b3e8a55e70946"
 }

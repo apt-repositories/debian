@@ -6,7 +6,7 @@
 	],
 	"package": "knot-doc",
 	"source": "knot",
-	"version": "3.5.6-2",
+	"version": "3.5.7-1",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
@@ -15,13 +15,19 @@
 		"libjs-sphinxdoc",
 		"libjs-underscore"
 	],
-	"installedSize": 1392,
+	"replaces": [
+		"knot (<< 3.5.7-1)"
+	],
+	"breaks": [
+		"knot (<< 3.5.7-1)"
+	],
+	"installedSize": 1394,
 	"maintainer": "knot packagers <knot@packages.debian.org>",
 	"description": "Documentation for Knot DNS",
 	"homepage": "https://www.knot-dns.cz/",
-	"filename": "pool/main/k/knot/knot-doc_3.5.6-2_all.deb",
-	"size": 227032,
-	"md5": "8d75480c7ab8f069830e3091c70332e9",
-	"sha256": "3a11b965df84286680a55d1f71b6e004e499ab94e8889979697b69c4ab61b025",
+	"filename": "pool/main/k/knot/knot-doc_3.5.7-1_all.deb",
+	"size": 227740,
+	"md5": "4770a49deb5addc62d724124f3e246f5",
+	"sha256": "d6c45f9142a6c7b9dba1bf117fe364941b1c8baa4b53e72d919a724bd128cfa1",
 	"descriptionMd5": "cdc663089d1541610dc83f1a18c069d8"
 }

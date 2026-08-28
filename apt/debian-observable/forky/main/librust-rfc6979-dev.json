@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "librust-rfc6979-dev",
-	"source": "rust-rfc6979 (0.4.0-1)",
-	"version": "0.4.0-1+b3",
+	"source": "rust-rfc6979",
+	"version": "0.6.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-hmac-0.12+reset-dev",
-		"librust-subtle-2-dev"
+		"librust-crypto-bigint-0.7-dev (>= 0.7.5)",
+		"librust-hmac-0.13-dev"
 	],
-	"installedSize": 51,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 60,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Pure Rust implementation of RFC6979: Deterministic Usage of the Digital Signature Algorithm (DSA) and Elliptic Curve Digital Signature Algorithm (ECDSA) - Rust source code",
-	"filename": "pool/main/r/rust-rfc6979/librust-rfc6979-dev_0.4.0-1+b3_amd64.deb",
-	"size": 11672,
-	"md5": "ddaf79b55a505025aad9eac60d5e4b17",
-	"sha256": "534350f2de928444c792263653b89c9939be53708112826ba3052533d80198fe",
-	"descriptionMd5": "4354da84540918d391ad6259f8c636f4"
+	"homepage": "https://github.com/RustCrypto/signatures/tree/master/rfc6979",
+	"filename": "pool/main/r/rust-rfc6979/librust-rfc6979-dev_0.6.0-1_amd64.deb",
+	"size": 15880,
+	"md5": "2ff71a71e6301dfff6be3e4b60832ecc",
+	"sha256": "951b91410ac1eb8932394e8478e80cb18914401c85d2a832a2e1c27cacc3e0cb",
+	"descriptionMd5": "1392d4a3ad6c5a8a85680891e866dc7d"
 }]

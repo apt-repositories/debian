@@ -1,0 +1,54 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-proxy-sqlite3",
+	"source": "zabbix",
+	"version": "1:7.0.29+dfsg-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.43)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-extra-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libldap2 (>= 2.6.2)",
+		"libodbc2 (>= 2.3.1)",
+		"libopenipmi0t64 (>= 2.0.37)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libsnmp45 (>= 5.9.5.2+dfsg)",
+		"libsqlite3-0 (>= 3.5.9)",
+		"libssh2-1t64 (>= 1.4.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.2.0)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"ucf",
+		"fping",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)",
+		"sqlite3"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"conflicts": [
+		"zabbix-proxy-mysql",
+		"zabbix-proxy-pgsql",
+		"zabbix-server-mysql",
+		"zabbix-server-pgsql"
+	],
+	"installedSize": 6700,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "network monitoring solution - proxy (using SQLite3)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/main/z/zabbix/zabbix-proxy-sqlite3_7.0.29+dfsg-2_amd64.deb",
+	"size": 1936668,
+	"md5": "140f19e4766fab8d30489cd4a7d799bb",
+	"sha256": "c5b442f949c1ee20f536231138adfaa149b22163c70ace64861ecb1af7bf4780",
+	"descriptionMd5": "605c0c25b150b79a885b51e44078a990"
+}]
