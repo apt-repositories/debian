@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-agent",
+	"source": "zabbix",
+	"version": "1:7.0.29+dfsg-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libldap2 (>= 2.6.2)",
+		"libmodbus5 (>= 3.0.2)",
+		"libpcre2-8-0 (>= 10.22)",
+		"zlib1g (>= 1:1.2.0)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"ucf",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)",
+		"pciutils"
+	],
+	"recommends": [
+		"usbutils",
+		"zabbix-sender"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"installedSize": 1393,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "network monitoring solution - agent",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/main/z/zabbix/zabbix-agent_7.0.29+dfsg-2_amd64.deb",
+	"size": 818344,
+	"md5": "1798b767223f187cf0dd2d662d9b9c59",
+	"sha256": "3e1c73507d243f19faaa00fe1d07d8bb9c57f8b6b8113f8326c8401d481cd64b",
+	"descriptionMd5": "eac02cc4af79b30caae8c4f8fb05e53b"
+}

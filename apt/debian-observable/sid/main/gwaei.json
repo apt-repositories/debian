@@ -5,33 +5,34 @@
 		"Size"
 	],
 	"package": "gwaei",
-	"version": "3.6.2-9.2",
+	"version": "3.6.2-10",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.2.4)",
 		"libgdk-pixbuf-2.0-0 (>= 2.22.0)",
-		"libglib2.0-0t64 (>= 2.38.0)",
+		"libglib2.0-0t64 (>= 2.80.0)",
 		"libgtk-3-0t64 (>= 3.3.16)",
-		"libhunspell-1.7-0",
+		"libhunspell-1.7-0 (>= 1.7.3+really1.7.3)",
 		"libpango-1.0-0 (>= 1.20.0)",
 		"libpangocairo-1.0-0 (>= 1.14.0)",
-		"libwaei2t64"
+		"libwaei2t64 (>= 3.6.2)",
+		"dconf-gsettings-backend | gsettings-backend"
 	],
 	"recommends": [
 		"fonts-kanjistrokeorders",
 		"mecab-ipadic",
 		"hunspell-en-us"
 	],
-	"installedSize": 1004,
-	"maintainer": "Norbert Preining <norbert@preining.info>",
+	"installedSize": 932,
+	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "Japanese-English Dictionary for GNOME",
-	"homepage": "http://www.zacharydovel.com/software/gwaei",
-	"filename": "pool/main/g/gwaei/gwaei_3.6.2-9.2_amd64.deb",
-	"size": 210172,
-	"md5": "bdc6b9d5334d00f940fa7ec16f61963f",
-	"sha256": "2434a486b932c4ff556dd51cccda01aa0f56a67049066bc9377bd55d8c86ed9b",
+	"homepage": "https://github.com/m10k/gwaei",
+	"filename": "pool/main/g/gwaei/gwaei_3.6.2-10_amd64.deb",
+	"size": 210296,
+	"md5": "2bed3acbf554e7d77eaf32fe45e1184e",
+	"sha256": "8dd368b501758985de9ea419fa90daf3e6b62b18032fc673dbf6fc8682d86e93",
 	"descriptionMd5": "9d6d7cf1a967c5feb92eeb8574b725ce"
 }]

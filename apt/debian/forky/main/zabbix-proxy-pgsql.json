@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-proxy-pgsql",
+	"source": "zabbix",
+	"version": "1:7.0.29+dfsg-2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.43)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-extra-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libldap2 (>= 2.6.2)",
+		"libodbc2 (>= 2.3.1)",
+		"libopenipmi0t64 (>= 2.0.37)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libpq5 (>= 9.0~)",
+		"libsnmp45 (>= 5.9.5.2+dfsg)",
+		"libssh2-1t64 (>= 1.4.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.2.0)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"ucf",
+		"fping",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)"
+	],
+	"recommends": [
+		"postgresql"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"conflicts": [
+		"zabbix-proxy-mysql",
+		"zabbix-proxy-sqlite3",
+		"zabbix-server-mysql",
+		"zabbix-server-pgsql"
+	],
+	"installedSize": 7256,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "network monitoring solution - proxy (using PostgreSQL)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/main/z/zabbix/zabbix-proxy-pgsql_7.0.29+dfsg-2_amd64.deb",
+	"size": 2086448,
+	"md5": "2df4bb9af0027ec92f93bd4721811788",
+	"sha256": "38a04c12a8313f6b2439f9943a2f7f1c3510c8b2a0ac392394998a9610b0776e",
+	"descriptionMd5": "244acb11335213634aa4a92d21024297"
+}

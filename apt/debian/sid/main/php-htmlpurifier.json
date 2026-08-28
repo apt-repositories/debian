@@ -5,20 +5,25 @@
 		"Size"
 	],
 	"package": "php-htmlpurifier",
-	"version": "4.11.0-2",
+	"version": "4.19.0-1",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"php-common"
 	],
-	"installedSize": 1532,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
-	"description": "Standards-compliant HTML filter",
+	"suggests": [
+		"php-cerdic-css-tidy",
+		"php-bcmath",
+		"php-tidy"
+	],
+	"installedSize": 1380,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "Standards compliant HTML filter written in PHP",
 	"homepage": "http://htmlpurifier.org/",
-	"filename": "pool/main/p/php-htmlpurifier/php-htmlpurifier_4.11.0-2_all.deb",
-	"size": 255328,
-	"md5": "9da79674116727c9fbbe85db798a860d",
-	"sha256": "a657f1592ec04e23507a5fb61bb83988a58876e4e02fd659b7b584ca29325c13",
-	"descriptionMd5": "8d49d698ced12857284b8a09cd5ab39a"
+	"filename": "pool/main/p/php-htmlpurifier/php-htmlpurifier_4.19.0-1_all.deb",
+	"size": 232708,
+	"md5": "35b1d0e054d03645eaf9ed5929578b6b",
+	"sha256": "295795a339780681240238d22adfeeda6fadc853f99d59683c99cf5cae3aba32",
+	"descriptionMd5": "14bfa8b56dff8131419a9dea3aa40413"
 }

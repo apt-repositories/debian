@@ -63,4 +63,36 @@
 	"md5": "c6bef2d5ac34132b9240fbd8e08afc20",
 	"sha256": "99d1f1bf2e8d29c94b6df85ce1c1584d38d6ddbcced3cc183ce5144d4879e019",
 	"descriptionMd5": "c2ebe73ae22d08ed61f7619b0540e9d3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cockpit-storaged",
+	"source": "cockpit",
+	"version": "337-1+deb13u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"udisks2 (>= 2.9)",
+		"udisks2 (>= 2.10) | libblockdev-mdraid2",
+		"cockpit-bridge (>= 337-1+deb13u2)",
+		"python3",
+		"python3-dbus"
+	],
+	"suggests": [
+		"udisks2-btrfs",
+		"udisks2-lvm2",
+		"mdadm"
+	],
+	"installedSize": 842,
+	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
+	"description": "Cockpit user interface for storage",
+	"homepage": "https://cockpit-project.org/",
+	"filename": "pool/updates/main/c/cockpit/cockpit-storaged_337-1+deb13u2_all.deb",
+	"size": 820492,
+	"sha256": "74a6f8e1f0902c14218fbab791c582c32eb3fcb13295f7d61ca7ea83b439c8af",
+	"descriptionMd5": "c2ebe73ae22d08ed61f7619b0540e9d3"
 }]
