@@ -1,0 +1,32 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "luajit",
+	"version": "2.1.0+openresty20251030-1~bpo13+1",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libluajit-5.1-2 (= 2.1.0+openresty20251030-1~bpo13+1)",
+		"libluajit-5.1-common (= 2.1.0+openresty20251030-1~bpo13+1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3)"
+	],
+	"replaces": [
+		"luajit2"
+	],
+	"conflicts": [
+		"luajit2"
+	],
+	"installedSize": 618,
+	"maintainer": "Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>",
+	"description": "OpenResty-maintained branch of LuaJIT (interpreter)",
+	"homepage": "https://github.com/openresty/luajit2",
+	"filename": "pool/main/l/luajit/luajit_2.1.0+openresty20251030-1~bpo13+1_amd64.deb",
+	"size": 270896,
+	"sha256": "5c69f64d02999d2dc01b6c60f6c2a3cdb3992e97699ed9d90fa279494473e7ad",
+	"descriptionMd5": "1959eed7c0d000710dcd1bc199f24d41"
+}

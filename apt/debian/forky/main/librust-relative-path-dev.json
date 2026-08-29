@@ -6,20 +6,24 @@
 	],
 	"package": "librust-relative-path-dev",
 	"source": "rust-relative-path",
-	"version": "1.9.3-1",
+	"version": "2.0.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+default-dev (>= 1.0.160)"
+		"librust-serde-1+alloc-dev (>= 1.0.160)",
+		"librust-serde-1-dev (>= 1.0.160)"
 	],
-	"installedSize": 131,
+	"breaks": [
+		"rustc (<< 1.66~)"
+	],
+	"installedSize": 157,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Portable, relative paths for Rust - Rust source code",
 	"homepage": "https://github.com/udoprog/relative-path",
-	"filename": "pool/main/r/rust-relative-path/librust-relative-path-dev_1.9.3-1_amd64.deb",
-	"size": 22540,
-	"md5": "1ef9f4c33d80235a1fa647a1a3818744",
-	"sha256": "bd3bebaba192343d66530bdc52d7ed14625b8554654d220acc07e33c6f063a92",
+	"filename": "pool/main/r/rust-relative-path/librust-relative-path-dev_2.0.1-1_amd64.deb",
+	"size": 27460,
+	"md5": "8465b85dc633177c2f1a7bf55d09982d",
+	"sha256": "feef8819b6d1b124baa181bad7f13535aac1eedd8c7462db148a11570b9674f4",
 	"descriptionMd5": "62204c812e4e24d511fc823e6ff135e9"
 }

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cqrlog",
+	"version": "3.0.0-1",
+	"section": "hamradio",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cqrlog-data (= 3.0.0-1)",
+		"mariadb-client-core",
+		"mariadb-server-core",
+		"libhamlib-utils",
+		"libhamlib4t64",
+		"libmariadb-dev-compat",
+		"libc6 (>= 2.34)",
+		"libqt5pas1 (>= 2.6~beta-1)",
+		"libx11-6"
+	],
+	"recommends": [
+		"mariadb-server",
+		"xplanet"
+	],
+	"replaces": [
+		"cqrlog-data (<< 2.5.2-2)"
+	],
+	"breaks": [
+		"cqrlog-data (<< 2.5.2-2)"
+	],
+	"installedSize": 16698,
+	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
+	"description": "Advanced logging program for hamradio operators",
+	"homepage": "https://www.cqrlog.com",
+	"filename": "pool/main/c/cqrlog/cqrlog_3.0.0-1_amd64.deb",
+	"size": 4207244,
+	"md5": "59cae014d2aa8f10fb5c60420a5d1d3b",
+	"sha256": "3a0cb5ee8d5acefc737b36038f9a87535c881221b1d24cafa3432526ac9720c1",
+	"descriptionMd5": "f7b339209c0e83157276c21068727e49"
+}

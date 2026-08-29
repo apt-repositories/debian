@@ -6,12 +6,12 @@
 	],
 	"package": "wesnoth-1.18-server",
 	"source": "wesnoth-1.18",
-	"version": "1:1.18.7-1~bpo13+1",
+	"version": "1:1.18.8-1~bpo13+1",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libboost-context1.83.0 (>= 1.83.0)",
 		"libboost-filesystem1.83.0 (>= 1.83.0)",
 		"libboost-iostreams1.83.0 (>= 1.83.0)",
@@ -25,12 +25,12 @@
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
 	],
-	"installedSize": 3072,
+	"installedSize": 3079,
 	"maintainer": "Debian Games Team <pkg-games-devel@lists.alioth.debian.org>",
 	"description": "multiplayer network server for Wesnoth (branch 1.18)",
 	"homepage": "https://www.wesnoth.org/",
-	"filename": "pool/main/w/wesnoth-1.18/wesnoth-1.18-server_1.18.7-1~bpo13+1_amd64.deb",
-	"size": 1115076,
-	"sha256": "b033f69b0b4040bf9038f5dbb1363e404608bc90059e17638717e5b59ed6f55a",
+	"filename": "pool/main/w/wesnoth-1.18/wesnoth-1.18-server_1.18.8-1~bpo13+1_amd64.deb",
+	"size": 1119972,
+	"sha256": "944774a119f6dfe677c4070f4efc70e89c31ebbd1404305994ccbd503606cfec",
 	"descriptionMd5": "dbae72d06816bf9e4a78a3ce70b56577"
 }
