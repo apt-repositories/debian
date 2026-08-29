@@ -6,6 +6,37 @@
 	],
 	"package": "libluajit-5.1-2",
 	"source": "luajit",
+	"version": "2.1.0+openresty20251030-1~bpo13+1",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libluajit-5.1-common (= 2.1.0+openresty20251030-1~bpo13+1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3)"
+	],
+	"replaces": [
+		"libluajit2-5.1-2"
+	],
+	"conflicts": [
+		"libluajit2-5.1-2"
+	],
+	"installedSize": 618,
+	"maintainer": "Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>",
+	"description": "OpenResty-maintained branch of LuaJIT (shared objects)",
+	"homepage": "https://github.com/openresty/luajit2",
+	"filename": "pool/main/l/luajit/libluajit-5.1-2_2.1.0+openresty20251030-1~bpo13+1_amd64.deb",
+	"size": 265356,
+	"sha256": "6e82df437875e5971f9e187e57ca80a0e68f6366206e45735ba0b22c11f26ec7",
+	"descriptionMd5": "76292c71f1b59553fdcdfd14152c1b74"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libluajit-5.1-2",
+	"source": "luajit",
 	"version": "2.1.0+openresty20250117-2",
 	"section": "libs",
 	"priority": "optional",

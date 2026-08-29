@@ -5,22 +5,66 @@
 		"Size"
 	],
 	"package": "openssh-server-gssapi",
-	"source": "openssh",
-	"version": "1:10.4p1-4",
+	"source": "openssh-gssapi",
+	"version": "1:10.4p1-5",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"openssh-server (>= 1:10.4p1-4)",
-		"openssh-common (= 1:10.4p1-4)"
+		"libpam-modules",
+		"libpam-runtime",
+		"openssh-common (<< 1:10.4p1.1)",
+		"openssh-common (>= 1:10.4p1)",
+		"openssh-sftp-server",
+		"procps",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"runit-helper (>= 2.14.0~)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.42)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"libwtmpdb0 (>= 0.13.0)",
+		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 10,
+	"recommends": [
+		"default-logind | logind | libpam-systemd",
+		"ncurses-term",
+		"passwd",
+		"xauth"
+	],
+	"suggests": [
+		"molly-guard",
+		"monkeysphere",
+		"ssh-askpass",
+		"ufw"
+	],
+	"replaces": [
+		"openssh-server",
+		"ssh",
+		"ssh-krb5"
+	],
+	"breaks": [
+		"runit (<< 2.1.2-51~)"
+	],
+	"conflicts": [
+		"openssh-server"
+	],
+	"installedSize": 3886,
 	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
 	"description": "secure shell (SSH) server, with GSS-API key exchange",
 	"homepage": "https://www.openssh.com/",
-	"filename": "pool/main/o/openssh/openssh-server-gssapi_10.4p1-4_amd64.deb",
-	"size": 1548,
-	"md5": "ec35dacd5fa8d5455fbe38631716fda5",
-	"sha256": "2dde02c5f38d6a0be794a7cd9474fe6048342a1b7e9b00ce3e18a062e021ea74",
-	"descriptionMd5": "e0464de7c75a87f097d73cf92e00b779"
+	"filename": "pool/main/o/openssh-gssapi/openssh-server-gssapi_10.4p1-5_amd64.deb",
+	"size": 835924,
+	"md5": "3378b9cab0e14e5417b69e28cb470877",
+	"sha256": "d050196215a6b80e2869b69b1031483d2fbb864ef6e87548bd6af0d8d871dd76",
+	"descriptionMd5": "313d07ca69861be6e5ee1c580476618c"
 }]
