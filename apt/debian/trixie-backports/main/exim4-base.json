@@ -6,7 +6,7 @@
 	],
 	"package": "exim4-base",
 	"source": "exim4",
-	"version": "4.99.4-2~bpo13+1",
+	"version": "4.100-1~bpo13+1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,7 +18,7 @@
 		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"debconf (>= 0.5) | debconf-2.0",
 		"perl:any",
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.34)",
 		"libsqlite3-0 (>= 3.5.9)"
 	],
 	"recommends": [
@@ -42,21 +42,21 @@
 		"exim4-daemon-mod"
 	],
 	"breaks": [
-		"exim4-daemon-custom (<< 4.99.4)",
-		"exim4-daemon-heavy (<< 4.99.4)",
-		"exim4-daemon-light (<< 4.99.4)",
-		"exim4-daemon-mod (<< 4.99.4)"
+		"exim4-daemon-custom (<< 4.100)",
+		"exim4-daemon-heavy (<< 4.100)",
+		"exim4-daemon-light (<< 4.100)",
+		"exim4-daemon-mod (<< 4.100)"
 	],
 	"conflicts": [
 		"exim",
 		"exim-tls"
 	],
-	"installedSize": 1648,
+	"installedSize": 1686,
 	"maintainer": "Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>",
 	"description": "support files for all Exim MTA (v4) packages",
 	"homepage": "https://www.exim.org/",
-	"filename": "pool/main/e/exim4/exim4-base_4.99.4-2~bpo13+1_amd64.deb",
-	"size": 1106324,
-	"sha256": "a974a41d8a0375fd2e9b8c9c8e01f5cbf53685c1769741715cb7812f4417cc49",
+	"filename": "pool/main/e/exim4/exim4-base_4.100-1~bpo13+1_amd64.deb",
+	"size": 1118408,
+	"sha256": "5c52271cd6394dd1eaa6efe9da5510d18f56b5c964e732da2fab80b8cfe30da2",
 	"descriptionMd5": "2126f768eceb27ad2d1038e6ba790076"
 }
