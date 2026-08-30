@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "babel-minify",
-	"version": "0.5.2+dfsg+~cs5.2.9-9",
+	"version": "0.5.2+dfsg+~cs5.2.9-10",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"nodejs:any",
 		"node-babel-core (>= 7)",
 		"node-has-symbols",
 		"node-call-bind",
@@ -23,19 +24,18 @@
 		"node-tape",
 		"node-through2",
 		"node-vinyl-sourcemaps-apply",
-		"node-yargs-parser",
-		"nodejs:any"
+		"node-yargs-parser"
 	],
 	"suggests": [
 		"jest"
 	],
-	"installedSize": 490,
+	"installedSize": 485,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "ES6+ aware minifier based on the Babel toolchain",
 	"homepage": "https://babeljs.io/",
-	"filename": "pool/main/b/babel-minify/babel-minify_0.5.2+dfsg+~cs5.2.9-9_all.deb",
-	"size": 77568,
-	"md5": "00970f85776caa46133f8b5556f50736",
-	"sha256": "d2683958020ec0cc98dfc048610533ccd40b932fad356b56be3540ed44cb53f0",
+	"filename": "pool/main/b/babel-minify/babel-minify_0.5.2+dfsg+~cs5.2.9-10_all.deb",
+	"size": 76604,
+	"md5": "1d5366acc2153622736fb214359830bc",
+	"sha256": "0c99fb888deae6414e30e5fb193ad05a837969af3fdb9eeda9025e2ff06d4464",
 	"descriptionMd5": "bb9dd1b67c4824325659099282734ea7"
 }]

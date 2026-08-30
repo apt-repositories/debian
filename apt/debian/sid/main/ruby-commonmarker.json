@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "ruby-commonmarker",
-	"version": "2.8.3-2",
+	"version": "2.8.3-3",
 	"section": "ruby",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,17 @@
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 4.2)"
 	],
-	"installedSize": 4785,
+	"breaks": [
+		"ruby-jekyll-commonmark (<< 1.4.0-3)",
+		"tdiary-style-gfm (<< 1.4.0)"
+	],
+	"installedSize": 4801,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "Ruby wrapper for Rust's comrak crate",
 	"homepage": "https://github.com/gjtorikian/commonmarker",
-	"filename": "pool/main/r/ruby-commonmarker/ruby-commonmarker_2.8.3-2_amd64.deb",
-	"size": 1425996,
-	"md5": "9fcc27f05d01bf444771d65142cf5360",
-	"sha256": "7af4c0a75aad7a0df79e57fc360afe06aa2ce39c1f74aebce49ca994629cb81f",
+	"filename": "pool/main/r/ruby-commonmarker/ruby-commonmarker_2.8.3-3_amd64.deb",
+	"size": 1431664,
+	"md5": "e7f7b4b3d827aead6e4ed3525290041f",
+	"sha256": "98c013f0f0df76dae19a3f2726a5c834e7dd02946954cbbc1a79141d88bd5e4b",
 	"descriptionMd5": "23defcb9214eceea354e9ab40d38bf26"
 }
