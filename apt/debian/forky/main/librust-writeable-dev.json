@@ -6,20 +6,23 @@
 	],
 	"package": "librust-writeable-dev",
 	"source": "rust-writeable",
-	"version": "0.6.3-1",
+	"version": "0.6.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-either-1-dev (>= 1.9.0)"
 	],
-	"installedSize": 125,
+	"breaks": [
+		"rustc (<< 1.82~)"
+	],
+	"installedSize": 148,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "More efficient alternative to fmt::Display - Rust source code",
 	"homepage": "https://github.com/unicode-org/icu4x",
-	"filename": "pool/main/r/rust-writeable/librust-writeable-dev_0.6.3-1_amd64.deb",
-	"size": 21856,
-	"md5": "a3ce4ee0f1f598292dd21691c7ce7c05",
-	"sha256": "0b476cf201c1b9b4f7a18964ddf2f1a85a11bab581e8c1ed4377c240a5f011b1",
+	"filename": "pool/main/r/rust-writeable/librust-writeable-dev_0.6.4-1_amd64.deb",
+	"size": 25528,
+	"md5": "04361c7b54999cba79aedbd9c78fb4e6",
+	"sha256": "52dcbb4d291f452fed8bc1893c9173c4186f524ed2bed09728f0475c1840f5d2",
 	"descriptionMd5": "a5f2bf8a240e3730df89de099697f08e"
 }

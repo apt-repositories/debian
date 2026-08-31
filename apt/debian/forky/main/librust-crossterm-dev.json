@@ -6,7 +6,7 @@
 	],
 	"package": "librust-crossterm-dev",
 	"source": "rust-crossterm",
-	"version": "0.29.0-2",
+	"version": "0.29.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -31,17 +31,23 @@
 		"librust-rustix-1+termios-dev",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
-		"librust-signal-hook-0.3+default-dev (>= 0.3.17)",
-		"librust-signal-hook-mio-0.2+default-dev (>= 0.2.4)",
-		"librust-signal-hook-mio-0.2+support-v1-0-dev (>= 0.2.4)"
+		"librust-signal-hook+default-dev (<< 0.5)",
+		"librust-signal-hook+default-dev (>= 0.3.17)",
+		"librust-signal-hook-mio+default-dev (<< 0.4)",
+		"librust-signal-hook-mio+default-dev (>= 0.2.4)",
+		"librust-signal-hook-mio+support-v1-0-dev (<< 0.4)",
+		"librust-signal-hook-mio+support-v1-0-dev (>= 0.2.4)"
+	],
+	"breaks": [
+		"rustc (<< 1.63.0~)"
 	],
 	"installedSize": 587,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Crossplatform terminal library for manipulating terminals - Rust source code",
 	"homepage": "https://github.com/crossterm-rs/crossterm",
-	"filename": "pool/main/r/rust-crossterm/librust-crossterm-dev_0.29.0-2_amd64.deb",
-	"size": 124880,
-	"md5": "b403bb99b02c51595335b87cade716df",
-	"sha256": "8b078cde98ac199326975377e99f44178e08ad7a70e0cde63c5e7c3dbacb67f8",
+	"filename": "pool/main/r/rust-crossterm/librust-crossterm-dev_0.29.0-3_amd64.deb",
+	"size": 125036,
+	"md5": "76f920db456598955aa4b329594acef8",
+	"sha256": "0a284176ed77c485d893c5a8e4b5330cbf1060259d99161deae02a66d99a0990",
 	"descriptionMd5": "3ac7152e5609484408f9896913c45557"
 }

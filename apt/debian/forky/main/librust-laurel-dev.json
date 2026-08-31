@@ -6,7 +6,7 @@
 	],
 	"package": "librust-laurel-dev",
 	"source": "rust-laurel",
-	"version": "0.8.2-1",
+	"version": "0.8.2-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -44,7 +44,8 @@
 		"librust-serde-json-1+preserve-order-dev",
 		"librust-serde-with-3+macros-dev",
 		"librust-sha2-0.10-dev",
-		"librust-signal-hook-0.3+default-dev",
+		"librust-signal-hook+default-dev (<< 0.5)",
+		"librust-signal-hook+default-dev (>= 0.3)",
 		"librust-simple-logger+default-dev (>= 1)",
 		"librust-syslog+default-dev (>= 6)",
 		"librust-thiserror+default-dev (>= 1)",
@@ -58,13 +59,13 @@
 	"breaks": [
 		"rustc (<< 1.70~)"
 	],
-	"installedSize": 710,
+	"installedSize": 711,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Transform Linux Audit logs for SIEM usage - Rust source code",
 	"homepage": "https://github.com/threathunters-io/laurel",
-	"filename": "pool/main/r/rust-laurel/librust-laurel-dev_0.8.2-1_amd64.deb",
-	"size": 108384,
-	"md5": "3d6017cb5788e8f6cee44e383957ccd4",
-	"sha256": "1d37037ef1eec9214641356055c8de2ec926d42fe6ac82216897a6dee27e655e",
+	"filename": "pool/main/r/rust-laurel/librust-laurel-dev_0.8.2-2_amd64.deb",
+	"size": 108532,
+	"md5": "8729206b3a4523d58b706dde5548df9c",
+	"sha256": "58707d71391e40c6f98e6e393d36a470a4a5bb32dce2a375d62e7346b822eb9c",
 	"descriptionMd5": "cc650c31bcab82d315ca9e928247fa53"
 }

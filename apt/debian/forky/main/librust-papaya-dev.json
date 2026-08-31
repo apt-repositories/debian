@@ -5,23 +5,27 @@
 		"Size"
 	],
 	"package": "librust-papaya-dev",
-	"source": "rust-papaya (0.2.3-1)",
-	"version": "0.2.3-1+b1",
+	"source": "rust-papaya",
+	"version": "0.2.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-equivalent-1+default-dev",
-		"librust-seize-0.5+default-dev",
+		"librust-seize-0.5+fast-barrier-dev",
+		"librust-seize-0.5-dev",
 		"librust-serde-1+default-dev"
 	],
-	"installedSize": 363,
+	"breaks": [
+		"rustc (<< 1.72.0~)"
+	],
+	"installedSize": 368,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Fast and ergonomic concurrent hash-table for read-heavy workloads - Rust source code",
 	"homepage": "https://github.com/ibraheemdev/papaya",
-	"filename": "pool/main/r/rust-papaya/librust-papaya-dev_0.2.3-1+b1_amd64.deb",
-	"size": 51192,
-	"md5": "32e8ff888024b6e6566aab69d341b92b",
-	"sha256": "a5604a235ea120ca8667d12ce5542eab9fd149d4c17a1c0601f6fe7a6cae6835",
+	"filename": "pool/main/r/rust-papaya/librust-papaya-dev_0.2.5-1_amd64.deb",
+	"size": 51672,
+	"md5": "dfabb335a701700972b30b4c35a3f3e0",
+	"sha256": "ed2bab13bc4f86c3c6fc282806dcb55379af617c72dfbd71df881b6ca72bbfdb",
 	"descriptionMd5": "0dd3f7d4c6d62466f4878191bc519bcb"
 }

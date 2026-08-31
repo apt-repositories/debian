@@ -5,27 +5,30 @@
 		"Size"
 	],
 	"package": "librust-liblzma-dev",
-	"source": "rust-liblzma (0.4.4-1)",
-	"version": "0.4.4-1+b1",
+	"source": "rust-liblzma",
+	"version": "0.4.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-liblzma-sys-0.4+bindgen-dev (>= 0.4.3-~~)",
-		"librust-liblzma-sys-0.4+fat-lto-dev (>= 0.4.3-~~)",
-		"librust-liblzma-sys-0.4+parallel-dev (>= 0.4.3-~~)",
-		"librust-liblzma-sys-0.4+thin-lto-dev (>= 0.4.3-~~)",
-		"librust-liblzma-sys-0.4+uncheck-liblzma-version-dev (>= 0.4.3-~~)",
-		"librust-liblzma-sys-0.4-dev (>= 0.4.3-~~)",
-		"librust-num-cpus-1+default-dev (>= 1.16.0-~~)"
+		"librust-liblzma-sys-0.4+bindgen-dev (>= 0.4.8)",
+		"librust-liblzma-sys-0.4+fat-lto-dev (>= 0.4.8)",
+		"librust-liblzma-sys-0.4+parallel-dev (>= 0.4.8)",
+		"librust-liblzma-sys-0.4+thin-lto-dev (>= 0.4.8)",
+		"librust-liblzma-sys-0.4+uncheck-liblzma-version-dev (>= 0.4.8)",
+		"librust-liblzma-sys-0.4-dev (>= 0.4.8)",
+		"librust-num-cpus-1+default-dev (>= 1.16.0)"
 	],
-	"installedSize": 171,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 178,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings to liblzma - Rust source code",
 	"homepage": "https://github.com/portable-network-archive/liblzma-rs",
-	"filename": "pool/main/r/rust-liblzma/librust-liblzma-dev_0.4.4-1+b1_amd64.deb",
-	"size": 32584,
-	"md5": "f61b7db97c22d71c85351ab2cb75612d",
-	"sha256": "af59550b92129be4bda8f9ebc81c07a9aaf5d8ec190a2d3a67ea9aa09dd06c8a",
+	"filename": "pool/main/r/rust-liblzma/librust-liblzma-dev_0.4.8-1_amd64.deb",
+	"size": 33240,
+	"md5": "a5afa37e9d20db123649779f9835996a",
+	"sha256": "f596089b13a00aa111bb494c29946a383ec7f18a23317969302616dccfeb045c",
 	"descriptionMd5": "9312933c61413a6e3f171474ae85027c"
 }]

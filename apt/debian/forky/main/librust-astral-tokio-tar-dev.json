@@ -6,16 +6,17 @@
 	],
 	"package": "librust-astral-tokio-tar-dev",
 	"source": "rust-astral-tokio-tar",
-	"version": "0.6.2-1",
+	"version": "0.6.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-filetime-0.2+default-dev",
 		"librust-futures-core-0.3+default-dev",
 		"librust-libc-0.2+default-dev",
 		"librust-portable-atomic-1+default-dev",
 		"librust-rustc-hash-2+default-dev",
+		"librust-rustix-1+default-dev",
+		"librust-rustix-1+fs-dev",
 		"librust-tokio-1+default-dev",
 		"librust-tokio-1+fs-dev",
 		"librust-tokio-1+io-util-dev",
@@ -23,13 +24,16 @@
 		"librust-tokio-stream-0.1+default-dev",
 		"librust-xattr-1+default-dev"
 	],
-	"installedSize": 466,
+	"breaks": [
+		"rustc (<< 1.83.0~)"
+	],
+	"installedSize": 542,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "An async TAR file reader and writer - Rust source code",
 	"homepage": "https://github.com/astral-sh/tokio-tar",
-	"filename": "pool/main/r/rust-astral-tokio-tar/librust-astral-tokio-tar-dev_0.6.2-1_amd64.deb",
-	"size": 57552,
-	"md5": "a4fd503c506ef8070849c64950485ada",
-	"sha256": "3f7c3d5c59a12dc3c6632b1ade092269d0d4a9063e339047390a1de39e94bc01",
+	"filename": "pool/main/r/rust-astral-tokio-tar/librust-astral-tokio-tar-dev_0.6.4-1_amd64.deb",
+	"size": 67240,
+	"md5": "59366aba84b96fd2be6bff9c13c47b09",
+	"sha256": "8225604118c04d01356acc7e537ab20f5afa0f7e9d2feea1af9bd214999e8ced",
 	"descriptionMd5": "5c84c1a20192e43234c1abb2b4bd9772"
 }

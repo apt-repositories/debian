@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "librust-jiff-static-dev",
-	"source": "rust-jiff-static (0.2.16-1)",
-	"version": "0.2.16-1+b1",
+	"source": "rust-jiff-static",
+	"version": "0.2.35-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-jiff-tzdb-0.1+default-dev (>= 0.1.4-~~)",
-		"librust-proc-macro2-1+default-dev (>= 1.0.93-~~)",
-		"librust-quote-1+default-dev (>= 1.0.38-~~)",
-		"librust-syn-2+default-dev (>= 2.0.98-~~)"
+		"librust-jiff-core-0.1+default-dev",
+		"librust-jiff-tzdb-0.1+default-dev (>= 0.1.6)",
+		"librust-proc-macro2-1+default-dev (>= 1.0.93)",
+		"librust-quote-1+default-dev (>= 1.0.38)",
+		"librust-syn-2+default-dev (>= 2.0.98)"
 	],
-	"installedSize": 316,
+	"breaks": [
+		"rustc (<< 1.70~)"
+	],
+	"installedSize": 43,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Create static TimeZone values for Jiff (useful in core-only environments) - Rust source code",
 	"homepage": "https://github.com/BurntSushi/jiff/tree/master/crates/jiff-static",
-	"filename": "pool/main/r/rust-jiff-static/librust-jiff-static-dev_0.2.16-1+b1_amd64.deb",
-	"size": 68404,
-	"md5": "681cdb4b380104852adaa9c26d00818c",
-	"sha256": "af1f02e4f0d37803019c7e79791a43b6a5eba0b7c0f2a266b8aa92b64a04e431",
+	"filename": "pool/main/r/rust-jiff-static/librust-jiff-static-dev_0.2.35-1_amd64.deb",
+	"size": 9004,
+	"md5": "85586f82f64a7ccf36a5b1572626fe2b",
+	"sha256": "abf23a5059093b39e36d5416a1a9da0af45a1a21abaf8dd1d5fd9ab9e0d00a11",
 	"descriptionMd5": "532142279103e2560f4b0032b1cb1cd6"
 }
