@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-scc-dev",
-	"source": "rust-scc (3.4.8-1)",
-	"version": "3.4.8-1+b1",
+	"source": "rust-scc",
+	"version": "3.8.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-equivalent-1+default-dev",
-		"librust-saa-5+default-dev (>= 5.4-~~)",
-		"librust-sdd-4+default-dev (>= 4.5-~~)",
+		"librust-saa-5+default-dev (>= 5.6)",
+		"librust-sdd-4+default-dev (>= 4.8)",
 		"librust-serde-1+default-dev"
 	],
-	"installedSize": 820,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 913,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Collection of high-performance containers providing both asynchronous and synchronous interfaces - Rust source code",
-	"homepage": "https://github.com/wvwwvwwv/scalable-concurrent-containers/",
-	"filename": "pool/main/r/rust-scc/librust-scc-dev_3.4.8-1+b1_amd64.deb",
-	"size": 92784,
-	"md5": "0348baf24a6b1b8046163468e1e96b51",
-	"sha256": "f91991697cc6e521540234a50be9b3c2349fff30cd1538df8691873e4b673c2d",
-	"descriptionMd5": "d880646820096e5643cae73a10719db1"
+	"description": "Collection of high-performance asynchronous/concurrent containers with both asynchronous and synchronous interfaces - Rust source code",
+	"homepage": "https://codeberg.org/wvwwvwwv/scalable-concurrent-containers/",
+	"filename": "pool/main/r/rust-scc/librust-scc-dev_3.8.6-1_amd64.deb",
+	"size": 103872,
+	"md5": "db7a379ad1c8758cd09f1ee5f6f8082b",
+	"sha256": "674b3d3ac6a83781f7d3a8b3d86514e03ac06f1de9856ccb7f6091636e7baffb",
+	"descriptionMd5": "42e0bcf337478ada3f3d3dec939d685a"
 }

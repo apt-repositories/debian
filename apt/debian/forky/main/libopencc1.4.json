@@ -6,34 +6,36 @@
 	],
 	"package": "libopencc1.4",
 	"source": "opencc",
-	"version": "1.4.1+ds1-3",
+	"version": "1.4.2+ds1-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libopencc-data (= 1.4.1+ds1-3)",
+		"libopencc-data (= 1.4.2+ds1-1)",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.3.1)",
-		"libmarisa1 (>= 0.3.1+git20250817-2~)",
+		"libmarisa1 (>= 0.3.1)",
 		"libstdc++6 (>= 11)"
 	],
 	"replaces": [
+		"libopencc-data (<< 1.4.1+ds1-8~)",
 		"libopencc1.1",
 		"libopencc1.2",
 		"libopencc1.3"
 	],
 	"breaks": [
+		"libopencc-data (<< 1.4.1+ds1-8~)",
 		"libopencc1.1",
 		"libopencc1.2",
 		"libopencc1.3"
 	],
-	"installedSize": 1846,
+	"installedSize": 1897,
 	"maintainer": "Debian Input Method Team <debian-input-method@lists.debian.org>",
 	"description": "simplified-traditional Chinese conversion library - runtime",
 	"homepage": "https://github.com/BYVoid/OpenCC",
-	"filename": "pool/main/o/opencc/libopencc1.4_1.4.1+ds1-3_amd64.deb",
-	"size": 727620,
-	"md5": "864349db41f4f43f584aa2a8ca99840a",
-	"sha256": "90c3ad1127333b79f8d9c9dff344c4a62c5f72bc9181ae8c76f586eae5e95d6f",
-	"descriptionMd5": "cdef50a529929a6880d82c26934b7b7c"
+	"filename": "pool/main/o/opencc/libopencc1.4_1.4.2+ds1-1_amd64.deb",
+	"size": 752300,
+	"md5": "06f7ec233c3c0c009c4a326d3d8b1521",
+	"sha256": "ec494d93518d1a62f48bfd41d1b92cf7203aad273b5ec4ae908a76358686b346",
+	"descriptionMd5": "5d5a0fd4f6ca1250396e9403596f4ea3"
 }

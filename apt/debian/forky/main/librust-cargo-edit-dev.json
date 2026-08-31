@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-cargo-edit-dev",
-	"source": "rust-cargo-edit (0.13.10-1)",
-	"version": "0.13.10-1+b1",
+	"source": "rust-cargo-edit",
+	"version": "0.13.13-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -36,13 +36,16 @@
 		"librust-toml-edit-0.25+default-dev (>= 0.25.11)",
 		"librust-url-2+default-dev (>= 2.5.8)"
 	],
-	"installedSize": 498,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 525,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "add, remove and upgrade Cargo dependencies - Rust source code",
 	"homepage": "https://github.com/killercup/cargo-edit",
-	"filename": "pool/main/r/rust-cargo-edit/librust-cargo-edit-dev_0.13.10-1+b1_amd64.deb",
-	"size": 58988,
-	"md5": "7200b551187d5a52ae5326437bd5b4d4",
-	"sha256": "9aa2999044a3613a3dc8c977a9ea0b7e4a10732106d7c43ef47e9556486fbc0f",
+	"filename": "pool/main/r/rust-cargo-edit/librust-cargo-edit-dev_0.13.13-1_amd64.deb",
+	"size": 60640,
+	"md5": "649160d16a2476c5df82dcead8d853f8",
+	"sha256": "dad7f00290beac9477c4bee21974831300ab0ee6e3712b12250b6310d9fb9ffa",
 	"descriptionMd5": "2cfe46ac790e40aba028dc5322bdbb0e"
 }
