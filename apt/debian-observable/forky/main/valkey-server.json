@@ -6,20 +6,21 @@
 	],
 	"package": "valkey-server",
 	"source": "valkey",
-	"version": "8.1.4+dfsg1-2",
+	"version": "9.1.1-1",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"valkey-tools (= 8.1.4+dfsg1-2)"
+		"valkey-tools (= 9.1.1-1)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
-	"installedSize": 186,
+	"installedSize": 199,
 	"maintainer": "Lucas Kanashiro <kanashiro@debian.org>",
 	"description": "Persistent key-value database with network interface",
 	"homepage": "https://valkey.io",
-	"filename": "pool/main/v/valkey/valkey-server_8.1.4+dfsg1-2_amd64.deb",
-	"size": 59484,
-	"md5": "e3ba2b9deebf66f441329340aa009c7f",
-	"sha256": "eeed4183596ecb0031188c514fb61793cf9f0797f9563f9e051f9f2c43f09cac",
+	"filename": "pool/main/v/valkey/valkey-server_9.1.1-1_amd64.deb",
+	"size": 62620,
+	"md5": "77eb40203f8fd33e1e8f83f8ad7003e3",
+	"sha256": "f36c516986f84183954c8c20abd3a9a1e31d3393487f87d141d6d28cc69a876a",
 	"descriptionMd5": "56fa238bc2c8bdafb30a00225ea3e036"
 }]

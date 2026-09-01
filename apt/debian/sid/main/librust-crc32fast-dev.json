@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-crc32fast-dev",
-	"source": "rust-crc32fast (1.5.0-2)",
-	"version": "1.5.0-2+b1",
+	"source": "rust-crc32fast",
+	"version": "1.5.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cfg-if-1+default-dev"
 	],
-	"installedSize": 140,
+	"breaks": [
+		"rustc (<< 1.63~)"
+	],
+	"installedSize": 164,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Fast, SIMD-accelerated CRC32 (IEEE) checksum computation - Rust source code",
 	"homepage": "https://github.com/srijs/rust-crc32fast",
-	"filename": "pool/main/r/rust-crc32fast/librust-crc32fast-dev_1.5.0-2+b1_amd64.deb",
-	"size": 37280,
-	"md5": "c0e4ea6be9b9713e5c1781ae0d30311d",
-	"sha256": "d6b6164e9b597ee785599f8d9b35813963cb3c907387d9bf5450a43e2a5ff337",
+	"filename": "pool/main/r/rust-crc32fast/librust-crc32fast-dev_1.5.1-1_amd64.deb",
+	"size": 42348,
+	"md5": "e19afebf5cae035df076176e21a78a73",
+	"sha256": "11cb7d9baa322f2186c36f9a3812ce6c16e615ef240e4cb344bc8fd1c716765b",
 	"descriptionMd5": "ee698b6707d22486b9b5e9ca5f15741e"
 }

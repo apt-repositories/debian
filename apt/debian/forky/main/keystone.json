@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "keystone",
-	"version": "2:29.0.1-2",
+	"version": "2:29.0.2-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,7 +13,7 @@
 		"adduser",
 		"dbconfig-common",
 		"debconf",
-		"python3-keystone (= 2:29.0.1-2)",
+		"python3-keystone (= 2:29.0.2-2)",
 		"python3-keystoneclient",
 		"python3-openstackclient",
 		"python3-pastescript",
@@ -22,18 +22,19 @@
 		"uwsgi-plugin-apparmor",
 		"uwsgi-plugin-python3",
 		"xmlsec1",
-		"debconf (>= 0.5) | debconf-2.0"
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
 	],
 	"suggests": [
 		"apparmor"
 	],
-	"installedSize": 428,
+	"installedSize": 431,
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "OpenStack identity service",
 	"homepage": "http://keystone.openstack.org/",
-	"filename": "pool/main/k/keystone/keystone_29.0.1-2_all.deb",
-	"size": 75060,
-	"md5": "24c9563da7ee8b43551384e50aa988bb",
-	"sha256": "6e509e0077396a5954689916937b576c41c000f9974b7ecc220132792ce1258f",
+	"filename": "pool/main/k/keystone/keystone_29.0.2-2_all.deb",
+	"size": 76664,
+	"md5": "18f053e81532c11cfdab01cccab7c194",
+	"sha256": "1cdd858eec01dfebb8d71da22c611fd2fc47f47e592fa5f2990338d2dd36fc3b",
 	"descriptionMd5": "1b67519deaaf4579dcc19e2b1805131b"
 }

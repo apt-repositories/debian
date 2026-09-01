@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvox-agent",
+	"source": "openvox",
+	"version": "9.0.0~beta2-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ruby",
+		"ruby-augeas",
+		"ruby-openvox (= 9.0.0~beta2-2)",
+		"ruby-shadow",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
+	],
+	"recommends": [
+		"augeas-tools",
+		"debconf-utils",
+		"lsb-release",
+		"ruby-selinux"
+	],
+	"suggests": [
+		"hiera-eyaml",
+		"openvox-doc",
+		"ruby-hocon",
+		"ruby-msgpack"
+	],
+	"replaces": [
+		"puppet (<< 7.16.0)",
+		"puppet-agent (<< 9.0.0~beta2)"
+	],
+	"breaks": [
+		"puppet (<< 7.16.0)",
+		"puppet-agent (<< 9.0.0~beta2)",
+		"puppet-master (<< 7.9.3)",
+		"puppet-master-passenger (<< 7.9.3)",
+		"puppetserver (<< 8.15.1)"
+	],
+	"installedSize": 670,
+	"maintainer": "Puppet Package Maintainers <pkg-puppet-devel@alioth-lists.debian.net>",
+	"description": "configuration management system, agent",
+	"homepage": "https://github.com/OpenVoxProject/openvox",
+	"filename": "pool/main/o/openvox/openvox-agent_9.0.0~beta2-2_all.deb",
+	"size": 162916,
+	"md5": "ee4b0712e5dc205ec4ebc0693a9cf41e",
+	"sha256": "4d38a2d16912b48fe7fa49c3597cede562c1b5871e2687c8c29fd559e059683c",
+	"descriptionMd5": "dbf08b0989149ef02f5a8099e54872f5"
+}

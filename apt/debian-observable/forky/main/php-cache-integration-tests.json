@@ -5,20 +5,25 @@
 		"Size"
 	],
 	"package": "php-cache-integration-tests",
-	"version": "0.17.0-6",
+	"version": "1.0.5-1",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"php-common"
+		"php-common",
+		"php-cache-tag-interop (>= 2.0)",
+		"php-cache-tag-interop (<< 3~~)",
+		"php-psr-cache (>= 3.0)",
+		"php-psr-cache (<< 4~~)",
+		"php-psr-simple-cache"
 	],
-	"installedSize": 86,
+	"installedSize": 100,
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "Integration tests for PSR-6 and PSR-16 cache implementations",
 	"homepage": "https://www.php-cache.com",
-	"filename": "pool/main/p/php-cache-integration-tests/php-cache-integration-tests_0.17.0-6_all.deb",
-	"size": 11460,
-	"md5": "b177eb52750a1ac205c2e80b3cad59f3",
-	"sha256": "cf1921d0e23c30bcaf44d67fc91585d75efb40efd45e46ea7949b69aee49a0c3",
+	"filename": "pool/main/p/php-cache-integration-tests/php-cache-integration-tests_1.0.5-1_all.deb",
+	"size": 12520,
+	"md5": "407887516736e732b45ba9084bfab968",
+	"sha256": "267dfd389c29bf851eca33a5ce1498a551a49082f89d6d00aa0f88e531957960",
 	"descriptionMd5": "e3d86bcfadeb640ecf4bd5ec5c7ef253"
 }]
