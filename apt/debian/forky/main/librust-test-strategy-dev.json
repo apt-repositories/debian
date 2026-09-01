@@ -5,28 +5,31 @@
 		"Size"
 	],
 	"package": "librust-test-strategy-dev",
-	"source": "rust-test-strategy (0.4.3-1)",
-	"version": "0.4.3-1+b1",
+	"source": "rust-test-strategy",
+	"version": "0.4.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-derive-ex-0.1+default-dev (>= 0.1.8-~~)",
-		"librust-proc-macro2-1+default-dev (>= 1.0.94-~~)",
-		"librust-quote-1+default-dev (>= 1.0.40-~~)",
+		"librust-derive-ex-0.1+default-dev (>= 0.1.8)",
+		"librust-proc-macro2-1+default-dev (>= 1.0.94)",
+		"librust-quote-1+default-dev (>= 1.0.40)",
 		"librust-structmeta-0.3+default-dev",
-		"librust-syn-2+default-dev (>= 2.0.100-~~)",
-		"librust-syn-2+extra-traits-dev (>= 2.0.100-~~)",
-		"librust-syn-2+full-dev (>= 2.0.100-~~)",
-		"librust-syn-2+visit-dev (>= 2.0.100-~~)"
+		"librust-syn-2+default-dev (>= 2.0.100)",
+		"librust-syn-2+extra-traits-dev (>= 2.0.100)",
+		"librust-syn-2+full-dev (>= 2.0.100)",
+		"librust-syn-2+visit-dev (>= 2.0.100)"
 	],
-	"installedSize": 283,
+	"breaks": [
+		"rustc (<< 1.82.0~)"
+	],
+	"installedSize": 290,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Procedural macro to easily write higher-order strategies in proptest - Rust source code",
 	"homepage": "https://github.com/frozenlib/test-strategy",
-	"filename": "pool/main/r/rust-test-strategy/librust-test-strategy-dev_0.4.3-1+b1_amd64.deb",
-	"size": 39280,
-	"md5": "db05100949bc5ead9ee686bef4c42ac1",
-	"sha256": "e4463703c5d8c808a64982f088e6fd80291f59e011e54f0884164fcb05d79843",
+	"filename": "pool/main/r/rust-test-strategy/librust-test-strategy-dev_0.4.5-1_amd64.deb",
+	"size": 39680,
+	"md5": "100efcd158e90855b0d8be54ba984820",
+	"sha256": "f39d232083ba521cea4fcfa51ffd1922cf1bb147a2ba66926f0a1fce89181231",
 	"descriptionMd5": "f12f15c24c4eb18e4be8cd580ab72555"
 }

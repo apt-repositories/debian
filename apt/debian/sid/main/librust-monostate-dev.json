@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-monostate-dev",
-	"source": "rust-monostate (1.0.2-1)",
-	"version": "1.0.2-1+b1",
+	"source": "rust-monostate",
+	"version": "1.0.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-monostate-impl-1.0+default-dev (<< 1.0.3-~~)",
-		"librust-monostate-impl-1.0+default-dev (>= 1.0.2-~~)",
-		"librust-serde-1-dev (>= 1.0.220-~~)",
-		"librust-serde-core-1-dev (>= 1.0.220-~~)"
+		"librust-monostate-impl-1.0+default-dev (<< 1.0.4)",
+		"librust-monostate-impl-1.0+default-dev (>= 1.0.3)",
+		"librust-serde-1-dev (>= 1.0.220)",
+		"librust-serde-core-1-dev (>= 1.0.220)"
 	],
-	"installedSize": 129,
+	"breaks": [
+		"rustc (<< 1.79~)"
+	],
+	"installedSize": 128,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Type that deserializes only from one specific value - Rust source code",
 	"homepage": "https://github.com/dtolnay/monostate",
-	"filename": "pool/main/r/rust-monostate/librust-monostate-dev_1.0.2-1+b1_amd64.deb",
-	"size": 18272,
-	"md5": "ad8dfc1377414fff401f3a290ba44f16",
-	"sha256": "e99943bff46208698a98fb2169ef020585d3c0d9ca2ce833ed5555b4dea8e814",
+	"filename": "pool/main/r/rust-monostate/librust-monostate-dev_1.0.3-1_amd64.deb",
+	"size": 17996,
+	"md5": "e722218c46273b9fc4f7b5625f3f8feb",
+	"sha256": "787eb203291335a24318f5518f94b4b301debd222bbf4b958643d2462dd3a2a8",
 	"descriptionMd5": "bd317b1ebe5eca2ba2267a7caee853c3"
 }

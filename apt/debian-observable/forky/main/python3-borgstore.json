@@ -6,20 +6,24 @@
 	],
 	"package": "python3-borgstore",
 	"source": "borgstore",
-	"version": "0.6.0-1",
+	"version": "0.6.1-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3:any"
+		"python3:any",
+		"python3-blake3",
+		"python3-boto3",
+		"python3-paramiko",
+		"python3-requests"
 	],
-	"installedSize": 220,
+	"installedSize": 223,
 	"maintainer": "Gianfranco Costamagna <locutusofborg@debian.org>",
 	"description": "General purpose key/value store in Python",
 	"homepage": "https://github.com/borgbackup/borgstore",
-	"filename": "pool/main/b/borgstore/python3-borgstore_0.6.0-1_all.deb",
-	"size": 48640,
-	"md5": "4ac7cf00d7b40a19587350b6fdfd0994",
-	"sha256": "3349e741db1c30ad017d45e9bbe79813f2e5c8fbdceb6f17c7a57cb17e73ff0a",
+	"filename": "pool/main/b/borgstore/python3-borgstore_0.6.1-2_all.deb",
+	"size": 49228,
+	"md5": "196aaf71186f6149d28693c904ad1d63",
+	"sha256": "044a551f314c0ee248592852dcbb830504dcc330fa78708e4adcef17e17cbf77",
 	"descriptionMd5": "fb939af69b38afc76e4a78e968c62486"
 }]
