@@ -5,13 +5,12 @@
 		"Size"
 	],
 	"package": "blender",
-	"source": "blender (5.0.1+dfsg-3)",
-	"version": "5.0.1+dfsg-3+b1",
+	"version": "5.0.1+dfsg-4",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"blender-data (= 5.0.1+dfsg-3)",
+		"blender-data (= 5.0.1+dfsg-4)",
 		"fonts-dejavu",
 		"python3 (<< 3.15)",
 		"python3 (>= 3.14~)",
@@ -62,13 +61,19 @@
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.3.4)"
 	],
-	"installedSize": 171943,
+	"replaces": [
+		"blender-data (<< 5.0.1+dfsg-4~)"
+	],
+	"breaks": [
+		"blender-data (<< 5.0.1+dfsg-4~)"
+	],
+	"installedSize": 171969,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Very fast and versatile 3D modeller/renderer",
 	"homepage": "https://www.blender.org/",
-	"filename": "pool/main/b/blender/blender_5.0.1+dfsg-3+b1_amd64.deb",
-	"size": 64446236,
-	"md5": "4a14acb4d257851c4a8a2beb9ea9c71a",
-	"sha256": "b75bf837d85d63466b6ac7d46e190d0e0d4d812e585303e79ad26065ba2d8a3d",
+	"filename": "pool/main/b/blender/blender_5.0.1+dfsg-4_amd64.deb",
+	"size": 64457988,
+	"md5": "c1f2791eba9ff20aa8b319da69cc65b3",
+	"sha256": "fd8816de4d324168d8bc3cdfe4958c1e3d09d83b4bcb424d0d32e6e5dbe4aa62",
 	"descriptionMd5": "90b4f36fda45432800e6a278de5b06b4"
 }]

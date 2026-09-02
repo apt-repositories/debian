@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-associative-cache-dev",
-	"source": "rust-associative-cache (2.0.0-2)",
-	"version": "2.0.0-2+b1",
+	"source": "rust-associative-cache",
+	"version": "2.0.0-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-rand-0.8+default-dev (>= 0.8.5-~~)"
+		"librust-rand-0.10+default-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.65~)"
 	],
 	"installedSize": 97,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Generic N-way associative cache with fixed-size capacity and random or least recently used (LRU) replacement - Rust source code",
 	"homepage": "https://github.com/fitzgen/associative-cache",
-	"filename": "pool/main/r/rust-associative-cache/librust-associative-cache-dev_2.0.0-2+b1_amd64.deb",
-	"size": 16280,
-	"md5": "17fb53bb4274d840170a32aedce024b9",
-	"sha256": "ce03aa058ccfe6525596968b6c6a1e4b6fbfcc517113800d4f902d9852a5abd0",
+	"filename": "pool/main/r/rust-associative-cache/librust-associative-cache-dev_2.0.0-3_amd64.deb",
+	"size": 16328,
+	"md5": "7b5fbadad26ca4d15149e3454bf435c2",
+	"sha256": "10896f44f6502ac48a4727ef0a32079e842d4960bc3e4080d21292a14362e7b5",
 	"descriptionMd5": "8af3bf90e12e985c954cdec2fcade66a"
 }]

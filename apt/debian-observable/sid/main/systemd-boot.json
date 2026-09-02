@@ -6,20 +6,21 @@
 	],
 	"package": "systemd-boot",
 	"source": "systemd",
-	"version": "261.2-1",
+	"version": "262~rc1-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libsystemd-shared (= 261.2-1)",
+		"libsystemd-shared (= 262~rc1-2)",
 		"efibootmgr",
-		"systemd (= 261.2-1)",
-		"systemd-boot-tools (= 261.2-1)",
-		"systemd-boot-efi-signed (>= 261.2-1) | systemd-boot-efi (= 261.2-1)"
+		"systemd (= 262~rc1-2)",
+		"systemd-boot-tools (= 262~rc1-2)",
+		"systemd-boot-efi-signed (>= 262~rc1-2) | systemd-boot-efi (= 262~rc1-2)"
 	],
 	"recommends": [
-		"shim-signed"
+		"shim-signed",
+		"libblkid1"
 	],
 	"suggests": [
 		"systemd-ukify"
@@ -28,13 +29,13 @@
 		"systemd (<< 256-2~)",
 		"systemd-boot-efi (<< 256-2~)"
 	],
-	"installedSize": 188,
+	"installedSize": 192,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "simple UEFI boot manager - integration and services",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-boot_261.2-1_amd64.deb",
-	"size": 82852,
-	"md5": "6e3fea0e5bf96694694828e93a24debe",
-	"sha256": "034aa640f1c8f1e6649ce7ff31ca5980f0ceecdaae7a4e47dcbcbb57b5521b54",
+	"filename": "pool/main/s/systemd/systemd-boot_262~rc1-2_amd64.deb",
+	"size": 83252,
+	"md5": "7a4935fccb30ebe2a59944b0c99da29a",
+	"sha256": "1f2ac78f58a42c112e7e676e47dedd28ff6e0eee336a43b3456c7777788193cf",
 	"descriptionMd5": "0df90775ace126cb973183972b57f509"
 }]

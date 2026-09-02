@@ -5,22 +5,24 @@
 		"Size"
 	],
 	"package": "rust-coreutils",
-	"version": "0.10.0-1",
+	"version": "0.11.0-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.39)",
+		"libc6 (>= 2.43)",
 		"libgcc-s1 (>= 4.2)",
-		"libselinux1 (>= 3.1~)"
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd0 (>= 254)"
 	],
-	"installedSize": 18129,
+	"installedSize": 18626,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Universal coreutils utils, written in Rust",
 	"homepage": "https://github.com/uutils/coreutils",
-	"filename": "pool/main/r/rust-coreutils/rust-coreutils_0.10.0-1_amd64.deb",
-	"size": 4759760,
-	"md5": "3fecc1b4cb1d8a0011b41e31666db9a4",
-	"sha256": "3196c8566f398179dcad5750fdd7a14c3fd15f1207d183f0dc56e6a9d6aa55a8",
+	"filename": "pool/main/r/rust-coreutils/rust-coreutils_0.11.0-2_amd64.deb",
+	"size": 4993312,
+	"md5": "78fe25d29d4257404e5dbca70fa65ee4",
+	"sha256": "07eb69a2dfcf1fd7a1415ef451be4e1c19f5916ac2407659171bf952f7d1408b",
 	"descriptionMd5": "a1493c3903ec45d30f8f490cebb19663"
 }]

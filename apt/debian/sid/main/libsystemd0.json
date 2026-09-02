@@ -6,28 +6,25 @@
 	],
 	"package": "libsystemd0",
 	"source": "systemd",
-	"version": "261.2-1",
+	"version": "262~rc1-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)"
 	],
-	"recommends": [
+	"suggests": [
+		"liblz4-1",
+		"liblzma5",
 		"libzstd1"
 	],
-	"suggests": [
-		"libgcrypt20",
-		"liblz4-1",
-		"liblzma5"
-	],
-	"installedSize": 1281,
+	"installedSize": 1377,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "systemd utility library",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/libsystemd0_261.2-1_amd64.deb",
-	"size": 468248,
-	"md5": "3c38224892124a7457ac5f363c60ecd9",
-	"sha256": "13b8835c64c5fa97ca03107032a73c288962fa0300654a285d78624028cee6b6",
+	"filename": "pool/main/s/systemd/libsystemd0_262~rc1-2_amd64.deb",
+	"size": 511232,
+	"md5": "fb407d3d0a332593c53ae387279a3168",
+	"sha256": "fc32de9ed51625d8823f17bbe49ec9f9d99b2c8a9e27dca70927472ef399af95",
 	"descriptionMd5": "9afc42993cf4bce87281097b6b9586c9"
 }
