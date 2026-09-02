@@ -6,22 +6,26 @@
 	],
 	"package": "librust-symphonia-codec-aac-dev",
 	"source": "rust-symphonia-codec-aac",
-	"version": "0.5.5-1",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-lazy-static-1+default-dev (>= 1.4.0-~~)",
+		"librust-lazy-static-1+default-dev (>= 1.4.0)",
 		"librust-log-0.4+default-dev",
-		"librust-symphonia-core-0.5+default-dev (>= 0.5.5-~~)"
+		"librust-symphonia-common-0.6+default-dev (>= 0.6.1)",
+		"librust-symphonia-core-0.6+default-dev (>= 0.6.1)"
 	],
-	"installedSize": 137,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 153,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Pure Rust AAC decoder (a part of project Symphonia) - Rust source code",
 	"homepage": "https://github.com/pdeljanov/Symphonia",
-	"filename": "pool/main/r/rust-symphonia-codec-aac/librust-symphonia-codec-aac-dev_0.5.5-1_amd64.deb",
-	"size": 25112,
-	"md5": "9fde1694a40fa67ffea7ddc56f6f2088",
-	"sha256": "5f8b511d8bb7708c379f8ba3c7bf2eda3c2e0e33b1b33a7b5148c86677d3c1f1",
+	"filename": "pool/main/r/rust-symphonia-codec-aac/librust-symphonia-codec-aac-dev_0.6.1-1_amd64.deb",
+	"size": 30676,
+	"md5": "254bfbe32a3bf5c7bb53f8bb3265f691",
+	"sha256": "0584f2734e0104df5b0d09eb250c6bd000946081e597350bcf94a9102dcaf3bb",
 	"descriptionMd5": "1f339376602ddbcc718e924f0d6398ad"
 }]

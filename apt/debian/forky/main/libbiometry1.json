@@ -6,11 +6,12 @@
 	],
 	"package": "libbiometry1",
 	"source": "biometryd",
-	"version": "0.4.0-2",
+	"version": "0.4.0-5",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libapparmor1 (>= 2.10)",
 		"libboost-filesystem1.90.0 (>= 1.90.0)",
 		"libboost-program-options1.90.0 (>= 1.90.0)",
 		"libc6 (>= 2.38)",
@@ -23,13 +24,13 @@
 	"recommends": [
 		"biometryd-bin"
 	],
-	"installedSize": 1127,
+	"installedSize": 1168,
 	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
 	"description": "biometryd mediates/multiplexes to biometric devices - runtime library",
 	"homepage": "https://gitlab.com/ubports/development/core/biometryd",
-	"filename": "pool/main/b/biometryd/libbiometry1_0.4.0-2_amd64.deb",
-	"size": 290740,
-	"md5": "6beb8e354cd5dfe0b508a353688d8603",
-	"sha256": "5e9fa3d357738ef1608b72e5ed916da08d633c6146c40f32009d0b9ac78f2d2c",
+	"filename": "pool/main/b/biometryd/libbiometry1_0.4.0-5_amd64.deb",
+	"size": 308652,
+	"md5": "045ef207403f587ab6d3f3d8c7f0be2c",
+	"sha256": "ddadc3d43eb291b94f7a6fb7415402c372abcfb902f02f7fef0f3c23aca5989c",
 	"descriptionMd5": "c0e47b13ff10587deca73bb66f3ed12f"
 }

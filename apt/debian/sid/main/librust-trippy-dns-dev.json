@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-trippy-dns-dev",
+	"source": "rust-trippy-dns",
+	"version": "0.13.0-1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-crossbeam-0.8+default-dev (>= 0.8.4)",
+		"librust-dns-lookup-1+default-dev (>= 1.0.8)",
+		"librust-hickory-resolver-0.26+default-dev",
+		"librust-itertools-0.14+default-dev",
+		"librust-parking-lot-0.12+default-dev (>= 0.12.3)",
+		"librust-thiserror-2+default-dev (>= 2.0.3)",
+		"librust-tokio-1+net-dev",
+		"librust-tokio-1+rt-dev",
+		"librust-tokio-1+rt-multi-thread-dev",
+		"librust-tokio-1+time-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.78~)"
+	],
+	"installedSize": 80,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Lazy DNS resolver for Trippy - Rust source code",
+	"homepage": "https://github.com/fujiapple852/trippy",
+	"filename": "pool/main/r/rust-trippy-dns/librust-trippy-dns-dev_0.13.0-1_amd64.deb",
+	"size": 15144,
+	"md5": "651a206efbf0fb27ad042436bcd7d1e0",
+	"sha256": "df1d8924693aa2b15177a76a046bf8104ae060345cdfddf651642e73dc20700f",
+	"descriptionMd5": "b3b21fd3a0af9df7f98f204668c5a329"
+}

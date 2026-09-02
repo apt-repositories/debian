@@ -6,23 +6,26 @@
 	],
 	"package": "librust-symphonia-format-ogg-dev",
 	"source": "rust-symphonia-format-ogg",
-	"version": "0.5.5-1",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-log-0.4+default-dev",
-		"librust-symphonia-core-0.5+default-dev (>= 0.5.5-~~)",
-		"librust-symphonia-metadata-0.5+default-dev (>= 0.5.5-~~)",
-		"librust-symphonia-utils-xiph-0.5+default-dev (>= 0.5.5-~~)"
+		"librust-symphonia-common-0.6+default-dev (>= 0.6.1)",
+		"librust-symphonia-core-0.6+default-dev (>= 0.6.1)",
+		"librust-symphonia-metadata-0.6+vorbis-dev (>= 0.6.1)"
 	],
-	"installedSize": 118,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 149,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Pure Rust OGG demuxer (a part of project Symphonia) - Rust source code",
 	"homepage": "https://github.com/pdeljanov/Symphonia",
-	"filename": "pool/main/r/rust-symphonia-format-ogg/librust-symphonia-format-ogg-dev_0.5.5-1_amd64.deb",
-	"size": 23260,
-	"md5": "d20b5ae2691c2dbfc17a3a9444367859",
-	"sha256": "cc30caff32304a97a83ae98320937c9186e7f423434c36a6cb70177c355062ae",
+	"filename": "pool/main/r/rust-symphonia-format-ogg/librust-symphonia-format-ogg-dev_0.6.1-1_amd64.deb",
+	"size": 30928,
+	"md5": "dba38de6a3b304422ed806848295759c",
+	"sha256": "784fa3001023e21cc5c478944b1695aea5debce964d45857f75e5130339a0b8d",
 	"descriptionMd5": "09910d6ee03f1f47926b6e6da86f6c21"
 }

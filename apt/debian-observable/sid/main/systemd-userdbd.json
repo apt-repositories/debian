@@ -6,23 +6,26 @@
 	],
 	"package": "systemd-userdbd",
 	"source": "systemd",
-	"version": "261.2-1",
+	"version": "262~rc1-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libsystemd-shared (= 261.2-1)",
-		"systemd (= 261.2-1)",
-		"libnss-systemd (= 261.2-1)"
+		"libsystemd-shared (= 262~rc1-2)",
+		"systemd (= 262~rc1-2)",
+		"libnss-systemd (= 262~rc1-2)"
 	],
-	"installedSize": 228,
+	"recommends": [
+		"libselinux1"
+	],
+	"installedSize": 232,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "dynamic user/group manager",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd-userdbd_261.2-1_amd64.deb",
-	"size": 82944,
-	"md5": "9004dd2881b9a93b77690fbeea8d6c57",
-	"sha256": "89c9e51973e322358149e3b7a98fd460d5d5e2dfeff369cab49db9e4c29f4544",
+	"filename": "pool/main/s/systemd/systemd-userdbd_262~rc1-2_amd64.deb",
+	"size": 84352,
+	"md5": "43e1050127cc9dba7d6efae14c234ef8",
+	"sha256": "a3f54682a12189e71a9af7f2716ecd27961f2111fa8d9e836b4fcf6ca8c626b5",
 	"descriptionMd5": "86b45a916ba4cb12ae812c532cd56008"
 }]

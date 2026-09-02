@@ -6,26 +6,28 @@
 	],
 	"package": "librust-symphonia-format-riff-dev",
 	"source": "rust-symphonia-format-riff",
-	"version": "0.5.5-1",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-extended-0.1+default-dev",
 		"librust-log-0.4+default-dev",
-		"librust-symphonia-core-0.5+default-dev (>= 0.5.5-~~)",
-		"librust-symphonia-metadata-0.5+default-dev (>= 0.5.5-~~)"
+		"librust-symphonia-core-0.6+default-dev (>= 0.6.1)",
+		"librust-symphonia-metadata-0.6+riff-id3-dev (>= 0.6.1)",
+		"librust-symphonia-metadata-0.6+riff-info-dev (>= 0.6.1)",
+		"librust-symphonia-metadata-0.6-dev (>= 0.6.1)"
 	],
-	"recommends": [
-		"librust-symphonia-format-riff+default-dev (= 0.5.5-1)"
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
-	"installedSize": 91,
+	"installedSize": 136,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Pure Rust RIFF demuxer (a part of project Symphonia) - Rust source code",
 	"homepage": "https://github.com/pdeljanov/Symphonia",
-	"filename": "pool/main/r/rust-symphonia-format-riff/librust-symphonia-format-riff-dev_0.5.5-1_amd64.deb",
-	"size": 15504,
-	"md5": "74d3437d264c3a7b296e579993bcb392",
-	"sha256": "113ab103b37964b313614bf7fc2f306cb2bed7a8542cd20705214f6fb40d70b1",
+	"filename": "pool/main/r/rust-symphonia-format-riff/librust-symphonia-format-riff-dev_0.6.1-1_amd64.deb",
+	"size": 25756,
+	"md5": "4965a2ff5f571ce3bc212807943a8d62",
+	"sha256": "b932548da2a6024cd2d6b1e067735ba29d9c6728aaa577da2582c9dba67180a9",
 	"descriptionMd5": "db14e61470798a872a0e2f44432466bb"
 }

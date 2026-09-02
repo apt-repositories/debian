@@ -5,18 +5,18 @@
 		"Size"
 	],
 	"package": "systemd",
-	"version": "261.2-1",
+	"version": "262~rc1-2",
 	"section": "admin",
 	"priority": "important",
 	"architecture": "amd64",
 	"depends": [
 		"libblkid1",
 		"libmount1",
-		"libsystemd0 (= 261.2-1)"
+		"libsystemd0 (= 262~rc1-2)"
 	],
 	"preDepends": [
 		"libc6 (>= 2.34)",
-		"libsystemd-shared (= 261.2-1)"
+		"libsystemd-shared (= 262~rc1-2)"
 	],
 	"recommends": [
 		"default-dbus-system-bus | dbus-system-bus",
@@ -27,13 +27,17 @@
 		"systemd-tpm",
 		"systemd-cryptsetup",
 		"libacl1",
+		"libapparmor1",
+		"libaudit1",
 		"libbpf1",
+		"libcrypt1",
 		"libcryptsetup12",
-		"libgcrypt20",
+		"libkmod2",
 		"libpam0g",
 		"libseccomp2",
 		"libselinux1",
-		"libssl3t64"
+		"libssl3t64",
+		"libzstd1"
 	],
 	"suggests": [
 		"systemd-container",
@@ -44,7 +48,21 @@
 		"systemd-report",
 		"systemd-resolved",
 		"systemd-repart",
-		"polkitd"
+		"polkitd",
+		"libbz2-1.0",
+		"libdw1t64",
+		"libelf1t64",
+		"libidn2-0",
+		"liblz4-1",
+		"liblzma5",
+		"libpcre2-8-0",
+		"libpwquality1",
+		"libqrencode4",
+		"libtss2-esys-3.0.2-0t64",
+		"libtss2-mu-4.0.1-0t64",
+		"libtss2-rc0t64",
+		"libtss2-tcti-device0t64",
+		"zlib1g"
 	],
 	"breaks": [
 		"dracut-core (<< 102-2~)",
@@ -59,13 +77,13 @@
 		"systemctl",
 		"systemd-shim"
 	],
-	"installedSize": 11013,
+	"installedSize": 11383,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "system and service manager",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/systemd_261.2-1_amd64.deb",
-	"size": 3329380,
-	"md5": "1dcd15e1f27afc70164b2c3788656b0e",
-	"sha256": "6dd5641b1fe3f830a8188f56684009d33231d6d814fb65deaf7ecb2f53845207",
+	"filename": "pool/main/s/systemd/systemd_262~rc1-2_amd64.deb",
+	"size": 3473612,
+	"md5": "9aa94c8ccbb75a745941f088ae04aa9e",
+	"sha256": "36e9da8c8480432961e33335adc1397a3f1135f4c53b8fc77b600d97ac058f1d",
 	"descriptionMd5": "2728f00e9cb47f195aa39097a3afbc42"
 }]
