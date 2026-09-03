@@ -6,15 +6,17 @@
 	],
 	"package": "libboinc7t64",
 	"source": "boinc",
-	"version": "8.2.13+dfsg-1",
+	"version": "8.2.15+dfsg-10",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.3.1)",
+		"libmariadb3 (>= 3.0.0)",
 		"libssl3t64 (>= 3.0.0)",
-		"libstdc++6 (>= 13.1)"
+		"libstdc++6 (>= 13.1)",
+		"libzip5 (>= 0.11.2)"
 	],
 	"replaces": [
 		"boinc-dev (<< 7.0.28+dfsg-3)",
@@ -24,15 +26,15 @@
 	"breaks": [
 		"boinc-dev (<< 7.0.28+dfsg-3)",
 		"libboinc (<= 7.0.34+dfsg-1)",
-		"libboinc7 (<< 8.2.13+dfsg-1)"
+		"libboinc7 (<< 8.2.15+dfsg-10)"
 	],
-	"installedSize": 1086,
+	"installedSize": 1121,
 	"maintainer": "Debian BOINC Maintainers <pkg-boinc-devel@lists.alioth.debian.org>",
 	"description": "libraries of BOINC the client depends on",
 	"homepage": "https://boinc.berkeley.edu/",
-	"filename": "pool/main/b/boinc/libboinc7t64_8.2.13+dfsg-1_amd64.deb",
-	"size": 351072,
-	"md5": "071c5cd2dcd92ef2734e4146d47d9548",
-	"sha256": "682ed2c03f155a275ec0407a33e9ad36f8ef5d40997b68145ba6ac8d88425437",
+	"filename": "pool/main/b/boinc/libboinc7t64_8.2.15+dfsg-10_amd64.deb",
+	"size": 361420,
+	"md5": "2c0f1f4825da7426695bbac3553826ba",
+	"sha256": "7b596a1cfec8e22ca8c1435772e24fca8425a3fdd5463d0f1242882de52a8060",
 	"descriptionMd5": "11081d0d4ad203dafbfd2b8fc5e1425b"
 }]
