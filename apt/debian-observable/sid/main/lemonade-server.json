@@ -6,7 +6,7 @@
 	],
 	"package": "lemonade-server",
 	"source": "lemonade",
-	"version": "11.8.0-1",
+	"version": "11.8.1-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,21 +22,23 @@
 		"libsystemd0 (>= 221)",
 		"libwebsockets19t64 (>= 4.3.2)",
 		"fonts-katex",
-		"systemd-sysusers",
 		"unzip",
 		"libatomic1"
+	],
+	"preDepends": [
+		"systemd-sysusers"
 	],
 	"recommends": [
 		"libggml0-backend-hip",
 		"llama.cpp-tools"
 	],
-	"installedSize": 11523,
+	"installedSize": 11555,
 	"maintainer": "Mario Limonciello <superm1@debian.org>",
 	"description": "Local LLM serving with GPU and NPU acceleration server",
 	"homepage": "https://lemonade-server.ai/",
-	"filename": "pool/main/l/lemonade/lemonade-server_11.8.0-1_amd64.deb",
-	"size": 3337508,
-	"md5": "659ad8d788e39e53bc05a7568f399b79",
-	"sha256": "cd325b8af30170844bc026d642edb6d094dad586b98ac2a6b18c1e7b8a713937",
+	"filename": "pool/main/l/lemonade/lemonade-server_11.8.1-1_amd64.deb",
+	"size": 3344412,
+	"md5": "ed3f4d64df2b8fafb56d36242744c1b5",
+	"sha256": "6f1a90561683b11e08f6d934af30a4b29e7d5fa1b9bd7f8a6045b01e61bd0b1b",
 	"descriptionMd5": "349decff01e89fd9d44997e375798eea"
 }]

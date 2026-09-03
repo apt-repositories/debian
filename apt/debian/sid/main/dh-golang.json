@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "dh-golang",
-	"version": "1.65",
+	"version": "1.67",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,12 +14,15 @@
 		"libdpkg-perl (>= 1.22.15~)",
 		"perl:any"
 	],
-	"installedSize": 62,
+	"conflicts": [
+		"dh-go"
+	],
+	"installedSize": 67,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "debhelper add-on for packaging software written in Go (golang)",
-	"filename": "pool/main/d/dh-golang/dh-golang_1.65_all.deb",
-	"size": 20064,
-	"md5": "aacadd4cfde4d54ce75130ec531a5fcb",
-	"sha256": "0adfe4a4a30233c9829827a536b7bfcd4cdb723b88de496d4b275d19e9a83331",
+	"filename": "pool/main/d/dh-golang/dh-golang_1.67_all.deb",
+	"size": 22128,
+	"md5": "694c255dbe1f2652a18bf4c44148e1eb",
+	"sha256": "a9a759a865582bf01255894c6c1ebf578d0edbbd3a3672a1690b35db021c02e6",
 	"descriptionMd5": "a8ae9b6fe8ddbe51eb55134d796123a1"
 }
