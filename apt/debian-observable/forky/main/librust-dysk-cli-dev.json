@@ -6,7 +6,7 @@
 	],
 	"package": "librust-dysk-cli-dev",
 	"source": "rust-dysk-cli",
-	"version": "3.6.1-1",
+	"version": "3.6.1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,18 +17,21 @@
 		"librust-clap-4+derive-dev (>= 4.4)",
 		"librust-clap-help-1+default-dev (>= 1.4)",
 		"librust-file-size-1+default-dev (>= 1.0.3)",
-		"librust-lfs-core-0.19+default-dev (>= 0.19.3)",
+		"librust-lfs-core-0.20+default-dev",
 		"librust-serde-1+default-dev",
 		"librust-serde-json-1+default-dev",
 		"librust-termimad-0.34+default-dev (>= 0.34.1)"
 	],
-	"installedSize": 96,
+	"breaks": [
+		"rustc (<< 1.70~)"
+	],
+	"installedSize": 100,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Dysk cli as a library - Rust source code",
 	"homepage": "https://dystroy.org/dysk",
-	"filename": "pool/main/r/rust-dysk-cli/librust-dysk-cli-dev_3.6.1-1_amd64.deb",
-	"size": 18700,
-	"md5": "78b13499ab4ad07b45beb9a7b24f58f9",
-	"sha256": "ac2d6ab844d409d6bd90a43a20542ef4b647913748c7c3945f6bbce0ae2783a8",
+	"filename": "pool/main/r/rust-dysk-cli/librust-dysk-cli-dev_3.6.1-2_amd64.deb",
+	"size": 19060,
+	"md5": "fc160eb51bb7b63f3288ed07f63e58d4",
+	"sha256": "fdd6200e8fc94a36e3741a56104df699cd723d235d217b823ba5a8fd16592a4d",
 	"descriptionMd5": "5ec19953e535267bf90fe19cc526efc2"
 }]

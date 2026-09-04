@@ -5,22 +5,36 @@
 		"Size"
 	],
 	"package": "libdrogon-dev",
-	"source": "drogon (1.9.12+ds-4)",
-	"version": "1.9.12+ds-4+b1",
+	"source": "drogon",
+	"version": "1.9.13+ds-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdrogon1t64 (= 1.9.12+ds-4+b1)",
-		"libtrantor-dev (>= 1.5.26)"
+		"libdrogon1t64 (= 1.9.13+ds-1)",
+		"libjsoncpp-dev",
+		"libtrantor-dev (>= 1.5.26)",
+		"libyaml-cpp-dev",
+		"uuid-dev",
+		"zlib1g-dev"
 	],
-	"installedSize": 718,
+	"recommends": [
+		"libbrotli-dev",
+		"libhiredis-dev",
+		"libmariadb-dev",
+		"libpq-dev",
+		"libsqlite3-dev"
+	],
+	"suggests": [
+		"libdrogon-doc"
+	],
+	"installedSize": 748,
 	"maintainer": "Pierre-Elliott Bécue <peb@debian.org>",
 	"description": "C++14/17-based HTTP application framework development files",
 	"homepage": "https://github.com/drogonframework/drogon",
-	"filename": "pool/main/d/drogon/libdrogon-dev_1.9.12+ds-4+b1_amd64.deb",
-	"size": 118648,
-	"md5": "31b386ce88d74706800dc134ae5f2ac5",
-	"sha256": "586090a25fef1a9544cdccf1a7b071e1069d5b27bbc58a482d883f0a0dfd3b3f",
+	"filename": "pool/main/d/drogon/libdrogon-dev_1.9.13+ds-1_amd64.deb",
+	"size": 123860,
+	"md5": "aee33432c323b1f9ff85f718c68479c7",
+	"sha256": "3235b496fa38a40f4a8d35b6ec705b1b4b3749d1a25d9e5d2c852d021e35a181",
 	"descriptionMd5": "256b483fb4fbc0d0fe3b41c05a56069d"
 }

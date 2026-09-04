@@ -5,19 +5,30 @@
 		"Size"
 	],
 	"package": "far2l-wx",
-	"source": "far2l (2.8.0~beta+ds-1)",
-	"version": "2.8.0~beta+ds-1+b1",
+	"source": "far2l",
+	"version": "2.9.0~beta+ds-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"far2l (= 2.9.0~beta+ds-1)",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 12)",
-		"libwxbase3.2-1t64 (>= 3.2.9+dfsg)",
-		"libwxgtk3.2-1t64 (>= 3.2.9+dfsg)",
-		"libx11-6",
-		"far2l (= 2.8.0~beta+ds-1+b1)"
+		"libwxbase3.2-1t64 (>= 3.2.11+dfsg)",
+		"libwxgtk3.2-1t64 (>= 3.2.11+dfsg)",
+		"libx11-6"
+	],
+	"recommends": [
+		"libc6 (>= 2.42)",
+		"libneon27t64",
+		"libnfs14 (>= 1.9.7)",
+		"libsmbclient0 (>= 2:4.0.3+dfsg1)",
+		"libssh-4 (>= 0.8.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libx11-6 (>= 2:1.2.99.901)",
+		"libxi6 (>= 2:1.2.99.4)"
 	],
 	"replaces": [
 		"far2l (<< 2.6.5~beta+ds-1~)"
@@ -25,13 +36,13 @@
 	"breaks": [
 		"far2l (<< 2.6.5~beta+ds-1~)"
 	],
-	"installedSize": 474,
+	"installedSize": 495,
 	"maintainer": "Alex Myczko <tar@debian.org>",
 	"description": "Linux port of FAR v2 - WX GTK UI",
 	"homepage": "https://github.com/elfmz/far2l",
-	"filename": "pool/main/f/far2l/far2l-wx_2.8.0~beta+ds-1+b1_amd64.deb",
-	"size": 136944,
-	"md5": "bace50e9834fff329de29e40d28e0b01",
-	"sha256": "819692f58638350f4e9ec4edcc864b9be730e2121d9c10cad206f6260c582706",
-	"descriptionMd5": "295403ca8c430c36e2293c2d04b5fe1d"
+	"filename": "pool/main/f/far2l/far2l-wx_2.9.0~beta+ds-1_amd64.deb",
+	"size": 146440,
+	"md5": "559188890c05d45f5d3f37bec03539f4",
+	"sha256": "baf3b417a3831c27b1bc889c4b49442126248818513c7dfca2a2603871ed71e0",
+	"descriptionMd5": "3f01902de34a20d1623fa3fbb28de874"
 }]

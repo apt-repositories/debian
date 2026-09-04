@@ -5,26 +5,34 @@
 		"Size"
 	],
 	"package": "librust-snafu-derive-dev",
-	"source": "rust-snafu-derive (0.7.5-1)",
-	"version": "0.7.5-1+b1",
+	"source": "rust-snafu-derive",
+	"version": "0.9.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-heck+default-dev (<< 0.6-~~)",
-		"librust-heck+default-dev (>= 0.4-~~)",
-		"librust-proc-macro2-1+default-dev",
-		"librust-quote-1+default-dev",
-		"librust-syn-1+default-dev",
-		"librust-syn-1+full-dev"
+		"librust-heck-dev (<< 0.6)",
+		"librust-heck-dev (>= 0.4)",
+		"librust-proc-macro2-1-dev (>= 1.0.52)",
+		"librust-quote-1-dev (>= 1.0.25)",
+		"librust-syn-2+clone-impls-dev",
+		"librust-syn-2+derive-dev",
+		"librust-syn-2+full-dev",
+		"librust-syn-2+parsing-dev",
+		"librust-syn-2+printing-dev",
+		"librust-syn-2+proc-macro-dev",
+		"librust-syn-2+visit-mut-dev"
 	],
-	"installedSize": 171,
+	"breaks": [
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 185,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Ergonomic error handling library - Rust source code",
 	"homepage": "https://github.com/shepmaster/snafu",
-	"filename": "pool/main/r/rust-snafu-derive/librust-snafu-derive-dev_0.7.5-1+b1_amd64.deb",
-	"size": 28276,
-	"md5": "32a094a38d8d5943ce5207a6a9cd2a0c",
-	"sha256": "d9760b1c46ee5fef0d8728e4247a6a0594d1ee8403ce4864981ef0b9470acc11",
+	"filename": "pool/main/r/rust-snafu-derive/librust-snafu-derive-dev_0.9.2-1_amd64.deb",
+	"size": 30536,
+	"md5": "6148b88d073c0f233167d7ed2cedbc65",
+	"sha256": "2564e8b65a8c249a834cbe09453198e9a3fa1420f5f5714ade7cd0273df6b584",
 	"descriptionMd5": "61718262961f81d870d838c68acb06c2"
 }]
