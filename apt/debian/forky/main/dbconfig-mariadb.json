@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dbconfig-mariadb",
+	"source": "dbconfig-common",
+	"version": "2.1.0",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-common (= 2.1.0)",
+		"default-mysql-client | virtual-mysql-client"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"replaces": [
+		"dbconfig-mysql"
+	],
+	"conflicts": [
+		"dbconfig-mysql",
+		"dbconfig-no-thanks"
+	],
+	"installedSize": 10,
+	"maintainer": "Paul Gevers <elbrus@debian.org>",
+	"description": "dbconfig-common MariaDB/MySQL support",
+	"filename": "pool/main/d/dbconfig-common/dbconfig-mariadb_2.1.0_all.deb",
+	"size": 1128,
+	"md5": "d96b90dfc9f37dca1707f354daa7c488",
+	"sha256": "eebc21c5cb202c7c6c19f00d44770be34f1dbf53994443ef8c5ba0c8f8c8df0b",
+	"descriptionMd5": "1de307850c080aeed5fd5af37c68c0bd"
+}
