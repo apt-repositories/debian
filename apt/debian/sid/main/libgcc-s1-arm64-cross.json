@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-s1-arm64-cross",
+	"source": "gcc-16-cross (13)",
+	"version": "16.2.0-2cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base (>= 16.2.0-2)",
+		"libc6-arm64-cross (>= 2.43)"
+	],
+	"replaces": [
+		"libgcc1-arm64-cross (<< 1:10)"
+	],
+	"breaks": [
+		"libgcc1-arm64-cross (<< 1:10)"
+	],
+	"installedSize": 148,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (arm64)",
+	"homepage": "https://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16.2.0-2)",
+	"filename": "pool/main/g/gcc-16-cross/libgcc-s1-arm64-cross_16.2.0-2cross1_all.deb",
+	"size": 53228,
+	"md5": "a49c91157ff3ae5e697afe077aee280b",
+	"sha256": "9f4185e92d87ee4ef723e2f33c2992153793f4543f6257382dcd39711f6ceb78",
+	"descriptionMd5": "30f5e940c21e92b2411b37b0a95424d1"
+}

@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-16-dev-riscv64-cross",
+	"source": "gcc-16-cross (13)",
+	"version": "16.2.0-2cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base (>= 16.2.0-2)",
+		"libgcc-s1-riscv64-cross (>= 16.2.0-2cross1)",
+		"libgomp1-riscv64-cross (>= 16.2.0-2cross1)",
+		"libitm1-riscv64-cross (>= 16.2.0-2cross1)",
+		"libatomic1-riscv64-cross (>= 16.2.0-2cross1)",
+		"libasan8-riscv64-cross (>= 16.2.0-2cross1)",
+		"liblsan0-riscv64-cross (>= 16.2.0-2cross1)",
+		"libtsan2-riscv64-cross (>= 16.2.0-2cross1)",
+		"libubsan1-riscv64-cross (>= 16.2.0-2cross1)"
+	],
+	"recommends": [
+		"libc6-dev-riscv64-cross (>= 2.23-1~)"
+	],
+	"replaces": [
+		"libtsan2-riscv64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-riscv64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 70030,
+	"maintainer": "Debian GCC Maintainers <debian-gcc@lists.debian.org>",
+	"description": "GCC support library (development files)",
+	"homepage": "https://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16.2.0-2)",
+	"filename": "pool/main/g/gcc-16-cross/libgcc-16-dev-riscv64-cross_16.2.0-2cross1_all.deb",
+	"size": 5815960,
+	"md5": "53cebbb2153fba5bcb10169d4758d344",
+	"sha256": "d8ef662e57f36c4da86793783ffb4b3c9d1131933fc5535123a7b838a46a5445",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

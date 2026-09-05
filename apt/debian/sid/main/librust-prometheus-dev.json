@@ -6,7 +6,7 @@
 	],
 	"package": "librust-prometheus-dev",
 	"source": "rust-prometheus",
-	"version": "0.13.4-7",
+	"version": "0.14.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,19 +20,24 @@
 		"librust-portable-atomic-1+default-dev (>= 1.4)",
 		"librust-procfs-dev (<< 0.19)",
 		"librust-procfs-dev (>= 0.14.2)",
+		"librust-protobuf-3+default-dev (>= 3.7.2)",
+		"librust-protobuf-codegen-3+default-dev (>= 3.7.2)",
 		"librust-reqwest+blocking-dev (<< 0.14)",
 		"librust-reqwest+blocking-dev (>= 0.11.27)",
 		"librust-reqwest+default-dev (<< 0.14)",
 		"librust-reqwest+default-dev (>= 0.11.27)",
-		"librust-thiserror-1+default-dev"
+		"librust-thiserror-2+default-dev"
 	],
-	"installedSize": 450,
+	"breaks": [
+		"rustc (<< 1.81~)"
+	],
+	"installedSize": 463,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Prometheus instrumentation library for Rust applications - Rust source code",
 	"homepage": "https://github.com/tikv/rust-prometheus",
-	"filename": "pool/main/r/rust-prometheus/librust-prometheus-dev_0.13.4-7_amd64.deb",
-	"size": 66740,
-	"md5": "5721d03c1152b703564216380e5be2fd",
-	"sha256": "10acee0be0a5034673bc237e3cc0b57db9940a97ac4d1807cebe42bc412db911",
+	"filename": "pool/main/r/rust-prometheus/librust-prometheus-dev_0.14.0-1_amd64.deb",
+	"size": 69296,
+	"md5": "8cacd3cbaee0eb31d4f44c8e5ac4a9a5",
+	"sha256": "892f99df7a032fc02b03ac9fd22e2ae38652ffde0d9c7c80e68c0d51d46b70cf",
 	"descriptionMd5": "5fe9e390abe3b611f4f080f1c6de904a"
 }
