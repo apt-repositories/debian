@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "sssd-idp",
-	"source": "sssd (2.12.0-4)",
-	"version": "2.12.0-4+b1",
+	"source": "sssd",
+	"version": "2.13.1-2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"sssd-common (= 2.12.0-4+b1)",
+		"sssd-common (= 2.13.1-2)",
 		"libc6 (>= 2.34)",
 		"libcom-err2 (>= 1.43.9)",
 		"libcurl4t64 (>= 7.16.2)",
@@ -20,15 +20,17 @@
 		"libkrad0 (>= 1.12~alpha1+dfsg)",
 		"libkrb5-3 (>= 1.7dfsg)",
 		"libpopt0 (>= 1.14)",
-		"libtalloc2 (>= 2.0.4~git20101213)"
+		"libssl3t64 (>= 3.0.0)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libuuid1 (>= 2.16)"
 	],
-	"installedSize": 127,
-	"maintainer": "Debian SSSD Team <pkg-sssd-devel@alioth-lists.debian.net>",
+	"installedSize": 159,
+	"maintainer": "Debian SSSD Team <sssd@packages.debian.org>",
 	"description": "System Security Services Daemon -- Kerberos plugins for external id providers",
 	"homepage": "https://github.com/SSSD/sssd",
-	"filename": "pool/main/s/sssd/sssd-idp_2.12.0-4+b1_amd64.deb",
-	"size": 36372,
-	"md5": "e56a93eb68f832defcaa95c2ffba06c0",
-	"sha256": "d06b5553944185b81cbe3cd781ab40062d568d4abe4ec519b3c6c25baae860e6",
+	"filename": "pool/main/s/sssd/sssd-idp_2.13.1-2_amd64.deb",
+	"size": 48548,
+	"md5": "94b19fffb28991ea8e85573d18e54996",
+	"sha256": "58aecffd42272fd5f0563eb45206032dedf54ed73d58ec5784874b731947db2d",
 	"descriptionMd5": "85e1e169064e36070dddc5507d091974"
 }]

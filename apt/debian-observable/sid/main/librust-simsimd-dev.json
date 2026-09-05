@@ -6,20 +6,23 @@
 	],
 	"package": "librust-simsimd-dev",
 	"source": "rust-simsimd",
-	"version": "6.5.13-1",
+	"version": "6.5.16-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cc-1+default-dev (>= 1.2)"
+		"librust-cc-1+default-dev (>= 1.2.36)"
 	],
-	"installedSize": 883,
+	"breaks": [
+		"rustc (<< 1.64~)"
+	],
+	"installedSize": 884,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Portable mixed-precision BLAS-like vector math library for x86 and ARM - Rust source code",
 	"homepage": "https://ashvardanian.com/posts/simsimd-faster-scipy",
-	"filename": "pool/main/r/rust-simsimd/librust-simsimd-dev_6.5.13-1_amd64.deb",
-	"size": 93216,
-	"md5": "9808b8c640e47bf0a2b8624ca2715d54",
-	"sha256": "1dc3e0d6c6d23e080f256db7d20eb651bc9685bb2194b1f0eab6724ecdb42da5",
+	"filename": "pool/main/r/rust-simsimd/librust-simsimd-dev_6.5.16-1_amd64.deb",
+	"size": 93552,
+	"md5": "ea30620f73631c81e8ed6f12c7eae27b",
+	"sha256": "2a109b1955e8e2f0f358f2b3b3dbf86398c4ff98169ecdb5cc12f1179648378c",
 	"descriptionMd5": "ebb81c9a1cd5e0c667f53e8c6bd211ba"
 }]
