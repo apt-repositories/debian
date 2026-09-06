@@ -5,26 +5,31 @@
 		"Size"
 	],
 	"package": "librust-sequoia-policy-config-dev",
-	"source": "rust-sequoia-policy-config (0.8.1-1)",
-	"version": "0.8.1-1+b1",
+	"source": "rust-sequoia-policy-config",
+	"version": "0.8.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-anyhow-1+default-dev (>= 1.0.18-~~)",
+		"librust-anyhow-1+default-dev (>= 1.0.18)",
 		"librust-chrono-0.4+default-dev",
-		"librust-sequoia-openpgp-2-dev (>= 2.1-~~)",
+		"librust-sequoia-openpgp-2-dev (>= 2.4.0)",
 		"librust-serde-1+default-dev",
-		"librust-thiserror-1+default-dev (>= 1.0.2-~~)",
-		"librust-toml-0.5+default-dev"
+		"librust-thiserror+default-dev (<< 3)",
+		"librust-thiserror+default-dev (>= 1)",
+		"librust-toml+default-dev (<< 2)",
+		"librust-toml+default-dev (>= 0.6)"
 	],
-	"installedSize": 274,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 276,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Configure Sequoia using a configuration file - Rust source code",
 	"homepage": "https://sequoia-pgp.org/",
-	"filename": "pool/main/r/rust-sequoia-policy-config/librust-sequoia-policy-config-dev_0.8.1-1+b1_amd64.deb",
-	"size": 104568,
-	"md5": "483a8cb9bf6af1e2bcb85039f5d2b05a",
-	"sha256": "e16f9c9e0ea5617abdf37c3ad9c00d20780fde2eca2ec7eadca767c79f7605d4",
+	"filename": "pool/main/r/rust-sequoia-policy-config/librust-sequoia-policy-config-dev_0.8.2-1_amd64.deb",
+	"size": 106400,
+	"md5": "d655c0b7fa0af9f57924d7a35d495100",
+	"sha256": "86372fd858cee53060ece7af83a8e31c452930519027b76f3c79e52b192301b8",
 	"descriptionMd5": "29c1faaf7b912f18d7d31d3319b1af1d"
 }
