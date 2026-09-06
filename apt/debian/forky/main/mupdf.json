@@ -5,15 +5,15 @@
 		"Size"
 	],
 	"package": "mupdf",
-	"version": "1.27.0+ds1-6",
+	"version": "1.28.2+ds1-2",
 	"section": "text",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libjbig2dec0 (>= 0.19)",
-		"libjs-sphinxdoc (>= 9.0)",
-		"libmupdf27.0 (= 1.27.0+ds1-6)",
+		"libmupdf28.2 (= 1.28.2+ds1-2)",
 		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
 		"libgl1",
 		"libglut3.12 (>= 3.4.0)",
 		"libssl3t64 (>= 3.0.0)",
@@ -21,16 +21,17 @@
 		"libxext6"
 	],
 	"suggests": [
-		"mupdf-tools"
+		"mupdf-tools",
+		"mupdf-doc"
 	],
-	"installedSize": 7813,
+	"installedSize": 1691,
 	"maintainer": "Kan-Ru Chen (陳侃如) <koster@debian.org>",
 	"description": "lightweight PDF viewer",
 	"homepage": "https://mupdf.com/",
-	"builtUsing": "fonts-android (= 1:8.1.0r7-1~1.gbp36536b), fonts-noto (= 20201225-6), fonts-noto-cjk (= 1:20240730+repack1-1), fonts-sil-charis (= 6.200-1), fonts-urw-base35 (= 20200910-9), texlive-extra (= 2026.20260328-5)",
-	"filename": "pool/main/m/mupdf/mupdf_1.27.0+ds1-6_amd64.deb",
-	"size": 1467796,
-	"md5": "e9c26f4530808361c692c8352f7d5ea9",
-	"sha256": "12b5dc318018723070774438cd2ecef391e3df9f34a289e7c1467004207434c7",
+	"builtUsing": "fonts-android (= 1:8.1.0r7-1~1.gbp36536b), fonts-noto (= 20201225-6), fonts-noto-cjk (= 1:20240730+repack1-1), fonts-sil-charis (= 6.200-1), fonts-urw-base35 (= 20200910-9), texlive-extra (= 2026.20260711-2)",
+	"filename": "pool/main/m/mupdf/mupdf_1.28.2+ds1-2_amd64.deb",
+	"size": 918696,
+	"md5": "1eb48708c6073fdf69ec21a7714a217d",
+	"sha256": "7fd6d4bdaef4fe034f513b4ed8bb714e6cc1428f3afe996bba54b61a3237347a",
 	"descriptionMd5": "c39de9e446896353a76c6956ae23bdd2"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gdk4-sys-dev",
 	"source": "rust-gdk4-sys",
-	"version": "0.11.2-2",
+	"version": "0.11.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -24,15 +24,18 @@
 		"librust-pango-sys-0.22+v1-46-dev",
 		"librust-pkg-config-0.3+default-dev (>= 0.3.32)",
 		"librust-system-deps-7+default-dev",
-		"libgtk-4-dev (>= 4.20)"
+		"libgtk-4-dev (>= 4.23)"
 	],
-	"installedSize": 524,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 531,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings of GDK 4 - Rust source code",
 	"homepage": "https://gtk-rs.org/gtk4-rs",
-	"filename": "pool/main/r/rust-gdk4-sys/librust-gdk4-sys-dev_0.11.2-2_amd64.deb",
-	"size": 56228,
-	"md5": "20a59daa5a7284855dd5c947c32d1866",
-	"sha256": "58ca90236bf60e47670629a8d38596ac7989180b97e371ec4f25056849ac5c10",
+	"filename": "pool/main/r/rust-gdk4-sys/librust-gdk4-sys-dev_0.11.4-1_amd64.deb",
+	"size": 56936,
+	"md5": "9bbe962617530ce666d2ec0d3846e1d9",
+	"sha256": "995701a2c09085e820002ecf8e9f56afad14ee7080ae14dbfac9c97ca0ed72b3",
 	"descriptionMd5": "d78684cb5ef87db4aaefe19cad63c6d0"
 }
