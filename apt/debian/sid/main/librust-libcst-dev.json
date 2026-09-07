@@ -6,12 +6,12 @@
 	],
 	"package": "librust-libcst-dev",
 	"source": "rust-libcst",
-	"version": "1.8.6-2",
+	"version": "1.8.6-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-annotate-snippets-0.11+default-dev (>= 0.11.5)",
+		"librust-annotate-snippets-0.12+default-dev",
 		"librust-libcst-derive-1+default-dev (>= 1.8.6)",
 		"librust-memchr-2+default-dev (>= 2.7.4)",
 		"librust-paste-1+default-dev (>= 1.0.15)",
@@ -23,13 +23,16 @@
 		"librust-thiserror-2+default-dev (>= 2.0.12)",
 		"librust-libcst-derive-dev (>= 1.8.6-2)"
 	],
-	"installedSize": 676,
+	"breaks": [
+		"rustc (<< 1.70~)"
+	],
+	"installedSize": 679,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Python parser and Concrete Syntax Tree library - Rust source code",
 	"homepage": "https://github.com/Instagram/LibCST",
-	"filename": "pool/main/r/rust-libcst/librust-libcst-dev_1.8.6-2_amd64.deb",
-	"size": 92204,
-	"md5": "a015d57d290b23b33bffb685b295252a",
-	"sha256": "9b80a8451504d2f6d0845ca968203cce0f9b96a0802dbbd09e142297d1309cdb",
+	"filename": "pool/main/r/rust-libcst/librust-libcst-dev_1.8.6-3_amd64.deb",
+	"size": 92656,
+	"md5": "aa72f9a04b5138d51eb17cc31d4326eb",
+	"sha256": "9a778bc8dc73ae07a01ef1429b54d48982ecf49fabac2d41eb01ee3772d55ed4",
 	"descriptionMd5": "c661a7603d520855e11ca73dbca2c182"
 }
