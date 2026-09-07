@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "amavisd-new",
-	"version": "1:2.13.0-7",
+	"version": "1:2.15.0-2",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,7 +14,7 @@
 		"file",
 		"libarchive-tar-perl",
 		"libarchive-zip-perl",
-		"libberkeleydb-perl",
+		"libzmq-ffi-perl",
 		"libconvert-tnef-perl",
 		"libconvert-uulib-perl",
 		"libdigest-md5-perl",
@@ -30,7 +30,6 @@
 		"libnet-snmp-perl",
 		"pax",
 		"perl | libcompress-raw-zlib-perl",
-		"init-system-helpers (>= 1.51)",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"perl:any"
 	],
@@ -45,7 +44,6 @@
 		"clamav",
 		"clamav-daemon",
 		"cpio",
-		"dspam",
 		"lhasa",
 		"libauthen-sasl-perl",
 		"libdbi-perl",
@@ -68,13 +66,13 @@
 	"conflicts": [
 		"amavis"
 	],
-	"installedSize": 2770,
+	"installedSize": 2859,
 	"maintainer": "Brian May <bam@debian.org>",
 	"description": "Interface between MTA and virus scanner/content filters",
 	"homepage": "https://www.ijs.si/software/amavisd/",
-	"filename": "pool/main/a/amavisd-new/amavisd-new_2.13.0-7_all.deb",
-	"size": 922632,
-	"md5": "3287f1c2b1228e88aa0eb49e356cd69c",
-	"sha256": "4afa07f9b58ac2252dadca2127c46c58484642afbc7f2e7b8e3b0283e6181b52",
+	"filename": "pool/main/a/amavisd-new/amavisd-new_2.15.0-2_all.deb",
+	"size": 930428,
+	"md5": "f1850770832a19ae6c5ee066efe9585e",
+	"sha256": "2eafb15394d2cae573d18ccd1cf420201af09300470262c0884b1e89e55245ae",
 	"descriptionMd5": "d95fd9c270e69763b2674a7c7629b731"
 }

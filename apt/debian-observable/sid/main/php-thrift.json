@@ -5,13 +5,21 @@
 		"Size"
 	],
 	"package": "php-thrift",
-	"source": "thrift (0.23.0-3)",
-	"version": "0.23.0-3+b1",
+	"source": "thrift",
+	"version": "0.24.0-2",
 	"section": "php",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"php-common",
+		"php-psr-log",
+		"php-psr-http-client (>= 1.0)",
+		"php-psr-http-client (<< 2~~)",
+		"php-psr-http-factory (>= 1.0)",
+		"php-psr-http-factory (<< 2~~)",
+		"php-psr-http-message",
+		"php-php-http-discovery (>= 1.19)",
+		"php-php-http-discovery (<< 2~~)",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 4.1.1)"
@@ -24,13 +32,13 @@
 		"php7.0-thrift",
 		"php7.2-thrift"
 	],
-	"installedSize": 441,
+	"installedSize": 447,
 	"maintainer": "Laszlo Boszormenyi (GCS) <gcs@debian.org>",
 	"description": "PHP language support for Thrift",
 	"homepage": "https://thrift.apache.org/",
-	"filename": "pool/main/t/thrift/php-thrift_0.23.0-3+b1_amd64.deb",
-	"size": 154660,
-	"md5": "25f8c45422ece5473c495bf04c65be36",
-	"sha256": "de5f72bee7ec1aae3f3aefffc53e237e6aeb8ac9f909ace58efc656ada4f0174",
+	"filename": "pool/main/t/thrift/php-thrift_0.24.0-2_amd64.deb",
+	"size": 162696,
+	"md5": "43ee163a2e0f99156cbc9a7093c31cbb",
+	"sha256": "01e506d14c7bab999e18c847a6699a3d1a64db6af0f83265d22c05a4b35e3f4b",
 	"descriptionMd5": "f9b00ac92f853c56de6b3f98c19dad49"
 }]

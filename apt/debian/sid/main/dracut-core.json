@@ -6,13 +6,13 @@
 	],
 	"package": "dracut-core",
 	"source": "dracut",
-	"version": "112-3",
+	"version": "112-5",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"3cpio | cpio",
-		"dracut-install",
+		"dracut-install (= 112-5)",
 		"e2fsprogs",
 		"kmod",
 		"mount",
@@ -22,6 +22,7 @@
 	],
 	"recommends": [
 		"binutils",
+		"busybox | busybox-static",
 		"console-setup",
 		"systemd",
 		"zstd"
@@ -49,13 +50,13 @@
 		"dracut-squash",
 		"rust-coreutils (<< 0.5.0)"
 	],
-	"installedSize": 1316,
+	"installedSize": 1322,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "dracut is an event driven initramfs infrastructure (core tools)",
 	"homepage": "https://dracut-ng.github.io/",
-	"filename": "pool/main/d/dracut/dracut-core_112-3_amd64.deb",
-	"size": 352640,
-	"md5": "d54b6de3b563bebec078ce99510e5e49",
-	"sha256": "c2a8a60cbd774e9267c73a48a93abbe93f755960a80c26e4ca69bb106a8ffd13",
+	"filename": "pool/main/d/dracut/dracut-core_112-5_amd64.deb",
+	"size": 354300,
+	"md5": "212fe3b192727cf149e844290de368d4",
+	"sha256": "883da884d4c1c102a5d42f9ac93ec90eb78d431f6ca8f5607eda10d7221658a9",
 	"descriptionMd5": "d055d51e8c4034927ecc0f5de64c62ff"
 }

@@ -5,24 +5,29 @@
 		"Size"
 	],
 	"package": "librust-eyre-dev",
-	"source": "rust-eyre (0.6.12-1)",
-	"version": "0.6.12-1+b1",
+	"source": "rust-eyre",
+	"version": "0.6.14-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-autocfg-1+default-dev",
 		"librust-indenter-0.3+default-dev",
-		"librust-once-cell-1+default-dev (>= 1.18.0-~~)"
+		"librust-once-cell-1+default-dev (>= 1.18.0)"
 	],
 	"recommends": [
-		"librust-eyre+default-dev (= 0.6.12-1+b1)"
+		"librust-eyre+default-dev (= 0.6.14-1)"
 	],
-	"installedSize": 203,
+	"breaks": [
+		"rustc (<< 1.65.0~)"
+	],
+	"installedSize": 206,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Flexible concrete Error Reporting type built on std::error::Error with customizable Reports - Rust source code",
-	"filename": "pool/main/r/rust-eyre/librust-eyre-dev_0.6.12-1+b1_amd64.deb",
-	"size": 38960,
-	"md5": "bc740a831bd361b724de4af444336b40",
-	"sha256": "9d12fe9d3796c24489e4365dc203fc44b99e42ceb875060346ec075b46cd4b26",
+	"homepage": "https://github.com/eyre-rs/eyre",
+	"filename": "pool/main/r/rust-eyre/librust-eyre-dev_0.6.14-1_amd64.deb",
+	"size": 39824,
+	"md5": "175b498d7df1a07174e9c420eca6078c",
+	"sha256": "2f77839d23a230122625b56d0489df5620682d7463d3ef6ac3b916e4b503c12d",
 	"descriptionMd5": "4daed48be0056e589babd63eb383cd06"
 }]

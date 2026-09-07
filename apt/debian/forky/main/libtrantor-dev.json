@@ -6,20 +6,25 @@
 	],
 	"package": "libtrantor-dev",
 	"source": "trantor",
-	"version": "1.5.26+ds-2",
+	"version": "1.5.28+ds-2",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libtrantor1 (= 1.5.26+ds-2)"
+		"libtrantor1 (= 1.5.28+ds-2)",
+		"libc-ares-dev",
+		"libssl-dev"
+	],
+	"suggests": [
+		"libtrantor-doc"
 	],
 	"installedSize": 185,
 	"maintainer": "Pierre-Elliott Bécue <peb@debian.org>",
 	"description": "Non-blocking I/O cross-platform TCP network library development files",
 	"homepage": "https://github.com/an-tao/trantor",
-	"filename": "pool/main/t/trantor/libtrantor-dev_1.5.26+ds-2_amd64.deb",
-	"size": 35956,
-	"md5": "fcb41a89e87dee8355eeb04754708487",
-	"sha256": "883883d46c88bf1cfe3763113097e49ff1517586d4a40e8b6957f91b4af89545",
+	"filename": "pool/main/t/trantor/libtrantor-dev_1.5.28+ds-2_amd64.deb",
+	"size": 36292,
+	"md5": "d8213664fdd9ae6c0545dece0af1cedd",
+	"sha256": "d9b07bad8cf466d2dfdb15220d1324c1a0eeb5a67c1ba23348618b5abdfb0914",
 	"descriptionMd5": "c012ca474ba7e9b3d456c96b830aeb74"
 }
