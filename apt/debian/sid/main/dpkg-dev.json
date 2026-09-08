@@ -6,14 +6,13 @@
 	],
 	"package": "dpkg-dev",
 	"source": "dpkg",
-	"version": "1.23.7",
+	"version": "1.23.8",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"perl:any",
-		"libdpkg-perl (= 1.23.7)",
-		"tar (>= 1.28-1)",
+		"libdpkg-perl (= 1.23.8)",
 		"bzip2",
 		"xz-utils (>= 5.4.0)",
 		"patch (>= 2.7)",
@@ -24,33 +23,31 @@
 		"build-essential",
 		"gcc | c-compiler",
 		"fakeroot",
-		"sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq | gnupg",
-		"sqv | sqopv | rsopv | sopv | gosop | pgpainless-cli | gpgv-sq | gpgv",
+		"sq | sqop | rsop | gosop | hopenpgp-tools | pgpainless-cli | gpg-sq | gnupg",
+		"sqv | sqopv | rsopv | sopv | gosop | hopenpgp-tools | pgpainless-cli | gpgv-sq | gpgv",
 		"libalgorithm-merge-perl"
 	],
 	"suggests": [
 		"debian-keyring",
 		"debian-tag2upload-keyring"
 	],
+	"replaces": [
+		"bash-completion (<< 1:2.16.0-9)"
+	],
 	"breaks": [
-		"debhelper (<< 10.10.1~)",
+		"bash-completion (<< 1:2.12~)",
 		"debian-keyring (<< 2025.04.25~)",
 		"devuan-keyring (<< 2025.07.30~)",
-		"gosop (<< 1.1.0~)",
-		"libsop-java-java (<< 4.0.7~)",
-		"pgpainless-cli (<< 1.3.13~)",
-		"rsop (<< 0.4.0~)",
-		"sq (<< 0.40.0~)",
-		"sqop (<< 0.27.2~)",
-		"sqv (<< 1.3.0~)"
+		"hopenpgp-tools (<< 0.25.1~)",
+		"pureos-archive-keyring (<< 2026.02.0~)"
 	],
-	"installedSize": 1715,
+	"installedSize": 1398,
 	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
 	"description": "Debian package development tools",
 	"homepage": "https://wiki.debian.org/Teams/Dpkg",
-	"filename": "pool/main/d/dpkg/dpkg-dev_1.23.7_all.deb",
-	"size": 1318356,
-	"md5": "9714b3d902a9a29baaf0d1daeab2b244",
-	"sha256": "603ff013c15aba32c03e2afc2db17d0312da5ccd0f667ee4130c5916b46089d9",
+	"filename": "pool/main/d/dpkg/dpkg-dev_1.23.8_all.deb",
+	"size": 1004880,
+	"md5": "036329a14755b107ca638dbe4f8aaaf8",
+	"sha256": "d993e3c2a989b7f5eb972a822f72c217f4c6fd2d1e0a5663a39efccd426b4a86",
 	"descriptionMd5": "2eaf4b4a1cef9584869950f3a52106fc"
 }

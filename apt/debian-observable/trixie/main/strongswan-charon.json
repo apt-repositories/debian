@@ -27,8 +27,42 @@
 	"maintainer": "strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>",
 	"description": "strongSwan Internet Key Exchange daemon",
 	"homepage": "http://www.strongswan.org",
-	"filename": "pool/updates/main/s/strongswan/strongswan-charon_6.0.1-6+deb13u6_amd64.deb",
+	"filename": "pool/main/s/strongswan/strongswan-charon_6.0.1-6+deb13u6_amd64.deb",
 	"size": 100208,
+	"md5": "9c59b3c5a022f733921ee6f515ddc9c5",
 	"sha256": "b1816c11f46be4b9209b2cc32e7f3024d8a1ed4a01befe4f17792e1e68840b66",
+	"descriptionMd5": "3f55915d17f7e36d9b31e2c4da5c11d2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "strongswan-charon",
+	"source": "strongswan",
+	"version": "6.0.1-6+deb13u7",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2 | iproute",
+		"libstrongswan (= 6.0.1-6+deb13u7)",
+		"strongswan-starter",
+		"libc6 (>= 2.34)",
+		"strongswan-libcharon (>= 6.0.1)"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"conflicts": [
+		"charon-systemd"
+	],
+	"installedSize": 300,
+	"maintainer": "strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>",
+	"description": "strongSwan Internet Key Exchange daemon",
+	"homepage": "http://www.strongswan.org",
+	"filename": "pool/updates/main/s/strongswan/strongswan-charon_6.0.1-6+deb13u7_amd64.deb",
+	"size": 100456,
+	"sha256": "732e382c607023e782fe985298dc2b676619566b5c05c51cfc1a4fccaeab2c46",
 	"descriptionMd5": "3f55915d17f7e36d9b31e2c4da5c11d2"
 }]

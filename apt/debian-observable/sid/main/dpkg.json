@@ -5,13 +5,10 @@
 		"Size"
 	],
 	"package": "dpkg",
-	"version": "1.23.7",
+	"version": "1.23.8",
 	"section": "admin",
 	"priority": "required",
 	"architecture": "amd64",
-	"depends": [
-		"tar (>= 1.28-1)"
-	],
 	"preDepends": [
 		"libbz2-1.0",
 		"libc6 (>= 2.38)",
@@ -25,17 +22,19 @@
 		"apt",
 		"debsig-verify"
 	],
-	"breaks": [
-		"libapt-pkg5.0 (<< 1.7~b)",
-		"lsb-base (<< 10.2019031300)"
+	"replaces": [
+		"bash-completion (<< 1:2.16.0-9)"
 	],
-	"installedSize": 6399,
+	"breaks": [
+		"bash-completion (<< 1:2.12~)"
+	],
+	"installedSize": 4976,
 	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
 	"description": "Debian package management system",
 	"homepage": "https://wiki.debian.org/Teams/Dpkg",
-	"filename": "pool/main/d/dpkg/dpkg_1.23.7_amd64.deb",
-	"size": 1530608,
-	"md5": "73b0a31797e906a41ad06f8268b5b71b",
-	"sha256": "bd38e459c02f0d64c8094fb6c73811323f006e5af36034ab3e1d670726345fef",
+	"filename": "pool/main/d/dpkg/dpkg_1.23.8_amd64.deb",
+	"size": 1219268,
+	"md5": "75456676adb3e1733694b4d8d9c21cb4",
+	"sha256": "3726c8bcf51ef8661cd4bcc4678f8890af807c74104b26e6d5df11c998bf11ef",
 	"descriptionMd5": "2f156c6a30cc39895ad3487111e8c190"
 }]

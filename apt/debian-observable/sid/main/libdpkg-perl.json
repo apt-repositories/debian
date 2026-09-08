@@ -6,13 +6,12 @@
 	],
 	"package": "libdpkg-perl",
 	"source": "dpkg",
-	"version": "1.23.7",
+	"version": "1.23.8",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"perl:any",
-		"dpkg (>= 1.18.11)"
+		"perl:any"
 	],
 	"recommends": [
 		"libfile-fcntllock-perl",
@@ -23,8 +22,8 @@
 	"suggests": [
 		"debian-keyring",
 		"debian-tag2upload-keyring",
-		"sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq | gnupg",
-		"sqv | sqopv | rsopv | sopv | gosop | pgpainless-cli | gpgv-sq | gpgv",
+		"sq | sqop | rsop | gosop | hopenpgp-tools | pgpainless-cli | gpg-sq | gnupg",
+		"sqv | sqopv | rsopv | sopv | gosop | hopenpgp-tools | pgpainless-cli | gpgv-sq | gpgv",
 		"gcc | c-compiler",
 		"binutils",
 		"patch",
@@ -35,24 +34,17 @@
 	"breaks": [
 		"debian-keyring (<< 2025.04.25~)",
 		"devuan-keyring (<< 2025.07.30~)",
-		"dgit (<< 3.13~)",
 		"dh-exec (<< 0.31~)",
-		"gosop (<< 1.1.0~)",
-		"libsop-java-java (<< 4.0.7~)",
-		"pgpainless-cli (<< 1.3.13~)",
-		"pkg-kde-tools (<< 0.15.28~)",
-		"rsop (<< 0.4.0~)",
-		"sq (<< 0.40.0~)",
-		"sqop (<< 0.27.2~)",
-		"sqv (<< 1.3.0~)"
+		"hopenpgp-tools (<< 0.25.1~)",
+		"pureos-archive-keyring (<< 2026.02.0~)"
 	],
-	"installedSize": 2226,
+	"installedSize": 1955,
 	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
 	"description": "Dpkg perl modules",
 	"homepage": "https://wiki.debian.org/Teams/Dpkg",
-	"filename": "pool/main/d/dpkg/libdpkg-perl_1.23.7_all.deb",
-	"size": 669308,
-	"md5": "c024cb7392d859919995acf880ab415e",
-	"sha256": "16932212e0b62481e1c225dacb2668841236b893ffc2081879fbddd96405c9a4",
+	"filename": "pool/main/d/dpkg/libdpkg-perl_1.23.8_all.deb",
+	"size": 648408,
+	"md5": "52132d5a422d12a767c30a1cc2694812",
+	"sha256": "495e6a61bd7fa55a3f28e3df5493915a313c693c34ff5e02c9047f66761efed4",
 	"descriptionMd5": "5011cce9f04b116d18e831b42d79c4a1"
 }]
