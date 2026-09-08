@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-portable-atomic-dev",
-	"source": "rust-portable-atomic (1.10.0-3)",
-	"version": "1.10.0-3+b1",
+	"source": "rust-portable-atomic",
+	"version": "1.15.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-critical-section-1+default-dev",
-		"librust-serde-1-dev (>= 1.0.60-~~)"
+		"librust-serde-1-dev (>= 1.0.60)"
 	],
-	"installedSize": 1197,
+	"breaks": [
+		"rustc (<< 1.34~)"
+	],
+	"installedSize": 1353,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Portable atomic types including support for 128-bit atomics, atomic float, etc - Rust source code",
 	"homepage": "https://github.com/taiki-e/portable-atomic",
-	"filename": "pool/main/r/rust-portable-atomic/librust-portable-atomic-dev_1.10.0-3+b1_amd64.deb",
-	"size": 136048,
-	"md5": "4bd7140036e1b2e06713618962999a4e",
-	"sha256": "ec3c2d857363980bf8d54217ac2f8b27954327fd5abc8e9cbd9571e56cc45b6a",
+	"filename": "pool/main/r/rust-portable-atomic/librust-portable-atomic-dev_1.15.0-2_amd64.deb",
+	"size": 156724,
+	"md5": "6aaa14e6fe74e608d42e0f46ab100d89",
+	"sha256": "3f91d5fc1d1a432f6e7762fe41dc59d1abb09090bb356e7596c718c6916d6b69",
 	"descriptionMd5": "c899b923ec6a73733c498a93d90fb8c0"
 }]

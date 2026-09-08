@@ -5,22 +5,27 @@
 		"Size"
 	],
 	"package": "librust-blake2-dev",
-	"source": "rust-blake2 (0.10.6-3)",
-	"version": "0.10.6-3+b1",
+	"source": "rust-blake2",
+	"version": "0.11.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-digest-0.10+default-dev (>= 0.10.3-~~)",
-		"librust-digest-0.10+mac-dev (>= 0.10.3-~~)",
-		"librust-digest-0.10+std-dev (>= 0.10.3-~~)"
+		"librust-digest-0.11+alloc-dev",
+		"librust-digest-0.11+default-dev",
+		"librust-digest-0.11+mac-dev",
+		"librust-digest-0.11+zeroize-dev"
 	],
-	"installedSize": 195,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 174,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "BLAKE2 hash functions - Rust source code",
-	"filename": "pool/main/r/rust-blake2/librust-blake2-dev_0.10.6-3+b1_amd64.deb",
-	"size": 48640,
-	"md5": "40258a6d5e22e49810f1125ca8bc8923",
-	"sha256": "8f073457818efcb3ebd77f54f8ff0972092998a4ea1dc706cec665b5f1220544",
-	"descriptionMd5": "10ca7dcde3fa6a432823bf8dcc893839"
+	"homepage": "https://github.com/RustCrypto/hashes",
+	"filename": "pool/main/r/rust-blake2/librust-blake2-dev_0.11.0-1_amd64.deb",
+	"size": 46828,
+	"md5": "a8f95b8a12655576fc87afcbff355010",
+	"sha256": "69965a77e991cb4f866db6825ce31e094fb8ef0d8a2ea674acf0477fdc9a1682",
+	"descriptionMd5": "cbfe8e184bc7822c341acd9e84343c8d"
 }]
