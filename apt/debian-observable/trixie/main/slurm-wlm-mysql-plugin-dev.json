@@ -29,4 +29,34 @@
 	"md5": "5405f145ba1ab74c07ca423928c0811e",
 	"sha256": "406cf605a667df574137565df48b2a2576409e7b2d994ccb2f370bf5bd3eb6be",
 	"descriptionMd5": "539d70e4b9309548ea7f944245c8fbdb"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-mysql-plugin-dev",
+	"source": "slurm-wlm",
+	"version": "24.11.5-4+deb13u1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"slurm-wlm-basic-plugins-dev (= 24.11.5-4+deb13u1)",
+		"slurm-wlm-jwt-plugin (= 24.11.5-4+deb13u1)"
+	],
+	"replaces": [
+		"slurm-wlm-basic-plugins-dev (<< 22.05.7-1)"
+	],
+	"breaks": [
+		"slurm-wlm-basic-plugins-dev (<< 22.05.7-1)"
+	],
+	"installedSize": 1168,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Slurm MySQL plugins development files",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/updates/main/s/slurm-wlm/slurm-wlm-mysql-plugin-dev_24.11.5-4+deb13u1_amd64.deb",
+	"size": 216720,
+	"sha256": "f6fe6103dfd44beaa29b77205f028e4a8879a1dc178e1375583b08ce4af588af",
+	"descriptionMd5": "539d70e4b9309548ea7f944245c8fbdb"
 }]

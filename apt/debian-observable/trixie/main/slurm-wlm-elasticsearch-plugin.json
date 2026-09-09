@@ -30,4 +30,35 @@
 	"md5": "781cd16ed92372e582411436817d46ea",
 	"sha256": "e78d1765095f97cb013e16e8dfd2fa2330617c1ae88289c03a4a98b4069ac022",
 	"descriptionMd5": "45fa7419e0b8a561d11ea762d312aeff"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-elasticsearch-plugin",
+	"source": "slurm-wlm",
+	"version": "24.11.5-4+deb13u1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcurl4t64 (>= 7.16.2)",
+		"slurm-wlm-basic-plugins (= 24.11.5-4+deb13u1)"
+	],
+	"replaces": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"breaks": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"installedSize": 94,
+	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
+	"description": "Slurm Elasticsearch job-completion plugin",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/updates/main/s/slurm-wlm/slurm-wlm-elasticsearch-plugin_24.11.5-4+deb13u1_amd64.deb",
+	"size": 26112,
+	"sha256": "274ab6086b399daed2174c465b705c961c2c08bd466291a68d7494b7d3582e40",
+	"descriptionMd5": "45fa7419e0b8a561d11ea762d312aeff"
 }]
