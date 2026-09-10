@@ -5,27 +5,31 @@
 		"Size"
 	],
 	"package": "librust-strobe-rs-dev",
-	"source": "rust-strobe-rs (0.8.1-2)",
-	"version": "0.8.1-2+b1",
+	"source": "rust-strobe-rs",
+	"version": "0.13.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bitflags-1+default-dev (>= 1.3-~~)",
-		"librust-byteorder-1-dev (>= 1.4-~~)",
-		"librust-keccak-0.1+default-dev",
-		"librust-serde-1+derive-dev",
+		"librust-bitflags-2+default-dev (>= 2.10)",
+		"librust-byteorder-1-dev (>= 1.5)",
+		"librust-keccak-0.2+default-dev",
+		"librust-serde-1+derive-dev (>= 1.0.210)",
 		"librust-serde-big-array-0.5+default-dev",
-		"librust-subtle-2-dev (>= 2.4-~~)",
-		"librust-zeroize-1+default-dev (>= 1.5-~~)",
-		"librust-zeroize-1+derive-dev (>= 1.5-~~)"
+		"librust-subtle-2-dev (>= 2.6)",
+		"librust-zeroize-1+default-dev (>= 1.8)",
+		"librust-zeroize-1+derive-dev (>= 1.8)"
 	],
-	"installedSize": 246,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 249,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The Strobe protocol framework in pure Rust - Rust source code",
-	"filename": "pool/main/r/rust-strobe-rs/librust-strobe-rs-dev_0.8.1-2+b1_amd64.deb",
-	"size": 54312,
-	"md5": "64d2c3b17866360cd244dc376ee69a94",
-	"sha256": "32975bcdf543d622ba48f32fd309befd43f65c5ba6d4669211b4e1e6d915e46e",
+	"homepage": "https://github.com/rozbb/strobe-rs",
+	"filename": "pool/main/r/rust-strobe-rs/librust-strobe-rs-dev_0.13.0-1_amd64.deb",
+	"size": 55540,
+	"md5": "03f33cb753e7d9972e9fdbb99ff60e2c",
+	"sha256": "6bc5d4c1c247d2b26f9be8291ce8c5a7952425bea79264f2b2f9bc5c61838b2d",
 	"descriptionMd5": "674215af016dc77b4316e38f5d079ffa"
 }

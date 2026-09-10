@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-ref-cast-impl-dev",
-	"source": "rust-ref-cast-impl (1.0.25-1)",
-	"version": "1.0.25-1+b1",
+	"source": "rust-ref-cast-impl",
+	"version": "1.0.27-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2-1+default-dev (>= 1.0.74-~~)",
-		"librust-quote-1+default-dev (>= 1.0.35-~~)",
-		"librust-syn-2+default-dev (>= 2.0.46-~~)"
+		"librust-proc-macro2-1+default-dev (>= 1.0.74)",
+		"librust-quote-1+default-dev (>= 1.0.35)",
+		"librust-syn-3+default-dev"
 	],
-	"installedSize": 48,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 47,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derive implementation for ref_cast::RefCast - Rust source code",
 	"homepage": "https://github.com/dtolnay/ref-cast",
-	"filename": "pool/main/r/rust-ref-cast-impl/librust-ref-cast-impl-dev_1.0.25-1+b1_amd64.deb",
-	"size": 11560,
-	"md5": "09e8cafa8a12aa50069fea2eedaca830",
-	"sha256": "d92c0a225b69f4f3ca058b1cb959200f40d8a6abdf3438795aca9f8f67bf5ffa",
+	"filename": "pool/main/r/rust-ref-cast-impl/librust-ref-cast-impl-dev_1.0.27-1_amd64.deb",
+	"size": 11372,
+	"md5": "f365ce1122cadfc49d147cb11d0605d4",
+	"sha256": "ddf58552837d5ffef498d44c0e0fece2d0ae28a24f6aa9d2eeee1d78f1820ec7",
 	"descriptionMd5": "eb34d39538db00864b8302a71b9e59d9"
 }

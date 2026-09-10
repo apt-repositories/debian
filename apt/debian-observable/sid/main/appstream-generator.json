@@ -5,37 +5,38 @@
 		"Size"
 	],
 	"package": "appstream-generator",
-	"version": "0.10.2-1",
+	"version": "1.0.0-1",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libjs-highlight.js",
-		"libjs-jquery-flot",
-		"libappstream-compose0 (>= 1.1.2)",
+		"libappstream-compose1 (>= 1.2.0)",
 		"libappstream5 (>= 1.0.0)",
 		"libarchive13t64 (>= 3.3.3)",
 		"libc6 (>= 2.38)",
-		"libcurl3t64-gnutls (>= 7.62)",
+		"libcurl4-gnutls (>= 8.20.0-3~)",
+		"libdw1t64 (>= 0.126)",
 		"libfyaml0 (>= 0.9.2)",
-		"libgcc-s1 (>= 4.3)",
+		"libgcc-s1 (>= 13)",
 		"libglib2.0-0t64 (>= 2.80.0)",
 		"liblmdb0 (>= 0.9.7)",
-		"libstdc++6 (>= 15)",
+		"libstdc++6 (>= 16.2.0-2)",
 		"libtbb12 (>= 2021.4.0)",
 		"libxml2-16 (>= 2.14.1)"
 	],
 	"recommends": [
-		"ffmpeg",
+		"ffmpeg"
+	],
+	"suggests": [
 		"optipng"
 	],
-	"installedSize": 2102,
+	"installedSize": 3213,
 	"maintainer": "Matthias Klumpp <mak@debian.org>",
 	"description": "Generator for AppStream metadata catalogs",
 	"homepage": "https://github.com/ximion/appstream-generator",
-	"filename": "pool/main/a/appstream-generator/appstream-generator_0.10.2-1_amd64.deb",
-	"size": 685184,
-	"md5": "011374a0c29ae62393a50997ac3651d5",
-	"sha256": "ffa4adf0aaefef3374b81507ce5c423e9187969c1d4804304783324ba507dd13",
+	"filename": "pool/main/a/appstream-generator/appstream-generator_1.0.0-1_amd64.deb",
+	"size": 1049244,
+	"md5": "06f2345ed1e7aec190c3574eaf7a3cb4",
+	"sha256": "ff2c6a39bc331c1219eb881c71d41884a27d17e9f703e85f5ff507bc296bbf7d",
 	"descriptionMd5": "0403eda20cfaf58f846c7fee1dd1b591"
 }]
