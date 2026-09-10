@@ -5,26 +5,29 @@
 		"Size"
 	],
 	"package": "librust-derive-arbitrary-dev",
-	"source": "rust-derive-arbitrary (1.4.2-1)",
-	"version": "1.4.2-1+b1",
+	"source": "rust-derive-arbitrary",
+	"version": "1.4.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
-		"librust-syn-2+default-dev",
-		"librust-syn-2+derive-dev",
-		"librust-syn-2+extra-traits-dev",
-		"librust-syn-2+parsing-dev"
+		"librust-syn-3+default-dev",
+		"librust-syn-3+derive-dev",
+		"librust-syn-3+extra-traits-dev",
+		"librust-syn-3+parsing-dev"
 	],
-	"installedSize": 60,
+	"breaks": [
+		"rustc (<< 1.63.0~)"
+	],
+	"installedSize": 63,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Derives arbitrary traits - Rust source code",
 	"homepage": "https://github.com/rust-fuzz/arbitrary",
-	"filename": "pool/main/r/rust-derive-arbitrary/librust-derive-arbitrary-dev_1.4.2-1+b1_amd64.deb",
-	"size": 13820,
-	"md5": "994f4f5b4fabf46ecf2a64cc9667a2c7",
-	"sha256": "8064c9fd7dbeff9169c6b505cbaecaa4ddc6c59a2217de926a97466b732742eb",
+	"filename": "pool/main/r/rust-derive-arbitrary/librust-derive-arbitrary-dev_1.4.2-2_amd64.deb",
+	"size": 13904,
+	"md5": "cfe0d2065a48c6c8e43478d9fe748ce3",
+	"sha256": "abf5bd61f4ab0ed58cb0e74257c00344b0a7b7e2812f170c164f68bf524b6ffc",
 	"descriptionMd5": "cb127474b9b86483ce5c3c7b227716e4"
 }

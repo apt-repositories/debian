@@ -6,21 +6,24 @@
 	],
 	"package": "librust-ref-cast-dev",
 	"source": "rust-ref-cast",
-	"version": "1.0.25-1",
+	"version": "1.0.27-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-ref-cast-impl-1.0+default-dev (<< 1.0.26-~~)",
-		"librust-ref-cast-impl-1.0+default-dev (>= 1.0.25-~~)"
+		"librust-ref-cast-impl-1.0+default-dev (<< 1.0.28)",
+		"librust-ref-cast-impl-1.0+default-dev (>= 1.0.27)"
 	],
-	"installedSize": 90,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 91,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Safely cast &T to &U where the struct U contains a single field of type T - Rust source code",
 	"homepage": "https://github.com/dtolnay/ref-cast",
-	"filename": "pool/main/r/rust-ref-cast/librust-ref-cast-dev_1.0.25-1_amd64.deb",
-	"size": 15540,
-	"md5": "c12b523678216064760f9a316fd1e231",
-	"sha256": "c4235a617c2e019cb70d5a45a11fb53154008509bba9c1114bae191d07ba2859",
+	"filename": "pool/main/r/rust-ref-cast/librust-ref-cast-dev_1.0.27-1_amd64.deb",
+	"size": 15756,
+	"md5": "06dd2939b572c8f208e2b2a725a07918",
+	"sha256": "690c17a616193d1564773cc93d122e57d693b0d318e4cb5eb130b5ac43dccc94",
 	"descriptionMd5": "4d9502b7ee2dafde1dd37ea093c16453"
 }
