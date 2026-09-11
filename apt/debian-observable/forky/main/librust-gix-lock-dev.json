@@ -6,22 +6,25 @@
 	],
 	"package": "librust-gix-lock-dev",
 	"source": "rust-gix-lock",
-	"version": "23.0.0-1",
+	"version": "24.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-gix-tempfile-23-dev",
-		"librust-gix-utils-0.3-dev (>= 0.3.2)",
+		"librust-gix-tempfile-24-dev",
+		"librust-gix-utils-0.3-dev (>= 0.3.5)",
 		"librust-thiserror-2+default-dev (>= 2.0.18)"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 54,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Git-style lock-file implementation - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-lock/librust-gix-lock-dev_23.0.0-1_amd64.deb",
-	"size": 12696,
-	"md5": "4bec4658f1a0b8c9d9ad3dbc82955633",
-	"sha256": "8bea789b5aca3806729a5c1f0ea86f2f5c94115f9b873b01dafba0adaa99d493",
+	"filename": "pool/main/r/rust-gix-lock/librust-gix-lock-dev_24.0.0-1_amd64.deb",
+	"size": 12760,
+	"md5": "dfe5c5af3a264269665d814477d378ec",
+	"sha256": "baf34e42bef3f8cf4c8f68a0eecc8a4936b69d281f210e989e68cddc4f46a033",
 	"descriptionMd5": "039a9a4913700b91fdbb6b14afa478e1"
 }]

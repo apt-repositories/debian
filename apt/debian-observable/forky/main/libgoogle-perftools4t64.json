@@ -6,13 +6,14 @@
 	],
 	"package": "libgoogle-perftools4t64",
 	"source": "google-perftools",
-	"version": "2.18.1-1",
+	"version": "2.18.1-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libtcmalloc-minimal4t64 (= 2.18.1-1)",
+		"libtcmalloc-minimal4t64 (= 2.18.1-2)",
 		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3)",
 		"libstdc++6 (>= 5.2)",
 		"libunwind8"
 	],
@@ -20,18 +21,18 @@
 		"libgoogle-perftools4"
 	],
 	"breaks": [
-		"libgoogle-perftools4 (<< 2.18.1-1)"
+		"libgoogle-perftools4 (<< 2.18.1-2)"
 	],
 	"conflicts": [
 		"libgoogle-perftools0"
 	],
-	"installedSize": 842,
+	"installedSize": 854,
 	"maintainer": "Laszlo Boszormenyi (GCS) <gcs@debian.org>",
 	"description": "libraries for CPU and heap analysis, plus an efficient thread-caching malloc",
 	"homepage": "https://github.com/gperftools/gperftools",
-	"filename": "pool/main/g/google-perftools/libgoogle-perftools4t64_2.18.1-1_amd64.deb",
-	"size": 187372,
-	"md5": "46a6f4e0ed689f28607a7cfa0c8f2f4e",
-	"sha256": "a60d70787e29a0c8a71a4d260884663ce3c56e553212399f34535f18be0eb5aa",
+	"filename": "pool/main/g/google-perftools/libgoogle-perftools4t64_2.18.1-2_amd64.deb",
+	"size": 191852,
+	"md5": "69fdaf1e548630ff5ed5b3a74dcedae1",
+	"sha256": "dd0b14852c08c483e9ce150b1f42068740483b75ce6b73618667a418654b04f5",
 	"descriptionMd5": "9d3b2cf4c6afb08fb8e226be47a1fb1a"
 }]

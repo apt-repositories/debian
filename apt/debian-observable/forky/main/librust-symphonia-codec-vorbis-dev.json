@@ -6,22 +6,25 @@
 	],
 	"package": "librust-symphonia-codec-vorbis-dev",
 	"source": "rust-symphonia-codec-vorbis",
-	"version": "0.5.5-1",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-log-0.4+default-dev",
-		"librust-symphonia-core-0.5+default-dev (>= 0.5.5-~~)",
-		"librust-symphonia-utils-xiph-0.5+default-dev (>= 0.5.5-~~)"
+		"librust-symphonia-common-0.6+default-dev (>= 0.6.1)",
+		"librust-symphonia-core-0.6+default-dev (>= 0.6.1)"
 	],
-	"installedSize": 117,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 139,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Pure Rust Vorbis decoder (a part of project Symphonia) - Rust source code",
 	"homepage": "https://github.com/pdeljanov/Symphonia",
-	"filename": "pool/main/r/rust-symphonia-codec-vorbis/librust-symphonia-codec-vorbis-dev_0.5.5-1_amd64.deb",
-	"size": 23852,
-	"md5": "3577f49d2ddee535fcc8ef2d4bd41abb",
-	"sha256": "6b57b013cf2395cbc80e50d6ed6f3e520f69eaed27204fc9474d2248498cb5c1",
+	"filename": "pool/main/r/rust-symphonia-codec-vorbis/librust-symphonia-codec-vorbis-dev_0.6.1-1_amd64.deb",
+	"size": 29728,
+	"md5": "d5c330db36dd664769ad9a07fda033cb",
+	"sha256": "f2da48ba415320a15ec8e4b1d44924c7d2f4d5dbb48fff9754f2b5da7d4c49f8",
 	"descriptionMd5": "b338f1ea4276bf16efda94a6cf27585d"
 }]

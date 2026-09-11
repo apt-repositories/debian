@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-picky-asn1-der-dev",
-	"source": "rust-picky-asn1-der (0.4.0-1)",
-	"version": "0.4.0-1+b2",
+	"source": "rust-picky-asn1-der",
+	"version": "0.5.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-lazy-static-1+default-dev (>= 1.4.0-~~)",
-		"librust-picky-asn1-0.7+default-dev",
-		"librust-serde-1+derive-dev (>= 1.0.136-~~)",
-		"librust-serde-bytes-0.11+default-dev (>= 0.11.5-~~)"
+		"librust-picky-asn1-0.10+default-dev",
+		"librust-serde-1+derive-dev",
+		"librust-serde-bytes-0.11+default-dev"
 	],
-	"installedSize": 112,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 125,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "ASN.1-DER subset for serde - Rust source code",
-	"filename": "pool/main/r/rust-picky-asn1-der/librust-picky-asn1-der-dev_0.4.0-1+b2_amd64.deb",
-	"size": 17928,
-	"md5": "dd5532c23aaa0b86d58dae18a6f5bef1",
-	"sha256": "d262435253954a77a1edcfedc0768ed69471b190352b77b425560ea66d6f16af",
-	"descriptionMd5": "712c9fd96e9460295a57db4d653d8a6a"
+	"homepage": "https://github.com/Devolutions/picky-rs",
+	"filename": "pool/main/r/rust-picky-asn1-der/librust-picky-asn1-der-dev_0.5.6-1_amd64.deb",
+	"size": 22632,
+	"md5": "0dacf119bd39f193acb3bfedc3ed28f0",
+	"sha256": "4df3d94bb5570c88fefe9c1f753c9fa6552108b4758e4beab2788d8b800f25f2",
+	"descriptionMd5": "eec99e7e60da78838b470e4f1aa53a4b"
 }]
