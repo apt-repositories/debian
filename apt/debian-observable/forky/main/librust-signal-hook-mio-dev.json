@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-signal-hook-mio-dev",
-	"source": "rust-signal-hook-mio (0.2.5-1)",
-	"version": "0.2.5-1+b1",
+	"source": "rust-signal-hook-mio",
+	"version": "0.3.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,15 +15,18 @@
 		"librust-mio-1+default-dev",
 		"librust-mio-1+net-dev",
 		"librust-mio-1+os-ext-dev",
-		"librust-signal-hook-0.3+default-dev"
+		"librust-signal-hook-0.4+default-dev"
 	],
-	"installedSize": 71,
+	"breaks": [
+		"rustc (<< 1.66~)"
+	],
+	"installedSize": 73,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "MIO support for signal-hook - Rust source code",
 	"homepage": "https://github.com/vorner/signal-hook",
-	"filename": "pool/main/r/rust-signal-hook-mio/librust-signal-hook-mio-dev_0.2.5-1+b1_amd64.deb",
-	"size": 11944,
-	"md5": "ecc10889fde0595387ad601a3c126df3",
-	"sha256": "254fe8fc6bd4fd49110bc402573c783d3dd25c734aac6c63ab69300243d6d579",
+	"filename": "pool/main/r/rust-signal-hook-mio/librust-signal-hook-mio-dev_0.3.0-1_amd64.deb",
+	"size": 12408,
+	"md5": "b9fc32681d3f5fa3ba928e21afc4e535",
+	"sha256": "8dc77b09d41cf9693bf0db96680707a577c83c88fc0a313c7823ccac6e4d8882",
 	"descriptionMd5": "bd6a6e55ac65c373e41fb84d2e9dbdf2"
 }]

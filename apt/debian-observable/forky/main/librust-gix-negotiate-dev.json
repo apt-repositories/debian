@@ -6,29 +6,30 @@
 	],
 	"package": "librust-gix-negotiate-dev",
 	"source": "rust-gix-negotiate",
-	"version": "0.31.0-1",
+	"version": "0.34.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bitflags-2+default-dev",
-		"librust-gix-commitgraph-0.37+default-dev",
-		"librust-gix-commitgraph-0.37+sha1-dev",
-		"librust-gix-date-0.15+default-dev (>= 0.15.3)",
-		"librust-gix-hash-0.25+default-dev",
-		"librust-gix-hash-0.25+sha1-dev",
-		"librust-gix-object-0.60+default-dev",
-		"librust-gix-object-0.60+sha1-dev",
-		"librust-gix-revwalk-0.31+default-dev",
-		"librust-gix-revwalk-0.31+sha1-dev"
+		"librust-gix-commitgraph-0.38+default-dev",
+		"librust-gix-date-0.15+default-dev (>= 0.15.6)",
+		"librust-gix-hash-0.26+default-dev",
+		"librust-gix-hash-0.26+sha1-dev",
+		"librust-gix-hash-0.26+sha256-dev",
+		"librust-gix-object-0.63+default-dev",
+		"librust-gix-revwalk-0.34+default-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.85~)"
 	],
 	"installedSize": 53,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "The gitoxide project implementing negotiation algorithms - Rust source code",
+	"description": "Git negotiation algorithms - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-negotiate/librust-gix-negotiate-dev_0.31.0-1_amd64.deb",
-	"size": 12248,
-	"md5": "0751ae1c6bb58254351cb277f216614e",
-	"sha256": "4162d45ac12ffe6c7ec5776c03d23ef3fe2645d8ef42b1bd97ff2d460890c217",
-	"descriptionMd5": "e0287374076793f1017c1b73c72f264f"
+	"filename": "pool/main/r/rust-gix-negotiate/librust-gix-negotiate-dev_0.34.0-1_amd64.deb",
+	"size": 12364,
+	"md5": "6b9bd12cc6253eb2d69425c5a8a95f91",
+	"sha256": "c80e1f5102164101d01014809d4735e915b8bc53af4b26aa605e652720fed23d",
+	"descriptionMd5": "cd680068275b6c42009390ba2276f353"
 }]

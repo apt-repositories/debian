@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "meli",
-	"version": "0.8.13+dfsg-4",
+	"version": "0.8.13+dfsg-5",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,6 +18,7 @@
 		"libssl3t64 (>= 3.0.0)"
 	],
 	"recommends": [
+		"ca-certificates",
 		"default-dbus-session-bus | dbus-session-bus",
 		"libgpgme45",
 		"libnotmuch5",
@@ -29,14 +30,14 @@
 		"default-mta | mail-transport-agent",
 		"gnupg"
 	],
-	"installedSize": 20481,
+	"installedSize": 20287,
 	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
 	"description": "terminal mail client",
 	"homepage": "https://meli-email.org/",
-	"builtUsing": "rust-abnf-core (= 0.6.0-9), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fn-stream (= 0.3.2-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-net (= 2.0.0-5), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.6.2-1), rust-bounded-static (= 0.8.0-8), rust-event-listener (= 5.4.1-3), rust-imap-codec (= 2.0.0~alpha7+ds-2), rust-isahc (= 1.8.2+ds-1), rust-nix (= 0.30.1-3), rust-notify-rust (= 4.17.0+ds-1), rust-smol (= 2.0.2-6), rustc (= 1.95.0+dfsg1-2), unicode-data (= 17.0.0-2)",
-	"filename": "pool/main/m/meli/meli_0.8.13+dfsg-4_amd64.deb",
-	"size": 5387484,
-	"md5": "2c7e366eb51625051f5b7c08e532a444",
-	"sha256": "1b82747b189e38a3e72b724052a1a8e90dbc2b97a63cc95717501b8dc5129d62",
+	"builtUsing": "rust-abnf-core (= 0.6.0-9), rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fn-stream (= 0.3.2-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-net (= 2.0.0-5), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.7.0+ds-1), rust-bounded-static (= 0.8.0-8), rust-event-listener (= 5.4.2+ds-1), rust-imap-codec (= 2.0.0~alpha8+ds-2), rust-isahc (= 1.8.2+ds-3), rust-nix (= 0.30.1-3), rust-notify-rust (= 4.18.0+ds-2), rust-smol (= 2.0.2-6), rustc (= 1.95.0+dfsg1-2), unicode-data (= 17.0.0-2)",
+	"filename": "pool/main/m/meli/meli_0.8.13+dfsg-5_amd64.deb",
+	"size": 5368064,
+	"md5": "c01c7fab068897f4da925cb5f284bad7",
+	"sha256": "192b2549d7bcf0e64197930fb1fd469308b3615780ad5ac9c9dc4c2a7e6ebbf5",
 	"descriptionMd5": "784f0bee4f12fb71e85a4c96f8dd754e"
 }]

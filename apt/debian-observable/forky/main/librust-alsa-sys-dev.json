@@ -5,22 +5,26 @@
 		"Size"
 	],
 	"package": "librust-alsa-sys-dev",
-	"source": "rust-alsa-sys (0.3.1-2)",
-	"version": "0.3.1-2+b3",
+	"source": "rust-alsa-sys",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-libc-0.2+default-dev (>= 0.2.65-~~)",
-		"librust-pkg-config-0.3+default-dev",
+		"librust-bindgen-0.72+default-dev",
+		"librust-cc-1+default-dev (>= 1.2)",
+		"librust-libc-0.2+default-dev (>= 0.2.186)",
+		"librust-libc-0.2+extra-traits-dev (>= 0.2.186)",
+		"librust-pkg-config-0.3+default-dev (>= 0.3.32)",
 		"libasound2-dev"
 	],
-	"installedSize": 302,
+	"installedSize": 514,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "FFI bindings for the ALSA project (Advanced Linux Sound Architecture) - Rust source code",
-	"filename": "pool/main/r/rust-alsa-sys/librust-alsa-sys-dev_0.3.1-2+b3_amd64.deb",
-	"size": 31512,
-	"md5": "c8154e9132b374bca5eea0ea1dc2b530",
-	"sha256": "294b11742647bd50b5db1c1aec9ad8bd1727d847eb6b85407ee139a73b61146e",
-	"descriptionMd5": "dae2110d460ff7c180fbdbdd0ee3a78b"
+	"description": "FFI bindings for ALSA - Rust source code",
+	"homepage": "https://github.com/diwic/alsa-sys",
+	"filename": "pool/main/r/rust-alsa-sys/librust-alsa-sys-dev_0.6.1-1_amd64.deb",
+	"size": 34492,
+	"md5": "cf01e68a36df7f7eac190cfe67198d16",
+	"sha256": "afca01b1dc3f8264d13fea312de6ebc0878b6402cfaa4d960b44db99eb10b5ae",
+	"descriptionMd5": "19482de9c0fcadb8aa6aaff6493e0316"
 }]

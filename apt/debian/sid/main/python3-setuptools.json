@@ -6,32 +6,36 @@
 	],
 	"package": "python3-setuptools",
 	"source": "setuptools",
-	"version": "80.9.0-2",
+	"version": "84.0.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-pkg-resources (= 80.9.0-2)",
-		"python3-jaraco.text",
+		"python3-autocommand",
+		"python3-jaraco.context",
+		"python3-jaraco.functools",
 		"python3-more-itertools",
-		"python3-typeguard",
-		"python3-typing-extensions",
+		"python3-packaging",
 		"python3-zipp",
 		"python3:any"
 	],
 	"suggests": [
 		"python-setuptools-doc"
 	],
+	"replaces": [
+		"python3-pkg-resources (<< 82)"
+	],
 	"breaks": [
+		"python3-pkg-resources (<< 82)",
 		"python3-wheel (<< 0.46.0)"
 	],
-	"installedSize": 3680,
+	"installedSize": 2838,
 	"maintainer": "Matthias Klose <doko@debian.org>",
 	"description": "Python3 Distutils Enhancements",
 	"homepage": "https://pypi.python.org/pypi/setuptools",
-	"filename": "pool/main/s/setuptools/python3-setuptools_80.9.0-2_all.deb",
-	"size": 697912,
-	"md5": "67f2d567c30bc8cbbb89d3f5c08bc6c8",
-	"sha256": "ced4f64a940e0ed0f6e53c3141c32a5f42a74e8b6195634dc9adf2ef0602a7dc",
+	"filename": "pool/main/s/setuptools/python3-setuptools_84.0.0-2_all.deb",
+	"size": 560264,
+	"md5": "bb280497e9e671770560400e263720cc",
+	"sha256": "fcc6f4e9d68396c19d93fb39d27b2f779a18055049e6feeafb9fec3927d6b81e",
 	"descriptionMd5": "1ec9057b4c43c99ba7a78729ff0f8f1c"
 }

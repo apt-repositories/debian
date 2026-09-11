@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-pipewire-sys-dev",
-	"source": "rust-pipewire-sys (0.9.2-1)",
-	"version": "0.9.2-1+b1",
+	"source": "rust-pipewire-sys",
+	"version": "0.10.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bindgen-0+runtime-dev (>= 0.72.0-~~)",
-		"librust-libspa-sys-0.9+default-dev",
-		"librust-system-deps-7+default-dev (>= 7.0.5-~~)"
+		"librust-bindgen-0+runtime-dev (>= 0.72.0)",
+		"librust-libspa-sys-0.10+default-dev",
+		"librust-system-deps-7+default-dev (>= 7.0.5)"
 	],
-	"installedSize": 30,
+	"breaks": [
+		"rustc (<< 1.80~)"
+	],
+	"installedSize": 29,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust FFI bindings for PipeWire - Rust source code",
 	"homepage": "https://pipewire.org",
-	"filename": "pool/main/r/rust-pipewire-sys/librust-pipewire-sys-dev_0.9.2-1+b1_amd64.deb",
-	"size": 6324,
-	"md5": "ede4215dc910f317cf57763838a7db98",
-	"sha256": "4edeb605c3fded2ddd95f5665c06048838c90fb80bb630449527ffeacb20e99a",
+	"filename": "pool/main/r/rust-pipewire-sys/librust-pipewire-sys-dev_0.10.1-1_amd64.deb",
+	"size": 6160,
+	"md5": "cb361b86091c85bc8a3c4fc8a91e2f66",
+	"sha256": "53e9335ea06e4527b202ae4121e7f509ddcdafcabe01d5632441b6df17b986b4",
 	"descriptionMd5": "5b6c3c0ee3e7f838659791c70c853797"
 }]

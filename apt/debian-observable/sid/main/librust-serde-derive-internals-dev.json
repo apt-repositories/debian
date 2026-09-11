@@ -6,7 +6,7 @@
 	],
 	"package": "librust-serde-derive-internals-dev",
 	"source": "rust-serde-derive-internals",
-	"version": "0.30.0-2",
+	"version": "0.30.0-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,15 +19,17 @@
 		"librust-syn-3+printing-dev"
 	],
 	"breaks": [
+		"librust-schemars-derive-0.8-dev (<< 0.8.22-4)",
+		"librust-schemars-derive-dev (<< 1.2.2-2)",
 		"rustc (<< 1.71~)"
 	],
 	"installedSize": 150,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "AST representation used by Serde derive macros - Rust source code",
 	"homepage": "https://serde.rs",
-	"filename": "pool/main/r/rust-serde-derive-internals/librust-serde-derive-internals-dev_0.30.0-2_amd64.deb",
-	"size": 26304,
-	"md5": "41d59220083738385bc924a8ed06b65a",
-	"sha256": "cdb0e33d3e35f7f1de831a681af7baddd8a32257eb1addc7632b8e884068f3d2",
+	"filename": "pool/main/r/rust-serde-derive-internals/librust-serde-derive-internals-dev_0.30.0-4_amd64.deb",
+	"size": 26500,
+	"md5": "ecb71e7f44c1232ecf3e5107e88f2b80",
+	"sha256": "7e473dbf562e3127810bc493c6a6f864bf431b5d9d93ba2105a7fd97bb7c55e7",
 	"descriptionMd5": "d1ba45bdacc6b6154226da411d271ae2"
 }]

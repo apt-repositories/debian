@@ -6,23 +6,27 @@
 	],
 	"package": "librust-symphonia-metadata-dev",
 	"source": "rust-symphonia-metadata",
-	"version": "0.5.5-1",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-encoding-rs-0.8+default-dev (>= 0.8.17-~~)",
-		"librust-lazy-static-1+default-dev (>= 1.4.0-~~)",
+		"librust-lazy-static-1+default-dev (>= 1.4.0)",
 		"librust-log-0.4+default-dev",
-		"librust-symphonia-core-0.5+default-dev (>= 0.5.5-~~)"
+		"librust-regex-lite-0.1+default-dev (>= 0.1.6)",
+		"librust-smallvec-1+default-dev (>= 1.13.1)",
+		"librust-symphonia-core-0.6+default-dev (>= 0.6.1)"
 	],
-	"installedSize": 115,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 277,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Project Symphonia multimedia tag and metadata readers - Rust source code",
 	"homepage": "https://github.com/pdeljanov/Symphonia",
-	"filename": "pool/main/r/rust-symphonia-metadata/librust-symphonia-metadata-dev_0.5.5-1_amd64.deb",
-	"size": 22688,
-	"md5": "e9c15dd80d644c32e2527fce8c2c9dd3",
-	"sha256": "1d3b1df72b1970a89dbb2098c5859ac18bb29f138e597303abbfa18f70266d8e",
+	"filename": "pool/main/r/rust-symphonia-metadata/librust-symphonia-metadata-dev_0.6.1-1_amd64.deb",
+	"size": 51036,
+	"md5": "b867e44b634ae29bb7a772af03c03723",
+	"sha256": "1642416ee7ad2e0e2f1249ca098a1ae487a7ff9cc62e1b2a572359235b9911c2",
 	"descriptionMd5": "09cd9426a18d8c3d929383a78371469a"
 }

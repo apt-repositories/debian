@@ -5,18 +5,20 @@
 		"Size"
 	],
 	"package": "asammdf",
-	"version": "8.5.2-3",
+	"version": "8.8.27-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"python3-natsort",
+		"python3-packaging",
 		"python3-pyqtlet2",
 		"python3-pyqtgraph",
 		"python3-pyside6.qtwebenginewidgets",
 		"python3-qtpy-pyqt6",
 		"python3",
 		"python3-canmatrix",
+		"python3-chardet",
 		"python3-dateutil",
 		"python3-lxml",
 		"python3-lz4",
@@ -25,20 +27,23 @@
 		"python3-numpy2-abi0 | python3-numpy-abi9",
 		"python3-pandas",
 		"python3-typing-extensions",
+		"python3-zstd",
 		"python3:any",
 		"libc6 (>= 2.34)",
-		"libdeflate0 (>= 1.0)"
+		"libdeflate0 (>= 1.0)",
+		"liblz4-1 (>= 0.0~r127)",
+		"libzstd1 (>= 1.5.5)"
 	],
 	"recommends": [
 		"python3-isal"
 	],
-	"installedSize": 4702,
+	"installedSize": 4831,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "GUI application used to analyse engine CAN logs",
 	"homepage": "https://github.com/danielhrisca/asammdf",
-	"filename": "pool/main/a/asammdf/asammdf_8.5.2-3_amd64.deb",
-	"size": 840548,
-	"md5": "56f41a220e9d23d9cfe4266088cce38c",
-	"sha256": "84e10445c127b37749d30fc4f69a9509dee10fff66ecd69d3629d303ce4faf44",
+	"filename": "pool/main/a/asammdf/asammdf_8.8.27-1_amd64.deb",
+	"size": 860172,
+	"md5": "ed0db30f0be85d21ac844fc76fbc1737",
+	"sha256": "c81ea7d11d7a1f3f7fd5fee241c717ac1e92acce995107fff000ceb0fad855ae",
 	"descriptionMd5": "4f285c3fadc58271ea0bed3de2d96391"
 }]

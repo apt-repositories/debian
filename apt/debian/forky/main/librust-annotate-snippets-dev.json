@@ -5,23 +5,28 @@
 		"Size"
 	],
 	"package": "librust-annotate-snippets-dev",
-	"source": "rust-annotate-snippets (0.11.5-1)",
-	"version": "0.11.5-1+b1",
+	"source": "rust-annotate-snippets",
+	"version": "0.12.16-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-anstyle-1+default-dev (>= 1.0.4-~~)",
-		"librust-memchr-2+default-dev (>= 2.7.4-~~)",
-		"librust-unicode-width-0.2+default-dev"
+		"librust-anstyle-1+std-dev (>= 1.0.13)",
+		"librust-anstyle-1-dev (>= 1.0.13)",
+		"librust-memchr-2+std-dev (>= 2.8.0)",
+		"librust-memchr-2-dev (>= 2.8.0)",
+		"librust-unicode-width-0.2+default-dev (>= 0.2.2)"
 	],
-	"installedSize": 158,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 297,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Building code annotations - Rust source code",
+	"description": "Format diagnostic reports, including highlighting snippets of text - Rust source code",
 	"homepage": "https://github.com/rust-lang/annotate-snippets-rs",
-	"filename": "pool/main/r/rust-annotate-snippets/librust-annotate-snippets-dev_0.11.5-1+b1_amd64.deb",
-	"size": 28296,
-	"md5": "4d591f43ffb69d55770a44ffa7c897f0",
-	"sha256": "c4186e746bb263380d1efebf671b88331e69faf3abe8154ec881c5d7ac210b53",
-	"descriptionMd5": "719920d271d0977acee4fe45ebe2890c"
+	"filename": "pool/main/r/rust-annotate-snippets/librust-annotate-snippets-dev_0.12.16-1_amd64.deb",
+	"size": 48812,
+	"md5": "ab3a5ca0824d0fd08e9db7f776772c34",
+	"sha256": "678fbece676fb47c969dce1d5371f36047a50f08986cb3c6153cfa5b5a5a4877",
+	"descriptionMd5": "84a0a2c15182e03f9d9498f637ce6f1b"
 }
