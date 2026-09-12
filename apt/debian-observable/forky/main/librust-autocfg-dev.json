@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-autocfg-dev",
-	"source": "rust-autocfg (1.5.0-1)",
-	"version": "1.5.0-1+b1",
+	"source": "rust-autocfg",
+	"version": "1.5.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 90,
+	"breaks": [
+		"rustc (<< 1.0~)"
+	],
+	"installedSize": 89,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Automatic cfg for Rust compiler features - Rust source code",
 	"homepage": "https://github.com/cuviper/autocfg",
-	"filename": "pool/main/r/rust-autocfg/librust-autocfg-dev_1.5.0-1+b1_amd64.deb",
-	"size": 20300,
-	"md5": "ab205768e4d0afa35769c47393b5a462",
-	"sha256": "265e588c9b419b2009d4d98a0f4b5983e256a683ab71275d80a76b9924115255",
+	"filename": "pool/main/r/rust-autocfg/librust-autocfg-dev_1.5.1-1_amd64.deb",
+	"size": 20136,
+	"md5": "0171bf05815d6c756ee6f65c3bd4a4d4",
+	"sha256": "a3c9f0123b7b7ae61ef872df016f34d38d107bc3bde7f76471f0fece6eb0e98f",
 	"descriptionMd5": "5eef7101ef095e726c3bcb2c291cd3d3"
 }]

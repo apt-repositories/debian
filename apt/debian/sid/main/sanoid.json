@@ -5,26 +5,26 @@
 		"Size"
 	],
 	"package": "sanoid",
-	"version": "2.3.0-1",
+	"version": "2.3.0-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"perl:any",
-		"pv",
+		"libcapture-tiny-perl",
+		"libconfig-inifiles-perl",
 		"lzop",
 		"mbuffer",
-		"zfs-fuse | zfsutils-linux | zfsutils",
-		"libconfig-inifiles-perl",
-		"libcapture-tiny-perl"
+		"pv",
+		"zfsutils-linux | zfsutils | zfs-fuse",
+		"perl:any"
 	],
-	"installedSize": 213,
-	"maintainer": "Michael Jeanson <mjeanson@debian.org>",
+	"installedSize": 214,
+	"maintainer": "Luke Yasuda <jing@jing.rocks>",
 	"description": "Policy-driven ZFS snapshot management and replication tool",
 	"homepage": "https://github.com/jimsalterjrs/sanoid",
-	"filename": "pool/main/s/sanoid/sanoid_2.3.0-1_all.deb",
-	"size": 56368,
-	"md5": "b5d2f1d9237f9f5ec34356ed90575ec3",
-	"sha256": "f9920b6fb0162f1cd72362c53597e2afe9ffe0d7d6acb0eb17530d882837eba4",
+	"filename": "pool/main/s/sanoid/sanoid_2.3.0-2_all.deb",
+	"size": 56396,
+	"md5": "54d268d64f8ecb820e3f3cac06721c82",
+	"sha256": "1da7844ce0db44fddaae215e86bbb2b0d38d5964bed6e4d903e358c00bbf136c",
 	"descriptionMd5": "0b2161ad74b063366a7af13ddea0d9b0"
 }
