@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++abi-22-dev",
+	"source": "llvm-toolchain-22",
+	"version": "1:22.1.8-1~deb13u4",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++abi1-19"
+	],
+	"replaces": [
+		"libc++abi-x.y-dev",
+		"libc++abi1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"breaks": [
+		"libc++abi-dev (<= 44)",
+		"libc++abi1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"conflicts": [
+		"libc++abi-x.y-dev"
+	],
+	"installedSize": 740,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM low level support for a standard C++ library (development files)",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-22/libc++abi-22-dev_22.1.8-1~deb13u4_amd64.deb",
+	"size": 141300,
+	"md5": "3567aa194b28d8236d109deee4029f7c",
+	"sha256": "662bdbca021932eac84bda85c8cbfe34de4c32f8f66b87a58a445473f913ec03",
+	"descriptionMd5": "cfed1e32b74a68758680e06ca83ac94b"
+}]

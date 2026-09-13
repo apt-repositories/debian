@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clang-tools-22",
+	"source": "llvm-toolchain-22",
+	"version": "1:22.1.8-1~deb13u4",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libclang-cpp22 (>= 1:22.1.8)",
+		"libclang1-22 (>= 1:21.1.4)",
+		"libgcc-s1 (>= 3.3)",
+		"libllvm22",
+		"libstdc++6 (>= 11)",
+		"libxml2 (>= 2.7.4)",
+		"libz3-4 (>= 4.13.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)",
+		"clang-22 (= 1:22.1.8-1~deb13u4)",
+		"python3:any"
+	],
+	"replaces": [
+		"clang-22 (<< 1:22~++20251124083138+173600880b8f-1~exp1)"
+	],
+	"breaks": [
+		"clang-22 (<< 1:22~++20251124083138+173600880b8f-1~exp1)"
+	],
+	"installedSize": 40546,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "clang-based tools for C/C++ developments",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-22/clang-tools-22_22.1.8-1~deb13u4_amd64.deb",
+	"size": 9333592,
+	"md5": "39e05dc859a05ec5c0468a0e42d2fe50",
+	"sha256": "483aa0d44aa2d29e0ef6c9acffb8283c3abb0f008fae2cc99bde8936ad5bfc01",
+	"descriptionMd5": "0ac52908e51dad320be3476963296f5f"
+}]

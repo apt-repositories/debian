@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libomp-22-dev",
+	"source": "llvm-toolchain-22",
+	"version": "1:22.1.8-1~deb13u4",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libomp5-19",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"suggests": [
+		"libomp-22-doc"
+	],
+	"replaces": [
+		"libomp-x.y-dev",
+		"libomp5 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"breaks": [
+		"libomp-dev (<< 3.7-1)",
+		"libomp5 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"conflicts": [
+		"libomp-x.y-dev"
+	],
+	"installedSize": 591,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM OpenMP runtime - dev package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-22/libomp-22-dev_22.1.8-1~deb13u4_amd64.deb",
+	"size": 141360,
+	"md5": "968edb489dead961251f42ff30e706ec",
+	"sha256": "fb5b9de47730071469bd949f196b2b6844978de9b87f939d5739bf43d8b74074",
+	"descriptionMd5": "67d05238f867e45ef5e24131fc70b940"
+}
