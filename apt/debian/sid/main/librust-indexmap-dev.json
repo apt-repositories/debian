@@ -6,7 +6,7 @@
 	],
 	"package": "librust-indexmap-dev",
 	"source": "rust-indexmap",
-	"version": "2.14.0-1",
+	"version": "2.14.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"librust-serde-core-1-dev (>= 1.0.220)",
 		"librust-sval-2-dev"
 	],
-	"installedSize": 562,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 567,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Hash table with consistent order and fast iteration - Rust source code",
 	"homepage": "https://github.com/indexmap-rs/indexmap",
-	"filename": "pool/main/r/rust-indexmap/librust-indexmap-dev_2.14.0-1_amd64.deb",
-	"size": 77960,
-	"md5": "7031dca60d92dab8bb538cbdca75d512",
-	"sha256": "d9b2f5d7d94d9bd740918fe2433a40c5b8addece3261b2dcb2e4f44d1130398c",
+	"filename": "pool/main/r/rust-indexmap/librust-indexmap-dev_2.14.2-1_amd64.deb",
+	"size": 78780,
+	"md5": "4173f477280fdf6381e96fc81db890d2",
+	"sha256": "bff83ce2be7fdcc0847a7e3a83637aa72f023b9d2ba36d80ee445d94838f07d1",
 	"descriptionMd5": "b51e625fe9c71dbf664c3fbc89bf1924"
 }

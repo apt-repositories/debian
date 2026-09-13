@@ -1,0 +1,36 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++-22-dev",
+	"source": "llvm-toolchain-22",
+	"version": "1:22.1.8-1~deb13u4",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++1-19",
+		"libc++abi-22-dev (= 1:22.1.8-1~deb13u4)"
+	],
+	"replaces": [
+		"libc++-x.y-dev",
+		"libc++1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"breaks": [
+		"libc++1 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp4)"
+	],
+	"conflicts": [
+		"libc++-x.y-dev"
+	],
+	"installedSize": 17234,
+	"maintainer": "LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>",
+	"description": "LLVM C++ Standard library (development files)",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/main/l/llvm-toolchain-22/libc++-22-dev_22.1.8-1~deb13u4_amd64.deb",
+	"size": 1541908,
+	"md5": "7d33cb5e06264b94f85e14b6bb9b3a31",
+	"sha256": "0e362b7230dc0922b7c9ce53e2e684ef7adb1442e25cee5cc89c731b4cd5e343",
+	"descriptionMd5": "3d949e623a59b5e265cbdc7c28d199d8"
+}]

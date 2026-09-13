@@ -5,8 +5,7 @@
 		"Size"
 	],
 	"package": "chkrootkit",
-	"source": "chkrootkit (0.59-1)",
-	"version": "0.59-1+b1",
+	"version": "0.59-2",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,6 +21,7 @@
 		"systemd-sysv | cron | anacron | cron-daemon"
 	],
 	"enhances": [
+		"account-utils-passwd",
 		"bcron",
 		"biff",
 		"bind9",
@@ -57,7 +57,9 @@
 		"openbsd-inetd",
 		"opensmtpd",
 		"openssh-client",
+		"openssh-client-gssapi",
 		"openssh-server",
+		"openssh-server-gssapi",
 		"passwd",
 		"postfix",
 		"procps",
@@ -79,14 +81,14 @@
 		"util-linux",
 		"wtmpdb"
 	],
-	"installedSize": 988,
+	"installedSize": 987,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "rootkit detector",
 	"homepage": "https://www.chkrootkit.org/",
-	"builtUsing": "glibc (= 2.43-3)",
-	"filename": "pool/main/c/chkrootkit/chkrootkit_0.59-1+b1_amd64.deb",
-	"size": 327744,
-	"md5": "98340208522c2e6fc1627f155693122a",
-	"sha256": "e17a18c47929986b7641b306bf138a7195c8baaa3febdbd2f162ddf3148f6caf",
+	"builtUsing": "glibc (= 2.43-5)",
+	"filename": "pool/main/c/chkrootkit/chkrootkit_0.59-2_amd64.deb",
+	"size": 327564,
+	"md5": "61b75b71efd93f128078fcf3c8424235",
+	"sha256": "8bb09488b8d6f58261936a9e0045a0dd3a099ccf5205b265b17fecefef0bc0f2",
 	"descriptionMd5": "f02a67f0ef476e80255f1f6b3491753f"
 }
