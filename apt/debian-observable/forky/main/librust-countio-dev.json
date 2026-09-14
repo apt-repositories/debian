@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-countio-dev",
-	"source": "rust-countio (0.3.0-1)",
-	"version": "0.3.0-1+b1",
+	"source": "rust-countio",
+	"version": "0.3.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-futures-io-0.3+std-dev",
 		"librust-tokio-1-dev"
 	],
-	"installedSize": 111,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 117,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Byte counting for std::io::{Read, Write, Seek} and its async variants from futures and tokio - Rust source code",
 	"homepage": "https://github.com/spire-rs/countio",
-	"filename": "pool/main/r/rust-countio/librust-countio-dev_0.3.0-1+b1_amd64.deb",
-	"size": 17088,
-	"md5": "1fe1468e03e3a4264fcc43e317cda9a8",
-	"sha256": "8df991e666581f7ae6b4e06167d476649ac02080650a09888da07fe3cdb34280",
+	"filename": "pool/main/r/rust-countio/librust-countio-dev_0.3.0-2_amd64.deb",
+	"size": 17444,
+	"md5": "e4b8a90af317c8c855cbfe2ebcd99063",
+	"sha256": "7a31e732394533ff4dea9533ca9ba14ce1e99f8aa04d54ea26ac28aba13d64ac",
 	"descriptionMd5": "6e17fdbdca05f23d89ade022841c88cb"
 }]
