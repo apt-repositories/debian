@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "redmine-mariadb",
+	"source": "redmine",
+	"version": "6.1.3+ds2-1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-mariadb | dbconfig-no-thanks",
+		"default-mysql-client | virtual-mysql-client",
+		"ruby-mysql2 (>= 0.5.0)",
+		"ruby-mysql2 (<< 0.6)",
+		"ruby-with-advisory-lock"
+	],
+	"recommends": [
+		"redmine (= 6.1.3+ds2-1)"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"replaces": [
+		"redmine-mysql"
+	],
+	"installedSize": 151,
+	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "metapackage providing MariaDB dependencies for Redmine",
+	"homepage": "https://www.redmine.org",
+	"filename": "pool/main/r/redmine/redmine-mariadb_6.1.3+ds2-1_all.deb",
+	"size": 142360,
+	"md5": "6c2fff39e0cdff804542fa2be236fba1",
+	"sha256": "b25cfe2576fb9bfc012b674a7407101490577d3998d0afffa05a4c3bb4faafb7",
+	"descriptionMd5": "83dcbd59bd8348e62e6a52f3a67b3a3e"
+}

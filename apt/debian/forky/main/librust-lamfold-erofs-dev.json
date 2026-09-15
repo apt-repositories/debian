@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-lamfold-erofs-dev",
+	"source": "rust-lamfold-erofs",
+	"version": "0.1.1-1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-lamfold-0.1+codec-deflate-dev (>= 0.1.1)",
+		"librust-lamfold-0.1+codec-lz4-dev (>= 0.1.1)",
+		"librust-lamfold-0.1+codec-xz-dev (>= 0.1.1)",
+		"librust-lamfold-0.1+codec-zstd-dev (>= 0.1.1)",
+		"librust-lamfold-0.1+std-dev (>= 0.1.1)",
+		"librust-lamfold-0.1+verify-dev (>= 0.1.1)",
+		"librust-lamfold-0.1-dev (>= 0.1.1)"
+	],
+	"breaks": [
+		"rustc (<< 1.87~)"
+	],
+	"installedSize": 65,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "no_std read-only EROFS frontend for the lamfold media-filesystem stack",
+	"homepage": "https://lamco.ai/products/lamboot/",
+	"filename": "pool/main/r/rust-lamfold-erofs/librust-lamfold-erofs-dev_0.1.1-1_amd64.deb",
+	"size": 16656,
+	"md5": "2b8e3f42e5ea10e6498db9663690fb2e",
+	"sha256": "d152e1657cfbcc93f5ef99b423739607994de7dc8f0a56fb8adb371d010f6205",
+	"descriptionMd5": "7723b74b107856678f700fc67c4b76b1"
+}
