@@ -5,13 +5,16 @@
 		"Size"
 	],
 	"package": "pd-bassemu",
-	"version": "0.3-12",
+	"version": "0.3-13",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"puredata | pd | puredata64 | pd64",
-		"libc6 (>= 2.29)"
+		"libc6 (>= 2.29)",
+		"puredata-core | pd | puredata64-core | pd64"
+	],
+	"recommends": [
+		"puredata | puredata64"
 	],
 	"suggests": [
 		"pd-libdir",
@@ -21,9 +24,9 @@
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Pd object for transistor bass emulation",
 	"homepage": "https://puredata.info",
-	"filename": "pool/main/p/pd-bassemu/pd-bassemu_0.3-12_amd64.deb",
-	"size": 13372,
-	"md5": "e126f72674b485e7cb4bb31c9e3eea34",
-	"sha256": "38b2ef6f0387eecbe1f26378715cfcb39c85dd90c31e3296a3911250e783e775",
+	"filename": "pool/main/p/pd-bassemu/pd-bassemu_0.3-13_amd64.deb",
+	"size": 13112,
+	"md5": "4f0f2e9f9340a7077bd215b53cfca23a",
+	"sha256": "41a155e86ab1527f5188bf8d3fa77affc9a065945eb1790503b28950d283334e",
 	"descriptionMd5": "69ff3fdcf948f91b9f1d0fbff7d5b48b"
 }

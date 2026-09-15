@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libmikmod3",
-	"source": "libmikmod (3.3.13-1)",
-	"version": "3.3.13-1+b2",
+	"source": "libmikmod",
+	"version": "3.3.14-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,17 @@
 		"libopenal1 (>= 1.14)",
 		"libsdl2-2.0-0 (>= 2.0.12)"
 	],
-	"installedSize": 332,
+	"recommends": [
+		"libasound2t64",
+		"libpulse0"
+	],
+	"installedSize": 339,
 	"maintainer": "Stephen Kitt <skitt@debian.org>",
 	"description": "Portable sound library",
 	"homepage": "http://mikmod.sf.net/",
-	"filename": "pool/main/libm/libmikmod/libmikmod3_3.3.13-1+b2_amd64.deb",
-	"size": 137232,
-	"md5": "9a11da48717b85324723157732b03e9b",
-	"sha256": "3663e0f0046a632ac62ebd9914c50144789de0b4178b37cc08ab22d8b5c82bbf",
+	"filename": "pool/main/libm/libmikmod/libmikmod3_3.3.14-1_amd64.deb",
+	"size": 142064,
+	"md5": "1fe59eb67abacbccce4aaf563e5dbbe9",
+	"sha256": "39a7954afbfb4502163bf7ebf0925e96655dd81255be2855d25faf85326671de",
 	"descriptionMd5": "09d5d4293a767b876db757a8e2def065"
 }]

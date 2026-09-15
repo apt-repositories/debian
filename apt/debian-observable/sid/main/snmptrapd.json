@@ -5,28 +5,29 @@
 		"Size"
 	],
 	"package": "snmptrapd",
-	"source": "net-snmp (5.9.5.2+dfsg-2.1)",
-	"version": "5.9.5.2+dfsg-2.1+b2",
+	"source": "net-snmp",
+	"version": "5.9.5.2+dfsg-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
 		"libnetsnmptrapd45 (>= 5.9.5.2+dfsg)",
-		"libsnmp45 (= 5.9.5.2+dfsg-2.1+b2)",
+		"libsnmp45 (= 5.9.5.2+dfsg-3)",
 		"libwrap0 (>= 7.6-4~)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"snmpd"
 	],
 	"recommends": [
 		"perl"
 	],
-	"installedSize": 91,
+	"installedSize": 93,
 	"maintainer": "Craig Small <csmall@debian.org>",
 	"description": "Net-SNMP notification receiver",
 	"homepage": "https://net-snmp.sourceforge.net/",
-	"filename": "pool/main/n/net-snmp/snmptrapd_5.9.5.2+dfsg-2.1+b2_amd64.deb",
-	"size": 24700,
-	"md5": "6f8f320819cdd30f8114835ebb6dd89b",
-	"sha256": "14d00e66db1b4163db26fa604c4735f56ff6f3cce91e3c776c0304797665eb86",
+	"filename": "pool/main/n/net-snmp/snmptrapd_5.9.5.2+dfsg-3_amd64.deb",
+	"size": 24832,
+	"md5": "d52e894a38529d025eb9d6ba79bbddc5",
+	"sha256": "feb1f24c3c491e7c7c4c653c97c6330c97b5c4b4f41e335762e441b14933285b",
 	"descriptionMd5": "5813c4c7d76971aa4ce271dad1bfb061"
 }]

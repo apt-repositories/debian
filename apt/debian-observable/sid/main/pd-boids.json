@@ -5,26 +5,30 @@
 		"Size"
 	],
 	"package": "pd-boids",
-	"version": "1.1.1-10",
+	"version": "1.1.1-11",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"puredata | pd | puredata64 | pd64",
-		"libc6 (>= 2.4)"
+		"libc6 (>= 2.4)",
+		"puredata-core | pd | puredata64-core | pd64"
 	],
 	"recommends": [
 		"gem",
-		"pd-import",
-		"pd-libdir"
+		"pd-zexy",
+		"puredata | puredata64"
+	],
+	"suggests": [
+		"pd-libdir",
+		"pd64-libdir"
 	],
 	"installedSize": 187,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Pd library for the \"boids\" flocking simulator algorithm",
 	"homepage": "https://puredata.info",
-	"filename": "pool/main/p/pd-boids/pd-boids_1.1.1-10_amd64.deb",
-	"size": 20964,
-	"md5": "9941ce18011a375b12cd2dd185a8865f",
-	"sha256": "a28ebbf8aea1baf459d9b7bcde30e2cbdb534ccf55b30270884737d2b3be6a6c",
+	"filename": "pool/main/p/pd-boids/pd-boids_1.1.1-11_amd64.deb",
+	"size": 21272,
+	"md5": "13947a7679a19bb0d9bca83efe7c8c8f",
+	"sha256": "5c1fae7e8033292009f99e9d3f9c4aca3ca080c8f1b2946f17cdea92f15ccc95",
 	"descriptionMd5": "3f8fca8675ce77f1612b06878fc90d2f"
 }]
