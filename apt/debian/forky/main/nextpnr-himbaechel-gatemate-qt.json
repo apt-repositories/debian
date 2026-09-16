@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "nextpnr-himbaechel-gatemate-qt",
-	"source": "nextpnr (0.10-5)",
-	"version": "0.10-5+b1",
+	"source": "nextpnr",
+	"version": "0.11.1+dfsg-4",
 	"section": "electronics",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,7 +14,7 @@
 		"libboost-iostreams1.90.0 (>= 1.90.0)",
 		"libboost-program-options1.90.0 (>= 1.90.0)",
 		"libboost-thread1.90.0 (>= 1.90.0)",
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.43)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libpython3.14 (>= 3.14.1)",
 		"libqt6core6t64 (>= 6.10.2)",
@@ -23,7 +23,10 @@
 		"libqt6openglwidgets6 (>= 6.1.2)",
 		"libqt6widgets6 (>= 6.1.2)",
 		"libstdc++6 (>= 14)",
-		"nextpnr-himbaechel-gatemate-chipdb (= 0.10-5+b1)"
+		"nextpnr-himbaechel-gatemate-chipdb (= 0.11.1+dfsg-4)"
+	],
+	"recommends": [
+		"fpga-peppercorn"
 	],
 	"suggests": [
 		"yosys"
@@ -34,13 +37,13 @@
 	"conflicts": [
 		"nextpnr-himbaechel-gatemate"
 	],
-	"installedSize": 5970,
+	"installedSize": 6228,
 	"maintainer": "Debian Electronics Team <pkg-electronics-devel@lists.alioth.debian.org>",
 	"description": "FPGA place and route tool for Cologne Chip GateMate - with GUI",
 	"homepage": "https://github.com/YosysHQ/nextpnr",
-	"filename": "pool/main/n/nextpnr/nextpnr-himbaechel-gatemate-qt_0.10-5+b1_amd64.deb",
-	"size": 1784376,
-	"md5": "05a5eca781b0e8fa13578dfe600ca0b0",
-	"sha256": "5e2c431bcdc5989d00999adc1ab9196b1c0793414d7559e99e37ad3f0968dacb",
+	"filename": "pool/main/n/nextpnr/nextpnr-himbaechel-gatemate-qt_0.11.1+dfsg-4_amd64.deb",
+	"size": 1868368,
+	"md5": "804c621ccb8ca7b2f8e2ba23c528a7c5",
+	"sha256": "10245f4d8adfbc93cc7fbcd06bff867b26168d2d2729c6a6951105289bac5360",
 	"descriptionMd5": "7b1219ce9d7a58af48ad8acea0b4b242"
 }

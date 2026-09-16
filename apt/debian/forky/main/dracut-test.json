@@ -6,12 +6,13 @@
 	],
 	"package": "dracut-test",
 	"source": "dracut",
-	"version": "112-2",
+	"version": "112-6",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dracut-core",
+		"busybox",
+		"dracut-core (= 112-6)",
 		"ipxe-qemu",
 		"linux-image-generic",
 		"mount",
@@ -26,13 +27,13 @@
 	"breaks": [
 		"dracut-core (<< 105)"
 	],
-	"installedSize": 69,
+	"installedSize": 70,
 	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
 	"description": "dracut is an event driven initramfs infrastructure (test modules)",
 	"homepage": "https://dracut-ng.github.io/",
-	"filename": "pool/main/d/dracut/dracut-test_112-2_amd64.deb",
-	"size": 21732,
-	"md5": "487d9301725920e2d01552626d5e1398",
-	"sha256": "aced68bc9ecb56f0279fcae8614ea38ced96e913f336df955dec14a4197b1480",
+	"filename": "pool/main/d/dracut/dracut-test_112-6_amd64.deb",
+	"size": 22792,
+	"md5": "ef9233566becf1fdabf86a27460a172a",
+	"sha256": "b93454c25fad5942d52b68f25b422f15b18f85d41d29e4622f03a9a31418b9bd",
 	"descriptionMd5": "84601c141e733c787d0063f83168b1df"
 }
