@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "nextpnr-ice40-qt",
-	"source": "nextpnr (0.10-5)",
-	"version": "0.10-5+b1",
+	"source": "nextpnr",
+	"version": "0.11.1+dfsg-4",
 	"section": "electronics",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,7 +14,7 @@
 		"libboost-iostreams1.90.0 (>= 1.90.0)",
 		"libboost-program-options1.90.0 (>= 1.90.0)",
 		"libboost-thread1.90.0 (>= 1.90.0)",
-		"libc6 (>= 2.38)",
+		"libc6 (>= 2.43)",
 		"libgcc-s1 (>= 3.3.1)",
 		"libpython3.14 (>= 3.14.1)",
 		"libqt6core6t64 (>= 6.10.2)",
@@ -23,11 +23,13 @@
 		"libqt6openglwidgets6 (>= 6.1.2)",
 		"libqt6widgets6 (>= 6.1.2)",
 		"libstdc++6 (>= 14)",
-		"nextpnr-ice40-chipdb (= 0.10-5+b1)"
+		"nextpnr-ice40-chipdb (= 0.11.1+dfsg-4)"
+	],
+	"recommends": [
+		"fpga-icestorm"
 	],
 	"suggests": [
-		"yosys",
-		"fpga-icestorm"
+		"yosys"
 	],
 	"replaces": [
 		"nextpnr-ice40"
@@ -35,13 +37,13 @@
 	"conflicts": [
 		"nextpnr-ice40"
 	],
-	"installedSize": 5486,
+	"installedSize": 5721,
 	"maintainer": "Debian Electronics Team <pkg-electronics-devel@lists.alioth.debian.org>",
 	"description": "FPGA place and route tool for Lattice iCE40 - with GUI",
 	"homepage": "https://github.com/YosysHQ/nextpnr",
-	"filename": "pool/main/n/nextpnr/nextpnr-ice40-qt_0.10-5+b1_amd64.deb",
-	"size": 1635020,
-	"md5": "6427549ce0fa45e3af93510c768b542e",
-	"sha256": "a0a0525a87336dcaefdbec0f09ca5515452c9e9d29c597216da8ccfbe10f2b22",
+	"filename": "pool/main/n/nextpnr/nextpnr-ice40-qt_0.11.1+dfsg-4_amd64.deb",
+	"size": 1714624,
+	"md5": "7048f88b1dc04d2941f45857cd80d456",
+	"sha256": "66959d81371bd6dc1a3a0da9a596a1cab1a892962f97c48d890075eb08616157",
 	"descriptionMd5": "5dfea1c2272fdeb60d48f13cadbf1f80"
 }
