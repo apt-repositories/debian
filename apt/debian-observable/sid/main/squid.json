@@ -5,11 +5,17 @@
 		"Size"
 	],
 	"package": "squid",
-	"version": "7.6-2",
+	"version": "7.7-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"netbase",
+		"logrotate (>= 3.5.4-1)",
+		"squid-common (>= 7.7-1)",
+		"libdbi-perl",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"perl:any",
 		"libc6 (>= 2.38)",
 		"libcap2 (>= 1:2.10)",
 		"libcom-err2 (>= 1.43.9)",
@@ -20,19 +26,14 @@
 		"libgssapi-krb5-2 (>= 1.17)",
 		"libkrb5-3 (>= 1.10+dfsg~)",
 		"libldap2 (>= 2.6.2)",
-		"libltdl7 (>= 2.5.4)",
+		"libltdl7 (>= 2.6.2)",
 		"libnetfilter-conntrack3 (>= 1.0.1)",
 		"libnettle8t64",
 		"libpam0g (>= 0.99.7.1)",
 		"libsasl2-2 (>= 2.1.28+dfsg1)",
 		"libstdc++6 (>= 14)",
 		"libsystemd0",
-		"libtdb1 (>= 1.2.7+git20101215)",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
-		"netbase",
-		"logrotate (>= 3.5.4-1)",
-		"squid-common (>= 7.6-2)",
-		"libdbi-perl"
+		"libtdb1 (>= 1.2.7+git20101215)"
 	],
 	"preDepends": [
 		"adduser"
@@ -48,13 +49,13 @@
 		"winbind",
 		"apparmor"
 	],
-	"installedSize": 9358,
+	"installedSize": 9583,
 	"maintainer": "Luigi Gangitano <luigi@debian.org>",
 	"description": "Full featured Web Proxy cache (HTTP proxy GnuTLS flavour)",
 	"homepage": "http://www.squid-cache.org",
-	"filename": "pool/main/s/squid/squid_7.6-2_amd64.deb",
-	"size": 2883136,
-	"md5": "45d35cb064d31ab90bacadf1ee94f317",
-	"sha256": "b41bcfc630d8afb4635198ef726445748ad99cf4ab5e466a7885c2bbf1cc0d06",
+	"filename": "pool/main/s/squid/squid_7.7-1_amd64.deb",
+	"size": 3001488,
+	"md5": "3d0cc61fd0e38d7fe525fb8db5c56ace",
+	"sha256": "0c7c5e0d06cf7549948ca3ea1ce6172737f6e198b7ecd17e169033c61ce029cc",
 	"descriptionMd5": "f75f458cce22198437dad21af036a0a1"
 }]

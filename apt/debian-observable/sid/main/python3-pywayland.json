@@ -6,12 +6,13 @@
 	],
 	"package": "python3-pywayland",
 	"source": "pywayland",
-	"version": "0.4.18-7",
+	"version": "0.4.19-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"python3",
+		"python3 (<< 3.15)",
+		"python3 (>= 3.14~)",
 		"python3-cffi-backend-api-min (<= 9729)",
 		"python3-cffi-backend-api-max (>= 9729)",
 		"python3:any",
@@ -22,13 +23,13 @@
 	"suggests": [
 		"python3-pywayland-doc"
 	],
-	"installedSize": 567,
+	"installedSize": 1691,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Provides Python bindings to the Wayland library",
 	"homepage": "https://github.com/flacjacket/pywayland",
-	"filename": "pool/main/p/pywayland/python3-pywayland_0.4.18-7_amd64.deb",
-	"size": 127572,
-	"md5": "0062021d146c6af5f3ff9079c963499c",
-	"sha256": "f5ebfc0d4a285c310dfc9bb654eaeaebf346b7ae8f132b45083cf99bd772cf4a",
+	"filename": "pool/main/p/pywayland/python3-pywayland_0.4.19-1_amd64.deb",
+	"size": 370164,
+	"md5": "42add60dba5aac41c341c4a7c706a568",
+	"sha256": "a7658f5be2094aa85e9accc182c220498fc82d8e421019120aeb1ba4245c4e3f",
 	"descriptionMd5": "949731b3263dc8b261aec083bc9cfb30"
 }]

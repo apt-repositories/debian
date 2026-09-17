@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "python3-websockets",
-	"source": "python-websockets (16.0-1)",
-	"version": "16.0-1+b1",
+	"source": "python-websockets",
+	"version": "17.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,17 @@
 		"python3:any",
 		"libc6 (>= 2.4)"
 	],
-	"installedSize": 678,
+	"suggests": [
+		"python3-python-socks",
+		"python3-trio"
+	],
+	"installedSize": 839,
 	"maintainer": "Piotr Ożarowski <piotr@debian.org>",
-	"description": "implementation of the WebSocket Protocol (RFC 6455)",
-	"homepage": "https://github.com/aaugustin/websockets",
-	"filename": "pool/main/p/python-websockets/python3-websockets_16.0-1+b1_amd64.deb",
-	"size": 96528,
-	"md5": "6d2cd5f211c3f70d679f455980b967b7",
-	"sha256": "ed97e6b1618ec7d8146921351897ff751ec76f8b08eed32d43cf9b74c217cfa4",
-	"descriptionMd5": "63e9d5b46ca7d743c67ca64b8c0eb6f4"
+	"description": "implementation of the WebSocket Protocol (RFC 6455 & 7692)",
+	"homepage": "https://github.com/python-websockets/websockets",
+	"filename": "pool/main/p/python-websockets/python3-websockets_17.1-1_amd64.deb",
+	"size": 109288,
+	"md5": "489f4b0611f5871c5553a01c82c05e3f",
+	"sha256": "5d2f8258547577850432b833c41c221e057a75fd995991bbf003d5e272b084e3",
+	"descriptionMd5": "03d4167229868aa289f6f4f6aabf74fb"
 }

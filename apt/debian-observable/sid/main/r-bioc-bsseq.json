@@ -5,18 +5,18 @@
 		"Size"
 	],
 	"package": "r-bioc-bsseq",
-	"version": "1.42.0+dfsg-3",
+	"version": "1.48.0+dfsg-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-biocgenerics",
 		"r-bioc-genomicranges (>= 1.41.5)",
 		"r-bioc-summarizedexperiment (>= 1.19.5)",
 		"r-bioc-iranges (>= 2.23.9)",
-		"r-bioc-genomeinfodb",
+		"r-bioc-seqinfo",
 		"r-cran-scales",
 		"r-bioc-biobase",
 		"r-cran-locfit",
@@ -34,23 +34,24 @@
 		"r-bioc-biostrings",
 		"r-bioc-hdf5array (>= 1.19.11)",
 		"r-bioc-rhdf5",
-		"r-bioc-beachmat",
-		"libc6 (>= 2.14)",
+		"r-bioc-beachmat (>= 2.23.2)",
+		"r-bioc-assorthead (>= 1.1.4)",
+		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.0)",
-		"libstdc++6 (>= 14)"
+		"libstdc++6 (>= 14)",
+		"r-pkg-team-core-architecture"
 	],
 	"suggests": [
 		"r-cran-matrix",
-		"r-bioc-rtracklayer",
-		"r-bioc-beachmat (>= 1.5.2)"
+		"r-bioc-rtracklayer"
 	],
-	"installedSize": 3604,
+	"installedSize": 3465,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
-	"description": "Bioconductor analyze, manage and store bisulfite sequencing data",
+	"description": "Analyze, manage and store whole-genome methylation data",
 	"homepage": "https://bioconductor.org/packages/bsseq/",
-	"filename": "pool/main/r/r-bioc-bsseq/r-bioc-bsseq_1.42.0+dfsg-3_amd64.deb",
-	"size": 3058568,
-	"md5": "f1a681f8e1db5322c82942ba02426b6c",
-	"sha256": "080f5cf88f4cf575ec42d988d0f5241ee6c7ef67758090ccbad627c37ea6fde9",
-	"descriptionMd5": "180b48f012fc46f936094bed692669d0"
+	"filename": "pool/main/r/r-bioc-bsseq/r-bioc-bsseq_1.48.0+dfsg-1_amd64.deb",
+	"size": 3104508,
+	"md5": "b3c36ae7df555616b22cf21f08464b8b",
+	"sha256": "f576a2ac39623ab571591d1f0737af1e987cf4a87dfeaf5e9126664490cdde26",
+	"descriptionMd5": "330a5b2a1126241ab8307bbc26dc53f3"
 }]

@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "soju",
-	"version": "0.10.1-2",
+	"version": "0.11.0-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"ssl-cert",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.34)",
 		"libpam0g (>= 0.99.7.1)",
 		"libsqlite3-0 (>= 3.36.0)"
@@ -19,14 +20,14 @@
 	"recommends": [
 		"soju-utils"
 	],
-	"installedSize": 26405,
+	"installedSize": 35902,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "user-friendly IRC bouncer",
 	"homepage": "https://soju.im",
-	"builtUsing": "golang-1.26 (= 1.26.4-1), golang-codeberg-emersion-go-scfg (= 0.1.0-2), golang-github-beorn7-perks (= 1.0.1-3), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-emersion-go-sasl (= 0.0~git20230613.1d333a0-1), golang-github-golang-jwt-jwt-v5 (= 5.3.1-1), golang-github-lib-pq (= 1.10.9-3), golang-github-mattn-go-sqlite3 (= 1.14.44~ds1-1), golang-github-munnerz-goautoneg (= 0.0~git20191010.a7dc8b6-2), golang-github-pires-go-proxyproto (= 0.11.0-1), golang-github-prometheus-client-golang (= 1.23.2-3), golang-github-prometheus-client-model (= 0.6.2-2), golang-github-prometheus-common (= 0.68.1-1), golang-github-prometheus-procfs (= 0.20.1-2), golang-github-sherclockholmes-webpush-go (= 1.4.0-1), golang-go.crypto (= 1:0.53.0-1), golang-golang-x-sys (= 0.45.0+dfsg-1), golang-golang-x-term (= 0.41.0-1), golang-golang-x-time (= 0.15.0-1), golang-google-protobuf (= 1.36.10-2), golang-gopkg-irc.v4 (= 4.0.0+dfsg-2), golang-nhooyr-websocket (= 1.8.12-4), golang-sourcehut-sircmpwn-go-bare (= 0.0~git20210406.ab86bc2-2)",
-	"filename": "pool/main/s/soju/soju_0.10.1-2_amd64.deb",
-	"size": 7293888,
-	"md5": "00d724a7cf106985112ab65f64cc0600",
-	"sha256": "a1d5ffb388bcc22c4a6083aa5fb84ad9aff02b20abf5d9c6463119ebdb6e2231",
+	"builtUsing": "golang-1.27 (= 1.27.1-2), golang-codeberg-emersion-go-scfg (= 0.1.0-2), golang-github-beorn7-perks (= 1.0.1-3), golang-github-cespare-xxhash (= 2.3.0-2), golang-github-emersion-go-sasl (= 0.0~git20230613.1d333a0-1), golang-github-golang-jwt-jwt-v5 (= 5.3.1-1), golang-github-lib-pq (= 1.10.9-3), golang-github-mattn-go-sqlite3 (= 1.14.50~ds1-1), golang-github-munnerz-goautoneg (= 0.0~git20191010.a7dc8b6-2), golang-github-pires-go-proxyproto (= 0.11.0-1), golang-github-prometheus-client-golang (= 1.23.2-3), golang-github-prometheus-client-model (= 0.6.2-2), golang-github-prometheus-common (= 0.69.0-1), golang-github-prometheus-procfs (= 0.21.1-1), golang-github-sherclockholmes-webpush-go (= 1.4.0-1), golang-go.crypto (= 1:0.56.0-1), golang-golang-x-net (= 1:0.58.0-1), golang-golang-x-sys (= 0.47.0+dfsg-1), golang-golang-x-term (= 0.45.0-1), golang-golang-x-text (= 0.41.0-1), golang-golang-x-time (= 0.15.0-1), golang-google-protobuf (= 1.36.10-2), golang-gopkg-irc.v4 (= 4.0.0+dfsg-2), golang-nhooyr-websocket (= 1.8.12-5), golang-sourcehut-sircmpwn-go-bare (= 0.0~git20260710.109149d-1)",
+	"filename": "pool/main/s/soju/soju_0.11.0-1_amd64.deb",
+	"size": 11064500,
+	"md5": "9424190d4516c3828f658e84973e3fc4",
+	"sha256": "0d3f7b84f1e1ad0ba14d3a8bcd514d50713edacab5551635045f3cf240f45f1c",
 	"descriptionMd5": "e4d7d87352cfc397a7e299945cd252dc"
 }]

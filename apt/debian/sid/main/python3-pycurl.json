@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "python3-pycurl",
-	"source": "pycurl (7.47.0-2)",
-	"version": "7.47.0-2+b1",
+	"source": "pycurl",
+	"version": "7.48.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,19 +15,20 @@
 		"python3 (>= 3.14~)",
 		"python3:any",
 		"libc6 (>= 2.15)",
-		"libcurl4-gnutls (>= 8.22.0)"
+		"libcurl4t64 (>= 8.22.0)",
+		"libssl3t64 (>= 3.0.0)"
 	],
 	"suggests": [
-		"libcurl4-gnutls-dev",
+		"libcurl4-openssl-dev",
 		"python-pycurl-doc"
 	],
-	"installedSize": 331,
+	"installedSize": 356,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python bindings to libcurl (Python 3)",
-	"homepage": "http://pycurl.sourceforge.net",
-	"filename": "pool/main/p/pycurl/python3-pycurl_7.47.0-2+b1_amd64.deb",
-	"size": 110012,
-	"md5": "feab52f9929a20e7cc48920454b4d880",
-	"sha256": "22cd5a1369736c9f4b58bf81c4e541d904c844626acce0557c5a033dcbdb9933",
-	"descriptionMd5": "fb7713dc2a268035bdf6efd1e94a5263"
+	"homepage": "https://pycurl.github.io/",
+	"filename": "pool/main/p/pycurl/python3-pycurl_7.48.0-1_amd64.deb",
+	"size": 118308,
+	"md5": "94b2526184613d67bbbfd25ea94a1fba",
+	"sha256": "5262e774d100c63fe3b91c955e4d7f7d16433d192873baa3c350718cdf1a0687",
+	"descriptionMd5": "8c432da8e2d2df812c2cee8db0030286"
 }

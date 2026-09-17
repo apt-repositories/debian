@@ -5,15 +5,15 @@
 		"Size"
 	],
 	"package": "greenbone-feed-sync",
-	"version": "25.2.0-2",
+	"version": "25.2.0-3",
 	"section": "misc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"rsync",
 		"python3-rich",
 		"python3-shtab",
-		"python3:any",
-		"rsync"
+		"python3:any"
 	],
 	"replaces": [
 		"gvmd (<< 22.4.2-2)",
@@ -23,13 +23,13 @@
 		"gvmd (<< 22.4.2-2)",
 		"openvas-scanner (<< 22.6.1~)"
 	],
-	"installedSize": 117,
+	"installedSize": 116,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "New script for syncing the Greenbone Community Feed (Python 3)",
 	"homepage": "https://github.com/greenbone/greenbone-feed-sync/",
-	"filename": "pool/main/g/greenbone-feed-sync/greenbone-feed-sync_25.2.0-2_all.deb",
-	"size": 17632,
-	"md5": "3d79bd0e45ce755204a39339ed366336",
-	"sha256": "781e3cd14e1d5735a65c086841d3bff14039891b2dcd088bf312289e6c3b6f0a",
+	"filename": "pool/main/g/greenbone-feed-sync/greenbone-feed-sync_25.2.0-3_all.deb",
+	"size": 17572,
+	"md5": "c089002f7a90a1034d53fe1d08dc10ef",
+	"sha256": "89552492bfc13fda3a8115850ab560a01b408dacc64be61a67e92eedf1e4d0e7",
 	"descriptionMd5": "7862b12a40ed135ac157453a2b62a882"
 }
