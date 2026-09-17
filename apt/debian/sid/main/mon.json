@@ -6,15 +6,16 @@
 	],
 	"package": "mon",
 	"source": "etbemon",
-	"version": "1.4.2-1",
+	"version": "1.4.3-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"mon-client (>= 1.2.0)",
 		"libtime-period-perl",
-		"libc6 (>= 2.38)",
-		"libtirpc3t64 (>= 1.0.2)"
+		"libc6 (>= 2.34)",
+		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
+		"perl:any"
 	],
 	"preDepends": [
 		"adduser"
@@ -48,13 +49,13 @@
 	"conflicts": [
 		"mon-contrib (<= 1.0+dfsg-3+nmu1)"
 	],
-	"installedSize": 1097,
+	"installedSize": 1087,
 	"maintainer": "Debian Mon Maintainers <pkg-monitoring-maintainers@lists.alioth.debian.org>",
 	"description": "monitor hosts/services/whatever and alert about problems",
 	"homepage": "https://doc.coker.com.au/projects/etbe-mon/",
-	"filename": "pool/main/e/etbemon/mon_1.4.2-1_amd64.deb",
-	"size": 289356,
-	"md5": "f55b921e0f573694841458f0c40a87ef",
-	"sha256": "9a4ebdd4cd275b1347597f0016e505dd4516fb37e21eb1eba0f3a56a5d5ca989",
+	"filename": "pool/main/e/etbemon/mon_1.4.3-1_amd64.deb",
+	"size": 285904,
+	"md5": "159ee3db6841018cd8c0be6dee2ed9ce",
+	"sha256": "197249985a561670001e492952ae145a20305f257f4ec61a75d1c9a23fa336d3",
 	"descriptionMd5": "40263012d1b466f3789ea2f3dff1fcd9"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-moby-sys-dev",
 	"source": "golang-github-moby-sys",
-	"version": "0.0~git20260904.79376e0-1",
+	"version": "0.0~git20260904.79376e0-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,17 @@
 		"golang-github-opencontainers-cgroups-dev",
 		"golang-golang-x-sys-dev (>= 0.0~git20201101~)"
 	],
+	"breaks": [
+		"containerd (<< 2.1.9+ds1-3~)",
+		"golang-github-containerd-containerd-dev (<< 2.1.9+ds1-3~)"
+	],
 	"installedSize": 421,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Go Library for system information and operation",
 	"homepage": "https://github.com/moby/sys",
-	"filename": "pool/main/g/golang-github-moby-sys/golang-github-moby-sys-dev_0.0~git20260904.79376e0-1_all.deb",
-	"size": 81384,
-	"md5": "db6076cc17916bfed4cc8380e60ebd9b",
-	"sha256": "89836f43731a43a5c37fd2d31533faf30ddcb27a541c794ca3adb965400933dc",
+	"filename": "pool/main/g/golang-github-moby-sys/golang-github-moby-sys-dev_0.0~git20260904.79376e0-2_all.deb",
+	"size": 81544,
+	"md5": "c5e39346fde64d98df5ba5097d542bcc",
+	"sha256": "1e2e6e4955a20420d6f7014fa2fd12ef83c9f9df42d37f6a66bf7aa0550da89c",
 	"descriptionMd5": "48c9139419fc66f66cbe294d6fde4922"
 }
