@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-serde-core-dev",
-	"source": "rust-serde-core (1.0.228-2)",
-	"version": "1.0.228-2+b1",
+	"source": "rust-serde-core",
+	"version": "1.0.229-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-derive-1.0+default-dev (<< 1.0.229-~~)",
-		"librust-serde-derive-1.0+default-dev (>= 1.0.228-~~)"
+		"librust-serde-derive-1.0+default-dev (<< 1.0.230)",
+		"librust-serde-derive-1.0+default-dev (>= 1.0.229)"
 	],
-	"installedSize": 423,
+	"breaks": [
+		"rustc (<< 1.56~)"
+	],
+	"installedSize": 422,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Serde traits only, with no support for derive -- use the `serde` crate instead - Rust source code",
 	"homepage": "https://serde.rs",
-	"filename": "pool/main/r/rust-serde-core/librust-serde-core-dev_1.0.228-2+b1_amd64.deb",
-	"size": 53316,
-	"md5": "12b57dabaeeafecebe0051c001309f7c",
-	"sha256": "bded4f83ac81e9d6f338354a3f6fd2f8c881a235634bd59bf402ef5b076336c5",
+	"filename": "pool/main/r/rust-serde-core/librust-serde-core-dev_1.0.229-1_amd64.deb",
+	"size": 52984,
+	"md5": "e829fcfb3981070bd3eb83afc4596961",
+	"sha256": "3d2055ae15d4ca2c98c26d2ab7554f32403fa8bd2838bbde214cab5a0cf1e694",
 	"descriptionMd5": "24ab460f8e6b75b57ce2cd36430e7488"
 }]

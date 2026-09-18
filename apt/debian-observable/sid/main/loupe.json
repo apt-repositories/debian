@@ -5,11 +5,13 @@
 		"Size"
 	],
 	"package": "loupe",
-	"version": "50.0-3",
+	"version": "51.0-1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"glycin-loaders (>= 2.0~rc+ds-~~)",
+		"dconf-gsettings-backend | gsettings-backend",
 		"libadwaita-1-0 (>= 1.8.0)",
 		"libc6 (>= 2.39)",
 		"libcairo2 (>= 1.2.4)",
@@ -18,20 +20,17 @@
 		"libglib2.0-0t64 (>= 2.74.0)",
 		"libgraphene-1.0-0 (>= 1.9.4)",
 		"libgtk-4-1 (>= 4.16)",
-		"libgweather-4-0t64 (>= 4.0.0)",
-		"liblcms2-2 (>= 2.12.0)",
-		"libseccomp2 (>= 2.5.0)",
-		"dconf-gsettings-backend | gsettings-backend",
-		"glycin-loaders (>= 2.0~rc+ds-~~)"
+		"libgweather-4-0t64 (>= 3.16.1)",
+		"libseccomp2 (>= 2.1.0)"
 	],
-	"installedSize": 8141,
+	"installedSize": 9285,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Image viewer for GNOME",
 	"homepage": "https://apps.gnome.org/Loupe/",
-	"builtUsing": "rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.6.2-1), rust-event-listener (= 5.4.1-3), rust-futures-timer (= 3.0.4+ds-1), rust-glycin (= 3.1.0-3), rust-glycin-common (= 1.0.4-3), rust-glycin-utils (= 4.1.0-3), rust-gufo (= 0.4.1-3), rust-gufo-common (= 1.1.0-3), rust-gufo-exif (= 0.4.0-3), rust-gufo-jpeg (= 0.4.0-3), rust-gufo-png (= 0.4.1-4), rust-gufo-tiff (= 0.4.0-3), rust-gufo-webp (= 0.4.0-3), rust-gufo-xmp (= 0.4.0-3), rust-nix (= 0.30.1-3), rustc (= 1.95.0+dfsg1-2)",
-	"filename": "pool/main/l/loupe/loupe_50.0-3_amd64.deb",
-	"size": 2128168,
-	"md5": "707c9b2e2e4ca2bd161c46606155341f",
-	"sha256": "9a45551c3adb7f3b94eeebd7ff827fff8bfced6e106dbf1d192a90a7f247bafc",
+	"builtUsing": "rust-async-channel (= 2.5.0-2), rust-async-executor (= 1.14.0+ds-1), rust-async-fs (= 2.2.0-1), rust-async-lock (= 3.4.2-1), rust-async-process (= 2.5.0-1), rust-async-task (= 4.7.1-4), rust-blocking (= 1.7.0+ds-1), rust-event-listener (= 5.4.2+ds-1), rust-futures-timer (= 3.0.4+ds-1), rust-glycin (= 4.0.0-1), rust-glycin-common (= 2.0.0-1), rust-glycin-core (= 4.0.0-2), rust-glycin-external (= 4.0.0-1), rust-glycin-utils (= 5.0.1-1), rust-gufo (= 0.5.0-2), rust-gufo-common (= 2.0.0-1), rust-gufo-exif (= 0.5.0-1), rust-gufo-xmp (= 0.5.0-1), rust-nix (= 0.30.1-3), rustc (= 1.95.0+dfsg1-2)",
+	"filename": "pool/main/l/loupe/loupe_51.0-1_amd64.deb",
+	"size": 2395000,
+	"md5": "8b218c6779125f74b97cd1a39735a086",
+	"sha256": "149d90c80c1a9fdbfee1953bedbde3fc336e1b13bf7b1edab55bebd7aa69e3aa",
 	"descriptionMd5": "1ec1e354b2b28df4edfb551f3037b6ee"
 }]

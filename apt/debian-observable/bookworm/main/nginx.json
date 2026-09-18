@@ -33,8 +33,48 @@
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "small, powerful, scalable web/proxy server",
 	"homepage": "https://nginx.org",
-	"filename": "pool/updates/main/n/nginx/nginx_1.22.1-9+deb12u9_amd64.deb",
+	"filename": "pool/main/n/nginx/nginx_1.22.1-9+deb12u9_amd64.deb",
 	"size": 529668,
+	"md5": "18097ce2ab58a5818b6ea2a88bc4970e",
 	"sha256": "4e7b52f8b31f26d77ffb5c427c41e36223e81b047242ecfa8dc1d7f939734885",
+	"descriptionMd5": "cb534cf82475d3e706f730549c99229f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx",
+	"version": "1.22.1-9+deb12u10",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3 (>= 3.0.0)",
+		"zlib1g (>= 1:1.1.4)",
+		"iproute2",
+		"nginx-common (<< 1.22.1-9+deb12u10.1~)",
+		"nginx-common (>= 1.22.1-9+deb12u10)"
+	],
+	"replaces": [
+		"nginx-core (<< 1.22.1-6~)",
+		"nginx-extras (<< 1.22.1-6~)",
+		"nginx-light (<< 1.22.1-6~)"
+	],
+	"breaks": [
+		"nginx-core (<< 1.22.1-6~)",
+		"nginx-extras (<< 1.22.1-6~)",
+		"nginx-light (<< 1.22.1-6~)"
+	],
+	"installedSize": 1335,
+	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
+	"description": "small, powerful, scalable web/proxy server",
+	"homepage": "https://nginx.org",
+	"filename": "pool/updates/main/n/nginx/nginx_1.22.1-9+deb12u10_amd64.deb",
+	"size": 531468,
+	"sha256": "cc7ae36d024f602861eeefe64656d14481b3bd224d81f8d69f789de49f16375a",
 	"descriptionMd5": "cb534cf82475d3e706f730549c99229f"
 }]
