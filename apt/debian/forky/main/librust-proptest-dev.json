@@ -6,7 +6,7 @@
 	],
 	"package": "librust-proptest-dev",
 	"source": "rust-proptest",
-	"version": "1.11.0-1",
+	"version": "1.11.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,6 +17,7 @@
 		"librust-num-traits-0.2+libm-dev (>= 0.2.15)",
 		"librust-num-traits-0.2+std-dev (>= 0.2.15)",
 		"librust-num-traits-0.2-dev (>= 0.2.15)",
+		"librust-proptest-macro+default-dev (>= 0.4.0)",
 		"librust-rand-0.10+alloc-dev",
 		"librust-rand-0.10+std-dev",
 		"librust-rand-0.10+sys-rng-dev",
@@ -29,13 +30,16 @@
 		"librust-tempfile-3+default-dev",
 		"librust-unarray-0.1+default-dev (>= 0.1.4)"
 	],
-	"installedSize": 1004,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 1003,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Hypothesis-like property-based testing and shrinking - Rust source code",
 	"homepage": "https://proptest-rs.github.io/proptest/proptest/index.html",
-	"filename": "pool/main/r/rust-proptest/librust-proptest-dev_1.11.0-1_amd64.deb",
-	"size": 185324,
-	"md5": "c49656dd710c251344e919576e01af57",
-	"sha256": "dde0dd41f0ca24562716bace5b59456e185b22e09e6794ab806228dd7bf79b3e",
+	"filename": "pool/main/r/rust-proptest/librust-proptest-dev_1.11.0-2_amd64.deb",
+	"size": 185236,
+	"md5": "1fecf73c1860e03e3301345372e8f115",
+	"sha256": "b73ced47f0607a298874782ffa617fc7a71ddca061f4f4b0dd024d813bb7eb49",
 	"descriptionMd5": "9600ff370ab7142994a3e3b4a6778e39"
 }

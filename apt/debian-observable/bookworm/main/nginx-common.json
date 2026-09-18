@@ -28,8 +28,43 @@
 	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
 	"description": "small, powerful, scalable web/proxy server - common files",
 	"homepage": "https://nginx.org",
-	"filename": "pool/updates/main/n/nginx/nginx-common_1.22.1-9+deb12u9_all.deb",
+	"filename": "pool/main/n/nginx/nginx-common_1.22.1-9+deb12u9_all.deb",
 	"size": 114812,
+	"md5": "95e01d78ca8d9fd1962a47bce9e36d40",
 	"sha256": "12b7b98e914da6d233c9e35cec0f59f06bceb727e4d1f1ce039215b074a7267d",
+	"descriptionMd5": "9e23931d84d07adbee5412aefdad8a90"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-common",
+	"source": "nginx",
+	"version": "1.22.1-9+deb12u10",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"fcgiwrap",
+		"nginx-doc",
+		"ssl-cert"
+	],
+	"replaces": [
+		"nginx (<< 1.22.1-8)"
+	],
+	"breaks": [
+		"nginx (<< 1.22.1-8)"
+	],
+	"installedSize": 332,
+	"maintainer": "Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>",
+	"description": "small, powerful, scalable web/proxy server - common files",
+	"homepage": "https://nginx.org",
+	"filename": "pool/updates/main/n/nginx/nginx-common_1.22.1-9+deb12u10_all.deb",
+	"size": 114932,
+	"sha256": "3b9e2207c67de87706c53d86ec4bed0760ed46e1401f30d078c3a926fdc2f9ee",
 	"descriptionMd5": "9e23931d84d07adbee5412aefdad8a90"
 }]

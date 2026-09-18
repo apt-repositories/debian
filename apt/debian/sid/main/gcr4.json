@@ -5,14 +5,15 @@
 		"Size"
 	],
 	"package": "gcr4",
-	"version": "4.4.1-2",
+	"version": "4.4.1-3",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"default-dbus-session-bus | dbus-session-bus",
 		"gcr",
-		"libgcr-4-4 (= 4.4.1-2)",
+		"libgcr-4-4 (= 4.4.1-3)",
+		"init-system-helpers (>= 1.66~)",
 		"libc6 (>= 2.34)",
 		"libgck-2-2 (>= 3.3.90)",
 		"libglib2.0-0t64 (>= 2.80.0)",
@@ -27,13 +28,13 @@
 	"breaks": [
 		"gcr (<< 3.41.1-5~)"
 	],
-	"installedSize": 1348,
+	"installedSize": 1350,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GNOME crypto services (daemon and tools)",
 	"homepage": "https://wiki.gnome.org/Projects/GnomeKeyring",
-	"filename": "pool/main/g/gcr4/gcr4_4.4.1-2_amd64.deb",
-	"size": 202656,
-	"md5": "2afa257919e16ce36ae2ab888f7e8212",
-	"sha256": "d17434a8300be20d0c1e886ece2acd3ad867dbf4cd1d2214085aa27e3cfa4655",
+	"filename": "pool/main/g/gcr4/gcr4_4.4.1-3_amd64.deb",
+	"size": 205920,
+	"md5": "e47880461529b0a189ebea4f34588c73",
+	"sha256": "8a7d4a792e66ec89a182f33586977bb3818ca5300181766964df7deae0f76ea8",
 	"descriptionMd5": "ee6145fe2ef6efa76055bc896f49f5f4"
 }

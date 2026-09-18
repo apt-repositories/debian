@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "librust-generator-dev",
-	"source": "rust-generator (0.7.1-1.1)",
-	"version": "0.7.1-1.1+b1",
+	"source": "rust-generator",
+	"version": "0.8.9-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cc-1+default-dev",
-		"librust-libc-0.2+default-dev",
+		"librust-cfg-if-1+default-dev",
+		"librust-libc-0.2+default-dev (>= 0.2.100)",
 		"librust-log-0.4+default-dev",
 		"librust-rustversion-1+default-dev"
 	],
-	"installedSize": 167,
+	"breaks": [
+		"rustc (<< 1.73~)"
+	],
+	"installedSize": 228,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Stackfull Generator Library in Rust - Rust source code",
 	"homepage": "https://github.com/Xudong-Huang/generator-rs.git",
-	"filename": "pool/main/r/rust-generator/librust-generator-dev_0.7.1-1.1+b1_amd64.deb",
-	"size": 31148,
-	"md5": "f63e9dc2f1bd83860cb69afc9559c752",
-	"sha256": "15c410c2873b83d64be87fa4ac12215e56501723d4145c867bf5f81816540008",
-	"descriptionMd5": "599dcb226942a2b37f2443d2c9488814"
+	"filename": "pool/main/r/rust-generator/librust-generator-dev_0.8.9-1_amd64.deb",
+	"size": 39244,
+	"md5": "2805d408dc122717f430332ba1b8ac3e",
+	"sha256": "5a09ef17137cd6f5a2efdcb0e2a8a0602dff6adfe6cc534a956fb77b43b34f19",
+	"descriptionMd5": "aa3a678ab8895cf2f2768f137d6e7bcb"
 }

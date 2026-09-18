@@ -6,33 +6,35 @@
 	],
 	"package": "erlang-doc",
 	"source": "erlang",
-	"version": "1:29.0.4+dfsg-1",
+	"version": "1:29.0.6+dfsg-1",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"libjs-jquery",
 		"libjs-jquery-ui",
-		"erlang-examples (= 1:29.0.4+dfsg-1)"
+		"erlang-examples (= 1:29.0.6+dfsg-1)"
 	],
 	"suggests": [
 		"erlang:any"
 	],
 	"replaces": [
-		"erlang-doc-html"
+		"erlang-doc-html",
+		"erlang-mode (<< 1:27.0)"
 	],
 	"conflicts": [
 		"erlang-base:any (<< 1:13.b.4)",
 		"erlang-base-hipe:any",
-		"erlang-doc-html"
+		"erlang-doc-html",
+		"erlang-mode (<< 1:27.0)"
 	],
-	"installedSize": 106482,
+	"installedSize": 109862,
 	"maintainer": "Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>",
 	"description": "Erlang/OTP HTML documentation",
 	"homepage": "http://www.erlang.org/",
-	"filename": "pool/main/e/erlang/erlang-doc_29.0.4+dfsg-1_all.deb",
-	"size": 21782140,
-	"md5": "10fd321eee35f167a25566cb32ee05a3",
-	"sha256": "6630f8942474704435e5ce050e452c3905b58be5476441daff24fbfb2278f872",
+	"filename": "pool/main/e/erlang/erlang-doc_29.0.6+dfsg-1_all.deb",
+	"size": 22655232,
+	"md5": "756cc529ef524bed95b79ab846714935",
+	"sha256": "3dd664a30818359eb74d2c4738a050af332d6793f590bd8bea392cf4f077e7cf",
 	"descriptionMd5": "f5a6c2479deddbfaaa20b776e210c2f4"
 }]
