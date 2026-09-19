@@ -5,23 +5,27 @@
 		"Size"
 	],
 	"package": "librust-ecb-dev",
-	"source": "rust-ecb (0.1.1-1)",
-	"version": "0.1.1-1+b2",
+	"source": "rust-ecb",
+	"version": "0.2.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cipher-0.4+alloc-dev (>= 0.4.3-~~)",
-		"librust-cipher-0.4+block-padding-dev (>= 0.4.3-~~)",
-		"librust-cipher-0.4+default-dev (>= 0.4.3-~~)",
-		"librust-cipher-0.4+std-dev (>= 0.4.3-~~)"
+		"librust-cipher-0.5+alloc-dev",
+		"librust-cipher-0.5+block-padding-dev",
+		"librust-cipher-0.5+default-dev",
+		"librust-cipher-0.5+zeroize-dev"
 	],
-	"installedSize": 49,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 72,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Electronic Codebook (ECB) block cipher mode of operation - Rust source code",
-	"filename": "pool/main/r/rust-ecb/librust-ecb-dev_0.1.1-1+b2_amd64.deb",
-	"size": 8324,
-	"md5": "cc9697d9218cfea59519caab203b3be9",
-	"sha256": "b4a322c91a6041bd31ef7a73d144c235e4779943635b34663e0a3e97372c189f",
-	"descriptionMd5": "58b2e37835ca16dd618644830d7ccacf"
+	"description": "Generic implementation of the ECB (Electronic Codebook) block cipher mode of operation - Rust source code",
+	"homepage": "https://github.com/RustCrypto/block-modes",
+	"filename": "pool/main/r/rust-ecb/librust-ecb-dev_0.2.1-1_amd64.deb",
+	"size": 24584,
+	"md5": "5c4774e852d8ba7c1577827ed778fe72",
+	"sha256": "05c9026bb0261ae762d9b0d436567ec9bd7ef52b19317d576ce83e5514afcf44",
+	"descriptionMd5": "c754ecb905367e0b51081dcdb017c650"
 }]

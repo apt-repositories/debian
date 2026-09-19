@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-gix-macros-dev",
-	"source": "rust-gix-macros (0.1.5-1)",
-	"version": "0.1.5-1+b1",
+	"source": "rust-gix-macros",
+	"version": "0.1.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,12 +17,16 @@
 		"librust-syn-2+fold-dev",
 		"librust-syn-2+full-dev"
 	],
-	"installedSize": 44,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 47,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Proc-macro utilities for gix - Rust source code",
-	"filename": "pool/main/r/rust-gix-macros/librust-gix-macros-dev_0.1.5-1+b1_amd64.deb",
-	"size": 10412,
-	"md5": "65bb4e9734a307cb502482e3a5a07640",
-	"sha256": "459ff0b485d5f3a88cc10653d50a351d6694e11484e3d4e875ef0aa58cb32beb",
+	"homepage": "https://github.com/GitoxideLabs/gitoxide",
+	"filename": "pool/main/r/rust-gix-macros/librust-gix-macros-dev_0.1.6-1_amd64.deb",
+	"size": 11440,
+	"md5": "00a7ecf56147c636ebffbcd42012dcc3",
+	"sha256": "1b5addd992c9aeca4ce64a7d85f8673bb8b741a9fa94cece951f0787d464823f",
 	"descriptionMd5": "c96d50fe85141efc171b4bc43e3693e6"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "dselect",
 	"source": "dpkg",
-	"version": "1.23.7",
+	"version": "1.23.11",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,19 @@
 		"libdpkg-perl",
 		"perl"
 	],
-	"installedSize": 1733,
+	"replaces": [
+		"bash-completion (<< 1:2.16.0-9)"
+	],
+	"breaks": [
+		"bash-completion (<< 1:2.12~)"
+	],
+	"installedSize": 1314,
 	"maintainer": "Dpkg Developers <debian-dpkg@lists.debian.org>",
 	"description": "Debian package management front-end",
 	"homepage": "https://wiki.debian.org/Teams/Dpkg",
-	"filename": "pool/main/d/dpkg/dselect_1.23.7_amd64.deb",
-	"size": 584676,
-	"md5": "9c3508c837fac4ccca867e97d741c8cd",
-	"sha256": "d89788878fcd36f984239432db1077dbd7fec6ad816c003bc341ea4ae131d3f5",
+	"filename": "pool/main/d/dpkg/dselect_1.23.11_amd64.deb",
+	"size": 530760,
+	"md5": "0799ba2e3555e9186f1a6c41ed31f892",
+	"sha256": "163245291b5f3447124c72bd3d7950e14f86df40d6901b071666cf6e77846742",
 	"descriptionMd5": "269b383010cda7ddc3f6381398082aec"
 }
