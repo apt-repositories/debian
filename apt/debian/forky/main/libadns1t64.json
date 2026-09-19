@@ -6,12 +6,13 @@
 	],
 	"package": "libadns1t64",
 	"source": "adns",
-	"version": "1.6.2-3",
+	"version": "1.7.0-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)"
+		"libc6 (>= 2.38)",
+		"netbase"
 	],
 	"suggests": [
 		"adns-tools"
@@ -20,15 +21,15 @@
 		"libadns1"
 	],
 	"breaks": [
-		"libadns1 (<< 1.6.2-3)"
+		"libadns1 (<< 1.7.0-2)"
 	],
-	"installedSize": 165,
+	"installedSize": 169,
 	"maintainer": "Ian Jackson <ijackson@chiark.greenend.org.uk>",
 	"description": "Asynchronous-capable DNS client library",
 	"homepage": "http://www.chiark.greenend.org.uk/~ian/adns/",
-	"filename": "pool/main/a/adns/libadns1t64_1.6.2-3_amd64.deb",
-	"size": 68372,
-	"md5": "316e0d36f57442ec94a972acc104af71",
-	"sha256": "6cc2028a5506a8254108720c0340cf686d590113929c5c100e276f65f08506e0",
+	"filename": "pool/main/a/adns/libadns1t64_1.7.0-2_amd64.deb",
+	"size": 71740,
+	"md5": "d5a61d60ced0ee1de40c5c22c6714367",
+	"sha256": "64e23de966ff921ec6bb3c1d71859a1c6263acbf90b9a790d87c5e347f189d99",
 	"descriptionMd5": "2d4806e0537386505c70d730ab8e8791"
 }

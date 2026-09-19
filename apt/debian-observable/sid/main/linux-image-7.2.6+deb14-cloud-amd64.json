@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.2.6+deb14-cloud-amd64",
+	"source": "linux-signed-amd64 (7.2.6+1)",
+	"version": "7.2.6-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.2.6+deb14-cloud-amd64 (= 7.2.6-1)",
+		"linux-binary-7.2.6+deb14-cloud-amd64 (= 7.2.6-1)",
+		"linux-modules-7.2.6+deb14-cloud-amd64 (= 7.2.6-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.17~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.2"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.2.6 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.2.6+deb14-cloud-amd64_7.2.6-1_amd64.deb",
+	"size": 1916,
+	"md5": "5748378e3742be9e5dd12d18187e36a2",
+	"sha256": "6397b21f8446843cc8bffe7fd4145119583ccb59c040bb5d4a8b4e3edeccca81",
+	"descriptionMd5": "53493717398e89de9c527e5f9a9efbe8"
+}]
