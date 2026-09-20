@@ -6,7 +6,7 @@
 	],
 	"package": "librust-log-dev",
 	"source": "rust-log",
-	"version": "0.4.32-1",
+	"version": "0.4.34-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"librust-value-bag-1+serde-dev (>= 1.9)",
 		"librust-value-bag-1+sval-dev (>= 1.9)"
 	],
-	"installedSize": 281,
+	"breaks": [
+		"rustc (<< 1.71.0~)"
+	],
+	"installedSize": 283,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Lightweight logging facade for Rust - Rust source code",
 	"homepage": "https://github.com/rust-lang/log",
-	"filename": "pool/main/r/rust-log/librust-log-dev_0.4.32-1_amd64.deb",
-	"size": 53752,
-	"md5": "d7e48574ed227528992c4ba5e2f22352",
-	"sha256": "80c325e4fe6ef8bbf1c6450cc716d215e543b42c6685055fbf0f19859dbeae73",
+	"filename": "pool/main/r/rust-log/librust-log-dev_0.4.34-1_amd64.deb",
+	"size": 54436,
+	"md5": "cfd6418df036c9ef243c63f12c81ee4c",
+	"sha256": "cc992ad46728ea0d50d4673a03a79e275621103cadd115c93cde32d7aa4e18e0",
 	"descriptionMd5": "0099c3b06817dfec8c92ecfc92d6ce99"
 }]

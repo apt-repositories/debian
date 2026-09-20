@@ -5,16 +5,16 @@
 		"Size"
 	],
 	"package": "vpnc",
-	"version": "0.5.3+git20260629-1",
+	"version": "0.5.3+git20260629-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"vpnc-scripts",
+		"perl:any",
 		"libc6 (>= 2.38)",
 		"libgcrypt20 (>= 1.12.0)",
-		"libgnutls30t64 (>= 3.7.2)",
-		"perl:any",
-		"vpnc-scripts"
+		"libgnutls30t64 (>= 3.7.2)"
 	],
 	"recommends": [
 		"iproute2"
@@ -22,13 +22,13 @@
 	"suggests": [
 		"resolvconf"
 	],
-	"installedSize": 238,
+	"installedSize": 242,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "Cisco-compatible VPN client",
 	"homepage": "https://github.com/streambinder/vpnc",
-	"filename": "pool/main/v/vpnc/vpnc_0.5.3+git20260629-1_amd64.deb",
-	"size": 79800,
-	"md5": "3c713c08d8b188937de454dbaac50ece",
-	"sha256": "c3201839732a68b062c8a764ea6720291107764c70bc53304507236e060c5c57",
+	"filename": "pool/main/v/vpnc/vpnc_0.5.3+git20260629-2_amd64.deb",
+	"size": 81268,
+	"md5": "c7a75b002cfb528d133bbd0af6ea4664",
+	"sha256": "d1e63025f5e26d4791d684b491e9c2c0d169d765fe4517cb601a1d5eba685dce",
 	"descriptionMd5": "058d74051c6bacb97d49087730615395"
 }]

@@ -6,27 +6,30 @@
 	],
 	"package": "librust-webauthn-attestation-ca-dev",
 	"source": "rust-webauthn-attestation-ca",
-	"version": "0.5.2-2",
+	"version": "0.5.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-base64urlsafedata-0.5+default-dev (>= 0.5.2)",
-		"librust-openssl-0.10+default-dev (>= 0.10.56)",
-		"librust-openssl-sys-0.9+default-dev (>= 0.9.109)",
-		"librust-serde-1+default-dev (>= 1.0.141)",
-		"librust-serde-1+derive-dev (>= 1.0.141)",
-		"librust-tracing-0.1+default-dev (>= 0.1.35)",
-		"librust-uuid-1+default-dev (>= 1.1.2)",
-		"librust-uuid-1+serde-dev (>= 1.1.2)"
+		"librust-base64urlsafedata+default-dev (>= 0.5.4)",
+		"librust-openssl-0.10+default-dev (>= 0.10.75)",
+		"librust-openssl-sys-0.9+default-dev (>= 0.9.111)",
+		"librust-serde-1+default-dev (>= 1.0.228)",
+		"librust-serde-1+derive-dev (>= 1.0.228)",
+		"librust-tracing-0.1+default-dev (>= 0.1.43)",
+		"librust-uuid-1+default-dev (>= 1.19.0)",
+		"librust-uuid-1+serde-dev (>= 1.19.0)"
+	],
+	"breaks": [
+		"rustc (<< 1.88~)"
 	],
 	"installedSize": 32,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Webauthn Attestation CA Descriptions - Rust source code",
 	"homepage": "https://github.com/kanidm/webauthn-rs",
-	"filename": "pool/main/r/rust-webauthn-attestation-ca/librust-webauthn-attestation-ca-dev_0.5.2-2_amd64.deb",
-	"size": 6112,
-	"md5": "8d4bdf1580a8c6c03f27ff5172fc11bc",
-	"sha256": "c169932261f4c564ae5508921f347b174970afb9dd811641c6a01c3d83add286",
+	"filename": "pool/main/r/rust-webauthn-attestation-ca/librust-webauthn-attestation-ca-dev_0.5.5-1_amd64.deb",
+	"size": 6440,
+	"md5": "828b45101586f68f648fce737b5ef536",
+	"sha256": "f545b70ffedc01a6beb291f4fba3129e23a9e9a06b1d86452d45bb28a939f940",
 	"descriptionMd5": "269adb7d8b93db452861f4ee8f4dcc63"
 }]
