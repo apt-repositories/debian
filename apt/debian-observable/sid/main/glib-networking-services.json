@@ -5,26 +5,27 @@
 		"Size"
 	],
 	"package": "glib-networking-services",
-	"source": "glib-networking (2.80.1-1)",
-	"version": "2.80.1-1+b2",
+	"source": "glib-networking",
+	"version": "2.90.0-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"glib-networking-common (>= 2.90.0-2)",
+		"init-system-helpers (>= 1.66~)",
 		"libc6 (>= 2.34)",
 		"libglib2.0-0t64 (>= 2.80.0)",
-		"libproxy1v5 (>= 0.5.3)",
-		"glib-networking-common (>= 2.80.1-1)"
+		"libproxy1v5 (>= 0.5.3)"
 	],
 	"recommends": [
 		"glib-networking"
 	],
-	"installedSize": 38,
+	"installedSize": 40,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "network-related giomodules for GLib - D-Bus services",
-	"filename": "pool/main/g/glib-networking/glib-networking-services_2.80.1-1+b2_amd64.deb",
-	"size": 8524,
-	"md5": "7ad3926ac6791d4992e327ce5041addc",
-	"sha256": "d1d27f4f79918714d0ae1e0e3af64e8f49fb22158dce09c4cde31ae1c59f653e",
+	"filename": "pool/main/g/glib-networking/glib-networking-services_2.90.0-2_amd64.deb",
+	"size": 9232,
+	"md5": "b71cabf8c259dbf1b61353403a123726",
+	"sha256": "99d480335a2f9fe6a3ed41ce26e81acb5841bf5d4292eeb7ad1bb21189f9e49d",
 	"descriptionMd5": "365372e1c223a507a4114d685b245121"
 }]

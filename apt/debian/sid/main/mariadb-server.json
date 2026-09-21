@@ -6,7 +6,7 @@
 	],
 	"package": "mariadb-server",
 	"source": "mariadb",
-	"version": "1:11.8.9+ds-2",
+	"version": "1:11.8.9+ds-3",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,8 +16,8 @@
 		"iproute2",
 		"libdbi-perl",
 		"lsof",
-		"mariadb-client (>= 1:11.8.9+ds-2)",
-		"mariadb-server-core (>= 1:11.8.9+ds-2)",
+		"mariadb-client (>= 1:11.8.9+ds-3)",
+		"mariadb-server-core (>= 1:11.8.9+ds-3)",
 		"passwd",
 		"perl (>= 5.6)",
 		"psmisc",
@@ -25,7 +25,6 @@
 		"socat",
 		"debconf (>= 0.5) | debconf-2.0",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any",
 		"libc6 (>= 2.38)",
 		"libgcc-s1 (>= 3.0)",
@@ -36,7 +35,7 @@
 	],
 	"preDepends": [
 		"debconf",
-		"mariadb-common (>= 1:11.8.9+ds-2)",
+		"mariadb-common (>= 1:11.8.9+ds-3)",
 		"procps"
 	],
 	"recommends": [
@@ -126,13 +125,13 @@
 		"percona-xtradb-cluster-server-5.7",
 		"virtual-mysql-server"
 	],
-	"installedSize": 54101,
+	"installedSize": 54102,
 	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
 	"description": "MariaDB database server binaries",
 	"homepage": "https://mariadb.org/",
-	"filename": "pool/main/m/mariadb/mariadb-server_11.8.9+ds-2_amd64.deb",
-	"size": 3718292,
-	"md5": "bdfc3fabb7e1378a30d405311ecc665a",
-	"sha256": "8eb1297a82e1923023fac37f3d03df01d79ddfe8994bc611b2eeb6798dedee77",
+	"filename": "pool/main/m/mariadb/mariadb-server_11.8.9+ds-3_amd64.deb",
+	"size": 3719340,
+	"md5": "5a0d762bcb91803ebe3d26078261926e",
+	"sha256": "7e16b89a07510a4f4241db4e754e6cfb0db068b1aa1756d3ce39d327a3e50a65",
 	"descriptionMd5": "ae76dbcde4bf3e79b8228e6dad967834"
 }

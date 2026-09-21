@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "evolution-data-server",
-	"source": "evolution-data-server (3.56.2-8)",
-	"version": "3.56.2-8+b1",
+	"version": "3.56.2-9",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"evolution-data-server-common (>= 3.56.2-8)",
+		"evolution-data-server-common (>= 3.56.2-9)",
 		"gnome-keyring",
-		"libcamel-1.2-64t64 (= 3.56.2-8+b1)",
+		"libcamel-1.2-64t64 (= 3.56.2-9)",
+		"init-system-helpers (>= 1.66~)",
+		"perl:any",
 		"libc6 (>= 2.38)",
 		"libcanberra-gtk3-0 (>= 0.25)",
 		"libcanberra0 (>= 0.2)",
@@ -41,13 +42,13 @@
 	"suggests": [
 		"evolution"
 	],
-	"installedSize": 2513,
+	"installedSize": 2533,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "evolution database backend server",
 	"homepage": "https://gitlab.gnome.org/GNOME/evolution/-/wikis/home",
-	"filename": "pool/main/e/evolution-data-server/evolution-data-server_3.56.2-8+b1_amd64.deb",
-	"size": 687752,
-	"md5": "e273e33e08a1cab15bb41317f11fbd94",
-	"sha256": "bd6f55012604210a9368ec31575a3aa1fa6d0dc41f1351e4c19eafba92d2ac75",
+	"filename": "pool/main/e/evolution-data-server/evolution-data-server_3.56.2-9_amd64.deb",
+	"size": 714928,
+	"md5": "affce3761083bf795e23b24e1f62b542",
+	"sha256": "26e0a29a0e18319b1af957417876a8cddbb31542aaae588bf9f0d3a867a11719",
 	"descriptionMd5": "00223d501d234f5cb46209c8c730f321"
 }

@@ -6,20 +6,26 @@
 	],
 	"package": "ctsim-doc",
 	"source": "ctsim",
-	"version": "6.0.2-7",
+	"version": "7.0.0-1",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
 	"recommends": [
 		"ctsim"
 	],
-	"installedSize": 525,
-	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
-	"description": "Documentation for ctsim package",
+	"replaces": [
+		"ctsim-help (<< 7.0.0~)"
+	],
+	"breaks": [
+		"ctsim-help (<< 7.0.0~)"
+	],
+	"installedSize": 1029,
+	"maintainer": "Kevin M. Rosenberg <kmr@debian.org>",
+	"description": "Documentation for ctsim",
 	"homepage": "http://www.ctsim.org",
-	"filename": "pool/main/c/ctsim/ctsim-doc_6.0.2-7_all.deb",
-	"size": 339024,
-	"md5": "2ed46f7d66d1cad76166884ee922a6bc",
-	"sha256": "951a7aa4bd7ebf4802886f6c98c176b2e9e07b661855191d6665c8451d763622",
-	"descriptionMd5": "9861e51a61e9826c2b3afe2bbf500c61"
+	"filename": "pool/main/c/ctsim/ctsim-doc_7.0.0-1_all.deb",
+	"size": 572988,
+	"md5": "6374e92c40f5f27f4d16801d71394f48",
+	"sha256": "17aa25b721c55bdcae771940ce0c514446bc0d155d250fe59ed32ba543354bfe",
+	"descriptionMd5": "55500ce1147bc42ac3c794d36c8359fc"
 }]
