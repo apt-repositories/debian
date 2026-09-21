@@ -6,17 +6,23 @@
 	],
 	"package": "prrte-common",
 	"source": "prrte",
-	"version": "5.0.0~git.20260918.1-1",
+	"version": "5.0.0~git.20260918.1-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "all",
+	"replaces": [
+		"openmpi-common (<< 5.0.9-5)"
+	],
+	"breaks": [
+		"openmpi-common (<< 5.0.9-5)"
+	],
 	"installedSize": 381,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "PMix Reference Run Time Environment -- common files",
 	"homepage": "https://github.com/pmix/prrte",
-	"filename": "pool/main/p/prrte/prrte-common_5.0.0~git.20260918.1-1_all.deb",
-	"size": 50084,
-	"md5": "de7b116f8b8001b66631f700c1713b50",
-	"sha256": "715af8401564b3c1d7cf1451e680b1a48e1e8a557013ff78176a183b085bb768",
+	"filename": "pool/main/p/prrte/prrte-common_5.0.0~git.20260918.1-2_all.deb",
+	"size": 50156,
+	"md5": "cf126ae8452362d3efef3bc6c54e4020",
+	"sha256": "28cb156916974118cf0b072972977889de7b18267b1b74879d4c944f099f1a6a",
 	"descriptionMd5": "957d2d49f1fc26c2ac012bb1f96b4136"
 }

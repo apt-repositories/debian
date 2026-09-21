@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "node-cspotcode-source-map-support",
-	"version": "0.8.1+ds-2",
+	"version": "0.8.1+ds-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,13 +13,19 @@
 		"node-jridgewell-trace-mapping",
 		"nodejs:any"
 	],
+	"replaces": [
+		"ts-node (<< 10.9.2+~cs156.14.70-2~)"
+	],
+	"breaks": [
+		"ts-node (<< 10.9.2+~cs156.14.70-2~)"
+	],
 	"installedSize": 54,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "fix stack traces for files with source maps",
 	"homepage": "https://github.com/cspotcode/node-source-map-support",
-	"filename": "pool/main/n/node-cspotcode-source-map-support/node-cspotcode-source-map-support_0.8.1+ds-2_all.deb",
-	"size": 13292,
-	"md5": "09ee8ead968268227fb1951be4746d34",
-	"sha256": "72946bd0312509600371946e0bbdc98122cb859e832934601f53986c8f72ec9d",
+	"filename": "pool/main/n/node-cspotcode-source-map-support/node-cspotcode-source-map-support_0.8.1+ds-3_all.deb",
+	"size": 13388,
+	"md5": "51c4e79766b1e83b0a141a45e32ac5a0",
+	"sha256": "06ef44a036302d436c9792a40d988ec5336e9004f461524474ecff85e8db351a",
 	"descriptionMd5": "437320c0fb59d071df3f837496662a95"
 }

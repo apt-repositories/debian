@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rawler-dev",
 	"source": "rust-rawler",
-	"version": "0.7.2+dfsg-1",
+	"version": "0.7.2+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -39,17 +39,20 @@
 		"librust-uuid-1+default-dev",
 		"librust-uuid-1+serde-dev",
 		"librust-uuid-1+v4-dev",
-		"librust-weezl-0.1+default-dev (>= 0.1.7)",
+		"librust-weezl-0.2+default-dev",
 		"librust-zerocopy-0.8+default-dev (>= 0.8.26)",
 		"librust-zerocopy-0.8+derive-dev (>= 0.8.26)"
 	],
-	"installedSize": 2704,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 2705,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Extract images and metadata from camera raw formats - Rust source code",
 	"homepage": "https://github.com/dnglab/dnglab",
-	"filename": "pool/main/r/rust-rawler/librust-rawler-dev_0.7.2+dfsg-1_amd64.deb",
-	"size": 326044,
-	"md5": "4e3710843621d62bee2231c458c5089f",
-	"sha256": "3711b42dcdf5bc26bbbafe83334b0bd1955aef8b6bd06b40e474584caa6f3ae5",
+	"filename": "pool/main/r/rust-rawler/librust-rawler-dev_0.7.2+ds-1_amd64.deb",
+	"size": 326248,
+	"md5": "b380ea443a5bb1b7ff4a4693e0dc23fb",
+	"sha256": "325424c64f043db3c1b74a19015fd1fa9723121f8429d00dba683054407d7575",
 	"descriptionMd5": "22f01ca921c704a960eb2abc47f374f4"
 }

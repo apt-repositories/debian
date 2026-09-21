@@ -5,18 +5,19 @@
 		"Size"
 	],
 	"package": "ddd",
-	"source": "ddd (1:3.3.12-5.4)",
-	"version": "1:3.3.12-5.4+b1",
+	"version": "1:3.4.1-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.35)",
+		"libc6 (>= 2.38)",
+		"libfontconfig1 (>= 2.12.6)",
 		"libgcc-s1 (>= 3.0)",
-		"libstdc++6 (>= 13.1)",
+		"libstdc++6 (>= 14)",
 		"libtinfo6 (>= 6)",
 		"libx11-6",
-		"libxaw7 (>= 2:1.0.14)",
+		"libxaw7 (>= 2:1.0.16)",
+		"libxft2 (>> 2.1.1)",
 		"libxm4 (>= 2.3.4)",
 		"libxmu6 (>= 2:1.1.3)",
 		"libxpm4",
@@ -27,16 +28,16 @@
 		"sensible-utils"
 	],
 	"suggests": [
+		"cups-bsd | lpr",
 		"ddd-doc",
+		"glibc-doc",
+		"gnuplot",
+		"info",
 		"perl (>= 5.8.0)",
 		"pydb",
-		"info",
-		"glibc-doc",
-		"xterm",
-		"x11-utils",
-		"gnuplot",
 		"rsh-client",
-		"cups-bsd | lpr"
+		"x11-utils",
+		"xterm"
 	],
 	"replaces": [
 		"ddd-dmotif",
@@ -46,13 +47,13 @@
 		"ddd-dmotif",
 		"ddd-smotif"
 	],
-	"installedSize": 4210,
+	"installedSize": 5094,
 	"maintainer": "Daniel Schepler <schepler@debian.org>",
 	"description": "Data Display Debugger, a graphical debugger frontend",
-	"homepage": "http://www.gnu.org/software/ddd/",
-	"filename": "pool/main/d/ddd/ddd_3.3.12-5.4+b1_amd64.deb",
-	"size": 1334780,
-	"md5": "00286cbaff5115b0b8310307bfed8aba",
-	"sha256": "5115c68ffe57f0fbe24d557077c538d1194b4326bfa189ea756dbfc012e1b119",
+	"homepage": "https://www.gnu.org/software/ddd/",
+	"filename": "pool/main/d/ddd/ddd_3.4.1-1_amd64.deb",
+	"size": 1561856,
+	"md5": "cc5f9f799d43b212dce1375b8db9b555",
+	"sha256": "597a8981a39dd98640a9634fe976bdbd7fd5999afd2175c43e1fb9600be556ea",
 	"descriptionMd5": "99412659cdd3cea2e73b7607c5694cdf"
 }
