@@ -5,28 +5,30 @@
 		"Size"
 	],
 	"package": "pd-vbap",
-	"version": "1.2.1-2",
+	"version": "1.2.1-3",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"puredata | pd | puredata64 | pd64",
-		"libc6 (>= 2.4)"
+		"libc6 (>= 2.43)",
+		"puredata-core | pd | puredata64-core | pd64"
 	],
 	"recommends": [
 		"pd-cyclone",
-		"pd-import"
+		"pd-import",
+		"puredata | puredata64"
 	],
 	"suggests": [
-		"pd-libdir"
+		"pd-libdir",
+		"pd64-libdir"
 	],
 	"installedSize": 224,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "Pd library for Vector Base Amplitude Panning spatialization",
-	"homepage": "http://www.acoustics.hut.fi/research/cat/vbap/",
-	"filename": "pool/main/p/pd-vbap/pd-vbap_1.2.1-2_amd64.deb",
-	"size": 45572,
-	"md5": "3b0a4c241b5cae0b298fad33daf14d3f",
-	"sha256": "46e2d3b6cb68959ec75cd7c74cda9bac342858b7b5d1bee09baa5424024f8b34",
+	"homepage": "https://github.com/pd-externals/vbap",
+	"filename": "pool/main/p/pd-vbap/pd-vbap_1.2.1-3_amd64.deb",
+	"size": 48340,
+	"md5": "b09bebf56bb10eb3afee8e8715ccfa0e",
+	"sha256": "3b0e5f6869d8eda1f8c5a798773feb922fdcc166af9891bbdc5a76f4e510db2c",
 	"descriptionMd5": "1267b8ee1f6655c81014f44b0256cdd5"
 }

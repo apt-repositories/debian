@@ -5,28 +5,29 @@
 		"Size"
 	],
 	"package": "dconf-service",
-	"source": "dconf (0.49.0-4)",
-	"version": "0.49.0-4+b1",
+	"source": "dconf",
+	"version": "51.0-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"default-dbus-session-bus | dbus-session-bus",
-		"libdconf1 (= 0.49.0-4+b1)",
+		"libdconf1 (= 51.0-2)",
 		"procps",
+		"init-system-helpers (>= 1.66~)",
 		"libc6 (>= 2.34)",
 		"libglib2.0-0t64 (>= 2.83.0)"
 	],
 	"recommends": [
 		"dconf-gsettings-backend"
 	],
-	"installedSize": 116,
+	"installedSize": 122,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "simple configuration storage system - D-Bus service",
 	"homepage": "https://wiki.gnome.org/Projects/dconf",
-	"filename": "pool/main/d/dconf/dconf-service_0.49.0-4+b1_amd64.deb",
-	"size": 32580,
-	"md5": "6b8ef2736328463b6956bfe90386f3b9",
-	"sha256": "3e57ed682ad370eabeffb7fdf8edf6eeb292148509f77dc518f591037f22f1a8",
+	"filename": "pool/main/d/dconf/dconf-service_51.0-2_amd64.deb",
+	"size": 36260,
+	"md5": "b5e696c9059252908bde251d4f5c6516",
+	"sha256": "763e261b70a1bf77e9fd0ab4f2f1e8c280fa21523e2ea77ccd3b4a5c78649854",
 	"descriptionMd5": "8339e79de2cc17111e9f391efbb6d79f"
 }
