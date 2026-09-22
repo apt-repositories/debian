@@ -6,19 +6,20 @@
 	],
 	"package": "bucklespring-libinput",
 	"source": "bucklespring",
-	"version": "1.5.1-2",
+	"version": "1.5.1-3",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libalure1 (>= 1.1)",
 		"libc6 (>= 2.38)",
-		"libinput10 (>= 0.15.0)",
+		"libinput10 (>= 1.19.1)",
 		"libopenal1 (>= 1.14)",
 		"libudev1 (>= 183)",
+		"libwayland-client0 (>= 1.20.0)",
 		"debconf (>= 0.5) | debconf-2.0",
 		"init-system-helpers (>= 1.66~)",
-		"bucklespring-data (>= 1.5.1-2)"
+		"bucklespring-data (>= 1.5.1-3)"
 	],
 	"replaces": [
 		"bucklespring (<< 1.5.1-2~)"
@@ -26,13 +27,13 @@
 	"conflicts": [
 		"bucklespring (<< 1.5.1-2~)"
 	],
-	"installedSize": 71,
+	"installedSize": 77,
 	"maintainer": "Barak A. Pearlmutter <bap@debian.org>",
 	"description": "Nostalgia bucklespring keyboard sound - libinput flavour",
 	"homepage": "https://github.com/zevv/bucklespring",
-	"filename": "pool/main/b/bucklespring/bucklespring-libinput_1.5.1-2_amd64.deb",
-	"size": 18668,
-	"md5": "44b8e3ca6952cfeed60a592cfa903ae2",
-	"sha256": "744348abf9911b2be7b356c8c7ce391b0383cd7af932309962e8613941401ce9",
+	"filename": "pool/main/b/bucklespring/bucklespring-libinput_1.5.1-3_amd64.deb",
+	"size": 27072,
+	"md5": "918c772e85dc55e066fe1bd303fc3d51",
+	"sha256": "465609c0e4395221f08040c6489073c69fc8a40d74f6c1c65bb0d92f1c850ca3",
 	"descriptionMd5": "20edb6b0bd1c7aecd60b6c61e9b04e0f"
 }

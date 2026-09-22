@@ -5,14 +5,14 @@
 		"Size"
 	],
 	"package": "krita",
-	"source": "krita (1:5.3.3+dfsg-1)",
-	"version": "1:5.3.3+dfsg-1+b1",
+	"version": "1:5.3.4+dfsg-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"krita-data (>= 1:5.3.3+dfsg-1)",
+		"krita-data (>= 1:5.3.4+dfsg-1)",
 		"libqt5sql5-sqlite",
+		"qml-module-qtquick-controls2",
 		"qml-module-qtqml",
 		"qml-module-qtquick-controls",
 		"qml-module-qtquick-layouts",
@@ -54,6 +54,7 @@
 		"libpoppler-qt5-1t64 (>= 0.24.5)",
 		"libpython3.14 (>= 3.14.1)",
 		"libqt5core5t64 (>= 5.15.1)",
+		"libqt5dbus5t64 (>= 5.15.0~)",
 		"libqt5gui5t64 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~)",
 		"libqt5network5t64 (>= 5.15.1)",
 		"libqt5printsupport5t64 (>= 5.15.0~)",
@@ -83,17 +84,16 @@
 		"qml-module-qtmultimedia"
 	],
 	"suggests": [
-		"colord",
 		"ffmpeg",
-		"krita-l10n (>= 1:5.3.3+dfsg-1)"
+		"krita-l10n (>= 1:5.3.4+dfsg-1)"
 	],
-	"installedSize": 103399,
+	"installedSize": 103544,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "pixel-based image manipulation program",
 	"homepage": "https://krita.org/",
-	"filename": "pool/main/k/krita/krita_5.3.3+dfsg-1+b1_amd64.deb",
-	"size": 24987540,
-	"md5": "043e17477efae0f3b9a0f057d15317e1",
-	"sha256": "9fb6dddcd33e4492d96c753884367404cbc9b2cfed5806013a4f43e70192f956",
+	"filename": "pool/main/k/krita/krita_5.3.4+dfsg-1_amd64.deb",
+	"size": 24992032,
+	"md5": "92d9579d9baa4c35289032c2b45a0136",
+	"sha256": "2b979bd947cdab2835ebc46a4d69fb49610ed2072fce3ea462a92ad757df111b",
 	"descriptionMd5": "cad766809ad07bc61817bcf9d8a74ddb"
 }

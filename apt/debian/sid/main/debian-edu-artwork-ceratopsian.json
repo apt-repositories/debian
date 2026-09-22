@@ -6,23 +6,40 @@
 	],
 	"package": "debian-edu-artwork-ceratopsian",
 	"source": "debian-edu-artwork",
-	"version": "2.13.1-1",
+	"version": "2.13.3-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "all",
-	"depends": [
+	"preDepends": [
 		"desktop-base"
 	],
 	"recommends": [
-		"debian-edu-artwork"
+		"debian-edu-artwork",
+		"plymouth-label"
 	],
-	"installedSize": 2948,
+	"replaces": [
+		"debian-edu-artwork-buster",
+		"debian-edu-artwork-emerald",
+		"debian-edu-artwork-futureprototype",
+		"debian-edu-artwork-homeworld",
+		"debian-edu-artwork-softwaves",
+		"debian-edu-artwork-spacefun"
+	],
+	"breaks": [
+		"debian-edu-artwork-buster",
+		"debian-edu-artwork-emerald",
+		"debian-edu-artwork-futureprototype",
+		"debian-edu-artwork-homeworld",
+		"debian-edu-artwork-softwaves",
+		"debian-edu-artwork-spacefun"
+	],
+	"installedSize": 2949,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
-	"description": "Debian Edu Ceratopsian \"trixie\" theme and artwork",
+	"description": "Debian Edu Ceratopsian (\"trixie\" aka Debian 13) theme and artwork",
 	"homepage": "https://blends.debian.org/edu",
-	"filename": "pool/main/d/debian-edu-artwork/debian-edu-artwork-ceratopsian_2.13.1-1_all.deb",
-	"size": 1745220,
-	"md5": "ee1c378b9171df3ff2faa41382df3003",
-	"sha256": "b165d56bb74bea0a9a9797616fd3252572ef3c3d8cd661409aa4cabc35902079",
-	"descriptionMd5": "ffff838ffee0e41c35f60c0dcfc7112e"
+	"filename": "pool/main/d/debian-edu-artwork/debian-edu-artwork-ceratopsian_2.13.3-1_all.deb",
+	"size": 1743984,
+	"md5": "6bab594d4d66926277975a3856479bf9",
+	"sha256": "906bfdd3f7d90dca033ac8d2162921e01a3a6041f93037056b950110a9815013",
+	"descriptionMd5": "6626fe542b559f482039d288a6802394"
 }
