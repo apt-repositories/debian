@@ -6,17 +6,16 @@
 	],
 	"package": "udev",
 	"source": "systemd",
-	"version": "262~rc3-1",
+	"version": "262-1",
 	"section": "admin",
 	"priority": "important",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.34)",
-		"libsystemd-shared (= 262~rc3-1)",
+		"libsystemd-shared (= 262-1)",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libkmod2",
-		"libudev1 (= 262~rc3-1)"
+		"libudev1 (= 262-1)"
 	],
 	"recommends": [
 		"libacl1",
@@ -32,18 +31,18 @@
 		"systemd (<< 261.1-3~)"
 	],
 	"breaks": [
-		"systemd (<< 262~rc3-1)"
+		"systemd (<< 262-1)"
 	],
 	"conflicts": [
 		"systemd (<< 261.1-3~)"
 	],
-	"installedSize": 10745,
+	"installedSize": 10754,
 	"maintainer": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
 	"description": "/dev/ and hotplug management daemon",
 	"homepage": "https://systemd.io",
-	"filename": "pool/main/s/systemd/udev_262~rc3-1_amd64.deb",
-	"size": 1494220,
-	"md5": "1f10f12d803b315928a2a71ca67cd665",
-	"sha256": "ae49ba1421e0c7270af02a99be1f99fccdfdc6d404ea58bf38283b9ad9137ddf",
+	"filename": "pool/main/s/systemd/udev_262-1_amd64.deb",
+	"size": 1494460,
+	"md5": "79cdd4b8ebd44c3e9ac818d6167666e5",
+	"sha256": "0878367b18c0e77e961d632d5d1cc614058f162b2391fbe5a3b0eb33cfc96bed",
 	"descriptionMd5": "e875ddb09f46f1f7672af537f0c875ca"
 }]

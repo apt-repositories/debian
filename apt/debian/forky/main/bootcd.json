@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "bootcd",
-	"version": "6.11.1",
+	"version": "6.11.2",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"busybox | busybox-static | busybox-cvs | busybox-cvs-static",
+		"busybox",
 		"cpio",
 		"dosfstools",
 		"e2fsprogs",
@@ -20,7 +20,6 @@
 		"initramfs-tools",
 		"grub-efi-amd64-bin | grub-efi-arm64-bin",
 		"isolinux",
-		"lsb-base (>= 3.0-6)",
 		"mtools",
 		"rsync",
 		"shellia (>= 5.9)",
@@ -41,12 +40,12 @@
 		"bootcd-ia64",
 		"bootcd-mkinitramfs"
 	],
-	"installedSize": 438,
+	"installedSize": 440,
 	"maintainer": "Bernd Schumacher <bernd@bschu.de>",
-	"description": "bootcd tools can copy a running or mounted Debian system.",
-	"filename": "pool/main/b/bootcd/bootcd_6.11.1_all.deb",
-	"size": 85476,
-	"md5": "fcf09263b8d97062a2c7f381f8393299",
-	"sha256": "193b3a50833925b1c75f4122aac586b75b7e1a1f22145dfcd039736e6c198a38",
-	"descriptionMd5": "c11b117611c2ea47e742119e6f9df8d2"
+	"description": "tools can copy a running or mounted Debian system.",
+	"filename": "pool/main/b/bootcd/bootcd_6.11.2_all.deb",
+	"size": 87280,
+	"md5": "1b2e69bfff57b9b4dcc646643d117ca9",
+	"sha256": "2cf1d4ceed55926bb56fd063d96461cae3b39914970d8654bc6af4b2ececb314",
+	"descriptionMd5": "a323ef27ed48184f18152221e2293ae1"
 }

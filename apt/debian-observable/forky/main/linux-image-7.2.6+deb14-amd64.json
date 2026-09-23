@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.2.6+deb14-amd64",
+	"source": "linux-signed-amd64 (7.2.6+1)",
+	"version": "7.2.6-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.2.6+deb14-amd64 (= 7.2.6-1)",
+		"linux-binary-7.2.6+deb14-amd64 (= 7.2.6-1)",
+		"linux-modules-7.2.6+deb14-amd64 (= 7.2.6-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.17~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.2"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.2.6 for 64-bit PCs",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.2.6+deb14-amd64_7.2.6-1_amd64.deb",
+	"size": 1888,
+	"md5": "0db758c5f099965842ccaae09e5ea0b3",
+	"sha256": "ec0e02a24aa38702f4699c55fb48d1420a5f9614da59a3412492aaa42506e0e5",
+	"descriptionMd5": "7f439938a4f14c8157f476c683f6e45a"
+}]
