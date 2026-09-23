@@ -6,20 +6,24 @@
 	],
 	"package": "golang-k8s-klog-dev",
 	"source": "golang-k8s-klog",
-	"version": "2.130.1-1",
+	"version": "2.140.0-5",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"golang-github-go-logr-logr-dev (>= 1.4.2~)"
 	],
-	"installedSize": 483,
+	"breaks": [
+		"golang-github-openshift-imagebuilder-dev (<< 1.2.22+ds1-2~)",
+		"golang-k8s-kube-openapi (<< 0.0~git20260721.d427ff9~)"
+	],
+	"installedSize": 513,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "leveled execution logs for Go (library)",
 	"homepage": "https://github.com/kubernetes/klog",
-	"filename": "pool/main/g/golang-k8s-klog/golang-k8s-klog-dev_2.130.1-1_all.deb",
-	"size": 79388,
-	"md5": "3f6411dd1a625647abc917101ad8e477",
-	"sha256": "695e4ed297b76778523ab183a36940c3c4a26b74708e5e02bbf177c5dae050c4",
+	"filename": "pool/main/g/golang-k8s-klog/golang-k8s-klog-dev_2.140.0-5_all.deb",
+	"size": 83464,
+	"md5": "1474e80d255d30c9a7e3086d43a57c0b",
+	"sha256": "49847276d9f75a2ff5c8e24d368a79e79ece289b66c521d4a4fc7976f5eea979",
 	"descriptionMd5": "26472b197187207f5839602f74d4d1ca"
 }]

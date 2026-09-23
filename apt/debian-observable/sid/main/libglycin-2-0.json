@@ -6,7 +6,7 @@
 	],
 	"package": "libglycin-2-0",
 	"source": "glycin",
-	"version": "2.2.1+ds-1",
+	"version": "2.2.1+ds-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"libglib2.0-0t64 (>= 2.68.0)",
 		"libseccomp2 (>= 2.1.0)"
 	],
+	"breaks": [
+		"viking (<< 1.11+git20260816.2a242096-2~)"
+	],
 	"installedSize": 4769,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "sandboxed image loaders for GNOME",
 	"homepage": "https://gitlab.gnome.org/GNOME/glycin",
-	"filename": "pool/main/g/glycin/libglycin-2-0_2.2.1+ds-1_amd64.deb",
-	"size": 1614872,
-	"md5": "35ea57394eb10c44791cd7fa07745e03",
-	"sha256": "53e3ab0806e6d4dd9026f35f97d1aa4d1dd0756fd1d1ec4764dfbc3d047f39a0",
+	"filename": "pool/main/g/glycin/libglycin-2-0_2.2.1+ds-2_amd64.deb",
+	"size": 1615096,
+	"md5": "bd82f98c49772ae1b4ead7d408a949ff",
+	"sha256": "8c6a77ec1b436e08325c00f12cf7c77e7bb23e5cca252019920bce6f14483d67",
 	"descriptionMd5": "8ed3fffd876091065b7a167fffe796e3"
 }]

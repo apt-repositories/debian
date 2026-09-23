@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "vlc-plugin-base",
-	"source": "vlc (3.0.23-3)",
-	"version": "3.0.23-3+b5",
+	"source": "vlc",
+	"version": "3.0.24-1",
 	"section": "video",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"vlc-data (= 3.0.23-3)",
+		"vlc-data (= 3.0.24-1)",
+		"vlc-plugin-abi-3-0-0ft64",
 		"libarchive13t64 (>= 3.1.2)",
 		"libaribb24-0t64 (>= 1.0.3)",
 		"libasound2t64 (>= 1.0.27)",
@@ -64,6 +65,7 @@
 		"libpulse0 (>= 1.0)",
 		"libraw1394-11 (>= 2.1.2)",
 		"libresid-builder0c2a (>= 2.1.1)",
+		"librist4 (>= 0.2.6+dfsg)",
 		"librsvg2-2 (>= 2.14.4)",
 		"libsamplerate0 (>= 0.1.7)",
 		"libsecret-1-0 (>= 0.7)",
@@ -74,7 +76,7 @@
 		"libspatialaudio2 (>= 0.4.1)",
 		"libspeex1 (>= 1.2~)",
 		"libspeexdsp1 (>= 1.2.1)",
-		"libssh2-1t64 (>= 1.2.3)",
+		"libssh2-1t64 (>= 1.2.8)",
 		"libstdc++6 (>= 14)",
 		"libswscale10 (>= 7:9.0.2)",
 		"libsystemd0",
@@ -87,7 +89,7 @@
 		"libupnp17t64 (>= 1:1.14.0)",
 		"libva-drm2 (>= 1.1.0)",
 		"libva2 (>= 2.2.0)",
-		"libvlccore9 (>= 3.0.23)",
+		"libvlccore9 (>= 3.0.24)",
 		"libvorbis0a (>= 1.1.2)",
 		"libvorbisenc2 (>= 1.1.2)",
 		"libx264-165 (>= 2:0.165.3223+git20250910.0480cb0)",
@@ -96,8 +98,7 @@
 		"libxcb1",
 		"libxml2-16 (>= 2.14.1)",
 		"libzvbi0t64 (>= 0.2.35)",
-		"zlib1g (>= 1:1.1.4)",
-		"vlc-plugin-abi-3-0-0ft64"
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"recommends": [
 		"xdg-utils"
@@ -105,13 +106,13 @@
 	"suggests": [
 		"libdvdcss2"
 	],
-	"installedSize": 13513,
+	"installedSize": 13283,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "multimedia player and streamer (base plugins)",
 	"homepage": "https://www.videolan.org/vlc/",
-	"filename": "pool/main/v/vlc/vlc-plugin-base_3.0.23-3+b5_amd64.deb",
-	"size": 3267084,
-	"md5": "697b76562f887e8a5553011012cac122",
-	"sha256": "7bfdba1e419bcad887a045a91b1ff0753f2ba9e9fadb6348a95cd9a0150280cf",
+	"filename": "pool/main/v/vlc/vlc-plugin-base_3.0.24-1_amd64.deb",
+	"size": 3268092,
+	"md5": "41aefe18e4292e33c0581350a506c1d2",
+	"sha256": "ac59196fc795b03a812e93b4bd9779d13a30984834d6eb6823de0268c7c87c14",
 	"descriptionMd5": "696662fcba553c8492b1866c5a57a214"
 }
