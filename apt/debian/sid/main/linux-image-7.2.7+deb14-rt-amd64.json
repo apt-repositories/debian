@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.2.7+deb14-rt-amd64",
+	"source": "linux-signed-amd64 (7.2.7+1)",
+	"version": "7.2.7-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.2.7+deb14-rt-amd64 (= 7.2.7-1)",
+		"linux-binary-7.2.7+deb14-rt-amd64 (= 7.2.7-1)",
+		"linux-modules-7.2.7+deb14-rt-amd64 (= 7.2.7-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.17~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.2"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.2.7 for 64-bit PCs, PREEMPT_RT",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.2.7+deb14-rt-amd64_7.2.7-1_amd64.deb",
+	"size": 1932,
+	"md5": "be4003cb8e01e9f36d76378ff94c3ea4",
+	"sha256": "ffa4d87a6b4b2b5d3accd0fc127812862dc14477a4c4773b1fa74f5ffe20e5c8",
+	"descriptionMd5": "ee0122c23f778829310ac8314335559c"
+}

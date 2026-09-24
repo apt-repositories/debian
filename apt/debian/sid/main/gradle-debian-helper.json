@@ -5,21 +5,22 @@
 		"Size"
 	],
 	"package": "gradle-debian-helper",
-	"version": "2.4",
+	"version": "2.5",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"default-jre-headless | java7-runtime-headless",
-		"gradle (>= 4.4.1-18~)",
+		"gradle (>= 4.5)",
+		"libgradle-kotlin-dsl-java (>= 0.14.2-2~)",
 		"maven-repo-helper"
 	],
-	"installedSize": 92,
+	"installedSize": 93,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Helper tools for building Debian packages with Gradle",
-	"filename": "pool/main/g/gradle-debian-helper/gradle-debian-helper_2.4_all.deb",
-	"size": 24492,
-	"md5": "b0a46232ca49bef1ccbca846d421b696",
-	"sha256": "f4f49e24b169fc406143a268aa27a0f61b4274705a0feefd427f3e1b511bd7fa",
+	"filename": "pool/main/g/gradle-debian-helper/gradle-debian-helper_2.5_all.deb",
+	"size": 24740,
+	"md5": "46261f2082eb34eb096be871f3a2be32",
+	"sha256": "a02b8624d0f66da7e472c552aa00bddcc8d45f8cc348bb5e89d76f72132e303e",
 	"descriptionMd5": "ecdc14ab6558e348c752209d5b6475e2"
 }
