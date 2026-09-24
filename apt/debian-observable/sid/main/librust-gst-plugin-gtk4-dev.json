@@ -6,11 +6,12 @@
 	],
 	"package": "librust-gst-plugin-gtk4-dev",
 	"source": "rust-gst-plugin-gtk4",
-	"version": "0.15.2-1",
+	"version": "0.15.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libgtk-4-dev (>= 4.24)",
 		"librust-async-channel-2+default-dev",
 		"librust-gdk4-wayland-0.11+default-dev",
 		"librust-gdk4-wayland-0.11+v4-4-dev",
@@ -35,22 +36,24 @@
 		"librust-gstreamer-video-0.25+v1-18-dev",
 		"librust-gstreamer-video-0.25+v1-24-dev",
 		"librust-gstreamer-video-0.25+v1-28-dev",
-		"librust-gtk4-0.11+default-dev",
+		"librust-gtk4-0.11+default-dev (>= 0.11.5)",
 		"librust-gtk4-0.11+v4-10-dev",
 		"librust-gtk4-0.11+v4-12-dev",
 		"librust-gtk4-0.11+v4-14-dev",
 		"librust-gtk4-0.11+v4-16-dev",
 		"librust-gtk4-0.11+v4-18-dev",
-		"librust-gtk4-0.11+v4-20-dev",
-		"librust-gtk4-0.11+v4-6-dev"
+		"librust-gtk4-0.11+v4-20-dev"
 	],
-	"installedSize": 191,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 193,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "GStreamer GTK 4 sink element - Rust source code",
 	"homepage": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs",
-	"filename": "pool/main/r/rust-gst-plugin-gtk4/librust-gst-plugin-gtk4-dev_0.15.2-1_amd64.deb",
-	"size": 34816,
-	"md5": "39acbbad96da0ecff699e08d1504a39c",
-	"sha256": "6c40c87a2bdb11b11f83e0af82cee37a6a85299db5eb63482e51bb90577f4fa6",
+	"filename": "pool/main/r/rust-gst-plugin-gtk4/librust-gst-plugin-gtk4-dev_0.15.2-2_amd64.deb",
+	"size": 35504,
+	"md5": "c3d43b1357c6e636c71227efec84f800",
+	"sha256": "c797bbdeed915c68e421e5848ce00fc1f216da56f713c49ec3a4bd08b8f7395f",
 	"descriptionMd5": "7d34e29e9fda43512f28225bcf67486d"
 }]

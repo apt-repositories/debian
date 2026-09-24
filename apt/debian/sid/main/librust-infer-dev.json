@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-infer-dev",
-	"source": "rust-infer (0.19.0-1)",
-	"version": "0.19.0-1+b1",
+	"source": "rust-infer",
+	"version": "0.22.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cfb-0.10+default-dev"
+		"librust-cfb-0.15+default-dev"
 	],
-	"installedSize": 125,
+	"breaks": [
+		"rustc (<< 1.74~)"
+	],
+	"installedSize": 127,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Small crate to infer file type based on magic number signatures - Rust source code",
 	"homepage": "https://github.com/bojand/infer",
-	"filename": "pool/main/r/rust-infer/librust-infer-dev_0.19.0-1+b1_amd64.deb",
-	"size": 19868,
-	"md5": "719f61299b9b3ab0e7533843dbb60c98",
-	"sha256": "e878975f14709a6f137d8238e59aec6e9a72e2a1b10d504c06aac5a4f8d812e3",
+	"filename": "pool/main/r/rust-infer/librust-infer-dev_0.22.0-1_amd64.deb",
+	"size": 20396,
+	"md5": "dc4d4ff97c97a2c7995d632c6bd875e2",
+	"sha256": "6064dd8037e3a7e675ab515344a6fc3c82c182f0fbbc48a04b5b0e8c26bb2ad6",
 	"descriptionMd5": "891f65777e46fad2269825852777e698"
 }

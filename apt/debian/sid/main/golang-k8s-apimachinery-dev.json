@@ -6,7 +6,7 @@
 	],
 	"package": "golang-k8s-apimachinery-dev",
 	"source": "golang-k8s-apimachinery",
-	"version": "0.36.4-2",
+	"version": "0.36.4-3",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -34,13 +34,16 @@
 		"golang-k8s-streaming-dev",
 		"golang-k8s-utils-dev"
 	],
+	"breaks": [
+		"golang-k8s-api-dev (<< 0.36.4~)"
+	],
 	"installedSize": 4479,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Shared typings for Kubernetes servers and clients (library)",
 	"homepage": "https://github.com/kubernetes/apimachinery",
-	"filename": "pool/main/g/golang-k8s-apimachinery/golang-k8s-apimachinery-dev_0.36.4-2_all.deb",
-	"size": 557968,
-	"md5": "cc5002ede42948f54462597d221cac5f",
-	"sha256": "219696ec1f6c6c6bb9ef2e97a5adfdad5dd4f28769fdb7aba5701f1f24521218",
+	"filename": "pool/main/g/golang-k8s-apimachinery/golang-k8s-apimachinery-dev_0.36.4-3_all.deb",
+	"size": 557884,
+	"md5": "0a00a35ec46983b3e32a4e097ee9b1b1",
+	"sha256": "020045b2e32576be3350f382133cefaa6342f17ab8df24175667f6882b32925b",
 	"descriptionMd5": "56d8a889aee4da183bddca876caf5d3c"
 }

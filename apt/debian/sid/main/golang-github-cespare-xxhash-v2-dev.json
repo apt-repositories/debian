@@ -6,17 +6,23 @@
 	],
 	"package": "golang-github-cespare-xxhash-v2-dev",
 	"source": "golang-github-cespare-xxhash-v2",
-	"version": "2.3.0-1",
+	"version": "2.3.0-4",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
+	"replaces": [
+		"golang-github-cespare-xxhash-dev (<< 2.3.0-4~)"
+	],
+	"breaks": [
+		"golang-github-cespare-xxhash-dev (<< 2.3.0-4~)"
+	],
 	"installedSize": 47,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Go implementation of the 64-bit xxHash algorithm (XXH64)",
 	"homepage": "https://github.com/cespare/xxhash",
-	"filename": "pool/main/g/golang-github-cespare-xxhash-v2/golang-github-cespare-xxhash-v2-dev_2.3.0-1_all.deb",
-	"size": 10904,
-	"md5": "320539fc8602bae2bd465dbd6b5488ad",
-	"sha256": "44714b598855cfac4630db95a02fc8144121300b5554af1d0b5bd3db7f5ce2da",
+	"filename": "pool/main/g/golang-github-cespare-xxhash-v2/golang-github-cespare-xxhash-v2-dev_2.3.0-4_all.deb",
+	"size": 11160,
+	"md5": "324bc1875f609715db5599787f579672",
+	"sha256": "41d37cb1a3956a319a0f9b975b9518a8d1128e79fc0c38bb4e32b3354e14c325",
 	"descriptionMd5": "81805bb35b0d2d680734a457b8fa362f"
 }
