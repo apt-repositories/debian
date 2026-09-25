@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "r-bioc-dropletutils",
-	"version": "1.26.0+ds-3",
+	"version": "1.32.0+dfsg-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"r-api-4.0",
-		"r-api-bioc-3.20",
+		"r-api-bioc-3.23",
 		"r-bioc-singlecellexperiment",
 		"r-cran-matrix",
 		"r-cran-rcpp",
@@ -30,25 +30,25 @@
 		"r-cran-r.utils",
 		"r-cran-dqrng",
 		"r-bioc-beachmat",
-		"r-bioc-scuttle",
+		"r-bioc-scuttle (>= 1.21.4)",
+		"r-bioc-assorthead",
 		"r-bioc-rhdf5lib",
 		"r-cran-bh",
-		"libc6 (>= 2.29)",
-		"libgcc-s1 (>= 3.0)",
-		"libhdf5-310 (>= 1.14.3)",
-		"libhdf5-cpp-310 (>= 1.14.3)",
-		"libstdc++6 (>= 14)"
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libgcc-s1 (>= 12)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"r-pkg-team-core-architecture",
+		"build-essential"
 	],
-	"suggests": [
-		"r-cran-jsonlite"
-	],
-	"installedSize": 764,
+	"installedSize": 7077,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
-	"description": "BioConductor utilities for handling single-cell droplet data",
+	"description": "Utilities for Handling Single-Cell Droplet Data",
 	"homepage": "https://bioconductor.org/packages/DropletUtils/",
-	"filename": "pool/main/r/r-bioc-dropletutils/r-bioc-dropletutils_1.26.0+ds-3_amd64.deb",
-	"size": 412480,
-	"md5": "f2a0a101d4a7616a9be6ad1f4249b9f9",
-	"sha256": "11c8a86886f3001a4db9d1adbf6a5a42ba34a9ca7b3997a66d09f046dd0181a8",
-	"descriptionMd5": "5929892eb4b63e00f4a06a3db334d42f"
+	"filename": "pool/main/r/r-bioc-dropletutils/r-bioc-dropletutils_1.32.0+dfsg-1_amd64.deb",
+	"size": 2333240,
+	"md5": "bb731240fecd32df0cdef159edc8f729",
+	"sha256": "3aaaa6105422b9d33cd8e9e7c1bf3951a2ce8036d2e6cb0df364d430d1f266d3",
+	"descriptionMd5": "658d046d531675857f5fff7f7b5e66be"
 }]

@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "debian-edu-artwork",
-	"version": "2.13.4-1",
+	"version": "2.13.5-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,19 +17,33 @@
 	"suggests": [
 		"debian-edu-artwork-spacefun"
 	],
+	"replaces": [
+		"debian-edu-artwork-ceratopsian (<< 2.13.5-1~)",
+		"debian-edu-artwork-emerald (<< 2.13.5-1~)",
+		"debian-edu-artwork-futureprototype (<< 2.13.5-1~)",
+		"debian-edu-artwork-homeworld (<< 2.13.5-1~)",
+		"debian-edu-artwork-softwaves (<< 2.13.5-1~)"
+	],
 	"enhances": [
 		"gdm3",
 		"lightdm",
 		"sddm",
 		"slim"
 	],
-	"installedSize": 82,
+	"breaks": [
+		"debian-edu-artwork-ceratopsian (<< 2.13.5-1~)",
+		"debian-edu-artwork-emerald (<< 2.13.5-1~)",
+		"debian-edu-artwork-futureprototype (<< 2.13.5-1~)",
+		"debian-edu-artwork-homeworld (<< 2.13.5-1~)",
+		"debian-edu-artwork-softwaves (<< 2.13.5-1~)"
+	],
+	"installedSize": 270,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "Debian Edu themes and artwork",
 	"homepage": "https://blends.debian.org/edu",
-	"filename": "pool/main/d/debian-edu-artwork/debian-edu-artwork_2.13.4-1_all.deb",
-	"size": 48808,
-	"md5": "500f33193730200850fd5e72804d8ac0",
-	"sha256": "a82d097390f59c556d12c1fb7c5c43ac25a9b39005d76d44eb695fc7de605def",
+	"filename": "pool/main/d/debian-edu-artwork/debian-edu-artwork_2.13.5-1_all.deb",
+	"size": 204272,
+	"md5": "b29dca048a5539aff62c7cc53ca3f0c2",
+	"sha256": "9c39b3fbbb5a3fb5f81e0f370efec2420b1b29981f344690c74e0cc1a8306584",
 	"descriptionMd5": "3312440eeae438142fc0dcbdb5078f09"
 }

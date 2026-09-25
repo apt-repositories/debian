@@ -5,23 +5,29 @@
 		"Size"
 	],
 	"package": "librust-typewit-dev",
-	"source": "rust-typewit (1.12.1-1)",
-	"version": "1.12.1-1+b1",
+	"source": "rust-typewit",
+	"version": "1.15.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-postcard-1-dev",
+		"librust-serde-1-dev (>= 1.0.200)",
+		"librust-serde-json-1+alloc-dev",
 		"librust-trybuild-1+default-dev",
-		"librust-typewit-proc-macros-1.8+default-dev (<< 1.8.2-~~)",
-		"librust-typewit-proc-macros-1.8+default-dev (>= 1.8.1-~~)"
+		"librust-typewit-proc-macros-1.8+default-dev (<< 1.8.2)",
+		"librust-typewit-proc-macros-1.8+default-dev (>= 1.8.1)"
 	],
-	"installedSize": 335,
+	"breaks": [
+		"rustc (<< 1.57.0~)"
+	],
+	"installedSize": 389,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "abstractions for creating type witnesses - Rust source code",
 	"homepage": "https://github.com/rodrimati1992/typewit/",
-	"filename": "pool/main/r/rust-typewit/librust-typewit-dev_1.12.1-1+b1_amd64.deb",
-	"size": 53968,
-	"md5": "49d617b74f27f01dac4cb863e1e024ba",
-	"sha256": "b9a88c8e824edc98e6048746a95f768a856705ca3e131bddcddb7c704cdc8a26",
+	"filename": "pool/main/r/rust-typewit/librust-typewit-dev_1.15.2-1_amd64.deb",
+	"size": 63136,
+	"md5": "ff6c6e4c11229d438d1d48c1bf7dd1e4",
+	"sha256": "2f2bf8c4cf3bdb7ab9813cc295a451aeab8d4b2383fa8c4afcf99d60455053ad",
 	"descriptionMd5": "88a20245e4731397f6b1e91653dbc220"
 }]

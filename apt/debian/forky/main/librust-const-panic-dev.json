@@ -5,23 +5,27 @@
 		"Size"
 	],
 	"package": "librust-const-panic-dev",
-	"source": "rust-const-panic (0.2.13-1)",
-	"version": "0.2.13-1+b1",
+	"source": "rust-const-panic",
+	"version": "0.2.17-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-const-panic-proc-macros-0.2+default-dev (<< 0.2.13-~~)",
-		"librust-const-panic-proc-macros-0.2+default-dev (>= 0.2.12-~~)",
-		"librust-typewit-1+default-dev (>= 1.9.0-~~)"
+		"librust-const-panic-proc-macros-0.2+default-dev (<< 0.2.18)",
+		"librust-const-panic-proc-macros-0.2+default-dev (>= 0.2.17)",
+		"librust-trybuild-1+default-dev",
+		"librust-typewit-1-dev (>= 1.9.0)"
 	],
-	"installedSize": 266,
+	"breaks": [
+		"rustc (<< 1.57~)"
+	],
+	"installedSize": 279,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Const panic with formatting - Rust source code",
 	"homepage": "https://github.com/rodrimati1992/const_panic/",
-	"filename": "pool/main/r/rust-const-panic/librust-const-panic-dev_0.2.13-1+b1_amd64.deb",
-	"size": 44904,
-	"md5": "9534b9abc8cb780568a518f7d1f4eafc",
-	"sha256": "895d800e09921c0cfbcd085c273ab0f399963e7044134c20f4d43c5a67daf62c",
+	"filename": "pool/main/r/rust-const-panic/librust-const-panic-dev_0.2.17-1_amd64.deb",
+	"size": 47144,
+	"md5": "f21f5e5730685e245a50576e6d625991",
+	"sha256": "b6435e0bbf40523a171c0301c05ada827f46b4da108806a164cfce1b14d8b4d0",
 	"descriptionMd5": "acdcb6accb5739dff45365f97b6da9d2"
 }

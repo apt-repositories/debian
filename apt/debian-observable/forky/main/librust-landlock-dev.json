@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-landlock-dev",
-	"source": "rust-landlock (0.4.4-1)",
-	"version": "0.4.4-1+b1",
+	"source": "rust-landlock",
+	"version": "0.4.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-enumflags2-0.7+default-dev",
-		"librust-libc-0.2+default-dev (>= 0.2.175-~~)",
+		"librust-libc-0.2+default-dev (>= 0.2.186)",
 		"librust-thiserror-2+default-dev"
 	],
-	"installedSize": 235,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 313,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Landlock LSM helpers - Rust source code",
 	"homepage": "https://landlock.io",
-	"filename": "pool/main/r/rust-landlock/librust-landlock-dev_0.4.4-1+b1_amd64.deb",
-	"size": 44560,
-	"md5": "5dfbff4391be667873ead232b862c55e",
-	"sha256": "4ef7340c58114d6062d3ea07a5b415beedc6e33814bc9cbfa883691653dbdccb",
+	"filename": "pool/main/r/rust-landlock/librust-landlock-dev_0.4.7-1_amd64.deb",
+	"size": 58696,
+	"md5": "e7ac64f03df0af4a8777034e724eac5c",
+	"sha256": "431102dcb3cbd4c23d86ada2a4235f6022b105b257496114ae5fa48b16463dd0",
 	"descriptionMd5": "83f4d5f0a1437708e20cb8f1143944b5"
 }]

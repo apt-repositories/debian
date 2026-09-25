@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rootasrole-exec-dev",
 	"source": "rust-rootasrole-exec",
-	"version": "4.0.0-1",
+	"version": "4.0.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,17 +14,19 @@
 		"librust-libc-0.2+default-dev",
 		"librust-log-0.4+default-dev",
 		"librust-ringbuf-0.3+default-dev",
-		"librust-rkyv-0.8+default-dev",
-		"librust-serde-1+default-dev",
-		"librust-serde-1+derive-dev"
+		"librust-rkyv-0.8+alloc-dev",
+		"librust-rkyv-0.8+bytecheck-dev"
 	],
-	"installedSize": 160,
+	"breaks": [
+		"rustc (<< 1.93.0~)"
+	],
+	"installedSize": 162,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Execution primitives for RootAsRole, mostly inspired by sudo-rs, but usable by other projects (mine aswell) - Rust source code",
-	"homepage": "https://crates.io/crates/rootasrole-exec/4.0.0",
-	"filename": "pool/main/r/rust-rootasrole-exec/librust-rootasrole-exec-dev_4.0.0-1_amd64.deb",
-	"size": 28940,
-	"md5": "3e0b36f11b1d63c939efaf5306a3b41e",
-	"sha256": "5727ab59521520ec3c312f8dec85d193453a60441b36b876c87394e406217a8b",
+	"homepage": "https://lechatp.github.io/RootAsRole/",
+	"filename": "pool/main/r/rust-rootasrole-exec/librust-rootasrole-exec-dev_4.0.2-1_amd64.deb",
+	"size": 29336,
+	"md5": "7ff41b67ab60271735831eeadb887a6a",
+	"sha256": "d9bbeab30eeb8e24866e2f933a8f917a7d0f4f194ca819c1cdd4617f88574619",
 	"descriptionMd5": "2fc2e62d8b98c278bb939d77f80d0787"
 }]
