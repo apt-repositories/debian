@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-cxxbridge-macro-dev",
-	"source": "rust-cxxbridge-macro (1.0.192-1)",
-	"version": "1.0.192-1+b1",
+	"source": "rust-cxxbridge-macro",
+	"version": "1.0.202-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-indexmap-2+default-dev (>= 2.9.0-~~)",
-		"librust-proc-macro2-1+default-dev (>= 1.0.74-~~)",
-		"librust-quote-1+default-dev (>= 1.0.35-~~)",
-		"librust-syn-2+default-dev (>= 2.0.46-~~)",
-		"librust-syn-2+full-dev (>= 2.0.46-~~)"
+		"librust-indexmap-2+default-dev (>= 2.9.0)",
+		"librust-proc-macro2-1+default-dev (>= 1.0.74)",
+		"librust-quote-1+default-dev (>= 1.0.35)",
+		"librust-syn-3+default-dev",
+		"librust-syn-3+full-dev"
 	],
-	"installedSize": 395,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 397,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Implementation detail of the `cxx` crate - Rust source code",
 	"homepage": "https://cxx.rs",
-	"filename": "pool/main/r/rust-cxxbridge-macro/librust-cxxbridge-macro-dev_1.0.192-1+b1_amd64.deb",
-	"size": 60800,
-	"md5": "d7dc23f762f2184c9947697f21cb4ff7",
-	"sha256": "ab08ec0c2fc10ec1b323956544d0a2211c3ff7151f3cde39d033ea080cb38ae5",
+	"filename": "pool/main/r/rust-cxxbridge-macro/librust-cxxbridge-macro-dev_1.0.202-1_amd64.deb",
+	"size": 61108,
+	"md5": "8d8c9fd3ba9772b47be471a7979989aa",
+	"sha256": "447d1dcaa17b98c6ff6afe79f7d17f3b02a3e7306bfa716f82c6aa526ecf8b56",
 	"descriptionMd5": "d0075e5c954e0dad7d62ebf758a88880"
 }

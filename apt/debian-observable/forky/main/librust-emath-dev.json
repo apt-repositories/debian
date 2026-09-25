@@ -6,7 +6,7 @@
 	],
 	"package": "librust-emath-dev",
 	"source": "rust-emath",
-	"version": "0.35.0-1",
+	"version": "0.36.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev"
 	],
-	"installedSize": 169,
+	"breaks": [
+		"rustc (<< 1.95~)"
+	],
+	"installedSize": 171,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Minimal 2D math library for GUI work - Rust source code",
 	"homepage": "https://github.com/emilk/egui/tree/main/crates/emath",
-	"filename": "pool/main/r/rust-emath/librust-emath-dev_0.35.0-1_amd64.deb",
-	"size": 32160,
-	"md5": "73bc33d88032657025e5c2fce3f40db5",
-	"sha256": "338b73f5938b2c99ff2632c8a532cb2e82cbbd66cf515616f9c93938867a7ab4",
+	"filename": "pool/main/r/rust-emath/librust-emath-dev_0.36.2-1_amd64.deb",
+	"size": 32424,
+	"md5": "15241f8f419fafcaa49ee6789b528837",
+	"sha256": "550bb3b40e3b36979e40e35476da34b749f4beff30ef53517836418d61097514",
 	"descriptionMd5": "91bed70be2244d34ad92c6f839bec2e3"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-ecolor-dev",
 	"source": "rust-ecolor",
-	"version": "0.35.0-1",
+	"version": "0.36.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,17 +15,20 @@
 		"librust-bytemuck-1+derive-dev (>= 1.25)",
 		"librust-cint-0.3+default-dev (>= 0.3.1)",
 		"librust-document-features-0.2+default-dev",
-		"librust-emath-0.35-dev",
+		"librust-emath-0.36-dev (>= 0.36.2)",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev"
 	],
-	"installedSize": 88,
+	"breaks": [
+		"rustc (<< 1.95~)"
+	],
+	"installedSize": 87,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Color structs and color conversion utilities - Rust source code",
 	"homepage": "https://github.com/emilk/egui",
-	"filename": "pool/main/r/rust-ecolor/librust-ecolor-dev_0.35.0-1_amd64.deb",
-	"size": 17504,
-	"md5": "f257b54c8f38e69bd9b2f267d170d054",
-	"sha256": "6683f416d520f758c3961c7d7794bf663d2cf0346f073569dde72da37f9c87e6",
+	"filename": "pool/main/r/rust-ecolor/librust-ecolor-dev_0.36.2-1_amd64.deb",
+	"size": 17480,
+	"md5": "6797780e3740c2312a57b097cf1b7551",
+	"sha256": "6c41400e9c121cc54267533c4829cd9376c6b2bfb1c0563df0c30befcd621faa",
 	"descriptionMd5": "87fd956874316f0195c0db7fbac9524d"
 }]
