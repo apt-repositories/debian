@@ -6,7 +6,7 @@
 	],
 	"package": "libtulip-python-6.0",
 	"source": "tulip",
-	"version": "6.0.1+dfsg-3.1",
+	"version": "6.0.1+dfsg-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,16 +21,22 @@
 		"libtulip-core-6.0 (>= 6.0.1+dfsg)",
 		"libtulip-gui-6.0 (>= 6.0.1+dfsg)"
 	],
+	"replaces": [
+		"tulip (<< 6.0.1+dfsg-4~)"
+	],
+	"breaks": [
+		"tulip (<< 6.0.1+dfsg-4~)"
+	],
 	"conflicts": [
 		"libtulip-python"
 	],
-	"installedSize": 1268,
+	"installedSize": 1269,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Tulip graph library - Python support",
 	"homepage": "http://tulip.labri.fr/",
-	"filename": "pool/main/t/tulip/libtulip-python-6.0_6.0.1+dfsg-3.1_amd64.deb",
-	"size": 330340,
-	"md5": "fd17a49575d15c38d2909ab4930c6f4c",
-	"sha256": "8ed420856a267f937a4efcfdfae476b85db342dcc04a0aec9df9b17ef74d3253",
+	"filename": "pool/main/t/tulip/libtulip-python-6.0_6.0.1+dfsg-4_amd64.deb",
+	"size": 329400,
+	"md5": "b7e2095370da871889e1076bc021e127",
+	"sha256": "6b203281996b2906a6791918fc1cc708e38f11dbd26e468aaa36f22c2231beb6",
 	"descriptionMd5": "69a2529bd62c5d34af327f715294165b"
 }]
