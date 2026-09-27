@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-cfb-dev",
-	"source": "rust-cfb (0.10.0-1)",
-	"version": "0.10.0-1+b1",
+	"source": "rust-cfb",
+	"version": "0.15.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-byteorder-1+default-dev",
 		"librust-fnv-1+default-dev",
-		"librust-uuid-1+default-dev"
+		"librust-uuid-1+default-dev",
+		"librust-web-time-1+default-dev"
 	],
-	"installedSize": 444,
+	"breaks": [
+		"rustc (<< 1.74~)"
+	],
+	"installedSize": 604,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Read/write Compound File Binary (structured storage) files - Rust source code",
 	"homepage": "https://github.com/mdsteele/rust-cfb",
-	"filename": "pool/main/r/rust-cfb/librust-cfb-dev_0.10.0-1+b1_amd64.deb",
-	"size": 50956,
-	"md5": "5163b7d690f0e955a6c6bce4f222da11",
-	"sha256": "6d81c66ddc715b74885edbd993a14b5b36a624dc37fc15b52802ecb5edc138ca",
+	"filename": "pool/main/r/rust-cfb/librust-cfb-dev_0.15.0-1_amd64.deb",
+	"size": 78648,
+	"md5": "c0efa4de947975858fb700288bab0122",
+	"sha256": "0c8ee89c0ba5ce0ef76af1d65bc013eca02195c83ebe7e064d83600edfe540de",
 	"descriptionMd5": "511e429236ce52a63798da8f8bfec395"
 }

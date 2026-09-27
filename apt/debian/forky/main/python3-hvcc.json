@@ -6,25 +6,28 @@
 	],
 	"package": "python3-hvcc",
 	"source": "hvcc",
-	"version": "0.17.1-1",
+	"version": "0.17.2-1",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"pd-lib-builder",
 		"python3-arpeggio",
 		"python3-jinja2",
 		"python3-pydantic",
 		"python3-pydantic-extra-types",
 		"python3:any"
 	],
-	"installedSize": 2429,
+	"recommends": [
+		"dpf-source",
+		"pd-lib-builder"
+	],
+	"installedSize": 2433,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "heavy dataflow audio programming language transpiler (Python 3 interface)",
 	"homepage": "https://wasted-audio.github.io/hvcc/",
-	"filename": "pool/main/h/hvcc/python3-hvcc_0.17.1-1_all.deb",
-	"size": 300892,
-	"md5": "2f3b54f09f5845a8d8a8fcee86c6a65f",
-	"sha256": "4a32edc40c70642a196e942f150a6aad8594de157b4c4f9e21da80061396c5f4",
+	"filename": "pool/main/h/hvcc/python3-hvcc_0.17.2-1_all.deb",
+	"size": 302040,
+	"md5": "277cbbd0424cd38ffe2dd72200c61f1a",
+	"sha256": "6a3308ceb1a1960d4c3fd05c05e566c0744fcdcf419bdd5eccac1359197a123f",
 	"descriptionMd5": "1980a4355736d54d142bda993d665e2e"
 }
