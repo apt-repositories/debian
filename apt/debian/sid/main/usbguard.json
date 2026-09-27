@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "usbguard",
-	"version": "1.1.4+ds-5",
+	"version": "1.1.4+ds-8",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"default-dbus-system-bus | dbus-system-bus",
+		"debconf (>= 0.5) | debconf-2.0",
 		"libaudit1 (>= 1:2.2.1)",
 		"libc6 (>= 2.38)",
 		"libcap-ng0 (>= 0.7.9)",
@@ -21,13 +22,13 @@
 		"libstdc++6 (>= 13.1)",
 		"libusbguard1 (>= 1.1.4+ds)"
 	],
-	"installedSize": 607,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
-	"description": "USB device authorization policy framework",
-	"homepage": "https://usbguard.github.io/",
-	"filename": "pool/main/u/usbguard/usbguard_1.1.4+ds-5_amd64.deb",
-	"size": 186504,
-	"md5": "55084ec09c0130deb346fe0fd2065591",
-	"sha256": "1fa0325ad1a4ee0e3fd2846cfd894bf009994f39c6ed0292219241b5a3bae1e0",
-	"descriptionMd5": "a6cec4108f73a10ab878fe530fbe674b"
+	"installedSize": 604,
+	"maintainer": "Daniel Baumann <daniel@debian.org>",
+	"description": "USB device authorization policy framework (utility)",
+	"homepage": "https://github.com/USBGuard/usbguard",
+	"filename": "pool/main/u/usbguard/usbguard_1.1.4+ds-8_amd64.deb",
+	"size": 188700,
+	"md5": "da147b485b74733c56f1d27c83613c0a",
+	"sha256": "eee236f68a54098191b633158879cc33c0f0e24dcec2fcd314f57000fb0232b2",
+	"descriptionMd5": "623e4023fe8d0c14e7a0399cbf6fb164"
 }
