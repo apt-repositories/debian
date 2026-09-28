@@ -6,12 +6,12 @@
 	],
 	"package": "tftpd-hpa",
 	"source": "tftp-hpa",
-	"version": "7.1-1",
+	"version": "7.2-3",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.43)"
 	],
 	"suggests": [
@@ -27,13 +27,13 @@
 		"tftp-server",
 		"tftpd"
 	],
-	"installedSize": 127,
+	"installedSize": 131,
 	"maintainer": "Chris Hofstaedtler <zeha@debian.org>",
 	"description": "HPA's tftp server",
 	"homepage": "https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git/",
-	"filename": "pool/main/t/tftp-hpa/tftpd-hpa_7.1-1_amd64.deb",
-	"size": 52824,
-	"md5": "1ef1d7f93fb01e196621bcf1ce7dd3ac",
-	"sha256": "27b4c19bb3abffb47bc57cee6f7582d5edeabff49d6ca458ca0982fff8e0f981",
+	"filename": "pool/main/t/tftp-hpa/tftpd-hpa_7.2-3_amd64.deb",
+	"size": 54832,
+	"md5": "a69c0cf2633d3208215b8027af2028cc",
+	"sha256": "32391fdeb8136a8d23ed7e13a4bb386a5c0a5d6f60b5c50750c3ee7924fe2a23",
 	"descriptionMd5": "d73c6815bace5ace463cb884370cdecd"
 }
