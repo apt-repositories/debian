@@ -6,16 +6,24 @@
 	],
 	"package": "golang-github-envoyproxy-protoc-gen-validate-dev",
 	"source": "golang-github-envoyproxy-protoc-gen-validate",
-	"version": "1.0.2-2~bpo13+1",
+	"version": "1.0.2-4~bpo13+1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
+	"depends": [
+		"golang-github-iancoleman-strcase-dev",
+		"golang-google-protobuf-dev",
+		"golang-golang-x-net-dev",
+		"golang-golang-x-tools-dev",
+		"golang-github-lyft-protoc-gen-star-dev",
+		"golang-github-spf13-afero-dev"
+	],
 	"installedSize": 625,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "protocol buffer semantic validation generator for Go",
 	"homepage": "https://github.com/envoyproxy/protoc-gen-validate",
-	"filename": "pool/main/g/golang-github-envoyproxy-protoc-gen-validate/golang-github-envoyproxy-protoc-gen-validate-dev_1.0.2-2~bpo13+1_all.deb",
-	"size": 70524,
-	"sha256": "0e77d2efb286a6ef8b5db2d2ebffbefc04516c7b4a77ba3bef758834b922804f",
+	"filename": "pool/main/g/golang-github-envoyproxy-protoc-gen-validate/golang-github-envoyproxy-protoc-gen-validate-dev_1.0.2-4~bpo13+1_all.deb",
+	"size": 70676,
+	"sha256": "11a6c4bf6d676fda091cb2658d64ae3567710e8108a5ef7363852f591704722a",
 	"descriptionMd5": "db26c16fe153a35ec3fb8fd9cd8a2445"
 }]

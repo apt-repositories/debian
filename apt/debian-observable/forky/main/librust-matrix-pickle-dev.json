@@ -6,21 +6,24 @@
 	],
 	"package": "librust-matrix-pickle-dev",
 	"source": "rust-matrix-pickle",
-	"version": "0.2.2-2",
+	"version": "0.2.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-matrix-pickle-derive-0.2+default-dev (>= 0.2.2)",
+		"librust-matrix-pickle-derive-0.2+default-dev (>= 0.2.3)",
 		"librust-thiserror-2+default-dev (>= 2.0.16)"
+	],
+	"breaks": [
+		"rustc (<< 1.65~)"
 	],
 	"installedSize": 40,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Simple binary encoding format used in the Matrix world - Rust source code",
 	"homepage": "https://github.com/matrix-org/matrix-pickle",
-	"filename": "pool/main/r/rust-matrix-pickle/librust-matrix-pickle-dev_0.2.2-2_amd64.deb",
-	"size": 7696,
-	"md5": "c048e9c39e38dfa8a1c4403fe76a19dd",
-	"sha256": "7326fbfd991688752eb59e7ba2c077241cd6b2f658e433e7b88d8b749eec5563",
+	"filename": "pool/main/r/rust-matrix-pickle/librust-matrix-pickle-dev_0.2.3-1_amd64.deb",
+	"size": 7752,
+	"md5": "1e113921277f540474f72b37327dde57",
+	"sha256": "8da1b4d65c95df7ecc7344fa8693ae9faf5d987db161f5eda98671dc6e03f33f",
 	"descriptionMd5": "1484f70be55d6364225cb769913fc229"
 }]

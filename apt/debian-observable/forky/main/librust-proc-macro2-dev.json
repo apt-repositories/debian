@@ -6,20 +6,23 @@
 	],
 	"package": "librust-proc-macro2-dev",
 	"source": "rust-proc-macro2",
-	"version": "1.0.106-1",
+	"version": "1.0.107-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-unicode-ident-1+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
 	"installedSize": 296,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case - Rust source code",
 	"homepage": "https://github.com/dtolnay/proc-macro2",
-	"filename": "pool/main/r/rust-proc-macro2/librust-proc-macro2-dev_1.0.106-1_amd64.deb",
-	"size": 51292,
-	"md5": "d072b61423a34f9b3feaa2c94b3d49a0",
-	"sha256": "d1069103f2b8b301c0596f433884626ab9386ba51536f5cd803651d1d9e6c093",
+	"filename": "pool/main/r/rust-proc-macro2/librust-proc-macro2-dev_1.0.107-1_amd64.deb",
+	"size": 51336,
+	"md5": "00cc0691607c31514922fcf5a39a447b",
+	"sha256": "2c7657ed5aaa9e5b9e5cd0c38b27ed7e09462fa6cd1ccea2d46a89658bb6a537",
 	"descriptionMd5": "8727e1bda20aed187427644323885358"
 }]
