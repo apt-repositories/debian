@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "r-cran-hdf5r",
-	"version": "1.3.12+dfsg-3",
+	"version": "1.3.16+dfsg-1",
 	"section": "gnu-r",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,16 +14,24 @@
 		"r-cran-r6",
 		"r-cran-bit64",
 		"libc6 (>= 2.14)",
-		"libhdf5-310 (>= 1.14.3)",
-		"libhdf5-hl-310 (>= 1.14.3)"
+		"libhdf5-320 (>= 2.1.0)",
+		"libhdf5-hl-320 (>= 2.1.0)",
+		"r-pkg-team-core-architecture"
 	],
-	"installedSize": 2966,
+	"recommends": [
+		"r-cran-testthat",
+		"r-cran-knitr",
+		"r-cran-rmarkdown",
+		"r-cran-reshape2",
+		"r-cran-formatr"
+	],
+	"installedSize": 2983,
 	"maintainer": "Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>",
-	"description": "GNU R interface to the 'HDF5' binary data format",
+	"description": "Interface to the 'HDF5' Binary Data Format",
 	"homepage": "https://cran.r-project.org/package=hdf5r",
-	"filename": "pool/main/r/r-cran-hdf5r/r-cran-hdf5r_1.3.12+dfsg-3_amd64.deb",
-	"size": 1967812,
-	"md5": "4552056cdda60697b542b27a1096357c",
-	"sha256": "55a9d7fde421dd192a6e16b5cc8f8c5188d9577c62f4380a40ee7cda81603c0a",
-	"descriptionMd5": "02f3f5d6d81c6bcf9790c84557d9874d"
+	"filename": "pool/main/r/r-cran-hdf5r/r-cran-hdf5r_1.3.16+dfsg-1_amd64.deb",
+	"size": 1972836,
+	"md5": "74f587e1a0e72d9b616662ddd17ead08",
+	"sha256": "ce1705deee2b6190b78c39ce570f07fb395931794f77be4b818a17dde12f711d",
+	"descriptionMd5": "871a3d8b568adcccc3e99f704283bb80"
 }]

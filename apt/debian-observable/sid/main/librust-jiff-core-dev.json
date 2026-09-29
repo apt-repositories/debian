@@ -6,27 +6,30 @@
 	],
 	"package": "librust-jiff-core-dev",
 	"source": "rust-jiff-core",
-	"version": "0.1.0-1",
+	"version": "0.1.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-arbitrary-1+default-dev (>= 1.4.2)",
+		"librust-arbitrary-1+derive-dev (>= 1.4.2)",
 		"librust-defmt+alloc-dev (<< 2)",
 		"librust-defmt+alloc-dev (>= 0.3)",
 		"librust-defmt+default-dev (<< 2)",
 		"librust-defmt+default-dev (>= 0.3)",
+		"librust-log-0.4+std-dev (>= 0.4.21)",
 		"librust-log-0.4-dev (>= 0.4.21)"
 	],
 	"breaks": [
 		"rustc (<< 1.70~)"
 	],
-	"installedSize": 588,
+	"installedSize": 594,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Low level datetime primitives for the Jiff library - Rust source code",
 	"homepage": "https://github.com/BurntSushi/jiff/tree/master/crates/jiff-core",
-	"filename": "pool/main/r/rust-jiff-core/librust-jiff-core-dev_0.1.0-1_amd64.deb",
-	"size": 106696,
-	"md5": "b13129d758e6d10621917e1a1a1b4952",
-	"sha256": "2978c1f0fade62e645f914b9fc4de0ab8f98ddc665b8221c1c7d21257e564869",
+	"filename": "pool/main/r/rust-jiff-core/librust-jiff-core-dev_0.1.1-1_amd64.deb",
+	"size": 107608,
+	"md5": "a1e289a4921e4b744f08ffb9f3477f2a",
+	"sha256": "22e4437c9ee1e499a3eda3ddcb4954ffa3e6dc1ed16a2642a1c144fe79c0aba1",
 	"descriptionMd5": "cb39f200f7215389a0b8a65e3f52052c"
 }]
