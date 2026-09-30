@@ -6,7 +6,7 @@
 	],
 	"package": "libjss-java",
 	"source": "jss",
-	"version": "5.9.0~beta3-4",
+	"version": "5.10.1-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,18 +15,24 @@
 		"libgcc-s1 (>= 3.0)",
 		"libnspr4 (>= 2:4.10.9)",
 		"libnss3 (>= 2:3.101)",
-		"libstdc++6 (>= 9)",
-		"libcommons-lang3-java (>= 3.17.0)",
+		"libstdc++6 (>= 11)",
+		"libcommons-lang3-java (>= 3.20.0)",
 		"libslf4j-java (>= 1.7.32)",
 		"libtomcat10-java"
 	],
-	"installedSize": 1911,
+	"replaces": [
+		"libtomcatjss-java (<< 8.5.0)"
+	],
+	"breaks": [
+		"libtomcatjss-java (<< 8.5.0)"
+	],
+	"installedSize": 3364,
 	"maintainer": "Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>",
 	"description": "Network Security Services for Java",
 	"homepage": "https://github.com/dogtagpki/jss",
-	"filename": "pool/main/j/jss/libjss-java_5.9.0~beta3-4_amd64.deb",
-	"size": 1474252,
-	"md5": "4ba35dc4d3ee4cad63269008869761db",
-	"sha256": "77c254c367d6178c1b2477d952d768957249678cc743ae7ea1932cb5ac81f676",
+	"filename": "pool/main/j/jss/libjss-java_5.10.1-1_amd64.deb",
+	"size": 1499116,
+	"md5": "e3bdfa062c4f7380727d4ecaa58f5629",
+	"sha256": "ae0bef22414bd657b46e55b1828f4af6544175c20b8c9d6e16386545b6803dc8",
 	"descriptionMd5": "9307bd0c38418b7815bb38c02b381af2"
 }]

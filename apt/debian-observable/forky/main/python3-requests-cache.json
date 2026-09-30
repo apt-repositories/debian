@@ -6,30 +6,33 @@
 	],
 	"package": "python3-requests-cache",
 	"source": "python-requests-cache",
-	"version": "1.3.1-2",
+	"version": "1.3.3-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-cattr",
-		"python3-requests (>= 2.32.3+dfsg-1~)",
-		"python3-url-normalize",
-		"python3-attr",
+		"python3-attr (>= 21.2)",
+		"python3-cattr (>= 22.2)",
 		"python3-platformdirs (>= 2.5)",
+		"python3-requests (>= 2.32.3+dfsg-1~)",
+		"python3-url-normalize (>= 3.0.1)",
 		"python3-urllib3",
 		"python3:any"
 	],
 	"suggests": [
+		"python3-boto3",
+		"python3-itsdangerous",
 		"python3-pymongo",
-		"python3-redis"
+		"python3-redis",
+		"python3-yaml"
 	],
-	"installedSize": 246,
+	"installedSize": 249,
 	"maintainer": "Sandro Tosi <morph@debian.org>",
-	"description": "persistent cache for requests library (Python 3)",
+	"description": "persistent HTTP cache for the requests library",
 	"homepage": "https://github.com/requests-cache/requests-cache",
-	"filename": "pool/main/p/python-requests-cache/python3-requests-cache_1.3.1-2_all.deb",
-	"size": 59752,
-	"md5": "b62e3ff602fb646949019ab237794da4",
-	"sha256": "38cfa967275658c3a3c48e737b9c302b488a08b84e59a75f0ce4f3fe315a9bc8",
-	"descriptionMd5": "652000b50a17c09904a43f24185fc08c"
+	"filename": "pool/main/p/python-requests-cache/python3-requests-cache_1.3.3-2_all.deb",
+	"size": 61488,
+	"md5": "8bc781f66886265e4bde2bfdd3b244ca",
+	"sha256": "1a9900f147d7c49f579c4beefc11a77cc5402cb31ce797bcb3435ddd4f203a83",
+	"descriptionMd5": "7cd1d39ac98eaae42f5c78dde30055d7"
 }]

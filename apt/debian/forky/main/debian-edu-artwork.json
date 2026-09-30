@@ -5,18 +5,24 @@
 		"Size"
 	],
 	"package": "debian-edu-artwork",
-	"version": "2.13.1-1",
+	"version": "2.13.6-1",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"dconf-gsettings-backend | gsettings-backend",
 		"debian-edu-artwork-ceratopsian | debian-edu-artwork-emerald | debian-edu-artwork-homeworld | debian-edu-artwork-buster | debian-edu-artwork-softwaves | debian-edu-artwork-spacefun",
-		"desktop-base",
 		"libconfig-inifiles-perl"
 	],
 	"suggests": [
 		"debian-edu-artwork-spacefun"
+	],
+	"replaces": [
+		"debian-edu-artwork-ceratopsian (<< 2.13.5-1~)",
+		"debian-edu-artwork-emerald (<< 2.13.5-1~)",
+		"debian-edu-artwork-futureprototype (<< 2.13.5-1~)",
+		"debian-edu-artwork-homeworld (<< 2.13.5-1~)",
+		"debian-edu-artwork-softwaves (<< 2.13.5-1~)"
 	],
 	"enhances": [
 		"gdm3",
@@ -24,13 +30,20 @@
 		"sddm",
 		"slim"
 	],
-	"installedSize": 84,
+	"breaks": [
+		"debian-edu-artwork-ceratopsian (<< 2.13.5-1~)",
+		"debian-edu-artwork-emerald (<< 2.13.5-1~)",
+		"debian-edu-artwork-futureprototype (<< 2.13.5-1~)",
+		"debian-edu-artwork-homeworld (<< 2.13.5-1~)",
+		"debian-edu-artwork-softwaves (<< 2.13.5-1~)"
+	],
+	"installedSize": 272,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "Debian Edu themes and artwork",
 	"homepage": "https://blends.debian.org/edu",
-	"filename": "pool/main/d/debian-edu-artwork/debian-edu-artwork_2.13.1-1_all.deb",
-	"size": 50444,
-	"md5": "c437931517b2544b1474f4afbe3de1cc",
-	"sha256": "fbf10d32fd59328c65ed7f9d6dfe37ad78c4d80bcbd1601824d4c00cfb0549d1",
-	"descriptionMd5": "2142fa9ed37f8efaecd7e01114d7be93"
+	"filename": "pool/main/d/debian-edu-artwork/debian-edu-artwork_2.13.6-1_all.deb",
+	"size": 205632,
+	"md5": "8fa721ff37bc5d538d8fe9d1c78de703",
+	"sha256": "0069ad36a1c8eab26c3304929a71883b7b509b24231be1392e7bf9eeaa3a723c",
+	"descriptionMd5": "3312440eeae438142fc0dcbdb5078f09"
 }
