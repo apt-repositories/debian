@@ -5,18 +5,24 @@
 		"Size"
 	],
 	"package": "librust-waker-fn-dev",
-	"source": "rust-waker-fn (1.1.0-1)",
-	"version": "1.1.0-1+b2",
+	"source": "rust-waker-fn",
+	"version": "1.2.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 43,
+	"depends": [
+		"librust-portable-atomic-util-0.2+alloc-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.51~)"
+	],
+	"installedSize": 36,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Convert closures into wakers - Rust source code",
-	"homepage": "https://github.com/stjepang/waker-fn",
-	"filename": "pool/main/r/rust-waker-fn/librust-waker-fn-dev_1.1.0-1+b2_amd64.deb",
-	"size": 9264,
-	"md5": "f6adfb4dd574d992ecdc504f8c550533",
-	"sha256": "4bdea52544e087ed135432aac24bb2ac5aa183fd501238019cec113712122fbc",
-	"descriptionMd5": "2f6b635eaf2c0e905804f01c9437cf82"
+	"homepage": "https://github.com/smol-rs/waker-fn",
+	"filename": "pool/main/r/rust-waker-fn/librust-waker-fn-dev_1.2.0-1_amd64.deb",
+	"size": 8708,
+	"md5": "c9c03baa91708abc0325b1612a7f50f8",
+	"sha256": "bb0dfcab31ce7622660970e4a49c7bea4211c7a724c36e4d92e6d7fc4191d2b3",
+	"descriptionMd5": "ac4838319de76ae81b04081bba7566c7"
 }

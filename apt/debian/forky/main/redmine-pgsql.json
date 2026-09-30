@@ -6,7 +6,7 @@
 	],
 	"package": "redmine-pgsql",
 	"source": "redmine",
-	"version": "6.1.3+ds2-1",
+	"version": "6.1.4+ds2-1",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,18 +17,26 @@
 		"ruby-pg (<< 1.7)"
 	],
 	"recommends": [
-		"redmine (= 6.1.3+ds2-1)"
+		"redmine (= 6.1.4+ds2-1)"
 	],
 	"suggests": [
 		"postgresql"
 	],
-	"installedSize": 151,
+	"replaces": [
+		"redmine-mariadb",
+		"redmine-sqlite"
+	],
+	"breaks": [
+		"redmine-mariadb",
+		"redmine-sqlite"
+	],
+	"installedSize": 156,
 	"maintainer": "Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
 	"description": "metapackage providing PostgreSQL dependencies for Redmine",
 	"homepage": "https://www.redmine.org",
-	"filename": "pool/main/r/redmine/redmine-pgsql_6.1.3+ds2-1_all.deb",
-	"size": 142312,
-	"md5": "c173ea38f4762af12e1e9a0b19e5ce7e",
-	"sha256": "f4d968c9e1ca13bb20b6fbf8b1919963eccb936b38f3857d873978c8dcc06529",
-	"descriptionMd5": "f308cd100ee4983a5adb6ff3370520bf"
+	"filename": "pool/main/r/redmine/redmine-pgsql_6.1.4+ds2-1_all.deb",
+	"size": 144180,
+	"md5": "d15a56d3368f4c016dfb2d0036fed6b4",
+	"sha256": "8716057b361e3722abb44d5b15d598a5d3b419f3b404656e086b237b73865152",
+	"descriptionMd5": "8e5ef7390b8ae1adf37a4df3cc53a51d"
 }

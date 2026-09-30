@@ -6,35 +6,39 @@
 	],
 	"package": "amule-daemon",
 	"source": "amule",
-	"version": "1:2.3.3-4.1",
+	"version": "1:3.1.0-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"amule-common (= 1:2.3.3-4.1)",
-		"lsb-base",
+		"amule-common (= 1:3.1.0-2)",
 		"libc6 (>= 2.38)",
 		"libcrypto++8t64 (>= 8.9.0)",
 		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0t64 (>= 2.12.0)",
 		"libixml11t64 (>= 1:1.14.0)",
+		"libmaxminddb0 (>= 1.0.2)",
 		"libpng16-16t64 (>= 1.6.46)",
 		"libreadline8t64 (>= 6.0)",
 		"libstdc++6 (>= 14)",
 		"libupnp17t64 (>= 1:1.14.0)",
-		"libwxbase3.2-1t64 (>= 3.2.9+dfsg)",
-		"zlib1g (>= 1:1.1.4)"
+		"libwxbase3.2-1t64 (>= 3.2.11+dfsg1)",
+		"zlib1g (>= 1:1.2.0)"
 	],
 	"recommends": [
 		"amule-utils",
 		"unzip"
 	],
-	"installedSize": 4334,
+	"suggests": [
+		"ffmpeg"
+	],
+	"installedSize": 9688,
 	"maintainer": "Sandro Tosi <morph@debian.org>",
 	"description": "non-graphic version of aMule, a client for the eD2k and Kad networks",
-	"homepage": "https://www.amule.org",
-	"filename": "pool/main/a/amule/amule-daemon_2.3.3-4.1_amd64.deb",
-	"size": 1340712,
-	"md5": "7404b72b0cdef08ceb2dfe7ee68cc0b9",
-	"sha256": "dedf8b18c88d17b6f417565095664066ab8e3420790b6e90f83795e17ff3f1bd",
-	"descriptionMd5": "0eb0fa1f3a72f84aa9c272e9b3f0a18c"
+	"homepage": "https://amule-org.github.io/",
+	"filename": "pool/main/a/amule/amule-daemon_3.1.0-2_amd64.deb",
+	"size": 2840336,
+	"md5": "a3339b35e634a5c71adc6e149622ecc9",
+	"sha256": "abea59f28706d333c863ce19ab995840624dfd58e17ebe26a297267488ee8682",
+	"descriptionMd5": "1d3937729e05eff48e0f865633a0f672"
 }]
