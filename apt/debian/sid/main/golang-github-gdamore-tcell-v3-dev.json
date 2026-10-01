@@ -6,7 +6,7 @@
 	],
 	"package": "golang-github-gdamore-tcell-v3-dev",
 	"source": "golang-github-gdamore-tcell-v3",
-	"version": "3.5.0+dfsg-1",
+	"version": "3.5.0+dfsg-2",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
@@ -19,13 +19,19 @@
 		"golang-golang-x-term-dev (>= 0.41.0)",
 		"golang-golang-x-text-dev (>= 0.36.0)"
 	],
+	"replaces": [
+		"golang-github-gdamore-tcell.v3-dev (<= 3.4.1+dfsg-1)"
+	],
+	"breaks": [
+		"golang-github-gdamore-tcell.v3-dev (<= 3.4.1+dfsg-1)"
+	],
 	"installedSize": 908,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "cell-based view for text terminals (v3)",
 	"homepage": "https://github.com/gdamore/tcell",
-	"filename": "pool/main/g/golang-github-gdamore-tcell-v3/golang-github-gdamore-tcell-v3-dev_3.5.0+dfsg-1_all.deb",
-	"size": 164196,
-	"md5": "7ad57df33ed9fd4528713f987093b54b",
-	"sha256": "8105ffd69a166f35c4aba7faff32379ceaa81296f6e4bb8890927b6b9cac727b",
+	"filename": "pool/main/g/golang-github-gdamore-tcell-v3/golang-github-gdamore-tcell-v3-dev_3.5.0+dfsg-2_all.deb",
+	"size": 164312,
+	"md5": "195c8fd28a692a1c8b9fab1a1c56f360",
+	"sha256": "8fcf8a71b94e94c76209bc4877ceae4377a4b902d0c2a008e3279c355e8796be",
 	"descriptionMd5": "b8b117be7ddc3f7bb10a5e6b59417675"
 }
