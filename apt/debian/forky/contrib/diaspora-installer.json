@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "diaspora-installer",
+	"version": "0.9.0.0+debian3",
+	"section": "contrib/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"build-essential",
+		"diaspora-common (= 0.9.0.0+debian3)",
+		"ghostscript",
+		"imagemagick",
+		"libcurl4-openssl-dev",
+		"libffi-dev",
+		"libidn-dev",
+		"libmagickwand-dev",
+		"libpq-dev",
+		"libruby (>= 1:3.1~)",
+		"libssl-dev",
+		"libxml2-dev",
+		"libxslt-dev",
+		"rsync",
+		"ruby-bundler",
+		"ruby-dev",
+		"ruby-http-parser",
+		"tzdata",
+		"wget",
+		"yarnpkg",
+		"zlib1g-dev"
+	],
+	"replaces": [
+		"diaspora"
+	],
+	"conflicts": [
+		"diaspora",
+		"libruby2.7"
+	],
+	"installedSize": 36,
+	"maintainer": "Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>",
+	"description": "distributed social networking service - installer",
+	"homepage": "https://wiki.debian.org/Diaspora",
+	"filename": "pool/contrib/d/diaspora-installer/diaspora-installer_0.9.0.0+debian3_all.deb",
+	"size": 8404,
+	"md5": "a2ad1c7a660dc26bd95a55ef54f73987",
+	"sha256": "396d8616ea9a3c024606320ee1249d0f46f52a28aa36baf7bacd9d7021a01d5c",
+	"descriptionMd5": "120c7fb469648e6eb3e942926e8b1ea0"
+}
