@@ -6,22 +6,25 @@
 	],
 	"package": "python3-axisregistry",
 	"source": "axisregistry",
-	"version": "0.4.16-2",
+	"version": "0.4.20-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-fonttools",
-		"python3-protobuf",
+		"python3-gfmetadata",
 		"python3:any"
 	],
-	"installedSize": 117,
+	"breaks": [
+		"python3-gftools (<< 0.10.0~)"
+	],
+	"installedSize": 122,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Access data from the Google Fonts variable fonts axis registry",
 	"homepage": "https://github.com/googlefonts/axisregistry/",
-	"filename": "pool/main/a/axisregistry/python3-axisregistry_0.4.16-2_all.deb",
-	"size": 21676,
-	"md5": "1c1181102f7383dc269722fa95c1ee68",
-	"sha256": "a16b5582fb5707d8c48d1b00b80379bad5e1fbfacafb37d1c16c792c9f7d57c7",
+	"filename": "pool/main/a/axisregistry/python3-axisregistry_0.4.20-1_all.deb",
+	"size": 24940,
+	"md5": "8af5e71420fbc58f5768f862aad6f8ac",
+	"sha256": "0dd5752373e99e916f5b3c1e194cea8c65252ad0e90f915d4605a525b2aa6dbf",
 	"descriptionMd5": "539373e39ff91c99abdb1ad68f414aff"
 }

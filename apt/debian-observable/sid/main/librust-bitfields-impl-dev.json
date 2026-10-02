@@ -5,26 +5,29 @@
 		"Size"
 	],
 	"package": "librust-bitfields-impl-dev",
-	"source": "rust-bitfields-impl (1.0.0-1)",
-	"version": "1.0.0-1+b1",
+	"source": "rust-bitfields-impl",
+	"version": "1.0.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-proc-macro2-1+default-dev",
-		"librust-quote-1+default-dev (>= 1.0.40-~~)",
-		"librust-syn-2+default-dev (>= 2.0.104-~~)",
-		"librust-syn-2+extra-traits-dev (>= 2.0.104-~~)",
-		"librust-syn-2+full-dev (>= 2.0.104-~~)",
-		"librust-thiserror-2+default-dev (>= 2.0.12-~~)"
+		"librust-quote-1+default-dev (>= 1.0.44)",
+		"librust-syn-2+default-dev (>= 2.0.117)",
+		"librust-syn-2+extra-traits-dev (>= 2.0.117)",
+		"librust-syn-2+full-dev (>= 2.0.117)",
+		"librust-thiserror-2+default-dev (>= 2.0.18)"
 	],
-	"installedSize": 176,
+	"breaks": [
+		"rustc (<< 1.83.0~)"
+	],
+	"installedSize": 175,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Macro for generating flexible bitfields - Rust source code",
 	"homepage": "https://github.com/gregorygaines/bitfields-rs",
-	"filename": "pool/main/r/rust-bitfields-impl/librust-bitfields-impl-dev_1.0.0-1+b1_amd64.deb",
-	"size": 24280,
-	"md5": "111316d7afa935b19a7ce00af0b97de8",
-	"sha256": "690a90da5486ca3e36f557d9857cc8673894c4a96e5da06f15280459c197581f",
+	"filename": "pool/main/r/rust-bitfields-impl/librust-bitfields-impl-dev_1.0.3-1_amd64.deb",
+	"size": 24188,
+	"md5": "a69636ff672f8eceb998bda3791157f0",
+	"sha256": "4f82a1298944528b0e70a6fc1c6f48eee796492465715ba2b78d03db69fab1c4",
 	"descriptionMd5": "a57b98a3098bd6f81790d21e6cbd06f7"
 }]

@@ -6,27 +6,33 @@
 	],
 	"package": "python3-varcode",
 	"source": "python-varcode",
-	"version": "7.0.0-1",
+	"version": "10.11.1-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"python3-sercol (>= 1.0.3)",
+		"python3-serializable (>= 1.1.0)",
+		"python3-typechecks",
 		"pyensembl",
 		"python3-memoized-property",
 		"python3-numpy",
 		"python3-pandas",
-		"python3-sercol",
-		"python3-serializable (>= 1.1.0)",
-		"python3:any",
-		"python3-typechecks"
+		"python3:any"
 	],
-	"installedSize": 766,
+	"recommends": [
+		"varcode (= 10.11.1-1)"
+	],
+	"suggests": [
+		"python3-pysam"
+	],
+	"installedSize": 1085,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
-	"description": "DNA coding sequence variation effect predictor",
+	"description": "genomic variant effect prediction library for Python 3",
 	"homepage": "https://github.com/openvax/varcode",
-	"filename": "pool/main/p/python-varcode/python3-varcode_7.0.0-1_all.deb",
-	"size": 167604,
-	"md5": "5e26637c2e67a99835ab28e83bc22b08",
-	"sha256": "e13467296033062ecea81768597e448cffeb9a750e6085f3b14e939d4ce62700",
-	"descriptionMd5": "8fc45d0c2995f0a2ba9aea64f85acb0e"
+	"filename": "pool/main/p/python-varcode/python3-varcode_10.11.1-1_all.deb",
+	"size": 246948,
+	"md5": "9a6e87e5c6c12d783da9b850d2faabf3",
+	"sha256": "3dd31e62901b50e546c30b42f5fb66adf6bdd895e93452f0d957cb09fda7f30e",
+	"descriptionMd5": "276817cfc3059283e9ad253b5cb975d5"
 }]
