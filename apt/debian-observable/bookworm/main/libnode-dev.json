@@ -29,8 +29,44 @@
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>",
 	"description": "evented I/O for V8 javascript (development files)",
 	"homepage": "https://nodejs.org/",
-	"filename": "pool/updates/main/n/nodejs/libnode-dev_18.20.4+dfsg-1~deb12u2_amd64.deb",
+	"filename": "pool/main/n/nodejs/libnode-dev_18.20.4+dfsg-1~deb12u2_amd64.deb",
 	"size": 513432,
+	"md5": "76d3d9fe6c50e3e58f119e288a2d8b25",
 	"sha256": "8660f5787f78f569705eafde836863e53e9dd9e0e0ad02dd68fe5819ce1dd8a4",
+	"descriptionMd5": "a609f4284dac20cce4338d050225c226"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnode-dev",
+	"source": "nodejs",
+	"version": "18.20.4+dfsg-1~deb12u3",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libssl-dev (>= 1.1.1~)",
+		"libuv1-dev (>= 1.33.0~)",
+		"libnode108 (= 18.20.4+dfsg-1~deb12u3)"
+	],
+	"replaces": [
+		"libv8-dev",
+		"nodejs-dev (<< 10.0.0~dfsg1-3)"
+	],
+	"breaks": [
+		"nodejs-dev (<< 10.0.0~dfsg1-3)"
+	],
+	"conflicts": [
+		"libv8-dev (<= 3.14.5.8-11)"
+	],
+	"installedSize": 3277,
+	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>",
+	"description": "evented I/O for V8 javascript (development files)",
+	"homepage": "https://nodejs.org/",
+	"filename": "pool/updates/main/n/nodejs/libnode-dev_18.20.4+dfsg-1~deb12u3_amd64.deb",
+	"size": 514492,
+	"sha256": "bc65d683437b088672e05305847675d3a3da45a36b6f6b8d00b4f9a3286e886c",
 	"descriptionMd5": "a609f4284dac20cce4338d050225c226"
 }]

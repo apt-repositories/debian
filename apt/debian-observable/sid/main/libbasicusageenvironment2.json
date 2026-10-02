@@ -6,17 +6,23 @@
 	],
 	"package": "libbasicusageenvironment2",
 	"source": "liblivemedia",
-	"version": "2026.09.23-dfsg-1",
+	"version": "2026.09.23-dfsg-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 5)",
+		"libusageenvironment3 (>= 2026.09.23-dfsg)"
+	],
 	"installedSize": 63,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "multimedia RTSP streaming library (BasicUsageEnvironment class)",
 	"homepage": "http://live555.com",
-	"filename": "pool/main/libl/liblivemedia/libbasicusageenvironment2_2026.09.23-dfsg-1_amd64.deb",
-	"size": 17508,
-	"md5": "8dd130c809586880a72e69cb7bb8b919",
-	"sha256": "aa1eb2adf33d2a571590c354fc8c793b15c7a0302fe005d0c63a1c09f54ea39d",
+	"filename": "pool/main/libl/liblivemedia/libbasicusageenvironment2_2026.09.23-dfsg-3_amd64.deb",
+	"size": 17664,
+	"md5": "3aa77bb13c90e6db5f81bc1982d3ae9b",
+	"sha256": "0efa2f9e93c9a5d45293a50f35cf7e8e4f196cc755c49fa21826bb2af3e1fcd6",
 	"descriptionMd5": "7513066394242ab04698d5a22dc74a0e"
 }]

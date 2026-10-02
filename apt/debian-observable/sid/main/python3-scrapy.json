@@ -6,12 +6,14 @@
 	],
 	"package": "python3-scrapy",
 	"source": "python-scrapy",
-	"version": "2.18.0-2",
+	"version": "2.19.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"python3-aiohttp",
 		"python3-brotli (>= 1.2.0)",
+		"python3-charset-normalizer",
 		"python3-cryptography (>= 41.0.5)",
 		"python3-cssselect",
 		"python3-defusedxml (>= 0.7.1)",
@@ -21,6 +23,7 @@
 		"python3-openssl",
 		"python3-packaging",
 		"python3-parsel (>= 1.8.1)",
+		"python3-platformdirs (>= 2.0.0)",
 		"python3-protego",
 		"python3-pydispatch",
 		"python3-queuelib",
@@ -37,17 +40,17 @@
 		"python3-pil"
 	],
 	"suggests": [
-		"python-scrapy-doc (= 2.18.0-2)",
+		"python-scrapy-doc (= 2.19.0-1)",
 		"python3-boto3",
 		"python3-botocore"
 	],
-	"installedSize": 1356,
+	"installedSize": 1407,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Python web scraping and crawling framework",
 	"homepage": "https://scrapy.org/",
-	"filename": "pool/main/p/python-scrapy/python3-scrapy_2.18.0-2_all.deb",
-	"size": 334304,
-	"md5": "b93bc650ada7497027d2b096a71cf424",
-	"sha256": "9fd78f93b5ef4d259b566579708fb35000325fd5b9c1fd5e51e8426f78c6326d",
+	"filename": "pool/main/p/python-scrapy/python3-scrapy_2.19.0-1_all.deb",
+	"size": 346612,
+	"md5": "8666bc68bc45594a9fe55a418b9596b1",
+	"sha256": "4fc57919ae1852213f77e0005d9b2f1ef1d3433085d6f6e38bef74426f97a983",
 	"descriptionMd5": "0fc3d51c242b55ef633c4f823adc485b"
 }]
