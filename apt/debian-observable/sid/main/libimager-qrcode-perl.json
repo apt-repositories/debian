@@ -5,26 +5,25 @@
 		"Size"
 	],
 	"package": "libimager-qrcode-perl",
-	"source": "libimager-qrcode-perl (0.035+dfsg-1)",
-	"version": "0.035+dfsg-1+b1",
+	"version": "0.035+dfsg-2",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libimager-perl",
+		"perl (>= 5.42.3-1)",
+		"perl-imagerapi-5",
+		"perlapi-5.42.3",
 		"libc6 (>= 2.38)",
 		"libqrencode4 (>= 3.2.0)",
-		"perl (>= 5.42.2-3)",
-		"perl-imagerapi-5",
-		"perlapi-5.42.2"
+		"libimager-perl"
 	],
-	"installedSize": 48,
+	"installedSize": 47,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
-	"description": "Generate QR code with Imager using libqrencode",
-	"homepage": "https://metacpan.org/release/AnyEvent-ForkObject",
-	"filename": "pool/main/libi/libimager-qrcode-perl/libimager-qrcode-perl_0.035+dfsg-1+b1_amd64.deb",
-	"size": 12168,
-	"md5": "65d80ea19fc41356a3db49292682a0f5",
-	"sha256": "9bbef1c54bcbe0153aff8873d1f901db8c6dbc48a764ecb20432d60cd2757d2f",
-	"descriptionMd5": "7c4a690b6323987e4f5b03d67f1da9c3"
+	"description": "module to generate QR code with Imager using libqrencode",
+	"homepage": "https://metacpan.org/release/Imager-QRCode",
+	"filename": "pool/main/libi/libimager-qrcode-perl/libimager-qrcode-perl_0.035+dfsg-2_amd64.deb",
+	"size": 12020,
+	"md5": "5cbd80cf0ff3481918005941651fd563",
+	"sha256": "d905c399fcf6dba882bc1f3f0437f04992c966067fae21e5997ebbf2462fafab",
+	"descriptionMd5": "f27697cc451208ac295f53ffce6f1a47"
 }]
