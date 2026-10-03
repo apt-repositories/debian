@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php8.4-mongodb",
+	"source": "php-mongodb",
+	"version": "2.0.0-1+deb13u1",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ucf",
+		"php8.4-common",
+		"phpapi-20240924",
+		"libc6 (>= 2.38)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libsnappy1v5 (>= 1.2.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"preDepends": [
+		"php-common (>= 2:69~)"
+	],
+	"replaces": [
+		"php-mongodb (<< 2.0.0~)"
+	],
+	"breaks": [
+		"php-mongodb (<< 2.0.0~)"
+	],
+	"installedSize": 2606,
+	"maintainer": "Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>",
+	"description": "MongoDB driver for PHP",
+	"homepage": "https://pecl.php.net/package/mongodb",
+	"filename": "pool/updates/main/p/php-mongodb/php8.4-mongodb_2.0.0-1+deb13u1_amd64.deb",
+	"size": 742180,
+	"sha256": "88d8bbe0d84474237b5f7b052682f3b60b8d6a3d80a8b64cb9f9f4205f4ece0a",
+	"descriptionMd5": "019af190a34e0d969ac1807b7a0e3f5a"
+}

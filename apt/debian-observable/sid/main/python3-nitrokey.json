@@ -6,11 +6,12 @@
 	],
 	"package": "python3-nitrokey",
 	"source": "python-nitrokey",
-	"version": "0.5.0~rc2-1",
+	"version": "0.5.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"nitrokey-udev",
 		"python3-crcmod (>= 1.7)",
 		"python3-cryptography (>= 41)",
 		"python3-fido2 (>= 2)",
@@ -20,19 +21,18 @@
 		"python3-semver (>= 3)",
 		"python3-serial (>= 3.5)",
 		"python3-tlv8 (>= 0.10)",
-		"python3:any",
-		"nitrokey-udev"
+		"python3:any"
 	],
 	"recommends": [
 		"python3-pyscard (>= 2)"
 	],
-	"installedSize": 596,
+	"installedSize": 694,
 	"maintainer": "Sebastian Ramacher <sramacher@debian.org>",
 	"description": "SDK to use and configure Nitrokey devices (Python 3)",
 	"homepage": "https://github.com/Nitrokey/nitrokey-sdk-py",
-	"filename": "pool/main/p/python-nitrokey/python3-nitrokey_0.5.0~rc2-1_all.deb",
-	"size": 99184,
-	"md5": "20ad771eba33af0882523a954ae2acae",
-	"sha256": "a119ff396c6c06ce38746ed59ae8a59c834c558c7f0790df3a58f29aa40e92c7",
+	"filename": "pool/main/p/python-nitrokey/python3-nitrokey_0.5.0-1_all.deb",
+	"size": 116592,
+	"md5": "44d1b039fb3d6adcce619708bfdb7bee",
+	"sha256": "cda870fe4c71ac2dcb274da714449f2e1c8847d6a5b377f59aa9717e077b74ce",
 	"descriptionMd5": "75a65e791c65e743697b412d2091dbad"
 }]
