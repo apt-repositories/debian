@@ -5,6 +5,34 @@
 		"Size"
 	],
 	"package": "radsecproxy",
+	"version": "1.11.4-1~bpo13+1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.38)",
+		"libnettle8t64",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 327,
+	"maintainer": "Sven Hartge <sven@svenhartge.de>",
+	"description": "RADIUS protocol proxy supporting RadSec",
+	"homepage": "https://radsecproxy.github.io/",
+	"filename": "pool/main/r/radsecproxy/radsecproxy_1.11.4-1~bpo13+1_amd64.deb",
+	"size": 117592,
+	"sha256": "08788b8562c37e8ad82117be9bd1f088d70a6a4010a19de3078dcae28aacde36",
+	"descriptionMd5": "29c8b16ab5ef6fbfc97624ba02df3402"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "radsecproxy",
 	"version": "1.11.2-1",
 	"section": "net",
 	"priority": "optional",
