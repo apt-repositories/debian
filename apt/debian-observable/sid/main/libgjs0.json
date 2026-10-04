@@ -6,7 +6,7 @@
 	],
 	"package": "libgjs0",
 	"source": "gjs",
-	"version": "1.89.2+really1.88.1-1",
+	"version": "1.90.0-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,7 +22,7 @@
 		"libgirepository-2.0-0 (>= 2.86.0-7~)",
 		"libgirepository-2.0-0-with-libffi8 (>= 2.86.0-7~)",
 		"libglib2.0-0t64 (>= 2.86.0-7~)",
-		"libmozjs-140-0 (>= 140.14.0)",
+		"libmozjs-140-0 (>= 140.17.0)",
 		"libreadline8t64 (>= 6.0)",
 		"libstdc++6 (>= 12)",
 		"libx11-6"
@@ -30,16 +30,19 @@
 	"replaces": [
 		"libgjs0g"
 	],
+	"breaks": [
+		"gnome-shell (<< 50.4)"
+	],
 	"conflicts": [
 		"libgjs0g"
 	],
-	"installedSize": 1965,
+	"installedSize": 1987,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Mozilla-based javascript bindings for the GNOME platform",
 	"homepage": "https://gitlab.gnome.org/GNOME/gjs/-/blob/master/doc/README.md",
-	"filename": "pool/main/g/gjs/libgjs0_1.89.2+really1.88.1-1_amd64.deb",
-	"size": 571524,
-	"md5": "50a3e91413732c8ab72a02499d0d2851",
-	"sha256": "455309fdbc68654f06f586dc4c3168064fefef5e36a6fcbeb9f3eef15e57371d",
+	"filename": "pool/main/g/gjs/libgjs0_1.90.0-2_amd64.deb",
+	"size": 581012,
+	"md5": "258e994114cdc1326b87453faeb4bc43",
+	"sha256": "e484e9c13943579afb1a392a079baddaddfb79282de43c5251ad5f23fce0238d",
 	"descriptionMd5": "5fbf598c66bb05089d9f63d63e1412ff"
 }]
