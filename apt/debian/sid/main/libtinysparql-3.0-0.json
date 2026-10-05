@@ -6,11 +6,14 @@
 	],
 	"package": "libtinysparql-3.0-0",
 	"source": "tinysparql",
-	"version": "3.11.1-2",
+	"version": "3.12.0-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libavahi-glib1 (>= 0.6.16)",
 		"libc6 (>= 2.38)",
 		"libglib2.0-0t64 (>= 2.80.0)",
 		"libicu78 (>= 78.1-1~)",
@@ -26,13 +29,13 @@
 	"breaks": [
 		"libtracker-sparql-3.0-0 (<< 3.8.2-5~)"
 	],
-	"installedSize": 937,
+	"installedSize": 972,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "metadata database, indexer and search tool - library",
 	"homepage": "https://tracker.gnome.org/",
-	"filename": "pool/main/t/tinysparql/libtinysparql-3.0-0_3.11.1-2_amd64.deb",
-	"size": 288572,
-	"md5": "bd70f80a62551c562e7d2b406e4e23ba",
-	"sha256": "4e088cf86015fb173fd200201709d6b216efa0ec0793018471895d08774cab21",
+	"filename": "pool/main/t/tinysparql/libtinysparql-3.0-0_3.12.0-1_amd64.deb",
+	"size": 305908,
+	"md5": "23a493ed6fc449ee4930609723630b5e",
+	"sha256": "3e33c0c1578bf27c059f9992f683dd737b9156cf5315e6a677ae3bd6e7fb3b9d",
 	"descriptionMd5": "5472ca9df0cae1ca7a28f196b10e4e5a"
 }

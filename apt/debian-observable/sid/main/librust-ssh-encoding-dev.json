@@ -6,31 +6,33 @@
 	],
 	"package": "librust-ssh-encoding-dev",
 	"source": "rust-ssh-encoding",
-	"version": "0.2.0-2",
+	"version": "0.3.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-base64ct-1+alloc-dev (>= 1.4)",
-		"librust-base64ct-1+default-dev (>= 1.4)",
-		"librust-base64ct-1+std-dev (>= 1.4)",
-		"librust-bytes-1-dev",
+		"librust-base64ct-1+alloc-dev (>= 1.8)",
+		"librust-base64ct-1+default-dev (>= 1.8)",
+		"librust-bytes-1-dev (>= 1.11)",
+		"librust-crypto-bigint-0.7+alloc-dev",
+		"librust-ctutils-0.4-dev",
+		"librust-digest-0.11-dev",
 		"librust-pem-rfc7468-1+alloc-dev",
 		"librust-pem-rfc7468-1+default-dev",
-		"librust-pem-rfc7468-1+std-dev",
-		"librust-sha2-0.10+std-dev",
-		"librust-sha2-0.10-dev"
+		"librust-ssh-derive-0.3+default-dev",
+		"librust-zeroize-1+alloc-dev (>= 1.8)",
+		"librust-zeroize-1-dev (>= 1.8)"
 	],
 	"breaks": [
-		"rustc (<< 1.60~)"
+		"rustc (<< 1.85~)"
 	],
-	"installedSize": 78,
+	"installedSize": 124,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "SSH data type decoders/encoders - Rust source code",
 	"homepage": "https://github.com/RustCrypto/SSH/tree/master/ssh-encoding",
-	"filename": "pool/main/r/rust-ssh-encoding/librust-ssh-encoding-dev_0.2.0-2_amd64.deb",
-	"size": 15876,
-	"md5": "aa76b1ff9f42e4030e44f338ad69ff63",
-	"sha256": "6e323885dc673cee9ad67d2472fc43466e3efe844640a9b965764e3543682dd1",
+	"filename": "pool/main/r/rust-ssh-encoding/librust-ssh-encoding-dev_0.3.0-1_amd64.deb",
+	"size": 24692,
+	"md5": "d17a0d38956f1e98badd84bdc7d31ad1",
+	"sha256": "6a1c3c43d95f49406b87098b7d6bee087f63cef6b09c001eacf2cf0797353c98",
 	"descriptionMd5": "edf3c153b4fa91d8701dab6f90085641"
 }]

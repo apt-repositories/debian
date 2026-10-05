@@ -6,26 +6,31 @@
 	],
 	"package": "python3-fastapi",
 	"source": "fastapi",
-	"version": "0.141.1-2",
+	"version": "0.142.2-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-uvicorn",
 		"python3-annotated-doc",
+		"python3-opentelemetry-api (>= 1.44.0)",
 		"python3-pydantic (>= 2.9.0)",
 		"python3-starlette (>= 0.46.0)",
 		"python3-typing-extensions (>= 4.8.0)",
 		"python3-typing-inspection (>= 0.4.2)",
 		"python3:any"
 	],
-	"installedSize": 966,
+	"suggests": [
+		"python3-opentelemetry-exporter-otlp-proto-http",
+		"python3-opentelemetry-sdk"
+	],
+	"installedSize": 1012,
 	"maintainer": "Sandro Tosi <morph@debian.org>",
 	"description": "modern, fast, web framework for building APIs, based on type hints",
 	"homepage": "https://github.com/fastapi/fastapi",
-	"filename": "pool/main/f/fastapi/python3-fastapi_0.141.1-2_all.deb",
-	"size": 221912,
-	"md5": "d56109cd98bdd86fa20ad4368d17db50",
-	"sha256": "fc8f8215ef0bf5ef351c32cbed41a7c2f2e182104374514f70335fd6e7b1d74c",
+	"filename": "pool/main/f/fastapi/python3-fastapi_0.142.2-1_all.deb",
+	"size": 231316,
+	"md5": "196bdc04024b0da096773c067de419fc",
+	"sha256": "976382defaee0349a66ec157cfe7ad1f4bb1e20f610d1f7b887067583fb27416",
 	"descriptionMd5": "7e2be775b5cc46d2e8325fd8132af9a3"
 }]

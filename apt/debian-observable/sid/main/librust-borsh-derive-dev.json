@@ -6,26 +6,29 @@
 	],
 	"package": "librust-borsh-derive-dev",
 	"source": "rust-borsh-derive",
-	"version": "1.6.0-1",
+	"version": "1.8.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-once-cell-1+default-dev (>= 1.18.0-~~)",
+		"librust-once-cell-1+default-dev (>= 1.18.0)",
 		"librust-proc-macro-crate-3+default-dev",
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
-		"librust-syn-2+default-dev (>= 2.0.81-~~)",
-		"librust-syn-2+fold-dev (>= 2.0.81-~~)",
-		"librust-syn-2+full-dev (>= 2.0.81-~~)"
+		"librust-syn-3+default-dev",
+		"librust-syn-3+fold-dev",
+		"librust-syn-3+full-dev"
 	],
-	"installedSize": 570,
+	"breaks": [
+		"rustc (<< 1.77.0~)"
+	],
+	"installedSize": 560,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Binary Object Representation Serializer for Hashing - Rust source code",
 	"homepage": "https://borsh.io",
-	"filename": "pool/main/r/rust-borsh-derive/librust-borsh-derive-dev_1.6.0-1_amd64.deb",
-	"size": 45136,
-	"md5": "4f7e6c9e1d376a61ab4c81e4a5b1a7ce",
-	"sha256": "d64a138fee9214447304d5220462514f87f087f147b8de3e424650ec4eefda31",
+	"filename": "pool/main/r/rust-borsh-derive/librust-borsh-derive-dev_1.8.1-1_amd64.deb",
+	"size": 45060,
+	"md5": "caa9f38bb1894f9d579625b5e9115166",
+	"sha256": "80fec78b28060a569b16cbb4b80d944e2961f4c80f88a765bd5579215b25fc3f",
 	"descriptionMd5": "abbeaad6541796c85af7203c13e6b265"
 }]

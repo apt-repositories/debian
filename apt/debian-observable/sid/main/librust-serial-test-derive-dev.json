@@ -6,25 +6,28 @@
 	],
 	"package": "librust-serial-test-derive-dev",
 	"source": "rust-serial-test-derive",
-	"version": "3.4.0-1",
+	"version": "3.4.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-proc-macro2-1+proc-macro-dev (>= 1.0.60)",
 		"librust-quote-1-dev",
-		"librust-syn-2+clone-impls-dev",
-		"librust-syn-2+full-dev",
-		"librust-syn-2+parsing-dev",
-		"librust-syn-2+printing-dev"
+		"librust-syn-3+clone-impls-dev",
+		"librust-syn-3+full-dev",
+		"librust-syn-3+parsing-dev",
+		"librust-syn-3+printing-dev"
 	],
-	"installedSize": 66,
+	"breaks": [
+		"rustc (<< 1.68~)"
+	],
+	"installedSize": 70,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Helper crate for serial_test - Rust source code",
 	"homepage": "https://github.com/palfrey/serial_test/",
-	"filename": "pool/main/r/rust-serial-test-derive/librust-serial-test-derive-dev_3.4.0-1_amd64.deb",
-	"size": 10676,
-	"md5": "a60dc0a2d8867ab30ea3b13c410a53e4",
-	"sha256": "6bd61d1bbb6d1df50c7ee8db07a33fc04651beab758949ede14d9ca9207462ef",
+	"filename": "pool/main/r/rust-serial-test-derive/librust-serial-test-derive-dev_3.4.0-2_amd64.deb",
+	"size": 11232,
+	"md5": "3d1b230fe669f1c3e32ee8f3e9871cab",
+	"sha256": "3310a4c06325f2cf5d2f8f9a585d000c56f34d82ca88a79affcc7925f1716795",
 	"descriptionMd5": "5778a376a76c41731fb4ea80ff230d31"
 }]

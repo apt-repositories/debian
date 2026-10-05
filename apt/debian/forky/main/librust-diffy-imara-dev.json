@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "librust-diffy-imara-dev",
-	"source": "rust-diffy-imara (0.3.2-2)",
-	"version": "0.3.2-2+b1",
+	"source": "rust-diffy-imara",
+	"version": "0.3.2-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-imara-diff-0.1+default-dev (>= 0.1.7-~~)",
+		"librust-imara-diff-0.2+default-dev",
 		"librust-nu-ansi-term-0.50+default-dev"
 	],
-	"installedSize": 219,
+	"breaks": [
+		"rustc (<< 1.63.0~)"
+	],
+	"installedSize": 225,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Tools for finding and manipulating differences between files - Rust source code",
 	"homepage": "https://codeberg.ord/ada4a/diffy-imara",
-	"filename": "pool/main/r/rust-diffy-imara/librust-diffy-imara-dev_0.3.2-2+b1_amd64.deb",
-	"size": 38464,
-	"md5": "ba482e6d153389dd659e25ee543b73a9",
-	"sha256": "b387fa24288dc8447508e5c48273c68479844d40d790b7c5eba8ab0d79b4639c",
+	"filename": "pool/main/r/rust-diffy-imara/librust-diffy-imara-dev_0.3.2-3_amd64.deb",
+	"size": 39012,
+	"md5": "7b0981bbdc40d81f88cbaee4a776687e",
+	"sha256": "887596179022d6bded057314f1ae3e66218051a60a5f31a57d212fd6994b36ae",
 	"descriptionMd5": "1a63d2389a2b30ca0253ba55fbc570aa"
 }

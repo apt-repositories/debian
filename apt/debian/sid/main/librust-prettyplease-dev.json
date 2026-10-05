@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-prettyplease-dev",
-	"source": "rust-prettyplease (0.2.37-1)",
-	"version": "0.2.37-1+b1",
+	"source": "rust-prettyplease",
+	"version": "0.3.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2-1-dev (>= 1.0.80-~~)",
-		"librust-syn-2+full-dev (>= 2.0.105-~~)",
-		"librust-syn-2+parsing-dev (>= 2.0.105-~~)"
+		"librust-proc-macro2-1-dev (>= 1.0.80)",
+		"librust-syn-3+full-dev",
+		"librust-syn-3+parsing-dev"
 	],
-	"installedSize": 450,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 446,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Minimal `syn` syntax tree pretty-printer - Rust source code",
 	"homepage": "https://github.com/dtolnay/prettyplease",
-	"filename": "pool/main/r/rust-prettyplease/librust-prettyplease-dev_0.2.37-1+b1_amd64.deb",
-	"size": 59072,
-	"md5": "0a63979a437917ae892d94bcbb2a309e",
-	"sha256": "3a996a27d0798a257f15aa43fb164af5a781b89556c7a1415c71fa92f531ca2b",
+	"filename": "pool/main/r/rust-prettyplease/librust-prettyplease-dev_0.3.0-1_amd64.deb",
+	"size": 58708,
+	"md5": "1fb8d778eddf2b3839a87ad08a869f41",
+	"sha256": "22defda68686dbb4f1287f9f10a09fa51dcd122a4c5af3e8cb1eceb67edc6392",
 	"descriptionMd5": "7d651721cd24623cc1744a609aeb854b"
 }

@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "golang-k8s-cri-api-dev",
+	"source": "golang-k8s-cri-api",
+	"version": "0.36.4-1",
+	"section": "golang",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"golang-github-stretchr-testify-dev",
+		"golang-google-grpc-dev",
+		"golang-google-protobuf-dev"
+	],
+	"replaces": [
+		"golang-github-kubernetes-cri-api-dev (<< 0.36.4~)"
+	],
+	"breaks": [
+		"golang-github-kubernetes-cri-api-dev (<< 0.36.4~)"
+	],
+	"installedSize": 881,
+	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
+	"description": "Kubernetes Container Runtime Interface API definitions (library)",
+	"homepage": "https://github.com/kubernetes/cri-api",
+	"filename": "pool/main/g/golang-k8s-cri-api/golang-k8s-cri-api-dev_0.36.4-1_all.deb",
+	"size": 81544,
+	"md5": "5b5b1583bbf1f75cbddb6c30ec0a905e",
+	"sha256": "48943754d63d9f463660219677a6bdd85b744c659b3abf0011cfb838ec1838e4",
+	"descriptionMd5": "ff58be33321f5e436b65a5efa19c82e6"
+}

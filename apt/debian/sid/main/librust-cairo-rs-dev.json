@@ -6,7 +6,7 @@
 	],
 	"package": "librust-cairo-rs-dev",
 	"source": "rust-cairo-rs",
-	"version": "0.22.0-2",
+	"version": "0.22.9-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -29,13 +29,16 @@
 		"librust-glib-0.22-dev",
 		"librust-libc-0.2+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
 	"installedSize": 348,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings for the Cairo library - Rust source code",
 	"homepage": "https://gtk-rs.org/",
-	"filename": "pool/main/r/rust-cairo-rs/librust-cairo-rs-dev_0.22.0-2_amd64.deb",
-	"size": 47328,
-	"md5": "f251617aa784569935e4ea859d9a0bb7",
-	"sha256": "f99bae8d5690730871790f606beaf943ecf8720f2762522b273b429f646f67e5",
+	"filename": "pool/main/r/rust-cairo-rs/librust-cairo-rs-dev_0.22.9-1_amd64.deb",
+	"size": 47372,
+	"md5": "8851795007f5cba6c45b7c6ca4fa0d05",
+	"sha256": "1b323cc7cbdebfd74e327613a685bc3a9db47e03c0062e35101ba122ae69870c",
 	"descriptionMd5": "b831041329a13991d68cb93b564dc88a"
 }

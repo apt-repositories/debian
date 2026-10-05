@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amanda-client",
+	"source": "amanda",
+	"version": "1:3.5.4-2.2",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"amanda-common (= 1:3.5.4-2.2)",
+		"libxml-simple-perl",
+		"perl:any",
+		"libc6 (>= 2.38)",
+		"libglib2.0-0t64 (>= 2.76.0)",
+		"libreadline8t64 (>= 6.0)"
+	],
+	"suggests": [
+		"dump",
+		"gnuplot",
+		"smbclient"
+	],
+	"conflicts": [
+		"amanda"
+	],
+	"installedSize": 1109,
+	"maintainer": "Jose M Calhariz <calhariz@debian.org>",
+	"description": "Advanced Maryland Automatic Network Disk Archiver (Client)",
+	"homepage": "http://www.amanda.org/",
+	"filename": "pool/main/a/amanda/amanda-client_3.5.4-2.2_amd64.deb",
+	"size": 442036,
+	"md5": "abb4ffd09bc11cf07bc1131d1f61f3fd",
+	"sha256": "f262ce943f4427bb7371784ad6f60bae0516db0b8877fc5edacae572211dc2d6",
+	"descriptionMd5": "eb340217bc77fc442e67d6d525d8c0fb"
+}]

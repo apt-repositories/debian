@@ -6,7 +6,7 @@
 	],
 	"package": "python3-gunicorn",
 	"source": "gunicorn",
-	"version": "26.2.2-1",
+	"version": "26.2.2-2",
 	"section": "httpd",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,15 +14,21 @@
 		"python3:any"
 	],
 	"recommends": [
-		"python3-gunicorn-h1c (>= 0.6.9~)"
+		"python3-gunicorn-h1c (>= 0.6.9~)",
+		"python3-setproctitle"
+	],
+	"suggests": [
+		"python3-pastedeploy",
+		"python3-tornado",
+		"python3-gevent"
 	],
 	"installedSize": 929,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Event-based HTTP/WSGI server (Python 3 libraries)",
 	"homepage": "https://gunicorn.org/",
-	"filename": "pool/main/g/gunicorn/python3-gunicorn_26.2.2-1_all.deb",
-	"size": 163508,
-	"md5": "2ebea43e6fad4a8e94d278f34d484d81",
-	"sha256": "2aa1d3105415b0bf3b91062826bde28f6a497ecd460b0216149eaf247ee7b8fe",
+	"filename": "pool/main/g/gunicorn/python3-gunicorn_26.2.2-2_all.deb",
+	"size": 163664,
+	"md5": "9d20aa98e6b3ea3f0a91b7ccff827449",
+	"sha256": "10aa122383068a339134446f65df13ab8ff44192a857c6cea3b87ad8c5066671",
 	"descriptionMd5": "09a7d941cfaad6a1c9d3ac57aa53ca80"
 }
