@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "dput",
-	"version": "1.2.4",
+	"version": "1.2.5",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
@@ -16,18 +16,21 @@
 		"python3:any"
 	],
 	"suggests": [
-		"openssh-client",
 		"lintian",
 		"mini-dinstall",
+		"openssh-client",
 		"rsync"
 	],
-	"installedSize": 209,
+	"conflicts": [
+		"dput-ng"
+	],
+	"installedSize": 216,
 	"maintainer": "Ben Finney <bignose@debian.org>",
 	"description": "Debian package upload tool",
 	"homepage": "https://packages.debian.org/source/sid/dput",
-	"filename": "pool/main/d/dput/dput_1.2.4_all.deb",
-	"size": 45224,
-	"md5": "90eac691754f39494e95f87724a1aa6a",
-	"sha256": "262ab6ac161711b933f55679fde73870f2d6da5a03b74d72c1eb15fb70995bca",
+	"filename": "pool/main/d/dput/dput_1.2.5_all.deb",
+	"size": 45416,
+	"md5": "d0a90d83dbdcfc83aa2d775098648ebc",
+	"sha256": "ef734b05a835b17395db085a89b481f9690291e08617e46fa76d9119469c41b5",
 	"descriptionMd5": "f0b4509e6ecacad8ad2e5bd0f3a231d0"
 }]

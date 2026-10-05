@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "libdancer2-perl",
-	"version": "2.1.0-1",
+	"version": "2.2.2-1",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"perl:any",
-		"libcli-osprey-perl",
+		"libcli-osprey-perl (>= 0.09)",
 		"libclone-perl",
 		"libconfig-any-perl",
+		"libcrypt-urandom-perl",
 		"libdata-censor-perl",
 		"libexporter-tiny-perl",
 		"libfile-share-perl",
@@ -47,8 +48,6 @@
 	"recommends": [
 		"libclass-xsaccessor-perl",
 		"libcpanel-json-xs-perl",
-		"libcrypt-urandom-perl",
-		"libmath-random-isaac-xs-perl",
 		"libmoox-typetiny-perl",
 		"libpod-simple-perl",
 		"libtype-tiny-xs-perl",
@@ -56,13 +55,13 @@
 		"liburl-encode-xs-perl",
 		"libyaml-libyaml-perl"
 	],
-	"installedSize": 1242,
+	"installedSize": 1260,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "lightweight yet powerful web application framework",
 	"homepage": "https://metacpan.org/release/Dancer2",
-	"filename": "pool/main/libd/libdancer2-perl/libdancer2-perl_2.1.0-1_all.deb",
-	"size": 454712,
-	"md5": "7ef0310f9642be541c57789e8c9cdce8",
-	"sha256": "5b83212d066b9ecbbb006001ea4609fdf15a7e4d4ecdc9102f2e2b25fd444c8f",
+	"filename": "pool/main/libd/libdancer2-perl/libdancer2-perl_2.2.2-1_all.deb",
+	"size": 463256,
+	"md5": "5997750e1d65b17f874a4f9efa10afbf",
+	"sha256": "424258a29189033a2505344c723d57310e98eb5c1aae84bfeabb6d5a2acade1f",
 	"descriptionMd5": "6f010788cc530b5ad79021e4abbdff45"
 }]

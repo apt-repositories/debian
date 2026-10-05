@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "python3-geventhttpclient",
-	"source": "geventhttpclient (2.3.9-1)",
-	"version": "2.3.9-1+b1",
+	"source": "geventhttpclient",
+	"version": "2.5.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,17 +16,20 @@
 		"python3-brotli",
 		"python3-certifi",
 		"python3-gevent (>= 24.11.1)",
-		"python3-urllib3",
 		"python3:any",
-		"libc6 (>= 2.4)"
+		"libc6 (>= 2.4)",
+		"libllhttp9.4 (>= 9.3.0)"
 	],
-	"installedSize": 205,
+	"breaks": [
+		"python3-locust (<< 2.46.6-3~)"
+	],
+	"installedSize": 177,
 	"maintainer": "Sandro Tosi <morph@debian.org>",
 	"description": "high performance, concurrent HTTP client library for Python using gevent",
-	"homepage": "https://github.com/gwik/geventhttpclient",
-	"filename": "pool/main/g/geventhttpclient/python3-geventhttpclient_2.3.9-1+b1_amd64.deb",
-	"size": 46916,
-	"md5": "e30e12dea0c1edd617ea544ad9f71804",
-	"sha256": "906ac40a300b9f89f9326abcdb613cf4246a70f25de38c8dafd6755cef384332",
-	"descriptionMd5": "c4a69a9a0d8a6941e7b07e40984fa4db"
+	"homepage": "https://github.com/geventhttpclient/geventhttpclient",
+	"filename": "pool/main/g/geventhttpclient/python3-geventhttpclient_2.5.1-1_amd64.deb",
+	"size": 40660,
+	"md5": "351e20244073e1fbd65a0c0588ee5c0d",
+	"sha256": "c7cb947e2d56da0a2f80d42b4611b2e9a795c8a2c2b4e3f96a33bbb2b502c530",
+	"descriptionMd5": "219d3364051e9e54d68e23862cf8a3e9"
 }]

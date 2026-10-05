@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-glob-dev",
-	"source": "rust-glob (0.3.3-1)",
-	"version": "0.3.3-1+b1",
+	"source": "rust-glob",
+	"version": "0.3.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 115,
+	"breaks": [
+		"rustc (<< 1.63.0~)"
+	],
+	"installedSize": 121,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Match file paths against Unix shell style patterns - Rust source code",
 	"homepage": "https://github.com/rust-lang/glob",
-	"filename": "pool/main/r/rust-glob/librust-glob-dev_0.3.3-1+b1_amd64.deb",
-	"size": 23684,
-	"md5": "475b482237bda6469fa0a77b4feba68e",
-	"sha256": "2e5c94633bff9074ca522bcc5e73af44d6fe313795f3ebc397d16c450c36c57c",
+	"filename": "pool/main/r/rust-glob/librust-glob-dev_0.3.4-1_amd64.deb",
+	"size": 24400,
+	"md5": "97db5d207a491e12cf5a76b4b144b1e3",
+	"sha256": "005c2d07a0f2d9f6bde34fc3ff2561a9aabbd1fa9a160aac54239534bd10a15b",
 	"descriptionMd5": "97f529bfc053ddb1e8973be93e8ca79e"
 }

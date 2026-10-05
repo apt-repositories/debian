@@ -6,7 +6,7 @@
 	],
 	"package": "selinux-policy-default",
 	"source": "refpolicy",
-	"version": "2:2.20260804-1",
+	"version": "2:2.20260929-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -29,15 +29,19 @@
 		"selinux-basics (<< 0.5.2~)"
 	],
 	"conflicts": [
-		"mcstrans"
+		"gdm3",
+		"libasound2-plugins",
+		"mcstrans",
+		"pulseaudio",
+		"pulseaudio-utils"
 	],
-	"installedSize": 4663,
+	"installedSize": 4165,
 	"maintainer": "Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>",
 	"description": "Strict and Targeted variants of the SELinux policy",
 	"homepage": "https://github.com/SELinuxProject/refpolicy/releases",
-	"filename": "pool/main/r/refpolicy/selinux-policy-default_2.20260804-1_all.deb",
-	"size": 3291164,
-	"md5": "1301ba7c0d414036dc7c6455c62034b6",
-	"sha256": "363eef4c2bf3dfbdb9c519dfcb2a49972945947f89773a9d8fd86abd9f9fb48e",
+	"filename": "pool/main/r/refpolicy/selinux-policy-default_2.20260929-1_all.deb",
+	"size": 3002396,
+	"md5": "6b3bcad611caa481da6605da0c7b2fd1",
+	"sha256": "f01e8e5ea9dd0bc45ba1bfb14251bb06da61e516eb3143e9defed32fb43213d8",
 	"descriptionMd5": "325e1ecabb3986761a584eae753fa7e7"
 }
