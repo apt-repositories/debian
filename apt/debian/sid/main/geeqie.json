@@ -5,12 +5,14 @@
 		"Size"
 	],
 	"package": "geeqie",
-	"version": "1:3.2-1",
+	"version": "1:3.3-3",
 	"section": "graphics",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libarchive13t64 (>= 3.0.4)",
+		"libavformat63 (>= 7:9.0.2)",
+		"libavutil61 (>= 7:9.0.2)",
 		"libc6 (>= 2.38)",
 		"libcairo2 (>= 1.6.0)",
 		"libcfitsio10t64 (>= 4.2.0~)",
@@ -40,7 +42,7 @@
 		"libstdc++6 (>= 13.1)",
 		"libtiff6 (>= 4.0.3)",
 		"libwebp7 (>= 1.6.0)",
-		"geeqie-common (= 1:3.2-1)",
+		"geeqie-common (= 1:3.3-3)",
 		"sensible-utils",
 		"webp-pixbuf-loader"
 	],
@@ -64,13 +66,13 @@
 	"breaks": [
 		"geeqie-common (<= 1:2.5-3)"
 	],
-	"installedSize": 3214,
+	"installedSize": 3367,
 	"maintainer": "Andreas Rönnquist <gusnan@debian.org>",
 	"description": "image viewer using GTK+",
 	"homepage": "http://geeqie.org/",
-	"filename": "pool/main/g/geeqie/geeqie_3.2-1_amd64.deb",
-	"size": 845612,
-	"md5": "889ef7b3ff541f751ff3941cf2e1115a",
-	"sha256": "ffc6be1d81d49abab320d18465d6a81d44aaf0de0c6ce545a2ac1e954ce130fa",
+	"filename": "pool/main/g/geeqie/geeqie_3.3-3_amd64.deb",
+	"size": 876844,
+	"md5": "d3b821bb6c6cf5c6dba1e1229fa9a8d5",
+	"sha256": "f8b65f9f52e663cf57969b831885b423d8f8a3d946c2dd0f448e41322885359c",
 	"descriptionMd5": "d54bfbbaf76572caf1fcc02be235dc50"
 }

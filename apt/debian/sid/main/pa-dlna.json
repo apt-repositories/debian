@@ -5,29 +5,30 @@
 		"Size"
 	],
 	"package": "pa-dlna",
-	"version": "1.2-1",
+	"version": "2.0-1",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"init-system-helpers (>= 1.52)",
+		"ffmpeg | flac",
+		"ffmpeg | lame",
+		"pulseaudio-utils",
+		"python3-h11",
 		"python3-libpulse (>= 0.7)",
 		"python3-psutil",
 		"python3:any",
-		"pulseaudio-utils",
-		"ffmpeg | flac",
-		"ffmpeg | lame"
+		"init-system-helpers (>= 1.66~)"
 	],
 	"recommends": [
 		"python3-systemd"
 	],
-	"installedSize": 230,
+	"installedSize": 231,
 	"maintainer": "Sebastian Ramacher <sramacher@debian.org>",
 	"description": "forward pulseaudio streams to DLNA devices",
 	"homepage": "https://gitlab.com/xdegaye/pa-dlna",
-	"filename": "pool/main/p/pa-dlna/pa-dlna_1.2-1_all.deb",
-	"size": 47900,
-	"md5": "8306b4fceab08d5f231357583ad93f8f",
-	"sha256": "b61d656f1acb0e5bbfea70b25cf953a12e35cfb72313d9e2b475bb6cd0945120",
+	"filename": "pool/main/p/pa-dlna/pa-dlna_2.0-1_all.deb",
+	"size": 48600,
+	"md5": "74980798780b2aade1bc1c9cf4dcaba9",
+	"sha256": "874a42b73220c70babede987d166bf43861946126a02b9ce3bcb88498598ea48",
 	"descriptionMd5": "04ea401285c9ca3955554e49aa91aac7"
 }

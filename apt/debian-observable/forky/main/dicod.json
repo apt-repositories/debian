@@ -5,21 +5,22 @@
 		"Size"
 	],
 	"package": "dicod",
-	"source": "dico (2.12-4)",
-	"version": "2.12-4+b2",
+	"source": "dico",
+	"version": "2.12-5",
 	"section": "text",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"m4",
+		"perl:any",
 		"libc6 (>= 2.38)",
 		"libcrypt1 (>= 1:4.1.0)",
 		"libdico2t64 (>= 2.12)",
 		"libgsasl18 (>= 1.1)",
 		"libldap2 (>= 2.6.2)",
-		"libltdl7 (>= 2.5.4)",
+		"libltdl7 (>= 2.6.2)",
 		"libpam0g (>= 0.99.7.1)",
-		"libpcre2-8-0 (>= 10.22)",
+		"libpcre2-8-0 (>= 10.47)",
 		"zlib1g (>= 1:1.1.4)"
 	],
 	"preDepends": [
@@ -27,11 +28,11 @@
 	],
 	"suggests": [
 		"dico-doc",
-		"openbsd-inetd | inetutils-inetd",
 		"dict-foldoc",
 		"dict-gcide | dictd-dictionary",
 		"dict-jargon",
-		"dict-wn"
+		"dict-wn",
+		"openbsd-inetd | inetutils-inetd"
 	],
 	"replaces": [
 		"dico-module-dictorg",
@@ -43,13 +44,13 @@
 		"dico-module-outline",
 		"dictd"
 	],
-	"installedSize": 767,
+	"installedSize": 769,
 	"maintainer": "Ritesh Raj Sarraf <rrs@debian.org>",
 	"description": "RFC 2229 compliant modular dictionary server",
 	"homepage": "https://puszcza.gnu.org.ua/software/dico/",
-	"filename": "pool/main/d/dico/dicod_2.12-4+b2_amd64.deb",
-	"size": 256160,
-	"md5": "5434567506d9d84b24a4eb844cb47b43",
-	"sha256": "19965908cd53703795c6d2188796849896cfeed22e7aaaf9a7ec38ea4dbb3145",
+	"filename": "pool/main/d/dico/dicod_2.12-5_amd64.deb",
+	"size": 262104,
+	"md5": "3d0a22eb76508062a82bdd225d4b7b15",
+	"sha256": "c8892d4ee77b57c510d645cf98ccc5fcad832c1d4eab60ec1a4daccae12cbbba",
 	"descriptionMd5": "ec9ad191eacf23c9cb9849b4c27dc108"
 }]
