@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-ssh-cipher-0.2-dev",
+	"source": "rust-ssh-cipher-0.2",
+	"version": "0.2.0-1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-aes-0.8-dev",
+		"librust-aes-gcm-0.10+aes-dev",
+		"librust-cbc-0.1+default-dev",
+		"librust-chacha20-0.9-dev",
+		"librust-cipher-0.4+default-dev",
+		"librust-ctr-0.9-dev",
+		"librust-des-0.8-dev",
+		"librust-poly1305-0.8-dev",
+		"librust-ssh-encoding-0.2+default-dev",
+		"librust-subtle-2-dev"
+	],
+	"replaces": [
+		"librust-ssh-cipher-dev (<< 0.2.1~)"
+	],
+	"breaks": [
+		"librust-ssh-cipher-dev (<< 0.2.1~)",
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 58,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "SSH symmetric encryption - Rust source code",
+	"homepage": "https://github.com/RustCrypto/SSH/tree/master/ssh-cipher",
+	"filename": "pool/main/r/rust-ssh-cipher-0.2/librust-ssh-cipher-0.2-dev_0.2.0-1_amd64.deb",
+	"size": 12776,
+	"md5": "5f851d80b7b29d6e8202a1f4a3626199",
+	"sha256": "a4bf2e59dfa41bc203bf155c8c994c1d46f4a182a7c4ab14ea8f570ec52fa974",
+	"descriptionMd5": "138f649127e9d33752b59b668f1f6076"
+}

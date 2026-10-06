@@ -6,7 +6,7 @@
 	],
 	"package": "librust-brush-parser-dev",
 	"source": "rust-brush-parser",
-	"version": "0.4.0-1",
+	"version": "0.4.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,7 +14,7 @@
 		"librust-arbitrary-1+default-dev (>= 1.4.2)",
 		"librust-arbitrary-1+derive-dev (>= 1.4.2)",
 		"librust-bon-3+default-dev",
-		"librust-cached-0.59+default-dev",
+		"librust-cached-4+default-dev",
 		"librust-getrandom-0.4+default-dev (>= 0.4.2)",
 		"librust-getrandom-0.4+wasm-js-dev (>= 0.4.2)",
 		"librust-indenter-0.3+default-dev",
@@ -32,13 +32,16 @@
 		"librust-uuid-1+default-dev (>= 1.23.1)",
 		"librust-uuid-1+js-dev (>= 1.23.1)"
 	],
-	"installedSize": 767,
+	"breaks": [
+		"rustc (<< 1.88.0~)"
+	],
+	"installedSize": 772,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "POSIX/bash shell tokenizer and parsers (used by brush-shell) - Rust source code",
 	"homepage": "https://github.com/reubeno/brush",
-	"filename": "pool/main/r/rust-brush-parser/librust-brush-parser-dev_0.4.0-1_amd64.deb",
-	"size": 81156,
-	"md5": "ff1341441d90fb4d1637d6d073540e7c",
-	"sha256": "f530a1c36e101645451e90bc23946b699bedabcb5e81033dd91fa531258954d9",
+	"filename": "pool/main/r/rust-brush-parser/librust-brush-parser-dev_0.4.0-2_amd64.deb",
+	"size": 82104,
+	"md5": "07e4758a5b7cceefa7113b6096ea63b1",
+	"sha256": "1b1f3b8acceb29ebc85116a961164e46f9b476d6be9c81685920373117c494ab",
 	"descriptionMd5": "52171ffa21926fc26f5f8dc3c38d02be"
 }]

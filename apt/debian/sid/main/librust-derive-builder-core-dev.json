@@ -6,7 +6,7 @@
 	],
 	"package": "librust-derive-builder-core-dev",
 	"source": "rust-derive-builder-core",
-	"version": "0.20.2-3",
+	"version": "0.20.2-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,13 +18,16 @@
 		"librust-syn-3+extra-traits-dev",
 		"librust-syn-3+full-dev"
 	],
+	"breaks": [
+		"librust-derive-builder-macro-dev (<< 0.20.2-2)"
+	],
 	"installedSize": 180,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Internal helper library for the derive_builder crate - Rust source code",
 	"homepage": "https://github.com/colin-kiegel/rust-derive-builder",
-	"filename": "pool/main/r/rust-derive-builder-core/librust-derive-builder-core-dev_0.20.2-3_amd64.deb",
-	"size": 31876,
-	"md5": "45fd3a7a5ce6645c758b038e189daa32",
-	"sha256": "dcb7ffe204638c9d5e7b7fe62dc2175ad8c677d8ce005684de985066321ede0b",
+	"filename": "pool/main/r/rust-derive-builder-core/librust-derive-builder-core-dev_0.20.2-4_amd64.deb",
+	"size": 31948,
+	"md5": "09f522bf8d72fd4a746b99edbaef4e78",
+	"sha256": "8c126f3a419edf4390a170986da7e6989c46813c6373076d9cffe3a4c14065e1",
 	"descriptionMd5": "b18fa8da0bb40ff89f72cc2f40e07e14"
 }
