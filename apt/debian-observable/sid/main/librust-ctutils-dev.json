@@ -6,21 +6,24 @@
 	],
 	"package": "librust-ctutils-dev",
 	"source": "rust-ctutils",
-	"version": "0.4.2-1",
+	"version": "0.4.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cmov-0.5+default-dev (>= 0.5.3)",
-		"librust-subtle-2-dev"
+		"librust-subtle-2-dev (>= 2.6)"
+	],
+	"breaks": [
+		"rustc (<< 1.87~)"
 	],
 	"installedSize": 157,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "Constant-time utility library with selection and equality testing support targeting cryptographic applications - Rust source code",
 	"homepage": "https://github.com/RustCrypto/utils",
-	"filename": "pool/main/r/rust-ctutils/librust-ctutils-dev_0.4.2-1_amd64.deb",
-	"size": 28580,
-	"md5": "1d88402f07f3f01f3fd57dcb4f3bc4c6",
-	"sha256": "3fc0110755d08d8f2cc4cf35e16da2a5bbb537d2ec25d306205cc597566cedfc",
+	"filename": "pool/main/r/rust-ctutils/librust-ctutils-dev_0.4.3-1_amd64.deb",
+	"size": 28800,
+	"md5": "0a6b605afec861e9bfdb87ccb0a2f439",
+	"sha256": "0c017f82d1af0030f36690dbd64b0e0d5c70deb69ef72854b9d3b7aadfa2c7c8",
 	"descriptionMd5": "83f721f534e4e457cec2568ad2290a62"
 }]

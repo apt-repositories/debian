@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "tinysparql",
-	"version": "3.11.1-2",
+	"version": "3.12.0-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -13,6 +13,10 @@
 		"default-dbus-session-bus | dbus-session-bus",
 		"libglib2.0-bin",
 		"shared-mime-info",
+		"init-system-helpers (>= 1.66~)",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libavahi-glib1 (>= 0.6.16)",
 		"libc6 (>= 2.38)",
 		"libglib2.0-0t64 (>= 2.80.0)",
 		"libjson-glib-1.0-0 (>= 1.5.2)",
@@ -29,13 +33,13 @@
 	"breaks": [
 		"tracker (<< 3.8)"
 	],
-	"installedSize": 2192,
+	"installedSize": 2255,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "metadata database, indexer and search tool",
 	"homepage": "https://tracker.gnome.org/",
-	"filename": "pool/main/t/tinysparql/tinysparql_3.11.1-2_amd64.deb",
-	"size": 585188,
-	"md5": "9904213c13b6230c1957ce903ca057ee",
-	"sha256": "03fc758a344bd0ebf9f4eb08bf4e2af398f992775f1f50c700aa84b7ee55237c",
+	"filename": "pool/main/t/tinysparql/tinysparql_3.12.0-1_amd64.deb",
+	"size": 607204,
+	"md5": "247b9208ecfd0456953d4fdd9b306f24",
+	"sha256": "7a9fad3d3e54814fd3bc33aabe922210032c3af3d26418c3093f7ddfdbd05ec3",
 	"descriptionMd5": "87313afa17960507074864725e7b27e5"
 }

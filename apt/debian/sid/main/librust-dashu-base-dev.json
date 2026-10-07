@@ -6,17 +6,23 @@
 	],
 	"package": "librust-dashu-base-dev",
 	"source": "rust-dashu-base",
-	"version": "0.4.1-1",
+	"version": "0.6.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 120,
+	"depends": [
+		"librust-num-modular-0.6-dev (>= 0.6.5)"
+	],
+	"breaks": [
+		"rustc (<< 1.68~)"
+	],
+	"installedSize": 128,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Common trait definitions and tools for the `dashu` libraries - Rust source code",
-	"homepage": "https://github.com/cmpute/dashu",
-	"filename": "pool/main/r/rust-dashu-base/librust-dashu-base-dev_0.4.1-1_amd64.deb",
-	"size": 21616,
-	"md5": "3c950aa458eeba0049902ec6357e32da",
-	"sha256": "4fad33d8bc6ddc06079fd40a40a37f3398f321edb7bb2924a52e3a01565e72e2",
-	"descriptionMd5": "967e4ad48161e127582cacdbbc4b7088"
+	"description": "Dashu arbitrary-precision number library - Rust source code",
+	"homepage": "https://github.com/cmpute/dashu/tree/master/base",
+	"filename": "pool/main/r/rust-dashu-base/librust-dashu-base-dev_0.6.1-1_amd64.deb",
+	"size": 25856,
+	"md5": "d02fa842736216ab057dc4de79570793",
+	"sha256": "598dc841d48c0d3c606b5b593b90205386b5e03233f9d9f120597bec28001fe9",
+	"descriptionMd5": "664463c9fc184298f61109f1f3def7df"
 }
