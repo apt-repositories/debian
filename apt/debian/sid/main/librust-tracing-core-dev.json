@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-tracing-core-dev",
-	"source": "rust-tracing-core (0.1.36-1)",
-	"version": "0.1.36-1+b1",
+	"source": "rust-tracing-core",
+	"version": "0.1.36-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-once-cell-1+default-dev (>= 1.13.0-~~)",
+		"librust-once-cell-1+default-dev (>= 1.13.0)",
 		"librust-valuable-0.1+std-dev",
 		"librust-valuable-0.1-dev"
 	],
-	"installedSize": 292,
+	"breaks": [
+		"rustc (<< 1.65.0~)"
+	],
+	"installedSize": 303,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Core primitives for application-level tracing - Rust source code",
 	"homepage": "https://tokio.rs",
-	"filename": "pool/main/r/rust-tracing-core/librust-tracing-core-dev_0.1.36-1+b1_amd64.deb",
-	"size": 61612,
-	"md5": "5dd2a5ba7c4ca8db8bf5c96478c8eaba",
-	"sha256": "2383f1e512d53ab6af09b3e9336cd42f5a240e8d29775bfad9189afceb952fba",
+	"filename": "pool/main/r/rust-tracing-core/librust-tracing-core-dev_0.1.36-2_amd64.deb",
+	"size": 62800,
+	"md5": "26dbb5c030ccc5c45ef2779f5bcc39a2",
+	"sha256": "5c8d58696720e33154754f82bf387646438e3736c7bfad81ddcf2c29c967a883",
 	"descriptionMd5": "58454f26a7e3f2bcf87a0989c2947fbf"
 }

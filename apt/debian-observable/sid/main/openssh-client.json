@@ -6,14 +6,13 @@
 	],
 	"package": "openssh-client",
 	"source": "openssh",
-	"version": "1:10.5p1-1",
+	"version": "1:10.6p1-1",
 	"section": "net",
 	"priority": "standard",
 	"architecture": "amd64",
 	"depends": [
-		"openssh-common (= 1:10.5p1-1)",
+		"openssh-common (= 1:10.6p1-1)",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"libc6 (>= 2.42)",
 		"libedit2 (>= 2.11-20080614-0)",
 		"libselinux1 (>= 3.1~)",
@@ -39,13 +38,13 @@
 	"conflicts": [
 		"openssh-server (<< 1:10.3p1-6~)"
 	],
-	"installedSize": 3599,
+	"installedSize": 3611,
 	"maintainer": "Debian OpenSSH Maintainers <debian-ssh@lists.debian.org>",
 	"description": "secure shell (SSH) client, for secure access to remote machines",
 	"homepage": "https://www.openssh.com/",
-	"filename": "pool/main/o/openssh/openssh-client_10.5p1-1_amd64.deb",
-	"size": 733672,
-	"md5": "aa0bdb7ac46baeb543ba288c83495cf9",
-	"sha256": "b14687d35055160477faf9413219080039143da033fd16cbe3d4aedb58708e56",
+	"filename": "pool/main/o/openssh/openssh-client_10.6p1-1_amd64.deb",
+	"size": 734568,
+	"md5": "2991267ce365f1f093e3d7dbc5855309",
+	"sha256": "fbc16d74455a17d8f30729ac3b4ce4a94b41ed58f5114100b6a5ee276457034b",
 	"descriptionMd5": "bc675a306738b4fd02bc20692ac0e688"
 }]

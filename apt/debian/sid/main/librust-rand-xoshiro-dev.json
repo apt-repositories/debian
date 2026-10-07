@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rand-xoshiro-dev",
 	"source": "rust-rand-xoshiro",
-	"version": "0.8.0-2",
+	"version": "0.8.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,16 @@
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev"
 	],
-	"installedSize": 124,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 140,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Xoshiro, xoroshiro and splitmix64 RNGs - Rust source code",
 	"homepage": "https://rust-random.github.io/book",
-	"filename": "pool/main/r/rust-rand-xoshiro/librust-rand-xoshiro-dev_0.8.0-2_amd64.deb",
-	"size": 18876,
-	"md5": "cacde6052059d07ceab88ae06bb6154b",
-	"sha256": "2fe512e78a1eedb8f969f96ffdc1616d7f54b43dd471a6268159cd3ea370d5b6",
+	"filename": "pool/main/r/rust-rand-xoshiro/librust-rand-xoshiro-dev_0.8.1-1_amd64.deb",
+	"size": 20528,
+	"md5": "8682887cec56d2a1223e0e128ca7f7b8",
+	"sha256": "a17487f49ffb5adb9745fd392b358d1e030a2b19aae4a0813d02914d60f41464",
 	"descriptionMd5": "af86c6cc0f77450b8d12b6f723ce3666"
 }
