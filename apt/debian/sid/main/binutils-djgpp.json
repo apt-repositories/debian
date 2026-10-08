@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "binutils-djgpp",
-	"version": "2.35.1+dfsg-3",
+	"source": "binutils-djgpp (3)",
+	"version": "2.47-6+3",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"binutils-common (>= 2.47)",
 		"libc6 (>= 2.38)",
-		"zlib1g (>= 1:1.2.0)"
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.11.dfsg)"
 	],
-	"installedSize": 12981,
+	"installedSize": 14111,
 	"maintainer": "Stephen Kitt <skitt@debian.org>",
 	"description": "Cross-binutils for DOS using DJGPP",
 	"homepage": "https://www.gnu.org/software/binutils/",
-	"filename": "pool/main/b/binutils-djgpp/binutils-djgpp_2.35.1+dfsg-3_amd64.deb",
-	"size": 1816072,
-	"md5": "4b11872e9fadf8a12eb8ea970cd384e6",
-	"sha256": "174c18015a6a763c617170ccff5a737580321d7969f806705b638a5ec08f69be",
+	"builtUsing": "binutils (= 2.47-6)",
+	"filename": "pool/main/b/binutils-djgpp/binutils-djgpp_2.47-6+3_amd64.deb",
+	"size": 2111800,
+	"md5": "983c6f1d1770ca33dbde5e6080f388fb",
+	"sha256": "3ef139df03232769af4e4eea86852360d8ee79c47eb3c5fecfed100d21f1edbf",
 	"descriptionMd5": "89a3800c75f7965bf647be0d7cc3955a"
 }

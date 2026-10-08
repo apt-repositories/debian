@@ -6,21 +6,24 @@
 	],
 	"package": "librust-diesel-table-macro-syntax-dev",
 	"source": "rust-diesel-table-macro-syntax",
-	"version": "0.3.0-1",
+	"version": "0.3.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-syn-2+default-dev",
-		"librust-syn-2+full-dev"
+		"librust-syn-3+default-dev",
+		"librust-syn-3+full-dev"
 	],
-	"installedSize": 39,
+	"breaks": [
+		"rustc (<< 1.86.0~)"
+	],
+	"installedSize": 43,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Internal diesel crate - Rust source code",
 	"homepage": "https://diesel.rs",
-	"filename": "pool/main/r/rust-diesel-table-macro-syntax/librust-diesel-table-macro-syntax-dev_0.3.0-1_amd64.deb",
-	"size": 8588,
-	"md5": "73195624c0028ee26310db942d24c338",
-	"sha256": "9314f2e8ae1c4a163cd52ce612ecd3c00469a36c3e145f55dcc5e6edc4cd8342",
+	"filename": "pool/main/r/rust-diesel-table-macro-syntax/librust-diesel-table-macro-syntax-dev_0.3.0-2_amd64.deb",
+	"size": 9036,
+	"md5": "fa2c0fbf0683127a07ca8ebfd301354f",
+	"sha256": "6edbcb1e04721e7c8028680429cb6f1f4fddcdf3053f1fe190eabc752cc8054c",
 	"descriptionMd5": "db18534e5e32805642c66db5374917c9"
 }
