@@ -5,23 +5,27 @@
 		"Size"
 	],
 	"package": "librust-logos-dev",
-	"source": "rust-logos (0.15.1-1)",
-	"version": "0.15.1-1+b1",
+	"source": "rust-logos",
+	"version": "0.16.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-logos-derive-0.15+debug-dev (>= 0.15.1-~~)",
-		"librust-logos-derive-0.15+default-dev (>= 0.15.1-~~)",
-		"librust-logos-derive-0.15+forbid-unsafe-dev (>= 0.15.1-~~)"
+		"librust-logos-derive-0.16+debug-dev (>= 0.16.1)",
+		"librust-logos-derive-0.16+default-dev (>= 0.16.1)",
+		"librust-logos-derive-0.16+forbid-unsafe-dev (>= 0.16.1)",
+		"librust-logos-derive-0.16+state-machine-codegen-dev (>= 0.16.1)"
 	],
-	"installedSize": 1845,
+	"breaks": [
+		"rustc (<< 1.80.0~)"
+	],
+	"installedSize": 117,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Create ridiculously fast Lexers - Rust source code",
 	"homepage": "https://logos.maciej.codes/",
-	"filename": "pool/main/r/rust-logos/librust-logos-dev_0.15.1-1+b1_amd64.deb",
-	"size": 1617748,
-	"md5": "29aa693ec1fa39b754db9326578c9fb9",
-	"sha256": "2abac20fb826291936b3fb2c7e50bd1ca00302ae85bed77996a4c7b713dc3d03",
+	"filename": "pool/main/r/rust-logos/librust-logos-dev_0.16.1-1_amd64.deb",
+	"size": 24816,
+	"md5": "10705199f36afa3d3c59c70569ef4b94",
+	"sha256": "27b1cf580572eb06a48ff59f5712b5b894dbc3df2ef27726122c6f3e54ed466c",
 	"descriptionMd5": "061821cc3dbf6b35b38702ccf2c389f2"
 }
