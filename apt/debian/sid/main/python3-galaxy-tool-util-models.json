@@ -6,23 +6,27 @@
 	],
 	"package": "python3-galaxy-tool-util-models",
 	"source": "python-galaxy-tool-util-models",
-	"version": "26.0.0-1",
+	"version": "26.1.1-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-pydantic",
+		"python3-pydantic-extra-types",
 		"python3-typing-extensions",
 		"python3:any",
 		"python3-galaxy-common"
 	],
-	"installedSize": 261,
+	"breaks": [
+		"python3-galaxy-tool-util (<< 26.1.1)"
+	],
+	"installedSize": 366,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "Pydantic models for Galaxy tools",
 	"homepage": "https://github.com/galaxyproject/galaxy",
-	"filename": "pool/main/p/python-galaxy-tool-util-models/python3-galaxy-tool-util-models_26.0.0-1_all.deb",
-	"size": 33504,
-	"md5": "d724df5f0db7df44b9dd878075828f11",
-	"sha256": "77bfe634a025a15d40eae4f834cc74e6db5258a9a0600d8a7d19e47b6a5027d1",
+	"filename": "pool/main/p/python-galaxy-tool-util-models/python3-galaxy-tool-util-models_26.1.1-1_all.deb",
+	"size": 53204,
+	"md5": "e0423172c84d9d50029e7ceeb2230ef2",
+	"sha256": "c6867910dd281cb52b3d3bd683a12c20c5167835736ab4a627dfa845b9065dd8",
 	"descriptionMd5": "5f5af4a2c732b67612ad3677db5422d4"
 }
