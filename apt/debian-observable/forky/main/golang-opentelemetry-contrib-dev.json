@@ -6,7 +6,7 @@
 	],
 	"package": "golang-opentelemetry-contrib-dev",
 	"source": "golang-opentelemetry-contrib",
-	"version": "1.43.0-1",
+	"version": "1.46.0-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
@@ -17,26 +17,28 @@
 		"golang-github-google-go-cmp-dev",
 		"golang-github-gorilla-mux-dev",
 		"golang-github-labstack-echo-dev",
+		"golang-github-prometheus-client-golang-dev",
+		"golang-github-prometheus-otlptranslator-dev",
 		"golang-github-sirupsen-logrus-dev",
 		"golang-github-stretchr-testify-dev",
 		"golang-go.uber-zap-dev",
 		"golang-google-grpc-dev",
 		"golang-google-protobuf-dev",
 		"golang-mongodb-mongo-driver-dev",
-		"golang-github-prometheus-client-golang-dev",
-		"golang-github-prometheus-otlptranslator-dev",
-		"golang-opentelemetry-otel-dev (>= 1.43.0-2)"
+		"golang-opentelemetry-otel-dev (>= 1.46.0~)"
 	],
 	"breaks": [
-		"golang-github-prometheus-prometheus-dev (<< 2.45.6+ds-6)"
+		"golang-github-prometheus-alertmanager-dev (<< 0.33.1-5~)",
+		"golang-github-prometheus-prometheus-dev (<< 3.5.3+ds1-6~)",
+		"golang-opentelemetry-otel-dev (<< 1.46.0)"
 	],
-	"installedSize": 4038,
+	"installedSize": 4451,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Collection of 3rd-party packages for OpenTelemetry-Go",
 	"homepage": "https://pkg.go.dev/go.opentelemetry.io/contrib",
-	"filename": "pool/main/g/golang-opentelemetry-contrib/golang-opentelemetry-contrib-dev_1.43.0-1_all.deb",
-	"size": 397788,
-	"md5": "d22ce0f7d6b7554d3ba71336f03d6e32",
-	"sha256": "3b044c4946fe3f96429708c8b78b375f88f1989bcc092f840d1fce726db18b57",
+	"filename": "pool/main/g/golang-opentelemetry-contrib/golang-opentelemetry-contrib-dev_1.46.0-1_all.deb",
+	"size": 450764,
+	"md5": "57f2b44eb667e6795f7dd5e538e9747a",
+	"sha256": "96774124e3cb8cc72eb85cafc0332e2f881c5b3c1cb103f18454607dca5d6e52",
 	"descriptionMd5": "a1fcac81871cf695f80f08d5dac1c9ce"
 }]

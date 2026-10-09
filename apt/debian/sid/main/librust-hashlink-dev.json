@@ -5,25 +5,25 @@
 		"Size"
 	],
 	"package": "librust-hashlink-dev",
-	"source": "rust-hashlink (0.10.0-2)",
-	"version": "0.10.0-2+b1",
+	"source": "rust-hashlink",
+	"version": "0.11.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-hashbrown+default-hasher-dev (<< 0.17-~~)",
-		"librust-hashbrown+default-hasher-dev (>= 0.15-~~)",
-		"librust-hashbrown+inline-more-dev (<< 0.17-~~)",
-		"librust-hashbrown+inline-more-dev (>= 0.15-~~)",
+		"librust-hashbrown-0.16+default-hasher-dev",
 		"librust-serde-1-dev"
 	],
-	"installedSize": 188,
+	"breaks": [
+		"rustc (<< 1.65~)"
+	],
+	"installedSize": 182,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "HashMap-like containers that hold their key-value pairs in a user controllable order - Rust source code",
 	"homepage": "https://github.com/kyren/hashlink",
-	"filename": "pool/main/r/rust-hashlink/librust-hashlink-dev_0.10.0-2+b1_amd64.deb",
-	"size": 30492,
-	"md5": "c1991b52b00054a970334dd16ee6019c",
-	"sha256": "476059441f5dc4fd5bb6c15052d7f63f23659e87c249d9722d9d3ec4d6b7e105",
+	"filename": "pool/main/r/rust-hashlink/librust-hashlink-dev_0.11.0-1_amd64.deb",
+	"size": 30072,
+	"md5": "728d692f0e2c660d9ba059c79252d7f3",
+	"sha256": "05258ec7527521d459b78147bfefbb768f5f41e435c27177bd5ed14c0bab24d1",
 	"descriptionMd5": "22a730ced813d2421776ed2690e00bd2"
 }

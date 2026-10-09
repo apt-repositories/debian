@@ -5,25 +5,29 @@
 		"Size"
 	],
 	"package": "libtasmanian-dev",
-	"source": "tasmanian (8.2-2)",
-	"version": "8.2-2+b1",
+	"source": "tasmanian",
+	"version": "8.2-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gfortran-15 | gfortran-16 | gfortran-mod-16",
-		"libtasmaniansparsegrid8 (= 8.2-2+b1)",
-		"libtasmaniandream8 (= 8.2-2+b1)",
-		"libtasmanianfortran8 (= 8.2-2+b1)",
-		"libtasmaniancaddons8 (= 8.2-2+b1)"
+		"libtasmaniansparsegrid8 (= 8.2-3)",
+		"libtasmaniandream8 (= 8.2-3)",
+		"libtasmanianfortran8 (= 8.2-3)",
+		"libtasmaniancaddons8 (= 8.2-3)",
+		"tasgrid",
+		"gfortran-16 | gfortran-mod-16"
 	],
-	"installedSize": 1313,
+	"suggests": [
+		"libtasmanian-doc"
+	],
+	"installedSize": 1326,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Tasmanian development files",
 	"homepage": "https://github.com/ORNL/TASMANIAN",
-	"filename": "pool/main/t/tasmanian/libtasmanian-dev_8.2-2+b1_amd64.deb",
-	"size": 196568,
-	"md5": "92abe1c90a0fe118ccd994b36d315de4",
-	"sha256": "79a71ead66a705434e7e9ff80f944cd7c1ba77558143f2f929b461c36318b455",
+	"filename": "pool/main/t/tasmanian/libtasmanian-dev_8.2-3_amd64.deb",
+	"size": 194728,
+	"md5": "fa7af0b7b325eedf1f290f55d173e64c",
+	"sha256": "735b035cfb92df2a1e0004c6080209430c44fb5508ee13d5910e0c3c44d1d7fa",
 	"descriptionMd5": "4ba8a5e4d32eb43e43f912d1badc49f5"
 }

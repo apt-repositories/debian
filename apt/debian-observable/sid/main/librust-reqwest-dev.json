@@ -6,12 +6,13 @@
 	],
 	"package": "librust-reqwest-dev",
 	"source": "rust-reqwest",
-	"version": "0.13.4-1",
+	"version": "0.13.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-base64-0.22+default-dev",
+		"librust-base64+default-dev (<< 0.24)",
+		"librust-base64+default-dev (>= 0.22)",
 		"librust-bytes-1+default-dev (>= 1.2)",
 		"librust-cookie-0.18+default-dev",
 		"librust-cookie-store-0.22+default-dev",
@@ -87,13 +88,13 @@
 	"breaks": [
 		"rustc (<< 1.85.0~)"
 	],
-	"installedSize": 729,
+	"installedSize": 735,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Higher level HTTP client library - Rust source code",
 	"homepage": "https://github.com/seanmonstar/reqwest",
-	"filename": "pool/main/r/rust-reqwest/librust-reqwest-dev_0.13.4-1_amd64.deb",
-	"size": 109868,
-	"md5": "344af52521768a6162eb29600825f7f6",
-	"sha256": "4fba04aedc19ca3aea60ad46aec4d676a7f703befe689cd7d84c98c8a81c69ec",
+	"filename": "pool/main/r/rust-reqwest/librust-reqwest-dev_0.13.5-1_amd64.deb",
+	"size": 110676,
+	"md5": "209d160b58cec53a85312ea0aec7f4f9",
+	"sha256": "374a136fadfd9e776ce86144b9fb114971d1e8d4c8046d503f555f142ec7b440",
 	"descriptionMd5": "b7fd7f6cc834f7716825c6f222ae40cf"
 }]
