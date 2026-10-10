@@ -5,23 +5,29 @@
 		"Size"
 	],
 	"package": "libosmo-sigtran-dev",
-	"source": "libosmo-sigtran (2.1.0-3)",
-	"version": "2.1.0-3+b1",
+	"source": "libosmo-sigtran",
+	"version": "2.2.1-3",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libosmo-sigtran11 (= 2.1.0-3+b1)",
+		"libosmo-sigtran12 (= 2.2.1-3)",
 		"libosmocore-dev",
 		"libosmo-netif-dev"
 	],
-	"installedSize": 75,
+	"replaces": [
+		"libosmo-sccp-dev (<= 1.9.0+dfsg1-6)"
+	],
+	"breaks": [
+		"libosmo-sccp-dev (<= 1.9.0+dfsg1-6)"
+	],
+	"installedSize": 96,
 	"maintainer": "Debian Mobcom Maintainers <Debian-mobcom-maintainers@lists.alioth.debian.org>",
 	"description": "Development headers for the Osmocom SIGTRAN library",
 	"homepage": "http://cgit.osmocom.org/libosmo-sigtran/",
-	"filename": "pool/main/libo/libosmo-sigtran/libosmo-sigtran-dev_2.1.0-3+b1_amd64.deb",
-	"size": 13748,
-	"md5": "36cd48194d5207cde488ed01013d34bc",
-	"sha256": "55990055f7c5c1aac6b786bdb07298e2396c1045ffe244103d6405ada008fe83",
+	"filename": "pool/main/libo/libosmo-sigtran/libosmo-sigtran-dev_2.2.1-3_amd64.deb",
+	"size": 17684,
+	"md5": "0b14af1b107c3fe52bf138db0d1dbc64",
+	"sha256": "0143d3110c584106a30166246a14b9e6c3ef1e3462cacd73646fb568433ca110",
 	"descriptionMd5": "1c03d667f6bd3a5d7161b635736243ef"
 }
