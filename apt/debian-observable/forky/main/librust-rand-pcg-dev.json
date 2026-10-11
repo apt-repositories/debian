@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rand-pcg-dev",
 	"source": "rust-rand-pcg",
-	"version": "0.10.1-2",
+	"version": "0.10.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,16 @@
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
 	"installedSize": 82,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Selected PCG random number generators - Rust source code",
 	"homepage": "https://rust-random.github.io/book",
-	"filename": "pool/main/r/rust-rand-pcg/librust-rand-pcg-dev_0.10.1-2_amd64.deb",
-	"size": 16760,
-	"md5": "37b332d304d36671e26df2ada6e536e9",
-	"sha256": "191a10c258c17bb41e180130863955d5fa0169816a8a60ac36ada0e3ae349860",
+	"filename": "pool/main/r/rust-rand-pcg/librust-rand-pcg-dev_0.10.2-1_amd64.deb",
+	"size": 17160,
+	"md5": "67fcc77601d1f509daf3a40de04d67f3",
+	"sha256": "47dc731e0eac02b4089555dd3c92895da6099dfa47e1f5d43d570b4b26be5314",
 	"descriptionMd5": "1601761210bf2baa48be3fec9c909825"
 }]
