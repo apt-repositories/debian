@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "coturn",
+	"version": "4.18.0-1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"sqlite3",
+		"telnet | telnet-client",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.38)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-extra-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-openssl-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"libmariadb3 (>= 3.0.0)",
+		"libpq5 (>= 8.4~)",
+		"libsqlite3-0 (>= 3.6.0)",
+		"libssl3t64 (>= 3.2.0)",
+		"libsystemd0"
+	],
+	"suggests": [
+		"sip-router",
+		"xmpp-server"
+	],
+	"conflicts": [
+		"rfc5766-turn-server",
+		"turnserver"
+	],
+	"installedSize": 1930,
+	"maintainer": "Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>",
+	"description": "TURN and STUN server for VoIP",
+	"homepage": "https://github.com/coturn/coturn/",
+	"filename": "pool/main/c/coturn/coturn_4.18.0-1_amd64.deb",
+	"size": 478080,
+	"md5": "0f75efdec8d155a7682d20c11fced1e6",
+	"sha256": "609ff9b9f4a4dd7483a13bce5c403a7e0adbeb156a213009d92ece846d3720f8",
+	"descriptionMd5": "3baf5e2f083e7f1c9c71ad4c68db3792"
+}
