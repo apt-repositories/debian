@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gdk4-x11-dev",
 	"source": "rust-gdk4-x11",
-	"version": "0.11.0-2",
+	"version": "0.11.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -28,15 +28,18 @@
 		"librust-khronos-egl-6+default-dev",
 		"librust-libc-0.2+default-dev",
 		"librust-x11-dl-2+default-dev (>= 2.20)",
-		"libgtk-4-dev (>= 4.16)"
+		"libgtk-4-dev (>= 4.18)"
 	],
-	"installedSize": 79,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 80,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings of the GDK4 X11 library - Rust source code",
 	"homepage": "https://gtk-rs.org/gtk4-rs",
-	"filename": "pool/main/r/rust-gdk4-x11/librust-gdk4-x11-dev_0.11.0-2_amd64.deb",
-	"size": 13040,
-	"md5": "c7de5f48b7c6f2d932e236f1dd6e99d4",
-	"sha256": "c59c40cf638db2cf486c98844e7b3c108e46006191328c92ca79639603f7cc9e",
+	"filename": "pool/main/r/rust-gdk4-x11/librust-gdk4-x11-dev_0.11.5-1_amd64.deb",
+	"size": 13080,
+	"md5": "b6a7a1d0de00ed86703ef374534d5e6f",
+	"sha256": "2bbe346bf69fba4f52e1a8ed0ee551bfe42e45fd06074eeeb5113e19831a3aec",
 	"descriptionMd5": "31ff812e5b67db9488eef741204e19b8"
 }]

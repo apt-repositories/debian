@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gdk4-wayland-dev",
 	"source": "rust-gdk4-wayland",
-	"version": "0.11.0-2",
+	"version": "0.11.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -38,13 +38,16 @@
 		"librust-wayland-protocols-0.32+default-dev",
 		"libgtk-4-dev (>= 4.20)"
 	],
-	"installedSize": 62,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 63,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust bindings of the GDK 4 Wayland library - Rust source code",
 	"homepage": "https://gtk-rs.org/gtk4-rs",
-	"filename": "pool/main/r/rust-gdk4-wayland/librust-gdk4-wayland-dev_0.11.0-2_amd64.deb",
-	"size": 11320,
-	"md5": "6f378e4956f93ae5503673fbff9bc00d",
-	"sha256": "4ef95e533ce04a7b1319e1031c4b45dbe5432cb31e24c366e5a0a84e92140285",
+	"filename": "pool/main/r/rust-gdk4-wayland/librust-gdk4-wayland-dev_0.11.5-1_amd64.deb",
+	"size": 11384,
+	"md5": "211316c2aff473f7ecb05b545a2019e7",
+	"sha256": "a536e206bf2c81a3c204b0fb67402405b4f5544949e470d1dd13754af55cbb13",
 	"descriptionMd5": "7739ebc6189693ea8369b354c6c11f35"
 }

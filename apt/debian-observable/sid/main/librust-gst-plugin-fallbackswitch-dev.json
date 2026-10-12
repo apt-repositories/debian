@@ -6,7 +6,7 @@
 	],
 	"package": "librust-gst-plugin-fallbackswitch-dev",
 	"source": "rust-gst-plugin-fallbackswitch",
-	"version": "0.15.2-1",
+	"version": "0.15.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,13 +21,16 @@
 		"librust-parking-lot-0.12+default-dev",
 		"librust-rand-0.10+default-dev"
 	],
-	"installedSize": 341,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 340,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "GStreamer Fallback Switcher and Source Plugin - Rust source code",
 	"homepage": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs",
-	"filename": "pool/main/r/rust-gst-plugin-fallbackswitch/librust-gst-plugin-fallbackswitch-dev_0.15.2-1_amd64.deb",
-	"size": 49976,
-	"md5": "04f7bf7dee9f3e50c8df40569e8cf9e1",
-	"sha256": "31fba704bf0e08a96f4ad4b908dab530c7d36016110a85b0ed1ccaa67bddee91",
-	"descriptionMd5": "6370b34365a9b5b5dc430a072eee7180"
+	"filename": "pool/main/r/rust-gst-plugin-fallbackswitch/librust-gst-plugin-fallbackswitch-dev_0.15.4-1_amd64.deb",
+	"size": 49948,
+	"md5": "8be1a09bca3f84e957f8589f5077ec54",
+	"sha256": "19443c76a343bb9ea95686281921d6c4c7557c70d898135b3e6065338ac656dc",
+	"descriptionMd5": "08ebbdc2448a2bf19265fe4e9051371f"
 }]
