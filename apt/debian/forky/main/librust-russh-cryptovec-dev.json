@@ -6,7 +6,7 @@
 	],
 	"package": "librust-russh-cryptovec-dev",
 	"source": "rust-russh-cryptovec",
-	"version": "0.59.0-1",
+	"version": "0.62.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,16 +14,19 @@
 		"librust-log-0.4+default-dev (>= 0.4.11)",
 		"librust-nix-0.30+default-dev",
 		"librust-nix-0.30+mman-dev",
-		"librust-ssh-encoding-0.2+bytes-dev",
-		"librust-ssh-encoding-0.2+default-dev"
+		"librust-ssh-encoding-0.3+bytes-dev",
+		"librust-ssh-encoding-0.3+default-dev"
 	],
-	"installedSize": 58,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 60,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Vector which zeroes its memory on clears and reallocations - Rust source code",
 	"homepage": "https://github.com/warp-tech/russh",
-	"filename": "pool/main/r/rust-russh-cryptovec/librust-russh-cryptovec-dev_0.59.0-1_amd64.deb",
-	"size": 11292,
-	"md5": "ecdd902d3d664534b43bd5dd139fc258",
-	"sha256": "ca73048d88a94e74bf4740bfd6c1f81daaeddf8ead03efba2732aeec2c9eee43",
+	"filename": "pool/main/r/rust-russh-cryptovec/librust-russh-cryptovec-dev_0.62.0-1_amd64.deb",
+	"size": 11696,
+	"md5": "2152ed5b55f1ee2e7131ae6a1b425a37",
+	"sha256": "4dbd002e35aafed4606cac6f8fe045fe576513ecdc776203dac61d3ad71f4172",
 	"descriptionMd5": "f80b268483f0be6b5fe875037a6d47bf"
 }
