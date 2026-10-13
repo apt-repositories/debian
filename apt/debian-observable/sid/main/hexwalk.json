@@ -5,27 +5,35 @@
 		"Size"
 	],
 	"package": "hexwalk",
-	"source": "hexwalk (1.7.1-1)",
-	"version": "1.7.1-1+b1",
+	"version": "2.2.1+ds-1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"fonts-roboto-unhinted",
+		"libc6 (>= 2.38)",
+		"libcapstone5 (>= 5)",
+		"libcjson1 (>= 1.7.5)",
 		"libgcc-s1 (>= 3.0)",
-		"libqt5charts5 (>= 5.7.1)",
-		"libqt5core5t64 (>= 5.15.1)",
-		"libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1)",
-		"libqt5widgets5t64 (>= 5.12.2)",
-		"libstdc++6 (>= 13.1)"
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"liblzo2-2 (>= 2.02)",
+		"libqt6charts6 (>= 6.6.1)",
+		"libqt6core6t64 (>= 6.11.2)",
+		"libqt6gui6 (>= 6.11.2)",
+		"libqt6widgets6 (>= 6.3.0)",
+		"libstdc++6 (>= 13.1)",
+		"zlib1g (>= 1:1.1.4)"
 	],
-	"installedSize": 936,
+	"recommends": [
+		"7zip | p7zip-full"
+	],
+	"installedSize": 1961,
 	"maintainer": "Carmix <carmixdev@gmail.com>",
-	"description": "Hex analyzer, editor and viewer",
+	"description": "hex editor, viewer and binary analyzer",
 	"homepage": "https://www.hexwalk.com",
-	"filename": "pool/main/h/hexwalk/hexwalk_1.7.1-1+b1_amd64.deb",
-	"size": 306000,
-	"md5": "0623754a803f1d30f03240dbb649fda7",
-	"sha256": "449ec09536ce687fffde9eb62db6c02391c42fe6d10fb082fc48b3cedb1e9dd1",
-	"descriptionMd5": "223a83d56a8a1804735d82c3333a3c8d"
+	"filename": "pool/main/h/hexwalk/hexwalk_2.2.1+ds-1_amd64.deb",
+	"size": 506056,
+	"md5": "a0b824f5b942c8bb35526960d24cde32",
+	"sha256": "ded06f411350e7b7e98c7d8f3e5b825ebc324d95d2587bed495a00e8dbada5af",
+	"descriptionMd5": "4522bd217800185fe468547c9407709e"
 }]
