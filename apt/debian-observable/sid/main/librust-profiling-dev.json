@@ -6,32 +6,27 @@
 	],
 	"package": "librust-profiling-dev",
 	"source": "rust-profiling",
-	"version": "1.0.16-2",
+	"version": "1.0.18-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"recommends": [
-		"librust-profiling+profiling-procmacros-dev (= 1.0.16-2)"
+	"depends": [
+		"librust-profiling-procmacros-1+default-dev (>= 1.0.18)",
+		"librust-profiling-procmacros-1+profile-with-puffin-dev (>= 1.0.18)",
+		"librust-profiling-procmacros-1+profile-with-tracing-dev (>= 1.0.18)",
+		"librust-puffin-0.20+default-dev",
+		"librust-tracing-0.1+default-dev"
 	],
-	"suggests": [
-		"librust-profiling+optick-dev (= 1.0.16-2)",
-		"librust-profiling+profile-with-optick-dev (= 1.0.16-2)",
-		"librust-profiling+profile-with-puffin-dev (= 1.0.16-2)",
-		"librust-profiling+profile-with-superluminal-dev (= 1.0.16-2)",
-		"librust-profiling+profile-with-tracing-dev (= 1.0.16-2)",
-		"librust-profiling+profile-with-tracy-dev (= 1.0.16-2)",
-		"librust-profiling+puffin-dev (= 1.0.16-2)",
-		"librust-profiling+superluminal-perf-dev (= 1.0.16-2)",
-		"librust-profiling+tracing-dev (= 1.0.16-2)",
-		"librust-profiling+tracy-client-dev (= 1.0.16-2)"
+	"breaks": [
+		"rustc (<< 1.60~)"
 	],
-	"installedSize": 51,
+	"installedSize": 58,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Very thin abstraction over other profiler crates - Rust source code",
 	"homepage": "https://github.com/aclysma/profiling",
-	"filename": "pool/main/r/rust-profiling/librust-profiling-dev_1.0.16-2_amd64.deb",
-	"size": 10424,
-	"md5": "fc2be44da32b202c6a9b53cc4a2d2119",
-	"sha256": "59e3a2127ab07d2c54b7e3d2ea649180fd2878c206a760edceb268cfe42c9519",
+	"filename": "pool/main/r/rust-profiling/librust-profiling-dev_1.0.18-1_amd64.deb",
+	"size": 11276,
+	"md5": "0d100cdcaa69df746a8a73b8dbedd095",
+	"sha256": "8406ca8251862fff243555070be3c53ccd71a99fdddc08309b4ab68f973dbb9b",
 	"descriptionMd5": "ec44b08df24b2fe6b6e11da7d62f7010"
 }]
