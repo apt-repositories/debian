@@ -45,4 +45,50 @@
 	"md5": "1aa6b00b36339b5e26be615ed137b87e",
 	"sha256": "8d3f616bc0f0080c2788a8589e42c4942a33077e4a064065935e37c8e7bb1706",
 	"descriptionMd5": "5e80c3dd009aded10c0cfe25bd682155"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-backup",
+	"source": "mariadb",
+	"version": "1:10.11.19-0+deb12u1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-client-core (= 1:10.11.19-0+deb12u1)",
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgcc-s1 (>= 3.0)",
+		"libnuma1 (>= 2.0.11)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3 (>= 3.0.0)",
+		"libstdc++6 (>= 12)",
+		"libsystemd0 (>= 227)",
+		"liburing2 (>= 2.3)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"mariadb-backup-10.1",
+		"mariadb-backup-10.2",
+		"mariadb-backup-10.3",
+		"mariadb-client-10.1"
+	],
+	"breaks": [
+		"mariadb-backup-10.1",
+		"mariadb-backup-10.2",
+		"mariadb-backup-10.3",
+		"mariadb-client-10.1"
+	],
+	"installedSize": 30635,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "Backup tool for MariaDB server",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/updates/main/m/mariadb/mariadb-backup_10.11.19-0+deb12u1_amd64.deb",
+	"size": 6667496,
+	"sha256": "2d50dc5b5840183c92b6dc137bd6c8fd6375565274fa2539a12337afd44aa45a",
+	"descriptionMd5": "5e80c3dd009aded10c0cfe25bd682155"
 }]

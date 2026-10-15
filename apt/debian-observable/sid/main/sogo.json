@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "sogo",
-	"version": "5.12.10-1",
+	"version": "5.12.12-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -23,35 +23,33 @@
 		"libobjc4 (>= 4.6)",
 		"libsbjson2.3t64 (>= 2.3.2)",
 		"libsodium26 (>= 1.0.13)",
-		"libsope1 (>= 5.12.10)",
+		"libsope1 (>= 5.12.11)",
 		"libssl3t64 (>= 3.0.0)",
 		"libytnef0",
 		"libzip5 (>= 1.0)",
 		"gnustep-layout-multiarch",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"systemd | tmpreaper",
-		"sogo-common (= 5.12.10-1)",
+		"sogo-common (= 5.12.12-1)",
 		"adduser",
 		"zip",
-		"lsb-base (>= 3.0-6)",
 		"memcached"
 	],
 	"suggests": [
 		"postgresql | default-mysql-server | virtual-mysql-server"
 	],
 	"replaces": [
-		"sogo-common (<< 5.11.2-4)"
+		"sogo-common (<< 5.12.12-1~)"
 	],
 	"breaks": [
-		"sogo-common (<< 5.11.2-4)"
+		"sogo-common (<< 5.12.12-1~)"
 	],
-	"installedSize": 7417,
+	"installedSize": 7468,
 	"maintainer": "Debian SOGo Maintainers <pkg-sogo-maintainers@lists.alioth.debian.org>",
 	"description": "Scalable groupware server",
 	"homepage": "https://sogo.nu/",
-	"filename": "pool/main/s/sogo/sogo_5.12.10-1_amd64.deb",
-	"size": 1478900,
-	"md5": "d81d607586f44f176393b09f1903f787",
-	"sha256": "9e4aa9e6b9cb3bdd705abb9c8e34e8706cf0e5f2aae1f1799d7b924259c2efd0",
+	"filename": "pool/main/s/sogo/sogo_5.12.12-1_amd64.deb",
+	"size": 1483992,
+	"md5": "0c17f145aae00bcc1f9a6be88d3f213f",
+	"sha256": "0c17ede3962c37f3cf93fa0cbc1cbc2b5986137df94776807b2d81f352d0d4b2",
 	"descriptionMd5": "afc73cd48b910e30a2e5d91a4be9fc2e"
 }]

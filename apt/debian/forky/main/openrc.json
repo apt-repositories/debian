@@ -5,19 +5,19 @@
 		"Size"
 	],
 	"package": "openrc",
-	"version": "0.63.3-1",
+	"version": "0.64.1-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"insserv",
 		"mount",
+		"librc1t64 (= 0.64.1-2)",
+		"libeinfo1 (= 0.64.1-2)",
 		"libaudit1 (>= 1:2.2.1)",
 		"libc6 (>= 2.38)",
 		"libcap2 (>= 1:2.33)",
-		"libeinfo1 (>= 0.63.3)",
 		"libpam0g (>= 0.99.7.1)",
-		"librc1t64 (>= 0.63.3)",
 		"libselinux1 (>= 3.1~)"
 	],
 	"suggests": [
@@ -31,13 +31,13 @@
 		"file-rc",
 		"sysv-rc"
 	],
-	"installedSize": 1927,
+	"installedSize": 2102,
 	"maintainer": "OpenRC Debian Maintainers <openrc@packages.debian.org>",
 	"description": "dependency based service manager (runlevel change mechanism)",
 	"homepage": "https://github.com/openrc/openrc",
-	"filename": "pool/main/o/openrc/openrc_0.63.3-1_amd64.deb",
-	"size": 198704,
-	"md5": "7b5fb8d33d9f173a4f217c65b24e8c75",
-	"sha256": "5b8eba59c0875cf4ddbdc9cfdbaef2fd79a3f812e8312d0eca84323c4932ef53",
+	"filename": "pool/main/o/openrc/openrc_0.64.1-2_amd64.deb",
+	"size": 213720,
+	"md5": "1a023df1fb87bfe9142847d9927e459e",
+	"sha256": "91a4952a512926b0b25ff1a7e663ef9d69b850193435075153d6f35bd6b6f935",
 	"descriptionMd5": "92fcb871d74246777ace5b4dfff92a08"
 }

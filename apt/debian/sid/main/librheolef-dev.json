@@ -5,44 +5,38 @@
 		"Size"
 	],
 	"package": "librheolef-dev",
-	"source": "rheolef (7.2-7)",
-	"version": "7.2-7+b1",
+	"source": "rheolef",
+	"version": "7.2-8",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librheolef1 (= 7.2-7+b1)",
 		"g++",
-		"make",
 		"libboost-dev",
-		"libboost-mpi-dev",
 		"libboost-iostreams-dev",
+		"libboost-mpi-dev",
 		"libcgal-dev",
 		"libeigen3-dev",
-		"libsuitesparse-dev",
 		"liblapack-dev",
-		"libscotch-dev",
-		"libptscotch-dev",
-		"libscotchparmetis-dev",
+		"libmumps-ptscotch-dev",
 		"libmumps-scotch-dev",
-		"libmumps-ptscotch-dev"
+		"libptscotch-dev",
+		"librheolef1 (= 7.2-8)",
+		"libscotch-dev",
+		"libscotchparmetis-dev",
+		"libsuitesparse-dev",
+		"make"
 	],
 	"recommends": [
-		"rheolef-doc (= 7.2-7)"
+		"rheolef-doc (= 7.2-8)"
 	],
-	"replaces": [
-		"rheolef (<< 7.1-7~)"
-	],
-	"breaks": [
-		"rheolef (<< 7.1-7~)"
-	],
-	"installedSize": 2433,
+	"installedSize": 2440,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "efficient Finite Element environment - development files",
-	"homepage": "http://ljk.imag.fr/membres/Pierre.Saramito/rheolef",
-	"filename": "pool/main/r/rheolef/librheolef-dev_7.2-7+b1_amd64.deb",
-	"size": 379380,
-	"md5": "3c87506bde2c5d39bb9e1e9147fe7ad2",
-	"sha256": "22d58a9aabcd4372ab10004f628b46ccc1ec01e4239a8cb3f27062cb2bace435",
+	"homepage": "https://saramito.artliba.org/rheolef/",
+	"filename": "pool/main/r/rheolef/librheolef-dev_7.2-8_amd64.deb",
+	"size": 380828,
+	"md5": "16b01b07d8b869c789e7f3ecf1dad85a",
+	"sha256": "5118fc002be8f6319fa13e9f43dcbbc8240111876fc5a303831572b639ed3b48",
 	"descriptionMd5": "b57cb7ed615e9036ae6ab40459f7f80f"
 }

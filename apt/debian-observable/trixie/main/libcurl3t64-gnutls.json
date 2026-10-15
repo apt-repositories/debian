@@ -69,4 +69,51 @@
 	"md5": "3165f060bf3e1a2ace14c9268ad33eb5",
 	"sha256": "19da93544615a4c9a3d7df473f5bf8ebca99442454622e9b0460168dadf7b8ae",
 	"descriptionMd5": "785baf29d91f9f781677a7f569940052"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcurl3t64-gnutls",
+	"source": "curl",
+	"version": "8.14.1-2+deb13u7",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbrotli1 (>= 0.6.0)",
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libidn2-0 (>= 2.0.0)",
+		"libldap2 (>= 2.6.2)",
+		"libnettle8t64",
+		"libnghttp2-14 (>= 1.50.0)",
+		"libnghttp3-9 (>= 0.15.0)",
+		"libngtcp2-16 (>= 1.1.0)",
+		"libngtcp2-crypto-gnutls8 (>= 1.1.0)",
+		"libpsl5t64 (>= 0.16.0)",
+		"librtmp1 (>= 2.3)",
+		"libssh2-1t64 (>= 1.11.1)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.3.4)"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"replaces": [
+		"libcurl3-gnutls"
+	],
+	"breaks": [
+		"libcurl3-gnutls (<< 8.14.1-2+deb13u7)"
+	],
+	"installedSize": 997,
+	"maintainer": "Debian Curl Maintainers <team+curl@tracker.debian.org>",
+	"description": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
+	"homepage": "https://curl.se/",
+	"filename": "pool/updates/main/c/curl/libcurl3t64-gnutls_8.14.1-2+deb13u7_amd64.deb",
+	"size": 384636,
+	"sha256": "9475c591b338b81859ee6d06bf2a9fbb01b52f184c235afa7f6e7f1652136e55",
+	"descriptionMd5": "785baf29d91f9f781677a7f569940052"
 }]

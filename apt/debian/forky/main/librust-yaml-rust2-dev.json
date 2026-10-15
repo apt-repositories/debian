@@ -5,24 +5,26 @@
 		"Size"
 	],
 	"package": "librust-yaml-rust2-dev",
-	"source": "rust-yaml-rust2 (0.10.4-1)",
-	"version": "0.10.4-1+b1",
+	"source": "rust-yaml-rust2",
+	"version": "0.11.0+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-arraydeque-0.5+default-dev (>= 0.5.1-~~)",
-		"librust-encoding-rs-0.8+default-dev (>= 0.8.33-~~)",
-		"librust-hashlink+default-dev (<< 0.11-~~)",
-		"librust-hashlink+default-dev (>= 0.8-~~)"
+		"librust-arraydeque-0.5+default-dev (>= 0.5.1)",
+		"librust-encoding-rs-0.8+default-dev (>= 0.8.33)",
+		"librust-hashlink-0.11+default-dev"
 	],
-	"installedSize": 377,
+	"breaks": [
+		"rustc (<< 1.65.0~)"
+	],
+	"installedSize": 376,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Fully YAML 1.2 compliant YAML parser - Rust source code",
 	"homepage": "https://github.com/Ethiraric/yaml-rust2",
-	"filename": "pool/main/r/rust-yaml-rust2/librust-yaml-rust2-dev_0.10.4-1+b1_amd64.deb",
-	"size": 66856,
-	"md5": "7076e09bdc2bef1e26d8cc9efb2ee59f",
-	"sha256": "4a069fb58efb8a46da6073c45997d0a2c4a00181e36f2400f41b0b7dfb418197",
+	"filename": "pool/main/r/rust-yaml-rust2/librust-yaml-rust2-dev_0.11.0+ds-1_amd64.deb",
+	"size": 66740,
+	"md5": "6bd01ac29c7c46d733b529638227fe75",
+	"sha256": "e64134e59beedd83382f2bc18ed6b0b2cd0684b5c7f8e71ab0cd8fe9d4c99c56",
 	"descriptionMd5": "e189a8218a91092a6e5245eb1aaf048b"
 }

@@ -31,4 +31,36 @@
 	"md5": "898e44976c40861e59f099694a9b85b7",
 	"sha256": "bbfe4cf112287a91b1c3ef178e162c5365e20786bbfc94573d728e041a214771",
 	"descriptionMd5": "f1579889611a2ce406c3c321e37d32d9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmariadbd-dev",
+	"source": "mariadb",
+	"version": "1:10.11.19-0+deb12u1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmariadb-dev (= 1:10.11.19-0+deb12u1)",
+		"libmariadbd19 (= 1:10.11.19-0+deb12u1)"
+	],
+	"replaces": [
+		"libmariadb-dev (<< 1:10.4)",
+		"libmysqld-dev"
+	],
+	"breaks": [
+		"libmariadb-dev (<< 1:10.4)",
+		"libmysqld-dev"
+	],
+	"installedSize": 602242,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "MariaDB embedded database, development files",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/updates/main/m/mariadb/libmariadbd-dev_10.11.19-0+deb12u1_amd64.deb",
+	"size": 94903152,
+	"sha256": "c07612f0b0bb84bad8e09156a4297b0d1ea418d03bc2fae12bf8fdf341216c2d",
+	"descriptionMd5": "f1579889611a2ce406c3c321e37d32d9"
 }]
