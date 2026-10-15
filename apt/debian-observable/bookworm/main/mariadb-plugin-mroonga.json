@@ -34,4 +34,39 @@
 	"md5": "cf6e9144889d5639db8701f474d661cc",
 	"sha256": "5e7a78158210bcc8d4378aedcd67a5d135b8570e84e34c7217792b1ae658188b",
 	"descriptionMd5": "38f273fa8679ace3c47de32b8f1ad726"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-plugin-mroonga",
+	"source": "mariadb",
+	"version": "1:10.11.19-0+deb12u1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-server (= 1:10.11.19-0+deb12u1)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 4.3)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"mariadb-server-10.0",
+		"mariadb-server-10.1"
+	],
+	"breaks": [
+		"mariadb-server-10.0",
+		"mariadb-server-10.1"
+	],
+	"installedSize": 5964,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "Mroonga storage engine for MariaDB",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/updates/main/m/mariadb/mariadb-plugin-mroonga_10.11.19-0+deb12u1_amd64.deb",
+	"size": 1151896,
+	"sha256": "2fab54c0a6e06e8fcce2e89eec6e36d33841149e45a8cf1a6ae66a678dd69746",
+	"descriptionMd5": "38f273fa8679ace3c47de32b8f1ad726"
 }]

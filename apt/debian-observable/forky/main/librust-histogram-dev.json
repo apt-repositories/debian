@@ -5,24 +5,27 @@
 		"Size"
 	],
 	"package": "librust-histogram-dev",
-	"source": "rust-histogram (0.11.0-2)",
-	"version": "0.11.0-2+b1",
+	"source": "rust-histogram",
+	"version": "1.5.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-schemars-0.8+default-dev",
-		"librust-serde-1+default-dev (>= 1.0.144-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.144-~~)",
-		"librust-thiserror-1+default-dev (>= 1.0.47-~~)"
+		"librust-schemars-1+default-dev (>= 1.2)",
+		"librust-serde-1+default-dev",
+		"librust-serde-1+derive-dev",
+		"librust-thiserror-2+default-dev"
 	],
-	"installedSize": 76,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 352,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Collection of histogram data structures - Rust source code",
-	"homepage": "https://github.com/pelikan-io/rustcommon",
-	"filename": "pool/main/r/rust-histogram/librust-histogram-dev_0.11.0-2+b1_amd64.deb",
-	"size": 14488,
-	"md5": "37af454ed49b74c17a0488245d24dab3",
-	"sha256": "c4f194c00b8428aade1da03918bb5cf3c40586af752d0dbbb0bab50a1da1c17c",
+	"homepage": "https://github.com/iopsystems/histogram",
+	"filename": "pool/main/r/rust-histogram/librust-histogram-dev_1.5.0-1_amd64.deb",
+	"size": 64480,
+	"md5": "79d4b40681a72fa955eb9c4fded5f625",
+	"sha256": "d1e2619699344f5855ff6e08186185a83c5ba14d74fcfa793f5da0872caa9223",
 	"descriptionMd5": "d43bd687da29e8307471045b858fccc1"
 }]

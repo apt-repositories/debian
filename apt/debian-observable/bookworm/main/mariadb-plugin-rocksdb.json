@@ -42,4 +42,47 @@
 	"md5": "3041e037c5b3f4e6da4a173399758d13",
 	"sha256": "ece9d2ba0d3b61a8d10afa67cab336f8b0edf3d67fce3629f2cd72ed630e7d60",
 	"descriptionMd5": "62060ced380e290f5317ab8409c6fd1a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-plugin-rocksdb",
+	"source": "mariadb",
+	"version": "1:10.11.19-0+deb12u1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-server (= 1:10.11.19-0+deb12u1)",
+		"python3:any",
+		"rocksdb-tools",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.4)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libsnappy1v5 (>= 1.1.9)",
+		"libstdc++6 (>= 12)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"recommends": [
+		"python3-mysqldb"
+	],
+	"replaces": [
+		"mariadb-rocksdb-engine-10.2",
+		"mariadb-rocksdb-engine-10.3"
+	],
+	"breaks": [
+		"mariadb-rocksdb-engine-10.2",
+		"mariadb-rocksdb-engine-10.3"
+	],
+	"installedSize": 13917,
+	"maintainer": "Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>",
+	"description": "RocksDB storage engine for MariaDB",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/updates/main/m/mariadb/mariadb-plugin-rocksdb_10.11.19-0+deb12u1_amd64.deb",
+	"size": 2954964,
+	"sha256": "b84b079158cfa938d120afe7e8063b2df73acc62c8b317d9b4a46177a241566a",
+	"descriptionMd5": "62060ced380e290f5317ab8409c6fd1a"
 }]

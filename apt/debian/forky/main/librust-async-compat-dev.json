@@ -6,7 +6,7 @@
 	],
 	"package": "librust-async-compat-dev",
 	"source": "rust-async-compat",
-	"version": "0.2.5-1",
+	"version": "0.2.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,15 +15,19 @@
 		"librust-futures-io-0.3+default-dev (>= 0.3.5)",
 		"librust-once-cell-1+default-dev (>= 1.4.1)",
 		"librust-pin-project-lite-0.2+default-dev",
-		"librust-tokio-1+rt-dev"
+		"librust-tokio-1+rt-dev",
+		"librust-tokio-1+rt-multi-thread-dev"
 	],
-	"installedSize": 64,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 68,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Compatibility adapter between tokio and futures - Rust source code",
 	"homepage": "https://github.com/smol-rs/async-compat",
-	"filename": "pool/main/r/rust-async-compat/librust-async-compat-dev_0.2.5-1_amd64.deb",
-	"size": 13620,
-	"md5": "d4e5b190dae16b95410ff5a7e50205d8",
-	"sha256": "c7e56862770872541edeb70e3e2ba262930a5cb87c93964e68ad6611a5d3ebf1",
+	"filename": "pool/main/r/rust-async-compat/librust-async-compat-dev_0.2.6-1_amd64.deb",
+	"size": 15000,
+	"md5": "2fa72d3e19ff05bc862827882d008d91",
+	"sha256": "021ca2831620e03850e594bced9aef5ade95da1199cf176c50271694a03f45f0",
 	"descriptionMd5": "8c975ab0437ce3ccc5ba296ce1d3b691"
 }

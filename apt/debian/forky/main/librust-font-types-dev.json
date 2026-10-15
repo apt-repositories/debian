@@ -6,24 +6,27 @@
 	],
 	"package": "librust-font-types-dev",
 	"source": "rust-font-types",
-	"version": "0.12.0-1",
+	"version": "0.12.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bytemuck-1+default-dev (>= 1.13.1)",
-		"librust-bytemuck-1+derive-dev (>= 1.13.1)",
-		"librust-bytemuck-1+min-const-generics-dev (>= 1.13.1)",
+		"librust-bytemuck-1+default-dev (>= 1.14.0)",
+		"librust-bytemuck-1+derive-dev (>= 1.14.0)",
+		"librust-bytemuck-1+min-const-generics-dev (>= 1.14.0)",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev"
 	],
-	"installedSize": 128,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 152,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Scalar types used in fonts - Rust source code",
 	"homepage": "https://github.com/googlefonts/fontations",
-	"filename": "pool/main/r/rust-font-types/librust-font-types-dev_0.12.0-1_amd64.deb",
-	"size": 25380,
-	"md5": "e93d14373ea9f8e24b11931236d878ae",
-	"sha256": "c9b34ba215df8d35846b594ce5e747f10182b58c93716c4ba0eacbaf24a0ceb1",
+	"filename": "pool/main/r/rust-font-types/librust-font-types-dev_0.12.6-1_amd64.deb",
+	"size": 30024,
+	"md5": "60e20bf705ae39a221b2f4b4ba9195c2",
+	"sha256": "b8017f11d71bfbb8e2c97fefba22719de4e2771937db5a55cfb29be6395c5824",
 	"descriptionMd5": "4b7ed0b128973aca35ce19a85ac6cf01"
 }

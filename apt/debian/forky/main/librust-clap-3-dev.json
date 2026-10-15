@@ -6,7 +6,7 @@
 	],
 	"package": "librust-clap-3-dev",
 	"source": "rust-clap-3",
-	"version": "3.2.25-11",
+	"version": "3.2.25-12",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -31,21 +31,22 @@
 		"librust-textwrap+unicode-width-dev (<< 0.17)",
 		"librust-textwrap-dev (<< 0.17)",
 		"librust-unicase-2+default-dev (>= 2.6)",
-		"librust-yaml-rust2-0.10+default-dev"
+		"librust-yaml-rust2-0.11+default-dev"
 	],
 	"replaces": [
 		"librust-clap-dev (<< 3.2.26~)"
 	],
 	"breaks": [
-		"librust-clap-dev (<< 3.2.26~)"
+		"librust-clap-dev (<< 3.2.26~)",
+		"rustc (<< 1.56.1~)"
 	],
 	"installedSize": 1330,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust Command Line Argument Parser - Rust source code",
 	"homepage": "https://github.com/clap-rs/clap",
-	"filename": "pool/main/r/rust-clap-3/librust-clap-3-dev_3.2.25-11_amd64.deb",
-	"size": 174744,
-	"md5": "c0db04c9145de588ccc7149aa2a513df",
-	"sha256": "8a9850c15272bb831cf0ffe98c9abba8f555ca82667f8775553f3ca90dc52c6a",
+	"filename": "pool/main/r/rust-clap-3/librust-clap-3-dev_3.2.25-12_amd64.deb",
+	"size": 174844,
+	"md5": "c9703b566cd17a97a9195f94e5c1a43c",
+	"sha256": "e0290656b7525295d2c9f9b82db71a6671ba56a3561f9a803d7c207556c31c68",
 	"descriptionMd5": "78f06f846d2ce1f00131762c5eaf2a4d"
 }

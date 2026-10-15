@@ -5,30 +5,35 @@
 		"Size"
 	],
 	"package": "librheolef1",
-	"source": "rheolef (7.2-7)",
-	"version": "7.2-7+b1",
+	"source": "rheolef",
+	"version": "7.2-8",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libboost-iostreams1.90.0 (>= 1.90.0)",
+		"libboost-iostreams1.92.0 (>= 1.92.0)",
+		"libboost-mpi1.92.0 (>= 1.92.0)",
 		"libc6 (>= 2.38)",
 		"libcholmod5 (>= 1:7.3.1)",
 		"libgcc-s1 (>= 3.0)",
 		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libmumps-ptscotch-5.9 (>= 5.9.0)",
+		"libopenmpi40 (>= 6.0.0~rc2)",
+		"libptscotch-7.0c (>= 7.0.16)",
+		"libptscotcherr-7.0 (>= 7.0.16)",
 		"libstdc++6 (>= 13.1)",
 		"libumfpack6 (>= 1:7.0.1)"
 	],
 	"suggests": [
-		"rheolef-doc (= 7.2-7)"
+		"rheolef-doc (= 7.2-8)"
 	],
-	"installedSize": 4488,
+	"installedSize": 8254,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "efficient Finite Element environment - shared library",
-	"homepage": "http://ljk.imag.fr/membres/Pierre.Saramito/rheolef",
-	"filename": "pool/main/r/rheolef/librheolef1_7.2-7+b1_amd64.deb",
-	"size": 1238780,
-	"md5": "3e9088e331c5f585fca449d2fea127ad",
-	"sha256": "0316ee7d04b78b05c1e051cd9e41984c1480df31fbddb6b65996aa6a9e4ef52a",
+	"homepage": "https://saramito.artliba.org/rheolef/",
+	"filename": "pool/main/r/rheolef/librheolef1_7.2-8_amd64.deb",
+	"size": 2105508,
+	"md5": "c8b4d9a0142b7dec2cc3bb17fdea2dcb",
+	"sha256": "d853dd880ea36c9e73080d2545964ef6fe2d52565e86b7510a4a78f9095261a1",
 	"descriptionMd5": "1b80165773fd20d001546830b210c8f7"
 }
