@@ -5,12 +5,14 @@
 		"Size"
 	],
 	"package": "kraft",
-	"source": "kraft (2.0.0-1)",
-	"version": "2.0.0-1+b2",
+	"version": "2.0.0-2",
 	"section": "kde",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libqt6sql6-sqlite",
+		"python3-pypdf",
+		"python3:any",
 		"libc6 (>= 2.34)",
 		"libgcc-s1 (>= 3.0)",
 		"libkf6configcore6 (>= 6.0.0)",
@@ -27,27 +29,24 @@
 		"libkpim6akonadicore6-26.04",
 		"libkpim6akonadiwidgets6 (>= 4:26.04.3)",
 		"libkpim6akonadiwidgets6-26.04",
-		"libqt6core6t64 (>= 6.10.2)",
-		"libqt6gui6 (>= 6.9.1)",
+		"libqt6core6t64 (>= 6.11.2)",
+		"libqt6gui6 (>= 6.11.2)",
 		"libqt6sql6 (>= 6.8.2)",
 		"libqt6widgets6 (>= 6.3.0)",
 		"libqt6xml6 (>= 6.6.0)",
-		"libstdc++6 (>= 14)",
-		"libqt6sql6-sqlite",
-		"python3:any",
-		"python3-pypdf"
+		"libstdc++6 (>= 14)"
 	],
 	"recommends": [
 		"libqt6sql6-mysql",
 		"weasyprint"
 	],
-	"installedSize": 8972,
-	"maintainer": "Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>",
+	"installedSize": 8970,
+	"maintainer": "Debian KDE Extras Team <pkg-kde-extras@alioth-lists.debian.net>",
 	"description": "small business-management application",
 	"homepage": "https://volle-kraft-voraus.de/",
-	"filename": "pool/main/k/kraft/kraft_2.0.0-1+b2_amd64.deb",
-	"size": 5675372,
-	"md5": "9d93b69f9366df18096a7e6b272535bf",
-	"sha256": "58a2dbc8b461dad750b67e9c29e5a698aeed956cbbe22af606ff567caef870c3",
+	"filename": "pool/main/k/kraft/kraft_2.0.0-2_amd64.deb",
+	"size": 5672820,
+	"md5": "e1d63c3d0cb121189584e66a4a7a6739",
+	"sha256": "f66544118e7843c4ee1b4a6e468fb3646fb2002b5d5686b09f0b80c9649fadda",
 	"descriptionMd5": "fe1afca303ec877dd0c97cdd65d666ab"
 }]
