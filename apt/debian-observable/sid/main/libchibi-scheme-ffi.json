@@ -6,7 +6,7 @@
 	],
 	"package": "libchibi-scheme-ffi",
 	"source": "chibi-scheme",
-	"version": "0.12-2",
+	"version": "0.12-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 	"recommends": [
 		"chibi-scheme-common"
 	],
-	"installedSize": 713,
+	"breaks": [
+		"chibi-scheme-common (<< 0.12-3~)"
+	],
+	"installedSize": 710,
 	"maintainer": "Debian Scheme Dream Team <debian-scheme@lists.debian.org>",
 	"description": "embeddable Scheme interpreter (native modules)",
 	"homepage": "https://github.com/ashinn/chibi-scheme",
-	"filename": "pool/main/c/chibi-scheme/libchibi-scheme-ffi_0.12-2_amd64.deb",
-	"size": 108392,
-	"md5": "d93d6db267db6605ebcf0c6134a958aa",
-	"sha256": "2a1bbf9e8f47cfbdff217c7dc8267c55730f85beb2f915211f28dd144c3ad0fc",
+	"filename": "pool/main/c/chibi-scheme/libchibi-scheme-ffi_0.12-3_amd64.deb",
+	"size": 111760,
+	"md5": "9b910b3ab80e057894d244b835de9a94",
+	"sha256": "d60bab3aec46cea61a7c32108d2a24db5077186bf5c9d2ab05a18387b952ffa5",
 	"descriptionMd5": "8f4f2b6bd7522174b0bb6668db8876e2"
 }]

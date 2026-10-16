@@ -6,14 +6,14 @@
 	],
 	"package": "librados2",
 	"source": "ceph",
-	"version": "20.2.4+ds-1",
+	"version": "20.2.4+ds-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libblkid1 (>= 2.17.2)",
-		"libboost-iostreams1.90.0 (>= 1.90.0)",
-		"libboost-thread1.90.0 (>= 1.90.0)",
+		"libboost-iostreams1.92.0 (>= 1.92.0)",
+		"libboost-thread1.92.0 (>= 1.92.0)",
 		"libc6 (>= 2.43)",
 		"libgcc-s1 (>= 3.4)",
 		"libibverbs1 (>= 1.1.6)",
@@ -22,21 +22,13 @@
 		"libstdc++6 (>= 14)",
 		"libudev1 (>= 183)"
 	],
-	"replaces": [
-		"librados",
-		"librados1"
-	],
-	"conflicts": [
-		"librados",
-		"librados1"
-	],
-	"installedSize": 14881,
+	"installedSize": 14901,
 	"maintainer": "Ceph Packaging Team <team+ceph@tracker.debian.org>",
 	"description": "RADOS distributed object store client library",
 	"homepage": "http://ceph.com",
-	"filename": "pool/main/c/ceph/librados2_20.2.4+ds-1_amd64.deb",
-	"size": 4067764,
-	"md5": "54d61312b6307481ef7e785ba4f84b29",
-	"sha256": "b4f2e491b0d83e55911afd5dbeffcb9cfb0dbc92854cf4654579df3b23725857",
+	"filename": "pool/main/c/ceph/librados2_20.2.4+ds-2_amd64.deb",
+	"size": 4078796,
+	"md5": "d48f9350075e62f80e3cb36663e0da2f",
+	"sha256": "8d6150433d01617f53cd7dcb952ff56c6077c91ad0927c714f7c5e70f27b9cbc",
 	"descriptionMd5": "42d0f393b45b7f226597be77c6f81917"
 }]
