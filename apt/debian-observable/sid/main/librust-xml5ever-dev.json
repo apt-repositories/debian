@@ -6,21 +6,25 @@
 	],
 	"package": "librust-xml5ever-dev",
 	"source": "rust-xml5ever",
-	"version": "0.35.0-1",
+	"version": "0.40.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-log-0.4+default-dev",
-		"librust-markup5ever-0.35+default-dev"
+		"librust-markup5ever-0.40+default-dev",
+		"librust-markup5ever-0.40+serde-dev"
 	],
-	"installedSize": 184,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 198,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Push based streaming parser for XML - Rust source code",
 	"homepage": "https://github.com/servo/html5ever/blob/main/xml5ever/README.md",
-	"filename": "pool/main/r/rust-xml5ever/librust-xml5ever-dev_0.35.0-1_amd64.deb",
-	"size": 33500,
-	"md5": "1c270be7ccb64faf217c7f8053cb4667",
-	"sha256": "b1d43b62f03b3b5e7afa81f5cc79913a8ee97d60ca40b17c791d8b180deb9278",
+	"filename": "pool/main/r/rust-xml5ever/librust-xml5ever-dev_0.40.0-1_amd64.deb",
+	"size": 35612,
+	"md5": "ef17577a31803b739d2fb1786f664e1f",
+	"sha256": "0b33bb7ded306349ec19c68061a680bf64613fd40b930d9b91e8afcbeff76568",
 	"descriptionMd5": "6be40f490d46d8bcb41d6cf86b87d38d"
 }]

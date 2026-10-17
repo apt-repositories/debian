@@ -6,22 +6,27 @@
 	],
 	"package": "librust-cargo-toml-dev",
 	"source": "rust-cargo-toml",
-	"version": "0.22.3-2",
+	"version": "1.0.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+default-dev (>= 1.0.219)",
-		"librust-serde-1+derive-dev (>= 1.0.219)",
-		"librust-toml-1+default-dev"
+		"librust-semver-1+serde-dev (>= 1.0.28)",
+		"librust-semver-1+std-dev (>= 1.0.28)",
+		"librust-serde-1+default-dev (>= 1.0.228)",
+		"librust-serde-1+derive-dev (>= 1.0.228)",
+		"librust-toml-1+default-dev (>= 1.1.2)"
 	],
-	"installedSize": 156,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 154,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "`Cargo.toml` struct definitions for parsing with Serde - Rust source code",
 	"homepage": "https://lib.rs/cargo_toml",
-	"filename": "pool/main/r/rust-cargo-toml/librust-cargo-toml-dev_0.22.3-2_amd64.deb",
-	"size": 31616,
-	"md5": "9ff5e90b896d98d0785f692ba57d4202",
-	"sha256": "b23607b06d47734345c7d3b47a58fcc22448124d41b533e48b3c67689e78f070",
+	"filename": "pool/main/r/rust-cargo-toml/librust-cargo-toml-dev_1.0.1-1_amd64.deb",
+	"size": 31884,
+	"md5": "f81cc460f93503a3d72e0219855f5718",
+	"sha256": "489ca827d9f1092d09767e997ddbac0c454476647c98b598c1e29f2aebca915f",
 	"descriptionMd5": "70b0925a9194f7875464221dc80dd72c"
 }]

@@ -6,27 +6,34 @@
 	],
 	"package": "librust-gix-utils-dev",
 	"source": "rust-gix-utils",
-	"version": "0.3.6-1",
+	"version": "0.5.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bstr-1+std-dev (>= 1.12.0)",
+		"librust-bytes-1+default-dev (>= 1.11.1)",
+		"librust-bytesize-2+default-dev (>= 2.3.1)",
+		"librust-document-features-0.2+default-dev",
 		"librust-fastrand-2-dev (<< 2.6)",
 		"librust-fastrand-2-dev (>= 2.3)",
 		"librust-getrandom-0.4+default-dev",
+		"librust-gix-error-0.5+default-dev",
+		"librust-prodash-31+default-dev (>= 31.0.1)",
+		"librust-prodash-31+unit-bytes-dev (>= 31.0.1)",
+		"librust-prodash-31+unit-human-dev (>= 31.0.1)",
 		"librust-unicode-normalization-0.1-dev (>= 0.1.19)"
 	],
 	"breaks": [
-		"rustc (<< 1.85~)"
+		"rustc (<< 1.88~)"
 	],
-	"installedSize": 62,
+	"installedSize": 85,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Crate with `gitoxide` utilities that don't need feature toggles - Rust source code",
+	"description": "Utilities shared by the gitoxide crates - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-utils/librust-gix-utils-dev_0.3.6-1_amd64.deb",
-	"size": 14932,
-	"md5": "a03642a34586ea649fa8ed26e4c07406",
-	"sha256": "b997be3dd52c67f1f0c27c24712c4d580470feb4c755f3aee6a8f8bf750afe6c",
-	"descriptionMd5": "cb0675d7a5b3062e197d09ab7b667c68"
+	"filename": "pool/main/r/rust-gix-utils/librust-gix-utils-dev_0.5.0-1_amd64.deb",
+	"size": 20572,
+	"md5": "dd1590ba571784044aeea5a88e15155e",
+	"sha256": "24ad70349034aa20d02aa1a25ea728583505680984628abccd4090543dfd33bb",
+	"descriptionMd5": "6ea1e284881797326c4f23d42673c4a6"
 }

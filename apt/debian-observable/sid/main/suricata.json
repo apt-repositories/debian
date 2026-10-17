@@ -5,12 +5,11 @@
 		"Size"
 	],
 	"package": "suricata",
-	"version": "1:8.0.7-1",
+	"version": "1:8.0.7-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"python3:any",
 		"libbpf1 (>= 1:0.7.0)",
 		"libbsd0 (>= 0.0)",
@@ -20,7 +19,7 @@
 		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
 		"libgcc-s1 (>= 4.2)",
 		"libhiredis1.1.0 (>= 1.2.0)",
-		"libhwloc15 (>= 2.14.0)",
+		"libhwloc15 (>= 2.15.0)",
 		"libhyperscan5 (>= 5.4.2)",
 		"libjansson4 (>= 2.14)",
 		"liblz4-1 (>= 0.0~r127)",
@@ -59,13 +58,13 @@
 	"conflicts": [
 		"suricata-hyperscan"
 	],
-	"installedSize": 16613,
+	"installedSize": 16539,
 	"maintainer": "Sascha Steinbiss <satta@debian.org>",
 	"description": "Next Generation Intrusion Detection and Prevention Tool",
 	"homepage": "https://suricata.io",
-	"filename": "pool/main/s/suricata/suricata_8.0.7-1_amd64.deb",
-	"size": 4482084,
-	"md5": "6198dfc81de411bea947a3d7539c5f9e",
-	"sha256": "3de864782cfe398a493955f9ba409f25d631972c67fde0e485b989dddba3cfb2",
+	"filename": "pool/main/s/suricata/suricata_8.0.7-2_amd64.deb",
+	"size": 4443972,
+	"md5": "75e9b69d8d496f13499a70d4f146d543",
+	"sha256": "7b3d2e176042e4ab7b2c1c9b9870befc96288d99f4dc9289d66bae32e88b3c5b",
 	"descriptionMd5": "d75d723de9cd9ee5828c14e079cfc931"
 }]
