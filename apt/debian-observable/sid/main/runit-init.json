@@ -6,7 +6,7 @@
 	],
 	"package": "runit-init",
 	"source": "runit",
-	"version": "2.3.1-5",
+	"version": "2.3.1-6",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,6 +22,7 @@
 	],
 	"replaces": [
 		"finit-sysv",
+		"openrc-init",
 		"systemd-sysv",
 		"sysvinit-core"
 	],
@@ -30,6 +31,7 @@
 		"finit-sysv",
 		"libnss-systemd",
 		"molly-guard (<< 0.8.3~)",
+		"openrc-init",
 		"progress-linux-container (<< 20221002-12~)",
 		"systemd-sysv",
 		"sysvinit-core"
@@ -38,9 +40,9 @@
 	"maintainer": "Lorenzo Puliti <plorenzo@disroot.org>",
 	"description": "system-wide service supervision (as init system)",
 	"homepage": "http://smarden.org/runit/",
-	"filename": "pool/main/r/runit/runit-init_2.3.1-5_amd64.deb",
-	"size": 37484,
-	"md5": "3b4349340eeeaf07c9c961dfa503ed3c",
-	"sha256": "879285af641ffab4459875a4419eed65cb1578e8a38315533db45f990586c208",
+	"filename": "pool/main/r/runit/runit-init_2.3.1-6_amd64.deb",
+	"size": 37536,
+	"md5": "c939a2f8c4e1f145395c36ab7191aa02",
+	"sha256": "2b167449f34e1582b24202c47a43c770659098a2bc6c61b737644e39a9e435fc",
 	"descriptionMd5": "41eb3ed3f391bc35d1cbabcb0ecf227c"
 }]

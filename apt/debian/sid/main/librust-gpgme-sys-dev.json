@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "librust-gpgme-sys-dev",
-	"source": "rust-gpgme-sys (0.11.0-3)",
-	"version": "0.11.0-3+b1",
+	"source": "rust-gpgme-sys",
+	"version": "0.11.0-4",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-libc-0.2+default-dev",
 		"librust-libgpg-error-sys-0.6+default-dev",
-		"librust-system-deps-7+default-dev",
+		"librust-system-deps-9+default-dev",
 		"libgpgme-dev",
 		"pkgconf"
+	],
+	"breaks": [
+		"rustc (<< 1.64~)"
 	],
 	"installedSize": 86,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Raw bindings for gpgme - Rust source code",
-	"filename": "pool/main/r/rust-gpgme-sys/librust-gpgme-sys-dev_0.11.0-3+b1_amd64.deb",
-	"size": 12052,
-	"md5": "1f630793eaf573adbfd05ac8e024fee3",
-	"sha256": "736e12e67e26a930921aad55a417bd9029f92166d645235498841e604812c4c8",
+	"homepage": "https://github.com/gpg-rs/gpgme",
+	"filename": "pool/main/r/rust-gpgme-sys/librust-gpgme-sys-dev_0.11.0-4_amd64.deb",
+	"size": 11840,
+	"md5": "92b2dd5c1eb0b990bcab293184e2b440",
+	"sha256": "244d8c90e655a3ca40209e5901c61e571fd0902726d0044a228ce217a4a507ed",
 	"descriptionMd5": "2e71d68d5017de1b72b758ca0a902f74"
 }

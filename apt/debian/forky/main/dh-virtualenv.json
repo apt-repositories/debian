@@ -5,22 +5,25 @@
 		"Size"
 	],
 	"package": "dh-virtualenv",
-	"version": "1.2.2-2",
+	"version": "1.3",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3:any",
+		"virtualenv | python3-virtualenv | python3-venv",
 		"perl:any",
-		"virtualenv | python3-virtualenv (>= 1.7) | python3-venv"
+		"python3:any"
 	],
-	"installedSize": 83,
-	"maintainer": "Debian QA Group <packages@qa.debian.org>",
+	"suggests": [
+		"dh-virtualenv-doc"
+	],
+	"installedSize": 91,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "wrap and build Python packages using virtualenv",
-	"homepage": "https://www.github.com/spotify/dh-virtualenv",
-	"filename": "pool/main/d/dh-virtualenv/dh-virtualenv_1.2.2-2_all.deb",
-	"size": 19248,
-	"md5": "ef2721d7268b101abfa54a5a1851cc6f",
-	"sha256": "8854d0abfd57ec115e90c3f6a1c5a652bd36ce7e69aca4f1cad6f8e6f89e3d45",
+	"homepage": "https://salsa.debian.org/python-team/packages/dh-virtualenv",
+	"filename": "pool/main/d/dh-virtualenv/dh-virtualenv_1.3_all.deb",
+	"size": 21620,
+	"md5": "e342bb184556d741ac395a3cd0344c7d",
+	"sha256": "67f1b67955971cbea7e71ba7f42f671948f6981ae9a5a4ea906a70624705536c",
 	"descriptionMd5": "9ec7769b2ec530672dd5ddff9774e2d5"
 }
