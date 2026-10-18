@@ -6,13 +6,14 @@
 	],
 	"package": "spamd",
 	"source": "spamassassin",
-	"version": "4.0.2+svn1938422-1",
+	"version": "4.0.2+svn1939112-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"spamassassin (= 4.0.2+svn1938422-1)",
-		"init-system-helpers (>= 1.51)"
+		"spamassassin (= 4.0.2+svn1939112-1)",
+		"init-system-helpers (>= 1.51)",
+		"perl:any"
 	],
 	"recommends": [
 		"systemd | rsyslog | system-log-daemon"
@@ -27,9 +28,9 @@
 	"maintainer": "Noah Meyerhans <noahm@debian.org>",
 	"description": "Server for SpamAssassin spam filtering daemon",
 	"homepage": "https://www.spamassassin.org/",
-	"filename": "pool/main/s/spamassassin/spamd_4.0.2+svn1938422-1_all.deb",
-	"size": 79400,
-	"md5": "86ce0401020e4a78c7fe72b76db34cff",
-	"sha256": "8cf016673aa7a7c4d1e4889c581f16852a8ff0a84b488e43d0708ba52745d4be",
+	"filename": "pool/main/s/spamassassin/spamd_4.0.2+svn1939112-1_all.deb",
+	"size": 79444,
+	"md5": "f44055389ddf387c388ae76fb996d16b",
+	"sha256": "c703c502957fe4f4b51517d2ba3accb5a408aa599c24870649778f38949263ad",
 	"descriptionMd5": "54f8b1e00ba8e7cb63aa21851c6b64fa"
 }

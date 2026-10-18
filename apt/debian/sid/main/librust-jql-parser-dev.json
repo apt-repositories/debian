@@ -6,7 +6,7 @@
 	],
 	"package": "librust-jql-parser-dev",
 	"source": "rust-jql-parser",
-	"version": "8.1.2-1",
+	"version": "9.0.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,16 @@
 		"librust-winnow-0.7+default-dev (>= 0.7.13)",
 		"librust-winnow-0.7+simd-dev (>= 0.7.13)"
 	],
-	"installedSize": 76,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 82,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Parser for jql - the JSON Query Language tool - Rust source code",
 	"homepage": "https://github.com/yamafaktory/jql",
-	"filename": "pool/main/r/rust-jql-parser/librust-jql-parser-dev_8.1.2-1_amd64.deb",
-	"size": 13916,
-	"md5": "f63289e69d36bf19257845e7feeef17f",
-	"sha256": "cbba727b70f9dcc7d16c27fdfd826aeafccf9f3a76e7b62939dfdac114ae7ddb",
+	"filename": "pool/main/r/rust-jql-parser/librust-jql-parser-dev_9.0.3-1_amd64.deb",
+	"size": 15508,
+	"md5": "01d0786899befe89614da35470ada3af",
+	"sha256": "b6bb4b583c61e1e714aba01cb9549aa16f215bd0a16abab0a63911fe0e4dc355",
 	"descriptionMd5": "c0f298b601c4601b65bf72eb3bd19415"
 }

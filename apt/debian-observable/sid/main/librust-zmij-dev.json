@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-zmij-dev",
-	"source": "rust-zmij (1.0.21-1)",
-	"version": "1.0.21-1+b1",
+	"source": "rust-zmij",
+	"version": "1.0.23-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 102,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 119,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Double-to-string conversion algorithm based on Schubfach and yy - Rust source code",
+	"description": "Double-to-string conversion algorithm based on Schubfach and xjb - Rust source code",
 	"homepage": "https://github.com/dtolnay/zmij",
-	"filename": "pool/main/r/rust-zmij/librust-zmij-dev_1.0.21-1+b1_amd64.deb",
-	"size": 21840,
-	"md5": "571d5ee802111c8c0dc9c449bbfe05d8",
-	"sha256": "adffa9e39d112e0936dddd19faa5fa64e729638fee9e1419f23706fef3d8fec7",
-	"descriptionMd5": "428d4b7bf5b11c6f3242f4fff706e52a"
+	"filename": "pool/main/r/rust-zmij/librust-zmij-dev_1.0.23-1_amd64.deb",
+	"size": 24324,
+	"md5": "899e3a912758497778750f7852e7581e",
+	"sha256": "e145c5f56eadcfe6d107a9d7457fbbbd2c9ffbbb4a70f51da5f67c25d22ba9f1",
+	"descriptionMd5": "34c650d6f1e33edd3f248e46038e4ac5"
 }]
