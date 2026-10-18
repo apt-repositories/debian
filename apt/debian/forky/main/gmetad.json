@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gmetad",
+	"source": "ganglia",
+	"version": "3.7.2-8",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libapr1t64 (>= 1.2.7)",
+		"libc6 (>= 2.38)",
+		"libexpat1 (>= 2.0.1)",
+		"libganglia1t64 (= 3.7.2-8)",
+		"librrd8t64 (>= 1.3.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"suggests": [
+		"ganglia-monitor",
+		"ganglia-webfrontend"
+	],
+	"installedSize": 149,
+	"maintainer": "Marcos Fouces <marcos@debian.org>",
+	"description": "cluster monitoring toolkit - Ganglia Meta-Daemon",
+	"homepage": "http://ganglia.info/",
+	"filename": "pool/main/g/ganglia/gmetad_3.7.2-8_amd64.deb",
+	"size": 44884,
+	"md5": "43657821821f08c2d777d4d2ba3c8eaa",
+	"sha256": "382be303d7a46b49160cd58243c3d09cf29140c3447a81095681221ea85d33fe",
+	"descriptionMd5": "5e5209d08a482599749da28322511fed"
+}

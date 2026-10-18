@@ -6,17 +6,18 @@
 	],
 	"package": "sa-compile",
 	"source": "spamassassin",
-	"version": "4.0.2+svn1938422-1",
+	"version": "4.0.2+svn1939112-1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"spamassassin (= 4.0.2+svn1938422-1)",
+		"spamassassin (= 4.0.2+svn1939112-1)",
 		"re2c",
 		"gcc",
 		"libc6-dev",
 		"libcrypt-dev",
-		"make"
+		"make",
+		"perl:any"
 	],
 	"enhances": [
 		"spamassassin"
@@ -25,9 +26,9 @@
 	"maintainer": "Noah Meyerhans <noahm@debian.org>",
 	"description": "Tools for compiling SpamAssassin rules into C",
 	"homepage": "https://www.spamassassin.org/",
-	"filename": "pool/main/s/spamassassin/sa-compile_4.0.2+svn1938422-1_all.deb",
-	"size": 31796,
-	"md5": "f7a168a3813f950a06124dbec757fffd",
-	"sha256": "63a8fb4820395c62b74d9a055c5746f6bdef57a0930036a4c1c12cc27d8d43a7",
+	"filename": "pool/main/s/spamassassin/sa-compile_4.0.2+svn1939112-1_all.deb",
+	"size": 31836,
+	"md5": "73495c60835b18438170dfdf6dc6bda8",
+	"sha256": "2ddd47f2fe6672e1e59373f891c439b4c5db634d032720ec33a83e03516d40a5",
 	"descriptionMd5": "4b3f9d42fcff1aff87d28f86f9496c4e"
 }]

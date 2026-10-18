@@ -6,25 +6,26 @@
 	],
 	"package": "libcanl-java",
 	"source": "canl-java",
-	"version": "2.9.0-1",
+	"version": "2.9.0-2",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libbcpkix-java (>= 1.80)",
-		"libbcprov-java (>= 1.80)",
+		"libbcpkix-java (>= 1.86)",
+		"libbcprov-java (>= 1.86)",
 		"libcommons-io-java (>= 2.22.0)"
 	],
 	"breaks": [
+		"libbcpkix-java (<< 1.86)",
 		"libvoms-api-java-java (<< 3.3.0)"
 	],
 	"installedSize": 402,
 	"maintainer": "Mattias Ellert <mattias.ellert@physics.uu.se>",
 	"description": "EMI Common Authentication library - bindings for Java",
 	"homepage": "https://github.com/eu-emi/canl-java/",
-	"filename": "pool/main/c/canl-java/libcanl-java_2.9.0-1_all.deb",
-	"size": 349836,
-	"md5": "69a97ae3ab48c6fb3976a51ef8952a57",
-	"sha256": "55ceb1d7bf2ab8df7d8401cb3a334f3c2d5492496a477524a34798cee880b637",
+	"filename": "pool/main/c/canl-java/libcanl-java_2.9.0-2_all.deb",
+	"size": 349848,
+	"md5": "ab3d3b07851edc8287c6add52b504ecd",
+	"sha256": "8d66c4136afe16a4f5699b20580f70b9ec6f49bb7659a0889178e029b7e558c7",
 	"descriptionMd5": "b6cfaa247baf7d40e5afa416060c4fc1"
 }]

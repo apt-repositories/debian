@@ -6,34 +6,41 @@
 	],
 	"package": "python3-neo",
 	"source": "neo",
-	"version": "0.14.4-2",
+	"version": "0.14.4-3",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-nixio",
 		"python3-numpy",
-		"python3-pil",
-		"python3-quantities (>= 0.16.1~)",
+		"python3-quantities (>= 0.16.4~)",
 		"python3-packaging",
 		"python3:any"
 	],
 	"recommends": [
 		"libjs-jquery",
 		"libjs-underscore",
+		"python3-dateutil",
+		"python3-h5py",
+		"python3-nixio",
+		"python3-pynwb",
+		"python3-joblib",
+		"python3-pil",
 		"python3-scipy",
-		"python3-tables"
+		"python3-tables",
+		"python3-tqdm"
 	],
 	"suggests": [
-		"python3-pytest"
+		"python3-igor2",
+		"python3-datalad",
+		"python3-matplotlib"
 	],
-	"installedSize": 3054,
+	"installedSize": 3053,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "Python IO library for electrophysiological data formats",
-	"homepage": "https://neuralensemble.org/trac/neo",
-	"filename": "pool/main/n/neo/python3-neo_0.14.4-2_all.deb",
-	"size": 443160,
-	"md5": "30ae8de109060c8e3f4e6eab0f65f536",
-	"sha256": "a5691e23e719decec1bc03ddf29167b1a4d4a312adb1f2ecc6ba78c9109f768c",
+	"homepage": "https://neuralensemble.org/neo",
+	"filename": "pool/main/n/neo/python3-neo_0.14.4-3_all.deb",
+	"size": 443404,
+	"md5": "780fce26561547160b7fe3aa74edac07",
+	"sha256": "ef5aea3aeeab1e65503d24e413f92944a46b9dcc678a85faf8e40619760d47b5",
 	"descriptionMd5": "fa239962d364563d533b8061aede44cb"
 }
