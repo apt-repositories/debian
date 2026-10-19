@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "libtk-img",
-	"version": "1:2.1.2+dfsg-1",
+	"version": "1:2.1.2+dfsg-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libtk",
+		"libtk | libtk8.6 | libtk9.1",
 		"libc6 (>= 2.38)",
 		"libjpeg62-turbo (>= 1.3.1)",
 		"libpng16-16t64 (>= 1.6.46)",
@@ -27,13 +27,13 @@
 	"breaks": [
 		"libtk-img-doc (<< 1:1.4.15+dfsg-2)"
 	],
-	"installedSize": 1244,
+	"installedSize": 1241,
 	"maintainer": "Sergei Golovan <sgolovan@debian.org>",
 	"description": "Extended image format support for Tcl/Tk (runtime)",
 	"homepage": "https://sourceforge.net/projects/tkimg/",
-	"filename": "pool/main/libt/libtk-img/libtk-img_2.1.2+dfsg-1_amd64.deb",
-	"size": 185928,
-	"md5": "d045ab7a83c31ed883a0a702e2cdac17",
-	"sha256": "7ba70ec866936d308d5bf58b22fd7b3f997c495d173cc8fe8f8ae4100ab59f42",
+	"filename": "pool/main/libt/libtk-img/libtk-img_2.1.2+dfsg-2_amd64.deb",
+	"size": 186000,
+	"md5": "49d17719c5bb2054d1ee37e528020f24",
+	"sha256": "8c764fe334d233e51f4681fab252297f8903b8c3f530b233efdc882c0e703078",
 	"descriptionMd5": "107dce53010b14040034953c08c90092"
 }

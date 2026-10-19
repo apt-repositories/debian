@@ -24,8 +24,39 @@
 	"maintainer": "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>",
 	"description": "Xen runtime libraries - libxenstore",
 	"homepage": "https://xenproject.org/",
-	"filename": "pool/updates/main/x/xen/libxenstore4_4.20.3+127-gc42374a105-0+deb13u1_amd64.deb",
+	"filename": "pool/main/x/xen/libxenstore4_4.20.3+127-gc42374a105-0+deb13u1_amd64.deb",
 	"size": 44208,
+	"md5": "a9e8c1fa80471ce795c8397a6047f993",
 	"sha256": "a8de020b8c3129a248171e393e38536beeabf2d0aa03e291fa09b415a5f77486",
+	"descriptionMd5": "da0c7baa0e5240359f0489e50b89b477"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libxenstore4",
+	"source": "xen",
+	"version": "4.20.4+39-gf1e1321c87-0+deb13u1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libxentoolcore1 (>= 4.20.4+39-gf1e1321c87)"
+	],
+	"replaces": [
+		"libxenstore4t64"
+	],
+	"breaks": [
+		"libxenstore4t64 (<< 4.20.4+39-gf1e1321c87-0+deb13u1)"
+	],
+	"installedSize": 107,
+	"maintainer": "Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>",
+	"description": "Xen runtime libraries - libxenstore",
+	"homepage": "https://xenproject.org/",
+	"filename": "pool/updates/main/x/xen/libxenstore4_4.20.4+39-gf1e1321c87-0+deb13u1_amd64.deb",
+	"size": 44572,
+	"sha256": "e7542a9654e3ac2f7b0652992eaebc939719ae120cf5fc0cee662b07df2ccca8",
 	"descriptionMd5": "da0c7baa0e5240359f0489e50b89b477"
 }]

@@ -5,13 +5,12 @@
 		"Size"
 	],
 	"package": "mpd",
-	"source": "mpd (0.24.12-1)",
-	"version": "0.24.12-1+b2",
+	"version": "0.24.16-1",
 	"section": "sound",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libadplug-2.4-0 (>= 2.4+dfsg)",
 		"libao4 (>= 1.1.0)",
 		"libasound2t64 (>= 1.0.27)",
@@ -47,7 +46,7 @@
 		"libmodplug1 (>= 1:0.8.8.5)",
 		"libmp3lame0 (>= 3.100)",
 		"libmpcdec6 (>= 1:0.1~r435)",
-		"libmpdclient2t64 (>= 2.21)",
+		"libmpdclient2t64 (>= 2.27)",
 		"libmpg123-0t64 (>= 1.28.0)",
 		"libnfs14 (>= 1.9.7)",
 		"libogg0 (>= 1.1.0)",
@@ -85,14 +84,17 @@
 		"mpd-client",
 		"pulseaudio"
 	],
-	"installedSize": 3022,
+	"breaks": [
+		"opensysusers (<< 0.7.3-5.1~)"
+	],
+	"installedSize": 3015,
 	"maintainer": "mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>",
 	"description": "Music Player Daemon",
 	"homepage": "https://www.musicpd.org/",
 	"builtUsing": "sphinx (= 9.1.0-9)",
-	"filename": "pool/main/m/mpd/mpd_0.24.12-1+b2_amd64.deb",
-	"size": 936336,
-	"md5": "fb75e30ae71bbf8369f12d4a75b60221",
-	"sha256": "0096619a339ce920c297bff01940100cb4ac6e4a4c27e000beb91dc28ac15b84",
+	"filename": "pool/main/m/mpd/mpd_0.24.16-1_amd64.deb",
+	"size": 937112,
+	"md5": "861b52b19b0342f1c7a61334c27393c5",
+	"sha256": "ecacca5986159558b897ea810a688f50e9876e70faf3079bd5a8d7bf436ed355",
 	"descriptionMd5": "f318c4a927bba8215d5caa973656c5e7"
 }]
