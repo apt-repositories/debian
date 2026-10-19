@@ -5,11 +5,14 @@
 		"Size"
 	],
 	"package": "gnome-decoder",
-	"version": "0.9.1-2",
+	"version": "0.10.0-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"gstreamer1.0-gl",
+		"gstreamer1.0-gtk4",
+		"gstreamer1.0-plugins-bad",
 		"dconf-gsettings-backend | gsettings-backend",
 		"libadwaita-1-0 (>= 1.8)",
 		"libc6 (>= 2.39)",
@@ -18,19 +21,16 @@
 		"libgraphene-1.0-0 (>= 1.5.4)",
 		"libgstreamer-plugins-base1.0-0 (>= 1.20.0)",
 		"libgstreamer1.0-0 (>= 1.20.0)",
-		"libgtk-4-1 (>= 4.15.4)",
-		"libsqlite3-0 (>= 3.20.0)",
-		"gstreamer1.0-gl",
-		"gstreamer1.0-gtk4",
-		"gstreamer1.0-plugins-bad"
+		"libgtk-4-1 (>= 4.23.1)",
+		"libsqlite3-0 (>= 3.20.0)"
 	],
-	"installedSize": 6104,
+	"installedSize": 6091,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "QR code scanner and generator for the GNOME Desktop",
 	"homepage": "https://apps.gnome.org/Decoder/",
-	"filename": "pool/main/g/gnome-decoder/gnome-decoder_0.9.1-2_amd64.deb",
-	"size": 1897096,
-	"md5": "dc918fbeab49a7ebbfbbbc73a525c395",
-	"sha256": "8139f65695168be319e25fafb75b243451a13f5fd3846dfc3eb8496a659da18b",
+	"filename": "pool/main/g/gnome-decoder/gnome-decoder_0.10.0-2_amd64.deb",
+	"size": 1889368,
+	"md5": "98e03e50318871fa3cbf21bad3de835d",
+	"sha256": "a4b56aa29e0b58cd1b8b2e0c0b22d2adb2861392b8f3e383e97548db644ec547",
 	"descriptionMd5": "cb6fd6b3fe592a41a9fe3eab6bb57c5b"
 }]

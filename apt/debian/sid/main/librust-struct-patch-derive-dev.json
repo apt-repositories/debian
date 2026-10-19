@@ -5,23 +5,27 @@
 		"Size"
 	],
 	"package": "librust-struct-patch-derive-dev",
-	"source": "rust-struct-patch-derive (0.9.3-1)",
-	"version": "0.9.3-1+b1",
+	"source": "rust-struct-patch-derive",
+	"version": "0.14.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-proc-macro2-1+default-dev",
 		"librust-quote-1+default-dev",
-		"librust-syn-2+default-dev",
-		"librust-syn-2+parsing-dev"
+		"librust-syn-3+default-dev",
+		"librust-syn-3+parsing-dev"
 	],
-	"installedSize": 65,
+	"breaks": [
+		"rustc (<< 1.61.0~)"
+	],
+	"installedSize": 176,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Library that helps you implement partial updates for structs - Rust source code",
-	"filename": "pool/main/r/rust-struct-patch-derive/librust-struct-patch-derive-dev_0.9.3-1+b1_amd64.deb",
-	"size": 10948,
-	"md5": "e2187f86c41da0cfcb527d3740f41670",
-	"sha256": "a2407c292447ca9973afeb041c79f323c0e91cd9bc9b32fe0d5fcb020f534782",
-	"descriptionMd5": "f08c5e66cf11aa83cfbbbb36653f2bd6"
+	"homepage": "https://github.com/yanganto/struct-patch/",
+	"filename": "pool/main/r/rust-struct-patch-derive/librust-struct-patch-derive-dev_0.14.4-1_amd64.deb",
+	"size": 22336,
+	"md5": "b2a74e58f36c2ec4bb6dfab3ed31b2d6",
+	"sha256": "53eaa8ef17ddd9f7bf84ceb266ab54a01ee7d038521941ca1b5cb89ec7b48baa",
+	"descriptionMd5": "e45edad0b2c7963e39c22670064d5892"
 }
