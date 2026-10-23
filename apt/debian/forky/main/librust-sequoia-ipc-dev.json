@@ -6,14 +6,14 @@
 	],
 	"package": "librust-sequoia-ipc-dev",
 	"source": "rust-sequoia-ipc",
-	"version": "0.36.1-1",
+	"version": "0.36.1-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-anyhow-1+default-dev (>= 1.0.18)",
-		"librust-capnp-rpc-0.25+default-dev",
-		"librust-capnpc-0.25+default-dev",
+		"librust-capnp-rpc-0.27+default-dev",
+		"librust-capnpc-0.27+default-dev",
 		"librust-dirs+default-dev (<< 7)",
 		"librust-dirs+default-dev (>= 5)",
 		"librust-fs2-0.4+default-dev (>= 0.4.2)",
@@ -35,13 +35,16 @@
 		"librust-tokio-util-0.7+compat-dev",
 		"librust-tokio-util-0.7+default-dev"
 	],
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
 	"installedSize": 5305,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Interprocess communication infrastructure for Sequoia - Rust source code",
 	"homepage": "https://sequoia-pgp.org/",
-	"filename": "pool/main/r/rust-sequoia-ipc/librust-sequoia-ipc-dev_0.36.1-1_amd64.deb",
-	"size": 4417892,
-	"md5": "5aabdfa7683e856dc905f36b36e4a929",
-	"sha256": "ff29d56ba5eea330b6a2539ba41eafd0a347d18c80d780dcf3c095fce43ba82e",
+	"filename": "pool/main/r/rust-sequoia-ipc/librust-sequoia-ipc-dev_0.36.1-2_amd64.deb",
+	"size": 4418612,
+	"md5": "4aa608cddc4d96e0057c7c300db2da04",
+	"sha256": "2a71f8cbfdd8c09b88ab5887a29ba98d070c57a425d7fcdbb774c24f6cef8ccb",
 	"descriptionMd5": "e124a3e22fb3ce064e3c514af237c3dd"
 }

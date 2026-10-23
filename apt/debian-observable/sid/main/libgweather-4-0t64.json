@@ -5,33 +5,34 @@
 		"Size"
 	],
 	"package": "libgweather-4-0t64",
-	"source": "libgweather4",
-	"version": "4.4.4-5",
+	"source": "libgweather",
+	"version": "4.6.0-4",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"gweather-locations",
+		"libgweather-4-common",
 		"libc6 (>= 2.38)",
-		"libgeocode-glib-2-0 (>= 3.26.3)",
+		"libgeocode-glib-2-0 (>= 0.99.1)",
 		"libglib2.0-0t64 (>= 2.80.0)",
 		"libjson-glib-1.0-0 (>= 1.5.2)",
 		"libsoup-3.0-0 (>= 3.0.3)",
-		"libxml2-16 (>= 2.14.1)",
-		"libgweather-4-common (>= 3.5.0)"
+		"libxml2-16 (>= 2.14.1)"
 	],
 	"replaces": [
 		"libgweather-4-0"
 	],
 	"breaks": [
-		"libgweather-4-0 (<< 4.4.4-5)"
+		"libgweather-4-0 (<< 4.6.0-4)"
 	],
-	"installedSize": 862,
+	"installedSize": 235,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GWeather shared library",
-	"homepage": "https://wiki.gnome.org/Projects/LibGWeather",
-	"filename": "pool/main/libg/libgweather4/libgweather-4-0t64_4.4.4-5_amd64.deb",
-	"size": 314960,
-	"md5": "fd9000c608bfc3949c9980535d9d21c3",
-	"sha256": "d3e181c1990e4159a199c7cfb97a0f07df043a592ad23f887c5094c10623ea24",
+	"homepage": "https://gnome.pages.gitlab.gnome.org/libgweather/",
+	"filename": "pool/main/libg/libgweather/libgweather-4-0t64_4.6.0-4_amd64.deb",
+	"size": 82296,
+	"md5": "7ea323d1c0ac74af3b75e674fadaa8a0",
+	"sha256": "34e7307a3942184aafff1a4ce5403ddc242eb821d885858e7924edaf13eaee35",
 	"descriptionMd5": "cb984482338858ae6dd68ad8bf4a2452"
 }]
