@@ -5,23 +5,41 @@
 		"Size"
 	],
 	"package": "librust-struct-patch-dev",
-	"source": "rust-struct-patch (0.9.3-1)",
-	"version": "0.9.3-1+b1",
+	"source": "rust-struct-patch",
+	"version": "0.14.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-struct-patch-derive-0.9.3+default-dev",
-		"librust-struct-patch-derive-0.9.3+merge-dev",
-		"librust-struct-patch-derive-0.9.3+op-dev",
-		"librust-struct-patch-derive-0.9.3+status-dev"
+		"librust-struct-patch-derive-0.14+box-dev (<< 0.14.5)",
+		"librust-struct-patch-derive-0.14+box-dev (>= 0.14.4)",
+		"librust-struct-patch-derive-0.14+default-dev (<< 0.14.5)",
+		"librust-struct-patch-derive-0.14+default-dev (>= 0.14.4)",
+		"librust-struct-patch-derive-0.14+log-dev (<< 0.14.5)",
+		"librust-struct-patch-derive-0.14+log-dev (>= 0.14.4)",
+		"librust-struct-patch-derive-0.14+merge-dev (<< 0.14.5)",
+		"librust-struct-patch-derive-0.14+merge-dev (>= 0.14.4)",
+		"librust-struct-patch-derive-0.14+nesting-dev (<< 0.14.5)",
+		"librust-struct-patch-derive-0.14+nesting-dev (>= 0.14.4)",
+		"librust-struct-patch-derive-0.14+op-dev (<< 0.14.5)",
+		"librust-struct-patch-derive-0.14+op-dev (>= 0.14.4)",
+		"librust-struct-patch-derive-0.14+simple-nesting-dev (<< 0.14.5)",
+		"librust-struct-patch-derive-0.14+simple-nesting-dev (>= 0.14.4)",
+		"librust-struct-patch-derive-0.14+status-dev (<< 0.14.5)",
+		"librust-struct-patch-derive-0.14+status-dev (>= 0.14.4)",
+		"librust-struct-patch-derive-0.14+unsafe-dev (<< 0.14.5)",
+		"librust-struct-patch-derive-0.14+unsafe-dev (>= 0.14.4)"
 	],
-	"installedSize": 75,
+	"breaks": [
+		"rustc (<< 1.61.0~)"
+	],
+	"installedSize": 79,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Library that helps you implement partial updates for structs - Rust source code",
-	"filename": "pool/main/r/rust-struct-patch/librust-struct-patch-dev_0.9.3-1+b1_amd64.deb",
-	"size": 12668,
-	"md5": "406e5ae207de0ef9eddc461c7d2d7fbc",
-	"sha256": "00fa4182ead6ab220cc066ff650f27c94718364ca86fd335dc2c8f29df33c55c",
-	"descriptionMd5": "5e475aeeeae8761007c9cf79ca89303c"
+	"homepage": "https://github.com/yanganto/struct-patch/",
+	"filename": "pool/main/r/rust-struct-patch/librust-struct-patch-dev_0.14.4-1_amd64.deb",
+	"size": 14776,
+	"md5": "8abb50b60f0de7c667ed20eee20d169e",
+	"sha256": "88f1af0441f7e71937fe87c085475ea26c3987bf068eead1fdd00548929d4b3c",
+	"descriptionMd5": "50e34fc4cb2b2d6b490dd0adf4ae21ef"
 }

@@ -5,25 +5,26 @@
 		"Size"
 	],
 	"package": "libnotify-dev",
-	"source": "libnotify (0.8.8-1)",
-	"version": "0.8.8-1+b1",
+	"source": "libnotify",
+	"version": "0.8.9-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libgdk-pixbuf-2.0-dev",
+		"libglib2.0-dev",
+		"libnotify4 (= 0.8.9-1)",
 		"gir1.2-gdkpixbuf-2.0-dev",
 		"gir1.2-glib-2.0-dev",
-		"gir1.2-notify-0.7 (= 0.8.8-1+b1)",
-		"libnotify4 (= 0.8.8-1+b1)",
-		"libglib2.0-dev (>= 2.26)",
-		"libgdk-pixbuf-2.0-dev"
+		"gir1.2-notify-0.7 (= 0.8.9-1)"
 	],
-	"installedSize": 110,
+	"installedSize": 109,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "sends desktop notifications to a notification daemon (Development files)",
-	"filename": "pool/main/libn/libnotify/libnotify-dev_0.8.8-1+b1_amd64.deb",
-	"size": 14124,
-	"md5": "abc20e06a0ccd5f9728e5d6c8febe0ab",
-	"sha256": "fcf5c2df5913447f327651e22d381000bd992df163f11edb6702ef6fd9546c07",
+	"homepage": "https://gnome.pages.gitlab.gnome.org/libnotify/",
+	"filename": "pool/main/libn/libnotify/libnotify-dev_0.8.9-1_amd64.deb",
+	"size": 13940,
+	"md5": "ef44a2adb641c51ae2f2d6663ed904c3",
+	"sha256": "6d7302ef80adab38c87a43329a75ac5c2008c5b66d8b2881431d57965e98af6a",
 	"descriptionMd5": "9fed5d3edf50824cfc6d54e102ff155f"
 }]
