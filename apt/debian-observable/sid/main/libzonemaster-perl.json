@@ -5,12 +5,12 @@
 		"Size"
 	],
 	"package": "libzonemaster-perl",
-	"version": "8.001.001-1",
+	"version": "9.000.001-1",
 	"section": "perl",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"perl:any",
+		"libcbor-xs-perl",
 		"libclass-accessor-perl",
 		"libclone-perl",
 		"libdata-messagepack-perl",
@@ -36,15 +36,16 @@
 		"libredis-perl",
 		"libtext-csv-perl",
 		"libyaml-libyaml-perl",
-		"libzonemaster-ldns-perl (>= 5.0.1)"
+		"libzonemaster-ldns-perl (>= 5.1.0)",
+		"perl:any"
 	],
-	"installedSize": 1687,
+	"installedSize": 1720,
 	"maintainer": "Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>",
 	"description": "tool to check the quality of a DNS zone",
 	"homepage": "https://zonemaster.net/",
-	"filename": "pool/main/libz/libzonemaster-perl/libzonemaster-perl_8.001.001-1_all.deb",
-	"size": 271424,
-	"md5": "36c9b63592d4e5f1e15cba5313a2a8ce",
-	"sha256": "ad072ea2637a0b41389c133f9d7b205f8936f3d524c7a8755d9c477c41f66c88",
+	"filename": "pool/main/libz/libzonemaster-perl/libzonemaster-perl_9.000.001-1_all.deb",
+	"size": 282272,
+	"md5": "b7c0241ca33275674809f0e82878b96c",
+	"sha256": "82007c12fa95168e37114b4d0c60daca6b4ee2609a185344c166d74556e06fc3",
 	"descriptionMd5": "27a4bf446113b8a54a8805453c918653"
 }]
