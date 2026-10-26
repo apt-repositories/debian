@@ -5,19 +5,19 @@
 		"Size"
 	],
 	"package": "privoxy",
-	"version": "4.2.0-1",
+	"version": "4.2.0-3",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"debconf",
 		"logrotate",
 		"ucf",
 		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libbrotli1 (>= 0.6.0)",
 		"libc6 (>= 2.38)",
-		"libpcre2-8-0 (>= 10.22)",
+		"libpcre2-8-0 (>= 10.47)",
 		"libssl3t64 (>= 3.0.0)",
 		"libzstd1 (>= 1.5.5)",
 		"zlib1g (>= 1:1.2.0)"
@@ -28,13 +28,13 @@
 	"suggests": [
 		"apparmor"
 	],
-	"installedSize": 2415,
+	"installedSize": 2437,
 	"maintainer": "Roland Rosenfeld <roland@debian.org>",
 	"description": "Privacy enhancing HTTP Proxy",
 	"homepage": "https://www.privoxy.org/",
-	"filename": "pool/main/p/privoxy/privoxy_4.2.0-1_amd64.deb",
-	"size": 672792,
-	"md5": "2fcc9f23ce9d8ea0c14c577bdaa8ba9c",
-	"sha256": "0d2324fccbf56472a2ac9b59b4ed259c795f4fd2c6b47776cc67be032f08f64d",
+	"filename": "pool/main/p/privoxy/privoxy_4.2.0-3_amd64.deb",
+	"size": 679620,
+	"md5": "44f88d822887ea1d485b75ca129759ef",
+	"sha256": "a282768fd5d82475d78f912e8c27c76a62ad38db075146cf9fb87bc09d34bec9",
 	"descriptionMd5": "6ec5aaf09f151e319fd41d430dbd5eca"
 }]

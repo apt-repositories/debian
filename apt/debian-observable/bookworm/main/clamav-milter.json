@@ -42,4 +42,47 @@
 	"md5": "030e31c200adef8eb23b3b98ac2e1b70",
 	"sha256": "f714b53aa63bafad0fbadd3f0fd431a33886ffe9bbae065426dc20dc63b44955",
 	"descriptionMd5": "e47a1194215b5fbde13fb9217c44d83f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clamav-milter",
+	"source": "clamav",
+	"version": "1.4.6+dfsg-0+deb12u1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"clamav-base (>= 1.4.6+dfsg-0+deb12u1)",
+		"clamav-freshclam (>= 1.4.6+dfsg) | clamav-data",
+		"dpkg (>= 1.16.1)",
+		"logrotate",
+		"procps (>= 1:3.3.2)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)",
+		"libclamav12 (>= 1.4.6)",
+		"libmilter1.0.1"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"clamav-daemon"
+	],
+	"suggests": [
+		"clamav-doc",
+		"daemon"
+	],
+	"installedSize": 545,
+	"maintainer": "ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>",
+	"description": "anti-virus utility for Unix - sendmail integration",
+	"homepage": "https://www.clamav.net/",
+	"filename": "pool/updates/main/c/clamav/clamav-milter_1.4.6+dfsg-0+deb12u1_amd64.deb",
+	"size": 209672,
+	"sha256": "8b63cedf1494a89a089d73e6a23f29eb445253567397c41b4a83909a21b116be",
+	"descriptionMd5": "e47a1194215b5fbde13fb9217c44d83f"
 }]

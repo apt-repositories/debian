@@ -6,7 +6,7 @@
 	],
 	"package": "librust-io-uring-dev",
 	"source": "rust-io-uring",
-	"version": "0.7.11-1",
+	"version": "0.7.15-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-cfg-if-1+default-dev",
 		"librust-libc-0.2-dev (>= 0.2.98)"
 	],
-	"installedSize": 857,
+	"breaks": [
+		"rustc (<< 1.63~)"
+	],
+	"installedSize": 881,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Low-level `io_uring` userspace interface for Rust - Rust source code",
 	"homepage": "https://github.com/tokio-rs/io-uring",
-	"filename": "pool/main/r/rust-io-uring/librust-io-uring-dev_0.7.11-1_amd64.deb",
-	"size": 58004,
-	"md5": "090bc63fd53e7face8973a9a60f57269",
-	"sha256": "9e50a20ba5e719115bc7031fae4e5132fdc02eacd6f005710dbbece12ea2dc99",
+	"filename": "pool/main/r/rust-io-uring/librust-io-uring-dev_0.7.15-1_amd64.deb",
+	"size": 62556,
+	"md5": "8bf36939e919ad6f1b8f707a00ba60d3",
+	"sha256": "36551cf21a7498a269b6e7d7667ee6f62afa47256ed0271f22a445d4d6f293c9",
 	"descriptionMd5": "3e87331b93d65080d88688dd83cc93d8"
 }
