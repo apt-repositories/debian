@@ -5,25 +5,31 @@
 		"Size"
 	],
 	"package": "librust-cargo-options-dev",
-	"source": "rust-cargo-options (0.7.4-1)",
-	"version": "0.7.4-1+b1",
+	"source": "rust-cargo-options",
+	"version": "0.8.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-anstyle-1+default-dev (>= 1.0.2-~~)",
-		"librust-clap-4+default-dev",
-		"librust-clap-4+derive-dev",
-		"librust-clap-4+env-dev",
-		"librust-clap-4+unstable-styles-dev",
-		"librust-clap-4+wrap-help-dev"
+		"librust-anstyle-1+default-dev (>= 1.0.14)",
+		"librust-clap-4+default-dev (>= 4.6.1)",
+		"librust-clap-4+derive-dev (>= 4.6.1)",
+		"librust-clap-4+env-dev (>= 4.6.1)",
+		"librust-clap-4+unstable-styles-dev (>= 4.6.1)",
+		"librust-clap-4+wrap-help-dev (>= 4.6.1)",
+		"librust-serde-1+default-dev (>= 1.0.228)",
+		"librust-serde-1+derive-dev (>= 1.0.228)"
 	],
-	"installedSize": 125,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 159,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Reusable common Cargo command line options - Rust source code",
-	"filename": "pool/main/r/rust-cargo-options/librust-cargo-options-dev_0.7.4-1+b1_amd64.deb",
-	"size": 13176,
-	"md5": "0f259b982c8e559bba99bd58bffdfe4f",
-	"sha256": "9ff31bddc2b764bf4d6b0c7bd4351de7f34699f3f0e259bfa54a91d2354dbcb0",
+	"homepage": "https://github.com/messense/cargo-options",
+	"filename": "pool/main/r/rust-cargo-options/librust-cargo-options-dev_0.8.1-1_amd64.deb",
+	"size": 14952,
+	"md5": "bf8a94c23419d47023b2889d5129a123",
+	"sha256": "d5ce143d4f625976644456b63e5153504881aa5ca3fd776693a393f5ef0f3a58",
 	"descriptionMd5": "dbbef6887a34141d90239a8a02f6dfcc"
 }]

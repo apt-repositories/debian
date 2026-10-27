@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rustix-dev",
 	"source": "rust-rustix",
-	"version": "1.1.4+dfsg-1",
+	"version": "1.1.5+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -32,15 +32,16 @@
 		"librust-linux-raw-sys-0.12+xdp-dev"
 	],
 	"breaks": [
-		"librust-wayland-backend-dev (<< 0.3.11-3)"
+		"librust-wayland-backend-dev (<< 0.3.11-3)",
+		"rustc (<< 1.65~)"
 	],
-	"installedSize": 2564,
+	"installedSize": 2572,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls - Rust source code",
 	"homepage": "https://github.com/bytecodealliance/rustix",
-	"filename": "pool/main/r/rust-rustix/librust-rustix-dev_1.1.4+dfsg-1_amd64.deb",
-	"size": 310296,
-	"md5": "2ad8411f26bc0fa12f747dca62a1b8b0",
-	"sha256": "7015fa1a0437978a7158c35b3b427f6c61d6f6be4c671cd80b35f75be0a0c948",
+	"filename": "pool/main/r/rust-rustix/librust-rustix-dev_1.1.5+ds-1_amd64.deb",
+	"size": 310564,
+	"md5": "17eec89945be55077169fc4103a99926",
+	"sha256": "15c216f3686000de26a0ae14c1c0a2d01fa53140ecbab9f27b6182217d727db4",
 	"descriptionMd5": "a4e80b98e3c172d9453f8a19505dda71"
 }

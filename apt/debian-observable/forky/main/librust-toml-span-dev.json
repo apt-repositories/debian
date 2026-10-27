@@ -6,12 +6,13 @@
 	],
 	"package": "librust-toml-span-dev",
 	"source": "rust-toml-span",
-	"version": "0.7.2-1",
+	"version": "0.7.2-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-codespan-reporting-0.12+default-dev",
+		"librust-codespan-reporting+default-dev (<< 0.14)",
+		"librust-codespan-reporting+default-dev (>= 0.12)",
 		"librust-serde-1+default-dev",
 		"librust-smallvec-1+default-dev (>= 1.13)"
 	],
@@ -22,9 +23,9 @@
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Toml parser and deserializer that preserves span information - Rust source code",
 	"homepage": "https://github.com/EmbarkStudios/toml-span",
-	"filename": "pool/main/r/rust-toml-span/librust-toml-span-dev_0.7.2-1_amd64.deb",
-	"size": 34404,
-	"md5": "a8ae7d3c44e1566198a82937cdcc34af",
-	"sha256": "7d8e8f86479753b259a0c68d17575ccd727f20842221de64d75e9f57c2671c87",
+	"filename": "pool/main/r/rust-toml-span/librust-toml-span-dev_0.7.2-2_amd64.deb",
+	"size": 34508,
+	"md5": "a533d7348de8e37526e61c4926e38137",
+	"sha256": "8f6f62db94e579f1745d5a57ff5a867917629be80efc0a2430dd521445953111",
 	"descriptionMd5": "7c2204971e7821be9ce527a5751d48c4"
 }]

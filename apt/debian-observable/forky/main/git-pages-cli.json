@@ -5,17 +5,21 @@
 		"Size"
 	],
 	"package": "git-pages-cli",
-	"version": "1.11.2-1",
+	"version": "1.11.3-1",
 	"section": "vcs",
 	"priority": "optional",
 	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)"
+	],
 	"installedSize": 6784,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "Scalable static site server for Git forges (CLI utility)",
 	"homepage": "https://codeberg.org/git-pages/git-pages-cli",
-	"filename": "pool/main/g/git-pages-cli/git-pages-cli_1.11.2-1_amd64.deb",
-	"size": 2258164,
-	"md5": "ec24b3ea539897e31a7bc4ce32acd6cc",
-	"sha256": "71b46fb05007b8766bd90c53d47680d857d731d334707ab1ab6c21a51ee3ac95",
+	"builtUsing": "golang-1.26 (= 1.26.9-1), golang-codeberg-git-pages-go-redirects (= 1.0.0-1), golang-github-cespare-xxhash-v2 (= 2.3.0-4), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.20.0+ds1-1), golang-github-pkg-errors (= 0.9.1-3), golang-github-spf13-pflag (= 1.0.10-1), golang-golang-x-net (= 1:0.60.0-1), golang-golang-x-text (= 0.43.0-1)",
+	"filename": "pool/main/g/git-pages-cli/git-pages-cli_1.11.3-1_amd64.deb",
+	"size": 2258992,
+	"md5": "bad6c50e6a8af28385c32c038cd9cb89",
+	"sha256": "1e0dae11418c11deca389af1a78c6e852f6204a9dee67aeb0199344d8dae1a4e",
 	"descriptionMd5": "b199e4aa586d9b5cadca25a2389a3543"
 }]

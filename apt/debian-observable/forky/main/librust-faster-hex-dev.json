@@ -5,23 +5,30 @@
 		"Size"
 	],
 	"package": "librust-faster-hex-dev",
-	"source": "rust-faster-hex (0.10.0-1)",
-	"version": "0.10.0-1+b1",
+	"source": "rust-faster-hex",
+	"version": "1.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-heapless-0.8+default-dev",
+		"librust-defmt-0.3+alloc-dev",
+		"librust-defmt-0.3+default-dev",
+		"librust-heapless-0.8+defmt-03-dev",
+		"librust-heapless-0.8-dev",
+		"librust-serde-1+alloc-dev",
 		"librust-serde-1+std-dev",
 		"librust-serde-1-dev"
 	],
-	"installedSize": 96,
+	"breaks": [
+		"rustc (<< 1.95.0~)"
+	],
+	"installedSize": 295,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Fast hex encoding - Rust source code",
-	"homepage": "https://github.com/NervosFoundation/faster-hex",
-	"filename": "pool/main/r/rust-faster-hex/librust-faster-hex-dev_0.10.0-1+b1_amd64.deb",
-	"size": 15696,
-	"md5": "267678eada52d716d098e1172801e1c9",
-	"sha256": "bfb97e0067c86bbac1cf2b771af41971e10dd739d61bc8f52621672d11fe84ab",
-	"descriptionMd5": "1b362f6efcc14cc1ac017910448d9f9e"
+	"description": "Fast, checked hex encoding and decoding with SIMD and no_std support - Rust source code",
+	"homepage": "https://github.com/nervosnetwork/faster-hex",
+	"filename": "pool/main/r/rust-faster-hex/librust-faster-hex-dev_1.0.0-1_amd64.deb",
+	"size": 57876,
+	"md5": "1d03b31f4f73dd99f82c5ebc68d88b53",
+	"sha256": "9c4d15386c79d5ae49deb8a43e50eacd2cf6561e028204a5a76532259b91f7ba",
+	"descriptionMd5": "5a51df5f9e311f194daddb5f4656c707"
 }]

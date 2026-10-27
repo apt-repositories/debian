@@ -6,23 +6,24 @@
 	],
 	"package": "librust-gix-chunk-dev",
 	"source": "rust-gix-chunk",
-	"version": "0.8.0-1",
+	"version": "0.10.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-gix-error-0.3+default-dev"
+		"librust-gix-error-0.5+bstr-dev",
+		"librust-gix-error-0.5+default-dev"
 	],
 	"breaks": [
-		"rustc (<< 1.85~)"
+		"rustc (<< 1.88~)"
 	],
 	"installedSize": 48,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Interact with the git chunk file format used in multi-pack index and commit-graph files - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-chunk/librust-gix-chunk-dev_0.8.0-1_amd64.deb",
-	"size": 11932,
-	"md5": "7ecb80097465d294b326f92acdd9464e",
-	"sha256": "9884eecbb23761d1d670cf83136c80ee2944318ac1700714b94edf388c153a01",
+	"filename": "pool/main/r/rust-gix-chunk/librust-gix-chunk-dev_0.10.0-1_amd64.deb",
+	"size": 11972,
+	"md5": "148aa45725e5ace4e03e23ae03ae0d64",
+	"sha256": "d0d28fed7d11030534b3b717ca9d35ee828f46946ebb6dbf3c62a5e33f802edd",
 	"descriptionMd5": "50c18959d7123e33cc666019bccdc643"
 }]

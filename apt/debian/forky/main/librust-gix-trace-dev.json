@@ -6,24 +6,30 @@
 	],
 	"package": "librust-gix-trace-dev",
 	"source": "rust-gix-trace",
-	"version": "0.1.21-1",
+	"version": "0.3.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-document-features-0.2+default-dev",
-		"librust-tracing-0.1+std-dev (>= 0.1.44)"
+		"librust-gix-error-0.5+default-dev",
+		"librust-libc-0.2-dev (>= 0.2.186)",
+		"librust-nu-ansi-term-0.50+default-dev (>= 0.50.3)",
+		"librust-smallvec-1+default-dev (>= 1.15.1)",
+		"librust-smallvec-1+write-dev (>= 1.15.1)",
+		"librust-tracing-0.1+std-dev (>= 0.1.44)",
+		"librust-tracing-subscriber-0.3+fmt-dev (>= 0.3.22)"
 	],
 	"breaks": [
-		"rustc (<< 1.85~)"
+		"rustc (<< 1.88~)"
 	],
-	"installedSize": 59,
+	"installedSize": 142,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Provide minimal `tracing` support that can be turned off to zero cost - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-trace/librust-gix-trace-dev_0.1.21-1_amd64.deb",
-	"size": 10784,
-	"md5": "f37371eba73950af03d055da204f3fb8",
-	"sha256": "4669cde29cfd2e574110ee7f3d80956d127fe6ea758a6d2ba2a7f386668463c7",
+	"filename": "pool/main/r/rust-gix-trace/librust-gix-trace-dev_0.3.0-1_amd64.deb",
+	"size": 29308,
+	"md5": "6b15ea378e2a6e39afef7ab0a920f05e",
+	"sha256": "73d1003001df36ba8c2ad5f996942411d73a34123e43091ec379324c2c7aea97",
 	"descriptionMd5": "15dd8c4a8410e422aa05402686ce6fa7"
 }

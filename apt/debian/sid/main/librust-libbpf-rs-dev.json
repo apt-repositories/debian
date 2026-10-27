@@ -6,7 +6,7 @@
 	],
 	"package": "librust-libbpf-rs-dev",
 	"source": "rust-libbpf-rs",
-	"version": "0.27.1+dfsg-1",
+	"version": "0.27.2+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,16 @@
 		"librust-tempfile-3+default-dev (>= 3.3)",
 		"librust-vsprintf-2+default-dev"
 	],
-	"installedSize": 621,
+	"breaks": [
+		"rustc (<< 1.82~)"
+	],
+	"installedSize": 622,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Safe, idiomatic, and opinionated wrapper around libbpf-sys - Rust source code",
 	"homepage": "https://github.com/libbpf/libbpf-rs",
-	"filename": "pool/main/r/rust-libbpf-rs/librust-libbpf-rs-dev_0.27.1+dfsg-1_amd64.deb",
-	"size": 109396,
-	"md5": "09b8529c57ef7524a0dac838f84c1d34",
-	"sha256": "28d51fa50a0d78f7e96cbeeaf9c543dc681582cd29f381e757d57b14acbf81f0",
+	"filename": "pool/main/r/rust-libbpf-rs/librust-libbpf-rs-dev_0.27.2+ds-1_amd64.deb",
+	"size": 109612,
+	"md5": "64991201942e54b7b6e73be7d0aa91d8",
+	"sha256": "10abd730c5d8794e81b768bd5ec3c9a7df8c1035d43aa0da9dbd831be38799ec",
 	"descriptionMd5": "b201a90ace5bd26da36a6840398f4593"
 }
