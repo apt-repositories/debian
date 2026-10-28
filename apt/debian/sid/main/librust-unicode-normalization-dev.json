@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-unicode-normalization-dev",
-	"source": "rust-unicode-normalization (0.1.25-1)",
-	"version": "0.1.25-1+b1",
+	"source": "rust-unicode-normalization",
+	"version": "0.1.26-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-tinyvec-1+alloc-dev",
 		"librust-tinyvec-1+default-dev"
 	],
-	"installedSize": 749,
+	"breaks": [
+		"rustc (<< 1.36~)"
+	],
+	"installedSize": 757,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Functions for normalization of Unicode strings, including Canonical and Compatible Decomposition and Recomposition, as described in Unicode Standard Annex #15 - Rust source code",
 	"homepage": "https://github.com/unicode-rs/unicode-normalization",
-	"filename": "pool/main/r/rust-unicode-normalization/librust-unicode-normalization-dev_0.1.25-1+b1_amd64.deb",
-	"size": 94596,
-	"md5": "b835914938bef67a83ee1511ae709fd1",
-	"sha256": "58fc07b4190434a37e7335e586d45154f447cd7eafb2914547b6bd3cb4b98458",
+	"filename": "pool/main/r/rust-unicode-normalization/librust-unicode-normalization-dev_0.1.26-1_amd64.deb",
+	"size": 95160,
+	"md5": "a0105980d68103ba1c832397d8d5d34c",
+	"sha256": "7c766d8a77cd2136b390a7d814eb2d3e5d2cda2eb73d49652a69d94e823dd693",
 	"descriptionMd5": "e897d955876b7a8a435f37d0d01b2eb7"
 }

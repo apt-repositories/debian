@@ -6,17 +6,22 @@
 	],
 	"package": "scala-library",
 	"source": "scala",
-	"version": "2.11.12-6",
+	"version": "2.12.21+ds3-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 10541,
+	"breaks": [
+		"latexdraw (<< 3.3.8+ds1-3~)",
+		"pilon (<< 1.24-5~)",
+		"plm (<< 2.9.2-1.2~)"
+	],
+	"installedSize": 8800,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Scala standard library",
-	"homepage": "http://www.scala-lang.org/",
-	"filename": "pool/main/s/scala/scala-library_2.11.12-6_all.deb",
-	"size": 9586344,
-	"md5": "32029d523bb4a1e91d9abf831c717b59",
-	"sha256": "32c7beef4a330bb319fe93f38afdc5b02b20c237b3ce1e6929c365b2dc34d359",
-	"descriptionMd5": "7ae8b8396c71d0f69fee3c25d120c634"
+	"homepage": "https://www.scala-lang.org",
+	"filename": "pool/main/s/scala/scala-library_2.12.21+ds3-2_all.deb",
+	"size": 8336364,
+	"md5": "73e6b4aea051acccc05f25ae5aeaf736",
+	"sha256": "f81d3d0c9994e01d322cbc45f26ff88f6c522ce09762cdce560fd82cccfd6172",
+	"descriptionMd5": "4a5df31f19fda9f913ccf83ce1924766"
 }

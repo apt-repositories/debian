@@ -6,17 +6,20 @@
 	],
 	"package": "librust-find-msvc-tools-dev",
 	"source": "rust-find-msvc-tools",
-	"version": "0.1.9-1",
+	"version": "0.1.15-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 137,
+	"breaks": [
+		"rustc (<< 1.65.0~)"
+	],
+	"installedSize": 138,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Find windows-specific tools, read MSVC versions from the registry and from COM interfaces - Rust source code",
 	"homepage": "https://github.com/rust-lang/cc-rs",
-	"filename": "pool/main/r/rust-find-msvc-tools/librust-find-msvc-tools-dev_0.1.9-1_amd64.deb",
-	"size": 31028,
-	"md5": "0cc29a9307e2160b354c122fe804dc30",
-	"sha256": "0b72289915432c0eb8d79b460405d34f8103a962b0da8455f3a81d61e31f28ba",
+	"filename": "pool/main/r/rust-find-msvc-tools/librust-find-msvc-tools-dev_0.1.15-1_amd64.deb",
+	"size": 31532,
+	"md5": "93ef1e3747c93777654262861747a7e8",
+	"sha256": "3595deb8c9c2ec838f7ec0599bd9a889d8c25734685d3da98bc2c6f1d95f6667",
 	"descriptionMd5": "aea1a3b123f53cc65b5de6ab5ccebd06"
 }]

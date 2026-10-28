@@ -5,13 +5,14 @@
 		"Size"
 	],
 	"package": "librust-cxx-gen-dev",
-	"source": "rust-cxx-gen",
-	"version": "0.7.202-1",
+	"source": "rust-cxx-gen (0.7.202-2)",
+	"version": "0.7.202-2+b1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-codespan-reporting-0.12+default-dev",
+		"librust-codespan-reporting+default-dev (<< 0.14)",
+		"librust-codespan-reporting+default-dev (>= 0.12)",
 		"librust-indexmap-2+default-dev (>= 2.9.0)",
 		"librust-proc-macro2-1+span-locations-dev (>= 1.0.74)",
 		"librust-quote-1-dev (>= 1.0.35)",
@@ -23,13 +24,13 @@
 	"breaks": [
 		"rustc (<< 1.88~)"
 	],
-	"installedSize": 455,
+	"installedSize": 456,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "C++ code generator to integrate cxx into higher level tools - Rust source code",
 	"homepage": "https://github.com/dtolnay/cxx",
-	"filename": "pool/main/r/rust-cxx-gen/librust-cxx-gen-dev_0.7.202-1_amd64.deb",
-	"size": 72440,
-	"md5": "b4eb78e02916526ceb897d7f1368a572",
-	"sha256": "47ee6ed6c22a1d278ab4791fbb3bed86ed380ef13c6945eaaaac09cfdd01d7cd",
+	"filename": "pool/main/r/rust-cxx-gen/librust-cxx-gen-dev_0.7.202-2+b1_amd64.deb",
+	"size": 72880,
+	"md5": "8fd35a20e04e9b550fec03e983c952fd",
+	"sha256": "6b3e417a8e616048db7b2610d33a716d52f0e8add9f23f958c126f9175737f89",
 	"descriptionMd5": "59e11fe941a8ba23ab976a921775ed71"
 }

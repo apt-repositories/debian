@@ -5,24 +5,31 @@
 		"Size"
 	],
 	"package": "librust-deadpool-runtime-dev",
-	"source": "rust-deadpool-runtime (0.1.4-1)",
-	"version": "0.1.4-1+b2",
+	"source": "rust-deadpool-runtime",
+	"version": "0.3.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"librust-async-io-2+default-dev",
 		"librust-async-std-1+default-dev",
 		"librust-async-std-1+unstable-dev",
+		"librust-blocking-1+default-dev (>= 1.6)",
+		"librust-futures-lite-2+default-dev (>= 2.6)",
 		"librust-tokio-1+default-dev",
 		"librust-tokio-1+rt-dev",
 		"librust-tokio-1+time-dev"
 	],
-	"installedSize": 42,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 46,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Dead simple async pool utitities for sync managers - Rust source code",
-	"filename": "pool/main/r/rust-deadpool-runtime/librust-deadpool-runtime-dev_0.1.4-1+b2_amd64.deb",
-	"size": 10176,
-	"md5": "c25d57f72cd30d0b008029eed616691e",
-	"sha256": "5ceb344d5174202582888e4e67351c788df4344b93c6fd5dac82e20c467bf04a",
-	"descriptionMd5": "c2c928dd2027928b15998eef5f2d207f"
+	"description": "Dead simple async pool utilities for async runtimes - Rust source code",
+	"homepage": "https://github.com/deadpool-rs/deadpool",
+	"filename": "pool/main/r/rust-deadpool-runtime/librust-deadpool-runtime-dev_0.3.1-1_amd64.deb",
+	"size": 11408,
+	"md5": "c56a3710f2663a8031ce65a3b7d66aef",
+	"sha256": "5b42a077275b0fe35b8db18a38c8dbe49d0354b97f03fb5d2f05820ecbb10a1e",
+	"descriptionMd5": "79e071ff325188aad6df94da13d9fa6a"
 }]

@@ -5,24 +5,28 @@
 		"Size"
 	],
 	"package": "librust-goldenfile-dev",
-	"source": "rust-goldenfile (1.8.0-1)",
-	"version": "1.8.0-1+b1",
+	"source": "rust-goldenfile",
+	"version": "1.11.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-scopeguard-1+default-dev",
 		"librust-similar-asserts-1+default-dev",
+		"librust-static-assertions-1+default-dev",
 		"librust-tempfile-3+default-dev",
 		"librust-yansi-1+default-dev"
 	],
-	"installedSize": 66,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 67,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Simple goldenfile testing library - Rust source code",
 	"homepage": "https://github.com/calder/rust-goldenfile",
-	"filename": "pool/main/r/rust-goldenfile/librust-goldenfile-dev_1.8.0-1+b1_amd64.deb",
-	"size": 9276,
-	"md5": "d8173f3f3e12a4892c42d36641f796d3",
-	"sha256": "96388e7832c9cd76c683bce5cbf8eca32b06974db9cfcd0b818dfb7a2740f0b8",
+	"filename": "pool/main/r/rust-goldenfile/librust-goldenfile-dev_1.11.0-1_amd64.deb",
+	"size": 9280,
+	"md5": "67ad993b38c4164e52e890003da37bae",
+	"sha256": "eeef063ab3978ed8b10dc505b9a753e1ae1e347a8b2dadde0cd48c925aa035bf",
 	"descriptionMd5": "36789917cd98cf2b04bdb40e2b556fd7"
 }]
