@@ -5,24 +5,24 @@
 		"Size"
 	],
 	"package": "pacemaker",
-	"source": "pacemaker (3.0.1-1.1)",
-	"version": "3.0.1-1.1+b1",
+	"version": "3.0.3-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"corosync (>= 1.99)",
-		"dbus",
-		"pacemaker-common",
-		"pacemaker-resource-agents",
+		"default-dbus-system-bus | dbus-system-bus",
+		"pacemaker-common (= 3.0.3-2)",
+		"pacemaker-resource-agents (= 3.0.3-2)",
+		"python3-pacemaker (= 3.0.3-2)",
+		"python3:any",
 		"libc6 (>= 2.38)",
 		"libcfg7 (>= 3.1.9)",
-		"libcib54 (>= 2.1.8~rc4)",
+		"libcib54 (>= 3.0.3)",
 		"libcmap4 (>= 3.1.9)",
-		"libcorosync-common4 (>= 1.99.9)",
 		"libcpg4 (>= 3.1.9)",
-		"libcrmcluster53 (>= 3.0.1)",
-		"libcrmcommon68 (>= 3.0.1)",
+		"libcrmcluster53 (>= 3.0.3)",
+		"libcrmcommon68 (>= 3.0.3)",
 		"libcrmservice53 (>= 3.0.1)",
 		"libglib2.0-0t64 (>= 2.40.0)",
 		"libgnutls30t64 (>= 3.7.0)",
@@ -36,9 +36,7 @@
 	],
 	"recommends": [
 		"fence-agents",
-		"pacemaker-cli-utils",
-		"python3:any",
-		"python3-pacemaker (= 3.0.1-1.1)"
+		"pacemaker-cli-utils (= 3.0.3-2)"
 	],
 	"suggests": [
 		"cluster-glue",
@@ -47,13 +45,13 @@
 	"conflicts": [
 		"pacemaker-remote"
 	],
-	"installedSize": 1175,
+	"installedSize": 1201,
 	"maintainer": "Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>",
 	"description": "cluster resource manager",
 	"homepage": "https://www.clusterlabs.org/",
-	"filename": "pool/main/p/pacemaker/pacemaker_3.0.1-1.1+b1_amd64.deb",
-	"size": 447996,
-	"md5": "3e1104e1b385a8230d0bc719bd280660",
-	"sha256": "2ab5664ed4cbe6bf78fc7d1e3c5d3ec30bb091c06eab19098546a8f5b1af95b1",
+	"filename": "pool/main/p/pacemaker/pacemaker_3.0.3-2_amd64.deb",
+	"size": 465220,
+	"md5": "0cae1c72b67eff7b6aa00b447f7d6825",
+	"sha256": "45126d44ae2783c7dd2f81262d1a1b033be187f92a6f554cab1816d0e459b9bf",
 	"descriptionMd5": "5a7d174c0a0a22dd75fe3052ed84b5a9"
 }]

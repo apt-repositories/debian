@@ -6,20 +6,23 @@
 	],
 	"package": "librust-ecow-dev",
 	"source": "rust-ecow",
-	"version": "0.3.0+dfsg-1",
+	"version": "0.3.1+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-serde-1-dev"
 	],
-	"installedSize": 168,
+	"breaks": [
+		"rustc (<< 1.73~)"
+	],
+	"installedSize": 189,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Compact, clone-on-write vector and string - Rust source code",
+	"description": "Compact, clone-on-write vector, string, and byte buffer - Rust source code",
 	"homepage": "https://github.com/typst/ecow",
-	"filename": "pool/main/r/rust-ecow/librust-ecow-dev_0.3.0+dfsg-1_amd64.deb",
-	"size": 31896,
-	"md5": "f561851453e5dbf821e3d275fdb3c750",
-	"sha256": "15183fd77cb6241ff7b9e067ae840580dce6e8f62dc10114668215aaebf4ca7e",
-	"descriptionMd5": "0790b510e7c9c8b51a8b889c8d16c8df"
+	"filename": "pool/main/r/rust-ecow/librust-ecow-dev_0.3.1+ds-1_amd64.deb",
+	"size": 34452,
+	"md5": "559c3d1c536c8ffc5efca575d3ae290f",
+	"sha256": "28a23d5bed6e2e93394689ecbe68109ff20301e86fc0b05e99d1ffda94bbdfa9",
+	"descriptionMd5": "08d38d9310ec4f322b9ef744f1bb402a"
 }]

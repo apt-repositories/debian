@@ -6,22 +6,26 @@
 	],
 	"package": "libspring-jdbc-java",
 	"source": "libspring-java",
-	"version": "4.3.30-5",
+	"version": "4.3.30-6",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"libc3p0-java",
-		"libspring-beans-java (= 4.3.30-5)",
-		"libspring-transaction-java (= 4.3.30-5)"
+		"libspring-beans-java (= 4.3.30-6)",
+		"libspring-transaction-java (= 4.3.30-6)",
+		"libspring-context-java (>= 4.3.30-6)",
+		"libspring-core-java (>= 4.3.30-6)",
+		"derby-tools",
+		"libcommons-logging-java"
 	],
 	"installedSize": 455,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "modular Java/J2EE application framework - JDBC tools",
 	"homepage": "https://spring.io/projects/spring-framework",
-	"filename": "pool/main/libs/libspring-java/libspring-jdbc-java_4.3.30-5_all.deb",
-	"size": 383152,
-	"md5": "780772015885d8b6cbf5be449c6c436e",
-	"sha256": "16a54ba7e6a5f55efcb65f0282045ef852dab75d1a696ab2d051b1e4eb6316cb",
+	"filename": "pool/main/libs/libspring-java/libspring-jdbc-java_4.3.30-6_all.deb",
+	"size": 383132,
+	"md5": "9b42aedd63c905b59d938174135c967f",
+	"sha256": "05cc279fe3418cf4e0dd142f14bb637abb2aefadda5302601d2f8a6a5139223f",
 	"descriptionMd5": "5e2f6de828dc8affc42044b1ef94776c"
 }]

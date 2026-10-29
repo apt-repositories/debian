@@ -6,22 +6,25 @@
 	],
 	"package": "librust-roaring-dev",
 	"source": "rust-roaring",
-	"version": "0.11.3-3",
+	"version": "0.11.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bytemuck-1+default-dev (>= 1.21.0)",
+		"librust-bytemuck-1+default-dev (>= 1.25.2)",
 		"librust-byteorder-1+default-dev (>= 1.5.0)",
-		"librust-serde-1+default-dev (>= 1.0.217)"
+		"librust-serde-1+default-dev (>= 1.0.229)"
 	],
-	"installedSize": 831,
+	"breaks": [
+		"rustc (<< 1.90.0~)"
+	],
+	"installedSize": 846,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Better compressed bitset - pure Rust implementation - Rust source code",
 	"homepage": "https://github.com/RoaringBitmap/roaring-rs",
-	"filename": "pool/main/r/rust-roaring/librust-roaring-dev_0.11.3-3_amd64.deb",
-	"size": 92540,
-	"md5": "9f3830586b18a0ebb7eab4e3787045d9",
-	"sha256": "6285e7c8a88273b1408738bc5db7e87d474dabb0c2b51590a6afbd8e2282e852",
+	"filename": "pool/main/r/rust-roaring/librust-roaring-dev_0.11.5-1_amd64.deb",
+	"size": 94684,
+	"md5": "b7fdd05b2f1793919727214caf1b801a",
+	"sha256": "2a78b08d9b66d3eba39d275f1d365b47c63309b9fbaa2c85dae82b714022c00d",
 	"descriptionMd5": "d72939aaa2b0a419241e24f59ae6832a"
 }
