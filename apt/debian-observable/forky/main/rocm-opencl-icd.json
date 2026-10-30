@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "rocm-opencl-icd",
-	"source": "rocm-hipamd (6.4.3-4)",
-	"version": "6.4.3-4+b1",
+	"source": "rocm-hipamd",
+	"version": "6.4.3-5",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,19 +15,20 @@
 		"libgcc-s1 (>= 3.0)",
 		"libhsa-runtime64-1 (>= 6.4.3+dfsg)",
 		"libnuma1 (>= 2.0.11)",
-		"libstdc++6 (>= 13.1)"
+		"libstdc++6 (>= 13.1)",
+		"libamd-comgr3"
 	],
 	"conflicts": [
 		"mesa-opencl-icd",
 		"pocl-opencl-icd"
 	],
-	"installedSize": 1340,
+	"installedSize": 1339,
 	"maintainer": "Debian ROCm Team <debian-ai@lists.debian.org>",
 	"description": "AMD ROCm implementation of the OpenCL API - ICD runtime",
 	"homepage": "https://github.com/ROCm/clr",
-	"filename": "pool/main/r/rocm-hipamd/rocm-opencl-icd_6.4.3-4+b1_amd64.deb",
-	"size": 472528,
-	"md5": "98d1428a6ee3e4b422e0197db1f5bb39",
-	"sha256": "78f25316c30ad9eb38db30217bbd69dc3f97da0f9c354c7036f189c60a8a638b",
+	"filename": "pool/main/r/rocm-hipamd/rocm-opencl-icd_6.4.3-5_amd64.deb",
+	"size": 472636,
+	"md5": "2053e874564327540bd8c00169cf78b7",
+	"sha256": "42f8b4e89f270c168bc13a7a07a3759f9db473d628a4e597cb76d119054437ea",
 	"descriptionMd5": "24c4ac7a9a809e479fa7a95270b66cf2"
 }]

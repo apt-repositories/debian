@@ -6,7 +6,7 @@
 	],
 	"package": "librust-geo-types-dev",
 	"source": "rust-geo-types",
-	"version": "0.7.17-1",
+	"version": "0.7.20-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,15 +21,21 @@
 		"librust-rayon-1+default-dev (>= 1.10.0)",
 		"librust-serde-1+alloc-dev",
 		"librust-serde-1+derive-dev",
-		"librust-serde-1+std-dev"
+		"librust-serde-1+std-dev",
+		"librust-spade-2+default-dev",
+		"librust-thiserror-2+std-dev (>= 2.0.19)",
+		"librust-thiserror-2-dev (>= 2.0.19)"
 	],
-	"installedSize": 277,
+	"breaks": [
+		"rustc (<< 1.75~)"
+	],
+	"installedSize": 314,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Geospatial primitive data types - Rust source code",
 	"homepage": "https://github.com/georust/geo",
-	"filename": "pool/main/r/rust-geo-types/librust-geo-types-dev_0.7.17-1_amd64.deb",
-	"size": 43476,
-	"md5": "5beb19b105345282d0dabb757d9ba8a5",
-	"sha256": "de477a418af03ecae6a5e2bc0aeb2e5bcd77e1e0857449a1971bcc3b8b2ed96e",
+	"filename": "pool/main/r/rust-geo-types/librust-geo-types-dev_0.7.20-1_amd64.deb",
+	"size": 50936,
+	"md5": "3b78ccd47ce09c3d90fa36bd13ed3a18",
+	"sha256": "4f8c295a43104cfac6153c600e5af96f65fbbbebc24b338c692b6bec5e8d909f",
 	"descriptionMd5": "cab624585bf625563d8e67dd1aad30b5"
 }]

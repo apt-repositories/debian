@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "dhcpig",
-	"version": "1.6-3",
+	"version": "2.7.3-1",
 	"section": "net",
 	"priority": "extra",
 	"architecture": "all",
@@ -13,13 +13,16 @@
 		"python3-scapy",
 		"python3:any"
 	],
-	"installedSize": 85,
+	"recommends": [
+		"pkexec"
+	],
+	"installedSize": 536,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
-	"description": "DHCP exhaustion script using scapy network library",
+	"description": "DHCP exhaustion and network-hardening validation tool",
 	"homepage": "https://github.com/kamorin/DHCPig",
-	"filename": "pool/main/d/dhcpig/dhcpig_1.6-3_all.deb",
-	"size": 17256,
-	"md5": "081c0b30ef0d8c350a684babcd7588e0",
-	"sha256": "99afb5333ce1728d3d16f9eec56b45728f7bb54a36e65c2bfdd90064813d3d43",
-	"descriptionMd5": "21f8937e5b081b9c2d88d8e578e192ce"
+	"filename": "pool/main/d/dhcpig/dhcpig_2.7.3-1_all.deb",
+	"size": 135448,
+	"md5": "f7649980aba60c8d93ce873128f1a9e5",
+	"sha256": "1b5d8ba381f1dc9e86cee6912b061b92aeeb396038a674442206d597f0c567ac",
+	"descriptionMd5": "64fecb886c902e456affaf1dc9802678"
 }]

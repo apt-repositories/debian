@@ -6,28 +6,32 @@
 	],
 	"package": "libspring-transaction-java",
 	"source": "libspring-java",
-	"version": "4.3.30-5",
+	"version": "5.1.20-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libspring-core-java (= 4.3.30-5)"
+		"libspring-core-java (= 5.1.20-1)",
+		"libspring-aop-java (>= 5.1.20-1)",
+		"libspring-beans-java (>= 5.1.20-1)",
+		"libspring-context-java (>= 5.1.20-1)",
+		"libaopalliance-java"
 	],
 	"recommends": [
 		"libgeronimo-ejb-3.2-spec-java",
 		"libgeronimo-interceptor-3.0-spec-java",
 		"libgeronimo-j2ee-connector-1.5-spec-java",
 		"libgeronimo-jta-1.2-spec-java",
-		"libspring-aop-java (= 4.3.30-5)",
-		"libspring-context-java (= 4.3.30-5)"
+		"libspring-aop-java (= 5.1.20-1)",
+		"libspring-context-java (= 5.1.20-1)"
 	],
-	"installedSize": 289,
+	"installedSize": 278,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "modular Java/J2EE application framework - transaction",
 	"homepage": "https://spring.io/projects/spring-framework",
-	"filename": "pool/main/libs/libspring-java/libspring-transaction-java_4.3.30-5_all.deb",
-	"size": 224172,
-	"md5": "fb4e24e95ced0638d088c368c867a940",
-	"sha256": "bc0c5fd8d4d5f483a85eb80f084cb78fb2a23acb7a7d1cd6fb50b73a7844059a",
+	"filename": "pool/main/libs/libspring-java/libspring-transaction-java_5.1.20-1_all.deb",
+	"size": 214828,
+	"md5": "a66ee34b54b4321bfdf17216cbf0bbcc",
+	"sha256": "524841d0f844172783b4fd934e082253788fd77b1baca40ea115317546a7c4f2",
 	"descriptionMd5": "d7798aa2dbf1408961a5eb20839d8150"
 }

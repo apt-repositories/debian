@@ -5,30 +5,33 @@
 		"Size"
 	],
 	"package": "librust-ron-dev",
-	"source": "rust-ron (0.12.0-2)",
-	"version": "0.12.0-2+b1",
+	"source": "rust-ron",
+	"version": "0.12.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bitflags-2+serde-dev (>= 2.1-~~)",
+		"librust-bitflags-2+serde-dev (>= 2.1)",
 		"librust-indexmap-2+serde-dev",
-		"librust-once-cell-1+alloc-dev (>= 1.20-~~)",
-		"librust-once-cell-1+race-dev (>= 1.20-~~)",
-		"librust-serde-1+alloc-dev (>= 1.0.181-~~)",
-		"librust-serde-1+std-dev (>= 1.0.181-~~)",
-		"librust-serde-derive-1-dev (>= 1.0.181-~~)",
-		"librust-typeid-1-dev (>= 1.0.1-~~)",
+		"librust-once-cell-1+alloc-dev (>= 1.20)",
+		"librust-once-cell-1+race-dev (>= 1.20)",
+		"librust-serde-1+alloc-dev (>= 1.0.193)",
+		"librust-serde-1+std-dev (>= 1.0.193)",
+		"librust-serde-derive-1-dev (>= 1.0.193)",
+		"librust-typeid-1-dev (>= 1.0.1)",
 		"librust-unicode-ident-1-dev",
-		"librust-unicode-segmentation-1-dev (>= 1.12.0-~~)"
+		"librust-unicode-segmentation-1-dev (>= 1.12.0)"
 	],
-	"installedSize": 773,
+	"breaks": [
+		"rustc (<< 1.64.0~)"
+	],
+	"installedSize": 816,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rusty Object Notation - Rust source code",
 	"homepage": "https://github.com/ron-rs/ron",
-	"filename": "pool/main/r/rust-ron/librust-ron-dev_0.12.0-2+b1_amd64.deb",
-	"size": 108120,
-	"md5": "172ca3c076bf82a69bb489aa883a2aea",
-	"sha256": "377dd524a5c444bba3cdeee66d58d33d2f483ffff177c99b02b0a9974e591399",
+	"filename": "pool/main/r/rust-ron/librust-ron-dev_0.12.2-1_amd64.deb",
+	"size": 113316,
+	"md5": "c97c9a4c2ab8974048b3f1ad7536c195",
+	"sha256": "c8f8d7868e7c611a7f2e9fae5f4b7b91c7c1e4ed02abb2361992f4b79ab50f9f",
 	"descriptionMd5": "51cf31c86977da443e65e3d8ad6351a8"
 }

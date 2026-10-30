@@ -6,15 +6,28 @@
 	],
 	"package": "libspring-context-java",
 	"source": "libspring-java",
-	"version": "4.3.30-4",
+	"version": "4.3.30-6",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libspring-aop-java (= 4.3.30-4)",
-		"libspring-beans-java (= 4.3.30-4)",
-		"libspring-core-java (= 4.3.30-4)",
-		"libspring-expression-java (= 4.3.30-4)"
+		"groovy",
+		"libspring-aop-java (= 4.3.30-6)",
+		"libspring-beans-java (= 4.3.30-6)",
+		"libspring-core-java (= 4.3.30-6)",
+		"libspring-expression-java (= 4.3.30-6)",
+		"libspring-context-support-java (>= 4.3.30-6)",
+		"libspring-instrument-java (>= 4.3.30-6)",
+		"libspring-oxm-java (>= 4.3.30-6)",
+		"libspring-test-java (>= 4.3.30-6)",
+		"libspring-web-java (>= 4.3.30-6)",
+		"libspring-web-portlet-java (>= 4.3.30-6)",
+		"libspring-web-servlet-java (>= 4.3.30-6)",
+		"libaopalliance-java",
+		"libaspectj-java",
+		"libbsh-java",
+		"libcommons-logging-java",
+		"libjoda-time-java"
 	],
 	"recommends": [
 		"libasm-java",
@@ -23,21 +36,19 @@
 		"libgeronimo-ejb-3.2-spec-java",
 		"libgeronimo-jms-1.1-spec-java",
 		"libgeronimo-validation-1.0-spec-java",
-		"libjoda-time-java",
-		"libspring-instrument-java (= 4.3.30-4)",
+		"libspring-instrument-java (= 4.3.30-6)",
 		"libtomcat11-java"
 	],
 	"suggests": [
-		"bsh",
-		"groovy"
+		"bsh"
 	],
 	"installedSize": 1149,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "modular Java/J2EE application framework - Context",
 	"homepage": "https://spring.io/projects/spring-framework",
-	"filename": "pool/main/libs/libspring-java/libspring-context-java_4.3.30-4_all.deb",
-	"size": 980772,
-	"md5": "19ad414412413b42e11d12e0469a91db",
-	"sha256": "8222105932c20f24511df837b93c06b982693b43f055115b3302ebdfcd74982e",
+	"filename": "pool/main/libs/libspring-java/libspring-context-java_4.3.30-6_all.deb",
+	"size": 980960,
+	"md5": "d1f20e79b8d8655ef0e63b9bda9b57ce",
+	"sha256": "1095242d97dd11590629b07db3d28430f896f571e694b7651a1c28f381f8d306",
 	"descriptionMd5": "1622010480479903995766eec122b971"
 }]
