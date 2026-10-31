@@ -6,7 +6,7 @@
 	],
 	"package": "libbobcat6",
 	"source": "bobcat",
-	"version": "6.15.01-1",
+	"version": "6.15.01-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"libstdc++6 (>= 16)",
 		"libx11-6"
 	],
-	"installedSize": 1378,
+	"breaks": [
+		"filtermail (<< 1.07.01-1+b1)"
+	],
+	"installedSize": 1522,
 	"maintainer": "Frank B. Brokken <f.b.brokken@rug.nl>",
 	"description": "run-time (shared) Bobcat library",
 	"homepage": "https://fbb-git.gitlab.io/bobcat/",
-	"filename": "pool/main/b/bobcat/libbobcat6_6.15.01-1_amd64.deb",
-	"size": 426492,
-	"md5": "f0df484fb27ca0fe67f42766c5c02411",
-	"sha256": "259e5e28bb39968e9f7daa8ca083ba2d9259efcd40d68ed5b0fd920429476b6a",
+	"filename": "pool/main/b/bobcat/libbobcat6_6.15.01-3_amd64.deb",
+	"size": 442236,
+	"md5": "0e0e3fab9c7af9357551a31d66a9ce92",
+	"sha256": "21a9a4838a53eb9c25ed1d490700118437cacfe7372f576763974b4ccf8773e6",
 	"descriptionMd5": "cb760947407a1507ed84c4f93e7e0534"
 }]

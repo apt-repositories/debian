@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-inventory-dev",
-	"source": "rust-inventory (0.3.21-1)",
-	"version": "0.3.21-1+b1",
+	"source": "rust-inventory",
+	"version": "0.3.25-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-rustversion-1+default-dev"
 	],
-	"installedSize": 78,
+	"breaks": [
+		"rustc (<< 1.68~)"
+	],
+	"installedSize": 77,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Typed distributed plugin registration - Rust source code",
 	"homepage": "https://github.com/dtolnay/inventory",
-	"filename": "pool/main/r/rust-inventory/librust-inventory-dev_0.3.21-1+b1_amd64.deb",
-	"size": 16036,
-	"md5": "8f8b7964bf65608753ceaf35cef2ecdf",
-	"sha256": "46b0adb30d78021c29a60e0dd224c2c5be9e9e5ab5ab2e1901c454468313e55e",
+	"filename": "pool/main/r/rust-inventory/librust-inventory-dev_0.3.25-1_amd64.deb",
+	"size": 15952,
+	"md5": "a8efc7fd44e3281232c746134507a5ff",
+	"sha256": "0a42512c6cf79e7cbdea8861aef1e07f02188912f7c9b7adbe67de96b9fedd36",
 	"descriptionMd5": "6f0ed64bbb711c31d03be928b446e453"
 }]

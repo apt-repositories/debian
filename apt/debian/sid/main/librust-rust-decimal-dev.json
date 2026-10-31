@@ -6,7 +6,7 @@
 	],
 	"package": "librust-rust-decimal-dev",
 	"source": "rust-rust-decimal",
-	"version": "1.42.0-2",
+	"version": "1.43.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,8 +20,8 @@
 		"librust-bytes-1-dev",
 		"librust-num-traits-0.2+i128-dev",
 		"librust-postgres-types-0.2-dev",
-		"librust-rand-0.8+std-dev",
-		"librust-rand-0.8-dev",
+		"librust-rand-0.8+std-dev (>= 0.8.6)",
+		"librust-rand-0.8-dev (>= 0.8.6)",
 		"librust-serde-1+std-dev",
 		"librust-serde-1-dev",
 		"librust-serde-json-1+std-dev",
@@ -31,13 +31,16 @@
 		"librust-wasm-bindgen-0.2-dev",
 		"librust-zmij-1-dev"
 	],
-	"installedSize": 792,
+	"breaks": [
+		"rustc (<< 1.67.1~)"
+	],
+	"installedSize": 807,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Decimal number implementation written in pure Rust suitable for financial and fixed-precision calculations - Rust source code",
 	"homepage": "https://github.com/paupino/rust-decimal",
-	"filename": "pool/main/r/rust-rust-decimal/librust-rust-decimal-dev_1.42.0-2_amd64.deb",
-	"size": 135856,
-	"md5": "5e7b502287ddffc60d47a61b78ca1850",
-	"sha256": "e961bb38ffda0e34e42259493100b328c200efb2dd6636101be4329486a4a863",
+	"filename": "pool/main/r/rust-rust-decimal/librust-rust-decimal-dev_1.43.0-1_amd64.deb",
+	"size": 139816,
+	"md5": "3628cebe33034696f9e24c07a388f66a",
+	"sha256": "d54d18f3a422836df02bdeabb202506fb51411f12097927ab5a089b8ed45664e",
 	"descriptionMd5": "6b53a836a6bc4a14153a28829fb90573"
 }

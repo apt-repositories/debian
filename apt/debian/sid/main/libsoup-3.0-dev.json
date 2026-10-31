@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "libsoup-3.0-dev",
-	"source": "libsoup3",
-	"version": "3.8.0-3",
+	"source": "libsoup",
+	"version": "3.8.1-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,24 +16,30 @@
 		"libkrb5-dev",
 		"libnghttp2-dev",
 		"libpsl-dev",
-		"libsoup-3.0-0 (= 3.8.0-3)",
+		"libsoup-3.0-0 (= 3.8.1-1)",
 		"libsqlite3-dev",
 		"libsysprof-capture-4-dev",
 		"libzstd-dev",
 		"zlib1g-dev",
 		"gir1.2-gio-2.0-dev",
-		"gir1.2-soup-3.0 (= 3.8.0-3)"
+		"gir1.2-soup-3.0 (= 3.8.1-1)"
 	],
 	"suggests": [
 		"libsoup-3.0-doc"
 	],
-	"installedSize": 1138,
+	"replaces": [
+		"libsoup-dev (<< 3.8.0-5~)"
+	],
+	"breaks": [
+		"libsoup-dev (<< 3.8.0-5~)"
+	],
+	"installedSize": 1139,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "HTTP library implementation in C -- Development files",
 	"homepage": "https://libsoup.gnome.org/libsoup-3.0/index.html",
-	"filename": "pool/main/libs/libsoup3/libsoup-3.0-dev_3.8.0-3_amd64.deb",
-	"size": 115332,
-	"md5": "af5428c3f1d166897ba4d98c116e22d7",
-	"sha256": "36dece763635d63aa0b97c53b00ee384c03c86aa3e6ea469dea0b895b66f4b67",
+	"filename": "pool/main/libs/libsoup/libsoup-3.0-dev_3.8.1-1_amd64.deb",
+	"size": 115844,
+	"md5": "520f9c50d107fcda602f97419752c7a9",
+	"sha256": "45451fbdb25c28ae49d095459253c705a919d42253abd30db26ba2063bfa410e",
 	"descriptionMd5": "b4638a95f7f2c26babe971a6525a65ca"
 }

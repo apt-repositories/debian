@@ -6,6 +6,41 @@
 	],
 	"package": "tzdata-legacy",
 	"source": "tzdata",
+	"version": "2026f-0+deb13u1",
+	"section": "localization",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"tzdata"
+	],
+	"replaces": [
+		"tzdata (<< 2024b-3~)",
+		"tzdata-bookworm",
+		"tzdata-bullseye"
+	],
+	"breaks": [
+		"tzdata (<< 2024b-3~)"
+	],
+	"conflicts": [
+		"tzdata-bookworm",
+		"tzdata-bullseye"
+	],
+	"installedSize": 1254,
+	"maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
+	"description": "time zone data for TAI minus ten seconds",
+	"homepage": "https://www.iana.org/time-zones",
+	"filename": "pool/main/t/tzdata/tzdata-legacy_2026f-0+deb13u1_all.deb",
+	"size": 186704,
+	"sha256": "92bb8f5ee8f87e6ee641ec3b24876d2d83b64dd1d7fe864b1cceac4cea7f1549",
+	"descriptionMd5": "e9abab063129c60dae9d14447e549234"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tzdata-legacy",
+	"source": "tzdata",
 	"version": "2026c-0+deb13u1",
 	"section": "localization",
 	"priority": "optional",

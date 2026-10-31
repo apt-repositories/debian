@@ -6,29 +6,29 @@
 	],
 	"package": "python3-pymongo-ext",
 	"source": "pymongo",
-	"version": "4.18.2-1",
+	"version": "4.19.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"python3 (<< 3.15)",
+		"python3-bson (<< 4.19.0-2.1~)",
+		"python3-bson (>= 4.19.0-2)",
+		"python3-pymongo (<< 4.19.0-2.1~)",
+		"python3-pymongo (>= 4.19.0-2)",
+		"python3 (<< 3.16)",
 		"python3 (>= 3.14~)",
-		"libc6 (>= 2.14)",
-		"python3-bson (>= 4.18.2-1)",
-		"python3-bson (<< 4.18.2-1.1~)",
-		"python3-pymongo (>= 4.18.2-1)",
-		"python3-pymongo (<< 4.18.2-1.1~)"
+		"libc6 (>= 2.14)"
 	],
 	"recommends": [
-		"python3-gridfs (>= 4.18.2-1)"
+		"python3-gridfs (>= 4.19.0-2)"
 	],
-	"installedSize": 149,
+	"installedSize": 234,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "C-coded extension to the python3-pymongo package",
 	"homepage": "https://github.com/mongodb/mongo-python-driver",
-	"filename": "pool/main/p/pymongo/python3-pymongo-ext_4.18.2-1_amd64.deb",
-	"size": 88020,
-	"md5": "6c98b8137b841b60f8ceaa15565d426c",
-	"sha256": "aa56b3bf446306a2be1ddb8960d6ab21848565b62d4478c53dbc9d87c620789e",
+	"filename": "pool/main/p/pymongo/python3-pymongo-ext_4.19.0-2_amd64.deb",
+	"size": 92700,
+	"md5": "23015badcdcb98caed2c0b6c06713270",
+	"sha256": "bf84360923548f2af4fddaa6d27336961b1673abdf59a1239cb03e001e82b64d",
 	"descriptionMd5": "1557972b4a71e02b5326a03acc620861"
 }]

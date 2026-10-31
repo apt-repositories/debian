@@ -6,11 +6,12 @@
 	],
 	"package": "libvcflib-tools",
 	"source": "libvcflib",
-	"version": "1.0.12+dfsg-2",
+	"version": "1.0.15+dfsg-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"python3:any",
 		"libc6 (>= 2.38)",
 		"libdisorder0 (>= 0.0.2)",
 		"libfastahack0 (>= 0.0+git20160702.bbc645f)",
@@ -18,23 +19,23 @@
 		"libsmithwaterman0 (>= 0.0+git20160702.2610e25)",
 		"libstdc++6 (>= 13.1)",
 		"libtabixpp0t64 (>= 1.0.0)",
-		"libvcflib2 (>= 1.0.12+dfsg)",
-		"python3:any",
-		"r-base-core",
-		"r-cran-plyr",
-		"r-cran-ggplot2",
-		"r-cran-gridbase"
+		"libvcflib2 (>= 1.0.15+dfsg)",
+		"libwfa2-0 (>= 2.3.6)",
+		"perl:any"
 	],
-	"suggests": [
+	"recommends": [
+		"r-base-core",
+		"r-cran-ggplot2",
+		"r-cran-plyr",
 		"r-cran-pracma"
 	],
-	"installedSize": 3579,
+	"installedSize": 4848,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "C++ library for parsing and manipulating VCF files (tools)",
 	"homepage": "https://github.com/vcflib/vcflib",
-	"filename": "pool/main/libv/libvcflib/libvcflib-tools_1.0.12+dfsg-2_amd64.deb",
-	"size": 620124,
-	"md5": "9a4a08474489335b1ff14f9bb5846c4e",
-	"sha256": "3ca966d33444d588b129e19784bcf643215872a026c8929fe1e2aa8c30dc15c1",
+	"filename": "pool/main/libv/libvcflib/libvcflib-tools_1.0.15+dfsg-1_amd64.deb",
+	"size": 848996,
+	"md5": "709580d2cab45f334ff5b6acb1c229be",
+	"sha256": "4119895651d636789cbc5954a5076005762a0e2d269c9f25f8d14a05b45f6881",
 	"descriptionMd5": "3c6aa663d50e327a61a903862665a649"
 }

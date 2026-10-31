@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "kde-config-tablet",
-	"source": "wacomtablet (6.7.4-1)",
-	"version": "6.7.4-1+b1",
+	"source": "wacomtablet",
+	"version": "6.7.4-2",
 	"section": "kde",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,7 +19,6 @@
 		"qml6-module-qtquick",
 		"qml6-module-qtquick-layouts",
 		"systemsettings",
-		"xserver-xorg-input-wacom",
 		"plasma-version-base-6.7",
 		"libc6 (>= 2.34)",
 		"libkf6configcore6 (>= 6.26.0~)",
@@ -48,13 +47,16 @@
 		"libxi6",
 		"qt6-base-private-abi (= 6.11.2)"
 	],
-	"installedSize": 3264,
+	"suggests": [
+		"xserver-xorg-input-wacom"
+	],
+	"installedSize": 3263,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "implements a KDE configuration GUI for the Wacom drivers",
 	"homepage": "https://invent.kde.org/plasma/wacomtablet",
-	"filename": "pool/main/w/wacomtablet/kde-config-tablet_6.7.4-1+b1_amd64.deb",
-	"size": 827372,
-	"md5": "239dcb7a6735c8e8f292c767eacf959b",
-	"sha256": "b7987ba2a2aa2e99c41667d2288d94cc104a4e4466435f01be5e37f629cd12ac",
+	"filename": "pool/main/w/wacomtablet/kde-config-tablet_6.7.4-2_amd64.deb",
+	"size": 827336,
+	"md5": "1649a88b2e57a83db50212c2d8faa378",
+	"sha256": "8c95e4fea0ecabfa25c53869a2b612bfca93e39bff171463b2c2ccaeb0b3de83",
 	"descriptionMd5": "849e69ad873a82cfd727d49f6d7f75f4"
 }

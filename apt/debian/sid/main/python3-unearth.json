@@ -6,25 +6,28 @@
 	],
 	"package": "python3-unearth",
 	"source": "unearth",
-	"version": "0.18.3-2",
+	"version": "0.19.0-1",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3-packaging",
-		"python3-httpx",
+		"python3-httpx2 (>= 2.0)",
 		"python3:any"
 	],
 	"recommends": [
 		"python3-requests"
 	],
-	"installedSize": 177,
+	"breaks": [
+		"python3-pdm (<< 2.29.4)"
+	],
+	"installedSize": 180,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
-	"description": "utility to fetch and download python packages",
+	"description": "utility to fetch and download Python packages",
 	"homepage": "https://github.com/frostming/unearth",
-	"filename": "pool/main/u/unearth/python3-unearth_0.18.3-2_all.deb",
-	"size": 36308,
-	"md5": "6d0ae8081c566bad1599ace8863e1387",
-	"sha256": "afd4a877b5a3be6afd9b704ebd1cc2e662000e8ff880c792d7e3e4cd670340f4",
-	"descriptionMd5": "ba01891d446dd111cc20625e310b6d85"
+	"filename": "pool/main/u/unearth/python3-unearth_0.19.0-1_all.deb",
+	"size": 37124,
+	"md5": "b8b28aaa7a54031a4b372d773a22ad67",
+	"sha256": "b0935360b6c36034fa7a69f165a05b0514ef114861d2259d1793421c16018fca",
+	"descriptionMd5": "14eaf216d1c872d40e727a5e0f9c79dc"
 }
