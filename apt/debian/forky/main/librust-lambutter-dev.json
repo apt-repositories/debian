@@ -6,7 +6,7 @@
 	],
 	"package": "librust-lambutter-dev",
 	"source": "rust-lambutter",
-	"version": "0.3.1-2",
+	"version": "0.5.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,19 +15,20 @@
 		"librust-crc-3-dev (>= 3.2)",
 		"librust-lzokay-2+alloc-dev",
 		"librust-lzokay-2+decompress-dev",
-		"librust-miniz-oxide-0.9+with-alloc-dev",
-		"librust-ruzstd-0.8-dev"
+		"librust-miniz-oxide-0.9+with-alloc-dev (>= 0.9.1)",
+		"librust-ruzstd-dev (<< 0.10)",
+		"librust-ruzstd-dev (>= 0.8.3)"
 	],
 	"breaks": [
-		"rustc (<< 1.85~)"
+		"rustc (<< 1.87~)"
 	],
-	"installedSize": 218,
+	"installedSize": 256,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "no_std read-only btrfs reader for UEFI bootloaders and embedded contexts",
 	"homepage": "https://lamco.ai/products/lamboot/",
-	"filename": "pool/main/r/rust-lambutter/librust-lambutter-dev_0.3.1-2_amd64.deb",
-	"size": 42492,
-	"md5": "658836f71faf059ae1882ec6c3084d9a",
-	"sha256": "667d6c9959bf83ed28eaf1a557bc3db9b1934d3dca78f81d5a29c97b60744400",
+	"filename": "pool/main/r/rust-lambutter/librust-lambutter-dev_0.5.0-1_amd64.deb",
+	"size": 51444,
+	"md5": "6df015a3379d5359aa1b2dd680376962",
+	"sha256": "cce5081610f85c896bc3e2c2f57ed7fa29c2cf4b9c71ebdf5385c0a6d4ae564e",
 	"descriptionMd5": "44de8da666505fd306aee87a5961ab6b"
 }

@@ -6,13 +6,15 @@
 	],
 	"package": "librust-tracing-indicatif-dev",
 	"source": "rust-tracing-indicatif",
-	"version": "0.3.14-1",
+	"version": "0.3.14-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-indicatif-0.17+default-dev",
-		"librust-indicatif-0.17+in-memory-dev",
+		"librust-indicatif+default-dev (<< 0.19)",
+		"librust-indicatif+default-dev (>= 0.17)",
+		"librust-indicatif+in-memory-dev (<< 0.19)",
+		"librust-indicatif+in-memory-dev (>= 0.17)",
 		"librust-tracing-0.1+default-dev (>= 0.1.43)",
 		"librust-tracing-core-0.1+default-dev (>= 0.1.35)",
 		"librust-tracing-subscriber-0.3+default-dev (>= 0.3.22)"
@@ -21,9 +23,9 @@
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Tracing layer that automatically creates and manages progress bars for active spans - Rust source code",
 	"homepage": "https://github.com/emersonford/tracing-indicatif",
-	"filename": "pool/main/r/rust-tracing-indicatif/librust-tracing-indicatif-dev_0.3.14-1_amd64.deb",
-	"size": 24052,
-	"md5": "356aba198e7259b327ef8c1b021ff33f",
-	"sha256": "7e6275904b2ac0f413a2fae8618ec0191c0efc0b34c94af53221a74ed53409ce",
+	"filename": "pool/main/r/rust-tracing-indicatif/librust-tracing-indicatif-dev_0.3.14-2_amd64.deb",
+	"size": 24200,
+	"md5": "a3950db39e50e8616042bae148940e04",
+	"sha256": "02b91506eb810cc7293a8294dcd10093e81a1eccaf3ad2f76c61e160ecd62239",
 	"descriptionMd5": "2348d5e5fe9b46d308ce2664b32491dc"
 }

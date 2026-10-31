@@ -6,30 +6,35 @@
 	],
 	"package": "libmu-dbm9t64",
 	"source": "mailutils",
-	"version": "1:3.21-1",
+	"version": "1:3.21-2",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"mailutils-common (>= 1:3.21-1)",
+		"mailutils-common (>= 1:3.21-2)",
 		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
 		"libgdbm6t64 (>= 1.16)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libgsasl18 (>= 1.1)",
 		"libkyotocabinet16v5 (>= 1.2.80)",
-		"libmailutils9t64 (>= 1:3.17)"
+		"libldap2 (>= 2.6.2)",
+		"libmailutils9t64 (>= 1:3.17)",
+		"libpam0g (>= 0.99.7.1)"
 	],
 	"replaces": [
 		"libmu-dbm9"
 	],
 	"breaks": [
-		"libmu-dbm9 (<< 1:3.21-1)"
+		"libmu-dbm9 (<< 1:3.21-2)"
 	],
 	"installedSize": 487,
 	"maintainer": "Jordi Mallach <jordi@debian.org>",
 	"description": "GNU Mail abstraction library -- dbm support",
 	"homepage": "https://www.gnu.org/software/mailutils/",
-	"filename": "pool/main/m/mailutils/libmu-dbm9t64_3.21-1_amd64.deb",
-	"size": 469244,
-	"md5": "5f643dc80c2699f9ad19eabc62425b8b",
-	"sha256": "d7fb6be73fcb68db7f63626de1fc51c3e20930167f13630e54cd25cb69468fe8",
+	"filename": "pool/main/m/mailutils/libmu-dbm9t64_3.21-2_amd64.deb",
+	"size": 469540,
+	"md5": "2761aa40f494f704147cce792bc437f7",
+	"sha256": "e5e12b4629d1360a66d010b777441aa7f0e00248a4292d2be137ac228c3f9334",
 	"descriptionMd5": "2aa73cd0d8a4ffdab7ed230774df26e4"
 }

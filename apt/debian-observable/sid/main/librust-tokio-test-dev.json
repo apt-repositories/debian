@@ -6,7 +6,7 @@
 	],
 	"package": "librust-tokio-test-dev",
 	"source": "rust-tokio-test",
-	"version": "0.4.5-1",
+	"version": "0.4.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -19,13 +19,16 @@
 		"librust-tokio-1+time-dev (>= 1.2.0)",
 		"librust-tokio-stream-0.1+default-dev (>= 0.1.1)"
 	],
-	"installedSize": 76,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 81,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Testing utilities for Tokio- and futures-based code - Rust source code",
 	"homepage": "https://tokio.rs",
-	"filename": "pool/main/r/rust-tokio-test/librust-tokio-test-dev_0.4.5-1_amd64.deb",
-	"size": 15512,
-	"md5": "7f9a317ad4c98fdabf3e26daf3d01ecd",
-	"sha256": "d61acc4825b602ebc3e0fbb96a051ec1ae40f27881e3b7656907763c04777d5d",
+	"filename": "pool/main/r/rust-tokio-test/librust-tokio-test-dev_0.4.6-1_amd64.deb",
+	"size": 16752,
+	"md5": "1035f63d83aafa14d4c96faa6e84dc13",
+	"sha256": "089b7248ec681886440adcb17d00b70d1e731ce0b7cada0fefec1e75d670e73f",
 	"descriptionMd5": "9f86058e1995e3176776ae3d30af71b9"
 }]

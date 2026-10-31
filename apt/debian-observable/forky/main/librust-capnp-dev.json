@@ -6,20 +6,23 @@
 	],
 	"package": "librust-capnp-dev",
 	"source": "rust-capnp",
-	"version": "0.25.4-1",
+	"version": "0.27.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-quickcheck-1+default-dev"
 	],
-	"installedSize": 1297,
+	"breaks": [
+		"rustc (<< 1.81.0~)"
+	],
+	"installedSize": 1327,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Runtime library for Cap'n Proto data encoding - Rust source code",
 	"homepage": "https://github.com/capnproto/capnproto-rust",
-	"filename": "pool/main/r/rust-capnp/librust-capnp-dev_0.25.4-1_amd64.deb",
-	"size": 116424,
-	"md5": "a4919e526e6948619d69993abaff0a08",
-	"sha256": "463641771f742b32e207147a0097305b607d42f4bc6de9413dd94ffcc975c302",
+	"filename": "pool/main/r/rust-capnp/librust-capnp-dev_0.27.2-1_amd64.deb",
+	"size": 120700,
+	"md5": "890b918f5afe7110ecd32ad93d23afab",
+	"sha256": "ced71a93b92f77fb30885a300c8736476b4b3bb4919cc83dabf538fb86992cdf",
 	"descriptionMd5": "80a40797a4a352fef253c9d255b6c885"
 }]

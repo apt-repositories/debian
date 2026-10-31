@@ -6,15 +6,17 @@
 	],
 	"package": "libmaven-resolver-transport-http-java",
 	"source": "maven-resolver",
-	"version": "1.9.25-1",
+	"version": "1.9.27-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"libcommons-codec-java (>= 1.23.0)",
 		"libgoogle-gson-java",
-		"libhttpclient-java",
-		"libmaven-resolver-java",
-		"libslf4j-java"
+		"libhttpclient-java (>= 4.5.14)",
+		"libhttpcore-java (>= 4.4.16)",
+		"libmaven-resolver-java (>= 1.9.27-1)",
+		"libslf4j-java (>= 1.7.36)"
 	],
 	"replaces": [
 		"libmaven-resolver-java (<< 1.1.0-3~)"
@@ -22,13 +24,13 @@
 	"breaks": [
 		"libmaven-resolver-java (<< 1.1.0-3~)"
 	],
-	"installedSize": 84,
+	"installedSize": 81,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Library to handle Java artifact repositories (HTTP transport)",
 	"homepage": "https://maven.apache.org/resolver/index.html",
-	"filename": "pool/main/m/maven-resolver/libmaven-resolver-transport-http-java_1.9.25-1_all.deb",
-	"size": 52436,
-	"md5": "ec6e566ca297e8b982f738f79c0bc92f",
-	"sha256": "58751dffa4c45db7ced2290feddba6e13dfb809f14713e3cee678cadd9732545",
+	"filename": "pool/main/m/maven-resolver/libmaven-resolver-transport-http-java_1.9.27-1_all.deb",
+	"size": 49880,
+	"md5": "7573aa9d484cf23da22b9e33b8d28435",
+	"sha256": "9bb5d456a539bbeadfc852322add3c9cb8d0db524f6fa055c43aafad1750eb83",
 	"descriptionMd5": "9ead610d3acd350162a6e699972c9a52"
 }]

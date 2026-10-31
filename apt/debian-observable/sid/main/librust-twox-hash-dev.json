@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-twox-hash-dev",
-	"source": "rust-twox-hash (2.1.2-2)",
-	"version": "2.1.2-2+b1",
+	"source": "rust-twox-hash",
+	"version": "2.1.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-rand-0.8+std-dev",
-		"librust-rand-0.8+std-rng-dev",
+		"librust-rand+thread-rng-dev (<< 0.11.1)",
+		"librust-rand+thread-rng-dev (>= 0.9.0)",
 		"librust-serde-1+derive-dev"
 	],
-	"installedSize": 196,
+	"breaks": [
+		"rustc (<< 1.81~)"
+	],
+	"installedSize": 203,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "The XXHash and XXH3 algorithms - Rust source code",
 	"homepage": "https://github.com/shepmaster/twox-hash",
-	"filename": "pool/main/r/rust-twox-hash/librust-twox-hash-dev_2.1.2-2+b1_amd64.deb",
-	"size": 32880,
-	"md5": "5e8a776121006d317920f6a3ec76aba7",
-	"sha256": "47edeb1135f412b7796d93de8f17793e3d6f3e5b1e6f44a2609bfdb8f67d67e2",
+	"filename": "pool/main/r/rust-twox-hash/librust-twox-hash-dev_2.1.5-1_amd64.deb",
+	"size": 35012,
+	"md5": "8d63b7dfc63710adf037794548cada1b",
+	"sha256": "2c6e19909fd52b06c0f8f92ede973d61bd0e9009ef693eec9f30967eb88fff78",
 	"descriptionMd5": "86c7eef6f1146ea54fea1197c4759c44"
 }]

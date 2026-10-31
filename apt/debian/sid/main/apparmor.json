@@ -5,14 +5,18 @@
 		"Size"
 	],
 	"package": "apparmor",
-	"version": "4.1.8-3",
+	"version": "5.0.2-5",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"debconf",
 		"debconf (>= 0.5) | debconf-2.0",
-		"libc6 (>= 2.38)"
+		"libapparmor1 (>= 5.0.1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libstdc++6 (>= 14)",
+		"libzstd1 (>= 1.5.5)"
 	],
 	"suggests": [
 		"apparmor-utils"
@@ -25,13 +29,13 @@
 		"fcitx-data (<< 1:4.2.9.1-1ubuntu2)",
 		"snapd (<< 2.44.3+20.04~)"
 	],
-	"installedSize": 3136,
+	"installedSize": 2159,
 	"maintainer": "Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>",
 	"description": "user-space parser utility for AppArmor",
 	"homepage": "https://apparmor.net/",
-	"filename": "pool/main/a/apparmor/apparmor_4.1.8-3_amd64.deb",
-	"size": 732484,
-	"md5": "95a92a27dec1069659634ad43491c426",
-	"sha256": "ca1f7e9ff3e23bd1ba8d02b76879301eecbc25d580bbfdfec5774b2557b5537a",
+	"filename": "pool/main/a/apparmor/apparmor_5.0.2-5_amd64.deb",
+	"size": 467556,
+	"md5": "5847d726fd9bd37ffe54ae02d9948438",
+	"sha256": "d5a4639223193ca0a01d94c756c49f04630ff461d5c89203f0ba796f2839cbfd",
 	"descriptionMd5": "9fdfbb456943ca7bfea9e5fd580a5b7f"
 }

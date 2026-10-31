@@ -5,36 +5,38 @@
 		"Size"
 	],
 	"package": "librust-toml-edit-0.22-dev",
-	"source": "rust-toml-edit-0.22 (0.22.24-2)",
-	"version": "0.22.24-2+b1",
+	"source": "rust-toml-edit-0.22",
+	"version": "0.22.27-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-indexmap-2+default-dev (>= 2.3.0-~~)",
-		"librust-indexmap-2+std-dev (>= 2.3.0-~~)",
+		"librust-indexmap-2+default-dev (>= 2.3.0)",
+		"librust-indexmap-2+std-dev (>= 2.3.0)",
 		"librust-kstring-2+default-dev",
 		"librust-kstring-2+max-inline-dev",
-		"librust-serde-1+default-dev (>= 1.0.145-~~)",
-		"librust-serde-spanned-0.6+default-dev (>= 0.6.8-~~)",
-		"librust-serde-spanned-0.6+serde-dev (>= 0.6.8-~~)",
-		"librust-toml-datetime-0.6+default-dev (>= 0.6.8-~~)",
-		"librust-toml-datetime-0.6+serde-dev (>= 0.6.8-~~)",
-		"librust-winnow-0.7+default-dev"
+		"librust-serde-1+default-dev (>= 1.0.145)",
+		"librust-serde-spanned-0.6+default-dev (>= 0.6.9)",
+		"librust-serde-spanned-0.6+serde-dev (>= 0.6.9)",
+		"librust-toml-datetime-0.6+default-dev (>= 0.6.11)",
+		"librust-toml-datetime-0.6+serde-dev (>= 0.6.11)",
+		"librust-toml-writer-1+default-dev (>= 1.1)",
+		"librust-winnow-0.7+default-dev (>= 0.7.10)"
 	],
 	"replaces": [
-		"librust-toml-edit-dev (<< 0.22.25~)"
+		"librust-toml-edit-dev (<< 0.22.28~)"
 	],
 	"breaks": [
-		"librust-toml-edit-dev (<< 0.22.25~)"
+		"librust-toml-edit-dev (<< 0.22.28~)",
+		"rustc (<< 1.66~)"
 	],
-	"installedSize": 900,
+	"installedSize": 417,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "yet another format-preserving TOML parser - Rust source code",
 	"homepage": "https://github.com/toml-rs/toml",
-	"filename": "pool/main/r/rust-toml-edit-0.22/librust-toml-edit-0.22-dev_0.22.24-2+b1_amd64.deb",
-	"size": 92368,
-	"md5": "6470ffdcd7ff9c3943532601f9718770",
-	"sha256": "932d1358f35d45b9ac7dc8119bd8225da0b66cb2d69b729ef566f8debb121ae3",
+	"filename": "pool/main/r/rust-toml-edit-0.22/librust-toml-edit-0.22-dev_0.22.27-1_amd64.deb",
+	"size": 61388,
+	"md5": "e618afcb4c54171cad2cac4a1fbff933",
+	"sha256": "cdcb47d488373e3d9633d570f46120a795e93d34c6eb4d27951251b3033654a5",
 	"descriptionMd5": "725ebfa0b01b0faab1b6617842ce8af5"
 }

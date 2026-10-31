@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "librust-twofish-dev",
-	"source": "rust-twofish (0.7.1-1)",
-	"version": "0.7.1-1+b2",
+	"source": "rust-twofish",
+	"version": "0.8.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cipher-0.4+default-dev (>= 0.4.2-~~)",
-		"librust-cipher-0.4+zeroize-dev (>= 0.4.2-~~)"
+		"librust-cipher-0.5+default-dev",
+		"librust-cipher-0.5+zeroize-dev"
 	],
-	"installedSize": 55,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 60,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Twofish block cipher - Rust source code",
-	"filename": "pool/main/r/rust-twofish/librust-twofish-dev_0.7.1-1+b2_amd64.deb",
-	"size": 13916,
-	"md5": "2810240650f20d82b39372ee42430cf0",
-	"sha256": "c45b12af58b59afeab8b724f5df904ad5567cf1644f1141c5a38b70c3217f161",
-	"descriptionMd5": "26b4657877b2326c1dcc0169a492fb8b"
+	"homepage": "https://github.com/RustCrypto/block-ciphers",
+	"filename": "pool/main/r/rust-twofish/librust-twofish-dev_0.8.0-1_amd64.deb",
+	"size": 14156,
+	"md5": "2941b883ae414146e717d598c13be6f9",
+	"sha256": "7ca71ed8f7cac9fa0900d5aa6d8169d6363400b47a7afb6b4fbcfd643605a7c3",
+	"descriptionMd5": "72184ed8e19ea0e80dd579f894e2d346"
 }

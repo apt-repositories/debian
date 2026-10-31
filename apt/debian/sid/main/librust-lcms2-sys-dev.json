@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-lcms2-sys-dev",
-	"source": "rust-lcms2-sys (4.0.6-1)",
-	"version": "4.0.6-1+b1",
+	"source": "rust-lcms2-sys",
+	"version": "4.0.7+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-libc-0.2+default-dev (>= 0.2.129-~~)",
-		"librust-pkg-config-0.3+default-dev (>= 0.3.25-~~)",
+		"librust-libc-0.2+default-dev (>= 0.2.129)",
+		"librust-pkg-config-0.3+default-dev (>= 0.3.25)",
 		"liblcms2-dev"
 	],
-	"installedSize": 109,
+	"breaks": [
+		"rustc (<< 1.63~)"
+	],
+	"installedSize": 108,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Bindings for liblcms2 (Little CMS) with support for Linux, macOS, and Windows - Rust source code",
 	"homepage": "https://lib.rs/crates/lcms2-sys",
-	"filename": "pool/main/r/rust-lcms2-sys/librust-lcms2-sys-dev_4.0.6-1+b1_amd64.deb",
-	"size": 20452,
-	"md5": "1969850057d6842c02b7f867700f866c",
-	"sha256": "c460e05c2f787b873e7c9a5a7c66114d66ac11d7cc6fbe92bc0ad9c79ae11152",
+	"filename": "pool/main/r/rust-lcms2-sys/librust-lcms2-sys-dev_4.0.7+ds-1_amd64.deb",
+	"size": 20204,
+	"md5": "e6ba39c06bd5a54b0b9bb5a7a008e0dc",
+	"sha256": "73a15b7510d984bef99e371dda9c0c8d5e004e1ca2e247b699eb56cfea9b9a82",
 	"descriptionMd5": "5274b9e18fa81826dbbd99e158809e93"
 }

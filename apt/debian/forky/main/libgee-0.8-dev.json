@@ -5,26 +5,32 @@
 		"Size"
 	],
 	"package": "libgee-0.8-dev",
-	"source": "libgee-0.8 (0.20.8-2)",
-	"version": "0.20.8-2+b1",
+	"source": "libgee",
+	"version": "0.20.8-4",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"gir1.2-gee-0.8 (= 0.20.8-2+b1)",
-		"libgee-0.8-2 (= 0.20.8-2+b1)",
-		"libglib2.0-dev (>= 2.36)",
+		"gir1.2-gee-0.8 (= 0.20.8-4)",
+		"libgee-0.8-2 (= 0.20.8-4)",
+		"libglib2.0-dev",
 		"gir1.2-gio-2.0-dev",
 		"gir1.2-glib-2.0-dev",
 		"gir1.2-gobject-2.0-dev"
 	],
-	"installedSize": 1026,
+	"replaces": [
+		"libgee-dev (<< 0.20.8-4~)"
+	],
+	"breaks": [
+		"libgee-dev (<< 0.20.8-4~)"
+	],
+	"installedSize": 1035,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "GObject based collection and utility library (development files)",
-	"homepage": "https://wiki.gnome.org/Projects/Libgee",
-	"filename": "pool/main/libg/libgee-0.8/libgee-0.8-dev_0.20.8-2+b1_amd64.deb",
-	"size": 63276,
-	"md5": "c488502cab4d87a65f9972eea3204cea",
-	"sha256": "444d1547c83335aa1c9b08bfc8b7125570bb990526e8c0aa05aff40439edb813",
+	"homepage": "https://gitlab.gnome.org/GNOME/libgee",
+	"filename": "pool/main/libg/libgee/libgee-0.8-dev_0.20.8-4_amd64.deb",
+	"size": 64788,
+	"md5": "78d8c3f9013db60dfb333b060e967bae",
+	"sha256": "2c679ab7c3afc26230752fc7d33bbbe1b6f22861a00a12ed5e49f89f632e41c2",
 	"descriptionMd5": "c45549f95d1583440d9feea99bda055a"
 }

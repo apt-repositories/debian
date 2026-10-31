@@ -6,7 +6,7 @@
 	],
 	"package": "librust-serde-spanned-dev",
 	"source": "rust-serde-spanned",
-	"version": "1.1.1-1",
+	"version": "1.1.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,16 @@
 		"librust-serde-core-1+std-dev (>= 1.0.228)",
 		"librust-serde-core-1-dev (>= 1.0.228)"
 	],
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
 	"installedSize": 51,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Serde-compatible spanned Value - Rust source code",
 	"homepage": "https://github.com/toml-rs/toml",
-	"filename": "pool/main/r/rust-serde-spanned/librust-serde-spanned-dev_1.1.1-1_amd64.deb",
-	"size": 11948,
-	"md5": "f982ff3fc416cc9db5696ffb86eb0c9d",
-	"sha256": "d4b1fda3ae104d4f78c95dd517afdabca65b8a35ca9f5acc3859ccd675018fb2",
+	"filename": "pool/main/r/rust-serde-spanned/librust-serde-spanned-dev_1.1.2-1_amd64.deb",
+	"size": 12096,
+	"md5": "28f28f7ffc7c38a83144b61a78fef431",
+	"sha256": "73a2b9ab022e0c37964dabd2ebeaf8c803e4bff5b6904083dd087706ad0de4ea",
 	"descriptionMd5": "e6555edc8b34604bbf6b4448e14a3628"
 }]
