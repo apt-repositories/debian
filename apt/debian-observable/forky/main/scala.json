@@ -5,27 +5,26 @@
 		"Size"
 	],
 	"package": "scala",
-	"version": "2.11.12-6",
+	"version": "2.12.21+ds3-2",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"scala-library (= 2.11.12-6)",
-		"scala-parser-combinators",
-		"scala-xml",
-		"default-jre-headless | java7-runtime-headless",
-		"libjline2-java"
+		"scala-library (= 2.12.21+ds3-2)",
+		"default-jre-headless | java8-runtime-headless",
+		"libjline2-java",
+		"scala-asm (>= 9.9.0)"
 	],
-	"suggests": [
-		"scala-doc (>= 2.11.12-6)"
+	"breaks": [
+		"scala-doc (<< 2.12~)"
 	],
-	"installedSize": 15871,
+	"installedSize": 8582,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Scala programming language",
-	"homepage": "http://www.scala-lang.org/",
-	"filename": "pool/main/s/scala/scala_2.11.12-6_all.deb",
-	"size": 14234640,
-	"md5": "98154d8bb9de7fd3af7e5c756b387e1a",
-	"sha256": "8dc2afd30b008810ced071054b867374a42836262a1cdbb422b2b87ba7a834c5",
-	"descriptionMd5": "c4ad9c8cdc32b480c48dbf9014880a0d"
+	"homepage": "https://www.scala-lang.org",
+	"filename": "pool/main/s/scala/scala_2.12.21+ds3-2_all.deb",
+	"size": 8280872,
+	"md5": "c64ab243af50fdc74889c516e885caf6",
+	"sha256": "2b3e15e09f71656de505e324d5acb37f19a87e5f153f0e7ca9862eb47d968c0e",
+	"descriptionMd5": "caaa97b6160a61a8f73df62779453179"
 }]

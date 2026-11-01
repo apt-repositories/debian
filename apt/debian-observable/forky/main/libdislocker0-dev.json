@@ -6,20 +6,28 @@
 	],
 	"package": "libdislocker0-dev",
 	"source": "dislocker",
-	"version": "0.7.3+git20250907-1",
+	"version": "0.7.4-1",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libdislocker0.7t64 (= 0.7.3+git20250907-1)"
+		"libdislocker0.7t64 (= 0.7.4-1)"
 	],
-	"installedSize": 132,
+	"replaces": [
+		"libdislocker0.7 (<< 0.7.3-3.1~)",
+		"libdislocker0.7t64 (<< 0.7.4-1~)"
+	],
+	"breaks": [
+		"libdislocker0.7 (<< 0.7.3-3.1~)",
+		"libdislocker0.7t64 (<< 0.7.4-1~)"
+	],
+	"installedSize": 142,
 	"maintainer": "Debian Security Tools <team+pkg-security@tracker.debian.org>",
 	"description": "read/write encrypted BitLocker volumes (development files)",
 	"homepage": "https://github.com/Aorimn/dislocker",
-	"filename": "pool/main/d/dislocker/libdislocker0-dev_0.7.3+git20250907-1_amd64.deb",
-	"size": 21400,
-	"md5": "d1788476cae34c07c377b11a990c06cc",
-	"sha256": "8134fee401bdf474acace1028c009da42119891c2f9d6467043470064b538427",
+	"filename": "pool/main/d/dislocker/libdislocker0-dev_0.7.4-1_amd64.deb",
+	"size": 22732,
+	"md5": "6e5f41addcee265c90266b6ac0e2bf11",
+	"sha256": "02ad0a691bf8842314d1b93d1a383f77ebd45a372436dcfff337ef036e6ed8c4",
 	"descriptionMd5": "d568b9036ff05d749a1fd118799d6f82"
 }]

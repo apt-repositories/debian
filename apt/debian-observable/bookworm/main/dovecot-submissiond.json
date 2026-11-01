@@ -25,8 +25,40 @@
 	"maintainer": "Dovecot Maintainers <dovecot@packages.debian.org>",
 	"description": "secure POP3/IMAP server - mail submission agent",
 	"homepage": "https://dovecot.org/",
-	"filename": "pool/updates/main/d/dovecot/dovecot-submissiond_2.3.19.1+dfsg1-2.1+deb12u6_amd64.deb",
+	"filename": "pool/main/d/dovecot/dovecot-submissiond_2.3.19.1+dfsg1-2.1+deb12u6_amd64.deb",
 	"size": 1403180,
+	"md5": "20dd9df7c68141a041398e7a932ac42d",
 	"sha256": "a378e1374fefe3311c2b70fa3873d84bbe5533e3cd0f8ec5c4c10eb9e758055b",
+	"descriptionMd5": "b7dc853a1d902701365098db008dcd75"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-submissiond",
+	"source": "dovecot",
+	"version": "1:2.3.19.1+dfsg1-2.1+deb12u7",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-core (= 1:2.3.19.1+dfsg1-2.1+deb12u7)",
+		"ucf",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"dovecot-submission (<< 1:2.3.1-2~)"
+	],
+	"breaks": [
+		"dovecot-submission (<< 1:2.3.1-2~)"
+	],
+	"installedSize": 1494,
+	"maintainer": "Dovecot Maintainers <dovecot@packages.debian.org>",
+	"description": "secure POP3/IMAP server - mail submission agent",
+	"homepage": "https://dovecot.org/",
+	"filename": "pool/updates/main/d/dovecot/dovecot-submissiond_2.3.19.1+dfsg1-2.1+deb12u7_amd64.deb",
+	"size": 1404480,
+	"sha256": "a723c58627081263edbbcb0e75afd6426c2a5ffa61e880b76fcb28a454c78790",
 	"descriptionMd5": "b7dc853a1d902701365098db008dcd75"
 }]

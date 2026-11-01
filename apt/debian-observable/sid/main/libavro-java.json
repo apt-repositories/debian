@@ -6,25 +6,28 @@
 	],
 	"package": "libavro-java",
 	"source": "avro-java",
-	"version": "1.8.2-1",
+	"version": "1.12.2-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libjackson-json-java",
-		"libparanamer-java",
-		"libsnappy-java",
-		"libcommons-compress-java",
-		"libxz-java",
-		"libslf4j-java"
+		"libcommons-compress-java (>= 1.28.0)",
+		"libjackson2-core-java (>= 2.22.4)",
+		"libjackson2-databind-java",
+		"libslf4j-java (>= 1.7.36)"
 	],
-	"installedSize": 3014,
+	"suggests": [
+		"libsnappy-java (>= 1.1.10.8)",
+		"libxz-java (>= 1.12)",
+		"libzstd-jni-java"
+	],
+	"installedSize": 777,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Apache Avro data serialization system",
 	"homepage": "http://avro.apache.org",
-	"filename": "pool/main/a/avro-java/libavro-java_1.8.2-1_all.deb",
-	"size": 2612960,
-	"md5": "73d738845f12a480185955db49086c0d",
-	"sha256": "3328c0e2a748f6b1f1632bb90e444b14fd61b5b65ffc79820206a41c02461b0b",
+	"filename": "pool/main/a/avro-java/libavro-java_1.12.2-1_all.deb",
+	"size": 667180,
+	"md5": "95ea8b59ef5d71e5cc2ed6ad60e15814",
+	"sha256": "387e09c41a9390feb7946b7a73a52c95a943c1e53f9e28fed8e7f5e96a7e1d03",
 	"descriptionMd5": "e17cf35abb47c7b6d16f98660f328fd5"
 }]
