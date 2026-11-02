@@ -6,7 +6,7 @@
 	],
 	"package": "librust-thin-vec-dev",
 	"source": "rust-thin-vec",
-	"version": "0.2.17-1",
+	"version": "0.2.21-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-malloc-size-of-0.1-dev",
 		"librust-serde-1+default-dev"
 	],
-	"installedSize": 190,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 199,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Vec that takes up less space on the stack - Rust source code",
 	"homepage": "https://github.com/mozilla/thin-vec",
-	"filename": "pool/main/r/rust-thin-vec/librust-thin-vec-dev_0.2.17-1_amd64.deb",
-	"size": 37420,
-	"md5": "fa747aeafce34b77e5c62a22d2ce5dbd",
-	"sha256": "29e497e10f439509c3dd83bb05f46be7d46719241ad32f598b8b8f62762e34a7",
+	"filename": "pool/main/r/rust-thin-vec/librust-thin-vec-dev_0.2.21-1_amd64.deb",
+	"size": 38924,
+	"md5": "1373c05a3147b65a7a2fc687df120c26",
+	"sha256": "009dca1733c012ea7d05a1b4a22f47bc36890cc0bb665e672b250410e439a47b",
 	"descriptionMd5": "720e054869e6f24f35e656407b2824b8"
 }]

@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.2.14+deb14-cloud-amd64",
+	"source": "linux-signed-amd64 (7.2.14+1)",
+	"version": "7.2.14-1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.2.14+deb14-cloud-amd64 (= 7.2.14-1)",
+		"linux-binary-7.2.14+deb14-cloud-amd64 (= 7.2.14-1)",
+		"linux-modules-7.2.14+deb14-cloud-amd64 (= 7.2.14-1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.17~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.2"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.2.14 for x86-64 cloud",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.2.14+deb14-cloud-amd64_7.2.14-1_amd64.deb",
+	"size": 1920,
+	"md5": "570f740c37e582de63d0902a68a39a29",
+	"sha256": "060b5bae8b86af452bc5bdd5c646470ed3325c1638e817d8a4dcd9d01d99327c",
+	"descriptionMd5": "61e75c3f76b7edc6bf3fa918d489070b"
+}]

@@ -6,25 +6,28 @@
 	],
 	"package": "libmaven-plugin-testing-java",
 	"source": "maven-plugin-testing",
-	"version": "3.3.0-2",
+	"version": "3.5.1-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"junit4 (>= 4.13.2)",
-		"libcommons-io-java (>= 2.11.0)",
-		"libeasymock-java",
-		"libmaven-invoker-java (>= 3.0.0)",
-		"libmaven3-core-java (>= 3.8.6)",
-		"libplexus-archiver-java (>= 4.2.7)"
+		"libmaven-parent-java (>= 43)",
+		"libmockito-java",
+		"libplexus-testing-java (>= 2.1.0)",
+		"libplexus-utils2-java (>= 3.4.2)"
 	],
-	"installedSize": 158,
+	"recommends": [
+		"junit4 (>= 4.13.2)",
+		"junit5",
+		"libplexus-archiver-java (>= 4.6.1)"
+	],
+	"installedSize": 113,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Maven Plugin Testing",
 	"homepage": "http://maven.apache.org/plugin-testing/",
-	"filename": "pool/main/m/maven-plugin-testing/libmaven-plugin-testing-java_3.3.0-2_all.deb",
-	"size": 78416,
-	"md5": "ecc60cb8d448aaa3aafe09218bedd342",
-	"sha256": "8ad73cbc3074cd9c745735a4d258f6fd46893c9a16455a76a4dcee041baa639c",
+	"filename": "pool/main/m/maven-plugin-testing/libmaven-plugin-testing-java_3.5.1-1_all.deb",
+	"size": 65192,
+	"md5": "4ea755072bdd01a5681cb12e5185295a",
+	"sha256": "6a94b86a2cd4314bce81c815ed3b1ac0ba1e691e995835ad0e5e006dddedb313",
 	"descriptionMd5": "b84a3d1b76b0423f13f103778be0a77f"
 }
