@@ -6,33 +6,35 @@
 	],
 	"package": "libspring-context-support-java",
 	"source": "libspring-java",
-	"version": "4.3.30-5",
+	"version": "5.1.20-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libspring-beans-java (= 4.3.30-5)",
-		"libspring-context-java (= 4.3.30-5)",
-		"libspring-core-java (= 4.3.30-5)"
-	],
-	"recommends": [
-		"libspring-jdbc-java (= 4.3.30-5)",
-		"libspring-transaction-java (= 4.3.30-5)"
-	],
-	"suggests": [
+		"libspring-beans-java (= 5.1.20-1)",
+		"libspring-context-java (= 5.1.20-1)",
+		"libspring-core-java (= 5.1.20-1)",
+		"libspring-aop-java (>= 5.1.20-1)",
+		"libspring-jdbc-java (>= 5.1.20-1)",
+		"libaopalliance-java",
 		"libehcache-java",
 		"libfreemarker-java",
-		"libgeronimo-commonj-spec-java",
-		"libquartz2-java",
-		"velocity"
+		"libgeronimo-commonj-spec-java"
 	],
-	"installedSize": 212,
+	"recommends": [
+		"libspring-jdbc-java (= 5.1.20-1)",
+		"libspring-transaction-java (= 5.1.20-1)"
+	],
+	"suggests": [
+		"libquartz2-java"
+	],
+	"installedSize": 209,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "modular Java/J2EE application framework - Context Support",
 	"homepage": "https://spring.io/projects/spring-framework",
-	"filename": "pool/main/libs/libspring-java/libspring-context-support-java_4.3.30-5_all.deb",
-	"size": 164892,
-	"md5": "51d46995a960fb5cc496a8eeafc098fd",
-	"sha256": "4f690bbf88b2ae2083bdb2125cef00195354b2043bcf5cb6697ac3616482aa1c",
+	"filename": "pool/main/libs/libspring-java/libspring-context-support-java_5.1.20-1_all.deb",
+	"size": 160572,
+	"md5": "41a731d4dda122872a1af0cd2e427f63",
+	"sha256": "17404a0cc27c8cd7a86274f9c21097a0cb12000ba619f056dc756a4ecf965007",
 	"descriptionMd5": "b1ad419dfe31e6f6e35259c2cc5359df"
 }

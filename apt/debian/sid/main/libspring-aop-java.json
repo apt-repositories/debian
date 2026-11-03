@@ -6,28 +6,32 @@
 	],
 	"package": "libspring-aop-java",
 	"source": "libspring-java",
-	"version": "4.3.30-5",
+	"version": "5.1.20-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libspring-beans-java (= 4.3.30-5)",
-		"libspring-core-java (= 4.3.30-5)"
-	],
-	"suggests": [
+		"libspring-beans-java (= 5.1.20-1)",
+		"libspring-core-java (= 5.1.20-1)",
+		"libspring-context-java (>= 5.1.20-1)",
+		"libspring-context-support-java (>= 5.1.20-1)",
+		"libspring-orm-java (>= 5.1.20-1)",
+		"libaopalliance-java",
 		"libaspectj-java",
-		"libcglib-java",
-		"libcommons-pool-java",
 		"libcommons-pool2-java",
 		"libjamon-java"
 	],
-	"installedSize": 477,
+	"suggests": [
+		"libcglib-java",
+		"libcommons-pool-java"
+	],
+	"installedSize": 459,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "modular Java/J2EE application framework - AOP",
 	"homepage": "https://spring.io/projects/spring-framework",
-	"filename": "pool/main/libs/libspring-java/libspring-aop-java_4.3.30-5_all.deb",
-	"size": 379604,
-	"md5": "f36edaa75217759a0466002ff5fac687",
-	"sha256": "e98635db460e13081d2b1799c4626adc194391a236ffe0ad59f5d07fc26132f9",
+	"filename": "pool/main/libs/libspring-java/libspring-aop-java_5.1.20-1_all.deb",
+	"size": 363492,
+	"md5": "0311252393809833df61646eaeb3d84d",
+	"sha256": "4dfdb1aa01babea023f579cd4c63fde4551bf805a601678444dddbbfdf1b90a7",
 	"descriptionMd5": "14292cd95e8c317bf0afc5f655ce4a82"
 }

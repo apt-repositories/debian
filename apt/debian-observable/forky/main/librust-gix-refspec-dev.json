@@ -6,29 +6,30 @@
 	],
 	"package": "librust-gix-refspec-dev",
 	"source": "rust-gix-refspec",
-	"version": "0.45.1-1",
+	"version": "0.47.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bstr-1+std-dev (>= 1.12.0)",
-		"librust-gix-hash-0.26+default-dev (>= 0.26.2)",
-		"librust-gix-hash-0.26+sha1-dev (>= 0.26.2)",
-		"librust-gix-hash-0.26+sha256-dev (>= 0.26.2)",
-		"librust-gix-validate-0.11+default-dev (>= 0.11.4)",
-		"librust-smallvec-1+default-dev (>= 1.15.1)",
-		"librust-thiserror-2+default-dev (>= 2.0.18)"
+		"librust-gix-error-0.5+bstr-dev",
+		"librust-gix-error-0.5+default-dev",
+		"librust-gix-hash-0.28+default-dev",
+		"librust-gix-hash-0.28+sha1-dev",
+		"librust-gix-hash-0.28+sha256-dev",
+		"librust-gix-validate-0.13+default-dev",
+		"librust-smallvec-1+default-dev (>= 1.15.1)"
 	],
 	"breaks": [
-		"rustc (<< 1.85~)"
+		"rustc (<< 1.88~)"
 	],
 	"installedSize": 86,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Parse and represent git refspecs - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-refspec/librust-gix-refspec-dev_0.45.1-1_amd64.deb",
-	"size": 19556,
-	"md5": "c8d8eecd0f239d89136b20b2cc1666b4",
-	"sha256": "b7462c0e8acf1508f09f8c70d161a6286bbb76e77dcd45924e8835223d931768",
+	"filename": "pool/main/r/rust-gix-refspec/librust-gix-refspec-dev_0.47.0-1_amd64.deb",
+	"size": 19528,
+	"md5": "2429569de206bad23210d6b9bb4f9f63",
+	"sha256": "b2da3cc0667dfc4216f62e7ece26d04c0f25fe7d0e762e86a86bb1fb2775a5a2",
 	"descriptionMd5": "8174f80f011860d48cf56309b65ddf75"
 }]

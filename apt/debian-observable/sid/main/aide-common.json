@@ -6,7 +6,7 @@
 	],
 	"package": "aide-common",
 	"source": "aide",
-	"version": "0.19.4-1",
+	"version": "0.19.5-2",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,21 +14,25 @@
 		"aide (>= 0.17)",
 		"liblockfile1",
 		"ucf (>= 2.0020)",
+		"procps",
+		"systemd-sysv",
 		"debconf (>= 0.5) | debconf-2.0",
-		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"recommends": [
 		"bsd-mailx | mailx | s-nail",
 		"cron | cron-daemon"
 	],
-	"installedSize": 531,
+	"suggests": [
+		"figlet"
+	],
+	"installedSize": 534,
 	"maintainer": "Aide Maintainers <aide@packages.debian.org>",
-	"description": "Advanced Intrusion Detection Environment - Common files",
+	"description": "Advanced Intrusion Detection Environment - Debian integration",
 	"homepage": "https://aide.github.io",
-	"filename": "pool/main/a/aide/aide-common_0.19.4-1_all.deb",
-	"size": 117508,
-	"md5": "2e3bf780ee97dff4deb006f825102c42",
-	"sha256": "5773e80f0088735e98688af5c1ddbe572f22c37e2a2a37230e482ae353bacc0b",
-	"descriptionMd5": "7a8490e442a29581e6cca1b191be3f62"
+	"filename": "pool/main/a/aide/aide-common_0.19.5-2_all.deb",
+	"size": 119404,
+	"md5": "2d334fb9f076daf9fef3c2c49da1dd05",
+	"sha256": "abc1bbdf20f07ca9b7d75a1e1fbc408f70bfa43ab467536c3a5d2b3efb14f1c9",
+	"descriptionMd5": "a3a58291fac3edcf2bcb92a66c6ff95f"
 }]

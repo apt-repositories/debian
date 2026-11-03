@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-yada-dev",
-	"source": "rust-yada (0.5.1-1)",
-	"version": "0.5.1-1+b1",
+	"source": "rust-yada",
+	"version": "0.7.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 75,
+	"breaks": [
+		"rustc (<< 1.58.0~)"
+	],
+	"installedSize": 94,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Double-array trie library - Rust source code",
 	"homepage": "https://github.com/takuyaa/yada",
-	"filename": "pool/main/r/rust-yada/librust-yada-dev_0.5.1-1+b1_amd64.deb",
-	"size": 15940,
-	"md5": "b5d681a4a5b5078d2343f6a59f3a0add",
-	"sha256": "0b17240a98117575f322f8c8ab96173ee4be9f4c03a934d9488e33a4aabfc7aa",
+	"filename": "pool/main/r/rust-yada/librust-yada-dev_0.7.0-1_amd64.deb",
+	"size": 21076,
+	"md5": "d967d6a855007e32a57cb9c1febcbd64",
+	"sha256": "7cd83a71cb9d95fff6c5825e9470043ec262570f167f563a0c2582076f34f811",
 	"descriptionMd5": "4a810d00e4a9e8531d6bc7bc0f14bb85"
 }

@@ -6,7 +6,7 @@
 	],
 	"package": "librust-numpy-dev",
 	"source": "rust-numpy",
-	"version": "0.28.0-6",
+	"version": "0.28.0-7",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,9 +21,12 @@
 		"librust-num-complex+default-dev (>= 0.2)",
 		"librust-num-integer-0.1+default-dev",
 		"librust-num-traits-0.2+default-dev",
-		"librust-pyo3-0.28+macros-dev",
-		"librust-pyo3-build-config-0.28+default-dev",
-		"librust-pyo3-build-config-0.28+resolve-config-dev",
+		"librust-pyo3+macros-dev (<< 0.30)",
+		"librust-pyo3+macros-dev (>= 0.28)",
+		"librust-pyo3-build-config+default-dev (<< 0.30)",
+		"librust-pyo3-build-config+default-dev (>= 0.28)",
+		"librust-pyo3-build-config+resolve-config-dev (<< 0.30)",
+		"librust-pyo3-build-config+resolve-config-dev (>= 0.28)",
 		"librust-rustc-hash-2+default-dev",
 		"python3-numpy",
 		"python3-ml-dtypes"
@@ -31,13 +34,13 @@
 	"breaks": [
 		"rustc (<< 1.83~)"
 	],
-	"installedSize": 426,
+	"installedSize": 427,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "PyO3-based Rust bindings of the NumPy C-API - Rust source code",
 	"homepage": "https://github.com/PyO3/rust-numpy",
-	"filename": "pool/main/r/rust-numpy/librust-numpy-dev_0.28.0-6_amd64.deb",
-	"size": 72456,
-	"md5": "fc444df98354a8d04fe241c6be83f9ca",
-	"sha256": "652041f3f407e28659cd78b30d0f5690dafcbb54e8d39ab101d83cbcaf94e943",
+	"filename": "pool/main/r/rust-numpy/librust-numpy-dev_0.28.0-7_amd64.deb",
+	"size": 72600,
+	"md5": "0df46270b0ac0bbc1ebe67b1a237bc32",
+	"sha256": "b13531456cb1b89fb0ae34c34e16fbe67d66bc0e443d1d4bc71986c710d0ce6e",
 	"descriptionMd5": "2925dcbfba5d512d034298f7c9cb305b"
 }]

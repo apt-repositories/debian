@@ -1,0 +1,71 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pcp",
+	"version": "7.2.2-1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libdrm-amdgpu1 (>= 2.4.80)",
+		"libdrm2 (>= 2.4.65)",
+		"libpcp-archive1 (= 7.2.2-1)",
+		"libpcp-gui2",
+		"libpcp-import2",
+		"libpcp-mmv1 (= 7.2.2-1)",
+		"libpcp-pmda3 (= 7.2.2-1)",
+		"libpcp-trace2",
+		"libpcp-web1 (= 7.2.2-1)",
+		"libpcp4 (= 7.2.2-1)",
+		"libpfm4 (>= 4.9)",
+		"libreadline8t64 (>= 6.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd0",
+		"libuv1t64 (>= 1.18.0)",
+		"zlib1g (>= 1:1.1.4)",
+		"perl:any",
+		"gawk",
+		"procps",
+		"zstd",
+		"python3-pcp",
+		"python3",
+		"systemd | passwd",
+		"pcp-conf (= 7.2.2-1)"
+	],
+	"recommends": [
+		"libpcp-pmda-perl",
+		"pcp-atop",
+		"pcp-dstat",
+		"pcp-htop"
+	],
+	"suggests": [
+		"pcp-gui",
+		"libpcp-import-perl",
+		"redis-server",
+		"bpftrace (>= 0.9.2)"
+	],
+	"replaces": [
+		"pcp-manager",
+		"pcp-webapi"
+	],
+	"breaks": [
+		"pcp-doc (<< 7.1.0)"
+	],
+	"conflicts": [
+		"pcp-manager",
+		"pcp-webapi"
+	],
+	"installedSize": 13456,
+	"maintainer": "PCP Development Team <pcp@groups.io>",
+	"description": "System level performance monitoring and performance management",
+	"homepage": "https://pcp.io",
+	"filename": "pool/main/p/pcp/pcp_7.2.2-1_amd64.deb",
+	"size": 2863928,
+	"md5": "f0ad0213c8651134af270678f85232fa",
+	"sha256": "431653bca16a798a4d4cd6bc9315bef2d651d1d51785032da94b82e68e794b10",
+	"descriptionMd5": "cf73bbf0bd78441a37224ae34c61d9a9"
+}

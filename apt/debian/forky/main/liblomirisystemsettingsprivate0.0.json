@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "liblomirisystemsettingsprivate0.0",
-	"source": "lomiri-system-settings",
-	"version": "1.4.0-6",
+	"source": "lomiri-system-settings (1.5.0-2)",
+	"version": "1.5.0-2+b1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,13 +17,19 @@
 		"libqt5dbus5t64 (>= 5.14.1)",
 		"libstdc++6 (>= 14)"
 	],
-	"installedSize": 410,
+	"replaces": [
+		"liblomirisystemsettingsprivate0"
+	],
+	"breaks": [
+		"liblomirisystemsettingsprivate0"
+	],
+	"installedSize": 412,
 	"maintainer": "Debian UBports Team <team+ubports@tracker.debian.org>",
 	"description": "System Settings application for Lomiri - private library",
 	"homepage": "https://gitlab.com/ubports/development/core/lomiri-system-settings",
-	"filename": "pool/main/l/lomiri-system-settings/liblomirisystemsettingsprivate0.0_1.4.0-6_amd64.deb",
-	"size": 273108,
-	"md5": "ead871b1a3063c2a182471fad4168800",
-	"sha256": "7b7ceb7231332b90e29e3bfb3be79f08907ed31aa41ae42194003f436765315c",
+	"filename": "pool/main/l/lomiri-system-settings/liblomirisystemsettingsprivate0.0_1.5.0-2+b1_amd64.deb",
+	"size": 276024,
+	"md5": "01efbb2f300cf367ecb9d0968ca51853",
+	"sha256": "1904798374fe48530b1f56bc6b6836239ef4c8c1b6b632baa78bc90b6e6c2a41",
 	"descriptionMd5": "c2e7c8fe77f8e7be74f2c9c6b104dbd9"
 }

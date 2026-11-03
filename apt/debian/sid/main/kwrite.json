@@ -6,13 +6,13 @@
 	],
 	"package": "kwrite",
 	"source": "kate",
-	"version": "4:26.08.2-1",
+	"version": "4:26.08.2+dfsg-2",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libkf6texteditor-katepart",
-		"kate (>= 4:26.08.2)",
+		"kate-libs (>= 4:26.08.2+dfsg)",
 		"libc6 (>= 2.34)",
 		"libkf6coreaddons6 (>= 6.0.0)",
 		"libkf6dbusaddons6 (>= 6.0.0)",
@@ -21,13 +21,19 @@
 		"libqt6gui6 (>= 6.5.0~)",
 		"libqt6widgets6 (>= 6.5.0~)"
 	],
-	"installedSize": 385,
+	"recommends": [
+		"kate-data (>= 4:26.08.2+dfsg-2)"
+	],
+	"suggests": [
+		"kate-addons"
+	],
+	"installedSize": 398,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "simple text editor",
 	"homepage": "https://kate-editor.org/",
-	"filename": "pool/main/k/kate/kwrite_26.08.2-1_amd64.deb",
-	"size": 135136,
-	"md5": "c07099024b6c94d8ecc003f7c340251b",
-	"sha256": "eec5159d6ca5312de3a7934d63d7e223e4f208a31e5bf05cd928b34f64c407fe",
+	"filename": "pool/main/k/kate/kwrite_26.08.2+dfsg-2_amd64.deb",
+	"size": 138800,
+	"md5": "65e26f9cb2fe65e943dce2f3c86a23f9",
+	"sha256": "137576ca581a5b3e35aa4e67b74bb3af09e11c5673bbf63511dbc397723b0b80",
 	"descriptionMd5": "dd638fec6a6002fe9ac850e5e842392b"
 }

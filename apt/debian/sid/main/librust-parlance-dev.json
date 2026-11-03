@@ -6,20 +6,23 @@
 	],
 	"package": "librust-parlance-dev",
 	"source": "rust-parlance",
-	"version": "0.1.0-1",
+	"version": "0.1.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bytemuck-1-dev (>= 1.25.0)"
+		"librust-bytemuck-1-dev (>= 1.25.2)"
 	],
-	"installedSize": 123,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 136,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Fundamental text property types - Rust source code",
 	"homepage": "https://github.com/linebender/parley",
-	"filename": "pool/main/r/rust-parlance/librust-parlance-dev_0.1.0-1_amd64.deb",
-	"size": 23504,
-	"md5": "c2ecd011b8aee95caf4b2457b7165c77",
-	"sha256": "094853ebcc94049affbacd82498f044d34b63686f62ded2967765925e5494e92",
+	"filename": "pool/main/r/rust-parlance/librust-parlance-dev_0.1.1-1_amd64.deb",
+	"size": 27772,
+	"md5": "de0b0a638a429a85df16a52cd2f48d8a",
+	"sha256": "ce35a087a0742593b56d008b97f8ca20bb08724684d3ead3c47d273d2a426d7e",
 	"descriptionMd5": "aa12430b07526bb17cdcbe44e7091463"
 }
