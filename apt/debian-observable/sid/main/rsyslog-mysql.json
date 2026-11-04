@@ -6,12 +6,12 @@
 	],
 	"package": "rsyslog-mysql",
 	"source": "rsyslog",
-	"version": "8.2608.0-4",
+	"version": "8.2610.0-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"rsyslog (= 8.2608.0-4)",
+		"rsyslog (= 8.2610.0-1)",
 		"dbconfig-mysql | dbconfig-no-thanks",
 		"ucf",
 		"debconf (>= 0.5) | debconf-2.0",
@@ -19,18 +19,18 @@
 		"libmariadb3 (>= 3.0.0)"
 	],
 	"recommends": [
-		"default-mysql-client | virtual-mysql-client"
+		"mariadb-client | mysql-client"
 	],
 	"suggests": [
-		"default-mysql-server | virtual-mysql-server"
+		"mariadb-server | mysql-server"
 	],
-	"installedSize": 368,
+	"installedSize": 371,
 	"maintainer": "Michael Biebl <biebl@debian.org>",
-	"description": "MySQL output plugin for rsyslog",
+	"description": "MySQL/MariaDB output plugin for rsyslog",
 	"homepage": "https://www.rsyslog.com/",
-	"filename": "pool/main/r/rsyslog/rsyslog-mysql_8.2608.0-4_amd64.deb",
-	"size": 336636,
-	"md5": "1ee937702c9b15b0c8434914e1d03bf6",
-	"sha256": "97f68b07a3d000c5203fe6601e992848a54cd82c370efa1911ca4479f0a44c5d",
-	"descriptionMd5": "73513767b35f7839dfc63fc06366fcb0"
+	"filename": "pool/main/r/rsyslog/rsyslog-mysql_8.2610.0-1_amd64.deb",
+	"size": 340012,
+	"md5": "ff5e202ec99ec50adb0a8ef3cffbd182",
+	"sha256": "7a9e9fe224792093093af35ff391666a910e95bf6f985b27b771d8f8bf6918a9",
+	"descriptionMd5": "1064e0dfc0c34b526d124b98f2516384"
 }]

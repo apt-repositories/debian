@@ -5,12 +5,14 @@
 		"Size"
 	],
 	"package": "libgwyddion3-0",
-	"source": "gwyddion (3.11-1)",
-	"version": "3.11-1+b2",
+	"source": "gwyddion",
+	"version": "3.12-1",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"gwyddion-common (= 3.12-1)",
+		"sensible-utils",
 		"libc6 (>= 2.39)",
 		"libcairo2 (>= 1.12.0)",
 		"libfftw3-double3 (>= 3.3.11)",
@@ -19,9 +21,7 @@
 		"libgomp1 (>= 4.9)",
 		"libgtk-3-0t64 (>= 3.21.5)",
 		"libpango-1.0-0 (>= 1.14.0)",
-		"libpangocairo-1.0-0 (>= 1.14.0)",
-		"gwyddion-common (= 3.11-1)",
-		"sensible-utils"
+		"libpangocairo-1.0-0 (>= 1.14.0)"
 	],
 	"suggests": [
 		"libgwyddion-doc"
@@ -31,16 +31,16 @@
 		"libgwyddion2-0t64"
 	],
 	"breaks": [
-		"libgwyddion2-0 (<< 3.11-1)",
-		"libgwyddion2-0t64 (<< 3.11-1)"
+		"libgwyddion2-0 (<< 3.12-1)",
+		"libgwyddion2-0t64 (<< 3.12-1)"
 	],
-	"installedSize": 3120,
+	"installedSize": 3164,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "libraries for Gwyddion SPM analysis tool",
 	"homepage": "https://gwyddion.net/",
-	"filename": "pool/main/g/gwyddion/libgwyddion3-0_3.11-1+b2_amd64.deb",
-	"size": 1077248,
-	"md5": "b65b204a78cd4fa21198662b22e3993e",
-	"sha256": "d4a86aabfb65477e3b140375712668140bfd26dd6c01a536175150326e132e1e",
+	"filename": "pool/main/g/gwyddion/libgwyddion3-0_3.12-1_amd64.deb",
+	"size": 1088380,
+	"md5": "3e139b7311ef405d986503de06d7efa2",
+	"sha256": "7ba25fddcfc3e9c73d71d85c98726cb2f4123982a3f34afe314ce892fb5cfbf8",
 	"descriptionMd5": "651fea643f768aceccbb40d344f2e84b"
 }

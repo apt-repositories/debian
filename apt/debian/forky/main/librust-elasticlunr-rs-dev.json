@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-elasticlunr-rs-dev",
-	"source": "rust-elasticlunr-rs (3.0.2-2)",
-	"version": "3.0.2-2+b1",
+	"source": "rust-elasticlunr-rs",
+	"version": "3.1.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-regex-1+default-dev",
-		"librust-rust-stemmers-1+default-dev (>= 1.2.0-~~)",
+		"librust-rust-stemmers-1+default-dev (>= 1.2.0)",
 		"librust-serde-1+default-dev",
-		"librust-serde-derive-1+default-dev (>= 1.0.34-~~)",
+		"librust-serde-derive-1+default-dev (>= 1.0.34)",
 		"librust-serde-json-1+default-dev"
 	],
-	"installedSize": 414,
+	"breaks": [
+		"rustc (<< 1.60.0~)"
+	],
+	"installedSize": 429,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Partial Rust port of elasticlunr.js for search indexes - Rust source code",
 	"homepage": "https://github.com/mattico/elasticlunr-rs",
-	"filename": "pool/main/r/rust-elasticlunr-rs/librust-elasticlunr-rs-dev_3.0.2-2+b1_amd64.deb",
-	"size": 93212,
-	"md5": "1f0bfb07bcf884ad754b4deada0f6642",
-	"sha256": "3c7aa7fd01eb8a378607b50905584cb549717301ce27aa7f8e22bc5be87ab793",
+	"filename": "pool/main/r/rust-elasticlunr-rs/librust-elasticlunr-rs-dev_3.1.0-1_amd64.deb",
+	"size": 98700,
+	"md5": "9ccd221c1d75399611041179ce04e5c2",
+	"sha256": "095be638b4547eb8961ce5dedf4500536e08d8b69d10e9dd331c68503dd13942",
 	"descriptionMd5": "c1ba6f39081f76dfd5f938838665eca3"
 }

@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "librust-os-pipe-dev",
-	"source": "rust-os-pipe (1.2.2-1)",
-	"version": "1.2.2-1+b1",
+	"source": "rust-os-pipe",
+	"version": "1.2.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-libc-0.2+default-dev (>= 0.2.62-~~)"
+		"librust-libc-0.2+default-dev (>= 0.2.62)"
+	],
+	"breaks": [
+		"rustc (<< 1.63~)"
 	],
 	"installedSize": 68,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Cross-platform library for opening OS pipes - Rust source code",
 	"homepage": "https://github.com/oconnor663/os_pipe.rs",
-	"filename": "pool/main/r/rust-os-pipe/librust-os-pipe-dev_1.2.2-1+b1_amd64.deb",
-	"size": 12800,
-	"md5": "cf959780e92710f84db42b130f0eea40",
-	"sha256": "483836965950c6f664e08a2e1dd0d2e7dc139bb0e0393e020f761ab0045d7c19",
+	"filename": "pool/main/r/rust-os-pipe/librust-os-pipe-dev_1.2.3-1_amd64.deb",
+	"size": 12780,
+	"md5": "68f699ef7605398348e75aa05d8b189c",
+	"sha256": "085afb2cc3fd5a0a8d45748354320581054075bb24357df602f0792a0d07a2c1",
 	"descriptionMd5": "5a78d8a657a1db6331c4e247841b8513"
 }
