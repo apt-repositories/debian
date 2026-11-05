@@ -5,27 +5,30 @@
 		"Size"
 	],
 	"package": "librust-derive-utils-dev",
-	"source": "rust-derive-utils (0.15.0-1)",
-	"version": "0.15.0-1+b1",
+	"source": "rust-derive-utils",
+	"version": "0.16.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-proc-macro2-1+default-dev (>= 1.0.60-~~)",
-		"librust-quote-1+default-dev (>= 1.0.25-~~)",
-		"librust-syn-2+clone-impls-dev",
-		"librust-syn-2+full-dev",
-		"librust-syn-2+parsing-dev",
-		"librust-syn-2+printing-dev",
-		"librust-syn-2+proc-macro-dev"
+		"librust-proc-macro2-1+default-dev (>= 1.0.91)",
+		"librust-quote-1+default-dev (>= 1.0.35)",
+		"librust-syn-3+clone-impls-dev",
+		"librust-syn-3+full-dev",
+		"librust-syn-3+parsing-dev",
+		"librust-syn-3+printing-dev",
+		"librust-syn-3+proc-macro-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.71~)"
 	],
 	"installedSize": 90,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Procedural macro helper for easily writing derive macros for enums - Rust source code",
 	"homepage": "https://github.com/taiki-e/derive_utils",
-	"filename": "pool/main/r/rust-derive-utils/librust-derive-utils-dev_0.15.0-1+b1_amd64.deb",
-	"size": 20288,
-	"md5": "d89f247968d4ee1121d489f0e67f97ba",
-	"sha256": "d55dc67eb3423e05fe338ccb5ed16ae26ee73e458784cd9d51a911b2ef007730",
+	"filename": "pool/main/r/rust-derive-utils/librust-derive-utils-dev_0.16.0-1_amd64.deb",
+	"size": 20544,
+	"md5": "ce4e3381f588afb02faf0b0622a395b6",
+	"sha256": "67ec26c4e877f631c206e604588b9a5a33cd40f554067d8c48390b642f3d05c5",
 	"descriptionMd5": "200d4c94f7a8f516338812d328b612cf"
 }]

@@ -5,24 +5,31 @@
 		"Size"
 	],
 	"package": "librust-textwrap-dev",
-	"source": "rust-textwrap (0.16.2-1)",
-	"version": "0.16.2-1+b1",
+	"source": "rust-textwrap",
+	"version": "0.16.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-smawk-0.3+default-dev (>= 0.3.2-~~)",
+		"librust-hyphenation-0.8+default-dev (>= 0.8.4)",
+		"librust-hyphenation-0.8+embed-en-us-dev (>= 0.8.4)",
+		"librust-icu-segmenter-2+auto-dev (>= 2.2)",
+		"librust-icu-segmenter-2+compiled-data-dev (>= 2.2)",
+		"librust-smawk-0.3+default-dev (>= 0.3.2)",
 		"librust-terminal-size-0.4+default-dev",
-		"librust-unicode-linebreak-0.1+default-dev (>= 0.1.5-~~)",
-		"librust-unicode-width-0.2+default-dev"
+		"librust-unicode-width-0.2+default-dev",
+		"librust-unicode-width-0.2-dev"
 	],
-	"installedSize": 233,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 244,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Word wrapping, indenting, and dedenting strings - Rust source code",
 	"homepage": "https://github.com/mgeisler/textwrap",
-	"filename": "pool/main/r/rust-textwrap/librust-textwrap-dev_0.16.2-1+b1_amd64.deb",
-	"size": 55452,
-	"md5": "7698dd494131e51a13a3c45280fe4dc8",
-	"sha256": "26e98b8d2007a9a20cc4e2f9f48fbf96534dc5893efcb2d3788456ccd6c983d9",
+	"filename": "pool/main/r/rust-textwrap/librust-textwrap-dev_0.16.4-1_amd64.deb",
+	"size": 58100,
+	"md5": "623b9da4677257b3739060894a1352de",
+	"sha256": "0e4f4e85237d6be8582804707f0b0d12228ebcbb8df67d4f1a5613876fd9b48d",
 	"descriptionMd5": "e8cc50e5c29ee084e323a9b4e7f7098f"
 }

@@ -5,31 +5,37 @@
 		"Size"
 	],
 	"package": "canu",
-	"version": "2.2+dfsg-5",
+	"version": "2.3+dfsg-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.18.0)",
 		"libgcc-s1 (>= 4.2)",
 		"libgomp1 (>= 6)",
-		"libsnappy1v5 (>= 1.1.10)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libsnappy1v5 (>= 1.3.1)",
 		"libstdc++6 (>= 11)",
+		"zlib1g (>= 1:1.1.4)",
 		"perl:any",
 		"libfilesys-df-perl",
 		"mhap",
+		"gnu-which",
+		"samtools",
 		"gnuplot-nox | gnuplot"
 	],
 	"suggests": [
 		"nanopolish"
 	],
-	"installedSize": 13027,
+	"installedSize": 43485,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "single molecule sequence assembler for genomes",
 	"homepage": "https://canu.readthedocs.org/en/latest/",
-	"filename": "pool/main/c/canu/canu_2.2+dfsg-5_amd64.deb",
-	"size": 1412904,
-	"md5": "b40a03d83fdbe16a5ed17b5e677567f4",
-	"sha256": "d99eb444575b14afce480f0492db5414c24d352612fe13b02275024249458d8d",
-	"descriptionMd5": "b3bd7163822a1d72471857eecd4e7a6e"
+	"filename": "pool/main/c/canu/canu_2.3+dfsg-1_amd64.deb",
+	"size": 4260608,
+	"md5": "420014bfcf8ec6ea9fac04b57221177d",
+	"sha256": "03bcd110088757ee33f0d3c9fc990b6ece20b7a4770150612497ef09fecd26f9",
+	"descriptionMd5": "dfb92004d9d7cddcbf07a6673e65c897"
 }]
