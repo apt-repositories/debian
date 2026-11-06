@@ -6,15 +6,27 @@
 	],
 	"package": "libspring-context-java",
 	"source": "libspring-java",
-	"version": "4.3.30-5",
+	"version": "5.1.20-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libspring-aop-java (= 4.3.30-5)",
-		"libspring-beans-java (= 4.3.30-5)",
-		"libspring-core-java (= 4.3.30-5)",
-		"libspring-expression-java (= 4.3.30-5)"
+		"groovy",
+		"libspring-aop-java (= 5.1.20-1)",
+		"libspring-beans-java (= 5.1.20-1)",
+		"libspring-core-java (= 5.1.20-1)",
+		"libspring-expression-java (= 5.1.20-1)",
+		"libspring-context-support-java (>= 5.1.20-1)",
+		"libspring-instrument-java (>= 5.1.20-1)",
+		"libspring-oxm-java (>= 5.1.20-1)",
+		"libspring-test-java (>= 5.1.20-1)",
+		"libspring-web-java (>= 5.1.20-1)",
+		"libspring-web-servlet-java (>= 5.1.20-1)",
+		"libaopalliance-java",
+		"libaspectj-java",
+		"libbsh-java",
+		"libhibernate-validator-java",
+		"libjoda-time-java"
 	],
 	"recommends": [
 		"libasm-java",
@@ -22,22 +34,20 @@
 		"libcglib-java",
 		"libgeronimo-ejb-3.2-spec-java",
 		"libgeronimo-jms-1.1-spec-java",
-		"libgeronimo-validation-1.0-spec-java",
-		"libjoda-time-java",
-		"libspring-instrument-java (= 4.3.30-5)",
+		"libgeronimo-validation-1.1-spec-java",
+		"libspring-instrument-java (= 5.1.20-1)",
 		"libtomcat11-java"
 	],
 	"suggests": [
-		"bsh",
-		"groovy"
+		"bsh"
 	],
-	"installedSize": 1149,
+	"installedSize": 1120,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "modular Java/J2EE application framework - Context",
 	"homepage": "https://spring.io/projects/spring-framework",
-	"filename": "pool/main/libs/libspring-java/libspring-context-java_4.3.30-5_all.deb",
-	"size": 980796,
-	"md5": "d121f977fd3bc67450032ed714429ae1",
-	"sha256": "5843a36752bd799166b1a257842bdf2074f47985db4ae92ef0cb7768e822175e",
+	"filename": "pool/main/libs/libspring-java/libspring-context-java_5.1.20-1_all.deb",
+	"size": 955972,
+	"md5": "5dcbfc24d1559c524ca291d81abc9edc",
+	"sha256": "bd6853233caa83bc7aa5b33d76eeae6d2b43eaef152ab2b9ca9fcd5fb9549658",
 	"descriptionMd5": "1622010480479903995766eec122b971"
 }

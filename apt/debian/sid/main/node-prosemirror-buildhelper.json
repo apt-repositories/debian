@@ -5,22 +5,26 @@
 		"Size"
 	],
 	"package": "node-prosemirror-buildhelper",
-	"version": "0.2.0-2",
+	"version": "0.2.0-3",
 	"section": "javascript",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"node-babel7",
 		"node-marijn-buildtool",
+		"node-marijn-testtool",
 		"nodejs:any"
 	],
-	"installedSize": 20,
+	"recommends": [
+		"chromium-driver"
+	],
+	"installedSize": 23,
 	"maintainer": "Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>",
 	"description": "helper scripts to build ProseMirror packages",
 	"homepage": "https://code.haverbeke.berlin/prosemirror/buildhelper",
-	"filename": "pool/main/n/node-prosemirror-buildhelper/node-prosemirror-buildhelper_0.2.0-2_all.deb",
-	"size": 4572,
-	"md5": "6a5bec0856d6a2cadb99040d54546aad",
-	"sha256": "6fe43df3ed3cdb7880ebd01e9d1b4464a45a4061b9e4fdd0e10d877d7ade35ef",
+	"filename": "pool/main/n/node-prosemirror-buildhelper/node-prosemirror-buildhelper_0.2.0-3_all.deb",
+	"size": 5240,
+	"md5": "e4bfdbaee0c6eac9355ada08cbf3a270",
+	"sha256": "4642542de254e4c5c1b98448f5f444446ef91abec5452ae6a9c7f9d041af2126",
 	"descriptionMd5": "ca29193f11f334dea475277371bef094"
 }

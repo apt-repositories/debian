@@ -6,26 +6,29 @@
 	],
 	"package": "librust-lamfold-cpio-dev",
 	"source": "rust-lamfold-cpio",
-	"version": "0.1.0-1",
+	"version": "0.1.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-cpio-reader-0.1-dev (<< 0.1.3)",
 		"librust-cpio-reader-0.1-dev (>= 0.1.2)",
-		"librust-lamfold-0.1+std-dev",
-		"librust-lamfold-0.1-dev"
+		"librust-lamfold-0.1+codec-deflate-dev (>= 0.1.5)",
+		"librust-lamfold-0.1+codec-lz4-dev (>= 0.1.5)",
+		"librust-lamfold-0.1+codec-xz-dev (>= 0.1.5)",
+		"librust-lamfold-0.1+codec-zstd-dev (>= 0.1.5)",
+		"librust-lamfold-0.1+std-dev (>= 0.1.5)",
+		"librust-lamfold-0.1-dev (>= 0.1.5)"
 	],
 	"breaks": [
 		"rustc (<< 1.87~)"
 	],
-	"installedSize": 34,
+	"installedSize": 61,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "no_std read-only cpio frontend for the lamfold media-filesystem stack",
 	"homepage": "https://lamco.ai/products/lamboot/",
-	"filename": "pool/main/r/rust-lamfold-cpio/librust-lamfold-cpio-dev_0.1.0-1_amd64.deb",
-	"size": 7872,
-	"md5": "22a0d4f27901d30315c343eae970e01d",
-	"sha256": "c7f0c8d54b27d7db14da94a06efd5d0972bed96abe656ec84a22ee1d6b90db56",
+	"filename": "pool/main/r/rust-lamfold-cpio/librust-lamfold-cpio-dev_0.1.2-1_amd64.deb",
+	"size": 16564,
+	"md5": "dca32eadb26d3236eff54bf33dba1fd1",
+	"sha256": "77fe2306e57428e010799ef927a1b35cba3e7b9cb3059c2120e80ad98100c868",
 	"descriptionMd5": "4c606a554e8f3d8aac3d8d3903fbcb50"
 }

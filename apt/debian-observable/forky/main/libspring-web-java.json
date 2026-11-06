@@ -6,35 +6,43 @@
 	],
 	"package": "libspring-web-java",
 	"source": "libspring-java",
-	"version": "4.3.30-4",
+	"version": "4.3.30-6",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libspring-beans-java (= 4.3.30-4)",
-		"libspring-context-java (= 4.3.30-4)",
-		"libspring-core-java (= 4.3.30-4)"
-	],
-	"recommends": [
-		"libspring-aop-java (= 4.3.30-4)",
-		"libspring-oxm-java (= 4.3.30-4)"
-	],
-	"suggests": [
+		"libspring-beans-java (= 4.3.30-6)",
+		"libspring-context-java (= 4.3.30-6)",
+		"libspring-core-java (= 4.3.30-6)",
+		"libspring-aop-java (>= 4.3.30-6)",
+		"libspring-oxm-java (>= 4.3.30-6)",
+		"groovy",
+		"libaopalliance-java",
 		"libcommons-fileupload-java",
+		"libcommons-logging-java",
+		"libgoogle-gson-java",
 		"libhessian-java",
-		"libjackson-json-java",
-		"libjackson2-dataformat-xml-java",
+		"libjackson2-databind-java",
 		"libnetty-java",
 		"libprotobuf-java",
+		"librome-java"
+	],
+	"recommends": [
+		"libspring-aop-java (= 4.3.30-6)",
+		"libspring-oxm-java (= 4.3.30-6)"
+	],
+	"suggests": [
+		"libjackson-json-java",
+		"libjackson2-dataformat-xml-java",
 		"libprotobuf-java-format-java"
 	],
-	"installedSize": 850,
+	"installedSize": 851,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "modular Java/J2EE application framework - Web",
 	"homepage": "https://spring.io/projects/spring-framework",
-	"filename": "pool/main/libs/libspring-java/libspring-web-java_4.3.30-4_all.deb",
-	"size": 727852,
-	"md5": "5fb8ad93efc8d47b8a60c2c11332948c",
-	"sha256": "f31e6f7761f973644f3bb479d517ef5c0b52f4be3bcecf40947958ab526421e9",
+	"filename": "pool/main/libs/libspring-java/libspring-web-java_4.3.30-6_all.deb",
+	"size": 727968,
+	"md5": "3846ec559cf5b0800e6456b09937f6d0",
+	"sha256": "0580d4f27ea03cf29013011cfcc25e4d91459c320d15ae5ac247b83fe8dd7136",
 	"descriptionMd5": "92e94b75ac6a676372ee562e8e1eca35"
 }]

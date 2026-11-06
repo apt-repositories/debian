@@ -6,24 +6,27 @@
 	],
 	"package": "librust-libz-rs-sys-dev",
 	"source": "rust-libz-rs-sys",
-	"version": "0.6.2-2",
+	"version": "0.6.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-libc-0.2+default-dev (>= 0.2.171)",
-		"librust-zlib-rs-0.6+--internal-api-dev (>= 0.6.2)",
-		"librust-zlib-rs-0.6+c-allocator-dev (>= 0.6.2)",
-		"librust-zlib-rs-0.6+rust-allocator-dev (>= 0.6.2)",
-		"librust-zlib-rs-0.6+std-dev (>= 0.6.2)"
+		"librust-zlib-rs-0.6+--internal-api-dev (>= 0.6.8)",
+		"librust-zlib-rs-0.6+c-allocator-dev (>= 0.6.8)",
+		"librust-zlib-rs-0.6+rust-allocator-dev (>= 0.6.8)",
+		"librust-zlib-rs-0.6+std-dev (>= 0.6.8)"
 	],
-	"installedSize": 344,
+	"breaks": [
+		"rustc (<< 1.75~)"
+	],
+	"installedSize": 353,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "C-compatible API for zlib-rs, the memory-safe, pure Rust implementation of zlib. - Rust source code",
+	"description": "C-compatible API for the zlib-rs implementation - Rust source code",
 	"homepage": "https://github.com/trifectatechfoundation/zlib-rs",
-	"filename": "pool/main/r/rust-libz-rs-sys/librust-libz-rs-sys-dev_0.6.2-2_amd64.deb",
-	"size": 62140,
-	"md5": "4918d9082d0d4e7ca4e9c9a2b51b4db9",
-	"sha256": "2a8f793f108a8b09adad576b00d3fd90ced252b598e8b75a2389a7db29e7cc1f",
-	"descriptionMd5": "0e3084a73821028a5477f9a8f3827be0"
+	"filename": "pool/main/r/rust-libz-rs-sys/librust-libz-rs-sys-dev_0.6.8-1_amd64.deb",
+	"size": 63052,
+	"md5": "3603344c40de726d172583fc67d036c6",
+	"sha256": "b864911c9a602f6f46015df15bb0b7701a41f61a5a8e14245cb7aace57ccf334",
+	"descriptionMd5": "09a986bf6bfaf1dd318cc19f71d56995"
 }

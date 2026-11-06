@@ -6,7 +6,7 @@
 	],
 	"package": "librust-uint-dev",
 	"source": "rust-uint",
-	"version": "0.10.0-1",
+	"version": "0.10.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -21,13 +21,16 @@
 		"librust-quickcheck-1+default-dev",
 		"librust-static-assertions-1+default-dev"
 	],
-	"installedSize": 145,
+	"breaks": [
+		"rustc (<< 1.56.1~)"
+	],
+	"installedSize": 143,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Large fixed-size integer arithmetic - Rust source code",
-	"homepage": "http://parity.io",
-	"filename": "pool/main/r/rust-uint/librust-uint-dev_0.10.0-1_amd64.deb",
-	"size": 25580,
-	"md5": "c3ab8c10a8abfc8e6fc3f7429b181d35",
-	"sha256": "978c85ab5a513cd3e134f8065da483c532531fbba4ac2df34f5c441a27919069",
+	"homepage": "https://github.com/paritytech/parity-common",
+	"filename": "pool/main/r/rust-uint/librust-uint-dev_0.10.2-1_amd64.deb",
+	"size": 26048,
+	"md5": "20ebfe1001bda638a72cc62401ceb791",
+	"sha256": "804a8ee98e5f5cf0ee8cfc31cfb43cb582a9f3ce589717177506c04e65d1db22",
 	"descriptionMd5": "7d07ff83cd389c30077b6085b76c2d6c"
 }]

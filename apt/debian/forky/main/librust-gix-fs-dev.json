@@ -6,30 +6,32 @@
 	],
 	"package": "librust-gix-fs-dev",
 	"source": "rust-gix-fs",
-	"version": "0.22.1-1",
+	"version": "0.24.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bstr-1+default-dev (>= 1.12.0)",
-		"librust-gix-features-0.49+default-dev (>= 0.49.1)",
-		"librust-gix-features-0.49+fs-read-dir-dev (>= 0.49.1)",
-		"librust-gix-path-0.12+default-dev (>= 0.12.5)",
-		"librust-gix-utils-0.3+default-dev (>= 0.3.6)",
+		"librust-document-features-0.2+default-dev",
+		"librust-gix-error-0.5+default-dev",
+		"librust-gix-parallel-0.50+default-dev",
+		"librust-gix-path-0.14+default-dev",
+		"librust-gix-utils-0.5+default-dev",
+		"librust-libc-0.2+default-dev (>= 0.2.186)",
 		"librust-serde-1+derive-dev (>= 1.0.114)",
 		"librust-serde-1+std-dev (>= 1.0.114)",
-		"librust-thiserror-2+default-dev (>= 2.0.18)"
+		"librust-walkdir-2+default-dev (>= 2.3.2)"
 	],
 	"breaks": [
-		"rustc (<< 1.85~)"
+		"rustc (<< 1.88~)"
 	],
-	"installedSize": 85,
+	"installedSize": 100,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Crate providing file system specific utilities to `gitoxide` - Rust source code",
 	"homepage": "https://github.com/GitoxideLabs/gitoxide",
-	"filename": "pool/main/r/rust-gix-fs/librust-gix-fs-dev_0.22.1-1_amd64.deb",
-	"size": 19752,
-	"md5": "f4a663f3c431f8bd93854d3878ec19e6",
-	"sha256": "a0c657875308bd30e02dedcf4bf32011ce29f3051e96793735d358cfd37f2057",
+	"filename": "pool/main/r/rust-gix-fs/librust-gix-fs-dev_0.24.0-1_amd64.deb",
+	"size": 23640,
+	"md5": "a05ca7873df94d20367e63e6869a4884",
+	"sha256": "d829f993aa21ca2a3d63308d4b5f5724d83968285fe52d39d5a8a87a093f69cf",
 	"descriptionMd5": "09ca124cceea5be4eeb9ab571230402b"
 }

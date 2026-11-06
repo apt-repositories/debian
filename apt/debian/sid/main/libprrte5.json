@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libprrte5",
+	"source": "prrte",
+	"version": "5.0.0~rc1-3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libhwloc15 (>= 2.15.0)",
+		"libpmix2t64 (>= 7.0.0~rc1)"
+	],
+	"replaces": [
+		"libopenmpi40 (<< 5.0.9-5)"
+	],
+	"breaks": [
+		"libopenmpi40 (<< 5.0.9-5)"
+	],
+	"installedSize": 2457,
+	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+	"description": "PMix Reference Run Time Environment - Library",
+	"homepage": "https://github.com/pmix/prrte",
+	"filename": "pool/main/p/prrte/libprrte5_5.0.0~rc1-3_amd64.deb",
+	"size": 724088,
+	"md5": "ca081b6b1925bd80347c4fbbd2a1136e",
+	"sha256": "f2e54712dd1d0a94b4cd69ef92ef5fe7ccad5ecf48776bd87e5818cc10bf5545",
+	"descriptionMd5": "60cabea2ebbee8f61821ec2562f15c62"
+}
