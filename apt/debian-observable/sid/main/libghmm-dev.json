@@ -5,22 +5,24 @@
 		"Size"
 	],
 	"package": "libghmm-dev",
-	"source": "ghmm (0.9~rc3-12)",
-	"version": "0.9~rc3-12+b1",
+	"source": "ghmm",
+	"version": "0.9~rc3-14",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libghmm1t64 (<< 0.9~rc3+1)",
 		"libghmm1t64 (>= 0.9~rc3)",
-		"libghmm1t64 (<< 0.9~rc3+1)"
+		"liblapacke-dev",
+		"libxml2-dev"
 	],
-	"installedSize": 894,
+	"installedSize": 903,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "General Hidden-Markov-Model library - header files",
 	"homepage": "https://sourceforge.net/p/ghmm/wiki/Home/",
-	"filename": "pool/main/g/ghmm/libghmm-dev_0.9~rc3-12+b1_amd64.deb",
-	"size": 189628,
-	"md5": "a1ccd610d12149d0656c9a4f496d2794",
-	"sha256": "a179321c796a74d9c238c0ec5dfe6a8e97e0dc7a4da44d0598152f1e22c5f7bc",
+	"filename": "pool/main/g/ghmm/libghmm-dev_0.9~rc3-14_amd64.deb",
+	"size": 198004,
+	"md5": "6f51a644a0677b646589d264efd003fc",
+	"sha256": "f37b7b7c778dc0e41c0d32f88ce8a2f2b7d35c03bd672f91e3f0c27f41580024",
 	"descriptionMd5": "982980946e2be35abd68ee3d5ddbba46"
 }]

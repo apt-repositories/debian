@@ -6,7 +6,7 @@
 	],
 	"package": "librust-tower-lsp-server-dev",
 	"source": "rust-tower-lsp-server",
-	"version": "0.23.0-1",
+	"version": "0.23.0-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,7 +18,6 @@
 		"librust-futures-0.3+std-dev",
 		"librust-httparse-1+default-dev",
 		"librust-ls-types-0.0+default-dev",
-		"librust-ls-types-0.0+proposed-dev",
 		"librust-memchr-2+default-dev",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
@@ -29,13 +28,16 @@
 		"librust-tower-0.5+util-dev",
 		"librust-tracing-0.1+default-dev"
 	],
-	"installedSize": 333,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 347,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Language Server Protocol implementation based on Tower - Rust source code",
 	"homepage": "https://github.com/tower-lsp-community/tower-lsp-server",
-	"filename": "pool/main/r/rust-tower-lsp-server/librust-tower-lsp-server-dev_0.23.0-1_amd64.deb",
-	"size": 63440,
-	"md5": "693e02ed7cfb7594e8afb08e7f2d5ff2",
-	"sha256": "31e7ec79f1b35dd3d5ea25344375fdea92839550d64affb3ad3b6b6194fa0411",
+	"filename": "pool/main/r/rust-tower-lsp-server/librust-tower-lsp-server-dev_0.23.0-2_amd64.deb",
+	"size": 64848,
+	"md5": "e3c933461abc6dd4a2c987e53760a297",
+	"sha256": "60b66ae7583d0e10b8a98b99d85a80f7620cd099759b70aaed9cd5efafda3ca3",
 	"descriptionMd5": "4a237dd0e78d283f9930bb2574719e6b"
 }]

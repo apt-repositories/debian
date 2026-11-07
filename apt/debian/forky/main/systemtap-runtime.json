@@ -6,20 +6,19 @@
 	],
 	"package": "systemtap-runtime",
 	"source": "systemtap",
-	"version": "5.5-1",
+	"version": "5.6-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.38)",
 		"libdebuginfod1t64 (>= 0.180)",
 		"libelf1t64 (>= 0.142)",
 		"libgcc-s1 (>= 3.0)",
 		"libnspr4 (>= 2:4.9-2~)",
-		"libnss3 (>= 2:3.13.4-2~)",
-		"libstdc++6 (>= 13.1)",
-		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles"
+		"libnss3 (>= 2:3.22)",
+		"libstdc++6 (>= 13.1)"
 	],
 	"suggests": [
 		"systemtap"
@@ -30,13 +29,13 @@
 	"breaks": [
 		"systemtap (<< 0.0.20081220-1)"
 	],
-	"installedSize": 572,
+	"installedSize": 616,
 	"maintainer": "Debian QA Group <packages@qa.debian.org>",
 	"description": "instrumentation system for Linux (runtime component)",
-	"homepage": "http://sourceware.org/systemtap/",
-	"filename": "pool/main/s/systemtap/systemtap-runtime_5.5-1_amd64.deb",
-	"size": 147524,
-	"md5": "0ea6541aa2efa8d9c174ebb05278be9b",
-	"sha256": "da1aa3ff5b72aa9a560cad9035339d10ec57eafc590cfcadc30322c3c6103ff0",
+	"homepage": "https://sourceware.org/systemtap/",
+	"filename": "pool/main/s/systemtap/systemtap-runtime_5.6-1_amd64.deb",
+	"size": 162236,
+	"md5": "42756250f63b9ee20b08a7a2477fe5e5",
+	"sha256": "89a313745244dc7518f93022cf2176aa72009b4502c612683dc72b56ace2cf1a",
 	"descriptionMd5": "3b8442240972060b39c7cabf63a3eb04"
 }

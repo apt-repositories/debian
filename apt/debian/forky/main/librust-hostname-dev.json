@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-hostname-dev",
-	"source": "rust-hostname (0.4.1-2)",
-	"version": "0.4.1-2+b1",
+	"source": "rust-hostname",
+	"version": "0.4.2-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-cfg-if-1+default-dev",
 		"librust-libc-0.2+default-dev"
 	],
-	"installedSize": 62,
+	"breaks": [
+		"rustc (<< 1.74~)"
+	],
+	"installedSize": 61,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Cross-platform system's host name functions - Rust source code",
-	"homepage": "https://github.com/svartalf/hostname",
-	"filename": "pool/main/r/rust-hostname/librust-hostname-dev_0.4.1-2+b1_amd64.deb",
-	"size": 11872,
-	"md5": "d9c47d54af62413aa8a66d2e0e403d3a",
-	"sha256": "ec0c04669fc2526711f19e61f5afe484918c7e0c19d604b4e4e8d877bca8ac8e",
+	"homepage": "https://github.com/djc/hostname",
+	"filename": "pool/main/r/rust-hostname/librust-hostname-dev_0.4.2-1_amd64.deb",
+	"size": 10524,
+	"md5": "e3c9ae61490502d000564e691f761bfb",
+	"sha256": "15efa45f6ccebc39bc4806ac5f687c5693efb277652647b3313c16a3d782118b",
 	"descriptionMd5": "09311d9cb14b9891962a98ad3ac9f112"
 }

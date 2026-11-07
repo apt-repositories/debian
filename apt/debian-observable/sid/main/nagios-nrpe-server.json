@@ -6,19 +6,18 @@
 	],
 	"package": "nagios-nrpe-server",
 	"source": "nagios-nrpe",
-	"version": "4.1.3-1",
+	"version": "4.2.0-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"sysvinit-utils (>= 3.05-4~)",
-		"libc6 (>= 2.34)",
+		"libc6 (>= 2.38)",
 		"libssl3t64 (>= 3.0.0)",
 		"libwrap0 (>= 7.6-4~)"
 	],
 	"preDepends": [
-		"adduser",
-		"init-system-helpers (>= 1.54~)"
+		"adduser"
 	],
 	"recommends": [
 		"monitoring-plugins-basic | monitoring-plugins"
@@ -29,13 +28,13 @@
 	"conflicts": [
 		"nagios-nrpe-doc"
 	],
-	"installedSize": 466,
+	"installedSize": 468,
 	"maintainer": "Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>",
 	"description": "Nagios Remote Plugin Executor Server",
 	"homepage": "https://github.com/NagiosEnterprises/nrpe",
-	"filename": "pool/main/n/nagios-nrpe/nagios-nrpe-server_4.1.3-1_amd64.deb",
-	"size": 364700,
-	"md5": "11b417cf147f5344d7ea9200cacbcd7d",
-	"sha256": "1997febf727594ad6399b51cb769316172726367eb37bec806bda65cc7ac9096",
+	"filename": "pool/main/n/nagios-nrpe/nagios-nrpe-server_4.2.0-1_amd64.deb",
+	"size": 368032,
+	"md5": "8538d79c4f9513b298cea3f64b5ef305",
+	"sha256": "50fdecb6f702caaa3bce72ccc7bcfafbb5c0d65e22f9d9826aecbce9afec5724",
 	"descriptionMd5": "a71d7976e91380d8197e4fb0bcdc04a9"
 }]

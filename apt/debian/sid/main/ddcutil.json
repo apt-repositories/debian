@@ -5,11 +5,15 @@
 		"Size"
 	],
 	"package": "ddcutil",
-	"version": "2.2.7-1",
+	"version": "3.0.2-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"pci.ids",
+		"usb.ids",
+		"usbutils",
+		"i2c-tools",
 		"libacl1 (>= 2.2.23)",
 		"libc6 (>= 2.38)",
 		"libdbus-1-3 (>= 1.10)",
@@ -19,19 +23,15 @@
 		"libudev1 (>= 183)",
 		"libx11-6",
 		"libxext6",
-		"libxrandr2 (>= 2:1.2.99.2)",
-		"pci.ids",
-		"usb.ids",
-		"usbutils",
-		"i2c-tools"
+		"libxrandr2 (>= 2:1.2.99.2)"
 	],
-	"installedSize": 1509,
-	"maintainer": "Nicolas Schodet <nico@ni.fr.eu.org>",
+	"installedSize": 1614,
+	"maintainer": "Nicolas Schodet <nschodet@debian.org>",
 	"description": "Control monitor settings - Standalone command line application",
 	"homepage": "https://www.ddcutil.com",
-	"filename": "pool/main/d/ddcutil/ddcutil_2.2.7-1_amd64.deb",
-	"size": 520404,
-	"md5": "2974090c7e15d1a3b41a1424c8cb620c",
-	"sha256": "22e3056fa93559b71bb962974b54c7655ed6bb76525e9085b758e6d5c5b84c27",
+	"filename": "pool/main/d/ddcutil/ddcutil_3.0.2-1_amd64.deb",
+	"size": 567200,
+	"md5": "63114ce68eab16903fee97e458f9ba92",
+	"sha256": "05aeaa095d201e9ce1af719e4add4a4a1f823c4e049c1c70ae170ddaba4affbb",
 	"descriptionMd5": "4edd4b04df8fc05f6e606ecac2414dec"
 }

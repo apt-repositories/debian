@@ -31,8 +31,46 @@
 	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
 	"description": "help sending emails",
 	"homepage": "https://symfony.com/doc/6.4/components/mailer.html",
-	"filename": "pool/updates/main/s/symfony/php-symfony-mailer_6.4.41+dfsg-0+deb13u1_all.deb",
+	"filename": "pool/main/s/symfony/php-symfony-mailer_6.4.41+dfsg-0+deb13u1_all.deb",
 	"size": 43604,
+	"md5": "a1003f76e1b2590b4e44b0ef55e0b33a",
 	"sha256": "4acc053a4ab6429fb2a003445eeee2dcb55615fa15c35e936fc7131e1191415f",
+	"descriptionMd5": "4025081749f53af1b72394425800796b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php-symfony-mailer",
+	"source": "symfony",
+	"version": "6.4.49+dfsg-0+deb13u1",
+	"section": "php",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"php-common",
+		"php-email-validator",
+		"php-psr-event-dispatcher (>= 1)",
+		"php-psr-event-dispatcher (<< 2~~)",
+		"php-psr-log",
+		"php-symfony-event-dispatcher",
+		"php-symfony-mime",
+		"php-symfony-service-contracts"
+	],
+	"breaks": [
+		"php-symfony-http-client-contracts (<< 2.5~~)",
+		"php-symfony-http-kernel (<< 5.4~~)",
+		"php-symfony-messenger (<< 6.2~~)",
+		"php-symfony-mime (<< 6.2~~)",
+		"php-symfony-twig-bridge (<< 6.2.1~~)"
+	],
+	"installedSize": 227,
+	"maintainer": "Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>",
+	"description": "help sending emails",
+	"homepage": "https://symfony.com/doc/6.4/components/mailer.html",
+	"filename": "pool/updates/main/s/symfony/php-symfony-mailer_6.4.49+dfsg-0+deb13u1_all.deb",
+	"size": 44536,
+	"sha256": "fec62f290b7635d6bff078f57751857c4fcefc329068740c2cde458f34e6f65a",
 	"descriptionMd5": "4025081749f53af1b72394425800796b"
 }]

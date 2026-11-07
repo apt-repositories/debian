@@ -6,20 +6,23 @@
 	],
 	"package": "librust-path-facts-dev",
 	"source": "rust-path-facts",
-	"version": "0.2.1-1",
+	"version": "0.4.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-faccess-0.2+default-dev (>= 0.2.4-~~)"
+		"librust-faccess-0.2+default-dev (>= 0.2.4)"
 	],
-	"installedSize": 117,
+	"breaks": [
+		"rustc (<< 1.79.0~)"
+	],
+	"installedSize": 356,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "You've subscribed to PATH FACTS: Tidy filesystem information to help debug unexpected errors - Rust source code",
+	"description": "Tidy filesystem information for unexpected path errors - Rust source code",
 	"homepage": "https://github.com/schneems/path_facts",
-	"filename": "pool/main/r/rust-path-facts/librust-path-facts-dev_0.2.1-1_amd64.deb",
-	"size": 22968,
-	"md5": "942504418965de5fdab1b132212e4463",
-	"sha256": "129904eff34c3ac4d360792323398eec640fcd5f5d110fe895ae70e3922d9e69",
-	"descriptionMd5": "41b7b602a96e39e8881950b9af80547c"
+	"filename": "pool/main/r/rust-path-facts/librust-path-facts-dev_0.4.0-1_amd64.deb",
+	"size": 73788,
+	"md5": "a5dcecbf1b4f990d2274058bfdb1b5dc",
+	"sha256": "0a5399ddca5fbe7038702f821df12ddd6d8f995f280061358f1e7697a89df302",
+	"descriptionMd5": "4d617557961d18ed5352ade337d3edbc"
 }

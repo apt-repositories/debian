@@ -6,23 +6,29 @@
 	],
 	"package": "libspring-web-portlet-java",
 	"source": "libspring-java",
-	"version": "4.3.30-4",
+	"version": "4.3.30-6",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libspring-web-servlet-java (= 4.3.30-4)"
+		"libspring-web-servlet-java (= 4.3.30-6)",
+		"libspring-beans-java (>= 4.3.30-6)",
+		"libspring-context-java (>= 4.3.30-6)",
+		"libspring-core-java (>= 4.3.30-6)",
+		"libspring-web-java (>= 4.3.30-6)",
+		"libcommons-fileupload-java",
+		"libcommons-logging-java"
 	],
 	"recommends": [
 		"libportlet-api-2.0-spec-java"
 	],
-	"installedSize": 204,
+	"installedSize": 205,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "modular Java/J2EE application framework - Portlet MVC",
 	"homepage": "https://spring.io/projects/spring-framework",
-	"filename": "pool/main/libs/libspring-java/libspring-web-portlet-java_4.3.30-4_all.deb",
-	"size": 162304,
-	"md5": "00e499a2658fa4f5d070e5fb798ef65d",
-	"sha256": "a68b98797a92b47a193a92bafb26881d9d360eae386185ce2263dbc73b097145",
+	"filename": "pool/main/libs/libspring-java/libspring-web-portlet-java_4.3.30-6_all.deb",
+	"size": 162124,
+	"md5": "fd92358ce0a20543a36eb2cd71ddcd54",
+	"sha256": "992a74bc8de7790488648098815875e4addc9bad40ac5dd3dcbc3591aacb4c52",
 	"descriptionMd5": "183e283ccb55f87c4165b7897f492e02"
 }]

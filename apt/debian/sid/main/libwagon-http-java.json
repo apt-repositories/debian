@@ -6,17 +6,16 @@
 	],
 	"package": "libwagon-http-java",
 	"source": "wagon",
-	"version": "3.5.3-2",
+	"version": "3.5.3-3",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libcommons-io-java",
-		"libhttpcore-java",
-		"libhttpclient-java",
-		"libjsoup-java",
-		"libslf4j-java",
-		"libwagon-provider-api-java (>= 3.5.3-2)"
+		"libhttpclient-java (>= 4.5.14)",
+		"libhttpcore-java (>= 4.4.16)",
+		"libplexus-utils2-java (>= 3.6.2)",
+		"libslf4j-java (>= 1.7.36)",
+		"libwagon-provider-api-java (>= 3.5.3-3)"
 	],
 	"replaces": [
 		"libwagon-java (<< 3.0.0-2~)"
@@ -28,9 +27,9 @@
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Artifact transport abstraction used in Maven (HTTP providers)",
 	"homepage": "http://maven.apache.org/wagon/",
-	"filename": "pool/main/w/wagon/libwagon-http-java_3.5.3-2_all.deb",
-	"size": 49604,
-	"md5": "09db3fbe802d602693503f690745cbc9",
-	"sha256": "fff9bd6f3faba4212d1dc2fb471071f6e088e8f15c2760da518f5762ee75350c",
+	"filename": "pool/main/w/wagon/libwagon-http-java_3.5.3-3_all.deb",
+	"size": 49808,
+	"md5": "43420bd09c586ab9a082dcaec57b4bac",
+	"sha256": "49d8e0ac3f392488e258f832652ea1752bf6b1a96c544ae027a10af3c1dd22a6",
 	"descriptionMd5": "179691db9fd9cfa70061c8089afeafc6"
 }
