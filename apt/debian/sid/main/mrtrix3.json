@@ -5,11 +5,12 @@
 		"Size"
 	],
 	"package": "mrtrix3",
-	"version": "3.0.8-2",
+	"version": "3.0.8-4",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"python3",
 		"libc6 (>= 2.43)",
 		"libfftw3-double3 (>= 3.3.11)",
 		"libgcc-s1 (>= 4.0)",
@@ -21,27 +22,26 @@
 		"libqt5widgets5t64 (>= 5.15.1)",
 		"libstdc++6 (>= 14)",
 		"libtiff6 (>= 4.0.3)",
-		"zlib1g (>= 1:1.1.4)",
-		"python3"
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"recommends": [
 		"python3-numpy"
 	],
 	"suggests": [
+		"matlab-support",
 		"mrtrix3-doc",
-		"octave",
-		"matlab-support"
+		"octave"
 	],
 	"conflicts": [
 		"mrtrix"
 	],
-	"installedSize": 59101,
+	"installedSize": 59172,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "diffusion-weighted MRI white matter tractography",
 	"homepage": "https://www.mrtrix.org",
-	"filename": "pool/main/m/mrtrix3/mrtrix3_3.0.8-2_amd64.deb",
-	"size": 10748384,
-	"md5": "e35061d798169fc14b333ef1b7768281",
-	"sha256": "18f9fd2657fecaaaa3aec675c1134de85f0592e983bcf704723a22a2deed0c03",
+	"filename": "pool/main/m/mrtrix3/mrtrix3_3.0.8-4_amd64.deb",
+	"size": 10757996,
+	"md5": "6b7b04e79e696a629737517b308fb5e8",
+	"sha256": "d42fc4a977f5c38e1b5802a8a2c275888d354c3a759852e34fbe78db49a132ed",
 	"descriptionMd5": "964e3efc7d8a8c7964b0809c29eee57b"
 }

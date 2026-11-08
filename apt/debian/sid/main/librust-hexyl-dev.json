@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-hexyl-dev",
-	"source": "rust-hexyl (0.16.0-4)",
-	"version": "0.16.0-4+b3",
+	"source": "rust-hexyl",
+	"version": "0.16.0+ds-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,13 +22,16 @@
 		"librust-terminal-size-0.4+default-dev",
 		"librust-thiserror-1+default-dev"
 	],
-	"installedSize": 210,
+	"breaks": [
+		"rustc (<< 1.74~)"
+	],
+	"installedSize": 211,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Command-line hex viewer - Rust source code",
 	"homepage": "https://github.com/sharkdp/hexyl",
-	"filename": "pool/main/r/rust-hexyl/librust-hexyl-dev_0.16.0-4+b3_amd64.deb",
-	"size": 39680,
-	"md5": "91a03d560e6d7d0765fae0aeef396aa9",
-	"sha256": "834fa3b610d859dc068823153bb434a3af024489f8efc81e66453f7f06ad5444",
+	"filename": "pool/main/r/rust-hexyl/librust-hexyl-dev_0.16.0+ds-1_amd64.deb",
+	"size": 40452,
+	"md5": "3cf1c207b8f8c69e98398eaad01042c6",
+	"sha256": "c304dc291589537f3774bcde720ab3814e7a11d05521b64866138ef1e8d7e553",
 	"descriptionMd5": "fb2d7380a823a77f64579542c2b61711"
 }

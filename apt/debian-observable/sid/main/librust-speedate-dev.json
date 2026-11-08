@@ -6,23 +6,26 @@
 	],
 	"package": "librust-speedate-dev",
 	"source": "rust-speedate",
-	"version": "0.17.0-2",
+	"version": "0.18.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-lexical-parse-float-1+default-dev (>= 1.0.5)",
-		"librust-strum-0.28+default-dev",
+		"librust-arrayvec-0.7-dev (>= 0.7.8)",
+		"librust-lexical-parse-float-1-dev (>= 1.0.6)",
 		"librust-strum-0.28+derive-dev",
 		"librust-strum-macros-0.28+default-dev"
 	],
-	"installedSize": 216,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 218,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Fast and simple datetime, date, time and duration parsing - Rust source code",
 	"homepage": "https://github.com/pydantic/speedate/",
-	"filename": "pool/main/r/rust-speedate/librust-speedate-dev_0.17.0-2_amd64.deb",
-	"size": 34536,
-	"md5": "07975333599bb2e36ea7c35076c1b8f2",
-	"sha256": "3cd60c1f5c4e11c6eed55ed7f5f823734cb89ed2dc2da677e07b1aa57617e673",
+	"filename": "pool/main/r/rust-speedate/librust-speedate-dev_0.18.0-1_amd64.deb",
+	"size": 35716,
+	"md5": "8e3a8794f9d1c9cd84ea1f98bfde9ed6",
+	"sha256": "a5a24cb60f474cf2b13727c72d442106ccda1d14a12de69c1c9f941db1e3cb6a",
 	"descriptionMd5": "c1b9463b8809b1b58d9e0d0bd6f8213a"
 }]
