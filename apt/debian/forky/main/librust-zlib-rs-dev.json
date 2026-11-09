@@ -6,7 +6,7 @@
 	],
 	"package": "librust-zlib-rs-dev",
 	"source": "rust-zlib-rs",
-	"version": "0.6.2-3",
+	"version": "0.6.8-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,13 +15,16 @@
 		"librust-arbitrary-1+derive-dev",
 		"librust-quickcheck-1-dev (>= 1.0.3)"
 	],
-	"installedSize": 787,
+	"breaks": [
+		"rustc (<< 1.75~)"
+	],
+	"installedSize": 818,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Memory-safe, pure Rust implementation of zlib. - Rust source code",
 	"homepage": "https://github.com/trifectatechfoundation/zlib-rs",
-	"filename": "pool/main/r/rust-zlib-rs/librust-zlib-rs-dev_0.6.2-3_amd64.deb",
-	"size": 183432,
-	"md5": "bb4321459b92659a9193f252523e4e04",
-	"sha256": "9029d2f0bf10216f872e7452bc8a7e7217a72a591e3da6f314df65870ade7640",
+	"filename": "pool/main/r/rust-zlib-rs/librust-zlib-rs-dev_0.6.8-1_amd64.deb",
+	"size": 187524,
+	"md5": "0621245c0c4c5b13c79694b54aa30b5d",
+	"sha256": "54f0a956a495e745debfffbee140a0667afd488dac0cd5b5f8ee91c712ed77d7",
 	"descriptionMd5": "9999187cfe88559683a63cab0471a2ce"
 }

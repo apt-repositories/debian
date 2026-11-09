@@ -6,28 +6,33 @@
 	],
 	"package": "liblogback-java",
 	"source": "logback",
-	"version": "1:1.6.3-2",
+	"version": "1:1.6.3-3",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libslf4j2-java (>= 2.0.17)"
+		"groovy",
+		"libjakarta-mail-java",
+		"libjakarta-servlet-api-java",
+		"libjansi-java",
+		"libslf4j2-java (>= 2.0.19)",
+		"libxz-java"
 	],
 	"suggests": [
 		"liblogback-access-java",
 		"libjakarta-activation-java",
 		"libjakarta-mail-java (>= 2.0.0)",
 		"libjakarta-servlet-api-java (>= 6.1.0)",
-		"libjansi-java (>= 2.4.2)",
+		"libjansi-java (>= 2.4.3)",
 		"libxz-java (>= 1.12)"
 	],
 	"installedSize": 994,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "flexible logging library for Java",
 	"homepage": "https://logback.qos.ch",
-	"filename": "pool/main/l/logback/liblogback-java_1.6.3-2_all.deb",
-	"size": 839148,
-	"md5": "cd8bc3964f5e61d0254677f83723784a",
-	"sha256": "f106c47df068a34a8e5e6390cb310c29aa79abaff4ef47c2f4a6e663fbb94c34",
+	"filename": "pool/main/l/logback/liblogback-java_1.6.3-3_all.deb",
+	"size": 839740,
+	"md5": "d4b77176a78e0864985c11114414a6c5",
+	"sha256": "f3d88ac0bd3520003c283a8709615f90d2e9696ad6984b902e700979c2b5e2c9",
 	"descriptionMd5": "c911f2163fbb79f27f505654b1afb151"
 }]

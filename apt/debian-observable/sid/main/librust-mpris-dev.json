@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-mpris-dev",
-	"source": "rust-mpris (2.0.1-2)",
-	"version": "2.0.1-2+b1",
+	"source": "rust-mpris",
+	"version": "2.1.0+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-dbus-0.9+default-dev (>= 0.9.6-~~)",
-		"librust-enum-kinds-0.5+default-dev (>= 0.5.1-~~)",
-		"librust-thiserror-1+default-dev (>= 1.0.37-~~)"
+		"librust-dbus-0.9+default-dev (>= 0.9.6)",
+		"librust-enum-kinds-0.5+default-dev (>= 0.5.1)",
+		"librust-thiserror-2+default-dev"
 	],
-	"installedSize": 285,
+	"breaks": [
+		"rustc (<< 1.54.0~)"
+	],
+	"installedSize": 282,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Idiomatic MPRIS D-Bus interface library - Rust source code",
 	"homepage": "https://github.com/Mange/mpris-rs",
-	"filename": "pool/main/r/rust-mpris/librust-mpris-dev_2.0.1-2+b1_amd64.deb",
-	"size": 52424,
-	"md5": "aef4c98c793f9d8de299e3a8e9144718",
-	"sha256": "55360543730a4dc92edda1190b6d9f73986ce1d037578c0068e82c4e37a8c821",
+	"filename": "pool/main/r/rust-mpris/librust-mpris-dev_2.1.0+ds-1_amd64.deb",
+	"size": 52336,
+	"md5": "4929f55f1e57ee0176051afeac2341a0",
+	"sha256": "933167f7af837d8c642dbc1301c6f237ab1e9249bf1f2bb8586f21a15c28f99c",
 	"descriptionMd5": "6876c8edffb99739d6d79fd5a06fb0a0"
 }]

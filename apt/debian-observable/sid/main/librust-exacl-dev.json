@@ -5,28 +5,31 @@
 		"Size"
 	],
 	"package": "librust-exacl-dev",
-	"source": "rust-exacl (0.10.0-5)",
-	"version": "0.10.0-5+b1",
+	"source": "rust-exacl",
+	"version": "0.13.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bindgen-0+default-dev (>= 0.71-~~)",
-		"librust-bitflags-1+default-dev (>= 1.2.1-~~)",
-		"librust-log-0.4+default-dev (>= 0.4.11-~~)",
-		"librust-scopeguard-1+default-dev (>= 1.1.0-~~)",
+		"librust-bindgen-0.72+default-dev (>= 0.72.1)",
+		"librust-bitflags-2+default-dev (>= 2.11.1)",
+		"librust-log-0.4+default-dev (>= 0.4.29)",
+		"librust-scopeguard-1+default-dev (>= 1.2.0)",
 		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
-		"librust-uuid-1+default-dev (>= 1.1.1-~~)",
+		"librust-uuid-1+default-dev (>= 1.23.1)",
 		"libacl1-dev"
 	],
-	"installedSize": 397,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 416,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Manipulate file system access control lists (ACL) on macOS, Linux, and FreeBSD - Rust source code",
 	"homepage": "https://github.com/byllyfish/exacl",
-	"filename": "pool/main/r/rust-exacl/librust-exacl-dev_0.10.0-5+b1_amd64.deb",
-	"size": 51036,
-	"md5": "063814f80a5dd48e50b94c9b1595dff5",
-	"sha256": "ef7e21f6bc8b5f9caa0b9f27dc9fd97be5b6e9abf25215de5ce00833ab6db75a",
+	"filename": "pool/main/r/rust-exacl/librust-exacl-dev_0.13.0-1_amd64.deb",
+	"size": 56600,
+	"md5": "68889a17ab65821a6082c918c7113e01",
+	"sha256": "0afa686258bb8a9870a0e5eab4be6aadaca66e8ad715da166a2d10595e4fba40",
 	"descriptionMd5": "fae4cd05883e6f3aab4af089ef1ac8ba"
 }]

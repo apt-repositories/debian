@@ -6,14 +6,14 @@
 	],
 	"package": "libamdhip64-dev",
 	"source": "rocm-hipamd",
-	"version": "6.4.3-5",
+	"version": "6.4.3-6",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libamdhip64-6 (= 6.4.3-5)",
-		"libhiprtc-builtins6 (= 6.4.3-5)",
-		"libhiprtc6 (= 6.4.3-5)",
+		"libamdhip64-6 (= 6.4.3-6)",
+		"libhiprtc-builtins6 (= 6.4.3-6)",
+		"libhiprtc6 (= 6.4.3-6)",
 		"libamd-comgr-dev",
 		"libhsa-runtime-dev"
 	],
@@ -21,13 +21,19 @@
 		"hipcc",
 		"hip-utils"
 	],
-	"installedSize": 2206,
+	"replaces": [
+		"libxrt-dev (<< 1:2.25.0-3)"
+	],
+	"breaks": [
+		"libxrt-dev (<< 1:2.25.0-3)"
+	],
+	"installedSize": 2204,
 	"maintainer": "Debian ROCm Team <debian-ai@lists.debian.org>",
 	"description": "HIP runtime for AMD GPUs - headers",
 	"homepage": "https://github.com/ROCm/clr",
-	"filename": "pool/main/r/rocm-hipamd/libamdhip64-dev_6.4.3-5_amd64.deb",
-	"size": 225668,
-	"md5": "90db34ea8473af2f860a8775955e592c",
-	"sha256": "f2a3a542d41883f87a45e2d0554c1c84ccf350c836b9e8b35473dadbc34ced5e",
+	"filename": "pool/main/r/rocm-hipamd/libamdhip64-dev_6.4.3-6_amd64.deb",
+	"size": 223544,
+	"md5": "d0097134ae7058fd0029443971e3ecb4",
+	"sha256": "4bf53e574956fa80303dd516c89d286d1735e8cc06ac27d786eb3d842099e00c",
 	"descriptionMd5": "569f965fbfbc13584bc2cdf7740ebdc0"
 }]

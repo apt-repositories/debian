@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "mediawiki",
-	"version": "1:1.43.11+dfsg-1",
+	"version": "1:1.43.11+dfsg-3",
 	"section": "web",
 	"priority": "optional",
 	"architecture": "all",
@@ -18,10 +18,10 @@
 		"php-mysql | php-pgsql | php-sqlite3 | php-mysqlnd",
 		"php-mbstring",
 		"php-xml",
-		"mediawiki-classes (= 1:1.43.11+dfsg-1)"
+		"mediawiki-classes (= 1:1.43.11+dfsg-3)"
 	],
 	"recommends": [
-		"default-mysql-server | virtual-mysql-server | postgresql-contrib | php-sqlite3",
+		"mariadb-server-compat | mysql-server | postgresql-contrib | php-sqlite3",
 		"php-cli",
 		"php-apcu",
 		"php-curl",
@@ -57,13 +57,13 @@
 		"mediawiki-extensions-openid (<< 2.8~)",
 		"mediawiki-skin-greystuff (<< 1.2.5~)"
 	],
-	"installedSize": 272552,
+	"installedSize": 272553,
 	"maintainer": "MediaWiki packaging team <mediawiki-debian@lists.wikimedia.org>",
 	"description": "website engine for collaborative work",
 	"homepage": "https://www.mediawiki.org/",
-	"filename": "pool/main/m/mediawiki/mediawiki_1.43.11+dfsg-1_all.deb",
-	"size": 51991876,
-	"md5": "300b477a4d091eac5265e90056184502",
-	"sha256": "e86115cec450c247105a269770f2e8e45cd4e486e7203f71a694e78aa2d43a6c",
+	"filename": "pool/main/m/mediawiki/mediawiki_1.43.11+dfsg-3_all.deb",
+	"size": 51987496,
+	"md5": "454f6b4fc630e176b152113cf2e57b08",
+	"sha256": "ed74897e9053b7a5b461a4a38b4b5aa9a462e78053cef6c345ba6f3ff2dc39ba",
 	"descriptionMd5": "10b0384e0585cc1980b9b8f319e0b202"
 }]

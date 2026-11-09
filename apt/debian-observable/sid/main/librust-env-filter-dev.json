@@ -6,7 +6,7 @@
 	],
 	"package": "librust-env-filter-dev",
 	"source": "rust-env-filter",
-	"version": "1.0.1-1",
+	"version": "2.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,16 @@
 		"librust-regex-1+perf-dev (>= 1.12.3)",
 		"librust-regex-1+std-dev (>= 1.12.3)"
 	],
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
 	"installedSize": 85,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Filter log events using environment variables - Rust source code",
 	"homepage": "https://github.com/rust-cli/env_logger",
-	"filename": "pool/main/r/rust-env-filter/librust-env-filter-dev_1.0.1-1_amd64.deb",
-	"size": 15204,
-	"md5": "f1e7a3d6fe3ad079b4bf6d10357a0f56",
-	"sha256": "89ca527795e0d888635613a39d521146f66c188f7a290387ad10a0ee7a7fb9cf",
+	"filename": "pool/main/r/rust-env-filter/librust-env-filter-dev_2.0.0-1_amd64.deb",
+	"size": 15416,
+	"md5": "010712e8784d12193d4b6bc830f04b54",
+	"sha256": "4c2b2a92f0b3e8211b7387d631866f1ce8a5290e92ac4edb1329271199ec3605",
 	"descriptionMd5": "a2b701e28c99ffb8d23c67084375e6af"
 }]

@@ -6,7 +6,7 @@
 	],
 	"package": "wsjtx-doc",
 	"source": "wsjtx",
-	"version": "3.3.0~beta2+dfsg-1",
+	"version": "3.3.0~beta5+dfsg-1",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,13 +14,19 @@
 		"fonts-font-awesome",
 		"fonts-open-sans"
 	],
-	"installedSize": 12756,
+	"replaces": [
+		"wsjtx (<< 3.3)"
+	],
+	"breaks": [
+		"wsjtx (<< 3.3)"
+	],
+	"installedSize": 12884,
 	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
 	"description": "Documentation and examples for the WSJT-X package",
 	"homepage": "https://wsjtx.github.io/wsjtx/index.html",
-	"filename": "pool/main/w/wsjtx/wsjtx-doc_3.3.0~beta2+dfsg-1_all.deb",
-	"size": 9300672,
-	"md5": "beb43cc8c767f6c25fed83c23e8a7476",
-	"sha256": "5b1cd70915208f7a2a936466328f6dafcf8b6e5447e3ef7ae18e5f9a43ac621a",
+	"filename": "pool/main/w/wsjtx/wsjtx-doc_3.3.0~beta5+dfsg-1_all.deb",
+	"size": 9387236,
+	"md5": "928b3998bc556b7ddb370ff88fb41848",
+	"sha256": "51788e21f44206eb6128a2958880bb51c0df2e03df0ab8b65ec962774f436a0f",
 	"descriptionMd5": "2347d577068db8eed50af4120e024414"
 }]

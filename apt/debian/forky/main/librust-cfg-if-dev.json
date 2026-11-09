@@ -5,18 +5,21 @@
 		"Size"
 	],
 	"package": "librust-cfg-if-dev",
-	"source": "rust-cfg-if (1.0.4-1)",
-	"version": "1.0.4-1+b1",
+	"source": "rust-cfg-if",
+	"version": "1.0.5-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 57,
+	"breaks": [
+		"rustc (<< 1.32~)"
+	],
+	"installedSize": 56,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Rust macro for defining #[cfg] if-else statements - Rust source code",
 	"homepage": "https://github.com/rust-lang/cfg-if",
-	"filename": "pool/main/r/rust-cfg-if/librust-cfg-if-dev_1.0.4-1+b1_amd64.deb",
-	"size": 12400,
-	"md5": "6f3044b0c4bd58840f82d46059ed863b",
-	"sha256": "1d4279bf05044afaa7f9c9d21be7171f6c4b821c703a446e6a4b2fbbe8474135",
+	"filename": "pool/main/r/rust-cfg-if/librust-cfg-if-dev_1.0.5-1_amd64.deb",
+	"size": 12356,
+	"md5": "ec0bc4d1e09deb47b78493df6bd27a64",
+	"sha256": "69e7faae431500df6e8cdff11f07a2b4e709fd5e94c1f99a3ff37e80e51ecc1d",
 	"descriptionMd5": "823b8577d26c5cec36913e4e9e50d963"
 }

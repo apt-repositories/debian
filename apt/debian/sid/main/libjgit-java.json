@@ -6,18 +6,22 @@
 	],
 	"package": "libjgit-java",
 	"source": "jgit",
-	"version": "6.7.0-2",
+	"version": "7.7.1-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"libeclipse-jdt-annotation-java",
 		"libgoogle-gson-java",
-		"libhttpclient-java",
-		"libjavaewah-java (>= 0.8.6)",
+		"libhttpclient-java (>= 4.5.14)",
+		"libjavaewah-java",
 		"libjetty9-java",
 		"libjsch-java",
-		"libslf4j-java"
+		"libslf4j-java (>= 1.7.36)",
+		"libcommons-codec-java (>= 1.23.0)",
+		"libhttpcore-java (>= 4.4.16)",
+		"libjzlib-java",
+		"libmina-sshd-java (>= 2.19.0)"
 	],
 	"replaces": [
 		"eclipse-jgit (<< 2.0.0)"
@@ -26,13 +30,13 @@
 		"eclipse-egit (<< 2.0.0~)",
 		"eclipse-jgit (<< 2.0.0)"
 	],
-	"installedSize": 3487,
+	"installedSize": 3792,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Java implementation of GIT version control",
 	"homepage": "https://www.eclipse.org/jgit/",
-	"filename": "pool/main/j/jgit/libjgit-java_6.7.0-2_all.deb",
-	"size": 3152496,
-	"md5": "e66ed8305c87354e2de2edf6baed050d",
-	"sha256": "7d70c0b2737b77a8f5e63b9ea863a97dcc35733a849fc9c9677f967db4daa37a",
+	"filename": "pool/main/j/jgit/libjgit-java_7.7.1-1_all.deb",
+	"size": 3440556,
+	"md5": "b12920d832776d55e128f58f9edd16e3",
+	"sha256": "db11b4db98104824060315b0df85611b74668539a15854e8eac9f4d43cd1a40d",
 	"descriptionMd5": "4e9d867e446a8c22145964210021b9d1"
 }

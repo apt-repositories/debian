@@ -5,27 +5,28 @@
 		"Size"
 	],
 	"package": "bart-view",
-	"source": "bart-view (0.3.00-1)",
-	"version": "0.3.00-1+b1",
+	"version": "0.4.00-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"bart",
-		"libc6 (>= 2.34)",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.43)",
 		"libcairo2 (>= 1.2.4)",
+		"libfftw3-single3 (>= 3.3.11)",
 		"libglib2.0-0t64 (>= 2.12.0)",
 		"libgomp1 (>= 4.9)",
 		"libgtk-3-0t64 (>= 3.0.0)",
-		"libpng16-16t64 (>= 1.6.2)"
+		"libpng16-16t64 (>= 1.6.46)"
 	],
-	"installedSize": 535,
+	"installedSize": 1527,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "viewer for multi-dimensional complex-valued data",
-	"homepage": "https://github.com/mrirecon/view/",
-	"filename": "pool/main/b/bart-view/bart-view_0.3.00-1+b1_amd64.deb",
-	"size": 128252,
-	"md5": "f989f1c73df9b4e80539e35c9aa2e9e2",
-	"sha256": "f2d4b5f7c50d022c1fb4b1dc894a6e8b7fe826bd360b54d8060dbf7611598b2c",
+	"homepage": "https://codeberg.org/IBI-TUGraz/view",
+	"filename": "pool/main/b/bart-view/bart-view_0.4.00-1_amd64.deb",
+	"size": 334340,
+	"md5": "3122f4a9d096aba7dccc36e41f99252f",
+	"sha256": "1186305c353f391296cb306849a5fe9a6f013493d1af4671e95a9aa723df08be",
 	"descriptionMd5": "12c17c75dd71741d471dd93dcdef0561"
 }

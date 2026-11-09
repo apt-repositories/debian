@@ -6,22 +6,26 @@
 	],
 	"package": "librust-parse-display-dev",
 	"source": "rust-parse-display",
-	"version": "0.10.0-2",
+	"version": "0.11.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-parse-display-derive-0.10+default-dev (<< 0.10.1)",
-		"librust-regex-1+default-dev (>= 1.10.6)",
-		"librust-regex-syntax-0.8+default-dev (>= 0.8.4)"
+		"librust-parse-display-derive-0.11+default-dev (<< 0.11.1)",
+		"librust-parse-display-derive-0.11+std-dev (<< 0.11.1)",
+		"librust-regex-1+default-dev (>= 1.12.3)",
+		"librust-regex-syntax-0.8+default-dev (>= 0.8.10)"
 	],
-	"installedSize": 82,
+	"breaks": [
+		"rustc (<< 1.85.0~)"
+	],
+	"installedSize": 221,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Procedural macro to implement Display and FromStr using common settings - Rust source code",
 	"homepage": "https://github.com/frozenlib/parse-display",
-	"filename": "pool/main/r/rust-parse-display/librust-parse-display-dev_0.10.0-2_amd64.deb",
-	"size": 13136,
-	"md5": "1e0ce897ce3f603136fc8839738dcc3c",
-	"sha256": "07a0790014fcadf65ee94f79aad093c5382b9ee0b3f526ef558979d05435de89",
+	"filename": "pool/main/r/rust-parse-display/librust-parse-display-dev_0.11.0-1_amd64.deb",
+	"size": 27236,
+	"md5": "12573c060e51a7f54570a8cccd61bfc8",
+	"sha256": "f468c17b1d17a6ce479c90ace5d51eda925f7fa01f136d41cbe47cb913cfd6ff",
 	"descriptionMd5": "b5c612b6595fe05fc406242fa5b44ef7"
 }
