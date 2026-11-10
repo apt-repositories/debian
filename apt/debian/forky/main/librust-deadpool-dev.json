@@ -5,28 +5,31 @@
 		"Size"
 	],
 	"package": "librust-deadpool-dev",
-	"source": "rust-deadpool (0.12.2-1)",
-	"version": "0.12.2-1+b1",
+	"source": "rust-deadpool",
+	"version": "0.13.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-deadpool-runtime-0.1+async-std-1-dev",
-		"librust-deadpool-runtime-0.1+default-dev",
-		"librust-deadpool-runtime-0.1+tokio-1-dev",
-		"librust-num-cpus-1+default-dev (>= 1.11.1-~~)",
-		"librust-serde-1+default-dev (>= 1.0.103-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.103-~~)",
-		"librust-tokio-1+default-dev",
-		"librust-tokio-1+sync-dev"
+		"librust-deadpool-runtime-0.3+async-std-1-dev",
+		"librust-deadpool-runtime-0.3+default-dev",
+		"librust-deadpool-runtime-0.3+smol-2-dev",
+		"librust-deadpool-runtime-0.3+tokio-1-dev",
+		"librust-serde-1+default-dev (>= 1.0.103)",
+		"librust-serde-1+derive-dev (>= 1.0.103)",
+		"librust-tokio-1+default-dev (>= 1.5)",
+		"librust-tokio-1+sync-dev (>= 1.5)"
 	],
-	"installedSize": 193,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 188,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Dead simple async pool - Rust source code",
-	"homepage": "https://github.com/bikeshedder/deadpool",
-	"filename": "pool/main/r/rust-deadpool/librust-deadpool-dev_0.12.2-1+b1_amd64.deb",
-	"size": 36992,
-	"md5": "cf4220d19556854060c3c54231996a06",
-	"sha256": "d3a545410c579a071c423f8187d63adc29939b31c4881f3d9517691069e91fb5",
+	"homepage": "https://github.com/deadpool-rs/deadpool",
+	"filename": "pool/main/r/rust-deadpool/librust-deadpool-dev_0.13.1-1_amd64.deb",
+	"size": 36672,
+	"md5": "45dd35741dce10c27826cb81e81595c1",
+	"sha256": "fb679e49e19e367f65051aad433c5e83a564a139175323bbf4cfd02b59e238aa",
 	"descriptionMd5": "1ffaa42fd277c66a2cb311c4ae1d3873"
 }

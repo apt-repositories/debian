@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "librust-cxx-build-dev",
-	"source": "rust-cxx-build",
-	"version": "1.0.202-1",
+	"source": "rust-cxx-build (1.0.202-2)",
+	"version": "1.0.202-2+b1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-cc-1+default-dev (>= 1.0.101)",
 		"librust-cc-1+parallel-dev (>= 1.0.101)",
-		"librust-codespan-reporting-0.12+default-dev",
+		"librust-codespan-reporting+default-dev (<< 0.14)",
+		"librust-codespan-reporting+default-dev (>= 0.12)",
 		"librust-indexmap-2+default-dev (>= 2.9.0)",
 		"librust-proc-macro2-1+span-locations-dev (>= 1.0.74)",
 		"librust-quote-1-dev (>= 1.0.35)",
@@ -26,13 +27,13 @@
 	"breaks": [
 		"rustc (<< 1.88~)"
 	],
-	"installedSize": 515,
+	"installedSize": 516,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "C++ code generator for integrating cxx into a Cargo build - Rust source code",
 	"homepage": "https://cxx.rs",
-	"filename": "pool/main/r/rust-cxx-build/librust-cxx-build-dev_1.0.202-1_amd64.deb",
-	"size": 84928,
-	"md5": "4cc7d9d21e2079daa77a8a8b3f7b2866",
-	"sha256": "89835d8f0ab33a5abbd2b4aa89e608c9c3c78404425a9d48fd7fa071bfb55ca5",
+	"filename": "pool/main/r/rust-cxx-build/librust-cxx-build-dev_1.0.202-2+b1_amd64.deb",
+	"size": 85344,
+	"md5": "3d51e5739650d24d418c06ec9371fd77",
+	"sha256": "9347a74b5f933018d9cb3c5fc0396ee81c63132be42f5ba544144425c22445c7",
 	"descriptionMd5": "8b8f8708b53c577f6b07375c06847325"
 }]

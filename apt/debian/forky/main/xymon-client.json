@@ -6,18 +6,18 @@
 	],
 	"package": "xymon-client",
 	"source": "xymon",
-	"version": "4.3.30-6",
+	"version": "4.3.31-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"lsb-release",
 		"net-tools",
 		"procps",
-		"debconf (>= 0.5) | debconf-2.0",
 		"libc6 (>= 2.38)",
-		"libpcre2-8-0 (>= 10.22)"
+		"libpcre2-8-0 (>= 10.47)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"preDepends": [
 		"debconf | debconf-2.0"
@@ -31,13 +31,13 @@
 	"breaks": [
 		"xymon (<< 4.3.30-2)"
 	],
-	"installedSize": 1588,
+	"installedSize": 1712,
 	"maintainer": "Axel Beckert <abe@debian.org>",
 	"description": "client for the Xymon network monitor",
-	"homepage": "https://xymon.sourceforge.io/",
-	"filename": "pool/main/x/xymon/xymon-client_4.3.30-6_amd64.deb",
-	"size": 384616,
-	"md5": "45ec7e4b387db486ba2d04f30fe3159f",
-	"sha256": "56cd09239b78b6798c8f5c8a8a700f16d4f5793f04b740ce86416ebc75815ea2",
+	"homepage": "https://github.com/xymon-monitoring/xymon",
+	"filename": "pool/main/x/xymon/xymon-client_4.3.31-1_amd64.deb",
+	"size": 420424,
+	"md5": "60789a9e3b44e3ce7afd737ddb4af66a",
+	"sha256": "0d46b1bb94c89d0a0409882fc23e192cc464c093bf8cac630698b9a28a6061f0",
 	"descriptionMd5": "aecf1eddbb24018dd8eecc814af80e94"
 }

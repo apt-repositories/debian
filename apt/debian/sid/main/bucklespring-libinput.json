@@ -6,23 +6,30 @@
 	],
 	"package": "bucklespring-libinput",
 	"source": "bucklespring",
-	"version": "1.5.1+git.1.e41a021-2",
+	"version": "2.0.1-1",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libalure1 (>= 1.1)",
+		"bucklespring-data (>= 2.0.1-1)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"init-system-helpers (>= 1.66~)",
 		"libayatana-appindicator3-1 (>= 0.4.90)",
 		"libc6 (>= 2.38)",
-		"libglib2.0-0t64 (>= 2.16.0)",
+		"libglib2.0-0t64 (>= 2.80.0)",
 		"libgtk-3-0t64 (>= 3.0.0)",
 		"libinput10 (>= 1.19.1)",
 		"libopenal1 (>= 1.14)",
+		"libsndfile1 (>= 1.0.20)",
+		"libsystemd0 (>= 213)",
 		"libudev1 (>= 183)",
-		"libwayland-client0 (>= 1.20.0)",
-		"debconf (>= 0.5) | debconf-2.0",
-		"init-system-helpers (>= 1.66~)",
-		"bucklespring-data (>= 1.5.1+git.1.e41a021-2)"
+		"libwayland-client0 (>= 1.20.0)"
+	],
+	"suggests": [
+		"bucklespring-data-vain",
+		"bucklespring-data-sequential",
+		"bucklespring-data-synth",
+		"gnome-shell-extension-appindicator"
 	],
 	"replaces": [
 		"bucklespring (<< 1.5.1-2~)"
@@ -30,13 +37,13 @@
 	"conflicts": [
 		"bucklespring (<< 1.5.1-2~)"
 	],
-	"installedSize": 94,
+	"installedSize": 131,
 	"maintainer": "Barak A. Pearlmutter <bap@debian.org>",
 	"description": "Nostalgia bucklespring keyboard sound - libinput flavour",
-	"homepage": "https://github.com/zevv/bucklespring",
-	"filename": "pool/main/b/bucklespring/bucklespring-libinput_1.5.1+git.1.e41a021-2_amd64.deb",
-	"size": 32744,
-	"md5": "6660b3d199b9bde23bc8d9afa807a9ec",
-	"sha256": "f0d4a88a40cc4c853c17df446a954f64baa16753db1ed5d1a2eab0d97eecd42d",
+	"homepage": "https://github.com/barak/bucklespring",
+	"filename": "pool/main/b/bucklespring/bucklespring-libinput_2.0.1-1_amd64.deb",
+	"size": 49640,
+	"md5": "07a51c8c3f3f9ee02868b84c4d6da704",
+	"sha256": "ad301733d8eb8d421748bf757824b83a77df15936b1d4a6de4f33fcb8619f1c6",
 	"descriptionMd5": "a940580fc45455d00926b86e886b968c"
 }
