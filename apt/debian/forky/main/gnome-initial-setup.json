@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "gnome-initial-setup",
-	"version": "51.0-1",
+	"version": "51.1-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,7 +17,7 @@
 		"desktop-base",
 		"init-system-helpers (>= 1.66~)",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"libaccountsservice0 (>= 0.6.29)",
+		"libaccountsservice1 (>= 26.27.3)",
 		"libadwaita-1-0 (>= 1.5~beta)",
 		"libc6 (>= 2.34)",
 		"libfontconfig1 (>= 2.12.6)",
@@ -31,6 +31,7 @@
 		"libgweather-4-0t64 (>= 3.91.0)",
 		"libharfbuzz0b (>= 0.6.0)",
 		"libibus-1.0-5 (>= 1.5.2)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
 		"libkrb5-3 (>= 1.8+dfsg)",
 		"libmalcontent-0-0 (>= 0.6.0)",
 		"libmalcontent-ui-1-1 (>= 0.6.0)",
@@ -42,7 +43,7 @@
 		"libwebkitgtk-6.0-4 (>= 2.37.1)"
 	],
 	"recommends": [
-		"accountsservice",
+		"accountsservice (>= 26.12.8)",
 		"geoclue-2.0",
 		"malcontent"
 	],
@@ -53,13 +54,13 @@
 		"gnome-session-bin (<< 49)",
 		"gnome-shell-common (<< 50~)"
 	],
-	"installedSize": 2233,
+	"installedSize": 2238,
 	"maintainer": "Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>",
 	"description": "Initial GNOME system setup helper",
 	"homepage": "https://gitlab.gnome.org/GNOME/gnome-initial-setup",
-	"filename": "pool/main/g/gnome-initial-setup/gnome-initial-setup_51.0-1_amd64.deb",
-	"size": 512168,
-	"md5": "14700d709e583d7a442f4eb417816101",
-	"sha256": "917c6278a932005fedbc6ff5a5075f0016bfa0cf1ea07bee0985692ded44dce7",
+	"filename": "pool/main/g/gnome-initial-setup/gnome-initial-setup_51.1-2_amd64.deb",
+	"size": 512576,
+	"md5": "7303481456ca5029051193c55ff6e501",
+	"sha256": "fb2d243e3a6a9c1ac31d48a8097de82138c8d58b9f7fa59c79ef954f04fbcfe4",
 	"descriptionMd5": "fc98a3077374329ffb2ad48a472c3672"
 }

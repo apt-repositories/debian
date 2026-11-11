@@ -6,35 +6,41 @@
 	],
 	"package": "libspring-web-java",
 	"source": "libspring-java",
-	"version": "4.3.30-5",
+	"version": "5.1.20-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libspring-beans-java (= 4.3.30-5)",
-		"libspring-context-java (= 4.3.30-5)",
-		"libspring-core-java (= 4.3.30-5)"
-	],
-	"recommends": [
-		"libspring-aop-java (= 4.3.30-5)",
-		"libspring-oxm-java (= 4.3.30-5)"
-	],
-	"suggests": [
+		"libspring-beans-java (= 5.1.20-1)",
+		"libspring-context-java (= 5.1.20-1)",
+		"libspring-core-java (= 5.1.20-1)",
+		"libspring-aop-java (>= 5.1.20-1)",
+		"libspring-oxm-java (>= 5.1.20-1)",
+		"groovy",
+		"libaopalliance-java",
 		"libcommons-fileupload-java",
+		"libgoogle-gson-java",
 		"libhessian-java",
-		"libjackson-json-java",
-		"libjackson2-dataformat-xml-java",
+		"libjackson2-databind-java",
 		"libnetty-java",
 		"libprotobuf-java",
+		"librome-java"
+	],
+	"recommends": [
+		"libspring-aop-java (= 5.1.20-1)",
+		"libspring-oxm-java (= 5.1.20-1)"
+	],
+	"suggests": [
+		"libjackson2-dataformat-xml-java",
 		"libprotobuf-java-format-java"
 	],
-	"installedSize": 850,
+	"installedSize": 1385,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "modular Java/J2EE application framework - Web",
 	"homepage": "https://spring.io/projects/spring-framework",
-	"filename": "pool/main/libs/libspring-java/libspring-web-java_4.3.30-5_all.deb",
-	"size": 727852,
-	"md5": "8cbb09c6f87eb9764c14f187beb4ceab",
-	"sha256": "bb2ebf5060087a49915d0ce82c545e802089266d769888f9f2e71e2ce42562fe",
+	"filename": "pool/main/libs/libspring-java/libspring-web-java_5.1.20-1_all.deb",
+	"size": 1206020,
+	"md5": "c614b11e22533befbd8cb5118b3043dd",
+	"sha256": "d0920c0ae9de3b057c0c8768e60fab1ec4e290e680e5b6873ac708843557a80b",
 	"descriptionMd5": "92e94b75ac6a676372ee562e8e1eca35"
 }]

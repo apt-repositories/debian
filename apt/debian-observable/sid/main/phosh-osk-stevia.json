@@ -5,13 +5,13 @@
 		"Size"
 	],
 	"package": "phosh-osk-stevia",
-	"version": "0.58.0-1",
+	"version": "0.59~rc1-1",
 	"section": "x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"gsettings-desktop-schemas (>= 47)",
-		"phosh-osk-stevia-common (>= 0.58.0-1)",
+		"phosh-osk-stevia-common (>= 0.59~rc1-1)",
 		"libc6 (>= 2.34)",
 		"libcairo2 (>= 1.10.0)",
 		"libdconf1 (>= 0.14.0)",
@@ -19,13 +19,16 @@
 		"libglib2.0-0t64 (>= 2.83.0)",
 		"libgnome-desktop-3-21 (>= 51~alpha)",
 		"libgovarnam1 (>= 1.9.0)",
+		"libgstreamer-plugins-base1.0-0 (>= 1.0.0)",
+		"libgstreamer1.0-0 (>= 1.0.0)",
 		"libgtk-3-0t64 (>= 3.22.6)",
-		"libhandy-1-0 (>= 1.0.3)",
+		"libhandy-1-0 (>= 1.1.90)",
 		"libhunspell-1.7-0 (>= 1.7.4)",
 		"libjson-glib-1.0-0 (>= 1.5.2)",
 		"libpango-1.0-0 (>= 1.18.0)",
 		"libpangocairo-1.0-0 (>= 1.14.0)",
 		"libpresage1v5 (>= 0.8.5)",
+		"libsoup-3.0-0 (>= 2.49.91.1)",
 		"libsystemd0 (>= 217)",
 		"libuim8 (>= 1:1.8.6)",
 		"libwayland-client0 (>= 1.20.0)"
@@ -33,6 +36,9 @@
 	"recommends": [
 		"fonts-noto-color-emoji",
 		"fonts-noto-core",
+		"gstreamer1.0-plugins-base",
+		"gstreamer1.0-plugins-good",
+		"gstreamer1.0-pulseaudio",
 		"hunspell-en-us",
 		"phosh-osk-data-packager"
 	],
@@ -48,13 +54,13 @@
 		"phosh-mobile-settings (<< 0.54~)",
 		"phosh-osk-stub (<< 0.49~)"
 	],
-	"installedSize": 619,
+	"installedSize": 635,
 	"maintainer": "Guido Günther <agx@sigxcpu.org>",
 	"description": "On screen keyboard for Phosh",
 	"homepage": "https://gitlab.gnome.org/World/Phosh/stevia/",
-	"filename": "pool/main/p/phosh-osk-stevia/phosh-osk-stevia_0.58.0-1_amd64.deb",
-	"size": 156696,
-	"md5": "249fca1b7d49d56a7b6892c1e8193565",
-	"sha256": "79dfba919101d7ecdc0e0e77b5fa2d963521c346374effc8ad30d74581b735ad",
+	"filename": "pool/main/p/phosh-osk-stevia/phosh-osk-stevia_0.59~rc1-1_amd64.deb",
+	"size": 160308,
+	"md5": "780f31a69d22d75b2de86853f74fcf78",
+	"sha256": "6eb0d489d9438089b0dd5da1e64e913f1626e3e169a561e2154c36c619f96a1c",
 	"descriptionMd5": "b6d08e828ffd826e8aaafe8e872eea09"
 }]

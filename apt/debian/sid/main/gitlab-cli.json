@@ -6,22 +6,26 @@
 	],
 	"package": "gitlab-cli",
 	"source": "python-gitlab",
-	"version": "1:8.5.0-1",
+	"version": "1:8.6.0-1",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"python3",
-		"python3-gitlab (= 1:8.5.0-1)",
-		"python3-yaml"
+		"python3-gitlab (= 1:8.6.0-1)",
+		"python3-yaml",
+		"python3:any"
 	],
-	"installedSize": 145,
+	"recommends": [
+		"python3-argcomplete"
+	],
+	"installedSize": 143,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "GitLab command-line client",
 	"homepage": "https://github.com/python-gitlab/python-gitlab",
-	"filename": "pool/main/p/python-gitlab/gitlab-cli_8.5.0-1_all.deb",
-	"size": 134444,
-	"md5": "c49096c6c49ded86029c662aa1260128",
-	"sha256": "6ee219acf84a951af4ecd8eb140a96dbf06960bf419724a585a6a3555c414ec7",
+	"filename": "pool/main/p/python-gitlab/gitlab-cli_8.6.0-1_all.deb",
+	"size": 134208,
+	"md5": "4d0c0ded950df38ecd1c2da62819d6bb",
+	"sha256": "1ee624c96dc005b8b48b80300c82808d57f0e3337ac1bb924adf28473df4967f",
 	"descriptionMd5": "412bdac9c82be27deef7b4a6014aa8b8"
 }

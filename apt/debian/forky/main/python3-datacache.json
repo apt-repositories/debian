@@ -6,24 +6,28 @@
 	],
 	"package": "python3-datacache",
 	"source": "python-datacache",
-	"version": "1.4.1-2",
+	"version": "1.27.1-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"python3-filelock",
 		"python3-pandas",
-		"python3-platformdirs (>= 1.4.0)",
+		"python3-platformdirs (>= 3.0)",
 		"python3-requests",
-		"python3-typechecks",
+		"python3-tqdm",
 		"python3:any"
 	],
-	"installedSize": 63,
+	"suggests": [
+		"python3-lxml"
+	],
+	"installedSize": 332,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
-	"description": "helpers for transparently downloading datasets",
+	"description": "download and cache datasets for Python applications",
 	"homepage": "https://github.com/openvax/datacache",
-	"filename": "pool/main/p/python-datacache/python3-datacache_1.4.1-2_all.deb",
-	"size": 12928,
-	"md5": "6d19c9b1f118898220925b174d91295a",
-	"sha256": "440ff8649fdc2862ed9f57f5c1ffed642b97a8bf6dab2c1e385f747e2c1519fe",
-	"descriptionMd5": "1abf92fc595e4691e986ba2be60781dc"
+	"filename": "pool/main/p/python-datacache/python3-datacache_1.27.1-1_all.deb",
+	"size": 78680,
+	"md5": "a56df6185f7b086f29fafd6b6249d7cf",
+	"sha256": "f8f3c99fa3fdac0f18bda7cf08241494b3b5b6601fa3baf22d0a9ade2095f12d",
+	"descriptionMd5": "795ac3551bd89e88dfd53e088c6de0e3"
 }

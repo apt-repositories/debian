@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.2.12+deb13-amd64",
+	"source": "linux-signed-amd64 (7.2.12+1~bpo13+1)",
+	"version": "7.2.12-1~bpo13+1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut | initramfs-tools (>= 0.120+deb8u2) | linux-initramfs-tool",
+		"linux-base-7.2.12+deb13-amd64 (= 7.2.12-1~bpo13+1)",
+		"linux-binary-7.2.12+deb13-amd64 (= 7.2.12-1~bpo13+1)",
+		"linux-modules-7.2.12+deb13-amd64 (= 7.2.12-1~bpo13+1)"
+	],
+	"preDepends": [
+		"linux-base (>= 4.17~)"
+	],
+	"recommends": [
+		"apparmor"
+	],
+	"suggests": [
+		"debian-kernel-handbook",
+		"firmware-linux-free",
+		"grub-pc | grub-efi-amd64 | extlinux",
+		"linux-doc-7.2"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"initramfs-tools (<< 0.120+deb8u2)",
+		"wireless-regdb (<< 2019.06.03-1~)"
+	],
+	"installedSize": 15,
+	"maintainer": "Debian Kernel Team <debian-kernel@lists.debian.org>",
+	"description": "Linux 7.2.12 for 64-bit PCs",
+	"homepage": "https://www.kernel.org/",
+	"filename": "pool/main/l/linux-signed-amd64/linux-image-7.2.12+deb13-amd64_7.2.12-1~bpo13+1_amd64.deb",
+	"size": 1900,
+	"sha256": "0efc0802eb386957afb023b58838d6af58bd3fdf7d2ae22be7a55bf0877a9275",
+	"descriptionMd5": "21cb99b10aa963c3d5e3179b61ed6d3d"
+}

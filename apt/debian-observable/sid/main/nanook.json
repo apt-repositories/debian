@@ -5,20 +5,21 @@
 		"Size"
 	],
 	"package": "nanook",
-	"version": "1.33+dfsg-6",
+	"version": "1.33+dfsg-7",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libcommons-io-java",
 		"default-jre-headless",
+		"hdf5-tools",
+		"last-align",
 		"r-cran-ggplot2",
-		"r-cran-scales",
 		"r-cran-gridextra",
 		"r-cran-reshape",
+		"r-cran-scales",
 		"texlive-latex-base",
-		"hdf5-tools",
-		"last-align"
+		"libcommons-io-java",
+		"perl:any"
 	],
 	"recommends": [
 		"blasr",
@@ -31,9 +32,9 @@
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "pre- and post-alignment analysis of nanopore sequencing data",
 	"homepage": "https://documentation.tgac.ac.uk/display/NANOOK/NanoOK",
-	"filename": "pool/main/n/nanook/nanook_1.33+dfsg-6_all.deb",
-	"size": 195816,
-	"md5": "34e77e92b6176f38942997f8b3e97fb9",
-	"sha256": "259bb144fcab79826b6e29976f2d3a36f41a53de1028d210959f9d3aa998f82d",
+	"filename": "pool/main/n/nanook/nanook_1.33+dfsg-7_all.deb",
+	"size": 195812,
+	"md5": "785f6476f8eba265301aa93adc33dab1",
+	"sha256": "34817d784e692c5f78ce3edd08a7cc27cefb7219711bbad97ea03a6696b1ccf5",
 	"descriptionMd5": "beffa937620d2a184e3ed1c1c9fd8d07"
 }]

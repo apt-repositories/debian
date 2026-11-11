@@ -6,7 +6,7 @@
 	],
 	"package": "librust-framework-lib-dev",
 	"source": "rust-framework-lib",
-	"version": "0.6.5-1",
+	"version": "0.6.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -18,6 +18,7 @@
 		"librust-clap-4+default-dev (>= 4.5)",
 		"librust-clap-4+derive-dev (>= 4.5)",
 		"librust-clap-complete-4+default-dev (>= 4.5)",
+		"librust-clap-mangen-0.3+default-dev",
 		"librust-clap-num-1+default-dev (>= 1.2.0)",
 		"librust-clap-verbosity-flag-3+default-dev",
 		"librust-dmidecode-1-dev",
@@ -47,13 +48,16 @@
 		"librust-spin-0.10+default-dev",
 		"librust-zerocopy-0.8+derive-dev"
 	],
-	"installedSize": 4146,
+	"breaks": [
+		"rustc (<< 1.81~)"
+	],
+	"installedSize": 4456,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Control Framework Computer systems - Rust source code",
 	"homepage": "https://github.com/FrameworkComputer/framework-system",
-	"filename": "pool/main/r/rust-framework-lib/librust-framework-lib-dev_0.6.5-1_amd64.deb",
-	"size": 713008,
-	"md5": "226e0a4f516e83c4ec22bc2b4f89a607",
-	"sha256": "6b2a0f9cd4ab97f89fd37ab79f0b65648b35d728eb2d68f814437e4647663a3b",
+	"filename": "pool/main/r/rust-framework-lib/librust-framework-lib-dev_0.6.6-1_amd64.deb",
+	"size": 795964,
+	"md5": "410ff314373cc79c87541bf01cdd0c5a",
+	"sha256": "cb8797f36ce197df4ccce114200bcf5bbb9c2acfa048bfeabf835a30656b8d5e",
 	"descriptionMd5": "f59db5ff88a802a28cde2bf886226d28"
 }]

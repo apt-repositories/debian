@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-pulldown-cmark-dev",
-	"source": "rust-pulldown-cmark (0.13.3+dfsg-1)",
-	"version": "0.13.3+dfsg-1+b1",
+	"source": "rust-pulldown-cmark",
+	"version": "0.13.6+ds-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -20,13 +20,16 @@
 		"librust-serde-1+derive-dev",
 		"librust-unicase-2+default-dev (>= 2.6)"
 	],
-	"installedSize": 896,
+	"breaks": [
+		"rustc (<< 1.71.1~)"
+	],
+	"installedSize": 914,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Pull parser for CommonMark - Rust source code",
 	"homepage": "https://github.com/raphlinus/pulldown-cmark",
-	"filename": "pool/main/r/rust-pulldown-cmark/librust-pulldown-cmark-dev_0.13.3+dfsg-1+b1_amd64.deb",
-	"size": 122848,
-	"md5": "ffab87f0f12d923240436d40cf7c94bb",
-	"sha256": "14c79cb6f4b6c2829e6c5dacf07c18394e58a4a415efeecfc852410e7091b5b8",
+	"filename": "pool/main/r/rust-pulldown-cmark/librust-pulldown-cmark-dev_0.13.6+ds-1_amd64.deb",
+	"size": 124344,
+	"md5": "d1b2fb32779549de604a41e460c98479",
+	"sha256": "911707137d41759f9b1f203863105e5d68e2757c5ed4488d0e1bc3d7ec86f1af",
 	"descriptionMd5": "7a1294d53e73103cf5fc4769930ced42"
 }
