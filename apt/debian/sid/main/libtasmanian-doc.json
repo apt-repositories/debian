@@ -6,17 +6,23 @@
 	],
 	"package": "libtasmanian-doc",
 	"source": "tasmanian",
-	"version": "8.2-4",
+	"version": "8.2-5",
 	"section": "doc",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 5903,
+	"replaces": [
+		"libtasmanian-dev (<< 8.2-3~)"
+	],
+	"breaks": [
+		"libtasmanian-dev (<< 8.2-3~)"
+	],
+	"installedSize": 6018,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Tasmanian documentation",
 	"homepage": "https://github.com/ORNL/TASMANIAN",
-	"filename": "pool/main/t/tasmanian/libtasmanian-doc_8.2-4_all.deb",
-	"size": 408700,
-	"md5": "bea4a5a55bfec4eee07016fab9899d3d",
-	"sha256": "1fb0943b4a66607f398d1a5e9b0260073516971746f946823a4bf106e7e3fb0c",
+	"filename": "pool/main/t/tasmanian/libtasmanian-doc_8.2-5_all.deb",
+	"size": 362164,
+	"md5": "472ef1991ea94cd5987eaba46b74698f",
+	"sha256": "e89e75b798855528d5840bb9432dfe279d962fa3e5222bb6d4f630231e9dd920",
 	"descriptionMd5": "c07a668b0a7e80a00e3e6a4fb84eacd1"
 }

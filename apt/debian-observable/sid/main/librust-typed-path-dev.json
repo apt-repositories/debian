@@ -6,17 +6,23 @@
 	],
 	"package": "librust-typed-path-dev",
 	"source": "rust-typed-path",
-	"version": "0.12.3+ds-3",
+	"version": "0.13.0-1",
 	"section": "rust",
 	"priority": "optional",
-	"architecture": "all",
-	"installedSize": 734,
-	"maintainer": "Jonas Smedegaard <dr@jones.dk>",
-	"description": "typed variants of Path and PathBuf - Rust source code",
+	"architecture": "amd64",
+	"depends": [
+		"librust-serde-core-1+alloc-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.65.0~)"
+	],
+	"installedSize": 794,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Provides typed variants of Path and PathBuf for Unix and Windows - Rust source code",
 	"homepage": "https://github.com/chipsenkbeil/typed-path",
-	"filename": "pool/main/r/rust-typed-path/librust-typed-path-dev_0.12.3+ds-3_all.deb",
-	"size": 69184,
-	"md5": "002ddc4bc1461d663043813f403f7556",
-	"sha256": "cc1c289637641928fdcd9338bdc4cfcb8932fc7578544ea0ddc8b519355c035f",
-	"descriptionMd5": "b10ad4736698ffef69bf8828b33c5378"
+	"filename": "pool/main/r/rust-typed-path/librust-typed-path-dev_0.13.0-1_amd64.deb",
+	"size": 78020,
+	"md5": "71b464bc696309dfc2182285a1de7f73",
+	"sha256": "628b4f597ece34c5586fcc0b1a8b7cd588ad74d2f545e3b4000c60bbd9e645e5",
+	"descriptionMd5": "6e39af9836d6e7c4cd4a0d9086c5121a"
 }]

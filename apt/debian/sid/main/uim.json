@@ -5,29 +5,29 @@
 		"Size"
 	],
 	"package": "uim",
-	"version": "1:1.9.9-1",
+	"version": "1:1.9.9-3",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
+		"libuim8 (= 1:1.9.9-3)",
+		"uim-plugins (= 1:1.9.9-3)",
 		"libc6 (>= 2.38)",
 		"libuim-custom2 (>= 1:1.9.8)",
-		"libuim-scm0 (>= 1:1.5.7)",
-		"libuim8 (= 1:1.9.9-1)",
-		"uim-plugins (= 1:1.9.9-1)"
+		"libuim-scm0 (>= 1:1.5.7)"
 	],
 	"preDepends": [
-		"uim-data (>= 1:1.9.9-1)"
+		"uim-data (>= 1:1.9.9-3)"
 	],
 	"recommends": [
-		"wordlist",
 		"im-config",
-		"uim-qt5 (>= 1:1.9.9-1)",
-		"uim-qt6 (>= 1:1.9.9-1)",
-		"uim-gtk3 (>= 1:1.9.9-1)",
-		"uim-wayland (>= 1:1.9.9-1)",
-		"uim-xim (>= 1:1.9.9-1)",
-		"uim-fep (>= 1:1.9.9-1)"
+		"uim-fep (>= 1:1.9.9-3)",
+		"uim-gtk3 (>= 1:1.9.9-3)",
+		"uim-qt5 (>= 1:1.9.9-3)",
+		"uim-qt6 (>= 1:1.9.9-3)",
+		"uim-wayland (>= 1:1.9.9-3)",
+		"uim-xim (>= 1:1.9.9-3)",
+		"wordlist"
 	],
 	"suggests": [
 		"uim-mozc | uim-anthy | uim-skk"
@@ -36,9 +36,9 @@
 	"maintainer": "NOKUBI Takatsugu <knok@daionet.gr.jp>",
 	"description": "Universal Input Method - main binary package",
 	"homepage": "https://github.com/uim/uim/wiki",
-	"filename": "pool/main/u/uim/uim_1.9.9-1_amd64.deb",
-	"size": 79248,
-	"md5": "4b59db18fc873c9b0fe0ecf2f11a3352",
-	"sha256": "707d20ef0b86d7d89f9c2f0b13c23551359d57a143dd35637f3b6a519c492a96",
+	"filename": "pool/main/u/uim/uim_1.9.9-3_amd64.deb",
+	"size": 79492,
+	"md5": "c54ceca6cff73ca1691d2b9a0b248465",
+	"sha256": "07d33e8a17fc6aba7758fffa508ea3c98435f08c1ca74ce2535c50ba4b645655",
 	"descriptionMd5": "7d5fc5c62a66ae896a4bce984f82125e"
 }

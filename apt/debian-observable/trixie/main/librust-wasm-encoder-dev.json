@@ -5,6 +5,35 @@
 		"Size"
 	],
 	"package": "librust-wasm-encoder-dev",
+	"source": "rust-wasm-encoder",
+	"version": "0.239.0-2~bpo13+1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-leb128fmt-0.1-dev",
+		"librust-wasmparser-0.239+component-model-dev",
+		"librust-wasmparser-0.239+simd-dev",
+		"librust-wasmparser-0.239+std-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.76.0~)"
+	],
+	"installedSize": 595,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Low-level WebAssembly encoder - Rust source code",
+	"homepage": "https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wasm-encoder",
+	"filename": "pool/main/r/rust-wasm-encoder/librust-wasm-encoder-dev_0.239.0-2~bpo13+1_amd64.deb",
+	"size": 68064,
+	"sha256": "55b9cde3a000ccfbf8940dd9b7f3f7fb95de2203078301af196cfdd886abcd6d",
+	"descriptionMd5": "7e21ec60e3926a25815cee0ee1aa3407"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-wasm-encoder-dev",
 	"source": "rust-wasm-encoder (0.217.0-1)",
 	"version": "0.217.0-1+b2",
 	"section": "rust",

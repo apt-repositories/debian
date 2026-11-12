@@ -6,21 +6,27 @@
 	],
 	"package": "bucklespring-x11",
 	"source": "bucklespring",
-	"version": "1.5.1+git.1.e41a021-2",
+	"version": "2.0.1-1",
 	"section": "games",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libalure1 (>= 1.1)",
+		"bucklespring-data (>= 2.0.1-1)",
+		"init-system-helpers (>= 1.66~)",
 		"libayatana-appindicator3-1 (>= 0.4.90)",
 		"libc6 (>= 2.38)",
-		"libglib2.0-0t64 (>= 2.16.0)",
+		"libglib2.0-0t64 (>= 2.80.0)",
 		"libgtk-3-0t64 (>= 3.0.0)",
 		"libopenal1 (>= 1.14)",
+		"libsndfile1 (>= 1.0.20)",
 		"libx11-6",
-		"libxtst6 (>= 2:1.2.5)",
-		"bucklespring-data (>= 1.5.1+git.1.e41a021-2)",
-		"init-system-helpers (>= 1.66~)"
+		"libxtst6 (>= 2:1.2.6)"
+	],
+	"suggests": [
+		"bucklespring-data-vain",
+		"bucklespring-data-sequential",
+		"bucklespring-data-synth",
+		"gnome-shell-extension-appindicator"
 	],
 	"replaces": [
 		"bucklespring (<< 1.5.1-2~)"
@@ -28,13 +34,13 @@
 	"conflicts": [
 		"bucklespring (<< 1.5.1-2~)"
 	],
-	"installedSize": 69,
+	"installedSize": 101,
 	"maintainer": "Barak A. Pearlmutter <bap@debian.org>",
 	"description": "Nostalgia bucklespring keyboard sound - X11 flavour",
-	"homepage": "https://github.com/zevv/bucklespring",
-	"filename": "pool/main/b/bucklespring/bucklespring-x11_1.5.1+git.1.e41a021-2_amd64.deb",
-	"size": 21532,
-	"md5": "aa115b96351a94606caa65f99ce100bd",
-	"sha256": "1da1158081f5b3f4e8a318fc37f4cc082a5ae59c6a7be871de4efdc067be85e8",
+	"homepage": "https://github.com/barak/bucklespring",
+	"filename": "pool/main/b/bucklespring/bucklespring-x11_2.0.1-1_amd64.deb",
+	"size": 35964,
+	"md5": "892b150ced6620f7d8ccf20d3e8b6821",
+	"sha256": "7af736c2f7d060716ba018b133aa79c180f196b4cbcf70b513f8f8f603067d05",
 	"descriptionMd5": "4309f6f6b6d8380474305d5c8868939f"
 }

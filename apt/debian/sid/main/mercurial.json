@@ -5,15 +5,15 @@
 		"Size"
 	],
 	"package": "mercurial",
-	"source": "mercurial (7.2.4-1)",
-	"version": "7.2.4-1+b1",
+	"source": "mercurial (7.2.4-2)",
+	"version": "7.2.4-2+b1",
 	"section": "vcs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"mercurial-common (= 7.2.4-1)",
-		"ucf (>= 2.0020)",
-		"python3 (<< 3.15)",
+		"mercurial-common (= 7.2.4-2)",
+		"ucf",
+		"python3 (<< 3.16)",
 		"python3 (>= 3.14~)",
 		"python3:any",
 		"libc6 (>= 2.38)"
@@ -22,27 +22,15 @@
 		"openssh-client"
 	],
 	"suggests": [
-		"kdiff3 | kdiff3-qt | kompare | meld | tkcvs | mgdiff",
-		"qct"
+		"kdiff3 | kdiff3-qt | kompare | meld | tkcvs | mgdiff"
 	],
-	"breaks": [
-		"hgsubversion (<= 1.9.3+git20190419+6a6ce-3)",
-		"hgview-common",
-		"mercurial-crecord (<< 0.20151121-2~)",
-		"mercurial-git (<= 0.8.12-1.2)",
-		"mercurial-keyring (<= 1.3.0-1)",
-		"mercurial-server",
-		"python-sphinx-patchqueue",
-		"qct",
-		"trac-mercurial"
-	],
-	"installedSize": 1375,
+	"installedSize": 2668,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "easy-to-use, scalable distributed version control system",
 	"homepage": "https://www.mercurial-scm.org/",
-	"filename": "pool/main/m/mercurial/mercurial_7.2.4-1+b1_amd64.deb",
-	"size": 458244,
-	"md5": "716f31f2942e988da89a9616996a8bd9",
-	"sha256": "c04782a31f11e754fae35a6ffbdc8904de860d8ca7d48e5997fe266464b6391b",
+	"filename": "pool/main/m/mercurial/mercurial_7.2.4-2+b1_amd64.deb",
+	"size": 470556,
+	"md5": "d3f7554ec6aacc172d553b057414c768",
+	"sha256": "645b4a5225b52cb4bb04e25df7f8e46a14a690a48488769ac5ea5f9a02d5b963",
 	"descriptionMd5": "01f62ef3bd1477c40a17577e8dcc5e14"
 }

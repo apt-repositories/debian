@@ -6,21 +6,24 @@
 	],
 	"package": "librust-bytestring-dev",
 	"source": "rust-bytestring",
-	"version": "1.5.0-1",
+	"version": "1.5.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-bytes-1-dev (>= 1.2-~~)",
+		"librust-bytes-1-dev (>= 1.2)",
 		"librust-serde-core-1+default-dev"
 	],
-	"installedSize": 50,
+	"breaks": [
+		"rustc (<< 1.88~)"
+	],
+	"installedSize": 51,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "UTF-8 encoded read-only string using `Bytes` as storage - Rust source code",
 	"homepage": "https://actix.rs",
-	"filename": "pool/main/r/rust-bytestring/librust-bytestring-dev_1.5.0-1_amd64.deb",
-	"size": 12076,
-	"md5": "c3ee77ad88d8dc09e0883d2888f9e739",
-	"sha256": "cc6f287fc11d96d37976984e6afa240e225076b8403ae6f54bff8f48f34fa306",
+	"filename": "pool/main/r/rust-bytestring/librust-bytestring-dev_1.5.1-1_amd64.deb",
+	"size": 12332,
+	"md5": "fa3363362094d84f4166b9f9dcd2491d",
+	"sha256": "dcb229736cdf125605a919e37c2318f31b1dd8576cce288c00c118f0b5f8d538",
 	"descriptionMd5": "a7441fe564f0dcbd684673de7cc9e12c"
 }

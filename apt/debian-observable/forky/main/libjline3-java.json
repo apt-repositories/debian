@@ -6,21 +6,26 @@
 	],
 	"package": "libjline3-java",
 	"source": "jline3",
-	"version": "3.3.1-5",
+	"version": "3.29.0+ds-3",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"libjansi-java",
 		"libjna-java",
-		"libjuniversalchardet-java"
+		"libjuniversalchardet-java",
+		"libmina-sshd-java"
 	],
-	"installedSize": 1142,
+	"recommends": [
+		"libjline3-jni (>= 3.29.0+ds-3)"
+	],
+	"installedSize": 2853,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Console input handling library",
 	"homepage": "https://github.com/jline/jline3",
-	"filename": "pool/main/j/jline3/libjline3-java_3.3.1-5_all.deb",
-	"size": 515992,
-	"md5": "0cc9ff7aad656924a018a4de6c23c315",
-	"sha256": "52230200a7ff2957fb3c8b89f5201c52ef63862f26e8c19f076da3837a5a320d",
-	"descriptionMd5": "704bf1a5d2ce0b2d7c4736a27df6ecae"
+	"filename": "pool/main/j/jline3/libjline3-java_3.29.0+ds-3_all.deb",
+	"size": 1354292,
+	"md5": "3edd748be7a360c9b3b620b5f84eedea",
+	"sha256": "bea413ae471fb1fd20a5ffb98051cad01a9884b92dba0944dc38a5e365276896",
+	"descriptionMd5": "462f05e82a148f1a2d84ac528afc1904"
 }]

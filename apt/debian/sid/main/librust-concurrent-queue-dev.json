@@ -5,21 +5,26 @@
 		"Size"
 	],
 	"package": "librust-concurrent-queue-dev",
-	"source": "rust-concurrent-queue (2.5.0-4)",
-	"version": "2.5.0-4+b1",
+	"source": "rust-concurrent-queue",
+	"version": "2.5.0-5",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-crossbeam-utils-0.8-dev (>= 0.8.11-~~)",
+		"librust-crossbeam-utils-0.8-dev (>= 0.8.11)",
+		"librust-loom-0.7+default-dev",
 		"librust-portable-atomic-1-dev"
 	],
-	"installedSize": 137,
+	"breaks": [
+		"rustc (<< 1.60~)"
+	],
+	"installedSize": 139,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Concurrent multi-producer multi-consumer queue - Rust source code",
-	"filename": "pool/main/r/rust-concurrent-queue/librust-concurrent-queue-dev_2.5.0-4+b1_amd64.deb",
-	"size": 24612,
-	"md5": "148364a90a49d3e51949f25fbb97f8f6",
-	"sha256": "465f20200578578dd73b40fc380e33d1f0748a2a8967ca8037e441e81b13191a",
+	"homepage": "https://github.com/smol-rs/concurrent-queue",
+	"filename": "pool/main/r/rust-concurrent-queue/librust-concurrent-queue-dev_2.5.0-5_amd64.deb",
+	"size": 25152,
+	"md5": "e19114c638092c373f64b24e08643baf",
+	"sha256": "3a4eafe87988a9e000956890d69cbca488f0f5ee9a5a710b4a78b056ffd2b441",
 	"descriptionMd5": "f056525ea26f4ab6212c4950045de647"
 }

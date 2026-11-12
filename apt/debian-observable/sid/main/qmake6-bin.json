@@ -6,7 +6,7 @@
 	],
 	"package": "qmake6-bin",
 	"source": "qt6-base",
-	"version": "6.11.2+dfsg-6",
+	"version": "6.11.2+dfsg-8",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,13 +16,19 @@
 		"libstdc++6 (>= 12)",
 		"qt6-base-private-abi (= 6.11.2)"
 	],
+	"replaces": [
+		"qmake6 (<< 6.11.2+dfsg~)"
+	],
+	"breaks": [
+		"qmake6 (<< 6.11.2+dfsg~)"
+	],
 	"installedSize": 2261,
 	"maintainer": "Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>",
 	"description": "Qt 6 qmake Makefile generator tool — binary file",
 	"homepage": "https://www.qt.io/developers/",
-	"filename": "pool/main/q/qt6-base/qmake6-bin_6.11.2+dfsg-6_amd64.deb",
-	"size": 705780,
-	"md5": "ecc5c6eade7e11f181f037a653d0786d",
-	"sha256": "45234b860fc66116997c8d02787023af3a6f10b53655c5068f7448cd8bb5cc89",
+	"filename": "pool/main/q/qt6-base/qmake6-bin_6.11.2+dfsg-8_amd64.deb",
+	"size": 706120,
+	"md5": "e3babf6d1996295d3c1f32df0f4da6be",
+	"sha256": "0a039188810e1e96515f31ce40af8068f33864465f802e582c942cbff45141a5",
 	"descriptionMd5": "7bce87133b1389c453ddd624bdcce8f7"
 }]

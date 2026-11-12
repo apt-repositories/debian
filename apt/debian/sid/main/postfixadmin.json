@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "postfixadmin",
-	"version": "4.0.5+ds+~cs20.241.5-1",
+	"version": "4.0.6+ds+~cs20.241.7-1",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "all",
@@ -13,14 +13,13 @@
 		"apache2 | lighttpd | nginx | httpd",
 		"dbconfig-common",
 		"debconf",
-		"default-mysql-client | postgresql-client | mariadb-client",
 		"fonts-noto-core",
 		"fonts-open-sans",
 		"libjs-bootstrap",
 		"libjs-eonasdan-bootstrap-datetimepicker",
 		"libjs-jquery",
 		"libjs-moment",
-		"php-bacon-qr-code",
+		"mariadb-client | postgresql-client",
 		"php-fpm | libapache2-mod-php | php-cgi | php",
 		"php-gd",
 		"php-mbstring",
@@ -35,6 +34,7 @@
 	],
 	"recommends": [
 		"dovecot-core | courier-authlib",
+		"php-bacon-qr-code",
 		"php-cli",
 		"apache2 (>= 2.4.6-4~) | httpd"
 	],
@@ -42,13 +42,13 @@
 		"postfix-mysql | postfix-pgsql",
 		"virtual-mysql-server | postgresql | sqlite3 | mariadb-server"
 	],
-	"installedSize": 46343,
+	"installedSize": 46425,
 	"maintainer": "Luke Yasuda <jing@jing.rocks>",
 	"description": "Virtual mail hosting interface for Postfix",
 	"homepage": "https://postfixadmin.github.io/postfixadmin/",
-	"filename": "pool/main/p/postfixadmin/postfixadmin_4.0.5+ds+~cs20.241.5-1_all.deb",
-	"size": 5124456,
-	"md5": "690e9c8d2cd8ab9602f28270e4388321",
-	"sha256": "658418b2cc0b027817dfc6da49c7f7270979ea6f0aa68ccc8f4f32a54326a5c1",
+	"filename": "pool/main/p/postfixadmin/postfixadmin_4.0.6+ds+~cs20.241.7-1_all.deb",
+	"size": 5152000,
+	"md5": "f7743e6c9dc2abe31d969206a1fd7077",
+	"sha256": "34f8abdba8cbe711dd1e5e5d4024c8d6edad56a8c56d8aba19998b364728231a",
 	"descriptionMd5": "59d711f81f23a7e2d8610f58174d1858"
 }

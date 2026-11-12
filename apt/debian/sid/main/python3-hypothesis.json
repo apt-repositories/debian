@@ -6,14 +6,18 @@
 	],
 	"package": "python3-hypothesis",
 	"source": "python-hypothesis",
-	"version": "6.155.7-1",
+	"version": "6.170.15+ds-1",
 	"section": "python",
 	"priority": "optional",
-	"architecture": "all",
+	"architecture": "amd64",
 	"depends": [
 		"python3-dateutil",
+		"python3 (<< 3.16)",
+		"python3 (>= 3.14~)",
 		"python3-sortedcontainers",
-		"python3:any"
+		"python3:any",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.2)"
 	],
 	"recommends": [
 		"python3-click"
@@ -24,13 +28,13 @@
 	"breaks": [
 		"python3-h2 (<< 4.1.0~)"
 	],
-	"installedSize": 1789,
+	"installedSize": 2709,
 	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
 	"description": "advanced Quickcheck style testing library for Python 3",
 	"homepage": "https://github.com/HypothesisWorks/hypothesis",
-	"filename": "pool/main/p/python-hypothesis/python3-hypothesis_6.155.7-1_all.deb",
-	"size": 370888,
-	"md5": "78af614280d7b961a5ea9b8f06cf9bc6",
-	"sha256": "6b5181603b3227e3f54cbe0deb2a326b7635033293cc1a5b153e6cd2f2ff5477",
+	"filename": "pool/main/p/python-hypothesis/python3-hypothesis_6.170.15+ds-1_amd64.deb",
+	"size": 558320,
+	"md5": "7c550bfd9494428ad2eb23dcb23ac3c0",
+	"sha256": "5b623c1c60aa2961c01edade4c6b893576873be0d78b4d00791657bec0cc6fe7",
 	"descriptionMd5": "466954f1c5c38e1a2d5163868bd81bf8"
 }

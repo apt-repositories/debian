@@ -43,4 +43,48 @@
 	"md5": "d024c75927ecaf27b62927e33cd2159a",
 	"sha256": "28432316dbf240962bb7c71871615a513f08443af7f745c604576d5b509d2535",
 	"descriptionMd5": "c25fbd9bcc88ab95bcc33eea4228fd42"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rsyslog",
+	"version": "8.2302.0-1+deb12u2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libestr0 (>= 0.1.9)",
+		"libfastjson4 (>= 0.99.8)",
+		"liblognorm5 (>= 2.0.3)",
+		"libsystemd0 (>= 246)",
+		"libuuid1 (>= 2.16)",
+		"libzstd1 (>= 1.5.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"suggests": [
+		"rsyslog-mysql | rsyslog-pgsql",
+		"rsyslog-mongodb",
+		"rsyslog-doc",
+		"rsyslog-openssl | rsyslog-gnutls",
+		"rsyslog-gssapi",
+		"rsyslog-relp"
+	],
+	"conflicts": [
+		"linux-kernel-log-daemon",
+		"system-log-daemon"
+	],
+	"installedSize": 1942,
+	"maintainer": "Michael Biebl <biebl@debian.org>",
+	"description": "reliable system and kernel logging daemon",
+	"homepage": "https://www.rsyslog.com/",
+	"filename": "pool/updates/main/r/rsyslog/rsyslog_8.2302.0-1+deb12u2_amd64.deb",
+	"size": 724132,
+	"sha256": "68ae71297d548a77fa75ab99f6d0222bb21dfe5acf30bdaf1bd7cb6ee88b7a96",
+	"descriptionMd5": "c25fbd9bcc88ab95bcc33eea4228fd42"
 }]

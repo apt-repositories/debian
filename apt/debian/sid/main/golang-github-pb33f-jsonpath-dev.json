@@ -6,22 +6,26 @@
 	],
 	"package": "golang-github-pb33f-jsonpath-dev",
 	"source": "golang-github-pb33f-jsonpath",
-	"version": "0.8.2-2",
+	"version": "0.8.5-1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"golang-github-pb33f-go-yaml-dev",
 		"golang-github-pmezard-go-difflib-dev",
-		"golang-github-stretchr-testify-dev",
-		"golang-go.yaml-yaml-v4-dev"
+		"golang-github-stretchr-testify-dev"
 	],
-	"installedSize": 612,
+	"breaks": [
+		"golang-github-pb33f-libopenapi-dev (<< 0.38.0-3~)",
+		"golang-github-pb33f-libopenapi-validator-dev (<< 0.13.8-4~)"
+	],
+	"installedSize": 839,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "RFC 9535 JSONPath implementation with JSONPath Plus extensions",
 	"homepage": "https://github.com/pb33f/jsonpath",
-	"filename": "pool/main/g/golang-github-pb33f-jsonpath/golang-github-pb33f-jsonpath-dev_0.8.2-2_all.deb",
-	"size": 65556,
-	"md5": "c3c7edc8ce16c4086176d7197fb1ab45",
-	"sha256": "7405389b19bda14b6a88c7e181d124d50db4466c446a6a13b05f50d5c62f92a8",
+	"filename": "pool/main/g/golang-github-pb33f-jsonpath/golang-github-pb33f-jsonpath-dev_0.8.5-1_all.deb",
+	"size": 96512,
+	"md5": "0d689ec452819f8e58f7709dd6f13467",
+	"sha256": "14ac7062cdd22f4ef6b4491d0b2008eb8c3fbbaf42c3ff3c6a18015fa70fa7d0",
 	"descriptionMd5": "e5f680a0d621cc7a6202fbd3d8509d39"
 }

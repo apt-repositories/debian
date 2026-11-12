@@ -5,23 +5,25 @@
 		"Size"
 	],
 	"package": "libjackson2-module-jaxb-annotations-java",
-	"source": "jackson-module-jaxb-annotations",
-	"version": "2.8.10-4",
+	"source": "jackson-modules-base",
+	"version": "2.22.4-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libjackson2-annotations-java (>= 2.9.8)",
-		"libjackson2-core-java (>= 2.9.8)",
-		"libjackson2-databind-java"
+		"libjackson2-annotations-java (>= 2.22)",
+		"libjackson2-core-java (>= 2.22.4)",
+		"libjackson2-databind-java",
+		"libjakarta-activation-java",
+		"libjaxb-api-java (>= 2.3.1)"
 	],
-	"installedSize": 60,
+	"installedSize": 73,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Fast and powerful JSON library for Java -- JAXB annotations",
-	"homepage": "http://wiki.fasterxml.com/JacksonJAXBAnnotations",
-	"filename": "pool/main/j/jackson-module-jaxb-annotations/libjackson2-module-jaxb-annotations-java_2.8.10-4_all.deb",
-	"size": 33576,
-	"md5": "14a028d2998d8d75634708c25ba738d4",
-	"sha256": "9561bd17fb6ef82e3f605b24df3d09e735ef77f22485da5998c15fa27789e7dc",
+	"homepage": "https://github.com/FasterXML/jackson-modules-base",
+	"filename": "pool/main/j/jackson-modules-base/libjackson2-module-jaxb-annotations-java_2.22.4-1_all.deb",
+	"size": 36520,
+	"md5": "d67ba90d4f89c00607ad71b61e2c38e0",
+	"sha256": "931254cedac94dd3339bbf0c2b6607982f1ac378551349f2fb41537d9fe52d44",
 	"descriptionMd5": "94fe9da6d2c3422d40cd037c8a6186d5"
 }]

@@ -6,21 +6,24 @@
 	],
 	"package": "librust-block-buffer-dev",
 	"source": "rust-block-buffer",
-	"version": "0.12.0-1",
+	"version": "0.12.1-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-hybrid-array-0.4+default-dev",
-		"librust-zeroize-1-dev (>= 1.4)"
+		"librust-zeroize-1-dev (>= 1.8)"
 	],
-	"installedSize": 79,
+	"breaks": [
+		"rustc (<< 1.85~)"
+	],
+	"installedSize": 83,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Buffer types for block processing of data - Rust source code",
 	"homepage": "https://github.com/RustCrypto/utils",
-	"filename": "pool/main/r/rust-block-buffer/librust-block-buffer-dev_0.12.0-1_amd64.deb",
-	"size": 17372,
-	"md5": "4dd575e8bbeec3909d4fb2a9574ded13",
-	"sha256": "1f00c808c5f49b57970829cbb7fe674d418ea3605be3ae5c09d2b791013db27c",
+	"filename": "pool/main/r/rust-block-buffer/librust-block-buffer-dev_0.12.1-1_amd64.deb",
+	"size": 18348,
+	"md5": "2078edcbd4507da707d43b2c93f94f84",
+	"sha256": "06ab6041cad2719cdd7dd11f3b2ac3a0854c709c7a9deaeab59c8c0018e8d305",
 	"descriptionMd5": "2e2c409317bcc09cc598622cbb7ddd07"
 }]

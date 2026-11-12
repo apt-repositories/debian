@@ -6,15 +6,16 @@
 	],
 	"package": "libdoxia-core-java",
 	"source": "doxia",
-	"version": "2.0.0-1",
+	"version": "2.1.0-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libcommons-lang-java",
-		"libcommons-text-java",
-		"libplexus-utils-java",
-		"libmaven-parent-java"
+		"libatinject-jsr330-api-java",
+		"libcommons-io-java (>= 2.22.0)",
+		"libmaven-parent-java (>= 43)",
+		"libplexus-xml-java (>= 3.0.1)",
+		"libslf4j-java (>= 1.7.36)"
 	],
 	"replaces": [
 		"libdoxia-java (<= 1.1.4-2)"
@@ -22,13 +23,13 @@
 	"breaks": [
 		"libdoxia-java (<= 1.1.4-2)"
 	],
-	"installedSize": 217,
+	"installedSize": 232,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Doxia content generation framework (core)",
 	"homepage": "http://maven.apache.org/doxia/",
-	"filename": "pool/main/d/doxia/libdoxia-core-java_2.0.0-1_all.deb",
-	"size": 149056,
-	"md5": "8fcf70f77a2813adc32d86480da82d05",
-	"sha256": "5de3f41177fe99e9f37af8f4739527f4e9094c6a6c1afe02f81dd03afd8e4ca3",
+	"filename": "pool/main/d/doxia/libdoxia-core-java_2.1.0-1_all.deb",
+	"size": 162776,
+	"md5": "a672f6bf0f696ea5fdc41fcfb79f000f",
+	"sha256": "59eb2f182ad564be28d00faed0a1c9ab28a6cd7f6073dfae0cf4da488bfb7dfa",
 	"descriptionMd5": "6a0eed4e4f542626802bc1ed2009480c"
 }]
