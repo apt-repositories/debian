@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsrt1.5-openssl",
+	"source": "srt",
+	"version": "1.5.1-1+deb12u2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libssl3 (>= 3.0.0)",
+		"libstdc++6 (>= 11)"
+	],
+	"replaces": [
+		"libsrt1 (<< 1.4.1-3)",
+		"libsrt1-openssl"
+	],
+	"breaks": [
+		"libsrt1 (<< 1.4.1-3)",
+		"libsrt1-openssl"
+	],
+	"installedSize": 915,
+	"maintainer": "Florian Ernst <florian@debian.org>",
+	"description": "Secure Reliable Transport UDP streaming library (OpenSSL flavour)",
+	"homepage": "https://github.com/Haivision/srt",
+	"filename": "pool/updates/main/s/srt/libsrt1.5-openssl_1.5.1-1+deb12u2_amd64.deb",
+	"size": 312880,
+	"sha256": "12a268bfb37b4e84e5a0c6422ac08dfb2607669fe5399e7a38214d4400963391",
+	"descriptionMd5": "1c32647d6b8350ed5ef4dcedc62840d7"
+}

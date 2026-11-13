@@ -5,15 +5,16 @@
 		"Size"
 	],
 	"package": "cwltool",
-	"version": "3.2.20260413085819-1",
+	"version": "3.3.20261106131234-1",
 	"section": "science",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
+		"python3-arcp",
 		"python3-argcomplete",
-		"python3-coloredlogs",
-		"python3-cwl-utils (>= 0.41)",
+		"python3-cwl-utils (>= 0.44)",
 		"python3-mypy-extensions",
+		"python3-coloredlogs",
 		"python3-prov",
 		"python3-psutil",
 		"python3-pydot",
@@ -23,30 +24,29 @@
 		"python3-requests",
 		"python3-rich-argparse",
 		"python3-ruamel.yaml",
-		"python3-schema-salad (>= 8.9)",
+		"python3-schema-salad (>= 8.10)",
 		"python3-spython",
 		"python3-typing-extensions",
-		"python3:any",
-		"python3-arcp"
+		"python3:any"
 	],
 	"recommends": [
 		"nodejs",
 		"python3-galaxy-tool-util"
 	],
 	"suggests": [
-		"podman | docker.io | singularity-container",
-		"cwltool-doc"
+		"cwltool-doc",
+		"podman | docker.io | singularity-container"
 	],
 	"breaks": [
 		"toil (<< 5.12.0)"
 	],
-	"installedSize": 6065,
+	"installedSize": 6129,
 	"maintainer": "Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>",
 	"description": "Common Workflow Language reference implementation",
 	"homepage": "https://cwltool.readthedocs.io/",
-	"filename": "pool/main/c/cwltool/cwltool_3.2.20260413085819-1_all.deb",
-	"size": 523624,
-	"md5": "6a0a827d1f1260b4613cef3ded2b816c",
-	"sha256": "5853582e1501641573bcee7a603568f1518973017bfdda6f01eea11e2e1ca815",
+	"filename": "pool/main/c/cwltool/cwltool_3.3.20261106131234-1_all.deb",
+	"size": 533784,
+	"md5": "39154de9a92dab2da756ee21b1eea7a0",
+	"sha256": "125d138ae307bf87377d8cd173819bf5453a78e42349723586c1d99f3f863b9c",
 	"descriptionMd5": "764364acbad5f207e5f6438f00c333c4"
 }]

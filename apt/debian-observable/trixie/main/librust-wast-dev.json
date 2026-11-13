@@ -6,6 +6,38 @@
 	],
 	"package": "librust-wast-dev",
 	"source": "rust-wast",
+	"version": "239.0.0-3~bpo13+1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-bumpalo-3+default-dev (>= 3.14.0)",
+		"librust-gimli-0.31+default-dev (>= 0.31.1)",
+		"librust-leb128fmt-0.1-dev",
+		"librust-memchr-2+default-dev (>= 2.4.1)",
+		"librust-unicode-width-0.2+default-dev",
+		"librust-wasm-encoder-0.239+component-model-dev",
+		"librust-wasm-encoder-0.239+std-dev"
+	],
+	"breaks": [
+		"rustc (<< 1.76.0~)"
+	],
+	"installedSize": 910,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Customizable Rust parsers for the WebAssembly Text formats WAT and WAST - Rust source code",
+	"homepage": "https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wast",
+	"filename": "pool/main/r/rust-wast/librust-wast-dev_239.0.0-3~bpo13+1_amd64.deb",
+	"size": 126388,
+	"sha256": "d012a2f51647178d56e62bb42cafbc0facabe6f2f49f992c7632e5fa29b712c9",
+	"descriptionMd5": "a25182e7fa6d0aa596472f94e9855c1e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-wast-dev",
+	"source": "rust-wast",
 	"version": "217.0.0-2",
 	"section": "rust",
 	"priority": "optional",

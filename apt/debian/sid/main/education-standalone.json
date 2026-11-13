@@ -6,12 +6,12 @@
 	],
 	"package": "education-standalone",
 	"source": "debian-edu",
-	"version": "2.13.7",
+	"version": "2.13.8",
 	"section": "misc",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
-		"education-tasks (= 2.13.7)"
+		"education-tasks (= 2.13.8)"
 	],
 	"recommends": [
 		"cups",
@@ -20,17 +20,19 @@
 		"education-desktop-other",
 		"foomatic-db-compressed-ppds",
 		"hp-ppd",
-		"hpijs-ppds",
-		"hplip-gui",
 		"isenkram"
+	],
+	"suggests": [
+		"hpijs-ppds",
+		"hplip-gui"
 	],
 	"installedSize": 26,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "Debian Edu standalone workstation packages",
 	"homepage": "https://blends.debian.org/edu",
-	"filename": "pool/main/d/debian-edu/education-standalone_2.13.7_amd64.deb",
-	"size": 6856,
-	"md5": "3968a99de63f20184607670aa960e18c",
-	"sha256": "fb84335dc082fef5ec253e0b071b8fea9c72e94a3f99cab8a9de7e9436f09bc2",
+	"filename": "pool/main/d/debian-edu/education-standalone_2.13.8_all.deb",
+	"size": 7052,
+	"md5": "3943ebde47a719515df26a1dca4096d7",
+	"sha256": "8592f695f8a8d51f4a4fb998b4565c005f7a26dc829508a4d8d43e3f700c7698",
 	"descriptionMd5": "b545a85ffce2a9deff5a44b553776a25"
 }

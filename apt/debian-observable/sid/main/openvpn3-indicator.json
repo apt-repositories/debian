@@ -5,19 +5,21 @@
 		"Size"
 	],
 	"package": "openvpn3-indicator",
-	"version": "1.0.1-1",
+	"version": "1.0.1-2",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"gir1.2-ayatanaappindicator3-0.1",
-		"gnome-shell-extension-appindicator | libkf6statusnotifieritem6",
 		"openvpn3-client",
 		"python3",
 		"python3-gi",
 		"python3-secretstorage",
 		"python3-setproctitle",
 		"dconf-gsettings-backend | gsettings-backend"
+	],
+	"recommends": [
+		"gnome-shell-extension-appindicator | plasma-workspace | xapp-sn-watcher | xfce4-panel | lxqt-panel | ayatana-indicator-application"
 	],
 	"enhances": [
 		"openvpn3-client"
@@ -26,9 +28,9 @@
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "OpenVPN3 indicator for Network Manager",
 	"homepage": "https://github.com/openvpn/openvpn3-indicator",
-	"filename": "pool/main/o/openvpn3-indicator/openvpn3-indicator_1.0.1-1_all.deb",
-	"size": 44792,
-	"md5": "bf10594344da198dad1557e47ac38ec0",
-	"sha256": "460bec914d5f5da20f3a3a83ca08e32fab8a5539a1f4a3208fbc1dc068f0267b",
+	"filename": "pool/main/o/openvpn3-indicator/openvpn3-indicator_1.0.1-2_all.deb",
+	"size": 44988,
+	"md5": "9a4c9f9430d528da1455afb6c9eb8f52",
+	"sha256": "b23f5639e11e83d9bd73fd64ba774c66c070f3f8625315e3eac9662a847ca959",
 	"descriptionMd5": "a78b2859dff5e8cace079467dfc16328"
 }]

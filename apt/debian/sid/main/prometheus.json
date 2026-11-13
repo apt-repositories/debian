@@ -5,25 +5,25 @@
 		"Size"
 	],
 	"package": "prometheus",
-	"version": "3.5.3+ds1-6",
+	"version": "3.5.3+ds1-7",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"adduser",
 		"promtool",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.34)"
 	],
 	"recommends": [
 		"prometheus-node-exporter"
 	],
-	"installedSize": 98458,
+	"installedSize": 98535,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "monitoring system and time series database",
 	"homepage": "https://prometheus.io/",
-	"filename": "pool/main/p/prometheus/prometheus_3.5.3+ds1-6_amd64.deb",
-	"size": 18286304,
-	"md5": "2bfccab26e4bba8296531f2832d06465",
-	"sha256": "593bcced02d8082688ea034dfc543848ad145c5f793aae5aad756c4dbdfa98da",
+	"filename": "pool/main/p/prometheus/prometheus_3.5.3+ds1-7_amd64.deb",
+	"size": 18315976,
+	"md5": "c742174ca8e7c7152a665b435bee3c9a",
+	"sha256": "c7a94d89f0ed158c3be0353b7c2dc4d983bcdb808027de1f04cd6ceb9eb37b81",
 	"descriptionMd5": "ed8e3840401470b3bc3fb55243535f98"
 }

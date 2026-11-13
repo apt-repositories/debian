@@ -6,6 +6,39 @@
 	],
 	"package": "librust-wasmparser-dev",
 	"source": "rust-wasmparser",
+	"version": "0.239.0-2~bpo13+1",
+	"section": "rust",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librust-bitflags-2+default-dev (>= 2.4.1)",
+		"librust-hashbrown-0.14+serde-dev",
+		"librust-hashbrown-0.14-dev",
+		"librust-indexmap-2+serde-dev (>= 2.7.0)",
+		"librust-indexmap-2+std-dev (>= 2.7.0)",
+		"librust-indexmap-2-dev (>= 2.7.0)",
+		"librust-semver-1-dev",
+		"librust-serde-1+alloc-dev (>= 1.0.166)"
+	],
+	"breaks": [
+		"rustc (<< 1.76.0~)"
+	],
+	"installedSize": 1473,
+	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
+	"description": "Simple event-driven library for parsing WebAssembly binary files - Rust source code",
+	"homepage": "https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wasmparser",
+	"filename": "pool/main/r/rust-wasmparser/librust-wasmparser-dev_0.239.0-2~bpo13+1_amd64.deb",
+	"size": 201156,
+	"sha256": "f257c01e7f0e159befd2f8afdbfcf7d7244a76d907664dd9eed80157c00b62ef",
+	"descriptionMd5": "07e01eedf70f8df1a7530c1ca47df89c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librust-wasmparser-dev",
+	"source": "rust-wasmparser",
 	"version": "0.217.0-2",
 	"section": "rust",
 	"priority": "optional",

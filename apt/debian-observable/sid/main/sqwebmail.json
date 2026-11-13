@@ -6,13 +6,13 @@
 	],
 	"package": "sqwebmail",
 	"source": "courier (2.0.6-1)",
-	"version": "7.0.4+2.0.6-1",
+	"version": "7.0.4+2.0.6-1+b1",
 	"section": "mail",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"apache2",
-		"courier-base (= 2.0.6-1)",
+		"courier-base (= 2.0.6-1+b1)",
 		"debconf",
 		"default-mta | mail-transport-agent",
 		"expect",
@@ -20,7 +20,6 @@
 		"ispell",
 		"maildrop",
 		"debconf (>= 0.5) | debconf-2.0",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
 		"perl:any",
 		"libc6 (>= 2.38)",
 		"libcourier-authlib0 (>= 0.72.7.20260502)",
@@ -29,7 +28,7 @@
 		"libgdbm6t64 (>= 1.16)",
 		"libidn2-0 (>= 2.0.0)",
 		"libldap2 (>= 2.6.2)",
-		"libpcre2-8-0 (>= 10.22)",
+		"libpcre2-8-0 (>= 10.47)",
 		"libstdc++6 (>= 13.1)"
 	],
 	"recommends": [
@@ -39,13 +38,13 @@
 		"courier-doc",
 		"gnupg"
 	],
-	"installedSize": 2425,
+	"installedSize": 2562,
 	"maintainer": "Soren Stoutner <soren@debian.org>",
 	"description": "Courier mail server - webmail server",
 	"homepage": "https://www.courier-mta.org/",
-	"filename": "pool/main/c/courier/sqwebmail_7.0.4+2.0.6-1_amd64.deb",
-	"size": 769132,
-	"md5": "995395537cbafb3fdc48f7225440f32c",
-	"sha256": "74aaad1cb3c867d905081f949522a966d6b0b7b945efbe3278729d6d9f34a115",
+	"filename": "pool/main/c/courier/sqwebmail_7.0.4+2.0.6-1+b1_amd64.deb",
+	"size": 802360,
+	"md5": "52f3831700f7d7780a83d06575c5b8b0",
+	"sha256": "5f104c4e717aabafd11ad9a16549b09acf6dc492248bc2c6320cda3449023662",
 	"descriptionMd5": "9875882d6b06839dd1ca8cca5474dccd"
 }]

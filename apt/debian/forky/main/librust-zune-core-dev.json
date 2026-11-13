@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librust-zune-core-dev",
-	"source": "rust-zune-core (0.5.1-1)",
-	"version": "0.5.1-1+b1",
+	"source": "rust-zune-core",
+	"version": "0.5.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -14,13 +14,16 @@
 		"librust-log-0.4+default-dev",
 		"librust-serde-1+default-dev"
 	],
-	"installedSize": 142,
+	"breaks": [
+		"rustc (<< 1.75.0~)"
+	],
+	"installedSize": 150,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Core utilities for image processing in the zune family of crates - Rust source code",
 	"homepage": "https://github.com/etemesi254/zune-image",
-	"filename": "pool/main/r/rust-zune-core/librust-zune-core-dev_0.5.1-1+b1_amd64.deb",
-	"size": 27856,
-	"md5": "5240c57527a7b5ab1438e062e9ae7b15",
-	"sha256": "d3e08d49b2ae719dbac1cce648269fe6aca452dc3f4743a1b7d3d9cd574a2fbc",
+	"filename": "pool/main/r/rust-zune-core/librust-zune-core-dev_0.5.3-1_amd64.deb",
+	"size": 29828,
+	"md5": "9b7f8e12924169ce284a4cc6d3ffdd5f",
+	"sha256": "54b49b4ea4fabe95d3d63f7cc0dc6b49db1d76eefe920e38d141f3beb033db5b",
 	"descriptionMd5": "1e85c480f6ad498902b3b6a9cc338370"
 }

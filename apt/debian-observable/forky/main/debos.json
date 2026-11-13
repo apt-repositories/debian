@@ -5,47 +5,44 @@
 		"Size"
 	],
 	"package": "debos",
-	"version": "1.1.7-1",
+	"version": "1.1.8-1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"busybox | busybox-static",
-		"debootstrap",
+		"busybox",
+		"ipxe-qemu",
 		"qemu-system-x86",
 		"qemu-user-binfmt",
 		"systemd-container",
-		"systemd-resolved",
 		"libc6 (>= 2.34)",
 		"libglib2.0-0t64 (>= 2.38.0)",
 		"libostree-1-1 (>= 2016.8)"
 	],
 	"recommends": [
-		"bmap-tools",
 		"bzip2",
+		"debootstrap",
 		"dosfstools",
 		"e2fsprogs",
 		"fdisk",
 		"linux-image-amd64",
 		"mmdebstrap",
 		"mount",
-		"ovmf",
 		"parted",
 		"udev",
-		"xz-utils",
-		"zip"
+		"unzip",
+		"xz-utils"
 	],
 	"suggests": [
-		"libslirp-helper",
-		"user-mode-linux"
+		"systemd-resolved"
 	],
-	"installedSize": 9688,
-	"maintainer": "Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>",
+	"installedSize": 10721,
+	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
 	"description": "Debian OS builder",
 	"homepage": "https://github.com/go-debos/debos",
-	"filename": "pool/main/d/debos/debos_1.1.7-1_amd64.deb",
-	"size": 3087064,
-	"md5": "66fec2e2597c672c4c87a2a7e263c52e",
-	"sha256": "50ca51c76f6f2e79cb46e81ec083a2989d8a9b0dcd2c329ed6ecd65c25f5eb03",
+	"filename": "pool/main/d/debos/debos_1.1.8-1_amd64.deb",
+	"size": 3453992,
+	"md5": "9497d1bcfa16bdbdc90bb7b741d42edf",
+	"sha256": "1a16b1bc2d19998c67dde4c12c78506ae1dd79362aa4f09fd2a59d384a0be1cb",
 	"descriptionMd5": "c0707a49f28410861421b982e1e4b223"
 }]

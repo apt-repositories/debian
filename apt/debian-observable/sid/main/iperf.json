@@ -5,22 +5,24 @@
 		"Size"
 	],
 	"package": "iperf",
-	"version": "2.2.1+dfsg-1.1",
+	"version": "2.2.1+dfsg-4",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.38)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.43)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 5)"
 	],
-	"installedSize": 431,
-	"maintainer": "Roberto Lumbreras <rover@debian.org>",
+	"installedSize": 440,
+	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "Internet Protocol bandwidth measuring tool",
-	"homepage": "https://sourceforge.net/projects/iperf2/",
-	"filename": "pool/main/i/iperf/iperf_2.2.1+dfsg-1.1_amd64.deb",
-	"size": 159880,
-	"md5": "e8b5d561a07098b3d08c18232487e974",
-	"sha256": "1087d9d412ce53f1a29a1b27c7e067e809e8c53edd2b6d6b87a1a022948256e3",
+	"homepage": "https://sourceforge.net/projects/iperf2",
+	"filename": "pool/main/i/iperf/iperf_2.2.1+dfsg-4_amd64.deb",
+	"size": 163288,
+	"md5": "3b8ffdd21728e646fccc2fc8f29751cd",
+	"sha256": "bfe3185c1f4383f34d1887b01bc58cf0758d7e9019617c3df1097545f590579c",
 	"descriptionMd5": "1b25d29ae979d65c1a67cf08177ba875"
 }]

@@ -6,12 +6,12 @@
 	],
 	"package": "education-roaming-workstation",
 	"source": "debian-edu",
-	"version": "2.13.7",
+	"version": "2.13.8",
 	"section": "metapackages",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
-		"education-tasks (= 2.13.7)"
+		"education-tasks (= 2.13.8)"
 	],
 	"recommends": [
 		"education-desktop-other",
@@ -21,21 +21,19 @@
 		"jxplorer",
 		"krb5-auth-dialog",
 		"libnss-mdns",
-		"libpam-mklocaluser",
-		"plasma-nm | cmst"
-	],
-	"suggests": [
 		"libnss-sss",
+		"libpam-mklocaluser",
 		"libpam-sss",
-		"libsss-sudo"
+		"libsss-sudo",
+		"plasma-nm | cmst"
 	],
 	"installedSize": 26,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "Debian Edu roaming workstation packages",
 	"homepage": "https://blends.debian.org/edu",
-	"filename": "pool/main/d/debian-edu/education-roaming-workstation_2.13.7_amd64.deb",
-	"size": 6912,
-	"md5": "bd9d6163704051df76c728be0cb8b245",
-	"sha256": "2387ce3cb283455296a91e7c5d58360bfdc9c33e064df976722e702e70ee8209",
+	"filename": "pool/main/d/debian-edu/education-roaming-workstation_2.13.8_all.deb",
+	"size": 7088,
+	"md5": "8e8d685924f90c4203b3e7c8ff509b35",
+	"sha256": "2b798d1bff944171b64a6e652c3e4459c3fcb8328a06b28309c763ac75568483",
 	"descriptionMd5": "6f4f3c0d34d8418a38b1ba3f6fc7bf76"
 }]

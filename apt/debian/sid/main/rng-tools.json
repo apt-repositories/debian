@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "rng-tools",
-	"version": "6.17-6",
+	"version": "6.17-10",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -17,16 +17,16 @@
 		"libjitterentropy3 (>= 3.6.3)",
 		"libssl3t64 (>= 3.0.0)"
 	],
-	"conflicts": [
-		"rng-tools5"
+	"breaks": [
+		"rng-tools5 (<< 6)"
 	],
-	"installedSize": 180,
+	"installedSize": 176,
 	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "Daemon to use a Hardware TRNG",
 	"homepage": "https://github.com/nhorman/rng-tools",
-	"filename": "pool/main/r/rng-tools/rng-tools_6.17-6_amd64.deb",
-	"size": 51272,
-	"md5": "6452b7c18226d5e1f6bbe87c6da19652",
-	"sha256": "bdbf3c934c9160dd84f87be44b6e90aa4378143a261792ed5ae922e71234af56",
+	"filename": "pool/main/r/rng-tools/rng-tools_6.17-10_amd64.deb",
+	"size": 50888,
+	"md5": "bd714954d74cdc6a6cfae0c779db0bb0",
+	"sha256": "ee1b965587876e04ded0eee84aadc067ecf847c5219812c4d17969cad71ed9e7",
 	"descriptionMd5": "53bdd8d47cb06608cb9b3f3a21f5a0d5"
 }

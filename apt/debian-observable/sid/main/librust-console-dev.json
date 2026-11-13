@@ -5,23 +5,25 @@
 		"Size"
 	],
 	"package": "librust-console-dev",
-	"source": "rust-console (0.15.11-1)",
-	"version": "0.15.11-1+b1",
+	"source": "rust-console",
+	"version": "0.16.6-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-libc-0.2+default-dev (>= 0.2.99-~~)",
-		"librust-once-cell-1+default-dev (>= 1.8-~~)",
+		"librust-libc-0.2+default-dev (>= 0.2.99)",
 		"librust-unicode-width-0.2+default-dev"
 	],
-	"installedSize": 188,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 189,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Terminal and console abstraction for Rust - Rust source code",
 	"homepage": "https://github.com/console-rs/console",
-	"filename": "pool/main/r/rust-console/librust-console-dev_0.15.11-1+b1_amd64.deb",
-	"size": 35300,
-	"md5": "7329393857b4adfb6db1412552f0b215",
-	"sha256": "9af16e711a5659f6d79e571de07fa1f27c08f7a2f0b6bcfaed49c11096e98cdb",
+	"filename": "pool/main/r/rust-console/librust-console-dev_0.16.6-2_amd64.deb",
+	"size": 36700,
+	"md5": "10798a6cdfaf9f02d77ea55b986b6cc9",
+	"sha256": "bbd2d7986bbf3aab2bc64808e97be6655b48b7df36fee242ad890fed582d241a",
 	"descriptionMd5": "619f3ad45fa1ac79654ba5e20bf19852"
 }]

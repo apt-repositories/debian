@@ -6,23 +6,26 @@
 	],
 	"package": "librust-markup5ever-rcdom-dev",
 	"source": "rust-markup5ever-rcdom",
-	"version": "0.35.0+ds-1",
+	"version": "0.35.0+ds-3",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-html5ever-0.35+default-dev",
-		"librust-markup5ever-0.35+default-dev",
+		"librust-html5ever-0.40+default-dev",
+		"librust-markup5ever-0.40+default-dev",
 		"librust-tendril-0.5+default-dev",
-		"librust-xml5ever-0.35+default-dev"
+		"librust-xml5ever-0.40+default-dev"
 	],
-	"installedSize": 139,
+	"breaks": [
+		"librust-html2md-dev (<< 0.2.17)"
+	],
+	"installedSize": 142,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "DOM structure for use by tests in html5ever/xml5ever - Rust source code",
 	"homepage": "https://github.com/servo/html5ever",
-	"filename": "pool/main/r/rust-markup5ever-rcdom/librust-markup5ever-rcdom-dev_0.35.0+ds-1_amd64.deb",
-	"size": 24804,
-	"md5": "74f06f11196f2e81120c4c6c2d1e31a0",
-	"sha256": "8a656e2e97d1c0364592d4a70b9eddf33e146739abf99e0ef9690a95c9dd6524",
+	"filename": "pool/main/r/rust-markup5ever-rcdom/librust-markup5ever-rcdom-dev_0.35.0+ds-3_amd64.deb",
+	"size": 25528,
+	"md5": "72821a914f5b36f014f3afb8d47f2e16",
+	"sha256": "c230a55c7b1d9ccbeb43ee4b7a2ef05506b8d47a1a5a552d58e74ca18fb8f926",
 	"descriptionMd5": "e2be85760c5a660241ed71da8fdd7021"
 }

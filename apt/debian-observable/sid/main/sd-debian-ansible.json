@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sd-debian-ansible",
+	"source": "sd-debian",
+	"version": "0.3.1-1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ansible",
+		"python3",
+		"python3-colorlog",
+		"python3-configargparse (>= 1.9.0)",
+		"python3-yaml",
+		"python3:any",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
+	],
+	"suggests": [
+		"git"
+	],
+	"enhances": [
+		"sd-debian"
+	],
+	"breaks": [
+		"ansible-core (<< 2.19)",
+		"opensysusers (<< 0.7.3-5.1~)",
+		"python3-configargparse (<< 1.9.0)",
+		"systemd (<< 257)",
+		"systemd-standalone-sysusers (<< 257)"
+	],
+	"installedSize": 151,
+	"maintainer": "sd-debian Maintainers <team+sd-debian@tracker.debian.org>",
+	"description": "Software-defined Debian",
+	"homepage": "https://sd.debian.net",
+	"filename": "pool/main/s/sd-debian/sd-debian-ansible_0.3.1-1_all.deb",
+	"size": 31392,
+	"md5": "5d55a09933c13850878f610e56a2864c",
+	"sha256": "6a3e1d9048b6e7de140297e4821fe02b04368b7fdc3066d0f185ae21886e696c",
+	"descriptionMd5": "a55d4dedb73305f567bb0ff4befa0592"
+}]

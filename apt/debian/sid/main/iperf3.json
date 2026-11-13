@@ -5,24 +5,23 @@
 		"Size"
 	],
 	"package": "iperf3",
-	"version": "3.22-0.1",
+	"version": "3.22-2",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"debconf",
-		"adduser",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libc6 (>= 2.34)",
-		"libiperf0 (>= 3.1.3)",
-		"debconf (>= 0.5) | debconf-2.0"
+		"libiperf0 (>= 3.1.3)"
 	],
-	"installedSize": 94,
-	"maintainer": "Roberto Lumbreras <rover@debian.org>",
+	"installedSize": 95,
+	"maintainer": "Daniel Baumann <daniel@debian.org>",
 	"description": "Internet Protocol bandwidth measuring tool",
-	"homepage": "https://software.es.net/iperf/",
-	"filename": "pool/main/i/iperf3/iperf3_3.22-0.1_amd64.deb",
-	"size": 41744,
-	"md5": "4e32775e1047a3ee84b7a600d36298aa",
-	"sha256": "6d5369aadfbecf29e86ebd19c22e9aabf659db5c7ad2737fe500f7d4fbcdf4a4",
-	"descriptionMd5": "868f6472f9c9d19fbddc8629a2bc01a5"
+	"homepage": "https://github.com/esnet/iperf",
+	"filename": "pool/main/i/iperf3/iperf3_3.22-2_amd64.deb",
+	"size": 41660,
+	"md5": "fbea167ed682013c68f4cc605037c97f",
+	"sha256": "5a9710dd56ea8c60854079b1424f9d5a2111eb7ec000527cb9040298f8f6bd3b",
+	"descriptionMd5": "25d8d56b33f735749ff765c090224137"
 }
