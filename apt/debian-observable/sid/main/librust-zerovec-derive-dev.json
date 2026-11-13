@@ -6,23 +6,26 @@
 	],
 	"package": "librust-zerovec-derive-dev",
 	"source": "rust-zerovec-derive",
-	"version": "0.11.3-1",
+	"version": "0.11.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-proc-macro2-1+default-dev (>= 1.0.61)",
 		"librust-quote-1+default-dev (>= 1.0.44)",
-		"librust-syn-2+default-dev (>= 2.0.21)",
-		"librust-syn-2+extra-traits-dev (>= 2.0.21)"
+		"librust-syn-3+default-dev",
+		"librust-syn-3+extra-traits-dev"
 	],
-	"installedSize": 117,
+	"breaks": [
+		"rustc (<< 1.83~)"
+	],
+	"installedSize": 126,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Custom derive for the zerovec crate - Rust source code",
 	"homepage": "https://github.com/unicode-org/icu4x",
-	"filename": "pool/main/r/rust-zerovec-derive/librust-zerovec-derive-dev_0.11.3-1_amd64.deb",
-	"size": 21528,
-	"md5": "c5806b3d382bdc0e63c13f35487e76ae",
-	"sha256": "645d5497686ddd90c01a11b3213c8450d2ee40434671183183542e17ec010ba6",
+	"filename": "pool/main/r/rust-zerovec-derive/librust-zerovec-derive-dev_0.11.7-1_amd64.deb",
+	"size": 22756,
+	"md5": "a0f025c35e9fa64952f0223569a2ebec",
+	"sha256": "536482eeaea384ea43d3d76e1dae4225a92045e022e1f05f8a77d1dbcd1ca04a",
 	"descriptionMd5": "f1dfd3276da4e50b73010ee6c618409c"
 }]

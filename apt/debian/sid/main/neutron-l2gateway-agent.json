@@ -6,20 +6,26 @@
 	],
 	"package": "neutron-l2gateway-agent",
 	"source": "networking-l2gw",
-	"version": "1:22.0.0-1",
+	"version": "1:22.0.0-2",
 	"section": "python",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"python3-networking-l2gw (= 1:22.0.0-1)"
+		"python3-networking-l2gw (= 1:22.0.0-2)"
+	],
+	"replaces": [
+		"python3-networking-l2gw (<< 1:22.0.0~)"
+	],
+	"breaks": [
+		"python3-networking-l2gw (<< 1:22.0.0~)"
 	],
 	"installedSize": 51,
 	"maintainer": "Debian OpenStack <team+openstack@tracker.debian.org>",
 	"description": "OpenStack virtual network service - L2 gateway agent",
 	"homepage": "https://opendev.org/x/networking-l2gw",
-	"filename": "pool/main/n/networking-l2gw/neutron-l2gateway-agent_22.0.0-1_all.deb",
-	"size": 12908,
-	"md5": "08ca3439d8dc26c6ee9ad2c58c22ce3d",
-	"sha256": "f948b7d28c1c3657b261440d4674aca537d45b78cab017a60f396814848ffaf7",
+	"filename": "pool/main/n/networking-l2gw/neutron-l2gateway-agent_22.0.0-2_all.deb",
+	"size": 13068,
+	"md5": "1792052e9d4fad479ae68391d29753ad",
+	"sha256": "befc77711769eada51a8351619edda63077eafdcfeda601ad99ba0255a3bc19e",
 	"descriptionMd5": "b2cb68427799c6ca639a8ce649eab4a2"
 }

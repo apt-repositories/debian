@@ -5,28 +5,33 @@
 		"Size"
 	],
 	"package": "librust-assorted-debian-utils-dev",
-	"source": "rust-assorted-debian-utils (0.8.4-1)",
-	"version": "0.8.4-1+b1",
+	"source": "rust-assorted-debian-utils",
+	"version": "0.9.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-chrono-0.4+serde-dev",
 		"librust-hex-0.4+std-dev",
-		"librust-rfc822-like-0.2+default-dev (>= 0.2.1-~~)",
+		"librust-itertools+default-dev (>= 0.14)",
+		"librust-rfc822-like-0.2+default-dev (>= 0.2.1)",
+		"librust-serde-1+default-dev",
 		"librust-serde-1+derive-dev",
-		"librust-serde-yaml-0.9+default-dev",
 		"librust-smallvec-1+serde-dev",
 		"librust-smallvec-1+union-dev",
-		"librust-thiserror-2+default-dev"
+		"librust-thiserror-2+default-dev",
+		"librust-yaml-serde-0.10+default-dev"
 	],
-	"installedSize": 773,
+	"breaks": [
+		"rustc (<< 1.96~)"
+	],
+	"installedSize": 815,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Collection of various utilities for Debian work - Rust source code",
 	"homepage": "https://github.com/sebastinas/drt-tools",
-	"filename": "pool/main/r/rust-assorted-debian-utils/librust-assorted-debian-utils-dev_0.8.4-1+b1_amd64.deb",
-	"size": 173172,
-	"md5": "17167b89146949072d01002587780107",
-	"sha256": "d76eda7d43809eaeb439c159574aac88b271b09d15c1d241728784565a837534",
+	"filename": "pool/main/r/rust-assorted-debian-utils/librust-assorted-debian-utils-dev_0.9.0-1_amd64.deb",
+	"size": 178320,
+	"md5": "1b7f1a5def755cf75f2116c6971fd0e0",
+	"sha256": "8b04066179892f84751374c89071191bbc5e8ca069fd5987737109453aaf420f",
 	"descriptionMd5": "5f2431566dd13070313d1b5a8cb058ea"
 }

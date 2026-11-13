@@ -6,22 +6,25 @@
 	],
 	"package": "librust-litemap-dev",
 	"source": "rust-litemap",
-	"version": "0.8.2-1",
+	"version": "0.8.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-databake-0.2-dev",
 		"librust-serde-core-1+alloc-dev (>= 1.0.220)",
-		"librust-yoke-0.8+derive-dev (>= 0.8.2)"
+		"librust-yoke-0.8+derive-dev (>= 0.8.3)"
 	],
-	"installedSize": 163,
+	"breaks": [
+		"rustc (<< 1.82~)"
+	],
+	"installedSize": 165,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Key-value Map implementation based on a flat, sorted Vec - Rust source code",
 	"homepage": "https://github.com/unicode-org/icu4x",
-	"filename": "pool/main/r/rust-litemap/librust-litemap-dev_0.8.2-1_amd64.deb",
-	"size": 27288,
-	"md5": "aa8cf514d25d314674ac5bd42994041f",
-	"sha256": "71feb3f8bf69a37aebbd817f8764c05d51a3949938d7ce92de53bee0e4b2513b",
+	"filename": "pool/main/r/rust-litemap/librust-litemap-dev_0.8.3-1_amd64.deb",
+	"size": 27748,
+	"md5": "f6868fec8cdefd77a7b73bde34854a43",
+	"sha256": "be5672b3fa4a36fc602d59bba6ab1317eb597f08fbd0dbaeffdc1ea783d8284c",
 	"descriptionMd5": "9dd2c43408027d89f06998cf8ac6518f"
 }

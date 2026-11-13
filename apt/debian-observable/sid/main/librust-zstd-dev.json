@@ -5,26 +5,29 @@
 		"Size"
 	],
 	"package": "librust-zstd-dev",
-	"source": "rust-zstd (0.13.3-1)",
-	"version": "0.13.3-1+b1",
+	"source": "rust-zstd",
+	"version": "0.13.4-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-zstd-safe-7+arrays-dev (>= 7.1.0-~~)",
-		"librust-zstd-safe-7+experimental-dev (>= 7.1.0-~~)",
-		"librust-zstd-safe-7+legacy-dev (>= 7.1.0-~~)",
-		"librust-zstd-safe-7+pkg-config-dev (>= 7.1.0-~~)",
-		"librust-zstd-safe-7+std-dev (>= 7.1.0-~~)",
-		"librust-zstd-safe-7+zdict-builder-dev (>= 7.1.0-~~)"
+		"librust-zstd-safe-7+arrays-dev (>= 7.4.0)",
+		"librust-zstd-safe-7+experimental-dev (>= 7.4.0)",
+		"librust-zstd-safe-7+legacy-dev (>= 7.4.0)",
+		"librust-zstd-safe-7+pkg-config-dev (>= 7.4.0)",
+		"librust-zstd-safe-7+std-dev (>= 7.4.0)",
+		"librust-zstd-safe-7+zdict-builder-dev (>= 7.4.0)"
 	],
-	"installedSize": 167,
+	"breaks": [
+		"rustc (<< 1.64~)"
+	],
+	"installedSize": 173,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Binding for the zstd compression library - Rust source code",
 	"homepage": "https://github.com/gyscos/zstd-rs",
-	"filename": "pool/main/r/rust-zstd/librust-zstd-dev_0.13.3-1+b1_amd64.deb",
-	"size": 28848,
-	"md5": "bbc99e543eac4e9c641d5224c70114c6",
-	"sha256": "92c14ec2f6f1535905bdd4165e262a255931820c7b5cd7250add7aefbf493eda",
+	"filename": "pool/main/r/rust-zstd/librust-zstd-dev_0.13.4-1_amd64.deb",
+	"size": 30728,
+	"md5": "f811727d66257a256b087616010c9460",
+	"sha256": "7222d75c68f9eced95c729fb07f6e65d83590cb0009247948db85f75ea7ff4da",
 	"descriptionMd5": "563345d0a2b0bdc03c809621696bc975"
 }]

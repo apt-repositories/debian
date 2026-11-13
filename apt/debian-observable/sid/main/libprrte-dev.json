@@ -6,30 +6,31 @@
 	],
 	"package": "libprrte-dev",
 	"source": "prrte",
-	"version": "5.0.0~rc1-1",
+	"version": "5.0.0~rc1-4",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libprrte4 (= 5.0.0~rc1-1)",
+		"libprrte5 (= 5.0.0~rc1-4)",
 		"libjs-jquery",
 		"fonts-font-awesome",
 		"fonts-lato",
-		"prrte-common (>= 5.0.0~rc1-1)"
+		"prrte-common (>= 5.0.0~rc1-4)"
 	],
 	"replaces": [
 		"libopenmpi-dev (<< 5.0.9-5)"
 	],
 	"breaks": [
-		"libopenmpi-dev (<< 5.0.9-5)"
+		"libopenmpi-dev (<< 5.0.9-5)",
+		"libprrte-dev (<< 5.0.0~rc1-1)"
 	],
-	"installedSize": 13420,
+	"installedSize": 13392,
 	"maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
 	"description": "Development files for the PRRTE library",
 	"homepage": "https://github.com/pmix/prrte",
-	"filename": "pool/main/p/prrte/libprrte-dev_5.0.0~rc1-1_amd64.deb",
-	"size": 4327664,
-	"md5": "55c21778f66ad71bd4166dbaff27cad1",
-	"sha256": "30abca6d70849b42e90c81a8ff2b2ec80385dc192af878633f97cf03d55c835c",
+	"filename": "pool/main/p/prrte/libprrte-dev_5.0.0~rc1-4_amd64.deb",
+	"size": 4323188,
+	"md5": "d49bad039fa2308cf1aa8d347bca752c",
+	"sha256": "7f7d4ee78fad00b3e399f01405d2394e44921d1de0145e4e715a9fcb01236520",
 	"descriptionMd5": "306c127377bc5b16348ff35d494dd42a"
 }]

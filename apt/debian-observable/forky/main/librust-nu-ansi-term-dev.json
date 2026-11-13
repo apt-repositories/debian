@@ -5,21 +5,25 @@
 		"Size"
 	],
 	"package": "librust-nu-ansi-term-dev",
-	"source": "rust-nu-ansi-term (0.50.1-1)",
-	"version": "0.50.1-1+b1",
+	"source": "rust-nu-ansi-term",
+	"version": "0.50.3-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-serde-1+default-dev (>= 1.0.152-~~)",
-		"librust-serde-1+derive-dev (>= 1.0.152-~~)"
+		"librust-serde-1+default-dev (>= 1.0.152)",
+		"librust-serde-1+derive-dev (>= 1.0.152)"
 	],
-	"installedSize": 176,
+	"breaks": [
+		"rustc (<< 1.62.1~)"
+	],
+	"installedSize": 154,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "ANSI terminal colors and styles (bold, underline) - Rust source code",
-	"filename": "pool/main/r/rust-nu-ansi-term/librust-nu-ansi-term-dev_0.50.1-1+b1_amd64.deb",
-	"size": 30364,
-	"md5": "2e1cd367b19e3561d5d64e36c8110843",
-	"sha256": "e13657779d081af95f9f31d3427a47fbac0f79bf28d49bab33fc10e354ef44a8",
+	"homepage": "https://github.com/nushell/nu-ansi-term",
+	"filename": "pool/main/r/rust-nu-ansi-term/librust-nu-ansi-term-dev_0.50.3-1_amd64.deb",
+	"size": 27652,
+	"md5": "79078aa250a3f82bbcb633db4afc7a53",
+	"sha256": "364bd3728144a0ea5aee78e2adaa4617c7eac55fd48600bec918c00e9eb48bbc",
 	"descriptionMd5": "5d50879d075fb251f060f0d9144fb5b4"
 }]

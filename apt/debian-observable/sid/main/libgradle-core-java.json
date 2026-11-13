@@ -6,7 +6,7 @@
 	],
 	"package": "libgradle-core-java",
 	"source": "gradle",
-	"version": "4.6-4",
+	"version": "5.5-1",
 	"section": "java",
 	"priority": "optional",
 	"architecture": "all",
@@ -14,6 +14,7 @@
 		"ant",
 		"groovy (>= 2.4.7)",
 		"ivy",
+		"kotlin",
 		"libasm-java (>= 7.0)",
 		"libatinject-jsr330-api-java",
 		"libcommons-collections3-java",
@@ -27,6 +28,7 @@
 		"libjansi1-java",
 		"libjarjar-java",
 		"libjcip-annotations-java",
+		"libjetbrains-annotations-java",
 		"libjna-java",
 		"libjsch-java",
 		"libkryo-java",
@@ -35,23 +37,26 @@
 		"libnekohtml-java",
 		"libreflectasm-java",
 		"libslf4j-java",
+		"libtrove-intellij-java",
 		"libxbean-reflect-java"
 	],
 	"replaces": [
+		"libgradle-kotlin-dsl-java",
 		"libgradle-plugins-java (<< 4.4-1~)",
 		"libgradle-wrapper-java"
 	],
 	"breaks": [
+		"libgradle-kotlin-dsl-java",
 		"libgradle-plugins-java (<< 4.4-1~)",
 		"libgradle-wrapper-java"
 	],
-	"installedSize": 5530,
+	"installedSize": 8102,
 	"maintainer": "Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>",
 	"description": "Powerful build system for the JVM - Core libraries",
 	"homepage": "https://gradle.org",
-	"filename": "pool/main/g/gradle/libgradle-core-java_4.6-4_all.deb",
-	"size": 4420520,
-	"md5": "08edc82d18befa46a7e387ce924537a2",
-	"sha256": "3691e931703373f4cdfa3b21f9b1117b34511056acf25157e41ae809d366cc20",
+	"filename": "pool/main/g/gradle/libgradle-core-java_5.5-1_all.deb",
+	"size": 6627716,
+	"md5": "56cf7820826fdcafe0d9f3e75affd3a2",
+	"sha256": "9f04d3561a10caf970876c11534beee3b7f13e2cff08afdba67d3f126d088d26",
 	"descriptionMd5": "0c6217316a01ebb760a13500b1ba8d3a"
 }]

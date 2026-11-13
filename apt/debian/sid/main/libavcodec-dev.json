@@ -6,22 +6,25 @@
 	],
 	"package": "libavcodec-dev",
 	"source": "ffmpeg",
-	"version": "7:9.0.2-3",
+	"version": "7:9.0.2-6",
 	"section": "libdevel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libavcodec63 (= 7:9.0.2-3)",
-		"libavutil-dev (= 7:9.0.2-3)",
-		"libswresample-dev (= 7:9.0.2-3)"
+		"libavcodec63 (= 7:9.0.2-6)",
+		"libavutil-dev (= 7:9.0.2-6)",
+		"libswresample-dev (= 7:9.0.2-6)"
 	],
-	"installedSize": 28356,
+	"recommends": [
+		"libvdpau-dev"
+	],
+	"installedSize": 28343,
 	"maintainer": "Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>",
 	"description": "FFmpeg library with de/encoders for audio/video codecs - development files",
 	"homepage": "https://ffmpeg.org/",
-	"filename": "pool/main/f/ffmpeg/libavcodec-dev_9.0.2-3_amd64.deb",
-	"size": 8463936,
-	"md5": "21a6d29cad5a26caca393134c1303e9a",
-	"sha256": "15ca0a885025d94da198502ce5e24580fcc955357377bff95bab028c2d98bbcf",
+	"filename": "pool/main/f/ffmpeg/libavcodec-dev_9.0.2-6_amd64.deb",
+	"size": 8460472,
+	"md5": "ab16dbfc0c37946712a45f63dfa3efd1",
+	"sha256": "cc9ad0d3c66ed9a07f733d15e47af4ee1f67f3aa9e6301a8a51430b8304e8aa6",
 	"descriptionMd5": "2a62521830e42037d8140eba51f0355c"
 }

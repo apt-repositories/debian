@@ -5,27 +5,30 @@
 		"Size"
 	],
 	"package": "librust-tokio-rustls-dev",
-	"source": "rust-tokio-rustls (0.26.4-1)",
-	"version": "0.26.4-1+b1",
+	"source": "rust-tokio-rustls",
+	"version": "0.26.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"librust-rustls-0.23+brotli-dev (>= 0.23.27-~~)",
-		"librust-rustls-0.23+logging-dev (>= 0.23.27-~~)",
-		"librust-rustls-0.23+ring-dev (>= 0.23.27-~~)",
-		"librust-rustls-0.23+std-dev (>= 0.23.27-~~)",
-		"librust-rustls-0.23+tls12-dev (>= 0.23.27-~~)",
-		"librust-rustls-0.23+zlib-dev (>= 0.23.27-~~)",
+		"librust-rustls-0.23+brotli-dev (>= 0.23.27)",
+		"librust-rustls-0.23+logging-dev (>= 0.23.27)",
+		"librust-rustls-0.23+ring-dev (>= 0.23.27)",
+		"librust-rustls-0.23+std-dev (>= 0.23.27)",
+		"librust-rustls-0.23+tls12-dev (>= 0.23.27)",
+		"librust-rustls-0.23+zlib-dev (>= 0.23.27)",
 		"librust-tokio-1+default-dev"
 	],
-	"installedSize": 148,
+	"breaks": [
+		"rustc (<< 1.71~)"
+	],
+	"installedSize": 139,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Asynchronous TLS/SSL streams for Tokio using Rustls - Rust source code",
 	"homepage": "https://github.com/rustls/tokio-rustls",
-	"filename": "pool/main/r/rust-tokio-rustls/librust-tokio-rustls-dev_0.26.4-1+b1_amd64.deb",
-	"size": 27336,
-	"md5": "beb3e9567e674a496d1c84ec090b7793",
-	"sha256": "da7922c631f98d95cc918b81ee9b883ad673bb479376ce796a83d6678ec5369b",
+	"filename": "pool/main/r/rust-tokio-rustls/librust-tokio-rustls-dev_0.26.6-1_amd64.deb",
+	"size": 24716,
+	"md5": "c9054cbd327a7ea9f7e76ff05ac2daa4",
+	"sha256": "0897991c49300e1183db741f2f9572add0d553e080f4501dcd780ee5f71f553e",
 	"descriptionMd5": "ae0382bf4ee5e1083c2bec329d26e73a"
 }]

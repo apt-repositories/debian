@@ -6,14 +6,15 @@
 	],
 	"package": "education-thin-client",
 	"source": "debian-edu",
-	"version": "2.13.7",
+	"version": "2.13.8",
 	"section": "misc",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
-		"education-tasks (= 2.13.7)"
+		"education-tasks (= 2.13.8)"
 	],
 	"recommends": [
+		"autofs",
 		"console-setup",
 		"dbus-user-session",
 		"initramfs-tools",
@@ -31,16 +32,13 @@
 		"xserver-xorg-input-all",
 		"xserver-xorg-video-all"
 	],
-	"suggests": [
-		"autofs"
-	],
 	"installedSize": 26,
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "Debian Edu LTSP thin client packages",
 	"homepage": "https://blends.debian.org/edu",
-	"filename": "pool/main/d/debian-edu/education-thin-client_2.13.7_amd64.deb",
-	"size": 6908,
-	"md5": "522c37c046aa4cdf54b8719d44a8161c",
-	"sha256": "76c1632825ffd389c27f7748d152830d858bec41801b4de24e8bffbb97ba23d3",
+	"filename": "pool/main/d/debian-edu/education-thin-client_2.13.8_all.deb",
+	"size": 7100,
+	"md5": "4c25d96b3824d5a08d6bdcc7ba18fe28",
+	"sha256": "c441a75574a74a72e5873da773b2e11ae02de00f903eb8568903e24c6142cc9c",
 	"descriptionMd5": "5118f003a288244a0a58561b2bf3846b"
 }]

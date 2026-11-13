@@ -6,17 +6,20 @@
 	],
 	"package": "svxlink-server",
 	"source": "svxlink",
-	"version": "26.05.1-1",
+	"version": "26.05.2-1",
 	"section": "hamradio",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libasyncaudio1.9 (>= 26.05.1)",
-		"libasynccore1.9 (>= 26.05.1)",
-		"libasynccpp1.9 (>= 26.05.1)",
-		"libc6 (>= 2.38)",
+		"python3:any",
+		"svxlink-gpio (= 26.05.2-1)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libasyncaudio1.9 (>= 26.05.2)",
+		"libasynccore1.9 (>= 26.05.2)",
+		"libasynccpp1.9 (>= 26.05.2)",
+		"libc6 (>= 2.43)",
 		"libcurl4-gnutls (>= 8.20.0-3~)",
-		"libecholib1.3t64 (>= 26.05.1)",
+		"libecholib1.3t64 (>= 26.05.2)",
 		"libgcc-s1 (>= 4.0)",
 		"libgcrypt20 (>= 1.12.0)",
 		"libgpiod3 (>= 2.1)",
@@ -26,23 +29,23 @@
 		"librtlsdr0",
 		"libsigc++-2.0-0v5 (>= 2.8.0)",
 		"libstdc++6 (>= 13.1)",
-		"libtcl8.6 (>= 8.6.0)",
-		"systemd | systemd-standalone-sysusers | systemd-sysusers",
-		"systemd | systemd-standalone-tmpfiles | systemd-tmpfiles",
-		"svxlink-gpio (= 26.05.1-1)",
-		"python3:any"
+		"libtcl8.6 (>= 8.6.0)"
 	],
 	"recommends": [
-		"remotetrx (= 26.05.1-1)",
-		"svxlink-calibration-tools (= 26.05.1-1)"
+		"remotetrx (= 26.05.2-1)",
+		"svxlink-calibration-tools (= 26.05.2-1)"
 	],
-	"installedSize": 3341,
+	"suggests": [
+		"swh-plugins",
+		"tap-plugins"
+	],
+	"installedSize": 3478,
 	"maintainer": "Debian Hamradio Maintainers <debian-hams@lists.debian.org>",
 	"description": "Voice-over-IP server for ham radio operators",
 	"homepage": "https://www.svxlink.org",
-	"filename": "pool/main/s/svxlink/svxlink-server_26.05.1-1_amd64.deb",
-	"size": 939448,
-	"md5": "f0f2756f220803860d8f76e6be00bdf5",
-	"sha256": "dc18173b518328c8ea4f9024fae6d8c9189dbf96454aca930cdf4ad7f44399d2",
+	"filename": "pool/main/s/svxlink/svxlink-server_26.05.2-1_amd64.deb",
+	"size": 978580,
+	"md5": "a03e598143a2df40fda38ef2b649383a",
+	"sha256": "74d29f532287ce5ec3f778d28dab26c6eecab671e81cdb0394ae281543ff941b",
 	"descriptionMd5": "055c55fbe6bb5443f174bd98a81e8085"
 }

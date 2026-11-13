@@ -6,38 +6,36 @@
 	],
 	"package": "gridengine-common",
 	"source": "gridengine",
-	"version": "8.1.9+dfsg-14",
+	"version": "8.1.9+dfsg-17",
 	"section": "utils",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"debconf (>= 0.5) | debconf-2.0",
 		"adduser",
 		"bsd-mailx | mailx",
 		"cpp",
+		"tcsh | c-shell",
 		"ucf",
-		"tcsh | c-shell"
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any"
 	],
 	"suggests": [
 		"python",
 		"tclsh"
 	],
 	"replaces": [
-		"gridengine-client (<< 6.2u5-2)",
-		"gridengine-drmaa-dev (<< 6.2u5-8)",
 		"libdrmaa-dev"
 	],
 	"breaks": [
-		"gridengine-drmaa-dev (<< 6.2u5-8)",
 		"libdrmaa-dev"
 	],
-	"installedSize": 1738,
+	"installedSize": 1783,
 	"maintainer": "Debian HPC Team <debian-hpc@lists.debian.org>",
 	"description": "Distributed resource management - common files",
 	"homepage": "https://arc.liv.ac.uk/trac/SGE/",
-	"filename": "pool/main/g/gridengine/gridengine-common_8.1.9+dfsg-14_all.deb",
-	"size": 441004,
-	"md5": "a5e688f8cb20860b1bc97c996fcf5f76",
-	"sha256": "fd38a0f0b1db898ac28bdc3dbfe7f363de3cb2d0741032c004885e1c6ea4f062",
+	"filename": "pool/main/g/gridengine/gridengine-common_8.1.9+dfsg-17_all.deb",
+	"size": 415928,
+	"md5": "1929e7db72ad34518e78b8f184f8b772",
+	"sha256": "7ddd29b5b5c19445a3b5b6640ea3a2e9fbf35175f2a171b61417127f51fab5dc",
 	"descriptionMd5": "c872b80b4810c7a2b08cd2febf99decd"
 }

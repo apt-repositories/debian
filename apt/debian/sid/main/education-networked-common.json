@@ -6,14 +6,15 @@
 	],
 	"package": "education-networked-common",
 	"source": "debian-edu",
-	"version": "2.13.7",
+	"version": "2.13.8",
 	"section": "metapackages",
 	"priority": "optional",
-	"architecture": "amd64",
+	"architecture": "all",
 	"depends": [
-		"education-tasks (= 2.13.7)"
+		"education-tasks (= 2.13.8)"
 	],
 	"recommends": [
+		"autofs-ldap",
 		"cups-browsed",
 		"cups-core-drivers",
 		"education-common",
@@ -34,7 +35,6 @@
 		"sudo-ldap"
 	],
 	"suggests": [
-		"autofs-ldap",
 		"cifs-utils",
 		"fail2ban",
 		"libnss-sss",
@@ -47,9 +47,9 @@
 	"maintainer": "Debian Edu Developers <debian-edu@lists.debian.org>",
 	"description": "Debian Edu common packages for networked systems",
 	"homepage": "https://blends.debian.org/edu",
-	"filename": "pool/main/d/debian-edu/education-networked-common_2.13.7_amd64.deb",
-	"size": 7024,
-	"md5": "112cde91edf120ef73342119b4985748",
-	"sha256": "4f7e13aa910034d7603d64d7826c1a90bc8cf499ee4e8eda62658ab3a69c65d7",
+	"filename": "pool/main/d/debian-edu/education-networked-common_2.13.8_all.deb",
+	"size": 7212,
+	"md5": "cad93bc1e39d46432baeffaa69698922",
+	"sha256": "68dfa4c679236c5b60f4a88cc266939594f6673b48d06b9b35fef8cd1dca6676",
 	"descriptionMd5": "7c2b5788dc04115b0f870c472c5d823c"
 }

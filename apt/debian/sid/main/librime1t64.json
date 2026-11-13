@@ -5,8 +5,8 @@
 		"Size"
 	],
 	"package": "librime1t64",
-	"source": "librime (1.17.0+dfsg2-2)",
-	"version": "1.17.0+dfsg2-2+b1",
+	"source": "librime",
+	"version": "1.17.0+dfsg2-3",
 	"section": "libs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -32,15 +32,18 @@
 		"librime1"
 	],
 	"breaks": [
-		"librime1 (<< 1.17.0+dfsg2-2)"
+		"librime-plugin-charcode (<< 1.17.0+dfsg2~git20240319-1~)",
+		"librime-plugin-lua (<< 1.17.0+dfsg2~git20260502-1~)",
+		"librime-plugin-octagram (<< 1.17.0+dfsg2~git20260831-1~)",
+		"librime1 (<< 1.17.0+dfsg2-3)"
 	],
-	"installedSize": 3775,
+	"installedSize": 3774,
 	"maintainer": "Debian Input Method Team <debian-input-method@lists.debian.org>",
 	"description": "Rime Input Method Engine - core library",
 	"homepage": "https://github.com/rime/librime",
-	"filename": "pool/main/libr/librime/librime1t64_1.17.0+dfsg2-2+b1_amd64.deb",
-	"size": 1048392,
-	"md5": "79c1c9c3590dfd0ab321515de7be8b27",
-	"sha256": "36d469b937b8e9adb86dbe5a7df6ccd2683bdf68d15ebe30e45145d7f27d8cb2",
+	"filename": "pool/main/libr/librime/librime1t64_1.17.0+dfsg2-3_amd64.deb",
+	"size": 1048252,
+	"md5": "2707f5323fd07aa606ec5941f25446df",
+	"sha256": "f753eaf7ae5c0e1e9ef7e12def5b843b0d56f7ab81575058930b2b883ede973e",
 	"descriptionMd5": "f5e86f1f1a251acdb3861a6e84a727fb"
 }

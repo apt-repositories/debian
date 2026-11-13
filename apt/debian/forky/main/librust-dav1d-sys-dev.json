@@ -5,23 +5,26 @@
 		"Size"
 	],
 	"package": "librust-dav1d-sys-dev",
-	"source": "rust-dav1d-sys (0.8.3-1)",
-	"version": "0.8.3-1+b1",
+	"source": "rust-dav1d-sys",
+	"version": "0.8.3-2",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-libc-0.2+default-dev",
-		"librust-system-deps-7+default-dev",
+		"librust-system-deps-9+default-dev",
 		"libdav1d-dev (>= 1.1.0)"
 	],
-	"installedSize": 49,
+	"breaks": [
+		"rustc (<< 1.78~)"
+	],
+	"installedSize": 52,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "FFI bindings to dav1d - Rust source code",
 	"homepage": "https://github.com/rust-av/dav1d-rs",
-	"filename": "pool/main/r/rust-dav1d-sys/librust-dav1d-sys-dev_0.8.3-1+b1_amd64.deb",
-	"size": 9820,
-	"md5": "55881c13ee84e880ad82acfb52ae1bc1",
-	"sha256": "92c5908b53698589064f7ed39138028a7918835436b4cdde8d37a9210e67fb79",
+	"filename": "pool/main/r/rust-dav1d-sys/librust-dav1d-sys-dev_0.8.3-2_amd64.deb",
+	"size": 9848,
+	"md5": "084e87be387eb86abc20a5eb22c25682",
+	"sha256": "40c19042333c6d5fb8c506f69f39507f2da14ec013263895ce0aa93acbcce155",
 	"descriptionMd5": "f84ba6236d43b4e49f1d79b897f32b1e"
 }

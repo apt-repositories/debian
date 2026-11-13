@@ -6,18 +6,29 @@
 	],
 	"package": "golang-sigsum-sigsum-go-dev",
 	"source": "sigsum-go",
-	"version": "0.13.1-1~bpo13+1",
+	"version": "1.0.0-2~bpo13+1",
 	"section": "golang",
 	"priority": "optional",
 	"architecture": "all",
-	"installedSize": 489,
+	"depends": [
+		"golang-filippo-edwards25519-dev",
+		"golang-github-dchest-safefile-dev",
+		"golang-github-golang-mock-dev",
+		"golang-github-pborman-getopt-dev",
+		"golang-golang-x-net-dev",
+		"golang-golang-x-text-dev"
+	],
+	"breaks": [
+		"golang-sigsum-log-go-dev (<< 0.16.0~)"
+	],
+	"installedSize": 498,
 	"maintainer": "Debian Go Packaging Team <team+pkg-go@tracker.debian.org>",
-	"description": "tools for public and transparent logging of signed checksums (library)",
+	"description": "library for public/transparent logging of signed checksums",
 	"homepage": "https://git.glasklar.is/sigsum/core/sigsum-go",
-	"filename": "pool/main/s/sigsum-go/golang-sigsum-sigsum-go-dev_0.13.1-1~bpo13+1_all.deb",
-	"size": 83440,
-	"sha256": "8e72409844490773f052093abfc3fd0edf3e60441e10e209f81cb58ce6330da4",
-	"descriptionMd5": "35b65568c13da9e23d7e1ae9c3cb90e0"
+	"filename": "pool/main/s/sigsum-go/golang-sigsum-sigsum-go-dev_1.0.0-2~bpo13+1_all.deb",
+	"size": 85312,
+	"sha256": "7e4778a4aa1e1d692ab067340aeb639ab57fdfaf9740454cf26d375cd99e7942",
+	"descriptionMd5": "599667bcf7495410fab4482462221197"
 },{
 	"raw": {},
 	"required": [

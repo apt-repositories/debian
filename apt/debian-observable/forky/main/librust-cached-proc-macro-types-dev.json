@@ -6,17 +6,20 @@
 	],
 	"package": "librust-cached-proc-macro-types-dev",
 	"source": "rust-cached-proc-macro-types",
-	"version": "0.1.1-1",
+	"version": "3.0.0-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
-	"installedSize": 21,
+	"breaks": [
+		"rustc (<< 1.92~)"
+	],
+	"installedSize": 23,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
-	"description": "Generic cache implementations and simplified function memoization - Rust source code",
+	"description": "Types used by the cached proc-macro crate - Rust source code",
 	"homepage": "https://github.com/jaemk/cached",
-	"filename": "pool/main/r/rust-cached-proc-macro-types/librust-cached-proc-macro-types-dev_0.1.1-1_amd64.deb",
-	"size": 3656,
-	"md5": "c2352075ac183cd0db622d43f5daa6b1",
-	"sha256": "22b03a7afd4801aa1ec36e45bed43c9c421614d080bdc449699db82d589b2ae1",
-	"descriptionMd5": "04dd25b65325dc532fc905f4d60dbb41"
+	"filename": "pool/main/r/rust-cached-proc-macro-types/librust-cached-proc-macro-types-dev_3.0.0-1_amd64.deb",
+	"size": 4340,
+	"md5": "2a5967fca3206dbad19b7b84efe53e4c",
+	"sha256": "b5ae2375ba2796624afb750adcd86e3724d29a29c7b842c5fa7883edde3b0107",
+	"descriptionMd5": "a9a15cdc525c7dd438bad18ae542d659"
 }]

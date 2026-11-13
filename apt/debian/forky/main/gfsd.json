@@ -5,16 +5,16 @@
 		"Size"
 	],
 	"package": "gfsd",
-	"source": "gfarm (2.7.20+dfsg-1.3)",
-	"version": "2.7.20+dfsg-1.3+b1",
+	"source": "gfarm",
+	"version": "2.8.11+dfsg-1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libc6 (>= 2.38)",
-		"libgfarm1t64 (>= 2.7.19)",
+		"libgfarm1t64 (>= 2.8.11+dfsg-1)",
 		"libssl3t64 (>= 3.0.0)",
-		"adduser"
+		"systemd | systemd-standalone-sysusers | systemd-sysusers"
 	],
 	"recommends": [
 		"gfarm-client"
@@ -22,13 +22,13 @@
 	"suggests": [
 		"gfarm-doc"
 	],
-	"installedSize": 324,
-	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"installedSize": 338,
+	"maintainer": "Debian Commons <gfarm@packages.debian.org>",
 	"description": "Gfarm file system daemon",
-	"homepage": "https://sourceforge.net/p/gfarm/wiki/Home/",
-	"filename": "pool/main/g/gfarm/gfsd_2.7.20+dfsg-1.3+b1_amd64.deb",
-	"size": 125392,
-	"md5": "5de5414822fb31ad23ebf54569fc04ae",
-	"sha256": "d682d699fbadb40934ed745e89567fd4899a411950c43040e6857320350d5fa5",
+	"homepage": "https://github.com/oss-tsukuba/gfarm",
+	"filename": "pool/main/g/gfarm/gfsd_2.8.11+dfsg-1_amd64.deb",
+	"size": 134636,
+	"md5": "dbe0d7ef4ae423ff3673a3cb81c456cc",
+	"sha256": "2152a176ab7d4579487aacbc72092a0bbc38557139c7f98e00e486dd43bc4854",
 	"descriptionMd5": "94f134ae149cc59a9344c11b5c99568e"
 }

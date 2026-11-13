@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-dnspython",
+	"source": "dnspython",
+	"version": "2.3.0-1+deb12u1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"netbase",
+		"python3:any"
+	],
+	"recommends": [
+		"ca-certificates",
+		"python3-cryptography",
+		"python3-h2",
+		"python3-httpx",
+		"python3-idna",
+		"python3-requests",
+		"python3-requests-toolbelt"
+	],
+	"suggests": [
+		"python3-sniffio",
+		"python3-trio",
+		"python3-aioquic"
+	],
+	"breaks": [
+		"dkimpy-milter (<< 1.2.2)",
+		"python3-dkim (<< 1.0.5)",
+		"python3-spf (<< 2.0.14-2~)"
+	],
+	"installedSize": 1022,
+	"maintainer": "Debian Python Team <team+python@tracker.debian.org>",
+	"description": "DNS toolkit for Python 3",
+	"homepage": "https://www.dnspython.org",
+	"filename": "pool/updates/main/d/dnspython/python3-dnspython_2.3.0-1+deb12u1_all.deb",
+	"size": 152276,
+	"sha256": "06b9e526d64d4f7b2cf5e118e9323323f7bc49d7f082574e5f7bb57d817e65dd",
+	"descriptionMd5": "e8ca40ba161714136492e9a824e8365e"
+}

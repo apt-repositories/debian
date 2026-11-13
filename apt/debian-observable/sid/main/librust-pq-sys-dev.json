@@ -5,25 +5,28 @@
 		"Size"
 	],
 	"package": "librust-pq-sys-dev",
-	"source": "rust-pq-sys (0.7.5-1)",
-	"version": "0.7.5-1+b1",
+	"source": "rust-pq-sys",
+	"version": "0.7.6-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"librust-bindgen-0.72+default-dev",
-		"librust-libc-0.2+default-dev (>= 0.2.100-~~)",
+		"librust-libc-0.2+default-dev (>= 0.2.100)",
 		"librust-pkg-config-0.3+default-dev",
-		"librust-vcpkg-0.2+default-dev (>= 0.2.6-~~)",
+		"librust-vcpkg-0.2+default-dev (>= 0.2.6)",
 		"libpq-dev"
 	],
-	"installedSize": 219,
+	"breaks": [
+		"rustc (<< 1.82.0~)"
+	],
+	"installedSize": 218,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Auto-generated rust bindings for libpq - Rust source code",
 	"homepage": "https://github.com/sgrif/pq-sys",
-	"filename": "pool/main/r/rust-pq-sys/librust-pq-sys-dev_0.7.5-1+b1_amd64.deb",
-	"size": 17924,
-	"md5": "e6647331be7db8bdcbcc460220ae8037",
-	"sha256": "8395ba4b048b46061eea86e593f667a9fa05212b247819b8207438e57dcd19cb",
+	"filename": "pool/main/r/rust-pq-sys/librust-pq-sys-dev_0.7.6-1_amd64.deb",
+	"size": 17740,
+	"md5": "f413a1a7031e4c1a108644ae47fe0a6c",
+	"sha256": "73036e5c15651ad9d90d5d1673dcc95f99e40731598aa4b4991bc9dbbc127542",
 	"descriptionMd5": "660811f6862b62a226ef82893184f594"
 }]

@@ -5,12 +5,13 @@
 		"Size"
 	],
 	"package": "network-manager",
-	"version": "1.58.1-1",
+	"source": "network-manager (1.58.1-1)",
+	"version": "1.58.1-1+b1",
 	"section": "net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnm0 (= 1.58.1-1)",
+		"libnm0 (= 1.58.1-1+b1)",
 		"default-dbus-system-bus | dbus-system-bus",
 		"systemd | systemd-standalone-sysusers | systemd-sysusers",
 		"libaudit1 (>= 1:2.2.1)",
@@ -46,16 +47,16 @@
 		"nftables | iptables"
 	],
 	"breaks": [
-		"ppp (>= 2.5.2-2~)",
-		"ppp (<< 2.5.2-1+~)"
+		"ppp (>= 2.5.5-2~)",
+		"ppp (<< 2.5.5-1+~)"
 	],
-	"installedSize": 7365,
+	"installedSize": 7366,
 	"maintainer": "Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>",
 	"description": "network management framework (daemon and userspace tools)",
 	"homepage": "https://networkmanager.dev/",
-	"filename": "pool/main/n/network-manager/network-manager_1.58.1-1_amd64.deb",
-	"size": 2302736,
-	"md5": "c48d8cd35a29ea4ad3c438be08897297",
-	"sha256": "b7f3de913f418b9150f2fb98e33ca881331364df361c562e7bfe57cbce9d0441",
+	"filename": "pool/main/n/network-manager/network-manager_1.58.1-1+b1_amd64.deb",
+	"size": 2302508,
+	"md5": "ae5d73579928736a2ddd26433a27592e",
+	"sha256": "5e8fe37c8d0327aceba8438802d9b0d125997ecf6b1279981a17d100d91fd507",
 	"descriptionMd5": "e7dc136d5dd9943691cb79ed9c3333f4"
 }

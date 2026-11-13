@@ -6,7 +6,7 @@
 	],
 	"package": "librust-palette-derive-dev",
 	"source": "rust-palette-derive",
-	"version": "0.7.6-2",
+	"version": "0.7.7-1",
 	"section": "rust",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -22,13 +22,16 @@
 		"librust-syn-2+printing-dev (>= 2.0.13)",
 		"librust-syn-2+proc-macro-dev (>= 2.0.13)"
 	],
-	"installedSize": 110,
+	"breaks": [
+		"rustc (<< 1.71.0~)"
+	],
+	"installedSize": 113,
 	"maintainer": "Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>",
 	"description": "Automatically implement traits from the palette crate - Rust source code",
 	"homepage": "https://github.com/Ogeon/palette",
-	"filename": "pool/main/r/rust-palette-derive/librust-palette-derive-dev_0.7.6-2_amd64.deb",
-	"size": 18252,
-	"md5": "23c40b64214c847c0ba05d309a255ae6",
-	"sha256": "78240e1ae0272aa224f4291dd06533fb6998d0eb7b8ddd0f003b5ed13d7e60c0",
+	"filename": "pool/main/r/rust-palette-derive/librust-palette-derive-dev_0.7.7-1_amd64.deb",
+	"size": 18388,
+	"md5": "43d90e495c8d2d95630f065b007dcabc",
+	"sha256": "c24a57ca5098d164a9d2aaf82e9adb5fdb6f917281a8aee38f0db7d828b0ec26",
 	"descriptionMd5": "8d8dcc666dfc9e1c350444db0a62d978"
 }
